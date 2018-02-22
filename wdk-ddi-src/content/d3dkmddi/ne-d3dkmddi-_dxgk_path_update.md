@@ -7,8 +7,8 @@ old-location: display\dxgk_path_update.htm
 old-project: display
 ms.assetid: DCBBFBF7-73B2-4298-BB87-83E1C6D76BD0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_PATH_UPDATE_ADDED, _DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_REMOVED, d3dkmddi/DXGK_PATH_UPDATE_ADDED, DXGK_PATH_UPDATE, DXGK_PATH_UPDATE enumeration [Display Devices], d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, d3dkmddi/DXGK_PATH_UPDATE_REMOVED, d3dkmddi/DXGK_PATH_UPDATE, DXGK_PATH_UPDATE_MODIFIED, display.dxgk_path_update, DXGK_PATH_UPDATE_UNMODIFED
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/DXGK_PATH_UPDATE_REMOVED, d3dkmddi/DXGK_PATH_UPDATE, DXGK_PATH_UPDATE_ADDED, DXGK_PATH_UPDATE enumeration [Display Devices], DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_UNMODIFED, d3dkmddi/DXGK_PATH_UPDATE_UNMODIFED, display.dxgk_path_update, DXGK_PATH_UPDATE_MODIFIED, DXGK_PATH_UPDATE_REMOVED, _DXGK_PATH_UPDATE, d3dkmddi/DXGK_PATH_UPDATE_ADDED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

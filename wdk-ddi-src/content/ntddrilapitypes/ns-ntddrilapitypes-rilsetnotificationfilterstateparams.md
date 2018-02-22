@@ -7,8 +7,8 @@ old-location: netvista\rilsetnotificationfilterstateparams.htm
 old-project: netvista
 ms.assetid: bd30a156-0414-486c-92c4-21c33d32f9b8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILSETNOTIFICATIONFILTERSTATEPARAMS, ntddrilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS, netvista.rilsetnotificationfilterstateparams, RILSETNOTIFICATIONFILTERSTATEPARAMS structure [Network Drivers Starting with Windows Vista]"
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS, RILSETNOTIFICATIONFILTERSTATEPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetnotificationfilterstateparams, ntddrilapitypes/RILSETNOTIFICATIONFILTERSTATEPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

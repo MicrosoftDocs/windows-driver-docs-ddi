@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_vidpn_present_path_copyprotection.htm
 old-project: display
 ms.assetid: 661e70c6-d99e-4c5a-ad88-3dd854747de4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DmStructs_512b61d6-627d-4423-93ba-0f28ac340e51.xml, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, display.d3dkmdt_vidpn_present_path_copyprotection, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION structure [Display Devices], d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION, display.d3dkmdt_vidpn_present_path_copyprotection, DmStructs_512b61d6-627d-4423-93ba-0f28ac340e51.xml, _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

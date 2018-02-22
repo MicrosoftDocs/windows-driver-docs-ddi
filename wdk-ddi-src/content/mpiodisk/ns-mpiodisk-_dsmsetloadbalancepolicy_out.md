@@ -7,8 +7,8 @@ old-location: storage\dsmsetloadbalancepolicy_out.htm
 old-project: storage
 ms.assetid: d3479656-310f-4e2d-a671-296bc3e2f1ab
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DsmSetLoadBalancePolicy_OUT structure [Storage Devices], _DsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], *PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, PDsmSetLoadBalancePolicy_OUT, structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml, mpiodisk/DsmSetLoadBalancePolicy_OUT, storage.dsmsetloadbalancepolicy_out, mpiodisk/PDsmSetLoadBalancePolicy_OUT
+ms.date: 2/16/2018
+ms.keywords: "*PDsmSetLoadBalancePolicy_OUT, mpiodisk/DsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT, storage.dsmsetloadbalancepolicy_out, PDsmSetLoadBalancePolicy_OUT, _DsmSetLoadBalancePolicy_OUT, mpiodisk/PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT structure [Storage Devices], PDsmSetLoadBalancePolicy_OUT structure pointer [Storage Devices], structs-scsibus_f22d33bc-ce52-4369-8dd2-085c393a9107.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DsmSetLoadBalancePolicy_OUT
 product: Windows
 targetos: Windows
-req.typenames: DsmSetLoadBalancePolicy_OUT, *PDsmSetLoadBalancePolicy_OUT
+req.typenames: "*PDsmSetLoadBalancePolicy_OUT, DsmSetLoadBalancePolicy_OUT"
 ---
 
 # _DsmSetLoadBalancePolicy_OUT structure

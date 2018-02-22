@@ -7,8 +7,8 @@ old-location: wdf\wdf_fileobject_config.htm
 old-project: wdf
 ms.assetid: 6fefc35f-fbbd-4c5e-bb8f-25ad3b6cdb67
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, wdf.wdf_fileobject_config, _WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, wdfdevice/PWDF_FILEOBJECT_CONFIG, *PWDF_FILEOBJECT_CONFIG, kmdf.wdf_fileobject_config, wdfdevice/WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure
+ms.date: 2/20/2018
+ms.keywords: "_WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG structure, wdfdevice/WDF_FILEOBJECT_CONFIG, WDF_FILEOBJECT_CONFIG, wdf.wdf_fileobject_config, PWDF_FILEOBJECT_CONFIG, PWDF_FILEOBJECT_CONFIG structure pointer, kmdf.wdf_fileobject_config, wdfdevice/PWDF_FILEOBJECT_CONFIG, DFDeviceObjectGeneralRef_5f843338-f299-48d3-80ad-d5d35c122d0f.xml, *PWDF_FILEOBJECT_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,7 +97,7 @@ A pointer to the driver's <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_file_cleanu
 
 ### -field AutoForwardCleanupClose
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
+A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. For more information about this member, see the following Comments section.
 
 
 ### -field FileObjectClass

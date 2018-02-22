@@ -7,8 +7,8 @@ old-location: stream\bda_isdbcas_responsedata.htm
 old-project: stream
 ms.assetid: 70BD9007-6CA4-49EC-8A30-3544FE62C18E
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PBDA_ISDBCAS_RESPONSEDATA, stream.bda_isdbcas_responsedata, BDA_ISDBCAS_RESPONSEDATA structure [Streaming Media Devices], *PBDA_ISDBCAS_RESPONSEDATA, bdatypes/BDA_ISDBCAS_RESPONSEDATA, BDA_ISDBCAS_RESPONSEDATA, bdatypes/PBDA_ISDBCAS_RESPONSEDATA, _BDA_ISDBCAS_RESPONSEDATA, PBDA_ISDBCAS_RESPONSEDATA structure pointer [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: stream.bda_isdbcas_responsedata, PBDA_ISDBCAS_RESPONSEDATA structure pointer [Streaming Media Devices], _BDA_ISDBCAS_RESPONSEDATA, BDA_ISDBCAS_RESPONSEDATA, *PBDA_ISDBCAS_RESPONSEDATA, bdatypes/BDA_ISDBCAS_RESPONSEDATA, bdatypes/PBDA_ISDBCAS_RESPONSEDATA, PBDA_ISDBCAS_RESPONSEDATA, BDA_ISDBCAS_RESPONSEDATA structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

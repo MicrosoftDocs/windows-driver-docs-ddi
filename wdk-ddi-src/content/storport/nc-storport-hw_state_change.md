@@ -7,7 +7,7 @@ old-location: storage\hwstorstatechange.htm
 old-project: storage
 ms.assetid: E7E5E26A-B477-453C-AAFC-9B3572F4FC72
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.hwstorstatechange, HwStorStateChange routine [Storage Devices], HwStorStateChange, HW_STATE_CHANGE, HW_STATE_CHANGE, storport/HwStorStateChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,7 +78,6 @@ VOID HwStorStateChange(
 ### -param HwDeviceExtension
 
 
-
 ### -param Context [in, optional]
 
 The context supplied as <i>HwStateChangeContext</i> by the miniport in the call to <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>.
@@ -91,7 +90,7 @@ The type of the address in <i>Address</i>.
 
 ### -param Address [in]
 
-A pointer to a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure for the entity whose state change was processed.
+A pointer to a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure for the entity whose state change was processed.
 
 
 ### -param Status [in]
@@ -107,11 +106,14 @@ A pointer to the miniport driver's per-HBA storage area.
 ## -returns
 
 
+
 None.
 
 
 
+
 ## -remarks
+
 
 
 The <i>HwStorStateChange</i> is called with the StartIo lock acquired by Storport.
@@ -121,6 +123,7 @@ This callback enables miniports to do any additional processing that is needed a
 If the value for <i>Status</i> is  &lt; 0x80000000, then the notification processing was successful. Otherwise, the notification process failed.
 
 The name <i>HwStorStateChange</i> is just a placeholder for the miniport function that is pointed to by the <i>HwStateChange</i> parameter of  <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>. The actual prototype of this routine is defined in <i>Storport.h</i> as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -141,15 +144,20 @@ HW_STATE_CHANGE (
 </table></span></div>
 
 
+
 ## -see-also
 
 <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>
 
-<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+
+<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_STATE_CHANGE routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_STATE_CHANGE routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

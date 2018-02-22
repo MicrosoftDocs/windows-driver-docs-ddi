@@ -7,7 +7,7 @@ old-location: wdf\iqueuecallbackstatechange.htm
 old-project: wdf
 ms.assetid: 39c66462-015d-49ba-9a37-0b3b928e5fbf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iqueuecallbackstatechange, IQueueCallbackStateChange interface, IQueueCallbackStateChange interface, described, IQueueCallbackStateChange, wudfddi/IQueueCallbackStateChange, UMDFQueueObjectRef_57a57868-6a9d-42b3-8c74-ceb6c4be03c3.xml, umdf.iqueuecallbackstatechange
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackStateChange
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

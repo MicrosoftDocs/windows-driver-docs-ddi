@@ -7,8 +7,8 @@ old-location: netvista\ndis_mac_packet_type.htm
 old-project: netvista
 ms.assetid: 3cfa8fa4-fab0-4f94-abc1-5c7900af208b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMacPacketTypeMaximum, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisMacPacketTypeMulticast, ntddndis/NdisMacPacketTypeBroadcast, NDIS_MAC_PACKET_TYPE, _NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_MAC_PACKET_TYPE, PNDIS_MAC_PACKET_TYPE, *PNDIS_MAC_PACKET_TYPE, NdisMacPacketTypeUnicast, netvista.ndis_mac_packet_type, ntddndis/PNDIS_MAC_PACKET_TYPE, ntddndis/NdisMacPacketTypeUnicast, ntddndis/NdisMacPacketTypeMulticast, NdisMacPacketTypeBroadcast, NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeMaximum
+ms.date: 2/16/2018
+ms.keywords: NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeUndefined, ntddndis/NdisMacPacketTypeMaximum, ntddndis/NdisMacPacketTypeBroadcast, ntddndis/NdisMacPacketTypeMulticast, NdisMacPacketTypeUnicast, ntddndis/NdisMacPacketTypeUnicast, NdisMacPacketTypeMaximum, PNDIS_MAC_PACKET_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_MAC_PACKET_TYPE, *PNDIS_MAC_PACKET_TYPE, _NDIS_MAC_PACKET_TYPE, NdisMacPacketTypeBroadcast, NdisMacPacketTypeMulticast, netvista.ndis_mac_packet_type, ntddndis/NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE, NDIS_MAC_PACKET_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_MAC_PACKET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -119,5 +119,5 @@ The <b>NDIS_MAC_PACKET_TYPE</b> enumeration is used in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MAC_PACKET_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MAC_PACKET_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

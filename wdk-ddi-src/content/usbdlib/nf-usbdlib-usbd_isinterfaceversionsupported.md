@@ -4,11 +4,11 @@ title: USBD_IsInterfaceVersionSupported function
 author: windows-driver-content
 description: The USBD_IsInterfaceVersionSupported routine is called by a USB client driver to check whether the underlying USB driver stack supports a particular USBD interface version.
 old-location: buses\usbd_isusbdinterfaceversionsupported.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: AEA5B6AA-8EEA-4D82-9991-1DE32BAE7DCE
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses.usbd_isusbdinterfaceversionsupported, USBD_IsInterfaceVersionSupported routine [Buses], usbdlib/USBD_IsInterfaceVersionSupported, USBD_IsInterfaceVersionSupported
+ms.date: 2/15/2018
+ms.keywords: USBD_IsInterfaceVersionSupported routine [Buses], USBD_IsInterfaceVersionSupported, usbdlib/USBD_IsInterfaceVersionSupported, buses.usbd_isusbdinterfaceversionsupported
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_IsInterfaceVersionSupported
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 

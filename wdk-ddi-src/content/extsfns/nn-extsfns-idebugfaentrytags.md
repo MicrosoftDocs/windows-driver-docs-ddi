@@ -4,10 +4,10 @@ title: IDebugFAEntryTags
 author: windows-driver-content
 description: When the !analyze debugger command runs, the analysis engine can load and run extension analysis plug-ins.
 old-location: debugger\idebugfaentrytags.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: B52DFB0E-0035-40C2-B2F5-5E16B16931C2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugfaentrytags, IDebugFAEntryTags interface [Windows Debugging], IDebugFAEntryTags interface [Windows Debugging], described, IDebugFAEntryTags, extsfns/IDebugFAEntryTags
 ms.prod: windows-hardware
 ms.technology: windows-devices

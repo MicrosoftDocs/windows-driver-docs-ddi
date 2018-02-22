@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_gdisurfaceflags.htm
 old-project: display
 ms.assetid: ce6e1ca4-7a44-46ee-a5ac-33e143ce6377
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DKMDT_GDISURFACEFLAGS, DmStructs_6d5ae8f4-0155-41d5-b558-a229f68ffa99.xml, D3DKMDT_GDISURFACEFLAGS, display.d3dkmdt_gdisurfaceflags, D3DKMDT_GDISURFACEFLAGS structure [Display Devices], d3dkmdt/D3DKMDT_GDISURFACEFLAGS"
+ms.date: 2/20/2018
+ms.keywords: "_D3DKMDT_GDISURFACEFLAGS, D3DKMDT_GDISURFACEFLAGS, display.d3dkmdt_gdisurfaceflags, DmStructs_6d5ae8f4-0155-41d5-b558-a229f68ffa99.xml, d3dkmdt/D3DKMDT_GDISURFACEFLAGS, D3DKMDT_GDISURFACEFLAGS structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,12 +78,12 @@ typedef struct _D3DKMDT_GDISURFACEFLAGS {
 Reserved for system use.
 
 
-### -field Value
+#### - Stereo
 
 Reserved for system use.
 
 
-#### - Stereo
+#### - Value
 
 Reserved for system use.
 

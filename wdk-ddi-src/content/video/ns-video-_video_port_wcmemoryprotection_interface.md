@@ -7,8 +7,8 @@ old-location: display\video_port_wcmemoryprotection_interface.htm
 old-project: display
 ms.assetid: ac62a738-bde1-49e7-9c18-519471ec1092
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, display.video_port_wcmemoryprotection_interface, video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, Video_Structs_15076908-e598-4025-8884-a9ed60b1668c.xml, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure [Display Devices]"
+ms.date: 2/20/2018
+ms.keywords: VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure [Display Devices], Video_Structs_15076908-e598-4025-8884-a9ed60b1668c.xml, VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure pointer [Display Devices], PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, *PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, display.video_port_wcmemoryprotection_interface, _VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE, video/PVIDEO_PORT_WCMEMORYPROTECTION_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: "<= DISPATCH_LEVEL"
 topictype:
 -	APIRef
 -	kbSyntax
@@ -115,6 +115,10 @@ Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.
 
 
 
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+
+
+
 <a href="..\video\nc-video-restore_wc_memory.md">VideoPortRestoreWCMemory</a>
 
 
@@ -123,13 +127,9 @@ Pointer to the video port driver's <a href="..\video\nc-video-restore_wc_memory.
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_WCMEMORYPROTECTION_INTERFACE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

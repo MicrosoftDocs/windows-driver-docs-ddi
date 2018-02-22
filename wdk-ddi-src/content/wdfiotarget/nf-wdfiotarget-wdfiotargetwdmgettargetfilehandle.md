@@ -7,8 +7,8 @@ old-location: wdf\wdfiotargetwdmgettargetfilehandle.htm
 old-project: wdf
 ms.assetid: 3312e6ca-bf2c-4a53-bd86-d36d708ed596
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfIoTargetWdmGetTargetFileHandle method, wdf.wdfiotargetwdmgettargetfilehandle, kmdf.wdfiotargetwdmgettargetfilehandle, DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, PFN_WDFIOTARGETWDMGETTARGETFILEHANDLE, WdfIoTargetWdmGetTargetFileHandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfiotargetwdmgettargetfilehandle, kmdf.wdfiotargetwdmgettargetfilehandle, DFIOTargetRef_a3147001-4aa4-4fc2-8000-c6b1fcc4e972.xml, WdfIoTargetWdmGetTargetFileHandle, wdfiotarget/WdfIoTargetWdmGetTargetFileHandle, WdfIoTargetWdmGetTargetFileHandle method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -181,17 +181,17 @@ if (ioTarget != NULL) {
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetfileobject.md">WdfIoTargetWdmGetTargetFileObject</a>
 
 
 
- 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetWdmGetTargetFileHandle method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetWdmGetTargetFileHandle method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilgeolocationrequestinfo_2.htm
 old-project: netvista
 ms.assetid: c9e2bcb8-cd74-4256-9854-bc898fc8cf74
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, netvista.rilgeolocationrequestinfo_2"
+ms.date: 2/16/2018
+ms.keywords: netvista.rilgeolocationrequestinfo_2, rilapitypes/RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGEOLOCATIONREQUESTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGEOLOCATIONREQUESTINFO, RILGEOLOCATIONREQUESTINFO"
+req.typenames: RILGEOLOCATIONREQUESTINFO, *LPRILGEOLOCATIONREQUESTINFO
 req.product: Windows 10 or later.
 ---
 

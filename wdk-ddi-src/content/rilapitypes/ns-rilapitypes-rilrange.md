@@ -7,8 +7,8 @@ old-location: netvista\rilrange_2.htm
 old-project: netvista
 ms.assetid: f14aa2bc-1eeb-4c17-836a-52046ba388f1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILRANGE, *LPRILRANGE, netvista.rilrange_2, RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: netvista.rilrange_2, rilapitypes/RILRANGE, RILRANGE, RILRANGE structure [Network Drivers Starting with Windows Vista], *LPRILRANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

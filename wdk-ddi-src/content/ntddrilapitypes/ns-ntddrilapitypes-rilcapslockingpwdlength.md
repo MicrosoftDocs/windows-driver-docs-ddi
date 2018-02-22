@@ -7,8 +7,8 @@ old-location: netvista\rilcapslockingpwdlength.htm
 old-project: netvista
 ms.assetid: 99f21862-5cd6-4bf9-abde-d5d24332a147
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], RILCAPSLOCKINGPWDLENGTH, netvista.rilcapslockingpwdlength, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTH"
+ms.date: 2/16/2018
+ms.keywords: RILCAPSLOCKINGPWDLENGTH, netvista.rilcapslockingpwdlength, RILCAPSLOCKINGPWDLENGTH structure [Network Drivers Starting with Windows Vista], *LPRILCAPSLOCKINGPWDLENGTH, ntddrilapitypes/RILCAPSLOCKINGPWDLENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCAPSLOCKINGPWDLENGTH
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCAPSLOCKINGPWDLENGTH, RILCAPSLOCKINGPWDLENGTH"
+req.typenames: RILCAPSLOCKINGPWDLENGTH, *LPRILCAPSLOCKINGPWDLENGTH
 ---
 
 # RILCAPSLOCKINGPWDLENGTH structure

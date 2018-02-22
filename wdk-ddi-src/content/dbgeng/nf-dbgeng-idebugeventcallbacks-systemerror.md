@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::SystemError method
 author: windows-driver-content
 description: The SystemError callback method is called by the engine when a system error occurs in the target.
 old-location: debugger\idebugeventcallbacks_systemerror.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 651f5207-36c8-4d46-8305-950efb2365bf
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, debugger.idebugeventcallbacks_systemerror, IDebugEventCallbacks::SystemError, dbgeng/IDebugEventCallbacks::SystemError, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], SystemError method, SystemError method [Windows Debugging], SystemError, SystemError method [Windows Debugging], IDebugEventCallbacks interface
+ms.date: 2/15/2018
+ms.keywords: SystemError, IDebugEventCallbacks interface [Windows Debugging], SystemError method, SystemError method [Windows Debugging], dbgeng/IDebugEventCallbacks::SystemError, SystemError method [Windows Debugging], IDebugEventCallbacks interface, debugger.idebugeventcallbacks_systemerror, ComCallbacks_a84628b9-4376-4ca0-883f-835d19e13d73.xml, IDebugEventCallbacks, IDebugEventCallbacks::SystemError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.SystemError
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::SystemError method

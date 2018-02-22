@@ -7,8 +7,8 @@ old-location: stream\ksproperty_stepping_long.htm
 old-project: stream
 ms.assetid: bf0c16f5-ecfa-42bc-bd60-805d5b28ddc3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSPROPERTY_STEPPING_LONG structure pointer [Streaming Media Devices], ks/PKSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG, ks/KSPROPERTY_STEPPING_LONG, ks-struct_2aad8fb1-d35c-4227-ad97-92451261b33c.xml, *PKSPROPERTY_STEPPING_LONG, PKSPROPERTY_STEPPING_LONG, stream.ksproperty_stepping_long, KSPROPERTY_STEPPING_LONG structure [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: PKSPROPERTY_STEPPING_LONG structure pointer [Streaming Media Devices], *PKSPROPERTY_STEPPING_LONG, stream.ksproperty_stepping_long, ks/PKSPROPERTY_STEPPING_LONG, ks/KSPROPERTY_STEPPING_LONG, KSPROPERTY_STEPPING_LONG, PKSPROPERTY_STEPPING_LONG, ks-struct_2aad8fb1-d35c-4227-ad97-92451261b33c.xml, KSPROPERTY_STEPPING_LONG structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,17 +99,17 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_bounds_long.md">KSPROPERTY_BOUNDS_LONG</a>
 
 
 
- 
+<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_STEPPING_LONG structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_STEPPING_LONG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

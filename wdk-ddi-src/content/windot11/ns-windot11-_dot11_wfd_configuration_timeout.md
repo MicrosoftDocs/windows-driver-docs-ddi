@@ -7,8 +7,8 @@ old-location: netvista\dot11_wfd_configuration_timeout.htm
 old-project: netvista
 ms.assetid: 5432EB69-933A-4080-919F-4131DC4044D0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_CONFIGURATION_TIMEOUT structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CONFIGURATION_TIMEOUT, windot11/DOT11_WFD_CONFIGURATION_TIMEOUT, *PDOT11_WFD_CONFIGURATION_TIMEOUT, windot11/PDOT11_WFD_CONFIGURATION_TIMEOUT, netvista.dot11_wfd_configuration_timeout, PDOT11_WFD_CONFIGURATION_TIMEOUT structure pointer [Network Drivers Starting with Windows Vista], _DOT11_WFD_CONFIGURATION_TIMEOUT, DOT11_WFD_CONFIGURATION_TIMEOUT
+ms.date: 2/16/2018
+ms.keywords: DOT11_WFD_CONFIGURATION_TIMEOUT structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_CONFIGURATION_TIMEOUT structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_CONFIGURATION_TIMEOUT, *PDOT11_WFD_CONFIGURATION_TIMEOUT, windot11/DOT11_WFD_CONFIGURATION_TIMEOUT, windot11/PDOT11_WFD_CONFIGURATION_TIMEOUT, DOT11_WFD_CONFIGURATION_TIMEOUT, _DOT11_WFD_CONFIGURATION_TIMEOUT, netvista.dot11_wfd_configuration_timeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_CONFIGURATION_TIMEOUT
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_CONFIGURATION_TIMEOUT, *PDOT11_WFD_CONFIGURATION_TIMEOUT
+req.typenames: "*PDOT11_WFD_CONFIGURATION_TIMEOUT, DOT11_WFD_CONFIGURATION_TIMEOUT"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: audio\iregistrykey_queryvaluekey.htm
 old-project: audio
 ms.assetid: 6339a8bf-ab32-48bc-aae6-2cce2a6a648d
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: IRegistryKey interface [Audio Devices], QueryValueKey method, QueryValueKey method [Audio Devices], IRegistryKey interface, portcls/IRegistryKey::QueryValueKey, audio.iregistrykey_queryvaluekey, IRegistryKey, QueryValueKey method [Audio Devices], audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, QueryValueKey, IRegistryKey::QueryValueKey
+ms.date: 2/21/2018
+ms.keywords: QueryValueKey method [Audio Devices], audio.iregistrykey_queryvaluekey, IRegistryKey, QueryValueKey, portcls/IRegistryKey::QueryValueKey, audmp-routines_2b41aa08-8b71-45af-bcfa-c33723c82c13.xml, IRegistryKey interface [Audio Devices], QueryValueKey method, IRegistryKey::QueryValueKey, QueryValueKey method [Audio Devices], IRegistryKey interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRegistryKey.QueryValueKey
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IRegistryKey::QueryValueKey method
@@ -160,11 +160,11 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 
 
@@ -176,11 +176,11 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
@@ -188,5 +188,5 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::QueryValueKey method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::QueryValueKey method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

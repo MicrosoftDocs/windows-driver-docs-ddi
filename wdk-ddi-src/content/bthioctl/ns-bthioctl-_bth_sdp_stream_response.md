@@ -7,8 +7,8 @@ old-location: bltooth\bth_sdp_stream_response.htm
 old-project: bltooth
 ms.assetid: 5b7db410-8d9c-4c3e-aaae-44f7d5b779a0
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: PBTH_SDP_STREAM_RESPONSE, bthioctl/BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, _BTH_SDP_STREAM_RESPONSE, bthioctl/PBTH_SDP_STREAM_RESPONSE, bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, bltooth.bth_sdp_stream_response, *PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices]
+ms.date: 2/15/2018
+ms.keywords: bth_structs_c48540ef-f38b-4821-84cd-2b781c0b5352.xml, BTH_SDP_STREAM_RESPONSE structure [Bluetooth Devices], bthioctl/PBTH_SDP_STREAM_RESPONSE, bltooth.bth_sdp_stream_response, _BTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE, PBTH_SDP_STREAM_RESPONSE structure pointer [Bluetooth Devices], PBTH_SDP_STREAM_RESPONSE, bthioctl/BTH_SDP_STREAM_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_SDP_STREAM_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: BTH_SDP_STREAM_RESPONSE, *PBTH_SDP_STREAM_RESPONSE
+req.typenames: "*PBTH_SDP_STREAM_RESPONSE, BTH_SDP_STREAM_RESPONSE"
 ---
 
 # _BTH_SDP_STREAM_RESPONSE structure
@@ -105,18 +105,18 @@ The
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_attribute_search.md">
    IOCTL_BTH_SDP_SERVICE_ATTRIBUTE_SEARCH</a>
 
 
 
- 
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_attribute_search.md">IOCTL_BTH_SDP_ATTRIBUTE_SEARCH</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_STREAM_RESPONSE structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_STREAM_RESPONSE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

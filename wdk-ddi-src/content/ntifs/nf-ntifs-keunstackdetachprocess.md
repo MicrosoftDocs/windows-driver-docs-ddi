@@ -7,8 +7,8 @@ old-location: ifsk\keunstackdetachprocess.htm
 old-project: ifsk
 ms.assetid: 3dd5b8f7-d8f8-4c02-80d1-76d0dbe06cd3
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/KeUnstackDetachProcess, KeUnstackDetachProcess, ifsk.keunstackdetachprocess, keref_47d45f58-d264-4633-8808-2172646df566.xml, KeUnstackDetachProcess routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: keref_47d45f58-d264-4633-8808-2172646df566.xml, ntifs/KeUnstackDetachProcess, KeUnstackDetachProcess, KeUnstackDetachProcess routine [Installable File System Drivers], ifsk.keunstackdetachprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,7 +103,7 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-kestackattachprocess.md">KeStackAttachProcess</a>
+<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
 
 
 
@@ -111,19 +111,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
+<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -131,7 +119,19 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
+<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-kestackattachprocess.md">KeStackAttachProcess</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
 
 
 
@@ -139,5 +139,5 @@ For more information about using system threads and managing synchronization wit
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20KeUnstackDetachProcess routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20KeUnstackDetachProcess routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

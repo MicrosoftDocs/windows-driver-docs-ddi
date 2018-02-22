@@ -7,8 +7,8 @@ old-location: netvista\dot11_cipher_algorithm.htm
 old-project: netvista
 ms.assetid: 5fc1af01-7dd5-43dd-aefe-99dec0b5aa6a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wlantypes/DOT11_CIPHER_ALGO_WEP, DOT11_CIPHER_ALGO_CCMP, DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_CCMP, wlantypes/DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGORITHM, PDOT11_CIPHER_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGO_WEP, wlantypes/DOT11_CIPHER_ALGO_WEP40, netvista.dot11_cipher_algorithm, DOT11_CIPHER_ALGO_WEP40, wlantypes/DOT11_CIPHER_ALGO_IHV_START, Native_802.11_data_types_f6b802d4-cd15-49ca-9518-5dceb9c2b651.xml, wlantypes/DOT11_CIPHER_ALGO_TKIP, DOT11_CIPHER_ALGO_IHV_START, PDOT11_CIPHER_ALGORITHM, *PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_WEP104, wlantypes/DOT11_CIPHER_ALGO_BIP, DOT11_CIPHER_ALGO_TKIP, wlantypes/DOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_NONE, DOT11_CIPHER_ALGO_BIP, DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_WPA_USE_GROUP, wlantypes/PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_WPA_USE_GROUP, _DOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_NONE
+ms.date: 2/16/2018
+ms.keywords: DOT11_CIPHER_ALGO_IHV_START, *PDOT11_CIPHER_ALGORITHM, netvista.dot11_cipher_algorithm, DOT11_CIPHER_ALGO_WPA_USE_GROUP, wlantypes/DOT11_CIPHER_ALGORITHM, _DOT11_CIPHER_ALGORITHM, PDOT11_CIPHER_ALGORITHM enumeration pointer [Network Drivers Starting with Windows Vista], wlantypes/DOT11_CIPHER_ALGO_TKIP, wlantypes/DOT11_CIPHER_ALGO_NONE, wlantypes/DOT11_CIPHER_ALGO_WEP104, PDOT11_CIPHER_ALGORITHM, wlantypes/DOT11_CIPHER_ALGO_CCMP, DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGO_NONE, wlantypes/DOT11_CIPHER_ALGO_IHV_END, wlantypes/DOT11_CIPHER_ALGO_RSN_USE_GROUP, DOT11_CIPHER_ALGO_WEP, wlantypes/PDOT11_CIPHER_ALGORITHM, DOT11_CIPHER_ALGO_TKIP, wlantypes/DOT11_CIPHER_ALGO_IHV_START, wlantypes/DOT11_CIPHER_ALGO_WEP, wlantypes/DOT11_CIPHER_ALGO_BIP, wlantypes/DOT11_CIPHER_ALGO_WPA_USE_GROUP, DOT11_CIPHER_ALGORITHM enumeration [Network Drivers Starting with Windows Vista], DOT11_CIPHER_ALGO_BIP, DOT11_CIPHER_ALGO_WEP40, wlantypes/DOT11_CIPHER_ALGO_WEP40, DOT11_CIPHER_ALGO_IHV_END, DOT11_CIPHER_ALGO_WEP104, DOT11_CIPHER_ALGO_CCMP, Native_802.11_data_types_f6b802d4-cd15-49ca-9518-5dceb9c2b651.xml, DOT11_CIPHER_ALGORITHM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -232,16 +232,24 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
 
 
+<a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569135">OID_DOT11_CURRENT_PHY_ID</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 
 
@@ -250,17 +258,9 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_auth_cipher_pair_list.md">DOT11_AUTH_CIPHER_PAIR_LIST</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_ALGORITHM enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_ALGORITHM enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

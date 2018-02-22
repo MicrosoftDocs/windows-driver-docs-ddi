@@ -7,8 +7,8 @@ old-location: ifsk\fltfindextracreateparameter.htm
 old-project: ifsk
 ms.assetid: bfa38f16-55cf-40a9-b271-65d784d5156e
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltFindExtraCreateParameter routine [Installable File System Drivers], FltApiRef_e_to_o_6f7f8d49-a0b3-4a32-9a51-d31ab84baf8a.xml, ifsk.fltfindextracreateparameter, FltFindExtraCreateParameter, fltkernel/FltFindExtraCreateParameter
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltFindExtraCreateParameter, FltFindExtraCreateParameter routine [Installable File System Drivers], ifsk.fltfindextracreateparameter, FltFindExtraCreateParameter, FltApiRef_e_to_o_6f7f8d49-a0b3-4a32-9a51-d31ab84baf8a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,27 +137,7 @@ The ECP context structure (as specified by the <i>EcpType</i> parameter) was not
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-
-
-
-<b>FltAllocateExtraCreateParameterFromLookasideList</b>
 
 
 
@@ -165,17 +145,37 @@ The ECP context structure (as specified by the <i>EcpType</i> parameter) was not
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<b>FltAllocateExtraCreateParameterFromLookasideList</b>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltFindExtraCreateParameter routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltFindExtraCreateParameter routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

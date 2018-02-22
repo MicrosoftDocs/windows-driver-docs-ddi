@@ -7,8 +7,8 @@ old-location: kernel\exallocatepoolwithtag.htm
 old-project: kernel
 ms.assetid: a9951e7b-60a2-4bf2-913c-b7291d7c3173
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ExAllocatePoolWithTag, ExAllocatePoolWithTag, kernel.exallocatepoolwithtag, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture], k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml
+ms.date: 2/16/2018
+ms.keywords: kernel.exallocatepoolwithtag, ExAllocatePoolWithTag, wdm/ExAllocatePoolWithTag, k102_13ab2d7e-dd96-4474-bf27-59ee9b7d84d6.xml, ExAllocatePoolWithTag routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ PVOID ExAllocatePoolWithTag(
 
 ### -param PoolType [in]
 
-The type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>.
+The type of pool memory to allocate. For a description of the available pool memory types, see <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>.
 
 You can modify the <i>PoolType</i> value by bitwise-ORing this value with the POOL_RAISE_IF_ALLOCATION_FAILURE flag. This flag causes an exception to be raised if the request cannot be satisfied. Use of the POOL_RAISE_IF_ALLOCATION_FAILURE flag is not recommended because it is costly.
 
@@ -112,7 +112,7 @@ The system associates the pool tag with the allocated memory. Programming tools,
 
 The value of <i>Tag</i> is stored, and sometimes displayed, in reverse (little-endian) order. For example, if a caller passes 'Fred' as a <i>Tag</i>, it appears as "derF" in a pool dump and in pool usage tracking in the debugger, and as 0x64657246 in the registry and in tool displays.
 
-The allocated buffer can be freed with either <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>.
+The allocated buffer can be freed with either <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>.
 
 The system automatically sets certain standard event objects when the amount of pool (paged or nonpaged) is high or low. Drivers can wait for these events to tune their pool usage. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff563847">Standard Event Objects</a>.
 
@@ -129,14 +129,6 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
 
 
@@ -145,13 +137,21 @@ In a non-uniform memory access (NUMA) multiprocessor architecture, <b>ExAllocate
 
 
 
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
+
 <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocatePoolWithTag routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ExAllocatePoolWithTag routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

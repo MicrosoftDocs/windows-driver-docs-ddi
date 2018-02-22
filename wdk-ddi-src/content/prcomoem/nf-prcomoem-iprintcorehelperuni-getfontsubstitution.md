@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_getfontsubstitution.htm
 old-project: print
 ms.assetid: f11b3b85-d01b-4133-9279-bff0001e04f9
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintCoreHelperUni::GetFontSubstitution, print.iprintcorehelperuni_getfontsubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml, GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni, GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface [Print Devices], GetFontSubstitution method, IPrintCoreHelperUni::GetFontSubstitution
+ms.date: 2/21/2018
+ms.keywords: GetFontSubstitution, GetFontSubstitution method [Print Devices], print.iprintcorehelperuni_getfontsubstitution, IPrintCoreHelperUni interface [Print Devices], GetFontSubstitution method, prcomoem/IPrintCoreHelperUni::GetFontSubstitution, print_unidrv-pscript_allplugins_9ce6a5aa-84f7-4193-8dcc-1e4a12b91b19.xml, IPrintCoreHelperUni::GetFontSubstitution, GetFontSubstitution method [Print Devices], IPrintCoreHelperUni interface, IPrintCoreHelperUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.GetFontSubstitution
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -172,9 +172,13 @@ To obtain a list of available fonts, create an information context for the curre
 
 
 
- 
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::GetFontSubstitution method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::GetFontSubstitution method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: UDECX_USB_DEVICE_CALLBACKS_INIT function
 author: windows-driver-content
 description: Initializes a UDECX_USB_DEVICE_STATE_CHANGE_CALLBACKS structure before a UdecxUsbDeviceCreate call.
 old-location: buses\udecx_usb_device_callbacks_init.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: ACBF5E07-9F36-4DF9-B72B-1BF159CE27A7
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: UDECX_USB_DEVICE_CALLBACKS_INIT method [Buses], buses.udecx_usb_device_callbacks_init, UDECX_USB_DEVICE_CALLBACKS_INIT, udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT
+ms.date: 2/15/2018
+ms.keywords: UDECX_USB_DEVICE_CALLBACKS_INIT, buses.udecx_usb_device_callbacks_init, UDECX_USB_DEVICE_CALLBACKS_INIT method [Buses], udecxusbdevice/UDECX_USB_DEVICE_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UDECX_USB_DEVICE_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -93,5 +93,5 @@ This method does not return a value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UDECX_USB_DEVICE_CALLBACKS_INIT method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UDECX_USB_DEVICE_CALLBACKS_INIT method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

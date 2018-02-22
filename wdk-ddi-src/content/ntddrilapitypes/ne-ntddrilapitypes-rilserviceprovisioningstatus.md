@@ -7,8 +7,8 @@ old-location: netvista\rilserviceprovisioningstatus.htm
 old-project: netvista
 ms.assetid: 2f611dff-56b5-406f-8f67-cd3744caa1b5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SVCPROV_TEMPMODERESTRICTED, RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED, ntddrilapitypes/RIL_SVCPROV_NOTPROVISIONED, ntddrilapitypes/RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_MAX, RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_MAX, RIL_SVCPROV_NOTPROVISIONED, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], netvista.rilserviceprovisioningstatus
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_NOTPROVISIONED, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], RILSERVICEPROVISIONINGSTATUS, netvista.rilserviceprovisioningstatus, ntddrilapitypes/RIL_SVCPROV_PROVISIONED, ntddrilapitypes/RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_TEMPMODEALLOWED, RIL_SVCPROV_MAX, ntddrilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED, RIL_SVCPROV_TEMPMODERESTRICTED, ntddrilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, ntddrilapitypes/RIL_SVCPROV_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

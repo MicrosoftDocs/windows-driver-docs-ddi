@@ -7,8 +7,8 @@ old-location: kernel\pscreatethreadnotifytype.htm
 old-project: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], _PSCREATETHREADNOTIFYTYPE, PsCreateThreadNotifySubsystems, ntddk/PSCREATETHREADNOTIFYTYPE, PsCreateThreadNotifyNonSystem, PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems
+ms.date: 2/16/2018
+ms.keywords: PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, PsCreateThreadNotifyNonSystem, PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems, ntddk/PSCREATETHREADNOTIFYTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,7 +81,7 @@ Indicates that the driver-registered callback function is invoked for threads of
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
+<a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a>
 
 
 
@@ -89,7 +89,7 @@ Indicates that the driver-registered callback function is invoked for threads of
 
 
 
-<a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a>
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
 
 
 
@@ -97,5 +97,5 @@ Indicates that the driver-registered callback function is invoked for threads of
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PSCREATETHREADNOTIFYTYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PSCREATETHREADNOTIFYTYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndisclmakecall.htm
 old-project: netvista
 ms.assetid: 69775220-71d8-497c-aaf7-9bc3ec90d00f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisClMakeCall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], ndis/NdisClMakeCall, condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml, netvista.ndisclmakecall
+ms.date: 2/16/2018
+ms.keywords: NdisClMakeCall, ndis/NdisClMakeCall, NdisClMakeCall function [Network Drivers Starting with Windows Vista], netvista.ndisclmakecall, condis_client_ref_bd9f0a4a-c8f7-418e-aa80-e97fad7e4ab1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,23 +162,11 @@ The client's
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
@@ -186,7 +174,11 @@ The client's
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
+<a href="..\ndis\nf-ndis-ndiscladdparty.md">NdisClAddParty</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
 
 
@@ -199,7 +191,15 @@ The client's
 
 
 
-<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
+<a href="..\ndis\nf-ndis-ndiscmactivatevc.md">NdisCmActivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a>
 
 
 
@@ -207,5 +207,5 @@ The client's
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClMakeCall function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClMakeCall function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

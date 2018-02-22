@@ -7,8 +7,8 @@ old-location: parports\parallel_chip_mode.htm
 old-project: parports
 ms.assetid: e9d78c80-e6cf-49af-89de-6df8ea871796
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PARALLEL_CHIP_MODE, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], PARALLEL_CHIP_MODE structure [Parallel Ports], parallel/PARALLEL_CHIP_MODE, PPARALLEL_CHIP_MODE, parports.parallel_chip_mode, *PPARALLEL_CHIP_MODE, _PARALLEL_CHIP_MODE, parallel/PPARALLEL_CHIP_MODE, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml
+ms.date: 2/15/2018
+ms.keywords: PPARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE, parallel/PARALLEL_CHIP_MODE, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml, _PARALLEL_CHIP_MODE, *PPARALLEL_CHIP_MODE, parallel/PPARALLEL_CHIP_MODE, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], PARALLEL_CHIP_MODE structure [Parallel Ports], parports.parallel_chip_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,7 +91,7 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
 
 
 
@@ -99,7 +99,15 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 
 
+<a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
+
+
+
 <a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
@@ -107,17 +115,9 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 
 
-<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_CHIP_MODE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_CHIP_MODE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

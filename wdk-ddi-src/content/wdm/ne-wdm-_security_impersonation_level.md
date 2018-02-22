@@ -7,8 +7,8 @@ old-location: ifsk\security_impersonation_level.htm
 old-project: ifsk
 ms.assetid: 6033b33f-74cd-4034-baff-a931b7add370
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: wdm/SecurityImpersonation, securitystructures_d049c4aa-1df4-46b1-b789-01f04e939de2.xml, _SECURITY_IMPERSONATION_LEVEL, wdm/SecurityDelegation, SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration [Installable File System Drivers], wdm/SECURITY_IMPERSONATION_LEVEL, ifsk.security_impersonation_level, wdm/SecurityAnonymous, SecurityIdentification, PSECURITY_IMPERSONATION_LEVEL, SecurityAnonymous, PSECURITY_IMPERSONATION_LEVEL enumeration pointer [Installable File System Drivers], wdm/SecurityIdentification, SecurityDelegation, SecurityImpersonation, *PSECURITY_IMPERSONATION_LEVEL, wdm/PSECURITY_IMPERSONATION_LEVEL
+ms.date: 2/16/2018
+ms.keywords: SecurityDelegation, PSECURITY_IMPERSONATION_LEVEL enumeration pointer [Installable File System Drivers], SECURITY_IMPERSONATION_LEVEL, SecurityAnonymous, _SECURITY_IMPERSONATION_LEVEL, SecurityIdentification, wdm/SECURITY_IMPERSONATION_LEVEL, SecurityImpersonation, PSECURITY_IMPERSONATION_LEVEL, ifsk.security_impersonation_level, wdm/SecurityImpersonation, wdm/SecurityIdentification, wdm/SecurityAnonymous, wdm/SecurityDelegation, *PSECURITY_IMPERSONATION_LEVEL, wdm/PSECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL enumeration [Installable File System Drivers], securitystructures_d049c4aa-1df4-46b1-b789-01f04e939de2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -113,15 +113,27 @@ Impersonation is the ability of a process to take on the security attributes of 
 
 
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid_and_attributes.md">SID_AND_ATTRIBUTES</a>
 
 
 
 <a href="..\wdm\nf-wdm-seaccesscheck.md">SeAccessCheck</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
+
+
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
+
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
 
 
 
@@ -133,25 +145,13 @@ Impersonation is the ability of a process to take on the security attributes of 
 
 
 
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-
-
-
 <a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-psreferenceimpersonationtoken.md">PsReferenceImpersonationToken</a>
-
-
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SECURITY_IMPERSONATION_LEVEL enumeration%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SECURITY_IMPERSONATION_LEVEL enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

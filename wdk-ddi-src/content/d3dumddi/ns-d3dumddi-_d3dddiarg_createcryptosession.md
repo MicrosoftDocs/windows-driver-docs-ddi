@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_createcryptosession.htm
 old-project: display
 ms.assetid: 45bc4d3f-d573-4a11-8d25-160cb8f233f4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dddiarg_createcryptosession, UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], _D3DDDIARG_CREATECRYPTOSESSION, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION
+ms.date: 2/20/2018
+ms.keywords: "_D3DDDIARG_CREATECRYPTOSESSION, display.d3dddiarg_createcryptosession, d3dumddi/D3DDDIARG_CREATECRYPTOSESSION, D3DDDIARG_CREATECRYPTOSESSION structure [Display Devices], D3DDDIARG_CREATECRYPTOSESSION, UMDisplayDriver_param_Structs_39cf7246-689d-47f2-99f8-dcc3b2018958.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,5 +108,5 @@ A GUID that indicates a proprietary encryption algorithm.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATECRYPTOSESSION structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATECRYPTOSESSION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

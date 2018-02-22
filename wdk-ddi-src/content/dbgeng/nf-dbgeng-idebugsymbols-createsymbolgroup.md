@@ -4,11 +4,11 @@ title: IDebugSymbols::CreateSymbolGroup method
 author: windows-driver-content
 description: The CreateSymbolGroup method creates a new symbol group.
 old-location: debugger\createsymbolgroup.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f55aa290-5e57-48d8-9454-370c494bbd65
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: CreateSymbolGroup, IDebugSymbols3::CreateSymbolGroup, dbgeng/IDebugSymbols::CreateSymbolGroup, dbgeng/IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, IDebugSymbols::CreateSymbolGroup, IDebugSymbols, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, debugger.createsymbolgroup, dbgeng/IDebugSymbols3::CreateSymbolGroup
+ms.date: 2/15/2018
+ms.keywords: CreateSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, debugger.createsymbolgroup, dbgeng/IDebugSymbols::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::CreateSymbolGroup, IDebugSymbols3 interface [Windows Debugging], CreateSymbolGroup method, IDebugSymbols2 interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup method [Windows Debugging], IDebugSymbols, IDebugSymbols_fe8b31b2-0c5c-4dde-9d60-a353893e3f65.xml, dbgeng/IDebugSymbols2::CreateSymbolGroup, IDebugSymbols interface [Windows Debugging], CreateSymbolGroup method, CreateSymbolGroup, dbgeng/IDebugSymbols3::CreateSymbolGroup, IDebugSymbols3::CreateSymbolGroup, IDebugSymbols2::CreateSymbolGroup, CreateSymbolGroup method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.CreateSymbolGroup
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::CreateSymbolGroup method
@@ -117,6 +117,14 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
@@ -125,21 +133,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
 <a href="https://msdn.microsoft.com/b77de459-b5ac-4752-89eb-f24fdde36134">IDebugSymbolGroup::AddSymbol</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::CreateSymbolGroup method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::CreateSymbolGroup method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

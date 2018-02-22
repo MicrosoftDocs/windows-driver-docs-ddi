@@ -7,8 +7,8 @@ old-location: kernel\ioremoveshareaccess.htm
 old-project: kernel
 ms.assetid: 999ee9cc-13c7-4e6b-a294-7e7d28272384
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, kernel.ioremoveshareaccess, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], wdm/IoRemoveShareAccess, IoRemoveShareAccess
+ms.date: 2/16/2018
+ms.keywords: IoRemoveShareAccess, kernel.ioremoveshareaccess, IoRemoveShareAccess routine [Kernel-Mode Driver Architecture], k104_0034e41b-0320-40e0-8dea-847db6b6dc58.xml, wdm/IoRemoveShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,17 +107,17 @@ Callers of <b>IoRemoveShareAccess</b> must be running at IRQL = PASSIVE_LEVEL an
 
 
 
-<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocheckshareaccess.md">IoCheckShareAccess</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-iosetshareaccess.md">IoSetShareAccess</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRemoveShareAccess routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRemoveShareAccess routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

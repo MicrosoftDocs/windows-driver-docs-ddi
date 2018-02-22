@@ -7,8 +7,8 @@ old-location: stream\stream_buffer_type.htm
 old-project: stream
 ms.assetid: 7C9E1D94-BF59-4302-BEE8-24546C8AE7E6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: DmaBuffer, strmini/SRBDataBuffer, STREAM_BUFFER_TYPE enumeration [Streaming Media Devices], SRBDataBuffer, stream.stream_buffer_type, strmini/STREAM_BUFFER_TYPE, STREAM_BUFFER_TYPE, strmini/PerRequestExtension, PerRequestExtension, strmini/DmaBuffer
+ms.date: 2/20/2018
+ms.keywords: STREAM_BUFFER_TYPE, stream.stream_buffer_type, PerRequestExtension, strmini/DmaBuffer, STREAM_BUFFER_TYPE enumeration [Streaming Media Devices], strmini/PerRequestExtension, DmaBuffer, SRBDataBuffer, strmini/SRBDataBuffer, strmini/STREAM_BUFFER_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

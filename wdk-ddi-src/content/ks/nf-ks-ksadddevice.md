@@ -7,8 +7,8 @@ old-location: stream\ksadddevice.htm
 old-project: stream
 ms.assetid: e7be1bb8-eb8a-4ebd-b824-bbaa41b21ca5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsAddDevice, ks/KsAddDevice, stream.ksadddevice, KsAddDevice function [Streaming Media Devices], avfunc_8d3f4443-fa48-4484-a2b3-2f3b70cc2ce5.xml
+ms.date: 2/20/2018
+ms.keywords: stream.ksadddevice, ks/KsAddDevice, avfunc_8d3f4443-fa48-4484-a2b3-2f3b70cc2ce5.xml, KsAddDevice, KsAddDevice function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,6 +111,10 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
 
 
@@ -123,10 +127,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
@@ -135,5 +135,5 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAddDevice function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAddDevice function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

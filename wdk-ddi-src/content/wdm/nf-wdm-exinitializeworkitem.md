@@ -7,8 +7,8 @@ old-location: ifsk\exinitializeworkitem.htm
 old-project: ifsk
 ms.assetid: e26e7e68-0d0c-42fe-9342-ebbf2bb8f830
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ExInitializeWorkItem, ExInitializeWorkItem routine [Installable File System Drivers], ifsk.exinitializeworkitem, wdm/ExInitializeWorkItem
+ms.date: 2/16/2018
+ms.keywords: exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ExInitializeWorkItem routine [Installable File System Drivers], ExInitializeWorkItem, wdm/ExInitializeWorkItem, ifsk.exinitializeworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID ExInitializeWorkItem(
 
 ### -param Item [in]
 
-Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This structure must be allocated from nonpaged pool. The callback routine specified in the <i>Routine</i> parameter is responsible for freeing this work item when it is no longer needed by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>. 
+Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This structure must be allocated from nonpaged pool. The callback routine specified in the <i>Routine</i> parameter is responsible for freeing this work item when it is no longer needed by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>. 
 
 
 ### -param Routine [in]
@@ -144,11 +144,7 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
-
-
-
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
 
 
 
@@ -156,21 +152,25 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 
 
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
-
-
-
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
-
-
-
 <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+
+
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ExInitializeWorkItem routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ExInitializeWorkItem routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilsubaddresstype.htm
 old-project: netvista
 ms.assetid: 18c4f26a-6463-4157-bd81-6bbb2100eff2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RIL_SUBADDRTYPE_USER, ntddrilapitypes/RILSUBADDRESSTYPE, RILSUBADDRESSTYPE, netvista.rilsubaddresstype, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_USER
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RIL_SUBADDRTYPE_MAX, RIL_SUBADDRTYPE_USER, RILSUBADDRESSTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_SUBADDRTYPE_MAX, ntddrilapitypes/RILSUBADDRESSTYPE, RILSUBADDRESSTYPE, netvista.rilsubaddresstype, ntddrilapitypes/RIL_SUBADDRTYPE_USER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

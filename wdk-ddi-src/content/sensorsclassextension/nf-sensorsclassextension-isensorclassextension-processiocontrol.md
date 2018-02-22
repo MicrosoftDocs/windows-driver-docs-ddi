@@ -7,8 +7,8 @@ old-location: sensors\isensorclassextension_processiocontrol.htm
 old-project: sensors
 ms.assetid: bd886086-4e23-47c0-ae58-9234399e5a79
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: sensors.isensorclassextension_processiocontrol, ProcessIoControl, ISensorClassExtension, ISensorClassExtension::ProcessIoControl, ProcessIoControl method [Sensor Devices]
+ms.date: 2/15/2018
+ms.keywords: ISensorClassExtension, ProcessIoControl method [Sensor Devices], ProcessIoControl, ISensorClassExtension::ProcessIoControl, sensors.isensorclassextension_processiocontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

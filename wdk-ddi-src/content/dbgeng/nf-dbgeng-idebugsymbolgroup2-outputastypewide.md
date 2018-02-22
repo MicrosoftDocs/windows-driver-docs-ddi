@@ -4,11 +4,11 @@ title: IDebugSymbolGroup2::OutputAsTypeWide method
 author: windows-driver-content
 description: The OutputAsTypeWide method changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type.
 old-location: debugger\outputastypewide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f43b702d-37a7-484d-8a18-fa190e9189b2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], debugger.outputastypewide, OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, IDebugSymbolGroup2
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], OutputAsTypeWide method, OutputAsTypeWide method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup2::OutputAsTypeWide, OutputAsTypeWide method [Windows Debugging], debugger.outputastypewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbolGroup2.OutputAsTypeWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::OutputAsTypeWide method
@@ -137,5 +137,5 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2::OutputAsTypeWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup2::OutputAsTypeWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

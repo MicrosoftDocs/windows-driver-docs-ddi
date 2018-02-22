@@ -7,8 +7,8 @@ old-location: acpi\deregisteropregionhandler.htm
 old-project: acpi
 ms.assetid: b50a63cd-69eb-46a8-9d0b-660795c7047f
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: opregref_e991e152-6162-4d45-9418-282afb447d18.xml, DeRegisterOpRegionHandler, acpi.deregisteropregionhandler, DeRegisterOpRegionHandler routine [ACPI Devices], oprghdlr/DeRegisterOpRegionHandler
+ms.date: 2/15/2018
+ms.keywords: DeRegisterOpRegionHandler routine [ACPI Devices], DeRegisterOpRegionHandler, acpi.deregisteropregionhandler, oprghdlr/DeRegisterOpRegionHandler, opregref_e991e152-6162-4d45-9418-282afb447d18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,17 +142,17 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
-
-
-
 <a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
 
 
 
- 
+<a href="..\oprghdlr\nc-oprghdlr-acpi_op_region_handler.md">ACPI_OP_REGION_HANDLER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20DeRegisterOpRegionHandler routine%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20DeRegisterOpRegionHandler routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

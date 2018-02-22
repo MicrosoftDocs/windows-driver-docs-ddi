@@ -7,8 +7,8 @@ old-location: ifsk\fltgetvolumefromname.htm
 old-project: ifsk
 ms.assetid: 813b914a-05d6-4e5a-9420-f87e94ee9e96
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fltkernel/FltGetVolumeFromName, FltGetVolumeFromName routine [Installable File System Drivers], FltApiRef_e_to_o_1132de70-bc75-48a2-b0ae-d5b6d67a0a07.xml, ifsk.fltgetvolumefromname, FltGetVolumeFromName
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_e_to_o_1132de70-bc75-48a2-b0ae-d5b6d67a0a07.xml, FltGetVolumeFromName routine [Installable File System Drivers], ifsk.fltgetvolumefromname, FltGetVolumeFromName, fltkernel/FltGetVolumeFromName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,18 +162,6 @@ To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fl
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterfromname.md">FltGetFilterFromName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
@@ -182,13 +170,25 @@ To get the volume GUID name for a given volume, call <a href="..\fltkernel\nf-fl
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterfromname.md">FltGetFilterFromName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeguidname.md">FltGetVolumeGuidName</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetVolumeFromName routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetVolumeFromName routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

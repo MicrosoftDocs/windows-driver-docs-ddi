@@ -4,11 +4,11 @@ title: IStiDevice::Subscribe method
 author: windows-driver-content
 description: The IStiDevice::Subscribe method registers the caller to receive notifications of device events.
 old-location: image\istidevice_subscribe.htm
-old-project: image
+old-project: Image
 ms.assetid: 6266b311-6846-4615-a686-b68b00001fe7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.istidevice_subscribe, sti/IStiDevice::Subscribe, Subscribe method [Imaging Devices], Subscribe, IStiDevice, Subscribe method [Imaging Devices], IStiDevice interface, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, IStiDevice::Subscribe, IStiDevice interface [Imaging Devices], Subscribe method
+ms.date: 2/15/2018
+ms.keywords: image.istidevice_subscribe, Subscribe method [Imaging Devices], IStiDevice interface, IStiDevice interface [Imaging Devices], Subscribe method, sti/IStiDevice::Subscribe, stifnc_2c707880-5ace-4a2e-813e-1ee304cea41f.xml, IStiDevice::Subscribe, Subscribe, Subscribe method [Imaging Devices], IStiDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -118,5 +118,5 @@ Before calling <b>IStiDevice::Subscribe</b>, clients of the <b>IStiDevice</b> CO
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiDevice::Subscribe method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiDevice::Subscribe method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

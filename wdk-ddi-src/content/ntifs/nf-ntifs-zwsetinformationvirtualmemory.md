@@ -7,7 +7,7 @@ old-location: kernel\zwsetinformationvirtualmemory.htm
 old-project: kernel
 ms.assetid: 1D53D6C6-7546-439F-818C-85E65901B5DC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: ntifs/ZwSetInformationVirtualMemory, ZwSetInformationVirtualMemory, kernel.zwsetinformationvirtualmemory, ZwSetInformationVirtualMemory routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices

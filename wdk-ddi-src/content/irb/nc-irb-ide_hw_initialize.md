@@ -7,7 +7,7 @@ old-location: storage\idehwinitialize.htm
 old-project: storage
 ms.assetid: 5665ff0a-3cbf-4ac5-adf7-5b383bac5117
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.idehwinitialize, IdeHwInitialize routine [Storage Devices], IdeHwInitialize, IDE_HW_INITIALIZE, IDE_HW_INITIALIZE, irb/IdeHwInitialize, atartns_dcb52bc9-05c9-436f-a2b2-f9c1b68d1d33.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -107,17 +107,17 @@ After the miniport driver enumerates the devices on a channel, it calls the <b><
 
 ## -see-also
 
-<a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
-
-
-
 <a href="..\irb\ns-irb-_ide_device_parameters.md">IDE_DEVICE_PARAMETERS</a>
 
 
 
- 
+<a href="..\ata\ns-ata-_identify_device_data.md">IDENTIFY_DEVICE_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwInitialize routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IdeHwInitialize routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: USBD_BuildRegisterCompositeDevice function
 author: windows-driver-content
 description: The USBD_BuildRegisterCompositeDevice routine is called by the driver of a USB multi-function device (composite driver) to initialize a REGISTER_COMPOSITE_DEVICE structure with the information required for registering the driver with the USB driver stack.
 old-location: buses\usbd_buildregistercompositedriver.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: usbdlib/ USBD_BuildRegisterCompositeDevice, buses.usbd_buildregistercompositedriver, USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice routine [Buses]
+ms.date: 2/15/2018
+ms.keywords: usbdlib/ USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice, buses.usbd_buildregistercompositedriver, USBD_BuildRegisterCompositeDevice routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_BuildRegisterCompositeDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -105,17 +105,17 @@ This routine does not return a value.
 
 ## -see-also
 
-<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
-
-
-
 <a href="..\usbdlib\ns-usbdlib-_register_composite_device.md">REGISTER_COMPOSITE_DEVICE</a>
 
 
 
- 
+<a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_register_composite_device.md">IOCTL_INTERNAL_USB_REGISTER_COMPOSITE_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_BuildRegisterCompositeDevice routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_BuildRegisterCompositeDevice routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

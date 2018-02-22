@@ -7,13 +7,13 @@ old-location: wdf\power_action.htm
 old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/PowerActionReserved, PPOWER_ACTION, PowerActionWarmEject, wudfddi/PowerActionWarmEject, POWER_ACTION enumeration, PowerActionShutdownReset, PowerActionShutdownOff, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, PowerActionReserved, PowerActionNone, wudfddi/PowerActionSleep, umdf.power_action, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, PowerActionHibernate, PowerActionShutdown, wudfddi/POWER_ACTION, PPOWER_ACTION enumeration pointer, wdf.power_action, wudfddi/PowerActionHibernate, *PPOWER_ACTION, wudfddi/PPOWER_ACTION, POWER_ACTION, wudfddi/PowerActionShutdown, wudfddi/PowerActionShutdownOff, PowerActionSleep, wudfddi/PowerActionShutdownReset, wudfddi/PowerActionNone
+ms.date: 2/20/2018
+ms.keywords: umdf.power_action, wudfddi/PowerActionWarmEject, wudfddi/PowerActionNone, PowerActionWarmEject, __MIDL___MIDL_itf_wudfddi_0000_0000_0001, PowerActionHibernate, wudfddi/PowerActionShutdownReset, PPOWER_ACTION, wudfddi/PowerActionShutdownOff, PowerActionSleep, wudfddi/PPOWER_ACTION, *PPOWER_ACTION, PowerActionReserved, wudfddi/PowerActionHibernate, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, POWER_ACTION enumeration, POWER_ACTION, wdf.power_action, wudfddi/PowerActionSleep, wudfddi/PowerActionShutdown, PowerActionShutdown, PowerActionShutdownReset, PPOWER_ACTION enumeration pointer, wudfddi/PowerActionReserved, PowerActionShutdownOff, PowerActionNone, wudfddi/POWER_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wudfddi.h
-req.include-header: Wudfddi.h, Ntpoapi.h
+req.include-header: Wudfddi.h, Ntpoapi.h, Wdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	POWER_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -136,5 +136,5 @@ The <b>POWER_ACTION</b> enumeration is used as the return value for <a href="htt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20POWER_ACTION enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20POWER_ACTION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

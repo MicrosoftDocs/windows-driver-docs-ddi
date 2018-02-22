@@ -7,8 +7,8 @@ old-location: bltooth\sdpcreatenodeuint8.htm
 old-project: bltooth
 ms.assetid: b5ac8079-032f-4d25-ba12-8fdc0622b8b5
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: sdplib/SdpCreateNodeUInt8, bltooth.sdpcreatenodeuint8, SdpCreateNodeUInt8 function [Bluetooth Devices], SdpCreateNodeUInt8, bth_funcs_836c7c8c-76a0-4bce-8b30-79550dd5f173.xml
+ms.date: 2/15/2018
+ms.keywords: bth_funcs_836c7c8c-76a0-4bce-8b30-79550dd5f173.xml, SdpCreateNodeUInt8 function [Bluetooth Devices], sdplib/SdpCreateNodeUInt8, SdpCreateNodeUInt8, bltooth.sdpcreatenodeuint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpCreateNodeUInt8
 product: Windows
 targetos: Windows
-req.typenames: SD_TRANSFER_TYPE
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -129,6 +129,10 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+
+
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
@@ -137,13 +141,9 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpCreateNodeUInt8 function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpCreateNodeUInt8 function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

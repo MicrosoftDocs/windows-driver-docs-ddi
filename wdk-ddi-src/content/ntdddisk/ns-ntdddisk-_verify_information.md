@@ -7,8 +7,8 @@ old-location: storage\verify_information.htm
 old-project: storage
 ms.assetid: 7bb5c2ff-9bdb-4958-b290-9edb18d02668
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntdddisk/VERIFY_INFORMATION, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, storage.verify_information, *PVERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, PVERIFY_INFORMATION, VERIFY_INFORMATION structure [Storage Devices], VERIFY_INFORMATION, PVERIFY_INFORMATION structure pointer [Storage Devices], _VERIFY_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: ntdddisk/VERIFY_INFORMATION, storage.verify_information, PVERIFY_INFORMATION structure pointer [Storage Devices], VERIFY_INFORMATION structure [Storage Devices], VERIFY_INFORMATION, structs-disk_fbed0038-effc-40d8-8814-921dfd627a94.xml, *PVERIFY_INFORMATION, PVERIFY_INFORMATION, ntdddisk/PVERIFY_INFORMATION, _VERIFY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VERIFY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
 ---
 
 # _VERIFY_INFORMATION structure
@@ -97,5 +97,5 @@ VERIFY_INFORMATION is the output buffer for the <a href="..\ntdddisk\ni-ntdddisk
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VERIFY_INFORMATION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20VERIFY_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

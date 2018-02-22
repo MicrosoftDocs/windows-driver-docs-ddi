@@ -7,8 +7,8 @@ old-location: netvista\wdi_cipher_key_type.htm
 old-project: netvista
 ms.assetid: 09874F77-5A9C-4C98-996F-29BB90CAE4B6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WDI_CIPHER_KEY_TYPE, wditypes/WDI_CIPHER_KEY_TYPE_IGTK, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, netvista.wdi_cipher_key_type, _WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, netvista.wifi_cipher_key_type, WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, wditypes/WDI_CIPHER_KEY_TYPE
+ms.date: 2/16/2018
+ms.keywords: wditypes/WDI_CIPHER_KEY_TYPE_GROUP_KEY, netvista.wdi_cipher_key_type, WDI_CIPHER_KEY_TYPE enumeration [Device and Driver Installation], wditypes/WDI_CIPHER_KEY_TYPE, WDI_CIPHER_KEY_TYPE_IGTK, WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, WDI_CIPHER_KEY_TYPE_GROUP_KEY, WDI_CIPHER_KEY_TYPE, netvista.wifi_cipher_key_type, wditypes/WDI_CIPHER_KEY_TYPE_IGTK, wditypes/WDI_CIPHER_KEY_TYPE_PAIRWISE_KEY, _WDI_CIPHER_KEY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

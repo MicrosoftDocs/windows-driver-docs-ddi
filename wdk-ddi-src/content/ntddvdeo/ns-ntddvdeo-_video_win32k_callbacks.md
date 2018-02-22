@@ -7,8 +7,8 @@ old-location: display\video_win32k_callbacks.htm
 old-project: display
 ms.assetid: dec6c610-811c-40cb-a099-1a35b91d2ee8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "*PVIDEO_WIN32K_CALLBACKS, _VIDEO_WIN32K_CALLBACKS, ntddvdeo/VIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS structure [Display Devices], PVIDEO_WIN32K_CALLBACKS, Video_Structs_3c169102-2431-4217-b9e2-80ef23ee8096.xml, display.video_win32k_callbacks, ntddvdeo/PVIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS structure pointer [Display Devices]"
+ms.date: 2/20/2018
+ms.keywords: ntddvdeo/PVIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS, PVIDEO_WIN32K_CALLBACKS, *PVIDEO_WIN32K_CALLBACKS, Video_Structs_3c169102-2431-4217-b9e2-80ef23ee8096.xml, display.video_win32k_callbacks, ntddvdeo/VIDEO_WIN32K_CALLBACKS, _VIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS structure [Display Devices], PVIDEO_WIN32K_CALLBACKS structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_WIN32K_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_WIN32K_CALLBACKS, VIDEO_WIN32K_CALLBACKS"
+req.typenames: VIDEO_WIN32K_CALLBACKS, *PVIDEO_WIN32K_CALLBACKS
 ---
 
 # _VIDEO_WIN32K_CALLBACKS structure

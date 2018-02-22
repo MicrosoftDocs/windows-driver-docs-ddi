@@ -7,8 +7,8 @@ old-location: display\formatop.htm
 old-project: display
 ms.assetid: e846a41a-9d9c-4ccb-a478-260f333333f1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/FORMATOP, FORMATOP_VERTEXTEXTURE (0x00800000L), FORMATOP_TEXTURE (0x00000001L), _FORMATOP, display.formatop, FORMATOP_BUMPMAP (0x00010000L), FORMATOP_AUTOGENMIPMAP (0x00400000L), FORMATOP_PIXELSIZE (0x00001000L), FORMATOP_3DACCELERATION (0x00000800L), FORMATOP_VOLUMETEXTURE (0x00000002L), FORMATOP_CONVERT_TO_ARGB (0x00002000L), FORMATOP_SRGBREAD (0x00008000L), FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L), FORMATOP_MEMBEROFGROUP_ARGB (0x00080000L), FORMATOP_DMAP (0x00020000L), FORMATOP_SRGBWRITE (0x00100000L), FORMATOP_NOFILTER (0x00040000L), FORMATOP_NOALPHABLEND (0x00200000L), FORMATOP_OFFSCREEN_RENDERTARGET (0x00000008L), FORMATOP_VIDEO_ENCODER (0x10000000L), FORMATOP_OFFSCREENPLAIN (0x00004000L), FORMATOP, FORMATOP_ZSTENCIL (0x00000040L), FORMATOP_MULTIPLANE_OVERLAY (0x20000000L), FORMATOP_OVERLAY (0x04000000L), FORMATOP_ZSTENCIL_WITH_ARBITRARY_COLOR_DEPTH (0x00000080L), D3D_other_Structs_c60ed644-61b9-4700-8944-131765951138.xml, FORMATOP_PLANAR (0x02000000L), FORMATOP structure [Display Devices], FORMATOP_CAPTURE (0x08000000L), FORMATOP_SAME_FORMAT_RENDERTARGET (0x00000010L), FORMATOP_CUBETEXTURE (0x00000004L), FORMATOP_DISPLAYMODE (0x00000400L), FORMATOP_SAME_FORMAT_UP_TO_ALPHA_RENDERTARGET (0x00000100L)
+ms.date: 2/20/2018
+ms.keywords: FORMATOP_VOLUMETEXTURE (0x00000002L), FORMATOP_PIXELSIZE (0x00001000L), FORMATOP_OVERLAY (0x04000000L), FORMATOP_CONVERT_TO_ARGB (0x00002000L), display.formatop, FORMATOP_TEXTURE (0x00000001L), FORMATOP_CUBETEXTURE (0x00000004L), FORMATOP_AUTOGENMIPMAP (0x00400000L), FORMATOP, FORMATOP_ZSTENCIL (0x00000040L), D3D_other_Structs_c60ed644-61b9-4700-8944-131765951138.xml, FORMATOP_PLANAR (0x02000000L), _FORMATOP, d3dumddi/FORMATOP, FORMATOP_NOALPHABLEND (0x00200000L), FORMATOP_SAME_FORMAT_UP_TO_ALPHA_RENDERTARGET (0x00000100L), FORMATOP_ZSTENCIL_WITH_ARBITRARY_COLOR_DEPTH (0x00000080L), FORMATOP_MULTIPLANE_OVERLAY (0x20000000L), FORMATOP_NOTEXCOORDWRAPNORMIP (0x01000000L), FORMATOP_SAME_FORMAT_RENDERTARGET (0x00000010L), FORMATOP_BUMPMAP (0x00010000L), FORMATOP_MEMBEROFGROUP_ARGB (0x00080000L), FORMATOP structure [Display Devices], FORMATOP_DISPLAYMODE (0x00000400L), FORMATOP_VIDEO_ENCODER (0x10000000L), FORMATOP_OFFSCREENPLAIN (0x00004000L), FORMATOP_VERTEXTEXTURE (0x00800000L), FORMATOP_DMAP (0x00020000L), FORMATOP_SRGBREAD (0x00008000L), FORMATOP_SRGBWRITE (0x00100000L), FORMATOP_CAPTURE (0x08000000L), FORMATOP_OFFSCREEN_RENDERTARGET (0x00000008L), FORMATOP_3DACCELERATION (0x00000800L), FORMATOP_NOFILTER (0x00040000L)
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -280,19 +280,7 @@ Supported starting with Windows 8.
 
 ## -see-also
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-_d3dddicaps_type.md">D3DDDICAPS_TYPE</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
@@ -300,9 +288,21 @@ Supported starting with Windows 8.
 
 
 
- 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+
+
+
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_resourceflags2.md">D3DDDI_RESOURCEFLAGS2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20FORMATOP structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20FORMATOP structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

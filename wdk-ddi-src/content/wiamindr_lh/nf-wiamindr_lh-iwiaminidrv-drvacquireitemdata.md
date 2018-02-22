@@ -4,11 +4,11 @@ title: IWiaMiniDrv::drvAcquireItemData method
 author: windows-driver-content
 description: The IWiaMiniDrv::drvAcquireItemData method is called by the WIA service to transfer data from the device to an application.
 old-location: image\iwiaminidrv_drvacquireitemdata.htm
-old-project: image
+old-project: Image
 ms.assetid: ab49643b-ab77-49ea-9a3b-e3a184cd29d0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv::drvAcquireItemData, drvAcquireItemData method [Imaging Devices], image.iwiaminidrv_drvacquireitemdata, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, drvAcquireItemData, wiamindr_lh/IWiaMiniDrv::drvAcquireItemData, IWiaMiniDrv
+ms.date: 2/15/2018
+ms.keywords: image.iwiaminidrv_drvacquireitemdata, drvAcquireItemData method [Imaging Devices], IWiaMiniDrv interface, drvAcquireItemData, IWiaMiniDrv, MiniDrv_fb4ad9e4-6648-4038-9b72-4e521d4dd5f2.xml, IWiaMiniDrv::drvAcquireItemData, IWiaMiniDrv interface [Imaging Devices], drvAcquireItemData method, drvAcquireItemData method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvAcquireItemData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -211,7 +211,7 @@ Other error code
 
 ## -see-also
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
 
 
 
@@ -223,7 +223,7 @@ Other error code
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetimageinformation.md">wiasGetImageInformation</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
@@ -231,5 +231,5 @@ Other error code
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvAcquireItemData method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaMiniDrv::drvAcquireItemData method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlremovemcbentry.htm
 old-project: ifsk
 ms.assetid: 94342bb0-6c3b-49a0-b677-5d871136c2ba
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlRemoveMcbEntry function [Installable File System Drivers], ntifs/FsRtlRemoveMcbEntry, ifsk.fsrtlremovemcbentry, FsRtlRemoveMcbEntry, fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml
+ms.date: 2/16/2018
+ms.keywords: fsrtlref_21b18ca7-32c0-441b-bb74-aa227e0d2c3e.xml, ntifs/FsRtlRemoveMcbEntry, ifsk.fsrtlremovemcbentry, FsRtlRemoveMcbEntry, FsRtlRemoveMcbEntry function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

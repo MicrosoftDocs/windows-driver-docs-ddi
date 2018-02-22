@@ -7,13 +7,13 @@ old-location: netvista\rilpositioninfolteparammask.htm
 old-project: netvista
 ms.assetid: cf89467e-1bf1-44ee-a027-23b49aca845f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_POSITION_LTE_TA, netvista.rilpositioninfolteparammask, RIL_PARAM_POSITION_LTE_EARFCN, rilapitypes/RIL_PARAM_POSITION_LTE_TAC, rilapitypes/RIL_PARAM_POSITION_LTE_TA, RILPOSITIONINFOLTEPARAMMASK, rilapitypes/RIL_PARAM_POSITION_LTE_RSRQ, RIL_PARAM_POSITION_LTE_PHYSCELLID, RIL_PARAM_POSITION_LTE_TAC, RIL_PARAM_POSITION_LTE_ALL, RIL_PARAM_POSITION_LTE_MNC, RIL_PARAM_POSITION_LTE_CELLID, rilapitypes/RILPOSITIONINFOLTEPARAMMASK, rilapitypes/RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_EARFCN, RIL_PARAM_POSITION_LTE_RSRQ, rilapitypes/RIL_PARAM_POSITION_LTE_PHYSCELLID, rilapitypes/RIL_PARAM_POSITION_LTE_CELLID, RILPOSITIONINFOLTEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_LTE_MCC, RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_MNC, rilapitypes/RIL_PARAM_POSITION_LTE_ALL, rilapitypes/RIL_PARAM_POSITION_LTE_MCC
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RIL_PARAM_POSITION_LTE_RSRP, RIL_PARAM_POSITION_LTE_TA, RIL_PARAM_POSITION_LTE_RSRQ, RIL_PARAM_POSITION_LTE_CELLID, rilapitypes/RIL_PARAM_POSITION_LTE_CELLID, rilapitypes/RIL_PARAM_POSITION_LTE_PHYSCELLID, netvista.rilpositioninfolteparammask, RIL_PARAM_POSITION_LTE_MNC, rilapitypes/RIL_PARAM_POSITION_LTE_TA, RILPOSITIONINFOLTEPARAMMASK, rilapitypes/RILPOSITIONINFOLTEPARAMMASK, RIL_PARAM_POSITION_LTE_ALL, rilapitypes/RIL_PARAM_POSITION_LTE_RSRQ, rilapitypes/RIL_PARAM_POSITION_LTE_MCC, RIL_PARAM_POSITION_LTE_MCC, RILPOSITIONINFOLTEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_POSITION_LTE_TAC, RIL_PARAM_POSITION_LTE_EARFCN, RIL_PARAM_POSITION_LTE_RSRP, rilapitypes/RIL_PARAM_POSITION_LTE_TAC, rilapitypes/RIL_PARAM_POSITION_LTE_EARFCN, rilapitypes/RIL_PARAM_POSITION_LTE_ALL, rilapitypes/RIL_PARAM_POSITION_LTE_MNC, RIL_PARAM_POSITION_LTE_PHYSCELLID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -477,5 +477,5 @@ No
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILPOSITIONINFOLTEPARAMMASK enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILPOSITIONINFOLTEPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

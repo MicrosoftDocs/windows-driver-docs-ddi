@@ -7,8 +7,8 @@ old-location: kernel\ioraiseharderror.htm
 old-project: kernel
 ms.assetid: 140561ce-e2ad-45be-976a-86fb1d0d1e87
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoRaiseHardError routine [Kernel-Mode Driver Architecture], IoRaiseHardError, ntddk/IoRaiseHardError, kernel.ioraiseharderror, k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml
+ms.date: 2/16/2018
+ms.keywords: IoRaiseHardError, k104_d723a2b6-2fdc-43d2-a7bc-ab356157a040.xml, IoRaiseHardError routine [Kernel-Mode Driver Architecture], kernel.ioraiseharderror, ntddk/IoRaiseHardError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,7 @@ Highest-level drivers, particularly file system drivers, call <b>IoRaiseHardErro
 <div> </div>
 <ol>
 <li>
-An upper-level filter driver calls <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls <a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a> (which reenables normal kernel APCs).
+An upper-level filter driver calls <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> (which disables normal kernel APCs) and sends an I/O request to a file system driver. The filter driver waits on the completion of the request by the file system driver before the filter driver calls <a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a> (which reenables normal kernel APCs).
 
 </li>
 <li>
@@ -141,5 +141,5 @@ The behavior of this routine is dependent of the current state of hard errors fo
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRaiseHardError routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRaiseHardError routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

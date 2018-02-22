@@ -7,7 +7,7 @@ old-location: sensors\isensorclassextension.htm
 old-project: sensors
 ms.assetid: db455be3-3aec-47c4-81a8-992aa4926138
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: sensors.isensorclassextension, ISensorClassExtension interface [Sensor Devices], ISensorClassExtension interface [Sensor Devices], described, ISensorClassExtension, sensorsclassextension/ISensorClassExtension, Sensor_IFaces_84ca9d2b-f0e3-4500-99a4-21054c7dc527.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

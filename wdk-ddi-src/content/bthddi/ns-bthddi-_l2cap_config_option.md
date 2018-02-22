@@ -7,8 +7,8 @@ old-location: bltooth\l2cap_config_option.htm
 old-project: bltooth
 ms.assetid: 9759c2b5-91c7-46e9-97dd-8268bf24db78
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], PL2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION, bltooth.l2cap_config_option, L2CAP_CONFIG_OPTION, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, bthddi/L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], bthddi/PL2CAP_CONFIG_OPTION, _L2CAP_CONFIG_OPTION
+ms.date: 2/15/2018
+ms.keywords: bltooth.l2cap_config_option, bth_structs_029f895f-fc15-4e53-9987-72f9930bc9ab.xml, PL2CAP_CONFIG_OPTION structure pointer [Bluetooth Devices], bthddi/PL2CAP_CONFIG_OPTION, bthddi/L2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION structure [Bluetooth Devices], PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION, _L2CAP_CONFIG_OPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	L2CAP_CONFIG_OPTION
 product: Windows
 targetos: Windows
-req.typenames: "*PL2CAP_CONFIG_OPTION, L2CAP_CONFIG_OPTION"
+req.typenames: L2CAP_CONFIG_OPTION, *PL2CAP_CONFIG_OPTION
 ---
 
 # _L2CAP_CONFIG_OPTION structure
@@ -139,17 +139,17 @@ If set, the
 
 
 
-<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_l2ca_open_channel.md">_BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
- 
+<a href="..\bthddi\ns-bthddi-_channel_config_parameters.md">CHANNEL_CONFIG_PARAMETERS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20L2CAP_CONFIG_OPTION structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20L2CAP_CONFIG_OPTION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndis_request_type.htm
 old-project: netvista
 ms.assetid: c4352eab-8bbd-429e-93ad-190372d29f2c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisRequestClose, NdisRequestOpen, ntddndis/NdisRequestGeneric3, PNDIS_REQUEST_TYPE, ntddndis/NdisRequestGeneric4, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, NdisRequestMethod, NdisRequestGeneric4, NdisRequestGeneric1, ntddndis/NdisRequestSend, ntddndis/NdisRequestMethod, NdisRequestSetInformation, ntddndis/NdisRequestGeneric1, NdisRequestQueryInformation, ntddndis/PNDIS_REQUEST_TYPE, _NDIS_REQUEST_TYPE, ntddndis/NdisRequestTransferData, ntddndis/NdisRequestOpen, NdisRequestTransferData, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestReset, NdisRequestGeneric2, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_REQUEST_TYPE, ntddndis/NdisRequestClose, ntddndis/NdisRequestSetInformation, NdisRequestQueryStatistics, ntddndis/NdisRequestQueryStatistics, NdisRequestGeneric3, *PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisRequestGeneric2, netvista.ndis_request_type, NdisRequestSend, ntddndis/NDIS_REQUEST_TYPE, NdisRequestReset
+ms.date: 2/16/2018
+ms.keywords: ntddndis/NdisRequestClose, PNDIS_REQUEST_TYPE, *PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE, ntddndis/NdisRequestSend, NdisRequestGeneric1, ntddndis/NdisRequestOpen, ntddndis/NdisRequestTransferData, NdisRequestQueryInformation, NdisRequestGeneric2, NdisRequestClose, NDIS_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_REQUEST_TYPE, ntddndis/PNDIS_REQUEST_TYPE, ndis_request_ref_78880aa3-bab2-49bd-9232-117accb98ce3.xml, ntddndis/NdisRequestQueryStatistics, NdisRequestSend, _NDIS_REQUEST_TYPE, NdisRequestQueryStatistics, ntddndis/NdisRequestGeneric1, NdisRequestGeneric3, ntddndis/NdisRequestGeneric3, NdisRequestReset, NdisRequestOpen, NdisRequestSetInformation, ntddndis/NdisRequestGeneric4, ntddndis/NdisRequestReset, ntddndis/NdisRequestQueryInformation, ntddndis/NdisRequestMethod, ntddndis/NdisRequestSetInformation, NdisRequestMethod, NdisRequestTransferData, NdisRequestGeneric4, netvista.ndis_request_type, ntddndis/NdisRequestGeneric2, PNDIS_REQUEST_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_REQUEST_TYPE, NDIS_REQUEST_TYPE"
+req.typenames: NDIS_REQUEST_TYPE, *PNDIS_REQUEST_TYPE
 ---
 
 # _NDIS_REQUEST_TYPE enumeration
@@ -182,5 +182,5 @@ The NDIS_REQUEST_TYPE enumeration is used in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_REQUEST_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_REQUEST_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

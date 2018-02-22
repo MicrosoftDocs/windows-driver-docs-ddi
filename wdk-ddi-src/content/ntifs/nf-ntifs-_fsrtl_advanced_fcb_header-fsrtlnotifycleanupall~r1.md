@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlnotifycleanupall.htm
 old-project: ifsk
 ms.assetid: 850728bd-6758-4c21-9bfd-10a0f3d006d6
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlNotifyCleanupAll, ifsk.fsrtlnotifycleanupall, fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, FsRtlNotifyCleanupAll routine [Installable File System Drivers], ntifs/FsRtlNotifyCleanupAll
+ms.date: 2/16/2018
+ms.keywords: ifsk.fsrtlnotifycleanupall, FsRtlNotifyCleanupAll, fsrtlref_f0eea2f1-9bc9-41e1-843c-a69b3e63f452.xml, ntifs/FsRtlNotifyCleanupAll, FsRtlNotifyCleanupAll routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,19 +100,7 @@ Because a notify list is typically associated with a volume, the <b>FsRtlNotifyC
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifycleanup~r2.md">FsRtlNotifyCleanup</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfilterreportchange~r9.md">FsRtlNotifyFilterReportChange</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 
 
@@ -120,9 +108,21 @@ Because a notify list is typically associated with a volume, the <b>FsRtlNotifyC
 
 
 
- 
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifyfullreportchange~r8.md">FsRtlNotifyFullReportChange</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlnotifycleanup~r2.md">FsRtlNotifyCleanup</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlNotifyCleanupAll routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlNotifyCleanupAll routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

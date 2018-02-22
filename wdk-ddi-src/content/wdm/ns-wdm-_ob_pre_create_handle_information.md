@@ -7,8 +7,8 @@ old-location: kernel\ob_pre_create_handle_information.htm
 old-project: kernel
 ms.assetid: 50fd7666-cdec-4bdb-b350-2c2222124020
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "_OB_PRE_CREATE_HANDLE_INFORMATION, wdm/POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, OB_PRE_CREATE_HANDLE_INFORMATION, kernel.ob_pre_create_handle_information, wdm/OB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION, *POB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
+ms.date: 2/16/2018
+ms.keywords: "*POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/OB_PRE_CREATE_HANDLE_INFORMATION, kstruct_c_e7efa519-bfcd-4f16-9723-294f061bea51.xml, _OB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION, OB_PRE_CREATE_HANDLE_INFORMATION, wdm/POB_PRE_CREATE_HANDLE_INFORMATION, POB_PRE_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.ob_pre_create_handle_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -280,17 +280,17 @@ You can never add access rights beyond what is specified in the <b>DesiredAccess
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_PRE_CREATE_HANDLE_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_PRE_CREATE_HANDLE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

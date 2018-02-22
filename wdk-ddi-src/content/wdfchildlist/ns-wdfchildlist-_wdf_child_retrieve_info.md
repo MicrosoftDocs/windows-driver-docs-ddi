@@ -7,8 +7,8 @@ old-location: wdf\wdf_child_retrieve_info.htm
 old-project: wdf
 ms.assetid: 0c48e7cd-e9aa-4ae7-bd44-fe16e1b0d619
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_child_retrieve_info, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml, WDF_CHILD_RETRIEVE_INFO structure, PWDF_CHILD_RETRIEVE_INFO structure pointer, _WDF_CHILD_RETRIEVE_INFO, wdfchildlist/WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO, wdf.wdf_child_retrieve_info, PWDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO
+ms.date: 2/20/2018
+ms.keywords: wdf.wdf_child_retrieve_info, PWDF_CHILD_RETRIEVE_INFO structure pointer, DFDeviceObjectChildListRef_f2075d85-7f9e-4b9c-b702-c2ef2be65987.xml, _WDF_CHILD_RETRIEVE_INFO, WDF_CHILD_RETRIEVE_INFO, *PWDF_CHILD_RETRIEVE_INFO, PWDF_CHILD_RETRIEVE_INFO, wdfchildlist/PWDF_CHILD_RETRIEVE_INFO, wdfchildlist/WDF_CHILD_RETRIEVE_INFO, kmdf.wdf_child_retrieve_info, WDF_CHILD_RETRIEVE_INFO structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,19 +120,7 @@ To initialize a WDF_CHILD_RETRIEVE_INFO structure, the driver must call <a href=
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-
-
-
 <a href="..\wdfchildlist\ne-wdfchildlist-_wdf_child_list_retrieve_device_status.md">WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS</a>
-
-
-
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md">WdfChildListRetrievePdo</a>
-
-
-
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
 
 
 
@@ -144,9 +132,21 @@ To initialize a WDF_CHILD_RETRIEVE_INFO structure, the driver must call <a href=
 
 
 
- 
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
+
+
+
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistretrievepdo.md">WdfChildListRetrievePdo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_CHILD_RETRIEVE_INFO structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_CHILD_RETRIEVE_INFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

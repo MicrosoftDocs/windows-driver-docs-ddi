@@ -7,8 +7,8 @@ old-location: ifsk\fltparsefilenameinformation.htm
 old-project: ifsk
 ms.assetid: f588f59b-5efa-4783-bb45-935b91c69cb5
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltParseFileNameInformation function [Installable File System Drivers], FltApiRef_p_to_z_37671009-fb66-4dba-ae61-23801aef9f21.xml, fltkernel/FltParseFileNameInformation, FltParseFileNameInformation, ifsk.fltparsefilenameinformation
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltParseFileNameInformation, FltParseFileNameInformation function [Installable File System Drivers], FltApiRef_p_to_z_37671009-fb66-4dba-ae61-23801aef9f21.xml, ifsk.fltparsefilenameinformation, FltParseFileNameInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -174,15 +174,7 @@ The caller must not modify the contents of the <i>FileNameInformation</i> struct
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
 
 
 
@@ -190,17 +182,25 @@ The caller must not modify the contents of the <i>FileNameInformation</i> struct
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_file_name_information.md">FLT_FILE_NAME_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltParseFileNameInformation function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltParseFileNameInformation function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

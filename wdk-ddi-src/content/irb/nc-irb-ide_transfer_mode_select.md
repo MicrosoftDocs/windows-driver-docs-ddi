@@ -7,7 +7,7 @@ old-location: storage\atacontrollertransfermodeselect.htm
 old-project: storage
 ms.assetid: 3ee46b54-791f-4eac-84d7-5a0093b6984a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.atacontrollertransfermodeselect, AtaControllerTransferModeSelect routine [Storage Devices], AtaControllerTransferModeSelect, IDE_TRANSFER_MODE_SELECT, IDE_TRANSFER_MODE_SELECT, irb/AtaControllerTransferModeSelect, atartns_c4d206b0-4a6a-49ce-b729-97c8b01e4089.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -120,5 +120,5 @@ The <b><i>AtaControllerTransferModeSelect</i></b> miniport driver routine must s
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaControllerTransferModeSelect routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaControllerTransferModeSelect routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

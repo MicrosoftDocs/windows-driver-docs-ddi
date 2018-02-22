@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses method
 author: windows-driver-content
 description: The GetTotalNumberThreadsAndProcesses method returns the total number of threads and processes in all the targets the engine is attached to, in addition to the largest number of threads and processes in a target.
 old-location: debugger\gettotalnumberthreadsandprocesses.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 452dc67b-1938-4757-99bd-507a32d9a71a
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, debugger.gettotalnumberthreadsandprocesses
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects_503ce0cc-8781-4a45-aa59-727b41aaf23b.xml, GetTotalNumberThreadsAndProcesses method [Windows Debugging], GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method, IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, dbgeng/IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses, IDebugSystemObjects3, IDebugSystemObjects4::GetTotalNumberThreadsAndProcesses, GetTotalNumberThreadsAndProcesses method [Windows Debugging], IDebugSystemObjects4 interface, debugger.gettotalnumberthreadsandprocesses, IDebugSystemObjects4 interface [Windows Debugging], GetTotalNumberThreadsAndProcesses method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSystemObjects4.GetTotalNumberThreadsAndProcesses
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses method
@@ -136,11 +136,11 @@ If no target is found, all the values are set to zero.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558896">Threads and Processes</a>
 
 
 
@@ -152,5 +152,5 @@ If no target is found, all the values are set to zero.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSystemObjects3::GetTotalNumberThreadsAndProcesses method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

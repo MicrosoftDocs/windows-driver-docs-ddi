@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_forward_progress_reserved_policy_settings.htm
 old-project: wdf
 ms.assetid: 28ffe82f-79b6-4a00-b4fa-36df5df303a6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure, DFQueueObjectRef_47fb2461-dada-4f4e-aba8-91759b3092ea.xml, wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS, kmdf.wdf_io_forward_progress_reserved_policy_settings, wdf.wdf_io_forward_progress_reserved_policy_settings
+ms.date: 2/20/2018
+ms.keywords: wdfio/WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS, _WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS structure, kmdf.wdf_io_forward_progress_reserved_policy_settings, wdf.wdf_io_forward_progress_reserved_policy_settings, DFQueueObjectRef_47fb2461-dada-4f4e-aba8-91759b3092ea.xml, WDF_IO_FORWARD_PROGRESS_RESERVED_POLICY_SETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

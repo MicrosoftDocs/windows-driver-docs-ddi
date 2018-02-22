@@ -7,8 +7,8 @@ old-location: storage\storportgetbusdata.htm
 old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortGetBusData routine [Storage Devices], storage.storportgetbusdata, StorPortGetBusData, storport/StorPortGetBusData, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml
+ms.date: 2/16/2018
+ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, storage.storportgetbusdata, storport/StorPortGetBusData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,7 +81,7 @@ Pointer to the miniport driver's per-HBA storage area.
 
 ### -param BusDataType [in]
 
-Contains a value of type <a href="..\ntddk\ne-ntddk-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: <b>Cmos</b>, <b>EisaConfiguration</b>, <b>Pos</b>, or <b>PCIConfiguration</b>. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always <b>MaximumBusDataType</b>.
+Contains a value of type <a href="..\miniport\ne-miniport-_bus_data_type.md">BUS_DATA_TYPE</a> that specifies the type of bus-specific configuration data to be returned. Currently, this value can be one of the following: <b>Cmos</b>, <b>EisaConfiguration</b>, <b>Pos</b>, or <b>PCIConfiguration</b>. However, additional types of bus configuration will be supported in the future. The upper bound on the types supported is always <b>MaximumBusDataType</b>.
 
 
 ### -param SystemIoBusNumber [in]
@@ -158,17 +158,17 @@ Configuration data returned by <b>StorPortGetBusData</b> is valid only until the
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 
 
- 
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetBusData routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetBusData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

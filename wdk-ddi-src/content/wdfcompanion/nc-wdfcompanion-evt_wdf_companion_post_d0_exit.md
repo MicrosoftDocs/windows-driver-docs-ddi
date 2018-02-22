@@ -7,7 +7,7 @@ old-location: wdf\evt_wdf_companion_post_d0_exit.htm
 old-project: wdf
 ms.assetid: 40ccd895-d01f-4057-a5d1-5274e9d9b913
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evt_wdf_companion_post_d0_exit, EVT_WDF_COMPANION_POST_D0_EXIT callback function, EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT, EVT_WDF_COMPANION_POST_D0_EXIT, wdfcompanion/EVT_WDF_COMPANION_POST_D0_EXIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EVT_WDF_COMPANION_POST_D0_EXIT
 product: Windows
 targetos: Windows
-req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
+req.typenames: "*PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

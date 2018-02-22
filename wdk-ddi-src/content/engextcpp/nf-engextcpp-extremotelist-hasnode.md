@@ -4,11 +4,11 @@ title: ExtRemoteList::HasNode method
 author: windows-driver-content
 description: The HasNode method determines if there is a current item in the list iteration.
 old-location: debugger\extremotelist_hasnode.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 412a77c8-eb10-43c5-bc45-2c61858463a7
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: HasNode, HasNode method [Windows Debugging], ExtRemoteList class, ExtRemoteList::HasNode, HasNode method [Windows Debugging], debugger.extremotelist_hasnode, ExtRemoteList class [Windows Debugging], HasNode method, ExtRemoteList, EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml
+ms.date: 2/15/2018
+ms.keywords: EngExtCpp_Ref_c97c7662-0bbc-4458-9b69-34805fe8c451.xml, ExtRemoteList::HasNode, HasNode method [Windows Debugging], ExtRemoteList class [Windows Debugging], HasNode method, debugger.extremotelist_hasnode, HasNode, ExtRemoteList, HasNode method [Windows Debugging], ExtRemoteList class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteList.HasNode
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteList::HasNode method
@@ -101,5 +101,5 @@ If this method returns <code>true</code>, <a href="https://msdn.microsoft.com/li
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteList.HasNode method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20ExtRemoteList.HasNode method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

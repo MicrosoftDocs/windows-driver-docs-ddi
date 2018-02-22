@@ -7,8 +7,8 @@ old-location: wdf\iremotetargetcallbackremoval_onremotetargetremovecomplete.htm
 old-project: wdf
 ms.assetid: bfac8f91-2367-4194-8e98-e274025c049a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval interface, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, OnRemoteTargetRemoveComplete method, OnRemoteTargetRemoveComplete
+ms.date: 2/20/2018
+ms.keywords: UMDFIoTargetObjectRef_bec0246d-a3e9-41b2-b577-fef78c8e4668.xml, wudfddi/IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, IRemoteTargetCallbackRemoval, OnRemoteTargetRemoveComplete, wdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveComplete method, umdf.iremotetargetcallbackremoval_onremotetargetremovecomplete, IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete, OnRemoteTargetRemoveComplete method, IRemoteTargetCallbackRemoval interface, OnRemoteTargetRemoveComplete method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRemoteTargetCallbackRemoval.OnRemoteTargetRemoveComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -109,10 +109,6 @@ For more information about the <b>OnRemoteTargetRemoveComplete</b> event callbac
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556897">IRemoteTargetCallbackRemoval::OnRemoteTargetQueryRemove</a>
 
 
@@ -121,9 +117,13 @@ For more information about the <b>OnRemoteTargetRemoveComplete</b> event callbac
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556899">IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveCanceled</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IRemoteTargetCallbackRemoval::OnRemoteTargetRemoveComplete method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

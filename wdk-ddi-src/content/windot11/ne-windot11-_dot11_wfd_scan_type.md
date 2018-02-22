@@ -7,8 +7,8 @@ old-location: netvista\dot11_wfd_scan_type.htm
 old-project: netvista
 ms.assetid: E7F76E93-79B8-48AE-A1D1-E3215E2402F8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_WFD_SCAN_TYPE, _DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, windot11/dot11_wfd_scan_type_passive, *PDOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_auto, DOT11_WFD_SCAN_TYPE, netvista.dot11_wfd_scan_type, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_passive, dot11_wfd_scan_type_active
+ms.date: 2/16/2018
+ms.keywords: windot11/dot11_wfd_scan_type_auto, DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_passive, windot11/DOT11_WFD_SCAN_TYPE, DOT11_WFD_SCAN_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_scan_type, _DOT11_WFD_SCAN_TYPE, windot11/dot11_wfd_scan_type_active, dot11_wfd_scan_type_passive, *PDOT11_WFD_SCAN_TYPE, dot11_wfd_scan_type_auto, dot11_wfd_scan_type_active
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -96,17 +96,17 @@ The system will set only one scan type at a time. The driver should use this set
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
 
 
 
- 
+<a href="..\windot11\ns-windot11-_dot11_wfd_discover_request.md">DOT11_WFD_DISCOVER_REQUEST</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_WFD_SCAN_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_WFD_SCAN_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

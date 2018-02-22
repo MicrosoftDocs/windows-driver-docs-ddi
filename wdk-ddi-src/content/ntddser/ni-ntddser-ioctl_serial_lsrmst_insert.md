@@ -7,7 +7,7 @@ old-location: serports\ioctl_serial_lsrmst_insert.htm
 old-project: serports
 ms.assetid: 363ae373-5474-4c20-a382-20577a72521e
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serial_lsrmst_insert, IOCTL_SERIAL_LSRMST_INSERT control code [Serial Ports], IOCTL_SERIAL_LSRMST_INSERT, ntddser/IOCTL_SERIAL_LSRMST_INSERT, serref_d071ffb1-f8ea-44e3-8caa-08e2c51e0198.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

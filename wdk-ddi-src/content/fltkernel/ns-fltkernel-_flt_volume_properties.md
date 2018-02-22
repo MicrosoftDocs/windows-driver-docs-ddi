@@ -7,8 +7,8 @@ old-location: ifsk\flt_volume_properties.htm
 old-project: ifsk
 ms.assetid: e7be6cb6-a59d-4244-ba36-e7d5b36b1416
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fltkernel/FLT_VOLUME_PROPERTIES, fltkernel/PFLT_VOLUME_PROPERTIES, ifsk.flt_volume_properties, PFLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers], _FLT_VOLUME_PROPERTIES, FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml, *PFLT_VOLUME_PROPERTIES, VOL_PROP_FL_DAX_VOLUME, PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], FLT_VOLUME_PROPERTIES
+ms.date: 2/16/2018
+ms.keywords: PFLT_VOLUME_PROPERTIES structure pointer [Installable File System Drivers], VOL_PROP_FL_DAX_VOLUME, *PFLT_VOLUME_PROPERTIES, ifsk.flt_volume_properties, PFLT_VOLUME_PROPERTIES, fltkernel/PFLT_VOLUME_PROPERTIES, _FLT_VOLUME_PROPERTIES, FltSystemStructures_9de12b81-e647-4dc7-8d4c-dd90070c7dfa.xml, FLT_VOLUME_PROPERTIES, fltkernel/FLT_VOLUME_PROPERTIES, FLT_VOLUME_PROPERTIES structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -168,19 +168,7 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<b>FltGetVolumeName</b>
 
 
 
@@ -192,9 +180,21 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 
 
- 
+<b>FltGetVolumeName</b>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_VOLUME_PROPERTIES structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_VOLUME_PROPERTIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

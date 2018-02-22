@@ -7,8 +7,8 @@ old-location: hid\hidp_getlinkcollectionnodes.htm
 old-project: hid
 ms.assetid: d829b203-8b7f-4504-a9ac-da1f91b3bbd6
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: hidpi/HidP_GetLinkCollectionNodes, hidfunc_cbcd531f-dc4d-4a27-96bd-bfa3589af9a7.xml, HidP_GetLinkCollectionNodes, hid.hidp_getlinkcollectionnodes, HidP_GetLinkCollectionNodes routine [Human Input Devices]
+ms.date: 2/15/2018
+ms.keywords: HidP_GetLinkCollectionNodes routine [Human Input Devices], hidfunc_cbcd531f-dc4d-4a27-96bd-bfa3589af9a7.xml, hid.hidp_getlinkcollectionnodes, HidP_GetLinkCollectionNodes, hidpi/HidP_GetLinkCollectionNodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,15 +139,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
 
 <a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 
 
@@ -159,5 +159,5 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetLinkCollectionNodes routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetLinkCollectionNodes routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

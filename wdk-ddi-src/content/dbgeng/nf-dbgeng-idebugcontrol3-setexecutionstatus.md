@@ -4,11 +4,11 @@ title: IDebugControl3::SetExecutionStatus method
 author: windows-driver-content
 description: The SetExecutionStatus method requests that the debugger engine enter an executable state. Actual execution will not occur until the next time WaitForEvent is called.
 old-location: debugger\setexecutionstatus.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f3468fe5-31b4-4bf6-b0e3-ee27ecfd8e06
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl2, SetExecutionStatus method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::SetExecutionStatus, SetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], SetExecutionStatus method, debugger.setexecutionstatus, IDebugControl3, IDebugControl::SetExecutionStatus, IDebugControl, SetExecutionStatus method [Windows Debugging], IDebugControl3::SetExecutionStatus, IDebugControl2::SetExecutionStatus, dbgeng/IDebugControl::SetExecutionStatus, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, SetExecutionStatus, IDebugControl3 interface [Windows Debugging], SetExecutionStatus method, IDebugControl2 interface [Windows Debugging], SetExecutionStatus method, SetExecutionStatus method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::SetExecutionStatus
+ms.date: 2/15/2018
+ms.keywords: SetExecutionStatus method [Windows Debugging], IDebugControl3 interface, IDebugControl3, IDebugControl2, SetExecutionStatus method [Windows Debugging], IDebugControl2 interface, IDebugControl::SetExecutionStatus, dbgeng/IDebugControl3::SetExecutionStatus, IDebugControl, SetExecutionStatus method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], SetExecutionStatus method, debugger.setexecutionstatus, SetExecutionStatus, IDebugControl3 interface [Windows Debugging], SetExecutionStatus method, IDebugControl2 interface [Windows Debugging], SetExecutionStatus method, IDebugControl2::SetExecutionStatus, IDebugControl3::SetExecutionStatus, dbgeng/IDebugControl2::SetExecutionStatus, IDebugControl_b89bf576-8a07-49a8-8373-0b915300d36a.xml, dbgeng/IDebugControl::SetExecutionStatus, SetExecutionStatus method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.SetExecutionStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::SetExecutionStatus method
@@ -150,10 +150,6 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546675">GetExecutionStatus</a>
 
 
@@ -162,9 +158,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetExecutionStatus method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::SetExecutionStatus method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

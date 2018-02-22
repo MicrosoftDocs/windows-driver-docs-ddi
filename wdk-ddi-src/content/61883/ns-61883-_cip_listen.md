@@ -7,8 +7,8 @@ old-location: ieee\cip_listen.htm
 old-project: IEEE
 ms.assetid: 362ABECF-66D3-4B0B-913B-59F7196D6BFD
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 61883/CIP_LISTEN, 61883/PCIP_LISTEN, *PCIP_LISTEN, PCIP_LISTEN structure pointer [Buses], CIP_LISTEN structure [Buses], PCIP_LISTEN, CIP_LISTEN, _CIP_LISTEN, IEEE.cip_listen
+ms.date: 2/15/2018
+ms.keywords: PCIP_LISTEN structure pointer [Buses], 61883/CIP_LISTEN, CIP_LISTEN, CIP_LISTEN structure [Buses], 61883/PCIP_LISTEN, _CIP_LISTEN, PCIP_LISTEN, *PCIP_LISTEN, IEEE.cip_listen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,5 +95,5 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_LISTEN structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_LISTEN structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

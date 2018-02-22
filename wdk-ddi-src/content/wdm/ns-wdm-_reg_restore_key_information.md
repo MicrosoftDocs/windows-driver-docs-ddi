@@ -7,8 +7,8 @@ old-location: kernel\reg_restore_key_information.htm
 old-project: kernel
 ms.assetid: df9180d8-37aa-4b75-a8c6-a786901bd8a6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PREG_RESTORE_KEY_INFORMATION, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/REG_RESTORE_KEY_INFORMATION, _REG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_RESTORE_KEY_INFORMATION, wdm/PREG_RESTORE_KEY_INFORMATION, *PREG_RESTORE_KEY_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: REG_RESTORE_KEY_INFORMATION, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, PREG_RESTORE_KEY_INFORMATION, *PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PREG_RESTORE_KEY_INFORMATION, wdm/REG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, _REG_RESTORE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,5 +146,5 @@ For more information about registry filtering operations, see <a href="https://m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_RESTORE_KEY_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_RESTORE_KEY_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

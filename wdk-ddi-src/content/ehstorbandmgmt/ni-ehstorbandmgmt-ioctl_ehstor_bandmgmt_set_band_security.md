@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_bandmgmt_set_band_security.htm
 old-project: storage
 ms.assetid: CBA94AF4-649D-47C9-879B-4B939DE32BE2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_ehstor_bandmgmt_set_band_security, IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control code [Storage Devices], IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY, ehstorbandmgmt/IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -162,7 +162,7 @@ The changes made to the band table by this request are committed to the device a
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_security_parameters.md">SET_BAND_SECURITY_PARAMETERS</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
 
 
 
@@ -170,7 +170,7 @@ The changes made to the band table by this request are committed to the device a
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_security_info.md">BAND_SECURITY_INFO</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_security_parameters.md">SET_BAND_SECURITY_PARAMETERS</a>
 
 
 
@@ -178,5 +178,5 @@ The changes made to the band table by this request are committed to the device a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_EHSTOR_BANDMGMT_SET_BAND_SECURITY control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: battery\powersourceupdateex.htm
 old-project: battery
 ms.assetid: FAA39A82-E27E-41BD-9830-03EAE7CFF64F
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: POWERSOURCEUPDATEEX, charging/BATTERY_INFORMATION, battery.powersourceupdateex, POWERSOURCEUPDATEEX structure [Battery Devices], _POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
+ms.date: 2/15/2018
+ms.keywords: battery.powersourceupdateex, charging/BATTERY_INFORMATION, _POWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX structure [Battery Devices], POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

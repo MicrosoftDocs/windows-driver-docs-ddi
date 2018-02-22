@@ -4,11 +4,11 @@ title: "_URS_HOST_INTERFACE_TYPE"
 author: windows-driver-content
 description: Defines values for the various types of USB host controllers.
 old-location: buses\urs_host_interface_type.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: E019CCED-3511-4B7B-B6C9-09FF31B0547A
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: urstypes/URS_HOST_INTERFACE_TYPE, URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeEhci, urstypes/UrsHostInterfaceTypeXhci, buses.urs_host_interface_type, UrsHostInterfaceTypeXhci, urstypes/UrsHostInterfaceTypeOther, _URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeOther, URS_HOST_INTERFACE_TYPE enumeration [Buses]
+ms.date: 2/15/2018
+ms.keywords: urstypes/URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, URS_HOST_INTERFACE_TYPE enumeration [Buses], UrsHostInterfaceTypeXhci, urstypes/UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeXhci, buses.urs_host_interface_type, _URS_HOST_INTERFACE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

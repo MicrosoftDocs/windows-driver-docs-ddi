@@ -7,8 +7,8 @@ old-location: ieee\textual_leaf.htm
 old-project: IEEE
 ms.assetid: 883c561c-0d1b-4a6c-946e-8ca567b12c9a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PTEXTUAL_LEAF structure pointer [Buses], TEXTUAL_LEAF, _TEXTUAL_LEAF, PTEXTUAL_LEAF, IEEE.textual_leaf, 1394/PTEXTUAL_LEAF, *PTEXTUAL_LEAF, TEXTUAL_LEAF structure [Buses], 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, 1394/TEXTUAL_LEAF
+ms.date: 2/15/2018
+ms.keywords: 1394stct_b63840e2-0a05-49e9-a533-9575f46af648.xml, TEXTUAL_LEAF structure [Buses], IEEE.textual_leaf, *PTEXTUAL_LEAF, _TEXTUAL_LEAF, PTEXTUAL_LEAF structure pointer [Buses], TEXTUAL_LEAF, 1394/TEXTUAL_LEAF, 1394/PTEXTUAL_LEAF, PTEXTUAL_LEAF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TEXTUAL_LEAF
 product: Windows
 targetos: Windows
-req.typenames: TEXTUAL_LEAF, *PTEXTUAL_LEAF
+req.typenames: "*PTEXTUAL_LEAF, TEXTUAL_LEAF"
 ---
 
 # _TEXTUAL_LEAF structure
@@ -106,5 +106,5 @@ Specifies a vendor-specified textual description of the device.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20TEXTUAL_LEAF structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20TEXTUAL_LEAF structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

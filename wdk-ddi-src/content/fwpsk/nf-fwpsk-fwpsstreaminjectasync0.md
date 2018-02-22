@@ -7,8 +7,8 @@ old-location: netvista\fwpsstreaminjectasync0.htm
 old-project: netvista
 ms.assetid: d72c3067-21df-40ee-a898-100fcdc5eaca
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsStreamInjectAsync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, netvista.fwpsstreaminjectasync0, FwpsStreamInjectAsync0
+ms.date: 2/16/2018
+ms.keywords: wfp_ref_2_funct_3_fwps_R-Z_422b8f08-5d55-4825-8c17-62c4c4e2c1c1.xml, FwpsStreamInjectAsync0, netvista.fwpsstreaminjectasync0, FwpsStreamInjectAsync0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsStreamInjectAsync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -363,7 +363,31 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
 
 
 
@@ -372,11 +396,8 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
+   FwpsAllocateNetBufferAndNetBufferList0</a>
 
 
 
@@ -385,32 +406,11 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsclonestreamdata0.md">FwpsCloneStreamData0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-   FwpsAllocateNetBufferAndNetBufferList0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552401">FWPS_INCOMING_VALUES0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
 
 
 
@@ -418,5 +418,5 @@ If the return value is not STATUS_SUCCESS, the completion function will not be c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsStreamInjectAsync0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsStreamInjectAsync0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

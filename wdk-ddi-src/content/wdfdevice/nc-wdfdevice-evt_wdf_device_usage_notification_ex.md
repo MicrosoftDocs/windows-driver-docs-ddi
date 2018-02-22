@@ -7,7 +7,7 @@ old-location: wdf\evtdeviceusagenotificationex.htm
 old-project: wdf
 ms.assetid: A5C3E247-4883-4BFE-B36A-45AA989F36C9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtdeviceusagenotificationex, EvtDeviceUsageNotificationEx callback function, EvtDeviceUsageNotificationEx, EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX, EVT_WDF_DEVICE_USAGE_NOTIFICATION_EX, wdfdevice/EvtDeviceUsageNotificationEx, kmdf.evtdeviceusagenotificationex
 ms.prod: windows-hardware
 ms.technology: windows-devices

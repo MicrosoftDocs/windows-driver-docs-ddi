@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_get_capabilities_white.htm
 old-project: stream
 ms.assetid: F4A7CF9A-023F-42FC-A40C-E95964EC5392
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.ioctl_lamp_get_capabilities_white, IOCTL_LAMP_GET_CAPABILITIES_WHITE control code [Streaming Media Devices], IOCTL_LAMP_GET_CAPABILITIES_WHITE, lamp/IOCTL_LAMP_GET_CAPABILITIES_WHITE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: display\dxgkarg_recommendvidpntopology.htm
 old-project: display
 ms.assetid: 9a3efdc8-4534-4de6-89f8-42d94ba8b9a6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices], DXGKARG_RECOMMENDVIDPNTOPOLOGY, display.dxgkarg_recommendvidpntopology, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY
+ms.date: 2/20/2018
+ms.keywords: display.dxgkarg_recommendvidpntopology, _DXGKARG_RECOMMENDVIDPNTOPOLOGY, DmStructs_960673e2-caf0-4f46-9b8c-c1da025fb6bf.xml, d3dkmddi/DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY, DXGKARG_RECOMMENDVIDPNTOPOLOGY structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,5 +106,5 @@ A handle to a VidPN topology object that represents the fallback VidPN topology 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_RECOMMENDVIDPNTOPOLOGY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_RECOMMENDVIDPNTOPOLOGY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

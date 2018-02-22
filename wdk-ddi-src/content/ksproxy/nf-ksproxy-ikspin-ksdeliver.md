@@ -7,8 +7,8 @@ old-location: stream\ikspin_ksdeliver.htm
 old-project: stream
 ms.assetid: e527a659-7ed5-4262-bed2-3bab58919401
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: IKsPin interface [Streaming Media Devices], KsDeliver method, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, KsDeliver method [Streaming Media Devices], IKsPin interface, IKsPin, stream.ikspin_ksdeliver, KsDeliver method [Streaming Media Devices], ksproxy/IKsPin::KsDeliver, KsDeliver, IKsPin::KsDeliver
+ms.date: 2/20/2018
+ms.keywords: IKsPin::KsDeliver, IKsPin interface [Streaming Media Devices], KsDeliver method, ksproxy_3608c6b5-20e3-43e1-b1aa-a283f8d00f17.xml, KsDeliver method [Streaming Media Devices], KsDeliver method [Streaming Media Devices], IKsPin interface, IKsPin, stream.ikspin_ksdeliver, KsDeliver, ksproxy/IKsPin::KsDeliver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -138,5 +138,5 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin::KsDeliver method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin::KsDeliver method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

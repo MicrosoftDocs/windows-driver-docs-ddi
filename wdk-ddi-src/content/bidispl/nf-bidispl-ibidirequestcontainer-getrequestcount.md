@@ -7,8 +7,8 @@ old-location: print\ibidirequestcontainer_ibidirequestcontainer__getrequestcount
 old-project: print
 ms.assetid: 4215ca86-9ceb-451d-8e67-992a8a3f9bab
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, IBidiRequestContainer, GetRequestCount method [Print Devices], GetRequestCount, bidispl/IBidiRequestContainer::GetRequestCount, IBidiRequestContainer::GetRequestCount, GetRequestCount method [Print Devices], IBidiRequestContainer interface, gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, IBidiRequestContainer interface [Print Devices], GetRequestCount method, _win32_IBidiRequestContainer_GetRequestCount
+ms.date: 2/21/2018
+ms.keywords: gdi.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, GetRequestCount, GetRequestCount method [Print Devices], IBidiRequestContainer interface, bidispl/IBidiRequestContainer::GetRequestCount, IBidiRequestContainer interface [Print Devices], GetRequestCount method, IBidiRequestContainer::GetRequestCount, GetRequestCount method [Print Devices], print.ibidirequestcontainer_ibidirequestcontainer__getrequestcount, IBidiRequestContainer, _win32_IBidiRequestContainer_GetRequestCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiRequestContainer.GetRequestCount
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiRequestContainer::GetRequestCount method
@@ -140,5 +140,5 @@ The <b>HRESULT</b> contains an error code corresponding to the last error.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequestContainer::GetRequestCount method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequestContainer::GetRequestCount method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\token_groups.htm
 old-project: ifsk
 ms.assetid: 08faebdf-7e6d-4da4-a4c2-a0b57de437ce
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml, TOKEN_GROUPS structure [Installable File System Drivers], _TOKEN_GROUPS, ntifs/PTOKEN_GROUPS, TOKEN_GROUPS, *PTOKEN_GROUPS, ifsk.token_groups, PTOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Installable File System Drivers], ntifs/TOKEN_GROUPS
+ms.date: 2/16/2018
+ms.keywords: ntifs/TOKEN_GROUPS, PTOKEN_GROUPS structure pointer [Installable File System Drivers], PTOKEN_GROUPS, *PTOKEN_GROUPS, TOKEN_GROUPS, ifsk.token_groups, TOKEN_GROUPS structure [Installable File System Drivers], securitystructures_97d0491f-87b4-4e76-8252-fad37cc94c1c.xml, ntifs/PTOKEN_GROUPS, _TOKEN_GROUPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TOKEN_GROUPS
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_GROUPS, *PTOKEN_GROUPS
+req.typenames: "*PTOKEN_GROUPS, TOKEN_GROUPS"
 ---
 
 # _TOKEN_GROUPS structure
@@ -71,16 +71,6 @@ typedef struct _TOKEN_GROUPS {
 ### -field GroupCount
 
 Specifies the number of groups in the access token. 
-
-
-### -field Groups.size_is
-
- 
-
-
-### -field Groups.size_is.GroupCount
-
- 
 
 
 ### -field Groups
@@ -127,5 +117,5 @@ You can use <a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a> to de
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_GROUPS structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_GROUPS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

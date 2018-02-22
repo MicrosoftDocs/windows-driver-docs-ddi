@@ -7,8 +7,8 @@ old-location: wdf\wdffdoinitallocandquerypropertyex.htm
 old-project: wdf
 ms.assetid: 8F338F5B-2F18-4D7D-AF96-7F80A48D37FB
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdffdoinitallocandquerypropertyex, PFN_WDFFDOINITALLOCANDQUERYPROPERTYEX, wdffdo/WdfFdoInitAllocAndQueryPropertyEx, WdfFdoInitAllocAndQueryPropertyEx method, WdfFdoInitAllocAndQueryPropertyEx
+ms.date: 2/20/2018
+ms.keywords: WdfFdoInitAllocAndQueryPropertyEx method, wdffdo/WdfFdoInitAllocAndQueryPropertyEx, WdfFdoInitAllocAndQueryPropertyEx, wdf.wdffdoinitallocandquerypropertyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitAllocAndQueryPropertyEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -90,7 +90,7 @@ A pointer to a <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_property_data.md">
 
 ### -param PoolType [in]
 
-A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed enumerator that specifies the type of memory to be allocated.
+A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>-typed enumerator that specifies the type of memory to be allocated.
 
 
 ### -param PropertyMemoryAttributes [in, optional]
@@ -168,5 +168,5 @@ For information about related methods, see <a href="https://msdn.microsoft.com/C
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitAllocAndQueryPropertyEx method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitAllocAndQueryPropertyEx method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

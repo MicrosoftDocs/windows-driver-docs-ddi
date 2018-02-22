@@ -7,8 +7,8 @@ old-location: biometric\winbio_bir.htm
 old-project: biometric
 ms.assetid: 159d4767-b0e2-4d76-b23c-e078e13827dd
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "_WINBIO_BIR, PWINBIO_BIR, winbio_types/WINBIO_BIR, biometric.winbio_bir, WINBIO_BIR structure [Biometric Devices], winbio_types/PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], *PWINBIO_BIR, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, WINBIO_BIR"
+ms.date: 2/20/2018
+ms.keywords: winbio_types/WINBIO_BIR, biometric.winbio_bir, _WINBIO_BIR, PWINBIO_BIR, biometric_ref_95ef9f95-37c5-4f04-b4fe-05ef38b4f5f0.xml, winbio_types/PWINBIO_BIR, WINBIO_BIR, *PWINBIO_BIR, PWINBIO_BIR structure pointer [Biometric Devices], WINBIO_BIR structure [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,6 +108,10 @@ The offset of where the <i>StandardDataBlock</i> starts should be the offset of 
 
 
 
+<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_capture_data.md">WINBIO_CAPTURE_DATA</a>
+
+
+
 <a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_data.md">WINBIO_DATA</a>
 
 
@@ -116,13 +120,9 @@ The offset of where the <i>StandardDataBlock</i> starts should be the offset of 
 
 
 
-<a href="..\winbio_ioctl\ns-winbio_ioctl-_winbio_capture_data.md">WINBIO_CAPTURE_DATA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

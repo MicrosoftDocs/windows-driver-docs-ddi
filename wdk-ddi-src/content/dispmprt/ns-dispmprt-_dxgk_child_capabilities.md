@@ -7,8 +7,8 @@ old-location: display\dxgk_child_capabilities.htm
 old-project: display
 ms.assetid: 6ab6a505-ad02-4dce-8061-bba13081208a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PDXGK_CHILD_CAPABILITIES structure pointer [Display Devices], display.dxgk_child_capabilities, DmStructs_886366a4-949a-4171-abcf-e318df848285.xml, DXGK_CHILD_CAPABILITIES structure [Display Devices], DXGK_CHILD_CAPABILITIES, _DXGK_CHILD_CAPABILITIES, *PDXGK_CHILD_CAPABILITIES, dispmprt/DXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES, dispmprt/PDXGK_CHILD_CAPABILITIES
+ms.date: 2/20/2018
+ms.keywords: dispmprt/PDXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES structure [Display Devices], *PDXGK_CHILD_CAPABILITIES, DXGK_CHILD_CAPABILITIES, DmStructs_886366a4-949a-4171-abcf-e318df848285.xml, dispmprt/DXGK_CHILD_CAPABILITIES, display.dxgk_child_capabilities, _DXGK_CHILD_CAPABILITIES, PDXGK_CHILD_CAPABILITIES structure pointer [Display Devices], PDXGK_CHILD_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,9 +81,16 @@ typedef struct _DXGK_CHILD_CAPABILITIES {
      
 
 
-### -field Type.VideoOutput
+
+#### VideoOutput
 
 A <a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a> structure that contains information about a video output. This member is meaningful only if the child device has type <b>TypeVideoOutput</b>.
+
+
+
+#### IntegratedDisplayChild
+
+Returns the integrated display child specific fields of the child capabilities.
 
 
 ### -field Type.Other
@@ -94,11 +101,6 @@ A structure whose only member must be equal to zero if the child device has type
 ### -field Type.Other.MustBeZero
 
 A UINT value that must be equal to zero.
-
-
-### -field Type.IntegratedDisplayChild
-
-Returns the integrated display child specific fields of the child capabilities.
 
 
 ### -field HpdAwareness
@@ -121,11 +123,11 @@ If a child device is of type <b>TypeOther</b>, then <b>Type.Other.MustBeZero</b>
 
 ## -see-also
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_video_output_capabilities.md">DXGK_VIDEO_OUTPUT_CAPABILITIES</a>
 
 
 
@@ -137,5 +139,5 @@ If a child device is of type <b>TypeOther</b>, then <b>Type.Other.MustBeZero</b>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_CAPABILITIES structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_CAPABILITIES structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

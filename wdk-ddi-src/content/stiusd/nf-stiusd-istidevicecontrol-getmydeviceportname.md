@@ -4,11 +4,11 @@ title: IStiDeviceControl::GetMyDevicePortName method
 author: windows-driver-content
 description: The IStiDeviceControl::GetMyDevicePortName method allows a user-mode still image minidriver to obtain a device's port name.
 old-location: image\istidevicecontrol_getmydeviceportname.htm
-old-project: image
+old-project: Image
 ms.assetid: f400ab05-aea9-4154-a725-5b23a6dc06b6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IStiDeviceControl::GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, GetMyDevicePortName method [Imaging Devices], GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, stiusd/IStiDeviceControl::GetMyDevicePortName, GetMyDevicePortName, IStiDeviceControl
+ms.date: 2/15/2018
+ms.keywords: stiusd/IStiDeviceControl::GetMyDevicePortName, image.istidevicecontrol_getmydeviceportname, GetMyDevicePortName, IStiDeviceControl interface [Imaging Devices], GetMyDevicePortName method, stifnc_00f6a8a0-b5dc-43d7-8a68-23b15592b404.xml, GetMyDevicePortName method [Imaging Devices], GetMyDevicePortName method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl::GetMyDevicePortName, IStiDeviceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDeviceControl.GetMyDevicePortName
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: storage\exclusive_access_request_type.htm
 old-project: storage
 ms.assetid: 314dfdeb-1821-444a-84c6-2ee7fa536122
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], ExclusiveAccessUnlockDevice, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml, ntddcdrm/ExclusiveAccessUnlockDevice, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, PEXCLUSIVE_ACCESS_REQUEST_TYPE, _EXCLUSIVE_ACCESS_REQUEST_TYPE, storage.exclusive_access_request_type, ExclusiveAccessLockDevice, ntddcdrm/ExclusiveAccessLockDevice, ExclusiveAccessQueryState, ntddcdrm/ExclusiveAccessQueryState, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices]"
+ms.date: 2/16/2018
+ms.keywords: storage.exclusive_access_request_type, PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/PEXCLUSIVE_ACCESS_REQUEST_TYPE, ntddcdrm/ExclusiveAccessLockDevice, _EXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration [Storage Devices], ExclusiveAccessLockDevice, ntddcdrm/EXCLUSIVE_ACCESS_REQUEST_TYPE, PEXCLUSIVE_ACCESS_REQUEST_TYPE enumeration pointer [Storage Devices], ExclusiveAccessQueryState, *PEXCLUSIVE_ACCESS_REQUEST_TYPE, ExclusiveAccessUnlockDevice, ntddcdrm/ExclusiveAccessQueryState, ntddcdrm/ExclusiveAccessUnlockDevice, structs-CD-ROM_0b0d7aae-3085-422c-84c4-555d935ca176.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	EXCLUSIVE_ACCESS_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PEXCLUSIVE_ACCESS_REQUEST_TYPE, EXCLUSIVE_ACCESS_REQUEST_TYPE"
+req.typenames: EXCLUSIVE_ACCESS_REQUEST_TYPE, *PEXCLUSIVE_ACCESS_REQUEST_TYPE
 ---
 
 # _EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration
@@ -103,5 +103,5 @@ The EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration is used with the <a href="..\ntddc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20EXCLUSIVE_ACCESS_REQUEST_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

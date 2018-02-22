@@ -7,8 +7,8 @@ old-location: smartcrd\scard_reader_capabilities.htm
 old-project: smartcrd
 ms.assetid: f55b74d0-d545-419a-87fb-c320f789aaf4
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: smclib/*PSCARD_READER_CAPABILITIES, smartcrd.scard_reader_capabilities, smclib/SCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], *PSCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, _SCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES
+ms.date: 2/15/2018
+ms.keywords: "*PSCARD_READER_CAPABILITIES, *PSCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], smclib/SCARD_READER_CAPABILITIES, smclib/*PSCARD_READER_CAPABILITIES, SCARD_READER_CAPABILITIES structure [Smart Card Reader Devices], SCARD_READER_CAPABILITIES, scstruct_bf7b8868-e647-42c5-8e1d-18681db95b08.xml, _SCARD_READER_CAPABILITIES, smartcrd.scard_reader_capabilities"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Any level (See Remarks section)
 topictype:
 -	APIRef
 -	kbSyntax
@@ -405,12 +405,14 @@ For more information, see Part 3 of the <i>Interoperability Specification for IC
       A structure with the following members:
 
 
-### -field CLKFrequency.Default
+
+#### Default
 
 Contains the standard clock frequency at which the reader runs, in kilohertz, and encoded in little-endian format. For example, 3.58 MHz is encoded as 3580. This member is required. 
 
 
-### -field CLKFrequency.Max
+
+#### Max
 
 Contains the maximum clock frequency at which the reader can run, in kilohertz, and encoded in little-endian format. This member is required. 
 
@@ -422,12 +424,14 @@ Contains the maximum clock frequency at which the reader can run, in kilohertz, 
      
 
 
-### -field DataRate.Default
+
+#### Default
 
 Contains the standard data rate of the reader, in units of bits per second, and encoded in little-endian format. This member is required. 
 
 
-### -field DataRate.Max
+
+#### Max
 
 Contains the maximum data rate of the reader, in units of bits per second, and encoded in little-endian format. This member is required.  
 
@@ -454,12 +458,14 @@ If <b>TRUE</b>, indicates that the smart card was confiscated.
      
 
 
-### -field DataRatesSupported.List
+
+#### List
 
 Contains a list of data rates, in bits per second, that are supported by the reader. This member is used with the PTS request. The reader driver usually sets this member to a pointer to a static array of unsigned long values that contain the supported data rates. If the reader does not support different data rates, leave this member empty. This member is optional.
 
 
-### -field DataRatesSupported.Entries
+
+#### Entries
 
 Contains the number of linked list entries in DataRatesSupported.List. This member is optional. 
 
@@ -471,6 +477,18 @@ Contains the number of linked list entries in DataRatesSupported.List. This memb
      
 
 
+
+#### List
+
+Contains a list of data rates, in bits per second, that are supported by the reader. This member is used with the PTS request. The reader driver usually sets this member to a pointer to a static array of unsigned long values that contain the supported data rates. If the reader does not support different data rates, leave this member empty. This member is optional.
+
+
+
+#### Entries
+
+Contains the number of linked list entries in DataRatesSupported.List. This member is optional. 
+
+
 ### -field CLKFrequenciesSupported
 
 
@@ -479,12 +497,14 @@ Contains the number of linked list entries in DataRatesSupported.List. This memb
      
 
 
-### -field CLKFrequenciesSupported.List
+
+#### List
 
 Contains a list of clock frequencies, in kilohertz, that are supported by the reader. This member is used with the PTS request. The driver usually sets this member to a pointer to a static array of unsigned long values that contain the supported clock frequencies. If the reader does not support different clock frequencies, leave this member empty. This member is optional. 
 
 
-### -field CLKFrequenciesSupported.Entries
+
+#### Entries
 
 Contains the number of linked list entries of CLKFrquenciesSupported.List. This member is optional. 
 
@@ -495,6 +515,18 @@ Contains the number of linked list entries of CLKFrquenciesSupported.List. This 
       A structure with the following members:
       
      
+
+
+
+#### List
+
+Contains a list of clock frequencies, in kilohertz, that are supported by the reader. This member is used with the PTS request. The driver usually sets this member to a pointer to a static array of unsigned long values that contain the supported clock frequencies. If the reader does not support different clock frequencies, leave this member empty. This member is optional. 
+
+
+
+#### Entries
+
+Contains the number of linked list entries of CLKFrquenciesSupported.List. This member is optional. 
 
 
 ### -field Reserved1

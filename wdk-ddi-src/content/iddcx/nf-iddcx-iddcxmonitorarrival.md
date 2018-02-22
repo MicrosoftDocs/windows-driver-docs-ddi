@@ -7,8 +7,8 @@ old-location: display\iddcxmonitorarrival.htm
 old-project: display
 ms.assetid: e73a8111-9e54-4040-a38a-441948e10212
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IddCxMonitorArrival, display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival, IddCxMonitorArrival method [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: IddCxMonitorArrival method [Display Devices], display.iddcxmonitorarrival, iddcx/IddCxMonitorArrival, IddCxMonitorArrival
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

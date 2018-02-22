@@ -7,8 +7,8 @@ old-location: acpi\acpi_enum_children_output_buffer.htm
 old-project: acpi
 ms.assetid: e7e9fdae-4951-4878-a5b6-81d681eca472
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: "_ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi.acpi_enum_children_output_buffer"
+ms.date: 2/15/2018
+ms.keywords: acpi-meth-eval-ref_cb8acde5-31cb-4b32-9337-e196db32de8b.xml, *PACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure [ACPI Devices], _ACPI_ENUM_CHILDREN_OUTPUT_BUFFER, acpi.acpi_enum_children_output_buffer, acpiioct/ACPI_ENUM_CHILDREN_OUTPUT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,5 +109,5 @@ For information about how to enumerate child objects of a device, see <a href="h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_ENUM_CHILDREN_OUTPUT_BUFFER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

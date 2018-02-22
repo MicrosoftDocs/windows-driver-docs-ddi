@@ -7,8 +7,8 @@ old-location: ifsk\token_information_class.htm
 old-project: ifsk
 ms.assetid: dd2323fa-2c58-462e-905f-3b201ef0c343
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: TokenOwner, TokenGroupsAndPrivileges, ntifs/TokenDeviceGroups, ntifs/TokenAppContainerSid, ntifs/TokenAuditPolicy, ntifs/TokenCapabilities, ntifs/TokenVirtualizationAllowed, ntifs/TokenGroupsAndPrivileges, ifsk.token_information_class, ntifs/TokenPrivileges, ntifs/TokenProcessTrustLevel, ntifs/TokenRestrictedDeviceClaimAttributes, ntifs/TokenOrigin, ntifs/TOKEN_INFORMATION_CLASS, TokenIsAppContainer, TokenAppContainerNumber, ntifs/TokenSandBoxInert, TokenElevation, TokenImpersonationLevel, TokenSecurityAttributes, TokenAppContainerSid, ntifs/TokenGroups, TokenMandatoryPolicy, ntifs/TokenOwner, ntifs/TokenMandatoryPolicy, ntifs/TokenHasRestrictions, TokenDeviceClaimAttributes, TokenStatistics, TokenDefaultDacl, TokenHasRestrictions, ntifs/TokenImpersonationLevel, TokenAuditPolicy, ntifs/TokenSessionId, TokenRestrictedDeviceClaimAttributes, ntifs/TokenUIAccess, TokenIntegrityLevel, ntifs/TokenAccessInformation, ntifs/TokenAppContainerNumber, TokenPrivileges, TokenCapabilities, TokenIsRestricted, ntifs/TokenIsRestricted, MaxTokenInfoClass, *PTOKEN_INFORMATION_CLASS, ntifs/TokenType, ntifs/TokenLinkedToken, ntifs/TokenDefaultDacl, ntifs/TokenSessionReference, _TOKEN_INFORMATION_CLASS, ntifs/MaxTokenInfoClass, PTOKEN_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], TokenVirtualizationEnabled, ntifs/TokenSecurityAttributes, TokenOrigin, ntifs/TokenRestrictedSids, TokenUserClaimAttributes, ntifs/TokenUser, TokenLinkedToken, TokenDeviceGroups, TokenType, TokenUser, TokenProcessTrustLevel, TokenSandBoxInert, TokenUIAccess, TOKEN_INFORMATION_CLASS, TokenGroups, TokenPrimaryGroup, TokenRestrictedUserClaimAttributes, TokenSessionId, TokenSource, ntifs/TokenIsAppContainer, ntifs/TokenIntegrityLevel, TokenRestrictedSids, ntifs/TokenElevation, ntifs/TokenUserClaimAttributes, TokenVirtualizationAllowed, TokenLogonSid, TokenRestrictedDeviceGroups, TokenAccessInformation, PTOKEN_INFORMATION_CLASS, ntifs/TokenRestrictedUserClaimAttributes, ntifs/TokenRestrictedDeviceGroups, ntifs/PTOKEN_INFORMATION_CLASS, ntifs/TokenLogonSid, TOKEN_INFORMATION_CLASS enumeration [Installable File System Drivers], ntifs/TokenPrimaryGroup, TokenSessionReference, ntifs/TokenDeviceClaimAttributes, ntifs/TokenSource, securitystructures_525fb6c8-0030-40ea-927a-72fe89eff87e.xml, ntifs/TokenVirtualizationEnabled, ntifs/TokenStatistics
+ms.date: 2/16/2018
+ms.keywords: TokenVirtualizationAllowed, TokenUIAccess, TOKEN_INFORMATION_CLASS, ntifs/TokenOrigin, ntifs/TokenRestrictedSids, TokenAppContainerNumber, ntifs/TokenProcessTrustLevel, TokenImpersonationLevel, TokenIntegrityLevel, MaxTokenInfoClass, TokenUserClaimAttributes, ntifs/TokenLogonSid, TokenDeviceGroups, TokenSource, ntifs/TokenAuditPolicy, TokenUser, TokenSessionId, *PTOKEN_INFORMATION_CLASS, ntifs/TokenSource, ntifs/TOKEN_INFORMATION_CLASS, TokenOwner, ntifs/TokenSessionReference, _TOKEN_INFORMATION_CLASS, ntifs/TokenSandBoxInert, ntifs/TokenType, ntifs/TokenUser, TokenAccessInformation, TokenRestrictedDeviceGroups, TokenType, ntifs/TokenLinkedToken, TokenCapabilities, ntifs/TokenRestrictedDeviceClaimAttributes, PTOKEN_INFORMATION_CLASS, ntifs/TokenAppContainerSid, ntifs/TokenVirtualizationAllowed, TokenRestrictedUserClaimAttributes, ntifs/TokenHasRestrictions, TokenMandatoryPolicy, ntifs/TokenGroups, ntifs/TokenIsRestricted, ntifs/MaxTokenInfoClass, ntifs/TokenDefaultDacl, TokenVirtualizationEnabled, ifsk.token_information_class, TokenSessionReference, ntifs/TokenIntegrityLevel, ntifs/TokenUIAccess, ntifs/TokenVirtualizationEnabled, ntifs/TokenSessionId, ntifs/TokenElevation, TokenStatistics, TOKEN_INFORMATION_CLASS enumeration [Installable File System Drivers], TokenLinkedToken, ntifs/TokenPrivileges, TokenLogonSid, TokenProcessTrustLevel, ntifs/TokenUserClaimAttributes, securitystructures_525fb6c8-0030-40ea-927a-72fe89eff87e.xml, TokenDefaultDacl, ntifs/TokenStatistics, ntifs/TokenRestrictedDeviceGroups, PTOKEN_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], TokenRestrictedSids, TokenHasRestrictions, ntifs/TokenDeviceClaimAttributes, TokenElevation, TokenGroupsAndPrivileges, ntifs/TokenIsAppContainer, TokenIsAppContainer, TokenAppContainerSid, TokenSandBoxInert, ntifs/PTOKEN_INFORMATION_CLASS, ntifs/TokenSecurityAttributes, ntifs/TokenOwner, ntifs/TokenMandatoryPolicy, ntifs/TokenAppContainerNumber, ntifs/TokenDeviceGroups, TokenAuditPolicy, ntifs/TokenAccessInformation, TokenRestrictedDeviceClaimAttributes, TokenPrivileges, ntifs/TokenRestrictedUserClaimAttributes, TokenIsRestricted, ntifs/TokenPrimaryGroup, ntifs/TokenGroupsAndPrivileges, TokenOrigin, TokenDeviceClaimAttributes, TokenGroups, ntifs/TokenImpersonationLevel, ntifs/TokenCapabilities, TokenSecurityAttributes, TokenPrimaryGroup
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -338,19 +338,7 @@ The maximum value for this enumeration.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
-
-
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
 
 
 
@@ -358,15 +346,7 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
 
 
 
@@ -374,23 +354,7 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 
@@ -398,7 +362,11 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
+<a href="..\ntifs\ns-ntifs-_token_primary_group.md">TOKEN_PRIMARY_GROUP</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
 
 
 
@@ -406,13 +374,45 @@ The maximum value for this enumeration.
 
 
 
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

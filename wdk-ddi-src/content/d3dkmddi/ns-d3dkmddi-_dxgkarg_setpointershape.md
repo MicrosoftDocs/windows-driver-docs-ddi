@@ -7,8 +7,8 @@ old-location: display\dxgkarg_setpointershape.htm
 old-project: display
 ms.assetid: fcb06620-8a30-4980-8733-35d7aabcc872
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKARG_SETPOINTERSHAPE, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml, d3dkmddi/DXGKARG_SETPOINTERSHAPE, display.dxgkarg_setpointershape, DXGKARG_SETPOINTERSHAPE structure [Display Devices], _DXGKARG_SETPOINTERSHAPE
+ms.date: 2/20/2018
+ms.keywords: DXGKARG_SETPOINTERSHAPE structure [Display Devices], _DXGKARG_SETPOINTERSHAPE, d3dkmddi/DXGKARG_SETPOINTERSHAPE, DXGKARG_SETPOINTERSHAPE, display.dxgkarg_setpointershape, DmStructs_9fab674a-0138-4c55-b17e-87cb85110325.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -190,5 +190,5 @@ The <b>XHot</b> and <b>YHot</b> members are used by display miniport drivers tha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_SETPOINTERSHAPE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_SETPOINTERSHAPE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: "_USB_CONTROLLER_FLAVOR"
 author: windows-driver-content
 description: The USB_CONTROLLER_FLAVOR enumeration specifies the type of USB host controller.
 old-location: buses\usb_controller_flavor.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: c732fe90-50fb-4f6e-b42e-cb35c1ed0091
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: OHCI_NEC, UHCI_Ich5, USB_HcGeneric, UHCI_Piix4, usb/USB_CONTROLLER_FLAVOR, _USB_CONTROLLER_FLAVOR, EHCI_Generic, USB_CONTROLLER_FLAVOR enumeration [Buses], UHCI_Ich6, OHCI_Generic, usb/UHCI_Ich6, usb/UHCI_Piix4, usb/UHCI_Ich3m, UHCI_VIA_x04, usb/OHCI_NEC, UHCI_Ich1, usb/UHCI_Intel, UHCI_VIA, usb/UHCI_VIA_x01, usb/UHCI_Piix3, usb/EHCI_NVIDIA_Tegra2, usb/EHCI_NEC, usb/UHCI_Ich4, usb/UHCI_VIA, usb/UHCI_Ich1, usb/UHCI_VIA_x0E_FIFO, usb/UHCI_VIA_x02, USB_CONTROLLER_FLAVOR, UHCI_Intel, EHCI_NVIDIA_Tegra3, UHCI_VIA_x03, usb/EHCI_NVIDIA_Tegra3, EHCI_Intel_Medfield, usb/EHCI_Intel_Medfield, usb/UHCI_Generic, usb/UHCI_VIA_x03, UHCI_Ich2, EHCI_NVIDIA_Tegra2, OHCI_Hydra, usb/EHCI_Generic, EHCI_Lucent, UHCI_VIA_x02, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, usb/UHCI_Ich5, EHCI_NEC, UHCI_VIA_x01, usb/UHCI_VIA_x04, UHCI_Generic, usb/OHCI_Hydra, buses.usb_controller_flavor, UHCI_Ich4, UHCI_VIA_x0E_FIFO, usb/EHCI_Lucent, usb/UHCI_Ich2, UHCI_Ich3m, usb/USB_HcGeneric, UHCI_Piix3, usb/OHCI_Generic
+ms.date: 2/15/2018
+ms.keywords: usb/OHCI_Hydra, OHCI_Generic, UHCI_VIA_x0E_FIFO, USB_CONTROLLER_FLAVOR, OHCI_NEC, usb/EHCI_Intel_Medfield, UHCI_VIA, usb/UHCI_VIA_x01, buses.usb_controller_flavor, USB_CONTROLLER_FLAVOR enumeration [Buses], usb/UHCI_VIA, UHCI_VIA_x03, usb/EHCI_Generic, usb/UHCI_Ich4, UHCI_Intel, UHCI_Generic, USB_HcGeneric, EHCI_Intel_Medfield, usb/USB_HcGeneric, usb/UHCI_Piix4, usb/UHCI_Ich6, EHCI_NEC, UHCI_VIA_x01, usb/OHCI_Generic, UHCI_Ich4, usb/USB_CONTROLLER_FLAVOR, UHCI_Ich5, usb/UHCI_VIA_x02, usb/EHCI_NVIDIA_Tegra2, usb/UHCI_Piix3, UHCI_Ich2, usb/UHCI_VIA_x03, OHCI_Hydra, EHCI_Lucent, UHCI_Piix4, usb/UHCI_VIA_x0E_FIFO, usb/UHCI_Ich1, usb/UHCI_Intel, UHCI_Piix3, usb/EHCI_NEC, usb/UHCI_Ich3m, usb/OHCI_NEC, UHCI_VIA_x02, UHCI_VIA_x04, EHCI_Generic, usb/EHCI_NVIDIA_Tegra3, usb/UHCI_Ich2, UHCI_Ich1, usb/UHCI_Generic, usbstrct_a1b79c0b-7ee4-48bd-9793-8f37b9d248f2.xml, EHCI_NVIDIA_Tegra3, usb/UHCI_VIA_x04, usb/EHCI_Lucent, UHCI_Ich6, EHCI_NVIDIA_Tegra2, _USB_CONTROLLER_FLAVOR, UHCI_Ich3m, usb/UHCI_Ich5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -240,5 +240,5 @@ Indicates an Intel Medfield host controller.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_CONTROLLER_FLAVOR enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_CONTROLLER_FLAVOR enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

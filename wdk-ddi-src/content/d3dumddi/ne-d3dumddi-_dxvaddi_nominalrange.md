@@ -7,8 +7,8 @@ old-location: display\dxvaddi_nominalrange.htm
 old-project: display
 ms.assetid: f3f5fac9-013c-4739-a29e-c781b34e5289
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/DXVADDI_NominalRange_0_255, DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, display.dxvaddi_nominalrange, d3dumddi/DXVADDI_NominalRange_Unknown, d3dumddi/DXVADDI_NominalRangeMask, d3dumddi/DXVADDI_NominalRange_Wide, d3dumddi/DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_0_255, _DXVADDI_NOMINALRANGE, DXVADDI_NominalRange_Normal, DXVADDI_NominalRange_Wide, d3dumddi/DXVADDI_NOMINALRANGE, DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_48_208, DXVADDI_NominalRangeMask, DXVADDI_NominalRange_Unknown, DXVADDI_NOMINALRANGE, DXVADDI_NOMINALRANGE enumeration [Display Devices], d3dumddi/DXVADDI_NominalRange_48_208, d3dumddi/DXVADDI_NominalRange_Normal
+ms.date: 2/20/2018
+ms.keywords: d3dumddi/DXVADDI_NominalRangeMask, DXVADDI_NominalRange_0_255, d3dumddi/DXVADDI_NominalRange_Unknown, d3dumddi/DXVADDI_NOMINALRANGE, DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_Wide, display.dxvaddi_nominalrange, DXVADDI_NOMINALRANGE enumeration [Display Devices], d3dumddi/DXVADDI_NominalRange_0_255, d3dumddi/DXVADDI_NominalRange_16_235, DXVADDI_NominalRange_Unknown, DXVA2_Structs_fee8e221-64df-474a-a178-439365c683fd.xml, DXVADDI_NominalRange_Normal, _DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NominalRange_Normal, DXVADDI_NOMINALRANGE, d3dumddi/DXVADDI_NominalRange_Wide, DXVADDI_NominalRangeMask, DXVADDI_NominalRange_48_208, d3dumddi/DXVADDI_NominalRange_48_208
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -129,5 +129,5 @@ Wide gamut R'G'B' (that is, blackpoint at 16,16,16 and whitepoint at 235,235,235
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_NOMINALRANGE enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_NOMINALRANGE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

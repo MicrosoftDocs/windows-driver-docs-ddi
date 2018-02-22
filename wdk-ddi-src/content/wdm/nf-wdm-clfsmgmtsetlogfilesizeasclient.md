@@ -7,8 +7,8 @@ old-location: kernel\clfsmgmtsetlogfilesizeasclient_.htm
 old-project: kernel
 ms.assetid: C049A6BE-6E2B-46F2-B7CF-316E4CDB35E4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], kernel.clfsmgmtsetlogfilesizeasclient_, ClfsMgmtSetLogFileSizeAsClient, wdm/ClfsMgmtSetLogFileSizeAsClient
+ms.date: 2/16/2018
+ms.keywords: ClfsMgmtSetLogFileSizeAsClient, ClfsMgmtSetLogFileSizeAsClient routine [Kernel-Mode Driver Architecture], wdm/ClfsMgmtSetLogFileSizeAsClient, kernel.clfsmgmtsetlogfilesizeasclient_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NTSTATUS ClfsMgmtSetLogFileSizeAsClient (
 
 ### -param LogFile [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> routine.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents the Common Log File System (CLFS) log, or a stream within the log, to which containers are being added or deleted. The value of this parameter is obtained through a call to the <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a> routine.
 
 
 ### -param ClientCookie [in, optional]
@@ -199,5 +199,5 @@ This routine might also return other <a href="https://msdn.microsoft.com/library
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsMgmtSetLogFileSizeAsClient  routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsMgmtSetLogFileSizeAsClient  routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

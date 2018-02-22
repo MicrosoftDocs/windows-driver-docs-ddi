@@ -4,11 +4,11 @@ title: IDebugSymbolGroup2::WriteSymbol method
 author: windows-driver-content
 description: The WriteSymbol methods set the value of the specified symbol.
 old-location: debugger\writesymbol.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: c0c23778-767a-4304-9ecf-c76337261e27
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup2::WriteSymbol, IDebugSymbolGroup, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, WriteSymbol, IDebugSymbolGroup::WriteSymbol, IDebugSymbolGroup2, dbgeng/IDebugSymbolGroup::WriteSymbol, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, debugger.writesymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup2::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbolGroup2 interface [Windows Debugging], WriteSymbol method, IDebugSymbolGroup interface [Windows Debugging], WriteSymbol method, dbgeng/IDebugSymbolGroup2::WriteSymbol, WriteSymbol method [Windows Debugging], IDebugSymbolGroup interface, WriteSymbol method [Windows Debugging], WriteSymbol, IDebugSymbolGroup::WriteSymbol, IDebugSymbolGroup2, WriteSymbol method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::WriteSymbol, debugger.writesymbol, ComOther_3b8938be-b82e-404c-b80f-36e1ceedc353.xml, IDebugSymbolGroup, dbgeng/IDebugSymbolGroup::WriteSymbol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.WriteSymbol
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::WriteSymbol method
@@ -124,10 +124,6 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
@@ -136,9 +132,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup::WriteSymbol method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup::WriteSymbol method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

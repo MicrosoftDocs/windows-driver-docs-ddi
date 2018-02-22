@@ -7,8 +7,8 @@ old-location: stream\ksproperty_extxport_s.htm
 old-project: stream
 ms.assetid: 01132969-b459-4110-a067-fda6c7ee5510
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml, ksmedia/KSPROPERTY_EXTXPORT_S, stream.ksproperty_extxport_s, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], *PKSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S, ksmedia/PKSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S
+ms.date: 2/20/2018
+ms.keywords: ksmedia/KSPROPERTY_EXTXPORT_S, stream.ksproperty_extxport_s, PKSPROPERTY_EXTXPORT_S structure pointer [Streaming Media Devices], vidcapstruct_9cd12be8-0378-481b-80e3-81b3decc1823.xml, *PKSPROPERTY_EXTXPORT_S, PKSPROPERTY_EXTXPORT_S, ksmedia/PKSPROPERTY_EXTXPORT_S, KSPROPERTY_EXTXPORT_S structure [Streaming Media Devices], KSPROPERTY_EXTXPORT_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,29 +94,46 @@ Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPER
 ### -field u
 
 
-### -field u.Capabilities
+
+#### Capabilities
 
 Specifies the capabilities of the external transport. For example ED_TRANSCAP_CAN_EJECT, ED_TRANSCAP_CAN_PLAY_BACKWARDS, or ED_TRANSCAP_CAN_BUMP_PLAY. See Remarks.
 
 
-### -field u.SignalMode
+
+#### SignalMode
 
 Specifies the signal mode of the external transport. For example ED_TRANSBASIC_SIGNAL_525_60_SD, ED_TRANSBASIC_SIGNAL_MPEG2TS or ED_TRANSBASIC_SIGNAL_0625_50_MPEG. See Remarks
 
 
-### -field u.LoadMedium
+
+#### LoadMedium
 
 Specifies load medium. For example eject, open tray, close tray.
 
 
-### -field u.MediumInfo
+
+#### MediumInfo
 
 Describes the medium info.
 
 
-### -field u.XPrtState
+
+#### XPrtState
 
 Describes the external transports state.
+
+
+
+#### dwTimecode
+
+Specifies the timecode, in hour:minute:second:frame format. This member is defined for future use.
+
+
+
+#### dwAbsTrackNumber
+
+Specifies the absolute track number. This member is defined for future use.
 
 
 ### -field u.Timecode
@@ -144,16 +161,6 @@ Specifies the minute. This member is defined for future use.
 Specifies the hour. This member is defined for future use.
 
 
-### -field u.dwTimecode
-
-Specifies the timecode, in hour:minute:second:frame format. This member is defined for future use.
-
-
-### -field u.dwAbsTrackNumber
-
-Specifies the absolute track number. This member is defined for future use.
-
-
 ### -field u.RawAVC
 
 
@@ -178,14 +185,6 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksproperty_extxport_node_s.md">KSPROPERTY_EXTXPORT_NODE_S</a>
 
 
@@ -194,9 +193,17 @@ Any ED_TRANSCAP_Xxx or ED_TRANSBASIC_Xxx tokens are defined in <i>xprtdefs.h</i>
 
 
 
- 
+<a href="..\ksmedia\ns-ksmedia-medium_info.md">MEDIUM_INFO</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_EXTXPORT_S structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_EXTXPORT_S structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

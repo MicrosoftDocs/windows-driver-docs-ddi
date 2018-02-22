@@ -7,8 +7,8 @@ old-location: netvista\ndismwritelogdata.htm
 old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, netvista.ndismwritelogdata, NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteLogData
+ms.date: 2/16/2018
+ms.keywords: miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteLogData, netvista.ndismwritelogdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,24 +161,11 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
 
 
 
@@ -187,9 +174,22 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
- 
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMWriteLogData function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMWriteLogData function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

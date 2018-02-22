@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetpipeformatrequestforreset.htm
 old-project: wdf
 ms.assetid: 10f5296c-6be2-4f88-952b-b23e518b844a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfusbtargetpipeformatrequestforreset, wdfusb/WdfUsbTargetPipeFormatRequestForReset, wdf.wdfusbtargetpipeformatrequestforreset, DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORRESET, WdfUsbTargetPipeFormatRequestForReset method, WdfUsbTargetPipeFormatRequestForReset
+ms.date: 2/20/2018
+ms.keywords: wdfusb/WdfUsbTargetPipeFormatRequestForReset, WdfUsbTargetPipeFormatRequestForReset, WdfUsbTargetPipeFormatRequestForReset method, kmdf.wdfusbtargetpipeformatrequestforreset, wdf.wdfusbtargetpipeformatrequestforreset, DFUsbRef_5a1aa46c-9d8a-4e6b-9003-723a65c314f3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -226,5 +226,5 @@ return;</pre>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeFormatRequestForReset method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeFormatRequestForReset method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

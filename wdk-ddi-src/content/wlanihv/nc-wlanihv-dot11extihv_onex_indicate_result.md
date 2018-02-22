@@ -7,7 +7,7 @@ old-location: netvista\dot11extihvonexindicateresult.htm
 old-project: netvista
 ms.assetid: bf865b33-6e44-4724-868d-73150cf5b589
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.dot11extihvonexindicateresult, Dot11ExtIhvOneXIndicateResult callback function [Network Drivers Starting with Windows Vista], Dot11ExtIhvOneXIndicateResult, DOT11EXTIHV_ONEX_INDICATE_RESULT, DOT11EXTIHV_ONEX_INDICATE_RESULT, wlanihv/Dot11ExtIhvOneXIndicateResult, Native_802.11_IHV_Ext_af60ece5-6f3a-4a5b-9207-0e3cf68a012b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtIhvOneXIndicateResult
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -136,15 +136,11 @@ For more information about using the 802.1X module for authentication, see
 
 ## -see-also
 
-<a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
 
 
 
 <a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">DOT11_MSONEX_RESULT_PARAMS</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
 
 
 
@@ -153,17 +149,21 @@ For more information about using the 802.1X module for authentication, see
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
 
 
 
- 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
+
+
+<a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_ONEX_INDICATE_RESULT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXTIHV_ONEX_INDICATE_RESULT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

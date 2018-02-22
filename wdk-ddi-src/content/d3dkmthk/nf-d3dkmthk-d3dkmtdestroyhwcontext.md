@@ -7,8 +7,8 @@ old-location: display\d3dkmtdestroyhwcontext.htm
 old-project: display
 ms.assetid: 832CA7CA-40B3-4D6D-B640-9838B479EC76
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTDestroyHwContext, D3DKMTDestroyHwContext, display.d3dkmtdestroyhwcontext, D3DKMTDestroyHwContext function [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: D3DKMTDestroyHwContext, display.d3dkmtdestroyhwcontext, d3dkmthk/D3DKMTDestroyHwContext, D3DKMTDestroyHwContext function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

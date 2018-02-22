@@ -7,8 +7,8 @@ old-location: display\dxgk_set_timing_path_info.htm
 old-project: display
 ms.assetid: 23B42F75-6313-430F-8CD3-EBAAE87C7815
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], display.dxgk_set_timing_path_info, d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO, _DXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/PDXGK_SET_TIMING_PATH_INFO, DXGK_SET_TIMING_PATH_INFO structure [Display Devices], display.dxgk_set_timing_path_info, PDXGK_SET_TIMING_PATH_INFO structure pointer [Display Devices], DXGK_SET_TIMING_PATH_INFO, _DXGK_SET_TIMING_PATH_INFO, PDXGK_SET_TIMING_PATH_INFO, d3dkmddi/DXGK_SET_TIMING_PATH_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,31 +101,6 @@ typedef struct _DXGK_SET_TIMING_PATH_INFO {
 The identifier of a display adapter's video present target.
 
 
-### -field OutputColorSpace
-
-A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
-
-The output colorspace is fixed until modified by another SetTiming call.  If the colorspace set on swap chain presented to this target is different from the output colorspace, the driver is required to convert to the output colorspace during scan-out.  
-
-If multiple pixel planes are enabled on the target, the driver must perform composition of the planes in a valid composition colorspace, typically a linear space in addition to converting the composed pixels into the output colorspace. 
-
-Since the SelectedWireFormat already indicates the color encoding, and chroma subsampling, the OutputColorSpace is only used to determine the primaries and gamma with which the pixel values should be encoded; the other elements: color model, range and cositing should be ignored as they are defined by the SelectedWireFormat.
-Given that there are no plans to support ST.2084 gamma with Rec.709 primaries, or 2.2 gamma with Rec 2020 primaries, the result is that only two values are ever set by the OS in the RS2 release which are: 
-
-<dl>
-<dd>D3DDDI_COLOR_SPACE_RGB_FULL_G22_NONE_P709, for SDR
-</dd>
-<dd>D3DDDI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, for HDR10
-</dd>
-</dl>
-
-
-
-### -field OutputWireColorSpace
-
- 
-
-
 ### -field SelectedWireFormat
 
 A <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_wire_format_and_preference.md">D3DKMDT_WIRE_FORMAT_AND_PREFERENCE</a> value which indicates the wire format to be set for the path. The Preference field is reserved in this context so should be ignored by the driver.  In the remaining five bit-fields, the OS will set one of the thirty bits to indicate which color encoding and at which bit depth the link should be driven.
@@ -168,11 +143,6 @@ If clear, no special behavior is requested.
 This value is reserved for system use.
 
 
-### -field InputFlags
-
-A set of flags specifying what the OS wants the driver to do.
-
-
 ### -field Output
 
 
@@ -184,11 +154,6 @@ If set, indicates that the OS needs to issue a CheckMPO due to changes on this p
 ### -field Output.Reserved
 
 This value is reserved for system use.
-
-
-### -field OutputFlags
-
-A set of flags specifying outcomes the OS needs to be aware of relating to this path.
 
 
 ### -field TargetState
@@ -222,7 +187,37 @@ A DXGK_GLITCH_DURATION value which indicates approximately how long the glitch l
 This value is reserved for system use.
 
 
-### -field DiagnosticInfo
+#### - OutputColorSpace
+
+A <a href="..\d3dukmdt\ne-d3dukmdt-d3dddi_color_space_type.md">D3DDDI_COLOR_SPACE_TYPE</a> value which describes the output color space intended for the transported pixels.  The driver is responsible for sending appropriate metadata to ensure the display device is set up to interpret pixels correctly for this color space. 
+
+The output colorspace is fixed until modified by another SetTiming call.  If the colorspace set on swap chain presented to this target is different from the output colorspace, the driver is required to convert to the output colorspace during scan-out.  
+
+If multiple pixel planes are enabled on the target, the driver must perform composition of the planes in a valid composition colorspace, typically a linear space in addition to converting the composed pixels into the output colorspace. 
+
+Since the SelectedWireFormat already indicates the color encoding, and chroma subsampling, the OutputColorSpace is only used to determine the primaries and gamma with which the pixel values should be encoded; the other elements: color model, range and cositing should be ignored as they are defined by the SelectedWireFormat.
+Given that there are no plans to support ST.2084 gamma with Rec.709 primaries, or 2.2 gamma with Rec 2020 primaries, the result is that only two values are ever set by the OS in the RS2 release which are: 
+
+<dl>
+<dd>D3DDDI_COLOR_SPACE_RGB_FULL_G22_NONE_P709, for SDR
+</dd>
+<dd>D3DDDI_COLOR_SPACE_RGB_FULL_G2084_NONE_P2020, for HDR10
+</dd>
+</dl>
+
+
+
+#### - InputFlags
+
+A set of flags specifying what the OS wants the driver to do.
+
+
+#### - OutputFlags
+
+A set of flags specifying outcomes the OS needs to be aware of relating to this path.
+
+
+#### - DiagnosticInfo
 
 Set of information filled out by the driver for each path to describe any side-effects of the timing change.
 In many cases, glitches are inevitable so these fields attempt to understand the underlying cause and the extent of user impact.

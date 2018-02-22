@@ -7,13 +7,13 @@ old-location: kernel\pool_type.htm
 old-project: kernel
 ms.assetid: a3dd0c74-3835-4f03-8b62-08954baaffe7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/NonPagedPoolCacheAligned, wdm/NonPagedPoolExecute, wdm/NonPagedPoolMustSucceedSession, kernel.pool_type, NonPagedPoolBaseCacheAligned, wdm/PagedPool, PagedPoolCacheAlignedSession, wdm/NonPagedPoolBaseCacheAligned, NonPagedPoolCacheAlignedMustSSession, NonPagedPoolMustSucceed, NonPagedPoolBase, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], NonPagedPoolCacheAligned, wdm/NonPagedPoolBaseMustSucceed, wdm/PagedPoolCacheAlignedSession, wdm/NonPagedPoolNxCacheAligned, PagedPool, wdm/NonPagedPoolSession, wdm/PagedPoolCacheAligned, NonPagedPoolNx, DontUseThisType, wdm/NonPagedPool, wdm/NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolMustSucceed, NonPagedPoolCacheAlignedSession, MaxPoolType, NonPagedPoolNxCacheAligned, NonPagedPoolSessionNx, wdm/NonPagedPoolSessionNx, NonPagedPoolExecute, wdm/DontUseThisType, wdm/NonPagedPoolBaseCacheAlignedMustS, wdm/DontUseThisTypeSession, _POOL_TYPE, NonPagedPoolCacheAlignedMustS, NonPagedPoolBaseCacheAlignedMustS, NonPagedPool, NonPagedPoolBaseMustSucceed, PagedPoolCacheAligned, wdm/MaxPoolType, DontUseThisTypeSession, PagedPoolSession, wdm/POOL_TYPE, wdm/PagedPoolSession, wdm/NonPagedPoolNx, NonPagedPoolSession, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, wdm/NonPagedPoolBase, wdm/NonPagedPoolCacheAlignedMustS, NonPagedPoolMustSucceedSession, POOL_TYPE, wdm/NonPagedPoolCacheAlignedMustSSession
+ms.date: 2/16/2018
+ms.keywords: NonPagedPoolCacheAlignedMustSSession, NonPagedPoolSession, NonPagedPoolCacheAlignedMustS, NonPagedPoolCacheAligned, NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolCacheAlignedSession, wdm/PagedPoolCacheAlignedSession, wdm/NonPagedPoolBaseCacheAlignedMustS, NonPagedPoolBaseMustSucceed, sysenum_90446d42-0e73-4da3-a3df-27efe3daa67b.xml, NonPagedPoolMustSucceedSession, NonPagedPoolBaseCacheAligned, POOL_TYPE, NonPagedPoolBase, wdm/PagedPool, wdm/NonPagedPoolSession, wdm/NonPagedPool, NonPagedPool, wdm/MaxPoolType, wdm/DontUseThisTypeSession, wdm/DontUseThisType, PagedPoolCacheAlignedSession, wdm/NonPagedPoolMustSucceedSession, NonPagedPoolSessionNx, wdm/NonPagedPoolCacheAlignedMustS, kernel.pool_type, wdm/NonPagedPoolNxCacheAligned, PagedPool, wdm/NonPagedPoolCacheAlignedSession, wdm/NonPagedPoolBase, wdm/NonPagedPoolNx, wdm/NonPagedPoolMustSucceed, wdm/PagedPoolSession, POOL_TYPE enumeration [Kernel-Mode Driver Architecture], PagedPoolCacheAligned, wdm/NonPagedPoolCacheAlignedMustSSession, wdm/PagedPoolCacheAligned, wdm/NonPagedPoolExecute, PagedPoolSession, _POOL_TYPE, wdm/NonPagedPoolBaseCacheAligned, NonPagedPoolNxCacheAligned, wdm/POOL_TYPE, wdm/NonPagedPoolBaseMustSucceed, DontUseThisTypeSession, NonPagedPoolExecute, wdm/NonPagedPoolSessionNx, NonPagedPoolNx, MaxPoolType, wdm/NonPagedPoolCacheAligned, NonPagedPoolMustSucceed, DontUseThisType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -213,19 +213,11 @@ Reserved for exclusive use by the operating system.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
+
+
+
 <a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
-
-
-
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
 
@@ -233,15 +225,7 @@ Reserved for exclusive use by the operating system.
 
 
 
-<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithquotatag.md">ExAllocatePoolWithQuotaTag</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
 
@@ -249,9 +233,25 @@ Reserved for exclusive use by the operating system.
 
 
 
- 
+<a href="..\wdm\nf-wdm-seassignsecurity.md">SeAssignSecurity</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wdm\nf-wdm-seassignsecurityex.md">SeAssignSecurityEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554322">LookasideListAllocateEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POOL_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20POOL_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

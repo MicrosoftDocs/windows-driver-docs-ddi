@@ -7,8 +7,8 @@ old-location: ifsk\fsctl_query_volume_numa_info_output_.htm
 old-project: ifsk
 ms.assetid: 3BB6F409-A716-4990-B1C6-D0F8035DA7F0
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "_FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure [Installable File System Drivers], *PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ntifs/PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ntifs/FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure pointer [Installable File System Drivers], ifsk.fsctl_query_volume_numa_info_output_"
+ms.date: 2/16/2018
+ms.keywords: FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, _FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, *PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ntifs/PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, ntifs/FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT, FSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure [Installable File System Drivers], PFSCTL_QUERY_VOLUME_NUMA_INFO_OUTPUT structure pointer [Installable File System Drivers], ifsk.fsctl_query_volume_numa_info_output_
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: pos\linedisplaycursortypeflags.htm
 old-project: pos
 ms.assetid: DD09C18C-C2FA-43DD-9E5F-ACA36132DAAD
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: LineDisplayCursorTypeFlags, LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags, pointofservicecommontypes/
+ms.date: 2/19/2018
+ms.keywords: LineDisplayCursorTypeFlags enumeration, pointofservicecommontypes/LineDisplayCursorTypeFlags, pos.linedisplaycursortypeflags, LineDisplayCursorTypeFlags, pointofservicecommontypes/
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

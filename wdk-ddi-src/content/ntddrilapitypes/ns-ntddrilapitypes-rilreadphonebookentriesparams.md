@@ -7,8 +7,8 @@ old-location: netvista\rilreadphonebookentriesparams.htm
 old-project: netvista
 ms.assetid: af74f94a-497a-4771-aee4-d1ba8d2f3ad9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILREADPHONEBOOKENTRIESPARAMS, netvista.rilreadphonebookentriesparams, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILREADPHONEBOOKENTRIESPARAMS
+ms.date: 2/16/2018
+ms.keywords: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS, ntddrilapitypes/RILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilreadphonebookentriesparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILREADPHONEBOOKENTRIESPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILREADPHONEBOOKENTRIESPARAMS, *LPRILREADPHONEBOOKENTRIESPARAMS
+req.typenames: "*LPRILREADPHONEBOOKENTRIESPARAMS, RILREADPHONEBOOKENTRIESPARAMS"
 ---
 
 # RILREADPHONEBOOKENTRIESPARAMS structure

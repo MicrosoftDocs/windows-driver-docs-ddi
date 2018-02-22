@@ -7,8 +7,8 @@ old-location: stream\bdamethoddeletepin.htm
 old-project: stream
 ms.assetid: 179419ee-2a99-4c03-9afb-a9bb34f3efb6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: bdaref_6d81ac60-26e8-4cdb-ba9c-05f73cea187d.xml, bdasup/BdaMethodDeletePin, BdaMethodDeletePin, BdaMethodDeletePin function [Streaming Media Devices], stream.bdamethoddeletepin
+ms.date: 2/20/2018
+ms.keywords: stream.bdamethoddeletepin, bdasup/BdaMethodDeletePin, BdaMethodDeletePin function [Streaming Media Devices], BdaMethodDeletePin, bdaref_6d81ac60-26e8-4cdb-ba9c-05f73cea187d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	BdaMethodDeletePin
 product: Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN"
 ---
 
 # BdaMethodDeletePin function
@@ -112,19 +112,11 @@ If a BDA minidriver must delete a pin without relying on the network provider, t
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
-
-
-
-<a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
-
-
-
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
 
 
 
@@ -136,9 +128,17 @@ If a BDA minidriver must delete a pin without relying on the network provider, t
 
 
 
- 
+<a href="..\bdasup\nf-bdasup-bdadeletepin.md">BdaDeletePin</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaMethodDeletePin function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaMethodDeletePin function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

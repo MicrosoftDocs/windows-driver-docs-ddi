@@ -7,8 +7,8 @@ old-location: netvista\dot11_ofdm_phy_attributes.htm
 old-project: netvista
 ms.assetid: edc9bd9b-938f-43df-80fd-5a4d49f6f768
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_OFDM_PHY_ATTRIBUTES, DOT11_OFDM_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/DOT11_OFDM_PHY_ATTRIBUTES, PDOT11_OFDM_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_ofdm_phy_attributes, DOT11_OFDM_PHY_ATTRIBUTES, *PDOT11_OFDM_PHY_ATTRIBUTES, windot11/PDOT11_OFDM_PHY_ATTRIBUTES, Native_802.11_data_types_20b6778d-4037-488b-a99f-304258498618.xml
+ms.date: 2/16/2018
+ms.keywords: windot11/DOT11_OFDM_PHY_ATTRIBUTES, PDOT11_OFDM_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_20b6778d-4037-488b-a99f-304258498618.xml, DOT11_OFDM_PHY_ATTRIBUTES, PDOT11_OFDM_PHY_ATTRIBUTES, netvista.dot11_ofdm_phy_attributes, windot11/PDOT11_OFDM_PHY_ATTRIBUTES, *PDOT11_OFDM_PHY_ATTRIBUTES, DOT11_OFDM_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -192,5 +192,5 @@ The miniport driver defines the attributes of a PHY on the 802.11 station throug
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_OFDM_PHY_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_OFDM_PHY_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

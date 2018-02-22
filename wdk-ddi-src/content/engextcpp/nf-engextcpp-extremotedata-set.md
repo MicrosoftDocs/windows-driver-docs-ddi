@@ -4,11 +4,11 @@ title: ExtRemoteData::Set method
 author: windows-driver-content
 description: The Set method sets the region of the target's memory represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_set_offset_bytes.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ExtRemoteData::Set, ExtRemoteData, ExtRemoteData interface [Windows Debugging], Set method, debugger.extremotedata_set_offset_bytes, Set method [Windows Debugging], Set, engextcpp/ExtRemoteData::Set, Set method [Windows Debugging], ExtRemoteData interface
+ms.date: 2/15/2018
+ms.keywords: engextcpp/ExtRemoteData::Set, ExtRemoteData, Set method [Windows Debugging], debugger.extremotedata_set_offset_bytes, ExtRemoteData::Set, Set, ExtRemoteData interface [Windows Debugging], Set method, Set method [Windows Debugging], ExtRemoteData interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteData.Set
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteData::Set method
@@ -98,15 +98,7 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
-
-
-
-<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
 
 
 
@@ -114,9 +106,17 @@ The <b>Set</b> method will read the contents of the specified region of memory a
 
 
 
- 
+<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set (Typed)</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteData::Set method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20ExtRemoteData::Set method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

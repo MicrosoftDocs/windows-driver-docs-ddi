@@ -7,8 +7,8 @@ old-location: ifsk\sid_name_use.htm
 old-project: ifsk
 ms.assetid: c3dd02d1-c259-4c17-8bd5-ee304e576a39
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/SidTypeUnknown, ntifs/SidTypeGroup, SID_NAME_USE, SidTypeComputer, SidTypeDeletedAccount, SidTypeInvalid, ntifs/PSID_NAME_USE, ntifs/SidTypeWellKnownGroup, SID_NAME_USE enumeration [Installable File System Drivers], ntifs/SidTypeAlias, ntifs/SidTypeInvalid, SidTypeAlias, _SID_NAME_USE, ntifs/SidTypeComputer, ifsk.sid_name_use, SidTypeWellKnownGroup, ntifs/SidTypeDomain, SidTypeLabel, ntifs/SidTypeDeletedAccount, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, PSID_NAME_USE enumeration pointer [Installable File System Drivers], SidTypeDomain, ntifs/SidTypeLabel, SidTypeUser, *PSID_NAME_USE, ntifs/SID_NAME_USE, PSID_NAME_USE, SidTypeUnknown, ntifs/SidTypeUser, SidTypeGroup
+ms.date: 2/16/2018
+ms.keywords: SidTypeInvalid, ntifs/SidTypeInvalid, PSID_NAME_USE, SidTypeLabel, SidTypeComputer, ntifs/SID_NAME_USE, ntifs/SidTypeWellKnownGroup, SID_NAME_USE, ifsk.sid_name_use, ntifs/SidTypeGroup, ntifs/SidTypeDomain, ntifs/SidTypeLabel, SID_NAME_USE enumeration [Installable File System Drivers], securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, SidTypeUnknown, SidTypeAlias, SidTypeDeletedAccount, ntifs/SidTypeDeletedAccount, SidTypeUser, _SID_NAME_USE, ntifs/PSID_NAME_USE, SidTypeWellKnownGroup, ntifs/SidTypeComputer, *PSID_NAME_USE, ntifs/SidTypeUser, ntifs/SidTypeUnknown, SidTypeGroup, SidTypeDomain, ntifs/SidTypeAlias, PSID_NAME_USE enumeration pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -152,5 +152,5 @@ This enumeration type is the same as the Win32 SID_NAME_USE enumeration type def
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SID_NAME_USE enumeration%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SID_NAME_USE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

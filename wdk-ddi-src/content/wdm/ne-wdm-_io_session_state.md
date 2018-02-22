@@ -7,8 +7,8 @@ old-location: kernel\io_session_state.htm
 old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PIO_SESSION_STATE, IoSessionStateTerminated, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateInitialized, wdm/IoSessionStateDisconnected, IoSessionStateMax, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IO_SESSION_STATE, IoSessionStateDisconnected, IoSessionStateLoggedOff, IoSessionStateDisconnectedLoggedOn, wdm/PIO_SESSION_STATE, IoSessionStateConnected, wdm/IoSessionStateTerminated, wdm/IoSessionStateLoggedOff, _IO_SESSION_STATE, wdm/IoSessionStateMax, wdm/IoSessionStateCreated, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, kernel.io_session_state, IoSessionStateInitialized, wdm/IoSessionStateLoggedOn, IoSessionStateLoggedOn, wdm/IoSessionStateConnected, IoSessionStateCreated, IO_SESSION_STATE, *PIO_SESSION_STATE
+ms.date: 2/16/2018
+ms.keywords: wdm/PIO_SESSION_STATE, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateLoggedOn, _IO_SESSION_STATE, IoSessionStateTerminated, IoSessionStateConnected, wdm/IO_SESSION_STATE, wdm/IoSessionStateConnected, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/IoSessionStateDisconnected, IoSessionStateLoggedOn, wdm/IoSessionStateTerminated, IO_SESSION_STATE, IoSessionStateDisconnected, IoSessionStateCreated, IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateMax, kernel.io_session_state, IoSessionStateMax, *PIO_SESSION_STATE, wdm/IoSessionStateLoggedOff, PIO_SESSION_STATE, IoSessionStateLoggedOff, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateCreated, wdm/IoSessionStateInitialized, IoSessionStateInitialized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -153,6 +153,10 @@ In the preceding table, the <i>from</i> and <i>to</i> states are represented by 
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
+
+
+
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
 
 
@@ -161,13 +165,9 @@ In the preceding table, the <i>from</i> and <i>to</i> states are represented by 
 
 
 
-<a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

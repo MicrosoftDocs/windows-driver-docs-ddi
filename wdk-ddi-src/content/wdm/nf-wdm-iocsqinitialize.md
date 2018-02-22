@@ -7,8 +7,8 @@ old-location: kernel\iocsqinitialize.htm
 old-project: kernel
 ms.assetid: 5287db75-3096-45ab-b35b-1ee8b076157d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IoCsqInitialize, k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, IoCsqInitialize routine [Kernel-Mode Driver Architecture], IoCsqInitialize, kernel.iocsqinitialize
+ms.date: 2/16/2018
+ms.keywords: IoCsqInitialize, wdm/IoCsqInitialize, k104_08afe4e8-f68d-4490-86ec-a558b2090a82.xml, kernel.iocsqinitialize, IoCsqInitialize routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,31 +131,7 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
+<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
 
 
 
@@ -163,11 +139,11 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
-<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
+<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
 
 
 
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
 
 
 
@@ -175,7 +151,11 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
+<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinsertirpex.md">IoCsqInsertIrpEx</a>
 
 
 
@@ -183,9 +163,29 @@ Note that <b>IoCsq<i>Xxx</i></b> routines use the <b>DriverContext</b>[3] member
 
 
 
- 
+<a href="..\wdm\nf-wdm-iocsqremovenextirp.md">IoCsqRemoveNextIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550560">IO_CSQ</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_remove_irp.md">CsqRemoveIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_release_lock.md">CsqReleaseLock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCsqInitialize routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCsqInitialize routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

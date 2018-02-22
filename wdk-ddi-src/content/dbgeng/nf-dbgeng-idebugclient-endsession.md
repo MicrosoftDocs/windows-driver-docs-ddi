@@ -4,11 +4,11 @@ title: IDebugClient::EndSession method
 author: windows-driver-content
 description: The EndSession method ends the current debugger session.
 old-location: debugger\endsession.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 521a0e4a-99c6-4ad4-886d-3fff9855e1fd
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: EndSession method [Windows Debugging], IDebugClient interface, IDebugClient::EndSession, EndSession method [Windows Debugging], IDebugClient3 interface, IDebugClient3::EndSession, IDebugClient2 interface [Windows Debugging], EndSession method, IDebugClient2::EndSession, dbgeng/IDebugClient3::EndSession, EndSession, debugger.endsession, EndSession method [Windows Debugging], IDebugClient4 interface, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, dbgeng/IDebugClient2::EndSession, EndSession method [Windows Debugging], IDebugClient2 interface, IDebugClient4::EndSession, EndSession method [Windows Debugging], IDebugClient4 interface [Windows Debugging], EndSession method, dbgeng/IDebugClient5::EndSession, dbgeng/IDebugClient4::EndSession, IDebugClient5::EndSession, IDebugClient3 interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], EndSession method, IDebugClient, IDebugClient interface [Windows Debugging], EndSession method, dbgeng/IDebugClient::EndSession
+ms.date: 2/15/2018
+ms.keywords: IDebugClient3::EndSession, IDebugClient5::EndSession, IDebugClient_b3243254-eb98-4ee6-8dc9-92fe4c998500.xml, IDebugClient3 interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient::EndSession, dbgeng/IDebugClient2::EndSession, IDebugClient2::EndSession, dbgeng/IDebugClient5::EndSession, EndSession method [Windows Debugging], IDebugClient4 interface, IDebugClient4::EndSession, dbgeng/IDebugClient4::EndSession, EndSession, IDebugClient::EndSession, IDebugClient, IDebugClient2 interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], EndSession method, IDebugClient interface [Windows Debugging], EndSession method, EndSession method [Windows Debugging], IDebugClient interface, EndSession method [Windows Debugging], IDebugClient3 interface, EndSession method [Windows Debugging], dbgeng/IDebugClient3::EndSession, debugger.endsession, IDebugClient5 interface [Windows Debugging], EndSession method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.EndSession
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient::EndSession method

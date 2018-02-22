@@ -7,7 +7,7 @@ old-location: serports\ioctl_serial_get_wait_mask.htm
 old-project: serports
 ms.assetid: 2ee8591a-f48e-43ad-8b88-74a1401aad07
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serial_get_wait_mask, IOCTL_SERIAL_GET_WAIT_MASK control code [Serial Ports], IOCTL_SERIAL_GET_WAIT_MASK, ntddser/IOCTL_SERIAL_GET_WAIT_MASK, serref_d06a9ed8-0871-455b-8d91-8f530adfcfe9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -242,15 +242,7 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
-
-
-
 <a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
-
-
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
 
 
 
@@ -258,17 +250,25 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
-
-
-
 <a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
 
 
 
- 
+<a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_wait_mask.md">IOCTL_SERIAL_SET_WAIT_MASK</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_WAIT_MASK control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_WAIT_MASK control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

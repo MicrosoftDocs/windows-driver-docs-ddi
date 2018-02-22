@@ -7,8 +7,8 @@ old-location: netvista\net_buffer_list.htm
 old-project: netvista
 ms.assetid: 3b61a424-33f8-4b33-aaef-f68f0026ce27
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, NET_BUFFER_LIST, ndis/NET_BUFFER_LIST, *PNET_BUFFER_LIST, _NET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], ndis/PNET_BUFFER_LIST, netvista.net_buffer_list
+ms.date: 2/16/2018
+ms.keywords: ndis/NET_BUFFER_LIST, ndis_netbuf_structures_ref_7320b98f-6600-44e4-a6e8-a7d7becaaa32.xml, PNET_BUFFER_LIST structure pointer [Network Drivers Starting with Windows Vista], *PNET_BUFFER_LIST, NET_BUFFER_LIST, netvista.net_buffer_list, PNET_BUFFER_LIST, ndis/PNET_BUFFER_LIST, NET_BUFFER_LIST structure [Network Drivers Starting with Windows Vista], _NET_BUFFER_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,18 +89,6 @@ typedef struct _NET_BUFFER_LIST {
 ### -field FirstNetBuffer
 
  
-
-
-### -field Link
-
- 
-
-
-### -field NetBufferListHeader
-
-A 
-     <a href="..\ndis\ns-ndis-_net_buffer_list_header.md">
-     NET_BUFFER_LIST_HEADER</a> structure.
 
 
 ### -field Context
@@ -355,7 +343,27 @@ The current owner of the NET_BUFFER_LIST structure, either NDIS or an NDIS drive
 This set is reserved for NDIS.
 
 
-### -field Status
+### -field NetBufferListInfo
+
+An array of values containing information that is common to all NET_BUFFER structures in the list.
+     This information is often referred to as "out-of-band (OOB) data."
+
+Use the 
+     <a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">
+     NDIS_NET_BUFFER_LIST_INFO</a> enumeration values with the 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to set and
+     get values in the 
+     <b>NetBufferListInfo</b> array.
+
+
+#### - NetBufferListHeader
+
+A 
+     <a href="..\ndis\ns-ndis-_net_buffer_list_header.md">
+     NET_BUFFER_LIST_HEADER</a> structure.
+
+
+#### - Status
 
 The final completion status of a network data operation on this NET_BUFFER_LIST structure.
      Miniport drivers write this value before calling the 
@@ -412,24 +420,6 @@ The miniport driver aborted the send request due to a reset.
 
 If a driver must reject send requests because it is paused, it sets the complete status in each
        affected NET_BUFFER_LIST to NDIS_STATUS_PAUSED.
-
-
-### -field NdisReserved2
-
- 
-
-
-### -field NetBufferListInfo
-
-An array of values containing information that is common to all NET_BUFFER structures in the list.
-     This information is often referred to as "out-of-band (OOB) data."
-
-Use the 
-     <a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">
-     NDIS_NET_BUFFER_LIST_INFO</a> enumeration values with the 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro to set and
-     get values in the 
-     <b>NetBufferListInfo</b> array.
 
 
 ## -remarks
@@ -558,15 +548,19 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568394">NET_BUFFER_LIST_FIRST_NB</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561630">NdisClearNblFlag</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndissendnetbufferlists.md">NdisSendNetBufferLists</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564620">NdisTestNblFlag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564626">NdisTestNblFlags</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568404">NET_BUFFER_LIST_NEXT_NBL</a>
 
 
 
@@ -575,16 +569,25 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
-   NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568394">NET_BUFFER_LIST_FIRST_NB</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbufferlist.md">NdisGetPoolFromNetBufferList</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
+   NET_BUFFER_LIST_CONTEXT_DATA_START</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564542">NdisSetNblFlag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561630">NdisClearNblFlag</a>
 
 
 
@@ -596,30 +599,8 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
-   NET_BUFFER_LIST_CONTEXT_DATA_START</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatefragmentnetbufferlist.md">
-   NdisAllocateFragmentNetBufferList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564542">NdisSetNblFlag</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
-   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
+   NdisAllocateNetBufferListContext</a>
 
 
 
@@ -628,23 +609,17 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568388">
+   NET_BUFFER_LIST_PROTOCOL_RESERVED</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564620">NdisTestNblFlag</a>
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568411">NET_BUFFER_LIST_STATUS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568404">NET_BUFFER_LIST_NEXT_NBL</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
+<a href="..\ndis\nf-ndis-ndisallocatefragmentnetbufferlist.md">
+   NdisAllocateFragmentNetBufferList</a>
 
 
 
@@ -652,8 +627,7 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
-   NdisAllocateNetBufferListContext</a>
+<a href="..\ndis\ne-ndis-_ndis_net_buffer_list_info.md">NDIS_NET_BUFFER_LIST_INFO</a>
 
 
 
@@ -662,15 +636,11 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564626">NdisTestNblFlags</a>
+<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568395">NET_BUFFER_LIST_FLAGS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568411">NET_BUFFER_LIST_STATUS</a>
 
 
 
@@ -679,9 +649,29 @@ For more information on how to use net buffers, see
 
 
 
- 
+<a href="..\ndis\ns-ndis-_net_buffer_list_header.md">NET_BUFFER_LIST_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlist.md">NdisAllocateNetBufferList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568395">NET_BUFFER_LIST_FLAGS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisgetpoolfromnetbufferlist.md">NdisGetPoolFromNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\wsklisten.htm
 old-project: netvista
 ms.assetid: 854C2DA1-1763-4354-8B9D-9AE0C60D8F31
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.wsklisten, WskListen callback function [Network Drivers Starting with Windows Vista], WskListen, PFN_WSK_LISTEN, PFN_WSK_LISTEN, wsk/WskListen
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	WskListen
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -165,18 +165,6 @@ A WSK application can call the <b>WskListen</b> function only on a stream socket
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
 
 
@@ -185,9 +173,21 @@ A WSK application can call the <b>WskListen</b> function only on a stream socket
 
 
 
- 
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_LISTEN callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_LISTEN callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

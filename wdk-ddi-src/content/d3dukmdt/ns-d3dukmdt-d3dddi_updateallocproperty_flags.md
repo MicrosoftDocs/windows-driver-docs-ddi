@@ -7,8 +7,8 @@ old-location: display\d3dddi_updateallocproperty_flags.htm
 old-project: display
 ms.assetid: 377EC824-9D43-40CA-B5CA-A04402852EA3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure [Display Devices], display.d3dddi_updateallocproperty_flags, D3DDDI_UPDATEALLOCPROPERTY_FLAGS, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS structure pointer [Display Devices], d3dukmdt/PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS
+ms.date: 2/20/2018
+ms.keywords: PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY_FLAGS, d3dukmdt/PD3DDDI_UPDATEALLOCPROPERTY_FLAGS, PD3DDDI_UPDATEALLOCPROPERTY_FLAGS structure pointer [Display Devices], display.d3dddi_updateallocproperty_flags, D3DDDI_UPDATEALLOCPROPERTY_FLAGS, D3DDDI_UPDATEALLOCPROPERTY_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,7 +85,7 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in D3DDDI_UPDATEALLOC_PROPERTY_FLAGS that can hold one 32-bit value that identifies how to unlock a resource.
 

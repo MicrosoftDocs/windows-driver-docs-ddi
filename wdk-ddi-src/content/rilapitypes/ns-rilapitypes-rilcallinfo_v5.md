@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfo_v5_2.htm
 old-project: netvista
 ms.assetid: a2cadee5-40e4-4044-b631-1824099e2fd7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILCALLINFO, rilapitypes/RILCALLINFO_V5, netvista.rilcallinfo_v5_2, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5"
+ms.date: 2/16/2018
+ms.keywords: netvista.rilcallinfo_v5_2, *LPRILCALLINFO, rilapitypes/RILCALLINFO_V5, RILCALLINFO_V5, *LPRILCALLINFO_V5, RILCALLINFO_V5 structure [Network Drivers Starting with Windows Vista], RILCALLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLINFO_V5
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCALLINFO, *LPRILCALLINFO_V5, RILCALLINFO, RILCALLINFO_V5"
+req.typenames: "*LPRILCALLINFO_V5, *LPRILCALLINFO, RILCALLINFO, RILCALLINFO_V5"
 req.product: Windows 10 or later.
 ---
 

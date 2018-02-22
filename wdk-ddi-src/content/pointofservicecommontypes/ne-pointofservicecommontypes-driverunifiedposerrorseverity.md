@@ -7,8 +7,8 @@ old-location: pos\unifiedposerrorseverity.htm
 old-project: pos
 ms.assetid: a8c592fa-2736-49e4-8d4d-8729baef9c49
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.unifiedposerrorseverity, UnknownErrorSeverity, pointofservicecommontypes/Recoverable, DriverUnifiedPosErrorSeverity enumeration, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, Unrecoverable, Fatal, Warning, Recoverable, AssistanceRequired, pointofservicecommontypes/Fatal, pointofservicecommontypes/UnknownErrorSeverity, pointofservicecommontypes/Warning, pointofservicecommontypes/Unrecoverable, pointofservicecommontypes/ AssistanceRequired, DriverUnifiedPosErrorSeverity
+ms.date: 2/19/2018
+ms.keywords: UnknownErrorSeverity, DriverUnifiedPosErrorSeverity, AssistanceRequired, DriverUnifiedPosErrorSeverity enumeration, Fatal, pos.unifiedposerrorseverity, pointofservicecommontypes/UnknownErrorSeverity, pointofservicecommontypes/Unrecoverable, pointofservicecommontypes/Warning, pointofservicecommontypes/Recoverable, pointofservicecommontypes/DriverUnifiedPosErrorSeverity, Unrecoverable, Warning, Recoverable, pointofservicecommontypes/ AssistanceRequired, pointofservicecommontypes/Fatal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

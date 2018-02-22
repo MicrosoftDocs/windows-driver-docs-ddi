@@ -7,8 +7,8 @@ old-location: ifsk\rtlgetelementgenerictableavl.htm
 old-project: ifsk
 ms.assetid: c836dd4b-5c66-4302-9b2a-115cec418533
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml, ntddk/RtlGetElementGenericTableAvl, RtlGetElementGenericTableAvl, ifsk.rtlgetelementgenerictableavl, RtlGetElementGenericTableAvl routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: RtlGetElementGenericTableAvl, rtlref_c94e774b-baba-4be7-be6d-09b01544612b.xml, RtlGetElementGenericTableAvl routine [Installable File System Drivers], ntddk/RtlGetElementGenericTableAvl, ifsk.rtlgetelementgenerictableavl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,14 +110,6 @@ Callers of <b>RtlGetElementGenericTableAvl</b> must be running at IRQL &lt; DISP
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
 
@@ -126,7 +118,7 @@ Callers of <b>RtlGetElementGenericTableAvl</b> must be running at IRQL &lt; DISP
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertelementgenerictableavl.md">RtlInsertElementGenericTableAvl</a>
 
 
 
@@ -134,9 +126,17 @@ Callers of <b>RtlGetElementGenericTableAvl</b> must be running at IRQL &lt; DISP
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlnumbergenerictableelementsavl.md">RtlNumberGenericTableElementsAvl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetElementGenericTableAvl routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetElementGenericTableAvl routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

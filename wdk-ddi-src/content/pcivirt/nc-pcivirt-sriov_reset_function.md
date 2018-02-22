@@ -7,7 +7,7 @@ old-location: pci\sriov_reset_function.htm
 old-project: PCI
 ms.assetid: 30c01528-8254-431f-aaba-79c05f66fc00
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.sriov_reset_function, SriovResetFunction callback function [Buses], SriovResetFunction, SRIOV_RESET_FUNCTION, SRIOV_RESET_FUNCTION, pcivirt/SriovResetFunction, *PSRIOV_RESET_FUNCTION callback function pointer [Buses], *PSRIOV_RESET_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_RESET_FUNCTION
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_RESET_FUNCTION callback

@@ -7,8 +7,8 @@ old-location: netvista\fwps_callout0.htm
 old-project: netvista
 ms.assetid: df6e9980-6c9b-4d01-a1d5-e5242a3ebc66
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FWPS_CALLOUT0, FWPS_CALLOUT0_, wfp_ref_3_struct_3_fwps_A-E_5e9913c4-01d7-4b1c-b2d0-b4a7a28477e2.xml, netvista.fwps_callout0, fwpsk/FWPS_CALLOUT0, FWPS_CALLOUT0 structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: FWPS_CALLOUT0 structure [Network Drivers Starting with Windows Vista], wfp_ref_3_struct_3_fwps_A-E_5e9913c4-01d7-4b1c-b2d0-b4a7a28477e2.xml, fwpsk/FWPS_CALLOUT0, FWPS_CALLOUT0_, netvista.fwps_callout0, FWPS_CALLOUT0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,6 +153,18 @@ A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for 
 
 
 
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
 
 
@@ -161,21 +173,9 @@ A callout can set the <b>FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW</b> flag only for 
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout1_.md">FWPS_CALLOUT1</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_CALLOUT0 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_CALLOUT0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

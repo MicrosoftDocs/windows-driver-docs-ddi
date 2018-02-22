@@ -7,8 +7,8 @@ old-location: storage\storportetwevent4.htm
 old-project: storage
 ms.assetid: 0F0750A1-142B-4834-85F5-3F5E40EC72F7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorportEtwEventOpcodeStart, StorportEtwEventOpcodeDC_Start, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwLevelInformational, StorportEtwLevelError, storport/StorPortEtwEvent4, StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeStop, STORPORT_ETW_EVENT_KEYWORD_POWER, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwLevelWarning, storage.storportetwevent4, StorportEtwEventOpcodeInfo, StorPortEtwEvent4 routine [Storage Devices], StorportEtwLevelCritical, StorportEtwEventOpcodeReceive, StorportEtwLevelLogAlways, StorportEtwLevelVerbose, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeExtension, StorPortEtwEvent4
+ms.date: 2/16/2018
+ms.keywords: STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeExtension, StorportEtwLevelCritical, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeInfo, StorportEtwLevelWarning, StorportEtwLevelInformational, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, storport/StorPortEtwEvent4, StorportEtwEventOpcodeDC_Stop, StorPortEtwEvent4, storage.storportetwevent4, StorPortEtwEvent4 routine [Storage Devices], StorportEtwLevelError, StorportEtwEventOpcodeStart, StorportEtwLevelVerbose, StorportEtwEventOpcodeReceive, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStop, StorportEtwLevelLogAlways
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -462,17 +462,17 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent8.md">StorPortEtwEvent8</a>
-
-
-
 <a href="..\storport\nf-storport-storportetwevent2.md">StorPortEtwEvent2</a>
 
 
 
- 
+<a href="..\storport\nf-storport-storportetwevent8.md">StorPortEtwEvent8</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortEtwEvent4 routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortEtwEvent4 routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

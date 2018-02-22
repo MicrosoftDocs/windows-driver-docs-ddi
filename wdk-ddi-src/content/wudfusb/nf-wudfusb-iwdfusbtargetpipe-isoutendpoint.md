@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetpipe_isoutendpoint.htm
 old-project: wdf
 ms.assetid: cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint, IsOutEndPoint method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_isoutendpoint, IsOutEndPoint method, IWDFUsbTargetPipe interface, IsOutEndPoint method, umdf.iwdfusbtargetpipe_isoutendpoint, IWDFUsbTargetPipe::IsOutEndPoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfusbtargetpipe_isoutendpoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, IWDFUsbTargetPipe::IsOutEndPoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint, wdf.iwdfusbtargetpipe_isoutendpoint, IWDFUsbTargetPipe interface, IsOutEndPoint method, IWDFUsbTargetPipe, IsOutEndPoint method, IWDFUsbTargetPipe interface, IsOutEndPoint method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,17 +98,17 @@ For a code example of how to use the <b>IsOutEndPoint</b> method, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::IsOutEndPoint method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::IsOutEndPoint method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

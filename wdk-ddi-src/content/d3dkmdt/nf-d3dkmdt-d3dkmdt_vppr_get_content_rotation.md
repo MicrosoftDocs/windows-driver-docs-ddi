@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_vppr_get_content_rotation.htm
 old-project: display
 ms.assetid: 61C1EB2F-E4CF-4B18-AD7B-6B24EF14E71F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices], D3DKMDT_VPPR_GET_CONTENT_ROTATION, d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, display.d3dkmdt_vppr_get_content_rotation
+ms.date: 2/20/2018
+ms.keywords: display.d3dkmdt_vppr_get_content_rotation, d3dkmdt/D3DKMDT_VPPR_GET_CONTENT_ROTATION, D3DKMDT_VPPR_GET_CONTENT_ROTATION, D3DKMDT_VPPR_GET_CONTENT_ROTATION function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,10 +243,6 @@ Here's an example of how this function can provide your driver with the info it 
 
 
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
-
-
-
 <a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_content_rotation_part.md">D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART</a>
 
 
@@ -259,9 +255,13 @@ Here's an example of how this function can provide your driver with the info it 
 
 
 
- 
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VPPR_GET_CONTENT_ROTATION function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VPPR_GET_CONTENT_ROTATION function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

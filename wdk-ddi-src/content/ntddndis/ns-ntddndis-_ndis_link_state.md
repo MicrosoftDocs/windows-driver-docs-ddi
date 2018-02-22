@@ -7,8 +7,8 @@ old-location: netvista\ndis_link_state.htm
 old-project: netvista
 ms.assetid: 01d74e69-55fe-4e2e-94ab-7676f9e33403
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_NDIS_LINK_STATE, *PNDIS_LINK_STATE, NDIS_LINK_STATE, netvista.ndis_link_state, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_LINK_STATE, PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_LINK_STATE"
+ms.date: 2/16/2018
+ms.keywords: NDIS_LINK_STATE, _NDIS_LINK_STATE, ntddndis/PNDIS_LINK_STATE, NDIS_LINK_STATE structure [Network Drivers Starting with Windows Vista], netvista.ndis_link_state, *PNDIS_LINK_STATE, PNDIS_LINK_STATE structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_LINK_STATE, PNDIS_LINK_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -208,25 +208,17 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">
  OID_GEN_MEDIA_DUPLEX_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569594">OID_GEN_LINK_SPEED_EX</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">
  OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
 
 
 
@@ -238,9 +230,17 @@ The miniport driver also returns an <b>NDIS_LINK_STATE</b> structure when it han
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569595">OID_GEN_LINK_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_LINK_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_LINK_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

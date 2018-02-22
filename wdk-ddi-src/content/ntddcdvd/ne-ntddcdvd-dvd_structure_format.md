@@ -7,8 +7,8 @@ old-location: storage\dvd_structure_format.htm
 old-project: storage
 ms.assetid: 0f3ca59b-f7e9-4bd7-a652-f7f0a6075d80
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddcdvd/DvdMaxDescriptor, ntddcdvd/DvdDiskKeyDescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, storage.dvd_structure_format, DVD_STRUCTURE_FORMAT, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdPhysicalDescriptor, ntddcdvd/DvdBCADescriptor, DvdManufacturerDescriptor, DvdPhysicalDescriptor, DvdCopyrightDescriptor, DvdMaxDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DvdBCADescriptor, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], ntddcdvd/DvdManufacturerDescriptor, ntddcdvd/DVD_STRUCTURE_FORMAT, PDVD_STRUCTURE_FORMAT, DvdDiskKeyDescriptor, *PDVD_STRUCTURE_FORMAT
+ms.date: 2/16/2018
+ms.keywords: ntddcdvd/DvdMaxDescriptor, ntddcdvd/DVD_STRUCTURE_FORMAT, PDVD_STRUCTURE_FORMAT, DvdDiskKeyDescriptor, ntddcdvd/DvdPhysicalDescriptor, storage.dvd_structure_format, PDVD_STRUCTURE_FORMAT enumeration pointer [Storage Devices], DvdMaxDescriptor, *PDVD_STRUCTURE_FORMAT, DvdBCADescriptor, ntddcdvd/PDVD_STRUCTURE_FORMAT, DvdPhysicalDescriptor, ntddcdvd/DvdDiskKeyDescriptor, DvdManufacturerDescriptor, DvdCopyrightDescriptor, ntddcdvd/DvdCopyrightDescriptor, ntddcdvd/DvdBCADescriptor, structs-DVD_299fec4b-1ed0-43ea-a522-716c1a585d0e.xml, ntddcdvd/DvdManufacturerDescriptor, DVD_STRUCTURE_FORMAT enumeration [Storage Devices], DVD_STRUCTURE_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DVD_STRUCTURE_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # DVD_STRUCTURE_FORMAT enumeration
@@ -116,5 +116,5 @@ Indicates that caller is requesting a DVD max descriptor.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_STRUCTURE_FORMAT enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_STRUCTURE_FORMAT enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

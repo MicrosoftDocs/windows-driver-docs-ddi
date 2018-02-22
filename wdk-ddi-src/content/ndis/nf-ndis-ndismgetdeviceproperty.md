@@ -7,8 +7,8 @@ old-location: netvista\ndismgetdeviceproperty.htm
 old-project: netvista
 ms.assetid: caef96b6-1b94-475d-9f78-66ae6d6ac979
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisMGetDeviceProperty, netvista.ndismgetdeviceproperty, miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], NdisMGetDeviceProperty
+ms.date: 2/16/2018
+ms.keywords: NdisMGetDeviceProperty function [Network Drivers Starting with Windows Vista], ndis/NdisMGetDeviceProperty, miniport_ndis_functions_ref_849a967a-d488-4440-a9b5-9c7fbc247acd.xml, netvista.ndismgetdeviceproperty, NdisMGetDeviceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,17 +163,17 @@ Miniport drivers can call
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
- 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMGetDeviceProperty function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMGetDeviceProperty function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_io_type__umdf_.htm
 old-project: wdf
 ms.assetid: 52733647-d577-4507-a5ad-5f56f3a9f8a2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PWDF_DEVICE_IO_TYPE enumeration pointer, wudfddi_types/WdfDeviceIoNeither, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, wudfddi_types/PWDF_DEVICE_IO_TYPE, WdfDeviceIoDirect, *PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoMaximum, WdfDeviceIoNeither, WdfDeviceIoMaximum, umdf.wdf_device_io_type__umdf_, WdfDeviceIoUndefined, WDF_DEVICE_IO_TYPE enumeration, wudfddi_types/WdfDeviceIoUndefined, wudfddi_types/WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoBufferedOrDirect, _WDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, wdf.wdf_device_io_type__umdf_, PWDF_DEVICE_IO_TYPE, wudfddi_types/WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBuffered, WdfDeviceIoBufferedOrDirect
+ms.date: 2/20/2018
+ms.keywords: wudfddi_types/WdfDeviceIoDirect, wudfddi_types/WdfDeviceIoMaximum, _WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoBuffered, wudfddi_types/WDF_DEVICE_IO_TYPE, wudfddi_types/WdfDeviceIoNeither, WdfDeviceIoBuffered, wudfddi_types/WdfDeviceIoBufferedOrDirect, umdfstructs_df3f719d-59c4-4df5-b079-33e6962d1225.xml, umdf.wdf_device_io_type__umdf_, wudfddi_types/PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE enumeration, wudfddi_types/WdfDeviceIoUndefined, WdfDeviceIoUndefined, WdfDeviceIoDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, WDF_DEVICE_IO_TYPE, WdfDeviceIoBufferedOrDirect, WdfDeviceIoMaximum, WdfDeviceIoNeither, PWDF_DEVICE_IO_TYPE, wdf.wdf_device_io_type__umdf_, *PWDF_DEVICE_IO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_IO_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE"
+req.typenames: WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
-      The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used to specify a method for <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">accessing data buffers</a>.
+The <b>WDF_DEVICE_IO_TYPE</b> enumeration is used to specify a method for <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/accessing-data-buffers-in-wdf-drivers">accessing data buffers</a>.
 
 
 ## -syntax
@@ -137,11 +137,11 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
-
-
-
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556969">IWDFDeviceInitialize2::SetIoTypePreference</a>
 
 
 
@@ -153,5 +153,5 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

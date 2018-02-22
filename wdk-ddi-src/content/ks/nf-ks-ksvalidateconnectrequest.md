@@ -7,8 +7,8 @@ old-location: stream\ksvalidateconnectrequest.htm
 old-project: stream
 ms.assetid: 64343a8a-9629-469e-95a3-b9c140cdd324
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml, KsValidateConnectRequest, KsValidateConnectRequest function [Streaming Media Devices], ks/KsValidateConnectRequest, stream.ksvalidateconnectrequest
+ms.date: 2/20/2018
+ms.keywords: stream.ksvalidateconnectrequest, KsValidateConnectRequest function [Streaming Media Devices], ks/KsValidateConnectRequest, KsValidateConnectRequest, ksfunc_2df36f34-31c9-48f2-859c-1829b60fbae7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

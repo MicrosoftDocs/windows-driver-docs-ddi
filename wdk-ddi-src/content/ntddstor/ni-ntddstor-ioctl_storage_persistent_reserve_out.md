@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_persistent_reserve_out.htm
 old-project: storage
 ms.assetid: a9863ac9-46e2-4888-879e-7d56e9260142
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_storage_persistent_reserve_out, IOCTL_STORAGE_PERSISTENT_RESERVE_OUT control code [Storage Devices], IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_OUT, k307_664b87a0-88f2-42ac-851e-b1fbbf36c66a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

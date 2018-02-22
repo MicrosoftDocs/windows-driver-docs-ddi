@@ -7,7 +7,7 @@ old-location: netvista\ndispdclearreceivefilter.htm
 old-project: netvista
 ms.assetid: C91F2E5D-C37F-48A9-9AE0-F5A8C5D8F54D
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.ndispdclearreceivefilter, NdisPDClearReceiveFilter callback function [Network Drivers Starting with Windows Vista], NdisPDClearReceiveFilter, NDIS_PD_CLEAR_RECEIVE_FILTER, NDIS_PD_CLEAR_RECEIVE_FILTER, ndis/NdisPDClearReceiveFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	NdisPDClearReceiveFilter
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # NDIS_PD_CLEAR_RECEIVE_FILTER callback

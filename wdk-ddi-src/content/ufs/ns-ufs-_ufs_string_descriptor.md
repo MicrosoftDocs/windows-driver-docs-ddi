@@ -7,8 +7,8 @@ old-location: storage\ufs_string_descriptor.htm
 old-project: storage
 ms.assetid: 1F32DA95-6801-4C48-B3C4-A47C3E1C678B
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], *PUFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], _UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, UFS_STRING_DESCRIPTOR, PUFS_STRING_DESCRIPTOR, ufs/PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR
+ms.date: 2/16/2018
+ms.keywords: "_UFS_STRING_DESCRIPTOR, storage.ufs_string_descriptor, PUFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR, ufs/PUFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR structure [Storage Devices], PUFS_STRING_DESCRIPTOR structure pointer [Storage Devices], *PUFS_STRING_DESCRIPTOR, ufs/UFS_STRING_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFS_STRING_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUFS_STRING_DESCRIPTOR, UFS_STRING_DESCRIPTOR"
+req.typenames: UFS_STRING_DESCRIPTOR, *PUFS_STRING_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

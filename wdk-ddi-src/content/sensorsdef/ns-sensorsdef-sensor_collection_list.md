@@ -7,8 +7,8 @@ old-location: sensors\sensor_collection_list.htm
 old-project: sensors
 ms.assetid: B842C707-C6E0-4C56-986E-35BFD32F265D
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: SENSOR_COLLECTION_LIST structure [Sensor Devices], SENSOR_COLLECTION_LIST, sensorsdef/PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], sensors.sensor_collection_list, sensorsdef/SENSOR_COLLECTION_LIST, *PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST
+ms.date: 2/15/2018
+ms.keywords: PSENSOR_COLLECTION_LIST structure pointer [Sensor Devices], *PSENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST structure [Sensor Devices], sensorsdef/SENSOR_COLLECTION_LIST, sensors.sensor_collection_list, sensorsdef/PSENSOR_COLLECTION_LIST, PSENSOR_COLLECTION_LIST, SENSOR_COLLECTION_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: netvista\npdbrokeruninitialize.htm
 old-project: netvista
 ms.assetid: E1CC0E8D-B48E-4F02-AE26-82123A3722E6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NpdBrokerUninitialize, netvista.npdbrokeruninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista], knetpwrdepbroker/NpdBrokerUninitialize
+ms.date: 2/16/2018
+ms.keywords: NpdBrokerUninitialize, netvista.npdbrokeruninitialize, knetpwrdepbroker/NpdBrokerUninitialize, NpdBrokerUninitialize function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NpdBrokerUninitialize
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # NpdBrokerUninitialize function

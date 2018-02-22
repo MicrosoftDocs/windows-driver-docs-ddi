@@ -7,8 +7,8 @@ old-location: storage\scsiwmi_request_context.htm
 old-project: storage
 ms.assetid: 524150d8-d4a7-4b61-89c4-0074c938559b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.scsiwmi_request_context, scsiwmi/PSCSIWMI_REQUEST_CONTEXT, *PSCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT structure [Storage Devices], SCSIWMI_REQUEST_CONTEXT, scsiwmi/SCSIWMI_REQUEST_CONTEXT, structs-scsibus_3323f388-8dc7-4723-bc2c-7822ed622ccd.xml, PSCSIWMI_REQUEST_CONTEXT, PSCSIWMI_REQUEST_CONTEXT structure pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: scsiwmi/PSCSIWMI_REQUEST_CONTEXT, storage.scsiwmi_request_context, scsiwmi/SCSIWMI_REQUEST_CONTEXT, PSCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT structure [Storage Devices], *PSCSIWMI_REQUEST_CONTEXT, structs-scsibus_3323f388-8dc7-4723-bc2c-7822ed622ccd.xml, PSCSIWMI_REQUEST_CONTEXT structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,11 +124,11 @@ A request context must remain valid throughout the processing of an SRB. If the 
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
-
-
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+
+
+
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
 
 
 
@@ -144,5 +144,5 @@ A request context must remain valid throughout the processing of an SRB. If the 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSIWMI_REQUEST_CONTEXT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSIWMI_REQUEST_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

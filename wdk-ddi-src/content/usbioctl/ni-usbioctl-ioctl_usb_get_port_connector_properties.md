@@ -4,10 +4,10 @@ title: IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 author: windows-driver-content
 description: The IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES I/O control request is sent by an application to retrieve information about a specific port on a USB hub.
 old-location: buses\ioctl_usb_get_port_connector_properties.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 23B2A4AF-1255-4332-83A9-EEEB0007B966
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_usb_get_port_connector_properties, IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code [Buses], IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES, usbioctl/IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -152,5 +152,5 @@ Based on the <b>ActualLength</b> value, the caller can then allocate a buffer an
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20IOCTL_USB_GET_PORT_CONNECTOR_PROPERTIES control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetIndexByNameWide method
 author: windows-driver-content
 description: The GetIndexByNameWide method returns the index of the named register.
 old-location: debugger\getindexbynamewide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: eb6a50b4-275f-42c9-8121-17677971ebb2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide method [Windows Debugging], debugger.getindexbynamewide, dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2, IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method
+ms.date: 2/15/2018
+ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], GetIndexByNameWide method, dbgeng/IDebugRegisters2::GetIndexByNameWide, IDebugRegisters2::GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], IDebugRegisters2 interface, GetIndexByNameWide, GetIndexByNameWide method [Windows Debugging], debugger.getindexbynamewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetIndexByNameWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetIndexByNameWide method

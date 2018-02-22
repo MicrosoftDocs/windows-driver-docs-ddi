@@ -7,13 +7,13 @@ old-location: kernel\write_register_ushort.htm
 old-project: kernel
 ms.assetid: ebcbec0c-c5ee-4af1-be3c-36c730f82f4e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml, kernel.write_register_ushort, WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_USHORT
+ms.date: 2/16/2018
+ms.keywords: WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_USHORT, kernel.write_register_ushort, k103_bc20d667-b3c7-4e46-a21d-06123e73d348.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -69,12 +69,12 @@ VOID WRITE_REGISTER_USHORT(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a USHORT value to be written to the register. 
 

@@ -7,8 +7,8 @@ old-location: netvista\ril_writephonebookentry.htm
 old-project: netvista
 ms.assetid: 03fc6240-ccc8-48de-87e0-b1ee5db3bac8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista], RIL_WritePhonebookEntry, rilapi/RIL_WritePhonebookEntry, netvista.ril_writephonebookentry
+ms.date: 2/16/2018
+ms.keywords: RIL_WritePhonebookEntry, netvista.ril_writephonebookentry, rilapi/RIL_WritePhonebookEntry, RIL_WritePhonebookEntry method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_WritePhonebookEntry
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: storage\hba_getwrapperlibraryattributes.htm
 old-project: storage
 ms.assetid: c40b8f20-65e9-4e43-a402-14bd30f15975
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: HBA_GetWrapperLibraryAttributes routine [Storage Devices], HBA_GetWrapperLibraryAttributes, storage.hba_getwrapperlibraryattributes, fibreHBA_rtns_98e62721-8cee-4799-b25f-bf01b52d966c.xml, hbaapi/HBA_GetWrapperLibraryAttributes
+ms.date: 2/16/2018
+ms.keywords: hbaapi/HBA_GetWrapperLibraryAttributes, fibreHBA_rtns_98e62721-8cee-4799-b25f-bf01b52d966c.xml, HBA_GetWrapperLibraryAttributes routine [Storage Devices], storage.hba_getwrapperlibraryattributes, HBA_GetWrapperLibraryAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,5 +108,5 @@ Microsoft supplies both libraries, so currently they return the same information
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetWrapperLibraryAttributes routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetWrapperLibraryAttributes routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

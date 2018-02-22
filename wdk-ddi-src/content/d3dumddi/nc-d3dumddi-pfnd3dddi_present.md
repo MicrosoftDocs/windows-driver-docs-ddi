@@ -7,7 +7,7 @@ old-location: display\present.htm
 old-project: display
 ms.assetid: e90683b4-64b6-4018-96a5-b50118df3367
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.present, Present callback function [Display Devices], Present, PFND3DDDI_PRESENT, PFND3DDDI_PRESENT, d3dumddi/Present, UserModeDisplayDriver_Functions_186fad4e-6231-4851-94ad-7296653832cc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -148,19 +148,15 @@ If a user-mode display driver exposes a DDI version of less than 0x0000000C (the
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
 
 
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_present.md">D3DDDIARG_PRESENT</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 
 
@@ -172,9 +168,13 @@ If a user-mode display driver exposes a DDI version of less than 0x0000000C (the
 
 
 
- 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_flush.md">Flush</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_PRESENT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_PRESENT callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

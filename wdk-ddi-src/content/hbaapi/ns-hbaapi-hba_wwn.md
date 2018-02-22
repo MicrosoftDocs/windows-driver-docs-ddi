@@ -7,8 +7,8 @@ old-location: storage\hba_wwn.htm
 old-project: storage
 ms.assetid: 84441fde-1d66-4f76-86b7-dccd792afd0f
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PHBA_WWN, HBA_wwn structure [Storage Devices], hbaapi/PHBA_WWN, storage.hba_wwn, *PHBA_WWN, HBA_wwn, HBA_WWN structure [Storage Devices], structs-Fibre_89c3be90-1992-4d06-9a26-c3067dc69db8.xml, PHBA_WWN structure pointer [Storage Devices], hbaapi/HBA_wwn, HBA_WWN
+ms.date: 2/16/2018
+ms.keywords: HBA_WWN, structs-Fibre_89c3be90-1992-4d06-9a26-c3067dc69db8.xml, hbaapi/HBA_wwn, HBA_wwn, storage.hba_wwn, HBA_wwn structure [Storage Devices], *PHBA_WWN, HBA_WWN structure [Storage Devices], hbaapi/PHBA_WWN, PHBA_WWN, PHBA_WWN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,5 +90,5 @@ Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_wwn structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_wwn structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

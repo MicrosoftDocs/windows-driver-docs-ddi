@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcchcopyex.htm
 old-project: kernel
 ms.assetid: c8abf741-ea8c-46d3-85f5-0cc38f1a5ea7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], RtlStringCchCopyExA, ntstrsafe/RtlStringCchCopyExW, STRSAFE_IGNORE_NULLS, STRSAFE_NULL_ON_FAILURE, STRSAFE_NO_TRUNCATION, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml, ntstrsafe/RtlStringCchCopyExA, kernel.rtlstringcchcopyex, RtlStringCchCopyEx, RtlStringCchCopyExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE
+ms.date: 2/16/2018
+ms.keywords: ntstrsafe/RtlStringCchCopyExA, RtlStringCchCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_IGNORE_NULLS, kernel.rtlstringcchcopyex, RtlStringCchCopyEx, safestrings_d4303dc8-8b38-4159-a001-04421ccd2548.xml, ntstrsafe/RtlStringCchCopyExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, RtlStringCchCopyExW, RtlStringCchCopyExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchCopyExW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
 ---
 
 # RtlStringCchCopyExA function
@@ -303,5 +303,5 @@ For more information about the safe string functions, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCopyExW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchCopyExW function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

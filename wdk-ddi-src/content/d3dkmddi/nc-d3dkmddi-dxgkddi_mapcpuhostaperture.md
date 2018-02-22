@@ -7,7 +7,7 @@ old-location: display\dxgkddimapcpuhostaperture.htm
 old-project: display
 ms.assetid: 78729B9A-A9FA-4D1E-8D30-3FFD61B1A7D3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddimapcpuhostaperture, DxgkDdiMapCpuHostAperture callback function [Display Devices], DxgkDdiMapCpuHostAperture, DXGKDDI_MAPCPUHOSTAPERTURE, DXGKDDI_MAPCPUHOSTAPERTURE, d3dkmddi/DxgkDdiMapCpuHostAperture
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,6 +83,8 @@ A handle to the display adapter.
 
 
 
+
+
 #### - Map [in]
 
 The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAPCPUHOSTAPERTURE</a> structure that describes the operation.
@@ -92,6 +94,8 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_mapcpuhostaperture.md">DXGKARG_MAP
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+
 
 

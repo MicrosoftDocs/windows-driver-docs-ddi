@@ -4,11 +4,11 @@ title: "_USBFN_EVENT"
 author: windows-driver-content
 description: Defines notifications sent to class drivers.
 old-location: buses\usbfn_event.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 4A1A4E49-6452-4291-8CD4-FA390C1F167E
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: UsbfnEventConfigured, usbfnbase/USBFN_EVENT, usbfnbase/UsbfnEventAttach, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventConfigured, UsbfnEventMinimum, UsbfnEventMaximum, usbfnbase/UsbfnEventResume, UsbfnEventSetupPacket, USBFN_EVENT, usbfnbase/UsbfnEventReset, USBFN_EVENT enumeration [Buses], UsbfnEventReset, buses.usbfn_event, UsbfnEventSuspend, UsbfnEventAttach, UsbfnEventUnConfigured, usbfnbase/UsbfnEventUnConfigured, usbfnbase/UsbfnEventPortType, usbfnbase/UsbfnEventMinimum, usbfnbase/UsbfnEventSetInterface, UsbfnEventPortType, UsbfnEventBusTearDown, UsbfnEventSetInterface, usbfnbase/UsbfnEventDetach, UsbfnEventResume, _USBFN_EVENT, *PUSBFN_EVENT, usbfnbase/UsbfnEventSuspend, UsbfnEventDetach, usbfnbase/UsbfnEventBusTearDown, usbfnbase/UsbfnEventMaximum
+ms.date: 2/15/2018
+ms.keywords: UsbfnEventAttach, UsbfnEventConfigured, usbfnbase/UsbfnEventAttach, usbfnbase/UsbfnEventConfigured, *PUSBFN_EVENT, UsbfnEventReset, usbfnbase/UsbfnEventResume, usbfnbase/UsbfnEventPortType, UsbfnEventSetupPacket, _USBFN_EVENT, usbfnbase/UsbfnEventUnConfigured, UsbfnEventBusTearDown, UsbfnEventSuspend, UsbfnEventUnConfigured, usbfnbase/UsbfnEventBusTearDown, buses.usbfn_event, usbfnbase/USBFN_EVENT, USBFN_EVENT enumeration [Buses], UsbfnEventDetach, usbfnbase/UsbfnEventDetach, usbfnbase/UsbfnEventSuspend, UsbfnEventMaximum, UsbfnEventMinimum, usbfnbase/UsbfnEventMaximum, usbfnbase/UsbfnEventSetInterface, UsbfnEventPortType, USBFN_EVENT, UsbfnEventResume, UsbfnEventSetInterface, usbfnbase/UsbfnEventSetupPacket, usbfnbase/UsbfnEventMinimum, usbfnbase/UsbfnEventReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,13 +7,13 @@ old-location: pci\pci_express_slot_capabilities_register.htm
 old-project: PCI
 ms.assetid: a5548777-a88e-40f8-891d-662e0892fd37
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, pci_struct_095f0907-dfff-491b-8734-28b42794c46b.xml, ntddk/PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI.pci_express_slot_capabilities_register, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union pointer [Buses], ntddk/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union [Buses], *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER"
+ms.date: 2/15/2018
+ms.keywords: PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union [Buses], PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI.pci_express_slot_capabilities_register, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union pointer [Buses], *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, pci_struct_095f0907-dfff-491b-8734-28b42794c46b.xml, _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
-req.include-header: Ntddk.h
+req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER"
+req.typenames: PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER, *PPCI_EXPRESS_SLOT_CAPABILITIES_REGISTER
 ---
 
 # _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure
@@ -86,71 +86,80 @@ typedef union _PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER {
  
 
 
-### -field DUMMYSTRUCTNAME.AttentionButtonPresent
+### -field AsULONG
+
+A ULONG representation of the contents of the PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure.
+
+
+#### - AttentionButtonPresent
 
 A single bit that indicates that an attention button exists for the slot.
 
 
-### -field DUMMYSTRUCTNAME.PowerControllerPresent
+#### - PowerControllerPresent
 
 A single bit that indicates that a software programmable power controller exists for the slot or for the adapter that is plugged into the slot.
 
 
-### -field DUMMYSTRUCTNAME.MRLSensorPresent
+#### - MRLSensorPresent
 
 A single bit that indicates that a manually operated retention latch (MRL) sensor exists for the slot.
 
 
-### -field DUMMYSTRUCTNAME.AttentionIndicatorPresent
+#### - AttentionIndicatorPresent
 
 A single bit that indicates that an attention indicator exists for the slot.
 
 
-### -field DUMMYSTRUCTNAME.PowerIndicatorPresent
+#### - PowerIndicatorPresent
 
 A single bit that indicates that a power indicator exists for the slot.
 
 
-### -field DUMMYSTRUCTNAME.HotPlugSurprise
+#### - HotPlugSurprise
 
 A single bit that indicates that an adapter that is present in the slot can be removed from the system without any prior notification.
 
 
-### -field DUMMYSTRUCTNAME.HotPlugCapable
+#### - HotPlugCapable
 
 A single bit that indicates that the slot is capable of supporting hot-plug operations.
 
 
-### -field DUMMYSTRUCTNAME.SlotPowerLimit
+#### - SlotPowerLimit
 
 The maximum amount of power that can be supplied by the slot. This value is used in combination with the value of the <b>SlotPowerLimitScale</b> member to compute the power in watts.
 
 
-### -field DUMMYSTRUCTNAME.SlotPowerLimitScale
+#### - SlotPowerLimitScale
 
 The scale used for the value contained in the <b>SlotPowerLimit</b> member to compute the maximum power, in watts, that can be supplied by the slot. Possible values are:
 
 
 
 
-### -field DUMMYSTRUCTNAME.ElectromechanicalLockPresent
 
-A single bit that indicates that an electromechanical interlock exists for the slot.
+#### 0
 
-
-### -field DUMMYSTRUCTNAME.NoCommandCompletedSupport
-
-A single bit that indicates that the slot does not generate software notification when an issued command is completed by the hot-plug controller.
+Multiply the value in the <b>SlotPowerLimit</b> member by 1.0.
 
 
-### -field DUMMYSTRUCTNAME.PhysicalSlotNumber
 
-The physical slot number in the system chassis that is attached to this port. This value is zero for ports that are connected to devices that are either integrated on the system board or integrated within the same physical component as the switch device or root port.
+#### 1
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.1.
 
 
-### -field AsULONG
 
-A ULONG representation of the contents of the PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure.
+#### 2
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.01.
+
+
+
+#### 3
+
+Multiply the value in the <b>SlotPowerLimit</b> member by 0.001.
 
 
 ##### - SlotPowerLimitScale.0
@@ -171,6 +180,21 @@ Multiply the value in the <b>SlotPowerLimit</b> member by 0.01.
 ##### - SlotPowerLimitScale.3
 
 Multiply the value in the <b>SlotPowerLimit</b> member by 0.001.
+
+
+#### - ElectromechanicalLockPresent
+
+A single bit that indicates that an electromechanical interlock exists for the slot.
+
+
+#### - NoCommandCompletedSupport
+
+A single bit that indicates that the slot does not generate software notification when an issued command is completed by the hot-plug controller.
+
+
+#### - PhysicalSlotNumber
+
+The physical slot number in the system chassis that is attached to this port. This value is zero for ports that are connected to devices that are either integrated on the system board or integrated within the same physical component as the switch device or root port.
 
 
 ## -remarks
@@ -194,5 +218,5 @@ A PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER structure is contained in the <a href="
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_SLOT_CAPABILITIES_REGISTER union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

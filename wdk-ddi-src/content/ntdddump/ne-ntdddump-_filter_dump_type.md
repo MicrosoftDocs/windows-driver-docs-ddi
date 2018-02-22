@@ -7,8 +7,8 @@ old-location: storage\filter_dump_type.htm
 old-project: storage
 ms.assetid: 396aec33-b4b4-4b4e-9890-b4aa829c3bbd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: FILTER_DUMP_TYPE enumeration [Storage Devices], ntdddump/DumpTypeHibernation, DumpTypeUndefined, PFILTER_DUMP_TYPE, ntdddump/DumpTypeCrashdump, storage.filter_dump_type, DumpTypeCrashdump, ntdddump/PFILTER_DUMP_TYPE, PFILTER_DUMP_TYPE enumeration pointer [Storage Devices], structs-filter_b7846186-0937-4996-984e-398636fc7b2f.xml, FILTER_DUMP_TYPE, *PFILTER_DUMP_TYPE, ntdddump/FILTER_DUMP_TYPE, _FILTER_DUMP_TYPE, DumpTypeHibernation, ntdddump/DumpTypeUndefined
+ms.date: 2/16/2018
+ms.keywords: ntdddump/FILTER_DUMP_TYPE, ntdddump/PFILTER_DUMP_TYPE, DumpTypeHibernation, PFILTER_DUMP_TYPE enumeration pointer [Storage Devices], *PFILTER_DUMP_TYPE, _FILTER_DUMP_TYPE, ntdddump/DumpTypeCrashdump, FILTER_DUMP_TYPE enumeration [Storage Devices], storage.filter_dump_type, ntdddump/DumpTypeHibernation, structs-filter_b7846186-0937-4996-984e-398636fc7b2f.xml, FILTER_DUMP_TYPE, DumpTypeUndefined, DumpTypeCrashdump, ntdddump/DumpTypeUndefined, PFILTER_DUMP_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

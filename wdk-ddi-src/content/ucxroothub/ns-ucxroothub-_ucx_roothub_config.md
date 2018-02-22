@@ -4,11 +4,11 @@ title: "_UCX_ROOTHUB_CONFIG"
 author: windows-driver-content
 description: Contains pointers to event callback functions for creating the root hub by calling UcxRootHubCreate. Initialize this structure by calling UCX_ROOTHUB_CONFIG_INIT initialization function (see Ucxclass.h).
 old-location: buses\_ucx_roothub_config.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 27E54F0D-2163-4D7C-B204-336EE0227488
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: P_UCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG, _UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG structure pointer [Buses], buses._ucx_roothub_config, *PUCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG structure [Buses], ucxroothub/P_UCX_ROOTHUB_CONFIG, ucxroothub/_UCX_ROOTHUB_CONFIG
+ms.date: 2/15/2018
+ms.keywords: P_UCX_ROOTHUB_CONFIG, P_UCX_ROOTHUB_CONFIG structure pointer [Buses], *PUCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG structure [Buses], UCX_ROOTHUB_CONFIG, ucxroothub/P_UCX_ROOTHUB_CONFIG, buses._ucx_roothub_config, _UCX_ROOTHUB_CONFIG, ucxroothub/_UCX_ROOTHUB_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

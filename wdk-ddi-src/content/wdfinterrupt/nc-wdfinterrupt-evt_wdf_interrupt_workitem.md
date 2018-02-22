@@ -7,7 +7,7 @@ old-location: wdf\evtinterruptworkitem.htm
 old-project: wdf
 ms.assetid: 1A473A08-EA23-4DFE-8B58-EBB4AC977891
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtinterruptworkitem, EvtInterruptWorkItem callback function, EvtInterruptWorkItem, EVT_WDF_INTERRUPT_WORKITEM, EVT_WDF_INTERRUPT_WORKITEM, wdfinterrupt/EvtInterruptWorkItem, kmdf.evtinterruptworkitem
 ms.prod: windows-hardware
 ms.technology: windows-devices

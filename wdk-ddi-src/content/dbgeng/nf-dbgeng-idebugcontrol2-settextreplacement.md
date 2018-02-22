@@ -4,11 +4,11 @@ title: IDebugControl2::SetTextReplacement method
 author: windows-driver-content
 description: The SetTextReplacement method sets the value of a user-named alias.
 old-location: debugger\settextreplacement.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 00c82e73-5649-403b-9f07-81bdd2f6c756
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetTextReplacement method [Windows Debugging], IDebugControl3 interface, debugger.settextreplacement, IDebugControl2, SetTextReplacement, dbgeng/IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], dbgeng/IDebugControl3::SetTextReplacement, IDebugControl2 interface [Windows Debugging], SetTextReplacement method, IDebugControl2::SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl2 interface, IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, IDebugControl3 interface [Windows Debugging], SetTextReplacement method
+ms.date: 2/15/2018
+ms.keywords: IDebugControl3::SetTextReplacement, dbgeng/IDebugControl2::SetTextReplacement, IDebugControl3 interface [Windows Debugging], SetTextReplacement method, IDebugControl2, SetTextReplacement method [Windows Debugging], SetTextReplacement method [Windows Debugging], IDebugControl2 interface, debugger.settextreplacement, IDebugControl2::SetTextReplacement, SetTextReplacement, SetTextReplacement method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::SetTextReplacement, IDebugControl_b53cd6ec-4cc4-45b2-96a0-b830bc7f8ca9.xml, IDebugControl2 interface [Windows Debugging], SetTextReplacement method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugControl3.SetTextReplacement
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl2::SetTextReplacement method
@@ -124,10 +124,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
 
@@ -136,19 +132,11 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
 
 
@@ -156,9 +144,21 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl2::SetTextReplacement method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl2::SetTextReplacement method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

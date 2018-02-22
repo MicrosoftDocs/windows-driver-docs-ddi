@@ -4,11 +4,11 @@ title: IDebugControl::Assemble method
 author: windows-driver-content
 description: The Assemble method assembles a single processor instruction. The assembled instruction is placed in the target's memory.
 old-location: debugger\assemble.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 4d7d84e7-4fa4-4514-9d52-dbae5fed159b
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Assemble method [Windows Debugging], IDebugControl3 interface, debugger.assemble, dbgeng/IDebugControl3::Assemble, Assemble method [Windows Debugging], IDebugControl2 interface, Assemble, Assemble method [Windows Debugging], IDebugControl2 interface [Windows Debugging], Assemble method, Assemble method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::Assemble, IDebugControl, IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, IDebugControl interface [Windows Debugging], Assemble method, IDebugControl3::Assemble, dbgeng/IDebugControl::Assemble, IDebugControl2::Assemble, IDebugControl::Assemble
+ms.date: 2/15/2018
+ms.keywords: debugger.assemble, IDebugControl, Assemble, Assemble method [Windows Debugging], IDebugControl interface, IDebugControl::Assemble, Assemble method [Windows Debugging], IDebugControl interface [Windows Debugging], Assemble method, Assemble method [Windows Debugging], IDebugControl2 interface, IDebugControl_99336950-ba0b-46e1-871d-582f08ab5519.xml, dbgeng/IDebugControl::Assemble, IDebugControl2::Assemble, dbgeng/IDebugControl2::Assemble, Assemble method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], Assemble method, IDebugControl3::Assemble, dbgeng/IDebugControl3::Assemble, IDebugControl2 interface [Windows Debugging], Assemble method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.Assemble
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl::Assemble method
@@ -132,11 +132,15 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff541948">Disassemble</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -148,13 +152,9 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Assemble method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::Assemble method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

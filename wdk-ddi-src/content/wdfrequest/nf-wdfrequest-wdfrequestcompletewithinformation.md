@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestcompletewithinformation.htm
 old-project: wdf
 ms.assetid: dc8f5570-5bdd-492a-a830-e166f146879a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRequestCompleteWithInformation method, wdf.wdfrequestcompletewithinformation, WdfRequestCompleteWithInformation, PFN_WDFREQUESTCOMPLETEWITHINFORMATION, DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, wdfrequest/WdfRequestCompleteWithInformation, kmdf.wdfrequestcompletewithinformation
+ms.date: 2/20/2018
+ms.keywords: wdfrequest/WdfRequestCompleteWithInformation, WdfRequestCompleteWithInformation method, DFRequestObjectRef_29eec73c-aa09-4814-85f9-61979df03412.xml, kmdf.wdfrequestcompletewithinformation, WdfRequestCompleteWithInformation, wdf.wdfrequestcompletewithinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -200,6 +200,14 @@ EvtRequestReadCompletionRoutine(
 
 
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
+
+
+
 <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
 
 
@@ -208,11 +216,7 @@ EvtRequestReadCompletionRoutine(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
 
 
 
@@ -220,13 +224,9 @@ EvtRequestReadCompletionRoutine(
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithpriorityboost.md">WdfRequestCompleteWithPriorityBoost</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestCompleteWithInformation method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestCompleteWithInformation method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

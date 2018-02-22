@@ -7,8 +7,8 @@ old-location: ifsk\rtllookupelementgenerictablefullavl.htm
 old-project: ifsk
 ms.assetid: fddb2e23-ddb3-48bc-a94e-0ca9a8580b78
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.rtllookupelementgenerictablefullavl, RtlLookupElementGenericTableFullAvl routine [Installable File System Drivers], rtlref_12eb0cb8-ea58-45a8-a88b-ceddc5af12c6.xml, ntddk/RtlLookupElementGenericTableFullAvl, RtlLookupElementGenericTableFullAvl
+ms.date: 2/16/2018
+ms.keywords: rtlref_12eb0cb8-ea58-45a8-a88b-ceddc5af12c6.xml, RtlLookupElementGenericTableFullAvl, ifsk.rtllookupelementgenerictablefullavl, ntddk/RtlLookupElementGenericTableFullAvl, RtlLookupElementGenericTableFullAvl routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,6 +154,10 @@ The caller-supplied <i>CompareRoutine</i> contains pageable code.
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlisgenerictableemptyavl.md">RtlIsGenericTableEmptyAvl</a>
 
 
@@ -162,13 +166,9 @@ The caller-supplied <i>CompareRoutine</i> contains pageable code.
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlLookupElementGenericTableFullAvl routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlLookupElementGenericTableFullAvl routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

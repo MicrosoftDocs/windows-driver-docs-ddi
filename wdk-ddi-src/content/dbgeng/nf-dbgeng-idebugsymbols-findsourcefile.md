@@ -4,11 +4,11 @@ title: IDebugSymbols::FindSourceFile method
 author: windows-driver-content
 description: The FindSourceFile method searches the source path for a specified source file.
 old-location: debugger\findsourcefile.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 960d02a8-0929-4ac5-acf8-8386cae543f8
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, FindSourceFile method [Windows Debugging], IDebugSymbols interface [Windows Debugging], FindSourceFile method, IDebugSymbols::FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, dbgeng/IDebugSymbols2::FindSourceFile, IDebugSymbols3::FindSourceFile, dbgeng/IDebugSymbols3::FindSourceFile, FindSourceFile, IDebugSymbols, FindSourceFile method [Windows Debugging], IDebugSymbols interface, debugger.findsourcefile, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::FindSourceFile, IDebugSymbols2 interface [Windows Debugging], FindSourceFile method
+ms.date: 2/15/2018
+ms.keywords: debugger.findsourcefile, IDebugSymbols interface [Windows Debugging], FindSourceFile method, dbgeng/IDebugSymbols2::FindSourceFile, IDebugSymbols2::FindSourceFile, FindSourceFile method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::FindSourceFile, FindSourceFile method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_4b585dd9-8278-457d-901a-89350f6643e4.xml, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, IDebugSymbols::FindSourceFile, FindSourceFile, dbgeng/IDebugSymbols::FindSourceFile, FindSourceFile method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], FindSourceFile method, IDebugSymbols3 interface [Windows Debugging], FindSourceFile method, IDebugSymbols3::FindSourceFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.FindSourceFile
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::FindSourceFile method
@@ -186,7 +186,11 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 
 
@@ -194,15 +198,11 @@ For more information about using the source path, see <a href="https://msdn.micr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548367">GetSourcePathElement</a>
 
 
 
@@ -218,5 +218,5 @@ For more information about using the source path, see <a href="https://msdn.micr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::FindSourceFile method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::FindSourceFile method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

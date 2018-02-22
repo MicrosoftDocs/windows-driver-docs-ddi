@@ -7,8 +7,8 @@ old-location: kernel\exuuidcreate.htm
 old-project: kernel
 ms.assetid: e85fe5fa-b11e-41ff-a355-4da0394377d1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.exuuidcreate, ExUuidCreate routine [Kernel-Mode Driver Architecture], k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, ntddk/ExUuidCreate, ExUuidCreate
+ms.date: 2/16/2018
+ms.keywords: ExUuidCreate routine [Kernel-Mode Driver Architecture], ExUuidCreate, ntddk/ExUuidCreate, k102_e7d2044b-4f90-41bd-bac4-819c721e80c8.xml, kernel.exuuidcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

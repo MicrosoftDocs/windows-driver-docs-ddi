@@ -7,7 +7,7 @@ old-location: netvista\wskbind.htm
 old-project: netvista
 ms.assetid: 520b02d0-a078-4af9-93a3-4fee5bbfee99
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.wskbind, WskBind callback function [Network Drivers Starting with Windows Vista], WskBind, PFN_WSK_BIND, PFN_WSK_BIND, wsk/WskBind, wskref_5d411257-ce57-4331-913a-c195e71a1138.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	WskBind
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -202,7 +202,8 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 
@@ -210,20 +211,15 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -236,7 +232,11 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -244,5 +244,5 @@ For a stream socket, calling the <b>WskBind</b> function binds the socket to the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_BIND callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_BIND callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

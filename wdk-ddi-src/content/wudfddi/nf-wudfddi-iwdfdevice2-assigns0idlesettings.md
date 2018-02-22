@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice2_assigns0idlesettings.htm
 old-project: wdf
 ms.assetid: ffe91b9a-3b74-4dd9-b23d-096f1992485e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFDevice2::AssignS0IdleSettings, AssignS0IdleSettings method, IWDFDevice2 interface, umdf.iwdfdevice2_assigns0idlesettings, IWDFDevice2 interface, AssignS0IdleSettings method, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, wudfddi/IWDFDevice2::AssignS0IdleSettings, AssignS0IdleSettings, AssignS0IdleSettings method, IWDFDevice2, wdf.iwdfdevice2_assigns0idlesettings
+ms.date: 2/20/2018
+ms.keywords: wdf.iwdfdevice2_assigns0idlesettings, AssignS0IdleSettings method, IWDFDevice2 interface, IWDFDevice2::AssignS0IdleSettings, umdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, AssignS0IdleSettings method, IWDFDevice2 interface, AssignS0IdleSettings method, IWDFDevice2, AssignS0IdleSettings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.AssignS0IdleSettings
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -76,7 +76,7 @@ HRESULT AssignS0IdleSettings(
 
 ### -param IdleCaps [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
 
 
 ### -param DxState [in]
@@ -91,12 +91,12 @@ The amount of time, in milliseconds, that the device will remain idle before the
 
 ### -param UserControlOfIdleSettings [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
 
 
 ### -param Enabled [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will be powered down if it remains idle and while the system power is at S0. This member can have one of the following values:
+A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device will be powered down if it remains idle and while the system power is at S0. This member can have one of the following values:
 
 <b>WdfTrue</b> - Powering down is enabled.
 
@@ -258,10 +258,6 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
-
-
-
 <a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
 
 
@@ -270,9 +266,13 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::AssignS0IdleSettings method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::AssignS0IdleSettings method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

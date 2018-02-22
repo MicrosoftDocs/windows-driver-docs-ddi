@@ -7,8 +7,8 @@ old-location: print\expsfontoptions.htm
 old-project: print
 ms.assetid: 3a92b219-91ee-4c11-b5c1-8e2e0cbff406
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: filterpipeline/Font_Normal, EXpsFontOptions, EXpsFontOptions enumeration [Print Devices], filterpipeline/Font_Obfusticate, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, print.expsfontoptions, Font_Normal, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline/EXpsFontOptions, Font_Obfusticate
+ms.date: 2/21/2018
+ms.keywords: filterpipeline/Font_Obfusticate, print.expsfontoptions, EXpsFontOptions enumeration [Print Devices], Font_Normal, filterpipeline/Font_Normal, __MIDL___MIDL_itf_filterpipeline_0000_0000_0002, filterpipeline_252cd44a-7a00-40fb-9245-364c1453e2ef.xml, Font_Obfusticate, EXpsFontOptions, filterpipeline/EXpsFontOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

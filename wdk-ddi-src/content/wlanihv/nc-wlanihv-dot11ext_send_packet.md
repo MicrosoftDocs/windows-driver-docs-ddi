@@ -7,7 +7,7 @@ old-location: netvista\dot11extsendpacket.htm
 old-project: netvista
 ms.assetid: 0672eed0-4824-464b-9f4e-93862f27d586
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.dot11extsendpacket, Dot11ExtSendPacket callback function [Network Drivers Starting with Windows Vista], Dot11ExtSendPacket, DOT11EXT_SEND_PACKET, DOT11EXT_SEND_PACKET, wlanihv/Dot11ExtSendPacket, Native_802.11_IHV_Ext_0acd1763-b9d3-4e75-ada6-63f5a77b42c3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSendPacket
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -109,17 +109,21 @@ When the WLAN adapter completes the send operation, the operating system notifie
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 The IHV Extensions DLL must follow these guidelines when calling the 
     <b>Dot11ExtSendPacket</b> function.
+
 <ul>
 <li>
 The packet sent through a call of the 
@@ -138,12 +142,14 @@ The IHV Extensions DLL must set the
       <i>pvPacket</i> parameter.
 
 </li>
-</ul>For more information about the IHV Handler functions, see 
+</ul>
+For more information about the IHV Handler functions, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
     Functions</a>.
 
 The buffer pointed to by 
     <i>pvPacket</i> should contain the following packet data, specified in network byte order:
+
 <ul>
 <li>
 MAC address of destination (6 bytes), formatted according to the guidelines discussed in 
@@ -160,25 +166,35 @@ IEEE EtherType (2 bytes)
 Payload
 
 </li>
-</ul>This packet data is passed to the miniport driver.
+</ul>
+This packet data is passed to the miniport driver.
+
 
 
 
 ## -see-also
 
-<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
    Dot11ExtIhvSendPacketCompletion</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SEND_PACKET callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SEND_PACKET callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,10 +4,10 @@ title: EVT_UCX_ENDPOINT_ABORT
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to abort the queue associated with the endpoint.
 old-location: buses\evt_ucx_endpoint_abort.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: b457d0b5-30a2-42f9-9194-8c60af790f75
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.evt_ucx_endpoint_abort, EvtUcxEndpointAbort callback function [Buses], EvtUcxEndpointAbort, EVT_UCX_ENDPOINT_ABORT, EVT_UCX_ENDPOINT_ABORT, ucxendpoint/EvtUcxEndpointAbort, PEVT_UCX_ENDPOINT_ABORT callback function pointer [Buses], PEVT_UCX_ENDPOINT_ABORT
 ms.prod: windows-hardware
 ms.technology: windows-devices

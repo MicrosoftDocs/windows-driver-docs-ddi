@@ -4,11 +4,11 @@ title: "_WIA_MICR"
 author: windows-driver-content
 description: The WIA_MICR structure stores header information for the MICR metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_micr.htm
-old-project: image
+old-project: Image
 ms.assetid: CAD08405-698C-4C3A-A03F-827837199CC8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.wia_micr, _WIA_MICR, wiadef/WIA_MICR, WIA_MICR structure [Imaging Devices], WIA_MICR
+ms.date: 2/15/2018
+ms.keywords: "_WIA_MICR, WIA_MICR, image.wia_micr, WIA_MICR structure [Imaging Devices], wiadef/WIA_MICR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WDTFSystemAction.idl
+req.idl: 
 req.max-support: 
-req.namespace: Microsoft.WDTF
-req.assembly: WDTFSystemAction.Interop.dll
+req.namespace: 
+req.assembly: 
 req.type-library: 
 req.lib: 
 req.dll: 

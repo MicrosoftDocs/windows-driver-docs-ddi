@@ -7,8 +7,8 @@ old-location: wdf\wdfioresourcerequirementslistsetinterfacetype.htm
 old-project: wdf
 ms.assetid: c229eb9e-cf1f-43ea-b701-fb8fb6196b40
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfIoResourceRequirementsListSetInterfaceType method, PFN_WDFIORESOURCEREQUIREMENTSLISTSETINTERFACETYPE, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, wdf.wdfioresourcerequirementslistsetinterfacetype, kmdf.wdfioresourcerequirementslistsetinterfacetype, WdfIoResourceRequirementsListSetInterfaceType, wdfresource/WdfIoResourceRequirementsListSetInterfaceType
+ms.date: 2/20/2018
+ms.keywords: WdfIoResourceRequirementsListSetInterfaceType, kmdf.wdfioresourcerequirementslistsetinterfacetype, wdf.wdfioresourcerequirementslistsetinterfacetype, DFResourceObjectRef_3ce545f1-cdad-4ddb-8b65-236461296d21.xml, wdfresource/WdfIoResourceRequirementsListSetInterfaceType, WdfIoResourceRequirementsListSetInterfaceType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfIoResourceRequirementsListSetInterfaceType
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -79,7 +79,7 @@ A handle to a framework resource-requirements-list object that represents a devi
 
 ### -param InterfaceType [in]
 
-An <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to. 
+An <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>-typed value that identifies the type of bus that the device is connected to. 
 
 
 ## -returns
@@ -133,7 +133,7 @@ Example_EvtDeviceResourceRequirementsQuery(
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>
 
 
 
@@ -141,5 +141,5 @@ Example_EvtDeviceResourceRequirementsQuery(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoResourceRequirementsListSetInterfaceType method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoResourceRequirementsListSetInterfaceType method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\insertpsuipage_info.htm
 old-project: print
 ms.assetid: 99ec8cfa-3ec7-4080-b22a-dba0a86b7e4a
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: compstui/PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO structure pointer [Print Devices], compstui/INSERTPSUIPAGE_INFO, _INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO structure [Print Devices], PINSERTPSUIPAGE_INFO, print.insertpsuipage_info, INSERTPSUIPAGE_INFO, cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml
+ms.date: 2/21/2018
+ms.keywords: INSERTPSUIPAGE_INFO, print.insertpsuipage_info, cpsuifnc_0d805815-c7ca-4fd4-8a77-269d6b79588e.xml, compstui/INSERTPSUIPAGE_INFO, compstui/PINSERTPSUIPAGE_INFO, _INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO, PINSERTPSUIPAGE_INFO structure pointer [Print Devices], INSERTPSUIPAGE_INFO structure [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INSERTPSUIPAGE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PINSERTPSUIPAGE_INFO, INSERTPSUIPAGE_INFO"
+req.typenames: INSERTPSUIPAGE_INFO, *PINSERTPSUIPAGE_INFO
 ---
 
 # _INSERTPSUIPAGE_INFO structure

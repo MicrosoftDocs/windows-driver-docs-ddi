@@ -7,8 +7,8 @@ old-location: kernel\rtluintptrtolonglong.htm
 old-project: kernel
 ms.assetid: EFEE4662-9FB1-4E44-BE54-2C7932104F28
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlUIntPtrToLongLong, RtlUIntPtrToLongLong function [Kernel-Mode Driver Architecture], kernel.rtluintptrtolonglong, RtlUIntPtrToLongLong
+ms.date: 2/16/2018
+ms.keywords: RtlUIntPtrToLongLong function [Kernel-Mode Driver Architecture], kernel.rtluintptrtolonglong, RtlUIntPtrToLongLong, ntintsafe/RtlUIntPtrToLongLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: wdf\iwdfioqueue_purgesynchronously.htm
 old-project: wdf
 ms.assetid: a714dffd-ca88-40cf-95ef-cf15384e0c02
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFIoQueue::PurgeSynchronously, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, wudfddi/IWDFIoQueue::PurgeSynchronously, IWDFIoQueue interface, PurgeSynchronously method, umdf.iwdfioqueue_purgesynchronously, wdf.iwdfioqueue_purgesynchronously, IWDFIoQueue, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, PurgeSynchronously
+ms.date: 2/20/2018
+ms.keywords: wdf.iwdfioqueue_purgesynchronously, IWDFIoQueue interface, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, IWDFIoQueue, PurgeSynchronously, IWDFIoQueue::PurgeSynchronously, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, PurgeSynchronously method, umdf.iwdfioqueue_purgesynchronously, wudfddi/IWDFIoQueue::PurgeSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.PurgeSynchronously
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -92,11 +92,11 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 
@@ -108,5 +108,5 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::PurgeSynchronously method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::PurgeSynchronously method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

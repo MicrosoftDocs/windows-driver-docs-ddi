@@ -7,8 +7,8 @@ old-location: pos\msrtrackerrortype.htm
 old-project: pos
 ms.assetid: 2abd9341-527f-43af-baa2-622b759b47cd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType, MsrTrackErrorType_EndSentinelError, pointofservicedriverinterface/MsrTrackErrorType_Unknown, MsrTrackErrorType_ParityError, pointofservicedriverinterface/MsrTrackErrorType_ParityError, pointofservicedriverinterface/MsrTrackErrorType_LrcError, MsrTrackErrorType_StartSentinelError, pointofservicedriverinterface/MsrTrackErrorType_None, MsrTrackErrorType enumeration, MsrTrackErrorType_LrcError, MsrTrackErrorType_Unknown, MsrTrackErrorType_None, _MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, pos.msrtrackerrortype
+ms.date: 2/19/2018
+ms.keywords: pointofservicedriverinterface/MsrTrackErrorType_LrcError, pointofservicedriverinterface/MsrTrackErrorType, MsrTrackErrorType_ParityError, _MsrTrackErrorType, pos.msrtrackerrortype, MsrTrackErrorType, pointofservicedriverinterface/MsrTrackErrorType_Unknown, pointofservicedriverinterface/MsrTrackErrorType_ParityError, pointofservicedriverinterface/MsrTrackErrorType_None, MsrTrackErrorType_None, MsrTrackErrorType_LrcError, MsrTrackErrorType_Unknown, MsrTrackErrorType_EndSentinelError, pointofservicedriverinterface/MsrTrackErrorType_StartSentinelError, pointofservicedriverinterface/MsrTrackErrorType_EndSentinelError, MsrTrackErrorType enumeration, MsrTrackErrorType_StartSentinelError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

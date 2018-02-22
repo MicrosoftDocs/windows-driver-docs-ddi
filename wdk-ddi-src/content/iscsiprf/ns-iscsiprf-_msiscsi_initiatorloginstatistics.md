@@ -7,8 +7,8 @@ old-location: storage\msiscsi_initiatorloginstatistics.htm
 old-project: storage
 ms.assetid: 8d670887-e8bb-4b99-99ae-16c0dd9c4431
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], _MSiSCSI_InitiatorLoginStatistics, iscsiprf/MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], *PMSiSCSI_InitiatorLoginStatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, storage.msiscsi_initiatorloginstatistics
+ms.date: 2/16/2018
+ms.keywords: PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], MSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, iscsiprf/MSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, *PMSiSCSI_InitiatorLoginStatistics, _MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,17 +137,17 @@ It is optional that you implement this class.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563042">MSiSCSI_InitiatorLoginStatistics WMI Class</a>
-
-
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563042">MSiSCSI_InitiatorLoginStatistics WMI Class</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_InitiatorLoginStatistics structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_InitiatorLoginStatistics structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

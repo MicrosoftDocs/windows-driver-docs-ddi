@@ -7,8 +7,8 @@ old-location: ifsk\fltperformasynchronousio.htm
 old-project: ifsk
 ms.assetid: c76529fe-c808-4239-9bde-68dc68d987ec
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltPerformAsynchronousIo function [Installable File System Drivers], FltApiRef_p_to_z_ed6cd087-6139-4280-aaf3-fe6f0d5b056a.xml, fltkernel/FltPerformAsynchronousIo, ifsk.fltperformasynchronousio, FltPerformAsynchronousIo
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltPerformAsynchronousIo, FltPerformAsynchronousIo, ifsk.fltperformasynchronousio, FltPerformAsynchronousIo function [Installable File System Drivers], FltApiRef_p_to_z_ed6cd087-6139-4280-aaf3-fe6f0d5b056a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -156,19 +156,19 @@ The caller of <b>FltPerformAsynchronousIo</b> can be running at IRQL &lt;= APC_L
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
 
 
 
@@ -180,21 +180,21 @@ The caller of <b>FltPerformAsynchronousIo</b> can be running at IRQL &lt;= APC_L
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+
+
+
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltPerformAsynchronousIo function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltPerformAsynchronousIo function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

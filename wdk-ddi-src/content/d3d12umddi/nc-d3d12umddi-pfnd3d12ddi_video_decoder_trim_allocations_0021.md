@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_video_decoder_trim_allocations.htm
 old-project: display
 ms.assetid: 2E90B365-8C5D-4586-AAA8-D49CC9BBCF70
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_video_decoder_trim_allocations, pfnDecoderTrimAllocations callback function [Display Devices], pfnDecoderTrimAllocations, PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, PFND3D12DDI_VIDEO_DECODER_TRIM_ALLOCATIONS_0021, d3d12umddi/pfnDecoderTrimAllocations
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -74,7 +74,6 @@ UINT64 APIENTRY* pfnDecoderTrimAllocations(
 ### -param hdrvDevice
 
 
-
 ### -param hDrvVideoDecoder
 
 The video decoder for which to submit this frame.
@@ -88,6 +87,8 @@ The submission ID is a monotonically increasing integer value.  The value passed
 ## -remarks
 
 
+
 Applications track command completion.  To allow driver to manage memory, an application calls this method with a <i>SubmissionID</i> parameter to indicate which submissions are complete.
+
 
 

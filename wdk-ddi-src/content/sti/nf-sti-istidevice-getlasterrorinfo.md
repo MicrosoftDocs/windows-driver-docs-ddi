@@ -4,11 +4,11 @@ title: IStiDevice::GetLastErrorInfo method
 author: windows-driver-content
 description: The IStiDevice::GetLastErrorInfo method returns information about the last known error associated with a still image device.
 old-location: image\istidevice_getlasterrorinfo.htm
-old-project: image
+old-project: Image
 ms.assetid: de2f8897-c75f-4c37-aecb-f36d0f9933f9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetLastErrorInfo, IStiDevice interface [Imaging Devices], GetLastErrorInfo method, IStiDevice::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiDevice interface, sti/IStiDevice::GetLastErrorInfo, IStiDevice, GetLastErrorInfo method [Imaging Devices], stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml, image.istidevice_getlasterrorinfo
+ms.date: 2/15/2018
+ms.keywords: stifnc_f54b574c-5894-4029-888c-fe60738858d7.xml, GetLastErrorInfo, image.istidevice_getlasterrorinfo, IStiDevice, GetLastErrorInfo method [Imaging Devices], IStiDevice interface [Imaging Devices], GetLastErrorInfo method, sti/IStiDevice::GetLastErrorInfo, GetLastErrorInfo method [Imaging Devices], IStiDevice interface, IStiDevice::GetLastErrorInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

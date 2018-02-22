@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlincrementccfastreadwait.htm
 old-project: ifsk
 ms.assetid: f9d10593-28a6-4d57-a739-2d24dfe4631a
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/FsRtlIncrementCcFastReadWait, FsRtlIncrementCcFastReadWait routine [Installable File System Drivers], FsRtlIncrementCcFastReadWait, fsrtlref_487f6c6e-ec6f-4b81-a303-829e6d82d260.xml, ifsk.fsrtlincrementccfastreadwait
+ms.date: 2/16/2018
+ms.keywords: FsRtlIncrementCcFastReadWait, ntifs/FsRtlIncrementCcFastReadWait, ifsk.fsrtlincrementccfastreadwait, fsrtlref_487f6c6e-ec6f-4b81-a303-829e6d82d260.xml, FsRtlIncrementCcFastReadWait routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,6 +93,14 @@ File system drivers should call this function to update the performance counter 
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadresourcemiss.md">FsRtlIncrementCcFastReadResourceMiss</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadnowait.md">FsRtlIncrementCcFastReadNoWait</a>
 
 
@@ -101,17 +109,9 @@ File system drivers should call this function to update the performance counter 
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlincrementccfastreadresourcemiss.md">FsRtlIncrementCcFastReadResourceMiss</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIncrementCcFastReadWait routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIncrementCcFastReadWait routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

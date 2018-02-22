@@ -7,8 +7,8 @@ old-location: ifsk\__rxsynchronizeblockingoperations.htm
 old-project: ifsk
 ms.assetid: e957f8bc-2ce3-4b9c-819e-ee068b39c4a0
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxref_d35d9118-8942-402e-8c78-3168a2d9ad73.xml, ifsk.__rxsynchronizeblockingoperations, rxcontx/__RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.__rxsynchronizeblockingoperations, rxref_d35d9118-8942-402e-8c78-3168a2d9ad73.xml, __RxSynchronizeBlockingOperations function [Installable File System Drivers], rxcontx/__RxSynchronizeBlockingOperations, __RxSynchronizeBlockingOperations
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	__RxSynchronizeBlockingOperations
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -155,6 +155,22 @@ The following two macros are defined on Windows Server 2003 or later for calling
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
@@ -163,7 +179,7 @@ The following two macros are defined on Windows Server 2003 or later for calling
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
 
 
 
@@ -171,25 +187,9 @@ The following two macros are defined on Windows Server 2003 or later for calling
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20__RxSynchronizeBlockingOperations function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20__RxSynchronizeBlockingOperations function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

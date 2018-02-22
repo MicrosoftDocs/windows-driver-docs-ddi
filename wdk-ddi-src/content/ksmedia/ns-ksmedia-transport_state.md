@@ -7,8 +7,8 @@ old-location: stream\transport_state.htm
 old-project: stream
 ms.assetid: 373fb91d-e469-4136-b2e3-bf57016c0fd6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PTRANSPORT_STATE structure pointer [Streaming Media Devices], vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml, PTRANSPORT_STATE, *PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE, TRANSPORT_STATE, ksmedia/PTRANSPORT_STATE, stream.transport_state, TRANSPORT_STATE structure [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: stream.transport_state, PTRANSPORT_STATE, TRANSPORT_STATE, ksmedia/PTRANSPORT_STATE, vidcapstruct_5caaba9f-8a5c-4896-b181-c432a9678f58.xml, TRANSPORT_STATE structure [Streaming Media Devices], PTRANSPORT_STATE structure pointer [Streaming Media Devices], *PTRANSPORT_STATE, ksmedia/TRANSPORT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

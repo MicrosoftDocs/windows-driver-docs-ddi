@@ -7,7 +7,7 @@ old-location: wdf\iqueuecallbackwrite.htm
 old-project: wdf
 ms.assetid: 8b44e1e1-c648-4eec-bb3e-ab327dc08f98
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iqueuecallbackwrite, IQueueCallbackWrite interface, IQueueCallbackWrite interface, described, IQueueCallbackWrite, wudfddi/IQueueCallbackWrite, UMDFQueueObjectRef_4abdce88-185f-4dab-823a-00da96d7d630.xml, umdf.iqueuecallbackwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackWrite
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

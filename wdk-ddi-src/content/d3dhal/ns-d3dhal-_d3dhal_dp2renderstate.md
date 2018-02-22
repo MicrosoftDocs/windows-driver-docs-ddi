@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2renderstate.htm
 old-project: display
 ms.assetid: 9d30ed5d-0621-4a90-941c-c5b0564df13f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, D3DHAL_DP2RENDERSTATE structure [Display Devices], LPD3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], *LPD3DHAL_DP2RENDERSTATE, display.d3dhal_dp2renderstate, _D3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE
+ms.date: 2/20/2018
+ms.keywords: "*LPD3DHAL_DP2RENDERSTATE, d3dhal/D3DHAL_DP2RENDERSTATE, d3dhal/LPD3DHAL_DP2RENDERSTATE, D3DHAL_DP2RENDERSTATE, display.d3dhal_dp2renderstate, LPD3DHAL_DP2RENDERSTATE, LPD3DHAL_DP2RENDERSTATE structure pointer [Display Devices], D3DHAL_DP2RENDERSTATE structure [Display Devices], d3dstrct_4cfe9ea2-c3cc-432d-bd11-85d51ba121b5.xml, _D3DHAL_DP2RENDERSTATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -76,12 +76,12 @@ typedef struct _D3DHAL_DP2RENDERSTATE {
 Specifies a D3DRENDERSTATETYPE enumerated type that indicates the render state to be updated. Render states that are requested at the application level are described in the DirectX SDK documentation. Render states that are exclusively used by drivers are described in <a href="..\d3d9types\ne-d3d9types-_d3drenderstatetype.md">D3DRENDERSTATETYPE</a>.
 
 
-### -field dvState
+#### - dvState
 
 Specifies the value that the driver should update the render state identified by the <b>RenderState</b> member with. This member is valid when <b>RenderState</b> requires a D3DVALUE. 
 
 
-### -field dwState
+#### - dwState
 
 Specifies the value that the driver should update the render state identified by <b>RenderState</b> to. This member is valid when <b>RenderState</b> requires a DWORD.
 
@@ -105,7 +105,11 @@ Although render states whose values are Boolean in type are documented as only a
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+D3DDP2OP_RENDERSTATE
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
 
@@ -117,11 +121,7 @@ Although render states whose values are Boolean in type are documented as only a
 
 
 
-D3DDP2OP_RENDERSTATE
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
@@ -129,5 +129,5 @@ D3DDP2OP_RENDERSTATE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2RENDERSTATE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2RENDERSTATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

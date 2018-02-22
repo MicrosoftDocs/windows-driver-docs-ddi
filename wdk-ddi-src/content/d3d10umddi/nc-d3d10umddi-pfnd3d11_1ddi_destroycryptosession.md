@@ -7,7 +7,7 @@ old-location: display\destroycryptosession1.htm
 old-project: display
 ms.assetid: 067eeba4-2914-4616-98c8-f163cbe5fae2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.destroycryptosession1, pfnDestroyCryptoSession callback function [Display Devices], pfnDestroyCryptoSession, PFND3D11_1DDI_DESTROYCRYPTOSESSION, PFND3D11_1DDI_DESTROYCRYPTOSESSION, d3d10umddi/pfnDestroyCryptoSession, display.pfndestroycryptosession1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnDestroyCryptoSession
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_DESTROYCRYPTOSESSION callback
@@ -87,6 +87,8 @@ A handle to the driver's private data for the cryptographic session. This handle
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

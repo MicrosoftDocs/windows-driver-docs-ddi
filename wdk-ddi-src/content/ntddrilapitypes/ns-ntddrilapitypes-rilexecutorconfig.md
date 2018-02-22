@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorconfig.htm
 old-project: netvista
 ms.assetid: d53c3df2-fd75-4008-a740-0afa293e36eb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILEXECUTORCONFIG, netvista.rilexecutorconfig, RILEXECUTORCONFIG, *LPRILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: netvista.rilexecutorconfig, ntddrilapitypes/RILEXECUTORCONFIG, RILEXECUTORCONFIG, *LPRILEXECUTORCONFIG, RILEXECUTORCONFIG structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

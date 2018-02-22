@@ -7,8 +7,8 @@ old-location: netvista\dot11_mac_info.htm
 old-project: netvista
 ms.assetid: 0ca8814c-e91a-4f6a-b797-c440abf5cdd2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_MAC_INFO, Native_802.11_data_types_435a3e63-9d42-4b74-8280-d1a0456e3dbf.xml, windot11/DOT11_MAC_INFO, DOT11_MAC_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_MAC_INFO, DOT11_MAC_INFO, netvista.dot11_mac_info, *PDOT11_MAC_INFO
+ms.date: 2/16/2018
+ms.keywords: Native_802.11_data_types_435a3e63-9d42-4b74-8280-d1a0456e3dbf.xml, netvista.dot11_mac_info, PDOT11_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], DOT11_MAC_INFO structure [Network Drivers Starting with Windows Vista], PDOT11_MAC_INFO, DOT11_MAC_INFO, windot11/PDOT11_MAC_INFO, *PDOT11_MAC_INFO, windot11/DOT11_MAC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_MAC_INFO
 product: Windows
 targetos: Windows
-req.typenames: DOT11_MAC_INFO, *PDOT11_MAC_INFO
+req.typenames: "*PDOT11_MAC_INFO, DOT11_MAC_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -114,5 +114,5 @@ This structure is used with
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_MAC_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_MAC_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

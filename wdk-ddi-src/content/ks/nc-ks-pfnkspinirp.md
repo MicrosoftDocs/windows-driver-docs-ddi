@@ -7,7 +7,7 @@ old-location: stream\avstrminipincreate.htm
 old-project: stream
 ms.assetid: 85e91b13-96c8-4422-b9b7-90f6cecbb2a5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.avstrminipincreate, AVStrMiniPinCreate, AVStrMiniPinCreate routine [Streaming Media Devices], AVStrMiniPinCreate, PFNKSPINIRP, PFNKSPINIRP, ks/AVStrMiniPinCreate, avstclbk_0feeeb85-88fe-43d7-83e4-399b0c26aa53.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	AVStrMiniPinCreate
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNKSPINIRP callback
@@ -91,11 +91,14 @@ Pointer to the  IRP for <i>Pin</i>.
 ## -returns
 
 
+
 If the routine succeeds, the operation is guaranteed to succeed. Return STATUS_SUCCESS or STATUS_PENDING. 
 
 
 
+
 ## -remarks
+
 
 
 <table>
@@ -134,21 +137,29 @@ This routine is optional.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+
+
 
 <a href="..\ks\nf-ks-kscompletependingrequest.md">KsCompletePendingRequest</a>
 
- 
+
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINIRP routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSPINIRP routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

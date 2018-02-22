@@ -7,8 +7,8 @@ old-location: ifsk\fltenumeratefilterinformation.htm
 old-project: ifsk
 ms.assetid: c8bfa809-3f32-487c-991e-2ec040e3bc98
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltEnumerateFilterInformation, FltEnumerateFilterInformation routine [Installable File System Drivers], FltApiRef_e_to_o_dc4c496f-b21e-4b92-93c6-7efbe25400a6.xml, ifsk.fltenumeratefilterinformation, fltkernel/FltEnumerateFilterInformation
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltEnumerateFilterInformation, FltEnumerateFilterInformation, ifsk.fltenumeratefilterinformation, FltEnumerateFilterInformation routine [Installable File System Drivers], FltApiRef_e_to_o_dc4c496f-b21e-4b92-93c6-7efbe25400a6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -240,23 +240,7 @@ To list volume information for all volumes that are known to the Filter Manager,
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilters.md">FltEnumerateFilters</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-ioenumerateregisteredfilterslist.md">IoEnumerateRegisteredFiltersList</a>
 
 
 
@@ -264,11 +248,7 @@ To list volume information for all volumes that are known to the Filter Manager,
 
 
 
-<a href="..\ntifs\nf-ntifs-ioenumerateregisteredfilterslist.md">IoEnumerateRegisteredFiltersList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
 
 
 
@@ -276,9 +256,29 @@ To list volume information for all volumes that are known to the Filter Manager,
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenumeratefilters.md">FltEnumerateFilters</a>
+
+
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyfilter.md">FltEnumerateInstanceInformationByFilter</a>
+
+
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltEnumerateFilterInformation routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltEnumerateFilterInformation routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetValues2 method
 author: windows-driver-content
 description: The GetValues2 method fetches the value of several of the target's registers.
 old-location: debugger\getvalues2.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 182e55ec-1a99-4bd6-bcf6-d5e8302b9eae
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getvalues2, dbgeng/IDebugRegisters2::GetValues2, IDebugRegisters2::GetValues2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, IDebugRegisters2, GetValues2, IDebugRegisters2 interface [Windows Debugging], GetValues2 method, GetValues2 method [Windows Debugging], GetValues2 method [Windows Debugging], IDebugRegisters2 interface
+ms.date: 2/15/2018
+ms.keywords: IDebugRegisters2, GetValues2, IDebugRegisters_de7a1e67-5ffe-48f8-a19d-63858c500389.xml, dbgeng/IDebugRegisters2::GetValues2, GetValues2 method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::GetValues2, debugger.getvalues2, GetValues2 method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], GetValues2 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugRegisters2.GetValues2
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::GetValues2 method
@@ -192,10 +192,6 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff597624">GetValue</a>
 
 
@@ -204,9 +200,13 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::GetValues2 method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugRegisters2::GetValues2 method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

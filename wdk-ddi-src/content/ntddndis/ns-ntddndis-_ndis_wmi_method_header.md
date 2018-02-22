@@ -7,8 +7,8 @@ old-location: netvista\ndis_wmi_method_header.htm
 old-project: netvista
 ms.assetid: c39a9438-d3be-4f01-96d5-01c7339a666a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_WMI_METHOD_HEADER, netvista.ndis_wmi_method_header, ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, *PNDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER, _NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_WMI_METHOD_HEADER
+ms.date: 2/16/2018
+ms.keywords: netvista.ndis_wmi_method_header, NDIS_WMI_METHOD_HEADER structure [Network Drivers Starting with Windows Vista], ndis_wmi_ref_fa232798-c72c-4823-806a-c8b7cf28001d.xml, _NDIS_WMI_METHOD_HEADER, *PNDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER structure pointer [Network Drivers Starting with Windows Vista], NDIS_WMI_METHOD_HEADER, ntddndis/PNDIS_WMI_METHOD_HEADER, ntddndis/NDIS_WMI_METHOD_HEADER, PNDIS_WMI_METHOD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,6 +149,10 @@ WMI method GUID requests that are specific to NDIS 6.0 and later versions includ
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
 
 
@@ -157,13 +161,9 @@ WMI method GUID requests that are specific to NDIS 6.0 and later versions includ
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WMI_METHOD_HEADER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WMI_METHOD_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

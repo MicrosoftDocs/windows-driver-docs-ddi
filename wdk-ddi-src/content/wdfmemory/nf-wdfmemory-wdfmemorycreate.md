@@ -7,8 +7,8 @@ old-location: wdf\wdfmemorycreate.htm
 old-project: wdf
 ms.assetid: d2071ea0-737d-4a61-90d6-614d77983f0b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfmemorycreate, WdfMemoryCreate, DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate method, wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfmemorycreate, wdfmemory/WdfMemoryCreate, kmdf.wdfmemorycreate, DFMemoryObjectRef_53623d93-01bb-4062-b066-e884beed3f32.xml, WdfMemoryCreate, WdfMemoryCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -85,7 +85,7 @@ A pointer to a <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF
 
 ### -param PoolType [in]
 
-A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
+A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
 
 
 ### -param PoolTag [in, optional]
@@ -215,11 +215,19 @@ status = WdfMemoryCreate(
 
 
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
 
 
 
 <a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 
 
@@ -231,17 +239,9 @@ status = WdfMemoryCreate(
 
 
 
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
-
-
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatefromlookaside.md">WdfMemoryCreateFromLookaside</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfMemoryCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfMemoryCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

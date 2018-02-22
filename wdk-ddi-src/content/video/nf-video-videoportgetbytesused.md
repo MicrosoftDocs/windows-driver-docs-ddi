@@ -7,8 +7,8 @@ old-location: display\videoportgetbytesused.htm
 old-project: display
 ms.assetid: 67fe089d-4cde-4caa-a4ad-8e879a30b516
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, video/VideoPortGetBytesUsed, VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices], display.videoportgetbytesused
+ms.date: 2/20/2018
+ms.keywords: video/VideoPortGetBytesUsed, VideoPort_Functions_315c6ad1-757d-44d3-8059-d94ab407ea69.xml, display.videoportgetbytesused, VideoPortGetBytesUsed, VideoPortGetBytesUsed function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

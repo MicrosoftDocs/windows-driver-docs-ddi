@@ -7,8 +7,8 @@ old-location: storage\iowritepartitiontableex.htm
 old-project: storage
 ms.assetid: b49ea2db-bb1e-4293-bfac-cbb3e62bca91
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.iowritepartitiontableex, ntddk/IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], IoWritePartitionTableEx, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml
+ms.date: 2/16/2018
+ms.keywords: ntddk/IoWritePartitionTableEx, IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], storage.iowritepartitiontableex, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -172,5 +172,5 @@ In order tot create or delete partitions a full description of the system must b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IoWritePartitionTableEx routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IoWritePartitionTableEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

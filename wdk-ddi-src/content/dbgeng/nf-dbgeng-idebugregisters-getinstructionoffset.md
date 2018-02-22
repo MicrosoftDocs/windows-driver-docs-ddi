@@ -4,11 +4,11 @@ title: IDebugRegisters::GetInstructionOffset method
 author: windows-driver-content
 description: The GetInstructionOffset method returns the location of the current thread's current instruction.
 old-location: debugger\getinstructionoffset.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f82416c9-1f4a-4083-b4df-f0d97eae2127
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getinstructionoffset, GetInstructionOffset method [Windows Debugging], GetInstructionOffset, dbgeng/IDebugRegisters2::GetInstructionOffset, GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters::GetInstructionOffset, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, IDebugRegisters2::GetInstructionOffset, IDebugRegisters::GetInstructionOffset, IDebugRegisters, IDebugRegisters interface [Windows Debugging], GetInstructionOffset method
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugRegisters2::GetInstructionOffset, debugger.getinstructionoffset, IDebugRegisters2 interface [Windows Debugging], GetInstructionOffset method, GetInstructionOffset method [Windows Debugging], IDebugRegisters2 interface, GetInstructionOffset method [Windows Debugging], IDebugRegisters interface, IDebugRegisters::GetInstructionOffset, IDebugRegisters_229180dd-2da4-4ff1-9284-520bef0b6843.xml, GetInstructionOffset, IDebugRegisters, GetInstructionOffset method [Windows Debugging], IDebugRegisters interface [Windows Debugging], GetInstructionOffset method, IDebugRegisters2::GetInstructionOffset, dbgeng/IDebugRegisters::GetInstructionOffset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetInstructionOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters::GetInstructionOffset method
@@ -116,10 +116,6 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
 
@@ -128,9 +124,13 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::GetInstructionOffset method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugRegisters::GetInstructionOffset method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

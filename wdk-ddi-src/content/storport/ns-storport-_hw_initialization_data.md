@@ -7,8 +7,8 @@ old-location: storage\hw_initialization_data__storport_.htm
 old-project: storage
 ms.assetid: 54f460da-2dfb-4a9d-9b25-edb90f3bfdd5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storport/HW_INITIALIZATION_DATA, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_FEATURE_ATA_PASS_THROUGH, _HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, HW_INITIALIZATION_DATA, STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, storport/PHW_INITIALIZATION_DATA, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA structure pointer [Storage Devices], *PHW_INITIALIZATION_DATA, storage.hw_initialization_data__storport_, STOR_MAP_NO_BUFFERS, _HW_INITIALIZATION_DATA, STOR_MAP_ALL_BUFFERS, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, ADDRESS_TYPE_FLAG_BTL8, STOR_FEATURE_DUMP_POINTERS, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml, STOR_FEATURE_DUMP_RESUME_CAPABLE, STOR_FEATURE_VIRTUAL_MINIPORT
+ms.date: 2/16/2018
+ms.keywords: STOR_FEATURE_FULL_PNP_DEVICE_CAPABILITIES, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], STOR_MAP_ALL_BUFFERS, STOR_MAP_ALL_BUFFERS_INCLUDING_READ_WRITE, STOR_FEATURE_DEVICE_NAME_NO_SUFFIX, PHW_INITIALIZATION_DATA, storport/PHW_INITIALIZATION_DATA, STOR_FEATURE_ATA_PASS_THROUGH, STOR_FEATURE_DEVICE_DESCRIPTOR_FROM_ATA_INFO_VPD, SRB_TYPE_FLAG_STORAGE_REQUEST_BLOCK, storport/HW_INITIALIZATION_DATA, storage.hw_initialization_data__storport_, *PHW_INITIALIZATION_DATA, structs-storport_c3d0ed59-9662-409d-acc3-6c2358837a01.xml, HW_INITIALIZATION_DATA structure [Storage Devices], STOR_FEATURE_DUMP_RESUME_CAPABLE, SRB_TYPE_FLAG_SCSI_REQUEST_BLOCK, STOR_MAP_NON_READ_WRITE_BUFFERS, STOR_FEATURE_VIRTUAL_MINIPORT, _HW_INITIALIZATION_DATA structure [Storage Devices], STOR_FEATURE_DUMP_POINTERS, HW_INITIALIZATION_DATA, _HW_INITIALIZATION_DATA, STOR_FEATURE_SET_ADAPTER_INTERFACE_TYPE, STOR_MAP_NO_BUFFERS, ADDRESS_TYPE_FLAG_BTL8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -156,7 +156,7 @@ The Storport driver does not support legacy drivers. Therefore, this member must
 
 Specifies the size, in bytes, required by the miniport driver for its per-adapter device extension. A miniport driver uses its device extension as storage for driver-determined host bus adapter (HBA) information. The operating system-specific port driver initializes each device extension one time, when it first allocates the extension and fills it with zeros. It passes a pointer to the HBA-specific device extension in every call to a miniport driver. The given size does not include any miniport driver-requested per-logical-unit storage. The size of per-logical-unit storage is specified via the <b>SpecificLuExtensionSize</b> field, described later in this topic.
 
-Although SCSIPort re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> receive a zeroed-out device extension, Storport does not follow that model. Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> for a given adapter receives a zeroed-out device extension. Subsequent calls to <b>HwStorFindAdapter</b> and other miniport functions receive the device extension as last modified by the miniport. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize it's initialization procedure.
+Although SCSIPort re-initializes the device extension whenever the adapter is stopped and thus subsequent calls to <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> receive a zeroed-out device extension, Storport does not follow that model. Rather, Storport resets the device extension to zero only when it is first allocated, so only the first call to <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> for a given adapter receives a zeroed-out device extension. Subsequent calls to <b>HwStorFindAdapter</b> and other miniport functions receive the device extension as last modified by the miniport. This allows the miniport driver to maintain knowledge about the state of the adapter between Plug and Play (PnP) stops and restarts, possibly enabling the miniport driver to optimize it's initialization procedure.
 
 
 ### -field SpecificLuExtensionSize
@@ -269,16 +269,6 @@ The Storport driver ignores this member, because miniport drivers that work with
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
 
 
-### -field ReservedUshort
-
- 
-
-
-### -field PortVersionFlags
-
-Flags to indicate supported features.
-
-
 ### -field DeviceIdLength
 
 The Storport driver ignores this member, because miniport drivers that work with the Storport driver must support PnP.
@@ -297,6 +287,11 @@ Pointer to the miniport driver's <a href="..\storport\nc-storport-hw_adapter_con
 ### -field HwBuildIo
 
 Pointer to an optional <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> routine that the port driver calls to do unsynchronized processing prior to calling the miniport driver's <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine. 
+
+
+#### - PortVersionFlags
+
+Flags to indicate supported features.
 
 
 #### - HwFreeAdapterResources
@@ -513,7 +508,7 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
 
 
 
@@ -521,7 +516,7 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 
 
-<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
@@ -529,11 +524,7 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 
 
-<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
-
-
-
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
 
 
 
@@ -541,11 +532,15 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
 
 
-<a href="..\storport\ns-storport-_virtual_hw_initialization_data.md">VIRTUAL_HW_INITIALIZATION_DATA</a>
+<a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
 
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
+
+<a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
 
 
@@ -553,5 +548,5 @@ Starting in Windows 8, both physical and virtual Storport miniports use <b>HW_I
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_HW_INITIALIZATION_DATA structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20_HW_INITIALIZATION_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugSymbols2::GetSymbolModule method
 author: windows-driver-content
 description: The GetSymbolModule method returns the base address of module which contains the specified symbol.
 old-location: debugger\getsymbolmodule.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f3774204-86c3-467b-96ba-739f19d300e3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, dbgeng/IDebugSymbols3::GetSymbolModule, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, dbgeng/IDebugSymbols::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, GetSymbolModule, IDebugSymbols interface [Windows Debugging], GetSymbolModule method, dbgeng/IDebugSymbols2::GetSymbolModule, IDebugSymbols3::GetSymbolModule, debugger.getsymbolmodule, IDebugSymbols, IDebugSymbols2, IDebugSymbols::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetSymbolModule
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols2::GetSymbolModule, GetSymbolModule method [Windows Debugging], IDebugSymbols3 interface, debugger.getsymbolmodule, GetSymbolModule method [Windows Debugging], GetSymbolModule method [Windows Debugging], IDebugSymbols interface, GetSymbolModule, IDebugSymbols3 interface [Windows Debugging], GetSymbolModule method, IDebugSymbols_a680615c-bc2a-4fa3-a83a-6960ed64c1e9.xml, IDebugSymbols2 interface [Windows Debugging], GetSymbolModule method, GetSymbolModule method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::GetSymbolModule, IDebugSymbols2, IDebugSymbols::GetSymbolModule, IDebugSymbols3::GetSymbolModule, dbgeng/IDebugSymbols::GetSymbolModule, IDebugSymbols, dbgeng/IDebugSymbols3::GetSymbolModule, IDebugSymbols interface [Windows Debugging], GetSymbolModule method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolModule
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols2::GetSymbolModule method

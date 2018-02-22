@@ -4,11 +4,11 @@ title: IDebugBreakpoint::GetAdder method
 author: windows-driver-content
 description: The GetAdder method returns the client that owns the breakpoint.
 old-location: debugger\getadder.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f57abfc5-d6ae-474b-bea9-bfc53dff7f57
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetAdder method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::GetAdder, dbgeng/IDebugBreakpoint2::GetAdder, GetAdder method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetAdder method, GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, GetAdder, debugger.getadder, IDebugBreakpoint::GetAdder, IDebugBreakpoint2::GetAdder, IDebugBreakpoint, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method
+ms.date: 2/15/2018
+ms.keywords: IDebugBreakpoint interface [Windows Debugging], GetAdder method, IDebugBreakpoint2 interface [Windows Debugging], GetAdder method, IDebugBreakpoint::GetAdder, GetAdder, GetAdder method [Windows Debugging], GetAdder method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::GetAdder, debugger.getadder, IDebugBreakpoint, IDebugBreakpoint2::GetAdder, GetAdder method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::GetAdder, ComOther_069dfd81-8ad8-4fe7-95c4-a3499c1b5512.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetAdder
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint::GetAdder method

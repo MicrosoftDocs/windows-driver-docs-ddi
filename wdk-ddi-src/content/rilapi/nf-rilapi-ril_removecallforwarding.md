@@ -7,8 +7,8 @@ old-location: netvista\ril_removecallforwarding.htm
 old-project: netvista
 ms.assetid: d2ac3147-fe34-4643-b735-c795b6ba4768
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_RemoveCallForwarding, netvista.ril_removecallforwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista], rilapi/RIL_RemoveCallForwarding
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_removecallforwarding, rilapi/RIL_RemoveCallForwarding, RIL_RemoveCallForwarding, RIL_RemoveCallForwarding method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_RemoveCallForwarding
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

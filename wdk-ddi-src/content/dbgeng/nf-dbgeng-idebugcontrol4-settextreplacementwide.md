@@ -4,11 +4,11 @@ title: IDebugControl4::SetTextReplacementWide method
 author: windows-driver-content
 description: The SetTextReplacementWide method sets the value of a user-named alias.
 old-location: debugger\settextreplacementwide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: bbd3fbc0-6dbe-4200-8fe8-e7ca9e4c9478
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], IDebugControl4::SetTextReplacementWide, IDebugControl4, SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide
+ms.date: 2/15/2018
+ms.keywords: SetTextReplacementWide method [Windows Debugging], IDebugControl4, dbgeng/IDebugControl4::SetTextReplacementWide, debugger.settextreplacementwide, SetTextReplacementWide, SetTextReplacementWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], SetTextReplacementWide method, IDebugControl4::SetTextReplacementWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.SetTextReplacementWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::SetTextReplacementWide method
@@ -123,10 +123,6 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553268">OutputTextReplacements</a>
 
 
@@ -135,15 +131,19 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537997">ad (Delete Alias)</a>
 
 
 
@@ -155,5 +155,5 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::SetTextReplacementWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl4::SetTextReplacementWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

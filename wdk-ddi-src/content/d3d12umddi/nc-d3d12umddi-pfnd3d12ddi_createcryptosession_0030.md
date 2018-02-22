@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createcryptosession_0030.htm
 old-project: display
 ms.assetid: 3AA323B1-C4A3-4630-A664-69FB3E5C6456
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_createcryptosession_0030, PFND3D12DDI_CREATECRYPTOSESSION_0030 callback function [Display Devices], PFND3D12DDI_CREATECRYPTOSESSION_0030, d3d12umddi/PFND3D12DDI_CREATECRYPTOSESSION_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,6 +93,8 @@ Used to create a protected session.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

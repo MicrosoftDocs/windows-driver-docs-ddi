@@ -7,8 +7,8 @@ old-location: ieee\isoch_descriptor.htm
 old-project: IEEE
 ms.assetid: 4f508af6-942b-4d48-8874-4b6d9918f01f
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, PISOCH_DESCRIPTOR structure pointer [Buses], 1394/PISOCH_DESCRIPTOR, IEEE.isoch_descriptor, PISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR, _ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR, ISOCH_DESCRIPTOR structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: PISOCH_DESCRIPTOR structure pointer [Buses], PISOCH_DESCRIPTOR, 1394stct_ceca99ed-2075-42d4-9be7-31e659e2b654.xml, _ISOCH_DESCRIPTOR, 1394/PISOCH_DESCRIPTOR, *PISOCH_DESCRIPTOR, IEEE.isoch_descriptor, ISOCH_DESCRIPTOR structure [Buses], ISOCH_DESCRIPTOR, 1394/ISOCH_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -317,15 +317,11 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537650">REQUEST_ISOCH_ATTACH_BUFFERS</a>
 
 
 
@@ -341,9 +337,13 @@ The DESCRIPTOR_HEADER_SCATTER_GATHER flag is not supported on Windows 98/Me. It 
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ISOCH_DESCRIPTOR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ISOCH_DESCRIPTOR structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: serports\serial_handflow.htm
 old-project: serports
 ms.assetid: E13148B7-8FCE-4407-80F6-286F0EF65B5C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "_SERIAL_HANDFLOW, serports.serial_handflow, *PSERIAL_HANDFLOW, ntddser/PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, SERIAL_HANDFLOW, SERIAL_HANDFLOW structure [Serial Ports], PSERIAL_HANDFLOW structure pointer [Serial Ports], ntddser/SERIAL_HANDFLOW"
+ms.date: 2/15/2018
+ms.keywords: SERIAL_HANDFLOW structure [Serial Ports], ntddser/SERIAL_HANDFLOW, _SERIAL_HANDFLOW, SERIAL_HANDFLOW, serports.serial_handflow, *PSERIAL_HANDFLOW, PSERIAL_HANDFLOW, PSERIAL_HANDFLOW structure pointer [Serial Ports], ntddser/PSERIAL_HANDFLOW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -201,5 +201,5 @@ SerCx2 and SerCx support only subsets of the flags that are defined for the <b>C
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_HANDFLOW structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_HANDFLOW structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

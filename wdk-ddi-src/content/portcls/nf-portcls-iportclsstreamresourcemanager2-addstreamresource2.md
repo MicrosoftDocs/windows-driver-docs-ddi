@@ -7,8 +7,8 @@ old-location: audio\iportclsstreamresourcemanager2_addstreamresource2.htm
 old-project: audio
 ms.assetid: C140D11C-41D6-4812-AD95-990CBFA06FE8
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: IPortClsStreamResourceManager2::AddStreamResource2, portcls/IPortClsStreamResourceManager2::AddStreamResource2, IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, audio.iportclsstreamresourcemanager2_addstreamresource2, IPortClsStreamResourceManager2, AddStreamResource2 method [Audio Devices], AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, AddStreamResource2
+ms.date: 2/21/2018
+ms.keywords: AddStreamResource2, IPortClsStreamResourceManager2, AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface, portcls/IPortClsStreamResourceManager2::AddStreamResource2, IPortClsStreamResourceManager2::AddStreamResource2, AddStreamResource2 method [Audio Devices], IPortClsStreamResourceManager2 interface [Audio Devices], AddStreamResource2 method, audio.iportclsstreamresourcemanager2_addstreamresource2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IPortClsStreamResourceManager2.AddStreamResource2
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsStreamResourceManager2::AddStreamResource2 method
@@ -112,11 +112,7 @@ Additional standard status codes may be returned.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
-
-
-
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
 
 
 
@@ -124,7 +120,11 @@ Additional standard status codes may be returned.
 
 
 
-<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager2.md">IPortClsStreamResourceManager2</a>
+<a href="..\portcls\nn-portcls-iportclsstreamresourcemanager.md">IPortClsStreamResourceManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/35A90B3C-27D7-4BBA-A754-098D191A3201">RemoveStreamResource</a>
 
 
 
@@ -132,5 +132,5 @@ Additional standard status codes may be returned.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsStreamResourceManager2::AddStreamResource2 method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsStreamResourceManager2::AddStreamResource2 method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

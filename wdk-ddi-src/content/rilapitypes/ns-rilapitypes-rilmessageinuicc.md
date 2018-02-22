@@ -7,8 +7,8 @@ old-location: netvista\rilmessageinuicc_2.htm
 old-project: netvista
 ms.assetid: 2a956b25-1cf5-4a51-bc60-c4a7a7f70e2c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILMESSAGEINUICC structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinuicc_2, rilapitypes/RILMESSAGEINUICC, *LPRILMESSAGEINUICC, RILMESSAGEINUICC
+ms.date: 2/16/2018
+ms.keywords: netvista.rilmessageinuicc_2, *LPRILMESSAGEINUICC, rilapitypes/RILMESSAGEINUICC, RILMESSAGEINUICC structure [Network Drivers Starting with Windows Vista], RILMESSAGEINUICC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

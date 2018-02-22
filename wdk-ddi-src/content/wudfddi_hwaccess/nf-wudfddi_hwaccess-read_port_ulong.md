@@ -7,8 +7,8 @@ old-location: wdf\read_port_ulong.htm
 old-project: wdf
 ms.assetid: 2B507B58-8CD0-4D66-93E9-FF67D7246F3C
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/READ_PORT_ULONG, READ_PORT_ULONG, READ_PORT_ULONG function, umdf.read_port_ulong, wdf.read_port_ulong
+ms.date: 2/20/2018
+ms.keywords: READ_PORT_ULONG, READ_PORT_ULONG function, wdf.read_port_ulong, wudfddi_hwaccess/READ_PORT_ULONG, umdf.read_port_ulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

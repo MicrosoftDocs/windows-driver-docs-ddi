@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_silence.htm
 old-project: audio
 ms.assetid: e2acf3f5-d054-44c4-8ab9-ffd1b934f700
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: Silence method [Audio Devices], IMiniportWaveCyclicStream interface, IMiniportWaveCyclicStream, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, portcls/IMiniportWaveCyclicStream::Silence, IMiniportWaveCyclicStream::Silence, Silence method [Audio Devices], Silence, IMiniportWaveCyclicStream interface [Audio Devices], Silence method
+ms.date: 2/21/2018
+ms.keywords: portcls/IMiniportWaveCyclicStream::Silence, IMiniportWaveCyclicStream interface [Audio Devices], Silence method, audio.iminiportwavecyclicstream_silence, audmp-routines_860013ac-d79b-4b11-91b7-1a7bc3c84a5b.xml, IMiniportWaveCyclicStream, Silence, Silence method [Audio Devices], IMiniportWaveCyclicStream::Silence, Silence method [Audio Devices], IMiniportWaveCyclicStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveCyclicStream.Silence
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveCyclicStream::Silence method

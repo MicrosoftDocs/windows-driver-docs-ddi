@@ -7,8 +7,8 @@ old-location: stream\ksmapping.htm
 old-project: stream
 ms.assetid: 9a5149dc-5506-4100-80fc-7cd17585d2af
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSMAPPING structure [Streaming Media Devices], stream.ksmapping, PKSMAPPING, ks/PKSMAPPING, *PKSMAPPING, ks/KSMAPPING, avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, KSMAPPING, _KSMAPPING, PKSMAPPING structure pointer [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: avstruct_65f80fd5-14a6-431b-a1b6-e6c3d18302d3.xml, ks/PKSMAPPING, PKSMAPPING structure pointer [Streaming Media Devices], KSMAPPING structure [Streaming Media Devices], KSMAPPING, _KSMAPPING, *PKSMAPPING, ks/KSMAPPING, PKSMAPPING, stream.ksmapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,17 +95,17 @@ In order for minidrivers to use this structure within the stream pointer offsets
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
-
-
-
 <a href="..\ks\ns-ks-_ksstream_pointer_offset.md">KSSTREAM_POINTER_OFFSET</a>
 
 
 
- 
+<a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSMAPPING structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSMAPPING structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

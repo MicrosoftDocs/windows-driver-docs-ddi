@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::Exception method
 author: windows-driver-content
 description: The Exception callback method is called by the engine when an exceptiondebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exception.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 02f5bec1-f2d2-4b72-bd9e-b30315c334da
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Exception method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::Exception, debugger.idebugeventcallbackswide_exception, IDebugEventCallbacksWide::Exception, Exception method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide interface [Windows Debugging], Exception method, IDebugEventCallbacksWide, Exception
+ms.date: 2/15/2018
+ms.keywords: debugger.idebugeventcallbackswide_exception, IDebugEventCallbacksWide::Exception, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], Exception method, Exception method [Windows Debugging], IDebugEventCallbacksWide interface, Exception, dbgeng/IDebugEventCallbacksWide::Exception, Exception method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.Exception
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::Exception method

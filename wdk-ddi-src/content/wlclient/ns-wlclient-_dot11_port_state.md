@@ -7,8 +7,8 @@ old-location: netvista\dot11_port_state.htm
 old-project: netvista
 ms.assetid: 09d36c81-d480-48c6-8633-c79061420217
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11_port_state, wlclient/DOT11_PORT_STATE, _DOT11_PORT_STATE, PDOT11_PORT_STATE, wlclient/PDOT11_PORT_STATE, *PDOT11_PORT_STATE, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml, DOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: wlclient/PDOT11_PORT_STATE, _DOT11_PORT_STATE, DOT11_PORT_STATE structure [Network Drivers Starting with Windows Vista], netvista.dot11_port_state, DOT11_PORT_STATE, PDOT11_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], PDOT11_PORT_STATE, *PDOT11_PORT_STATE, wlclient/DOT11_PORT_STATE, Native_802.11_data_types_679b7f27-efba-43e8-9d20-7047c770b7db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,19 +120,19 @@ The operating system passes in the current port state of the security session th
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
-   Dot11ExtIhvPerformPostAssociate</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
 
 
- 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PORT_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PORT_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

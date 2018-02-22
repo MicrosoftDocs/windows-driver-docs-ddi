@@ -7,8 +7,8 @@ old-location: wdf\wdf_write_register_ulong.htm
 old-project: wdf
 ms.assetid: C2EBA90C-3F36-45AC-9344-DFB1824A66B9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_write_register_ulong, WDF_WRITE_REGISTER_ULONG function, WDF_WRITE_REGISTER_ULONG, wdfhwaccess/WDF_WRITE_REGISTER_ULONG
+ms.date: 2/20/2018
+ms.keywords: WDF_WRITE_REGISTER_ULONG, wdf.wdf_write_register_ulong, WDF_WRITE_REGISTER_ULONG function, wdfhwaccess/WDF_WRITE_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WRITE_REGISTER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

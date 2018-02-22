@@ -7,8 +7,8 @@ old-location: netvista\rilsetcallbarringstatusparams_2.htm
 old-project: netvista
 ms.assetid: 6116e564-93e6-45ba-8759-aab7d82783b2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSETCALLBARRINGSTATUSPARAMS, netvista.rilsetcallbarringstatusparams_2, *LPRILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILSETCALLBARRINGSTATUSPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSETCALLBARRINGSTATUSPARAMS, rilapitypes/RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS, RILSETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetcallbarringstatusparams_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

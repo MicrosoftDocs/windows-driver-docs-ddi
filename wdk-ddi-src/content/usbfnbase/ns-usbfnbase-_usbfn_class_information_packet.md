@@ -4,11 +4,11 @@ title: "_USBFN_CLASS_INFORMATION_PACKET"
 author: windows-driver-content
 description: Describes device interface class information associated with a USB interface. This structure can only hold information about a single function interface.
 old-location: buses\usbfn_class_information_packet.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 18A07670-B610-4D09-8BF0-3C55E781A68B
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: USBFN_CLASS_INFORMATION_PACKET, PUSBFN_CLASS_INFORMATION_PACKET, PUSBFN_CLASS_INFORMATION_PACKET structure pointer [Buses], USBFN_CLASS_INFORMATION_PACKET structure [Buses], usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET, buses.usbfn_class_information_packet, _USBFN_CLASS_INFORMATION_PACKET, *PUSBFN_CLASS_INFORMATION_PACKET, usbfnbase/USBFN_CLASS_INFORMATION_PACKET
+ms.date: 2/15/2018
+ms.keywords: "_USBFN_CLASS_INFORMATION_PACKET, buses.usbfn_class_information_packet, usbfnbase/USBFN_CLASS_INFORMATION_PACKET, USBFN_CLASS_INFORMATION_PACKET, *PUSBFN_CLASS_INFORMATION_PACKET, USBFN_CLASS_INFORMATION_PACKET structure [Buses], PUSBFN_CLASS_INFORMATION_PACKET structure pointer [Buses], PUSBFN_CLASS_INFORMATION_PACKET, usbfnbase/PUSBFN_CLASS_INFORMATION_PACKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -131,5 +131,5 @@ A string from which the driver can derive the device interface GUID.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_CLASS_INFORMATION_PACKET structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBFN_CLASS_INFORMATION_PACKET structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

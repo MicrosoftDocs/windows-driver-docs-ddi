@@ -4,11 +4,11 @@ title: IDebugDataSpaces2::ReadMsr method
 author: windows-driver-content
 description: The ReadMsr method reads a specified Model-Specific Register (MSR).
 old-location: debugger\readmsr2.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 3ffe53d9-ea57-4561-a889-e6369ef0d5d3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3::ReadMsr, IDebugDataSpaces interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces4::ReadMsr, IDebugDataSpaces2::ReadMsr, dbgeng/IDebugDataSpaces2::ReadMsr, ReadMsr method [Windows Debugging], debugger.readmsr2, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, ReadMsr, IDebugDataSpaces::ReadMsr, IDebugDataSpaces4::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces3::ReadMsr, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces::ReadMsr, IDebugDataSpaces2, ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface
+ms.date: 2/15/2018
+ms.keywords: ReadMsr method [Windows Debugging], IDebugDataSpaces4 interface, dbgeng/IDebugDataSpaces::ReadMsr, debugger.readmsr2, dbgeng/IDebugDataSpaces4::ReadMsr, dbgeng/IDebugDataSpaces3::ReadMsr, IDebugDataSpaces2::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces::ReadMsr, ReadMsr method [Windows Debugging], IDebugDataSpaces interface, ReadMsr, IDebugDataSpaces interface [Windows Debugging], ReadMsr method, dbgeng/IDebugDataSpaces2::ReadMsr, IDebugDataSpaces3::ReadMsr, IDebugDataSpaces4::ReadMsr, IDebugDataSpaces, IDebugDataSpaces2 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces_ad5999a9-949f-4771-b0b9-16fa1b79ac10.xml, IDebugDataSpaces2, ReadMsr method [Windows Debugging], IDebugDataSpaces3 interface, ReadMsr method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadMsr method, IDebugDataSpaces3 interface [Windows Debugging], ReadMsr method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadMsr
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces2::ReadMsr method

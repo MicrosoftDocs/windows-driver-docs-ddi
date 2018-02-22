@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice_postevent.htm
 old-project: wdf
 ms.assetid: 3df25c91-d421-48fe-958c-48bce3bc78b8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, IWDFDevice, IWDFDevice::PostEvent, umdf.iwdfdevice_postevent, PostEvent, IWDFDevice interface, PostEvent method, PostEvent method, wudfddi/IWDFDevice::PostEvent, PostEvent method, IWDFDevice interface, wdf.iwdfdevice_postevent
+ms.date: 2/20/2018
+ms.keywords: IWDFDevice::PostEvent, umdf.iwdfdevice_postevent, IWDFDevice, PostEvent method, UMDFDeviceObjectRef_7ba57249-59f4-4782-8846-717edf86dde1.xml, wdf.iwdfdevice_postevent, PostEvent, PostEvent method, IWDFDevice interface, wudfddi/IWDFDevice::PostEvent, IWDFDevice interface, PostEvent method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.PostEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -80,7 +80,7 @@ The GUID for the event. The GUID is determined by the application and the driver
 
 ### -param EventType [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_event_type.md">WDF_EVENT_TYPE</a>-typed value that identifies the type of event. In the current version of UMDF, the driver must set <i>EventType</i> to <b>WdfEventBroadcast</b> (1). <b>WdfEventBroadcast</b> indicates that the event is broadcast. Applications can subscribe to <b>WdfEventBroadcast</b>-type events. To receive broadcast events, the application must register for notification through the Microsoft Win32 <b>RegisterDeviceNotification</b> function. <b>WdfEventBroadcast</b>-type events are exposed as DBT_CUSTOMEVENT-type events to applications.
 
 
 ### -param pbData [in]
@@ -92,7 +92,7 @@ A pointer to a buffer that contains data that is associated with the event. <b>N
 
 The size, in bytes, of data that <i>pbData</i> points to. Zero is a valid size value if <i>pbData</i> is set to <b>NULL</b>. 
 
-The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>(<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)). 
+The maximum size of the event data is slightly less than MAXUSHORT (64 KB). The precise upper limit is (0xFFFF - <a href="..\miniport\nf-miniport-field_offset.md">FIELD_OFFSET</a>(<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>, CustomDataBuffer)). 
 
 
 ## -returns
@@ -172,15 +172,11 @@ For information about creating device events, see <a href="https://docs.microsof
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-field_offset.md">FIELD_OFFSET</a>
+<a href="..\wdm\ns-wdm-_target_device_custom_notification.md">TARGET_DEVICE_CUSTOM_NOTIFICATION</a>
 
 
 
@@ -188,9 +184,13 @@ For information about creating device events, see <a href="https://docs.microsof
 
 
 
- 
+<a href="..\miniport\nf-miniport-field_offset.md">FIELD_OFFSET</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::PostEvent method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::PostEvent method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

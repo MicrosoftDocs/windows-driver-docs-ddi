@@ -7,8 +7,8 @@ old-location: display\d3dkmt_opensyncobjectfromnthandle.htm
 old-project: display
 ms.assetid: 163ce4ed-e81b-4b69-b1a7-4ea2b9e8f437
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_opensyncobjectfromnthandle, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE structure [Display Devices], d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE
+ms.date: 2/20/2018
+ms.keywords: D3DKMT_OPENSYNCOBJECTFROMNTHANDLE structure [Display Devices], display.d3dkmt_opensyncobjectfromnthandle, _D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, d3dkmthk/D3DKMT_OPENSYNCOBJECTFROMNTHANDLE, D3DKMT_OPENSYNCOBJECTFROMNTHANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

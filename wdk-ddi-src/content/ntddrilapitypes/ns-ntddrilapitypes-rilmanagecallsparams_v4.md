@@ -7,8 +7,8 @@ old-location: netvista\rilmanagecallsparams_v4.htm
 old-project: netvista
 ms.assetid: 8e38c6d5-bd61-455e-a628-b4e6ef9c936c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmanagecallsparams_v4, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], *LPRILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS, ntddrilapitypes/RILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4
+ms.date: 2/16/2018
+ms.keywords: RILMANAGECALLSPARAMS, ntddrilapitypes/RILMANAGECALLSPARAMS_V4, netvista.rilmanagecallsparams_v4, RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4 structure [Network Drivers Starting with Windows Vista], *LPRILMANAGECALLSPARAMS_V4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMANAGECALLSPARAMS_V4
 product: Windows
 targetos: Windows
-req.typenames: RILMANAGECALLSPARAMS, *LPRILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS_V4
+req.typenames: "*LPRILMANAGECALLSPARAMS_V4, RILMANAGECALLSPARAMS_V4, *LPRILMANAGECALLSPARAMS, RILMANAGECALLSPARAMS"
 ---
 
 # RILMANAGECALLSPARAMS_V4 structure

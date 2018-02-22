@@ -4,11 +4,11 @@ title: IStiUSD::GetNotificationData method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istiusd_getnotificationdata.htm
-old-project: image
+old-project: Image
 ms.assetid: c4293fa8-07c9-40b2-acc2-8a3128b6dad4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: GetNotificationData method [Imaging Devices], IStiUSD interface, IStiUSD, image.istiusd_getnotificationdata, stiusd/IStiUSD::GetNotificationData, IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices], GetNotificationData, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, IStiUSD interface [Imaging Devices], GetNotificationData method
+ms.date: 2/15/2018
+ms.keywords: IStiUSD, GetNotificationData, GetNotificationData method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], GetNotificationData method, stiusd/IStiUSD::GetNotificationData, image.istiusd_getnotificationdata, stifnc_1641dbac-f429-4f85-9cd0-25ef82000992.xml, IStiUSD::GetNotificationData, GetNotificationData method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.GetNotificationData
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 

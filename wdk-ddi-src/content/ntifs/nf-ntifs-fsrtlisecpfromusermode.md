@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlisecpfromusermode.htm
 old-project: ifsk
 ms.assetid: cdc5d6a3-637e-4f0e-bc94-25bfe5763695
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlisecpfromusermode, FsRtlIsEcpFromUserMode routine [Installable File System Drivers], FsRtlIsEcpFromUserMode, ntifs/FsRtlIsEcpFromUserMode, fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml
+ms.date: 2/16/2018
+ms.keywords: FsRtlIsEcpFromUserMode routine [Installable File System Drivers], fsrtlref_14f09529-adf9-4113-bff4-5183ade20059.xml, ifsk.fsrtlisecpfromusermode, FsRtlIsEcpFromUserMode, ntifs/FsRtlIsEcpFromUserMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

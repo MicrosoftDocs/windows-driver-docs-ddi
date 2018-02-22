@@ -7,8 +7,8 @@ old-location: serports\sercx2systemdmatransmitinitializetransactioncomplete.htm
 old-project: serports
 ms.assetid: B5FDD4A4-2E43-4EAD-A475-A91C60A2E925
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SerCx2SystemDmaTransmitInitializeTransactionComplete method [Serial Ports], SerCx2SystemDmaTransmitInitializeTransactionComplete, 2/SerCx2SystemDmaTransmitInitializeTransactionComplete, serports.sercx2systemdmatransmitinitializetransactioncomplete
+ms.date: 2/15/2018
+ms.keywords: SerCx2SystemDmaTransmitInitializeTransactionComplete method [Serial Ports], 2/SerCx2SystemDmaTransmitInitializeTransactionComplete, SerCx2SystemDmaTransmitInitializeTransactionComplete, serports.sercx2systemdmatransmitinitializetransactioncomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2SystemDmaTransmitInitializeTransactionComplete
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -107,17 +107,17 @@ For more information, see <a href="https://msdn.microsoft.com/8569E76F-CAFF-4A2C
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_initialize_transaction.md">EvtSerCx2SystemDmaTransmitInitializeTransaction</a>
 
 
 
- 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCx2SystemDmaTransmitInitializeTransactionComplete method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCx2SystemDmaTransmitInitializeTransactionComplete method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

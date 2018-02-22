@@ -7,8 +7,8 @@ old-location: bltooth\brb_header.htm
 old-project: bltooth
 ms.assetid: c6da4cc9-294b-4cb7-80c8-8adee8d4c40b
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/BRB_HEADER, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, _BRB_HEADER, BRB_HEADER, BRB_HEADER structure [Bluetooth Devices], bltooth.brb_header
+ms.date: 2/15/2018
+ms.keywords: bthddi/BRB_HEADER, bltooth.brb_header, _BRB_HEADER, BRB_HEADER, bth_structs_69a21ba7-b425-45ec-bb2d-dd76a6cb8342.xml, BRB_HEADER structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -230,17 +230,17 @@ Profile drivers should not modify any of the members of the BRB_HEADER structure
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 
- 
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_HEADER structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_HEADER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

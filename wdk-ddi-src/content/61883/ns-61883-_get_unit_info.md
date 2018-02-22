@@ -7,8 +7,8 @@ old-location: ieee\get_unit_info.htm
 old-project: IEEE
 ms.assetid: 2FE13A53-5B88-40B8-B129-8DD141F1B160
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IEEE.get_unit_info, GET_UNIT_INFO structure [Buses], _GET_UNIT_INFO, *PGET_UNIT_INFO, GET_UNIT_INFO, 61883/PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], 61883/GET_UNIT_INFO, PGET_UNIT_INFO
+ms.date: 2/15/2018
+ms.keywords: 61883/PGET_UNIT_INFO, GET_UNIT_INFO, _GET_UNIT_INFO, 61883/GET_UNIT_INFO, *PGET_UNIT_INFO, PGET_UNIT_INFO structure pointer [Buses], GET_UNIT_INFO structure [Buses], IEEE.get_unit_info, PGET_UNIT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,5 +177,5 @@ The protocol driver writes current diag level to the caller-allocated <a href="h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_UNIT_INFO structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_UNIT_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

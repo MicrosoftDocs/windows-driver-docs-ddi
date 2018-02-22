@@ -4,11 +4,11 @@ title: wiasGetChangedValueLong function
 author: windows-driver-content
 description: The wiasGetChangedValueLong function determines whether a property with a long integer value has been changed by an application.
 old-location: image\wiasgetchangedvaluelong.htm
-old-project: image
+old-project: Image
 ms.assetid: 2c23729c-9fab-4e3c-9205-175a6aba8f8a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiasGetChangedValueLong, wiamdef/wiasGetChangedValueLong, wiasFncs_c333720c-e0e9-4fa4-9fdc-24a6a248f58b.xml, image.wiasgetchangedvaluelong, wiasGetChangedValueLong function [Imaging Devices]
+ms.date: 2/15/2018
+ms.keywords: wiasGetChangedValueLong function [Imaging Devices], wiasGetChangedValueLong, wiasFncs_c333720c-e0e9-4fa4-9fdc-24a6a248f58b.xml, image.wiasgetchangedvaluelong, wiamdef/wiasGetChangedValueLong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetChangedValueLong
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -124,7 +124,7 @@ The driver should validate the property only after the driver has updated the va
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
 
 
 
@@ -132,7 +132,11 @@ The driver should validate the property only after the driver has updated the va
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluestr.md">wiasGetChangedValueStr</a>
 
 
 
@@ -140,13 +144,9 @@ The driver should validate the property only after the driver has updated the va
 
 
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasGetChangedValueLong function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20wiasGetChangedValueLong function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

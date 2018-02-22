@@ -4,11 +4,11 @@ title: IDebugSymbols2::GetSourcePath method
 author: windows-driver-content
 description: The GetSourcePath method returns the source path.
 old-location: debugger\getsourcepath.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 93a1efce-5f93-4a09-aa61-ffbd3d619176
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetSourcePath method [Windows Debugging], IDebugSymbols3 interface, debugger.getsourcepath, IDebugSymbols2 interface [Windows Debugging], GetSourcePath method, IDebugSymbols::GetSourcePath, dbgeng/IDebugSymbols::GetSourcePath, GetSourcePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::GetSourcePath, dbgeng/IDebugSymbols2::GetSourcePath, IDebugSymbols_cbdf5e16-41ba-4134-b41b-81164dfc07a0.xml, GetSourcePath method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetSourcePath method, GetSourcePath, IDebugSymbols, IDebugSymbols2, IDebugSymbols3 interface [Windows Debugging], GetSourcePath method, IDebugSymbols3::GetSourcePath, GetSourcePath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetSourcePath
+ms.date: 2/15/2018
+ms.keywords: debugger.getsourcepath, IDebugSymbols_cbdf5e16-41ba-4134-b41b-81164dfc07a0.xml, GetSourcePath method [Windows Debugging], dbgeng/IDebugSymbols::GetSourcePath, dbgeng/IDebugSymbols2::GetSourcePath, IDebugSymbols2::GetSourcePath, IDebugSymbols3 interface [Windows Debugging], GetSourcePath method, IDebugSymbols::GetSourcePath, GetSourcePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetSourcePath method, GetSourcePath method [Windows Debugging], IDebugSymbols3 interface, GetSourcePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetSourcePath, IDebugSymbols2, GetSourcePath, IDebugSymbols2 interface [Windows Debugging], GetSourcePath method, IDebugSymbols, dbgeng/IDebugSymbols3::GetSourcePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetSourcePath
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols2::GetSourcePath method
@@ -138,11 +138,7 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
 
 
 
@@ -154,7 +150,11 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556781">SetSourcePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -166,5 +166,5 @@ For more information about manipulating the source path, see <a href="https://ms
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSourcePath method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetSourcePath method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

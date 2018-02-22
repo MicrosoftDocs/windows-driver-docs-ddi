@@ -7,8 +7,8 @@ old-location: display\video_port_int10_interface.htm
 old-project: display
 ms.assetid: 551b2255-c221-4a95-a812-dec34f09438b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, video/VIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE structure [Display Devices], _VIDEO_PORT_INT10_INTERFACE, display.video_port_int10_interface, video/PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], *PVIDEO_PORT_INT10_INTERFACE
+ms.date: 2/20/2018
+ms.keywords: Video_Structs_b0f9d9fa-c989-4989-9f63-deb0ca211144.xml, display.video_port_int10_interface, VIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE, _VIDEO_PORT_INT10_INTERFACE, *PVIDEO_PORT_INT10_INTERFACE, video/PVIDEO_PORT_INT10_INTERFACE, PVIDEO_PORT_INT10_INTERFACE structure pointer [Display Devices], VIDEO_PORT_INT10_INTERFACE structure [Display Devices], video/VIDEO_PORT_INT10_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: "<= DISPATCH_LEVEL"
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_PORT_INT10_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_INT10_INTERFACE, VIDEO_PORT_INT10_INTERFACE"
+req.typenames: VIDEO_PORT_INT10_INTERFACE, *PVIDEO_PORT_INT10_INTERFACE
 req.product: Windows 10 or later.
 ---
 
@@ -146,5 +146,5 @@ PnP video miniport drivers that intend to make BIOS calls should fill in the <b>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_INT10_INTERFACE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_INT10_INTERFACE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

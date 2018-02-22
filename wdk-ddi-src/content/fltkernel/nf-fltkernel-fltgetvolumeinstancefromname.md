@@ -7,8 +7,8 @@ old-location: ifsk\fltgetvolumeinstancefromname.htm
 old-project: ifsk
 ms.assetid: 25455faa-2197-4b2a-bce8-db9764153e51
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltGetVolumeInstanceFromName routine [Installable File System Drivers], FltGetVolumeInstanceFromName, FltApiRef_e_to_o_78e7987d-7f24-4c51-b263-502005595c6d.xml, ifsk.fltgetvolumeinstancefromname, fltkernel/FltGetVolumeInstanceFromName
+ms.date: 2/16/2018
+ms.keywords: FltGetVolumeInstanceFromName, fltkernel/FltGetVolumeInstanceFromName, ifsk.fltgetvolumeinstancefromname, FltGetVolumeInstanceFromName routine [Installable File System Drivers], FltApiRef_e_to_o_78e7987d-7f24-4c51-b263-502005595c6d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,15 +148,11 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolume.md">FltAttachVolume</a>
 
 
 
@@ -164,9 +160,13 @@ The string "03333" represents a higher altitude than "100.123456". (Leading and 
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetVolumeInstanceFromName routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltGetVolumeInstanceFromName routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

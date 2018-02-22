@@ -7,8 +7,8 @@ old-location: storage\scsi_pass_through_ex.htm
 old-project: storage
 ms.assetid: 3D00B42C-7320-4044-BA7D-71A9BD05B30E
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SCSI_PASS_THROUGH_EX, storage.scsi_pass_through_ex, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], _SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/SCSI_PASS_THROUGH_EX
+ms.date: 2/16/2018
+ms.keywords: "_SCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX, ntddscsi/PSCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX, ntddscsi/SCSI_PASS_THROUGH_EX, PSCSI_PASS_THROUGH_EX structure pointer [Storage Devices], storage.scsi_pass_through_ex, SCSI_PASS_THROUGH_EX structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_PASS_THROUGH_EX
 product: Windows
 targetos: Windows
-req.typenames: SCSI_PASS_THROUGH_EX, *PSCSI_PASS_THROUGH_EX
+req.typenames: "*PSCSI_PASS_THROUGH_EX, SCSI_PASS_THROUGH_EX"
 ---
 
 # _SCSI_PASS_THROUGH_EX structure
@@ -181,6 +181,10 @@ The <b>SCSI_PASS_THROUGH_EX</b> structure is used with the  <a href="..\ntddscsi
 
 ## -see-also
 
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
+
+
+
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
 
 
@@ -189,13 +193,9 @@ The <b>SCSI_PASS_THROUGH_EX</b> structure is used with the  <a href="..\ntddscsi
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through_ex.md">IOCTL_SCSI_PASS_THROUGH_EX</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH_EX structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_PASS_THROUGH_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

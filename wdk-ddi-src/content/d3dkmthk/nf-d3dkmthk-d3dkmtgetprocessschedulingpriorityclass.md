@@ -7,8 +7,8 @@ old-location: display\d3dkmtgetprocessschedulingpriorityclass.htm
 old-project: display
 ms.assetid: 994df4be-d0ce-4f64-91f5-b5516ce947ec
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], D3DKMTGetProcessSchedulingPriorityClass, d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass, OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml
+ms.date: 2/20/2018
+ms.keywords: D3DKMTGetProcessSchedulingPriorityClass function [Display Devices], d3dkmthk/D3DKMTGetProcessSchedulingPriorityClass, display.d3dkmtgetprocessschedulingpriorityclass, D3DKMTGetProcessSchedulingPriorityClass, OpenGL_Functions_7af39e72-516e-440a-b4be-f0b3f82156d0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,17 +131,17 @@ This function might also return other <b>NTSTATUS</b> values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass.md">D3DKMTSetProcessSchedulingPriorityClass</a>
-
-
-
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
 
 
 
- 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetprocessschedulingpriorityclass.md">D3DKMTSetProcessSchedulingPriorityClass</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTGetProcessSchedulingPriorityClass function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTGetProcessSchedulingPriorityClass function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

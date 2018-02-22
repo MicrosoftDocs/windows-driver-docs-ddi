@@ -4,11 +4,11 @@ title: IDebugControl3::IsPointer64Bit method
 author: windows-driver-content
 description: The IsPointer64Bit method determines if the effective processor uses 64-bit pointers.
 old-location: debugger\ispointer64bit.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 01003268-844e-4613-ac13-0306396e56b9
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl2, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IDebugControl2::IsPointer64Bit, IsPointer64Bit, IDebugControl3, dbgeng/IDebugControl3::IsPointer64Bit, IDebugControl::IsPointer64Bit, IDebugControl, IDebugControl interface [Windows Debugging], IsPointer64Bit method, debugger.ispointer64bit, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IsPointer64Bit method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::IsPointer64Bit, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, dbgeng/IDebugControl2::IsPointer64Bit, IsPointer64Bit method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::IsPointer64Bit, IDebugControl2, IDebugControl, IDebugControl3, IDebugControl3::IsPointer64Bit, IDebugControl interface [Windows Debugging], IsPointer64Bit method, IDebugControl::IsPointer64Bit, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IsPointer64Bit method [Windows Debugging], IsPointer64Bit, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, dbgeng/IDebugControl2::IsPointer64Bit, debugger.ispointer64bit, IsPointer64Bit method [Windows Debugging], IDebugControl interface, IDebugControl2::IsPointer64Bit, dbgeng/IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.IsPointer64Bit
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::IsPointer64Bit method

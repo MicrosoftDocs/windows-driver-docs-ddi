@@ -7,8 +7,8 @@ old-location: ifsk\rxmapanddissociatemidfromcontext.htm
 old-project: ifsk
 ms.assetid: e9021983-8a01-4262-ae3f-c265948d5a2c
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RxMapAndDissociateMidFromContext function [Installable File System Drivers], midatlax/RxMapAndDissociateMidFromContext, rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml, RxMapAndDissociateMidFromContext, ifsk.rxmapanddissociatemidfromcontext
+ms.date: 2/16/2018
+ms.keywords: rxref_919dabed-ac8c-4495-8709-8fb45280e16f.xml, ifsk.rxmapanddissociatemidfromcontext, RxMapAndDissociateMidFromContext function [Installable File System Drivers], midatlax/RxMapAndDissociateMidFromContext, RxMapAndDissociateMidFromContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,7 +120,7 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
 
 
 
@@ -128,11 +128,11 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 
 
+<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+
+
+
 <a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
 
 
 
@@ -144,5 +144,5 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxMapAndDissociateMidFromContext function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxMapAndDissociateMidFromContext function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

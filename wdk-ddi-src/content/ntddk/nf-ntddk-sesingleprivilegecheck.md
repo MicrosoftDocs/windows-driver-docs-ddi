@@ -7,8 +7,8 @@ old-location: kernel\sesingleprivilegecheck.htm
 old-project: kernel
 ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, ntddk/SeSinglePrivilegeCheck, SeSinglePrivilegeCheck, kernel.sesingleprivilegecheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: ntddk/SeSinglePrivilegeCheck, kernel.sesingleprivilegecheck, k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,7 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+<a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
 
 
 
@@ -111,17 +107,21 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+
+
+
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlconvertulongtoluid.md">RtlConvertUlongToLuid</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SeSinglePrivilegeCheck routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SeSinglePrivilegeCheck routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

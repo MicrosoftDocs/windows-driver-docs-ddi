@@ -7,8 +7,8 @@ old-location: wdf\wdf_fileobject_class.htm
 old-project: wdf
 ms.assetid: e0887061-eafe-4dba-bb7a-58bf949e2d08
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfFileObjectCanBeOptional, *PWDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectCanBeOptional, WdfFileObjectWdfCanUseFsContext2, wdf.wdf_fileobject_class, PWDF_FILEOBJECT_CLASS enumeration pointer, WDF_FILEOBJECT_CLASS enumeration, WdfFileObjectInvalid, PWDF_FILEOBJECT_CLASS, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCanUseFsContext2, WdfFileObjectNotRequired, wdfdevice/WdfFileObjectInvalid, WdfFileObjectWdfCanUseFsContext, wdfdevice/WdfFileObjectNotRequired, WdfFileObjectWdfCannotUseFsContexts, wdfdevice/PWDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCannotUseFsContexts, kmdf.wdf_fileobject_class, _WDF_FILEOBJECT_CLASS, WDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml, wdfdevice/WdfFileObjectWdfCanUseFsContext
+ms.date: 2/20/2018
+ms.keywords: WDF_FILEOBJECT_CLASS enumeration, WdfFileObjectCanBeOptional, wdfdevice/WdfFileObjectInvalid, wdfdevice/WdfFileObjectWdfCannotUseFsContexts, *PWDF_FILEOBJECT_CLASS, WdfFileObjectWdfCanUseFsContext2, _WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectWdfCanUseFsContext2, PWDF_FILEOBJECT_CLASS enumeration pointer, WdfFileObjectNotRequired, wdf.wdf_fileobject_class, wdfdevice/WdfFileObjectWdfCanUseFsContext, WdfFileObjectInvalid, wdfdevice/WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectCanBeOptional, wdfdevice/PWDF_FILEOBJECT_CLASS, DFFileObjectRef_001acbc3-7e2c-4b8b-ab14-024653cefe19.xml, PWDF_FILEOBJECT_CLASS, WDF_FILEOBJECT_CLASS, wdfdevice/WdfFileObjectNotRequired, kmdf.wdf_fileobject_class, WdfFileObjectWdfCannotUseFsContexts, WdfFileObjectWdfCanUseFsContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_FILEOBJECT_CLASS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILEOBJECT_CLASS, WDF_FILEOBJECT_CLASS"
+req.typenames: WDF_FILEOBJECT_CLASS, *PWDF_FILEOBJECT_CLASS
 req.product: Windows 10 or later.
 ---
 
@@ -138,17 +138,17 @@ If the <b>WdfFileObjectCanBeOptional</b> bit flag is set, the framework's verifi
 
 ## -see-also
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
-
-
-
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 
- 
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_fileobject_config.md">WDF_FILEOBJECT_CONFIG</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_FILEOBJECT_CLASS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_FILEOBJECT_CLASS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

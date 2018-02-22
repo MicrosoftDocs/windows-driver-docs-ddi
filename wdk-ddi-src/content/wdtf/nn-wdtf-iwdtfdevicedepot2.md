@@ -7,7 +7,7 @@ old-location: dtf\iwdtfdevicedepot2.htm
 old-project: dtf
 ms.assetid: 7f7f1286-83e9-4bd8-ac57-1c3def4c0035
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: dtf.iwdtfdevicedepot2, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], IWDTFDeviceDepot2 interface [Windows Device Testing Framework], described, IWDTFDeviceDepot2, wdtf/IWDTFDeviceDepot2, Microsoft.WDTF.IWDTFDeviceDepot2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFDeviceDepot2
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 

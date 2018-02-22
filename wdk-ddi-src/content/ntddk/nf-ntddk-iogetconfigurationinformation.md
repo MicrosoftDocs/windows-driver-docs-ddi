@@ -7,13 +7,13 @@ old-location: kernel\iogetconfigurationinformation.htm
 old-project: kernel
 ms.assetid: 1d577588-72cf-44f2-b1bb-ebab0ee52fd6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoGetConfigurationInformation, k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, ntddk/IoGetConfigurationInformation, kernel.iogetconfigurationinformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: ntddk/IoGetConfigurationInformation, k104_5f9c4d01-9724-4e1d-8154-3737f0809068.xml, kernel.iogetconfigurationinformation, IoGetConfigurationInformation routine [Kernel-Mode Driver Architecture], IoGetConfigurationInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
-req.include-header: Ntddk.h
+req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -143,19 +143,7 @@ The configuration information structure also contains a value indicating whether
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
 
 
 
@@ -163,13 +151,25 @@ The configuration information structure also contains a value indicating whether
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549453">IoQueryDeviceDescription</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetConfigurationInformation routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetConfigurationInformation routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

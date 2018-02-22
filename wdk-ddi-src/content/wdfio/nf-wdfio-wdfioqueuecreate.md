@@ -7,8 +7,8 @@ old-location: wdf\wdfioqueuecreate.htm
 old-project: wdf
 ms.assetid: cd7e993e-1381-4b0c-b046-716e839dbb62
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, PFN_WDFIOQUEUECREATE, wdf.wdfioqueuecreate, kmdf.wdfioqueuecreate, wdfio/WdfIoQueueCreate, WdfIoQueueCreate method, WdfIoQueueCreate
+ms.date: 2/20/2018
+ms.keywords: DFQueueObjectRef_97b06453-cf79-4944-85d7-530b83211353.xml, wdf.wdfioqueuecreate, WdfIoQueueCreate method, WdfIoQueueCreate, wdfio/WdfIoQueueCreate, kmdf.wdfioqueuecreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -245,7 +245,7 @@ MyEvtDriverDeviceAdd(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
+<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
 
 
 
@@ -253,7 +253,7 @@ MyEvtDriverDeviceAdd(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
 
 
 
@@ -261,7 +261,7 @@ MyEvtDriverDeviceAdd(
 
 
 
-<a href="..\wdfio\ns-wdfio-_wdf_io_queue_config.md">WDF_IO_QUEUE_CONFIG</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -269,5 +269,5 @@ MyEvtDriverDeviceAdd(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

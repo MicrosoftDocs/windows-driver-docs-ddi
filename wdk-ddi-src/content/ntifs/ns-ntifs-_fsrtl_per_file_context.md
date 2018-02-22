@@ -7,8 +7,8 @@ old-location: ifsk\fsrtl_per_file_context.htm
 old-project: ifsk
 ms.assetid: d20668f0-b076-4edd-bf21-98841cbbdc74
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "*PFSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, ntifs/FSRTL_PER_FILE_CONTEXT, _FSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT, ifsk.fsrtl_per_file_context, ntifs/PFSRTL_PER_FILE_CONTEXT, FSRTL_PER_FILE_CONTEXT"
+ms.date: 2/16/2018
+ms.keywords: FSRTL_PER_FILE_CONTEXT structure [Installable File System Drivers], ntifs/PFSRTL_PER_FILE_CONTEXT, contextstructures_329894da-4955-4f46-8fab-92e32f10ed0d.xml, FSRTL_PER_FILE_CONTEXT, ntifs/FSRTL_PER_FILE_CONTEXT, PFSRTL_PER_FILE_CONTEXT structure pointer [Installable File System Drivers], PFSRTL_PER_FILE_CONTEXT, _FSRTL_PER_FILE_CONTEXT, *PFSRTL_PER_FILE_CONTEXT, ifsk.fsrtl_per_file_context
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -151,15 +151,15 @@ For more information about how to use and create context objects, see <a href="h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtlteardownperfilecontexts.md">FsRtlTeardownPerFileContexts</a>
 
 
 
-<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
 
 
 
@@ -167,7 +167,7 @@ For more information about how to use and create context objects, see <a href="h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546161">FsRtlInitPerFileContext</a>
+<a href="https://msdn.microsoft.com/6be3ff10-47e4-47f5-8f15-88a80a16f451">Tracking Per-File Context in a Legacy File System Filter Driver</a>
 
 
 
@@ -179,5 +179,5 @@ For more information about how to use and create context objects, see <a href="h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSRTL_PER_FILE_CONTEXT structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSRTL_PER_FILE_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

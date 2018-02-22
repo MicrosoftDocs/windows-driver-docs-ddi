@@ -7,8 +7,8 @@ old-location: ifsk\rxfsddispatch.htm
 old-project: ifsk
 ms.assetid: 92b9b22a-0fe7-4c95-a4fc-5f5f5558b4cf
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: mrx/RxFsdDispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml, ifsk.rxfsddispatch, RxFsdDispatch, RxFsdDispatch routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: RxFsdDispatch, ifsk.rxfsddispatch, rxref_23ec1489-9629-4aef-b0b0-d844364b67a7.xml, RxFsdDispatch routine [Installable File System Drivers], mrx/RxFsdDispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,5 +178,5 @@ A few IRPs are treated as special and handled internally by RDBSS. For example, 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxFsdDispatch routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxFsdDispatch routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

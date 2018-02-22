@@ -7,8 +7,8 @@ old-location: netvista\ndis_filter_driver_characteristics.htm
 old-project: netvista
 ms.assetid: 1eb2bae0-70b9-4bc0-9d93-4fc9467f9532
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS, _NDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics, NDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS, *PNDIS_FILTER_DRIVER_CHARACTERISTICS, PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: PNDIS_FILTER_DRIVER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_FILTER_DRIVER_CHARACTERISTICS, ndis/NDIS_FILTER_DRIVER_CHARACTERISTICS, filter_structures_ref_8fc4ed95-82fe-47bd-849d-f9733647cacd.xml, NDIS_FILTER_DRIVER_CHARACTERISTICS, NDIS_FILTER_DRIVER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], *PNDIS_FILTER_DRIVER_CHARACTERISTICS, netvista.ndis_filter_driver_characteristics, ndis/PNDIS_FILTER_DRIVER_CHARACTERISTICS, _NDIS_FILTER_DRIVER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -473,27 +473,8 @@ A filter driver calls the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+<a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
+   FilterCancelSendNetBufferLists</a>
 
 
 
@@ -501,25 +482,27 @@ A filter driver calls the
 
 
 
-<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
-   FilterCancelDirectOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
 
 
 
-<a href="https://msdn.microsoft.com/e2714e67-62ac-4d9a-bec3-971d1c8b5bd8">INF File Settings for Filter Drivers</a>
+<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
-   FilterDirectOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-filter_detach.md">FilterDetach</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
 
 
 
@@ -528,7 +511,7 @@ A filter driver calls the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -536,11 +519,49 @@ A filter driver calls the
 
 
 
+<a href="https://msdn.microsoft.com/e2714e67-62ac-4d9a-bec3-971d1c8b5bd8">INF File Settings for Filter Drivers</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_direct_oid_request_complete.md">
+   FilterDirectOidRequestComplete</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
+   FilterCancelDirectOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_pause.md">FilterPause</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+
+
+
 <a href="..\ndis\nc-ndis-filter_set_module_options.md">FilterSetModuleOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/e24b18b5-76d3-4d56-bf60-0dea91ba014e">Initializing a Filter Driver</a>
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
 
 
 
@@ -549,38 +570,17 @@ A filter driver calls the
 
 
 
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request_complete.md">FilterOidRequestComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_return_net_buffer_lists.md">FilterReturnNetBufferLists</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_cancel_send_net_buffer_lists.md">
-   FilterCancelSendNetBufferLists</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FILTER_DRIVER_CHARACTERISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FILTER_DRIVER_CHARACTERISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilimssubscribetype_2.htm
 old-project: netvista
 ms.assetid: 84b2de56-55f9-471c-8d32-84fe1365dfbf
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_IMSSUBSCRIBETYPE_MAX, netvista.rilimssubscribetype_2, rilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, rilapitypes/RIL_IMSSUBSCRIBETYPE_MWI, rilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_CONFERENCE, RILIMSSUBSCRIBETYPE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista], RIL_IMSSUBSCRIBETYPE_MWI, rilapitypes/RILIMSSUBSCRIBETYPE
+ms.date: 2/16/2018
+ms.keywords: RILIMSSUBSCRIBETYPE, rilapitypes/RIL_IMSSUBSCRIBETYPE_MAX, netvista.rilimssubscribetype_2, rilapitypes/RIL_IMSSUBSCRIBETYPE_CONFERENCE, RIL_IMSSUBSCRIBETYPE_MWI, RIL_IMSSUBSCRIBETYPE_MAX, rilapitypes/RILIMSSUBSCRIBETYPE, rilapitypes/RIL_IMSSUBSCRIBETYPE_MWI, RIL_IMSSUBSCRIBETYPE_CONFERENCE, RILIMSSUBSCRIBETYPE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

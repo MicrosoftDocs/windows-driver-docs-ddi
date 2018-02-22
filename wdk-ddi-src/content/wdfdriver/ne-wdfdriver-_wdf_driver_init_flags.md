@@ -7,8 +7,8 @@ old-location: wdf\wdf_driver_init_flags.htm
 old-project: wdf
 ms.assetid: cbabd178-3496-4851-9acf-f0718eaebdcd
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_DRIVER_INIT_FLAGS enumeration, wdfdriver/WdfDriverInitNonPnpDriver, kmdf.wdf_driver_init_flags, wdf.wdf_driver_init_flags, wdfdriver/WdfVerifierOn, WdfDriverInitNoDispatchOverride, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, WdfVerifierOn, _WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfVerifyOn, WdfDriverInitNonPnpDriver, wdfdriver/WDF_DRIVER_INIT_FLAGS, WdfVerifyOn, WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride
+ms.date: 2/20/2018
+ms.keywords: wdfdriver/WdfDriverInitNonPnpDriver, kmdf.wdf_driver_init_flags, wdf.wdf_driver_init_flags, _WDF_DRIVER_INIT_FLAGS, WdfDriverInitNoDispatchOverride, WdfVerifyOn, DFDriverObjectRef_a77b530c-fd37-4ffe-a006-7deaa8156040.xml, wdfdriver/WDF_DRIVER_INIT_FLAGS, wdfdriver/WdfDriverInitNoDispatchOverride, WdfDriverInitNonPnpDriver, wdfdriver/WdfVerifyOn, WDF_DRIVER_INIT_FLAGS enumeration, WdfVerifierOn, wdfdriver/WdfVerifierOn, WDF_DRIVER_INIT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -113,17 +113,17 @@ The WDF_DRIVER_INIT_FLAGS enumeration is used to specify the value for the <b>Dr
 
 
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
-
-
-
 <a href="..\wdfminiport\nf-wdfminiport-wdfdriverminiportunload.md">WdfDriverMiniportUnload</a>
 
 
 
- 
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DRIVER_INIT_FLAGS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DRIVER_INIT_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

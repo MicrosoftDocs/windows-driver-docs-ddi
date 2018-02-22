@@ -7,8 +7,8 @@ old-location: stream\bdapropertynodedescriptors.htm
 old-project: stream
 ms.assetid: 46e38460-9284-4305-997d-bf72b308f301
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: BdaPropertyNodeDescriptors function [Streaming Media Devices], bdasup/BdaPropertyNodeDescriptors, bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, stream.bdapropertynodedescriptors, BdaPropertyNodeDescriptors
+ms.date: 2/20/2018
+ms.keywords: BdaPropertyNodeDescriptors, bdasup/BdaPropertyNodeDescriptors, stream.bdapropertynodedescriptors, bdaref_67976a51-5f21-4369-be96-ab6a2b758e85.xml, BdaPropertyNodeDescriptors function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	BdaPropertyNodeDescriptors
 product: Windows
 targetos: Windows
-req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
+req.typenames: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN"
 ---
 
 # BdaPropertyNodeDescriptors function
@@ -119,11 +119,11 @@ For a list of BDA nodes that are available to create in a template topology, see
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 
@@ -135,5 +135,5 @@ For a list of BDA nodes that are available to create in a template topology, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaPropertyNodeDescriptors function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaPropertyNodeDescriptors function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

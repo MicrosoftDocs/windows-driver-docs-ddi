@@ -7,8 +7,8 @@ old-location: sensors\isensorclassextension_postevent.htm
 old-project: sensors
 ms.assetid: 201a4558-8755-4a28-9982-c02ce5b5d8e7
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PostEvent method [Sensor Devices], ISensorClassExtension, ISensorClassExtension::PostEvent, sensors.isensorclassextension_postevent, PostEvent
+ms.date: 2/15/2018
+ms.keywords: sensors.isensorclassextension_postevent, PostEvent method [Sensor Devices], ISensorClassExtension, ISensorClassExtension::PostEvent, PostEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

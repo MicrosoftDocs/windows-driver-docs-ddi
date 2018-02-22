@@ -7,8 +7,8 @@ old-location: audio\iminiportaudioenginenode_getdeviceattributesteppings.htm
 old-project: audio
 ms.assetid: 7AF6C9AF-8955-4F09-A42C-097B4AD1CD3A
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: IMiniportAudioEngineNode, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, audio.iminiportaudioenginenode_getdeviceattributesteppings, GetDeviceAttributeSteppings, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings, IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, GetDeviceAttributeSteppings method [Audio Devices]
+ms.date: 2/21/2018
+ms.keywords: GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface [Audio Devices], GetDeviceAttributeSteppings method, audio.iminiportaudioenginenode_getdeviceattributesteppings, IMiniportAudioEngineNode::GetDeviceAttributeSteppings, GetDeviceAttributeSteppings method [Audio Devices], IMiniportAudioEngineNode interface, portcls/IMiniportAudioEngineNode::GetDeviceAttributeSteppings, IMiniportAudioEngineNode, GetDeviceAttributeSteppings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportAudioEngineNode.GetDeviceAttributeSteppings
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportAudioEngineNode::GetDeviceAttributeSteppings method
@@ -103,11 +103,11 @@ returns an appropriate error code.
 
 ## -see-also
 
-<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/ff565631(v=vs.85).aspx">KSPROPERTY_STEPPING_LONG</a>
+
+
+
+<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
 
 
 
@@ -119,5 +119,5 @@ returns an appropriate error code.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportAudioEngineNode::GetDeviceAttributeSteppings method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportAudioEngineNode::GetDeviceAttributeSteppings method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

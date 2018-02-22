@@ -7,13 +7,13 @@ old-location: kernel\pep_acpi_spb_resource.htm
 old-project: kernel
 ms.assetid: D4C0009D-A9D0-4870-86C5-60DC9B5892BC
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "*PPEP_ACPI_SPB_RESOURCE, 1 - Consumer/producer mode, pepfx/PPEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture], 2 to 7 - Reserved, PEP_ACPI_SPB_RESOURCE, 0 - Slave mode, _PEP_ACPI_SPB_RESOURCE, kernel.pep_acpi_spb_resource, pepfx/PEP_ACPI_SPB_RESOURCE"
+ms.date: 2/16/2018
+ms.keywords: PEP_ACPI_SPB_RESOURCE, 1 - Consumer/producer mode, *PPEP_ACPI_SPB_RESOURCE, _PEP_ACPI_SPB_RESOURCE, pepfx/PPEP_ACPI_SPB_RESOURCE, kernel.pep_acpi_spb_resource, 0 - Slave mode, pepfx/PEP_ACPI_SPB_RESOURCE, PEP_ACPI_SPB_RESOURCE structure [Kernel-Mode Driver Architecture], 2 to 7 - Reserved, PPEP_ACPI_SPB_RESOURCE, PPEP_ACPI_SPB_RESOURCE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 

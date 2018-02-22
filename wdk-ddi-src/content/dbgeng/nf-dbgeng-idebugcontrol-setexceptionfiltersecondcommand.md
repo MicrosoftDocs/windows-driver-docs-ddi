@@ -4,11 +4,11 @@ title: IDebugControl::SetExceptionFilterSecondCommand method
 author: windows-driver-content
 description: The SetExceptionFilterSecondCommand method sets the command that will be executed by the debugger engine on the second chance of a specified exception.
 old-location: debugger\setexceptionfiltersecondcommand.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: c95fa025-9455-4a8e-99ef-84030255575c
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, SetExceptionFilterSecondCommand, IDebugControl2 interface [Windows Debugging], SetExceptionFilterSecondCommand method, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, debugger.setexceptionfiltersecondcommand, IDebugControl, IDebugControl3 interface [Windows Debugging], SetExceptionFilterSecondCommand method, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, IDebugControl::SetExceptionFilterSecondCommand, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl2::SetExceptionFilterSecondCommand, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], SetExceptionFilterSecondCommand method
+ms.date: 2/15/2018
+ms.keywords: SetExceptionFilterSecondCommand, dbgeng/IDebugControl2::SetExceptionFilterSecondCommand, dbgeng/IDebugControl3::SetExceptionFilterSecondCommand, IDebugControl, dbgeng/IDebugControl::SetExceptionFilterSecondCommand, IDebugControl3 interface [Windows Debugging], SetExceptionFilterSecondCommand method, IDebugControl_39380f22-4c68-40fe-b277-f7eace77bcee.xml, IDebugControl interface [Windows Debugging], SetExceptionFilterSecondCommand method, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl3 interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], SetExceptionFilterSecondCommand method, debugger.setexceptionfiltersecondcommand, IDebugControl::SetExceptionFilterSecondCommand, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2 interface, SetExceptionFilterSecondCommand method [Windows Debugging], IDebugControl2::SetExceptionFilterSecondCommand, IDebugControl3::SetExceptionFilterSecondCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.SetExceptionFilterSecondCommand
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl::SetExceptionFilterSecondCommand method
@@ -119,11 +119,11 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
-
-
-
 <a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546653">GetExceptionFilterSecondCommand</a>
 
 
 
@@ -135,17 +135,17 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetExceptionFilterSecondCommand method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::SetExceptionFilterSecondCommand method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

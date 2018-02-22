@@ -7,8 +7,8 @@ old-location: stream\avc_stream_request_block.htm
 old-project: stream
 ms.assetid: 077fc4ab-94a0-42eb-a0c5-684e447cb038
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PAVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], avcstrm/AVC_STREAM_REQUEST_BLOCK, _AVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK, PAVC_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], avcstrm/PAVC_STREAM_REQUEST_BLOCK, avcsref_1ea2a63f-ba4a-4fc3-834c-0f0a88de5023.xml, stream.avc_stream_request_block, PAVC_STREAM_REQUEST_BLOCK"
+ms.date: 2/20/2018
+ms.keywords: avcstrm/PAVC_STREAM_REQUEST_BLOCK, PAVC_STREAM_REQUEST_BLOCK structure pointer [Streaming Media Devices], avcstrm/AVC_STREAM_REQUEST_BLOCK, AVC_STREAM_REQUEST_BLOCK structure [Streaming Media Devices], avcsref_1ea2a63f-ba4a-4fc3-834c-0f0a88de5023.xml, AVC_STREAM_REQUEST_BLOCK, *PAVC_STREAM_REQUEST_BLOCK, PAVC_STREAM_REQUEST_BLOCK, stream.avc_stream_request_block, _AVC_STREAM_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -176,21 +176,6 @@ Specifies a description of a buffer used to read or write data from/to a specifi
  
 
 
-### -field CommandData.StreamState
-
- 
-
-
-### -field CommandData.OpenStruct
-
- 
-
-
-### -field CommandData.BufferStruct
-
- 
-
-
 ### -field _tagCommandData
 
  
@@ -213,23 +198,11 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
-
-
-
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="..\avcstrm\ne-avcstrm-_avcstrm_function.md">AVCSTRM_FUNCTION</a>
 
 
 
@@ -245,14 +218,6 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 
 
-<a href="..\avcstrm\ns-avcstrm-_avcstrm_open_struct.md">AVCSTRM_OPEN_STRUCT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554107">AVCSTRM_ABORT_STREAMING</a>
 
 
@@ -261,7 +226,27 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
 
 
-<a href="..\avcstrm\ne-avcstrm-_avcstrm_function.md">AVCSTRM_FUNCTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554135">AVCSTRM_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554125">AVCSTRM_OPEN</a>
+
+
+
+<a href="..\avcstrm\ns-avcstrm-_avcstrm_open_struct.md">AVCSTRM_OPEN_STRUCT</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554110">AVCSTRM_CLOSE</a>
 
 
 
@@ -269,5 +254,5 @@ To use this structure, set the IRP's <b>Irp-&gt;Parameters-&gt;Others.Argument1<
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_STREAM_REQUEST_BLOCK structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_STREAM_REQUEST_BLOCK structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

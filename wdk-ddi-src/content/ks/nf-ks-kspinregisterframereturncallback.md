@@ -7,8 +7,8 @@ old-location: stream\kspinregisterframereturncallback.htm
 old-project: stream
 ms.assetid: 480f33e7-6fe6-40a1-9e1b-351378b7e003
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsPinRegisterFrameReturnCallback, avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, ks/KsPinRegisterFrameReturnCallback, stream.kspinregisterframereturncallback, KsPinRegisterFrameReturnCallback function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: KsPinRegisterFrameReturnCallback function [Streaming Media Devices], avfunc_16d1d4cd-f3ae-4cc0-b903-1db1f5b40a6f.xml, ks/KsPinRegisterFrameReturnCallback, KsPinRegisterFrameReturnCallback, stream.kspinregisterframereturncallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ Minidrivers that call this function are directly responsible for injecting frame
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspinframereturn.md">AVStrMiniFrameReturn</a>
+
+
+
+<a href="..\ks\nf-ks-kspinsubmitframemdl.md">KsPinSubmitFrameMdl</a>
 
 
 
@@ -117,5 +117,5 @@ Minidrivers that call this function are directly responsible for injecting frame
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinRegisterFrameReturnCallback function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinRegisterFrameReturnCallback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

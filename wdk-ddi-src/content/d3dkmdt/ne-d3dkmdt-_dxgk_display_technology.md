@@ -7,8 +7,8 @@ old-location: display\dxgk_display_technology.htm
 old-project: display
 ms.assetid: 4612213A-E79F-4C3B-95B4-8C83C0B5FB32
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY, DXGK_DT_OTHER, _DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_OTHER, d3dkmdt/DXGK_DT_OLED, PDXGK_DISPLAY_TECHNOLOGY, DXGK_DT_INVALID, DXGK_DT_LCD, d3dkmdt/DXGK_DT_LCD, d3dkmdt/DXGK_DT_INVALID, DXGK_DT_OLED, *PDXGK_DISPLAY_TECHNOLOGY, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], display.dxgk_display_technology
+ms.date: 2/20/2018
+ms.keywords: DXGK_DISPLAY_TECHNOLOGY, _DXGK_DISPLAY_TECHNOLOGY, d3dkmdt/DXGK_DT_LCD, DXGK_DT_OTHER, DXGK_DISPLAY_TECHNOLOGY enumeration [Display Devices], d3dkmdt/DXGK_DT_OLED, PDXGK_DISPLAY_TECHNOLOGY, DXGK_DT_LCD, d3dkmdt/PDXGK_DISPLAY_TECHNOLOGY, display.dxgk_display_technology, *PDXGK_DISPLAY_TECHNOLOGY, PDXGK_DISPLAY_TECHNOLOGY enumeration pointer [Display Devices], DXGK_DT_INVALID, d3dkmdt/DXGK_DISPLAY_TECHNOLOGY, DXGK_DT_OLED, d3dkmdt/DXGK_DT_OTHER, d3dkmdt/DXGK_DT_INVALID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

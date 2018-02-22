@@ -7,13 +7,13 @@ old-location: audio\sounddetector_patternheader.htm
 old-project: audio
 ms.assetid: 43172627-2A05-44AD-8B39-8FC384F9F44E
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ksmedia/SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], audio.sounddetector_patternheader, SOUNDDETECTOR_PATTERNHEADER
+ms.date: 2/21/2018
+ms.keywords: SOUNDDETECTOR_PATTERNHEADER, SOUNDDETECTOR_PATTERNHEADER structure [Audio Devices], __MIDL___MIDL_itf_keyworddetectoroemadapter_0000_0000_0001, audio.sounddetector_patternheader, ksmedia/SOUNDDETECTOR_PATTERNHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ksmedia.h
-req.include-header: 
+req.include-header: Keyworddetectoroemadapter.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows 10
 req.target-min-winversvr: Windows Server 2016
@@ -88,5 +88,5 @@ The keyword pattern format, expressed as a GUID.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SOUNDDETECTOR_PATTERNHEADER structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SOUNDDETECTOR_PATTERNHEADER structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

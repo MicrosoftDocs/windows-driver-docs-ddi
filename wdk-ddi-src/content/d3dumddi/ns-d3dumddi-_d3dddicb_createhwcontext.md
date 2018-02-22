@@ -7,8 +7,8 @@ old-location: display\d3dddicb_createhwcontext.htm
 old-project: display
 ms.assetid: DA1C3976-0261-4FF1-8E49-EDF93D7BED22
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDICB_CREATEHWCONTEXT, _D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext
+ms.date: 2/20/2018
+ms.keywords: d3dumddi/D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT structure [Display Devices], _D3DDDICB_CREATEHWCONTEXT, D3DDDICB_CREATEHWCONTEXT, display.d3dddicb_createhwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

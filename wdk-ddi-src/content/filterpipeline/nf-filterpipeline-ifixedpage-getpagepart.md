@@ -7,8 +7,8 @@ old-location: print\ifixedpage_getpagepart.htm
 old-project: print
 ms.assetid: 6ec8d282-eedb-419e-84cb-8f4776ea7650
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IFixedPage::GetPagePart, GetPagePart method [Print Devices], filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, filterpipeline/IFixedPage::GetPagePart, GetPagePart method [Print Devices], IFixedPage interface, IFixedPage interface [Print Devices], GetPagePart method, GetPagePart, print.ifixedpage_getpagepart, IFixedPage
+ms.date: 2/21/2018
+ms.keywords: filterpipeline_925ca634-7cac-41f6-b80f-cc5c90154ae0.xml, GetPagePart method [Print Devices], IFixedPage interface, GetPagePart, IFixedPage interface [Print Devices], GetPagePart method, GetPagePart method [Print Devices], IFixedPage::GetPagePart, print.ifixedpage_getpagepart, filterpipeline/IFixedPage::GetPagePart, IFixedPage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

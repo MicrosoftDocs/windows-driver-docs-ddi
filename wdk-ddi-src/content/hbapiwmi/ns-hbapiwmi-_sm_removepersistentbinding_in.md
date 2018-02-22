@@ -7,8 +7,8 @@ old-location: storage\sm_removepersistentbinding_in.htm
 old-project: storage
 ms.assetid: 47e6a189-4b16-411a-8552-3e6f998516ba
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.sm_removepersistentbinding_in, structs-Fibre_d27cd5dc-07ee-470c-ad0d-239f1d378841.xml, PSM_RemovePersistentBinding_IN, hbapiwmi/SM_RemovePersistentBinding_IN, _SM_RemovePersistentBinding_IN, SM_RemovePersistentBinding_IN structure [Storage Devices], hbapiwmi/PSM_RemovePersistentBinding_IN, PSM_RemovePersistentBinding_IN structure pointer [Storage Devices], *PSM_RemovePersistentBinding_IN, SM_RemovePersistentBinding_IN
+ms.date: 2/16/2018
+ms.keywords: storage.sm_removepersistentbinding_in, *PSM_RemovePersistentBinding_IN, SM_RemovePersistentBinding_IN, structs-Fibre_d27cd5dc-07ee-470c-ad0d-239f1d378841.xml, SM_RemovePersistentBinding_IN structure [Storage Devices], PSM_RemovePersistentBinding_IN structure pointer [Storage Devices], PSM_RemovePersistentBinding_IN, hbapiwmi/PSM_RemovePersistentBinding_IN, _SM_RemovePersistentBinding_IN, hbapiwmi/SM_RemovePersistentBinding_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_RemovePersistentBinding_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_RemovePersistentBinding_IN, *PSM_RemovePersistentBinding_IN
+req.typenames: "*PSM_RemovePersistentBinding_IN, SM_RemovePersistentBinding_IN"
 ---
 
 # _SM_RemovePersistentBinding_IN structure

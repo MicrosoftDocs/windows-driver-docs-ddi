@@ -7,7 +7,7 @@ old-location: nfpdrivers\ioctl_nfcse_enum_endpoints.htm
 old-project: nfpdrivers
 ms.assetid: BDE62A2B-423E-4656-91CC-5EBDE50C6BB0
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
+ms.date: 2/15/2018
 ms.keywords: nfpdrivers.ioctl_nfcse_enum_endpoints, IOCTL_NFCSE_ENUM_ENDPOINTS, _IOCTL_NFCSE_ENUM_ENDPOINTS, IOCTL_NFCSE_ENUM_ENDPOINTS control code [Near-Field Proximity Drivers], IOCTL_NFCSE_ENUM_ENDPOINTS, nfcsedev/IOCTL_NFCSE_ENUM_ENDPOINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSE_ENUM_ENDPOINTS
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: "*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE"
 ---
 
 # IOCTL_NFCSE_ENUM_ENDPOINTS IOCTL

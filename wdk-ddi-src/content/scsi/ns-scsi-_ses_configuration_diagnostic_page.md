@@ -7,8 +7,8 @@ old-location: storage\ses_configuration_diagnostic_page.htm
 old-project: storage
 ms.assetid: 0FD748D6-F598-44D1-A8D3-E63764CB90C6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE, storage.ses_configuration_diagnostic_page, scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, _SES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE
+ms.date: 2/16/2018
+ms.keywords: SES_CONFIGURATION_DIAGNOSTIC_PAGE structure [Storage Devices], SES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE structure pointer [Storage Devices], storage.ses_configuration_diagnostic_page, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE, PSES_CONFIGURATION_DIAGNOSTIC_PAGE, _SES_CONFIGURATION_DIAGNOSTIC_PAGE, scsi/SES_CONFIGURATION_DIAGNOSTIC_PAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SES_CONFIGURATION_DIAGNOSTIC_PAGE
 product: Windows
 targetos: Windows
-req.typenames: "*PSES_CONFIGURATION_DIAGNOSTIC_PAGE, SES_CONFIGURATION_DIAGNOSTIC_PAGE"
+req.typenames: SES_CONFIGURATION_DIAGNOSTIC_PAGE, *PSES_CONFIGURATION_DIAGNOSTIC_PAGE
 req.product: Windows 10 or later.
 ---
 

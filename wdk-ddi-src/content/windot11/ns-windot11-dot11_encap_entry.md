@@ -7,8 +7,8 @@ old-location: netvista\dot11_encap_entry.htm
 old-project: netvista
 ms.assetid: d17547c5-47a3-4d10-b27f-6a3bbf7aad03
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml, windot11/DOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY, netvista.dot11_encap_entry"
+ms.date: 2/16/2018
+ms.keywords: PDOT11_ENCAP_ENTRY, windot11/PDOT11_ENCAP_ENTRY, PDOT11_ENCAP_ENTRY structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ENCAP_ENTRY, netvista.dot11_encap_entry, windot11/DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_3304c37a-c08f-488e-a75d-d31d59a4a491.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ENCAP_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: DOT11_ENCAP_ENTRY, *PDOT11_ENCAP_ENTRY
+req.typenames: "*PDOT11_ENCAP_ENTRY, DOT11_ENCAP_ENTRY"
 req.product: Windows 10 or later.
 ---
 
@@ -125,19 +125,19 @@ For more information about 802.11 packet payload encapsulation, see
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
-   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
 
 
 
- 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-association-completion">
+   NDIS_STATUS_DOT11_ASSOCIATION_COMPLETION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ENCAP_ENTRY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ENCAP_ENTRY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: bltooth\_brb_sco_register_server.htm
 old-project: bltooth
 ms.assetid: c7d7a70d-f84b-4937-ac7b-297016d01d42
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_SCO_REGISTER_SERVER, _BRB_SCO_REGISTER_SERVER, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml, bltooth._brb_sco_register_server, _BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices]
+ms.date: 2/15/2018
+ms.keywords: "_BRB_SCO_REGISTER_SERVER structure [Bluetooth Devices], _BRB_SCO_REGISTER_SERVER, bltooth._brb_sco_register_server, bthddi/_BRB_SCO_REGISTER_SERVER, bth_structs_332b94af-3e05-4adb-9e89-4933e119df51.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -207,11 +207,11 @@ To stop receiving remote connection notifications, a profile driver should
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536630">BRB_SCO_UNREGISTER_SERVER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
 
 
 
@@ -223,7 +223,7 @@ To stop receiving remote connection notifications, a profile driver should
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536628">BRB_SCO_REGISTER_SERVER</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -235,5 +235,5 @@ To stop receiving remote connection notifications, a profile driver should
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_SCO_REGISTER_SERVER structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_SCO_REGISTER_SERVER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

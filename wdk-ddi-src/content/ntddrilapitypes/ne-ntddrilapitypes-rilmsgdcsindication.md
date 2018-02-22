@@ -7,8 +7,8 @@ old-location: netvista\rilmsgdcsindication.htm
 old-project: netvista
 ms.assetid: 709980c8-e13f-48a7-9af7-26f0bb79e699
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgdcsindication, ntddrilapitypes/RILMSGDCSINDICATION, RIL_DCSINDICATION_OTHER, RIL_DCSINDICATION_FAX, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RILMSGDCSINDICATION, ntddrilapitypes/RIL_DCSINDICATION_OTHER, RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_FAX
+ms.date: 2/16/2018
+ms.keywords: netvista.rilmsgdcsindication, RILMSGDCSINDICATION, ntddrilapitypes/RILMSGDCSINDICATION, RIL_DCSINDICATION_FAX, RILMSGDCSINDICATION enumeration [Network Drivers Starting with Windows Vista], RIL_DCSINDICATION_OTHER, RIL_DCSINDICATION_MAX, ntddrilapitypes/RIL_DCSINDICATION_FAX, ntddrilapitypes/RIL_DCSINDICATION_OTHER, ntddrilapitypes/RIL_DCSINDICATION_MAX, RIL_DCSINDICATION_EMAIL, ntddrilapitypes/RIL_DCSINDICATION_EMAIL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

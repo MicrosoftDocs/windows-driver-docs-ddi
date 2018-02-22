@@ -7,8 +7,8 @@ old-location: wdf\wdf_pnp_capability.htm
 old-project: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfPnpCapLockSupported, wudfddi_types/WDF_PNP_CAPABILITY, _WDF_PNP_CAPABILITY, WdfPnpCapInvalid, WdfPnpCapMaximum, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, WDF_PNP_CAPABILITY, WDF_PNP_CAPABILITY enumeration, WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapSurpriseRemovalOk, WdfPnpCapEjectSupported, wudfddi_types/WdfPnpCapDockDevice, WdfPnpCapRemovable, wudfddi_types/WdfPnpCapInvalid, WdfPnpCapNoDisplayInUI, WdfPnpCapDockDevice, wdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapMaximum, umdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapRemovable, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapEjectSupported
+ms.date: 2/20/2018
+ms.keywords: WdfPnpCapMaximum, wudfddi_types/WdfPnpCapRemovable, WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapEjectSupported, WdfPnpCapNoDisplayInUI, WdfPnpCapEjectSupported, WdfPnpCapRemovable, wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WDF_PNP_CAPABILITY, wdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapLockSupported, WdfPnpCapDockDevice, WDF_PNP_CAPABILITY enumeration, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapMaximum, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, WdfPnpCapInvalid, _WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapSurpriseRemovalOk, WdfPnpCapLockSupported, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -128,17 +128,17 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PNP_CAPABILITY enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PNP_CAPABILITY enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

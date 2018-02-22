@@ -7,8 +7,8 @@ old-location: audio\iminiportwavepcistream_getposition.htm
 old-project: audio
 ms.assetid: 61575632-62f8-47d3-9249-5f5416191dfa
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: GetPosition, GetPosition method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, IMiniportWavePciStream, GetPosition method [Audio Devices], IMiniportWavePciStream::GetPosition, IMiniportWavePciStream interface [Audio Devices], GetPosition method, portcls/IMiniportWavePciStream::GetPosition, audio.iminiportwavepcistream_getposition
+ms.date: 2/21/2018
+ms.keywords: IMiniportWavePciStream::GetPosition, audio.iminiportwavepcistream_getposition, GetPosition method [Audio Devices], GetPosition, audmp-routines_32855554-86ce-4549-af40-700b7b8fcaad.xml, IMiniportWavePciStream, portcls/IMiniportWavePciStream::GetPosition, GetPosition method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream interface [Audio Devices], GetPosition method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWavePciStream.GetPosition
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWavePciStream::GetPosition method
@@ -132,5 +132,5 @@ The WavePci port driver implements a property handler for <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::GetPosition method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::GetPosition method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

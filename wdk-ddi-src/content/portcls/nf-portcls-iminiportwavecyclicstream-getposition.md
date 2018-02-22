@@ -7,8 +7,8 @@ old-location: audio\iminiportwavecyclicstream_getposition.htm
 old-project: audio
 ms.assetid: a0d59215-5201-4e1a-9cb2-d9ff6109c3bb
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: GetPosition, IMiniportWaveCyclicStream, GetPosition method [Audio Devices], GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface, portcls/IMiniportWaveCyclicStream::GetPosition, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, IMiniportWaveCyclicStream interface [Audio Devices], GetPosition method, audio.iminiportwavecyclicstream_getposition, IMiniportWaveCyclicStream::GetPosition
+ms.date: 2/21/2018
+ms.keywords: audio.iminiportwavecyclicstream_getposition, portcls/IMiniportWaveCyclicStream::GetPosition, IMiniportWaveCyclicStream, GetPosition method [Audio Devices], GetPosition, IMiniportWaveCyclicStream::GetPosition, GetPosition method [Audio Devices], IMiniportWaveCyclicStream interface, audmp-routines_016da0e2-bc56-4c06-9755-a13b75d6c5c9.xml, IMiniportWaveCyclicStream interface [Audio Devices], GetPosition method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveCyclicStream.GetPosition
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveCyclicStream::GetPosition method
@@ -116,6 +116,10 @@ The WaveCyclic port driver implements a property handler for <a href="https://ms
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+
+
+
 <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
@@ -124,13 +128,9 @@ The WaveCyclic port driver implements a property handler for <a href="https://ms
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::GetPosition method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveCyclicStream::GetPosition method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

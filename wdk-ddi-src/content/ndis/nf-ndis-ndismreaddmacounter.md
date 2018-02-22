@@ -7,8 +7,8 @@ old-location: netvista\ndismreaddmacounter.htm
 old-project: netvista
 ms.assetid: bfce0f28-4cca-48a2-8836-2f77f4b6370a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisMReadDmaCounter, dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, NdisMReadDmaCounter, netvista.ndismreaddmacounter, NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisMReadDmaCounter function [Network Drivers Starting with Windows Vista], netvista.ndismreaddmacounter, ndis/NdisMReadDmaCounter, dma_ref_12d2675f-d576-4a5d-9af0-42dfd63fd1da.xml, NdisMReadDmaCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,5 +106,5 @@ Miniport drivers of devices that use the system DMA controller's auto-initialize
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMReadDmaCounter function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMReadDmaCounter function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

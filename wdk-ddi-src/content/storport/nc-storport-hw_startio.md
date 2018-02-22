@@ -7,7 +7,7 @@ old-location: storage\hwstorstartio.htm
 old-project: storage
 ms.assetid: 73085ca7-a442-4c16-b1e3-6de048e7f1f7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.hwstorstartio, HwStorStartIo routine [Storage Devices], HwStorStartIo, HW_STARTIO, HW_STARTIO, storport/HwStorStartIo, stormini_8f910467-49f3-4f15-919d-84edee8ad053.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,16 +85,20 @@ A pointer to the SCSI request block to be started.
 ## -returns
 
 
+
 <b>HwStorStartIo</b> returns <b>TRUE</b> if the request was successfully initiated. Otherwise, it returns <b>FALSE</b>. 
+
 
 
 
 ## -remarks
 
 
+
 <b>HwStorStartIo</b> initiates an I/O operation. StorPort is designed to use miniport private data that is prepared in <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> and stored in either the <i>DeviceExtension</i> or <i>Srb-&gt;SrbExtension</i>.  Because <b>HwStorBuildIo</b> is called without spin locks, the best driver performance is achieved by preparing as much data  as possible in <b>HwStorBuildIo</b>.
 
 Storport calls <b>HwStorStartIo</b> in the following ways:
+
 <ul>
 <li>
 For <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/storage/overview-of-storage-virtual-miniport-drivers">storage non-virtual miniport drivers</a>, depending on the value of <b>SynchronizationModel</b> set in <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>, Storport always calls <b>HwStorStartIo</b> the same IRQL and uses an internal spin lock to ensure that I/O requests are initiated sequentially.  The IRQL is either DISPATCH_LEVEL (full-duplex mode) or DIRQL (half-duplex mode).
@@ -108,7 +112,9 @@ If a non-virtual miniport supports the concurrent channels optimization (STOR_PE
 For <a href="https://msdn.microsoft.com/971558ae-96a3-43a5-94bd-4883bb9feb58">storage virtual miniport drivers</a>, Storport calls <b>HwStorStartIo</b> at any IRQL &lt;= DISPATCH_LEVEL and does not use an internal spin lock. The <b>HwStorStartIo</b> routine may acquire its own spin lock by calling <a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>. Also, calls to <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>  are allowed in the <b>HwStorStartIo</b> routine of a storage virtual miniport driver.
 
 </li>
-</ul>The SRB is expected to be completed when SCSI status is received. When the Storport driver completes the SRB by calling <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> with a <i>NotificationType</i> of <a href="https://msdn.microsoft.com/abceaf2c-3512-409c-9274-096eab810ab2">RequestComplete</a>, an SRB is expected to return one of the following values in the <b>SrbStatus</b> field of the Srb:
+</ul>
+The SRB is expected to be completed when SCSI status is received. When the Storport driver completes the SRB by calling <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> with a <i>NotificationType</i> of <a href="https://msdn.microsoft.com/abceaf2c-3512-409c-9274-096eab810ab2">RequestComplete</a>, an SRB is expected to return one of the following values in the <b>SrbStatus</b> field of the Srb:
+
 <table>
 <tr>
 <th>Status</th>
@@ -152,9 +158,11 @@ Because a new SRB is issued, the miniport must make sure that it never issues SR
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The name <b>HwStorStartIo</b> is a placeholder to describe the miniport routine set in the <b>HwStartIo</b> member of <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a> structure. This structure is passed in the <i>HwInitializationData</i> parameter of <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>. The actual prototype of this routine is defined in Storport.h as follows:
+
 <div class="code"><span codelanguage=""><table>
 <tr>
 <th></th>
@@ -169,7 +177,49 @@ BOOLEAN
   );</pre>
 </td>
 </tr>
-</table></span></div>Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+</table></span></div>
+Starting in Windows 8, the <i>Srb</i> parameter may point to either <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> or <a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>. If the function identifier in the <b>Function</b> field of <i>Srb</i> is <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b>, the SRB is a <b>STORAGE_REQUEST_BLOCK</b> request structure.
+
+
+#### Examples
+
+To define a <b>HwStorStartIo</b> callback routine, you must first provide a function declaration that <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV) and other verification tools require, as shown in the following code example:
+
+To define an <b>HwStorStartIo</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
+
+ For example, to define a <b>HwStorStartIo</b> callback routine that is named <i>MyHwStartIo</i>, use the <b>HW_STARTIO</b> type as shown in this code example:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>HW_STARTIO MyHwStartIo;</pre>
+</td>
+</tr>
+</table></span></div>
+Then, implement your callback routine as follows:
+
+<div class="code"><span codelanguage=""><table>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN
+MyHwStartIo (
+  _In_ PVOID  DeviceExtension,
+  _In_ PSCSI_REQUEST_BLOCK  Srb
+  );
+  {
+      ...
+  }</pre>
+</td>
+</tr>
+</table></span></div>
+The <b>HW_STARTIO</b> function type is defined in the Storport.h header file. To more accurately identify errors when you run the code analysis tools, be sure to add the _Use_decl_annotations_ annotation to your function definition. The _Use_decl_annotations_ annotation ensures that the annotations that are applied to the <b>HW_STARTIO</b> function type in the header file are used. For more information about the requirements for function declarations, see <a href="https://msdn.microsoft.com/40BD11CD-A559-4F90-BF39-4ED2FB800392">Declaring Functions Using Function Role Types for Storport Drivers</a>. For information about _Use_decl_annotations_, see <a href="https://msdn.microsoft.com/en-us/library/jj159529.aspx">Annotating Function Behavior</a>.
+
 
 
 
@@ -177,15 +227,23 @@ BOOLEAN
 
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
-<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
 
 <a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
- 
+
+
+<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_STARTIO routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HW_STARTIO routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

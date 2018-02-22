@@ -7,8 +7,8 @@ old-location: bltooth\sco_link_type.htm
 old-project: bltooth
 ms.assetid: 6867a88d-6bce-46eb-894a-cc034a1c3ece
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/ScoLinkType, bltooth.sco_link_type, eScoLinkType, *PSCO_LINK_TYPE, ScoLinkType, bthddi/PSCO_LINK_TYPE, PSCO_LINK_TYPE, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, _SCO_LINK_TYPE, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], bthddi/eScoLinkType, bthddi/SCO_LINK_TYPE, SCO_LINK_TYPE enumeration [Bluetooth Devices], SCO_LINK_TYPE
+ms.date: 2/15/2018
+ms.keywords: bthddi/PSCO_LINK_TYPE, ScoLinkType, SCO_LINK_TYPE enumeration [Bluetooth Devices], bthddi/ScoLinkType, SCO_LINK_TYPE, PSCO_LINK_TYPE, bth_enums_c5b9357f-7046-4115-a8a7-add459e59f27.xml, eScoLinkType, bltooth.sco_link_type, PSCO_LINK_TYPE enumeration pointer [Bluetooth Devices], *PSCO_LINK_TYPE, _SCO_LINK_TYPE, bthddi/SCO_LINK_TYPE, bthddi/eScoLinkType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SCO_LINK_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PSCO_LINK_TYPE, SCO_LINK_TYPE"
+req.typenames: SCO_LINK_TYPE, *PSCO_LINK_TYPE
 ---
 
 # _SCO_LINK_TYPE enumeration
@@ -100,5 +100,5 @@ The
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_LINK_TYPE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_LINK_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

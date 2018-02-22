@@ -4,11 +4,11 @@ title: IDebugSymbols3::RemoveSyntheticSymbol method
 author: windows-driver-content
 description: The RemoveSyntheticSymbol method removes a synthetic symbol from a module in the current process.
 old-location: debugger\removesyntheticsymbol.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 07825be3-84a1-4aab-a9f0-22a45f636a04
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, IDebugSymbols3::RemoveSyntheticSymbol, RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticSymbol, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticSymbol method, debugger.removesyntheticsymbol, RemoveSyntheticSymbol method [Windows Debugging], dbgeng/IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols3
+ms.date: 2/15/2018
+ms.keywords: RemoveSyntheticSymbol method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticSymbol method [Windows Debugging], debugger.removesyntheticsymbol, dbgeng/IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols3::RemoveSyntheticSymbol, IDebugSymbols3, RemoveSyntheticSymbol, IDebugSymbols_dc1ccbc7-17e4-4424-8a3d-fbb7f16d3c3b.xml, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticSymbol method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.RemoveSyntheticSymbol
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::RemoveSyntheticSymbol method
@@ -128,17 +128,17 @@ For more information about synthetic symbols, see Synthetic Symbols.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537943">AddSyntheticSymbol</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554536">RemoveSyntheticModule</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::RemoveSyntheticSymbol method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols3::RemoveSyntheticSymbol method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

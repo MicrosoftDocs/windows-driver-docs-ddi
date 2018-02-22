@@ -7,8 +7,8 @@ old-location: netvista\rilcallhandoverstateparammask_2.htm
 old-project: netvista
 ms.assetid: a9a5c8dc-8ffa-4142-879c-3a782b45dbff
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_HANDOVER_NEW_TYPE, rilapitypes/RIL_PARAM_HANDOVER_3GPPCAUSE, RIL_PARAM_HANDOVER_3GPPCAUSE, RIL_PARAM_HANDOVER_OLD_TYPE, netvista.rilcallhandoverstateparammask_2, RIL_PARAM_HANDOVER_ALL, rilapitypes/RIL_PARAM_HANDOVER_OLD_TYPE, rilapitypes/RIL_PARAM_HANDOVER_ALL, RIL_PARAM_HANDOVER_NEW_TYPE, rilapitypes/RILCALLHANDOVERSTATEPARAMMASK, RILCALLHANDOVERSTATEPARAMMASK, RILCALLHANDOVERSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RIL_PARAM_HANDOVER_ALL, RILCALLHANDOVERSTATEPARAMMASK, netvista.rilcallhandoverstateparammask_2, RILCALLHANDOVERSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLHANDOVERSTATEPARAMMASK, rilapitypes/RIL_PARAM_HANDOVER_ALL, RIL_PARAM_HANDOVER_3GPPCAUSE, rilapitypes/RIL_PARAM_HANDOVER_NEW_TYPE, rilapitypes/RIL_PARAM_HANDOVER_3GPPCAUSE, RIL_PARAM_HANDOVER_NEW_TYPE, RIL_PARAM_HANDOVER_OLD_TYPE, rilapitypes/RIL_PARAM_HANDOVER_OLD_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

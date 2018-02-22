@@ -7,8 +7,8 @@ old-location: kernel\subsystem_information_type.htm
 old-project: kernel
 ms.assetid: B1E334BF-AAB3-410D-8D10-A750E8459E42
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "_SUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/SubsystemInformationTypeWSL, SubsystemInformationTypeWin32, ntddk/MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, MaxSubsystemInformationType, ntddk/SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE, ntddk/SubsystemInformationTypeWin32, kernel.subsystem_information_type, SubsystemInformationTypeWSL"
+ms.date: 2/16/2018
+ms.keywords: ntddk/SUBSYSTEM_INFORMATION_TYPE, _SUBSYSTEM_INFORMATION_TYPE, SubsystemInformationTypeWSL, kernel.subsystem_information_type, SubsystemInformationTypeWin32, MaxSubsystemInformationType, ntddk/SubsystemInformationTypeWSL, ntddk/MaxSubsystemInformationType, SUBSYSTEM_INFORMATION_TYPE, *PSUBSYSTEM_INFORMATION_TYPE, SUBSYSTEM_INFORMATION_TYPE enumeration [Kernel-Mode Driver Architecture], ntddk/SubsystemInformationTypeWin32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -105,5 +105,5 @@ Reserved.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SUBSYSTEM_INFORMATION_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SUBSYSTEM_INFORMATION_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

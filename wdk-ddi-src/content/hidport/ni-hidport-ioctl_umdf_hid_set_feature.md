@@ -7,7 +7,7 @@ old-location: hid\ioctl_umdf_hid_set_feature.htm
 old-project: hid
 ms.assetid: 7FFE7301-1C03-4221-9E3B-412FE89919FB
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.ioctl_umdf_hid_set_feature, IOCTL_UMDF_HID_SET_FEATURE control code, IOCTL_UMDF_HID_SET_FEATURE, hidport/IOCTL_UMDF_HID_SET_FEATURE, umdf.ioctl_umdf_hid_set_feature
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_UMDF_HID_SET_FEATURE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
+req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
 
 # IOCTL_UMDF_HID_SET_FEATURE IOCTL
@@ -129,17 +129,17 @@ HID minidrivers that carry out the I/O to the device must also:
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439657">IOCTL_UMDF_HID_GET_FEATURE</a>
 
 
 
- 
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\wdf]:%20IOCTL_UMDF_HID_SET_FEATURE control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\wdf]:%20IOCTL_UMDF_HID_SET_FEATURE control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

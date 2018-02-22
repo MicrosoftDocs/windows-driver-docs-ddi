@@ -7,8 +7,8 @@ old-location: netvista\ndiscopysendnetbufferlistinfo.htm
 old-project: netvista
 ms.assetid: 9c8227ea-53e4-47c9-ab74-84e42b0cbbe5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndiscopysendnetbufferlistinfo, NdisCopySendNetBufferListInfo, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, ndis/NdisCopySendNetBufferListInfo
+ms.date: 2/16/2018
+ms.keywords: NdisCopySendNetBufferListInfo, ndis/NdisCopySendNetBufferListInfo, ndis_netbuf_functions_ref_6bea2e25-d488-4bf2-879b-1ace04c66b68.xml, NdisCopySendNetBufferListInfo function [Network Drivers Starting with Windows Vista], netvista.ndiscopysendnetbufferlistinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,10 +165,6 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndiscopyreceivenetbufferlistinfo.md">
    NdisCopyReceiveNetBufferListInfo</a>
 
@@ -178,9 +174,13 @@ The following <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a> 
 
 
 
- 
+<a href="https://msdn.microsoft.com/f7f19e48-cb63-458d-b175-6f99080e4cdf">NET_BUFFER_LIST Structure</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCopySendNetBufferListInfo function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisCopySendNetBufferListInfo function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

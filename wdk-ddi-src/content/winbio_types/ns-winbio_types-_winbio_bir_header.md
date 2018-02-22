@@ -7,8 +7,8 @@ old-location: biometric\winbio_bir_header.htm
 old-project: biometric
 ms.assetid: 5053b027-61a9-463a-967c-9e9ff1673b1c
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PWINBIO_BIR_HEADER structure pointer [Biometric Devices], biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, biometric.winbio_bir_header, WINBIO_BIR_HEADER, winbio_types/PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], *PWINBIO_BIR_HEADER, winbio_types/WINBIO_BIR_HEADER, _WINBIO_BIR_HEADER
+ms.date: 2/20/2018
+ms.keywords: "_WINBIO_BIR_HEADER, winbio_types/PWINBIO_BIR_HEADER, WINBIO_BIR_HEADER structure [Biometric Devices], *PWINBIO_BIR_HEADER, PWINBIO_BIR_HEADER, WINBIO_BIR_HEADER, biometric_ref_1e5e4af7-36a5-414b-8c26-7a266c38272c.xml, PWINBIO_BIR_HEADER structure pointer [Biometric Devices], biometric.winbio_bir_header, winbio_types/WINBIO_BIR_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -158,16 +158,6 @@ Specifies the creation date and time of this BIR in UTC by using the format YYYY
 Specifies the validity period of this BIR by using the format described in <i>CreationDate</i>.
 
 
-### -field ValidityPeriod.BeginDate
-
- 
-
-
-### -field ValidityPeriod.EndDate
-
- 
-
-
 ### -field BiometricDataFormat
 
 A structure of type <a href="..\winbio_types\ns-winbio_types-_winbio_registered_format.md">WINBIO_REGISTERED_FORMAT</a> that specifies the data format of the <b>StandardDataBlock</b> for this <a href="..\winbio_types\ns-winbio_types-_winbio_bir.md">WINBIO_BIR</a>.
@@ -201,5 +191,5 @@ You can find more information about the fields of the standard biometric header 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR_HEADER structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_BIR_HEADER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

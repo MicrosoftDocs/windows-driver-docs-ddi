@@ -7,8 +7,8 @@ old-location: stream\ksidentifier.htm
 old-project: stream
 ms.assetid: b89977da-d3ac-4f1f-867e-b3b7912b955d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PKSPIN_MEDIUM, KSPROPERTY, KSPIN_MEDIUM, *PKSPROPERTY, KSDEGRADE, KSIDENTIFIER structure [Streaming Media Devices], *PKSDEGRADE, PKSIDENTIFIER structure pointer [Streaming Media Devices], *PKSMETHOD, stream.ksidentifier, *PKSEVENT, *PKSPIN_INTERFACE, ks/KSIDENTIFIER, PKSIDENTIFIER, KSPIN_INTERFACE, ks/PKSIDENTIFIER, *PKSIDENTIFIER, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, KSEVENT, KSIDENTIFIER, KSMETHOD"
+ms.date: 2/20/2018
+ms.keywords: KSDEGRADE, KSPIN_MEDIUM, *PKSDEGRADE, KSIDENTIFIER structure [Streaming Media Devices], *PKSIDENTIFIER, ks/KSIDENTIFIER, stream.ksidentifier, *PKSPROPERTY, KSEVENT, KSPROPERTY, ks/PKSIDENTIFIER, ks-struct_652a0465-0c2b-4e46-ac43-7a6c5bbdaf80.xml, KSPIN_INTERFACE, PKSIDENTIFIER, *PKSPIN_INTERFACE, *PKSEVENT, KSMETHOD, *PKSPIN_MEDIUM, KSIDENTIFIER, *PKSMETHOD, PKSIDENTIFIER structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,7 +109,7 @@ Specifies the set-specific identifier for an item within the set.
 Specifies values used for various set types, such as properties and methods. Zero when not used.
 
 
-### -field Alignment
+#### - Alignment
 
 Not used.  A member of an unnamed union used to force proper alignment on the unnamed structure.
 
@@ -129,10 +129,6 @@ The use of an ID within the set allows one to perform a single large compare for
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
-
-
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
@@ -141,9 +137,13 @@ The use of an ID within the set allows one to perform a single large compare for
 
 
 
- 
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSIDENTIFIER structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSIDENTIFIER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

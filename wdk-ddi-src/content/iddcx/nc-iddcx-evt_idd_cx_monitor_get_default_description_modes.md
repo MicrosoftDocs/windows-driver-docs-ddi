@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_get_default_description_modes.htm
 old-project: display
 ms.assetid: 2ad45cfe-f65c-41bc-8c64-5334dbf7c755
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.evt_idd_cx_monitor_get_default_description_modes, EvtIddCxMonitorGetDefaultDescriptionModes callback function [Display Devices], EvtIddCxMonitorGetDefaultDescriptionModes, EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, EVT_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES, iddcx/EvtIddCxMonitorGetDefaultDescriptionModes, PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_GET_DEFAULT_DESCRIPTION_MODES
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: ifsk\iofastquerynetworkattributes.htm
 old-project: ifsk
 ms.assetid: 69a3e9c2-8bd5-4f42-9de9-58f1eea8b9a2
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: IoFastQueryNetworkAttributes function [Installable File System Drivers], ifsk.iofastquerynetworkattributes, IoFastQueryNetworkAttributes, ioref_c2d35e20-00b0-48e3-9c0e-d13f5dd9b7f7.xml, ntifs/IoFastQueryNetworkAttributes
+ms.date: 2/16/2018
+ms.keywords: ntifs/IoFastQueryNetworkAttributes, IoFastQueryNetworkAttributes, ifsk.iofastquerynetworkattributes, ioref_c2d35e20-00b0-48e3-9c0e-d13f5dd9b7f7.xml, IoFastQueryNetworkAttributes function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

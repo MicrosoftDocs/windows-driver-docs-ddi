@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetdevice_setpowerpolicy.htm
 old-project: wdf
 ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFUsbTargetDevice::SetPowerPolicy, IWDFUsbTargetDevice interface, SetPowerPolicy method, SetPowerPolicy, IWDFUsbTargetDevice, wdf.iwdfusbtargetdevice_setpowerpolicy, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy, umdf.iwdfusbtargetdevice_setpowerpolicy, SetPowerPolicy method, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, SetPowerPolicy method, IWDFUsbTargetDevice interface
+ms.date: 2/20/2018
+ms.keywords: SetPowerPolicy method, SetPowerPolicy method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, umdf.iwdfusbtargetdevice_setpowerpolicy, IWDFUsbTargetDevice::SetPowerPolicy, IWDFUsbTargetDevice, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, IWDFUsbTargetDevice interface, SetPowerPolicy method, wdf.iwdfusbtargetdevice_setpowerpolicy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,7 +156,7 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560379">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
 
 
 
@@ -164,7 +164,7 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560379">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
 
 
 
@@ -172,5 +172,5 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetDevice::SetPowerPolicy method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetDevice::SetPowerPolicy method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_i2c_transmit.htm
 old-project: display
 ms.assetid: d36d45f5-fae1-430a-a01e-adb70e09573c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.evt_idd_cx_monitor_i2c_transmit, EvtIddCxMonitorI2cTransmit callback function [Display Devices], EvtIddCxMonitorI2cTransmit, EVT_IDD_CX_MONITOR_I2C_TRANSMIT, EVT_IDD_CX_MONITOR_I2C_TRANSMIT, iddcx/EvtIddCxMonitorI2cTransmit, PFN_IDD_CX_MONITOR_I2C_TRANSMIT callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_I2C_TRANSMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices

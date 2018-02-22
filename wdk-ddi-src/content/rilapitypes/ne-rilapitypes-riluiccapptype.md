@@ -7,13 +7,13 @@ old-location: netvista\riluiccapptype.htm
 old-project: netvista
 ms.assetid: cba1fcc3-74d0-44b7-b480-3e7d754f9efe
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_USIM, RIL_UICCAPPTYPE_MF_RUIM, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_UICCAPPTYPE_USIM, RIL_UICCAPPTYPE_CSIM, rilapitypes/RILUICCAPPTYPE, RILUICCAPPTYPE, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_MF, RIL_UICCAPPTYPE_ISIM, netvista.riluiccapptype, RIL_UICCAPPTYPE_UNKNOWN, rilapitypes/RIL_UICCAPPTYPE_ISIM, RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM
+ms.date: 2/16/2018
+ms.keywords: RILUICCAPPTYPE, RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_USIM, rilapitypes/RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_MF, rilapitypes/RILUICCAPPTYPE, RILUICCAPPTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccapptype, RIL_UICCAPPTYPE_MF_SIM, rilapitypes/RIL_UICCAPPTYPE_MF_SIM, RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_ISIM, rilapitypes/RIL_UICCAPPTYPE_UNKNOWN, RIL_UICCAPPTYPE_MF, rilapitypes/RIL_UICCAPPTYPE_MF_RUIM, RIL_UICCAPPTYPE_CSIM, rilapitypes/RIL_UICCAPPTYPE_USIM, rilapitypes/RIL_UICCAPPTYPE_CSIM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -468,5 +468,5 @@ No
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUICCAPPTYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUICCAPPTYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

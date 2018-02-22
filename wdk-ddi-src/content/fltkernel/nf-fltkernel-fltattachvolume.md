@@ -7,8 +7,8 @@ old-location: ifsk\fltattachvolume.htm
 old-project: ifsk
 ms.assetid: da85c8d6-a74c-4a87-88b3-fb6dc01dd0f9
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, ifsk.fltattachvolume, FltAttachVolume function [Installable File System Drivers], fltkernel/FltAttachVolume, FltAttachVolume
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_a_to_d_f4ac8b0d-55c2-45b1-8f3b-3a09bee7bb23.xml, FltAttachVolume function [Installable File System Drivers], ifsk.fltattachvolume, FltAttachVolume, fltkernel/FltAttachVolume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,6 +188,18 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
 
 
@@ -196,7 +208,7 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
 
 
 
@@ -204,21 +216,9 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolume function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolume function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

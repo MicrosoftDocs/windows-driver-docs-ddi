@@ -7,8 +7,8 @@ old-location: kernel\iodisconnectinterrupt.htm
 old-project: kernel
 ms.assetid: 06130ec3-7031-4c40-932a-7342c26b7e15
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_6ed94efc-9513-4ad3-87d0-cec41e912876.xml, kernel.iodisconnectinterrupt, IoDisconnectInterrupt, wdm/IoDisconnectInterrupt, IoDisconnectInterrupt routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: kernel.iodisconnectinterrupt, IoDisconnectInterrupt, IoDisconnectInterrupt routine [Kernel-Mode Driver Architecture], wdm/IoDisconnectInterrupt, k104_6ed94efc-9513-4ad3-87d0-cec41e912876.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,10 +99,6 @@ If the driver stored the pointer to its interrupt object(s) in the device extens
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554237">KINTERRUPT</a>
 
 
@@ -111,9 +107,13 @@ If the driver stored the pointer to its interrupt object(s) in the device extens
 
 
 
- 
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoDisconnectInterrupt routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoDisconnectInterrupt routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

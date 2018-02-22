@@ -7,7 +7,7 @@ old-location: display\pfnd3dwddm2_2ddi_shadercache_store_value.htm
 old-project: display
 ms.assetid: 715D4C28-029F-463E-9A6D-D8155B570538
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3dwddm2_2ddi_shadercache_store_value, pfnShaderCacheStoreValue callback function [Display Devices], pfnShaderCacheStoreValue, PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB, d3d12umddi/pfnShaderCacheStoreValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnShaderCacheStoreValue
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_2DDI_SHADERCACHE_STORE_VALUE_CB callback
@@ -108,6 +108,8 @@ The length of the input value.
 ## -returns
 
 
+
 If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+
 
 

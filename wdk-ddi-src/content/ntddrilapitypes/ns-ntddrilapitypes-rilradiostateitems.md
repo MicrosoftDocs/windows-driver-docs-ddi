@@ -7,8 +7,8 @@ old-location: netvista\rilradiostateitems.htm
 old-project: netvista
 ms.assetid: 26b2521c-7008-437d-aed3-3ed2be5d5959
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], *LPRILRADIOSTATEITEMS, netvista.rilradiostateitems, ntddrilapitypes/RILRADIOSTATEITEMS
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILRADIOSTATEITEMS, RILRADIOSTATEITEMS, RILRADIOSTATEITEMS structure [Network Drivers Starting with Windows Vista], *LPRILRADIOSTATEITEMS, netvista.rilradiostateitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRADIOSTATEITEMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILRADIOSTATEITEMS, RILRADIOSTATEITEMS"
+req.typenames: RILRADIOSTATEITEMS, *LPRILRADIOSTATEITEMS
 ---
 
 # RILRADIOSTATEITEMS structure

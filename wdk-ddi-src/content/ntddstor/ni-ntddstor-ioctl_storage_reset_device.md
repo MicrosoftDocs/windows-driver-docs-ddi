@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_reset_device.htm
 old-project: storage
 ms.assetid: 85ada0f2-5690-4686-86e5-0e1cdc6b2054
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_storage_reset_device, IOCTL_STORAGE_RESET_DEVICE control code [Storage Devices], IOCTL_STORAGE_RESET_DEVICE, ntddstor/IOCTL_STORAGE_RESET_DEVICE, k307_489c36aa-d120-4d01-b5bd-29adca082064.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

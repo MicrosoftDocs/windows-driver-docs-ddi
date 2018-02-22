@@ -7,8 +7,8 @@ old-location: kernel\iocreatesystemthread.htm
 old-project: kernel
 ms.assetid: B2879353-3917-46AA-89CC-A20F0BB78BC4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoCreateSystemThread routine [Kernel-Mode Driver Architecture], wdm/IoCreateSystemThread, IoCreateSystemThread, kernel.iocreatesystemthread
+ms.date: 2/16/2018
+ms.keywords: IoCreateSystemThread, kernel.iocreatesystemthread, IoCreateSystemThread routine [Kernel-Mode Driver Architecture], wdm/IoCreateSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -199,19 +199,19 @@ In contrast to a system thread that is created by the <a href="..\wdm\nf-wdm-psc
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -223,15 +223,15 @@ In contrast to a system thread that is created by the <a href="..\wdm\nf-wdm-psc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564627">ThreadStart</a>
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 
 
@@ -239,5 +239,5 @@ In contrast to a system thread that is created by the <a href="..\wdm\nf-wdm-psc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateSystemThread routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateSystemThread routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

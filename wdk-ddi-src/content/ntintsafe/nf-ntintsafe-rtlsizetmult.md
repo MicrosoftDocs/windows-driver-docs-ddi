@@ -7,8 +7,8 @@ old-location: kernel\rtlsizetmult.htm
 old-project: kernel
 ms.assetid: 3EC72857-2880-4F03-8CC3-9B9A80F19273
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlSizeTMult, RtlSizeTMult function [Kernel-Mode Driver Architecture], kernel.rtlsizetmult, ntintsafe/RtlSizeTMult
+ms.date: 2/16/2018
+ms.keywords: ntintsafe/RtlSizeTMult, kernel.rtlsizetmult, RtlSizeTMult function [Kernel-Mode Driver Architecture], RtlSizeTMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

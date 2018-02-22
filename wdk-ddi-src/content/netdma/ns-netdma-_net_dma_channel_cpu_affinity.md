@@ -7,8 +7,8 @@ old-location: netvista\net_dma_channel_cpu_affinity.htm
 old-project: netvista
 ms.assetid: 660fb475-fa0a-4e04-9a91-e60422ff9292
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netdma/NET_DMA_CHANNEL_CPU_AFFINITY, netvista.net_dma_channel_cpu_affinity, _NET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, *PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml
+ms.date: 2/16/2018
+ms.keywords: "*PNET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY, _NET_DMA_CHANNEL_CPU_AFFINITY, netvista.net_dma_channel_cpu_affinity, netdma/NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_DMA_CHANNEL_CPU_AFFINITY
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY"
+req.typenames: NET_DMA_CHANNEL_CPU_AFFINITY, *PNET_DMA_CHANNEL_CPU_AFFINITY
 ---
 
 # _NET_DMA_CHANNEL_CPU_AFFINITY structure
@@ -104,11 +104,6 @@ The NetDMA interface calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
-   NET_DMA_PROVIDER_CHARACTERISTICS</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
    ProviderSetDmaChannelCpuAffinity</a>
 
@@ -118,9 +113,14 @@ The NetDMA interface calls
 
 
 
- 
+<a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
+   NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_CHANNEL_CPU_AFFINITY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_CHANNEL_CPU_AFFINITY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

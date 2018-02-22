@@ -7,8 +7,8 @@ old-location: display\d3dwddm1_3ddi_devicefuncs.htm
 old-project: display
 ms.assetid: DE7A88BA-2E59-4E8C-B315-CA6260E3D68E
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_DEVICEFUNCS, D3DWDDM1_3DDI_DEVICEFUNCS structure [Display Devices], D3DWDDM1_3DDI_DEVICEFUNCS, display.d3dwddm1_3ddi_devicefuncs, D3D11_1DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3D11_1DDI_DEVICEFUNCS
+ms.date: 2/20/2018
+ms.keywords: D3DWDDM1_3DDI_DEVICEFUNCS, D3DWDDM1_3DDI_DEVICEFUNCS structure [Display Devices], D3D11_1DDI_DEVICEFUNCS structure [Display Devices], D3D11_1DDI_DEVICEFUNCS, display.d3dwddm1_3ddi_devicefuncs, d3d10umddi/D3D11_1DDI_DEVICEFUNCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1075,7 +1075,7 @@ The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (n
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
@@ -1083,17 +1083,17 @@ The <b>pfnResetPrimitiveID</b> and  <b>pfnSetVertexPipelineOutput</b> members (n
 
 
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_devicefuncs.md">D3D11_1DDI_DEVICEFUNCS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DWDDM1_3DDI_DEVICEFUNCS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DWDDM1_3DDI_DEVICEFUNCS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\duid_match_status.htm
 old-project: storage
 ms.assetid: 61a60e77-387c-42d6-b56b-694ce0c86570
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DUID_MATCH_STATUS enumeration [Storage Devices], storduid/DuidErrorInvalidDeviceDescSize, DuidErrorMaximum, _DUID_MATCH_STATUS, storduid/DuidExactMatch, storduid/DuidErrorInvalidLayoutSigSize, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, storduid/DuidErrorInvalidLayoutSigVersion, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorVersionMismatch, storduid/DuidErrorInvalidDuid, DUID_MATCH_STATUS, DuidErrorGeneral, storduid/DuidErrorMaximum, DuidErrorVersionMismatch, storduid/DUID_MATCH_STATUS, DuidErrorMissingDuid, DuidExactMatch, DuidErrorInvalidDeviceIdDescSize, DuidErrorInvalidDeviceDescSize, DuidNoMatch, DuidErrorInvalidDuid, storduid/DuidErrorMissingDuid, storduid/DuidSubIdMatch, storduid/DuidErrorGeneral, DuidErrorInvalidLayoutSigVersion, storduid/DuidErrorInvalidDeviceIdDescSize, storage.duid_match_status, DuidSubIdMatch, storduid/DuidNoMatch
+ms.date: 2/16/2018
+ms.keywords: storduid/DuidErrorInvalidDuid, DuidErrorMaximum, DuidErrorInvalidDeviceIdDescSize, DuidNoMatch, DuidExactMatch, DuidErrorInvalidDeviceDescSize, storduid/DuidErrorInvalidLayoutSigVersion, DUID_MATCH_STATUS enumeration [Storage Devices], storage.duid_match_status, storduid/DuidSubIdMatch, storduid/DuidErrorMaximum, DuidErrorInvalidLayoutSigVersion, _DUID_MATCH_STATUS, storduid/DuidErrorMissingDuid, storduid/DuidErrorGeneral, DuidErrorVersionMismatch, storduid/DuidExactMatch, storduid/DuidNoMatch, DuidErrorMissingDuid, DUID_MATCH_STATUS, structs-general_8e33f54f-7115-42c2-aa06-112c79f9c392.xml, DuidErrorInvalidLayoutSigSize, storduid/DuidErrorInvalidLayoutSigSize, DuidErrorInvalidDuid, storduid/DuidErrorInvalidDeviceDescSize, storduid/DUID_MATCH_STATUS, storduid/DuidErrorInvalidDeviceIdDescSize, DuidErrorGeneral, DuidSubIdMatch, storduid/DuidErrorVersionMismatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -141,11 +141,11 @@ This value delimits the upper limit of the enumeration values in this enumeratio
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_device_id_descriptor.md">STORAGE_DEVICE_ID_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_device_descriptor.md">STORAGE_DEVICE_DESCRIPTOR</a>
 
 
 
@@ -157,5 +157,5 @@ This value delimits the upper limit of the enumeration values in this enumeratio
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DUID_MATCH_STATUS enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DUID_MATCH_STATUS enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

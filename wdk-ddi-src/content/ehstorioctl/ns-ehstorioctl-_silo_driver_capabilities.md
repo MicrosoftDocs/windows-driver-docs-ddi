@@ -7,8 +7,8 @@ old-location: storage\silo_driver_capabilities.htm
 old-project: storage
 ms.assetid: E2CD35A6-0FF2-4ABA-850E-12683C5F0D8D
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PSILO_DRIVER_CAPABILITIES, ehstorioctl/SILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], _SILO_DRIVER_CAPABILITIES, ehstorioctl/PSILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES, CAP_ON_DEMAND_AUTHENTICATION, SILO_DRIVER_CAPABILITIES structure [Storage Devices], storage.silo_driver_capabilities, CAP_BANDING_SUPPORT
+ms.date: 2/16/2018
+ms.keywords: "*PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES structure pointer [Storage Devices], _SILO_DRIVER_CAPABILITIES, storage.silo_driver_capabilities, SILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES structure [Storage Devices], CAP_ON_DEMAND_AUTHENTICATION, ehstorioctl/SILO_DRIVER_CAPABILITIES, CAP_BANDING_SUPPORT, ehstorioctl/PSILO_DRIVER_CAPABILITIES, PSILO_DRIVER_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SILO_DRIVER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # _SILO_DRIVER_CAPABILITIES structure
@@ -153,5 +153,5 @@ To receive band management requests from the enhanced storage class driver, a si
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SILO_DRIVER_CAPABILITIES structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SILO_DRIVER_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

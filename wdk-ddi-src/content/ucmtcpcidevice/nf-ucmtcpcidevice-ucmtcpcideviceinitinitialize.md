@@ -4,11 +4,11 @@ title: UcmTcpciDeviceInitInitialize function
 author: windows-driver-content
 description: Initializes device initialization operations when the Plug and Play (PnP) manager reports the existence of a device.
 old-location: buses\ucmtcpcideviceinitinitialize.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: a9afbac3-9494-466c-b36b-26a5839913f1
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ucmtcpcidevice/UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize
+ms.date: 2/15/2018
+ms.keywords: UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize, ucmtcpcidevice/UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UcmTcpciDeviceInitInitialize
 product: Windows
 targetos: Windows
-req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
+req.typenames: "*PUCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -106,5 +106,5 @@ The client driver calls this method after it has performed all of its own initia
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcmTcpciDeviceInitInitialize method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UcmTcpciDeviceInitInitialize method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

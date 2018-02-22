@@ -7,8 +7,8 @@ old-location: wdf\iimpersonatecallback_onimpersonate.htm
 old-project: wdf
 ms.assetid: 6f06e89c-5298-4335-ab9a-ef69e635152c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IImpersonateCallback::OnImpersonate, OnImpersonate, wdf.iimpersonatecallback_onimpersonate, IImpersonateCallback interface, OnImpersonate method, OnImpersonate method, OnImpersonate method, IImpersonateCallback interface, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, IImpersonateCallback, wudfddi/IImpersonateCallback::OnImpersonate, umdf.iimpersonatecallback_onimpersonate
+ms.date: 2/20/2018
+ms.keywords: IImpersonateCallback interface, OnImpersonate method, UMDFRequestObjectRef_e3752371-61b0-44ba-af86-0cf244e27894.xml, wdf.iimpersonatecallback_onimpersonate, IImpersonateCallback::OnImpersonate, OnImpersonate method, IImpersonateCallback interface, OnImpersonate, wudfddi/IImpersonateCallback::OnImpersonate, umdf.iimpersonatecallback_onimpersonate, OnImpersonate method, IImpersonateCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IImpersonateCallback.OnImpersonate
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -101,17 +101,17 @@ For more information about how UMDF and UMDF drivers handle impersonation, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iimpersonatecallback.md">IImpersonateCallback</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IImpersonateCallback::OnImpersonate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IImpersonateCallback::OnImpersonate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

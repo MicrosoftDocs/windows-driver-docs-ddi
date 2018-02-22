@@ -7,7 +7,7 @@ old-location: kernel\getbusdata.htm
 old-project: kernel
 ms.assetid: F5BDB3DF-6AC9-424E-BC69-27071F3D3820
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.getbusdata, GetBusData routine [Kernel-Mode Driver Architecture], GetBusData, GET_SET_DEVICE_DATA, GET_SET_DEVICE_DATA, wdm/GetBusData, kernel.busgetdevicedata, drvr_interface_f4fd2eab-5924-4ffa-b39e-fd7e0f74e5df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	GetBusData
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -103,14 +103,18 @@ The length, in bytes, of data to read.
 ## -returns
 
 
+
 The <i>GetBusData</i> routine returns the length, in bytes, of the configuration data that is read after a successful read operation. If the read operation is unsuccessful, a value of zero is returned. 
+
 
 
 
 ## -remarks
 
 
+
 Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> routine can be called only from the interrupt request levels (IRQLs) that are defined in the following table.
+
 <table>
 <tr>
 <th><i>DataType</i> value</th>
@@ -170,9 +174,11 @@ Depending on the value of the <i>DataType</i> parameter, the <i>GetBusData</i> r
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 The following remarks apply to drivers for PCI Express (PCIe) virtual functions (VFs) on devices that support the single root I/O virtualization (SR-IOV) interface:
+
 <ul>
 <li>
 Drivers for PCIe VFs should call the <i>GetBusData</i> routine at IRQL &lt;= APC_LEVEL.
@@ -185,15 +191,20 @@ In order to read PCI Configuration data for the VF at IRQL = DISPATCH_LEVEL, the
 </ul>
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
 
+
+
 <a href="..\wdm\ns-wdm-_bus_interface_standard.md">BUS_INTERFACE_STANDARD</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20GET_SET_DEVICE_DATA routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20GET_SET_DEVICE_DATA routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

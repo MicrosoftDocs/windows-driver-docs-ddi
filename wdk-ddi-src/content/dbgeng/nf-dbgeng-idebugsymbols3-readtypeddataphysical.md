@@ -4,11 +4,11 @@ title: IDebugSymbols3::ReadTypedDataPhysical method
 author: windows-driver-content
 description: The ReadTypedDataPhysical method reads the value of a variable from the target computer's physical memory.
 old-location: debugger\readtypeddataphysical.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 72562325-27f9-4e80-b03f-8926adad99c1
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols2::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, debugger.readtypeddataphysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols2, IDebugSymbols, IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, ReadTypedDataPhysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, ReadTypedDataPhysical method [Windows Debugging], dbgeng/IDebugSymbols3::ReadTypedDataPhysical
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols2::ReadTypedDataPhysical, dbgeng/IDebugSymbols::ReadTypedDataPhysical, debugger.readtypeddataphysical, IDebugSymbols_d9131c11-5752-4b05-b779-69cb256b8ded.xml, IDebugSymbols::ReadTypedDataPhysical, IDebugSymbols3::ReadTypedDataPhysical, ReadTypedDataPhysical method [Windows Debugging], ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::ReadTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols interface [Windows Debugging], ReadTypedDataPhysical method, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataPhysical method, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, ReadTypedDataPhysical, IDebugSymbols, dbgeng/IDebugSymbols3::ReadTypedDataPhysical, IDebugSymbols3, IDebugSymbols2, ReadTypedDataPhysical method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.ReadTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::ReadTypedDataPhysical method

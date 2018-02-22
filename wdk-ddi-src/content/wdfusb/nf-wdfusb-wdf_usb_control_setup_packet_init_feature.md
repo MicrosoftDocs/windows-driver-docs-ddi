@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_control_setup_packet_init_feature.htm
 old-project: wdf
 ms.assetid: ef3f7b9f-8b4b-4d47-8457-17452e3e918a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFUsbRef_becbf646-e647-4337-a1cb-05a72c3dd215.xml, kmdf.wdf_usb_control_setup_packet_init_feature, wdf.wdf_usb_control_setup_packet_init_feature, wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE
+ms.date: 2/20/2018
+ms.keywords: wdfusb/WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, kmdf.wdf_usb_control_setup_packet_init_feature, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE, wdf.wdf_usb_control_setup_packet_init_feature, DFUsbRef_becbf646-e647-4337-a1cb-05a72c3dd215.xml, WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -196,15 +196,11 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE(
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init.md">WDF_USB_CONTROL_SETUP_PACKET_INIT</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
 
 
 
@@ -216,7 +212,11 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE(
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_vendor.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_VENDOR</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_class.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_CLASS</a>
 
 
 
@@ -224,5 +224,5 @@ WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_CONTROL_SETUP_PACKET_INIT_FEATURE function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

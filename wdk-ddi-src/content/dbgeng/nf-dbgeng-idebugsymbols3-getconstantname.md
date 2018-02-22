@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetConstantName method
 author: windows-driver-content
 description: The GetConstantName method returns the name of the specified constant.
 old-location: debugger\getconstantname.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: bb308ee7-e8bc-49c0-b1f9-199af7dca289
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetConstantName method, dbgeng/IDebugSymbols3::GetConstantName, GetConstantName method [Windows Debugging], dbgeng/IDebugSymbols2::GetConstantName, debugger.getconstantname, IDebugSymbols3::GetConstantName, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, GetConstantName, IDebugSymbols2::GetConstantName, IDebugSymbols2, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, GetConstantName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3
+ms.date: 2/15/2018
+ms.keywords: GetConstantName method [Windows Debugging], GetConstantName, debugger.getconstantname, GetConstantName method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::GetConstantName, GetConstantName method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::GetConstantName, IDebugSymbols2::GetConstantName, IDebugSymbols3, IDebugSymbols3 interface [Windows Debugging], GetConstantName method, dbgeng/IDebugSymbols2::GetConstantName, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetConstantName method, IDebugSymbols_438111b4-a0f4-40cc-aadc-8b1d2c67b219.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbols3.GetConstantName
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetConstantName method

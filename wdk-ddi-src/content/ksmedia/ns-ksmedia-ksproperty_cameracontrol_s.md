@@ -7,8 +7,8 @@ old-location: stream\ksproperty_cameracontrol_s.htm
 old-project: stream
 ms.assetid: 203c6452-26d4-4dbf-89d4-c7e6d47e7c16
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_S, *PKSPROPERTY_CAMERACONTROL_S, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml, stream.ksproperty_cameracontrol_s, ksmedia/KSPROPERTY_CAMERACONTROL_S, ksmedia/PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], PKSPROPERTY_CAMERACONTROL_S
+ms.date: 2/20/2018
+ms.keywords: KSPROPERTY_CAMERACONTROL_S structure [Streaming Media Devices], *PKSPROPERTY_CAMERACONTROL_S, vidcapstruct_bfabf468-24f0-4acb-b064-229b3eea7df3.xml, PKSPROPERTY_CAMERACONTROL_S, stream.ksproperty_cameracontrol_s, ksmedia/KSPROPERTY_CAMERACONTROL_S, PKSPROPERTY_CAMERACONTROL_S structure pointer [Streaming Media Devices], ksmedia/PKSPROPERTY_CAMERACONTROL_S, KSPROPERTY_CAMERACONTROL_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -188,7 +188,7 @@ Indicates that the device settings are in relative values.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_s.md">KSPROPERTY_CAMERACONTROL_NODE_S</a>
 
 
 
@@ -196,7 +196,7 @@ Indicates that the device settings are in relative values.
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_s.md">KSPROPERTY_CAMERACONTROL_NODE_S</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 
@@ -204,5 +204,5 @@ Indicates that the device settings are in relative values.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_CAMERACONTROL_S structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_CAMERACONTROL_S structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

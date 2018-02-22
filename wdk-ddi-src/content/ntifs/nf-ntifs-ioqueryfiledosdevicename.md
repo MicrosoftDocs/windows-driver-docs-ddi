@@ -7,8 +7,8 @@ old-location: ifsk\ioqueryfiledosdevicename.htm
 old-project: ifsk
 ms.assetid: 8574e5cf-5bbf-4606-931f-e27b2aa7b7fa
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: IoQueryFileDosDeviceName, ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, ntifs/IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename
+ms.date: 2/16/2018
+ms.keywords: ioref_4bc807ab-ce5e-415c-8f86-50cf3783d233.xml, IoQueryFileDosDeviceName, IoQueryFileDosDeviceName routine [Installable File System Drivers], ifsk.ioqueryfiledosdevicename, ntifs/IoQueryFileDosDeviceName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -89,7 +89,7 @@ A returned pointer to a newly allocated <b>OBJECT_NAME_INFORMATION</b> structure
 </td>
 </tr>
 </table></span></div>
-<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.</div>
+<div class="alert"><b>Note</b>    This structure must eventually be freed by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>.</div>
 <div> </div>
 
 ## -returns
@@ -120,5 +120,5 @@ For more information about MS-DOS names, see the Files and I/O section of the Pl
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoQueryFileDosDeviceName routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoQueryFileDosDeviceName routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

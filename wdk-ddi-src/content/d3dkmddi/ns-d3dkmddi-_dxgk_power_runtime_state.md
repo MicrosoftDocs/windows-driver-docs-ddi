@@ -7,8 +7,8 @@ old-location: display\dxgk_power_runtime_state.htm
 old-project: display
 ms.assetid: f2bfb07c-1493-4a29-9d42-e284af29a376
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_POWER_RUNTIME_STATE, display.dxgk_power_runtime_state, DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], _DXGK_POWER_RUNTIME_STATE
+ms.date: 2/20/2018
+ms.keywords: display.dxgk_power_runtime_state, DXGK_POWER_RUNTIME_STATE, d3dkmddi/DXGK_POWER_RUNTIME_STATE, DXGK_POWER_RUNTIME_STATE structure [Display Devices], _DXGK_POWER_RUNTIME_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

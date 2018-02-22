@@ -7,8 +7,8 @@ old-location: hid\hidd_attributes.htm
 old-project: hid
 ms.assetid: 31bfa863-459f-4fb2-af41-2d40d0396dd7
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: hid.hidd_attributes, HIDD_ATTRIBUTES structure [Human Input Devices], PHIDD_ATTRIBUTES structure pointer [Human Input Devices], HIDD_ATTRIBUTES, hidsdi/HIDD_ATTRIBUTES, hidsdi/PHIDD_ATTRIBUTES, PHIDD_ATTRIBUTES, _HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml
+ms.date: 2/15/2018
+ms.keywords: hid.hidd_attributes, hidsdi/HIDD_ATTRIBUTES, PHIDD_ATTRIBUTES structure pointer [Human Input Devices], HIDD_ATTRIBUTES, hidstrct_450ed87e-655a-414d-b24a-8b1aec7564b8.xml, _HIDD_ATTRIBUTES, HIDD_ATTRIBUTES structure [Human Input Devices], hidsdi/PHIDD_ATTRIBUTES, PHIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDD_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PHIDD_ATTRIBUTES, HIDD_ATTRIBUTES"
+req.typenames: HIDD_ATTRIBUTES, *PHIDD_ATTRIBUTES
 ---
 
 # _HIDD_ATTRIBUTES structure
@@ -111,5 +111,5 @@ Before using a HIDD_ATTRIBUTES structure with <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDD_ATTRIBUTES structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HIDD_ATTRIBUTES structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

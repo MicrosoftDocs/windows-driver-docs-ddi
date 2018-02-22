@@ -7,7 +7,7 @@ old-location: wdf\iwdfiotarget2.htm
 old-project: wdf
 ms.assetid: 52ce1c63-b2cf-4eda-b056-4f1f999110c5
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfiotarget2, IWDFIoTarget2 interface, IWDFIoTarget2 interface, described, IWDFIoTarget2, wudfddi/IWDFIoTarget2, UMDFIoTargetObjectRef_7639fcef-e463-4500-94a0-132b63e1e564.xml, umdf.iwdfiotarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTarget2
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: netvista\rilsupsvcinfo.htm
 old-project: netvista
 ms.assetid: 1f8f7c8c-f09a-4bf5-a15b-42f210122b54
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSUPSVCINFO, *LPRILSUPSVCINFO, RILSUPSVCINFO, netvista.rilsupsvcinfo, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILSUPSVCINFO, ntddrilapitypes/RILSUPSVCINFO, netvista.rilsupsvcinfo, RILSUPSVCINFO structure [Network Drivers Starting with Windows Vista], *LPRILSUPSVCINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSUPSVCINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSUPSVCINFO, RILSUPSVCINFO"
+req.typenames: RILSUPSVCINFO, *LPRILSUPSVCINFO
 ---
 
 # RILSUPSVCINFO structure

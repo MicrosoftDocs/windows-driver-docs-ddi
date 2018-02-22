@@ -4,11 +4,11 @@ title: SetThreadForOperation function
 author: windows-driver-content
 description: The SetThreadForOperation function sets the thread to use for the next StackTrace call.
 old-location: debugger\setthreadforoperation.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: b5bae644-6c8d-4346-87bd-211efcf27748
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetThreadForOperation, SetThreadForOperation function [Windows Debugging], debugger.setthreadforoperation, wdbgexts/SetThreadForOperation, WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml
+ms.date: 2/15/2018
+ms.keywords: WdbgExts_Ref_62cb59e2-5a16-4bee-936c-6eeaa5126fbc.xml, debugger.setthreadforoperation, SetThreadForOperation, SetThreadForOperation function [Windows Debugging], wdbgexts/SetThreadForOperation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

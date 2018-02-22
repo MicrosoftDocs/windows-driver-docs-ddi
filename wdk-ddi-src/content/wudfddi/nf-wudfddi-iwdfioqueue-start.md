@@ -7,8 +7,8 @@ old-location: wdf\iwdfioqueue_start.htm
 old-project: wdf
 ms.assetid: 3e7d8dd5-4336-472e-a71f-8abb946af8be
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfioqueue_start, wdf.iwdfioqueue_start, UMDFQueueObjectRef_d53b70a8-b022-4e2c-aa3d-d29aac4695ad.xml, Start, IWDFIoQueue interface, Start method, Start method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::Start, IWDFIoQueue, Start method, IWDFIoQueue::Start
+ms.date: 2/20/2018
+ms.keywords: IWDFIoQueue::Start, IWDFIoQueue, Start method, IWDFIoQueue interface, IWDFIoQueue interface, Start method, wdf.iwdfioqueue_start, Start method, umdf.iwdfioqueue_start, Start, UMDFQueueObjectRef_d53b70a8-b022-4e2c-aa3d-d29aac4695ad.xml, wudfddi/IWDFIoQueue::Start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.Start
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -89,5 +89,5 @@ None
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::Start method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::Start method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

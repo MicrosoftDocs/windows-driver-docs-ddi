@@ -7,8 +7,8 @@ old-location: netvista\ndis_pd_counter_parameters.htm
 old-project: netvista
 ms.assetid: 0F2AB5A3-9208-426A-ADC5-C1AD3BADFD83
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_NDIS_PD_COUNTER_PARAMETERS, ndis/NDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS, ndis/PNDIS_PD_COUNTER_PARAMETERS, NDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_PD_COUNTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_pd_counter_parameters"
+ms.date: 2/16/2018
+ms.keywords: NDIS_PD_COUNTER_PARAMETERS, PNDIS_PD_COUNTER_PARAMETERS, ndis/NDIS_PD_COUNTER_PARAMETERS, NDIS_PD_COUNTER_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_PD_COUNTER_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PD_COUNTER_PARAMETERS, ndis/PNDIS_PD_COUNTER_PARAMETERS, netvista.ndis_pd_counter_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,7 +97,7 @@ An <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a> en
 
 ## -see-also
 
-<a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -105,7 +105,7 @@ An <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a> en
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a>
 
 
 
@@ -113,5 +113,5 @@ An <a href="..\ndis\ne-ndis-ndis_pd_counter_type.md">NDIS_PD_COUNTER_TYPE</a> en
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PD_COUNTER_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PD_COUNTER_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

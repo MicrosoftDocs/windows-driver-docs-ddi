@@ -7,8 +7,8 @@ old-location: ifsk\ioreleasevpbspinlock.htm
 old-project: ifsk
 ms.assetid: c0b93f32-4c5c-472c-8c13-3e441f86475f
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/IoReleaseVpbSpinLock, ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml, IoReleaseVpbSpinLock routine [Installable File System Drivers], IoReleaseVpbSpinLock, ifsk.ioreleasevpbspinlock
+ms.date: 2/16/2018
+ms.keywords: IoReleaseVpbSpinLock routine [Installable File System Drivers], ioref_6ccdef5f-9874-4e93-8d91-a05b80d5cecf.xml, ntifs/IoReleaseVpbSpinLock, ifsk.ioreleasevpbspinlock, IoReleaseVpbSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,5 +104,5 @@ The holder of the VPB spin lock executes at IRQL DISPATCH_LEVEL after calling <a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoReleaseVpbSpinLock routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoReleaseVpbSpinLock routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

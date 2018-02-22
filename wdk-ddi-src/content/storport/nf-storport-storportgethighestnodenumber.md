@@ -7,8 +7,8 @@ old-location: storage\storportgethighestnodenumber.htm
 old-project: storage
 ms.assetid: 3e0b85f9-b6e4-4d53-b8dc-7f51e0f74be3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml, StorPortGetHighestNodeNumber routine [Storage Devices], storport/StorPortGetHighestNodeNumber, StorPortGetHighestNodeNumber, storage.storportgethighestnodenumber
+ms.date: 2/16/2018
+ms.keywords: StorPortGetHighestNodeNumber routine [Storage Devices], storprt_e9e942e1-6de3-4170-87ec-00660ce9925a.xml, storport/StorPortGetHighestNodeNumber, storage.storportgethighestnodenumber, StorPortGetHighestNodeNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

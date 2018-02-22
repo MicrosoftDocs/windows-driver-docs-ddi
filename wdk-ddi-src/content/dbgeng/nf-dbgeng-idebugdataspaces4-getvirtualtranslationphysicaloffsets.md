@@ -4,11 +4,11 @@ title: IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets method
 author: windows-driver-content
 description: The GetVirtualTranslationPhysicalOffsets method returns the physical addresses of the system paging structures at different levels of the paging hierarchy.
 old-location: debugger\getvirtualtranslationphysicaloffsets.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 40438ee7-2e58-4048-8739-75f21179c22c
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], dbgeng/IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, dbgeng/IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces_661959c5-a514-4651-8eaa-fd4c4fb94bd7.xml, IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces3 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, IDebugDataSpaces2, dbgeng/IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, debugger.getvirtualtranslationphysicaloffsets, IDebugDataSpaces3, IDebugDataSpaces4
+ms.date: 2/15/2018
+ms.keywords: IDebugDataSpaces3 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, debugger.getvirtualtranslationphysicaloffsets, IDebugDataSpaces4 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, dbgeng/IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2, IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces4, dbgeng/IDebugDataSpaces2::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces3, dbgeng/IDebugDataSpaces3::GetVirtualTranslationPhysicalOffsets, IDebugDataSpaces2 interface [Windows Debugging], GetVirtualTranslationPhysicalOffsets method, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces2 interface, GetVirtualTranslationPhysicalOffsets method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_661959c5-a514-4651-8eaa-fd4c4fb94bd7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugDataSpaces4.GetVirtualTranslationPhysicalOffsets
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces4::GetVirtualTranslationPhysicalOffsets method

@@ -4,11 +4,11 @@ title: PIPE_TYPE
 author: windows-driver-content
 description: The PIPE_TYPE data type is used as input to the DeviceIoControl function, if the I/O control code is IOCTL_CANCEL_IO or IOCTL_RESET_PIPE.
 old-location: image\pipe_type.htm
-old-project: image
+old-project: Image
 ms.assetid: ae3077a3-01a8-4578-9a26-b8b14ec51a7a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PIPE_TYPE, usbscan/WRITE_DATA_PIPE, READ_DATA_PIPE, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/ALL_PIPE, usbscan/EVENT_PIPE, PIPE_TYPE enumeration [Imaging Devices], WRITE_DATA_PIPE, ALL_PIPE, usbscan/READ_DATA_PIPE, EVENT_PIPE, image.pipe_type, usbscan/PIPE_TYPE
+ms.date: 2/15/2018
+ms.keywords: usbscan/READ_DATA_PIPE, PIPE_TYPE enumeration [Imaging Devices], EVENT_PIPE, image.pipe_type, READ_DATA_PIPE, usbscan/PIPE_TYPE, usbscan/WRITE_DATA_PIPE, WRITE_DATA_PIPE, stifnc_dd4122fa-8df4-4190-91ec-248a1e63ab64.xml, usbscan/ALL_PIPE, ALL_PIPE, usbscan/EVENT_PIPE, PIPE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

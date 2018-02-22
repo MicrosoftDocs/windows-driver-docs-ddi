@@ -7,8 +7,8 @@ old-location: stream\bda_drm_drmstatus.htm
 old-project: stream
 ms.assetid: EC287CF0-9B39-4412-849E-9F86EEE69365
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PBDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, bdatypes/PBDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus, BDA_DRM_DRMSTATUS structure [Streaming Media Devices], _BDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], BDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS"
+ms.date: 2/20/2018
+ms.keywords: "*PBDA_DRM_DRMSTATUS, _BDA_DRM_DRMSTATUS, bdatypes/BDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS, stream.bda_drm_drmstatus, BDA_DRM_DRMSTATUS, PBDA_DRM_DRMSTATUS structure pointer [Streaming Media Devices], BDA_DRM_DRMSTATUS structure [Streaming Media Devices], bdatypes/PBDA_DRM_DRMSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_DRM_DRMSTATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_DRM_DRMSTATUS, BDA_DRM_DRMSTATUS"
+req.typenames: BDA_DRM_DRMSTATUS, *PBDA_DRM_DRMSTATUS
 ---
 
 # _BDA_DRM_DRMSTATUS structure

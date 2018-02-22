@@ -7,8 +7,8 @@ old-location: wdf\iwdfinterrupt_enable.htm
 old-project: wdf
 ms.assetid: 605C58C2-9A4F-4185-BB5C-95C9F5180C05
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFInterrupt, Enable method, Enable method, IWDFInterrupt interface, IWDFInterrupt interface, Enable method, IWDFInterrupt::Enable, wudfddi/IWDFInterrupt::Enable, umdf.iwdfinterrupt_enable, wdf.iwdfinterrupt_enable, Enable
+ms.date: 2/20/2018
+ms.keywords: Enable method, IWDFInterrupt interface, Enable, umdf.iwdfinterrupt_enable, wudfddi/IWDFInterrupt::Enable, wdf.iwdfinterrupt_enable, IWDFInterrupt interface, Enable method, Enable method, IWDFInterrupt, IWDFInterrupt::Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFInterrupt.Enable
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -121,5 +121,5 @@ The following code example enables the device interrupt that is associated with 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFInterrupt::Enable method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFInterrupt::Enable method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

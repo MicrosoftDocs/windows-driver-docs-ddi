@@ -7,8 +7,8 @@ old-location: netvista\ndis_nic_switch_capabilities.htm
 old-project: netvista
 ms.assetid: bc4b56bd-583f-4b41-b5a7-90958ce65f42
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_NDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_CAPABILITIES, virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml, ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities"
+ms.date: 2/16/2018
+ms.keywords: NDIS_NIC_SWITCH_CAPABILITIES structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_b71fb086-5613-4ebb-ac19-97bd3bd9c55f.xml, PNDIS_NIC_SWITCH_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NIC_SWITCH_CAPABILITIES, ntddndis/NDIS_NIC_SWITCH_CAPABILITIES, PNDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES, netvista.ndis_nic_switch_capabilities, _NDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_NIC_SWITCH_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_NIC_SWITCH_CAPABILITIES, NDIS_NIC_SWITCH_CAPABILITIES"
+req.typenames: NDIS_NIC_SWITCH_CAPABILITIES, *PNDIS_NIC_SWITCH_CAPABILITIES
 ---
 
 # _NDIS_NIC_SWITCH_CAPABILITIES structure
@@ -420,19 +420,7 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -444,7 +432,19 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451816">OID_NIC_SWITCH_CREATE_VPORT</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-current-capabilities">OID_NIC_SWITCH_CURRENT_CAPABILITIES</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-nic-switch-hardware-capabilities">OID_NIC_SWITCH_HARDWARE_CAPABILITIES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -456,5 +456,5 @@ OID query requests of <a href="https://docs.microsoft.com/en-us/windows-hardware
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NIC_SWITCH_CAPABILITIES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_NIC_SWITCH_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

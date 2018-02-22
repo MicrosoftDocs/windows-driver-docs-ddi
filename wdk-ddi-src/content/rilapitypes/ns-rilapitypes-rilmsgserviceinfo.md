@@ -7,8 +7,8 @@ old-location: netvista\rilmsgserviceinfo_2.htm
 old-project: netvista
 ms.assetid: a6d5bc57-dd0e-4a75-af48-470b65e70a7d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILMSGSERVICEINFO, RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGSERVICEINFO, netvista.rilmsgserviceinfo_2, *LPRILMSGSERVICEINFO
+ms.date: 2/16/2018
+ms.keywords: RILMSGSERVICEINFO structure [Network Drivers Starting with Windows Vista], RILMSGSERVICEINFO, netvista.rilmsgserviceinfo_2, *LPRILMSGSERVICEINFO, rilapitypes/RILMSGSERVICEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

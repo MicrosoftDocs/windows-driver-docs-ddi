@@ -7,8 +7,8 @@ old-location: display\d3dkmtgetsharedprimaryhandle.htm
 old-project: display
 ms.assetid: 927a6ddd-caac-4460-b9df-3ba22db69398
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTGetSharedPrimaryHandle function [Display Devices], OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml, display.d3dkmtgetsharedprimaryhandle, d3dkmthk/D3DKMTGetSharedPrimaryHandle, D3DKMTGetSharedPrimaryHandle
+ms.date: 2/20/2018
+ms.keywords: D3DKMTGetSharedPrimaryHandle, display.d3dkmtgetsharedprimaryhandle, D3DKMTGetSharedPrimaryHandle function [Display Devices], d3dkmthk/D3DKMTGetSharedPrimaryHandle, OpenGL_Functions_bb0d000e-4846-4851-a6c5-c70330ef8921.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -213,5 +213,5 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTGetSh
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTGetSharedPrimaryHandle function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTGetSharedPrimaryHandle function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

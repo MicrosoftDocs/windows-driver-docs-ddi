@@ -4,11 +4,11 @@ title: IStiDevice::GetCapabilities method
 author: windows-driver-content
 description: The IStiDevice::GetCapabilities method returns a still image device's capabilities.
 old-location: image\istidevice_getcapabilities.htm
-old-project: image
+old-project: Image
 ms.assetid: 4c5d8834-a78d-443e-bfec-1d9fcddb9331
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, IStiDevice::GetCapabilities, IStiDevice, GetCapabilities method [Imaging Devices], image.istidevice_getcapabilities, sti/IStiDevice::GetCapabilities, GetCapabilities method [Imaging Devices], IStiDevice interface, GetCapabilities, IStiDevice interface [Imaging Devices], GetCapabilities method
+ms.date: 2/15/2018
+ms.keywords: IStiDevice interface [Imaging Devices], GetCapabilities method, GetCapabilities, GetCapabilities method [Imaging Devices], stifnc_00882aa7-e8cd-4218-9d05-b9d1f56a6652.xml, image.istidevice_getcapabilities, IStiDevice, sti/IStiDevice::GetCapabilities, GetCapabilities method [Imaging Devices], IStiDevice interface, IStiDevice::GetCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

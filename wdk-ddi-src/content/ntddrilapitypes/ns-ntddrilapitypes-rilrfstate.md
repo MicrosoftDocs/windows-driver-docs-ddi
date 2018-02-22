@@ -7,8 +7,8 @@ old-location: netvista\rilrfstate.htm
 old-project: netvista
 ms.assetid: 7eb78864-d20c-4993-8b33-63096bf971fa
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILRFSTATE, ntddrilapitypes/RILRFSTATE, netvista.rilrfstate, *LPRILRFSTATE, RILRFSTATE structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILRFSTATE, netvista.rilrfstate, *LPRILRFSTATE, ntddrilapitypes/RILRFSTATE, RILRFSTATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRFSTATE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILRFSTATE, RILRFSTATE"
+req.typenames: RILRFSTATE, *LPRILRFSTATE
 ---
 
 # RILRFSTATE structure

@@ -7,8 +7,8 @@ old-location: kernel\ioinitializetimer.htm
 old-project: kernel
 ms.assetid: f2b0f74d-7417-443e-96ec-5101b1289f9d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IoInitializeTimer, IoInitializeTimer, k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, IoInitializeTimer routine [Kernel-Mode Driver Architecture], kernel.ioinitializetimer
+ms.date: 2/16/2018
+ms.keywords: k104_28bd2888-4ec7-4de8-b2ea-f006a8f39209.xml, IoInitializeTimer, IoInitializeTimer routine [Kernel-Mode Driver Architecture], wdm/IoInitializeTimer, kernel.ioinitializetimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,7 @@ Pointer to the driver-determined context with which its <i>IoTimer</i> routine w
 
 <b>IoInitializeTimer</b> should be called only once per device object.
 
-A driver's <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second after the driver enables the timer by calling <a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>. The driver can disable the timer by calling <a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a> and can reenable it again with <b>IoStartTimer</b>.
+A driver's <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second after the driver enables the timer by calling <a href="..\ntifs\nf-ntifs-iostarttimer.md">IoStartTimer</a>. The driver can disable the timer by calling <a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a> and can reenable it again with <b>IoStartTimer</b>.
 
 The driver's <i>IoTimer</i> routine is called at IRQL = DISPATCH_LEVEL and therefore must not contain pageable code.
 
@@ -111,7 +111,7 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a>
 
 
 
@@ -119,11 +119,11 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 
 
-<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
+<a href="..\ntifs\nf-ntifs-iostarttimer.md">IoStartTimer</a>
 
 
 
@@ -135,5 +135,5 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoInitializeTimer routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoInitializeTimer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

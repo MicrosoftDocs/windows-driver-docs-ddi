@@ -7,8 +7,8 @@ old-location: wdf\wdf_wmi_provider_flags.htm
 old-project: wdf
 ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfwmi/WdfWmiProviderEventOnly, wdfwmi/WdfWmiProviderTracing, WDF_WMI_PROVIDER_FLAGS enumeration, wdfwmi/WdfWmiProviderExpensive, WdfWmiProviderEventOnly, WDF_WMI_PROVIDER_FLAGS, wdfwmi/WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderTracing, WdfWmiProviderExpensive, WdfWmiProviderValidFlags, wdf.wdf_wmi_provider_flags, kmdf.wdf_wmi_provider_flags, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, wdfwmi/WdfWmiProviderValidFlags, _WDF_WMI_PROVIDER_FLAGS
+ms.date: 2/20/2018
+ms.keywords: wdfwmi/WdfWmiProviderValidFlags, kmdf.wdf_wmi_provider_flags, wdfwmi/WdfWmiProviderEventOnly, wdfwmi/WdfWmiProviderExpensive, WDF_WMI_PROVIDER_FLAGS enumeration, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WdfWmiProviderTracing, _WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderTracing, WdfWmiProviderEventOnly, wdfwmi/WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderValidFlags, wdf.wdf_wmi_provider_flags, WdfWmiProviderExpensive, WDF_WMI_PROVIDER_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -104,15 +104,7 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
 
 
 
@@ -128,9 +120,17 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\
 
 
 
- 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_PROVIDER_FLAGS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_PROVIDER_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

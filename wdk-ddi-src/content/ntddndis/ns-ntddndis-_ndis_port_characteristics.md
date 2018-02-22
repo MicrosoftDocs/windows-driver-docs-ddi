@@ -7,8 +7,8 @@ old-location: netvista\ndis_port_characteristics.htm
 old-project: netvista
 ms.assetid: fd602dd6-c216-413a-a4da-292739774937
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_CHARACTERISTICS, ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], *PNDIS_PORT_CHARACTERISTICS, ntddndis/PNDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS, ntddndis/NDIS_PORT_CHARACTERISTICS, netvista.ndis_port_characteristics
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_PORT_CHARACTERISTICS, ndis_ports_ref_2b3ef68d-2ed2-4a06-ab0c-3df59bf7d7a5.xml, PNDIS_PORT_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PORT_CHARACTERISTICS, NDIS_PORT_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PORT_CHARACTERISTICS, _NDIS_PORT_CHARACTERISTICS, netvista.ndis_port_characteristics, NDIS_PORT_CHARACTERISTICS, PNDIS_PORT_CHARACTERISTICS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -333,15 +333,11 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
-
-
-
 <a href="https://msdn.microsoft.com/e65f4af5-c527-4d6d-a38c-56da006b1ef7">NDIS Ports</a>
+
+
+
+<a href="https://msdn.microsoft.com/a77ceb1b-d4b9-4a42-aa5b-685295722fa3">Types of NDIS Ports</a>
 
 
 
@@ -349,15 +345,19 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 
 
+<a href="..\ndis\nf-ndis-ndismallocateport.md">NdisMAllocatePort</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -373,5 +373,5 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_CHARACTERISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_CHARACTERISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

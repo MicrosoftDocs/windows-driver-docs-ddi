@@ -7,8 +7,8 @@ old-location: storage\track_data.htm
 old-project: storage
 ms.assetid: f412ff4e-6c65-40f8-9747-dc5059e588f6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.track_data, PTRACK_DATA structure pointer [Storage Devices], TRACK_DATA structure [Storage Devices], _TRACK_DATA, PTRACK_DATA, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, ntddcdrm/PTRACK_DATA, *PTRACK_DATA, ntddcdrm/TRACK_DATA, TRACK_DATA
+ms.date: 2/16/2018
+ms.keywords: "_TRACK_DATA, storage.track_data, TRACK_DATA structure [Storage Devices], ntddcdrm/PTRACK_DATA, PTRACK_DATA structure pointer [Storage Devices], ntddcdrm/TRACK_DATA, *PTRACK_DATA, TRACK_DATA, structs-CD-ROM_37ea4578-82b7-4b8e-be1b-28c27de349d9.xml, PTRACK_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,5 +125,5 @@ This structure contains table of contents information for a track.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TRACK_DATA structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TRACK_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

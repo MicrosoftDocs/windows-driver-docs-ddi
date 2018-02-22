@@ -4,11 +4,11 @@ title: IDebugControl2::GetReturnOffset method
 author: windows-driver-content
 description: The GetReturnOffset method returns the return address for the current function.
 old-location: debugger\getreturnoffset.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 65d72369-7ace-4d3d-a15c-6322c0066470
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, IDebugControl2, IDebugControl2 interface [Windows Debugging], GetReturnOffset method, GetReturnOffset, IDebugControl3 interface [Windows Debugging], GetReturnOffset method, GetReturnOffset method [Windows Debugging], IDebugControl2::GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl2 interface, IDebugControl::GetReturnOffset, dbgeng/IDebugControl2::GetReturnOffset, IDebugControl, dbgeng/IDebugControl::GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetReturnOffset method, debugger.getreturnoffset, IDebugControl3::GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl3::GetReturnOffset
+ms.date: 2/15/2018
+ms.keywords: GetReturnOffset method [Windows Debugging], IDebugControl interface, debugger.getreturnoffset, dbgeng/IDebugControl3::GetReturnOffset, IDebugControl2::GetReturnOffset, IDebugControl_7c101d44-aa43-48d4-8176-2ed110eca231.xml, IDebugControl3::GetReturnOffset, IDebugControl3 interface [Windows Debugging], GetReturnOffset method, IDebugControl, GetReturnOffset method [Windows Debugging], IDebugControl3 interface, IDebugControl2, GetReturnOffset, GetReturnOffset method [Windows Debugging], IDebugControl interface [Windows Debugging], GetReturnOffset method, dbgeng/IDebugControl2::GetReturnOffset, IDebugControl::GetReturnOffset, dbgeng/IDebugControl::GetReturnOffset, IDebugControl2 interface [Windows Debugging], GetReturnOffset method, GetReturnOffset method [Windows Debugging], IDebugControl2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetReturnOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl2::GetReturnOffset method

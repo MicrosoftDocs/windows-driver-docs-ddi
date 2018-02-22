@@ -7,8 +7,8 @@ old-location: netvista\ndis_pm_packet_pattern.htm
 old-project: netvista
 ms.assetid: dfda0b5f-06fc-4e94-b14c-6bd32c2c138a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_PM_PACKET_PATTERN, *PNDIS_PM_PACKET_PATTERN, 212pnpoid_bfc58374-2745-4c29-a2ac-b7ef864aa710.xml, PNDIS_PM_PACKET_PATTERN, NDIS_PM_PACKET_PATTERN, _NDIS_PM_PACKET_PATTERN, netvista.ndis_pm_packet_pattern, PNDIS_PM_PACKET_PATTERN structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_PACKET_PATTERN, NDIS_PM_PACKET_PATTERN structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ntddndis/NDIS_PM_PACKET_PATTERN, NDIS_PM_PACKET_PATTERN structure [Network Drivers Starting with Windows Vista], PNDIS_PM_PACKET_PATTERN structure pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_PACKET_PATTERN, *PNDIS_PM_PACKET_PATTERN, netvista.ndis_pm_packet_pattern, 212pnpoid_bfc58374-2745-4c29-a2ac-b7ef864aa710.xml, NDIS_PM_PACKET_PATTERN, PNDIS_PM_PACKET_PATTERN, _NDIS_PM_PACKET_PATTERN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_PACKET_PATTERN
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PM_PACKET_PATTERN, *PNDIS_PM_PACKET_PATTERN
+req.typenames: "*PNDIS_PM_PACKET_PATTERN, NDIS_PM_PACKET_PATTERN"
 ---
 
 # _NDIS_PM_PACKET_PATTERN structure
@@ -152,10 +152,6 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569773">OID_PNP_ADD_WAKE_UP_PATTERN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569783">OID_PNP_WAKE_UP_PATTERN_LIST</a>
 
 
@@ -168,9 +164,13 @@ A protocol uses this OID to request a list of the wake-up patterns currently set
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569773">OID_PNP_ADD_WAKE_UP_PATTERN</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_PACKET_PATTERN structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_PACKET_PATTERN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

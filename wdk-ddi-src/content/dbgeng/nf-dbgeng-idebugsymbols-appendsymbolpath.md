@@ -4,11 +4,11 @@ title: IDebugSymbols::AppendSymbolPath method
 author: windows-driver-content
 description: The AppendSymbolPath method appends directories to the symbol path.
 old-location: debugger\appendsymbolpath.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 99a0ded5-2a73-40c9-99f4-82d31395aa62
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: AppendSymbolPath method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::AppendSymbolPath, IDebugSymbols2::AppendSymbolPath, AppendSymbolPath method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], AppendSymbolPath method, AppendSymbolPath, dbgeng/IDebugSymbols3::AppendSymbolPath, IDebugSymbols_cc73a8f6-3cf1-40a1-8cb5-712eeca0b883.xml, debugger.appendsymbolpath, AppendSymbolPath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::AppendSymbolPath, dbgeng/IDebugSymbols::AppendSymbolPath, IDebugSymbols3::AppendSymbolPath, IDebugSymbols, IDebugSymbols interface [Windows Debugging], AppendSymbolPath method, AppendSymbolPath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], AppendSymbolPath method
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSymbols::AppendSymbolPath, IDebugSymbols interface [Windows Debugging], AppendSymbolPath method, AppendSymbolPath method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AppendSymbolPath, AppendSymbolPath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::AppendSymbolPath, IDebugSymbols::AppendSymbolPath, IDebugSymbols3::AppendSymbolPath, IDebugSymbols2::AppendSymbolPath, IDebugSymbols_cc73a8f6-3cf1-40a1-8cb5-712eeca0b883.xml, IDebugSymbols3 interface [Windows Debugging], AppendSymbolPath method, AppendSymbolPath, AppendSymbolPath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], AppendSymbolPath method, AppendSymbolPath method [Windows Debugging], debugger.appendsymbolpath, IDebugSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.AppendSymbolPath
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::AppendSymbolPath method
@@ -113,7 +113,7 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -121,11 +121,11 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -137,5 +137,5 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::AppendSymbolPath method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::AppendSymbolPath method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

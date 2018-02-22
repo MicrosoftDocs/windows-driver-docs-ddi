@@ -7,8 +7,8 @@ old-location: display\d3d10_ddi_sampler_desc.htm
 old-project: display
 ms.assetid: 2f65b381-bf81-45b5-9583-793e4ffb453c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_Dx10param_Structs_3bd0d5fd-417c-43ef-9bdf-0073d8651ced.xml, D3D10_DDI_SAMPLER_DESC, d3d10umddi/D3D10_DDI_SAMPLER_DESC, display.d3d10_ddi_sampler_desc, D3D10_DDI_SAMPLER_DESC structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: D3D10_DDI_SAMPLER_DESC structure [Display Devices], D3D10_DDI_SAMPLER_DESC, UMDisplayDriver_Dx10param_Structs_3bd0d5fd-417c-43ef-9bdf-0073d8651ced.xml, display.d3d10_ddi_sampler_desc, d3d10umddi/D3D10_DDI_SAMPLER_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,7 +128,7 @@ typedef struct D3D10_DDI_SAMPLER_DESC {
 
 ## -see-also
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_filter.md">D3D10_DDI_FILTER</a>
 
 
 
@@ -136,7 +136,7 @@ typedef struct D3D10_DDI_SAMPLER_DESC {
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_filter.md">D3D10_DDI_FILTER</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 
@@ -152,5 +152,5 @@ typedef struct D3D10_DDI_SAMPLER_DESC {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_SAMPLER_DESC structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10_DDI_SAMPLER_DESC structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

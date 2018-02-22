@@ -7,8 +7,8 @@ old-location: dtf\iaction_settarget.htm
 old-project: dtf
 ms.assetid: ac539b82-83a1-4ccb-8088-c6f4b746a184
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: dtf.iaction_settarget, Microsoft::WDTF::IAction::SetTarget, IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, IAction::SetTarget, Microsoft.WDTF.IAction.SetTarget, IAction, SetTarget method [Windows Device Testing Framework], SetTarget, SetTarget method [Windows Device Testing Framework], IAction interface, wdtf/IAction::SetTarget, IAction interface [Windows Device Testing Framework], SetTarget method
+ms.date: 2/20/2018
+ms.keywords: SetTarget method [Windows Device Testing Framework], IAction interface, IAction::SetTarget, Microsoft.WDTF.IAction.SetTarget, wdtf/IAction::SetTarget, IAction_6b35121b-1750-475f-8c37-5edf9c0b8585.xml, SetTarget method [Windows Device Testing Framework], Microsoft::WDTF::IAction::SetTarget, IAction, IAction interface [Windows Device Testing Framework], SetTarget method, dtf.iaction_settarget, SetTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IAction.SetTarget
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 
@@ -100,6 +100,10 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 ## -see-also
 
+<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
+
+
+
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
 
 
@@ -108,21 +112,17 @@ The <b>SetTarget</b> method is used when you are creating WDTF actions.  Do not 
 
 
 
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
-
-
-
-<a href="..\wdtf\nn-wdtf-iwdtftargets2.md">IWDTFTargets2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538355">Action interfaces</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IAction::SetTarget method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IAction::SetTarget method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

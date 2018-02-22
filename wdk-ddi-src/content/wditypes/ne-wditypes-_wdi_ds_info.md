@@ -7,8 +7,8 @@ old-location: netvista\wdi_ds_info.htm
 old-project: netvista
 ms.assetid: 4375FF5C-8772-43AB-844B-4AD5E044AF55
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_DS_CHANGED, netvista.wdi_ds_info, WDI_DS_INFO, WDI_DS_UNKNOWN, wditypes/WDI_DS_INFO, wditypes/WDI_DS_UNCHANGED, wditypes/WDI_DS_UNKNOWN, WDI_DS_UNCHANGED, WDI_DS_CHANGED, WDI_DS_INFO enumeration [Device and Driver Installation], _WDI_DS_INFO, netvista.wifi_ds_info
+ms.date: 2/16/2018
+ms.keywords: netvista.wdi_ds_info, wditypes/WDI_DS_INFO, WDI_DS_UNKNOWN, _WDI_DS_INFO, wditypes/WDI_DS_UNCHANGED, WDI_DS_INFO enumeration [Device and Driver Installation], wditypes/WDI_DS_UNKNOWN, WDI_DS_CHANGED, WDI_DS_INFO, WDI_DS_UNCHANGED, netvista.wifi_ds_info, wditypes/WDI_DS_CHANGED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

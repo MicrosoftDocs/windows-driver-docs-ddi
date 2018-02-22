@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface.htm
 old-project: display
 ms.assetid: 4a973ecd-341f-4766-9fed-f56e55f8deae
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure [Display Devices], DXGK_MONITORFREQUENCYRANGESET_INTERFACE, _DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DmStructs_7ff19615-df83-4d5e-91c2-8a94a1cfeea3.xml, display.dxgk_monitorfrequencyrangeset_interface
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DXGK_MONITORFREQUENCYRANGESET_INTERFACE structure [Display Devices], display.dxgk_monitorfrequencyrangeset_interface, DmStructs_7ff19615-df83-4d5e-91c2-8a94a1cfeea3.xml, _DXGK_MONITORFREQUENCYRANGESET_INTERFACE, DXGK_MONITORFREQUENCYRANGESET_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

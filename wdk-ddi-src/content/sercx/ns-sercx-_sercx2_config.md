@@ -7,8 +7,8 @@ old-location: serports\sercx2_config.htm
 old-project: serports
 ms.assetid: 9F33E535-21C1-446F-93AA-B86157904F68
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PSERCX2_CONFIG, PSERCX2_CONFIG, 2/PSERCX2_CONFIG, SERCX2_CONFIG structure [Serial Ports], _SERCX2_CONFIG, PSERCX2_CONFIG structure pointer [Serial Ports], 2/SERCX2_CONFIG, serports.sercx2_config, SERCX2_CONFIG"
+ms.date: 2/15/2018
+ms.keywords: SERCX2_CONFIG structure [Serial Ports], PSERCX2_CONFIG, serports.sercx2_config, PSERCX2_CONFIG structure pointer [Serial Ports], SERCX2_CONFIG, _SERCX2_CONFIG, 2/SERCX2_CONFIG, 2/PSERCX2_CONFIG, *PSERCX2_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -144,19 +144,7 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 ## -see-also
 
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_purge_fifos.md">EvtSerCx2PurgeFifos</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
 
 
 
@@ -164,7 +152,27 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
+<a href="..\sercx\nf-sercx-sercx2_config_init.md">SERCX2_CONFIG_INIT</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_select_next_receive_transaction_type.md">EvtSerCx2SelectNextReceiveTransactionType</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
+
+
+
 <a href="..\sercx\nc-sercx-evt_sercx2_fileclose.md">EvtSerCx2FileClose</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_control.md">EvtSerCx2Control</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
 
 
 
@@ -176,10 +184,6 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_config_init.md">SERCX2_CONFIG_INIT</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitmask</a>
 
 
@@ -188,13 +192,9 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_control.md">EvtSerCx2Control</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX2_CONFIG structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX2_CONFIG structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

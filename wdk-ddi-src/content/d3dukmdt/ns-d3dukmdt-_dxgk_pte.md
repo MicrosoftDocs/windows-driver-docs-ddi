@@ -7,8 +7,8 @@ old-location: display\dxgk_pte.htm
 old-project: display
 ms.assetid: 2d5c1f3e-69a6-4f7f-9c99-bbaf94e6401b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_PTE, DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, DXGK_PTE structure [Display Devices], d3dukmdt/DXGK_PTE, _DXGK_PTE, display.dxgk_pte
+ms.date: 2/20/2018
+ms.keywords: DmStructs_701e980c-29dc-46d2-8f03-ce8485a4cc70.xml, display.dxgk_pte, DXGK_PTE, DXGK_PTE structure [Display Devices], _DXGK_PTE, d3dukmdt/DXGK_PTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -150,17 +150,17 @@ Supported starting with Windows 10.
 Reserved for system use and will be set to zero.
 
 
-### -field Flags
+#### - Flags
 
 The unmasked value of the structure.
 
 
-### -field PageAddress
+#### - PageAddress
 
 The high 52 bits of the 64 bit physical address of a memory page. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
 
 
-### -field PageTableAddress
+#### - PageTableAddress
 
 The high 52 bits of the 64 bit physical address of a lower level page table. The low 12 bits are zero. The address is an offset from the start of the segment, defined by <b>Segment</b>, or a system memory address.
 

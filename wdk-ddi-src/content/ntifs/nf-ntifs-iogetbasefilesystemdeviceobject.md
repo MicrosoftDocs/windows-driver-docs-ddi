@@ -7,8 +7,8 @@ old-location: ifsk\iogetbasefilesystemdeviceobject.htm
 old-project: ifsk
 ms.assetid: 12a326d8-8628-496d-96e7-8c680aeb1a03
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/IoGetBaseFileSystemDeviceObject, ifsk.iogetbasefilesystemdeviceobject, ioref_008b0d20-a816-4f24-9439-ffe97ac8dc04.xml, IoGetBaseFileSystemDeviceObject function [Installable File System Drivers], IoGetBaseFileSystemDeviceObject
+ms.date: 2/16/2018
+ms.keywords: ntifs/IoGetBaseFileSystemDeviceObject, IoGetBaseFileSystemDeviceObject function [Installable File System Drivers], IoGetBaseFileSystemDeviceObject, ifsk.iogetbasefilesystemdeviceobject, ioref_008b0d20-a816-4f24-9439-ffe97ac8dc04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

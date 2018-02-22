@@ -4,11 +4,11 @@ title: "_TWAIN_CAPABILITY"
 author: windows-driver-content
 description: The TWAIN_CAPABILITY structure holds information used when a TWAIN-compatible application communicates with a WIA driver.
 old-location: image\twain_capability.htm
-old-project: image
+old-project: Image
 ms.assetid: 79a2155d-eb06-4095-9fe6-b95d93e46211
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PTWAIN_CAPABILITY, image.twain_capability, wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, TWAIN_CAPABILITY structure [Imaging Devices], TWAIN_CAPABILITY, wiatwcmp/TWAIN_CAPABILITY, wiatwcmp/PTWAIN_CAPABILITY, PTWAIN_CAPABILITY structure pointer [Imaging Devices], _TWAIN_CAPABILITY, *PTWAIN_CAPABILITY
+ms.date: 2/15/2018
+ms.keywords: PTWAIN_CAPABILITY structure pointer [Imaging Devices], wiatwcmp/TWAIN_CAPABILITY, PTWAIN_CAPABILITY, wiastrct_12204cb8-d0ad-46d5-a741-4522ba28006b.xml, _TWAIN_CAPABILITY, TWAIN_CAPABILITY structure [Imaging Devices], TWAIN_CAPABILITY, image.twain_capability, *PTWAIN_CAPABILITY, wiatwcmp/PTWAIN_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TWAIN_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: TWAIN_CAPABILITY, *PTWAIN_CAPABILITY
+req.typenames: "*PTWAIN_CAPABILITY, TWAIN_CAPABILITY"
 req.product: Windows 10 or later.
 ---
 

@@ -7,13 +7,13 @@ old-location: kernel\pep_query_current_component_perf_state.htm
 old-project: kernel
 ms.assetid: 2A561853-B809-4BF5-911C-520A7D9C473C
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, pepfx/PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, pepfx/PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, kernel.pep_query_current_component_perf_state, PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure [Kernel-Mode Driver Architecture], *PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE
+ms.date: 2/16/2018
+ms.keywords: PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_query_current_component_perf_state, *PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, pepfx/PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, pepfx/PEP_QUERY_CURRENT_COMPONENT_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PEP_QUERY_CURRENT_COMPONENT_PERF_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE, PEP_QUERY_CURRENT_COMPONENT_PERF_STATE"
+req.typenames: PEP_QUERY_CURRENT_COMPONENT_PERF_STATE, *PPEP_QUERY_CURRENT_COMPONENT_PERF_STATE
 ---
 
 # _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure
@@ -88,18 +88,6 @@ typedef struct _PEP_QUERY_CURRENT_COMPONENT_PERF_STATE {
 [in] The index that identifies this P-state set. If M is the number of P-state sets for this component, P-state set indexes range from 0 to M–1. The PEP previously specified the number of P-state sets in response to a <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186839">PEP_DPM_QUERY_COMPONENT_PERF_CAPABILITIES</a> notification.
 
 
-### -field StateIndex
-
- 
-
-
-### -field StateValue
-
- 
-
-
-
-
 #### - ( unnamed union )
 
 The current performance level of this P-state set expressed either as an index into a set of discrete values or as a value in a range. In response to a previous <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186840">PEP_DPM_QUERY_COMPONENT_PERF_SET</a> notification, the PEP indicated whether the performance values in the P-state set are of type <b>PoFxPerfStateTypeDiscrete</b> or <b>PoFxPerfStateTypeRange</b>.
@@ -128,10 +116,6 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186843">PEP_DPM_QUERY_CURRENT_COMPONENT_PERF_STATE</a>
 
 
@@ -140,9 +124,13 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
- 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_QUERY_CURRENT_COMPONENT_PERF_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\rxspindownmrxdispatcher.htm
 old-project: ifsk
 ms.assetid: 0ec10c43-df57-4661-9106-8edc6b76f5d7
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxref_aa43a136-8df7-45f1-bf52-48792c094f31.xml, rxworkq/RxSpinDownMRxDispatcher, ifsk.rxspindownmrxdispatcher, RxSpinDownMRxDispatcher, RxSpinDownMRxDispatcher function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: RxSpinDownMRxDispatcher, rxworkq/RxSpinDownMRxDispatcher, ifsk.rxspindownmrxdispatcher, rxref_aa43a136-8df7-45f1-bf52-48792c094f31.xml, RxSpinDownMRxDispatcher function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,17 +95,17 @@ The <b>RxSpinDownMRxDispatcher</b> routine is also called internally by the <b>R
 
 ## -see-also
 
-<a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a>
-
-
-
 <a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
 
 
 
- 
+<a href="..\rxworkq\nf-rxworkq-rxposttoworkerthread.md">RxPostToWorkerThread</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxSpinDownMRxDispatcher function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxSpinDownMRxDispatcher function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

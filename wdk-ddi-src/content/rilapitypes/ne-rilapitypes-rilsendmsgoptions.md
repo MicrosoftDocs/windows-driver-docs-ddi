@@ -7,8 +7,8 @@ old-location: netvista\rilsendmsgoptions_2.htm
 old-project: netvista
 ms.assetid: 84d13b43-06c4-4454-9853-80b1fe65d29d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SENDOPT_IMS, rilapitypes/RIL_SENDOPT_PERSISTLINK, netvista.rilsendmsgoptions_2, RILSENDMSGOPTIONS, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SENDOPT_IMS, RIL_SENDOPT_PERSISTLINK, rilapitypes/RILSENDMSGOPTIONS
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RIL_SENDOPT_IMS, RIL_SENDOPT_IMS, RILSENDMSGOPTIONS, rilapitypes/RILSENDMSGOPTIONS, netvista.rilsendmsgoptions_2, rilapitypes/RIL_SENDOPT_PERSISTLINK, RIL_SENDOPT_PERSISTLINK, RILSENDMSGOPTIONS enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

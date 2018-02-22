@@ -7,8 +7,8 @@ old-location: netvista\ril_setexecutorfocus.htm
 old-project: netvista
 ms.assetid: c8deb6ef-e75b-4c90-a7ca-d685fdcc43bc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SetExecutorFocus method [Network Drivers Starting with Windows Vista], RIL_SetExecutorFocus, rilapi/RIL_SetExecutorFocus, netvista.ril_setexecutorfocus
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_setexecutorfocus, rilapi/RIL_SetExecutorFocus, RIL_SetExecutorFocus, RIL_SetExecutorFocus method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetExecutorFocus
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

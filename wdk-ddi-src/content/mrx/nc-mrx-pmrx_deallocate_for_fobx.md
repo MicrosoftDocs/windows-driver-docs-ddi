@@ -7,8 +7,8 @@ old-location: ifsk\mrxdeallocateforfobx.htm
 old-project: ifsk
 ms.assetid: 3b33df22-7757-4270-8cb0-59e8f5d5a80a
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.mrxdeallocateforfobx, MRxDeallocateForFobx routine [Installable File System Drivers], MRxDeallocateForFobx, PMRX_DEALLOCATE_FOR_FOBX, PMRX_DEALLOCATE_FOR_FOBX, mrx/MRxDeallocateForFobx, mrxref_2b2fa1f1-19f9-4a9b-9105-7c5946428b88.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.mrxdeallocateforfobx, MRxDeallocateForFobx, MRxDeallocateForFobx routine [Installable File System Drivers], MRxDeallocateForFobx, PMRX_DEALLOCATE_FOR_FOBX, PMRX_DEALLOCATE_FOR_FOBX, mrx/MRxDeallocateForFobx, mrxref_2b2fa1f1-19f9-4a9b-9105-7c5946428b88.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -106,6 +106,30 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
@@ -114,15 +138,7 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fcb.md">MRxDeallocateForFcb</a>
 
 
 
@@ -130,11 +146,11 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
+<a href="..\mrx\nc-mrx-pmrx_is_lock_realizable.md">MRxIsLockRealizable</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
 
 
 
@@ -142,7 +158,11 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
+<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
 
 
 
@@ -150,29 +170,9 @@ RDBSS ignores the return value from <i>MRxDeallocateForFobx</i>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
-
-
-
-<a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MRxDeallocateForFobx routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_DEALLOCATE_FOR_FOBX routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

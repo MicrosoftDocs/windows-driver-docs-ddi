@@ -7,8 +7,8 @@ old-location: netvista\rilcallsupportcaps.htm
 old-project: netvista
 ms.assetid: 1573a1bd-8c47-4fdc-89d1-242e91ff0e47
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_CNAP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CD, RILCALLSUPPORTCAPS, netvista.rilcallsupportcaps, RIL_CAPS_CALLSUPPORT_FM, RIL_CAPS_CALLSUPPORT_MSP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_ALL, RIL_CAPS_CALLSUPPORT_CD, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USSD_PHASE2, RIL_CAPS_CALLSUPPORT_ALL, RIL_CAPS_CALLSUPPORT_USSD_PHASE2, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CUG, RIL_CAPS_CALLSUPPORT_USS, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_MSP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_EMLPP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_FM, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CNAP, RIL_CAPS_CALLSUPPORT_EMLPP, RILCALLSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_CALLSUPPORT_CUG, ntddrilapitypes/RILCALLSUPPORTCAPS
+ms.date: 2/16/2018
+ms.keywords: netvista.rilcallsupportcaps, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CD, ntddrilapitypes/RILCALLSUPPORTCAPS, RIL_CAPS_CALLSUPPORT_EMLPP, RIL_CAPS_CALLSUPPORT_MSP, RIL_CAPS_CALLSUPPORT_FM, RIL_CAPS_CALLSUPPORT_USS, RIL_CAPS_CALLSUPPORT_USSD_PHASE2, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_FM, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USSD_PHASE2, RILCALLSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_CALLSUPPORT_CD, RILCALLSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_ALL, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_USS, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CUG, RIL_CAPS_CALLSUPPORT_CNAP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_MSP, RIL_CAPS_CALLSUPPORT_ALL, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_CNAP, ntddrilapitypes/RIL_CAPS_CALLSUPPORT_EMLPP, RIL_CAPS_CALLSUPPORT_CUG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

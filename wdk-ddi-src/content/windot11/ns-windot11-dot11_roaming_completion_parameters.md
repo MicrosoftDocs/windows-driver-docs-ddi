@@ -7,8 +7,8 @@ old-location: netvista\dot11_roaming_completion_parameters.htm
 old-project: netvista
 ms.assetid: 535857c5-dd71-4575-8475-ff6c7c934dbe
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, netvista.dot11_roaming_completion_parameters, *PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: DOT11_ROAMING_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], PDOT11_ROAMING_COMPLETION_PARAMETERS, netvista.dot11_roaming_completion_parameters, Native_802.11_data_types_49eb3670-7bdc-41ad-b143-cb9d1be8c32f.xml, windot11/PDOT11_ROAMING_COMPLETION_PARAMETERS, PDOT11_ROAMING_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ROAMING_COMPLETION_PARAMETERS, windot11/DOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ROAMING_COMPLETION_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_ROAMING_COMPLETION_PARAMETERS, DOT11_ROAMING_COMPLETION_PARAMETERS"
+req.typenames: DOT11_ROAMING_COMPLETION_PARAMETERS, *PDOT11_ROAMING_COMPLETION_PARAMETERS
 req.product: Windows 10 or later.
 ---
 
@@ -139,5 +139,5 @@ For more information about the roaming operation, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ROAMING_COMPLETION_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ROAMING_COMPLETION_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

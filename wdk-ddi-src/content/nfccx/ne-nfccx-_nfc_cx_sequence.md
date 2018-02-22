@@ -7,8 +7,8 @@ old-location: nfpdrivers\nfc_cx_sequence.htm
 old-project: nfpdrivers
 ms.assetid: 752451F9-74FC-48A8-B9B8-2CBD381B91D9
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfc_cx_sequence, SequenceNfceeDiscComplete, nfccx/SequenceMaximum, nfccx/SequencePreRfDiscStart, SequencePreShutdown, *PNFC_CX_SEQUENCE, nfccx/SequencePreNfceeDisc, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], nfccx/SequencePreInit, nfccx/SequenceRecoveryComplete, SequencePreNfceeDisc, SequencePreInit, nfccx/NFC_CX_SEQUENCE, SequenceRfDiscStopComplete, nfccx/SequenceShutdownComplete, nfccx/SequenceInitComplete, SequencePreRfDiscStart, _NFC_CX_SEQUENCE, SequencePreRfDiscStop, nfccx/SequenceRfDiscStartComplete, nfccx/SequencePreShutdown, SequenceRfDiscStartComplete, SequenceShutdownComplete, SequencePreRecovery, SequenceRecoveryComplete, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreRecovery, nfccx/SequencePreRfDiscStop, NFC_CX_SEQUENCE, PNFC_CX_SEQUENCE, SequenceMaximum, nfccx/SequenceRfDiscStopComplete, SequenceInitComplete
+ms.date: 2/15/2018
+ms.keywords: SequenceNfceeDiscComplete, nfccx/SequencePreShutdown, nfccx/SequencePreNfceeDisc, nfccx/SequenceShutdownComplete, nfccx/SequenceMaximum, *PNFC_CX_SEQUENCE, SequenceRfDiscStopComplete, nfccx/SequenceNfceeDiscComplete, nfccx/SequencePreRecovery, SequencePreInit, SequencePreNfceeDisc, nfccx/SequencePreInit, nfpdrivers.nfc_cx_sequence, nfccx/SequenceRfDiscStartComplete, SequencePreRfDiscStart, SequencePreShutdown, SequencePreRfDiscStop, SequencePreRecovery, SequenceMaximum, NFC_CX_SEQUENCE, nfccx/SequenceInitComplete, nfccx/NFC_CX_SEQUENCE, nfccx/SequenceRecoveryComplete, SequenceRecoveryComplete, SequenceShutdownComplete, NFC_CX_SEQUENCE enumeration [Near-Field Proximity Drivers], PNFC_CX_SEQUENCE, nfccx/SequencePreRfDiscStop, nfccx/SequenceRfDiscStopComplete, SequenceInitComplete, _NFC_CX_SEQUENCE, SequenceRfDiscStartComplete, nfccx/SequencePreRfDiscStart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_SEQUENCE
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_SEQUENCE, NFC_CX_SEQUENCE"
+req.typenames: NFC_CX_SEQUENCE, *PNFC_CX_SEQUENCE
 ---
 
 # _NFC_CX_SEQUENCE enumeration
@@ -156,5 +156,5 @@ This sequence is invoked by the CX after the completion of the recovery sequence
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_SEQUENCE enumeration%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFC_CX_SEQUENCE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

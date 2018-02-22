@@ -7,8 +7,8 @@ old-location: stream\ksp_pin.htm
 old-project: stream
 ms.assetid: 0be4c4e1-6ea6-4439-841d-088cb1902604
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSP_PIN structure pointer [Streaming Media Devices], KSP_PIN structure [Streaming Media Devices], ks/PKSP_PIN, *PKSP_PIN, KSP_PIN, stream.ksp_pin, ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, ks/KSP_PIN, PKSP_PIN
+ms.date: 2/20/2018
+ms.keywords: stream.ksp_pin, ks/PKSP_PIN, PKSP_PIN structure pointer [Streaming Media Devices], KSPROPERTY_PIN_FLAGS_ATTRIBUTE_RANGE_AWARE, ks/KSP_PIN, KSP_PIN structure [Streaming Media Devices], PKSP_PIN, ks-struct_02faf16f-fb8d-4f1f-9176-e2c379a36d4e.xml, *PKSP_PIN, KSP_PIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,14 +83,14 @@ Specifies a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> struct
 Specifies the pin type ID.
 
 
-### -field Reserved
+#### - Reserved
 
 Reserved. Should be set to zero.
 
 Reserved. Should be set to zero.
 
 
-### -field Flags
+#### - Flags
 
 Pin flags. This is set to either 0 or the following.
 
@@ -123,5 +123,5 @@ The client is aware of attributes and handles attribute ranges.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSP_PIN structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSP_PIN structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

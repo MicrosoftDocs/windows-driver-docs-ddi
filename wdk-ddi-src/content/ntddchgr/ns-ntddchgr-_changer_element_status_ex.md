@@ -7,8 +7,8 @@ old-location: storage\changer_element_status_ex.htm
 old-project: storage
 ms.assetid: 1fb0d0f9-711a-4bd4-baf6-38ccbeae6e4a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_SVALID, ELEMENT_STATUS_LUN_VALID, ntddchgr/CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_INVERT, ERROR_SLOT_NOT_PRESENT, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, ELEMENT_STATUS_IMPEXP, ELEMENT_STATUS_PVOLTAG, ELEMENT_STATUS_EXENAB, ELEMENT_STATUS_EXCEPT, ERROR_UNHANDLED_ERROR, ERROR_TRAY_MALFUNCTION, ERROR_LABEL_QUESTIONABLE, ELEMENT_STATUS_ACCESS, storage.changer_element_status_ex, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_INENAB, PCHANGER_ELEMENT_STATUS_EX, ERROR_DRIVE_NOT_INSTALLED, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], ELEMENT_STATUS_ID_VALID, ELEMENT_STATUS_PRODUCT_DATA, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], ERROR_LABEL_UNREADABLE, *PCHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_FULL, _CHANGER_ELEMENT_STATUS_EX
+ms.date: 2/16/2018
+ms.keywords: ERROR_SLOT_NOT_PRESENT, CHANGER_ELEMENT_STATUS_EX, CHANGER_ELEMENT_STATUS_EX structure [Storage Devices], ERROR_DRIVE_NOT_INSTALLED, ntddchgr/PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_SVALID, ELEMENT_STATUS_FULL, ELEMENT_STATUS_LUN_VALID, ERROR_TRAY_MALFUNCTION, ELEMENT_STATUS_ID_VALID, ELEMENT_STATUS_PVOLTAG, PCHANGER_ELEMENT_STATUS_EX structure pointer [Storage Devices], ELEMENT_STATUS_INVERT, *PCHANGER_ELEMENT_STATUS_EX, ERROR_LABEL_UNREADABLE, ELEMENT_STATUS_EXENAB, ERROR_UNHANDLED_ERROR, storage.changer_element_status_ex, ERROR_LABEL_QUESTIONABLE, ELEMENT_STATUS_EXCEPT, ELEMENT_STATUS_IMPEXP, PCHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_PRODUCT_DATA, ELEMENT_STATUS_NOT_BUS, ELEMENT_STATUS_AVOLTAG, ELEMENT_STATUS_ACCESS, structs-changer_f620141a-83de-49c3-a79a-4f297e06955b.xml, _CHANGER_ELEMENT_STATUS_EX, ntddchgr/CHANGER_ELEMENT_STATUS_EX, ELEMENT_STATUS_INENAB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -269,11 +269,11 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 ## -see-also
 
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
+
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
@@ -285,7 +285,7 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
@@ -293,5 +293,5 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_ELEMENT_STATUS_EX structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_ELEMENT_STATUS_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndismcmregisteraddressfamilyex.htm
 old-project: netvista
 ms.assetid: f58a9c08-d2cf-48d1-98d1-68aecd3b7bd0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], NdisMCmRegisterAddressFamilyEx, condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, ndis/NdisMCmRegisterAddressFamilyEx, netvista.ndismcmregisteraddressfamilyex
+ms.date: 2/16/2018
+ms.keywords: NdisMCmRegisterAddressFamilyEx, ndis/NdisMCmRegisterAddressFamilyEx, condis_mcm_ref_9e0ef0aa-0fa8-4f40-a225-8908099356bc.xml, NdisMCmRegisterAddressFamilyEx function [Network Drivers Starting with Windows Vista], netvista.ndismcmregisteraddressfamilyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,28 +206,11 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
-   ProtocolCoOidRequestComplete</a>
 
 
 
@@ -236,7 +219,28 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 
 
+<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_af_register_notify.md">ProtocolCoAfRegisterNotify</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
@@ -244,11 +248,7 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545368">CO_ADDRESS_FAMILY</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -256,5 +256,5 @@ An MCM can support more than one AF for a single NIC that it manages. The MCM dr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmRegisterAddressFamilyEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMCmRegisterAddressFamilyEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

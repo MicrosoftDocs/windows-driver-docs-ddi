@@ -7,8 +7,8 @@ old-location: storage\scsiportfreedevicebase.htm
 old-project: storage
 ms.assetid: 391f3b20-175f-4b27-b30f-34ccc43ca650
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase, scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, ScsiPortFreeDeviceBase routine [Storage Devices], srb/ScsiPortFreeDeviceBase
+ms.date: 2/16/2018
+ms.keywords: scsiprt_e74eafd2-bedf-46d2-b71a-fb36b6bba128.xml, srb/ScsiPortFreeDeviceBase, storage.scsiportfreedevicebase, ScsiPortFreeDeviceBase, ScsiPortFreeDeviceBase routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortFreeDeviceBase
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -93,16 +93,16 @@ None
 
 
 
-If a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine determines that the driver does not need a particular mapped base address for an adapter, it must release the mapping by calling this routine. For example, when a miniport driver determines there are no supported HBAs on a particular I/O bus, it must call <b>ScsiPortFreeDeviceBase</b> with each mapped address returned by <b>ScsiPortGetDeviceBase</b>, if any calls to this routine were made.
+If a miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine determines that the driver does not need a particular mapped base address for an adapter, it must release the mapping by calling this routine. For example, when a miniport driver determines there are no supported HBAs on a particular I/O bus, it must call <b>ScsiPortFreeDeviceBase</b> with each mapped address returned by <b>ScsiPortGetDeviceBase</b>, if any calls to this routine were made.
 
-<b>ScsiPortFreeDeviceBase</b> can be called only from miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
+<b>ScsiPortFreeDeviceBase</b> can be called only from miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
 
 
@@ -114,5 +114,5 @@ If a miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardw
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortFreeDeviceBase routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortFreeDeviceBase routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicesetalignmentrequirement.htm
 old-project: wdf
 ms.assetid: 47e857d0-1423-45e5-a5a5-54507b8fa315
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicesetalignmentrequirement, PFN_WDFDEVICESETALIGNMENTREQUIREMENT, WdfDeviceSetAlignmentRequirement, wdfdevice/WdfDeviceSetAlignmentRequirement, WdfDeviceSetAlignmentRequirement method, kmdf.wdfdevicesetalignmentrequirement, DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfdevicesetalignmentrequirement, WdfDeviceSetAlignmentRequirement, DFDeviceObjectGeneralRef_9648c639-95b8-4dd9-8d30-8fb6352fe5f6.xml, WdfDeviceSetAlignmentRequirement method, wdfdevice/WdfDeviceSetAlignmentRequirement, wdf.wdfdevicesetalignmentrequirement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,10 +142,6 @@ WdfDeviceSetAlignmentRequirement(
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetalignmentrequirement.md">WdfDeviceGetAlignmentRequirement</a>
-
-
-
 <a href="..\wdfcommonbuffer\nf-wdfcommonbuffer-wdfcommonbuffergetalignedlogicaladdress.md">WdfCommonBufferGetAlignedLogicalAddress</a>
 
 
@@ -154,9 +150,13 @@ WdfDeviceSetAlignmentRequirement(
 
 
 
- 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetalignmentrequirement.md">WdfDeviceGetAlignmentRequirement</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceSetAlignmentRequirement method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceSetAlignmentRequirement method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\iminiporttopology_init.htm
 old-project: audio
 ms.assetid: c8c53792-8c1a-466a-9f0f-8c12f9e7b50e
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: Init method [Audio Devices], IMiniportTopology interface, audmp-routines_c87a11c3-aed3-4516-b3bf-5d32423fa293.xml, IMiniportTopology interface [Audio Devices], Init method, Init method [Audio Devices], portcls/IMiniportTopology::Init, audio.iminiporttopology_init, IMiniportTopology::Init, IMiniportTopology, Init
+ms.date: 2/21/2018
+ms.keywords: Init method [Audio Devices], Init, audio.iminiporttopology_init, portcls/IMiniportTopology::Init, IMiniportTopology, audmp-routines_c87a11c3-aed3-4516-b3bf-5d32423fa293.xml, IMiniportTopology::Init, IMiniportTopology interface [Audio Devices], Init method, Init method [Audio Devices], IMiniportTopology interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportTopology.Init
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportTopology::Init method
@@ -106,15 +106,15 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
 
 
 <a href="..\portcls\nn-portcls-iminiporttopology.md">IMiniportTopology</a>
+
+
+
+<a href="..\portcls\nn-portcls-iporttopology.md">IPortTopology</a>
 
 
 
@@ -126,5 +126,5 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportTopology::Init method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportTopology::Init method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

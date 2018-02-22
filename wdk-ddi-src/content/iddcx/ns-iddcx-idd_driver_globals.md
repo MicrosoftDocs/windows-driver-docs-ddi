@@ -7,8 +7,8 @@ old-location: display\idd_driver_globals.htm
 old-project: display
 ms.assetid: 77d2c668-21e4-4c6d-9f3d-7e34c660d1da
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDD_DRIVER_GLOBALS, iddcx/IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS, display.idd_driver_globals, IDD_DRIVER_GLOBALS structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: iddcx/IDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS structure [Display Devices], IDD_DRIVER_GLOBALS, display.idd_driver_globals, *PIDD_DRIVER_GLOBALS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDD_DRIVER_GLOBALS
 product: Windows
 targetos: Windows
-req.typenames: IDD_DRIVER_GLOBALS, *PIDD_DRIVER_GLOBALS
+req.typenames: "*PIDD_DRIVER_GLOBALS, IDD_DRIVER_GLOBALS"
 ---
 
 # IDD_DRIVER_GLOBALS structure

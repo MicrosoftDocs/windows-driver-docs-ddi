@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_get__intensity_white.htm
 old-project: stream
 ms.assetid: 9B9FD4A1-F005-4CB8-80E3-D8AA74F6B9FB
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.ioctl_lamp_get__intensity_white, IOCTL_LAMP_GET_INTENSITY_WHITE control code [Streaming Media Devices], IOCTL_LAMP_GET_INTENSITY_WHITE, lamp/IOCTL_LAMP_GET_INTENSITY_WHITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -97,14 +97,18 @@ Length of a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHI
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -118,8 +122,10 @@ If the device has been acquired by a camera driver, the lamp driver should retur
 ## -remarks
 
 
+
 The payload type of this IOCTL is a <a href="..\lamp\ns-lamp-lamp_intensity_white.md">LAMP_INTENSITY_WHITE</a> structure.
 
 The <b>Value</b> field is the white light intensity in percentage (0 - 100).
+
 
 

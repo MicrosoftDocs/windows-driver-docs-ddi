@@ -7,8 +7,8 @@ old-location: wdf\wdfdeviceunmapiospace.htm
 old-project: wdf
 ms.assetid: C8963667-D2FB-4360-A523-33429D6FBF1B
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceUnmapIoSpace, wdf.wdfdeviceunmapiospace, PFN_WDFDEVICEUNMAPIOSPACE, WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function
+ms.date: 2/20/2018
+ms.keywords: WdfDeviceUnmapIoSpace, wdfdevice/WdfDeviceUnmapIoSpace, WdfDeviceUnmapIoSpace function, wdf.wdfdeviceunmapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,17 +113,17 @@ If a driver calls <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">Wdf
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18">IWDFDevice3::UnmapIoSpace</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicemapiospace.md">WdfDeviceMapIoSpace</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18">IWDFDevice3::UnmapIoSpace</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceUnmapIoSpace function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceUnmapIoSpace function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\sm_sendrps_out.htm
 old-project: storage
 ms.assetid: e202a292-df26-4829-be51-b8427d2dee20
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_SM_SendRPS_OUT, hbapiwmi/PSM_SendRPS_OUT, storage.sm_sendrps_out, SM_SendRPS_OUT structure [Storage Devices], hbapiwmi/SM_SendRPS_OUT, structs-Fibre_6aad3070-5819-4742-87c6-f5c3b50b4f9b.xml, PSM_SendRPS_OUT, PSM_SendRPS_OUT structure pointer [Storage Devices], SM_SendRPS_OUT, *PSM_SendRPS_OUT"
+ms.date: 2/16/2018
+ms.keywords: SM_SendRPS_OUT structure [Storage Devices], PSM_SendRPS_OUT, storage.sm_sendrps_out, structs-Fibre_6aad3070-5819-4742-87c6-f5c3b50b4f9b.xml, *PSM_SendRPS_OUT, hbapiwmi/SM_SendRPS_OUT, hbapiwmi/PSM_SendRPS_OUT, PSM_SendRPS_OUT structure pointer [Storage Devices], SM_SendRPS_OUT, _SM_SendRPS_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendRPS_OUT
 product: Windows
 targetos: Windows
-req.typenames: SM_SendRPS_OUT, *PSM_SendRPS_OUT
+req.typenames: "*PSM_SendRPS_OUT, SM_SendRPS_OUT"
 ---
 
 # _SM_SendRPS_OUT structure

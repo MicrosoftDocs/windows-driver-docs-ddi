@@ -7,13 +7,13 @@ old-location: kernel\system_power_state.htm
 old-project: kernel
 ms.assetid: aa027f03-7d74-4c0e-8f62-d53f41ae86ae
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/SYSTEM_POWER_STATE, _SYSTEM_POWER_STATE, PowerSystemMaximum, wdm/PowerSystemShutdown, kernel.system_power_state, wdm/PowerSystemWorking, PowerSystemSleeping1, wdm/PSYSTEM_POWER_STATE, wdm/PowerSystemHibernate, PowerSystemSleeping3, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PowerSystemHibernate, PowerSystemSleeping2, PSYSTEM_POWER_STATE, PowerSystemShutdown, wdm/PowerSystemUnspecified, PowerSystemUnspecified, PowerSystemWorking, wdm/PowerSystemSleeping2, wdm/PowerSystemMaximum, wdm/PowerSystemSleeping3, wdm/PowerSystemSleeping1, *PSYSTEM_POWER_STATE, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], SYSTEM_POWER_STATE
+ms.date: 2/16/2018
+ms.keywords: PowerSystemHibernate, *PSYSTEM_POWER_STATE, PowerSystemMaximum, PowerSystemWorking, wdm/PowerSystemSleeping2, PowerSystemShutdown, wdm/PowerSystemSleeping1, wdm/PSYSTEM_POWER_STATE, PowerSystemSleeping2, wdm/SYSTEM_POWER_STATE, wdm/PowerSystemMaximum, PowerSystemSleeping3, wdm/PowerSystemSleeping3, PowerSystemSleeping1, wdm/PowerSystemShutdown, _SYSTEM_POWER_STATE, SYSTEM_POWER_STATE enumeration [Kernel-Mode Driver Architecture], wdm/PowerSystemWorking, wdm/PowerSystemHibernate, PSYSTEM_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], PSYSTEM_POWER_STATE, sysenum_32377b1c-a5d3-491b-aebd-ee3d40798f73.xml, SYSTEM_POWER_STATE, kernel.system_power_state, wdm/PowerSystemUnspecified, PowerSystemUnspecified
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ntpoapi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	SYSTEM_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
+req.typenames: "*PSYSTEM_POWER_STATE, SYSTEM_POWER_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -138,5 +138,5 @@ For more information about power management in general, see <a href="https://msd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SYSTEM_POWER_STATE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20SYSTEM_POWER_STATE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

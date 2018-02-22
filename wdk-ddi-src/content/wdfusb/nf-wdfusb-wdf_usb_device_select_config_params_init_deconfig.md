@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_device_select_config_params_init_deconfig.htm
 old-project: wdf
 ms.assetid: cc7ee273-e445-4cdb-b96d-b63db6e433de
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFUsbRef_9dcc7843-1cc0-4af0-9763-31fbac46ce41.xml, kmdf.wdf_usb_device_select_config_params_init_deconfig, wdf.wdf_usb_device_select_config_params_init_deconfig, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function
+ms.date: 2/20/2018
+ms.keywords: DFUsbRef_9dcc7843-1cc0-4af0-9763-31fbac46ce41.xml, kmdf.wdf_usb_device_select_config_params_init_deconfig, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function, wdf.wdf_usb_device_select_config_params_init_deconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,15 +150,7 @@ Status = WdfUsbTargetDeviceSelectConfig(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_deconfig.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_multiple_interfaces.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_MULTIPLE_INTERFACES</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_urb.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB</a>
 
 
 
@@ -166,7 +158,7 @@ Status = WdfUsbTargetDeviceSelectConfig(
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_single_interface.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_deconfig.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG</a>
 
 
 
@@ -174,9 +166,17 @@ Status = WdfUsbTargetDeviceSelectConfig(
 
 
 
- 
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_urb.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_URB</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_select_config_params_init_single_interface.md">WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_SINGLE_INTERFACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_DEVICE_SELECT_CONFIG_PARAMS_INIT_DECONFIG function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

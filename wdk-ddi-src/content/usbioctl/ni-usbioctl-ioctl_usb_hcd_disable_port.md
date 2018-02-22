@@ -4,10 +4,10 @@ title: IOCTL_USB_HCD_DISABLE_PORT
 author: windows-driver-content
 description: The IOCTL_USB_HCD_DISABLE_PORT IOCTL has been deprecated. Do not use.
 old-location: buses\ioctl_usb_hcd_disable_port.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: c0ae41be-1b37-4410-8e7a-611a66c599c1
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_usb_hcd_disable_port, IOCTL_USB_HCD_DISABLE_PORT control code [Buses], IOCTL_USB_HCD_DISABLE_PORT, usbioctl/IOCTL_USB_HCD_DISABLE_PORT, usbirp_558a0a61-e35f-4015-9f72-df33e85c8c59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

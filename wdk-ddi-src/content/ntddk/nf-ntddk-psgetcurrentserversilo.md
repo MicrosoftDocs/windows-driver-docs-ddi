@@ -7,8 +7,8 @@ old-location: kernel\psgetcurrentserversilo.htm
 old-project: kernel
 ms.assetid: 4E30CD53-C078-40D7-BEF8-A39F57D71D42
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetCurrentServerSilo, kernel.psgetcurrentserversilo, PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], PsGetCurrentServerSilo
+ms.date: 2/16/2018
+ms.keywords: PsGetCurrentServerSilo routine [Kernel-Mode Driver Architecture], PsGetCurrentServerSilo, ntddk/PsGetCurrentServerSilo, kernel.psgetcurrentserversilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

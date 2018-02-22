@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2stateset.htm
 old-project: display
 ms.assetid: 3405cca6-8d65-4879-98e8-3cd8f66003a5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dhal/LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET, _D3DHAL_DP2STATESET, *LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, display.d3dhal_dp2stateset, LPD3DHAL_DP2STATESET structure pointer [Display Devices], d3dhal/D3DHAL_DP2STATESET
+ms.date: 2/20/2018
+ms.keywords: display.d3dhal_dp2stateset, d3dstrct_5aa94d41-9558-4d2d-ae6c-fb9d6e347fa5.xml, d3dhal/LPD3DHAL_DP2STATESET, _D3DHAL_DP2STATESET, *LPD3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET structure pointer [Display Devices], D3DHAL_DP2STATESET, LPD3DHAL_DP2STATESET, D3DHAL_DP2STATESET structure [Display Devices], d3dhal/D3DHAL_DP2STATESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

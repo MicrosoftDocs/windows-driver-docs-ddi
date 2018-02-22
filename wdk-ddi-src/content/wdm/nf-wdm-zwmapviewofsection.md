@@ -7,8 +7,8 @@ old-location: kernel\zwmapviewofsection.htm
 old-project: kernel
 ms.assetid: 2abe7751-ef8c-4511-aaf6-755428c451fe
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: NtMapViewOfSection, kernel.zwmapviewofsection, wdm/ZwMapViewOfSection, ZwMapViewOfSection, wdm/NtMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml
+ms.date: 2/16/2018
+ms.keywords: k111_cdad5afa-13b3-415e-96e8-688e7984a9fd.xml, wdm/NtMapViewOfSection, NtMapViewOfSection, ZwMapViewOfSection routine [Kernel-Mode Driver Architecture], wdm/ZwMapViewOfSection, ZwMapViewOfSection, kernel.zwmapviewofsection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -215,7 +215,7 @@ Several different views of a section can be concurrently mapped into the virtual
 
 If the specified section does not exist or the access requested is not allowed, <b>ZwMapViewOfSection</b> returns an error.
 
-Do not use <b>ZwMapViewOfSection</b> to map a memory range from <b>\Device\PhysicalMemory</b> into user mode—unless your driver has directly allocated the memory range through <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a> or another method guaranteeing that no other system component has mapped the same memory range with a different <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value.
+Do not use <b>ZwMapViewOfSection</b> to map a memory range from <b>\Device\PhysicalMemory</b> into user mode—unless your driver has directly allocated the memory range through <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a> or another method guaranteeing that no other system component has mapped the same memory range with a different <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value.
 
 User applications cannot access <b>\Device\PhysicalMemory</b> directly starting with Windows Server 2003 with Service Pack 1 (SP1) and can access it only if the driver passes a handle to the application.
 
@@ -230,27 +230,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
-
-
-
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566431">ZwCurrentProcess</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
 
 
 
@@ -258,9 +238,29 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
- 
+<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwunmapviewofsection.md">ZwUnmapViewOfSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopensection.md">ZwOpenSection</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwMapViewOfSection routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwMapViewOfSection routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\trace_information_class.htm
 old-project: kernel
 ms.assetid: 38fa1687-5ad6-4536-8930-8505e5960207
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MaxTraceInformationClass, wdm/TraceEnableFlagsClass, DiskIoNotifyRoutinesClass, wdm/WdfNotifyRoutinesClass, TraceSessionSettingsClass, wdm/TraceHandleClass, EventLoggerHandleClass, wdm/MaxTraceInformationClass, LoggerEventsLoggedClass, TRACE_INFORMATION_CLASS, TraceHandleByNameClass, TraceIdClass, kernel.trace_information_class, wdm/TraceInformationClassReserved1, wdm/LoggerEventsLoggedClass, wdm/TraceSessionSettingsClass, GlobalLoggerHandleClass, wdm/AllLoggerHandlesClass, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/EventLoggerHandleClass, wdm/DiskIoNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, WdfNotifyRoutinesClass, wdm/TraceEnableLevelClass, TraceEnableFlagsClass, LoggerEventsLostClass, FltIoNotifyRoutinesClass, TraceInformationClassReserved1, wdm/TraceIdClass, TraceHandleClass, AllLoggerHandlesClass, wdm/FltIoNotifyRoutinesClass, wdm/LoggerEventsLostClass, wdm/TraceHandleByNameClass, wdm/TRACE_INFORMATION_CLASS, TraceInformationClassReserved2, TraceEnableLevelClass, wdm/TraceInformationClassReserved2, _TRACE_INFORMATION_CLASS
+ms.date: 2/16/2018
+ms.keywords: TraceSessionSettingsClass, LoggerEventsLoggedClass, DiskIoNotifyRoutinesClass, TraceInformationClassReserved1, _TRACE_INFORMATION_CLASS, TraceEnableLevelClass, wdm/FltIoNotifyRoutinesClass, TRACE_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/TraceEnableFlagsClass, wdm/TraceSessionSettingsClass, wdm/WdfNotifyRoutinesClass, wdm/GlobalLoggerHandleClass, wdm/TraceInformationClassReserved1, wdm/AllLoggerHandlesClass, kernel.trace_information_class, TraceHandleByNameClass, FltIoNotifyRoutinesClass, wdm/TraceInformationClassReserved2, TraceInformationClassReserved2, TraceEnableFlagsClass, sysenum_a5da840d-6bda-44cb-81b3-905ece3356cd.xml, wdm/TRACE_INFORMATION_CLASS, LoggerEventsLostClass, MaxTraceInformationClass, AllLoggerHandlesClass, EventLoggerHandleClass, TraceIdClass, GlobalLoggerHandleClass, TraceHandleClass, TRACE_INFORMATION_CLASS, WdfNotifyRoutinesClass, wdm/LoggerEventsLoggedClass, wdm/TraceHandleClass, wdm/MaxTraceInformationClass, wdm/DiskIoNotifyRoutinesClass, wdm/TraceHandleByNameClass, wdm/TraceEnableLevelClass, wdm/TraceIdClass, wdm/EventLoggerHandleClass, wdm/LoggerEventsLostClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -184,11 +184,11 @@ The maximum value in this enumeration type.
 
 
 
-<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
-
-
-
 <a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+
+
+
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
 
 
 
@@ -200,5 +200,5 @@ The maximum value in this enumeration type.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRACE_INFORMATION_CLASS enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRACE_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\evtiostop.htm
 old-project: wdf
 ms.assetid: 71a789f1-4f10-44c3-8bd0-a0ea74ec28ab
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtiostop, EvtIoStop callback function, EvtIoStop, EVT_WDF_IO_QUEUE_IO_STOP, EVT_WDF_IO_QUEUE_IO_STOP, wdfio/EvtIoStop, DFQueueObjectRef_b9df4689-1de5-4c08-b2a2-c9f126a7d0bc.xml, kmdf.evtiostop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EvtIoStop
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
+req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -191,7 +191,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_STOP</b> function type is defined in the Wdfio.h head
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 
@@ -199,11 +199,15 @@ The <b>EVT_WDF_IO_QUEUE_IO_STOP</b> function type is defined in the Wdfio.h head
 
 
 
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_stop_action_flags.md">WDF_REQUEST_STOP_ACTION_FLAGS</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequeststopacknowledge.md">WdfRequestStopAcknowledge</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
 
 
 
@@ -211,13 +215,9 @@ The <b>EVT_WDF_IO_QUEUE_IO_STOP</b> function type is defined in the Wdfio.h head
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_stop_action_flags.md">WDF_REQUEST_STOP_ACTION_FLAGS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_IO_QUEUE_IO_STOP callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_IO_QUEUE_IO_STOP callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

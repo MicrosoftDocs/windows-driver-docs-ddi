@@ -7,8 +7,8 @@ old-location: wdf\wdffdoinitsetdefaultchildlistconfig.htm
 old-project: wdf
 ms.assetid: 656a0c58-dd12-4417-a781-464d1670592c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfFdoInitSetDefaultChildListConfig method, DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, wdf.wdffdoinitsetdefaultchildlistconfig, kmdf.wdffdoinitsetdefaultchildlistconfig, PFN_WDFFDOINITSETDEFAULTCHILDLISTCONFIG, WdfFdoInitSetDefaultChildListConfig, wdffdo/WdfFdoInitSetDefaultChildListConfig
+ms.date: 2/20/2018
+ms.keywords: WdfFdoInitSetDefaultChildListConfig, wdf.wdffdoinitsetdefaultchildlistconfig, wdffdo/WdfFdoInitSetDefaultChildListConfig, kmdf.wdffdoinitsetdefaultchildlistconfig, DFDeviceObjectFdoPdoRef_676a2185-db9b-498e-84e3-52b8ac32584c.xml, WdfFdoInitSetDefaultChildListConfig method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFdoInitSetDefaultChildListConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -152,5 +152,5 @@ WdfFdoInitSetDefaultChildListConfig(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitSetDefaultChildListConfig method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitSetDefaultChildListConfig method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

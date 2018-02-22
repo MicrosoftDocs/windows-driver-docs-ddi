@@ -7,8 +7,8 @@ old-location: kernel\clfsdeletelogbypointer.htm
 old-project: kernel
 ms.assetid: da6e4133-a2ba-4f8c-9490-e1f9b453b6e2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ClfsDeleteLogByPointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], wdm/ClfsDeleteLogByPointer, Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, kernel.clfsdeletelogbypointer
+ms.date: 2/16/2018
+ms.keywords: kernel.clfsdeletelogbypointer, ClfsDeleteLogByPointer routine [Kernel-Mode Driver Architecture], ClfsDeleteLogByPointer, Clfs_d5571c5c-19a0-4113-8401-910721d76191.xml, wdm/ClfsDeleteLogByPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -71,7 +71,7 @@ NTSTATUS ClfsDeleteLogByPointer(
 
 ### -param plfoLog [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_file_object.md">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream to be deleted. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
+A pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff554316">LOG_FILE_OBJECT</a> structure that represents an open instance of the stream to be deleted. The caller previously obtained this pointer by calling <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>.
 
 
 ## -returns
@@ -98,17 +98,17 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfsdeletelogfile.md">ClfsDeleteLogFile</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsDeleteLogByPointer routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ClfsDeleteLogByPointer routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: whea\whea_xpf_procinfo.htm
 old-project: whea
 ms.assetid: 90fb54dd-a2df-423c-8dd6-bd99c5ad1de4
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PWHEA_XPF_PROCINFO, PWHEA_XPF_PROCINFO structure pointer [WHEA Drivers and Applications], _WHEA_XPF_PROCINFO, whearef_adb42f7c-687b-47ef-b3fe-312ef995e5c5.xml, WHEA_XPF_PROCINFO, ntddk/PWHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO structure [WHEA Drivers and Applications], ntddk/WHEA_XPF_PROCINFO, whea.whea_xpf_procinfo, *PWHEA_XPF_PROCINFO
+ms.date: 2/20/2018
+ms.keywords: PWHEA_XPF_PROCINFO structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO structure [WHEA Drivers and Applications], WHEA_XPF_PROCINFO, whearef_adb42f7c-687b-47ef-b3fe-312ef995e5c5.xml, _WHEA_XPF_PROCINFO, whea.whea_xpf_procinfo, PWHEA_XPF_PROCINFO, *PWHEA_XPF_PROCINFO, ntddk/WHEA_XPF_PROCINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_XPF_PROCINFO
 product: Windows
 targetos: Windows
-req.typenames: WHEA_XPF_PROCINFO, *PWHEA_XPF_PROCINFO
+req.typenames: "*PWHEA_XPF_PROCINFO, WHEA_XPF_PROCINFO"
 ---
 
 # _WHEA_XPF_PROCINFO structure
@@ -124,27 +124,32 @@ This member contains valid data only if the <b>ValidBits.CheckInfo</b> bit is se
 
 
 
-### -field CheckInfo.CacheCheck
+
+#### CacheCheck
 
 A <a href="..\ntddk\ns-ntddk-_whea_xpf_cache_check.md">WHEA_XPF_CACHE_CHECK</a> union that describes cache error information. 
 
 
-### -field CheckInfo.TlbCheck
+
+#### TlbCheck
 
 A <a href="..\ntddk\ns-ntddk-_whea_xpf_tlb_check.md">WHEA_XPF_TLB_CHECK</a> union that describes translation lookaside buffer error information. 
 
 
-### -field CheckInfo.BusCheck
+
+#### BusCheck
 
 A <a href="..\ntddk\ns-ntddk-_whea_xpf_bus_check.md">WHEA_XPF_BUS_CHECK</a> union that describes bus error information.
 
 
-### -field CheckInfo.MsCheck
+
+#### MsCheck
 
 A <a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a> union that describes microarchitecture-specific error information. 
 
 
-### -field CheckInfo.AsULONGLONG
+
+#### AsULONGLONG
 
 A ULONGLONG representation of the contents of the <b>CheckInfo</b> union.
 
@@ -188,19 +193,15 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_xpf_tlb_check.md">WHEA_XPF_TLB_CHECK</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_xpf_procinfo_validbits.md">WHEA_XPF_PROCINFO_VALIDBITS</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_xpf_bus_check.md">WHEA_XPF_BUS_CHECK</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_tlb_check.md">WHEA_XPF_TLB_CHECK</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a>
 
 
 
@@ -212,9 +213,13 @@ The <a href="..\ntddk\ns-ntddk-_whea_xpf_processor_error_section.md">WHEA_XPF_PR
 
 
 
- 
+<a href="..\ntddk\ns-ntddk-_whea_xpf_ms_check.md">WHEA_XPF_MS_CHECK</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_PROCINFO structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_XPF_PROCINFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

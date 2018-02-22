@@ -4,11 +4,11 @@ title: UfxDeviceNotifyAttach function
 author: windows-driver-content
 description: Notifies UFX that the device's USB cable has been attached.
 old-location: buses\ufxdevicenotifyattach.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: E45FA08C-3E00-4AF6-A983-6E9C808AFA11
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ufxclient/UfxDeviceNotifyAttach, UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, UfxDeviceNotifyAttach
+ms.date: 2/15/2018
+ms.keywords: UfxDeviceNotifyAttach method [Buses], buses.ufxdevicenotifyattach, ufxclient/UfxDeviceNotifyAttach, UfxDeviceNotifyAttach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceNotifyAttach
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

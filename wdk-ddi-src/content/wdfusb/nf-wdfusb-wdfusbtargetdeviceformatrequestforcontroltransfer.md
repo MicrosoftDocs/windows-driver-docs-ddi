@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetdeviceformatrequestforcontroltransfer.htm
 old-project: wdf
 ms.assetid: 72ba7550-9153-4ff7-8478-c9cc71151a25
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, WdfUsbTargetDeviceFormatRequestForControlTransfer method, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer, kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, PFN_WDFUSBTARGETDEVICEFORMATREQUESTFORCONTROLTRANSFER, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfusbtargetdeviceformatrequestforcontroltransfer, wdfusb/WdfUsbTargetDeviceFormatRequestForControlTransfer, WdfUsbTargetDeviceFormatRequestForControlTransfer method, wdf.wdfusbtargetdeviceformatrequestforcontroltransfer, DFUsbRef_7f2ef529-05f2-46c2-861e-d9557c6bb7bc.xml, WdfUsbTargetDeviceFormatRequestForControlTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -290,6 +290,10 @@ if (WdfRequestSend(
 
 ## -see-also
 
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicesendcontroltransfersynchronously.md">WdfUsbTargetDeviceSendControlTransferSynchronously</a>
 
 
@@ -298,13 +302,9 @@ if (WdfRequestSend(
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_control_setup_packet_init_get_status.md">WDF_USB_CONTROL_SETUP_PACKET_INIT_GET_STATUS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceFormatRequestForControlTransfer method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceFormatRequestForControlTransfer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

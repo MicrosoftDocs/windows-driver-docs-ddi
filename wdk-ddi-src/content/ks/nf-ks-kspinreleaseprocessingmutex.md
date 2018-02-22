@@ -7,7 +7,7 @@ old-location: stream\kspinreleaseprocessingmutex.htm
 old-project: stream
 ms.assetid: 9a117c5b-26a4-4fdb-b51e-933b8f105a81
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: avfunc_22421ea0-8973-4921-a0cb-f1d824f76357.xml, stream.kspinreleaseprocessingmutex, KsPinReleaseProcessingMutex, ks/KsPinReleaseProcessingMutex, KsPinReleaseProcessingMutex function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,17 +93,17 @@ Minidrivers that must suspend processing for a long time should not use this mut
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
 <a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
 
 
 
- 
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinReleaseProcessingMutex function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinReleaseProcessingMutex function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

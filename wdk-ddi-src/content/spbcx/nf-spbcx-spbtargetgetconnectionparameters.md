@@ -7,8 +7,8 @@ old-location: spb\spbtargetgetconnectionparameters.htm
 old-project: SPB
 ms.assetid: 0692D8A3-CA43-4D27-9E8E-EB104DB1651F
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SpbTargetGetConnectionParameters method [Buses], spbcx/SpbTargetGetConnectionParameters, SpbTargetGetConnectionParameters, SPB.spbtargetgetconnectionparameters
+ms.date: 2/15/2018
+ms.keywords: SpbTargetGetConnectionParameters method [Buses], SpbTargetGetConnectionParameters, SPB.spbtargetgetconnectionparameters, spbcx/SpbTargetGetConnectionParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,7 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
-
-
-
-<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406204">SPB_CONNECTION_PARAMETERS</a>
 
 
 
@@ -118,7 +114,11 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406204">SPB_CONNECTION_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/D90DD169-A989-4D08-B1B8-BDE7EC9B7A82">EvtSpbTargetConnect</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406205">SPB_CONNECTION_PARAMETERS_INIT</a>
 
 
 
@@ -130,5 +130,5 @@ The SPB framework extension (SpbCx) calls your controller driver's <a href="http
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbTargetGetConnectionParameters method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbTargetGetConnectionParameters method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

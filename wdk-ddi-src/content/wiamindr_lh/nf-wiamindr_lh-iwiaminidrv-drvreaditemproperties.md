@@ -4,11 +4,11 @@ title: IWiaMiniDrv::drvReadItemProperties method
 author: windows-driver-content
 description: The IWiaMiniDrv::drvReadItemProperties method reads the driver item properties that need to be updated.
 old-location: image\iwiaminidrv_drvreaditemproperties.htm
-old-project: image
+old-project: Image
 ms.assetid: 015c2e02-62aa-4037-9974-c8e4b8784fe5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: drvReadItemProperties method [Imaging Devices], MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties, drvReadItemProperties, image.iwiaminidrv_drvreaditemproperties, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method, IWiaMiniDrv::drvReadItemProperties, IWiaMiniDrv
+ms.date: 2/15/2018
+ms.keywords: drvReadItemProperties method [Imaging Devices], IWiaMiniDrv interface, drvReadItemProperties, drvReadItemProperties method [Imaging Devices], IWiaMiniDrv, IWiaMiniDrv interface [Imaging Devices], drvReadItemProperties method, image.iwiaminidrv_drvreaditemproperties, wiamindr_lh/IWiaMiniDrv::drvReadItemProperties, MiniDrv_515d9cc7-c76a-4a15-9cc1-59be834382fe.xml, IWiaMiniDrv::drvReadItemProperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -146,11 +146,7 @@ In this method, the minidriver should read the requested properties from the dev
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
-
-
-
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
 
 
@@ -162,11 +158,15 @@ In this method, the minidriver should read the requested properties from the dev
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropguid.md">wiasWritePropGuid</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 
 
@@ -186,5 +186,5 @@ In this method, the minidriver should read the requested properties from the dev
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvReadItemProperties method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaMiniDrv::drvReadItemProperties method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\iportwavertstream_mapallocatedpages.htm
 old-project: audio
 ms.assetid: 90f412de-073f-4889-adf3-898cde0206b7
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: audio.iportwavertstream_mapallocatedpages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface [Audio Devices], MapAllocatedPages method, MapAllocatedPages, IPortWaveRTStream::MapAllocatedPages, portcls/IPortWaveRTStream::MapAllocatedPages, IPortWaveRTStream, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface
+ms.date: 2/21/2018
+ms.keywords: IPortWaveRTStream::MapAllocatedPages, MapAllocatedPages, MapAllocatedPages method [Audio Devices], IPortWaveRTStream interface, portcls/IPortWaveRTStream::MapAllocatedPages, IPortWaveRTStream interface [Audio Devices], MapAllocatedPages method, IPortWaveRTStream, audio.iportwavertstream_mapallocatedpages, audmp-routines_914e2039-e45b-44c5-8b29-0bcc6da901c3.xml, MapAllocatedPages method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWaveRTStream.MapAllocatedPages
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWaveRTStream::MapAllocatedPages method
@@ -75,7 +75,7 @@ Pointer to the memory descriptor list (<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>) 
 
 ### -param CacheType [in]
 
-Specifies the cache type. Set this parameter to one of the following <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumeration values: <b>MmNonCached</b>, <b>MmCached</b>, or <b>MmWriteCombined</b>.
+Specifies the cache type. Set this parameter to one of the following <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumeration values: <b>MmNonCached</b>, <b>MmCached</b>, or <b>MmWriteCombined</b>.
 
 
 ## -returns
@@ -104,7 +104,11 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+
+
+<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 
@@ -112,19 +116,7 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 
 
-<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
@@ -132,9 +124,17 @@ A WaveRT miniport driver should not require software access to the audio buffer 
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536934">IPortWaveRTStream::UnmapAllocatedPages</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveRTStream::MapAllocatedPages method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveRTStream::MapAllocatedPages method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

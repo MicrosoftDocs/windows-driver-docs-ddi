@@ -7,8 +7,8 @@ old-location: kernel\iogetdeviceinterfacealias.htm
 old-project: kernel
 ms.assetid: 667c9524-be12-4f02-b921-6067abfb1dde
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, kernel.iogetdeviceinterfacealias, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias
+ms.date: 2/16/2018
+ms.keywords: wdm/IoGetDeviceInterfaceAlias, IoGetDeviceInterfaceAlias, k104_e33a51e9-4576-4558-9967-9ea27467c326.xml, IoGetDeviceInterfaceAlias routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceinterfacealias
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,7 @@ Pointer to a GUID specifying the interface class of the alias to retrieve.
 
 ### -param AliasSymbolicLinkName [out]
 
-Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a> when it is no longer needed.
+Specifies a pointer to a <b>NULL</b> Unicode string. On successful return, <i>AliasSymbolicLinkName</i>.<b>Buffer</b> points to a string containing the name of the alias. The caller must free the Unicode string with <a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a> when it is no longer needed.
 
 
 ## -returns
@@ -154,17 +154,17 @@ Callers of <b>IoGetDeviceInterfaceAlias</b> must be running at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
 
 
 
- 
+<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceInterfaceAlias routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceInterfaceAlias routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

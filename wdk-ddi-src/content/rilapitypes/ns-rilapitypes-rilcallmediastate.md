@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediastate_2.htm
 old-project: netvista
 ms.assetid: d3b89502-667c-45dd-af1c-05b7c8613d6c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLMEDIASTATE, rilapitypes/RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate_2, *LPRILCALLMEDIASTATE
+ms.date: 2/16/2018
+ms.keywords: RILCALLMEDIASTATE, RILCALLMEDIASTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallmediastate_2, *LPRILCALLMEDIASTATE, rilapitypes/RILCALLMEDIASTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,26 +92,6 @@ typedef struct _RILCALLMEDIASTATE {
 
 
 ### -field mediaStateUnion
-
-
-### -field mediaStateUnion.stAudioState
-
- 
-
-
-### -field mediaStateUnion.stVideoState
-
- 
-
-
-### -field mediaStateUnion.dwCustomStateSpecific
-
- 
-
-
-### -field mediaStateUnion.pad
-
- 
 
 
 ### -field RILCALLMEDIASTATEUNION

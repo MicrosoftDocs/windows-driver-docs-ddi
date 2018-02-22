@@ -7,8 +7,8 @@ old-location: netvista\rillinecontrolinfo_2.htm
 old-project: netvista
 ms.assetid: 490ef6ed-c5df-450f-acd1-36091ac8999e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rillinecontrolinfo_2, *LPRILLINECONTROLINFO, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], RILLINECONTROLINFO, rilapitypes/RILLINECONTROLINFO
+ms.date: 2/16/2018
+ms.keywords: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO, netvista.rillinecontrolinfo_2, RILLINECONTROLINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILLINECONTROLINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILLINECONTROLINFO
 product: Windows
 targetos: Windows
-req.typenames: RILLINECONTROLINFO, *LPRILLINECONTROLINFO
+req.typenames: "*LPRILLINECONTROLINFO, RILLINECONTROLINFO"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: storage\hbafcpscsientry.htm
 old-project: storage
 ms.assetid: 718431f9-e4cc-4e79-84d3-a59f5399e711
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: HBAFCPScsiEntry structure [Storage Devices], HBAFCPScsiEntry, storage.hbafcpscsientry, PHBAFCPScsiEntry, *PHBAFCPScsiEntry, _HBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, hbapiwmi/PHBAFCPScsiEntry, structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, PHBAFCPScsiEntry structure pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: "*PHBAFCPScsiEntry, storage.hbafcpscsientry, hbapiwmi/PHBAFCPScsiEntry, PHBAFCPScsiEntry structure pointer [Storage Devices], structs-Fibre_500172f1-a231-4530-afdf-fa0ba05d4904.xml, HBAFCPScsiEntry, hbapiwmi/HBAFCPScsiEntry, _HBAFCPScsiEntry, PHBAFCPScsiEntry, HBAFCPScsiEntry structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAFCPScsiEntry
 product: Windows
 targetos: Windows
-req.typenames: HBAFCPScsiEntry, *PHBAFCPScsiEntry
+req.typenames: "*PHBAFCPScsiEntry, HBAFCPScsiEntry"
 ---
 
 # _HBAFCPScsiEntry structure
@@ -94,5 +94,5 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_hbascsiid.md">HBA
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFCPScsiEntry structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFCPScsiEntry structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

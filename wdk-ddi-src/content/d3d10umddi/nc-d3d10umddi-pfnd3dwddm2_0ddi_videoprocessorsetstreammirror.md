@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreammirror.htm
 old-project: display
 ms.assetid: 945BD212-7B48-41FD-B11F-FB03DB073BD4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.videoprocessorsetstreammirror, pfnVideoProcessorSetStreamMirror callback function [Display Devices], pfnVideoProcessorSetStreamMirror, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR, d3d10umddi/pfnVideoProcessorSetStreamMirror
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamMirror
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback
@@ -100,27 +100,35 @@ Indicates whether mirroring support is enabled or disabled.
 Indicates whether the input stream should be flipped horizontally.
 
 
-<div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div><div> </div>
+
+<div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.</div>
+<div> </div>
 
 ### -param FlipVertical [in]
 
 Indicates whether the input stream should be flipped vertically.
 
 
+
 <div class="alert"><b>Note</b>  This should be ignored when <b>Enable</b> is <b>FALSE</b>.
-</div><div> </div>
+</div>
+<div> </div>
 
 ## -returns
+
 
 
 This callback function does not return a value.
 
 
 
+
 ## -remarks
 
 
+
 Operations are conceptually applied in the following order:
+
 
 
 
@@ -128,9 +136,11 @@ Operations are conceptually applied in the following order:
 
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DWDDM2_0DDI_VIDEOPROCESSORSETSTREAMMIRROR callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

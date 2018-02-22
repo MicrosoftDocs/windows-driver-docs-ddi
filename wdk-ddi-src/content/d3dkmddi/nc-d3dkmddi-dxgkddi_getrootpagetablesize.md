@@ -7,7 +7,7 @@ old-location: display\dxgkddigetrootpagetablesize.htm
 old-project: display
 ms.assetid: 474F1772-0DF9-487B-AEB9-302392AE0B98
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddigetrootpagetablesize, DxgkDdiGetRootPageTableSize callback function [Display Devices], DxgkDdiGetRootPageTableSize, DXGKDDI_GETROOTPAGETABLESIZE, DXGKDDI_GETROOTPAGETABLESIZE, d3dkmddi/DxgkDdiGetRootPageTableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -88,6 +88,8 @@ The <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getrootpagetablesize.md">DXGKARG_G
 ## -returns
 
 
+
 The page table size in bytes. The size must be a multiple of the page size of the GPU memory segment where page table is located.
+
 
 

@@ -7,8 +7,8 @@ old-location: ieee\get_unit_capabilities.htm
 old-project: IEEE
 ms.assetid: 7fe180c2-cf0b-4658-86e3-fed5e270db8c
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GET_UNIT_CAPABILITIES, GET_UNIT_CAPABILITIES structure [Buses], IEEE.get_unit_capabilities, 61883/GET_UNIT_CAPABILITIES, 61883/PGET_UNIT_CAPABILITIES, 61883_structures_d0aac9e5-5600-4552-b06a-7526e6c87336.xml, PGET_UNIT_CAPABILITIES structure pointer [Buses], PGET_UNIT_CAPABILITIES, _GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES
+ms.date: 2/15/2018
+ms.keywords: IEEE.get_unit_capabilities, GET_UNIT_CAPABILITIES structure [Buses], 61883/PGET_UNIT_CAPABILITIES, PGET_UNIT_CAPABILITIES structure pointer [Buses], 61883_structures_d0aac9e5-5600-4552-b06a-7526e6c87336.xml, GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES, 61883/GET_UNIT_CAPABILITIES, PGET_UNIT_CAPABILITIES, _GET_UNIT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_UNIT_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PGET_UNIT_CAPABILITIES, GET_UNIT_CAPABILITIES"
+req.typenames: GET_UNIT_CAPABILITIES, *PGET_UNIT_CAPABILITIES
 ---
 
 # _GET_UNIT_CAPABILITIES structure
@@ -112,5 +112,5 @@ If the AV_HOST_DMA_DOUBLE_BUFFERING_ENABLED flag is set, and the request level i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_UNIT_CAPABILITIES structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_UNIT_CAPABILITIES structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

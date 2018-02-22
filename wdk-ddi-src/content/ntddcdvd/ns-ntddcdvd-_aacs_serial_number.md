@@ -7,8 +7,8 @@ old-location: storage\aacs_serial_number.htm
 old-project: storage
 ms.assetid: 1436c8a5-9160-41d8-acc1-0af6acadfdba
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_AACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER, storage.aacs_serial_number, ntddcdvd/PAACS_SERIAL_NUMBER, *PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER structure [Storage Devices], structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml, PAACS_SERIAL_NUMBER structure pointer [Storage Devices], ntddcdvd/AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER"
+ms.date: 2/16/2018
+ms.keywords: ntddcdvd/PAACS_SERIAL_NUMBER, _AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER structure pointer [Storage Devices], structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml, storage.aacs_serial_number, AACS_SERIAL_NUMBER structure [Storage Devices], *PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER, ntddcdvd/AACS_SERIAL_NUMBER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,5 +97,5 @@ Clients retrieve the AACS serial number with an <a href="..\ntddcdvd\ni-ntddcdvd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_SERIAL_NUMBER structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_SERIAL_NUMBER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

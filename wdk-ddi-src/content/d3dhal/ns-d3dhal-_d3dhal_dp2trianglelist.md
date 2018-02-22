@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2trianglelist.htm
 old-project: display
 ms.assetid: f9a9b407-dae5-4456-8542-4f5b06af50a5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2TRIANGLELIST structure [Display Devices], display.d3dhal_dp2trianglelist, LPD3DHAL_DP2TRIANGLELIST, LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], *LPD3DHAL_DP2TRIANGLELIST, _D3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, d3dhal/LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST
+ms.date: 2/20/2018
+ms.keywords: LPD3DHAL_DP2TRIANGLELIST, D3DHAL_DP2TRIANGLELIST, d3dhal/D3DHAL_DP2TRIANGLELIST, d3dhal/LPD3DHAL_DP2TRIANGLELIST, display.d3dhal_dp2trianglelist, D3DHAL_DP2TRIANGLELIST structure [Display Devices], LPD3DHAL_DP2TRIANGLELIST structure pointer [Display Devices], _D3DHAL_DP2TRIANGLELIST, d3dstrct_3e5f6bc4-358d-4db1-88b3-2f7c7484abb4.xml, *LPD3DHAL_DP2TRIANGLELIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,17 +93,17 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
 D3DDP2OP_TRIANGLELIST
 
 
 
- 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TRIANGLELIST structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TRIANGLELIST structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

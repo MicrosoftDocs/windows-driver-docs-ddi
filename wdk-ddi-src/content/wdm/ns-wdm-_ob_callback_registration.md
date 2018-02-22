@@ -7,8 +7,8 @@ old-location: kernel\ob_callback_registration.htm
 old-project: kernel
 ms.assetid: e288b050-0875-4c9b-aa72-47845861755a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.ob_callback_registration, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], wdm/OB_CALLBACK_REGISTRATION, kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, POB_CALLBACK_REGISTRATION, wdm/POB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], *POB_CALLBACK_REGISTRATION
+ms.date: 2/16/2018
+ms.keywords: OB_CALLBACK_REGISTRATION, wdm/OB_CALLBACK_REGISTRATION, kernel.ob_callback_registration, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, *POB_CALLBACK_REGISTRATION, wdm/POB_CALLBACK_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,15 +108,11 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a>
-
-
-
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
-
-
 <a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_ob_operation_registration.md">OB_OPERATION_REGISTRATION</a>
 
 
 
@@ -124,9 +120,13 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 
 
- 
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_CALLBACK_REGISTRATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_CALLBACK_REGISTRATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

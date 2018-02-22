@@ -7,8 +7,8 @@ old-location: netvista\ndis_shared_memory_usage.htm
 old-project: netvista
 ms.assetid: c46102dd-26ea-459b-8cc2-f7e2d2e2f2ad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisSharedMemoryUsageXmitHeader, NdisSharedMemoryUsageUndefined, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageMax, NdisSharedMemoryUsageReceiveData, NdisSharedMemoryUsageXmit, ndis/NdisSharedMemoryUsageReceive, NDIS_SHARED_MEMORY_USAGE, ndis/NDIS_SHARED_MEMORY_USAGE, ndis/PNDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageReceiveLookahead, NdisSharedMemoryUsageOther, PNDIS_SHARED_MEMORY_USAGE, _NDIS_SHARED_MEMORY_USAGE, netvista.ndis_shared_memory_usage, ndis/NdisSharedMemoryUsageXmit, ndis/NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageReceiveHeader, *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], ndis/NdisSharedMemoryUsageReceiveHeader, NdisSharedMemoryUsageReceivePostLookahead, ndis/NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageUndefined, ndis/NdisSharedMemoryUsageMax, ndis/NdisSharedMemoryUsageReceiveData, ndis/NdisSharedMemoryUsageOther, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], ndis/NdisSharedMemoryUsageXmitHeader, NdisSharedMemoryUsageReceive, ndis/NdisSharedMemoryUsageReceivePostLookahead
+ms.date: 2/16/2018
+ms.keywords: NdisSharedMemoryUsageReceiveData, ndis/NdisSharedMemoryUsageMax, ndis/NdisSharedMemoryUsageXmit, netvista.ndis_shared_memory_usage, NDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageXmit, NdisSharedMemoryUsageMax, ndis/NdisSharedMemoryUsageOther, ndis/NdisSharedMemoryUsageReceiveHeader, _NDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageReceiveHeader, NdisSharedMemoryUsageUndefined, ndis/NdisSharedMemoryUsageXmitHeader, *PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE enumeration [Network Drivers Starting with Windows Vista], ndis/NdisSharedMemoryUsageUndefined, ndis/NdisSharedMemoryUsageReceive, NdisSharedMemoryUsageXmitHeader, ndis/NdisSharedMemoryUsageReceiveData, ndis/NDIS_SHARED_MEMORY_USAGE, PNDIS_SHARED_MEMORY_USAGE enumeration pointer [Network Drivers Starting with Windows Vista], PNDIS_SHARED_MEMORY_USAGE, ndis/NdisSharedMemoryUsageReceiveLookahead, ndis_shared_memory_ref_fc268c92-4745-4916-8aab-e1e67e12d217.xml, ndis/NdisSharedMemoryUsageReceivePostLookahead, NdisSharedMemoryUsageReceiveLookahead, ndis/NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageOther, ndis/PNDIS_SHARED_MEMORY_USAGE, NdisSharedMemoryUsageXmitData, NdisSharedMemoryUsageReceive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -148,18 +148,18 @@ The NDIS_SHARED_MEMORY_USAGE enumeration is used in the
 
 ## -see-also
 
+<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_scatter_gather_list_parameters.md">
    NDIS_SCATTER_GATHER_LIST_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_shared_memory_parameters.md">NDIS_SHARED_MEMORY_PARAMETERS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SHARED_MEMORY_USAGE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SHARED_MEMORY_USAGE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

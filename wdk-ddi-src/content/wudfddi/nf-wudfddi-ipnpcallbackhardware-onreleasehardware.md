@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallbackhardware_onreleasehardware.htm
 old-project: wdf
 ms.assetid: 8975941a-21ad-4d51-9215-b35fa65cdfeb
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: OnReleaseHardware method, wudfddi/IPnpCallbackHardware::OnReleaseHardware, IPnpCallbackHardware interface, OnReleaseHardware method, IPnpCallbackHardware, IPnpCallbackHardware::OnReleaseHardware, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, OnReleaseHardware, wdf.ipnpcallbackhardware_onreleasehardware, umdf.ipnpcallbackhardware_onreleasehardware, OnReleaseHardware method, IPnpCallbackHardware interface
+ms.date: 2/20/2018
+ms.keywords: OnReleaseHardware, IPnpCallbackHardware::OnReleaseHardware, UMDFDeviceObjectRef_d8966916-01c2-4e3d-b69b-d97ac06fe48a.xml, umdf.ipnpcallbackhardware_onreleasehardware, wdf.ipnpcallbackhardware_onreleasehardware, wudfddi/IPnpCallbackHardware::OnReleaseHardware, IPnpCallbackHardware interface, OnReleaseHardware method, IPnpCallbackHardware, OnReleaseHardware method, OnReleaseHardware method, IPnpCallbackHardware interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallbackHardware.OnReleaseHardware
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -101,18 +101,6 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/652B92C2-EF04-482A-BB57-9F64F947EE4F">IPnpCallbackHardware2::OnReleaseHardware</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
 
 
@@ -121,9 +109,21 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556766">IPnpCallbackHardware::OnPrepareHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/652B92C2-EF04-482A-BB57-9F64F947EE4F">IPnpCallbackHardware2::OnReleaseHardware</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackHardware::OnReleaseHardware method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackHardware::OnReleaseHardware method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

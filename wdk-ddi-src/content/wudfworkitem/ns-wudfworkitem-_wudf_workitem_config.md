@@ -7,8 +7,8 @@ old-location: wdf\wudf_workitem_config.htm
 old-project: wdf
 ms.assetid: 877C6641-30F9-44BC-9286-3B1D880482C9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: "*PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG, PWUDF_WORKITEM_CONFIG structure pointer, _WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG, umdf.wudf_workitem_config, wdf.wudf_workitem_config, wudfworkitem/WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, wudfworkitem/PWUDF_WORKITEM_CONFIG"
+ms.date: 2/20/2018
+ms.keywords: PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG, wdf.wudf_workitem_config, wudfworkitem/PWUDF_WORKITEM_CONFIG, umdf.wudf_workitem_config, _WUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG structure, PWUDF_WORKITEM_CONFIG structure pointer, wudfworkitem/WUDF_WORKITEM_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WUDF_WORKITEM_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: WUDF_WORKITEM_CONFIG, *PWUDF_WORKITEM_CONFIG
+req.typenames: "*PWUDF_WORKITEM_CONFIG, WUDF_WORKITEM_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -104,10 +104,6 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
-
-
-
 <a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
 
 
@@ -116,9 +112,13 @@ Setting the <b>AutomaticSerialization</b> member of <b>WUDF_WORKITEM_CONFIG</b> 
 
 
 
- 
+<a href="https://msdn.microsoft.com/B34EABF4-C659-4DB4-AEC6-94F544D79221">IWDFDevice3::CreateWorkItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WUDF_WORKITEM_CONFIG structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WUDF_WORKITEM_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

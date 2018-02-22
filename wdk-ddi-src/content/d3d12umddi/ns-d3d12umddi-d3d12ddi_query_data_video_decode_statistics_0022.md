@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_query_data_video_decode_statistics.htm
 old-project: display
 ms.assetid: F58AB9E1-4061-46B8-8137-319DF30D9CA7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022, D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 structure [Display Devices], d3d12umddi/D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022, display.d3d12ddi_query_data_video_decode_statistics
+ms.date: 2/20/2018
+ms.keywords: D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022, D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 structure [Display Devices], display.d3d12ddi_query_data_video_decode_statistics, d3d12umddi/D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,6 @@ The number of blocks affected. If the <b>Status</b> value  is not 0, this member
 ### -field FrameRate
 
 
-
 ### -field BitRate
 
 When the <b>Status</b> value returned is <b>D3D12DDI_VIDEO_DECODE_STATUS_RATE_EXCEEDED</b>, this member reports the required bit rate.  This value may be used to recreate the decode stream and try again.  The updated value is relative to the frame rate with which the stream was created.  A value of zero (0) is valid to indicate that the worst case bit rate should be assumed.  
@@ -95,9 +94,11 @@ For all other <b>Status</b> values, <b>BitRate</b> is not used and is set to zer
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_status_0020.md">D3D12DDI_VIDEO_DECODE_STATUS</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D12DDI_QUERY_DATA_VIDEO_DECODE_STATISTICS_0022 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

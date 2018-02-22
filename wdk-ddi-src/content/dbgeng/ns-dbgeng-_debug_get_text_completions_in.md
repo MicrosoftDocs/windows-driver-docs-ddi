@@ -4,11 +4,11 @@ title: "_DEBUG_GET_TEXT_COMPLETIONS_IN"
 author: windows-driver-content
 description: Defines information about text completions to get.
 old-location: debugger\debug_get_text_completions_in.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1B8B0B7D-346D-41FC-B718-60B04F10702C
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: DEBUG_GET_TEXT_COMPLETIONS_IN, _DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_DOT_COMMANDS, DEBUG_GET_TEXT_COMPLETIONS_NO_EXTENSION_COMMANDS, debugger.debug_get_text_completions_in, DEBUG_GET_TEXT_COMPLETIONS_NO_SYMBOLS, PDEBUG_GET_TEXT_COMPLETIONS_IN structure pointer [Windows Debugging], *PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN structure [Windows Debugging], dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN
+ms.date: 2/15/2018
+ms.keywords: DEBUG_GET_TEXT_COMPLETIONS_NO_EXTENSION_COMMANDS, DEBUG_GET_TEXT_COMPLETIONS_NO_SYMBOLS, debugger.debug_get_text_completions_in, _DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_NO_DOT_COMMANDS, *PDEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/DEBUG_GET_TEXT_COMPLETIONS_IN, PDEBUG_GET_TEXT_COMPLETIONS_IN structure pointer [Windows Debugging], PDEBUG_GET_TEXT_COMPLETIONS_IN, dbgeng/PDEBUG_GET_TEXT_COMPLETIONS_IN, DEBUG_GET_TEXT_COMPLETIONS_IN structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

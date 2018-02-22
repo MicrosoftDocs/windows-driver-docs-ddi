@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_device_information.htm
 old-project: wdf
 ms.assetid: 5d212a29-22b9-408d-9562-b232fc91cc9f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfusb/PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml, PWDF_USB_DEVICE_INFORMATION structure pointer, WDF_USB_DEVICE_INFORMATION structure, wdfusb/WDF_USB_DEVICE_INFORMATION, _WDF_USB_DEVICE_INFORMATION, kmdf.wdf_usb_device_information, PWDF_USB_DEVICE_INFORMATION, wdf.wdf_usb_device_information, *PWDF_USB_DEVICE_INFORMATION
+ms.date: 2/20/2018
+ms.keywords: wdfusb/PWDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION structure pointer, wdfusb/WDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION structure, wdf.wdf_usb_device_information, *PWDF_USB_DEVICE_INFORMATION, _WDF_USB_DEVICE_INFORMATION, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml, kmdf.wdf_usb_device_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,5 +124,5 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_DEVICE_INFORMATION structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_DEVICE_INFORMATION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

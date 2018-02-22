@@ -7,8 +7,8 @@ old-location: wdf\iwdfmemory_copytobuffer.htm
 old-project: wdf
 ms.assetid: c5b34168-b3b8-4559-8b41-982f0a66f01d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFMemory interface, CopyToBuffer method, wudfddi/IWDFMemory::CopyToBuffer, umdf.iwdfmemory_copytobuffer, IWDFMemory, wdf.iwdfmemory_copytobuffer, IWDFMemory::CopyToBuffer, CopyToBuffer, CopyToBuffer method, CopyToBuffer method, IWDFMemory interface, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml
+ms.date: 2/20/2018
+ms.keywords: IWDFMemory interface, CopyToBuffer method, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml, CopyToBuffer, CopyToBuffer method, IWDFMemory interface, wudfddi/IWDFMemory::CopyToBuffer, IWDFMemory::CopyToBuffer, CopyToBuffer method, wdf.iwdfmemory_copytobuffer, IWDFMemory, umdf.iwdfmemory_copytobuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory.CopyToBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -111,5 +111,5 @@ A pointer to the target buffer that data is copied to.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFMemory::CopyToBuffer method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFMemory::CopyToBuffer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

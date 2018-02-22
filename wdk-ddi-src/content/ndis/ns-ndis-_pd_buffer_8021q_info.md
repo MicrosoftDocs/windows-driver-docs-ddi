@@ -7,8 +7,8 @@ old-location: netvista\pd_buffer_8021q_info.htm
 old-project: netvista
 ms.assetid: B5B2051E-C62F-4E3D-9C52-DE46145A2C24
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/PPD_BUFFER_8021Q_INFO, ndis/PD_BUFFER_8021Q_INFO, netvista.pd_buffer_8021q_info, PD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], _PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ndis/PD_BUFFER_8021Q_INFO, netvista.pd_buffer_8021q_info, ndis/PPD_BUFFER_8021Q_INFO, _PD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO, PPD_BUFFER_8021Q_INFO structure pointer [Network Drivers Starting with Windows Vista], PD_BUFFER_8021Q_INFO, PD_BUFFER_8021Q_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

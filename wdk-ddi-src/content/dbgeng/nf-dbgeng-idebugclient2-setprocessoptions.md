@@ -4,11 +4,11 @@ title: IDebugClient2::SetProcessOptions method
 author: windows-driver-content
 description: The SetProcessOptions method sets the process options affecting the current process.
 old-location: debugger\setprocessoptions.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: c077e2cc-b234-4393-ab8c-d0b8199515e3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetProcessOptions method [Windows Debugging], IDebugClient2 interface [Windows Debugging], SetProcessOptions method, SetProcessOptions method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], SetProcessOptions method, SetProcessOptions method [Windows Debugging], IDebugClient4 interface, SetProcessOptions, IDebugClient3 interface [Windows Debugging], SetProcessOptions method, IDebugClient::SetProcessOptions, IDebugClient2::SetProcessOptions, IDebugClient5 interface [Windows Debugging], SetProcessOptions method, SetProcessOptions method [Windows Debugging], IDebugClient interface, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, SetProcessOptions method [Windows Debugging], IDebugClient5 interface, debugger.setprocessoptions, IDebugClient2, IDebugClient interface [Windows Debugging], SetProcessOptions method, dbgeng/IDebugClient4::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient5::SetProcessOptions, SetProcessOptions method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient::SetProcessOptions, IDebugClient5::SetProcessOptions, IDebugClient, IDebugClient3::SetProcessOptions, IDebugClient4::SetProcessOptions, dbgeng/IDebugClient2::SetProcessOptions
+ms.date: 2/15/2018
+ms.keywords: IDebugClient5 interface [Windows Debugging], SetProcessOptions method, IDebugClient2::SetProcessOptions, SetProcessOptions method [Windows Debugging], IDebugClient interface, IDebugClient4::SetProcessOptions, debugger.setprocessoptions, IDebugClient_d9936a28-08c3-4c4c-ba2b-accc9443b825.xml, IDebugClient5::SetProcessOptions, SetProcessOptions method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient4::SetProcessOptions, IDebugClient::SetProcessOptions, dbgeng/IDebugClient3::SetProcessOptions, dbgeng/IDebugClient::SetProcessOptions, IDebugClient, IDebugClient4 interface [Windows Debugging], SetProcessOptions method, IDebugClient3 interface [Windows Debugging], SetProcessOptions method, dbgeng/IDebugClient5::SetProcessOptions, SetProcessOptions method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], SetProcessOptions method, IDebugClient3::SetProcessOptions, SetProcessOptions method [Windows Debugging], IDebugClient3 interface, IDebugClient2, SetProcessOptions method [Windows Debugging], IDebugClient2 interface, IDebugClient interface [Windows Debugging], SetProcessOptions method, SetProcessOptions, SetProcessOptions method [Windows Debugging], dbgeng/IDebugClient2::SetProcessOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.SetProcessOptions
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient2::SetProcessOptions method
@@ -121,7 +121,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537917">AddProcessOptions</a>
 
 
 
@@ -129,19 +129,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537917">AddProcessOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>
 
 
 
@@ -149,7 +137,19 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -161,5 +161,5 @@ For more information about creating and attaching to live user-mode targets, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetProcessOptions method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::SetProcessOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

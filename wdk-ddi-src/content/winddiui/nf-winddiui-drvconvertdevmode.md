@@ -7,8 +7,8 @@ old-location: print\drvconvertdevmode.htm
 old-project: print
 ms.assetid: eb0402a8-22ce-417f-9b19-25b357451307
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: DrvConvertDevMode function [Print Devices], winddiui/DrvConvertDevMode, print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, print.drvconvertdevmode, DrvConvertDevMode
+ms.date: 2/21/2018
+ms.keywords: print.drvconvertdevmode, DrvConvertDevMode function [Print Devices], print_interface-graphics_ceabaf66-f730-4243-85a7-ffcee065192b.xml, DrvConvertDevMode, winddiui/DrvConvertDevMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvConvertDevMode
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

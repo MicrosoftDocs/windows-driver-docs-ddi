@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_imageprocessing.htm
 old-project: print
 ms.assetid: 201450cb-cda6-4dd3-93ee-056d1627b00d
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: ImageProcessing method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], ImageProcessing method, IPrintOemUni, ImageProcessing, prcomoem/IPrintOemUni::ImageProcessing, print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, ImageProcessing method [Print Devices], print.iprintoemuni_imageprocessing, IPrintOemUni::ImageProcessing
+ms.date: 2/21/2018
+ms.keywords: prcomoem/IPrintOemUni::ImageProcessing, IPrintOemUni::ImageProcessing, print.iprintoemuni_imageprocessing, ImageProcessing method [Print Devices], IPrintOemUni interface, IPrintOemUni, ImageProcessing method [Print Devices], print_unidrv-pscript_rendering_7b1177ff-0077-4bee-9469-7825f42323eb.xml, ImageProcessing, IPrintOemUni interface [Print Devices], ImageProcessing method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.ImageProcessing
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -274,6 +274,10 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567320">HT_Get8BPPMaskPalette</a>
 
 
@@ -286,5 +290,5 @@ The <code>IPrintOemUni::ImageProcessing</code> method is optional. If a renderin
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::ImageProcessing method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::ImageProcessing method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilgeolocationrequestaccuracy.htm
 old-project: netvista
 ms.assetid: e1e6ca44-a027-4800-9932-617f3bb4679d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilgeolocationrequestaccuracy, RILGEOLOCATIONREQUESTACCURACY enumeration [Network Drivers Starting with Windows Vista], RIL_LOCACCURACY_DEFAULT, ntddrilapitypes/RIL_LOCACCURACY_DEFAULT, RILGEOLOCATIONREQUESTACCURACY, ntddrilapitypes/RILGEOLOCATIONREQUESTACCURACY
+ms.date: 2/16/2018
+ms.keywords: RIL_LOCACCURACY_DEFAULT, RILGEOLOCATIONREQUESTACCURACY, ntddrilapitypes/RIL_LOCACCURACY_DEFAULT, netvista.rilgeolocationrequestaccuracy, RILGEOLOCATIONREQUESTACCURACY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGEOLOCATIONREQUESTACCURACY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

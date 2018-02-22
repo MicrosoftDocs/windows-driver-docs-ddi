@@ -7,8 +7,8 @@ old-location: pos\linedisplaycharacterdata.htm
 old-project: pos
 ms.assetid: EBD3CE63-A5ED-49FB-904F-1EF6A402ED64
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: LineDisplayCharacterData, pointofservicedriverinterface/PLineDisplayCharacterData, PLineDisplayCharacterData, PLineDisplayCharacterData structure pointer, LineDisplayCharacterData structure, pos.linedisplaycharacterdata, pointofservicedriverinterface/LineDisplayCharacterData, _LineDisplayCharacterData
+ms.date: 2/19/2018
+ms.keywords: LineDisplayCharacterData, pos.linedisplaycharacterdata, pointofservicedriverinterface/LineDisplayCharacterData, PLineDisplayCharacterData structure pointer, PLineDisplayCharacterData, pointofservicedriverinterface/PLineDisplayCharacterData, _LineDisplayCharacterData, LineDisplayCharacterData structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

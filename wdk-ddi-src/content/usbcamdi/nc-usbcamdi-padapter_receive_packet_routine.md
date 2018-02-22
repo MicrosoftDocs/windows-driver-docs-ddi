@@ -7,7 +7,7 @@ old-location: stream\adapterreceivepacket.htm
 old-project: stream
 ms.assetid: 8ee658bf-2243-4b1f-b4d6-5d9b6388e972
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.adapterreceivepacket, AdapterReceivePacket, AdapterReceivePacket callback function [Streaming Media Devices], AdapterReceivePacket, PADAPTER_RECEIVE_PACKET_ROUTINE, PADAPTER_RECEIVE_PACKET_ROUTINE, usbcamdi/AdapterReceivePacket, usbcmdpr_4f4422ba-64f3-4eee-8450-4a3b5715b910.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -76,14 +76,18 @@ Specifies the SRB to be processed by the camera minidriver.
 ## -returns
 
 
+
 <i>AdapterReceivePacket</i> does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 A camera's minidriver provides USBCAMD with the address of its <i>AdapterReceivePacket</i> function that processes SRBs in its call to the <b>USBCAMD_DriverEntry</b> service.
+
 
 
 
@@ -91,9 +95,11 @@ A camera's minidriver provides USBCAMD with the address of its <i>AdapterReceive
 
 <a href="..\usbcamdi\nf-usbcamdi-usbcamd_driverentry.md">USBCAMD_DriverEntry</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PADAPTER_RECEIVE_PACKET_ROUTINE callback function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PADAPTER_RECEIVE_PACKET_ROUTINE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

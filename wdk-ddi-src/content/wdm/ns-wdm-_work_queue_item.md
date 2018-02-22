@@ -7,8 +7,8 @@ old-location: ifsk\work_queue_item.htm
 old-project: ifsk
 ms.assetid: 068ac200-55bb-4d7b-bc69-ad57d466a36b
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: wdm/WORK_QUEUE_ITEM, wdm/PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM, ifsk.work_queue_item, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, _WORK_QUEUE_ITEM, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], PWORK_QUEUE_ITEM
+ms.date: 2/16/2018
+ms.keywords: wdm/WORK_QUEUE_ITEM, wdm/PWORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM structure [Installable File System Drivers], WORK_QUEUE_ITEM, othersystemstructures_52486f79-e8f4-4fb3-9b41-564bbd78f5d5.xml, ifsk.work_queue_item, PWORK_QUEUE_ITEM structure pointer [Installable File System Drivers], PWORK_QUEUE_ITEM, _WORK_QUEUE_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,7 +125,7 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 
 
-<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
+<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
 
 
 
@@ -137,7 +137,7 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
 
 
-<a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
+<a href="..\wdm\nf-wdm-ioqueueworkitem.md">IoQueueWorkItem</a>
 
 
 
@@ -145,5 +145,5 @@ To post the initialized work item to a system work queue, call <a href="..\wdm\n
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20WORK_QUEUE_ITEM structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20WORK_QUEUE_ITEM structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

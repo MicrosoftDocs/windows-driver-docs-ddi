@@ -7,7 +7,7 @@ old-location: stream\camconfigure.htm
 old-project: stream
 ms.assetid: b17fa32e-0a58-4be4-a096-e486471c1cdd
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.camconfigure, CamConfigure, CamConfigure callback function [Streaming Media Devices], CamConfigure, PCAM_CONFIGURE_ROUTINE, PCAM_CONFIGURE_ROUTINE, usbcamdi/CamConfigure, usbcmdpr_4953051b-2fb0-4dd4-ac52-67da188ce7e1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,11 +109,14 @@ Pointer to a value that indicates the index of the sync pipe, if one is needed. 
 ## -returns
 
 
+
 <b>CamConfigure</b> returns STATUS_SUCCESS or an appropriate error code.
 
 
 
+
 ## -remarks
+
 
 
 Camera minidrivers that must maintain backward compatibility with the original USBCAMD must use the <a href="..\usbcamdi\ns-usbcamdi-_usbcamd_device_data.md">USBCAMD_DEVICE_DATA</a> structure and its associated callback functions (that is, callback functions that do not contain the "Ex" suffix).
@@ -124,17 +127,24 @@ This function is required.
 
 
 
-## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+## -see-also
 
 <a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
+
+
+
 <a href="..\usbcamdi\nc-usbcamdi-pcam_configure_routine_ex.md">CamConfigureEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PCAM_CONFIGURE_ROUTINE callback function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PCAM_CONFIGURE_ROUTINE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\ms_sm_adapterinformationquery.htm
 old-project: storage
 ms.assetid: 81c05f47-e75a-4d67-8e77-33ebe1750c67
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml, storage.ms_sm_adapterinformationquery, *PMS_SM_AdapterInformationQuery, hbapiwmi/PMS_SM_AdapterInformationQuery, hbapiwmi/MS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], MS_SM_AdapterInformationQuery structure [Storage Devices], _MS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery
+ms.date: 2/16/2018
+ms.keywords: MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery, structs-Fibre_feda1502-e2b9-4392-a3bd-9c10ab0fab52.xml, _MS_SM_AdapterInformationQuery, storage.ms_sm_adapterinformationquery, MS_SM_AdapterInformationQuery structure [Storage Devices], hbapiwmi/MS_SM_AdapterInformationQuery, PMS_SM_AdapterInformationQuery structure pointer [Storage Devices], PMS_SM_AdapterInformationQuery, hbapiwmi/PMS_SM_AdapterInformationQuery
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MS_SM_AdapterInformationQuery
 product: Windows
 targetos: Windows
-req.typenames: MS_SM_AdapterInformationQuery, *PMS_SM_AdapterInformationQuery
+req.typenames: "*PMS_SM_AdapterInformationQuery, MS_SM_AdapterInformationQuery"
 ---
 
 # _MS_SM_AdapterInformationQuery structure

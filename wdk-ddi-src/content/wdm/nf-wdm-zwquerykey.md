@@ -7,8 +7,8 @@ old-location: kernel\zwquerykey.htm
 old-project: kernel
 ms.assetid: 3b2d3a8b-a21f-4067-a1f0-9aa66c1973f5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.zwquerykey, wdm/ZwQueryKey, NtQueryKey, ZwQueryKey, wdm/NtQueryKey, k111_38d7961f-09a3-479c-ba19-ccda00ce5d29.xml, ZwQueryKey routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: NtQueryKey, ZwQueryKey, k111_38d7961f-09a3-479c-ba19-ccda00ce5d29.xml, wdm/ZwQueryKey, kernel.zwquerykey, wdm/NtQueryKey, ZwQueryKey routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,31 +167,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
@@ -199,7 +175,23 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
 
 
 
@@ -207,7 +199,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\ntddk\ns-ntddk-_key_name_information.md">KEY_NAME_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
@@ -215,5 +215,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryKey routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryKey routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

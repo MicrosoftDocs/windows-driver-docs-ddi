@@ -7,8 +7,8 @@ old-location: stream\ksrate_capability.htm
 old-project: stream
 ms.assetid: 70866a87-0ebd-4230-9958-ace18116fa23
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PKSRATE_CAPABILITY, ks-struct_4697e3ed-7ef5-4278-be5f-96083d755ab0.xml, ks/KSRATE_CAPABILITY, KSRATE_CAPABILITY structure [Streaming Media Devices], KSRATE_CAPABILITY, PKSRATE_CAPABILITY, PKSRATE_CAPABILITY structure pointer [Streaming Media Devices], stream.ksrate_capability, ks/PKSRATE_CAPABILITY"
+ms.date: 2/20/2018
+ms.keywords: PKSRATE_CAPABILITY, stream.ksrate_capability, KSRATE_CAPABILITY, ks/PKSRATE_CAPABILITY, ks-struct_4697e3ed-7ef5-4278-be5f-96083d755ab0.xml, PKSRATE_CAPABILITY structure pointer [Streaming Media Devices], *PKSRATE_CAPABILITY, ks/KSRATE_CAPABILITY, KSRATE_CAPABILITY structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRATE_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: "*PKSRATE_CAPABILITY, KSRATE_CAPABILITY"
+req.typenames: KSRATE_CAPABILITY, *PKSRATE_CAPABILITY
 ---
 
 # KSRATE_CAPABILITY structure

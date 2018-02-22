@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_get_device_descriptor.htm
 old-project: hid
 ms.assetid: 89eac71d-c3f9-48b2-9174-26e4ccbe1d6e
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.ioctl_hid_get_device_descriptor, IOCTL_HID_GET_DEVICE_DESCRIPTOR control code [Human Input Devices], IOCTL_HID_GET_DEVICE_DESCRIPTOR, hidport/IOCTL_HID_GET_DEVICE_DESCRIPTOR, hidioreq_4994292a-eb5e-4a7e-a1bf-b105836c3b59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_HID_GET_DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
+req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
 
 # IOCTL_HID_GET_DEVICE_DESCRIPTOR IOCTL
@@ -122,10 +122,6 @@ HID minidrivers that call other drivers with this IRP to carry out the I/O to th
 
 ## -see-also
 
-<a href="..\hidport\ni-hidport-ioctl_hid_get_report_descriptor.md">IOCTL_HID_GET_REPORT_DESCRIPTOR</a>
-
-
-
 <a href="..\hidport\ni-hidport-ioctl_hid_get_device_attributes.md">IOCTL_HID_GET_DEVICE_ATTRIBUTES</a>
 
 
@@ -134,9 +130,13 @@ HID minidrivers that call other drivers with this IRP to carry out the I/O to th
 
 
 
- 
+<a href="..\hidport\ni-hidport-ioctl_hid_get_report_descriptor.md">IOCTL_HID_GET_REPORT_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_GET_DEVICE_DESCRIPTOR control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_GET_DEVICE_DESCRIPTOR control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

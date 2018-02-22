@@ -7,8 +7,8 @@ old-location: netvista\rilcallhandoverphase.htm
 old-project: netvista
 ms.assetid: c97fcbba-a127-4974-bda7-47456c05558f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLHANDOVERPHASE, ntddrilapitypes/RIL_CALLHANDOVERPHASE_FAILED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_MAX, ntddrilapitypes/RILCALLHANDOVERPHASE, netvista.rilcallhandoverphase, RIL_CALLHANDOVERPHASE_MAX, RIL_CALLHANDOVERPHASE_FAILED, RILCALLHANDOVERPHASE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLHANDOVERPHASE_CANCELLED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_CANCELLED, RIL_CALLHANDOVERPHASE_COMPLETED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_COMPLETED
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RIL_CALLHANDOVERPHASE_FAILED, RIL_CALLHANDOVERPHASE_FAILED, RIL_CALLHANDOVERPHASE_MAX, ntddrilapitypes/RIL_CALLHANDOVERPHASE_COMPLETED, ntddrilapitypes/RILCALLHANDOVERPHASE, netvista.rilcallhandoverphase, RILCALLHANDOVERPHASE, RILCALLHANDOVERPHASE enumeration [Network Drivers Starting with Windows Vista], RIL_CALLHANDOVERPHASE_CANCELLED, ntddrilapitypes/RIL_CALLHANDOVERPHASE_MAX, ntddrilapitypes/RIL_CALLHANDOVERPHASE_CANCELLED, RIL_CALLHANDOVERPHASE_COMPLETED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: display\dxgkarg_collectdbginfo_ext.htm
 old-project: display
 ms.assetid: cbde31fe-06c1-44af-8940-b66e8044a5cd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], _DXGKARG_COLLECTDBGINFO_EXT, display.dxgkarg_collectdbginfo_ext, DXGKARG_COLLECTDBGINFO_EXT, DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT structure [Display Devices], DmStructs_3c280734-d3c8-4970-a6d8-8ad2b3dce913.xml, display.dxgkarg_collectdbginfo_ext, _DXGKARG_COLLECTDBGINFO_EXT, DXGKARG_COLLECTDBGINFO_EXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,17 +116,17 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_collectdbginfo.md">DXGKARG_COLLECTDBGINFO</a>
 
 
 
- 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_collectdbginfo.md">DxgkDdiCollectDbgInfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_COLLECTDBGINFO_EXT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_COLLECTDBGINFO_EXT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

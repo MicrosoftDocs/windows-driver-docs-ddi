@@ -7,8 +7,8 @@ old-location: netvista\ndis_switch_port_property_vlan.htm
 old-project: netvista
 ms.assetid: 2A151351-AC57-4F7C-BA1A-201F6FB29C4F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_port_property_vlan, PNDIS_SWITCH_PORT_PROPERTY_VLAN, PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN, _NDIS_SWITCH_PORT_PROPERTY_VLAN
+ms.date: 2/16/2018
+ms.keywords: PNDIS_SWITCH_PORT_PROPERTY_VLAN structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_port_property_vlan, PNDIS_SWITCH_PORT_PROPERTY_VLAN, *PNDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN, NDIS_SWITCH_PORT_PROPERTY_VLAN structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_PROPERTY_VLAN, ntddndis/NDIS_SWITCH_PORT_PROPERTY_VLAN, _NDIS_SWITCH_PORT_PROPERTY_VLAN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -157,6 +157,26 @@ The array has 64 UINT64 elements that represent 4096 consecutive bits.
 A structure that specifies the properties of a VLAN with an operation mode of <b>NdisSwitchPortVlanModePrivate</b>. This structure contains the following members:
 
 
+
+#### SecondaryVlanId
+
+A UINT16 value that specifies the secondary VLAN identifier for an extensible switch port.
+
+<div class="alert"><b>Note</b>  This member is only valid if   the  <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeIsolated</b> or <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
+<div> </div>
+
+
+#### SecondaryVlanIdArray
+
+An array of UINT64 elements that specify the secondary VLAN identifiers for an extensible switch port.
+
+The array has 64 UINT64 elements, which represent 4096 consecutive bits.
+         Each bit that has a value of one specifies a secondary VLAN identifier for the extensible switch port. For example,  if bit five is set to one, the secondary VLAN identifier is five. Similarly, if bit 128 is set to zero, 128 cannot be used as a secondary VLAN identifier.
+
+
+<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModePromiscuous</b>.</div>
+<div> </div>
+
 ### -field PvlanProperties.PvlanMode
 
 An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_pvlan_mode.md">NDIS_SWITCH_PORT_PVLAN_MODE</a> enumeration value that specifies the operation mode of the PVLAN.
@@ -167,24 +187,6 @@ An <a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_pvlan_mode.md">NDIS_SWITCH
 A UINT16 value that specifies the primary VLAN identifier for an extensible switch port.
 
 <div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
-<div> </div>
-
-### -field PvlanProperties.SecondaryVlanId
-
-A UINT16 value that specifies the secondary VLAN identifier for an extensible switch port.
-
-<div class="alert"><b>Note</b>  This member is only valid if   the  <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModeIsolated</b> or <b>NdisSwitchPortPvlanModeCommunity</b>.</div>
-<div> </div>
-
-### -field PvlanProperties.SecondaryVlanIdArray
-
-An array of UINT64 elements that specify the secondary VLAN identifiers for an extensible switch port.
-
-The array has 64 UINT64 elements, which represent 4096 consecutive bits.
-         Each bit that has a value of one specifies a secondary VLAN identifier for the extensible switch port. For example,  if bit five is set to one, the secondary VLAN identifier is five. Similarly, if bit 128 is set to zero, 128 cannot be used as a secondary VLAN identifier.
-
-
-<div class="alert"><b>Note</b>  This member is only valid if   the <b>PvlanMode</b> member is set to <b>NdisSwitchPortPvlanModePromiscuous</b>.</div>
 <div> </div>
 
 #### - SupportedModes
@@ -255,15 +257,15 @@ For more information on forwarding extensions, see <a href="https://msdn.microso
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598278">OID_SWITCH_PORT_PROPERTY_UPDATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598275">OID_SWITCH_PORT_PROPERTY_ADD</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_switch_port_vlan_mode.md">NDIS_SWITCH_PORT_VLAN_MODE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 
@@ -271,7 +273,7 @@ For more information on forwarding extensions, see <a href="https://msdn.microso
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598275">OID_SWITCH_PORT_PROPERTY_ADD</a>
 
 
 
@@ -283,5 +285,5 @@ For more information on forwarding extensions, see <a href="https://msdn.microso
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_PROPERTY_VLAN structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_PROPERTY_VLAN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

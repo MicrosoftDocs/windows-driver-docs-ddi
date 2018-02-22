@@ -7,8 +7,8 @@ old-location: storage\drive_layout_information.htm
 old-project: storage
 ms.assetid: 980cd307-9048-4054-be8e-967d15862a14
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntdddisk/PDRIVE_LAYOUT_INFORMATION, storage.drive_layout_information, PDRIVE_LAYOUT_INFORMATION, ntdddisk/DRIVE_LAYOUT_INFORMATION, *PDRIVE_LAYOUT_INFORMATION, _DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION structure pointer [Storage Devices], DRIVE_LAYOUT_INFORMATION, structs-disk_4b519d3d-0729-4390-a2e2-b5eb37738db1.xml
+ms.date: 2/16/2018
+ms.keywords: structs-disk_4b519d3d-0729-4390-a2e2-b5eb37738db1.xml, _DRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION structure [Storage Devices], PDRIVE_LAYOUT_INFORMATION structure pointer [Storage Devices], ntdddisk/DRIVE_LAYOUT_INFORMATION, *PDRIVE_LAYOUT_INFORMATION, storage.drive_layout_information, PDRIVE_LAYOUT_INFORMATION, ntdddisk/PDRIVE_LAYOUT_INFORMATION, DRIVE_LAYOUT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,15 +101,11 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
-
-
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info.md">IOCTL_DISK_GET_PARTITION_INFO</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout.md">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
 
 
 
@@ -117,7 +113,11 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout.md">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_drive_layout.md">IOCTL_DISK_SET_DRIVE_LAYOUT</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 
 
@@ -129,5 +129,5 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DRIVE_LAYOUT_INFORMATION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DRIVE_LAYOUT_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

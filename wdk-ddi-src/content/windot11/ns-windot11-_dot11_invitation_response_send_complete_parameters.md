@@ -7,8 +7,8 @@ old-location: netvista\dot11_invitation_response_send_complete_parameters.htm
 old-project: netvista
 ms.assetid: EE537A6E-6722-4829-986A-37D41B149E37
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, windot11/DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.dot11_invitation_response_send_complete_parameters, windot11/PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, *PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, netvista.dot11_invitation_response_send_complete_parameters, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, windot11/DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, windot11/PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, *PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS
+req.typenames: "*PDOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS, DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -125,11 +125,11 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439781">NDIS_STATUS_DOT11_WFD_INVITATION_RESPONSE_SEND_COMPLETE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451807">OID_DOT11_WFD_SEND_INVITATION_RESPONSE</a>
 
 
 
@@ -141,5 +141,5 @@ The length, in bytes, of the array of IEs provided at <b>uIEsOffset</b>.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INVITATION_RESPONSE_SEND_COMPLETE_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

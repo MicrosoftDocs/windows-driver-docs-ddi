@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_extended_features_funcs_0021.htm
 old-project: display
 ms.assetid: 9E2D8EF5-18D0-4BC5-ADCA-3D3BE76D3BF1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, display.d3d12ddi_extended_features_funcs_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
+ms.date: 2/20/2018
+ms.keywords: display.d3d12ddi_extended_features_funcs_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021, D3D12DDI_EXTENDED_FEATURES_FUNCS_0021 structure [Display Devices], d3d12umddi/D3D12DDI_EXTENDED_FEATURES_FUNCS_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

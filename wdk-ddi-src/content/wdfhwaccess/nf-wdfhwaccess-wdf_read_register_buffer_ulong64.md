@@ -7,8 +7,8 @@ old-location: wdf\wdf_read_register_buffer_ulong64.htm
 old-project: wdf
 ms.assetid: E06F6BE4-C450-4810-BB7A-B2818C76A818
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG64, WDF_READ_REGISTER_BUFFER_ULONG64 function, WDF_READ_REGISTER_BUFFER_ULONG64, wdf.wdf_read_register_buffer_ulong64
+ms.date: 2/20/2018
+ms.keywords: WDF_READ_REGISTER_BUFFER_ULONG64, WDF_READ_REGISTER_BUFFER_ULONG64 function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_ULONG64, wdf.wdf_read_register_buffer_ulong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_REGISTER_BUFFER_ULONG64
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

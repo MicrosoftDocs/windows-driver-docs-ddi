@@ -7,8 +7,8 @@ old-location: display\dxgkarg_escape.htm
 old-project: display
 ms.assetid: 73a1afa6-e156-4733-b204-a9cae4e18563
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_ESCAPE, DXGKARG_ESCAPE structure [Display Devices], DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, _DXGKARG_ESCAPE, display.dxgkarg_escape, DXGKARG_ESCAPE
+ms.date: 2/20/2018
+ms.keywords: display.dxgkarg_escape, _DXGKARG_ESCAPE, DXGKARG_ESCAPE structure [Display Devices], d3dkmddi/DXGKARG_ESCAPE, DmStructs_1edfa7aa-7ba1-4abc-a453-253de2a191af.xml, DXGKARG_ESCAPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,6 +98,14 @@ typedef struct _DXGKARG_ESCAPE {
 
 ## -see-also
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 
@@ -106,17 +114,9 @@ typedef struct _DXGKARG_ESCAPE {
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_escapeflags.md">D3DDDI_ESCAPEFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_ESCAPE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_ESCAPE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

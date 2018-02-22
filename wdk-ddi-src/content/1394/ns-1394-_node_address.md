@@ -7,8 +7,8 @@ old-location: ieee\node_address.htm
 old-project: IEEE
 ms.assetid: ecafa166-356e-48d6-84c4-0f0c339289ac
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1394/PNODE_ADDRESS, *PNODE_ADDRESS, 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, PNODE_ADDRESS structure pointer [Buses], NODE_ADDRESS, PNODE_ADDRESS, IEEE.node_address, NODE_ADDRESS structure [Buses], 1394/NODE_ADDRESS, _NODE_ADDRESS
+ms.date: 2/15/2018
+ms.keywords: IEEE.node_address, PNODE_ADDRESS, _NODE_ADDRESS, 1394/NODE_ADDRESS, NODE_ADDRESS structure [Buses], PNODE_ADDRESS structure pointer [Buses], 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, NODE_ADDRESS, 1394/PNODE_ADDRESS, *PNODE_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,17 +80,17 @@ Specifies the 10-bit bus number. This member specifies bits 0-10 of the node add
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537020">BUS_GENERATION_NODE</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20NODE_ADDRESS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20NODE_ADDRESS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

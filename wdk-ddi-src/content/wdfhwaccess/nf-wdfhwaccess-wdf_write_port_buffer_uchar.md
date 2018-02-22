@@ -7,8 +7,8 @@ old-location: wdf\wdf_write_port_buffer_uchar.htm
 old-project: wdf
 ms.assetid: 744189F3-07D1-42F2-986C-70BEBE760123
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR function, wdf.wdf_write_port_buffer_uchar
+ms.date: 2/20/2018
+ms.keywords: wdfhwaccess/WDF_WRITE_PORT_BUFFER_UCHAR, WDF_WRITE_PORT_BUFFER_UCHAR function, wdf.wdf_write_port_buffer_uchar, WDF_WRITE_PORT_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WRITE_PORT_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

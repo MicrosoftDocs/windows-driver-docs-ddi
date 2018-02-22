@@ -4,11 +4,11 @@ title: IDebugClient5::OutputIdentity method
 author: windows-driver-content
 description: The OutputIdentity method formats and outputs a string describing the computer and user this client represents.
 old-location: debugger\outputidentity.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 0e8ced7c-87f3-4366-8137-b0d19dffc340
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient5, OutputIdentity method [Windows Debugging], IDebugClient4 interface, OutputIdentity method [Windows Debugging], IDebugClient2 interface, IDebugClient4::OutputIdentity, dbgeng/IDebugClient4::OutputIdentity, IDebugClient2::OutputIdentity, dbgeng/IDebugClient2::OutputIdentity, dbgeng/IDebugClient3::OutputIdentity, IDebugClient5 interface [Windows Debugging], OutputIdentity method, IDebugClient2 interface [Windows Debugging], OutputIdentity method, OutputIdentity, debugger.outputidentity, IDebugClient3::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], OutputIdentity method, OutputIdentity method [Windows Debugging], IDebugClient3 interface, IDebugClient4 interface [Windows Debugging], OutputIdentity method, IDebugClient2, OutputIdentity method [Windows Debugging], IDebugClient interface, IDebugClient_2013e1cd-3c95-4ef7-a53f-004ba30d9ea2.xml, IDebugClient4, dbgeng/IDebugClient5::OutputIdentity, IDebugClient3, dbgeng/IDebugClient::OutputIdentity, IDebugClient, IDebugClient interface [Windows Debugging], OutputIdentity method, IDebugClient5::OutputIdentity
+ms.date: 2/15/2018
+ms.keywords: IDebugClient4, IDebugClient2::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient::OutputIdentity, OutputIdentity, IDebugClient5, IDebugClient2 interface [Windows Debugging], OutputIdentity method, IDebugClient interface [Windows Debugging], OutputIdentity method, dbgeng/IDebugClient4::OutputIdentity, dbgeng/IDebugClient5::OutputIdentity, IDebugClient4 interface [Windows Debugging], OutputIdentity method, IDebugClient_2013e1cd-3c95-4ef7-a53f-004ba30d9ea2.xml, dbgeng/IDebugClient2::OutputIdentity, IDebugClient::OutputIdentity, IDebugClient5 interface [Windows Debugging], OutputIdentity method, OutputIdentity method [Windows Debugging], IDebugClient4 interface, debugger.outputidentity, IDebugClient, OutputIdentity method [Windows Debugging], IDebugClient3 interface, IDebugClient3 interface [Windows Debugging], OutputIdentity method, OutputIdentity method [Windows Debugging], OutputIdentity method [Windows Debugging], IDebugClient interface, IDebugClient3::OutputIdentity, IDebugClient4::OutputIdentity, OutputIdentity method [Windows Debugging], IDebugClient5 interface, IDebugClient2, IDebugClient5::OutputIdentity, IDebugClient3, dbgeng/IDebugClient3::OutputIdentity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.OutputIdentity
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::OutputIdentity method
@@ -129,11 +129,15 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -141,11 +145,7 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -157,5 +157,5 @@ For more information about client objects, see <a href="https://msdn.microsoft.c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::OutputIdentity method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::OutputIdentity method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

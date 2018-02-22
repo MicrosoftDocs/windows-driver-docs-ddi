@@ -7,8 +7,8 @@ old-location: stream\ksenableeventwithallocator.htm
 old-project: stream
 ms.assetid: ec017e5c-1c26-426d-935f-7a554d3db915
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsEnableEventWithAllocator function [Streaming Media Devices], ks/KsEnableEventWithAllocator, stream.ksenableeventwithallocator, KsEnableEventWithAllocator, ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml
+ms.date: 2/20/2018
+ms.keywords: stream.ksenableeventwithallocator, KsEnableEventWithAllocator, KsEnableEventWithAllocator function [Streaming Media Devices], ksfunc_2af8f81f-ef1d-4ad5-9267-dfdc14005183.xml, ks/KsEnableEventWithAllocator
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

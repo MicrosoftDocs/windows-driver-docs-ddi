@@ -4,11 +4,11 @@ title: IDebugControl3::Output method
 author: windows-driver-content
 description: The Output method formats a string and send the result to output callbacks that have been registered with the engine's clients.
 old-location: debugger\output.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2c748325-3718-4fcc-98a3-3318d361ba6e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl2, IDebugControl3 interface [Windows Debugging], Output method, Output method [Windows Debugging], IDebugControl2 interface, IDebugControl2::Output, dbgeng/IDebugControl2::Output, Output, IDebugControl3::Output, Output method [Windows Debugging], IDebugControl_4b29317b-e521-4deb-84dc-fc4bb7d6ca90.xml, IDebugControl3, IDebugControl, IDebugControl::Output, Output method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], Output method, dbgeng/IDebugControl::Output, dbgeng/IDebugControl3::Output, IDebugControl2 interface [Windows Debugging], Output method, Output method [Windows Debugging], IDebugControl interface, debugger.output
+ms.date: 2/15/2018
+ms.keywords: Output method [Windows Debugging], Output method [Windows Debugging], IDebugControl interface, Output method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], Output method, IDebugControl::Output, dbgeng/IDebugControl3::Output, IDebugControl, dbgeng/IDebugControl::Output, Output method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], Output method, IDebugControl2::Output, IDebugControl2, IDebugControl2 interface [Windows Debugging], Output method, debugger.output, IDebugControl_4b29317b-e521-4deb-84dc-fc4bb7d6ca90.xml, IDebugControl3::Output, IDebugControl3, dbgeng/IDebugControl2::Output, Output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.Output
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::Output method
@@ -306,22 +306,6 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
@@ -330,13 +314,29 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553280">OutputVaList</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Output method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::Output method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

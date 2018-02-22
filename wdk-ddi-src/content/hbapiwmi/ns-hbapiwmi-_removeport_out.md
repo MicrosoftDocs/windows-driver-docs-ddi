@@ -7,8 +7,8 @@ old-location: storage\removeport_out.htm
 old-project: storage
 ms.assetid: 89cb75e4-5e3b-4277-b173-abed00a7360b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PRemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], *PRemovePort_OUT, RemovePort_OUT structure [Storage Devices], hbapiwmi/RemovePort_OUT, storage.removeport_out, RemovePort_OUT, _RemovePort_OUT
+ms.date: 2/16/2018
+ms.keywords: "*PRemovePort_OUT, PRemovePort_OUT structure pointer [Storage Devices], PRemovePort_OUT, RemovePort_OUT, RemovePort_OUT structure [Storage Devices], hbapiwmi/RemovePort_OUT, hbapiwmi/PRemovePort_OUT, structs-Fibre_dc8be161-745b-4919-9227-e333933482cf.xml, _RemovePort_OUT, storage.removeport_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemovePort_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PRemovePort_OUT, RemovePort_OUT"
+req.typenames: RemovePort_OUT, *PRemovePort_OUT
 ---
 
 # _RemovePort_OUT structure
@@ -91,5 +91,5 @@ The WMI tool suite generates a declaration of the RemovePort_OUT structure in <i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemovePort_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemovePort_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

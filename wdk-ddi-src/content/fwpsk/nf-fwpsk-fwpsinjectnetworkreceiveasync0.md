@@ -7,8 +7,8 @@ old-location: netvista\fwpsinjectnetworkreceiveasync0.htm
 old-project: netvista
 ms.assetid: c34b2be1-fe1c-4a99-ac9c-ddd40b97d8d0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsInjectNetworkReceiveAsync0, FwpsInjectNetworkReceiveAsync0 function [Network Drivers Starting with Windows Vista], netvista.fwpsinjectnetworkreceiveasync0, wfp_ref_2_funct_3_fwps_I_fb65a452-e8f0-4160-8366-90a1925644da.xml, FwpsInjectNetworkReceiveAsync0
+ms.date: 2/16/2018
+ms.keywords: FwpsInjectNetworkReceiveAsync0, netvista.fwpsinjectnetworkreceiveasync0, fwpsk/FwpsInjectNetworkReceiveAsync0, wfp_ref_2_funct_3_fwps_I_fb65a452-e8f0-4160-8366-90a1925644da.xml, FwpsInjectNetworkReceiveAsync0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -270,12 +270,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
-   FwpsAllocateCloneNetBufferList0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -283,15 +278,7 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
-
-
-
 <a href="..\fwpsk\ne-fwpsk-fwps_packet_injection_state_.md">FWPS_PACKET_INJECTION_STATE</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
 
 
@@ -299,16 +286,11 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
 
 
 
@@ -317,14 +299,32 @@ The injected packet can be indicated to the callout driver again. To prevent inf
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+   FwpsAllocateCloneNetBufferList0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
    FwpsQueryPacketInjectionState0</a>
 
 
 
- 
+<a href="..\fwpsk\nf-fwpsk-fwpsfreeclonenetbufferlist0.md">FwpsFreeCloneNetBufferList0</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectNetworkReceiveAsync0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectNetworkReceiveAsync0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

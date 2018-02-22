@@ -7,8 +7,8 @@ old-location: wdf\wdf_wmi_provider_control.htm
 old-project: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfwmi/WDF_WMI_PROVIDER_CONTROL, WdfWmiControlInvalid, WdfWmiInstanceControl, WdfWmiEventControl, wdf.wdf_wmi_provider_control, WDF_WMI_PROVIDER_CONTROL enumeration, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiInstanceControl, wdfwmi/WdfWmiControlInvalid, DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, kmdf.wdf_wmi_provider_control, _WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiEventControl
+ms.date: 2/20/2018
+ms.keywords: DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, wdfwmi/WdfWmiControlInvalid, wdfwmi/WdfWmiEventControl, WdfWmiEventControl, WDF_WMI_PROVIDER_CONTROL enumeration, wdfwmi/WDF_WMI_PROVIDER_CONTROL, wdf.wdf_wmi_provider_control, kmdf.wdf_wmi_provider_control, _WDF_WMI_PROVIDER_CONTROL, WdfWmiControlInvalid, WdfWmiInstanceControl, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiInstanceControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -110,5 +110,5 @@ The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_PROVIDER_CONTROL enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_PROVIDER_CONTROL enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

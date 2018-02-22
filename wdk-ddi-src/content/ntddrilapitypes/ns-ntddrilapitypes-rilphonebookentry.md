@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookentry.htm
 old-project: netvista
 ms.assetid: 2741d992-624a-4fd1-a1b5-57fb39c42f84
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPHONEBOOKENTRY, netvista.rilphonebookentry, RILPHONEBOOKENTRY"
+ms.date: 2/16/2018
+ms.keywords: RILPHONEBOOKENTRY, netvista.rilphonebookentry, *LPRILPHONEBOOKENTRY, ntddrilapitypes/RILPHONEBOOKENTRY, RILPHONEBOOKENTRY structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPHONEBOOKENTRY, RILPHONEBOOKENTRY"
+req.typenames: RILPHONEBOOKENTRY, *LPRILPHONEBOOKENTRY
 ---
 
 # RILPHONEBOOKENTRY structure

@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_pipe_type.htm
 old-project: wdf
 ms.assetid: ae230ff0-4fd9-417b-8ee0-80e3ca5a30ff
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_USB_PIPE_TYPE enumeration, wdfusb/WdfUsbPipeTypeInvalid, kmdf.wdf_usb_pipe_type, wdfusb/WDF_USB_PIPE_TYPE, WdfUsbPipeTypeBulk, wdfusb/WdfUsbPipeTypeInterrupt, WDF_USB_PIPE_TYPE, WdfUsbPipeTypeControl, wdfusb/WdfUsbPipeTypeIsochronous, wdf.wdf_usb_pipe_type, wdfusb/WdfUsbPipeTypeControl, WdfUsbPipeTypeInterrupt, DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, wdfusb/WdfUsbPipeTypeBulk, WdfUsbPipeTypeInvalid, _WDF_USB_PIPE_TYPE, WdfUsbPipeTypeIsochronous
+ms.date: 2/20/2018
+ms.keywords: WdfUsbPipeTypeBulk, WDF_USB_PIPE_TYPE enumeration, WdfUsbPipeTypeIsochronous, wdfusb/WDF_USB_PIPE_TYPE, _WDF_USB_PIPE_TYPE, wdfusb/WdfUsbPipeTypeIsochronous, WdfUsbPipeTypeInterrupt, WDF_USB_PIPE_TYPE, WdfUsbPipeTypeControl, wdfusb/WdfUsbPipeTypeBulk, wdf.wdf_usb_pipe_type, wdfusb/WdfUsbPipeTypeInvalid, wdfusb/WdfUsbPipeTypeInterrupt, DFUsbRef_6a3da4b3-f8ac-4208-bdd2-1136a6417b3a.xml, kmdf.wdf_usb_pipe_type, WdfUsbPipeTypeInvalid, wdfusb/WdfUsbPipeTypeControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -118,5 +118,5 @@ The <b>WDF_USB_PIPE_TYPE</b> enumeration is used in the <a href="..\wdfusb\ns-wd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_PIPE_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_PIPE_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

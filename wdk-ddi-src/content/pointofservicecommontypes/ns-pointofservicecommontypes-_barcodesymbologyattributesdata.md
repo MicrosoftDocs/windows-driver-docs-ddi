@@ -7,8 +7,8 @@ old-location: pos\barcodesymbologyattributesdata.htm
 old-project: pos
 ms.assetid: 0682B3AA-13F5-4686-AD78-D45DA85398B7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData, _BarcodeSymbologyAttributesData, pos.barcodesymbologyattributesdata, BarcodeSymbologyAttributesData structure
+ms.date: 2/19/2018
+ms.keywords: BarcodeSymbologyAttributesData structure, pos.barcodesymbologyattributesdata, BarcodeSymbologyAttributesData, _BarcodeSymbologyAttributesData, pointofservicecommontypes/BarcodeSymbologyAttributesData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

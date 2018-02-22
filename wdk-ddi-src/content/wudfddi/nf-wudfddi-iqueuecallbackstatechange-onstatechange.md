@@ -7,8 +7,8 @@ old-location: wdf\iqueuecallbackstatechange_onstatechange.htm
 old-project: wdf
 ms.assetid: 69a422a1-b878-496e-b1b9-e04b7c3db121
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iqueuecallbackstatechange_onstatechange, wudfddi/IQueueCallbackStateChange::OnStateChange, umdf.iqueuecallbackstatechange_onstatechange, IQueueCallbackStateChange interface, OnStateChange method, IQueueCallbackStateChange::OnStateChange, UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, OnStateChange method, IQueueCallbackStateChange interface, IQueueCallbackStateChange, OnStateChange method, OnStateChange
+ms.date: 2/20/2018
+ms.keywords: UMDFQueueObjectRef_194f5013-22a2-40c4-8913-9371aa281009.xml, OnStateChange method, umdf.iqueuecallbackstatechange_onstatechange, OnStateChange, wudfddi/IQueueCallbackStateChange::OnStateChange, IQueueCallbackStateChange interface, OnStateChange method, wdf.iqueuecallbackstatechange_onstatechange, IQueueCallbackStateChange::OnStateChange, IQueueCallbackStateChange, OnStateChange method, IQueueCallbackStateChange interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackStateChange.OnStateChange
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -101,11 +101,7 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
+<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
 
 
 
@@ -113,7 +109,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_state.md">WDF_IO_QUEUE_STATE</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 
@@ -121,5 +121,5 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IQueueCallbackStateChange::OnStateChange method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IQueueCallbackStateChange::OnStateChange method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

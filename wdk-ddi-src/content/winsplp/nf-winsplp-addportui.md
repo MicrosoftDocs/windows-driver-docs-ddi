@@ -7,8 +7,8 @@ old-location: print\addportui.htm
 old-project: print
 ms.assetid: 8305ab0c-0783-4597-9e2c-dfd9cbc843d1
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: winsplp/pfnAddPortUI, spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, pfnAddPortUI, pfnAddPortUI function [Print Devices], AddPortUI, print.addportui
+ms.date: 2/21/2018
+ms.keywords: winsplp/pfnAddPortUI, pfnAddPortUI, AddPortUI, pfnAddPortUI function [Print Devices], spoolfnc_e82f0e4d-e4f2-44b8-b957-3fc1b35e8a34.xml, print.addportui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,7 +126,7 @@ where <i>ServerName</i> and <i>MonitorName</i> are the server and monitor names 
 
 The call to OpenPrinter requires a PRINTER_DEFAULTS structure, which is described in the Windows SDK documentation. The structure's <b>DesiredAccess</b> member must be set to SERVER_ACCESS_ADMINISTER. Its <b>pDatatype</b> and <b>pDevMode</b> members can be <b>NULL</b>.
 
-This call causes the print monitor server DLL's <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function to be called.
+This call causes the print monitor server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a> function to be called.
 
 </li>
 <li>
@@ -141,7 +141,7 @@ Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvD
 </ul>
 
 
-This call causes the server DLL's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function to be called. The <b>XcvDataPort</b> function should return a value that indicates whether the specified port name has already been used. If it has, the UI DLL should request another name from the user and call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> again.
+This call causes the server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a> function to be called. The <b>XcvDataPort</b> function should return a value that indicates whether the specified port name has already been used. If it has, the UI DLL should request another name from the user and call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> again.
 
 </li>
 <li>
@@ -152,7 +152,7 @@ After a valid new port name has been received, call <a href="https://msdn.micros
 </ul>
 
 
-This call causes the server DLL's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function to be called again.
+This call causes the server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a> function to be called again.
 
 </li>
 <li>
@@ -160,11 +160,11 @@ Obtain port configuration parameters from the user by displaying a dialog box.
 
 </li>
 <li>
-Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each <b>XcvData</b> call causes the server's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function to be called.
+Call <a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a> one or more times, specifying customized data name strings, to send each configuration parameter to the server DLL. Each <b>XcvData</b> call causes the server's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a> function to be called.
 
 </li>
 <li>
-Call ClosePrinter, specifying the handle received from OpenPrinter. This causes the server DLL's <a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a> function to be called.
+Call ClosePrinter, specifying the handle received from OpenPrinter. This causes the server DLL's <a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a> function to be called.
 
 </li>
 </ol>
@@ -173,11 +173,7 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a>
-
-
-
-<a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564254">XcvClosePort</a>
 
 
 
@@ -189,7 +185,11 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
 
 
-<a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564258">XcvDataPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564259">XcvOpenPort</a>
 
 
 
@@ -197,5 +197,5 @@ Call ClosePrinter, specifying the handle received from OpenPrinter. This causes 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20AddPortUI function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20AddPortUI function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

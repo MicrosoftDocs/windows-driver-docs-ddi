@@ -7,8 +7,8 @@ old-location: stream\time_function.htm
 old-project: stream
 ms.assetid: 9335B3FB-B46B-404C-BCF9-F4E2F7A4C216
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: TIME_FUNCTION, stream.time_function, strmini/TIME_GET_STREAM_TIME, TIME_GET_STREAM_TIME, strmini/TIME_SET_ONBOARD_CLOCK, TIME_READ_ONBOARD_CLOCK, strmini/TIME_FUNCTION, TIME_FUNCTION enumeration [Streaming Media Devices], TIME_SET_ONBOARD_CLOCK, strmini/TIME_READ_ONBOARD_CLOCK
+ms.date: 2/20/2018
+ms.keywords: TIME_FUNCTION enumeration [Streaming Media Devices], strmini/TIME_FUNCTION, stream.time_function, strmini/TIME_READ_ONBOARD_CLOCK, TIME_GET_STREAM_TIME, TIME_FUNCTION, TIME_READ_ONBOARD_CLOCK, TIME_SET_ONBOARD_CLOCK, strmini/TIME_GET_STREAM_TIME, strmini/TIME_SET_ONBOARD_CLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: acpi\registeropregionhandler.htm
 old-project: acpi
 ms.assetid: 5795a1d1-0e13-4f9f-b2f2-37bbd71bde7a
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: acpi.registeropregionhandler, oprghdlr/RegisterOpRegionHandler, opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, RegisterOpRegionHandler routine [ACPI Devices], RegisterOpRegionHandler
+ms.date: 2/15/2018
+ms.keywords: opregref_9742e50b-613d-4191-b0a2-6d1b0f365494.xml, oprghdlr/RegisterOpRegionHandler, RegisterOpRegionHandler, acpi.registeropregionhandler, RegisterOpRegionHandler routine [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -283,5 +283,5 @@ For more information about operation regions, see <a href="https://msdn.microsof
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20RegisterOpRegionHandler routine%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20RegisterOpRegionHandler routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

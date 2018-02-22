@@ -7,8 +7,8 @@ old-location: wdf\wdfdeviceinitsetcharacteristics.htm
 old-project: wdf
 ms.assetid: 2937d9f1-f838-4ec4-972d-21ff43097590
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetCharacteristics method, DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml, kmdf.wdfdeviceinitsetcharacteristics, wdf.wdfdeviceinitsetcharacteristics, WdfDeviceInitSetCharacteristics, wdfdevice/WdfDeviceInitSetCharacteristics, PFN_WDFDEVICEINITSETCHARACTERISTICS
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfdeviceinitsetcharacteristics, WdfDeviceInitSetCharacteristics method, wdf.wdfdeviceinitsetcharacteristics, DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml, WdfDeviceInitSetCharacteristics, wdfdevice/WdfDeviceInitSetCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,5 +141,5 @@ The following code example indicates that a device is a floppy disk.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceInitSetCharacteristics method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceInitSetCharacteristics method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: acpi\acpi_eval_input_buffer_simple_integer_ex.htm
 old-project: acpi
 ms.assetid: f918c462-67bc-4794-a92e-ffc8650ce9a1
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure [ACPI Devices], ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, acpi-meth-eval-ref_29bc925a-8ab0-4f97-a722-a8a6201853a2.xml, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure pointer [ACPI Devices], acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, acpi.acpi_eval_input_buffer_simple_integer_ex, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX
+ms.date: 2/15/2018
+ms.keywords: acpi-meth-eval-ref_29bc925a-8ab0-4f97-a722-a8a6201853a2.xml, _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, acpi.acpi_eval_input_buffer_simple_integer_ex, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, acpiioct/ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, acpiioct/PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure pointer [ACPI Devices], PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX"
+req.typenames: "*PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_EX, *PACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX, ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX"
 ---
 
 # _ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure
@@ -115,17 +115,17 @@ For more information about how to use this structure, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
-
-
-
 <a href="..\acpiioct\ni-acpiioct-ioctl_acpi_async_eval_method_ex.md">IOCTL_ACPI_ASYNC_EVAL_METHOD_EX</a>
 
 
 
- 
+<a href="..\acpiioct\ni-acpiioct-ioctl_acpi_eval_method_ex.md">IOCTL_ACPI_EVAL_METHOD_EX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_EVAL_INPUT_BUFFER_SIMPLE_INTEGER_V1_EX structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

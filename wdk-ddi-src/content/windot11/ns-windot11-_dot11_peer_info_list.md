@@ -7,8 +7,8 @@ old-location: netvista\dot11_peer_info_list.htm
 old-project: netvista
 ms.assetid: 7f75ab1e-8aeb-4e49-9c18-c7a10ce3cbd3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_PEER_INFO_LIST, PDOT11_PEER_INFO_LIST, Native_802.11_data_types_c969625e-444f-4741-a284-6bd77253c8b9.xml, windot11/DOT11_PEER_INFO_LIST, windot11/PDOT11_PEER_INFO_LIST, netvista.dot11_peer_info_list, *PDOT11_PEER_INFO_LIST, PDOT11_PEER_INFO_LIST structure pointer [Network Drivers Starting with Windows Vista], _DOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: Native_802.11_data_types_c969625e-444f-4741-a284-6bd77253c8b9.xml, *PDOT11_PEER_INFO_LIST, _DOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST structure [Network Drivers Starting with Windows Vista], PDOT11_PEER_INFO_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_PEER_INFO_LIST, PDOT11_PEER_INFO_LIST, netvista.dot11_peer_info_list, windot11/DOT11_PEER_INFO_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PEER_INFO_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_PEER_INFO_LIST, DOT11_PEER_INFO_LIST"
+req.typenames: DOT11_PEER_INFO_LIST, *PDOT11_PEER_INFO_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -140,7 +140,7 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569361">OID_DOT11_ENUM_PEER_INFO</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -148,7 +148,7 @@ This structure is used with
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569361">OID_DOT11_ENUM_PEER_INFO</a>
 
 
 
@@ -156,5 +156,5 @@ This structure is used with
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PEER_INFO_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PEER_INFO_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

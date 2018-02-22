@@ -7,8 +7,8 @@ old-location: wdf\wdfioqueuestop.htm
 old-project: wdf
 ms.assetid: 50ff8064-b28c-4b2b-89d2-bad5e503b2d6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfIoQueueStop, kmdf.wdfioqueuestop, PFN_WDFIOQUEUESTOP, wdf.wdfioqueuestop, WdfIoQueueStop method, wdfio/WdfIoQueueStop, DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml
+ms.date: 2/20/2018
+ms.keywords: DFQueueObjectRef_c1ac397c-5601-4976-9c42-41b118d429c1.xml, wdfio/WdfIoQueueStop, WdfIoQueueStop, WdfIoQueueStop method, kmdf.wdfioqueuestop, wdf.wdfioqueuestop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,6 +143,10 @@ WdfIoQueueStop(
 
 ## -see-also
 
+<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
+
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuestopsynchronously.md">WdfIoQueueStopSynchronously</a>
 
 
@@ -151,13 +155,9 @@ WdfIoQueueStop(
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuestart.md">WdfIoQueueStart</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueStop method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoQueueStop method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

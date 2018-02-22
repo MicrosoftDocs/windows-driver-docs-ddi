@@ -7,8 +7,8 @@ old-location: netvista\ril_getsubscribernumbers.htm
 old-project: netvista
 ms.assetid: 31634cee-0d8e-4eed-b127-906da6a7b8fe
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetSubscriberNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getsubscribernumbers, rilapi/RIL_GetSubscriberNumbers, RIL_GetSubscriberNumbers
+ms.date: 2/16/2018
+ms.keywords: RIL_GetSubscriberNumbers method [Network Drivers Starting with Windows Vista], netvista.ril_getsubscribernumbers, RIL_GetSubscriberNumbers, rilapi/RIL_GetSubscriberNumbers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetSubscriberNumbers
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -7,7 +7,7 @@ old-location: wdf\iwdfmemory.htm
 old-project: wdf
 ms.assetid: 8746eb43-7a6e-4e1d-b8fb-c8b7891295d6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfmemory, IWDFMemory interface, IWDFMemory interface, described, IWDFMemory, wudfddi/IWDFMemory, UMDFMemoryObjectRef_14266bd8-214b-4244-a96b-9bea5cfa9d84.xml, umdf.iwdfmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

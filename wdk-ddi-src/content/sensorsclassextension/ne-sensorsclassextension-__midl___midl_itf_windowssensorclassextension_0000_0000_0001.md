@@ -7,8 +7,8 @@ old-location: sensors\sensorstate.htm
 old-project: sensors
 ms.assetid: 5643cb45-daa0-490e-aa0c-9e3b54c6dbef
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: sensorsclassextension/SENSOR_STATE_NO_DATA, sensorsclassextension/SENSOR_STATE_MAX, sensorsclassextension/SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_MAX, sensorsclassextension/SENSOR_STATE_ERROR, sensorsclassextension/SENSOR_STATE_MIN, sensorsclassextension/SENSOR_STATE_NOT_AVAILABLE, SensorState enumeration [Sensor Devices], sensors.sensorstate, SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_MIN, SENSOR_STATE_INITIALIZING, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001, SENSOR_STATE_NO_DATA, SENSOR_STATE_READY, sensorsclassextension/SENSOR_STATE_READY, sensorsclassextension/SENSOR_STATE_INITIALIZING, Sensor_Enums_caba27ac-659e-4b9a-a466-7a7d202c6f62.xml, SENSOR_STATE_ERROR, SENSOR_STATE_NOT_AVAILABLE, sensorsclassextension/SensorState, SensorState
+ms.date: 2/15/2018
+ms.keywords: SENSOR_STATE_INITIALIZING, sensorsclassextension/SENSOR_STATE_MAX, Sensor_Enums_caba27ac-659e-4b9a-a466-7a7d202c6f62.xml, SENSOR_STATE_ERROR, sensorsclassextension/SENSOR_STATE_NO_DATA, sensorsclassextension/SENSOR_STATE_READY, SENSOR_STATE_NO_DATA, sensors.sensorstate, sensorsclassextension/SENSOR_STATE_NOT_AVAILABLE, __MIDL___MIDL_itf_windowssensorclassextension_0000_0000_0001, SENSOR_STATE_ACCESS_DENIED, SENSOR_STATE_READY, sensorsclassextension/SENSOR_STATE_INITIALIZING, SENSOR_STATE_NOT_AVAILABLE, sensorsclassextension/SensorState, SensorState enumeration [Sensor Devices], SENSOR_STATE_MAX, SENSOR_STATE_MIN, sensorsclassextension/SENSOR_STATE_ACCESS_DENIED, sensorsclassextension/SENSOR_STATE_ERROR, SensorState, sensorsclassextension/SENSOR_STATE_MIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -139,5 +139,5 @@ This enumeration also defines values used for the <a href="https://msdn.microsof
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20SensorState enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20SensorState enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3d10ddi_counter_info.htm
 old-project: display
 ms.assetid: fda3d4a2-4c1a-454d-bcb0-4174699c5bb8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D10DDI_COUNTER_INFO structure [Display Devices], display.d3d10ddi_counter_info, d3d10umddi/D3D10DDI_COUNTER_INFO, D3D10DDI_COUNTER_INFO, UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml
+ms.date: 2/20/2018
+ms.keywords: D3D10DDI_COUNTER_INFO, d3d10umddi/D3D10DDI_COUNTER_INFO, display.d3d10ddi_counter_info, UMDisplayDriver_Dx10param_Structs_7a4f801d-7954-4c1a-af86-1482281732cb.xml, D3D10DDI_COUNTER_INFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,5 +98,5 @@ typedef struct D3D10DDI_COUNTER_INFO {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10DDI_COUNTER_INFO structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10DDI_COUNTER_INFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

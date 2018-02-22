@@ -7,8 +7,8 @@ old-location: netvista\dot11_incoming_assoc_completion_parameters.htm
 old-project: netvista
 ms.assetid: 8f3cfe07-5026-40fb-b832-da5ae048843e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, netvista.dot11_incoming_assoc_completion_parameters"
+ms.date: 2/16/2018
+ms.keywords: PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_incoming_assoc_completion_parameters, *PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, _DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, windot11/DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS, Native_802.11_data_types_fac44c06-59c5-4fd3-a8ec-335d9e9c6f7d.xml, windot11/PDOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -341,6 +341,14 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff547647">
    NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION</a>
 
@@ -350,17 +358,9 @@ The NDIS_STATUS_DOT11_INCOMING_ASSOC_COMPLETION status indication marks the end 
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_COMPLETION_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

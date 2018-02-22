@@ -7,7 +7,7 @@ old-location: wdf\iwdfioqueue.htm
 old-project: wdf
 ms.assetid: 9a3ec86a-6a1d-4c65-a65a-7cb85bbd1ab8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfioqueue, IWDFIoQueue interface, IWDFIoQueue interface, described, IWDFIoQueue, wudfddi/IWDFIoQueue, UMDFQueueObjectRef_57878b3d-0771-425d-b8ca-3e4713c96fcc.xml, umdf.iwdfioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

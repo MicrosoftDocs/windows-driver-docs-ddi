@@ -7,13 +7,13 @@ old-location: kernel\write_register_uchar.htm
 old-project: kernel
 ms.assetid: 2d97d31f-d8c6-45d6-9aee-69397a523bbd
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.write_register_uchar, WRITE_REGISTER_UCHAR, k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml, WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_UCHAR
+ms.date: 2/16/2018
+ms.keywords: WRITE_REGISTER_UCHAR routine [Kernel-Mode Driver Architecture], wdm/WRITE_REGISTER_UCHAR, WRITE_REGISTER_UCHAR, kernel.write_register_uchar, k103_052039f1-0f3c-4b4b-9061-ea92046f7167.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Ioaccess.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -69,12 +69,12 @@ VOID WRITE_REGISTER_UCHAR(
 
 
 
-### -param Register [in]
+#### - Register [in]
 
 Pointer to the register, which must be a mapped range in memory space.
 
 
-### -param Value [in]
+#### - Value [in]
 
 Specifies a byte to be written to the register. 
 

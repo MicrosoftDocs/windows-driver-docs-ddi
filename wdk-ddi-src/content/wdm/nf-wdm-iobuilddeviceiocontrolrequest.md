@@ -7,8 +7,8 @@ old-location: kernel\iobuilddeviceiocontrolrequest.htm
 old-project: kernel
 ms.assetid: dde2a45d-9257-4d94-928a-e25f112b2773
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iobuilddeviceiocontrolrequest, k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml, wdm/IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], IoBuildDeviceIoControlRequest
+ms.date: 2/16/2018
+ms.keywords: wdm/IoBuildDeviceIoControlRequest, kernel.iobuilddeviceiocontrolrequest, IoBuildDeviceIoControlRequest, IoBuildDeviceIoControlRequest routine [Kernel-Mode Driver Architecture], k104_dca88c92-682a-437e-963b-6fac4e9c39bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -153,23 +153,7 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
@@ -177,7 +161,23 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
@@ -193,5 +193,5 @@ The actual method by which the contents of the <i>InputBuffer</i> and <i>OutputB
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoBuildDeviceIoControlRequest routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoBuildDeviceIoControlRequest routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

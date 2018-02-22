@@ -7,8 +7,8 @@ old-location: display\dxva_coppstatusoutput.htm
 old-project: display
 ms.assetid: 71d16b59-3e5c-4a2a-9217-5e0f7a2d4478
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_DXVA_COPPStatusOutput, LPDXVA_COPPStatusOutput structure pointer [Display Devices], dxva/DXVA_COPPStatusOutput, dxva/LPDXVA_COPPStatusOutput, display.dxva_coppstatusoutput, dxvaref_4b7212ce-7beb-45c6-b5dd-92922993595f.xml, LPDXVA_COPPStatusOutput, *LPDXVA_COPPStatusOutput, DXVA_COPPStatusOutput structure [Display Devices], DXVA_COPPStatusOutput"
+ms.date: 2/20/2018
+ms.keywords: DXVA_COPPStatusOutput, LPDXVA_COPPStatusOutput structure pointer [Display Devices], *LPDXVA_COPPStatusOutput, display.dxva_coppstatusoutput, LPDXVA_COPPStatusOutput, dxva/DXVA_COPPStatusOutput, dxvaref_4b7212ce-7beb-45c6-b5dd-92922993595f.xml, dxva/LPDXVA_COPPStatusOutput, _DXVA_COPPStatusOutput, DXVA_COPPStatusOutput structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_COPPStatusOutput
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_COPPStatusOutput, DXVA_COPPStatusOutput"
+req.typenames: DXVA_COPPStatusOutput, *LPDXVA_COPPStatusOutput
 ---
 
 # _DXVA_COPPStatusOutput structure
@@ -151,7 +151,7 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusdisplaydata.md">DXVA_COPPStatusDisplayData</a>
+<a href="..\dxva\ns-dxva-_dxva_coppstatussignalingcmddata.md">DXVA_COPPStatusSignalingCmdData</a>
 
 
 
@@ -159,11 +159,15 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatussignalingcmddata.md">DXVA_COPPStatusSignalingCmdData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
+
+
+
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdisplaydata.md">DXVA_COPPStatusDisplayData</a>
 
 
 
@@ -175,13 +179,9 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPStatusOutput structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPStatusOutput structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgk_discardcontentflags.htm
 old-project: display
 ms.assetid: 0a93d3a2-0274-4b14-9c4b-9ed31a48e600
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_discardcontentflags, DXGK_DISCARDCONTENTFLAGS, d3dkmddi/DXGK_DISCARDCONTENTFLAGS, _DXGK_DISCARDCONTENTFLAGS, DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, DXGK_DISCARDCONTENTFLAGS structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: "_DXGK_DISCARDCONTENTFLAGS, DXGK_DISCARDCONTENTFLAGS structure [Display Devices], DXGK_DISCARDCONTENTFLAGS, DmStructs_9ff479c6-8592-4ebd-b001-c0a7d58772f2.xml, display.dxgk_discardcontentflags, d3dkmddi/DXGK_DISCARDCONTENTFLAGS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,24 +85,24 @@ Setting this member is equivalent to setting the first bit of the 32-bit <b>Valu
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that DXGK_DISCARDCONTENTFLAGS contains that can hold a 32-bit value that identifies the discard-content-operation type.
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
 
 
 
- 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_DISCARDCONTENTFLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_DISCARDCONTENTFLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

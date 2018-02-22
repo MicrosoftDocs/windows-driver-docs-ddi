@@ -7,8 +7,8 @@ old-location: audio\usbsidebandaudio_mute_params.htm
 old-project: audio
 ms.assetid: 11FA1378-335A-402A-867C-F509D61153CA
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: USBSIDEBANDAUDIO_MUTE_PARAMS structure [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS structure pointer [Audio Devices], _USBSIDEBANDAUDIO_MUTE_PARAMS, audio.usbsidebandaudio_mute_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS, *PUSBSIDEBANDAUDIO_MUTE_PARAMS
+ms.date: 2/21/2018
+ms.keywords: USBSIDEBANDAUDIO_MUTE_PARAMS structure [Audio Devices], USBSIDEBANDAUDIO_MUTE_PARAMS, _USBSIDEBANDAUDIO_MUTE_PARAMS, audio.usbsidebandaudio_mute_params, usbsidebandaudio/PUSBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS structure pointer [Audio Devices], usbsidebandaudio/USBSIDEBANDAUDIO_MUTE_PARAMS, *PUSBSIDEBANDAUDIO_MUTE_PARAMS, PUSBSIDEBANDAUDIO_MUTE_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,6 +84,7 @@ typedef struct _USBSIDEBANDAUDIO_MUTE_PARAMS {
 ### -field Value
 
  
+
 
 
 

@@ -4,11 +4,11 @@ title: IWiaMiniDrv::drvInitializeWia method
 author: windows-driver-content
 description: The IWiaMiniDrv::drvInitializeWia method initializes the minidriver and builds the driver item tree representing the device.
 old-location: image\iwiaminidrv_drvinitializewia.htm
-old-project: image
+old-project: Image
 ms.assetid: 93b155eb-0254-441f-b01f-3da8eb7376a5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, drvInitializeWia, IWiaMiniDrv::drvInitializeWia, drvInitializeWia method [Imaging Devices], MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, image.iwiaminidrv_drvinitializewia
+ms.date: 2/15/2018
+ms.keywords: drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface [Imaging Devices], drvInitializeWia method, MiniDrv_04485b20-ff45-4cf7-a861-841bf03befcf.xml, IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvInitializeWia, drvInitializeWia method [Imaging Devices], IWiaMiniDrv interface, image.iwiaminidrv_drvinitializewia, IWiaMiniDrv::drvInitializeWia, drvInitializeWia
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -194,10 +194,6 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
@@ -210,6 +206,10 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545010">IWiaMiniDrv::drvUnInitializeWia</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543856">IWiaDrvItem::AddItemToFolder</a>
 
 
@@ -218,5 +218,5 @@ For example, if the user right-clicks a WIA scanner icon in <b>My Computer</b>, 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvInitializeWia method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaMiniDrv::drvInitializeWia method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

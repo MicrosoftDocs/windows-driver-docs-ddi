@@ -7,8 +7,8 @@ old-location: kernel\iogetbootdiskinformation.htm
 old-project: kernel
 ms.assetid: 744d5eae-2bdf-46b0-9412-f73e55939d8b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoGetBootDiskInformation, kernel.iogetbootdiskinformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], wdm/IoGetBootDiskInformation, k104_11afe919-6902-4f53-9006-57cc4be126f1.xml
+ms.date: 2/16/2018
+ms.keywords: kernel.iogetbootdiskinformation, wdm/IoGetBootDiskInformation, IoGetBootDiskInformation routine [Kernel-Mode Driver Architecture], k104_11afe919-6902-4f53-9006-57cc4be126f1.xml, IoGetBootDiskInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,7 +144,7 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
+<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
 
 
 
@@ -152,17 +152,17 @@ On Windows 2000, the routine returns only the <b>BOOTDISK_INFORMATION</b> struct
 
 
 
+<a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioregisterbootdriverreinitialization.md">IoRegisterBootDriverReinitialization</a>
 
 
 
-<a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetBootDiskInformation routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetBootDiskInformation routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

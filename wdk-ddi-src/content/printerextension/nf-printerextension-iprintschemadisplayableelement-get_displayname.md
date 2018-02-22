@@ -7,8 +7,8 @@ old-location: print\iprintschemadisplayableelement_displayname.htm
 old-project: print
 ms.assetid: 8DF71F10-1043-47E8-98E0-BB100B2AAF26
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrintSchemaDisplayableElement.DisplayName, DisplayName property [Print Devices], IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement::get_DisplayName, printerextension/IPrintSchemaDisplayableElement::get_DisplayName, IPrintSchemaDisplayableElement interface [Print Devices], DisplayName property, printerextension/IPrintSchemaDisplayableElement::DisplayName, print.iprintschemadisplayableelement_displayname, get_DisplayName, DisplayName property [Print Devices], IPrintSchemaDisplayableElement
+ms.date: 2/21/2018
+ms.keywords: printerextension/IPrintSchemaDisplayableElement::get_DisplayName, print.iprintschemadisplayableelement_displayname, IPrintSchemaDisplayableElement.DisplayName, DisplayName property [Print Devices], IPrintSchemaDisplayableElement interface, IPrintSchemaDisplayableElement, printerextension/IPrintSchemaDisplayableElement::DisplayName, get_DisplayName, DisplayName property [Print Devices], IPrintSchemaDisplayableElement interface [Print Devices], DisplayName property, IPrintSchemaDisplayableElement::get_DisplayName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -79,5 +79,5 @@ HRESULT get_DisplayName(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaDisplayableElement::DisplayName property%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaDisplayableElement::DisplayName property%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

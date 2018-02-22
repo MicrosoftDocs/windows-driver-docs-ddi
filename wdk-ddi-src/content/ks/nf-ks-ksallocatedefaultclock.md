@@ -7,8 +7,8 @@ old-location: stream\ksallocatedefaultclock.htm
 old-project: stream
 ms.assetid: 5ba14903-1519-4edd-bc3c-a05cb040652d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsAllocateDefaultClock, ks/KsAllocateDefaultClock, KsAllocateDefaultClock function [Streaming Media Devices], ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, stream.ksallocatedefaultclock
+ms.date: 2/20/2018
+ms.keywords: ks/KsAllocateDefaultClock, stream.ksallocatedefaultclock, ksfunc_448f966b-08aa-4ac5-92db-36d923275754.xml, KsAllocateDefaultClock, KsAllocateDefaultClock function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,17 +95,17 @@ When the clock is no longer needed, the driver must call <a href="..\ks\nf-ks-ks
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
-
-
-
 <a href="..\ks\nf-ks-ksallocatedefaultclockex.md">KsAllocateDefaultClockEx</a>
 
 
 
- 
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateDefaultClock function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateDefaultClock function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

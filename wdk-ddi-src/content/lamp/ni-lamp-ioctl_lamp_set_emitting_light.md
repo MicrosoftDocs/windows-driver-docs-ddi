@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_set_emitting_light.htm
 old-project: stream
 ms.assetid: E3B85C82-EC55-4A88-BFCA-91123F8311D1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.ioctl_lamp_set_emitting_light, IOCTL_LAMP_SET_EMITTING_LIGHT control code [Streaming Media Devices], IOCTL_LAMP_SET_EMITTING_LIGHT, lamp/IOCTL_LAMP_SET_EMITTING_LIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: netvista\dot11ext_ihv_handlers.htm
 old-project: netvista
 ms.assetid: 6dacd330-45f1-46f8-b2bf-2006c89f664f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_DOT11EXT_IHV_HANDLERS, *PDOT11EXT_IHV_HANDLERS, wlanihv/DOT11EXT_IHV_HANDLERS, PDOT11EXT_IHV_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_HANDLERS structure [Network Drivers Starting with Windows Vista], PDOT11EXT_IHV_HANDLERS, wlanihv/PDOT11EXT_IHV_HANDLERS, netvista.dot11ext_ihv_handlers, DOT11EXT_IHV_HANDLERS, Native_802.11_data_types_e072dcd6-e41c-4c08-b958-9302f62f02c1.xml"
+ms.date: 2/16/2018
+ms.keywords: PDOT11EXT_IHV_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_HANDLERS structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_HANDLERS, DOT11EXT_IHV_HANDLERS, *PDOT11EXT_IHV_HANDLERS, wlanihv/DOT11EXT_IHV_HANDLERS, netvista.dot11ext_ihv_handlers, Native_802.11_data_types_e072dcd6-e41c-4c08-b958-9302f62f02c1.xml, PDOT11EXT_IHV_HANDLERS, wlanihv/PDOT11EXT_IHV_HANDLERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -249,18 +249,70 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
+   Dot11ExtIhvPerformPreAssociate</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
+   Dot11ExtIhvSendPacketCompletion</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
+   Extensibility Functions</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_capability_match.md">
+   Dot11ExtIhvPerformCapabilityMatch</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_stop_post_associate.md">
+   Dot11ExtIhvStopPostAssociate</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_process_session_change.md">
+   Dot11ExtIhvProcessSessionChange</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_control.md">Dot11ExtIhvControl Function</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
    Dot11ExtIhvOneXIndicateResult</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_indication.md">
-   Dot11ExtIhvReceiveIndication</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
 
 
 
@@ -269,16 +321,18 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_get_version_info.md">Dot11ExtIhvGetVersionInfo</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_adapter_reset.md">Dot11ExtIhvAdapterReset</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_indication.md">
+   Dot11ExtIhvReceiveIndication</a>
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-extensibility-functions">Native 802.11 IHV
-   Extensibility Functions</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
+   Dot11ExtIhvCreateDiscoveryProfiles</a>
 
 
 
@@ -291,68 +345,14 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_pre_associate.md">
-   Dot11ExtIhvPerformPreAssociate</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
-   Dot11ExtIhvCreateDiscoveryProfiles</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_capability_match.md">
-   Dot11ExtIhvPerformCapabilityMatch</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_adapter.md">Dot11ExtIhvDeinitAdapter</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_control.md">Dot11ExtIhvControl Function</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_service.md">Dot11ExtIhvInitService</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_stop_post_associate.md">
-   Dot11ExtIhvStopPostAssociate</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_is_ui_request_pending.md">
    Dot11ExtIhvIsUIRequestPending</a>
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_process_session_change.md">
-   Dot11ExtIhvProcessSessionChange</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
-   Dot11ExtIhvSendPacketCompletion</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_HANDLERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_HANDLERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlquerycachedvdl.htm
 old-project: ifsk
 ms.assetid: 5D4F3D70-6E2B-4B2E-91A4-6852AF8FEAD0
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/FsRtlQueryCachedVdl, FsRtlQueryCachedVdl routine [Installable File System Drivers], FsRtlQueryCachedVdl, ifsk.fsrtlquerycachedvdl
+ms.date: 2/16/2018
+ms.keywords: FsRtlQueryCachedVdl routine [Installable File System Drivers], ntifs/FsRtlQueryCachedVdl, FsRtlQueryCachedVdl, ifsk.fsrtlquerycachedvdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

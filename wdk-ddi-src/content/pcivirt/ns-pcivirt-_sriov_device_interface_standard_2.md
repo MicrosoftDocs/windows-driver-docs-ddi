@@ -7,8 +7,8 @@ old-location: pci\sriov_device_interface_standard_2.htm
 old-project: PCI
 ms.assetid: 46c9fa94-283c-481e-9fb1-2ed63df00386
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.sriov_device_interface_standard_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2
+ms.date: 2/15/2018
+ms.keywords: "*PSRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2, pcivirt/SRIOV_DEVICE_INTERFACE_STANDARD_2, PCI.sriov_device_interface_standard_2, SRIOV_DEVICE_INTERFACE_STANDARD_2 structure [Buses], _SRIOV_DEVICE_INTERFACE_STANDARD_2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRIOV_DEVICE_INTERFACE_STANDARD_2
 product: Windows
 targetos: Windows
-req.typenames: "*PSRIOV_DEVICE_INTERFACE_STANDARD_2, SRIOV_DEVICE_INTERFACE_STANDARD_2"
+req.typenames: SRIOV_DEVICE_INTERFACE_STANDARD_2, *PSRIOV_DEVICE_INTERFACE_STANDARD_2
 ---
 
 # _SRIOV_DEVICE_INTERFACE_STANDARD_2 structure
@@ -102,12 +102,12 @@ Driver-defined context passed by the driver.
 
 ### -field InterfaceReference
 
-Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>. 
+Pointer to a routine that increments the number of references to this interface. For more information about this routine, see <a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a>. 
 
 
 ### -field InterfaceDereference
 
-Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>. 
+Pointer to a routine that decrements the number of references to this interface. For more information about this routine, see <a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a>. 
 
 
 ### -field ReadVfConfig

@@ -7,7 +7,7 @@ old-location: print\xpsrasterizationfactory1.htm
 old-project: print
 ms.assetid: 65EFEC4F-60DC-41DF-81F2-5A5C4EEE4BF8
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
+ms.date: 2/21/2018
 ms.keywords: print.xpsrasterizationfactory1, IXpsRasterizationFactory1 interface [Print Devices], IXpsRasterizationFactory1 interface [Print Devices], described, IXpsRasterizationFactory1, xpsrassvc/IXpsRasterizationFactory1
 ms.prod: windows-hardware
 ms.technology: windows-devices

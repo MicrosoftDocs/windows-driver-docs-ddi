@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_setprotectedresourcesession_0030_.htm
 old-project: display
 ms.assetid: 1AF1FA8A-3A7E-4277-B6BE-C41A5C4416B6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_setprotectedresourcesession_0030_, PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030, d3d12umddi/PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,8 +71,9 @@ VOID APIENTRY* PFND3D12DDI_SETPROTECTEDRESOURCESESSION_0030(
 ### -param D3D12DDI_HCOMMANDLIST
 
 
-
 ### -param D3D12DDI_HPROTECTEDRESOURCESESSION_0030
+
+
 
 
 
@@ -92,6 +93,8 @@ The protected resource session.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

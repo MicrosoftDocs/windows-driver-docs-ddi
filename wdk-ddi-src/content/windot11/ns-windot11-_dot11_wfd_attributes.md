@@ -7,8 +7,8 @@ old-location: netvista\dot11_wfd_attributes.htm
 old-project: netvista
 ms.assetid: 7B221221-5C91-45DA-85C5-5E7CF71E6689
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_DOT11_WFD_ATTRIBUTES, windot11/PDOT11_WFD_ATTRIBUTES, windot11/DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_wfd_attributes, PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, *PDOT11_WFD_ATTRIBUTES"
+ms.date: 2/16/2018
+ms.keywords: "_DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_ATTRIBUTES, PDOT11_WFD_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PDOT11_WFD_ATTRIBUTES, *PDOT11_WFD_ATTRIBUTES, netvista.dot11_wfd_attributes, windot11/DOT11_WFD_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_ATTRIBUTES, *PDOT11_WFD_ATTRIBUTES
+req.typenames: "*PDOT11_WFD_ATTRIBUTES, DOT11_WFD_ATTRIBUTES"
 req.product: Windows 10 or later.
 ---
 
@@ -167,16 +167,6 @@ The number of country or region strings supported by the 802.11 station. To supp
 A pointer to an array of 802.11d country or region strings that are supported by the 802.11 station.
 
 
-### -field pSupportedCountryOrRegionStrings.size_is
-
- 
-
-
-### -field pSupportedCountryOrRegionStrings.size_is.uNumSupportedCountryOrRegionStrings
-
- 
-
-
 ### -field uDiscoveryFilterListSize
 
 The maximum number of  Discovery Filters supported by the WFD device for discovery operations. This must be at least 2.
@@ -191,11 +181,11 @@ The maximum number of associations that each WFD GO port supports simultaneously
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565926">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
-
-
-
 <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v3.md">DOT11_VWIFI_COMBINATION_V3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565926">NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
 
 
 
@@ -207,5 +197,5 @@ The maximum number of associations that each WFD GO port supports simultaneously
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_WFD_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_WFD_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

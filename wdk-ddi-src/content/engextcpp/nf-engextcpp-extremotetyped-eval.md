@@ -4,11 +4,11 @@ title: ExtRemoteTyped::Eval method
 author: windows-driver-content
 description: The Eval method returns typed data that is the result of evaluating an expression.
 old-location: debugger\extremotetyped_eval.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f54c7dfd-1997-4056-b20a-94438552aeca
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Eval method [Windows Debugging], debugger.extremotetyped_eval, EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, Eval, Eval method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], Eval method, ExtRemoteTyped::Eval, ExtRemoteTyped
+ms.date: 2/15/2018
+ms.keywords: ExtRemoteTyped, Eval method [Windows Debugging], ExtRemoteTyped interface, Eval, debugger.extremotetyped_eval, EngExtCpp_Ref_84c338f5-8b46-4c8b-80f0-f1f02f3b691e.xml, ExtRemoteTyped interface [Windows Debugging], Eval method, ExtRemoteTyped::Eval, Eval method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.Eval
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::Eval method

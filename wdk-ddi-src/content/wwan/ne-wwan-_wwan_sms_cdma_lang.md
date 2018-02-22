@@ -7,8 +7,8 @@ old-location: netvista\wwan_sms_cdma_lang.htm
 old-project: netvista
 ms.assetid: 5294ce07-a4eb-4c21-88f1-04889dfbc1a1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/WwanSmsCdmaLangUnknown, wwan/WwanSmsCdmaLangKorean, WWAN_SMS_CDMA_LANG, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangMax, wwan/WWAN_SMS_CDMA_LANG, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangFrench, WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, _WWAN_SMS_CDMA_LANG, WwanSmsCdmaLangKorean, netvista.wwan_sms_cdma_lang, wwan/WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangEnglish, wwan/PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangHebrew, PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], WwanSmsCdmaLangFrench, WwanSmsCdmaLangUnknown, WwanSmsCdmaLangJapanese, *PWWAN_SMS_CDMA_LANG, PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangSpanish, WwanSmsCdmaLangChinese
+ms.date: 2/16/2018
+ms.keywords: "*PWWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangJapanese, wwan/WwanSmsCdmaLangChinese, WwanSmsCdmaLangMax, wwan/WwanSmsCdmaLangSpanish, WwanSmsCdmaLangSpanish, WwanSmsCdmaLangChinese, wwan/WwanSmsCdmaLangHebrew, wwan/WwanSmsCdmaLangKorean, _WWAN_SMS_CDMA_LANG, wwan/WwanSmsCdmaLangUnknown, WWAN_SMS_CDMA_LANG enumeration [Network Drivers Starting with Windows Vista], PWWAN_SMS_CDMA_LANG enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanSmsCdmaLangEnglish, PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangJapanese, WwanSmsCdmaLangFrench, wwan/WwanSmsCdmaLangFrench, wwan/WWAN_SMS_CDMA_LANG, wwan/PWWAN_SMS_CDMA_LANG, WwanSmsCdmaLangUnknown, WwanSmsCdmaLangEnglish, WwanSmsCdmaLangHebrew, WWAN_SMS_CDMA_LANG, WwanRef_21c9fcf4-07b0-43b3-86df-a2de613f5018.xml, WwanSmsCdmaLangKorean, wwan/WwanSmsCdmaLangMax, netvista.wwan_sms_cdma_lang"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -124,17 +124,17 @@ The total number of supported SMS CDMA languages.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_sms_send_cdma.md">WWAN_SMS_SEND_CDMA</a>
 
 
 
- 
+<a href="..\wwan\ns-wwan-_wwan_sms_cdma_record.md">WWAN_SMS_CDMA_RECORD</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_LANG enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_SMS_CDMA_LANG enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

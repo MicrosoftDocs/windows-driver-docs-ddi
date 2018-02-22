@@ -7,8 +7,8 @@ old-location: audio\pccompletependingpropertyrequest.htm
 old-project: audio
 ms.assetid: a4b59403-9a2f-4857-947b-dff8e3ea079c
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PcCompletePendingPropertyRequest function [Audio Devices], PcCompletePendingPropertyRequest, audio.pccompletependingpropertyrequest, portcls/PcCompletePendingPropertyRequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml
+ms.date: 2/21/2018
+ms.keywords: portcls/PcCompletePendingPropertyRequest, audpc-routines_934503ea-325f-4e57-ba45-e8834a64cefa.xml, audio.pccompletependingpropertyrequest, PcCompletePendingPropertyRequest, PcCompletePendingPropertyRequest function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcCompletePendingPropertyRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcCompletePendingPropertyRequest function
@@ -101,17 +101,17 @@ The driver should call <b>PcCompletePendingPropertyRequest</b> only when the req
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-
-
 <a href="..\portcls\ns-portcls-_pcproperty_request.md">PCPROPERTY_REQUEST</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcCompletePendingPropertyRequest function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcCompletePendingPropertyRequest function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

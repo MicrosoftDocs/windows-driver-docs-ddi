@@ -7,8 +7,8 @@ old-location: ifsk\ccpinread.htm
 old-project: ifsk
 ms.assetid: 46b0e05e-f7e2-4a9b-bec0-26bcaf31b013
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: CcPinRead, ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, ntifs/CcPinRead, ifsk.ccpinread, CcPinRead routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.ccpinread, ntifs/CcPinRead, ccref_f6bbe780-631d-48f8-979f-6ed4260cbe5d.xml, CcPinRead routine [Installable File System Drivers], CcPinRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,7 +184,11 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
 
 
 
@@ -192,7 +196,7 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
+<a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
 
 
 
@@ -204,13 +208,9 @@ To map data for a cached file, use the <a href="..\ntifs\nf-ntifs-ccmapdata.md">
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcPinRead routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcPinRead routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

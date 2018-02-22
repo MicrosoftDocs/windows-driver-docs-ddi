@@ -7,8 +7,8 @@ old-location: storage\storportreleasemsispinlock.htm
 old-project: storage
 ms.assetid: 5a2cf757-9dca-4717-a775-834a22c02a12
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortReleaseMSISpinLock, storport/StorPortReleaseMSISpinLock, storage.storportreleasemsispinlock, StorPortReleaseMSISpinLock routine [Storage Devices], storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml
+ms.date: 2/16/2018
+ms.keywords: StorPortReleaseMSISpinLock routine [Storage Devices], storprt_212b8090-c4a3-4ea8-8c50-6704a6d0cee7.xml, storage.storportreleasemsispinlock, storport/StorPortReleaseMSISpinLock, StorPortReleaseMSISpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,5 +159,5 @@ Miniport drivers are not required to acquire MSI spin locks for messages unless 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortReleaseMSISpinLock routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortReleaseMSISpinLock routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

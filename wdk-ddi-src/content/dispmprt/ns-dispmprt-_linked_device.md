@@ -7,8 +7,8 @@ old-location: display\linked_device.htm
 old-project: display
 ms.assetid: 65289123-46b8-4a4b-985a-8087f4afd250
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: LINKED_DEVICE structure [Display Devices], DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, LINKED_DEVICE, display.linked_device, dispmprt/LINKED_DEVICE, PLINKED_DEVICE, *PLINKED_DEVICE, dispmprt/PLINKED_DEVICE, _LINKED_DEVICE, PLINKED_DEVICE structure pointer [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: PLINKED_DEVICE, DmStructs_3491af70-72fe-471c-b0f1-c00d6bffb242.xml, LINKED_DEVICE, LINKED_DEVICE structure [Display Devices], dispmprt/LINKED_DEVICE, dispmprt/PLINKED_DEVICE, *PLINKED_DEVICE, _LINKED_DEVICE, display.linked_device, PLINKED_DEVICE structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,5 +103,5 @@ Prior to a call to <a href="..\dispmprt\nc-dispmprt-dxgkddi_link_device.md">Dxgk
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20LINKED_DEVICE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20LINKED_DEVICE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

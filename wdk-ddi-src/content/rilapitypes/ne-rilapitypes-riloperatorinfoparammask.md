@@ -7,8 +7,8 @@ old-location: netvista\riloperatorinfoparammask_2.htm
 old-project: netvista
 ms.assetid: 1366f37b-4785-4e36-9fc8-bfaef6f9e227
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riloperatorinfoparammask_2, rilapitypes/RIL_PARAM_OI_ALL, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_OI_NAMES, RIL_PARAM_OI_ALL, rilapitypes/RIL_PARAM_OI_STATUS, RIL_PARAM_OI_NAMES, RIL_PARAM_OI_STATUS, RILOPERATORINFOPARAMMASK, rilapitypes/RILOPERATORINFOPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: RILOPERATORINFOPARAMMASK, RIL_PARAM_OI_STATUS, rilapitypes/RIL_PARAM_OI_ALL, RIL_PARAM_OI_NAMES, rilapitypes/RIL_PARAM_OI_NAMES, RIL_PARAM_OI_ALL, RILOPERATORINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.riloperatorinfoparammask_2, rilapitypes/RIL_PARAM_OI_STATUS, rilapitypes/RILOPERATORINFOPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

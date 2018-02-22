@@ -7,8 +7,8 @@ old-location: netvista\ril_verifyuicclock.htm
 old-project: netvista
 ms.assetid: e32e4b7d-715b-4eae-832f-314980ab89b3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], rilapi/RIL_VerifyUiccLock, netvista.ril_verifyuicclock, RIL_VerifyUiccLock
+ms.date: 2/16/2018
+ms.keywords: rilapi/RIL_VerifyUiccLock, RIL_VerifyUiccLock method [Network Drivers Starting with Windows Vista], netvista.ril_verifyuicclock, RIL_VerifyUiccLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_VerifyUiccLock
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

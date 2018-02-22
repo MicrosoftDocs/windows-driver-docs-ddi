@@ -7,8 +7,8 @@ old-location: wdf\wdf_read_register_uchar.htm
 old-project: wdf
 ms.assetid: C8633689-0900-42BB-9D0D-6F95CBA13A37
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_UCHAR, wdfhwaccess/WDF_READ_REGISTER_UCHAR, WDF_READ_REGISTER_UCHAR function, wdf.wdf_read_register_uchar
+ms.date: 2/20/2018
+ms.keywords: wdfhwaccess/WDF_READ_REGISTER_UCHAR, WDF_READ_REGISTER_UCHAR, WDF_READ_REGISTER_UCHAR function, wdf.wdf_read_register_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_REGISTER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

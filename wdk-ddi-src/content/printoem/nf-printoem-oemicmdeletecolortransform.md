@@ -7,8 +7,8 @@ old-location: print\oemicmdeletecolortransform.htm
 old-project: print
 ms.assetid: 820d9e28-fe06-4aa7-91d8-a90340affb94
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: OEMIcmDeleteColorTransform function [Print Devices], print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml, printoem/OEMIcmDeleteColorTransform, print.oemicmdeletecolortransform, OEMIcmDeleteColorTransform
+ms.date: 2/21/2018
+ms.keywords: print.oemicmdeletecolortransform, print_unidrv-pscript_rendering_bbbce51d-2346-4260-ae70-598d38276d69.xml, OEMIcmDeleteColorTransform function [Print Devices], printoem/OEMIcmDeleteColorTransform, OEMIcmDeleteColorTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

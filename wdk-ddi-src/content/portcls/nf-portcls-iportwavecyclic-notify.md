@@ -7,8 +7,8 @@ old-location: audio\iportwavecyclic_notify.htm
 old-project: audio
 ms.assetid: 318ba587-e34f-4f9f-bdf9-3e7c402456c5
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: portcls/IPortWaveCyclic::Notify, Notify method [Audio Devices], Notify method [Audio Devices], IPortWaveCyclic interface, Notify, audio.iportwavecyclic_notify, IPortWaveCyclic, IPortWaveCyclic::Notify, IPortWaveCyclic interface [Audio Devices], Notify method, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml
+ms.date: 2/21/2018
+ms.keywords: IPortWaveCyclic::Notify, audmp-routines_8b2252d3-100f-4e4a-b5ca-cdaf0c12834e.xml, IPortWaveCyclic interface [Audio Devices], Notify method, audio.iportwavecyclic_notify, Notify method [Audio Devices], IPortWaveCyclic interface, IPortWaveCyclic, Notify, portcls/IPortWaveCyclic::Notify, Notify method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWaveCyclic.Notify
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWaveCyclic::Notify method
@@ -114,5 +114,5 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveCyclic::Notify method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWaveCyclic::Notify method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

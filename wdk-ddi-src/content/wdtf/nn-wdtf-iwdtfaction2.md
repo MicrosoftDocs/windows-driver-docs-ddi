@@ -7,7 +7,7 @@ old-location: dtf\iwdtfaction2.htm
 old-project: dtf
 ms.assetid: 0ca56301-9e46-4082-a5a4-41a9c655fbd8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: dtf.iwdtfaction2, IWDTFAction2 interface [Windows Device Testing Framework], IWDTFAction2 interface [Windows Device Testing Framework], described, IWDTFAction2, wdtf/IWDTFAction2, Microsoft.WDTF.IWDTFAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFAction2
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 

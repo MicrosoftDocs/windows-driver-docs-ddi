@@ -7,8 +7,8 @@ old-location: wdf\read_register_uchar.htm
 old-project: wdf
 ms.assetid: 149DE843-937C-4A6F-AB2D-ACC8895D5E91
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.read_register_uchar, READ_REGISTER_UCHAR, READ_REGISTER_UCHAR function, wudfddi_hwaccess/READ_REGISTER_UCHAR, wdf.read_register_uchar
+ms.date: 2/20/2018
+ms.keywords: READ_REGISTER_UCHAR, READ_REGISTER_UCHAR function, wdf.read_register_uchar, umdf.read_register_uchar, wudfddi_hwaccess/READ_REGISTER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

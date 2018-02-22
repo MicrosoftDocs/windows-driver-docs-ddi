@@ -7,8 +7,8 @@ old-location: display\dxgkargcb_protectedsessionstatus.htm
 old-project: display
 ms.assetid: 417480C5-8B24-4504-8B2D-DB9D38E4C11B
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARGCB_PROTECTEDSESSIONSTATUS, display.dxgkargcb_protectedsessionstatus, _DXGKARGCB_PROTECTEDSESSIONSTATUS, DXGKARGCB_PROTECTEDSESSIONSTATUS, DXGKARGCB_PROTECTEDSESSIONSTATUS structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: "_DXGKARGCB_PROTECTEDSESSIONSTATUS, DXGKARGCB_PROTECTEDSESSIONSTATUS structure [Display Devices], d3dkmddi/DXGKARGCB_PROTECTEDSESSIONSTATUS, display.dxgkargcb_protectedsessionstatus, DXGKARGCB_PROTECTEDSESSIONSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

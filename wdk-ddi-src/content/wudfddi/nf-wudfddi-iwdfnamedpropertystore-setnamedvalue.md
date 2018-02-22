@@ -7,8 +7,8 @@ old-location: wdf\iwdfnamedpropertystore_setnamedvalue.htm
 old-project: wdf
 ms.assetid: 1fd075c9-7d0e-4670-bac0-b7b8ba0a714f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: SetNamedValue method, umdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue method, IWDFNamedPropertyStore interface, wudfddi/IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore::SetNamedValue, SetNamedValue, wdf.iwdfnamedpropertystore_setnamedvalue, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, IWDFNamedPropertyStore interface, SetNamedValue method
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfnamedpropertystore_setnamedvalue, SetNamedValue, wudfddi/IWDFNamedPropertyStore::SetNamedValue, SetNamedValue method, IWDFNamedPropertyStore interface, SetNamedValue method, IWDFNamedPropertyStore::SetNamedValue, IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_00f9168d-5017-4b48-929c-fc9acfee5d24.xml, IWDFNamedPropertyStore interface, SetNamedValue method, wdf.iwdfnamedpropertystore_setnamedvalue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore.SetNamedValue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -207,5 +207,5 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFNamedPropertyStore::SetNamedValue method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFNamedPropertyStore::SetNamedValue method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\changer_element_status.htm
 old-project: storage
 ms.assetid: 3debcf76-bb84-48ec-933e-03e099ad764f
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddchgr/CHANGER_ELEMENT_STATUS, storage.changer_element_status, *PCHANGER_ELEMENT_STATUS, ntddchgr/PCHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS, _CHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml, CHANGER_ELEMENT_STATUS, PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: ntddchgr/PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS structure [Storage Devices], PCHANGER_ELEMENT_STATUS structure pointer [Storage Devices], structs-changer_6dd054a8-1224-42f1-ab26-29b2c108ce27.xml, PCHANGER_ELEMENT_STATUS, _CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS, storage.changer_element_status, ntddchgr/CHANGER_ELEMENT_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANGER_ELEMENT_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANGER_ELEMENT_STATUS, CHANGER_ELEMENT_STATUS"
+req.typenames: CHANGER_ELEMENT_STATUS, *PCHANGER_ELEMENT_STATUS
 ---
 
 # _CHANGER_ELEMENT_STATUS structure
@@ -283,11 +283,11 @@ For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to 
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
-
-
 <a href="..\mcd\nf-mcd-changerqueryvolumetags.md">ChangerQueryVolumeTags</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 
@@ -299,7 +299,7 @@ For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to 
 
 
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
@@ -307,5 +307,5 @@ For most element types, changer miniclass drivers use CHANGER_ELEMENT_STATUS to 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_ELEMENT_STATUS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_ELEMENT_STATUS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

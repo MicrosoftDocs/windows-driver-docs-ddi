@@ -7,8 +7,8 @@ old-location: stream\kspindataintersection.htm
 old-project: stream
 ms.assetid: e4bf090d-35ec-42fd-8b6e-ce51734adba5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsPinDataIntersection, KsPinDataIntersection, stream.kspindataintersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, KsPinDataIntersection function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: KsPinDataIntersection function [Streaming Media Devices], ks/KsPinDataIntersection, KsPinDataIntersection, ksfunc_33b743b3-4045-49cb-a5d4-f6aede715223.xml, stream.kspindataintersection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,17 +127,17 @@ A match can occur under three conditions: if the major format of the range passe
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
-
-
-
 <a href="..\ks\nc-ks-pfnksintersecthandler.md">KStrIntersectHandler</a>
 
 
 
- 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinDataIntersection function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinDataIntersection function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

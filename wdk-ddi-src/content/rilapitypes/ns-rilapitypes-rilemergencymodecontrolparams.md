@@ -7,8 +7,8 @@ old-location: netvista\rilemergencymodecontrolparams_2.htm
 old-project: netvista
 ms.assetid: 240414c7-c035-462c-8319-d7ac192c712a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilemergencymodecontrolparams_2, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS, rilapitypes/RILEMERGENCYMODECONTROLPARAMS
+ms.date: 2/16/2018
+ms.keywords: netvista.rilemergencymodecontrolparams_2, rilapitypes/RILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILEMERGENCYMODECONTROLPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILEMERGENCYMODECONTROLPARAMS, RILEMERGENCYMODECONTROLPARAMS"
+req.typenames: RILEMERGENCYMODECONTROLPARAMS, *LPRILEMERGENCYMODECONTROLPARAMS
 req.product: Windows 10 or later.
 ---
 

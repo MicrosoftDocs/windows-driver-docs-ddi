@@ -7,8 +7,8 @@ old-location: storage\storage_diagnostic_level.htm
 old-project: storage
 ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], ntddstor/STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, _STORAGE_DIAGNOSTIC_LEVEL, storage.storage_diagnostic_level, StorageDiagnosticLevelDefault, *PSTORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, StorageDiagnosticLevelMax, ntddstor/StorageDiagnosticLevelMax, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: STORAGE_DIAGNOSTIC_LEVEL, storage.storage_diagnostic_level, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelMax, StorageDiagnosticLevelDefault, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelMax, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], *PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DIAGNOSTIC_LEVEL
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL"
+req.typenames: STORAGE_DIAGNOSTIC_LEVEL, *PSTORAGE_DIAGNOSTIC_LEVEL
 ---
 
 # _STORAGE_DIAGNOSTIC_LEVEL enumeration

@@ -7,8 +7,8 @@ old-location: audio\iinterruptsync_registerserviceroutine.htm
 old-project: audio
 ms.assetid: fb0650ee-24a6-4f64-9f16-dded0ccc79cd
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: RegisterServiceRoutine method [Audio Devices], IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, audio.iinterruptsync_registerserviceroutine, portcls/IInterruptSync::RegisterServiceRoutine, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, RegisterServiceRoutine, IInterruptSync, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, IInterruptSync::RegisterServiceRoutine
+ms.date: 2/21/2018
+ms.keywords: RegisterServiceRoutine method [Audio Devices], audio.iinterruptsync_registerserviceroutine, portcls/IInterruptSync::RegisterServiceRoutine, IInterruptSync::RegisterServiceRoutine, IInterruptSync interface [Audio Devices], RegisterServiceRoutine method, RegisterServiceRoutine method [Audio Devices], IInterruptSync interface, audmp-routines_92919bdc-00aa-4911-ac3c-58a0807c7212.xml, RegisterServiceRoutine, IInterruptSync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IInterruptSync.RegisterServiceRoutine
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IInterruptSync::RegisterServiceRoutine method

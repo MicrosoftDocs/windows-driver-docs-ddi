@@ -7,8 +7,8 @@ old-location: sensors\gnss_supl_ni_info.htm
 old-project: sensors
 ms.assetid: 78D19A0C-E247-4DDA-A689-494B5A61A673
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PGNSS_SUPL_NI_INFO, sensors.gnss_supl_ni_info, gnssdriver/PGNSS_SUPL_NI_INFO, gnssdriver/GNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices], PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices]"
+ms.date: 2/15/2018
+ms.keywords: PGNSS_SUPL_NI_INFO structure pointer [Sensor Devices], gnssdriver/GNSS_SUPL_NI_INFO, sensors.gnss_supl_ni_info, gnssdriver/PGNSS_SUPL_NI_INFO, PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO, *PGNSS_SUPL_NI_INFO, GNSS_SUPL_NI_INFO structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,6 +94,7 @@ Version number.
 ### -field SuplNiUrl
 
  
+
 
 
 

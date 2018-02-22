@@ -7,8 +7,8 @@ old-location: kernel\ioallocatecontroller.htm
 old-project: kernel
 ms.assetid: bfeec8b1-48fb-420e-b602-699a5f2d659a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/IoAllocateController, kernel.ioallocatecontroller, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, IoAllocateController, IoAllocateController routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: IoAllocateController routine [Kernel-Mode Driver Architecture], IoAllocateController, kernel.ioallocatecontroller, k104_b550c6ff-9d5c-4497-98bb-6781b4e6abd8.xml, ntddk/IoAllocateController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,15 +112,15 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-iocreatecontroller.md">IoCreateController</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">ControllerControl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iofreecontroller.md">IoFreeController</a>
 
 
 
@@ -132,5 +132,5 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff542049">Contr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoAllocateController routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoAllocateController routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IStiUSD::SetNotificationHandle method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::SetNotificationHandle method specifies an event handle that the minidriver should use to inform the caller of device events.
 old-location: image\istiusd_setnotificationhandle.htm
-old-project: image
+old-project: Image
 ms.assetid: 096e9b7a-fc50-46a2-b67a-7128dba13321
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, SetNotificationHandle method [Imaging Devices], SetNotificationHandle, IStiUSD interface [Imaging Devices], SetNotificationHandle method, image.istiusd_setnotificationhandle, IStiUSD::SetNotificationHandle, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD, stiusd/IStiUSD::SetNotificationHandle
+ms.date: 2/15/2018
+ms.keywords: SetNotificationHandle method [Imaging Devices], image.istiusd_setnotificationhandle, IStiUSD, stifnc_f6b96be7-54e0-4cf1-a895-3d8d31dbc72b.xml, stiusd/IStiUSD::SetNotificationHandle, SetNotificationHandle, IStiUSD interface [Imaging Devices], SetNotificationHandle method, SetNotificationHandle method [Imaging Devices], IStiUSD interface, IStiUSD::SetNotificationHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.SetNotificationHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 

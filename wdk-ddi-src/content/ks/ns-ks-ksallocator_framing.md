@@ -7,8 +7,8 @@ old-location: stream\ksallocator_framing.htm
 old-project: stream
 ms.assetid: db96eccd-6747-458b-9a9e-ec909146f3fa
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PKSALLOCATOR_FRAMING, ks/KSALLOCATOR_FRAMING, stream.ksallocator_framing, PKSALLOCATOR_FRAMING, KSALLOCATOR_FRAMING structure [Streaming Media Devices], KSALLOCATOR_FRAMING, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], ks/PKSALLOCATOR_FRAMING, ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml"
+ms.date: 2/20/2018
+ms.keywords: KSALLOCATOR_FRAMING, ks/PKSALLOCATOR_FRAMING, ks/KSALLOCATOR_FRAMING, ks-struct_cc2d8d16-75d5-4ef4-b8de-63197e61424b.xml, PKSALLOCATOR_FRAMING structure pointer [Streaming Media Devices], *PKSALLOCATOR_FRAMING, stream.ksallocator_framing, KSALLOCATOR_FRAMING structure [Streaming Media Devices], PKSALLOCATOR_FRAMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,7 +75,27 @@ typedef struct {
 
 
 
-### -field OptionsFlags
+### -field PoolType
+
+A structure of type <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
+
+
+### -field Frames
+
+Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
+
+
+### -field FrameSize
+
+Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
+
+
+### -field Reserved
+
+Reserved for system use. Set to zero.
+
+
+#### - OptionsFlags
 
 Specifies the allocator option flags specified during allocator creation for the connection point. The <b>OptionsFlags</b> member can contain one of the following values.
 
@@ -108,7 +128,7 @@ Indicates that system memory should be used for allocations. When specified, the
  
 
 
-### -field RequirementsFlags
+#### - RequirementsFlags
 
 A value of type ULONG that describes the allocator requirements for this connection point for query operations. The <b>RequirementsFlags</b> member can contain the following values.
 
@@ -171,22 +191,7 @@ Indicates that the Requirements flags are preferences only and the connection po
  
 
 
-### -field PoolType
-
-A structure of type <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> that specifies kernel-mode allocation pool type.
-
-
-### -field Frames
-
-Specifies the total number of allowable outstanding frames. Zero indicates that the filter has no requirement for this member.
-
-
-### -field FrameSize
-
-Specifies the total size of the frame, including prefix and postfix. Zero indicates that the filter has no requirement for this member.
-
-
-### -field FileAlignment
+#### - FileAlignment
 
 A value of type ULONG that describes the byte alignment to use when allocating frames. The following table describes several possible alignment values.
 
@@ -249,16 +254,6 @@ FILE_64_BYTE_ALIGNMENT
  
 
 
-### -field FramePitch
-
- 
-
-
-### -field Reserved
-
-Reserved for system use. Set to zero.
-
-
 ## -remarks
 
 
@@ -280,5 +275,5 @@ When you specify a value for the <b>FileAlignment</b> member, the smallest alloc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSALLOCATOR_FRAMING structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSALLOCATOR_FRAMING structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

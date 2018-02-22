@@ -4,11 +4,11 @@ title: IWiaDrvItem::AddItemToFolder method
 author: windows-driver-content
 description: The AddItemToFolder method adds an IWiaDrvItem item to a folder in a driver item tree.
 old-location: image\iwiadrvitem_additemtofolder.htm
-old-project: image
+old-project: Image
 ms.assetid: 3f1cd0bf-13ce-49bc-a48e-dc3d89f3c7d7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaDrvItem::AddItemToFolder, AddItemToFolder, DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::AddItemToFolder, IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, image.iwiadrvitem_additemtofolder, AddItemToFolder method [Imaging Devices], AddItemToFolder method [Imaging Devices], IWiaDrvItem interface
+ms.date: 2/15/2018
+ms.keywords: DrvItem_7979b3e5-dfd3-41bb-ae55-266cbb74866c.xml, AddItemToFolder method [Imaging Devices], IWiaDrvItem interface, AddItemToFolder method [Imaging Devices], IWiaDrvItem::AddItemToFolder, wiamindr_lh/IWiaDrvItem::AddItemToFolder, AddItemToFolder, image.iwiadrvitem_additemtofolder, IWiaDrvItem interface [Imaging Devices], AddItemToFolder method, IWiaDrvItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,17 +100,17 @@ Minidrivers typically use the AddItemToFolder method to add an item to a parent 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4">RemoveItemFromFolder</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/f800427e-d6b6-4f4c-aee7-4b2b0d0aa0c4">RemoveItemFromFolder</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::AddItemToFolder method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaDrvItem::AddItemToFolder method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

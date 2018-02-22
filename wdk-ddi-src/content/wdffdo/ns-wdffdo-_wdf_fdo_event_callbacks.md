@@ -7,8 +7,8 @@ old-location: wdf\wdf_fdo_event_callbacks.htm
 old-project: wdf
 ms.assetid: 61e268aa-782a-42d5-8965-b935156033cb
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_fdo_event_callbacks, *PWDF_FDO_EVENT_CALLBACKS, DFDeviceObjectFdoPdoRef_ed4f99d4-cc25-4275-b523-36cd439cac86.xml, PWDF_FDO_EVENT_CALLBACKS structure pointer, _WDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS structure, PWDF_FDO_EVENT_CALLBACKS, wdffdo/WDF_FDO_EVENT_CALLBACKS, wdf.wdf_fdo_event_callbacks, WDF_FDO_EVENT_CALLBACKS, wdffdo/PWDF_FDO_EVENT_CALLBACKS
+ms.date: 2/20/2018
+ms.keywords: PWDF_FDO_EVENT_CALLBACKS, _WDF_FDO_EVENT_CALLBACKS, *PWDF_FDO_EVENT_CALLBACKS, wdf.wdf_fdo_event_callbacks, DFDeviceObjectFdoPdoRef_ed4f99d4-cc25-4275-b523-36cd439cac86.xml, wdffdo/PWDF_FDO_EVENT_CALLBACKS, wdffdo/WDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS structure, kmdf.wdf_fdo_event_callbacks, PWDF_FDO_EVENT_CALLBACKS structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_FDO_EVENT_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FDO_EVENT_CALLBACKS, WDF_FDO_EVENT_CALLBACKS"
+req.typenames: WDF_FDO_EVENT_CALLBACKS, *PWDF_FDO_EVENT_CALLBACKS
 req.product: Windows 10 or later.
 ---
 
@@ -108,7 +108,7 @@ A driver that specifies an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
+<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
 
 
 
@@ -116,17 +116,17 @@ A driver that specifies an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a
 
 
 
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitseteventcallbacks.md">WdfFdoInitSetEventCallbacks</a>
+
+
+
 <a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">WDF_FDO_EVENT_CALLBACKS_INIT</a>
 
 
 
-<a href="..\wdfpdo\ns-wdfpdo-_wdf_pdo_event_callbacks.md">WDF_PDO_EVENT_CALLBACKS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_FDO_EVENT_CALLBACKS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_FDO_EVENT_CALLBACKS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

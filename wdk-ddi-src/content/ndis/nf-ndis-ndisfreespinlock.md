@@ -7,8 +7,8 @@ old-location: netvista\ndisfreespinlock.htm
 old-project: netvista
 ms.assetid: 4807d413-c40f-4ee8-b670-9afcac809bd2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisFreeSpinLock, ndis_spin_lock_ref_c5b1dcb1-afdc-4622-a07b-f81bb7c1f550.xml, ndis/NdisFreeSpinLock, NdisFreeSpinLock function [Network Drivers Starting with Windows Vista], netvista.ndisfreespinlock
+ms.date: 2/16/2018
+ms.keywords: ndis_spin_lock_ref_c5b1dcb1-afdc-4622-a07b-f81bb7c1f550.xml, ndis/NdisFreeSpinLock, netvista.ndisfreespinlock, NdisFreeSpinLock function [Network Drivers Starting with Windows Vista], NdisFreeSpinLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,19 +103,7 @@ Callers of
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
@@ -123,21 +111,11 @@ Callers of
 
 
 
-<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
-   NdisInterlockedInsertHeadList</a>
+<a href="..\ndis\nf-ndis-ndisdprreleasespinlock.md">NdisDprReleaseSpinLock</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
-   NdisInterlockedRemoveHeadList</a>
+<a href="..\ndis\nf-ndis-ndisdpracquirespinlock.md">NdisDprAcquireSpinLock</a>
 
 
 
@@ -146,9 +124,31 @@ Callers of
 
 
 
- 
+<a href="..\ndis\nf-ndis-ndisacquirespinlock.md">NdisAcquireSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedaddulong.md">NdisInterlockedAddUlong</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedremoveheadlist.md">
+   NdisInterlockedRemoveHeadList</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisinterlockedinsertheadlist.md">
+   NdisInterlockedInsertHeadList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFreeSpinLock function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFreeSpinLock function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

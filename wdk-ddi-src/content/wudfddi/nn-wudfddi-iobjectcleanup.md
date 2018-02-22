@@ -7,7 +7,7 @@ old-location: wdf\iobjectcleanup.htm
 old-project: wdf
 ms.assetid: 5e465c90-3290-4c89-bf47-521280c0fe5c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iobjectcleanup, IObjectCleanup interface, IObjectCleanup interface, described, IObjectCleanup, wudfddi/IObjectCleanup, UMDFBaseObjectRef_4e434f46-a62e-4410-b8ed-663ab59c89dd.xml, umdf.iobjectcleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IObjectCleanup
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

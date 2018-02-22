@@ -7,8 +7,8 @@ old-location: wdf\security_impersonation_level.htm
 old-project: wdf
 ms.assetid: 5c325c16-6bc6-4eae-a58c-234d11616780
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: SECURITY_IMPERSONATION_LEVEL enumeration, _SECURITY_IMPERSONATION_LEVEL, SECURITY_IMPERSONATION_LEVEL, SecurityIdentification, wudfddi/SecurityIdentification, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, wudfddi/SecurityDelegation, SecurityAnonymous, wudfddi/SecurityImpersonation, wudfddi/SecurityAnonymous, umdf.security_impersonation_level, SecurityDelegation, wudfddi/SECURITY_IMPERSONATION_LEVEL, SecurityImpersonation, wdf.security_impersonation_level
+ms.date: 2/20/2018
+ms.keywords: SECURITY_IMPERSONATION_LEVEL, SecurityAnonymous, _SECURITY_IMPERSONATION_LEVEL, wudfddi/SECURITY_IMPERSONATION_LEVEL, wudfddi/SecurityAnonymous, SecurityIdentification, wudfddi/SecurityImpersonation, SECURITY_IMPERSONATION_LEVEL enumeration, umdf.security_impersonation_level, SecurityImpersonation, umdfstructs_f81ccb0e-4b8c-4a8a-bdd3-4b4a45a750ab.xml, wudfddi/SecurityDelegation, SecurityDelegation, wdf.security_impersonation_level, wudfddi/SecurityIdentification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -116,5 +116,5 @@ For more information about the security impersonation levels, see the <b>SECURIT
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20SECURITY_IMPERSONATION_LEVEL enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20SECURITY_IMPERSONATION_LEVEL enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_is_clustered.htm
 old-project: storage
 ms.assetid: 46b72c16-2656-4ceb-a786-5fb24818b2a7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_disk_is_clustered, IOCTL_DISK_IS_CLUSTERED control code [Storage Devices], IOCTL_DISK_IS_CLUSTERED, ntdddisk/IOCTL_DISK_IS_CLUSTERED, k307_a812ef4f-f10c-4d75-aaf8-a3ad4d41703e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

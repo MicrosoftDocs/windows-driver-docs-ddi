@@ -7,8 +7,8 @@ old-location: wdf\wdftimercreate.htm
 old-project: wdf
 ms.assetid: 577b7629-13ff-4a2d-9f9f-a140d8442bd3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdftimer/WdfTimerCreate, PFN_WDFTIMERCREATE, kmdf.wdftimercreate, WdfTimerCreate, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, wdf.wdftimercreate, WdfTimerCreate method
+ms.date: 2/20/2018
+ms.keywords: wdf.wdftimercreate, WdfTimerCreate method, WdfTimerCreate, kmdf.wdftimercreate, DFTimerObjectRef_3388a92e-119d-4208-9cf5-2c934435ff25.xml, wdftimer/WdfTimerCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfTimerCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -221,19 +221,19 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
 <a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init.md">WDF_TIMER_CONFIG_INIT</a>
 
 
 
+<a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
+
+
+
 <a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+
+
+
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 
@@ -245,5 +245,5 @@ if (!NT_SUCCESS(status)) {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfTimerCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfTimerCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

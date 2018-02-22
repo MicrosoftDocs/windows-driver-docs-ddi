@@ -7,8 +7,8 @@ old-location: ifsk\fltcreatecommunicationport.htm
 old-project: ifsk
 ms.assetid: 9987ed6b-7792-4035-9640-9ee9595e854a
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltApiRef_a_to_d_77aa523f-3374-41e7-9b9f-ed0d9e5b3094.xml, fltkernel/FltCreateCommunicationPort, ifsk.fltcreatecommunicationport, FltCreateCommunicationPort, FltCreateCommunicationPort function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltCreateCommunicationPort, FltCreateCommunicationPort function [Installable File System Drivers], ifsk.fltcreatecommunicationport, FltApiRef_a_to_d_77aa523f-3374-41e7-9b9f-ed0d9e5b3094.xml, FltCreateCommunicationPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -378,19 +378,15 @@ Any server port that is created by <b>FltCreateCommunicationPort</b> must eventu
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
 
 
 
@@ -402,35 +398,15 @@ Any server port that is created by <b>FltCreateCommunicationPort</b> must eventu
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreesecuritydescriptor.md">FltFreeSecurityDescriptor</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
-
-
-
-<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
-
-
-
-<a href="..\wdm\nf-wdm-probeforread.md">ProbeForRead</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
 
 
 
@@ -438,9 +414,33 @@ Any server port that is created by <b>FltCreateCommunicationPort</b> must eventu
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltfreesecuritydescriptor.md">FltFreeSecurityDescriptor</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540506">FilterGetMessage</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541508">FilterReplyMessage</a>
+
+
+
+<a href="..\wdm\nf-wdm-probeforwrite.md">ProbeForWrite</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateCommunicationPort function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateCommunicationPort function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

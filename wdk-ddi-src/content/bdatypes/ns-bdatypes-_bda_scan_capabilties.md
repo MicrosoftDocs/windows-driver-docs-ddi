@@ -7,8 +7,8 @@ old-location: stream\bda_scan_capabilties.htm
 old-project: stream
 ms.assetid: AB97C5AC-E5B8-4C2B-ADA1-73E27E4B81D5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: BDA_SCAN_CAPABILTIES structure [Streaming Media Devices], PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], BDA_SCAN_CAPABILTIES, bdatypes/BDA_SCAN_CAPABILTIES, PBDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES, _BDA_SCAN_CAPABILTIES, bdatypes/PBDA_SCAN_CAPABILTIES, stream.bda_scan_capabilties
+ms.date: 2/20/2018
+ms.keywords: bdatypes/PBDA_SCAN_CAPABILTIES, stream.bda_scan_capabilties, PBDA_SCAN_CAPABILTIES structure pointer [Streaming Media Devices], PBDA_SCAN_CAPABILTIES, _BDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES structure [Streaming Media Devices], bdatypes/BDA_SCAN_CAPABILTIES, *PBDA_SCAN_CAPABILTIES, BDA_SCAN_CAPABILTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

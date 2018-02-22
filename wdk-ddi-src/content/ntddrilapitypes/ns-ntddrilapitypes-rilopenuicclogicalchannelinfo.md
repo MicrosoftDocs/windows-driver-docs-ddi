@@ -7,8 +7,8 @@ old-location: netvista\rilopenuicclogicalchannelinfo.htm
 old-project: netvista
 ms.assetid: 5001f623-5b53-4ae7-9b5b-dc3bd5bdcc70
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO, netvista.rilopenuicclogicalchannelinfo"
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILOPENUICCLOGICALCHANNELINFO, netvista.rilopenuicclogicalchannelinfo, *LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILOPENUICCLOGICALCHANNELINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILOPENUICCLOGICALCHANNELINFO, RILOPENUICCLOGICALCHANNELINFO"
+req.typenames: RILOPENUICCLOGICALCHANNELINFO, *LPRILOPENUICCLOGICALCHANNELINFO
 ---
 
 # RILOPENUICCLOGICALCHANNELINFO structure

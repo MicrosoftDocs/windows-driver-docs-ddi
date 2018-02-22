@@ -7,8 +7,8 @@ old-location: kernel\rtlunalignedstringcblength.htm
 old-project: kernel
 ms.assetid: 03f49658-ec51-4869-bba8-832c6856c4b0
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUnalignedStringCbLength, RtlUnalignedStringCbLengthW, ntstrsafe/RtlUnalignedStringCbLengthW, kernel.rtlunalignedstringcblength, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLength, kernel.rtlunalignedstringcblength, safestrings_6724eedb-4d8d-490a-aac8-81c5c95ca3df.xml, ntstrsafe/RtlUnalignedStringCbLengthW, RtlUnalignedStringCbLengthW function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnalignedStringCbLengthW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
 ---
 
 # RtlUnalignedStringCbLengthW function
@@ -147,5 +147,5 @@ For more information about the safe string functions, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnalignedStringCbLengthW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnalignedStringCbLengthW function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

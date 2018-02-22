@@ -7,8 +7,8 @@ old-location: netvista\dot11_power_mode.htm
 old-project: netvista
 ms.assetid: 4f18f937-e749-414d-aa21-96c6ab02982b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/dot11_power_mode_powersave, *PDOT11_POWER_MODE, PDOT11_POWER_MODE, windot11/dot11_power_mode_active, dot11_power_mode_active, windot11/dot11_power_mode_unknown, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, dot11_power_mode_powersave, windot11/PDOT11_POWER_MODE, _DOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], windot11/DOT11_POWER_MODE, netvista.dot11_power_mode, dot11_power_mode_unknown, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], DOT11_POWER_MODE
+ms.date: 2/16/2018
+ms.keywords: windot11/PDOT11_POWER_MODE, windot11/DOT11_POWER_MODE, _DOT11_POWER_MODE, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, windot11/dot11_power_mode_unknown, netvista.dot11_power_mode, dot11_power_mode_powersave, windot11/dot11_power_mode_powersave, windot11/dot11_power_mode_active, *PDOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], PDOT11_POWER_MODE, dot11_power_mode_unknown, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], dot11_power_mode_active, DOT11_POWER_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_POWER_MODE
 product: Windows
 targetos: Windows
-req.typenames: DOT11_POWER_MODE, *PDOT11_POWER_MODE
+req.typenames: "*PDOT11_POWER_MODE, DOT11_POWER_MODE"
 req.product: Windows 10 or later.
 ---
 
@@ -107,5 +107,5 @@ An 802.11 station advertises its power management mode through the Power Managem
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_POWER_MODE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_POWER_MODE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IWiaMiniDrvCallBack::MiniDrvCallback method
 author: windows-driver-content
 description: The MiniDrvCallback method provides a callback method for WIA minidrivers to use during a callback data transfer.
 old-location: image\iwiaminidrvcallback_minidrvcallback.htm
-old-project: image
+old-project: Image
 ms.assetid: 7d1c0d8a-65db-47fd-ad6a-a83c7ed3acd9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrvCallBack::MiniDrvCallback, CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, MiniDrvCallback, wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback, image.iwiaminidrvcallback_minidrvcallback, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack, IWiaMiniDrvCallBack interface [Imaging Devices], MiniDrvCallback method, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack interface
+ms.date: 2/15/2018
+ms.keywords: MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack interface, MiniDrvCallback, IWiaMiniDrvCallBack interface [Imaging Devices], MiniDrvCallback method, wiamindr_lh/IWiaMiniDrvCallBack::MiniDrvCallback, CallBack_ab4a8e02-c505-49d4-8933-27428333a00d.xml, image.iwiaminidrvcallback_minidrvcallback, MiniDrvCallback method [Imaging Devices], IWiaMiniDrvCallBack::MiniDrvCallback, IWiaMiniDrvCallBack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -257,17 +257,17 @@ IT_MSG_FILE_PREVIEW_DATA_HEADER  is for out-of-band-data. This allows the applic
 
 ## -see-also
 
-<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
-
-
-
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvcallback.md">IWiaMiniDrvCallBack</a>
 
 
 
- 
+<a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrvCallBack::MiniDrvCallback method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaMiniDrvCallBack::MiniDrvCallback method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

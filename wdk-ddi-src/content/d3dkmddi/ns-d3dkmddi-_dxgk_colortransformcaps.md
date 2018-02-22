@@ -7,8 +7,8 @@ old-location: display\dxgk_colortransformcaps_.htm
 old-project: display
 ms.assetid: 83113D6C-44A1-4022-8101-061DEA9868E1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PDXGK_COLORTRANSFORMCAPS, d3dkmddi/PDXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS structure [Display Devices], _DXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_, d3dkmddi/DXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/PDXGK_COLORTRANSFORMCAPS, PDXGK_COLORTRANSFORMCAPS structure pointer [Display Devices], PDXGK_COLORTRANSFORMCAPS, d3dkmddi/DXGK_COLORTRANSFORMCAPS, DXGK_COLORTRANSFORMCAPS structure [Display Devices], DXGK_COLORTRANSFORMCAPS, display.dxgk_colortransformcaps_, _DXGK_COLORTRANSFORMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,7 +109,7 @@ Indicates support for a 3 by 4 matrix color transform in the display pipeline ha
 This value is reserved for system use.
 
 
-### -field Value
+#### - Value
 
 The combined UINT value.
 

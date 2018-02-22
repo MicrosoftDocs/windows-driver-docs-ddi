@@ -7,8 +7,8 @@ old-location: ifsk\set_dax_alloc_alignment_hint_input.htm
 old-project: ifsk
 ms.assetid: 62C15E35-D9B6-449D-9AF2-F8A1F75C2BB9
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ifsk.set_dax_alloc_alignment_hint_input, ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
+ms.date: 2/16/2018
+ms.keywords: ntifs/SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, ntifs/PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure [Installable File System Drivers], ifsk.set_dax_alloc_alignment_hint_input, PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure pointer [Installable File System Drivers], PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT"
+req.typenames: SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT, *PSET_DAX_ALLOC_ALIGNMENT_HINT_INPUT
 ---
 
 # _SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure
@@ -55,7 +55,7 @@ This material is not yet available. This placeholder topic is provided as an exa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SET_DAX_ALLOC_ALIGNMENT_HINT_INPUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 
 
 ## -struct-fields

@@ -4,11 +4,11 @@ title: USBD_GetInterfaceLength function
 author: windows-driver-content
 description: The USBD_GetInterfaceLength routine obtains the length of a given interface descriptor, including the length of all endpoint descriptors contained within the interface.
 old-location: buses\usbd_getinterfacelength.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: bcfc2b11-d89c-40f8-95ce-07a599e2a2bb
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: USBD_GetInterfaceLength, USBD_GetInterfaceLength routine [Buses], buses.usbd_getinterfacelength, usbdlib/USBD_GetInterfaceLength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml
+ms.date: 2/15/2018
+ms.keywords: USBD_GetInterfaceLength routine [Buses], USBD_GetInterfaceLength, usbdlib/USBD_GetInterfaceLength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml, buses.usbd_getinterfacelength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_GetInterfaceLength
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -109,5 +109,5 @@ Callers can use this routine to obtain the length of an interface and associated
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_GetInterfaceLength routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_GetInterfaceLength routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

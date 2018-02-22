@@ -7,8 +7,8 @@ old-location: kernel\transaction_properties_information.htm
 old-project: kernel
 ms.assetid: 76b0f102-0d09-4b16-b8e1-727a3a6e48c9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "_TRANSACTION_PROPERTIES_INFORMATION, ktm_ref_bc17351c-f0ea-457e-968c-19785c0afd8d.xml, wdm/PTRANSACTION_PROPERTIES_INFORMATION, TRANSACTION_PROPERTIES_INFORMATION, *PTRANSACTION_PROPERTIES_INFORMATION, TRANSACTION_PROPERTIES_INFORMATION structure [Kernel-Mode Driver Architecture], PTRANSACTION_PROPERTIES_INFORMATION, wdm/TRANSACTION_PROPERTIES_INFORMATION, PTRANSACTION_PROPERTIES_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.transaction_properties_information"
+ms.date: 2/16/2018
+ms.keywords: wdm/PTRANSACTION_PROPERTIES_INFORMATION, kernel.transaction_properties_information, TRANSACTION_PROPERTIES_INFORMATION structure [Kernel-Mode Driver Architecture], _TRANSACTION_PROPERTIES_INFORMATION, *PTRANSACTION_PROPERTIES_INFORMATION, PTRANSACTION_PROPERTIES_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PTRANSACTION_PROPERTIES_INFORMATION, TRANSACTION_PROPERTIES_INFORMATION, ktm_ref_bc17351c-f0ea-457e-968c-19785c0afd8d.xml, wdm/TRANSACTION_PROPERTIES_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,15 +118,15 @@ The <b>TRANSACTION_PROPERTIES_INFORMATION</b> structure is used with the <a href
 
 
 
-<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
-
-
-
 <a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
+
+
+
+<a href="..\wdm\ne-wdm-_transaction_outcome.md">TRANSACTION_OUTCOME</a>
 
 
 
@@ -138,5 +138,5 @@ The <b>TRANSACTION_PROPERTIES_INFORMATION</b> structure is used with the <a href
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRANSACTION_PROPERTIES_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRANSACTION_PROPERTIES_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_2dregion.htm
 old-project: display
 ms.assetid: 24f703c5-d025-4233-a32d-7cb8bcb5c6b7
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_2DREGION, D3DKMDT_2DOFFSET, display.d3dkmdt_2dregion, D3DKMDT_2DREGION structure [Display Devices], D3DKMDT_2DREGION, DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, _D3DKMDT_2DREGION
+ms.date: 2/20/2018
+ms.keywords: "_D3DKMDT_2DREGION, DmStructs_8f1640ee-c790-4617-a1fe-913510b2cfad.xml, d3dkmdt/D3DKMDT_2DREGION, D3DKMDT_2DOFFSET, display.d3dkmdt_2dregion, D3DKMDT_2DREGION, D3DKMDT_2DREGION structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

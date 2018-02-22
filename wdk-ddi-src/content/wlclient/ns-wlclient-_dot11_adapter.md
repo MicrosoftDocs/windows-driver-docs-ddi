@@ -7,8 +7,8 @@ old-location: netvista\dot11_adapter.htm
 old-project: netvista
 ms.assetid: dae4c499-86c7-4f2b-bd5a-df2a62cdb77f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11_adapter, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ADAPTER, Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, _DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], wlclient/PDOT11_ADAPTER, PDOT11_ADAPTER, DOT11_ADAPTER, wlclient/DOT11_ADAPTER
+ms.date: 2/16/2018
+ms.keywords: "_DOT11_ADAPTER, DOT11_ADAPTER structure [Network Drivers Starting with Windows Vista], wlclient/PDOT11_ADAPTER, PDOT11_ADAPTER structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0575eb35-d3de-41ad-a956-1714e642b8b5.xml, netvista.dot11_adapter, DOT11_ADAPTER, PDOT11_ADAPTER, wlclient/DOT11_ADAPTER, *PDOT11_ADAPTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ADAPTER
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_ADAPTER, DOT11_ADAPTER"
+req.typenames: DOT11_ADAPTER, *PDOT11_ADAPTER
 req.product: Windows 10 or later.
 ---
 
@@ -76,11 +76,6 @@ typedef struct _DOT11_ADAPTER {
 The globally unique identifier (GUID) of the WLAN adapter.
 
 
-### -field pszDescription.string
-
- 
-
-
 ### -field pszDescription
 
 A description of the WLAN adapter.
@@ -112,7 +107,8 @@ The operating system calls the
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
+   Functions</a>
 
 
 
@@ -120,8 +116,7 @@ The operating system calls the
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
-   Functions</a>
+<a href="..\windot11\ns-windot11-_dot11_current_operation_mode.md">DOT11_CURRENT_OPERATION_MODE</a>
 
 
 
@@ -129,5 +124,5 @@ The operating system calls the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ADAPTER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ADAPTER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

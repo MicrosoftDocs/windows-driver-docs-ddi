@@ -4,11 +4,11 @@ title: IStiDevice::Escape method
 author: windows-driver-content
 description: The IStiDevice::Escape method sends a request for a vendor-specific I/O operation to a still image device.
 old-location: image\istidevice_escape.htm
-old-project: image
+old-project: Image
 ms.assetid: ca2aae12-b4b8-4bae-bc3b-812a1ae539c0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IStiDevice interface [Imaging Devices], Escape method, IStiDevice, Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml, Escape method [Imaging Devices], IStiDevice interface, sti/IStiDevice::Escape, IStiDevice::Escape, image.istidevice_escape, Escape method [Imaging Devices]
+ms.date: 2/15/2018
+ms.keywords: Escape method [Imaging Devices], Escape, IStiDevice interface [Imaging Devices], Escape method, IStiDevice::Escape, Escape method [Imaging Devices], IStiDevice interface, IStiDevice, sti/IStiDevice::Escape, stifnc_5eb8e67e-67cc-4d04-abff-ada5b42b0004.xml, image.istidevice_escape
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

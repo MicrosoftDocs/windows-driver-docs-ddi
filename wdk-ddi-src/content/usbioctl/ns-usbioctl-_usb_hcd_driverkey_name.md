@@ -4,11 +4,11 @@ title: "_USB_HCD_DRIVERKEY_NAME"
 author: windows-driver-content
 description: The USB_HCD_DRIVERKEY_NAME structure is used with the IOCTL_GET_HCD_DRIVERKEY_NAME I/O control request to retrieve the driver key in the registry for the USB host controller driver.
 old-location: buses\usb_hcd_driverkey_name.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 01161a61-c52a-4a0e-b680-a8c3a224c2e5
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses.usb_hcd_driverkey_name, usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml, usbioctl/PUSB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME, _USB_HCD_DRIVERKEY_NAME, usbioctl/USB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME structure [Buses], PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses]
+ms.date: 2/15/2018
+ms.keywords: PUSB_HCD_DRIVERKEY_NAME structure pointer [Buses], usbstrct_f8c10863-dd1e-4771-b243-319a24f69f2a.xml, usbioctl/PUSB_HCD_DRIVERKEY_NAME, _USB_HCD_DRIVERKEY_NAME, PUSB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME, usbioctl/USB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME structure [Buses], buses.usb_hcd_driverkey_name
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_HCD_DRIVERKEY_NAME
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_HCD_DRIVERKEY_NAME, USB_HCD_DRIVERKEY_NAME"
+req.typenames: USB_HCD_DRIVERKEY_NAME, *PUSB_HCD_DRIVERKEY_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -93,5 +93,5 @@ A NULL-terminated Unicode driver key name for the USB host controller.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_HCD_DRIVERKEY_NAME structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_HCD_DRIVERKEY_NAME structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

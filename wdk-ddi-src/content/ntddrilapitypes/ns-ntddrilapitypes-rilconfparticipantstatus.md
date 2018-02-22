@@ -7,8 +7,8 @@ old-location: netvista\rilconfparticipantstatus.htm
 old-project: netvista
 ms.assetid: 7eb0e06b-85f0-4b61-9ed0-2f35156fbb8c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilconfparticipantstatus, ntddrilapitypes/RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista], *LPRILCONFPARTICIPANTSTATUS
+ms.date: 2/16/2018
+ms.keywords: netvista.rilconfparticipantstatus, ntddrilapitypes/RILCONFPARTICIPANTSTATUS, *LPRILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS, RILCONFPARTICIPANTSTATUS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

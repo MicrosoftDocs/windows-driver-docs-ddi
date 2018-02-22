@@ -7,8 +7,8 @@ old-location: display\dxgkarg_getstandardallocationdriverdata.htm
 old-project: display
 ms.assetid: 4327ba59-bd74-4018-85d2-54a1693c62c1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, display.dxgkarg_getstandardallocationdriverdata, DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure [Display Devices], _DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, *INOUT_PDXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, DmStructs_2ef51052-bc21-4374-9471-c03b2a81b8b3.xml
+ms.date: 2/20/2018
+ms.keywords: "*INOUT_PDXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, _DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, d3dkmddi/DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA, display.dxgkarg_getstandardallocationdriverdata, DmStructs_2ef51052-bc21-4374-9471-c03b2a81b8b3.xml, DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,33 +84,6 @@ typedef struct _DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA {
 [in] A <a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>-typed value that identifies the type of standard allocation to describe.
 
 
-### -field pCreateSharedPrimarySurfaceData
-
-[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE.
-
-
-### -field pCreateShadowSurfaceData
-
-[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_shadowsurfacedata.md">D3DKMDT_SHADOWSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE.
-
-
-### -field pCreateStagingSurfaceData
-
-[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md">D3DKMDT_STAGINGSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE.
-
-
-### -field pCreateGdiSurfaceData
-
-[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a> structure, only available if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_GDISURFACE.
-
-This member is available beginning with Windows 7.
-
-
-### -field pCreateVirtualGpuSurfaceData
-
- 
-
-
 ### -field pAllocationPrivateDriverData
 
 [in/out] A pointer to a block of allocation private data that describes the standard allocation type; otherwise, this member is <b>NULL</b>. The allocation private data that the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a> function returns depends on the type that the driver requests in <b>StandardAllocationType</b>.
@@ -142,6 +115,28 @@ If the driver does not use private data for each resource for standard allocatio
 
 
 
+#### - pCreateSharedPrimarySurfaceData
+
+[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_SHAREDPRIMARYSURFACE.
+
+
+#### - pCreateShadowSurfaceData
+
+[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_shadowsurfacedata.md">D3DKMDT_SHADOWSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_SHADOWSURFACE.
+
+
+#### - pCreateStagingSurfaceData
+
+[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md">D3DKMDT_STAGINGSURFACEDATA</a> structure, if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_STAGINGSURFACE.
+
+
+#### - pCreateGdiSurfaceData
+
+[in] A pointer to a <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a> structure, only available if <b>StandardAllocationType</b> specifies D3DKMDT_STANDARDALLOCATION_GDISURFACE.
+
+This member is available beginning with Windows 7.
+
+
 ## -remarks
 
 
@@ -155,7 +150,7 @@ Although the driver can set <b>ResourcePrivateDriverDataSize</b> or <b>Allocatio
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md">D3DKMDT_STAGINGSURFACEDATA</a>
 
 
 
@@ -163,7 +158,15 @@ Although the driver can set <b>ResourcePrivateDriverDataSize</b> or <b>Allocatio
 
 
 
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_shadowsurfacedata.md">D3DKMDT_SHADOWSURFACEDATA</a>
+
+
+
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDT_SHAREDPRIMARYSURFACEDATA</a>
+
+
+
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_standardallocation_type.md">D3DKMDT_STANDARDALLOCATION_TYPE</a>
 
 
 
@@ -171,17 +174,9 @@ Although the driver can set <b>ResourcePrivateDriverDataSize</b> or <b>Allocatio
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md">D3DKMDT_STAGINGSURFACEDATA</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_shadowsurfacedata.md">D3DKMDT_SHADOWSURFACEDATA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

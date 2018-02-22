@@ -7,8 +7,8 @@ old-location: stream\ksinitializedriver.htm
 old-project: stream
 ms.assetid: 5a77e59f-ce64-4ff2-ac95-c9062cef20d2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, ks/KsInitializeDriver, KsInitializeDriver function [Streaming Media Devices], stream.ksinitializedriver, KsInitializeDriver
+ms.date: 2/20/2018
+ms.keywords: avfunc_2a16bc8c-a92a-4792-8007-29735a19f806.xml, KsInitializeDriver function [Streaming Media Devices], stream.ksinitializedriver, KsInitializeDriver, ks/KsInitializeDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,27 +110,7 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
-
-
-
-<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -142,9 +122,29 @@ This function is typically called from <b>DriverEntry</b>. If the minidriver pas
 
 
 
- 
+<a href="..\ks\ns-ks-_ksfilter_descriptor.md">KSFILTER_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsInitializeDriver function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsInitializeDriver function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

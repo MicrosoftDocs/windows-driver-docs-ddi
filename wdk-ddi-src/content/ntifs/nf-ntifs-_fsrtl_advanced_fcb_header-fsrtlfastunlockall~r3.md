@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlfastunlockall.htm
 old-project: ifsk
 ms.assetid: 5004fb3c-f2e3-4663-9b95-7fb7bb38364d
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlFastUnlockAll routine [Installable File System Drivers], ifsk.fsrtlfastunlockall, ntifs/FsRtlFastUnlockAll, fsrtlref_713fc415-f52e-4e0f-8806-02f44fb9b3f4.xml, FsRtlFastUnlockAll
+ms.date: 2/16/2018
+ms.keywords: FsRtlFastUnlockAll routine [Installable File System Drivers], FsRtlFastUnlockAll, ifsk.fsrtlfastunlockall, fsrtlref_713fc415-f52e-4e0f-8806-02f44fb9b3f4.xml, ntifs/FsRtlFastUnlockAll
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,5 +122,5 @@ After releasing the byte-range locks, <b>FsRtlFastUnlockAll</b> completes any cu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlFastUnlockAll routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlFastUnlockAll routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

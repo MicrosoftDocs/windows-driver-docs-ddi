@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createvideodecoderheap_0033_.htm
 old-project: display
 ms.assetid: BCCDBC42-FE6B-49C6-9E95-F0CF7F5CCB2E
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_createvideodecoderheap_0033_, PFND3D12DDI_CREATEVIDEODECODERHEAP_0033 callback function [Display Devices], PFND3D12DDI_CREATEVIDEODECODERHEAP_0033, d3d12umddi/PFND3D12DDI_CREATEVIDEODECODERHEAP_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -77,7 +77,6 @@ The hardware device being processed.
 ### -param *
 
 
-
 ### -param hDrvVideoDecoderHeap
 
 The video decoder heap.
@@ -91,6 +90,8 @@ The arguments used to create a video decoder heap.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

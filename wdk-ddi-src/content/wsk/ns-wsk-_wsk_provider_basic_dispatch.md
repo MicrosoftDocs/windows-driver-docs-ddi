@@ -7,8 +7,8 @@ old-location: netvista\wsk_provider_basic_dispatch.htm
 old-project: netvista
 ms.assetid: 15cd5336-fe29-4a59-8071-04c802552a5a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wsk/PWSK_PROVIDER_BASIC_DISPATCH, wskref_eac2fecd-6800-4c2f-b636-bcc103c99377.xml, PWSK_PROVIDER_BASIC_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], *PWSK_PROVIDER_BASIC_DISPATCH, netvista.wsk_provider_basic_dispatch, WSK_PROVIDER_BASIC_DISPATCH, WSK_PROVIDER_BASIC_DISPATCH structure [Network Drivers Starting with Windows Vista], _WSK_PROVIDER_BASIC_DISPATCH, wsk/WSK_PROVIDER_BASIC_DISPATCH, PWSK_PROVIDER_BASIC_DISPATCH
+ms.date: 2/16/2018
+ms.keywords: WSK_PROVIDER_BASIC_DISPATCH, wsk/WSK_PROVIDER_BASIC_DISPATCH, _WSK_PROVIDER_BASIC_DISPATCH, netvista.wsk_provider_basic_dispatch, PWSK_PROVIDER_BASIC_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_BASIC_DISPATCH structure [Network Drivers Starting with Windows Vista], *PWSK_PROVIDER_BASIC_DISPATCH, wsk/PWSK_PROVIDER_BASIC_DISPATCH, wskref_eac2fecd-6800-4c2f-b636-bcc103c99377.xml, PWSK_PROVIDER_BASIC_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_PROVIDER_BASIC_DISPATCH
 product: Windows
 targetos: Windows
-req.typenames: WSK_PROVIDER_BASIC_DISPATCH, *PWSK_PROVIDER_BASIC_DISPATCH
+req.typenames: "*PWSK_PROVIDER_BASIC_DISPATCH, WSK_PROVIDER_BASIC_DISPATCH"
 req.product: Windows 10 or later.
 ---
 
@@ -113,16 +113,12 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 
@@ -130,7 +126,7 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -139,7 +135,11 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_listen_dispatch.md">WSK_PROVIDER_LISTEN_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -147,5 +147,5 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_PROVIDER_BASIC_DISPATCH structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_PROVIDER_BASIC_DISPATCH structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

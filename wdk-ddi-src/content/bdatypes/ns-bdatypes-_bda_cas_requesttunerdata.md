@@ -7,8 +7,8 @@ old-location: stream\bda_cas_requesttunerdata.htm
 old-project: stream
 ms.assetid: 09347A56-C3F8-4E0D-A557-CECB7BBC7DB8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.bda_cas_requesttunerdata, BDA_CAS_REQUESTTUNERDATA, _BDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], bdatypes/BDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], *PBDA_CAS_REQUESTTUNERDATA, bdatypes/PBDA_CAS_REQUESTTUNERDATA
+ms.date: 2/20/2018
+ms.keywords: "*PBDA_CAS_REQUESTTUNERDATA, PBDA_CAS_REQUESTTUNERDATA structure pointer [Streaming Media Devices], bdatypes/BDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA structure [Streaming Media Devices], bdatypes/PBDA_CAS_REQUESTTUNERDATA, stream.bda_cas_requesttunerdata, PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA, _BDA_CAS_REQUESTTUNERDATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_CAS_REQUESTTUNERDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_CAS_REQUESTTUNERDATA, BDA_CAS_REQUESTTUNERDATA"
+req.typenames: BDA_CAS_REQUESTTUNERDATA, *PBDA_CAS_REQUESTTUNERDATA
 ---
 
 # _BDA_CAS_REQUESTTUNERDATA structure

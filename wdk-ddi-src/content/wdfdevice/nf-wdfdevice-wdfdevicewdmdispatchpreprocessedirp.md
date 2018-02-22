@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicewdmdispatchpreprocessedirp.htm
 old-project: wdf
 ms.assetid: 83b18680-0b58-4278-87ff-757eb6e76178
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfdevicewdmdispatchpreprocessedirp, wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp, WdfDeviceWdmDispatchPreprocessedIrp, DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, kmdf.wdfdevicewdmdispatchpreprocessedirp, WdfDeviceWdmDispatchPreprocessedIrp method, PFN_WDFDEVICEWDMDISPATCHPREPROCESSEDIRP
+ms.date: 2/20/2018
+ms.keywords: wdfdevice/WdfDeviceWdmDispatchPreprocessedIrp, kmdf.wdfdevicewdmdispatchpreprocessedirp, wdf.wdfdevicewdmdispatchpreprocessedirp, WdfDeviceWdmDispatchPreprocessedIrp, DFDeviceObjectGeneralRef_e861729e-006d-413c-9f7e-60e2fae72c1f.xml, WdfDeviceWdmDispatchPreprocessedIrp method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

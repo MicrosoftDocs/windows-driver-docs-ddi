@@ -7,8 +7,8 @@ old-location: ifsk\file_fs_control_information.htm
 old-project: ifsk
 ms.assetid: 8a7e136a-fc87-481c-bb35-270408cb5071
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "_FILE_FS_CONTROL_INFORMATION, ntifs/FILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], ifsk.file_fs_control_information, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], FILE_FS_CONTROL_INFORMATION, ntifs/PFILE_FS_CONTROL_INFORMATION, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, *PFILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION"
+ms.date: 2/16/2018
+ms.keywords: FILE_FS_CONTROL_INFORMATION structure [Installable File System Drivers], _FILE_FS_CONTROL_INFORMATION, PFILE_FS_CONTROL_INFORMATION structure pointer [Installable File System Drivers], *PFILE_FS_CONTROL_INFORMATION, ifsk.file_fs_control_information, fileinformationstructures_387e4fd0-c3a2-4472-b29d-79f8a5d876f8.xml, PFILE_FS_CONTROL_INFORMATION, ntifs/FILE_FS_CONTROL_INFORMATION, ntifs/PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FS_CONTROL_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_FS_CONTROL_INFORMATION, FILE_FS_CONTROL_INFORMATION"
+req.typenames: FILE_FS_CONTROL_INFORMATION, *PFILE_FS_CONTROL_INFORMATION
 ---
 
 # _FILE_FS_CONTROL_INFORMATION structure
@@ -281,7 +281,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
 
 
 
@@ -289,7 +289,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryvolumeinformationfile.md">ZwQueryVolumeInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
 
 
@@ -297,17 +297,17 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549415">IRP_MJ_SET_VOLUME_INFORMATION</a>
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_FS_CONTROL_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_FS_CONTROL_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

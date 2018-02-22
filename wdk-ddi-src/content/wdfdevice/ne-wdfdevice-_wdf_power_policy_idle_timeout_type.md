@@ -7,8 +7,8 @@ old-location: wdf\wdf_power_policy_idle_timeout_type.htm
 old-project: wdf
 ms.assetid: CFB7E2EA-22D9-4181-B773-BC5691B28CFD
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, wdfdevice/SystemManagedIdleTimeout, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeoutWithHint, SystemManagedIdleTimeout, kmdf.wdf_power_policy_idle_timeout_type, SystemManagedIdleTimeoutWithHint, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, wdfdevice/DriverManagedIdleTimeout, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdf.wdf_power_policy_idle_timeout_type
+ms.date: 2/20/2018
+ms.keywords: wdfdevice/DriverManagedIdleTimeout, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, SystemManagedIdleTimeoutWithHint, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeoutWithHint, SystemManagedIdleTimeout, kmdf.wdf_power_policy_idle_timeout_type, wdf.wdf_power_policy_idle_timeout_type, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeout, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -117,5 +117,5 @@ The <b>WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE</b> enumeration is used in the <a href
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

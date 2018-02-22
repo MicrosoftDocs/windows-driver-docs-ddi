@@ -7,8 +7,8 @@ old-location: storage\addtarget_out.htm
 old-project: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: AddTarget_OUT, storage.addtarget_out, hbapiwmi/PAddTarget_OUT, PAddTarget_OUT, *PAddTarget_OUT, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml, AddTarget_OUT structure [Storage Devices], _AddTarget_OUT, hbapiwmi/AddTarget_OUT, PAddTarget_OUT structure pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: PAddTarget_OUT structure pointer [Storage Devices], PAddTarget_OUT, hbapiwmi/AddTarget_OUT, hbapiwmi/PAddTarget_OUT, storage.addtarget_out, *PAddTarget_OUT, AddTarget_OUT, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml, _AddTarget_OUT, AddTarget_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddTarget_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PAddTarget_OUT, AddTarget_OUT"
+req.typenames: AddTarget_OUT, *PAddTarget_OUT
 ---
 
 # _AddTarget_OUT structure
@@ -82,5 +82,5 @@ Contains the status of the operation. For a list of allowed values and their des
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddTarget_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AddTarget_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

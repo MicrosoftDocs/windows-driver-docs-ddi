@@ -7,8 +7,8 @@ old-location: ieee\address_fifo.htm
 old-project: IEEE
 ms.assetid: df2b6438-271d-4ea2-a06b-49a83415ca7a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ADDRESS_FIFO, IEEE.address_fifo, PADDRESS_FIFO, *PADDRESS_FIFO, 1394/ADDRESS_FIFO, _ADDRESS_FIFO, ADDRESS_FIFO structure [Buses], 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, 1394/PADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses]
+ms.date: 2/15/2018
+ms.keywords: 1394stct_bf7f3e1b-88a4-4c37-88ee-cf5d69595988.xml, 1394/ADDRESS_FIFO, PADDRESS_FIFO, ADDRESS_FIFO, PADDRESS_FIFO structure pointer [Buses], _ADDRESS_FIFO, *PADDRESS_FIFO, IEEE.address_fifo, 1394/PADDRESS_FIFO, ADDRESS_FIFO structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,5 +92,5 @@ Specifies the MDL for the FIFO element described by this entry of the list.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ADDRESS_FIFO structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ADDRESS_FIFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

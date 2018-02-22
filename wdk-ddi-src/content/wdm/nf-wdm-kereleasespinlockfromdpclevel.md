@@ -7,8 +7,8 @@ old-location: kernel\kereleasespinlockfromdpclevel.htm
 old-project: kernel
 ms.assetid: 5f7a92ee-ebaf-442f-a197-2fb58dd65a25
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/KefReleaseSpinLockFromDpcLevel, KefReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel, k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], kernel.kereleasespinlockfromdpclevel, wdm/KeReleaseSpinLockFromDpcLevel
+ms.date: 2/16/2018
+ms.keywords: k105_ed15a49d-6903-4f9f-914c-668242701b1e.xml, KefReleaseSpinLockFromDpcLevel, kernel.kereleasespinlockfromdpclevel, wdm/KefReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel, KeReleaseSpinLockFromDpcLevel routine [Kernel-Mode Driver Architecture], wdm/KeReleaseSpinLockFromDpcLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,6 +98,10 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
+
+
+
 <a href="..\wdm\nf-wdm-keacquirespinlockatdpclevel.md">KeAcquireSpinLockAtDpcLevel</a>
 
 
@@ -106,13 +110,9 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeReleaseSpinLockFromDpcLevel routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeReleaseSpinLockFromDpcLevel routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

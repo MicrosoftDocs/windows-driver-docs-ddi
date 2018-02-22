@@ -7,8 +7,8 @@ old-location: wdf\wdf_driver_config_init.htm
 old-project: wdf
 ms.assetid: d7520300-9345-4681-a10d-acf34838199a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfdriver/WDF_DRIVER_CONFIG_INIT, DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml, kmdf.wdf_driver_config_init, WDF_DRIVER_CONFIG_INIT function, WDF_DRIVER_CONFIG_INIT, wdf.wdf_driver_config_init
+ms.date: 2/20/2018
+ms.keywords: DFDriverObjectRef_c8331742-9717-476d-8a48-f9e472cb3128.xml, WDF_DRIVER_CONFIG_INIT function, wdf.wdf_driver_config_init, wdfdriver/WDF_DRIVER_CONFIG_INIT, WDF_DRIVER_CONFIG_INIT, kmdf.wdf_driver_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,6 +107,10 @@ For a code example that uses WDF_DRIVER_CONFIG_INIT, see <a href="..\wdfdriver\n
 
 ## -see-also
 
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
+
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
@@ -115,13 +119,9 @@ For a code example that uses WDF_DRIVER_CONFIG_INIT, see <a href="..\wdfdriver\n
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DRIVER_CONFIG_INIT function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DRIVER_CONFIG_INIT function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

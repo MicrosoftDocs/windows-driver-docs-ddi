@@ -7,13 +7,13 @@ old-location: storage\scsi_power_request_block.htm
 old-project: storage
 ms.assetid: 04981b68-db32-461b-b24b-8b2bf2e53f78
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storport/SCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], PSCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml, SCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], storage.scsi_power_request_block
+ms.date: 2/16/2018
+ms.keywords: "*PSCSI_POWER_REQUEST_BLOCK, storport/PSCSI_POWER_REQUEST_BLOCK, PSCSI_POWER_REQUEST_BLOCK structure pointer [Storage Devices], PSCSI_POWER_REQUEST_BLOCK, storage.scsi_power_request_block, SCSI_POWER_REQUEST_BLOCK structure [Storage Devices], SCSI_POWER_REQUEST_BLOCK, _SCSI_POWER_REQUEST_BLOCK, storport/SCSI_POWER_REQUEST_BLOCK, structs-storport_de071b99-aa78-4c21-845e-f47b7d0297c0.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
-req.include-header: Storport.h
+req.include-header: Storport.h, Minitape.h, Srb.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_POWER_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PSCSI_POWER_REQUEST_BLOCK, SCSI_POWER_REQUEST_BLOCK"
+req.typenames: SCSI_POWER_REQUEST_BLOCK, *PSCSI_POWER_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>SCSI_POWER_REQUEST_BLOCK</b> structure is a special version of a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for power management requests.
+The <b>SCSI_POWER_REQUEST_BLOCK</b> structure is a special version of a <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for power management requests.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -102,7 +102,7 @@ The operation to perform. For the <b>SCSI_POWER_REQUEST_BLOCK</b> structure, thi
 
 The status of the completed request. This member should be set by the miniport driver before it notifies the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> function with the <a href="https://msdn.microsoft.com/abceaf2c-3512-409c-9274-096eab810ab2">RequestComplete</a> notification type.
 
-See <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> in the WDK documentation for a list of possible values for this member.
+See <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> in the WDK documentation for a list of possible values for this member.
 
 
 ### -field SrbPowerFlags
@@ -127,7 +127,7 @@ The logical unit number (LUN) of the device.
 
 ### -field DevicePowerState
 
-An enumerator value of type <a href="..\storport\ne-storport-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device.
+An enumerator value of type <a href="..\minitape\ne-minitape-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device.
 
 
 ### -field SrbFlags
@@ -177,7 +177,7 @@ A pointer to the SRB extension. A miniport driver must not use this member if it
 
 ### -field PowerAction
 
-An enumerator value of type <a href="..\storport\ne-storport-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member. 
+An enumerator value of type <a href="..\minitape\ne-minitape-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member. 
 
 
 ### -field Reserved
@@ -196,7 +196,7 @@ Reserved for system use.
 
 The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a> to pass SRBs to the miniport driver. <b>HwStorBuildIo</b> should check the <b>Function</b> member of the SRB to determine the type of the SRB. If the <b>Function</b> member is set to SRB_FUNCTION_POWER, the SRB is a structure of type <b>SCSI_POWER_REQUEST_BLOCK</b>.
 
-The Storport driver sends <b>SCSI_POWER_REQUEST_BLOCK</b> requests to a miniport driver to notify the miniport driver of Windows power events that affect storage devices that are connected to the adapter. In the case of a power up event, this request gives the miniport driver an opportunity to initialize itself. In the case of a hibernation or shutdown event, this request gives the miniport driver an opportunity to complete I/O requests and prepare for a power down. The miniport driver can use the value in the <b>PowerAction</b> member of the <b>SCSI_POWER_REQUEST_BLOCK</b> to determine what actions are required. After the miniport driver completes the <b>SCSI_POWER_REQUEST_BLOCK</b> request, the Storport driver calls <a href="https://msdn.microsoft.com/library/windows/hardware/ff557274">HwScsiAdapterControl</a> with a control request of <b>ScsiStopAdapter</b> to power down the adapter. The miniport driver reinitialize while processing the SRB_FUNCTION_POWER request, or it can wait and reinitialize when the Storport driver calls <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> to perform a an <b>ScsiRestartAdapter</b> control request.
+The Storport driver sends <b>SCSI_POWER_REQUEST_BLOCK</b> requests to a miniport driver to notify the miniport driver of Windows power events that affect storage devices that are connected to the adapter. In the case of a power up event, this request gives the miniport driver an opportunity to initialize itself. In the case of a hibernation or shutdown event, this request gives the miniport driver an opportunity to complete I/O requests and prepare for a power down. The miniport driver can use the value in the <b>PowerAction</b> member of the <b>SCSI_POWER_REQUEST_BLOCK</b> to determine what actions are required. After the miniport driver completes the <b>SCSI_POWER_REQUEST_BLOCK</b> request, the Storport driver calls <a href="..\srb\nc-srb-phw_adapter_control.md">HwScsiAdapterControl</a> with a control request of <b>ScsiStopAdapter</b> to power down the adapter. The miniport driver reinitialize while processing the SRB_FUNCTION_POWER request, or it can wait and reinitialize when the Storport driver calls <a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a> to perform a an <b>ScsiRestartAdapter</b> control request.
 
  When transitioning from the D0 power state to a lower-powered state (D1, D2, or D3) the Storport driver sends a <b>SCSI_POWER_REQUEST_BLOCK</b> request to the miniport driver before the underlying bus driver powers down the adapter. 
 
@@ -225,21 +225,21 @@ The miniport can access the adapter's hardware resources.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
-
-
-
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\storport\nc-storport-hw_buildio.md">HwStorBuildIo</a>
 
 
 
- 
+<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
+<a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_POWER_REQUEST_BLOCK structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SCSI_POWER_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

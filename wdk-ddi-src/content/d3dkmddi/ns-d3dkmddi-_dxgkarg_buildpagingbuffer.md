@@ -7,8 +7,8 @@ old-location: display\dxgkarg_buildpagingbuffer.htm
 old-project: display
 ms.assetid: dc0de06b-d495-4ce2-b0e2-a6fefd6c8e0c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgkarg_buildpagingbuffer, *IN_PDXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, _DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, DXGK_BUILDPAGINGBUFFER_OPERATION, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER_OPERATION
+ms.date: 2/20/2018
+ms.keywords: DXGKARG_BUILDPAGINGBUFFER_OPERATION, _DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER, d3dkmddi/DXGKARG_BUILDPAGINGBUFFER, DXGKARG_BUILDPAGINGBUFFER structure [Display Devices], display.dxgkarg_buildpagingbuffer, DmStructs_06cb7ec2-482d-41ba-b550-3c4f27d36070.xml, *IN_PDXGKARG_BUILDPAGINGBUFFER, DXGK_BUILDPAGINGBUFFER_OPERATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -245,7 +245,8 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 [in] A structure that describes the source allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the source (<b>pMdl</b>).
 
 
-### -field Transfer.Source.SegmentId
+
+##### Source.SegmentId
 
 [in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
 
@@ -265,7 +266,8 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 [in] A structure that describes the destination allocation. This structure contains a <b>SegmentId</b> member and a union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
 
 
-### -field Transfer.Destination.SegmentId
+
+##### Destination.SegmentId
 
 [in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
@@ -325,12 +327,14 @@ typedef struct _DXGKARG_BUILDPAGINGBUFFER {
 [in] A structure that describes the destination allocation for the fill operation.
 
 
-### -field Fill.Destination.SegmentId
+
+##### Destination.SegmentId
 
 [in] The identifier of a segment within the destination allocation.
 
 
-### -field Fill.Destination.SegmentAddress
+
+##### Destination.SegmentAddress
 
 [in] The destination segment address. The DirectX graphics kernel subsystem computes the segment address as the sum of the segment offset and the base address of the segment: <code>SegmentAddress = SegmentOffset + Segment.BaseAddr</code>.
 
@@ -518,6 +522,12 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
+##### Source.SegmentId
+
+[in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
+
+
+
 ##### Source.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the source allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the source (<b>pMdl</b>).
@@ -533,11 +543,6 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 ###### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the system memory pages for the source, if the <b>SegmentId</b> member of <b>Source</b> is zero.
-
-
-### -field SpecialLockTransfer.Source.SegmentId
-
-[in] The identifier of a segment within the source allocation, or zero if the source allocation is described by the <b>pMdl</b> member of the union that <b>Source</b> contains.
 
 
 ### -field SpecialLockTransfer.Source.SegmentAddress
@@ -556,6 +561,12 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 
 
 
+##### Destination.SegmentId
+
+[in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
+
+
+
 ##### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
@@ -571,11 +582,6 @@ For a shared allocation, <b>hDevice</b> is set to the device that the video memo
 ###### (unnamed union).pMdl
 
 [in] A pointer to a buffer that contains the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
-
-
-### -field SpecialLockTransfer.Destination.SegmentId
-
-[in] The identifier of a segment within the destination allocation, or zero if the destination allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
 
 
 ### -field SpecialLockTransfer.Destination.SegmentAddress
@@ -624,6 +630,12 @@ Supported beginning with Windows 8.
 
 
 
+##### Destination.SegmentId
+
+[in] The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
+
+
+
 ##### Destination.(unnamed union)
 
 [in] A union that contains either an offset into a segment of the destination context allocation (<b>SegmentAddress</b>) or a pointer to an <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> for the destination (<b>pMdl</b>).
@@ -641,9 +653,12 @@ Supported beginning with Windows 8.
 [in] A pointer to a buffer that contains the <a href="..\wdm\ns-wdm-_mdl.md">MDL</a> structure that describes the system memory pages for the destination, if the <b>SegmentId</b> member of <b>Destination</b> is zero.
 
 
-### -field InitContextResource.Destination.SegmentId
 
-[in] The identifier of a segment within the destination context allocation, or zero if the destination context allocation is described by the <b>pMdl</b> member of the union that <b>Destination</b> contains.
+##### Destination.VirtualAddress
+
+[in] The virtual address of the destination context allocation. This address is valid during the lifetime of the context allocation.
+
+Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
 
 
 ### -field InitContextResource.Destination.SegmentAddress
@@ -652,58 +667,6 @@ Supported beginning with Windows 8.
 
 
 ### -field InitContextResource.Destination.pMdl
-
- 
-
-
-### -field InitContextResource.Destination.VirtualAddress
-
-[in] The virtual address of the destination context allocation. This address is valid during the lifetime of the context allocation.
-
-Follow procedures in  <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ddi/content/d3dkmddi/nc-d3dkmddi-dxgkcb_createcontextallocation">Virtual addresses for destination context allocations</a> in the <i>DxgkCbCreateContextAllocation</i> topic to ensure that the virtual address is valid.
-
-
-### -field InitContextResource.Destination.GpuVirtualAddress
-
- 
-
-
-### -field TransferVirtual
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
-
-
-### -field FillVirtual
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a> structure that describes the operation used to fill an allocation with a pattern. 
-
-
-### -field UpdatePageTable
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
-
-
-### -field FlushTlb
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a> structure that describes the operation used to flush the translation look-aside buffers. 
-
-
-### -field CopyPageTableEntries
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
-
-
-### -field UpdateContextAllocation
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a> structure that describes the operation used to update the content of a context or device allocation.
-
-
-### -field NotifyResidency
-
-A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
-
-
-### -field SignalMonitoredFence
 
  
 
@@ -733,6 +696,41 @@ This member is reserved and should not be used.
 
 
 
+#### - TransferVirtual
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_transfervirtual.md">DXGK_BUILDPAGINGBUFFER_TRANSFERVIRTUAL</a> structure that describes the operation used to transfer allocation content between locations in memory. 
+
+
+#### - FillVirtual
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a> structure that describes the operation used to fill an allocation with a pattern. 
+
+
+#### - UpdatePageTable
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a> structure that describes the operation used to update a page table. 
+
+
+#### - FlushTlb
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a> structure that describes the operation used to flush the translation look-aside buffers. 
+
+
+#### - CopyPageTableEntries
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a> structure that describes the operation used copy page table entries from one location to another. 
+
+
+#### - UpdateContextAllocation
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a> structure that describes the operation used to update the content of a context or device allocation.
+
+
+#### - NotifyResidency
+
+A <a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_notifyresidency.md">DXGK_BUILDPAGINGBUFFER_NOTIFYRESIDENCY</a> structure that describes a residency allocation change operation. 
+
+
 ## -remarks
 
 
@@ -744,19 +742,7 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a>
 
 
 
@@ -764,15 +750,11 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554537">MmGetMdlPfnArray</a>
 
 
 
@@ -780,35 +762,7 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_fillvirtual.md">DXGK_BUILDPAGINGBUFFER_FILLVIRTUAL</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkargcb_createcontextallocation.md">DXGKARGCB_CREATECONTEXTALLOCATION</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_discardcontentflags.md">DXGK_DISCARDCONTENTFLAGS</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
 
 
 
@@ -816,7 +770,51 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_mapapertureflags.md">DXGK_MAPAPERTUREFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatepagetable.md">DXGK_BUILDPAGINGBUFFER_UPDATEPAGETABLE</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_updatecontextallocation.md">DXGK_BUILDPAGINGBUFFER_UPDATECONTEXTALLOCATION</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_createcontextallocation.md">DxgkCbCreateContextAllocation</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_discardcontentflags.md">DXGK_DISCARDCONTENTFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_copypagetableentries.md">DXGK_BUILDPAGINGBUFFER_COPYPAGETABLEENTRIES</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_buildpagingbuffer_flushtlb.md">DXGK_BUILDPAGINGBUFFER_FLUSHTLB</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transferflags.md">DXGK_TRANSFERFLAGS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
 
 
 
@@ -824,5 +822,5 @@ MDL is defined in the <a href="https://msdn.microsoft.com/library/windows/hardwa
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_BUILDPAGINGBUFFER structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_BUILDPAGINGBUFFER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

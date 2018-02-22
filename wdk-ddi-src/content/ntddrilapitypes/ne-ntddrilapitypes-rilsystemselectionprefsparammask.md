@@ -7,8 +7,8 @@ old-location: netvista\rilsystemselectionprefsparammask.htm
 old-project: netvista
 ms.assetid: 69560c05-8a54-4a67-a441-2b3c2ec4c332
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilsystemselectionprefsparammask, RIL_PARAM_SSP_MODE, ntddrilapitypes/RIL_PARAM_SSP_MODE, RIL_PARAM_SSP_ACQUISITIONORDER, ntddrilapitypes/RIL_PARAM_SSP_ALL, RILSYSTEMSELECTIONPREFSPARAMMASK, RIL_PARAM_SSP_ROAMINGMODE, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_SYSTEMTYPES, ntddrilapitypes/RIL_PARAM_SSP_ROAMINGMODE, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, ntddrilapitypes/RIL_PARAM_SSP_PLMNINFO, ntddrilapitypes/RIL_PARAM_SSP_SYSTEMTYPES, ntddrilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, RIL_PARAM_SSP_PLMNINFO
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RIL_PARAM_SSP_ROAMINGMODE, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDERSIZE, ntddrilapitypes/RIL_PARAM_SSP_SYSTEMTYPES, RIL_PARAM_SSP_ROAMINGMODE, RIL_PARAM_SSP_PLMNINFO, ntddrilapitypes/RIL_PARAM_SSP_PLMNINFO, RIL_PARAM_SSP_ACQUISITIONORDERSIZE, RIL_PARAM_SSP_ALL, RIL_PARAM_SSP_SYSTEMTYPES, ntddrilapitypes/RIL_PARAM_SSP_ALL, ntddrilapitypes/RIL_PARAM_SSP_MODE, RILSYSTEMSELECTIONPREFSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILSYSTEMSELECTIONPREFSPARAMMASK, RIL_PARAM_SSP_MODE, ntddrilapitypes/RILSYSTEMSELECTIONPREFSPARAMMASK, netvista.rilsystemselectionprefsparammask, RIL_PARAM_SSP_ACQUISITIONORDER, ntddrilapitypes/RIL_PARAM_SSP_ACQUISITIONORDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

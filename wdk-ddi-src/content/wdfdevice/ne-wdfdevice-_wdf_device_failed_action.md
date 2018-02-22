@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_failed_action.htm
 old-project: wdf
 ms.assetid: 260fdda5-bc97-4522-96ca-1c29d41e8542
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfdevice/WdfDeviceFailedAttemptRestart, WDF_DEVICE_FAILED_ACTION, wdf.wdf_device_failed_action, WdfDeviceFailedAttemptRestart, kmdf.wdf_device_failed_action, _WDF_DEVICE_FAILED_ACTION, wdfdevice/WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION enumeration, wdfdevice/WdfDeviceFailedUndefined, WdfDeviceFailedNoRestart, WdfDeviceFailedUndefined, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, wdfdevice/WdfDeviceFailedNoRestart
+ms.date: 2/20/2018
+ms.keywords: wdfdevice/WdfDeviceFailedNoRestart, WDF_DEVICE_FAILED_ACTION enumeration, WdfDeviceFailedUndefined, _WDF_DEVICE_FAILED_ACTION, wdfdevice/WdfDeviceFailedUndefined, WdfDeviceFailedNoRestart, wdfdevice/WdfDeviceFailedAttemptRestart, wdf.wdf_device_failed_action, DFDeviceObjectGeneralRef_f23e41aa-e37c-45d0-b83b-0ee86eb24aba.xml, kmdf.wdf_device_failed_action, WdfDeviceFailedAttemptRestart, wdfdevice/WDF_DEVICE_FAILED_ACTION, WDF_DEVICE_FAILED_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -110,5 +110,5 @@ For information about specifying <b>WdfDeviceFailedAttemptRestart</b> in a UMDF 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_FAILED_ACTION enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_FAILED_ACTION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

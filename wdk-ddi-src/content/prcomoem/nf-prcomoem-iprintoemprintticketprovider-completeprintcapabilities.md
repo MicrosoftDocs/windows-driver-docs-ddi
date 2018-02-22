@@ -7,8 +7,8 @@ old-location: print\iprintoemprintticketprovider_completeprintcapabilities.htm
 old-project: print
 ms.assetid: 067eca3b-f487-405a-9799-bd62376f9e24
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: CompletePrintCapabilities method [Print Devices], CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider, IPrintOemPrintTicketProvider::CompletePrintCapabilities, CompletePrintCapabilities, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml, print.iprintoemprintticketprovider_completeprintcapabilities, IPrintOemPrintTicketProvider interface [Print Devices], CompletePrintCapabilities method
+ms.date: 2/21/2018
+ms.keywords: CompletePrintCapabilities method [Print Devices], CompletePrintCapabilities method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider::CompletePrintCapabilities, IPrintOemPrintTicketProvider, print.iprintoemprintticketprovider_completeprintcapabilities, IPrintOemPrintTicketProvider interface [Print Devices], CompletePrintCapabilities method, CompletePrintCapabilities, print_ticket-package_75d63289-6e10-4731-a2b1-16f396f21d62.xml, prcomoem/IPrintOemPrintTicketProvider::CompletePrintCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.CompletePrintCapabilities
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

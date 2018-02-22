@@ -7,8 +7,8 @@ old-location: netvista\net_buffer_list_context.htm
 old-project: netvista
 ms.assetid: e5d70be6-daa5-4d2e-94fd-5739edd8821e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, ndis/NET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], PNET_BUFFER_LIST_CONTEXT, _NET_BUFFER_LIST_CONTEXT, netvista.net_buffer_list_context, *PNET_BUFFER_LIST_CONTEXT, ndis/PNET_BUFFER_LIST_CONTEXT
+ms.date: 2/16/2018
+ms.keywords: NET_BUFFER_LIST_CONTEXT, NET_BUFFER_LIST_CONTEXT structure [Network Drivers Starting with Windows Vista], *PNET_BUFFER_LIST_CONTEXT, _NET_BUFFER_LIST_CONTEXT, ndis/NET_BUFFER_LIST_CONTEXT, PNET_BUFFER_LIST_CONTEXT, ndis_netbuf_structures_ref_8f7ae065-a4d5-4fc9-92f1-36e25e19bac2.xml, PNET_BUFFER_LIST_CONTEXT structure pointer [Network Drivers Starting with Windows Vista], netvista.net_buffer_list_context, ndis/PNET_BUFFER_LIST_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -186,7 +186,8 @@ For more information on how to use net buffers, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
+   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
 
 
 
@@ -199,6 +200,10 @@ For more information on how to use net buffers, see
 
 
 
+<a href="..\ndis\nf-ndis-ndisfreenetbufferlistcontext.md">NdisFreeNetBufferListContext</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
    NdisAllocateNetBufferListContext</a>
 
@@ -208,14 +213,9 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568390">
-   NET_BUFFER_LIST_CONTEXT_DATA_SIZE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_LIST_CONTEXT structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_BUFFER_LIST_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

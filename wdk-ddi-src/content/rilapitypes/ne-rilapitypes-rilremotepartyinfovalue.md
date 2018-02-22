@@ -7,8 +7,8 @@ old-location: netvista\rilremotepartyinfovalue_2.htm
 old-project: netvista
 ms.assetid: bdea158f-6ee5-4e59-be50-efd8027a8645
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_REMOTEPARTYINFO_UNAVAILABLE, RILREMOTEPARTYINFOVALUE, netvista.rilremotepartyinfovalue_2, rilapitypes/RIL_REMOTEPARTYINFO_WITHHELD, rilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_MAX, rilapitypes/RIL_REMOTEPARTYINFO_MAX, rilapitypes/RILREMOTEPARTYINFOVALUE, RIL_REMOTEPARTYINFO_WITHHELD, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILREMOTEPARTYINFOVALUE, RIL_REMOTEPARTYINFO_WITHHELD, rilapitypes/RIL_REMOTEPARTYINFO_WITHHELD, rilapitypes/RIL_REMOTEPARTYINFO_MAX, rilapitypes/RILREMOTEPARTYINFOVALUE, rilapitypes/RIL_REMOTEPARTYINFO_UNAVAILABLE, netvista.rilremotepartyinfovalue_2, RIL_REMOTEPARTYINFO_UNAVAILABLE, RIL_REMOTEPARTYINFO_MAX, RILREMOTEPARTYINFOVALUE enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

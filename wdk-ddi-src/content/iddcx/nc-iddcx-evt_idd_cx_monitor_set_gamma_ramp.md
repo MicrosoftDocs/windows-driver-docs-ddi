@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_set_gamma_ramp.htm
 old-project: display
 ms.assetid: 3e0828ee-307a-48fd-a8ea-b469ac6214d0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.evt_idd_cx_monitor_set_gamma_ramp, EvtIddCxMonitorSetGammaRamp callback function [Display Devices], EvtIddCxMonitorSetGammaRamp, EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, EVT_IDD_CX_MONITOR_SET_GAMMA_RAMP, iddcx/EvtIddCxMonitorSetGammaRamp, PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_SET_GAMMA_RAMP
 ms.prod: windows-hardware
 ms.technology: windows-devices

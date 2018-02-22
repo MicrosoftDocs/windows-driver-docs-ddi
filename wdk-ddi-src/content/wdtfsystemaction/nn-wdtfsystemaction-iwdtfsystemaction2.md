@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsystemaction2.htm
 old-project: dtf
 ms.assetid: 783ddaaa-f39f-4e66-85aa-4788bf7959a6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: dtf.iwdtfsystemaction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], described, IWDTFSystemAction2, wdtfsystemaction/IWDTFSystemAction2, Microsoft.WDTF.IWDTFSystemAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFSystemAction2
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 
@@ -242,7 +242,7 @@ Gets a value that indicates whether the test script restarted as a result of a c
 <tr data="declared;">
 <td align="left" width="27%" xml:space="preserve">
 
-<a href="..\wdtfsystemaction\nf-wdtfsystemaction-iwdtfsystemaction2-isrestartedwithcontext.md">IsRestartedWithContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439317">IsRestartedWithContext</a>
 
 
 </td>
@@ -299,7 +299,7 @@ Gets a value that indicates whether the test script restarted as a result of a c
 	      <a href="https://msdn.microsoft.com/library/windows/hardware/hh439321">RebootRestartWithContext</a>.
 
 
-<a href="..\wdtfsystemaction\nf-wdtfsystemaction-iwdtfsystemaction2-isrestartedwithcontext.md">IsRestartedWithContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439317">IsRestartedWithContext</a>
 
 
 Read-only

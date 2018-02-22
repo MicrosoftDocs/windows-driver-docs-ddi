@@ -7,8 +7,8 @@ old-location: netvista\ndk_operation_type.htm
 old-project: netvista
 ms.assetid: EBB89BDA-6249-4D0F-A0EE-7074DDAFFFC1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndkpi/NdkOperationTypeReceiveAndInvalidate, ndkpi/NdkOperationTypeRead, NdkOperationTypeReceive, ndkpi/NdkOperationTypeSend, ndkpi/NdkOperationTypeBind, NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeWrite, NdkOperationTypeFastRegister, NdkOperationTypeRead, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], ndkpi/NdkOperationTypeFastRegister, NdkOperationTypeBind, _NDK_OPERATION_TYPE, ndkpi/NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeReceive, NdkOperationTypeSend, NdkOperationTypeWrite, netvista.ndk_operation_type, NdkOperationTypeReceiveAndInvalidate, NdkOperationTypeInvalidate
+ms.date: 2/16/2018
+ms.keywords: NdkOperationTypeReceiveAndInvalidate, NDK_OPERATION_TYPE enumeration [Network Drivers Starting with Windows Vista], NdkOperationTypeRead, ndkpi/NdkOperationTypeReceiveAndInvalidate, NdkOperationTypeBind, NdkOperationTypeFastRegister, NdkOperationTypeReceive, ndkpi/NDK_OPERATION_TYPE, NdkOperationTypeWrite, NdkOperationTypeSend, ndkpi/NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeReceive, ndkpi/NdkOperationTypeWrite, netvista.ndk_operation_type, ndkpi/NdkOperationTypeRead, ndkpi/NdkOperationTypeSend, NDK_OPERATION_TYPE, ndkpi/NdkOperationTypeBind, NdkOperationTypeInvalidate, ndkpi/NdkOperationTypeFastRegister, _NDK_OPERATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -124,5 +124,5 @@ An <i>NdkWrite</i> (<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OPERATION_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OPERATION_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

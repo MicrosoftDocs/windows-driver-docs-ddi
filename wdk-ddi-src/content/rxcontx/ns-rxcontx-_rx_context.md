@@ -7,8 +7,8 @@ old-location: ifsk\rx_context.htm
 old-project: ifsk
 ms.assetid: 5eb83a7a-d6dd-445f-89a8-91cdf67512af
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxcontx/PRX_CONTEXT, RX_CONTEXT structure [Installable File System Drivers], PRX_CONTEXT, PRX_CONTEXT structure pointer [Installable File System Drivers], RX_CONTEXT, _RX_CONTEXT, rxstructures_29a918c5-d689-4e7d-84fe-dfd8901ee484.xml, *PRX_CONTEXT, ifsk.rx_context, rxcontx/RX_CONTEXT
+ms.date: 2/16/2018
+ms.keywords: RX_CONTEXT structure [Installable File System Drivers], RX_CONTEXT, rxcontx/PRX_CONTEXT, rxcontx/RX_CONTEXT, PRX_CONTEXT structure pointer [Installable File System Drivers], rxstructures_29a918c5-d689-4e7d-84fe-dfd8901ee484.xml, ifsk.rx_context, PRX_CONTEXT, _RX_CONTEXT, *PRX_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -366,34 +366,9 @@ If set to <b>TRUE</b>, this member specifies that the FCB paging I/O resource ha
 A member initially set to zero in the <a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a> routine. This member is not otherwise used by RDBSS, but it may be used by network mini-redirectors.
 
 
-### -field StoredStatus
-
- 
-
-
-### -field StoredStatusAlignment
-
- 
-
-
 ### -field InformationToReturn
 
  
-
-
-### -field IoStatusBlock
-
-The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
-
-
-### -field ForceLonglongAligmentDummyField
-
-A member of an unnamed union use to force proper alignment on the <b>MRxContext[MRX_CONTEXT_FIELD_COUNT]</b> member. 
-
-
-### -field MRxContext
-
-A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
 
 
 ### -field WriteOnlyOpenRetryContext
@@ -446,29 +421,33 @@ A pointer to the list entry used to serialize pipe operations on a per-file-obje
 A structure member of an unnamed union used for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>, <a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>, and <a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a> routines. RDBSS passes information in the <b>Info</b> structure member to the network mini-redirector and the network mini-redirector returns information to RDBSS in the <b>Info</b> structure member. 
 
 
-### -field Info.FsInformationClass
+
+#### FsInformationClass
 
 A member of an unnamed union used by RDBSS to pass the type of FS_INFORMATION_CLASS that is requested to the network mini-redirector driver. RDBSS passes information in the <b>FsInformationClass</b> member when calling <b>MrxQueryVolumeInfo </b>and <b>MrxSetVolumeInfo</b>. 
 
 
-### -field Info.FileInformationClass
+
+#### FileInformationClass
 
 A member of an unnamed union used by RDBSS to indicate the type of FILE_INFORMATION_CLASS request sent to the network mini-redirector driver. RDBSS passes information in the <b>FileInformationClass</b> member when calling <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, and <b>MrxSetFileInfo</b>. 
+
+
+
+#### Length
+
+A member of an unnamed union used to pass the length of the <b>Buffer</b> member from RDBSS to the network mini-redirector driver. The <b>Length</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
+
+
+
+#### LengthRemaining
+
+A member of an unnamed union used to pass the length of information returned in the <b>Buffer</b> member from the network mini-redirector driver to RDBSS. The <b>LengthRemaining</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
 
 
 ### -field Info.Buffer
 
 A buffer used to pass data from RDBSS to the network mini-redirector driver and receive responses from the network mini-redirector driver by RDBSS. The <b>Buffer</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
-
-
-### -field Info.Length
-
-A member of an unnamed union used to pass the length of the <b>Buffer</b> member from RDBSS to the network mini-redirector driver. The <b>Length</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
-
-
-### -field Info.LengthRemaining
-
-A member of an unnamed union used to pass the length of information returned in the <b>Buffer</b> member from the network mini-redirector driver to RDBSS. The <b>LengthRemaining</b> member is used in the <b>MrxQueryDirectory</b>, <b>MrxQueryFileInfo</b>, <b>MrxQueryVolumeInfo</b>, <b>MrxSetFileInfo</b>, <b>MRxSetFileInfoAtCleanup</b>, and <b>MrxSetVolumeInfo</b> routines. 
 
 
 ### -field Info.ReplaceIfExists
@@ -882,6 +861,21 @@ A set of options set by RDBSS and passed to low I/O operations sent to the netwo
 A pointer to a LOWIO_CONTEXT structure passed to the network mini-redirector. <b>LowIoContext</b> is a member of unnamed structure used for low I/O requests sent to the network mini-redirector.
 
 
+#### - IoStatusBlock
+
+The I/O status block use by a network mini-redirector to return status information. The <b>IoStatusBlock</b> member is a member of an unnamed union used for returning status information.
+
+
+#### - ForceLonglongAligmentDummyField
+
+A member of an unnamed union use to force proper alignment on the <b>MRxContext[MRX_CONTEXT_FIELD_COUNT]</b> member. 
+
+
+#### - MRxContext
+
+A member of an unnamed union that contains an array of four pointers for use by a network mini-redirector driver.
+
+
 #### - FsdUid
 
 The effective user ID if <a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a> was called using a user-mode process thread. This member is not used by RDBSS.
@@ -906,19 +900,15 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549298">IRP_MJ_QUERY_SECURITY</a>
-
-
-
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a>
 
 
 
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path.md">IOCTL_REDIR_QUERY_PATH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
 
 
 
@@ -926,43 +916,19 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
-
-
-
 <a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a>
+<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549407">IRP_MJ_SET_SECURITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
-
-
-
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
 
 
 
@@ -974,23 +940,39 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549293">IRP_MJ_QUERY_QUOTA</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548649">IRP_MJ_DEVICE_CONTROL</a>
+
+
+
+<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549407">IRP_MJ_SET_SECURITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549298">IRP_MJ_QUERY_SECURITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549401">IRP_MJ_SET_QUOTA</a>
 
 
 
@@ -998,11 +980,19 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550773">MRxQueryQuotaInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550721">MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY]</a>
+
+
+
+<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path.md">IOCTL_REDIR_QUERY_PATH</a>
 
 
 
@@ -1010,11 +1000,15 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550810">MRxSetVolumeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
 
 
 
-<a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549279">IRP_MJ_QUERY_EA</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
 
 
 
@@ -1022,5 +1016,5 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RX_CONTEXT structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RX_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

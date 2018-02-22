@@ -7,7 +7,7 @@ old-location: storage\ioctl_volume_is_clustered.htm
 old-project: storage
 ms.assetid: aa8accf8-79c9-4868-b621-d468a121cb60
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_volume_is_clustered, IOCTL_VOLUME_IS_CLUSTERED control code [Storage Devices], IOCTL_VOLUME_IS_CLUSTERED, ntddvol/IOCTL_VOLUME_IS_CLUSTERED, k307_32e3c9a5-1828-4fbb-b7f1-9ddbd367f70f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

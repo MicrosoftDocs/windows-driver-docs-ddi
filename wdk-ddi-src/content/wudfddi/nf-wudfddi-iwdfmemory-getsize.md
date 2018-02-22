@@ -7,8 +7,8 @@ old-location: wdf\iwdfmemory_getsize.htm
 old-project: wdf
 ms.assetid: 1ed699a3-20e5-4a1c-bce0-5a681bac9c39
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfmemory_getsize, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, IWDFMemory, GetSize, GetSize method, wdf.iwdfmemory_getsize, wudfddi/IWDFMemory::GetSize, IWDFMemory::GetSize, GetSize method, IWDFMemory interface, IWDFMemory interface, GetSize method
+ms.date: 2/20/2018
+ms.keywords: wdf.iwdfmemory_getsize, umdf.iwdfmemory_getsize, GetSize, GetSize method, IWDFMemory interface, wudfddi/IWDFMemory::GetSize, IWDFMemory::GetSize, IWDFMemory interface, GetSize method, GetSize method, UMDFMemoryObjectRef_24a9b921-5760-41fd-8b01-6a21e6be71ed.xml, IWDFMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFMemory.GetSize
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -89,5 +89,5 @@ SIZE_T  GetSize();
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFMemory::GetSize method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFMemory::GetSize method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

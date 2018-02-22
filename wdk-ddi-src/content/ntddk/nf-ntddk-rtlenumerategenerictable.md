@@ -7,8 +7,8 @@ old-location: ifsk\rtlenumerategenerictable.htm
 old-project: ifsk
 ms.assetid: 53a5348c-71d1-4d58-82bf-1f8bf8daff90
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntddk/RtlEnumerateGenericTable, ifsk.rtlenumerategenerictable, RtlEnumerateGenericTable, RtlEnumerateGenericTable routine [Installable File System Drivers], rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml
+ms.date: 2/16/2018
+ms.keywords: ntddk/RtlEnumerateGenericTable, rtlref_5fb7c196-aee1-4dcc-a39c-587472a2fbe9.xml, RtlEnumerateGenericTable routine [Installable File System Drivers], RtlEnumerateGenericTable, ifsk.rtlenumerategenerictable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,19 +124,7 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlenumerategenerictablewithoutsplaying.md">RtlEnumerateGenericTableWithoutSplaying</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
 
 
 
@@ -144,9 +132,21 @@ Callers of <b>RtlEnumerateGenericTable</b> must be running at IRQL &lt; DISPATCH
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlisgenerictableempty.md">RtlIsGenericTableEmpty</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEnumerateGenericTable routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlEnumerateGenericTable routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

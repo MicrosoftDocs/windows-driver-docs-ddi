@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlremoveperfilecontext.htm
 old-project: ifsk
 ms.assetid: 1a4b6759-84d9-4731-8920-ef6ea1e51102
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fsrtlref_90f829b2-a8ed-44fd-adb3-61c57f5f9aad.xml, FsRtlRemovePerFileContext, ntifs/FsRtlRemovePerFileContext, FsRtlRemovePerFileContext routine [Installable File System Drivers], ifsk.fsrtlremoveperfilecontext
+ms.date: 2/16/2018
+ms.keywords: fsrtlref_90f829b2-a8ed-44fd-adb3-61c57f5f9aad.xml, ifsk.fsrtlremoveperfilecontext, ntifs/FsRtlRemovePerFileContext, FsRtlRemovePerFileContext, FsRtlRemovePerFileContext routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,15 +120,15 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546051">FsRtlGetPerFileContextPointer</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtllookupperfilecontext.md">FsRtlLookupPerFileContext</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_file_context.md">FSRTL_PER_FILE_CONTEXT</a>
 
 
 
@@ -144,5 +144,5 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlRemovePerFileContext routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlRemovePerFileContext routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugAdvanced2::GetSymbolInformation method
 author: windows-driver-content
 description: The GetSymbolInformation method returns specified information about a symbol.
 old-location: debugger\getsymbolinformation.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, dbgeng/IDebugAdvanced3::GetSymbolInformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, debugger.getsymbolinformation, GetSymbolInformation, GetSymbolInformation method [Windows Debugging], GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced2, IDebugAdvanced2::GetSymbolInformation, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, dbgeng/IDebugAdvanced2::GetSymbolInformation
+ms.date: 2/15/2018
+ms.keywords: GetSymbolInformation method [Windows Debugging], debugger.getsymbolinformation, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced3::GetSymbolInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugAdvanced3.GetSymbolInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced2::GetSymbolInformation method

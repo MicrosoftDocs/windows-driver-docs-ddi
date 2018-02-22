@@ -4,10 +4,10 @@ title: IDebugSystemObjects4
 author: windows-driver-content
 description: IDebugSystemObjects4 interface
 old-location: debugger\idebugsystemobjects4.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 075143eb-03c4-41b2-b419-4618ed103843
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugsystemobjects4, IDebugSystemObjects4 interface [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], described, IDebugSystemObjects4, dbgeng/IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSystemObjects4.GetCurrentSystemServerNameWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4 interface
@@ -85,10 +85,6 @@ Returns the name of executable file loaded in the current process.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
 
 
@@ -97,9 +93,13 @@ Returns the name of executable file loaded in the current process.
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects.md">IDebugSystemObjects</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSystemObjects4 interface%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSystemObjects4 interface%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

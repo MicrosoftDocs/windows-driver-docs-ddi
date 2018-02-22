@@ -7,7 +7,7 @@ old-location: kernel\getscattergatherlistex.htm
 old-project: kernel
 ms.assetid: BDEC9AFC-2BA1-4E2C-83B4-F21B220B8B3B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.getscattergatherlistex, GetScatterGatherListEx, GetScatterGatherListEx callback function [Kernel-Mode Driver Architecture], GetScatterGatherListEx, PGET_SCATTER_GATHER_LIST_EX, PGET_SCATTER_GATHER_LIST_EX, wdm/GetScatterGatherListEx, DMA_SYNCHRONOUS_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	GetScatterGatherListEx
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -85,7 +85,7 @@ NTSTATUS GetScatterGatherListEx(
 
 ### -param DmaAdapter [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine.
+A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's bus-master DMA device. The caller obtained this pointer from a previous call to the <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> routine.
 
 
 ### -param DeviceObject [in]
@@ -116,6 +116,7 @@ The length, in bytes, of the DMA transfer. If the MDL chain specifies a total of
 ### -param Flags [in]
 
 The adapter channel allocation flags. The following flag is supported.
+
 <table>
 <tr>
 <th>Flag</th>
@@ -131,7 +132,8 @@ The <b>GetScatterGatherListEx</b> routine is called synchronously. If this flag 
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 If the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set, the <i>ExecutionRoutine</i> parameter is optional and can be NULL. If this flag is not set, <i>ExecutionRoutine</i> must be a valid, non-<b>NULL</b> pointer. For more information about this flag, see the Remarks section.
 
@@ -175,7 +177,9 @@ If the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set and the <i>ExecutionRoutine</
 ## -returns
 
 
+
 <b>GetScatterGatherListEx</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -203,28 +207,34 @@ The routine failed to allocate resources required for the DMA transfer.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
-<b>GetScatterGatherListEx</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
+
+<b>GetScatterGatherListEx</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
 Use <b>GetScatterGatherListEx</b> only for bus-master adapters. Do not use this routine for a system DMA adapter.
 
 The driver of a bus-master device can use
      <b>GetScatterGatherListEx</b> to combine the operations performed by the <a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a> and <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a> routines into a one call. <b>GetScatterGatherListEx</b> performs the following operations:
+
 <ol>
 <li>Allocates the resources that are required for the DMA transfer.</li>
 <li>Builds a scatter/gather list based on the values of the <i>Mdl</i>, <i>Offset</i>, and <i>Length</i> parameters.</li>
 <li>Calls the driver-supplied <a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a> routine and supplies the scatter/gather list to this routine as a parameter.</li>
-</ol>The allocated resources are automatically released after the <i>AdapterListControl</i> routine returns.  If <b>GetScatterGatherListEx</b> is called synchronously (that is, if the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set), the <i>AdapterListControl</i> routine can be omitted.  In this case, the caller uses the allocated resources to initiate the DMA transfer after <b>GetScatterGatherListEx</b> returns. The caller must explicitly release these resources.
+</ol>
+The allocated resources are automatically released after the <i>AdapterListControl</i> routine returns.  If <b>GetScatterGatherListEx</b> is called synchronously (that is, if the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag is set), the <i>AdapterListControl</i> routine can be omitted.  In this case, the caller uses the allocated resources to initiate the DMA transfer after <b>GetScatterGatherListEx</b> returns. The caller must explicitly release these resources.
 
 By default, <b>GetScatterGatherListEx</b> returns asynchronously, without waiting for the requested resource allocation to complete. After this return, the caller can, if necessary, cancel the pending allocation request by calling the <a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a> routine.
 
 If the calling driver sets the <b>DMA_SYNCHRONOUS_CALLBACK</b> flag, the <b>GetScatterGatherListEx</b> routine behaves as follows:
+
 <ul>
 <li>
 If the requested resources are not immediately available, <b>GetScatterGatherListEx</b> does not wait for resources, does not build a scatter/gather list, and does not call the <i>AdapterListControl</i> routine. Instead,  <b>GetScatterGatherListEx</b> fails and returns STATUS_INSUFFICIENT_RESOURCES.
@@ -242,7 +252,8 @@ If the driver supplies an <i>AdapterListControl</i> routine, the <b>DMA_SYNCHRON
 If the driver does not supply an <i>AdapterListControl</i> routine, the driver can use the allocated resources and scatter/gather list after <b>GetScatterGatherListEx</b> returns. In this case, the driver must supply a valid, non-NULL <i>ScatterGatherList</i> pointer. In addition, after the driver initiates the DMA transfer, the driver must call the <a href="..\wdm\nc-wdm-pfree_adapter_object.md">FreeAdapterObject</a> routine to free the resources that <b>GetScatterGatherListEx</b> allocated for the adapter object.
 
 </li>
-</ul><b>GetScatterGatherListEx</b> is an extended version of the <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a> routine. The following features are available only in the extended version:
+</ul>
+<b>GetScatterGatherListEx</b> is an extended version of the <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a> routine. The following features are available only in the extended version:
 
 
 
@@ -250,37 +261,64 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
+
 ## -see-also
 
 <a href="..\wdm\nc-wdm-driver_control.md">AdapterListControl</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546507">FreeAdapterChannel</a>
 
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
-
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
-
-<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
 
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
 
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
 
 <a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546507">FreeAdapterChannel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450991">DmaCompletionRoutine</a>
+
+
+
+<a href="..\wdm\ns-wdm-_scatter_gather_list.md">SCATTER_GATHER_LIST</a>
+
+
+
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+
+
+
 <a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+
+
 
 <a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PGET_SCATTER_GATHER_LIST_EX callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PGET_SCATTER_GATHER_LIST_EX callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

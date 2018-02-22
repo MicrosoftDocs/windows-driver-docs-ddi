@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2ext.htm
 old-project: display
 ms.assetid: d7cec277-d1d3-4c0f-91ec-fd5e962b6e1c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dhal_dp2ext, d3dhal/LPD3DHAL_DP2EXT, D3DHAL_DP2EXT structure [Display Devices], LPD3DHAL_DP2EXT structure pointer [Display Devices], d3dstrct_e56171cd-ae20-4277-abd5-cb8f0c008637.xml, *LPD3DHAL_DP2EXT, d3dhal/D3DHAL_DP2EXT, D3DHAL_DP2EXT, _D3DHAL_DP2EXT, LPD3DHAL_DP2EXT
+ms.date: 2/20/2018
+ms.keywords: "*LPD3DHAL_DP2EXT, d3dhal/LPD3DHAL_DP2EXT, _D3DHAL_DP2EXT, LPD3DHAL_DP2EXT structure pointer [Display Devices], D3DHAL_DP2EXT, D3DHAL_DP2EXT structure [Display Devices], LPD3DHAL_DP2EXT, d3dhal/D3DHAL_DP2EXT, d3dstrct_e56171cd-ae20-4277-abd5-cb8f0c008637.xml, display.d3dhal_dp2ext"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

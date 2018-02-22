@@ -7,8 +7,8 @@ old-location: stream\ksgetouterunknown.htm
 old-project: stream
 ms.assetid: e86e2c96-9ae5-4f6d-9c76-1c2816f318e7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsGetOuterUnknown, KsGetOuterUnknown function [Streaming Media Devices], ks/KsGetOuterUnknown, avfunc_5b660e76-03af-4fba-92f9-f11eeeaa3da0.xml, stream.ksgetouterunknown
+ms.date: 2/20/2018
+ms.keywords: KsGetOuterUnknown function [Streaming Media Devices], KsGetOuterUnknown, avfunc_5b660e76-03af-4fba-92f9-f11eeeaa3da0.xml, stream.ksgetouterunknown, ks/KsGetOuterUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,19 +99,7 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 
 
-<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
-
-
-
 <a href="..\ks\nf-ks-ksfilterfactorygetouterunknown.md">KsFilterFactoryGetOuterUnknown</a>
-
-
-
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
 
 
@@ -119,9 +107,21 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 
 
- 
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetouterunknown.md">KsPinGetOuterUnknown</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetOuterUnknown function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetOuterUnknown function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

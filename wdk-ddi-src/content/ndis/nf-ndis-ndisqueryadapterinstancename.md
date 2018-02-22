@@ -7,8 +7,8 @@ old-location: netvista\ndisqueryadapterinstancename.htm
 old-project: netvista
 ms.assetid: bd6fade6-9b9b-4b38-8e53-c70c40c1165f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisQueryAdapterInstanceName, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], netvista.ndisqueryadapterinstancename, ndis/NdisQueryAdapterInstanceName, protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml
+ms.date: 2/16/2018
+ms.keywords: protocol_ndis_functions_ref_e9e2070d-3b82-43a6-8964-92296de4c896.xml, NdisQueryAdapterInstanceName, ndis/NdisQueryAdapterInstanceName, netvista.ndisqueryadapterinstancename, NdisQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,11 +130,11 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -146,5 +146,5 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisQueryAdapterInstanceName function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisQueryAdapterInstanceName function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

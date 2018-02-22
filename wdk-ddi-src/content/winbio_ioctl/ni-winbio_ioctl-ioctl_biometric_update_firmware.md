@@ -7,7 +7,7 @@ old-location: biometric\ioctl_biometric_update_firmware.htm
 old-project: biometric
 ms.assetid: 0337956a-09d0-4c9c-8f2d-ac63210431ba
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: biometric.ioctl_biometric_update_firmware, IOCTL_BIOMETRIC_UPDATE_FIRMWARE control code [Biometric Devices], IOCTL_BIOMETRIC_UPDATE_FIRMWARE, winbio_ioctl/IOCTL_BIOMETRIC_UPDATE_FIRMWARE, biometric_ref_b94fa4b7-e1db-4cac-8c06-ff490ca39fd5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

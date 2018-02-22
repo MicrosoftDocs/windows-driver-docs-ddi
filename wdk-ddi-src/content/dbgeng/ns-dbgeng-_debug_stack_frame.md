@@ -4,11 +4,11 @@ title: "_DEBUG_STACK_FRAME"
 author: windows-driver-content
 description: The DEBUG_STACK_FRAME structure describes a stack frame and the address of the current instruction for the stack frame.
 old-location: debugger\debug_stack_frame.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: e3ab83cf-96ed-468d-895f-23b90951cfb5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_STACK_FRAME, Structures_219fad76-6f80-429d-b0ff-0f5443a9263b.xml, PDEBUG_STACK_FRAME, dbgeng/PDEBUG_STACK_FRAME, _DEBUG_STACK_FRAME, DEBUG_STACK_FRAME structure [Windows Debugging], PDEBUG_STACK_FRAME structure pointer [Windows Debugging], DEBUG_STACK_FRAME, *PDEBUG_STACK_FRAME, debugger.debug_stack_frame
+ms.date: 2/15/2018
+ms.keywords: DEBUG_STACK_FRAME, DEBUG_STACK_FRAME structure [Windows Debugging], debugger.debug_stack_frame, PDEBUG_STACK_FRAME, *PDEBUG_STACK_FRAME, dbgeng/DEBUG_STACK_FRAME, PDEBUG_STACK_FRAME structure pointer [Windows Debugging], Structures_219fad76-6f80-429d-b0ff-0f5443a9263b.xml, dbgeng/PDEBUG_STACK_FRAME, _DEBUG_STACK_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_STACK_FRAME
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_STACK_FRAME, *PDEBUG_STACK_FRAME
+req.typenames: "*PDEBUG_STACK_FRAME, DEBUG_STACK_FRAME"
 ---
 
 # _DEBUG_STACK_FRAME structure

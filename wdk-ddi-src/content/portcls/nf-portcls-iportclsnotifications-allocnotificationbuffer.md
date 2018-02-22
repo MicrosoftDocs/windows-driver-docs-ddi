@@ -7,8 +7,8 @@ old-location: audio\iportclsnotifications_allocnotification.htm
 old-project: audio
 ms.assetid: 23DBA3D8-FC27-4F5D-9F1C-A22B6C2856D2
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: AllocNotificationBuffer, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, IPortClsNotifications::AllocNotificationBuffer, portcls/IPortClsNotifications::AllocNotificationBuffer, audio.iportclsnotifications_allocnotification, IPortClsNotifications, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, AllocNotificationBuffer method [Audio Devices]
+ms.date: 2/21/2018
+ms.keywords: IPortClsNotifications, AllocNotificationBuffer method [Audio Devices], IPortClsNotifications interface, AllocNotificationBuffer method [Audio Devices], audio.iportclsnotifications_allocnotification, portcls/IPortClsNotifications::AllocNotificationBuffer, AllocNotificationBuffer, IPortClsNotifications interface [Audio Devices], AllocNotificationBuffer method, IPortClsNotifications::AllocNotificationBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IPortClsNotifications.AllocNotificationBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsNotifications::AllocNotificationBuffer method
@@ -60,9 +60,9 @@ For more information about audio modules, see <a href="https://msdn.microsoft.co
 
 ````
 NTSTATUS  AllocNotificationBuffer(
-  [in]  POOL_TYPE    PoolType,
-  [in]  USHORT       NumberOfBytes,
-  [out] Notification PPCNOTIFICATION* 
+  [in]  POOL_TYPE       PoolType,
+  [in]  USHORT          NumberOfBytes,
+  [out] PPCNOTIFICATION *NotificationBuffer
 );
 ````
 
@@ -82,14 +82,7 @@ Specifies the type of memory pool from which the object is to be allocated (see 
 Number of bytes to allocate.
 
 
-### -param NotificationBuffer
-
-
-
-
-
-
-#### - PPCNOTIFICATION* [out]
+### -param NotificationBuffer [out]
 
 Pointer to a <a href="..\portcls\ns-portcls-_pcnotification_buffer.md">PCNOTIFICATION_BUFFER</a> which the method writes the address of the allocated notification.
 
@@ -132,5 +125,5 @@ Callers of <b>AllocNotificationBuffer</b> must be running at IRQL &lt;= DISPATCH
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::AllocNotificationBuffer method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::AllocNotificationBuffer method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

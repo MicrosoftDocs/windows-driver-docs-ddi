@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlisleaddbcscharacter.htm
 old-project: ifsk
 ms.assetid: 3cbae037-6205-4315-8ff7-0c67a91c4c69
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers], FsRtlIsLeadDbcsCharacter, ifsk.fsrtlisleaddbcscharacter, ntifs/FsRtlIsLeadDbcsCharacter
+ms.date: 2/16/2018
+ms.keywords: FsRtlIsLeadDbcsCharacter, ntifs/FsRtlIsLeadDbcsCharacter, fsrtlref_758a5e18-3446-43c4-8cce-baecdf727f98.xml, ifsk.fsrtlisleaddbcscharacter, FsRtlIsLeadDbcsCharacter function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -94,11 +94,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldissectdbcs~r2.md">FsRtlDissectDbcs</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlisdbcsinexpression~r1.md">FsRtlIsDbcsInExpression</a>
 
 
 
@@ -110,5 +110,5 @@ For information about other string-handling routines, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIsLeadDbcsCharacter function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlIsLeadDbcsCharacter function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

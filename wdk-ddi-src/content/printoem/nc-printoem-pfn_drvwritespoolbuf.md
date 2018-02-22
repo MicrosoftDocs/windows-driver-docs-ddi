@@ -1,0 +1,87 @@
+---
+UID: NC:printoem.PFN_DrvWriteSpoolBuf
+title: PFN_DrvWriteSpoolBuf
+author: windows-driver-content
+description: The DrvWriteSpoolBuf function pointed to by this function pointer is obsolete.
+old-location: print\drvwritespoolbuf.htm
+old-project: print
+ms.assetid: a0de6757-3be8-4c8f-bc6f-93c2e097fec7
+ms.author: windowsdriverdev
+ms.date: 2/21/2018
+ms.keywords: print.drvwritespoolbuf, DrvWriteSpoolBuf, DrvWriteSpoolBuf callback function [Print Devices], DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf, PFN_DrvWriteSpoolBuf, printoem/DrvWriteSpoolBuf, print_obsoletefunctions_06e6fe98-5851-4c2e-863a-5afe735321fb.xml
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: printoem.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+topictype:
+-	APIRef
+-	kbSyntax
+apitype:
+-	UserDefined
+apilocation:
+-	printoem.h
+apiname:
+-	DrvWriteSpoolBuf
+product: Windows
+targetos: Windows
+req.typenames: PrintSchemaSelectionType
+req.product: Windows 10 or later.
+---
+
+# PFN_DrvWriteSpoolBuf callback
+
+
+## -description
+
+
+The <b>DrvWriteSpoolBuf</b> function pointed to by this function pointer is obsolete.
+
+ Windows 2000 and later render plug-ins should use <a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a> (Unidrv plug-ins), <a href="https://msdn.microsoft.com/library/windows/hardware/ff553103">IPrintOemDriverPS::DrvWriteSpoolBuf</a> (Pscript plug-ins), or <a href="https://msdn.microsoft.com/library/windows/hardware/ff552978">IPrintCorePS2::DrvWriteSpoolBuf</a> (Pscript plug-ins). 
+
+This function pointer prototype defines the <b>DrvWriteSpoolBuf</b> member of the <a href="..\printoem\ns-printoem-_drvprocs.md">DRVPROCS</a> structure.
+
+
+## -prototype
+
+
+````
+PFN_DrvWriteSpoolBuf DrvWriteSpoolBuf;
+
+DWORD APIENTRY* DrvWriteSpoolBuf(
+   PDEVOBJ                        pdevobj,
+   _In_reads_bytes_(cbSize) PVOID pBuffer,
+   DWORD                          cbSize
+)
+{ ... }
+````
+
+
+## -parameters
+
+
+
+
+### -param pdevobj
+
+
+### -param pBuffer
+
+
+### -param cbSize
+

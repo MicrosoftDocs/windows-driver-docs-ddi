@@ -7,8 +7,8 @@ old-location: audio\hdaudio_bus_interface_bdl.htm
 old-project: audio
 ms.assetid: 64523c09-35dd-45df-beed-ce8afb740f5d
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: hdaudio/PHDAUDIO_BUS_INTERFACE_BDL, _HDAUDIO_BUS_INTERFACE_BDL, HDAUDIO_BUS_INTERFACE_BDL structure [Audio Devices], aud-prop2_f9b041b3-76fd-4176-9fc8-32eeda46cc32.xml, PHDAUDIO_BUS_INTERFACE_BDL, hdaudio/HDAUDIO_BUS_INTERFACE_BDL, *PHDAUDIO_BUS_INTERFACE_BDL, audio.hdaudio_bus_interface_bdl, HDAUDIO_BUS_INTERFACE_BDL, PHDAUDIO_BUS_INTERFACE_BDL structure pointer [Audio Devices]
+ms.date: 2/21/2018
+ms.keywords: aud-prop2_f9b041b3-76fd-4176-9fc8-32eeda46cc32.xml, HDAUDIO_BUS_INTERFACE_BDL structure [Audio Devices], hdaudio/PHDAUDIO_BUS_INTERFACE_BDL, hdaudio/HDAUDIO_BUS_INTERFACE_BDL, audio.hdaudio_bus_interface_bdl, *PHDAUDIO_BUS_INTERFACE_BDL, _HDAUDIO_BUS_INTERFACE_BDL, PHDAUDIO_BUS_INTERFACE_BDL, PHDAUDIO_BUS_INTERFACE_BDL structure pointer [Audio Devices], HDAUDIO_BUS_INTERFACE_BDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HDAUDIO_BUS_INTERFACE_BDL
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_BUS_INTERFACE_BDL, *PHDAUDIO_BUS_INTERFACE_BDL
+req.typenames: "*PHDAUDIO_BUS_INTERFACE_BDL, HDAUDIO_BUS_INTERFACE_BDL"
 ---
 
 # _HDAUDIO_BUS_INTERFACE_BDL structure
@@ -206,42 +206,14 @@ HDAUDIO_BUS_INTERFACE has two members, <a href="..\hdaudio\nc-hdaudio-pallocate_
 </ul>
 For more information, see <a href="https://msdn.microsoft.com/e24071d3-9021-40c0-907a-91ada8a1306b">Differences Between the HD Audio DDI Versions</a>.
 
-The names and definitions of the first five members (<b>Size</b>, <b>Version</b>, <b>Context</b>, <b>InterfaceReference</b>, and <b>InterfaceDereference</b>) are the same as in the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure. The remaining members are specific to the extended HD Audio DDI and specify function pointers to the routines in the DDI. For more information, see <a href="https://msdn.microsoft.com/142eb2f0-6c6d-4441-8ad7-0875546c1ab2">Obtaining an HDAUDIO_BUS_INTERFACE_BDL DDI Object</a>.
+The names and definitions of the first five members (<b>Size</b>, <b>Version</b>, <b>Context</b>, <b>InterfaceReference</b>, and <b>InterfaceDereference</b>) are the same as in the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure. The remaining members are specific to the extended HD Audio DDI and specify function pointers to the routines in the DDI. For more information, see <a href="https://msdn.microsoft.com/142eb2f0-6c6d-4441-8ad7-0875546c1ab2">Obtaining an HDAUDIO_BUS_INTERFACE_BDL DDI Object</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pget_resource_information.md">GetResourceInformation</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pchange_bandwidth_allocation.md">ChangeBandwidthAllocation</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
 
 
 
@@ -249,7 +221,7 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 
@@ -257,7 +229,7 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
 
 
 
@@ -265,7 +237,7 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
 
 
 
@@ -273,9 +245,37 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
- 
+<a href="..\hdaudio\nc-hdaudio-pget_resource_information.md">GetResourceInformation</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HDAUDIO_BUS_INTERFACE_BDL structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HDAUDIO_BUS_INTERFACE_BDL structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

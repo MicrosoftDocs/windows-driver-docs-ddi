@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calcprivatevideodecoderheapsize_0033.htm
 old-project: display
 ms.assetid: 4E635513-690F-4C23-8B2B-1B5FCAFE7F07
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_calcprivatevideodecoderheapsize_0033, PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033 entry point [Display Devices], PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033, d3d12umddi/PFND3D12DDI_CALCPRIVATEVIDEODECODERHEAPSIZE_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,6 +81,8 @@ The arguments used to create a video decoder heap.
 ## -returns
 
 
+
 Returns the size of the heap in bytes.
+
 
 

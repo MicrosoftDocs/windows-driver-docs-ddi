@@ -7,8 +7,8 @@ old-location: netvista\rilgetphonebookoptionsparams.htm
 old-project: netvista
 ms.assetid: a6c71f2d-baf7-4293-ae13-38625be3ab3f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILGETPHONEBOOKOPTIONSPARAMS, netvista.rilgetphonebookoptionsparams, *LPRILGETPHONEBOOKOPTIONSPARAMS, ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilgetphonebookoptionsparams, *LPRILGETPHONEBOOKOPTIONSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETPHONEBOOKOPTIONSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILGETPHONEBOOKOPTIONSPARAMS, *LPRILGETPHONEBOOKOPTIONSPARAMS
+req.typenames: "*LPRILGETPHONEBOOKOPTIONSPARAMS, RILGETPHONEBOOKOPTIONSPARAMS"
 ---
 
 # RILGETPHONEBOOKOPTIONSPARAMS structure

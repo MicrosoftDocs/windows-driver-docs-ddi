@@ -7,8 +7,8 @@ old-location: kernel\ioinitializedpcrequest.htm
 old-project: kernel
 ms.assetid: d4685c23-7461-4539-9f7c-80f9760bf706
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.ioinitializedpcrequest, k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, IoInitializeDpcRequest, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture], wdm/IoInitializeDpcRequest
+ms.date: 2/16/2018
+ms.keywords: k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, wdm/IoInitializeDpcRequest, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture], kernel.ioinitializedpcrequest, IoInitializeDpcRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,15 +107,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
-
-
-
-<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 
@@ -127,9 +123,13 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
- 
+<a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoInitializeDpcRequest routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoInitializeDpcRequest routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemuni3_getpdevadjustment.htm
 old-project: print
 ms.assetid: bb7d7248-9520-4bc8-8483-b05b78608fc7
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], prcomoem/IPrintOemUni3::GetPDEVAdjustment, IPrintOemUni3::GetPDEVAdjustment, print.iprintoemuni3_getpdevadjustment, print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method
+ms.date: 2/21/2018
+ms.keywords: print.iprintoemuni3_getpdevadjustment, prcomoem/IPrintOemUni3::GetPDEVAdjustment, GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], print_unidrv-pscript_rendering_d30dca0e-9e1d-4d42-9f9d-e6abd364da96.xml, IPrintOemUni3 interface [Print Devices], GetPDEVAdjustment method, GetPDEVAdjustment method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3, IPrintOemUni3::GetPDEVAdjustment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni3.GetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -157,11 +157,11 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+<a href="https://msdn.microsoft.com/cf5705fb-8420-4eec-99d4-d56f192da581">IPrintOemUni3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
+<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
 
 
@@ -169,7 +169,11 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559796">PDEV_ADJUST_PAPER_PHYSICAL_SIZE</a>
+
+
+
+<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
 
 
 
@@ -185,5 +189,5 @@ Currently, the Unidrv driver calls <code>IPrintOemUni3::GetPDEVAdjustment</code>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni3::GetPDEVAdjustment method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni3::GetPDEVAdjustment method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

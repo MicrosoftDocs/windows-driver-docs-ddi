@@ -7,8 +7,8 @@ old-location: storage\storage_crypto_algorithm_id.htm
 old-project: storage
 ms.assetid: 5D1CCF3D-D677-47B0-9C7B-7E35C649A7D5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddstor/StorageCryptoAlgorithmAESECB, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmXTSAES, StorageCryptoAlgorithmAESECB, *PSTORAGE_CRYPTO_ALGORITHM_ID, ntddstor/StorageCryptoAlgorithmXTSAES, StorageCryptoAlgorithmESSIVAESCBC, StorageCryptoAlgorithmUnknown, ntddstor/StorageCryptoAlgorithmMax, ntddstor/StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmMax, storage.storage_crypto_algorithm_id, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], _STORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], ntddstor/StorageCryptoAlgorithmBitlockerAESCBC
+ms.date: 2/16/2018
+ms.keywords: "_STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], ntddstor/StorageCryptoAlgorithmUnknown, StorageCryptoAlgorithmAESECB, ntddstor/STORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmXTSAES, ntddstor/StorageCryptoAlgorithmBitlockerAESCBC, StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmMax, STORAGE_CRYPTO_ALGORITHM_ID, storage.storage_crypto_algorithm_id, ntddstor/StorageCryptoAlgorithmXTSAES, *PSTORAGE_CRYPTO_ALGORITHM_ID, StorageCryptoAlgorithmBitlockerAESCBC, ntddstor/StorageCryptoAlgorithmESSIVAESCBC, ntddstor/StorageCryptoAlgorithmAESECB, STORAGE_CRYPTO_ALGORITHM_ID, *PSTORAGE_CRYPTO_ALGORITHM_ID, STORAGE_CRYPTO_ALGORITHM_ID enumeration [Storage Devices], StorageCryptoAlgorithmUnknown"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

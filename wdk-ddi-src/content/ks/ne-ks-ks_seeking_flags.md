@@ -7,8 +7,8 @@ old-location: stream\ks_seeking_flags.htm
 old-project: stream
 ms.assetid: 8e27872e-4f38-4d0e-92bc-5e759a9db195
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KS_SEEKING_SeekToKeyFrame, ks/KS_SEEKING_FLAGS, ks-struct_edea1d66-55d6-4705-ae8f-b940946b87e0.xml, KS_SEEKING_RelativePositioning, KS_SEEKING_FLAGS enumeration [Streaming Media Devices], stream.ks_seeking_flags, ks/KS_SEEKING_AbsolutePositioning, KS_SEEKING_SeekToKeyFrame, ks/KS_SEEKING_NoPositioning, ks/KS_SEEKING_ReturnTime, KS_SEEKING_IncrementalPositioning, KS_SEEKING_AbsolutePositioning, KS_SEEKING_NoPositioning, KS_SEEKING_FLAGS, ks/KS_SEEKING_RelativePositioning, KS_SEEKING_ReturnTime, ks/KS_SEEKING_PositioningBitsMask, KS_SEEKING_PositioningBitsMask, ks/KS_SEEKING_IncrementalPositioning
+ms.date: 2/20/2018
+ms.keywords: ks/KS_SEEKING_RelativePositioning, ks-struct_edea1d66-55d6-4705-ae8f-b940946b87e0.xml, KS_SEEKING_IncrementalPositioning, ks/KS_SEEKING_SeekToKeyFrame, ks/KS_SEEKING_FLAGS, ks/KS_SEEKING_AbsolutePositioning, ks/KS_SEEKING_PositioningBitsMask, KS_SEEKING_ReturnTime, KS_SEEKING_SeekToKeyFrame, KS_SEEKING_RelativePositioning, ks/KS_SEEKING_NoPositioning, KS_SEEKING_NoPositioning, KS_SEEKING_FLAGS enumeration [Streaming Media Devices], KS_SEEKING_PositioningBitsMask, stream.ks_seeking_flags, ks/KS_SEEKING_IncrementalPositioning, KS_SEEKING_AbsolutePositioning, KS_SEEKING_FLAGS, ks/KS_SEEKING_ReturnTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -117,5 +117,5 @@ The minidriver sets these flag values in a <a href="..\ks\ns-ks-ksproperty_posit
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_SEEKING_FLAGS enumeration%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_SEEKING_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

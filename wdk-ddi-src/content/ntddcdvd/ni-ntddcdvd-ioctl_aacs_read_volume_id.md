@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_read_volume_id.htm
 old-project: storage
 ms.assetid: 8772a83a-06e3-48f8-9d41-47332122ec8b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_aacs_read_volume_id, IOCTL_AACS_READ_VOLUME_ID control code [Storage Devices], IOCTL_AACS_READ_VOLUME_ID, ntddcdvd/IOCTL_AACS_READ_VOLUME_ID, k307_ec201772-11c1-4825-8a71-f00f621a1b04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_AACS_READ_VOLUME_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_READ_VOLUME_ID IOCTL

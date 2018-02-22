@@ -7,8 +7,8 @@ old-location: storage\getpathconfiguration_in.htm
 old-project: storage
 ms.assetid: 38396f75-6bcf-493e-9aab-661db59637ae
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_GetPathConfiguration_IN, *PGetPathConfiguration_IN, mpiowmi/PGetPathConfiguration_IN, PGetPathConfiguration_IN, structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml, mpiowmi/GetPathConfiguration_IN, storage.getpathconfiguration_in, GetPathConfiguration_IN structure [Storage Devices], PGetPathConfiguration_IN structure pointer [Storage Devices], GetPathConfiguration_IN"
+ms.date: 2/16/2018
+ms.keywords: PGetPathConfiguration_IN, PGetPathConfiguration_IN structure pointer [Storage Devices], _GetPathConfiguration_IN, GetPathConfiguration_IN, mpiowmi/PGetPathConfiguration_IN, structs-scsibus_28444162-ae96-47fb-8857-562d52191bfe.xml, mpiowmi/GetPathConfiguration_IN, GetPathConfiguration_IN structure [Storage Devices], storage.getpathconfiguration_in, *PGetPathConfiguration_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

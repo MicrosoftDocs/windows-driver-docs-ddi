@@ -7,8 +7,8 @@ old-location: ifsk\fltreissuesynchronousio.htm
 old-project: ifsk
 ms.assetid: 5feba526-17f3-4969-9199-93cb2a36e937
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fltkernel/FltReissueSynchronousIo, ifsk.fltreissuesynchronousio, FltReissueSynchronousIo function [Installable File System Drivers], FltReissueSynchronousIo, FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltreissuesynchronousio, FltApiRef_p_to_z_c86041cf-780e-4754-b580-6665573bdb88.xml, FltReissueSynchronousIo, fltkernel/FltReissueSynchronousIo, FltReissueSynchronousIo function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,15 +128,7 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltisoperationsynchronous.md">FltIsOperationSynchronous</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
 
 
 
@@ -144,11 +136,7 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
 
 
 
@@ -156,11 +144,11 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltcancelfileopen.md">FltCancelFileOpen</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
 
 
 
@@ -172,7 +160,11 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 
@@ -180,17 +172,25 @@ A create (IRP_MJ_CREATE) operation that has been canceled cannot be reissued. Be
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltisoperationsynchronous.md">FltIsOperationSynchronous</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltReissueSynchronousIo function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltReissueSynchronousIo function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\file_reparse_point_information.htm
 old-project: ifsk
 ms.assetid: de6e8b39-9e0c-4817-82b4-d64e81a95e79
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "_FILE_REPARSE_POINT_INFORMATION, ntifs/PFILE_REPARSE_POINT_INFORMATION, *PFILE_REPARSE_POINT_INFORMATION, ifsk.file_reparse_point_information, FILE_REPARSE_POINT_INFORMATION, fileinformationstructures_5e939a71-0fcc-41e9-be0f-c2c1b5327239.xml, PFILE_REPARSE_POINT_INFORMATION, FILE_REPARSE_POINT_INFORMATION structure [Installable File System Drivers], ntifs/FILE_REPARSE_POINT_INFORMATION, PFILE_REPARSE_POINT_INFORMATION structure pointer [Installable File System Drivers]"
+ms.date: 2/16/2018
+ms.keywords: "_FILE_REPARSE_POINT_INFORMATION, FILE_REPARSE_POINT_INFORMATION structure [Installable File System Drivers], PFILE_REPARSE_POINT_INFORMATION structure pointer [Installable File System Drivers], fileinformationstructures_5e939a71-0fcc-41e9-be0f-c2c1b5327239.xml, FILE_REPARSE_POINT_INFORMATION, *PFILE_REPARSE_POINT_INFORMATION, ifsk.file_reparse_point_information, ntifs/FILE_REPARSE_POINT_INFORMATION, ntifs/PFILE_REPARSE_POINT_INFORMATION, PFILE_REPARSE_POINT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_REPARSE_POINT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_REPARSE_POINT_INFORMATION, FILE_REPARSE_POINT_INFORMATION"
+req.typenames: FILE_REPARSE_POINT_INFORMATION, *PFILE_REPARSE_POINT_INFORMATION
 ---
 
 # _FILE_REPARSE_POINT_INFORMATION structure
@@ -117,5 +117,5 @@ This structure must be LONG-aligned.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_REPARSE_POINT_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_REPARSE_POINT_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

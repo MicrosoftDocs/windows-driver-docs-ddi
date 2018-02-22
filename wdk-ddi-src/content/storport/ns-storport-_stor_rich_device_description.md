@@ -7,8 +7,8 @@ old-location: storage\stor_rich_device_description.htm
 old-project: storage
 ms.assetid: 765A420C-F406-4A46-BDCC-26A451549F8D
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storport/STOR_RICH_DEVICE_DESCRIPTION, _STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], storport/PSTOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description
+ms.date: 2/16/2018
+ms.keywords: STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION, PSTOR_RICH_DEVICE_DESCRIPTION structure pointer [Storage Devices], _STOR_RICH_DEVICE_DESCRIPTION, storage.stor_rich_device_description, PSTOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION structure [Storage Devices], storport/STOR_RICH_DEVICE_DESCRIPTION, storport/PSTOR_RICH_DEVICE_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_RICH_DEVICE_DESCRIPTION
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_RICH_DEVICE_DESCRIPTION, STOR_RICH_DEVICE_DESCRIPTION"
+req.typenames: STOR_RICH_DEVICE_DESCRIPTION, *PSTOR_RICH_DEVICE_DESCRIPTION
 req.product: Windows 10 or later.
 ---
 
@@ -127,5 +127,5 @@ This is invoked during the Unit enumeration process or the device description up
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_RICH_DEVICE_DESCRIPTION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_RICH_DEVICE_DESCRIPTION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

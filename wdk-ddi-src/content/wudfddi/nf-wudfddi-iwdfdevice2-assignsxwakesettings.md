@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice2_assignsxwakesettings.htm
 old-project: wdf
 ms.assetid: 32d3b680-298b-443e-a2c4-db8fc057bf75
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFDevice2 interface, AssignSxWakeSettings method, AssignSxWakeSettings, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, wdf.iwdfdevice2_assignsxwakesettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings method, AssignSxWakeSettings method, IWDFDevice2 interface, umdf.iwdfdevice2_assignsxwakesettings
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfdevice2_assignsxwakesettings, AssignSxWakeSettings method, UMDFDeviceObjectRef_7e411333-6c21-4ed6-af60-b78f3a32bd65.xml, IWDFDevice2 interface, AssignSxWakeSettings method, wdf.iwdfdevice2_assignsxwakesettings, IWDFDevice2::AssignSxWakeSettings, IWDFDevice2, AssignSxWakeSettings, wudfddi/IWDFDevice2::AssignSxWakeSettings, AssignSxWakeSettings method, IWDFDevice2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2.AssignSxWakeSettings
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -79,12 +79,12 @@ A <a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>-
 
 ### -param UserControlOfWakeSettings [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_sx_wake_user_control.md">WDF_POWER_POLICY_SX_WAKE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's wake settings.
 
 
 ### -param Enabled [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
+A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed enumerator that indicates whether the device can wake the system (that is, restore the system to S0) when the system is in a low-power state. This member can have one of the following values:
 
 <b>WdfTrue</b> - Waking the system is enabled.
 
@@ -239,5 +239,5 @@ The following code example obtains the <a href="..\wudfddi\nn-wudfddi-iwdfdevice
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::AssignSxWakeSettings method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice2::AssignSxWakeSettings method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

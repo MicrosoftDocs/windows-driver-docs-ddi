@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_queue_config.htm
 old-project: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_IO_QUEUE_CONFIG, wdf.wdf_io_queue_config, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, _WDF_IO_QUEUE_CONFIG, wdfio/PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdfio/WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, *PWDF_IO_QUEUE_CONFIG
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdf.wdf_io_queue_config, PWDF_IO_QUEUE_CONFIG structure pointer, wdfio/WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, wdfio/PWDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG, _WDF_IO_QUEUE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,7 +100,7 @@ A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF
 
 ### -field PowerManaged
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that, if set to <b>WdfTrue</b>, indicates that the framework handles power management of the queue. 
+A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value that, if set to <b>WdfTrue</b>, indicates that the framework handles power management of the queue. 
 
 If set to <b>WdfFalse</b>, the driver must handle power management of the queue. 
 
@@ -196,15 +196,7 @@ For parallel queues,
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init_default_queue.md">WDF_IO_QUEUE_CONFIG_INIT_DEFAULT_QUEUE</a>
-
-
-
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 
 
@@ -212,9 +204,17 @@ For parallel queues,
 
 
 
- 
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_config_init.md">WDF_IO_QUEUE_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_CONFIG structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

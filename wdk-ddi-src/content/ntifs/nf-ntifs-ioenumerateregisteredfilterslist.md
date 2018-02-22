@@ -7,8 +7,8 @@ old-location: ifsk\ioenumerateregisteredfilterslist.htm
 old-project: ifsk
 ms.assetid: 7ac67110-bc92-457a-88f4-a21f2fa38174
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: IoEnumerateRegisteredFiltersList, ioref_b1530889-7d8a-4fd7-a7d3-954b1c7012ca.xml, IoEnumerateRegisteredFiltersList routine [Installable File System Drivers], ntifs/IoEnumerateRegisteredFiltersList, ifsk.ioenumerateregisteredfilterslist
+ms.date: 2/16/2018
+ms.keywords: IoEnumerateRegisteredFiltersList routine [Installable File System Drivers], ntifs/IoEnumerateRegisteredFiltersList, ifsk.ioenumerateregisteredfilterslist, IoEnumerateRegisteredFiltersList, ioref_b1530889-7d8a-4fd7-a7d3-954b1c7012ca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,11 +144,11 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinf
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilters.md">FltEnumerateFilters</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenumeratefilters.md">FltEnumerateFilters</a>
 
 
 
@@ -164,5 +164,5 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinf
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoEnumerateRegisteredFiltersList routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoEnumerateRegisteredFiltersList routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

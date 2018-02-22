@@ -7,8 +7,8 @@ old-location: netvista\ndis_switch_nic_array.htm
 old-project: netvista
 ms.assetid: 3509a177-d974-45fb-9387-21780483cbe7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_array, _NDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NDIS_SWITCH_NIC_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.ndis_switch_nic_array, NDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY, ntddndis/PNDIS_SWITCH_NIC_ARRAY, ntddndis/NDIS_SWITCH_NIC_ARRAY, PNDIS_SWITCH_NIC_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_NIC_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_NIC_ARRAY, NDIS_SWITCH_NIC_ARRAY"
+req.typenames: NDIS_SWITCH_NIC_ARRAY, *PNDIS_SWITCH_NIC_ARRAY
 ---
 
 # _NDIS_SWITCH_NIC_ARRAY structure
@@ -130,6 +130,10 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598213">NDIS_SWITCH_NIC_AT_ARRAY_INDEX</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598261">OID_SWITCH_NIC_ARRAY</a>
 
 
@@ -142,10 +146,6 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598213">NDIS_SWITCH_NIC_AT_ARRAY_INDEX</a>
-
-
-
 <b></b>
 
 
@@ -154,5 +154,5 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_NIC_ARRAY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_NIC_ARRAY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

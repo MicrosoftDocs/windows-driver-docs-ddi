@@ -7,13 +7,13 @@ old-location: pci\pci_express_uncorrectable_error_mask.htm
 old-project: PCI
 ms.assetid: 0dfc6e49-5556-4163-abef-b00a26a7a2ad
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI.pci_express_uncorrectable_error_mask, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml
+ms.date: 2/15/2018
+ms.keywords: PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, pci_struct_309db853-f6d7-4f88-9a73-861d63a1e927.xml, PCI.pci_express_uncorrectable_error_mask, PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union pointer [Buses], *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union [Buses], _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Ntddk.h, Wdm.h
+req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK"
+req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_MASK
 req.product: Windows 10 or later.
 ---
 
@@ -90,109 +90,84 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK {
  
 
 
-### -field DUMMYSTRUCTNAME.Undefined
+### -field AsULONG
+
+A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
+
+
+#### - Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that the reporting of link training errors is masked.
 
 
-### -field DUMMYSTRUCTNAME.Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field DUMMYSTRUCTNAME.DataLinkProtocolError
+#### - DataLinkProtocolError
 
 A single bit that indicates that the reporting of data link protocol errors is masked.
 
 
-### -field DUMMYSTRUCTNAME.SurpriseDownError
+#### - SurpriseDownError
 
 A single bit that indicates that the reporting of surprise down errors is masked.
 
 
-### -field DUMMYSTRUCTNAME.Reserved2
+#### - Reserved2
 
 Reserved.
 
 
-### -field DUMMYSTRUCTNAME.PoisonedTLP
+#### - PoisonedTLP
 
 A single bit that indicates that the reporting of poisoned transaction layer packets (TLPs) is masked.
 
 
-### -field DUMMYSTRUCTNAME.FlowControlProtocolError
+#### - FlowControlProtocolError
 
 A single bit that indicates that the reporting of flow control protocol errors is masked.
 
 
-### -field DUMMYSTRUCTNAME.CompletionTimeout
+#### - CompletionTimeout
 
 A single bit that indicates that the reporting of completion timeouts is masked.
 
 
-### -field DUMMYSTRUCTNAME.CompleterAbort
+#### - CompleterAbort
 
 A single bit that indicates that the reporting of completer aborts is masked.
 
 
-### -field DUMMYSTRUCTNAME.UnexpectedCompletion
+#### - UnexpectedCompletion
 
 A single bit that indicates that the reporting of unexpected completions is masked.
 
 
-### -field DUMMYSTRUCTNAME.ReceiverOverflow
+#### - ReceiverOverflow
 
 A single bit that indicates that the reporting of receiver overflows is masked.
 
 
-### -field DUMMYSTRUCTNAME.MalformedTLP
+#### - MalformedTLP
 
 A single bit that indicates that the reporting of malformed transaction layer packets (TLPs) is masked.
 
 
-### -field DUMMYSTRUCTNAME.ECRCError
+#### - ECRCError
 
 A single bit that indicates that the reporting of end-to-end cyclic redundancy check (ECRC) errors is masked.
 
 
-### -field DUMMYSTRUCTNAME.UnsupportedRequestError
+#### - UnsupportedRequestError
 
 A single bit that indicates that the reporting of unsupported request errors is masked.
 
 
-### -field DUMMYSTRUCTNAME.AcsViolation
-
- 
-
-
-### -field DUMMYSTRUCTNAME.UncorrectableInternalError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.MCBlockedTlp
-
- 
-
-
-### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
-
- 
-
-
-### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Reserved3
+#### - Reserved3
 
 Reserved.
-
-
-### -field AsULONG
-
-A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure.
 
 
 ## -remarks
@@ -212,17 +187,17 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK structure is contained in the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_MASK union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

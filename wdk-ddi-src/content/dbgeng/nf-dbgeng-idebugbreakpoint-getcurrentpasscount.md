@@ -4,11 +4,11 @@ title: IDebugBreakpoint::GetCurrentPassCount method
 author: windows-driver-content
 description: The GetCurrentPassCount method returns the remaining number of times that the target must reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getcurrentpasscount.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: ff9b9988-6790-48d1-8423-60c63b0a90cf
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, IDebugBreakpoint::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2::GetCurrentPassCount, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, GetCurrentPassCount, dbgeng/IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, debugger.getcurrentpasscount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint, dbgeng/IDebugBreakpoint::GetCurrentPassCount
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount, IDebugBreakpoint interface [Windows Debugging], GetCurrentPassCount method, IDebugBreakpoint::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], ComOther_b9308489-679e-4ced-bd73-84cbeaadc669.xml, IDebugBreakpoint2 interface [Windows Debugging], GetCurrentPassCount method, debugger.getcurrentpasscount, IDebugBreakpoint, IDebugBreakpoint2::GetCurrentPassCount, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint2 interface, GetCurrentPassCount method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::GetCurrentPassCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetCurrentPassCount
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint::GetCurrentPassCount method

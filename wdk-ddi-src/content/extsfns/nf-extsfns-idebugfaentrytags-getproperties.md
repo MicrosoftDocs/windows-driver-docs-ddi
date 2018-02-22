@@ -4,11 +4,11 @@ title: IDebugFAEntryTags::GetProperties method
 author: windows-driver-content
 description: The GetProperties method gets the name or description (or both) of a tag in a DebugFailureAnalysisTags object.
 old-location: debugger\idebugfaentrytags_getproperties.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 140EAE7D-E349-4096-8578-6CF011C1FBA7
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetProperties method [Windows Debugging], IDebugFAEntryTags interface, GetProperties method [Windows Debugging], GetProperties, extsfns/IDebugFAEntryTags::GetProperties, IDebugFAEntryTags::GetProperties, debugger.idebugfaentrytags_getproperties, IDebugFAEntryTags, IDebugFAEntryTags interface [Windows Debugging], GetProperties method
+ms.date: 2/15/2018
+ms.keywords: IDebugFAEntryTags, extsfns/IDebugFAEntryTags::GetProperties, IDebugFAEntryTags interface [Windows Debugging], GetProperties method, GetProperties method [Windows Debugging], GetProperties, debugger.idebugfaentrytags_getproperties, IDebugFAEntryTags::GetProperties, GetProperties method [Windows Debugging], IDebugFAEntryTags interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -158,7 +158,7 @@ The caller passed at least one invalid parameter.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
+<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
 
 
 
@@ -170,7 +170,7 @@ The caller passed at least one invalid parameter.
 
 
 
-<a href="https://msdn.microsoft.com/7648F789-85D5-4247-90DD-2EAA43543483">Writing an Analysis Extension Plug-in to Extend !analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj991815">SetProperties</a>
 
 
 
@@ -182,5 +182,5 @@ The caller passed at least one invalid parameter.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFAEntryTags::GetProperties method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugFAEntryTags::GetProperties method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

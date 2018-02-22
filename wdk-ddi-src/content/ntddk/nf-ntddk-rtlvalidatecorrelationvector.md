@@ -7,8 +7,8 @@ old-location: kernel\rtlvalidatecorrelationvector.htm
 old-project: kernel
 ms.assetid: a73ab33b-3e8c-43d8-8547-1483bcd2af52
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlvalidatecorrelationvector, RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], RtlValidateCorrelationVector, ntddk/RtlValidateCorrelationVector
+ms.date: 2/16/2018
+ms.keywords: RtlValidateCorrelationVector function [Kernel-Mode Driver Architecture], RtlValidateCorrelationVector, kernel.rtlvalidatecorrelationvector, ntddk/RtlValidateCorrelationVector
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

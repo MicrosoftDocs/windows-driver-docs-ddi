@@ -7,8 +7,8 @@ old-location: netvista\riladdcallforwardingparams_2.htm
 old-project: netvista
 ms.assetid: 96adad09-fe54-469a-b57d-4df68750968c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILADDCALLFORWARDINGPARAMS, netvista.riladdcallforwardingparams_2, rilapitypes/RILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILADDCALLFORWARDINGPARAMS
+ms.date: 2/16/2018
+ms.keywords: RILADDCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], RILADDCALLFORWARDINGPARAMS, *LPRILADDCALLFORWARDINGPARAMS, netvista.riladdcallforwardingparams_2, rilapitypes/RILADDCALLFORWARDINGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILADDCALLFORWARDINGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILADDCALLFORWARDINGPARAMS, *LPRILADDCALLFORWARDINGPARAMS
+req.typenames: "*LPRILADDCALLFORWARDINGPARAMS, RILADDCALLFORWARDINGPARAMS"
 req.product: Windows 10 or later.
 ---
 

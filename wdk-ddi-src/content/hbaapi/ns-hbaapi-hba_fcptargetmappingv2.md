@@ -7,8 +7,8 @@ old-location: storage\hba_fcptargetmappingv2.htm
 old-project: storage
 ms.assetid: 2c241a38-c6b6-4c77-a8ba-be7ba2a8a701
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: HBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2 structure [Storage Devices], HBA_FCPTargetMappingV2 structure [Storage Devices], hbaapi/PHBA_FCPTARGETMAPPINGV2, hbaapi/HBA_FCPTargetMappingV2, structs-Fibre_316084b2-47c7-46e2-aa1e-1d99a97de1cb.xml, HBA_FCPTargetMappingV2, PHBA_FCPTARGETMAPPINGV2 structure pointer [Storage Devices], PHBA_FCPTARGETMAPPINGV2, storage.hba_fcptargetmappingv2, *PHBA_FCPTARGETMAPPINGV2
+ms.date: 2/16/2018
+ms.keywords: hbaapi/HBA_FCPTargetMappingV2, storage.hba_fcptargetmappingv2, *PHBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2, HBA_FCPTargetMappingV2, PHBA_FCPTARGETMAPPINGV2 structure pointer [Storage Devices], hbaapi/PHBA_FCPTARGETMAPPINGV2, structs-Fibre_316084b2-47c7-46e2-aa1e-1d99a97de1cb.xml, PHBA_FCPTARGETMAPPINGV2, HBA_FCPTargetMappingV2 structure [Storage Devices], HBA_FCPTARGETMAPPINGV2 structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FCPTARGETMAPPINGV2
 product: Windows
 targetos: Windows
-req.typenames: HBA_FCPTARGETMAPPINGV2, *PHBA_FCPTARGETMAPPINGV2
+req.typenames: "*PHBA_FCPTARGETMAPPINGV2, HBA_FCPTARGETMAPPINGV2"
 ---
 
 # HBA_FCPTargetMappingV2 structure
@@ -88,5 +88,5 @@ Contains a variable length array of structures of type <a href="..\hbaapi\ns-hba
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_FCPTargetMappingV2 structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_FCPTargetMappingV2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

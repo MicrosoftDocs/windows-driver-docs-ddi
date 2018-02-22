@@ -7,8 +7,8 @@ old-location: kernel\file_end_of_file_information.htm
 old-project: kernel
 ms.assetid: 9af172d9-2309-4731-82bf-55ec99c475a6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/FILE_END_OF_FILE_INFORMATION, ntddk/PFILE_END_OF_FILE_INFORMATION, _FILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION, kstruct_b_6c41bbd0-64be-4765-b79c-09e2dd86fa6f.xml, FILE_END_OF_FILE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_END_OF_FILE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_END_OF_FILE_INFORMATION, kernel.file_end_of_file_information, PFILE_END_OF_FILE_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: FILE_END_OF_FILE_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_END_OF_FILE_INFORMATION, ntddk/PFILE_END_OF_FILE_INFORMATION, ntddk/FILE_END_OF_FILE_INFORMATION, kstruct_b_6c41bbd0-64be-4765-b79c-09e2dd86fa6f.xml, FILE_END_OF_FILE_INFORMATION, _FILE_END_OF_FILE_INFORMATION, kernel.file_end_of_file_information, PFILE_END_OF_FILE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_END_OF_FILE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_END_OF_FILE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_END_OF_FILE_INFORMATION, FILE_END_OF_FILE_INFORMATION"
+req.typenames: FILE_END_OF_FILE_INFORMATION, *PFILE_END_OF_FILE_INFORMATION
 ---
 
 # _FILE_END_OF_FILE_INFORMATION structure
@@ -95,5 +95,5 @@ The absolute new end of file position as a byte offset from the start of the fil
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_END_OF_FILE_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_END_OF_FILE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

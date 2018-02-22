@@ -7,8 +7,8 @@ old-location: ifsk\flt_registration.htm
 old-project: ifsk
 ms.assetid: 3313af42-0e0a-4ad0-b0bb-0afb795e24fd
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.flt_registration, PFLT_REGISTRATION, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, *PFLT_REGISTRATION, PFLT_REGISTRATION structure pointer [Installable File System Drivers], FLT_REGISTRATION structure [Installable File System Drivers], FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME, FLT_REGISTRATION, FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, fltkernel/PFLT_REGISTRATION, _FLT_REGISTRATION, fltkernel/FLT_REGISTRATION, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FLT_REGISTRATION, FLT_REGISTRATION, FltSystemStructures_5257e153-faae-4eb8-845a-f6c137a29390.xml, FLTFL_REGISTRATION_SUPPORT_NPFS_MSFS, fltkernel/PFLT_REGISTRATION, ifsk.flt_registration, FLTFL_REGISTRATION_DO_NOT_SUPPORT_SERVICE_STOP, *PFLT_REGISTRATION, FLT_REGISTRATION structure [Installable File System Drivers], PFLT_REGISTRATION structure pointer [Installable File System Drivers], _FLT_REGISTRATION, PFLT_REGISTRATION, FLTFL_REGISTRATION_SUPPORT_DAX_VOLUME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFLT_REGISTRATION, FLT_REGISTRATION"
+req.typenames: FLT_REGISTRATION, *PFLT_REGISTRATION
 ---
 
 # _FLT_REGISTRATION structure
@@ -221,11 +221,7 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
@@ -233,19 +229,7 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
 
 
 
@@ -253,7 +237,11 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_transaction_notification_callback.md">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
 
 
 
@@ -261,15 +249,27 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_transaction_notification_callback.md">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component_ex.md">PFLT_NORMALIZE_NAME_COMPONENT_EX</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_query_teardown_callback.md">PFLT_INSTANCE_QUERY_TEARDOWN_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_filter_unload_callback.md">PFLT_FILTER_UNLOAD_CALLBACK</a>
 
 
 
@@ -281,5 +281,5 @@ The FLT_REGISTRATION structure is used to provide information about a file syste
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_REGISTRATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_REGISTRATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

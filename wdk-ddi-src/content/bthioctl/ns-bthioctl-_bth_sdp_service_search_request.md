@@ -7,8 +7,8 @@ old-location: bltooth\bth_sdp_service_search_request.htm
 old-project: bltooth
 ms.assetid: d1ef833e-8350-499c-9a3d-408d900c9245
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: "_BTH_SDP_SERVICE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST structure [Bluetooth Devices], PBTH_SDP_SERVICE_SEARCH_REQUEST structure pointer [Bluetooth Devices], bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST, bth_structs_c625eff6-6ec7-49a4-a141-778ebda2d563.xml, bltooth.bth_sdp_service_search_request, BTH_SDP_SERVICE_SEARCH_REQUEST, PBTH_SDP_SERVICE_SEARCH_REQUEST"
+ms.date: 2/15/2018
+ms.keywords: BTH_SDP_SERVICE_SEARCH_REQUEST structure [Bluetooth Devices], bltooth.bth_sdp_service_search_request, bthioctl/PBTH_SDP_SERVICE_SEARCH_REQUEST, bthioctl/BTH_SDP_SERVICE_SEARCH_REQUEST, PBTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST, _BTH_SDP_SERVICE_SEARCH_REQUEST, bth_structs_c625eff6-6ec7-49a4-a141-778ebda2d563.xml, PBTH_SDP_SERVICE_SEARCH_REQUEST structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_SDP_SERVICE_SEARCH_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: BTH_SDP_SERVICE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_SEARCH_REQUEST
+req.typenames: "*PBTH_SDP_SERVICE_SEARCH_REQUEST, BTH_SDP_SERVICE_SEARCH_REQUEST"
 ---
 
 # _BTH_SDP_SERVICE_SEARCH_REQUEST structure
@@ -100,17 +100,17 @@ This structure is passed as the input buffer to the
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
 
 
 
- 
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_SERVICE_SEARCH_REQUEST structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_SERVICE_SEARCH_REQUEST structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

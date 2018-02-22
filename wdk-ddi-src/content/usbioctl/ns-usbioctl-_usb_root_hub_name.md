@@ -4,11 +4,11 @@ title: "_USB_ROOT_HUB_NAME"
 author: windows-driver-content
 description: The USB_ROOT_HUB_NAME structure stores the root hub's symbolic device name.
 old-location: buses\usb_root_hub_name.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: bd9697ce-bd05-4169-9b0f-13877307c0d7
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PUSB_ROOT_HUB_NAME structure pointer [Buses], USB_ROOT_HUB_NAME structure [Buses], usbioctl/USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME, usbstrct_a285af0b-6144-46a0-bfbf-640b3073047a.xml, USB_ROOT_HUB_NAME, _USB_ROOT_HUB_NAME, usbioctl/PUSB_ROOT_HUB_NAME, buses.usb_root_hub_name, PUSB_ROOT_HUB_NAME
+ms.date: 2/15/2018
+ms.keywords: usbioctl/PUSB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME, usbstrct_a285af0b-6144-46a0-bfbf-640b3073047a.xml, buses.usb_root_hub_name, usbioctl/USB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME, PUSB_ROOT_HUB_NAME structure pointer [Buses], _USB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_ROOT_HUB_NAME
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_ROOT_HUB_NAME, USB_ROOT_HUB_NAME"
+req.typenames: USB_ROOT_HUB_NAME, *PUSB_ROOT_HUB_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -93,5 +93,5 @@ Specifies the Unicode string containing the root hub's symbolic device name.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_ROOT_HUB_NAME structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_ROOT_HUB_NAME structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\zwqueryinformationfile.htm
 old-project: kernel
 ms.assetid: 007df07e-685b-4224-b9d6-55e87cf0bd5c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], kernel.zwqueryinformationfile, k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, NtQueryInformationFile, ZwQueryInformationFile, wdm/NtQueryInformationFile
+ms.date: 2/16/2018
+ms.keywords: k111_822ab812-a644-4574-8d89-c4ebf5b17ea5.xml, ZwQueryInformationFile, ZwQueryInformationFile routine [Kernel-Mode Driver Architecture], wdm/ZwQueryInformationFile, kernel.zwqueryinformationfile, NtQueryInformationFile, wdm/NtQueryInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -79,7 +79,7 @@ Handle to a file object. The handle is created by a successful call to <a href="
 
 ### -param IoStatusBlock [out]
 
-Pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. The <b>Information</b> member receives the number of bytes that this routine actually writes to the <i>FileInformation</i> buffer.
+Pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the operation. The <b>Information</b> member receives the number of bytes that this routine actually writes to the <i>FileInformation</i> buffer.
 
 
 ### -param FileInformation [out]
@@ -303,6 +303,14 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
 
 
@@ -311,35 +319,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_all_information.md">FILE_ALL_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_network_open_information.md">FILE_NETWORK_OPEN_INFORMATION</a>
+<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
 
 
 
@@ -347,23 +327,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\ns-wdm-_file_is_remote_device_information.md">FILE_IS_REMOTE_DEVICE_INFORMATION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_alignment_information.md">FILE_ALIGNMENT_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 
 
 
@@ -371,9 +343,37 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
- 
+<a href="..\wdm\ns-wdm-_file_io_priority_hint_information.md">FILE_IO_PRIORITY_HINT_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_ea_information.md">FILE_EA_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_attribute_tag_information.md">FILE_ATTRIBUTE_TAG_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_all_information.md">FILE_ALL_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_is_remote_device_information.md">FILE_IS_REMOTE_DEVICE_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_basic_information.md">FILE_BASIC_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryInformationFile routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwQueryInformationFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

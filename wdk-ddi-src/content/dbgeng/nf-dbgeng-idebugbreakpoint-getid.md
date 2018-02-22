@@ -4,11 +4,11 @@ title: IDebugBreakpoint::GetId method
 author: windows-driver-content
 description: The GetId method returns a breakpoint ID, which is the engine's unique identifier for a breakpoint.
 old-location: debugger\getid.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 991d8a40-1991-4c06-9557-9abee3ed8073
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetId method, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId, dbgeng/IDebugBreakpoint2::GetId, dbgeng/IDebugBreakpoint::GetId, GetId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint interface [Windows Debugging], GetId method, IDebugBreakpoint, GetId method [Windows Debugging], debugger.getid, IDebugBreakpoint2::GetId, GetId method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint::GetId
+ms.date: 2/15/2018
+ms.keywords: GetId method [Windows Debugging], IDebugBreakpoint interface [Windows Debugging], GetId method, dbgeng/IDebugBreakpoint2::GetId, IDebugBreakpoint2::GetId, GetId, ComOther_408e8e80-f34e-4895-9bae-66dbb0f9aa97.xml, GetId method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], GetId method, IDebugBreakpoint, IDebugBreakpoint::GetId, debugger.getid, GetId method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::GetId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetId
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint::GetId method

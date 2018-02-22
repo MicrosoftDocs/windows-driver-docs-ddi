@@ -7,8 +7,8 @@ old-location: stream\ksproperty_cameracontrol_region_of_interest_s.htm
 old-project: stream
 ms.assetid: 0a488d9f-1e34-4482-a2a8-7c160b00766c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_EXPOSURE, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure [Streaming Media Devices], stream.ksproperty_cameracontrol_region_of_interest_s, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_FOCUS, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_WB, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONVERGEMODE, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_ASYNC, ksmedia/PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_MANUAL, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
+ms.date: 2/20/2018
+ms.keywords: KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_AUTO, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_ASYNC, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_EXPOSURE, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, ksmedia/PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_FOCUS, ksmedia/KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, stream.ksproperty_cameracontrol_region_of_interest_s, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONVERGEMODE, PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure pointer [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_FLAGS_MANUAL, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure [Streaming Media Devices], KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_CONFIG_WB, *PKSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S, KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,7 @@ If <b>TRUE</b>, the device should lock the white balance setting to the current 
 This member should be ignored if <b>FocusRect</b> is not a valid value.
 
 
-### -field Capabilities
+#### - Capabilities
 
 Indicates whether the device and driver support setting the region of interest automatically or manually. This member a bitwise <b>OR</b> of these possible values:
 
@@ -149,7 +149,7 @@ This capability is available starting with Windows 8.1.
  
 
 
-### -field Configuration
+#### - Configuration
 
 Configuration flags for control operations for the region. This is a bitwise OR combination of the following values.
 
@@ -206,17 +206,17 @@ Enable convergence of objects in the region
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj156041">KSPROPERTY_CAMERACONTROL_FLASH_PROPERTY</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_CAMERACONTROL_REGION_OF_INTEREST_S structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

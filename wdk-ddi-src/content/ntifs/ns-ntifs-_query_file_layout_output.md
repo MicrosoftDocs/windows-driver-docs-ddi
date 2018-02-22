@@ -7,8 +7,8 @@ old-location: ifsk\query_file_layout_output.htm
 old-project: ifsk
 ms.assetid: 204893BE-8B89-4BE4-BEDB-BF28DBAAACE9
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/QUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, PQUERY_FILE_LAYOUT_OUTPUT, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_SINGLE_INSTANCED, _QUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT
+ms.date: 2/16/2018
+ms.keywords: PQUERY_FILE_LAYOUT_OUTPUT structure pointer [Installable File System Drivers], QUERY_FILE_LAYOUT_SINGLE_INSTANCED, ntifs/PQUERY_FILE_LAYOUT_OUTPUT, *PQUERY_FILE_LAYOUT_OUTPUT, _QUERY_FILE_LAYOUT_OUTPUT, PQUERY_FILE_LAYOUT_OUTPUT, ifsk.query_file_layout_output, ntifs/QUERY_FILE_LAYOUT_OUTPUT, QUERY_FILE_LAYOUT_OUTPUT structure [Installable File System Drivers], QUERY_FILE_LAYOUT_OUTPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -159,5 +159,5 @@ When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20QUERY_FILE_LAYOUT_OUTPUT structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20QUERY_FILE_LAYOUT_OUTPUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

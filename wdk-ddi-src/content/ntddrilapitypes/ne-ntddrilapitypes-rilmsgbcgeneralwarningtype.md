@@ -7,8 +7,8 @@ old-location: netvista\rilmsgbcgeneralwarningtype.htm
 old-project: netvista
 ms.assetid: c9d1a52e-e133-4fb5-a7a1-75699fe35cac
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILMSGBCGENERALWARNINGTYPE, RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, ntddrilapitypes/RIL_WARNINGTYPE_RESERVED, ntddrilapitypes/RILMSGBCGENERALWARNINGTYPE, ntddrilapitypes/RIL_WARNINGTYPE_TEST, ntddrilapitypes/RIL_WARNINGTYPE_MAX, netvista.rilmsgbcgeneralwarningtype, ntddrilapitypes/RIL_WARNINGTYPE_TSUNAMI, RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_RESERVED, RIL_WARNINGTYPE_MAX, ntddrilapitypes/RIL_WARNINGTYPE_OTHER, RIL_WARNINGTYPE_TSUNAMI, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_WARNINGTYPE_OTHER, ntddrilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI
+ms.date: 2/16/2018
+ms.keywords: RIL_WARNINGTYPE_MAX, ntddrilapitypes/RIL_WARNINGTYPE_TSUNAMI, ntddrilapitypes/RIL_WARNINGTYPE_MAX, ntddrilapitypes/RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_RESERVED, RIL_WARNINGTYPE_EARTHQUAKETSUNAMI, RIL_WARNINGTYPE_TSUNAMI, RIL_WARNINGTYPE_TEST, RIL_WARNINGTYPE_OTHER, RILMSGBCGENERALWARNINGTYPE, netvista.rilmsgbcgeneralwarningtype, RILMSGBCGENERALWARNINGTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_WARNINGTYPE_RESERVED, ntddrilapitypes/RILMSGBCGENERALWARNINGTYPE, ntddrilapitypes/RIL_WARNINGTYPE_OTHER, ntddrilapitypes/RIL_WARNINGTYPE_EARTHQUAKETSUNAMI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

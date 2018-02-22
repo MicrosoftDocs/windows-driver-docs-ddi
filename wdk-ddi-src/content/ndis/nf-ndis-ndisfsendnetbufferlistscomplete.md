@@ -7,8 +7,8 @@ old-location: netvista\ndisfsendnetbufferlistscomplete.htm
 old-project: netvista
 ms.assetid: 5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfsendnetbufferlistscomplete, ndis/NdisFSendNetBufferListsComplete, NdisFSendNetBufferListsComplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml
+ms.date: 2/16/2018
+ms.keywords: NdisFSendNetBufferListsComplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, netvista.ndisfsendnetbufferlistscomplete, NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFSendNetBufferListsComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,14 +158,6 @@ The filter driver can complete send requests in any order. For example, the filt
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
 
@@ -174,9 +166,17 @@ The filter driver can complete send requests in any order. For example, the filt
 
 
 
- 
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFSendNetBufferListsComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisFSendNetBufferListsComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

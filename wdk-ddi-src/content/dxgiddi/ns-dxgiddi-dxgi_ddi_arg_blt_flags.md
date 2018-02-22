@@ -7,8 +7,8 @@ old-location: display\dxgi_ddi_arg_blt_flags.htm
 old-project: display
 ms.assetid: 812679d2-b05c-4533-b4b2-01b973b0d80f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgi_ddi_arg_blt_flags, DXGI_DDI_ARG_BLT_FLAGS, UMDisplayDriver_Dx10param_Structs_22ccf0e7-83cc-443e-b4a1-c1a2f3bc24a0.xml, dxgiddi/DXGI_DDI_ARG_BLT_FLAGS, DXGI_DDI_ARG_BLT_FLAGS structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: dxgiddi/DXGI_DDI_ARG_BLT_FLAGS, DXGI_DDI_ARG_BLT_FLAGS, display.dxgi_ddi_arg_blt_flags, UMDisplayDriver_Dx10param_Structs_22ccf0e7-83cc-443e-b4a1-c1a2f3bc24a0.xml, DXGI_DDI_ARG_BLT_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,7 +109,7 @@ Setting this member is equivalent to setting the fourth bit of the 32-bit <b>Val
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 28 bits (0xFFFFFFF0) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that DXGI_DDI_ARG_BLT_FLAGS contains that can hold a 32-bit value that identifies the bitblt type. 
 
@@ -124,5 +124,5 @@ A member in the union that DXGI_DDI_ARG_BLT_FLAGS contains that can hold a 32-bi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI_DDI_ARG_BLT_FLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI_DDI_ARG_BLT_FLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\rtl_splay_links.htm
 old-project: ifsk
 ms.assetid: b035b101-2667-4962-ae49-781ddd30e0be
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntddk/PRTL_SPLAY_LINKS, RTL_SPLAY_LINKS, ntddk/RTL_SPLAY_LINKS, _RTL_SPLAY_LINKS, PRTL_SPLAY_LINKS, othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml, PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers], ifsk.rtl_splay_links, RTL_SPLAY_LINKS structure [Installable File System Drivers], *PRTL_SPLAY_LINKS
+ms.date: 2/16/2018
+ms.keywords: othersystemstructures_3a91f0e3-8f7c-4f45-8707-2392d2637cf4.xml, ifsk.rtl_splay_links, PRTL_SPLAY_LINKS structure pointer [Installable File System Drivers], *PRTL_SPLAY_LINKS, PRTL_SPLAY_LINKS, RTL_SPLAY_LINKS, ntddk/PRTL_SPLAY_LINKS, RTL_SPLAY_LINKS structure [Installable File System Drivers], _RTL_SPLAY_LINKS, ntddk/RTL_SPLAY_LINKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,15 +124,7 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
 
 
 
@@ -140,7 +132,15 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
 
 
 
@@ -152,5 +152,5 @@ Callers of the <b>Rtl</b><b><i>Xxx</i></b> splay tree routines are responsible f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RTL_SPLAY_LINKS structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RTL_SPLAY_LINKS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmaoutsubmit.htm
 old-project: netvista
 ms.assetid: 3ed93cff-7974-4cf9-9b89-f4a8e52c4c3d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgcdmaoutsubmit, *LPRILMSGCDMAOUTSUBMIT
+ms.date: 2/16/2018
+ms.keywords: netvista.rilmsgcdmaoutsubmit, *LPRILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGCDMAOUTSUBMIT, RILMSGCDMAOUTSUBMIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

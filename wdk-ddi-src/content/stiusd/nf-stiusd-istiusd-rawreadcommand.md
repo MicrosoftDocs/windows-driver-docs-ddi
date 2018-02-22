@@ -4,11 +4,11 @@ title: IStiUSD::RawReadCommand method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::RawReadCommand method reads command information from a still image device.
 old-location: image\istiusd_rawreadcommand.htm
-old-project: image
+old-project: Image
 ms.assetid: 603f8b76-eb3b-41aa-932c-322f5405a29b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml, IStiUSD interface [Imaging Devices], RawReadCommand method, RawReadCommand, stiusd/IStiUSD::RawReadCommand, RawReadCommand method [Imaging Devices], RawReadCommand method [Imaging Devices], IStiUSD interface, IStiUSD, image.istiusd_rawreadcommand, IStiUSD::RawReadCommand
+ms.date: 2/15/2018
+ms.keywords: RawReadCommand method [Imaging Devices], IStiUSD interface, RawReadCommand method [Imaging Devices], IStiUSD interface [Imaging Devices], RawReadCommand method, image.istiusd_rawreadcommand, IStiUSD, RawReadCommand, IStiUSD::RawReadCommand, stiusd/IStiUSD::RawReadCommand, stifnc_911a418d-3e30-4ddd-b40e-68ed302f18bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.RawReadCommand
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -115,5 +115,5 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::RawReadCommand method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::RawReadCommand method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

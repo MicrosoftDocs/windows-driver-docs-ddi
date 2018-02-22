@@ -7,7 +7,7 @@ old-location: audio\iresourcelist.htm
 old-project: audio
 ms.assetid: e99ed3bc-368c-433f-ad40-98deda668c51
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.iresourcelist, IResourceList interface [Audio Devices], IResourceList interface [Audio Devices], described, IResourceList, portcls/IResourceList, audmp-routines_beb718b9-c62d-46b8-9147-c9e4aa7faa28.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IResourceList interface
@@ -217,7 +217,7 @@ SubAllocateFroms
 </tr>
 </table> 
 
-For the meanings of the resource type names in the left column above, see <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
+For the meanings of the resource type names in the left column above, see <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>.
 
 The following table explicitly lists the four macros that portcls.h defines for each of the nine resource types. To the right of each macro is the equivalent call to an <code>IResourceList</code> method.
 <table>

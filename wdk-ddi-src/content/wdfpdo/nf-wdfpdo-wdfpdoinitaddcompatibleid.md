@@ -7,8 +7,8 @@ old-location: wdf\wdfpdoinitaddcompatibleid.htm
 old-project: wdf
 ms.assetid: cf79661f-afe8-4154-8302-e5018172c6ec
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoInitAddCompatibleID, wdf.wdfpdoinitaddcompatibleid, WdfPdoInitAddCompatibleID, WdfPdoInitAddCompatibleID method, kmdf.wdfpdoinitaddcompatibleid, DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, PFN_WDFPDOINITADDCOMPATIBLEID
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfpdoinitaddcompatibleid, DFDeviceObjectFdoPdoRef_2578889b-85d3-4706-8907-817328ce8ad5.xml, wdfpdo/WdfPdoInitAddCompatibleID, kmdf.wdfpdoinitaddcompatibleid, WdfPdoInitAddCompatibleID method, WdfPdoInitAddCompatibleID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -172,5 +172,5 @@ status = WdfPdoInitAddCompatibleID(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAddCompatibleID method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAddCompatibleID method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

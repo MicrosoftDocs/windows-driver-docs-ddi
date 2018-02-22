@@ -7,8 +7,8 @@ old-location: storage\sm_getlunstatistics_in.htm
 old-project: storage
 ms.assetid: c551a376-2148-4fc4-ba4e-9c1ce1eea1d8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], SM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml, hbapiwmi/SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN structure [Storage Devices], _SM_GetLUNStatistics_IN
+ms.date: 2/16/2018
+ms.keywords: "_SM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN, storage.sm_getlunstatistics_in, PSM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN, PSM_GetLUNStatistics_IN structure pointer [Storage Devices], SM_GetLUNStatistics_IN structure [Storage Devices], hbapiwmi/PSM_GetLUNStatistics_IN, structs-Fibre_537f91a2-0183-4e6d-a3ef-22474349e6e7.xml, hbapiwmi/SM_GetLUNStatistics_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_GetLUNStatistics_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_GetLUNStatistics_IN, SM_GetLUNStatistics_IN"
+req.typenames: SM_GetLUNStatistics_IN, *PSM_GetLUNStatistics_IN
 ---
 
 # _SM_GetLUNStatistics_IN structure

@@ -7,8 +7,8 @@ old-location: ifsk\mrxisvaliddirectory.htm
 old-project: ifsk
 ms.assetid: c52441d8-b273-4e1f-b251-2b35afeda55d
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.mrxisvaliddirectory, MRxIsValidDirectory routine [Installable File System Drivers], MRxIsValidDirectory, PMRX_CHKDIR_CALLDOWN, PMRX_CHKDIR_CALLDOWN, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.mrxisvaliddirectory, MRxIsValidDirectory, MRxIsValidDirectory routine [Installable File System Drivers], MRxIsValidDirectory, PMRX_CHKDIR_CALLDOWN, PMRX_CHKDIR_CALLDOWN, mrx/MRxIsValidDirectory, mrxref_85038658-4d92-4a54-99f1-082fbc61224d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -120,35 +120,7 @@ This remote directory does not exist.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a>
 
 
 
@@ -156,7 +128,15 @@ This remote directory does not exist.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550805">MRxSetSdInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550770">MRxQueryFileInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550796">MRxSetFileInfoAtCleanup</a>
 
 
 
@@ -164,13 +144,33 @@ This remote directory does not exist.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550759">MRxQueryEaInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550755">MRxQueryDirectory</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550786">MRxSetEaInfo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550800">MRxSetQuotaInfo</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MRxIsValidDirectory routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CHKDIR_CALLDOWN routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

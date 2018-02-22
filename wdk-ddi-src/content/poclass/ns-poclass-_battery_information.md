@@ -7,8 +7,8 @@ old-location: battery\battery_information.htm
 old-project: battery
 ms.assetid: e9326d96-bd96-4493-a0b2-abe6b8f2401a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, PBATTERY_INFORMATION, _BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], *PBATTERY_INFORMATION, battery.battery_information, BATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], poclass/PBATTERY_INFORMATION, poclass/BATTERY_INFORMATION
+ms.date: 2/15/2018
+ms.keywords: battery.battery_information, poclass/BATTERY_INFORMATION, _BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, BATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], poclass/PBATTERY_INFORMATION, PBATTERY_INFORMATION, *PBATTERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERY_INFORMATION, BATTERY_INFORMATION"
+req.typenames: BATTERY_INFORMATION, *PBATTERY_INFORMATION
 ---
 
 # _BATTERY_INFORMATION structure
@@ -172,5 +172,5 @@ Specify the number of charge/discharge cycles the battery has experienced, or ze
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [battery\battery]:%20BATTERY_INFORMATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [battery\battery]:%20BATTERY_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

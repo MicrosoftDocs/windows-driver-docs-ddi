@@ -7,8 +7,8 @@ old-location: ifsk\fltcancellablewaitforsingleobject.htm
 old-project: ifsk
 ms.assetid: bf872769-c084-44c9-97e8-58eb54f943b2
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject routine [Installable File System Drivers], FltCancellableWaitForSingleObject, fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
+ms.date: 2/16/2018
+ms.keywords: FltCancellableWaitForSingleObject, FltApiRef_a_to_d_e71d2b38-ae04-4026-bb99-d0d99ea4ec05.xml, FltCancellableWaitForSingleObject routine [Installable File System Drivers], fltkernel/FltCancellableWaitForSingleObject, ifsk.fltcancellablewaitforsingleobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,7 +187,7 @@ A special consideration applies when the <i>Object</i> parameter passed to <b>Fl
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception.
 
-<b>FltCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+<b>FltCancellableWaitForSingleObject</b> must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds if the <i>CallbackData</i> represents a Filter Manager IRP operation, but the IRP in the <i>CallbackData</i> structure is <b>NULL</b>.
 
@@ -196,39 +196,7 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitformultipleobjects.md">FltCancellableWaitForMultipleObjects</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
-
-
-
-<b>KeWaitForMultipleObjects</b>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
 
 
@@ -236,7 +204,39 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitformultipleobjects.md">FltCancellableWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+
+
+
+<b>KeWaitForMultipleObjects</b>
 
 
 
@@ -248,5 +248,5 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancellableWaitForSingleObject routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancellableWaitForSingleObject routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

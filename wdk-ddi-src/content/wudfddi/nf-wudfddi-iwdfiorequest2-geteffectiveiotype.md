@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_geteffectiveiotype.htm
 old-project: wdf
 ms.assetid: 76909efd-99ca-4e47-9c81-8a48608c2543
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GetEffectiveIoType method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2, wdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2 interface, GetEffectiveIoType method, IWDFIoRequest2::GetEffectiveIoType, wudfddi/IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType method, GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml
+ms.date: 2/20/2018
+ms.keywords: wudfddi/IWDFIoRequest2::GetEffectiveIoType, UMDFRequestObjectRef_cfea225a-09a5-4aed-8576-de9c44c18b81.xml, umdf.iwdfiorequest2_geteffectiveiotype, IWDFIoRequest2, IWDFIoRequest2 interface, GetEffectiveIoType method, GetEffectiveIoType method, GetEffectiveIoType method, IWDFIoRequest2 interface, IWDFIoRequest2::GetEffectiveIoType, GetEffectiveIoType, wdf.iwdfiorequest2_geteffectiveiotype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.GetEffectiveIoType
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -123,17 +123,17 @@ STDMETHODCALLTYPE
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
- 
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::GetEffectiveIoType method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::GetEffectiveIoType method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

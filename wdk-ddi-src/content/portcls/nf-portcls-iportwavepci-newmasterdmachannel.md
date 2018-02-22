@@ -7,8 +7,8 @@ old-location: audio\iportwavepci_newmasterdmachannel.htm
 old-project: audio
 ms.assetid: a4128541-1982-413d-a013-422ca1cf4542
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: NewMasterDmaChannel method [Audio Devices], IPortWavePci, NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, NewMasterDmaChannel, audio.iportwavepci_newmasterdmachannel, IPortWavePci::NewMasterDmaChannel, portcls/IPortWavePci::NewMasterDmaChannel, audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method
+ms.date: 2/21/2018
+ms.keywords: NewMasterDmaChannel method [Audio Devices], audmp-routines_01c562e8-f0b7-4232-9595-2312175c097f.xml, IPortWavePci interface [Audio Devices], NewMasterDmaChannel method, portcls/IPortWavePci::NewMasterDmaChannel, NewMasterDmaChannel method [Audio Devices], IPortWavePci interface, IPortWavePci, IPortWavePci::NewMasterDmaChannel, audio.iportwavepci_newmasterdmachannel, NewMasterDmaChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPortWavePci.NewMasterDmaChannel
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortWavePci::NewMasterDmaChannel method
@@ -90,7 +90,7 @@ Pointer to the <b>IUnknown</b> interface of an object that needs to aggregate th
 
 ### -param PoolType [in]
 
-Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
+Specifies the type of storage pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value. Specify a nonpaged pool type for this parameter.
 
 
 ### -param ResourceList [in, optional]
@@ -167,7 +167,11 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
 
 
 
@@ -183,13 +187,9 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePci::NewMasterDmaChannel method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortWavePci::NewMasterDmaChannel method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

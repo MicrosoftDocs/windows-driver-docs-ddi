@@ -7,8 +7,8 @@ old-location: wdf\wdf_align_size_down.htm
 old-project: wdf
 ms.assetid: b93c6420-b981-4bfe-b841-921cbe76f643
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFMemoryObjectRef_2b1a76a0-3de8-4cfd-8a87-83a883a6fa95.xml, wdfcore/WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN function, kmdf.wdf_align_size_down, wdf.wdf_align_size_down
+ms.date: 2/20/2018
+ms.keywords: WDF_ALIGN_SIZE_DOWN, WDF_ALIGN_SIZE_DOWN function, DFMemoryObjectRef_2b1a76a0-3de8-4cfd-8a87-83a883a6fa95.xml, wdf.wdf_align_size_down, kmdf.wdf_align_size_down, wdfcore/WDF_ALIGN_SIZE_DOWN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,5 +126,5 @@ The following code example receives a buffer size and returns the size (either t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_ALIGN_SIZE_DOWN function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_ALIGN_SIZE_DOWN function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

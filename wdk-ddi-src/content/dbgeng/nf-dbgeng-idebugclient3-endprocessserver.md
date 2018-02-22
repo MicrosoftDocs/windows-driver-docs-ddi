@@ -4,11 +4,11 @@ title: IDebugClient3::EndProcessServer method
 author: windows-driver-content
 description: The EndProcessServer method requests that a process server be shut down.
 old-location: debugger\endprocessserver.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 45421556-6781-4ec4-9ee1-783df99437ae
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient3::EndProcessServer, EndProcessServer, IDebugClient5::EndProcessServer, dbgeng/IDebugClient2::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient2 interface, debugger.endprocessserver, dbgeng/IDebugClient5::EndProcessServer, IDebugClient3 interface [Windows Debugging], EndProcessServer method, EndProcessServer method [Windows Debugging], EndProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], EndProcessServer method, IDebugClient2, IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient4::EndProcessServer, IDebugClient2::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient4::EndProcessServer, IDebugClient3, IDebugClient4 interface [Windows Debugging], EndProcessServer method, dbgeng/IDebugClient3::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml
+ms.date: 2/15/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging], EndProcessServer method, IDebugClient2::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient_a24a3c82-f966-424c-a739-a775b45cb600.xml, dbgeng/IDebugClient2::EndProcessServer, IDebugClient3::EndProcessServer, EndProcessServer, dbgeng/IDebugClient5::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient5 interface [Windows Debugging], EndProcessServer method, IDebugClient4::EndProcessServer, dbgeng/IDebugClient3::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient4 interface, debugger.endprocessserver, IDebugClient5::EndProcessServer, EndProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient2, dbgeng/IDebugClient4::EndProcessServer, IDebugClient3 interface [Windows Debugging], EndProcessServer method, IDebugClient4 interface [Windows Debugging], EndProcessServer method, EndProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugClient5.EndProcessServer
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient3::EndProcessServer method
@@ -114,6 +114,14 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
 
 
@@ -122,7 +130,7 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 
@@ -130,15 +138,7 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
 
 
 
@@ -150,5 +150,5 @@ For more information about process servers and remote debugging, see <a href="ht
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::EndProcessServer method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient2::EndProcessServer method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

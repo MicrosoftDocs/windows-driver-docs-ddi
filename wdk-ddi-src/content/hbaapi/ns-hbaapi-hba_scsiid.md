@@ -7,8 +7,8 @@ old-location: storage\hba_scsiid.htm
 old-project: storage
 ms.assetid: c2acb40c-cb6e-45b4-b0be-911f6b37094e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml, HBA_SCSIID, PHBA_SCSIID structure pointer [Storage Devices], hbaapi/HBA_ScsiId, PHBA_SCSIID, hbaapi/PHBA_SCSIID, *PHBA_SCSIID, HBA_SCSIID structure [Storage Devices], HBA_ScsiId structure [Storage Devices], HBA_ScsiId, storage.hba_scsiid
+ms.date: 2/16/2018
+ms.keywords: "*PHBA_SCSIID, hbaapi/HBA_ScsiId, hbaapi/PHBA_SCSIID, storage.hba_scsiid, HBA_SCSIID structure [Storage Devices], HBA_SCSIID, PHBA_SCSIID, PHBA_SCSIID structure pointer [Storage Devices], HBA_ScsiId structure [Storage Devices], HBA_ScsiId, structs-Fibre_855aa506-19ff-469d-8b32-3fc7f9e84ade.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,5 +109,5 @@ For a detailed discussion of how the data assigned to members of this structure 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_ScsiId structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_ScsiId structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

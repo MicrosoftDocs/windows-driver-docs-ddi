@@ -7,8 +7,8 @@ old-location: bltooth\sdpcreatenodeurl.htm
 old-project: bltooth
 ms.assetid: 9f06dbfb-2bd5-4a58-848b-a5f0de337166
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: SdpCreateNodeUrl function [Bluetooth Devices], SdpCreateNodeUrl, sdplib/SdpCreateNodeUrl, bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml, bltooth.sdpcreatenodeurl
+ms.date: 2/15/2018
+ms.keywords: SdpCreateNodeUrl function [Bluetooth Devices], bltooth.sdpcreatenodeurl, SdpCreateNodeUrl, sdplib/SdpCreateNodeUrl, bth_funcs_0fd2d5df-3b9a-4ee2-abbf-ff74b7b89425.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpCreateNodeUrl
 product: Windows
 targetos: Windows
-req.typenames: SD_TRANSFER_TYPE
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -134,6 +134,10 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+
+
+
 <a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
@@ -142,13 +146,9 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpCreateNodeUrl function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpCreateNodeUrl function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

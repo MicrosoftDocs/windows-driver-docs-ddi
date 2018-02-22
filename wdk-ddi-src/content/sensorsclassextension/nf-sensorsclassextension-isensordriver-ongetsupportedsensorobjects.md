@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_ongetsupportedsensorobjects.htm
 old-project: sensors
 ms.assetid: a8ea63cf-24ba-467b-9c27-ab8e38be1c04
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ISensorDriver::OnGetSupportedSensorObjects, OnGetSupportedSensorObjects, ISensorDriver, OnGetSupportedSensorObjects method [Sensor Devices], sensors.isensordriver_ongetsupportedsensorobjects
+ms.date: 2/15/2018
+ms.keywords: sensors.isensordriver_ongetsupportedsensorobjects, OnGetSupportedSensorObjects method [Sensor Devices], OnGetSupportedSensorObjects, ISensorDriver, ISensorDriver::OnGetSupportedSensorObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

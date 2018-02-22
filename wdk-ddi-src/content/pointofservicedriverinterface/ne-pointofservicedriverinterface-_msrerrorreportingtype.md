@@ -7,8 +7,8 @@ old-location: pos\msrerrorreportingtype.htm
 old-project: pos
 ms.assetid: 86b0845b-28fc-47d3-add8-dd3e8b8f631c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, MsrErrorReportingType enumeration, pos.msrerrorreportingtype, _MsrErrorReportingType, MsrErrorReportingType, MsrErrorReportingType_CardLevel, MsrErrorReportingType_TrackLevel
+ms.date: 2/19/2018
+ms.keywords: MsrErrorReportingType enumeration, _MsrErrorReportingType, pos.msrerrorreportingtype, MsrErrorReportingType, pointofservicedriverinterface/MsrErrorReportingType_TrackLevel, pointofservicedriverinterface/MsrErrorReportingType, MsrErrorReportingType_TrackLevel, pointofservicedriverinterface/MsrErrorReportingType_CardLevel, MsrErrorReportingType_CardLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

@@ -7,8 +7,8 @@ old-location: bltooth\indication_parameters.htm
 old-project: bltooth
 ms.assetid: fc93ab8a-01d2-4827-8d89-06f09bf10456
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: INDICATION_PARAMETERS structure [Bluetooth Devices], *PINDICATION_PARAMETERS, _INDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, bthddi/INDICATION_PARAMETERS, bthddi/PINDICATION_PARAMETERS, PINDICATION_PARAMETERS, bltooth.indication_parameters, INDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices]
+ms.date: 2/15/2018
+ms.keywords: PINDICATION_PARAMETERS, bltooth.indication_parameters, bthddi/PINDICATION_PARAMETERS, PINDICATION_PARAMETERS structure pointer [Bluetooth Devices], bthddi/INDICATION_PARAMETERS, bth_structs_8cf076cf-a280-49ee-bbe6-cc54e854905e.xml, *PINDICATION_PARAMETERS, INDICATION_PARAMETERS, INDICATION_PARAMETERS structure [Bluetooth Devices], _INDICATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,7 +129,8 @@ The structure that contains parameters for the
 The structure that contains the parameters for a connection request.
 
 
-### -field Parameters.Connect.Request.PSM
+
+###### Connect.Request.PSM
 
 The Protocol/Service Multiplexer (PSM) that is passed to the calling function when the 
         <b>IndicationRemoteConnectINDICATION_CODE</b> value is specified in the callback function's 
@@ -449,15 +450,15 @@ When the Bluetooth driver stack passes
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_l2cap_config_option.md">L2CAP_CONFIG_OPTION</a>
 
 
 
 <a href="..\bthddi\ne-bthddi-_indication_code.md">INDICATION_CODE</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 
 
@@ -469,5 +470,5 @@ When the Bluetooth driver stack passes
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20INDICATION_PARAMETERS structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20INDICATION_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

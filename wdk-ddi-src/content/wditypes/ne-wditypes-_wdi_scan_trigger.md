@@ -7,8 +7,8 @@ old-location: netvista\wdi_scan_trigger.htm
 old-project: netvista
 ms.assetid: 3E201A6D-3A5B-4A6B-8AED-258A96BBF869
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_WDI_SCAN_TRIGGER, wditypes/WDI_SCAN_TRIGGER_BACKGROUND, WDI_SCAN_TRIGGER enumeration [Device and Driver Installation], wditypes/WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER, wditypes/WDI_SCAN_TRIGGER_MANUAL, WDI_SCAN_TRIGGER_BACKGROUND, netvista.wdi_scan_trigger, WDI_SCAN_TRIGGER_ROAM, WDI_SCAN_TRIGGER_CONNECT, WDI_SCAN_TRIGGER_FAST_ROAM, WDI_SCAN_TRIGGER, wditypes/WDI_SCAN_TRIGGER_FAST_ROAM, netvista.wifi_scan_trigger, WDI_SCAN_TRIGGER_MANUAL, WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER_CONNECT, wditypes/WDI_SCAN_TRIGGER_ROAM"
+ms.date: 2/16/2018
+ms.keywords: wditypes/WDI_SCAN_TRIGGER_MANUAL, WDI_SCAN_TRIGGER_MANUAL, wditypes/WDI_SCAN_TRIGGER, WDI_SCAN_TRIGGER enumeration [Device and Driver Installation], netvista.wdi_scan_trigger, WDI_SCAN_TRIGGER_BACKGROUND, wditypes/WDI_SCAN_TRIGGER_BACKGROUND, wditypes/WDI_SCAN_TRIGGER_FAST_ROAM, netvista.wifi_scan_trigger, WDI_SCAN_TRIGGER, WDI_SCAN_TRIGGER_ROAM, WDI_SCAN_TRIGGER_FAST_ROAM, _WDI_SCAN_TRIGGER, WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER_ANQP_QUERY, wditypes/WDI_SCAN_TRIGGER_CONNECT, WDI_SCAN_TRIGGER_CONNECT, wditypes/WDI_SCAN_TRIGGER_ROAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

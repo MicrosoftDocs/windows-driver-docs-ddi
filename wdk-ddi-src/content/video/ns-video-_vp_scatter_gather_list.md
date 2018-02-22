@@ -7,8 +7,8 @@ old-location: display\vp_scatter_gather_list.htm
 old-project: display
 ms.assetid: 485a0e20-0fed-4055-985c-1ff6d5d1c3e9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VP_SCATTER_GATHER_LIST structure [Display Devices], VP_SCATTER_GATHER_LIST, video/VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST, _VP_SCATTER_GATHER_LIST, Video_Structs_0b59cadd-bf97-44c9-b987-d4dfc5eaaf15.xml, display.vp_scatter_gather_list, PVP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST structure pointer [Display Devices], video/PVP_SCATTER_GATHER_LIST
+ms.date: 2/20/2018
+ms.keywords: VP_SCATTER_GATHER_LIST structure [Display Devices], display.vp_scatter_gather_list, video/VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST, Video_Structs_0b59cadd-bf97-44c9-b987-d4dfc5eaaf15.xml, VP_SCATTER_GATHER_LIST, video/PVP_SCATTER_GATHER_LIST, _VP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST, PVP_SCATTER_GATHER_LIST structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: "<= DISPATCH_LEVEL"
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	VP_SCATTER_GATHER_LIST
 product: Windows
 targetos: Windows
-req.typenames: VP_SCATTER_GATHER_LIST, *PVP_SCATTER_GATHER_LIST
+req.typenames: "*PVP_SCATTER_GATHER_LIST, VP_SCATTER_GATHER_LIST"
 req.product: Windows 10 or later.
 ---
 
@@ -98,17 +98,17 @@ The video port driver aggregates scatter/gather information in a VP_SCATTER_GATH
 
 ## -see-also
 
-<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
-
-
-
 <a href="..\video\ns-video-_vp_scatter_gather_element.md">VP_SCATTER_GATHER_ELEMENT</a>
 
 
 
- 
+<a href="..\video\nc-video-pexecute_dma.md">HwVidExecuteDma</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VP_SCATTER_GATHER_LIST structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VP_SCATTER_GATHER_LIST structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

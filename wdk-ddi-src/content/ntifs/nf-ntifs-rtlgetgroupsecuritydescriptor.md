@@ -7,8 +7,8 @@ old-location: ifsk\rtlgetgroupsecuritydescriptor.htm
 old-project: ifsk
 ms.assetid: a2fbb125-42cf-4c33-83bb-3fc875712be3
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml, RtlGetGroupSecurityDescriptor, ifsk.rtlgetgroupsecuritydescriptor
+ms.date: 2/16/2018
+ms.keywords: RtlGetGroupSecurityDescriptor, ifsk.rtlgetgroupsecuritydescriptor, ntifs/RtlGetGroupSecurityDescriptor, RtlGetGroupSecurityDescriptor routine [Installable File System Drivers], rtlref_6ff72a5f-d1ef-4fac-bdd0-4a612c0018ca.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,6 +131,14 @@ For more information about security and access control, see the Microsoft Window
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-rtlsetgroupsecuritydescriptor.md">RtlSetGroupSecurityDescriptor</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-rtlgetownersecuritydescriptor.md">RtlGetOwnerSecurityDescriptor</a>
 
 
@@ -139,17 +147,9 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlsetgroupsecuritydescriptor.md">RtlSetGroupSecurityDescriptor</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetGroupSecurityDescriptor routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetGroupSecurityDescriptor routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

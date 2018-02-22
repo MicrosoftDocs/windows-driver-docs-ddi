@@ -4,11 +4,11 @@ title: "_IO_BLOCK_EX"
 author: windows-driver-content
 description: The IO_BLOCK_EX structure is used as a parameter to DeviceIoControl, when the specified I/O control code is IOCTL_SEND_USB_REQUEST.
 old-location: image\io_block_ex.htm
-old-project: image
+old-project: Image
 ms.assetid: 2474a49b-e275-4b4d-b762-c296b92bab4c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PIO_BLOCK_EX, usbscan/IO_BLOCK_EX, IO_BLOCK_EX, IO_BLOCK_EX structure [Imaging Devices], _IO_BLOCK_EX, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, PIO_BLOCK_EX structure pointer [Imaging Devices], PIO_BLOCK_EX, image.io_block_ex, usbscan/PIO_BLOCK_EX"
+ms.date: 2/15/2018
+ms.keywords: usbscan/PIO_BLOCK_EX, _IO_BLOCK_EX, image.io_block_ex, *PIO_BLOCK_EX, stifnc_6b21356d-4f1a-4b8d-a54e-767f46e5b1b3.xml, IO_BLOCK_EX structure [Imaging Devices], IO_BLOCK_EX, PIO_BLOCK_EX, PIO_BLOCK_EX structure pointer [Imaging Devices], usbscan/IO_BLOCK_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

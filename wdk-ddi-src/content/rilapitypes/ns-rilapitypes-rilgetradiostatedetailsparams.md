@@ -7,8 +7,8 @@ old-location: netvista\rilgetradiostatedetailsparams_2.htm
 old-project: netvista
 ms.assetid: 35379f40-6440-4f03-8e14-81aed1e85883
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilgetradiostatedetailsparams_2, RILGETRADIOSTATEDETAILSPARAMS, rilapitypes/RILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETRADIOSTATEDETAILSPARAMS
+ms.date: 2/16/2018
+ms.keywords: netvista.rilgetradiostatedetailsparams_2, *LPRILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETRADIOSTATEDETAILSPARAMS, rilapitypes/RILGETRADIOSTATEDETAILSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETRADIOSTATEDETAILSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGETRADIOSTATEDETAILSPARAMS, RILGETRADIOSTATEDETAILSPARAMS"
+req.typenames: RILGETRADIOSTATEDETAILSPARAMS, *LPRILGETRADIOSTATEDETAILSPARAMS
 req.product: Windows 10 or later.
 ---
 

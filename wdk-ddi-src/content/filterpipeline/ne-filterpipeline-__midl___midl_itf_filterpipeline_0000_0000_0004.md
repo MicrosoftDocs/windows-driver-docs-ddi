@@ -7,8 +7,8 @@ old-location: print\expsfontrestriction.htm
 old-project: print
 ms.assetid: 079BEF8A-514E-42C3-8916-95655C605098
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: filterpipeline/Xps_Restricted_Font_PreviewPrint, Xps_Restricted_Font_NoEmbedding, EXpsFontRestriction enumeration [Print Devices], filterpipeline/EXpsFontRestriction, print.expsfontrestriction, Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_Installable, Xps_Restricted_Font_Editable, filterpipeline/Xps_Restricted_Font_Editable, __MIDL___MIDL_itf_filterpipeline_0000_0000_0004, EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_PreviewPrint
+ms.date: 2/21/2018
+ms.keywords: "__MIDL___MIDL_itf_filterpipeline_0000_0000_0004, EXpsFontRestriction enumeration [Print Devices], Xps_Restricted_Font_NoEmbedding, filterpipeline/Xps_Restricted_Font_NoEmbedding, Xps_Restricted_Font_PreviewPrint, EXpsFontRestriction, filterpipeline/Xps_Restricted_Font_Editable, print.expsfontrestriction, filterpipeline/Xps_Restricted_Font_Installable, Xps_Restricted_Font_Installable, filterpipeline/Xps_Restricted_Font_PreviewPrint, Xps_Restricted_Font_Editable, filterpipeline/EXpsFontRestriction"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

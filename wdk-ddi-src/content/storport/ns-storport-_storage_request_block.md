@@ -7,13 +7,13 @@ old-location: storage\storage_request_block.htm
 old-project: storage
 ms.assetid: 67A5077D-B1AD-49B7-B024-D139E375483F
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: STORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK, SRB_FUNCTION_RESET_DEVICE, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_STATUS_PENDING, SRB_STATUS_UNEXPECTED_BUS_FREE, SRB_FUNCTION_WMI, SRB_FLAGS_IS_ACTIVE, SRB_FUNCTION_UNLOCK_QUEUE, SRB_STATUS_DATA_OVERRUN, SRB_FUNCTION_SHUTDOWN, PSTORAGE_REQUEST_BLOCK structure pointer [Storage Devices], SRB_STATUS_BUSY, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_FUNCTION_RESET_BUS, SRB_STATUS_INVALID_TARGET_ID, storport/STORAGE_REQUEST_BLOCK, SRB_FLAGS_ALLOCATED_FROM_ZONE, SRB_FUNCTION_TERMINATE_IO, SRB_FUNCTION_CRYPTO_OPERATION, SRB_STATUS_ERROR, SRB_FLAGS_ADAPTER_CACHE_ENABLE, SRB_STATUS_BAD_FUNCTION, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, storport/PSTORAGE_REQUEST_BLOCK, SRB_STATUS_INTERNAL_ERROR, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_FLAGS_NO_KEEP_AWAKE, SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_STATUS_MESSAGE_REJECTED, SRB_FUNCTION_LOCK_QUEUE, SRB_STATUS_SUCCESS, SRB_STATUS_COMMAND_TIMEOUT, STORAGE_REQUEST_BLOCK structure [Storage Devices], SRB_FLAGS_FREE_SENSE_BUFFER, SRB_STATUS_SELECTION_TIMEOUT, SRB_FUNCTION_DUMP_POINTERS, SRB_STATUS_INVALID_REQUEST, SRB_STATUS_BUS_RESET, SRB_STATUS_ABORTED, SRB_FUNCTION_QUIESCE_DEVICE, SRB_FLAGS_DATA_IN, SRB_FUNCTION_PNP, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_STATUS_NOT_POWERED, SRB_STATUS_AUTOSENSE_VALID, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_STATUS_PHASE_SEQUENCE_FAILURE, SRB_STATUS_INVALID_LUN, SRB_FLAGS_DATA_OUT, SRB_FLAGS_BYPASS_LOCKED_QUEUE, _STORAGE_REQUEST_BLOCK, SRB_STATUS_TIMEOUT, storage.storage_request_block, SRB_STATUS_NO_DEVICE, SRB_STATUS_NO_HBA, SRB_STATUS_QUEUE_FROZEN, SRB_STATUS_LINK_DOWN, SRB_STATUS_PARITY_ERROR, SRB_STATUS_BAD_SRB_BLOCK_LENGTH, SRB_FUNCTION_RECEIVE_EVENT, SRB_FUNCTION_FLUSH, SRB_STATUS_INVALID_PATH_ID, SRB_STATUS_ABORT_FAILED, SRB_FUNCTION_IO_CONTROL, SRB_FLAGS_DISABLE_DISCONNECT, SRB_STATUS_REQUEST_FLUSHED, SRB_FUNCTION_RELEASE_RECOVERY, SRB_FLAGS_NO_DATA_TRANSFER, SRB_FLAGS_D3_PROCESSING, SRB_FLAGS_NO_QUEUE_FREEZE, SRB_STATUS_ERROR_RECOVERY, SRB_FUNCTION_POWER, SRB_FLAGS_SGLIST_FROM_POOL, SRB_FUNCTION_EXECUTE_SCSI, SRB_FUNCTION_ABORT_COMMAND
+ms.date: 2/16/2018
+ms.keywords: SRB_STATUS_NO_DEVICE, storport/STORAGE_REQUEST_BLOCK, SRB_FUNCTION_SHUTDOWN, SRB_FLAGS_DATA_OUT, SRB_FUNCTION_ABORT_COMMAND, SRB_FLAGS_DATA_IN, SRB_FLAGS_DISABLE_DISCONNECT, SRB_FLAGS_NO_QUEUE_FREEZE, SRB_FLAGS_UNSPECIFIED_DIRECTION, SRB_FLAGS_NO_KEEP_AWAKE, STORAGE_REQUEST_BLOCK structure [Storage Devices], SRB_STATUS_BUSY, PSTORAGE_REQUEST_BLOCK, SRB_STATUS_TIMEOUT, SRB_FLAGS_FREE_SENSE_BUFFER, SRB_STATUS_COMMAND_TIMEOUT, SRB_STATUS_PHASE_SEQUENCE_FAILURE, storport/PSTORAGE_REQUEST_BLOCK, SRB_STATUS_AUTOSENSE_VALID, SRB_FUNCTION_TERMINATE_IO, SRB_STATUS_INVALID_REQUEST, SRB_FUNCTION_RESET_LOGICAL_UNIT, SRB_FLAGS_DISABLE_AUTOSENSE, SRB_STATUS_REQUEST_FLUSHED, SRB_STATUS_BUS_RESET, SRB_FUNCTION_UNLOCK_QUEUE, SRB_FUNCTION_CRYPTO_OPERATION, SRB_STATUS_INTERNAL_ERROR, SRB_STATUS_PARITY_ERROR, SRB_FUNCTION_FLUSH, SRB_FUNCTION_FREE_DUMP_POINTERS, SRB_FLAGS_BYPASS_FROZEN_QUEUE, SRB_FLAGS_ALLOCATED_FROM_ZONE, _STORAGE_REQUEST_BLOCK, SRB_STATUS_UNEXPECTED_BUS_FREE, SRB_FLAGS_NO_DATA_TRANSFER, SRB_STATUS_INVALID_LUN, SRB_STATUS_NOT_POWERED, SRB_STATUS_PENDING, SRB_FLAGS_BYPASS_LOCKED_QUEUE, SRB_FUNCTION_RECEIVE_EVENT, SRB_STATUS_MESSAGE_REJECTED, SRB_STATUS_ERROR_RECOVERY, SRB_STATUS_INVALID_TARGET_ID, SRB_FUNCTION_LOCK_QUEUE, SRB_FUNCTION_DUMP_POINTERS, SRB_FUNCTION_WMI, SRB_STATUS_SELECTION_TIMEOUT, SRB_FUNCTION_QUIESCE_DEVICE, SRB_FUNCTION_IO_CONTROL, SRB_STATUS_BAD_FUNCTION, SRB_STATUS_INVALID_PATH_ID, SRB_STATUS_NO_HBA, SRB_STATUS_BAD_SRB_BLOCK_LENGTH, SRB_FLAGS_QUEUE_ACTION_ENABLE, SRB_FLAGS_SGLIST_FROM_POOL, SRB_STATUS_DATA_OVERRUN, SRB_FUNCTION_PNP, SRB_FUNCTION_POWER, STORAGE_REQUEST_BLOCK, SRB_STATUS_ABORT_FAILED, SRB_STATUS_ERROR, SRB_FUNCTION_RESET_DEVICE, SRB_FUNCTION_RELEASE_RECOVERY, SRB_FLAGS_D3_PROCESSING, SRB_FUNCTION_EXECUTE_SCSI, SRB_STATUS_SUCCESS, PSTORAGE_REQUEST_BLOCK structure pointer [Storage Devices], SRB_FLAGS_IS_ACTIVE, SRB_STATUS_QUEUE_FROZEN, SRB_FLAGS_DISABLE_SYNCH_TRANSFER, SRB_FLAGS_ADAPTER_CACHE_ENABLE, SRB_STATUS_LINK_DOWN, SRB_FUNCTION_RESET_BUS, SRB_STATUS_REQUEST_SENSE_FAILED, SRB_STATUS_ABORTED, storage.storage_request_block
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
-req.include-header: Storport.h, Srb.h
+req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available in Windows 8 and later versions of Windows.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: PSTORAGE_REQUEST_BLOCK, STORAGE_REQUEST_BLOCK
+req.typenames: STORAGE_REQUEST_BLOCK, PSTORAGE_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -97,12 +97,12 @@ typedef struct _STORAGE_REQUEST_BLOCK {
 
 ### -field Length
 
-Specifies the size of the SRB header for compatibility with the <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. This is equal to the offset of the <b>Signature</b> member of this structure.
+Specifies the size of the SRB header for compatibility with the <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure. This is equal to the offset of the <b>Signature</b> member of this structure.
 
 
 ### -field Function
 
-Set to <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b> to indicate that this is an extended SRB. Unlike in <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>, the SRB function identifier is in the <b>SrbFunction</b> member instead.
+Set to <b>SRB_FUNCTION_STORAGE_REQUEST_BLOCK</b> to indicate that this is an extended SRB. Unlike in <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>, the SRB function identifier is in the <b>SrbFunction</b> member instead.
 
 
 ### -field SrbStatus
@@ -326,12 +326,12 @@ Specifies the operation to be performed, which can be one of these values:
 
 A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> &gt; 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
 
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
-<a href="..\srb\ns-srb-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
+<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
+<a href="..\minitape\ns-minitape-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
 <b>Cdb</b>
-<a href="..\srb\ns-srb-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
+<a href="..\minitape\ns-minitape-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
 <b>Cdb</b>
 
 
@@ -530,13 +530,13 @@ This flag is irrelevant to miniport drivers.
 
 #### SRB_FLAGS_ALLOCATED_FROM_ZONE
 
-This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
+This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
 
 
 
 #### SRB_FLAGS_SGLIST_FROM_POOL
 
-This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
+This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
 
 
 
@@ -601,7 +601,7 @@ Used by the Storport driver, instead of <b>SrbStatus</b>, to report the status o
 
 ### -field ZeroGuard1
 
-A guard area to protect against drivers that interpret this structure as <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
+A guard area to protect against drivers that interpret this structure as <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
 
 
 ### -field AddressOffset
@@ -626,7 +626,7 @@ Points to the data buffer. Miniport drivers should not use this value as a data 
 
 ### -field ZeroGuard2
 
-A guard area to protect against drivers that interpret this structure as <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
+A guard area to protect against drivers that interpret this structure as <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>. Set to 0.
 
 
 ### -field OriginalRequest
@@ -823,12 +823,12 @@ Indicates the request failed because SRB length was invalid.
 
 A SCSI device I/O request should be executed on the target logical unit. When <b>NumSrbExData</b> &gt; 0, one or more following extended request block structures are located at the offsets specified in <b>SrbExDataOffset</b>.
 
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
-<a href="..\srb\ns-srb-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
-<a href="..\srb\ns-srb-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
+<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
+<a href="..\minitape\ns-minitape-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
 <b>Cdb</b>
-<a href="..\srb\ns-srb-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
+<a href="..\minitape\ns-minitape-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
 <b>Cdb</b>
 
 ##### - SrbFunction.SRB_FUNCTION_ABORT_COMMAND (0x10)
@@ -991,12 +991,12 @@ This flag is irrelevant to miniport drivers.
 
 ##### - SrbFlags.SRB_FLAGS_ALLOCATED_FROM_ZONE
 
-This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
+This flag is irrelevant to miniport drivers and is obsolete to new Windows class drivers. To a Windows legacy class driver, this indicates whether the SRB was allocated from a zone buffer. If this flag is set, the class driver must call <a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a> to release the SRB; otherwise, it must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>. New class drivers should use lookaside lists rather than zone buffers.
 
 
 ##### - SrbFlags.SRB_FLAGS_SGLIST_FROM_POOL
 
-This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
+This flag is irrelevant to miniport drivers. To the class driver, this indicates that memory for a scatter/gather list was allocated from a nonpaged pool. If this flag is set, the class driver must call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory after the SRB is completed. 
 
 
 ##### - SrbFlags.SRB_FLAGS_BYPASS_LOCKED_QUEUE
@@ -1028,9 +1028,9 @@ Indicates that the adapter can cache data.
 
 
 
-Starting in Windows 8, an extended  SRB type is supported with the use of the <b>STORAGE_REQUEST_BLOCK</b> structure. <b>STORAGE_REQUEST_BLOCK</b> extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure will continue.
+Starting in Windows 8, an extended  SRB type is supported with the use of the <b>STORAGE_REQUEST_BLOCK</b> structure. <b>STORAGE_REQUEST_BLOCK</b> extends SRB functions, allowing extended data blocks for the SRB function to be added to the request. Support for SRB requests using the <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> structure will continue.
 
-If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\srb\ns-srb-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
+If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\minitape\ns-minitape-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
 
 The target device address for the SRB is in a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
 
@@ -1039,17 +1039,17 @@ The target device address for the SRB is in a <a href="..\scsi\ns-scsi-_stor_add
 
 ## -see-also
 
+<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+
+
+
 <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
 
 
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_REQUEST_BLOCK structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STORAGE_REQUEST_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

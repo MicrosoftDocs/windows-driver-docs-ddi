@@ -7,8 +7,8 @@ old-location: print\compropsheetui.htm
 old-project: print
 ms.assetid: 7ebf46b7-5c31-482e-8644-a3d81f7dc5cc
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: compstui/COMPROPSHEETUI, cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, print.compropsheetui, *PCOMPROPSHEETUI, PCOMPROPSHEETUI, COMPROPSHEETUI, _COMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI structure pointer [Print Devices], compstui/PCOMPROPSHEETUI
+ms.date: 2/21/2018
+ms.keywords: PCOMPROPSHEETUI, COMPROPSHEETUI structure [Print Devices], PCOMPROPSHEETUI structure pointer [Print Devices], cpsuifnc_9b1aab20-fcd7-41b5-8bc5-959ae606d6b8.xml, compstui/PCOMPROPSHEETUI, *PCOMPROPSHEETUI, compstui/COMPROPSHEETUI, _COMPROPSHEETUI, COMPROPSHEETUI, print.compropsheetui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	COMPROPSHEETUI
 product: Windows
 targetos: Windows
-req.typenames: "*PCOMPROPSHEETUI, COMPROPSHEETUI"
+req.typenames: COMPROPSHEETUI, *PCOMPROPSHEETUI
 ---
 
 # _COMPROPSHEETUI structure

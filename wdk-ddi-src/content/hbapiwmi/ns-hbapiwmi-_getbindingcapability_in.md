@@ -7,8 +7,8 @@ old-location: storage\getbindingcapability_in.htm
 old-project: storage
 ms.assetid: cd4046db-f9f5-4c9e-8886-29504c727f67
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml, storage.getbindingcapability_in, *PGetBindingCapability_IN, GetBindingCapability_IN, hbapiwmi/GetBindingCapability_IN, _GetBindingCapability_IN, GetBindingCapability_IN structure [Storage Devices], PGetBindingCapability_IN structure pointer [Storage Devices], hbapiwmi/PGetBindingCapability_IN, PGetBindingCapability_IN
+ms.date: 2/16/2018
+ms.keywords: PGetBindingCapability_IN structure pointer [Storage Devices], structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml, storage.getbindingcapability_in, hbapiwmi/PGetBindingCapability_IN, PGetBindingCapability_IN, *PGetBindingCapability_IN, GetBindingCapability_IN structure [Storage Devices], _GetBindingCapability_IN, GetBindingCapability_IN, hbapiwmi/GetBindingCapability_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetBindingCapability_IN
 product: Windows
 targetos: Windows
-req.typenames: GetBindingCapability_IN, *PGetBindingCapability_IN
+req.typenames: "*PGetBindingCapability_IN, GetBindingCapability_IN"
 ---
 
 # _GetBindingCapability_IN structure
@@ -91,5 +91,5 @@ The WMI tool suite generates a declaration of the GetBindingCapability_IN struct
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingCapability_IN structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetBindingCapability_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

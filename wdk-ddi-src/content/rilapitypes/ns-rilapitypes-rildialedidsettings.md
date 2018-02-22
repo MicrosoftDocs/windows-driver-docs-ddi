@@ -7,8 +7,8 @@ old-location: netvista\rildialedidsettings_2.htm
 old-project: netvista
 ms.assetid: 6c65644b-f3a4-4c7d-91ce-c4b2b1e611e7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILDIALEDIDSETTINGS, netvista.rildialedidsettings_2, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILDIALEDIDSETTINGS, rilapitypes/RILDIALEDIDSETTINGS
+ms.date: 2/16/2018
+ms.keywords: netvista.rildialedidsettings_2, RILDIALEDIDSETTINGS structure [Network Drivers Starting with Windows Vista], RILDIALEDIDSETTINGS, *LPRILDIALEDIDSETTINGS, rilapitypes/RILDIALEDIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDIALEDIDSETTINGS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILDIALEDIDSETTINGS, RILDIALEDIDSETTINGS"
+req.typenames: RILDIALEDIDSETTINGS, *LPRILDIALEDIDSETTINGS
 req.product: Windows 10 or later.
 ---
 

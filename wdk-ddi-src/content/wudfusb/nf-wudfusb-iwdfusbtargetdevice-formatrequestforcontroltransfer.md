@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetdevice_formatrequestforcontroltransfer.htm
 old-project: wdf
 ms.assetid: 7f75fbaa-06e8-4c4d-b1ee-c89a55889295
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: FormatRequestForControlTransfer method, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, FormatRequestForControlTransfer, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, IWDFUsbTargetDevice::FormatRequestForControlTransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbTargetDevice::FormatRequestForControlTransfer, wdf.iwdfusbtargetdevice_formatrequestforcontroltransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer, FormatRequestForControlTransfer method, IWDFUsbTargetDevice interface, FormatRequestForControlTransfer method, IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice::FormatRequestForControlTransfer, UMDFUSBref_01a86f28-7a72-4d7b-a2f5-1e254fb26192.xml, umdf.iwdfusbtargetdevice_formatrequestforcontroltransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -240,14 +240,6 @@ CMyDevice::SendControlTransferSynchronously(
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfmemory.md">IWDFMemory</a>
 
 
@@ -256,9 +248,17 @@ CMyDevice::SendControlTransferSynchronously(
 
 
 
- 
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetDevice::FormatRequestForControlTransfer method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetDevice::FormatRequestForControlTransfer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

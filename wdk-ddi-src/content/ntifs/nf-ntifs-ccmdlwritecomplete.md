@@ -7,8 +7,8 @@ old-location: ifsk\ccmdlwritecomplete.htm
 old-project: ifsk
 ms.assetid: dcd13afa-1467-407c-b843-ff88bd6526c3
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: CcMdlWriteComplete, ifsk.ccmdlwritecomplete, CcMdlWriteComplete routine [Installable File System Drivers], ntifs/CcMdlWriteComplete, ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml
+ms.date: 2/16/2018
+ms.keywords: ccref_fe5a4900-c0bc-4100-b3e9-e2b7d780a9d2.xml, ifsk.ccmdlwritecomplete, ntifs/CcMdlWriteComplete, CcMdlWriteComplete, CcMdlWriteComplete routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,5 +124,5 @@ Each call to <a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite<
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcMdlWriteComplete routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcMdlWriteComplete routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

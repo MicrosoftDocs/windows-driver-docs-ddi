@@ -7,8 +7,8 @@ old-location: bltooth\channel_config_parameters_enhanced.htm
 old-project: bltooth
 ms.assetid: 4C28FD6E-A1DD-4887-95B0-6028ECA18204
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: PCHANNEL_CONFIG_PARAMETERS_ENHANCED, bthddi/PCHANNEL_CONFIG_PARAMETERS_ENHANCED, bltooth.channel_config_parameters_enhanced, CHANNEL_CONFIG_PARAMETERS_ENHANCED structure [Bluetooth Devices], bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED, _CHANNEL_CONFIG_PARAMETERS_ENHANCED, PCHANNEL_CONFIG_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], CHANNEL_CONFIG_PARAMETERS_ENHANCED
+ms.date: 2/15/2018
+ms.keywords: PCHANNEL_CONFIG_PARAMETERS_ENHANCED, _CHANNEL_CONFIG_PARAMETERS_ENHANCED, PCHANNEL_CONFIG_PARAMETERS_ENHANCED structure pointer [Bluetooth Devices], CHANNEL_CONFIG_PARAMETERS_ENHANCED, *PCHANNEL_CONFIG_PARAMETERS_ENHANCED, bthddi/PCHANNEL_CONFIG_PARAMETERS_ENHANCED, CHANNEL_CONFIG_PARAMETERS_ENHANCED structure [Bluetooth Devices], bthddi/CHANNEL_CONFIG_PARAMETERS_ENHANCED, bltooth.channel_config_parameters_enhanced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

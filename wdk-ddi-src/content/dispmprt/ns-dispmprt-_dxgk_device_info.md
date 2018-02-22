@@ -7,8 +7,8 @@ old-location: display\dxgk_device_info.htm
 old-project: display
 ms.assetid: dcdae08f-69a6-496b-8391-d2b505fb86d9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, PDXGK_DEVICE_INFO structure pointer [Display Devices], PDXGK_DEVICE_INFO, *PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO, dispmprt/DXGK_DEVICE_INFO, display.dxgk_device_info, _DXGK_DEVICE_INFO, dispmprt/PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: PDXGK_DEVICE_INFO, DXGK_DEVICE_INFO, DXGK_DEVICE_INFO structure [Display Devices], dispmprt/DXGK_DEVICE_INFO, _DXGK_DEVICE_INFO, DmStructs_89344ee9-8c4e-4f7e-8950-11948c07bb8e.xml, dispmprt/PDXGK_DEVICE_INFO, PDXGK_DEVICE_INFO structure pointer [Display Devices], *PDXGK_DEVICE_INFO, display.dxgk_device_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,7 +92,7 @@ A Unicode string that holds the registry path of the software key for the displa
 
 ### -field TranslatedResourceList
 
-A pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that holds the translated resources assigned to the display adapter.
+A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that holds the translated resources assigned to the display adapter.
 
 
 ### -field SystemMemorySize
@@ -135,7 +135,7 @@ The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_dev
 
 
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
@@ -147,5 +147,5 @@ The display miniport driver's <a href="..\dispmprt\nc-dispmprt-dxgkddi_start_dev
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_DEVICE_INFO structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_DEVICE_INFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

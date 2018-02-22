@@ -7,8 +7,8 @@ old-location: serports\serial_chars.htm
 old-project: serports
 ms.assetid: D9146B9F-5AE4-436B-B223-0A61400FE9AC
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SERIAL_CHARS, *PSERIAL_CHARS, ntddser/SERIAL_CHARS, PSERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], serports.serial_chars, _SERIAL_CHARS, ntddser/PSERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports]
+ms.date: 2/15/2018
+ms.keywords: PSERIAL_CHARS, *PSERIAL_CHARS, SERIAL_CHARS structure [Serial Ports], serports.serial_chars, ntddser/PSERIAL_CHARS, ntddser/SERIAL_CHARS, SERIAL_CHARS, _SERIAL_CHARS, PSERIAL_CHARS structure pointer [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,15 +115,11 @@ An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to t
 
 ## -see-also
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
-
-
-
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
-
-
-
 <a href="..\ntddser\ni-ntddser-ioctl_serial_wait_on_mask.md">IOCTL_SERIAL_WAIT_ON_MASK</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
 
 
@@ -131,9 +127,13 @@ An <b>IOCTL_SERIAL_SET_CHARS</b> request to set the XON and XOFF characters to t
 
 
 
- 
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_CHARS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_CHARS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

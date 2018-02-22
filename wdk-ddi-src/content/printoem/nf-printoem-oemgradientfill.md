@@ -7,8 +7,8 @@ old-location: print\oemgradientfill.htm
 old-project: print
 ms.assetid: 8a25d44b-c83b-4454-858b-117dbb6cc4b7
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, OEMGradientFill, print.oemgradientfill, OEMGradientFill function [Print Devices], printoem/OEMGradientFill
+ms.date: 2/21/2018
+ms.keywords: OEMGradientFill function [Print Devices], print_unidrv-pscript_rendering_ddb279ca-c526-4993-94ce-cf8caa0febb4.xml, OEMGradientFill, printoem/OEMGradientFill, print.oemgradientfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

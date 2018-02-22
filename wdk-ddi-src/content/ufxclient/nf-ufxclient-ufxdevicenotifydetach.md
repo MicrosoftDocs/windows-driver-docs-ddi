@@ -4,11 +4,11 @@ title: UfxDeviceNotifyDetach function
 author: windows-driver-content
 description: Notifies UFX that the device's USB cable has been detached.
 old-location: buses\ufxdevicenotifydetach.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: UfxDeviceNotifyDetach method [Buses], ufxclient/UfxDeviceNotifyDetach, buses.ufxdevicenotifydetach, UfxDeviceNotifyDetach
+ms.date: 2/15/2018
+ms.keywords: UfxDeviceNotifyDetach method [Buses], ufxclient/UfxDeviceNotifyDetach, UfxDeviceNotifyDetach, buses.ufxdevicenotifydetach
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceNotifyDetach
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

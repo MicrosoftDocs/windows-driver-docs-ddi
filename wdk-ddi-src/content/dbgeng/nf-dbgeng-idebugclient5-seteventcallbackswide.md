@@ -4,11 +4,11 @@ title: IDebugClient5::SetEventCallbacksWide method
 author: windows-driver-content
 description: The SetEventCallbacksWide method registers an event callbacks object with this client.
 old-location: debugger\seteventcallbackswide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f5aecd1f-e0f2-47a9-aa70-767a42fefdff
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient5, dbgeng/IDebugClient5::SetEventCallbacksWide, debugger.seteventcallbackswide, SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, SetEventCallbacksWide, IDebugClient5::SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: debugger.seteventcallbackswide, SetEventCallbacksWide, IDebugClient5::SetEventCallbacksWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetEventCallbacksWide method, dbgeng/IDebugClient5::SetEventCallbacksWide, SetEventCallbacksWide method [Windows Debugging], SetEventCallbacksWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.SetEventCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::SetEventCallbacksWide method
@@ -117,11 +117,11 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
 
 
 
@@ -133,5 +133,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::SetEventCallbacksWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient5::SetEventCallbacksWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

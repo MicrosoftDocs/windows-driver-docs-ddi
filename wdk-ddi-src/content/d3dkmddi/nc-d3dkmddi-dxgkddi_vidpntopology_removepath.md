@@ -7,7 +7,7 @@ old-location: display\dxgk_vidpntopology_interface_pfnremovepath.htm
 old-project: display
 ms.assetid: 463973e0-c443-417a-86ff-0b78773d40cc
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgk_vidpntopology_interface_pfnremovepath, pfnRemovePath callback function [Display Devices], pfnRemovePath, DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH, DXGKDDI_VIDPNTOPOLOGY_REMOVEPATH, d3dkmddi/pfnRemovePath, VidPnFunctions_0a43b9cf-d4c2-4d6f-acc7-7988038c56e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

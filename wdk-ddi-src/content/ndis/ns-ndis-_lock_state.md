@@ -7,8 +7,8 @@ old-location: netvista\lock_state.htm
 old-project: netvista
 ms.assetid: d23c7824-b2ab-4316-8d4c-474619a22223
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista], LOCK_STATE, ndis/PLOCK_STATE, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, PLOCK_STATE, netvista.lock_state, ndis/LOCK_STATE, _LOCK_STATE, *PLOCK_STATE, LOCK_STATE structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*PLOCK_STATE, LOCK_STATE, ndis_processor_group_ref_d04d3375-211e-4ef8-a30b-d2c6b98f9cc1.xml, _LOCK_STATE, LOCK_STATE structure [Network Drivers Starting with Windows Vista], netvista.lock_state, PLOCK_STATE, ndis/PLOCK_STATE, ndis/LOCK_STATE, PLOCK_STATE structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LOCK_STATE
 product: Windows
 targetos: Windows
-req.typenames: LOCK_STATE, *PLOCK_STATE
+req.typenames: "*PLOCK_STATE, LOCK_STATE"
 ---
 
 # _LOCK_STATE structure
@@ -77,5 +77,5 @@ typedef struct _LOCK_STATE {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20LOCK_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20LOCK_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

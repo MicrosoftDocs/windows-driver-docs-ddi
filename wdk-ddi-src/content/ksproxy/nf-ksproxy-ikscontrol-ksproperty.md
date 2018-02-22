@@ -7,8 +7,8 @@ old-location: stream\ikscontrol_ksproperty.htm
 old-project: stream
 ms.assetid: cc43f704-e1f8-4d62-8cdf-11575ec0b473
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: IKsControl interface [Streaming Media Devices], KsProperty method, IKsControl, KsProperty, KsProperty method [Streaming Media Devices], IKsControl interface, stream.ikscontrol_ksproperty, IKsControl::KsProperty, ksproxy/IKsControl::KsProperty, ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml, KsProperty method [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: KsProperty method [Streaming Media Devices], IKsControl::KsProperty, IKsControl, stream.ikscontrol_ksproperty, ksproxy/IKsControl::KsProperty, KsProperty, KsProperty method [Streaming Media Devices], IKsControl interface, IKsControl interface [Streaming Media Devices], KsProperty method, ksproxy_463b7e97-4356-4d2e-b005-6f81219bda64.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -116,17 +116,17 @@ To determine the buffer size that is required for a specific property request, y
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a>
-
-
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 
- 
+<a href="..\ksmedia\ns-ksmedia-ksproperty_videoprocamp_s.md">KSPROPERTY_VIDEOPROCAMP_S</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsProperty method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsControl::KsProperty method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

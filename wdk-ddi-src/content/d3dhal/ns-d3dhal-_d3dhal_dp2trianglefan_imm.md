@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2trianglefan_imm.htm
 old-project: display
 ms.assetid: a2f6f184-1178-4578-aafa-0bd088d42634
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM, display.d3dhal_dp2trianglefan_imm, _D3DHAL_DP2TRIANGLEFAN_IMM, *LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, D3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], LPD3DHAL_DP2TRIANGLEFAN_IMM
+ms.date: 2/20/2018
+ms.keywords: LPD3DHAL_DP2TRIANGLEFAN_IMM structure pointer [Display Devices], d3dstrct_a3365200-9001-4f6b-bb38-2ca384a89b25.xml, *LPD3DHAL_DP2TRIANGLEFAN_IMM, d3dhal/D3DHAL_DP2TRIANGLEFAN_IMM, LPD3DHAL_DP2TRIANGLEFAN_IMM, display.d3dhal_dp2trianglefan_imm, D3DHAL_DP2TRIANGLEFAN_IMM, _D3DHAL_DP2TRIANGLEFAN_IMM, D3DHAL_DP2TRIANGLEFAN_IMM structure [Display Devices], d3dhal/LPD3DHAL_DP2TRIANGLEFAN_IMM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,6 +91,10 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
+D3DDP2OP_TRIANGLEFAN_IMM
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
@@ -99,13 +103,9 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 
 
-D3DDP2OP_TRIANGLEFAN_IMM
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TRIANGLEFAN_IMM structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TRIANGLEFAN_IMM structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

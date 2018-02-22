@@ -7,8 +7,8 @@ old-location: kernel\iogetdeviceproperty.htm
 old-project: kernel
 ms.assetid: 8c3b7f81-ea6e-47ae-a396-58826d097f1f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoGetDeviceProperty, k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], kernel.iogetdeviceproperty, wdm/IoGetDeviceProperty
+ms.date: 2/16/2018
+ms.keywords: kernel.iogetdeviceproperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], IoGetDeviceProperty, wdm/IoGetDeviceProperty, k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,7 +95,7 @@ The interpretation of this address is bus-specific. The caller of this routine s
 
 #### DevicePropertyBootConfiguration
 
-Requests the hardware resources assigned to the device by the firmware, in raw form. <i>PropertyBuffer</i> points to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure.
+Requests the hardware resources assigned to the device by the firmware, in raw form. <i>PropertyBuffer</i> points to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure.
 
 
 
@@ -173,7 +173,7 @@ Requests the <a href="https://msdn.microsoft.com/3be5c842-d1b6-4c34-8990-e23e2d0
 
 #### DevicePropertyLegacyBusType
 
-Requests the bus type, such as PCIBus or PCMCIABus. <i>PropertyBuffer</i> points to an <a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value.
+Requests the bus type, such as PCIBus or PCMCIABus. <i>PropertyBuffer</i> points to an <a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a> enumeration value.
 
 
 
@@ -288,23 +288,23 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wudfwdm\ne-wudfwdm-_interface_type.md">INTERFACE_TYPE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
-
-
-
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+<a href="..\miniport\ns-miniport-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
 
 
 
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn922935">GUID</a>
 
 
 
@@ -316,5 +316,5 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceProperty routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetDeviceProperty routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

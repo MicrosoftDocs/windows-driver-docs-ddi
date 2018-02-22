@@ -4,11 +4,11 @@ title: "_USBFN_INTERFACE_INFO"
 author: windows-driver-content
 description: Describes an interface and its endpoints.
 old-location: buses\usbfn_interface_info.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 54647A9E-E0AB-4DE7-93FB-D0232D6AC646
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PUSBFN_INTERFACE_INFO structure pointer [Buses], usbfnbase/PUSBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], buses.usbfn_interface_info, _USBFN_INTERFACE_INFO, usbfnbase/USBFN_INTERFACE_INFO
+ms.date: 2/15/2018
+ms.keywords: usbfnbase/PUSBFN_INTERFACE_INFO, _USBFN_INTERFACE_INFO, PUSBFN_INTERFACE_INFO structure pointer [Buses], usbfnbase/USBFN_INTERFACE_INFO, buses.usbfn_interface_info, PUSBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO structure [Buses], USBFN_INTERFACE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_INTERFACE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_INTERFACE_INFO, USBFN_INTERFACE_INFO"
+req.typenames: USBFN_INTERFACE_INFO, *PUSBFN_INTERFACE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -101,5 +101,5 @@ Pointer to the first element in the array of that contains the interface descrip
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_INTERFACE_INFO structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBFN_INTERFACE_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

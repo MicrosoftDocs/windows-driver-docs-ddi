@@ -7,8 +7,8 @@ old-location: netvista\rilhideconnectedidsettingsparammask_2.htm
 old-project: netvista
 ms.assetid: 7977898a-9f45-4db5-9fe3-3702f6bc9124
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILHIDECONNECTEDIDSETTINGSPARAMMASK, rilapitypes/RIL_PARAM_HCIDS_STATUS, RIL_PARAM_HCIDS_ALL, RILHIDECONNECTEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_HCIDS_STATUS, rilapitypes/RIL_PARAM_HCIDS_PROVISIONING, rilapitypes/RIL_PARAM_HCIDS_ALL, rilapitypes/RILHIDECONNECTEDIDSETTINGSPARAMMASK, netvista.rilhideconnectedidsettingsparammask_2, RIL_PARAM_HCIDS_PROVISIONING
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RIL_PARAM_HCIDS_ALL, RIL_PARAM_HCIDS_STATUS, RIL_PARAM_HCIDS_PROVISIONING, rilapitypes/RILHIDECONNECTEDIDSETTINGSPARAMMASK, RIL_PARAM_HCIDS_ALL, netvista.rilhideconnectedidsettingsparammask_2, RILHIDECONNECTEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_HCIDS_STATUS, rilapitypes/RIL_PARAM_HCIDS_PROVISIONING, RILHIDECONNECTEDIDSETTINGSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

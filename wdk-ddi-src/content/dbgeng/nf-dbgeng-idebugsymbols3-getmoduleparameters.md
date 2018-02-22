@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetModuleParameters method
 author: windows-driver-content
 description: The GetModuleParameters method returns parameters for modules in the target.
 old-location: debugger\getmoduleparameters.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetModuleParameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, dbgeng/IDebugSymbols3::GetModuleParameters, IDebugSymbols::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, dbgeng/IDebugSymbols2::GetModuleParameters, GetModuleParameters, IDebugSymbols3::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2, debugger.getmoduleparameters, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleParameters, IDebugSymbols2::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetModuleParameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, debugger.getmoduleparameters, GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, IDebugSymbols2, dbgeng/IDebugSymbols3::GetModuleParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetModuleParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetModuleParameters method
@@ -144,15 +144,11 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="..\dbgeng\ns-dbgeng-_debug_module_parameters.md">DEBUG_MODULE_PARAMETERS</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -160,9 +156,13 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetModuleParameters method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetModuleParameters method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

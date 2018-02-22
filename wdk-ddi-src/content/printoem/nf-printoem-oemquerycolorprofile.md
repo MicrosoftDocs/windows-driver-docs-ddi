@@ -7,8 +7,8 @@ old-location: print\oemquerycolorprofile.htm
 old-project: print
 ms.assetid: a33a216d-f97e-44be-b9a5-bdadf1c422e1
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, OEMQueryColorProfile, OEMQueryColorProfile function [Print Devices], print.oemquerycolorprofile, printoem/OEMQueryColorProfile
+ms.date: 2/21/2018
+ms.keywords: print_obsoletefunctions_f21cf62d-45bd-4248-8b0c-a19cc982ad3c.xml, print.oemquerycolorprofile, OEMQueryColorProfile function [Print Devices], OEMQueryColorProfile, printoem/OEMQueryColorProfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

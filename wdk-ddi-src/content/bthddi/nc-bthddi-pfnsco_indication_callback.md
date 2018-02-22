@@ -7,7 +7,7 @@ old-location: bltooth\sco_callback_function.htm
 old-project: bltooth
 ms.assetid: abc9fc88-6852-4bfb-8271-7a73a508c397
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.sco_callback_function, SCOIndicationCallback callback function [Bluetooth Devices], SCOIndicationCallback, PFNSCO_INDICATION_CALLBACK, PFNSCO_INDICATION_CALLBACK, bthddi/SCOIndicationCallback, bth_funcs_05d035df-348d-42c0-8041-5d3822b0346e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	SCOIndicationCallback
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # PFNSCO_INDICATION_CALLBACK callback
@@ -154,11 +154,7 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+<a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
 
 
 
@@ -170,7 +166,11 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
 
 
-<a href="..\bthddi\ne-bthddi-_sco_indication_code.md">SCO_INDICATION_CODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536626">BRB_SCO_OPEN_CHANNEL</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
@@ -178,5 +178,5 @@ The SCO_INDICATION_PARAMETERS structure held in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNSCO_INDICATION_CALLBACK callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PFNSCO_INDICATION_CALLBACK callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

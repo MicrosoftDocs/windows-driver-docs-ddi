@@ -7,8 +7,8 @@ old-location: netvista\ndisterminateoffload.htm
 old-project: netvista
 ms.assetid: 13eb4c17-2cb5-4773-b2e3-e8e624473c97
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisTerminateOffload, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml, netvista.ndisterminateoffload, ndischimney/NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisTerminateOffload, NdisTerminateOffload function [Network Drivers Starting with Windows Vista], netvista.ndisterminateoffload, ndischimney/NdisTerminateOffload, tcp_chim_ndis_func_44201f08-cbfc-4796-b2a9-78bbc5c348c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,6 +124,11 @@ From the
 
 ## -see-also
 
+<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
+   NdisMTerminateOffloadComplete</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 
@@ -133,8 +138,8 @@ From the
 
 
 
-<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
-   ProtocolTerminateOffloadComplete</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
@@ -142,13 +147,8 @@ From the
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndismterminateoffloadcomplete.md">
-   NdisMTerminateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
+   ProtocolTerminateOffloadComplete</a>
 
 
 
@@ -156,5 +156,5 @@ From the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisTerminateOffload function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisTerminateOffload function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

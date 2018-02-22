@@ -7,8 +7,8 @@ old-location: netvista\dot11_association_params.htm
 old-project: netvista
 ms.assetid: 74382195-ee1d-4b01-b882-2f357d801a25
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_ASSOCIATION_PARAMS structure [Network Drivers Starting with Windows Vista], PDOT11_ASSOCIATION_PARAMS, windot11/PDOT11_ASSOCIATION_PARAMS, PDOT11_ASSOCIATION_PARAMS structure pointer [Network Drivers Starting with Windows Vista], DOT11_ASSOCIATION_PARAMS, Native_802.11_data_types_08a8e9e4-9b11-47f6-a3e0-baa25a63bd6f.xml, windot11/DOT11_ASSOCIATION_PARAMS, *PDOT11_ASSOCIATION_PARAMS, netvista.dot11_association_params
+ms.date: 2/16/2018
+ms.keywords: DOT11_ASSOCIATION_PARAMS structure [Network Drivers Starting with Windows Vista], netvista.dot11_association_params, Native_802.11_data_types_08a8e9e4-9b11-47f6-a3e0-baa25a63bd6f.xml, *PDOT11_ASSOCIATION_PARAMS, PDOT11_ASSOCIATION_PARAMS structure pointer [Network Drivers Starting with Windows Vista], DOT11_ASSOCIATION_PARAMS, windot11/DOT11_ASSOCIATION_PARAMS, windot11/PDOT11_ASSOCIATION_PARAMS, PDOT11_ASSOCIATION_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_ASSOCIATION_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: DOT11_ASSOCIATION_PARAMS, *PDOT11_ASSOCIATION_PARAMS
+req.typenames: "*PDOT11_ASSOCIATION_PARAMS, DOT11_ASSOCIATION_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -147,17 +147,17 @@ This structure is used with
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569104">OID_DOT11_ASSOCIATION_PARAMS</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569104">OID_DOT11_ASSOCIATION_PARAMS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ASSOCIATION_PARAMS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ASSOCIATION_PARAMS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

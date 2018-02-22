@@ -7,8 +7,8 @@ old-location: netvista\riltonesignalinfo_v2_2.htm
 old-project: netvista
 ms.assetid: 44508316-ff5c-48b0-9cdf-2d1aefa382c5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], RILTONESIGNALINFO_V2, netvista.riltonesignalinfo_v2_2, RILTONESIGNALINFO, *LPRILTONESIGNALINFO, *LPRILTONESIGNALINFO_V2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO_V2, netvista.riltonesignalinfo_v2_2, RILTONESIGNALINFO_V2 structure [Network Drivers Starting with Windows Vista], rilapitypes/RILTONESIGNALINFO_V2, RILTONESIGNALINFO, *LPRILTONESIGNALINFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILTONESIGNALINFO_V2
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILTONESIGNALINFO, RILTONESIGNALINFO_V2, *LPRILTONESIGNALINFO_V2, RILTONESIGNALINFO"
+req.typenames: RILTONESIGNALINFO, *LPRILTONESIGNALINFO_V2, *LPRILTONESIGNALINFO, RILTONESIGNALINFO_V2
 req.product: Windows 10 or later.
 ---
 

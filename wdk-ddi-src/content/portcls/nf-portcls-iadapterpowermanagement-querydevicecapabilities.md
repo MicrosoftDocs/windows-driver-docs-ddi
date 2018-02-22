@@ -7,8 +7,8 @@ old-location: audio\iadapterpowermanagement_querydevicecapabilities.htm
 old-project: audio
 ms.assetid: 79e8cdb8-8c01-4fed-8490-5adeb52c0ea2
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, portcls/IAdapterPowerManagement::QueryDeviceCapabilities, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, QueryDeviceCapabilities method [Audio Devices], audio.iadapterpowermanagement_querydevicecapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, IAdapterPowerManagement, QueryDeviceCapabilities, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface
+ms.date: 2/21/2018
+ms.keywords: QueryDeviceCapabilities, IAdapterPowerManagement, QueryDeviceCapabilities method [Audio Devices], IAdapterPowerManagement interface, IAdapterPowerManagement interface [Audio Devices], QueryDeviceCapabilities method, QueryDeviceCapabilities method [Audio Devices], audmp-routines_e59e3df9-3bfa-4eb0-a7dd-1faa017a48e9.xml, audio.iadapterpowermanagement_querydevicecapabilities, IAdapterPowerManagement::QueryDeviceCapabilities, portcls/IAdapterPowerManagement::QueryDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IAdapterPowerManagement.QueryDeviceCapabilities
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IAdapterPowerManagement::QueryDeviceCapabilities method
@@ -120,11 +120,11 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 
 
-<a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcregisteradapterpowermanagement.md">PcRegisterAdapterPowerManagement</a>
 
 
 
@@ -136,5 +136,5 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IAdapterPowerManagement::QueryDeviceCapabilities method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IAdapterPowerManagement::QueryDeviceCapabilities method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

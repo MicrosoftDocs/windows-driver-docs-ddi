@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_check_verify.htm
 old-project: storage
 ms.assetid: 12e98642-2ed5-47d6-9461-9d6c52149749
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_storage_check_verify, IOCTL_STORAGE_CHECK_VERIFY control code [Storage Devices], IOCTL_STORAGE_CHECK_VERIFY, ntddstor/IOCTL_STORAGE_CHECK_VERIFY, k307_5ec9ef19-a741-4fb9-876e-7cfc35699dbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -164,5 +164,5 @@ For a tape driver, the <b>Information</b> field is set to zero and the <b>Status
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_STORAGE_CHECK_VERIFY control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_STORAGE_CHECK_VERIFY control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

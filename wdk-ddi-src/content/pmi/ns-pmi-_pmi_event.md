@@ -7,8 +7,8 @@ old-location: powermeter\pmi_event.htm
 old-project: powermeter
 ms.assetid: 51ae6247-c482-4f13-8699-df871ae346c0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: powermeter.pmi_event, *PPMI_EVENT, PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], PPMI_EVENT, pmi/PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PMI_EVENT, pmi/PPMI_EVENT, _PMI_EVENT, PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml
+ms.date: 2/15/2018
+ms.keywords: powermeter.pmi_event, pmi/PPMI_EVENT, PMI_EVENT, PMI_EVENT structure [Power Metering and Budgeting Devices], PPMI_EVENT structure pointer [Power Metering and Budgeting Devices], _PMI_EVENT, *PPMI_EVENT, pmi/PMI_EVENT, PowerMeterRef_8c4d0572-12b8-4e72-b52e-9aa74a22d0c1.xml, PPMI_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PMI_EVENT
 product: Windows
 targetos: Windows
-req.typenames: PMI_EVENT, *PPMI_EVENT
+req.typenames: "*PPMI_EVENT, PMI_EVENT"
 ---
 
 # _PMI_EVENT structure
@@ -200,7 +200,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
 
 
@@ -208,19 +208,19 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 
-<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_register_event_notify.md">IOCTL_PMI_REGISTER_EVENT_NOTIFY</a>
 
 
 
-<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
 
 
@@ -232,5 +232,5 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_EVENT structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_EVENT structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

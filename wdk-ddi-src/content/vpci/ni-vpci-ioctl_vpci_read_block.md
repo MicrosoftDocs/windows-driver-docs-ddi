@@ -7,7 +7,7 @@ old-location: pci\ioctl_vpci_read_block.htm
 old-project: PCI
 ms.assetid: C493724D-316B-4F64-866B-D26C2DBA822A
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.ioctl_vpci_read_block, IOCTL_VPCI_READ_BLOCK control code, IOCTL_VPCI_READ_BLOCK, vpci/IOCTL_VPCI_READ_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -187,7 +187,7 @@ The address of the event object that was initialized in the call to the <a href=
 <tr>
 <td><b>UserIosb</b></td>
 <td>
-The address of a caller-allocated <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
+The address of a caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure. This structure is updated by the lower driver to indicate the final status of the I/O request.
 
 </td>
 </tr>
@@ -275,7 +275,7 @@ The address of the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> that was previously a
  
 
 <h3><a id="ioctl_request_completion_results"></a><a id="IOCTL_REQUEST_COMPLETION_RESULTS"></a>IOCTL Request Completion Results</h3>
-      When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439304">IOCTL_VPCI_READ_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.
+      When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439304">IOCTL_VPCI_READ_BLOCK</a> IOCTL request is completed, the <b>Status</b> member of the caller-allocated <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to one of the values in the following table.
 
 <table>
 <tr>
@@ -318,7 +318,7 @@ Either the <b>Parameters.DeviceIoControl.InputBufferLength</b> member or the <b>
  
 
 If the request completed successfully, the 
-      <b>Information</b> member of the <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to the number of bytes that were read. Otherwise, the 
+      <b>Information</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure is set to the number of bytes that were read. Otherwise, the 
       <b>Information</b> member is set to zero.
 
 When the <a href="https://msdn.microsoft.com/library/windows/hardware/hh439304">IOCTL_VPCI_READ_BLOCK</a> IOCTL is issued, the driver of the PCIe physical function (PF) is notified to return the data from the specified VF configuration block.
@@ -350,6 +350,22 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
@@ -358,27 +374,11 @@ The  usage of the VF configuration block and the format of its configuration dat
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
-
-
-
 <a href="..\vpci\ns-vpci-_vpci_read_block_input.md">VPCI_READ_BLOCK_INPUT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439637">ReadVfConfigBlock</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550766">IRP_MJ_INTERNAL_DEVICE_CONTROL</a>
 
 
 
@@ -390,5 +390,5 @@ The  usage of the VF configuration block and the format of its configuration dat
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\pci]:%20IOCTL_VPCI_READ_BLOCK control code%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\pci]:%20IOCTL_VPCI_READ_BLOCK control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

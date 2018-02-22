@@ -7,8 +7,8 @@ old-location: kernel\clfs_mgmt_client_registration.htm
 old-project: kernel
 ms.assetid: 4f4f7ece-efe4-49f7-a6ce-bc131d1c1968
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/PCLFS_MGMT_CLIENT_REGISTRATION, kernel.clfs_mgmt_client_registration, PCLFS_MGMT_CLIENT_REGISTRATION, kstruct_a_b4089ae7-0e80-4da0-b062-cda3d5aa65f4.xml, *PCLFS_MGMT_CLIENT_REGISTRATION, wdm/CLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION, _CLFS_MGMT_CLIENT_REGISTRATION, PCLFS_MGMT_CLIENT_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], CLFS_MGMT_CLIENT_REGISTRATION structure [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: CLFS_MGMT_CLIENT_REGISTRATION structure [Kernel-Mode Driver Architecture], PCLFS_MGMT_CLIENT_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], PCLFS_MGMT_CLIENT_REGISTRATION, kernel.clfs_mgmt_client_registration, CLFS_MGMT_CLIENT_REGISTRATION, _CLFS_MGMT_CLIENT_REGISTRATION, wdm/PCLFS_MGMT_CLIENT_REGISTRATION, *PCLFS_MGMT_CLIENT_REGISTRATION, kstruct_a_b4089ae7-0e80-4da0-b062-cda3d5aa65f4.xml, wdm/CLFS_MGMT_CLIENT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLFS_MGMT_CLIENT_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: CLFS_MGMT_CLIENT_REGISTRATION, *PCLFS_MGMT_CLIENT_REGISTRATION
+req.typenames: "*PCLFS_MGMT_CLIENT_REGISTRATION, CLFS_MGMT_CLIENT_REGISTRATION"
 req.product: Windows 10 or later.
 ---
 
@@ -111,10 +111,6 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCa
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
-
-
-
 <a href="..\wdm\nc-wdm-pclfs_client_advance_tail_callback.md">ClfsAdvanceTailCallback</a>
 
 
@@ -123,9 +119,13 @@ A pointer to user-defined data that will be supplied to the <i>ClfsLogUnpinnedCa
 
 
 
- 
+<a href="..\wdm\nc-wdm-pclfs_client_lff_handler_complete_callback.md">ClfsLogGrowthCompleteCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_CLIENT_REGISTRATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20CLFS_MGMT_CLIENT_REGISTRATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

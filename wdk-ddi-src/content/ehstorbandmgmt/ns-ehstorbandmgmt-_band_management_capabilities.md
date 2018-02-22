@@ -7,8 +7,8 @@ old-location: storage\band_management_capabilities.htm
 old-project: storage
 ms.assetid: 102C7CEC-B1DD-49F6-AB7F-0CE0A22EBE54
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: MEDIAKEY_PROTECTEDBY_AUTHKEY, ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, CAPS_BANDCROSSING_SUPPORTED, BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], 0, _BAND_MANAGEMENT_CAPABILITIES, CAPS_SID_SECURED, storage.band_management_capabilities, PBAND_MANAGEMENT_CAPABILITIES, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], MEDIAKEY_PROTECTEDBY_VENDORSCHEME, *PBAND_MANAGEMENT_CAPABILITIES, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES, CAPS_ACTIVATED
+ms.date: 2/16/2018
+ms.keywords: BAND_MANAGEMENT_CAPABILITIES structure [Storage Devices], MEDIAKEY_PROTECTEDBY_AUTHKEY, PBAND_MANAGEMENT_CAPABILITIES structure pointer [Storage Devices], ehstorbandmgmt/PBAND_MANAGEMENT_CAPABILITIES, storage.band_management_capabilities, PBAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES, CAPS_BANDCROSSING_SUPPORTED, MEDIAKEY_PROTECTEDBY_VENDORSCHEME, CAPS_ACTIVATED, _BAND_MANAGEMENT_CAPABILITIES, *PBAND_MANAGEMENT_CAPABILITIES, 0, CAPS_SID_SECURED, ehstorbandmgmt/BAND_MANAGEMENT_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BAND_MANAGEMENT_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: BAND_MANAGEMENT_CAPABILITIES, *PBAND_MANAGEMENT_CAPABILITIES
+req.typenames: "*PBAND_MANAGEMENT_CAPABILITIES, BAND_MANAGEMENT_CAPABILITIES"
 ---
 
 # _BAND_MANAGEMENT_CAPABILITIES structure
@@ -213,5 +213,5 @@ If <b>CAPS_ACTIVATED</b> is not set in <b>Capabilities</b>, security functionali
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20BAND_MANAGEMENT_CAPABILITIES structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20BAND_MANAGEMENT_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

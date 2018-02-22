@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_stream_state_input_color_space_data.htm
 old-project: display
 ms.assetid: cced26ea-bbb8-4716-b22d-8355b81102c0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Display Devices], display.dxvahdddi_stream_state_input_color_space_data, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVA2_Structs_4e403294-5aa5-4170-a635-567f89a34e8e.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, _DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA
+ms.date: 2/20/2018
+ms.keywords: "_DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, display.dxvahdddi_stream_state_input_color_space_data, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure [Display Devices], DXVA2_Structs_4e403294-5aa5-4170-a635-567f89a34e8e.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,7 +123,7 @@ Supported starting with Windows 8.1.
 This member is equivalent to the remaining 26 bits (0xFFFFFFC0) of the 32-bit <b>Value</b> member.
 
 
-### -field Value
+#### - Value
 
 [in] A 32-bit value that describes stream-state data that specifies the color space of the input stream. 
 
@@ -145,10 +145,6 @@ For more information about color space, see <a href="..\d3dumddi\ns-d3dumddi-_dx
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_output_color_space_data.md">DXVAHDDDI_BLT_STATE_OUTPUT_COLOR_SPACE_DATA</a>
 
 
@@ -161,9 +157,13 @@ For more information about color space, see <a href="..\d3dumddi\ns-d3dumddi-_dx
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_vpdevcaps.md">DXVAHDDDI_VPDEVCAPS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

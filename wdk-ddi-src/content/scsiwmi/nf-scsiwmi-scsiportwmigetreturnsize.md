@@ -7,8 +7,8 @@ old-location: storage\scsiportwmigetreturnsize.htm
 old-project: storage
 ms.assetid: 7cd54ac2-e13b-45eb-a0ac-56a2d60d9057
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: scsiwmi/ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize, storage.scsiportwmigetreturnsize, scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, ScsiPortWmiGetReturnSize macro [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: ScsiPortWmiGetReturnSize, ScsiPortWmiGetReturnSize macro [Storage Devices], storage.scsiportwmigetreturnsize, scsiprt_a9717bc6-2519-4446-8965-47340976a85f.xml, scsiwmi/ScsiPortWmiGetReturnSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -88,17 +88,17 @@ A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value 
 
 
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
-
-
-
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
 
 
- 
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiGetReturnSize macro%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiGetReturnSize macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

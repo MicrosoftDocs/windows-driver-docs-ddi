@@ -7,13 +7,13 @@ old-location: netvista\net_pnp_event.htm
 old-project: netvista
 ms.assetid: b68fb279-c1d4-4f0b-8b04-b17a01a65560
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: protocol_structures_ref_0d2da286-4352-4097-901d-d3eba45d31c2.xml, _NET_PNP_EVENT, PNET_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], NET_PNP_EVENT, *PNET_PNP_EVENT, NET_PNP_EVENT structure [Network Drivers Starting with Windows Vista], ndis/PNET_PNP_EVENT, netvista.net_pnp_event, PNET_PNP_EVENT, ndis/NET_PNP_EVENT
+ms.date: 2/16/2018
+ms.keywords: netvista.net_pnp_event, ndis/PNET_PNP_EVENT, NET_PNP_EVENT structure [Network Drivers Starting with Windows Vista], _NET_PNP_EVENT, PNET_PNP_EVENT, PNET_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], NET_PNP_EVENT, ndis/NET_PNP_EVENT, *PNET_PNP_EVENT, protocol_structures_ref_0d2da286-4352-4097-901d-d3eba45d31c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ndis.h
-req.include-header: Ndis.h
+req.include-header: Ndis.h, Netpnp.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in NDIS 5.1, and NDIS 6.0 and later. For more information about the NDIS 5.1 version of this structure, see    NET_PNP_EVENT (NDIS 5.1).
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	NET_PNP_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_PNP_EVENT, NET_PNP_EVENT"
+req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
 ---
 
 # _NET_PNP_EVENT structure
@@ -610,24 +610,12 @@ The
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
+   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_restart_parameters.md">
-   NDIS_PROTOCOL_RESTART_PARAMETERS</a>
 
 
 
@@ -636,15 +624,19 @@ The
 
 
 
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_net_pnp_event.md">ProtocolNetPnPEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_switch_parameters.md">NDIS_SWITCH_PARAMETERS</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
 
 
 
@@ -653,11 +645,15 @@ The
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_bind_failed_notification.md">NDIS_BIND_FAILED_NOTIFICATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/AF646860-01AB-4F4B-84F8-B570054B10FC">Querying the Hyper-V Extensible Switch Configuration</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -665,9 +661,13 @@ The
 
 
 
- 
+<a href="..\ndis\ns-ndis-_ndis_restart_attributes.md">NDIS_RESTART_ATTRIBUTES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_PNP_EVENT structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_PNP_EVENT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

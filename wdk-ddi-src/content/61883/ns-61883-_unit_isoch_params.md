@@ -7,8 +7,8 @@ old-location: ieee\unit_isoch_params.htm
 old-project: IEEE
 ms.assetid: 1c661a35-8209-49c5-9987-b4b6e9e710b4
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 61883/PUNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS, 61883/UNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], UNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], _UNIT_ISOCH_PARAMS, 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, IEEE.unit_isoch_params
+ms.date: 2/15/2018
+ms.keywords: UNIT_ISOCH_PARAMS, 61883/PUNIT_ISOCH_PARAMS, PUNIT_ISOCH_PARAMS structure pointer [Buses], IEEE.unit_isoch_params, PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS structure [Buses], 61883_structures_eece3eb1-516b-40a8-9529-e4a3d8832f02.xml, 61883/UNIT_ISOCH_PARAMS, _UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UNIT_ISOCH_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
+req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
 ---
 
 # _UNIT_ISOCH_PARAMS structure
@@ -113,5 +113,5 @@ The UNIT_ISOCH_PARAMS structure can be used with <a href="https://msdn.microsoft
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20UNIT_ISOCH_PARAMS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20UNIT_ISOCH_PARAMS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: pci\setvirtualfunctiondata.htm
 old-project: PCI
 ms.assetid: 12CC6973-E691-425E-A8E8-839F83116D29
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.setvirtualfunctiondata, SetVirtualFunctionData routine, SetVirtualFunctionData, SET_VIRTUAL_DEVICE_DATA, SET_VIRTUAL_DEVICE_DATA, wdm/SetVirtualFunctionData
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	SetVirtualFunctionData
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -103,33 +103,47 @@ The length, in bytes, of the data to be written.
 ## -returns
 
 
+
 The 
       <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine returns the length, in bytes, of the PCIe configuration data that was written after a successful write operation. If the write operation is unsuccessful, the routine returns zero. 
+
 
 
 
 ## -remarks
 
 
+
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine is similar to the <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine, except that it writes PCIe configuration data to a VF instead of to a device's physical function (PF).
 
 The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a> interface. The <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine is provided by the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a> interface.
-<div class="alert"><b>Note</b>  The virtualization stack calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine.</div><div> </div>
+
+<div class="alert"><b>Note</b>  The virtualization stack calls <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVirtualFunctionData</a> when a driver that is running in the guest operating system calls the <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a> routine.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
+
 
 <a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
+
+
+
 <b></b>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\pci]:%20SET_VIRTUAL_DEVICE_DATA routine%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\pci]:%20SET_VIRTUAL_DEVICE_DATA routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createvideoprocessor_0032_.htm
 old-project: display
 ms.assetid: 64E9EDF7-0B98-4D8A-BB2B-D336622558D0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_createvideoprocessor_0032_, PFND3D12DDI_CREATEVIDEOPROCESSOR_0032 callback function [Display Devices], PFND3D12DDI_CREATEVIDEOPROCESSOR_0032, d3d12umddi/PFND3D12DDI_CREATEVIDEOPROCESSOR_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,6 +87,8 @@ The video processor.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

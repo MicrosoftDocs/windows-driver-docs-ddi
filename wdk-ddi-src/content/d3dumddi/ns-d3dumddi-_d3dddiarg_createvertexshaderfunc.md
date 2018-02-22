@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_createvertexshaderfunc.htm
 old-project: display
 ms.assetid: 2517b7a9-76f5-46f6-9225-18081cd1d357
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_cbcea02a-d591-4226-8896-f8392c4b67de.xml, D3DDDIARG_CREATEVERTEXSHADERFUNC structure [Display Devices], display.d3dddiarg_createvertexshaderfunc, _D3DDDIARG_CREATEVERTEXSHADERFUNC, D3DDDIARG_CREATEVERTEXSHADERFUNC, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERFUNC
+ms.date: 2/20/2018
+ms.keywords: display.d3dddiarg_createvertexshaderfunc, UMDisplayDriver_param_Structs_cbcea02a-d591-4226-8896-f8392c4b67de.xml, D3DDDIARG_CREATEVERTEXSHADERFUNC structure [Display Devices], D3DDDIARG_CREATEVERTEXSHADERFUNC, d3dumddi/D3DDDIARG_CREATEVERTEXSHADERFUNC, _D3DDDIARG_CREATEVERTEXSHADERFUNC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,5 +97,5 @@ For more information about programming shader assemblers, see <a href="https://m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEVERTEXSHADERFUNC structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEVERTEXSHADERFUNC structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

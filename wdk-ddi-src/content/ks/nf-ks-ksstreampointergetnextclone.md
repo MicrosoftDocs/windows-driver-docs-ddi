@@ -7,8 +7,8 @@ old-location: stream\ksstreampointergetnextclone.htm
 old-project: stream
 ms.assetid: b7f34d42-6044-43c6-85c8-ca3a6177c057
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsStreamPointerGetNextClone, avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, KsStreamPointerGetNextClone, KsStreamPointerGetNextClone function [Streaming Media Devices], stream.ksstreampointergetnextclone
+ms.date: 2/20/2018
+ms.keywords: avfunc_946c362b-9246-4d06-afce-e4597a16a91b.xml, stream.ksstreampointergetnextclone, KsStreamPointerGetNextClone function [Streaming Media Devices], KsStreamPointerGetNextClone, ks/KsStreamPointerGetNextClone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,17 +99,17 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerdelete.md">KsStreamPointerDelete</a>
 
 
 
- 
+<a href="..\ks\nf-ks-kspingetfirstclonestreampointer.md">KsPinGetFirstCloneStreamPointer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerGetNextClone function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerGetNextClone function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

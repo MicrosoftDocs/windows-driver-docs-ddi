@@ -7,8 +7,8 @@ old-location: ifsk\fs_information_class.htm
 old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fs_information_class, wdm/FileFsObjectIdInformation, wdm/FileFsSizeInformation, wdm/FileFsAttributeInformation, FileFsSizeInformation, wdm/FileFsDriverPathInformation, FileFsLabelInformation, FileFsAttributeInformation, wdm/FS_INFORMATION_CLASS, FileFsObjectIdInformation, wdm/FileFsVolumeFlagsInformation, wdm/FileFsLabelInformation, wdm/FileFsControlInformation, FileFsVolumeFlagsInformation, _FSINFOCLASS, wdm/FileFsSectorSizeInformation, wdm/FileFsDeviceInformation, wdm/FileFsFullSizeInformation, FileFsFullSizeInformation, *PFS_INFORMATION_CLASS, FileFsSectorSizeInformation, wdm/FileFsVolumeInformation, FileFsControlInformation, FS_INFORMATION_CLASS, FileFsDriverPathInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsDeviceInformation, FileFsVolumeInformation
+ms.date: 2/16/2018
+ms.keywords: FS_INFORMATION_CLASS, wdm/FileFsDeviceInformation, FileFsControlInformation, FileFsDeviceInformation, wdm/FileFsControlInformation, FileFsSizeInformation, *PFS_INFORMATION_CLASS, FileFsSectorSizeInformation, FileFsAttributeInformation, FileFsFullSizeInformation, wdm/FileFsFullSizeInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsObjectIdInformation, wdm/FileFsObjectIdInformation, FileFsLabelInformation, FileFsVolumeFlagsInformation, _FSINFOCLASS, wdm/FileFsVolumeInformation, wdm/FileFsDriverPathInformation, wdm/FileFsVolumeFlagsInformation, FileFsDriverPathInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsAttributeInformation, ifsk.fs_information_class, wdm/FS_INFORMATION_CLASS, wdm/FileFsSizeInformation, FileFsVolumeInformation, wdm/FileFsLabelInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	FS_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS
+req.typenames: "*PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 

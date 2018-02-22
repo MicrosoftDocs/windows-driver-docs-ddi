@@ -7,8 +7,8 @@ old-location: netvista\ndis_sriov_vf_vendor_device_id_info.htm
 old-project: netvista
 ms.assetid: ecf9f34a-ba05-4ad1-990c-b13d53fd78bb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_sriov_vf_vendor_device_id_info, *PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, _NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, ntddndis/NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, ntddndis/PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
+ms.date: 2/16/2018
+ms.keywords: PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, ntddndis/NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, _NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, netvista.ndis_sriov_vf_vendor_device_id_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO"
+req.typenames: NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO, *PNDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO
 ---
 
 # _NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure
@@ -122,15 +122,15 @@ A USHORT value that uniquely identifies the device type of the VF network adapte
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451814">OID_NIC_SWITCH_ALLOCATE_VF</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451913">OID_SRIOV_VF_VENDOR_DEVICE_ID</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -142,5 +142,5 @@ A USHORT value that uniquely identifies the device type of the VF network adapte
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SRIOV_VF_VENDOR_DEVICE_ID_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

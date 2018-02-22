@@ -7,8 +7,8 @@ old-location: audio\ksdatarange_audio.htm
 old-project: audio
 ms.assetid: 53631f26-8377-4ab5-83db-ed241c11643a
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PKSDATARANGE_AUDIO structure pointer [Audio Devices], PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], *PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO, ksmedia/PKSDATARANGE_AUDIO, audio.ksdatarange_audio, ksmedia/KSDATARANGE_AUDIO, aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml
+ms.date: 2/21/2018
+ms.keywords: aud-prop_9a59d4cd-4c84-4c22-8a36-741cf53ec08d.xml, PKSDATARANGE_AUDIO structure pointer [Audio Devices], ksmedia/PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO, PKSDATARANGE_AUDIO, ksmedia/KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO structure [Audio Devices], audio.ksdatarange_audio
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSDATARANGE_AUDIO
 product: Windows
 targetos: Windows
-req.typenames: KSDATARANGE_AUDIO, *PKSDATARANGE_AUDIO
+req.typenames: "*PKSDATARANGE_AUDIO, KSDATARANGE_AUDIO"
 ---
 
 # KSDATARANGE_AUDIO structure
@@ -123,5 +123,5 @@ For information about data ranges and intersection handling, see <a href="https:
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDATARANGE_AUDIO structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDATARANGE_AUDIO structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

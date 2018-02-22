@@ -7,8 +7,8 @@ old-location: whea\whea_processor_family_info.htm
 old-project: whea
 ms.assetid: cc20c2d6-c76b-4f72-9762-23b9aa5fe946
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: whea.whea_processor_family_info, *PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, _WHEA_PROCESSOR_FAMILY_INFO, whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications]
+ms.date: 2/20/2018
+ms.keywords: "_WHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO union [WHEA Drivers and Applications], whea.whea_processor_family_info, PWHEA_PROCESSOR_FAMILY_INFO union pointer [WHEA Drivers and Applications], whearef_f15c7bb5-aee5-4a59-9869-285828d92b5e.xml, ntddk/PWHEA_PROCESSOR_FAMILY_INFO, ntddk/WHEA_PROCESSOR_FAMILY_INFO, PWHEA_PROCESSOR_FAMILY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_PROCESSOR_FAMILY_INFO
 product: Windows
 targetos: Windows
-req.typenames: WHEA_PROCESSOR_FAMILY_INFO, *PWHEA_PROCESSOR_FAMILY_INFO
+req.typenames: "*PWHEA_PROCESSOR_FAMILY_INFO, WHEA_PROCESSOR_FAMILY_INFO"
 ---
 
 # _WHEA_PROCESSOR_FAMILY_INFO structure
@@ -83,54 +83,54 @@ typedef union _WHEA_PROCESSOR_FAMILY_INFO {
  
 
 
-### -field DUMMYSTRUCTNAME.Stepping
+### -field AsULONGLONG
+
+A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
+
+
+#### - Stepping
 
 The stepping of the processor.
 
 
-### -field DUMMYSTRUCTNAME.Model
+#### - Model
 
 The processor model identifier.
 
 
-### -field DUMMYSTRUCTNAME.Family
+#### - Family
 
 The processor family identifier.
 
 
-### -field DUMMYSTRUCTNAME.ProcessorType
+#### - ProcessorType
 
 The processor type identifier.
 
 
-### -field DUMMYSTRUCTNAME.Reserved1
+#### - Reserved1
 
 Reserved for system use.
 
 
-### -field DUMMYSTRUCTNAME.ExtendedModel
+#### - ExtendedModel
 
 The extended processor model identifier.
 
 
-### -field DUMMYSTRUCTNAME.ExtendedFamily
+#### - ExtendedFamily
 
 The extended processor family identifier.
 
 
-### -field DUMMYSTRUCTNAME.Reserved2
+#### - Reserved2
 
 Reserved for system use.
 
 
-### -field DUMMYSTRUCTNAME.Reserved3
+#### - Reserved3
 
 Reserved for system use.
-
-
-### -field AsULONGLONG
-
-A ULONGLONG representation of the contents of the WHEA_PROCESSOR_FAMILY_INFO union.
 
 
 ## -remarks
@@ -154,5 +154,5 @@ The contents of this union are obtained by executing the CPUID instruction with 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PROCESSOR_FAMILY_INFO union%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PROCESSOR_FAMILY_INFO union%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

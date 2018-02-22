@@ -4,11 +4,11 @@ title: UcmTcpciPortControllerStop function
 author: windows-driver-content
 description: Indicates to the UcmTcpciCx class extension to stop sending hardware requests to the port controller object.
 old-location: buses\ucmtcpciportcontrollerstop.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 5d1dd418-5a2f-448f-ae65-695c4f97ff29
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses.ucmtcpciportcontrollerstop, UcmTcpciPortControllerStop, UcmTcpciPortControllerStop method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerStop
+ms.date: 2/15/2018
+ms.keywords: UcmTcpciPortControllerStop method [Buses], ucmtcpciportcontroller/UcmTcpciPortControllerStop, UcmTcpciPortControllerStop, buses.ucmtcpciportcontrollerstop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,5 +113,5 @@ Stopping the controller ends any active PD contract and the Type-C connection.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcmTcpciPortControllerStop method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UcmTcpciPortControllerStop method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

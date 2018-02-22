@@ -7,8 +7,8 @@ old-location: gpio\gpio_connect_io_pins_mode.htm
 old-project: GPIO
 ms.assetid: 17E98D35-8C63-4EEC-B8DD-896FA2B084A8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: ConnectModeInvalid, gpioclx/ConnectModeInvalid, gpioclx/GPIO_CONNECT_IO_PINS_MODE, GPIO.gpio_connect_io_pins_mode, *PGPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeInput, ConnectModeInput, GPIO_CONNECT_IO_PINS_MODE, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], ConnectModeOutput, ConnectModeMaximum, gpioclx/ConnectModeMaximum, gpioclx/ConnectModeOutput, _GPIO_CONNECT_IO_PINS_MODE
+ms.date: 2/15/2018
+ms.keywords: ConnectModeInvalid, gpioclx/GPIO_CONNECT_IO_PINS_MODE, GPIO.gpio_connect_io_pins_mode, gpioclx/ConnectModeMaximum, gpioclx/ConnectModeInvalid, ConnectModeMaximum, gpioclx/ConnectModeInput, _GPIO_CONNECT_IO_PINS_MODE, gpioclx/ConnectModeOutput, GPIO_CONNECT_IO_PINS_MODE enumeration [Parallel Ports], ConnectModeInput, *PGPIO_CONNECT_IO_PINS_MODE, ConnectModeOutput, GPIO_CONNECT_IO_PINS_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -103,7 +103,7 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406483">IOCTL_GPIO_READ_PINS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439502">GPIO_CONNECT_IO_PINS_PARAMETERS</a>
 
 
 
@@ -111,7 +111,7 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439502">GPIO_CONNECT_IO_PINS_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406483">IOCTL_GPIO_READ_PINS</a>
 
 
 
@@ -119,5 +119,5 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_CONNECT_IO_PINS_MODE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_CONNECT_IO_PINS_MODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

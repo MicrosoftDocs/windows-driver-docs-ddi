@@ -7,8 +7,8 @@ old-location: wdf\iwdfremoteinterfaceinitialize_getinterfaceguid.htm
 old-project: wdf
 ms.assetid: 3c68d458-9b34-4e45-993a-67f915347637
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize::GetInterfaceGuid, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid, GetInterfaceGuid method, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid
+ms.date: 2/20/2018
+ms.keywords: GetInterfaceGuid method, IWDFRemoteInterfaceInitialize interface, wdf.iwdfremoteinterfaceinitialize_getinterfaceguid, GetInterfaceGuid, UMDFIoTargetObjectRef_bbc014c0-b69e-4109-be81-a86d93104ad4.xml, wudfddi/IWDFRemoteInterfaceInitialize::GetInterfaceGuid, IWDFRemoteInterfaceInitialize interface, GetInterfaceGuid method, umdf.iwdfremoteinterfaceinitialize_getinterfaceguid, IWDFRemoteInterfaceInitialize, GetInterfaceGuid method, IWDFRemoteInterfaceInitialize::GetInterfaceGuid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteInterfaceInitialize.GetInterfaceGuid
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -131,5 +131,5 @@ CMyDevice::OnRemoteInterfaceArrival(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteInterfaceInitialize::GetInterfaceGuid method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteInterfaceInitialize::GetInterfaceGuid method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

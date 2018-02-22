@@ -7,8 +7,8 @@ old-location: ifsk\token_control.htm
 old-project: ifsk
 ms.assetid: 3e0d41f4-4918-4768-a341-25d27f0a8af0
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: TOKEN_CONTROL structure [Installable File System Drivers], ntifs/PTOKEN_CONTROL, PTOKEN_CONTROL, _TOKEN_CONTROL, ifsk.token_control, TOKEN_CONTROL, PTOKEN_CONTROL structure pointer [Installable File System Drivers], securitystructures_26958d39-4a12-4979-b0cc-7a880e3d2384.xml, *PTOKEN_CONTROL, ntifs/TOKEN_CONTROL
+ms.date: 2/16/2018
+ms.keywords: "*PTOKEN_CONTROL, ntifs/PTOKEN_CONTROL, ifsk.token_control, _TOKEN_CONTROL, securitystructures_26958d39-4a12-4979-b0cc-7a880e3d2384.xml, ntifs/TOKEN_CONTROL, TOKEN_CONTROL, TOKEN_CONTROL structure [Installable File System Drivers], PTOKEN_CONTROL structure pointer [Installable File System Drivers], PTOKEN_CONTROL"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,15 +96,7 @@ Specifies a <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a> struct
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
-
-
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
 
 
 
@@ -112,7 +104,7 @@ Specifies a <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a> struct
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
@@ -120,19 +112,27 @@ Specifies a <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a> struct
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_statistics.md">TOKEN_STATISTICS</a>
 
 
 
 <a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
 
 
@@ -144,5 +144,5 @@ Specifies a <a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a> struct
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_CONTROL structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_CONTROL structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: pci\vpci_pnp_id.htm
 old-project: PCI
 ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VPCI_PNP_ID, VPCI_PNP_ID structure [Buses], *PVPCI_PNP_ID, PCI.vpci_pnp_id, _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID
+ms.date: 2/15/2018
+ms.keywords: "*PVPCI_PNP_ID, PCI.vpci_pnp_id, pcivirt/VPCI_PNP_ID, _VPCI_PNP_ID, VPCI_PNP_ID, VPCI_PNP_ID structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,5 +124,5 @@ Vendor-defined subsystem identifier.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20VPCI_PNP_ID structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20VPCI_PNP_ID structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

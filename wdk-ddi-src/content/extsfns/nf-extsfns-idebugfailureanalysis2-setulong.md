@@ -4,11 +4,11 @@ title: IDebugFailureAnalysis2::SetUlong method
 author: windows-driver-content
 description: The SetUlong method searches a DebugFailureAnalysis object for the first FA entry that has a specified tag. If it finds an FA entry with the specified tag, it sets (overwrites) the data block of the FA entry to a specified ULONG value.
 old-location: debugger\idebugfailureanalysis2_setulong.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 90C0AAE1-EE79-4347-B6F1-276DBF84F7BC
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetUlong, SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, SetUlong method [Windows Debugging], extsfns/IDebugFailureAnalysis2::SetUlong, debugger.idebugfailureanalysis2_setextensionulong, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method, IDebugFailureAnalysis2::SetUlong, debugger.idebugfailureanalysis2_setulong, IDebugFailureAnalysis2
+ms.date: 2/15/2018
+ms.keywords: SetUlong, IDebugFailureAnalysis2::SetUlong, debugger.idebugfailureanalysis2_setulong, debugger.idebugfailureanalysis2_setextensionulong, SetUlong method [Windows Debugging], extsfns/IDebugFailureAnalysis2::SetUlong, IDebugFailureAnalysis2, SetUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2 interface [Windows Debugging], SetUlong method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,11 +100,11 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj983409">AddUlong</a>
-
-
-
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -112,17 +112,17 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+
+
+
 <a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::SetUlong method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugFailureAnalysis2::SetUlong method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

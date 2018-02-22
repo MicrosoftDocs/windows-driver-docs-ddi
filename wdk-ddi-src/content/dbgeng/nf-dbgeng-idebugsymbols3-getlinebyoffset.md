@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetLineByOffset method
 author: windows-driver-content
 description: The GetLineByOffset method returns the source filename and the line number within the source file of an instruction in the target.
 old-location: debugger\getlinebyoffset.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1b470ae8-49d3-467d-aa08-08bd9c9e9466
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, dbgeng/IDebugSymbols::GetLineByOffset, IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols3::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols interface, GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, IDebugSymbols2, debugger.getlinebyoffset, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols3::GetLineByOffset, IDebugSymbols, IDebugSymbols2::GetLineByOffset, IDebugSymbols3, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetLineByOffset method, dbgeng/IDebugSymbols2::GetLineByOffset, dbgeng/IDebugSymbols::GetLineByOffset, IDebugSymbols3::GetLineByOffset, IDebugSymbols_2ed557af-4f84-46d7-be40-fd37a87cd960.xml, GetLineByOffset, IDebugSymbols::GetLineByOffset, IDebugSymbols2::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::GetLineByOffset, GetLineByOffset method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols interface [Windows Debugging], GetLineByOffset method, IDebugSymbols, debugger.getlinebyoffset, IDebugSymbols3 interface [Windows Debugging], GetLineByOffset method, IDebugSymbols3, GetLineByOffset method [Windows Debugging], IDebugSymbols2, GetLineByOffset method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetLineByOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetLineByOffset method
@@ -154,15 +154,7 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548022">GetOffsetByLine</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -170,9 +162,17 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548022">GetOffsetByLine</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetLineByOffset method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetLineByOffset method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

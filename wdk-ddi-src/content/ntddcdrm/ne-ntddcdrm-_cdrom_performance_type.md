@@ -7,8 +7,8 @@ old-location: storage\cdrom_performance_type.htm
 old-project: storage
 ms.assetid: 1039D4CB-11BA-4131-8CCE-7DCEE4B849D3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], CdromReadPerformance, ntddcdrm/CDROM_PERFORMANCE_TYPE, ntddcdrm/PCDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, *PCDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, storage.cdrom_performance_type, CdromWritePerformance, PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices]"
+ms.date: 2/16/2018
+ms.keywords: CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], ntddcdrm/PCDROM_PERFORMANCE_TYPE, ntddcdrm/CDROM_PERFORMANCE_TYPE, CdromWritePerformance, CdromReadPerformance, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], storage.cdrom_performance_type, ntddcdrm/CdromReadPerformance, _CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_PERFORMANCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE"
+req.typenames: CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE
 ---
 
 # _CDROM_PERFORMANCE_TYPE enumeration
@@ -92,5 +92,5 @@ Requests streaming write performance data.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_PERFORMANCE_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_PERFORMANCE_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

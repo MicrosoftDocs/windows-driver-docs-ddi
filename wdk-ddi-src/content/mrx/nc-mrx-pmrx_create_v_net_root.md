@@ -7,8 +7,8 @@ old-location: ifsk\mrxcreatevnetroot.htm
 old-project: ifsk
 ms.assetid: 8cd5aa01-c814-4737-9088-0361e6ee9a61
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.mrxcreatevnetroot, MRxCreateVNetRoot routine [Installable File System Drivers], MRxCreateVNetRoot, PMRX_CREATE_V_NET_ROOT, PMRX_CREATE_V_NET_ROOT, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.mrxcreatevnetroot, MRxCreateVNetRoot, MRxCreateVNetRoot routine [Installable File System Drivers], MRxCreateVNetRoot, PMRX_CREATE_V_NET_ROOT, PMRX_CREATE_V_NET_ROOT, mrx/MRxCreateVNetRoot, mrxref_8d77acec-f7a5-40c6-8543-421c5c1f79f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -192,19 +192,7 @@ When <i>MRxCreateVNetRoot</i> completes, the <i>pCreateNetRootContext</i> parame
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550649">MRxExtractNetRootName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550824">MRxSrvCallWinnerNotify</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
+<a href="..\mrx\nc-mrx-pmrx_finalize_net_root_calldown.md">MRxFinalizeNetRoot</a>
 
 
 
@@ -212,23 +200,35 @@ When <i>MRxCreateVNetRoot</i> completes, the <i>pCreateNetRootContext</i> parame
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
-
-
-
 <a href="..\rxworkq\nf-rxworkq-rxdispatchtoworkerthread.md">RxDispatchToWorkerThread</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550656">MRxFinalizeSrvCall</a>
+<a href="..\mrx\nc-mrx-pmrx_extract_netroot_name.md">MRxExtractNetRootName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550750">MRxPreparseName</a>
+<a href="..\mrx\nc-mrx-pmrx_srvcall_winner_notify.md">MRxSrvCallWinnerNotify</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550653">MRxFinalizeNetRoot</a>
+<a href="..\mrx\nc-mrx-pmrx_preparse_name.md">MRxPreparseName</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_create_srvcall.md">MRxCreateSrvCall</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_finalize_v_net_root_calldown.md">MRxFinalizeVNetRoot</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_finalize_srvcall_calldown.md">MRxFinalizeSrvCall</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
 
 
 
@@ -236,5 +236,5 @@ When <i>MRxCreateVNetRoot</i> completes, the <i>pCreateNetRootContext</i> parame
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20MRxCreateVNetRoot routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CREATE_V_NET_ROOT routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

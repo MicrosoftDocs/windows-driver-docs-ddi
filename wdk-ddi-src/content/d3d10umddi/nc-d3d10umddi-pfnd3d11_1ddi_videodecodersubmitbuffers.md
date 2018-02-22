@@ -7,7 +7,7 @@ old-location: display\videodecodersubmitbuffers.htm
 old-project: display
 ms.assetid: fc1644d8-9058-4100-8e3e-f4727af89773
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.videodecodersubmitbuffers, pfnVideoDecoderSubmitBuffers callback function [Display Devices], pfnVideoDecoderSubmitBuffers, PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS, PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS, d3d10umddi/pfnVideoDecoderSubmitBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoDecoderSubmitBuffers
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback
@@ -78,16 +78,15 @@ HRESULT APIENTRY* pfnVideoDecoderSubmitBuffers(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HDECODE
-
 
 
 ### -param UINT
 
 
-
 ### -param *
+
+
 
 
 
@@ -121,7 +120,9 @@ A pointer to an array of one or more  <a href="..\d3d10umddi\ns-d3d10umddi-d3d11
 ## -returns
 
 
+
 <b>VideoDecoderSubmitBuffers</b> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -150,17 +151,21 @@ The video buffers were submitted successfully.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 The <i>pBufferDesc</i> parameter points to an array of one or more  <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoderr_buffer_desc.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structures. Each element in the array describes a compressed video frame buffer that is submitted for decoding.
 
 
 Each <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoderr_buffer_desc.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a> structure includes the following data:
+
 <ul>
 <li>
 The resource that will receive the decrypted and decode frame buffers.
@@ -178,22 +183,33 @@ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3
 <div class="alert"><b>Note</b>  If the decode buffer does not contain any encrypted data, this pointer is set to NULL.</div>
 <div> </div>
 </li>
-</ul><div class="alert"><b>Note</b>  This function does not honor a Microsoft Direct3D 11 predicate that may have been set.</div><div> </div>
+</ul>
+<div class="alert"><b>Note</b>  This function does not honor a Microsoft Direct3D 11 predicate that may have been set.</div>
+<div> </div>
+
 
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoderr_buffer_desc.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+
+
 
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_aes_ctr_iv.md">D3D11_1DDI_AES_CTR_IV</a>
 
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_decoderr_buffer_desc.md">D3D11_1DDI_VIDEO_DECODER_BUFFER_DESC</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_encrypted_block_info.md">D3D11_1DDI_ENCRYPTED_BLOCK_INFO</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideodecoder.md">CreateVideoDecoder</a>
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEODECODERSUBMITBUFFERS callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

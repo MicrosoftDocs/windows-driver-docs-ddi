@@ -7,8 +7,8 @@ old-location: ifsk\fltcreatesystemvolumeinformationfolder.htm
 old-project: ifsk
 ms.assetid: 1da9bd59-d45e-40e0-9947-c4f56309acc7
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, fltkernel/FltCreateSystemVolumeInformationFolder, ifsk.fltcreatesystemvolumeinformationfolder, FltCreateSystemVolumeInformationFolder
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltcreatesystemvolumeinformationfolder, FltCreateSystemVolumeInformationFolder function [Installable File System Drivers], fltkernel/FltCreateSystemVolumeInformationFolder, FltApiRef_a_to_d_cceaf5ba-8497-4026-94af-8b59afe9c24d.xml, FltCreateSystemVolumeInformationFolder
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,11 +118,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlcreatesystemvolumeinformationfolder.md">RtlCreateSystemVolumeInformationFolder</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
@@ -134,5 +134,5 @@ For more information about security and access control, see the documentation on
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateSystemVolumeInformationFolder function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateSystemVolumeInformationFolder function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

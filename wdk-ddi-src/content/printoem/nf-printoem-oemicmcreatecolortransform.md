@@ -7,8 +7,8 @@ old-location: print\oemicmcreatecolortransform.htm
 old-project: print
 ms.assetid: 995fdac4-e958-4eed-ba3a-7be0349dec59
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.oemicmcreatecolortransform, printoem/OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices], OEMIcmCreateColorTransform, print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml
+ms.date: 2/21/2018
+ms.keywords: print.oemicmcreatecolortransform, print_unidrv-pscript_rendering_102b853d-78f9-4e06-a3e5-c76f55caa42e.xml, OEMIcmCreateColorTransform, OEMIcmCreateColorTransform function [Print Devices], printoem/OEMIcmCreateColorTransform
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

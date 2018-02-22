@@ -7,7 +7,7 @@ old-location: display\dxgkddisetpalette.htm
 old-project: display
 ms.assetid: 3a46bf84-df62-4247-b842-d5b131c96428
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddisetpalette, DxgkDdiSetPalette callback function [Display Devices], DxgkDdiSetPalette, DXGKDDI_SETPALETTE, DXGKDDI_SETPALETTE, d3dkmddi/DxgkDdiSetPalette, DmFunctions_88e6fd1a-1c14-4a4e-8616-c508b07ed94e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,11 +84,14 @@ NTSTATUS APIENTRY DxgkDdiSetPalette(
 ## -returns
 
 
+
 <i>DxgkDdiSetPalette</i> returns STATUS_SUCCESS, or an appropriate error result if the display palette is not successfully set. 
 
 
 
+
 ## -remarks
+
 
 
 Implementation of the <i>DxgkDdiSetPalette</i> function in the Windows Vista display driver model replaces <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_color_registers.md">IOCTL_VIDEO_SET_COLOR_REGISTERS</a> functionality in the Windows 2000 display driver model.
@@ -97,17 +100,24 @@ Implementation of the <i>DxgkDdiSetPalette</i> function in the Windows Vista dis
 
 
 
+
 ## -see-also
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkarg_setpalette.md">DXGKARG_SETPALETTE</a>
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
- 
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkarg_setpalette.md">DXGKARG_SETPALETTE</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_palettedata.md">D3DKMDT_PALETTEDATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_SETPALETTE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_SETPALETTE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

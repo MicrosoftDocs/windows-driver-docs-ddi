@@ -7,8 +7,8 @@ old-location: netvista\rilpersodeactivationstateparammask.htm
 old-project: netvista
 ms.assetid: 11c4388b-5c0d-4133-9c68-059d1af5c2ca
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILPERSODEACTIVATIONSTATEPARAMMASK, ntddrilapitypes/RILPERSODEACTIVATIONSTATEPARAMMASK, ntddrilapitypes/RIL_PARAM_PDS_ALL, ntddrilapitypes/RIL_PARAM_PDS_CK_ATTEMPTS, netvista.rilpersodeactivationstateparammask, ntddrilapitypes/RIL_PARAM_PDS_PUK_ATTEMPTS, RIL_PARAM_PDS_ALL, RIL_PARAM_PDS_CK_ATTEMPTS, RIL_PARAM_PDS_PUK_ATTEMPTS, RILPERSODEACTIVATIONSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RIL_PARAM_PDS_CK_ATTEMPTS, ntddrilapitypes/RIL_PARAM_PDS_PUK_ATTEMPTS, ntddrilapitypes/RIL_PARAM_PDS_ALL, RILPERSODEACTIVATIONSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_PDS_ALL, ntddrilapitypes/RILPERSODEACTIVATIONSTATEPARAMMASK, RIL_PARAM_PDS_PUK_ATTEMPTS, RIL_PARAM_PDS_CK_ATTEMPTS, netvista.rilpersodeactivationstateparammask, RILPERSODEACTIVATIONSTATEPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

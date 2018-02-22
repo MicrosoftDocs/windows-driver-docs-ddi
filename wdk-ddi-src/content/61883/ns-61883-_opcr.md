@@ -7,8 +7,8 @@ old-location: ieee\opcr.htm
 old-project: IEEE
 ms.assetid: fbd6fa74-eb39-4240-947e-1edec1365a83
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "_OPCR, 61883/POPCR, 61883/OPCR, *POPCR, OPCR, IEEE.opcr, POPCR, POPCR structure pointer [Buses], OPCR structure [Buses], 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml"
+ms.date: 2/15/2018
+ms.keywords: POPCR structure pointer [Buses], *POPCR, 61883/OPCR, OPCR structure [Buses], 61883_structures_271facde-3b80-421f-a3d2-1f0e9b8e1782.xml, OPCR, 61883/POPCR, _OPCR, IEEE.opcr, POPCR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,5 +124,5 @@ Indicates, when one, that the corresponding output plug is on-line. When zero it
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20OPCR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20OPCR structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

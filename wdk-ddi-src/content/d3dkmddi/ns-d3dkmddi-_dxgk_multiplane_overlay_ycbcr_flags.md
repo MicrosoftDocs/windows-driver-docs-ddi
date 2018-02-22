@@ -7,8 +7,8 @@ old-location: display\dxgk_multiplane_overlay_ycbcr_flags.htm
 old-project: display
 ms.assetid: c3a463b1-fc6f-4834-87e5-1d694f2823f9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_multiplane_overlay_ycbcr_flags, _DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS
+ms.date: 2/20/2018
+ms.keywords: "_DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS structure [Display Devices], d3dkmddi/DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, DXGK_MULTIPLANE_OVERLAY_YCbCr_FLAGS, display.dxgk_multiplane_overlay_ycbcr_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,7 +103,7 @@ This member is reserved and should be set to zero.
 Setting this member to zero is equivalent to setting the remaining 29 bits (0xFFFFFFF8) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that identifies the type of blend operation to perform.
 

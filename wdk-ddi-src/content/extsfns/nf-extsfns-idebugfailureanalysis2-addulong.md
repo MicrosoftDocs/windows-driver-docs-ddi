@@ -4,11 +4,11 @@ title: IDebugFailureAnalysis2::AddUlong method
 author: windows-driver-content
 description: The AddUlong method adds a new FA entry to a DebugFailureAnalysis object and sets the data block of the FA entry to a specified ULONG value.
 old-location: debugger\idebugfailureanalysis2_addulong.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 22F56E3F-9ED4-464D-B97C-1B322E1F8D66
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: extsfns/IDebugFailureAnalysis2::AddUlong, AddUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, AddUlong method [Windows Debugging], debugger.idebugfailureanalysis2_addulong, IDebugFailureAnalysis2::AddUlong, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddUlong method, AddUlong
+ms.date: 2/15/2018
+ms.keywords: debugger.idebugfailureanalysis2_addulong, AddUlong, AddUlong method [Windows Debugging], IDebugFailureAnalysis2 interface, IDebugFailureAnalysis2, IDebugFailureAnalysis2 interface [Windows Debugging], AddUlong method, AddUlong method [Windows Debugging], extsfns/IDebugFailureAnalysis2::AddUlong, IDebugFailureAnalysis2::AddUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,7 @@ To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDeb
 
 ## -see-also
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
 
 
 
@@ -108,11 +108,7 @@ To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDeb
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -120,9 +116,13 @@ To get a pointer to an <a href="..\extsfns\nn-extsfns-idebugfaentrytags.md">IDeb
 
 
 
- 
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugFailureAnalysis2::AddUlong method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugFailureAnalysis2::AddUlong method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

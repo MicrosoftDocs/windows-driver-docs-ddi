@@ -7,8 +7,8 @@ old-location: netvista\ndisifallocatenetluidindex.htm
 old-project: netvista
 ms.assetid: bc62da04-242a-4d9a-8a85-2342a1b3e628
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml, ndis/NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex, netvista.ndisifallocatenetluidindex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ndis/NdisIfAllocateNetLuidIndex, NdisIfAllocateNetLuidIndex function [Network Drivers Starting with Windows Vista], NdisIfAllocateNetLuidIndex, netvista.ndisifallocatenetluidindex, net_if_functions_ref_3ffcc5c8-7475-475d-8732-dc59ee632285.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,7 +173,7 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 
@@ -181,7 +181,7 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 
 
-<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 
@@ -189,5 +189,5 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfAllocateNetLuidIndex function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfAllocateNetLuidIndex function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

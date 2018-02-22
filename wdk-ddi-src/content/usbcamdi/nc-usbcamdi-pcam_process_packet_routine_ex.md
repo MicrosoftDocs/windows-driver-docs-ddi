@@ -7,7 +7,7 @@ old-location: stream\camprocessusbpacketex.htm
 old-project: stream
 ms.assetid: 9f69b2f0-6e55-440f-98ab-35d8faddf933
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.camprocessusbpacketex, CamProcessUSBPacketEx, CamProcessUSBPacketEx routine [Streaming Media Devices], CamProcessUSBPacketEx, PCAM_PROCESS_PACKET_ROUTINE_EX, PCAM_PROCESS_PACKET_ROUTINE_EX, usbcamdi/CamProcessUSBPacketEx, usbcmdpr_bd37e77c-386b-4b94-ad7c-8b1c5c26799a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -123,6 +123,7 @@ Pointer to a BOOLEAN value that the camera minidriver sets to indicate whether t
 ### -param PacketFlag
 
 Pointer to a value that the minidriver sets to indicate the contents of the current frame. It should be set to one of the following values:
+
 <table>
 <tr>
 <th>Flag</th>
@@ -158,7 +159,8 @@ The current frame is for the still pin.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -param ValidDataOffset
@@ -169,11 +171,14 @@ Pointer to a ULONG value that indicates an offset from the beginning of the pack
 ## -returns
 
 
+
 This function returns the number of bytes that should be copied.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver should complete its <b>CamProcessUSBPacketEx</b> function as quickly as possible. Image processing should be deferred to the <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a> function.
@@ -186,15 +191,20 @@ This function is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
+
+
 <a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PCAM_PROCESS_PACKET_ROUTINE_EX routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PCAM_PROCESS_PACKET_ROUTINE_EX routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2issuequery.htm
 old-project: display
 ms.assetid: e7870f7a-545e-43eb-99c5-42a740585c43
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY structure [Display Devices], d3dstrct_bc6a2c98-b3cf-4161-8aca-fadda2a6cceb.xml, D3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY structure pointer [Display Devices], display.d3dhal_dp2issuequery, d3dhal/LPD3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY, *LPD3DHAL_DP2ISSUEQUERY, d3dhal/D3DHAL_DP2ISSUEQUERY"
+ms.date: 2/20/2018
+ms.keywords: "_D3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY, D3DHAL_DP2ISSUEQUERY structure [Display Devices], d3dhal/D3DHAL_DP2ISSUEQUERY, *LPD3DHAL_DP2ISSUEQUERY, display.d3dhal_dp2issuequery, D3DHAL_DP2ISSUEQUERY, LPD3DHAL_DP2ISSUEQUERY structure pointer [Display Devices], d3dhal/LPD3DHAL_DP2ISSUEQUERY, d3dstrct_bc6a2c98-b3cf-4161-8aca-fadda2a6cceb.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,7 +133,7 @@ The runtime uses D3DHAL_DP2ISSUEQUERY to identify each query that the driver mus
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
 
 
 
@@ -141,11 +141,11 @@ The runtime uses D3DHAL_DP2ISSUEQUERY to identify each query that the driver mus
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createquery.md">D3DHAL_DP2CREATEQUERY</a>
-
-
-
 <a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 
@@ -157,5 +157,5 @@ D3DDP2OP_ISSUEQUERY
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2ISSUEQUERY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2ISSUEQUERY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

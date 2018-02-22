@@ -7,8 +7,8 @@ old-location: kernel\bdcb_status_update_type.htm
 old-project: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: BdCbStatusPrepareForUnload, ntddk/BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, kernel.bdcb_status_update_type, BdCbStatusPrepareForDependecyLoad, ntddk/BdCbStatusPrepareForUnload, ntddk/BdCbStatusPrepareForDependecyLoad, *PBDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDriverLoad
+ms.date: 2/16/2018
+ms.keywords: BDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForUnload, ntddk/BdCbStatusPrepareForUnload, *PBDCB_STATUS_UPDATE_TYPE, ntddk/BDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForDependecyLoad, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], kernel.bdcb_status_update_type, BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,17 +89,17 @@ Windows will start loading driver dependencies next.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_bdcb_status_update_context.md">BDCB_STATUS_UPDATE_CONTEXT</a>
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-ioregisterbootdrivercallback.md">BOOT_DRIVER_CALLBACK_FUNCTION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20BDCB_STATUS_UPDATE_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20BDCB_STATUS_UPDATE_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

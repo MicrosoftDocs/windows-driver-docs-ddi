@@ -4,11 +4,11 @@ title: "_USBDEVICE_ADDRESS"
 author: windows-driver-content
 description: Contains parameters for a request to transition the specified device to the Addressed state. This structure is passed by UCX in request parameters (Parameters.Others.Arg1) of a framework request object of the EVT_UCX_USBDEVICE_ADDRESS callback function.
 old-location: buses\_usbdevice_address.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 2CD37F1E-B96A-4D18-A756-2B9E3CB8613B
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ucxusbdevice/P_USBDEVICE_ADDRESS, USBDEVICE_ADDRESS, _USBDEVICE_ADDRESS, *PUSBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS structure pointer [Buses], buses._usbdevice_address, USBDEVICE_ADDRESS structure [Buses], ucxusbdevice/_USBDEVICE_ADDRESS
+ms.date: 2/15/2018
+ms.keywords: P_USBDEVICE_ADDRESS structure pointer [Buses], buses._usbdevice_address, USBDEVICE_ADDRESS, P_USBDEVICE_ADDRESS, USBDEVICE_ADDRESS structure [Buses], ucxusbdevice/P_USBDEVICE_ADDRESS, *PUSBDEVICE_ADDRESS, _USBDEVICE_ADDRESS, ucxusbdevice/_USBDEVICE_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,5 +99,5 @@ The address of the specified the USB hub or device.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBDEVICE_ADDRESS structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBDEVICE_ADDRESS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\rtlcreatesecuritydescriptorrelative.htm
 old-project: ifsk
 ms.assetid: feb9600a-e8ce-449a-8da8-2d9a2f10f581
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml, ifsk.rtlcreatesecuritydescriptorrelative, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers], RtlCreateSecurityDescriptorRelative, ntifs/RtlCreateSecurityDescriptorRelative
+ms.date: 2/16/2018
+ms.keywords: ifsk.rtlcreatesecuritydescriptorrelative, rtlref_3130b278-4976-4371-952f-ab6fddeda7a9.xml, ntifs/RtlCreateSecurityDescriptorRelative, RtlCreateSecurityDescriptorRelative routine [Installable File System Drivers], RtlCreateSecurityDescriptorRelative
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,7 +134,15 @@ For more information about security and access control, see the documentation on
 
 
 
+<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 
@@ -146,17 +154,9 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlsetownersecuritydescriptor.md">RtlSetOwnerSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlCreateSecurityDescriptorRelative routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlCreateSecurityDescriptorRelative routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

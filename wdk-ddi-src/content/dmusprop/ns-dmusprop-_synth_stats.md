@@ -7,8 +7,8 @@ old-location: audio\synth_stats.htm
 old-project: audio
 ms.assetid: bbe3552b-0289-4f7f-bdaa-8a6437594247
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: "*PSYNTH_STATS, dmusprop/SYNTH_STATS, PSYNTH_STATS, _SYNTH_STATS, SYNTH_STATS, dmusprop/PSYNTH_STATS, SYNTH_STATS structure [Audio Devices], aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml, PSYNTH_STATS structure pointer [Audio Devices], audio.synth_stats"
+ms.date: 2/21/2018
+ms.keywords: PSYNTH_STATS structure pointer [Audio Devices], SYNTH_STATS structure [Audio Devices], PSYNTH_STATS, audio.synth_stats, *PSYNTH_STATS, _SYNTH_STATS, SYNTH_STATS, dmusprop/PSYNTH_STATS, dmusprop/SYNTH_STATS, aud-prop_04ed015d-56c6-4275-8025-66e67ee6ce87.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -171,5 +171,5 @@ The SYNTH_STATS structure is similar to the DMUS_SYNTHSTATS structure, which is 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYNTH_STATS structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20SYNTH_STATS structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

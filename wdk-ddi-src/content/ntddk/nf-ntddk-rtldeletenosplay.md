@@ -7,8 +7,8 @@ old-location: ifsk\rtldeletenosplay.htm
 old-project: ifsk
 ms.assetid: 09d8096a-71f9-4e9d-a66b-282424394b76
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntddk/RtlDeleteNoSplay, RtlDeleteNoSplay routine [Installable File System Drivers], RtlDeleteNoSplay, rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml, ifsk.rtldeletenosplay
+ms.date: 2/16/2018
+ms.keywords: rtlref_def5bfa8-367a-410e-8e3c-fdbf11cce05e.xml, RtlDeleteNoSplay routine [Installable File System Drivers], RtlDeleteNoSplay, ifsk.rtldeletenosplay, ntddk/RtlDeleteNoSplay
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,7 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
@@ -114,17 +110,21 @@ Callers of <b>RtlDeleteNoSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL 
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-rtldelete.md">RtlDelete</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDeleteNoSplay routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDeleteNoSplay routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

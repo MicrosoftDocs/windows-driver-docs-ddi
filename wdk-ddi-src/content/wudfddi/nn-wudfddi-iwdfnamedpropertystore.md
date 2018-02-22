@@ -7,7 +7,7 @@ old-location: wdf\iwdfnamedpropertystore.htm
 old-project: wdf
 ms.assetid: f31a88c1-468f-4756-a5fa-b4aa0b8fe51d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfnamedpropertystore, IWDFNamedPropertyStore interface, IWDFNamedPropertyStore interface, described, IWDFNamedPropertyStore, wudfddi/IWDFNamedPropertyStore, UMDFPropertyStoreObjectRef_139eb19f-8bb7-42ba-ab86-44f5f35e0faf.xml, umdf.iwdfnamedpropertystore
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

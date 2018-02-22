@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlgetsupportedfeatures.htm
 old-project: ifsk
 ms.assetid: 24852B9A-5156-41BB-87F9-81B147A85AC2
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: SUPPORTED_FS_FEATURES_OFFLOAD_WRITE, FsRtlGetSupportedFeatures, ifsk.fsrtlgetsupportedfeatures, FsRtlGetSupportedFeatures routine [Installable File System Drivers], SUPPORTED_FS_FEATURES_OFFLOAD_READ, ntifs/FsRtlGetSupportedFeatures
+ms.date: 2/16/2018
+ms.keywords: FsRtlGetSupportedFeatures routine [Installable File System Drivers], ifsk.fsrtlgetsupportedfeatures, SUPPORTED_FS_FEATURES_OFFLOAD_READ, FsRtlGetSupportedFeatures, ntifs/FsRtlGetSupportedFeatures, SUPPORTED_FS_FEATURES_OFFLOAD_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

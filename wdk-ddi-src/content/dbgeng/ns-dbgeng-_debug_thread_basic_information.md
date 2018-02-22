@@ -4,11 +4,11 @@ title: "_DEBUG_THREAD_BASIC_INFORMATION"
 author: windows-driver-content
 description: The DEBUG_THREAD_BASIC_INFORMATION structure describes an operating system thread.
 old-location: debugger\debug_thread_basic_information.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: e964ed63-6c00-4308-955c-f8a99490a248
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: PDEBUG_THREAD_BASIC_INFORMATION structure pointer [Windows Debugging], *PDEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION, debugger.debug_thread_basic_information, dbgeng/DEBUG_THREAD_BASIC_INFORMATION, dbgeng/PDEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION, Structures_e48c9daa-ce4f-4131-9ca6-cb1a7a129fcc.xml, _DEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION structure [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: debugger.debug_thread_basic_information, *PDEBUG_THREAD_BASIC_INFORMATION, Structures_e48c9daa-ce4f-4131-9ca6-cb1a7a129fcc.xml, PDEBUG_THREAD_BASIC_INFORMATION structure pointer [Windows Debugging], DEBUG_THREAD_BASIC_INFORMATION, dbgeng/PDEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION structure [Windows Debugging], dbgeng/DEBUG_THREAD_BASIC_INFORMATION, PDEBUG_THREAD_BASIC_INFORMATION, _DEBUG_THREAD_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_THREAD_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_THREAD_BASIC_INFORMATION, DEBUG_THREAD_BASIC_INFORMATION"
+req.typenames: DEBUG_THREAD_BASIC_INFORMATION, *PDEBUG_THREAD_BASIC_INFORMATION
 ---
 
 # _DEBUG_THREAD_BASIC_INFORMATION structure

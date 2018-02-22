@@ -7,7 +7,7 @@ old-location: stream\caminitialize.htm
 old-project: stream
 ms.assetid: a39f78b7-f749-40b8-952a-5442608b0f1f
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.caminitialize, CamInitialize, CamUnInitialize, MyInitialize routine [Streaming Media Devices], MyInitialize, PCAM_INITIALIZE_ROUTINE, PCAM_INITIALIZE_ROUTINE, usbcamdi/MyInitialize, usbcmdpr_77de14cb-6be6-441a-af16-ef5bf38d8d01.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,11 +85,14 @@ Pointer to the camera minidriver's device context.
 ## -returns
 
 
+
 <b>CamInitialize</b> returns STATUS_SUCCESS or an appropriate error code. 
 
 
 
+
 ## -remarks
+
 
 
 <b>About CamInitialize</b>
@@ -109,5 +112,6 @@ Whereas the stream class driver automatically resets values associated with the 
 <b>CamUnInitialize</b> is called by both versions 1.0 and 2.0 of USBCAMD.
 
 This function is required.
+
 
 

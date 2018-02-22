@@ -7,13 +7,13 @@ old-location: netvista\rilumtsmrlparammask.htm
 old-project: netvista
 ms.assetid: ba1f48ab-f301-4ae8-b56e-92eb6e3601f2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UMTSMRL_MNC, rilapitypes/RIL_PARAM_UMTSMRL_MNC, rilapitypes/RIL_PARAM_UMTSMRL_LAC, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, rilapitypes/RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, RIL_PARAM_UMTSMRL_CELLID, rilapitypes/RIL_PARAM_UMTSMRL_ALL, rilapitypes/RIL_PARAM_UMTSMRL_RSCP, RILUMTSMRLPARAMMASK, RIL_PARAM_UMTSMRL_ALL, RIL_PARAM_UMTSMRL_LAC, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN, RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_RSCP, netvista.rilumtsmrlparammask, rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_MCC, RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RILUMTSMRLPARAMMASK, RIL_PARAM_UMTSMRL_PATHLOSS
+ms.date: 2/16/2018
+ms.keywords: RIL_PARAM_UMTSMRL_RSCP, RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_RSCP, RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_CELLID, rilapitypes/RIL_PARAM_UMTSMRL_PRIMARY_SC, rilapitypes/RIL_PARAM_UMTSMRL_ALL, rilapitypes/RILUMTSMRLPARAMMASK, RIL_PARAM_UMTSMRL_ALL, rilapitypes/RIL_PARAM_UMTSMRL_ECNO, RIL_PARAM_UMTSMRL_MNC, RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RIL_PARAM_UMTSMRL_PATHLOSS, RILUMTSMRLPARAMMASK, RIL_PARAM_UMTSMRL_PRIMARY_SC, RIL_PARAM_UMTSMRL_PATHLOSS, RILUMTSMRLPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_UMTSMRL_LAC, rilapitypes/RIL_PARAM_UMTSMRL_MNC, rilapitypes/RIL_PARAM_UMTSMRL_MCC, rilapitypes/RIL_PARAM_UMTSMRL_CELLID, rilapitypes/RIL_PARAM_UMTSMRL_UARFCN, rilapitypes/RIL_PARAM_UMTSMRL_LAC, netvista.rilumtsmrlparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -529,5 +529,5 @@ No
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUMTSMRLPARAMMASK enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILUMTSMRLPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

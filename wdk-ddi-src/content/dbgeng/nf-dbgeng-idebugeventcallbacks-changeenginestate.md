@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::ChangeEngineState method
 author: windows-driver-content
 description: The ChangeEngineState callback method is called by the engine when its state has changed.
 old-location: debugger\idebugeventcallbacks_changeenginestate.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 42ad993a-b12e-49ff-8a1f-f62e2ab968d3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ChangeEngineState method [Windows Debugging], dbgeng/IDebugEventCallbacks::ChangeEngineState, ChangeEngineState, IDebugEventCallbacks, ComCallbacks_fafc4238-0565-410b-9e00-1cbce74737f4.xml, ChangeEngineState method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::ChangeEngineState, IDebugEventCallbacks interface [Windows Debugging], ChangeEngineState method, debugger.idebugeventcallbacks_changeenginestate
+ms.date: 2/15/2018
+ms.keywords: debugger.idebugeventcallbacks_changeenginestate, ChangeEngineState method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks::ChangeEngineState, IDebugEventCallbacks interface [Windows Debugging], ChangeEngineState method, ChangeEngineState, ChangeEngineState method [Windows Debugging], dbgeng/IDebugEventCallbacks::ChangeEngineState, ComCallbacks_fafc4238-0565-410b-9e00-1cbce74737f4.xml, IDebugEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.ChangeEngineState
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::ChangeEngineState method

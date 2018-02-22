@@ -4,11 +4,11 @@ title: IDebugSymbols2::GetSymbolPath method
 author: windows-driver-content
 description: The GetSymbolPath method returns the symbol path.
 old-location: debugger\getsymbolpath.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: bee6d7c5-b866-4b48-859e-9acb2219e7c1
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetSymbolPath, IDebugSymbols::GetSymbolPath, GetSymbolPath method [Windows Debugging], IDebugSymbols3::GetSymbolPath, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, IDebugSymbols2, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface, debugger.getsymbolpath, IDebugSymbols interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, dbgeng/IDebugSymbols2::GetSymbolPath, IDebugSymbols, GetSymbolPath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols3::GetSymbolPath, GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols::GetSymbolPath, IDebugSymbols2 interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], IDebugSymbols interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolPath method, GetSymbolPath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_b13afb68-0f30-477d-be1b-a2b49ae40081.xml, dbgeng/IDebugSymbols3::GetSymbolPath, IDebugSymbols3::GetSymbolPath, dbgeng/IDebugSymbols2::GetSymbolPath, IDebugSymbols2, debugger.getsymbolpath, GetSymbolPath, IDebugSymbols2::GetSymbolPath, dbgeng/IDebugSymbols::GetSymbolPath, IDebugSymbols, GetSymbolPath method [Windows Debugging], IDebugSymbols2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolPath
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols2::GetSymbolPath method
@@ -136,15 +136,15 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -160,5 +160,5 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSymbolPath method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetSymbolPath method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

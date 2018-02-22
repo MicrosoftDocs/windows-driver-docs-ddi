@@ -7,8 +7,8 @@ old-location: kernel\wnode_all_data.htm
 old-project: kernel
 ms.assetid: 15582270-6cc4-43d4-b9e6-dceab3bc092d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wmistr/PWNODE_ALL_DATA, wmistr/WNODE_ALL_DATA, kernel.wnode_all_data, PWNODE_ALL_DATA, tagWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], *PWNODE_ALL_DATA, WNODE_ALL_DATA, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml
+ms.date: 2/16/2018
+ms.keywords: PWNODE_ALL_DATA, PWNODE_ALL_DATA structure pointer [Kernel-Mode Driver Architecture], wmistr/WNODE_ALL_DATA, *PWNODE_ALL_DATA, wmistr/PWNODE_ALL_DATA, kstruct_d_f0048b24-6d54-40c6-bb6a-8ed796a226d8.xml, tagWNODE_ALL_DATA, WNODE_ALL_DATA, WNODE_ALL_DATA structure [Kernel-Mode Driver Architecture], kernel.wnode_all_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,6 @@ typedef struct tagWNODE_ALL_DATA {
 Specifies a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
 
-### -field _WNODE_HEADER
-
- 
-
-
 ### -field DataBlockOffset
 
 Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> structure to the beginning of data for the first instance. 
@@ -105,12 +100,14 @@ Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to
  
 
 
-### -field DUMMYUNIONNAME.FixedInstanceSize
+
+
+#### - FixedInstanceSize
 
 Indicates the size of each instance to be returned if all such instances are the same size. This member is valid only if the driver sets WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
 
 
-### -field DUMMYUNIONNAME.OffsetInstanceDataAndLength
+#### - OffsetInstanceDataAndLength
 
 If instances to be returned vary in size, <b>OffsetInstanceDataAndLength</b> is an array of <b>InstanceCount </b><b>OFFSETINSTANCEDATAANDLENGTH</b> structures that specify the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the beginning of each instance and its length. <b>OFFSETINSTANCEDATAANDLENGTH</b> is defined as follows:
 
@@ -129,17 +126,19 @@ If instances to be returned vary in size, <b>OffsetInstanceDataAndLength</b> is 
 </table></span></div>
 
 
-Each instance must be aligned on a USHORT boundary. The <b>OffsetInstanceDataAndLength</b> member is valid only if the driver clears WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
 
 
-##### - OffsetInstanceDataAndLength.OffsetInstanceData
+#### OffsetInstanceData
 
 Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the instance data.
 
 
-##### - OffsetInstanceDataAndLength.LengthInstanceData
+
+#### LengthInstanceData
 
 Indicates the length in bytes of the instance data.
+
+Each instance must be aligned on a USHORT boundary. The <b>OffsetInstanceDataAndLength</b> member is valid only if the driver clears WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
 
 
 ## -remarks
@@ -173,5 +172,5 @@ Instance names must be USHORT aligned. Instance data must be QUADWORD aligned.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_ALL_DATA structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_ALL_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

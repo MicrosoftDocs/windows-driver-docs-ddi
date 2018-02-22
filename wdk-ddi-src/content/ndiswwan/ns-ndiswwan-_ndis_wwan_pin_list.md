@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_pin_list.htm
 old-project: netvista
 ms.assetid: 1d3c1084-8f51-4c8a-813e-6700d60c3dab
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_NDIS_WWAN_PIN_LIST, netvista.ndis_wwan_pin_list, NDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_PIN_LIST"
+ms.date: 2/16/2018
+ms.keywords: PNDIS_WWAN_PIN_LIST structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST, PNDIS_WWAN_PIN_LIST, ndiswwan/NDIS_WWAN_PIN_LIST, ndiswwan/PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST, netvista.ndis_wwan_pin_list, NDIS_WWAN_PIN_LIST structure [Network Drivers Starting with Windows Vista], WwanRef_783d82e8-71ad-488c-be54-4bd316b949d7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_PIN_LIST
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_PIN_LIST, *PNDIS_WWAN_PIN_LIST
+req.typenames: "*PNDIS_WWAN_PIN_LIST, NDIS_WWAN_PIN_LIST"
 ---
 
 # _NDIS_WWAN_PIN_LIST structure
@@ -206,17 +206,17 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
- 
+<a href="..\wwan\ns-wwan-_wwan_pin_list.md">WWAN_PIN_LIST</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_PIN_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_PIN_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

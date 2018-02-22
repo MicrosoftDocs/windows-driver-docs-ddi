@@ -7,8 +7,8 @@ old-location: bltooth\sco_indication_parameters.htm
 old-project: bltooth
 ms.assetid: 2d3ae219-8a40-476c-b8eb-94f4c0566527
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], _SCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml, PSCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], *PSCO_INDICATION_PARAMETERS, bltooth.sco_indication_parameters, bthddi/PSCO_INDICATION_PARAMETERS, bthddi/SCO_INDICATION_PARAMETERS
+ms.date: 2/15/2018
+ms.keywords: bthddi/SCO_INDICATION_PARAMETERS, _SCO_INDICATION_PARAMETERS, *PSCO_INDICATION_PARAMETERS, bthddi/PSCO_INDICATION_PARAMETERS, SCO_INDICATION_PARAMETERS structure [Bluetooth Devices], PSCO_INDICATION_PARAMETERS, PSCO_INDICATION_PARAMETERS structure pointer [Bluetooth Devices], SCO_INDICATION_PARAMETERS, bltooth.sco_indication_parameters, bth_structs_73ebf679-d092-4b0a-a54f-84539b8c85ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,7 +109,8 @@ The structure that contains parameters for the
 The structure that contains the parameters for the SCO connection request.
 
 
-### -field Parameters.Connect.Request.LinkType
+
+###### Connect.Request.LinkType
 
 A value from the 
         <a href="..\bthddi\ne-bthddi-_sco_link_type.md">SCO_LINK_TYPE</a> enumeration that indicates the
@@ -160,17 +161,17 @@ When the Bluetooth driver stack passes
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_sco_disconnect_reason.md">SCO_DISCONNECT_REASON</a>
 
 
 
- 
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_INDICATION_PARAMETERS structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_INDICATION_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_msr_retrieve_device_authentication.htm
 old-project: pos
 ms.assetid: 6f086416-ab50-46fc-933e-a3d48c7dbf4c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/19/2018
 ms.keywords: pos.ioctl_point_of_service_msr_retrieve_device_authentication, IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION control code, IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_RETRIEVE_DEVICE_AUTHENTICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

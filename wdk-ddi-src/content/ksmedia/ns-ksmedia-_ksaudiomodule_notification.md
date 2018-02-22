@@ -7,8 +7,8 @@ old-location: audio\ksaudiomodule_notification.htm
 old-project: audio
 ms.assetid: 92A9462C-0E8C-4012-9374-3437BB220502
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PKSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], ksmedia/KSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], ksmedia/PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, audio.ksaudiomodule_notification
+ms.date: 2/21/2018
+ms.keywords: PKSAUDIOMODULE_NOTIFICATION, PKSAUDIOMODULE_NOTIFICATION structure pointer [Audio Devices], ksmedia/PKSAUDIOMODULE_NOTIFICATION, *PKSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION, _KSAUDIOMODULE_NOTIFICATION, KSAUDIOMODULE_NOTIFICATION structure [Audio Devices], audio.ksaudiomodule_notification, ksmedia/KSAUDIOMODULE_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,7 +100,7 @@ The InstanceId of the audio module.  The InstanceId is a unique identifier that 
 This member is reserved.
 
 
-### -field Alignment
+#### - Alignment
 
 Specifies the value that is used for alignment. 
 

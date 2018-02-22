@@ -7,13 +7,13 @@ old-location: pci\pci_x_capability.htm
 old-project: PCI
 ms.assetid: b30ccf86-ae6d-484a-a3f2-8b38df26e995
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses], wdm/PPCI_X_CAPABILITY, *PPCI_X_CAPABILITY, PCI.pci_x_capability, PPCI_X_CAPABILITY structure pointer [Buses], wdm/PCI_X_CAPABILITY, PPCI_X_CAPABILITY, pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml
+ms.date: 2/15/2018
+ms.keywords: PCI.pci_x_capability, pci_struct_171a6a86-48fe-4955-8f12-43df82659f7a.xml, PCI_X_CAPABILITY, PCI_X_CAPABILITY structure [Buses], wdm/PCI_X_CAPABILITY, *PPCI_X_CAPABILITY, wdm/PPCI_X_CAPABILITY, PPCI_X_CAPABILITY, PPCI_X_CAPABILITY structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PCI_X_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_X_CAPABILITY, PCI_X_CAPABILITY"
+req.typenames: PCI_X_CAPABILITY, *PPCI_X_CAPABILITY
 req.product: Windows 10 or later.
 ---
 
@@ -105,6 +105,12 @@ Contains a structure of type <a href="https://msdn.microsoft.com/library/windows
 ### -field Command
 
 
+
+#### AsUSHORT
+
+Reports the data in the device's command register in the form of a unsigned long integer.
+
+
 ### -field Command.bits
 
 
@@ -133,12 +139,13 @@ Reports the maximum number of split transactions, recorded in the command regist
 Reserved. 
 
 
-### -field Command.AsUSHORT
-
-Reports the data in the device's command register in the form of a unsigned long integer.
-
-
 ### -field Status
+
+
+
+#### AsULONG
+
+Reports the data in the device's status register in the form of a unsigned long integer.
 
 
 ### -field Status.bits
@@ -214,7 +221,14 @@ Indicates when 1 that the device has received a split completion error message. 
  
 
 
-### -field Status.AsULONG
+
+
+##### - Command.AsUSHORT
+
+Reports the data in the device's command register in the form of a unsigned long integer.
+
+
+##### - Status.AsULONG
 
 Reports the data in the device's status register in the form of a unsigned long integer.
 
@@ -229,5 +243,5 @@ Reports the data in the device's status register in the form of a unsigned long 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_X_CAPABILITY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_X_CAPABILITY structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

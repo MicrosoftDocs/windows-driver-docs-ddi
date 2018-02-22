@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamoutputrate.htm
 old-project: display
 ms.assetid: fc1236f2-fcbf-4b3f-978f-a34260b78159
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.videoprocessorsetstreamoutputrate, pfnVideoProcessorSetStreamOutputRate callback function [Display Devices], pfnVideoProcessorSetStreamOutputRate, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE, d3d10umddi/pfnVideoProcessorSetStreamOutputRate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamOutputRate
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback
@@ -80,24 +80,21 @@ VOID APIENTRY* pfnVideoProcessorSetStreamOutputRate(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param UINT
 
 
-
 ### -param D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE
-
 
 
 ### -param BOOL
 
 
-
 ### -param *
+
+
 
 
 
@@ -141,7 +138,9 @@ If the <i>RepeatFrame</i> parameter is <b>TRUE</b>,  the driver should repeat fr
 
 
 If the <i>RepeatFrame</i> parameter is <b>FALSE</b>,  the driver should interpolate frames.
-<div class="alert"><b>Note</b>  If the <b>VideoProcessorSetStreamOutputRate</b> function is never called, the driver should interpolate frames by default.</div><div> </div>
+
+<div class="alert"><b>Note</b>  If the <b>VideoProcessorSetStreamOutputRate</b> function is never called, the driver should interpolate frames by default.</div>
+<div> </div>
 
 #### - pCustomRate [in]
 
@@ -153,19 +152,26 @@ A pointer to a <a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a13
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 The standard output rates that are defined by  <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate.md">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a> enumeration values are normal frame-rate (<b>D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_NORMAL</b>) and half frame-rate (<b>D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_HALF</b>). 
 
 If the driver supports custom rates for rate conversion or inverse telecine, it can use a custom rate if the <i>OutputRate</i> parameter is set to <b>D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE_CUSTOM</b>. The custom rate is specified by the <i>pCustomRate</i> parameter.
+
 <div class="alert"><b>Note</b>  The driver reports its custom rates  in the <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a> structure that is returned through the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md">GetVideoProcessorCustomRate</a> function.
 
-</div><div> </div>Depending on the output rate, the driver might have to convert the frame rate. If so, the value of the <i>RepeatFrame</i> parameter controls whether the driver creates interpolated frames or repeats input frames.
+</div>
+<div> </div>
+Depending on the output rate, the driver might have to convert the frame rate. If so, the value of the <i>RepeatFrame</i> parameter controls whether the driver creates interpolated frames or repeats input frames.
+
 
 
 
@@ -173,17 +179,25 @@ If the driver supports custom rates for rate conversion or inverse telecine, it 
 
 ## -see-also
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+
+
+
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_output_rate.md">D3D11_1DDI_VIDEO_PROCESSOR_OUTPUT_RATE</a>
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md">GetVideoProcessorCustomRate</a>
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
- 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcustomrate.md">GetVideoProcessorCustomRate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMOUTPUTRATE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

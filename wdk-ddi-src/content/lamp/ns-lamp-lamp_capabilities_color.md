@@ -7,8 +7,8 @@ old-location: stream\lamp_capabilities_color.htm
 old-project: stream
 ms.assetid: BCF2171C-93CB-4DAC-AA78-C272D5445F99
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: LAMP_CAPABILITIES_COLOR, lamp/LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices], stream.lamp_capabilities_color
+ms.date: 2/20/2018
+ms.keywords: lamp/LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR, LAMP_CAPABILITIES_COLOR structure [Streaming Media Devices], stream.lamp_capabilities_color
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

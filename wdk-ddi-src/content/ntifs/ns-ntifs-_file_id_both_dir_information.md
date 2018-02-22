@@ -7,8 +7,8 @@ old-location: ifsk\file_id_both_dir_information.htm
 old-project: ifsk
 ms.assetid: 57a66b41-f9f6-42e1-95d7-010cacd1374a
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FILE_ID_BOTH_DIR_INFORMATION, _FILE_ID_BOTH_DIR_INFORMATION, *PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_id_both_dir_information, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers], fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, PFILE_ID_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_BOTH_DIR_INFORMATION, ntifs/FILE_ID_BOTH_DIR_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: ntifs/FILE_ID_BOTH_DIR_INFORMATION, *PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION, ntifs/PFILE_ID_BOTH_DIR_INFORMATION, PFILE_ID_BOTH_DIR_INFORMATION, FILE_ID_BOTH_DIR_INFORMATION structure [Installable File System Drivers], _FILE_ID_BOTH_DIR_INFORMATION, fileinformationstructures_e4d079c2-5491-4692-bdf2-a6f356bdf431.xml, PFILE_ID_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], ifsk.file_id_both_dir_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -202,17 +202,17 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_ID_BOTH_DIR_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_ID_BOTH_DIR_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

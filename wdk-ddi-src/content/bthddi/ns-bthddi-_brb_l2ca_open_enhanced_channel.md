@@ -7,8 +7,8 @@ old-location: bltooth\_brb_l2ca_open_enhanced_channel.htm
 old-project: bltooth
 ms.assetid: 34CA2A3E-871F-46D4-962A-8EE8D7B8DA15
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: "_BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth._brb_l2ca_open_enhanced_channel, BRB_L2CA_OPEN_ENHANCED_CHANNEL, bltooth.brb_l2ca_open_enhanced_channel"
+ms.date: 2/15/2018
+ms.keywords: bltooth.brb_l2ca_open_enhanced_channel, PBRB_L2CA_OPEN_ENHANCED_CHANNEL structure pointer [Bluetooth Devices], PBRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], BRB_L2CA_OPEN_ENHANCED_CHANNEL, _BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL structure [Bluetooth Devices], bltooth._brb_l2ca_open_enhanced_channel, bthddi/PBRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/_BRB_L2CA_OPEN_ENHANCED_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -138,13 +138,6 @@ A
  
 
 
-### -field Psm
-
-The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
-      When used with a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request, this member is set as an input field. When used with a
-      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request, this member is used as an output field.
-
-
 ### -field ChannelFlags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
@@ -207,7 +200,8 @@ The substructure that contains parameter settings for a <b>BRB_L2CA_OPEN_ENHANCE
      device.
 
 
-### -field ConfigOut.Flags
+
+#### Flags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
@@ -278,37 +272,61 @@ Specifies that the Fcs value is valid.
  
 
 
-### -field ConfigOut.Mtu
+
+#### Mtu
 
 The range of message transfer units (MTUs) that is used to negotiate the size of the outbound
       half of channel.
 
 
-### -field ConfigOut.FlushTO
+
+#### FlushTO
 
 The range of possible values to be used for the flush timeout for the outbound half of the
       channel.
 
 
-### -field ConfigOut.Flow
+
+#### Flow
 
 Reserved for future use. Do not use.
 
 
-### -field ConfigOut.LinkTO
+
+#### LinkTO
 
 The Link Manager link timeout.
 
 
-### -field ConfigOut.NumExtraOptions
+
+#### NumExtraOptions
 
 The number of array items that are contained in the 
       <b>ExtraOptions</b> member. This value should be zero for most clients.
 
 
-### -field ConfigOut.ExtraOptions
+
+#### ExtraOptions
 
 Extra options. This value should be zero for most clients.
+
+
+
+#### Fcs
+
+Specifies whether FCS should be used for the enhanced L2CAP channel. This value is valid only if CM_RETRANSMISSION_AND_FLOW or CM_STREAMING flag is specified in the <b>Flags</b> member.
+
+
+
+#### ExtendedFlowSpec
+
+Not supported.
+
+
+
+#### ExtendedWindowSize
+
+Not supported.
 
 
 ### -field ConfigOut.LocalQos
@@ -388,28 +406,14 @@ CM_RETRANSMISSION_AND_FLOW and CM_STREAMING modes. This structure must be zero i
 The <b>Mode</b> submember of <b>RetransmissionAndFlow</b> should be set to 0. Use the <b>ModeConfig</b> submember of <b>RetransmissionAndFlow</b> to specify the type of channel to open.
 
 
-### -field ConfigOut.Fcs
-
-Specifies whether FCS should be used for the enhanced L2CAP channel. This value is valid only if CM_RETRANSMISSION_AND_FLOW or CM_STREAMING flag is specified in the <b>Flags</b> member.
-
-
-### -field ConfigOut.ExtendedFlowSpec
-
-Not supported.
-
-
-### -field ConfigOut.ExtendedWindowSize
-
-Not supported.
-
-
 ### -field ConfigIn
 
 The substructure that contains parameter settings to validate incoming
      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> BRBs that are sent from a remote device.
 
 
-### -field ConfigIn.Flags
+
+#### Flags
 
 Flags that specify the requirements for the channel to be opened. Valid flag values are listed in
       the following table:
@@ -460,13 +464,15 @@ The profile driver indicates its preference that users not be prompted for a PIN
  
 
 
-### -field ConfigIn.Mtu
+
+#### Mtu
 
 The range of message transfer units (MTUs) that is used to negotiate the size of the inbound
       half of channel.
 
 
-### -field ConfigIn.FlushTO
+
+#### FlushTO
 
 The range of possible values to be used for the flush timeout for the inbound half of the
       channel.
@@ -739,6 +745,13 @@ The remote device accepted the connection.
 
 
 ##### CONNECT_RSP_STATUS_NO_INFORMATION
+
+
+#### - Psm
+
+The Protocol/Service Multiplexer (PSM) that the channel uses to connect to the remote device.
+      When used with a <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL</b> request, this member is set as an input field. When used with a
+      <b>BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE</b> request, this member is used as an output field.
 
 
 ## -remarks

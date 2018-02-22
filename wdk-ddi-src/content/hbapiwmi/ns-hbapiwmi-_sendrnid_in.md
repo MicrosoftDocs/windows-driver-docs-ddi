@@ -7,8 +7,8 @@ old-location: storage\sendrnid_in.htm
 old-project: storage
 ms.assetid: 668c4d1a-52e8-49ea-bd19-e789dfa8dfa5
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_SendRNID_IN, PSendRNID_IN structure pointer [Storage Devices], storage.sendrnid_in, PSendRNID_IN, hbapiwmi/PSendRNID_IN, *PSendRNID_IN, SendRNID_IN structure [Storage Devices], SendRNID_IN, structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml, hbapiwmi/SendRNID_IN"
+ms.date: 2/16/2018
+ms.keywords: PSendRNID_IN structure pointer [Storage Devices], structs-Fibre_506226e9-45f1-40d3-bd41-7b30fe16673e.xml, storage.sendrnid_in, PSendRNID_IN, *PSendRNID_IN, hbapiwmi/PSendRNID_IN, SendRNID_IN structure [Storage Devices], SendRNID_IN, _SendRNID_IN, hbapiwmi/SendRNID_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,5 +97,5 @@ The WMI tool suite generates a declaration of the SendRNID_IN structure in <i>Hb
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNID_IN structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SendRNID_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

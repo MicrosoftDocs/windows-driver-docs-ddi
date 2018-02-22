@@ -7,8 +7,8 @@ old-location: audio\iportclsnotifications_sendnotification.htm
 old-project: audio
 ms.assetid: 0683C30D-0AAD-4859-BA30-908FA747CC35
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: SendNotification method [Audio Devices], IPortClsNotifications interface, SendNotification method [Audio Devices], audio.iportclsnotifications_sendnotification, SendNotification, portcls/IPortClsNotifications::SendNotification, IPortClsNotifications interface [Audio Devices], SendNotification method, IPortClsNotifications, IPortClsNotifications::SendNotification
+ms.date: 2/21/2018
+ms.keywords: portcls/IPortClsNotifications::SendNotification, IPortClsNotifications, SendNotification method [Audio Devices], SendNotification, IPortClsNotifications::SendNotification, SendNotification method [Audio Devices], IPortClsNotifications interface, audio.iportclsnotifications_sendnotification, IPortClsNotifications interface [Audio Devices], SendNotification method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IPortClsNotifications.SendNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPortClsNotifications::SendNotification method
@@ -58,8 +58,8 @@ Sends a notification to the listening UWP apps, to allow for communications betw
 
 ````
 NTSTATUS  SendNotification(
-  [in] Const GUID*   NotificationId,
-  [in] Notification PPCNOTIFICATION* 
+  [in] Const GUID*         NotificationId,
+  [in] NotificationBuffer PPCNOTIFICATION* 
 );
 ````
 
@@ -121,5 +121,5 @@ For more information about audio modules, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::SendNotification method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsNotifications::SendNotification method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

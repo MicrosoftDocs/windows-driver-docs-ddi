@@ -7,8 +7,8 @@ old-location: ifsk\fltallocatepoolalignedwithtag.htm
 old-project: ifsk
 ms.assetid: ffb1493f-6076-4b93-8431-b3ffd4679f96
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltallocatepoolalignedwithtag, FltAllocatePoolAlignedWithTag function [Installable File System Drivers], FltAllocatePoolAlignedWithTag, fltkernel/FltAllocatePoolAlignedWithTag, FltApiRef_a_to_d_b617aed0-5103-4a1e-aa0d-86247d99e803.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltallocatepoolalignedwithtag, FltAllocatePoolAlignedWithTag, fltkernel/FltAllocatePoolAlignedWithTag, FltAllocatePoolAlignedWithTag function [Installable File System Drivers], FltApiRef_a_to_d_b617aed0-5103-4a1e-aa0d-86247d99e803.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,7 @@ Type of pool to allocate. One of the following:
 
 <b>PagedPoolCacheAligned</b>
 
-See <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> for a description of the available pool memory types. 
+See <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> for a description of the available pool memory types. 
 
 
 ### -param NumberOfBytes [in]
@@ -131,7 +131,7 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
@@ -139,17 +139,17 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltfreepoolalignedwithtag.md">FltFreePoolAlignedWithTag</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAllocatePoolAlignedWithTag function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAllocatePoolAlignedWithTag function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

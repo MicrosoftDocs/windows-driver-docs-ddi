@@ -7,8 +7,8 @@ old-location: print\oemstartpage.htm
 old-project: print
 ms.assetid: 86cee994-2dfe-4eaf-906b-ce6d9051399e
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, print.oemstartpage, OEMStartPage function [Print Devices], printoem/OEMStartPage, OEMStartPage
+ms.date: 2/21/2018
+ms.keywords: OEMStartPage function [Print Devices], printoem/OEMStartPage, print_unidrv-pscript_rendering_df5731ee-40be-45e1-8dbb-b7893ec27622.xml, OEMStartPage, print.oemstartpage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

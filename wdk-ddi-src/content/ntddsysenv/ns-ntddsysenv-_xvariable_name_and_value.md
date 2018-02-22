@@ -7,8 +7,8 @@ old-location: kernel\xvariable_name_and_value.htm
 old-project: kernel
 ms.assetid: 46E892A7-2813-4C50-BE91-B5267696E2A5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddsysenv/XVARIABLE_NAME_AND_VALUE, *PSYSENV_VARIABLE_AND_VALUE, XVARIABLE_NAME_AND_VALUE, *PXVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE structure pointer [Kernel-Mode Driver Architecture], ntddsysenv/PXVARIABLE_NAME_AND_VALUE, _XVARIABLE_NAME_AND_VALUE, SYSENV_VARIABLE_AND_VALUE, XVARIABLE_NAME_AND_VALUE structure [Kernel-Mode Driver Architecture], kernel.xvariable_name_and_value, PXVARIABLE_NAME_AND_VALUE
+ms.date: 2/16/2018
+ms.keywords: "*PSYSENV_VARIABLE_AND_VALUE, kernel.xvariable_name_and_value, ntddsysenv/XVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE, _XVARIABLE_NAME_AND_VALUE, XVARIABLE_NAME_AND_VALUE, PXVARIABLE_NAME_AND_VALUE structure pointer [Kernel-Mode Driver Architecture], XVARIABLE_NAME_AND_VALUE structure [Kernel-Mode Driver Architecture], ntddsysenv/PXVARIABLE_NAME_AND_VALUE, *PXVARIABLE_NAME_AND_VALUE, SYSENV_VARIABLE_AND_VALUE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,5 +117,5 @@ Name of the system environment variable.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20XVARIABLE_NAME_AND_VALUE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20XVARIABLE_NAME_AND_VALUE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

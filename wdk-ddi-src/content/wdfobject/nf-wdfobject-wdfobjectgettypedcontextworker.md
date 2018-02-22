@@ -7,8 +7,8 @@ old-location: wdf\wdfobjectgettypedcontextworker.htm
 old-project: wdf
 ms.assetid: 1d95084b-16c4-468e-84af-47650292c5a1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfObjectGetTypedContextWorker method, wdf.wdfobjectgettypedcontextworker, WdfObjectGetTypedContextWorker, wdfobject/WdfObjectGetTypedContextWorker, kmdf.wdfobjectgettypedcontextworker, DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfobjectgettypedcontextworker, wdfobject/WdfObjectGetTypedContextWorker, WdfObjectGetTypedContextWorker, wdf.wdfobjectgettypedcontextworker, WdfObjectGetTypedContextWorker method, DFGenObjectRef_d932d163-5341-45b3-b896-bb3adb5831a6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

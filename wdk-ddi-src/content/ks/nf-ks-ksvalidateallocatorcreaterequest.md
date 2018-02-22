@@ -7,8 +7,8 @@ old-location: stream\ksvalidateallocatorcreaterequest.htm
 old-project: stream
 ms.assetid: 9275257b-50d8-4272-b340-4344644b3e15
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksvalidateallocatorcreaterequest, ks/KsValidateAllocatorCreateRequest, KsValidateAllocatorCreateRequest function [Streaming Media Devices], KsValidateAllocatorCreateRequest, ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml
+ms.date: 2/20/2018
+ms.keywords: KsValidateAllocatorCreateRequest function [Streaming Media Devices], KsValidateAllocatorCreateRequest, ksfunc_2d988d7a-d39f-4c77-8c18-06d01a8d75e9.xml, ks/KsValidateAllocatorCreateRequest, stream.ksvalidateallocatorcreaterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

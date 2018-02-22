@@ -7,8 +7,8 @@ old-location: netvista\ndisequalmemory.htm
 old-project: netvista
 ms.assetid: 5417b821-b51d-4789-8380-f93d113f42d3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisEqualMemory macro [Network Drivers Starting with Windows Vista], netvista.ndisequalmemory, NdisEqualMemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, ndis/NdisEqualMemory
+ms.date: 2/16/2018
+ms.keywords: NdisEqualMemory, NdisEqualMemory macro [Network Drivers Starting with Windows Vista], netvista.ndisequalmemory, ndis_memory_ref_67be2fe2-f491-4b7d-9524-a4e324630f74.xml, ndis/NdisEqualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -103,10 +103,6 @@ Callers of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
@@ -115,12 +111,16 @@ Callers of
 
 
 
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 
 
@@ -128,5 +128,5 @@ Callers of
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisEqualMemory macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisEqualMemory macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

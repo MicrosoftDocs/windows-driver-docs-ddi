@@ -7,8 +7,8 @@ old-location: netvista\ndis_port_state.htm
 old-project: netvista
 ms.assetid: 57d76d1e-4276-4dbd-b651-2bba6de898b2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_PORT_STATE, ntddndis/PNDIS_PORT_STATE, PNDIS_PORT_STATE, *PNDIS_PORT_STATE, NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml, netvista.ndis_port_state, NDIS_PORT_STATE, PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], _NDIS_PORT_STATE
+ms.date: 2/16/2018
+ms.keywords: NDIS_PORT_STATE, _NDIS_PORT_STATE, PNDIS_PORT_STATE structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_STATE structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PORT_STATE, PNDIS_PORT_STATE, ntddndis/PNDIS_PORT_STATE, *PNDIS_PORT_STATE, netvista.ndis_port_state, ndis_ports_ref_dbfd8cd5-9c0c-4ea9-8329-d9fbf15b14df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PORT_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PORT_STATE, *PNDIS_PORT_STATE
+req.typenames: "*PNDIS_PORT_STATE, NDIS_PORT_STATE"
 ---
 
 # _NDIS_PORT_STATE structure
@@ -266,15 +266,7 @@ The NDIS_PORT_STATE structure is used in the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567415">NDIS_STATUS_PORT_STATE</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -282,9 +274,17 @@ The NDIS_PORT_STATE structure is used in the
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569624">OID_GEN_PORT_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

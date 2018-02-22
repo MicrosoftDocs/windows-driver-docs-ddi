@@ -7,8 +7,8 @@ old-location: ifsk\file_timestamps.htm
 old-project: ifsk
 ms.assetid: 0F016D21-34CD-43DD-BE39-C6DF6D63A3AC
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: PFILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], FILE_TIMESTAMPS, FILE_TIMESTAMPS structure [Installable File System Drivers], _FILE_TIMESTAMPS, *PFILE_TIMESTAMPS, ntifs/PFILE_TIMESTAMPS, ntifs/File_TIMESTAMPS, ifsk.file_timestamps
+ms.date: 2/16/2018
+ms.keywords: "*PFILE_TIMESTAMPS, _FILE_TIMESTAMPS, PFILE_TIMESTAMPS structure pointer [Installable File System Drivers], FILE_TIMESTAMPS structure [Installable File System Drivers], ntifs/PFILE_TIMESTAMPS, ntifs/File_TIMESTAMPS, ifsk.file_timestamps, FILE_TIMESTAMPS, PFILE_TIMESTAMPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,5 +102,5 @@ Specifies the last time a file was changed or modified.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_TIMESTAMPS structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_TIMESTAMPS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

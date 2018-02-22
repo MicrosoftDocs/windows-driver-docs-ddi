@@ -7,8 +7,8 @@ old-location: kernel\object_attributes.htm
 old-project: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.object_attributes, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, *POBJECT_ATTRIBUTES, wudfwdm/POBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], OBJECT_ATTRIBUTES, wudfwdm/OBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml
+ms.date: 2/16/2018
+ms.keywords: wudfwdm/POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture], _OBJECT_ATTRIBUTES, wudfwdm/OBJECT_ATTRIBUTES, OBJECT_ATTRIBUTES, kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml, OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture], *POBJECT_ATTRIBUTES, POBJECT_ATTRIBUTES, kernel.object_attributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Any level (see Remarks section)
 topictype:
 -	APIRef
 -	kbSyntax
@@ -220,7 +220,7 @@ Driver routines that run in a process context other than that of the system proc
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
 
 
 
@@ -228,19 +228,7 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
 
 
 
@@ -248,11 +236,7 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatedirectoryobject.md">ZwCreateDirectoryObject</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+<a href="..\wdm\nf-wdm-iocreatefile.md">IoCreateFile</a>
 
 
 
@@ -260,9 +244,25 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OBJECT_ATTRIBUTES structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OBJECT_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

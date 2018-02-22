@@ -7,8 +7,8 @@ old-location: display\d3ddevicedesc_v3.htm
 old-project: display
 ms.assetid: 36a7b29a-f744-42c8-9e60-9b5dbba3a32f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDEVICEDESC_V3, display.d3ddevicedesc_v3, d3dhal/, *LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3 structure [Display Devices], d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, _D3DDeviceDesc_V3
+ms.date: 2/20/2018
+ms.keywords: D3DDEVICEDESC_V3 structure [Display Devices], d3dstrct_ae7c0a55-4597-4272-9b06-bc74a8340842.xml, d3dhal/, display.d3ddevicedesc_v3, _D3DDeviceDesc_V3, *LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DDEVICEDESC_V3
 product: Windows
 targetos: Windows
-req.typenames: D3DDEVICEDESC_V3, *LPD3DDEVICEDESC_V3
+req.typenames: "*LPD3DDEVICEDESC_V3, D3DDEVICEDESC_V3"
 ---
 
 # _D3DDeviceDesc_V3 structure

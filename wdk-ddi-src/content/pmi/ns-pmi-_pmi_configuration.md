@@ -7,8 +7,8 @@ old-location: powermeter\pmi_configuration.htm
 old-project: powermeter
 ms.assetid: 976b812e-deb2-445f-b69d-e00d10c6e5d8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: powermeter.pmi_configuration, pmi/PPMI_CONFIGURATION, PPMI_CONFIGURATION, _PMI_CONFIGURATION, *PPMI_CONFIGURATION, PowerMeterRef_f3279ebc-cd57-40e8-8571-a7d0d6bf3edc.xml, pmi/PMI_CONFIGURATION, PPMI_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PMI_CONFIGURATION, PMI_CONFIGURATION structure [Power Metering and Budgeting Devices]
+ms.date: 2/15/2018
+ms.keywords: PMI_CONFIGURATION, powermeter.pmi_configuration, *PPMI_CONFIGURATION, pmi/PPMI_CONFIGURATION, PMI_CONFIGURATION structure [Power Metering and Budgeting Devices], PPMI_CONFIGURATION, PowerMeterRef_f3279ebc-cd57-40e8-8571-a7d0d6bf3edc.xml, _PMI_CONFIGURATION, pmi/PMI_CONFIGURATION, PPMI_CONFIGURATION structure pointer [Power Metering and Budgeting Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PMI_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPMI_CONFIGURATION, PMI_CONFIGURATION"
+req.typenames: PMI_CONFIGURATION, *PPMI_CONFIGURATION
 ---
 
 # _PMI_CONFIGURATION structure
@@ -94,21 +94,24 @@ A <a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a> e
 A union of the supported Power Meter Interface (PMI) configuration structures. Based on the value of the <b>ConfigurationType</b> member, one of the following <b>Configuration</b> submembers is used to reference the following PMI configuration structures:
 
 
-### -field Configuration.MeasurementConfiguration
+
+#### MeasurementConfiguration
 
 A <a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a> structure that contains information about the budgeting configuration of the power meter.
 
 The <b>Configuration</b> member contains this structure if the <b>ConfigurationType</b> member is set to <b>PmiBudgetingConfiguration</b>.
 
 
-### -field Configuration.BudgetingConfiguration
+
+#### BudgetingConfiguration
 
 A <a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a> structure that contains information about the measurement configuration of the power meter.
 
 The <b>Configuration</b> member contains this structure if the <b>ConfigurationType</b> member is set to <b>PmiMeasurementConfiguration</b>.
 
 
-### -field Configuration.ThresholdConfiguration
+
+#### ThresholdConfiguration
 
 A <a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a> structure that contains information about the threshold configuration of the power meter.
 
@@ -142,7 +145,7 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href=".
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
+<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
 
 
 
@@ -150,7 +153,7 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href=".
 
 
 
-<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
+<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
 
 
 
@@ -158,7 +161,7 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href=".
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_threshold_configuration.md">PMI_THRESHOLD_CONFIGURATION</a>
+<a href="..\pmi\ne-pmi-pmi_configuration_type.md">PMI_CONFIGURATION_TYPE</a>
 
 
 
@@ -166,5 +169,5 @@ The <b>Configuration</b> member contains data that is  formatted as a <a href=".
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CONFIGURATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CONFIGURATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

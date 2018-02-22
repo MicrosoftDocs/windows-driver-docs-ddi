@@ -4,11 +4,11 @@ title: SetThreadForOperation64 function
 author: windows-driver-content
 description: The SetThreadForOperation64 function sets the thread to use for the next StackTrace call.
 old-location: debugger\setthreadforoperation64.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 0c8f7113-0866-454a-9596-8733dd78b282
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.setthreadforoperation64, SetThreadForOperation64, wdbgexts/SetThreadForOperation64, WdbgExts_Ref_8c7ef2e9-4096-4284-9878-63d90f49e227.xml, SetThreadForOperation64 function [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: debugger.setthreadforoperation64, SetThreadForOperation64 function [Windows Debugging], SetThreadForOperation64, wdbgexts/SetThreadForOperation64, WdbgExts_Ref_8c7ef2e9-4096-4284-9878-63d90f49e227.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,7 +7,7 @@ old-location: sd\ioctl_sffdisk_device_password.htm
 old-project: SD
 ms.assetid: 76b65ada-06b8-411e-83e9-62088f697f02
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
+ms.date: 2/15/2018
 ms.keywords: SD.ioctl_sffdisk_device_password, IOCTL_SFFDISK_DEVICE_PASSWORD control code [Buses], IOCTL_SFFDISK_DEVICE_PASSWORD, sffdisk/IOCTL_SFFDISK_DEVICE_PASSWORD, sd-ioctls_409f2592-46a6-4658-bc4f-d15c10452007.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

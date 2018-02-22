@@ -7,8 +7,8 @@ old-location: ifsk\token_statistics.htm
 old-project: ifsk
 ms.assetid: a7f651c0-fcd5-4271-9452-b6ac41cd33cc
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: TOKEN_STATISTICS structure [Installable File System Drivers], securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml, ifsk.token_statistics, ntifs/PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, _TOKEN_STATISTICS, PTOKEN_STATISTICS, TOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], *PTOKEN_STATISTICS
+ms.date: 2/16/2018
+ms.keywords: ifsk.token_statistics, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], *PTOKEN_STATISTICS, _TOKEN_STATISTICS, PTOKEN_STATISTICS, ntifs/PTOKEN_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TOKEN_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
+req.typenames: "*PTOKEN_STATISTICS, TOKEN_STATISTICS"
 ---
 
 # _TOKEN_STATISTICS structure
@@ -132,19 +132,15 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
+
+
+
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
 <a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 
@@ -156,7 +152,11 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
+
+
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 
@@ -168,5 +168,5 @@ Specifies an LUID that changes each time the token is modified. An application c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_STATISTICS structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_STATISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

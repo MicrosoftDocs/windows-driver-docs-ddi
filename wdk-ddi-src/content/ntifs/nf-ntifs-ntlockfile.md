@@ -7,8 +7,8 @@ old-location: kernel\zwlockfile.htm
 old-project: kernel
 ms.assetid: d5d4d13c-93d9-4531-85ff-d3fa0e52ecc1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ZwLockFile, ZwLockFile routine [Kernel-Mode Driver Architecture], kernel.zwlockfile, ntifs/ZwLockFile, ntifs/NtLockFile, NtLockFile, k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml
+ms.date: 2/16/2018
+ms.keywords: ZwLockFile routine [Kernel-Mode Driver Architecture], ntifs/NtLockFile, NtLockFile, kernel.zwlockfile, ZwLockFile, ntifs/ZwLockFile, k111_267331a3-5339-46ce-a0b6-d7b2e0aba68f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,7 +99,7 @@ A pointer to a caller-specified context for the APC routine. This value is passe
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains the final status.
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains the final status.
 
 
 ### -param ByteOffset [in]
@@ -181,17 +181,17 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-zwunlockfile.md">ZwUnlockFile</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwLockFile routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwLockFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

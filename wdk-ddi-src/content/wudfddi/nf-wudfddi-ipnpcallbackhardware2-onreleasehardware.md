@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallbackhardware2_onreleasehardware.htm
 old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.ipnpcallbackhardware2_onreleasehardware, OnReleaseHardware method, IPnpCallbackHardware2 interface, OnReleaseHardware method, OnReleaseHardware method, IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware
+ms.date: 2/20/2018
+ms.keywords: OnReleaseHardware, wdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2 interface, OnReleaseHardware method, IPnpCallbackHardware2, OnReleaseHardware method, IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallbackHardware2.OnReleaseHardware
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -115,17 +115,17 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackHardware2::OnReleaseHardware method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackHardware2::OnReleaseHardware method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

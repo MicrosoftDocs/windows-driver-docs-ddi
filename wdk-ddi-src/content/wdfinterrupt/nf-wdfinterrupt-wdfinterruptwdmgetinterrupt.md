@@ -7,8 +7,8 @@ old-location: wdf\wdfinterruptwdmgetinterrupt.htm
 old-project: wdf
 ms.assetid: b301e9f6-264d-43d9-a344-b34dcd659d04
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfinterrupt/WdfInterruptWdmGetInterrupt, WdfInterruptWdmGetInterrupt method, DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, wdf.wdfinterruptwdmgetinterrupt, kmdf.wdfinterruptwdmgetinterrupt, WdfInterruptWdmGetInterrupt
+ms.date: 2/20/2018
+ms.keywords: wdfinterrupt/WdfInterruptWdmGetInterrupt, kmdf.wdfinterruptwdmgetinterrupt, DFInterruptObjectRef_72a56280-07d3-43c1-99f9-68dc3323fe86.xml, WdfInterruptWdmGetInterrupt, wdf.wdfinterruptwdmgetinterrupt, WdfInterruptWdmGetInterrupt method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,5 +127,5 @@ wdmInterrupt = WdfInterruptWdmGetInterrupt(Interrupt);</pre>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfInterruptWdmGetInterrupt method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfInterruptWdmGetInterrupt method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

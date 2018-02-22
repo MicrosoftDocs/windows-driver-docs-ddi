@@ -7,8 +7,8 @@ old-location: powermeter\pmi_configuration_type.htm
 old-project: powermeter
 ms.assetid: d5ffd580-ca3d-46c7-b0ba-1cd9962517f8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: pmi/PMI_CONFIGURATION_TYPE, PmiBudgetingConfiguration, PMI_CONFIGURATION_TYPE, pmi/PmiMeasurementConfiguration, PmiThresholdConfiguration, PmiConfigurationMax, pmi/PmiThresholdConfiguration, PmiMeasurementConfiguration, pmi/PmiConfigurationMax, powermeter.pmi_configuration_type, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiBudgetingConfiguration, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml
+ms.date: 2/15/2018
+ms.keywords: PmiMeasurementConfiguration, pmi/PmiThresholdConfiguration, powermeter.pmi_configuration_type, PmiBudgetingConfiguration, PMI_CONFIGURATION_TYPE, PmiConfigurationMax, PowerMeterRef_6d83a5b7-03d3-4f86-b2ac-9d70a889285e.xml, pmi/PmiConfigurationMax, PmiThresholdConfiguration, PMI_CONFIGURATION_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiMeasurementConfiguration, pmi/PmiBudgetingConfiguration, pmi/PMI_CONFIGURATION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,23 +101,7 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_set_configuration.md">IOCTL_PMI_SET_CONFIGURATION</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
-
-
-
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
 
 
 
@@ -125,9 +109,25 @@ The <b>ConfigurationType</b> member of the <a href="..\pmi\ns-pmi-_pmi_configura
 
 
 
- 
+<a href="..\pmi\ns-pmi-_pmi_budgeting_configuration.md">PMI_BUDGETING_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_measurement_configuration.md">PMI_MEASUREMENT_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_configuration.md">IOCTL_PMI_GET_CONFIGURATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_configuration.md">PMI_CONFIGURATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CONFIGURATION_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CONFIGURATION_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

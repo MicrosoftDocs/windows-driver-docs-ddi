@@ -7,7 +7,7 @@ old-location: stream\avstrminideviceadd.htm
 old-project: stream
 ms.assetid: 8f7168c3-0c28-4802-af34-45b46c1b6827
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.avstrminideviceadd, AVStrMiniDeviceAdd, AVStrMiniDeviceAdd routine [Streaming Media Devices], AVStrMiniDeviceAdd, PFNKSDEVICECREATE, PFNKSDEVICECREATE, ks/AVStrMiniDeviceAdd, avstclbk_1cba196f-c0c6-42fb-8674-52e0fad4a337.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	AVStrMiniDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNKSDEVICECREATE callback
@@ -78,11 +78,14 @@ Pointer to a <a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a> structure describin
 ## -returns
 
 
+
 Should return STATUS_SUCCESS or the error code that was returned from the attempt to perform the operation. If the minidriver returns failure status, the related <i>AddDevice</i> call will also fail. See the Remarks section below for more details.
 
 
 
+
 ## -remarks
+
 
 
 The minidriver specifies this routine's address in the <b>Add</b> member of its <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a> structure.
@@ -97,13 +100,16 @@ This routine is optional.
 
 
 
+
 ## -see-also
 
 <a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSDEVICECREATE routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSDEVICECREATE routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetpipeconfigcontinuousreader.htm
 old-project: wdf
 ms.assetid: 56ed3c4f-bcfa-417d-a276-9934e3bc1666
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeConfigContinuousReader method, wdf.wdfusbtargetpipeconfigcontinuousreader, WdfUsbTargetPipeConfigContinuousReader, DFUsbRef_80432bbe-cb71-4bd1-9c0b-a71ea1f5c809.xml, kmdf.wdfusbtargetpipeconfigcontinuousreader, PFN_WDFUSBTARGETPIPECONFIGCONTINUOUSREADER, wdfusb/WdfUsbTargetPipeConfigContinuousReader
+ms.date: 2/20/2018
+ms.keywords: WdfUsbTargetPipeConfigContinuousReader method, kmdf.wdfusbtargetpipeconfigcontinuousreader, WdfUsbTargetPipeConfigContinuousReader, wdf.wdfusbtargetpipeconfigcontinuousreader, DFUsbRef_80432bbe-cb71-4bd1-9c0b-a71ea1f5c809.xml, wdfusb/WdfUsbTargetPipeConfigContinuousReader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -227,11 +227,23 @@ status = WdfUsbTargetPipeConfigContinuousReader(
 
 ## -see-also
 
-<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
 
 
 
 <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_reader_completion_routine.md">EvtUsbTargetPipeReadComplete</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
+
+
+
+<a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a>
 
 
 
@@ -243,23 +255,11 @@ status = WdfUsbTargetPipeConfigContinuousReader(
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdf_usb_continuous_reader_config_init.md">WDF_USB_CONTINUOUS_READER_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
 
 
 
@@ -267,7 +267,7 @@ status = WdfUsbTargetPipeConfigContinuousReader(
 
 
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_continuous_reader_config.md">WDF_USB_CONTINUOUS_READER_CONFIG</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 
@@ -275,5 +275,5 @@ status = WdfUsbTargetPipeConfigContinuousReader(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeConfigContinuousReader method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeConfigContinuousReader method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\ufs_unit_config_descriptor.htm
 old-project: storage
 ms.assetid: 09CBAD0A-CBDC-464E-908C-BF142D515969
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PUFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR, ufs/UFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], storage.ufs_unit_config_descriptor"
+ms.date: 2/16/2018
+ms.keywords: "*PUFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR, PUFS_UNIT_CONFIG_DESCRIPTOR structure pointer [Storage Devices], ufs/UFS_UNIT_CONFIG_DESCRIPTOR, UFS_UNIT_CONFIG_DESCRIPTOR structure [Storage Devices], PUFS_UNIT_CONFIG_DESCRIPTOR, storage.ufs_unit_config_descriptor, ufs/PUFS_UNIT_CONFIG_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: print\iprinterextensioneventargs_request.htm
 old-project: print
 ms.assetid: 2F11C510-B649-4DC6-B0BC-89C4159E464C
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrinterExtensionEventArgs interface [Print Devices], Request property, IPrinterExtensionEventArgs.Request, Request property [Print Devices], IPrinterExtensionEventArgs interface, Request property [Print Devices], IPrinterExtensionEventArgs::get_Request, printerextension/IPrinterExtensionEventArgs::Request, IPrinterExtensionEventArgs, print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::get_Request, get_Request
+ms.date: 2/21/2018
+ms.keywords: IPrinterExtensionEventArgs.Request, IPrinterExtensionEventArgs::get_Request, printerextension/IPrinterExtensionEventArgs::get_Request, get_Request, Request property [Print Devices], IPrinterExtensionEventArgs interface, Request property [Print Devices], print.iprinterextensioneventargs_request, printerextension/IPrinterExtensionEventArgs::Request, IPrinterExtensionEventArgs, IPrinterExtensionEventArgs interface [Print Devices], Request property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -85,5 +85,5 @@ HRESULT get_Request(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionEventArgs::Request property%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionEventArgs::Request property%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

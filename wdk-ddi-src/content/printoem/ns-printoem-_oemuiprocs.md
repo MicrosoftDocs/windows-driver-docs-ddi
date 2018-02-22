@@ -7,8 +7,8 @@ old-location: print\oemuiprocs.htm
 old-project: print
 ms.assetid: 67dfb4bd-c43c-4da3-833d-34050d49dea3
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: OEMUIPROCS structure [Print Devices], printoem/OEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], printoem/POEMUIPROCS, _OEMUIPROCS, print.oemuiprocs, OEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, *POEMUIPROCS, POEMUIPROCS
+ms.date: 2/21/2018
+ms.keywords: printoem/OEMUIPROCS, print.oemuiprocs, _OEMUIPROCS, *POEMUIPROCS, POEMUIPROCS structure pointer [Print Devices], OEMUIPROCS, OEMUIPROCS structure [Print Devices], printoem/POEMUIPROCS, print_unidrv-pscript_ui_2252155b-8f63-4c0f-886b-c66b26ccdd5f.xml, POEMUIPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OEMUIPROCS
 product: Windows
 targetos: Windows
-req.typenames: OEMUIPROCS, *POEMUIPROCS
+req.typenames: "*POEMUIPROCS, OEMUIPROCS"
 req.product: Windows 10 or later.
 ---
 
@@ -52,7 +52,7 @@ req.product: Windows 10 or later.
 
 The OEMUIPROCS structure is obsolete.
 
-The OEMUIPROCS structure contains the address of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548641">DrvUpdateUISetting</a> functions that are exported by Microsoft printer drivers.
+The OEMUIPROCS structure contains the address of the <a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a> and <a href="..\printoem\nc-printoem-pfn_drvupdateuisetting.md">DrvUpdateUISetting</a> functions that are exported by Microsoft printer drivers.
 
 
 ## -syntax
@@ -86,7 +86,7 @@ Pointer to the printer driver's <b>DrvUpdateUISetting</b> function.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a> and <a href="https://msdn.microsoft.com/library/windows/hardware/ff548641">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
+<a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a> and <a href="..\printoem\nc-printoem-pfn_drvupdateuisetting.md">DrvUpdateUISetting</a> have been superseded by COM-based interfaces. 
 
 The OEMUIPROCS structure's address is contained in an <a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a> structure.
 

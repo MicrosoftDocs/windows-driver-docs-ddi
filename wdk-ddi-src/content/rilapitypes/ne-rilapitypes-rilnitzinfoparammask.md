@@ -7,8 +7,8 @@ old-location: netvista\rilnitzinfoparammask_2.htm
 old-project: netvista
 ms.assetid: c9ee5373-53eb-4356-8969-4d7bfea13779
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILNITZINFOPARAMMASK, rilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, netvista.rilnitzinfoparammask_2, RIL_PARAM_NITZ_SYSTEMTIME, RIL_PARAM_NITZ_TIMEZONEOFFSET, rilapitypes/RILNITZINFOPARAMMASK, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, rilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_SYSTEMTYPE, RIL_PARAM_NITZ_ALL, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_NITZ_ALL, rilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, rilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET
+ms.date: 2/16/2018
+ms.keywords: RIL_PARAM_NITZ_ALL, rilapitypes/RIL_PARAM_NITZ_TIMEZONEOFFSET, rilapitypes/RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RILNITZINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILNITZINFOPARAMMASK, RIL_PARAM_NITZ_DAYLIGHTSAVINGOFFSET, RIL_PARAM_NITZ_TIMEZONEOFFSET, RIL_PARAM_NITZ_SYSTEMTYPE, rilapitypes/RIL_PARAM_NITZ_ALL, RIL_PARAM_NITZ_SYSTEMTIME, rilapitypes/RIL_PARAM_NITZ_SYSTEMTYPE, netvista.rilnitzinfoparammask_2, rilapitypes/RIL_PARAM_NITZ_SYSTEMTIME, rilapitypes/RILNITZINFOPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

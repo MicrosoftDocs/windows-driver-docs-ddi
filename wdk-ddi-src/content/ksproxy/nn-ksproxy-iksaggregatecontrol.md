@@ -7,7 +7,7 @@ old-location: stream\iksaggregatecontrol.htm
 old-project: stream
 ms.assetid: ed239516-bbaf-4e16-a3b8-4f9f34cab4ef
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.iksaggregatecontrol, IKsAggregateControl interface [Streaming Media Devices], IKsAggregateControl interface [Streaming Media Devices], described, IKsAggregateControl, ksproxy/IKsAggregateControl, ksproxy_ccd980b0-abd1-4354-9f2c-3c0613b18d07.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,15 +163,11 @@ For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>Co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/9808bdb9-17f9-4a80-90c7-e85ab35b74ae">KsAddAggregate</a>
-
-
-
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/f625b1ed-ccab-4072-9eb9-c4ebbddb1199">KsRemoveAggregate</a>
+
+
+
+<a href="https://msdn.microsoft.com/9808bdb9-17f9-4a80-90c7-e85ab35b74ae">KsAddAggregate</a>
 
 
 
@@ -179,9 +175,13 @@ For more information about <b>IDistributorNotify</b>, <b>IUnknown</b>, and <b>Co
 
 
 
- 
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsAggregateControl interface%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsAggregateControl interface%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

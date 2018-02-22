@@ -7,8 +7,8 @@ old-location: ifsk\access_state.htm
 old-project: ifsk
 ms.assetid: 3d1d6407-f853-48d5-bd54-2eacece48b84
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "_ACCESS_STATE, PACCESS_STATE, ifsk.access_state, PACCESS_STATE structure pointer [Installable File System Drivers], securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, *PACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], wdm/PACCESS_STATE, wdm/ACCESS_STATE, ACCESS_STATE"
+ms.date: 2/16/2018
+ms.keywords: ACCESS_STATE, wdm/ACCESS_STATE, ACCESS_STATE structure [Installable File System Drivers], *PACCESS_STATE, PACCESS_STATE, securitystructures_41c08d1c-9d46-4df7-a1fe-dc274e8b3fe7.xml, PACCESS_STATE structure pointer [Installable File System Drivers], wdm/PACCESS_STATE, _ACCESS_STATE, ifsk.access_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACCESS_STATE
 product: Windows
 targetos: Windows
-req.typenames: ACCESS_STATE, *PACCESS_STATE
+req.typenames: "*PACCESS_STATE, ACCESS_STATE"
 req.product: Windows 10 or later.
 ---
 
@@ -153,12 +153,14 @@ A pointer to a memory block that contains auxiliary data for the access.
 A union that can contain one of the following structures. This union allows three privileges to be embedded in the access state structure. If any more privileges are required during the operation, they will be allocated in the <b>AuxData</b> member extension. This member is currently unused by drivers. 
 
 
-### -field Privileges.InitialPrivilegeSet
+
+#### InitialPrivilegeSet
 
 An <a href="..\wdm\ns-wdm-_privilege_set.md">INITIAL_PRIVILEGE_SET</a> structure that specifies a set of initial privileges for the access. 
 
 
-### -field Privileges.PrivilegeSet
+
+#### PrivilegeSet
 
 A <a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a> structure that specifies a set of privileges for the access. 
 
@@ -180,23 +182,7 @@ A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structur
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
 
 
 
@@ -204,23 +190,7 @@ A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structur
 
 
 
-<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-secapturesubjectcontext.md">SeCaptureSubjectContext</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
-
-
-
-<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
 
 
 
@@ -228,13 +198,45 @@ A <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structur
 
 
 
+<a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
+
+
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
+
+
+
 <a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seopenobjectfordeleteauditalarm.md">SeOpenObjectForDeleteAuditAlarm</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seopenobjectauditalarm.md">SeOpenObjectAuditAlarm</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\ns-wdm-_security_subject_context.md">SECURITY_SUBJECT_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ACCESS_STATE structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ACCESS_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

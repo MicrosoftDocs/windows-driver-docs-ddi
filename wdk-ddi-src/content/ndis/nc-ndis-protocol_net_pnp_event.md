@@ -7,7 +7,7 @@ old-location: netvista\protocolnetpnpevent.htm
 old-project: netvista
 ms.assetid: 3f50bcba-c7d2-4d81-bd8b-6080e08fbe74
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.protocolnetpnpevent, ProtocolNetPnPEvent callback function [Network Drivers Starting with Windows Vista], ProtocolNetPnPEvent, PROTOCOL_NET_PNP_EVENT, PROTOCOL_NET_PNP_EVENT, ndis/ProtocolNetPnPEvent, protocol_functions_ref_24f290b7-d0fc-4d50-9aff-f40f4847a451.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	ProtocolNetPnPEvent
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # PROTOCOL_NET_PNP_EVENT callback
@@ -326,11 +326,11 @@ The protocol driver should save the
 A protocol driver should always succeed a 
     <b>NetEventQueryPower</b> event. After establishing an active connection, a
     protocol driver can call the 
-    <a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a> function to
+    <a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a> function to
     register a continuously busy state. As long as the state registration is in effect, the power manager
     does not attempt to put the system to sleep. After the connection becomes inactive, the protocol driver
     cancels the state registration by calling the 
-    <a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a> function. A
+    <a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a> function. A
     protocol driver should never try to prevent the system from transitioning to the sleeping state by
     failing a 
     <b>NetEventQueryPower</b> event. Note that a 
@@ -403,15 +403,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pounregistersystemstate.md">PoUnregisterSystemState</a>
-
-
-
-<a href="..\wdm\nf-wdm-poregistersystemstate.md">PoRegisterSystemState</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
+<a href="..\ntifs\nf-ntifs-pounregistersystemstate.md">PoUnregisterSystemState</a>
 
 
 
@@ -419,13 +411,21 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\nf-ndis-ndiscompletenetpnpevent.md">NdisCompleteNetPnPEvent</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-poregistersystemstate.md">PoRegisterSystemState</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_NET_PNP_EVENT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PROTOCOL_NET_PNP_EVENT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

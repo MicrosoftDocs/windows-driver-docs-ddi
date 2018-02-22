@@ -7,7 +7,7 @@ old-location: netvista\dot11extsetunicastcipheralgorithm.htm
 old-project: netvista
 ms.assetid: 3e8c16ae-8e47-48fe-9df3-d4e582fe5fbb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.dot11extsetunicastcipheralgorithm, Dot11ExtSetUnicastCipherAlgorithm callback function [Network Drivers Starting with Windows Vista], Dot11ExtSetUnicastCipherAlgorithm, DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM, DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM, wlanihv/Dot11ExtSetUnicastCipherAlgorithm, Native_802.11_IHV_Ext_ac7afe15-117d-4c7d-adf9-4f96da7a914a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSetUnicastCipherAlgorithm
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -107,9 +107,11 @@ Otherwise, the DLL is responsible for processing a standard cipher algorithm sup
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
+
 
 
 
@@ -118,16 +120,24 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
    OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
+
 
 <a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
    OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
 
+
+
 <a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_SET_UNICAST_CIPHER_ALGORITHM callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

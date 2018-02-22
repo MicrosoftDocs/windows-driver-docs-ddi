@@ -7,8 +7,8 @@ old-location: display\d3dkmt_reclaimallocations2.htm
 old-project: display
 ms.assetid: 7980F1FD-D7C2-4C74-8652-89FD38BE4D1F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2"
+ms.date: 2/20/2018
+ms.keywords: D3DKMT_RECLAIMALLOCATIONS2, D3DKMT_RECLAIMALLOCATIONS2 structure [Display Devices], _D3DKMT_RECLAIMALLOCATIONS2, display.d3dkmt_reclaimallocations2, d3dkmthk/D3DKMT_RECLAIMALLOCATIONS2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,11 +97,6 @@ typedef struct _D3DKMT_RECLAIMALLOCATIONS2 {
 If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b>NULL</b>.
 
 
-### -field pResults
-
-[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
-
-
 ### -field pDiscarded
 
 [out] Optional array of boolean variables  specifying whether each resource or allocation was discarded.
@@ -110,4 +105,9 @@ If <b>HandleList</b> is not <b>NULL</b>, the <b>pResources</b> member must be <b
 ### -field PagingFenceValue
 
 The paging fence to synchronize against before submitting work to the GPU which references any of the resources or allocations in the provided arrays.
+
+
+#### - pResults
+
+[in] Required array of values specifying whether the surface is valid, discarded, or list commitment.
 

@@ -7,8 +7,8 @@ old-location: kernel\zwallocatelocallyuniqueid.htm
 old-project: kernel
 ms.assetid: 63ca0e60-700b-459a-a88a-bc7bb6f5f6e6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.zwallocatelocallyuniqueid, NtAllocateLocallyUniqueId, ntddk/NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId, k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, ZwAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: NtAllocateLocallyUniqueId, ZwAllocateLocallyUniqueId, k111_de9ec26c-4aa4-4f1b-b876-c6e27bb2a067.xml, kernel.zwallocatelocallyuniqueid, ZwAllocateLocallyUniqueId routine [Kernel-Mode Driver Architecture], ntddk/NtAllocateLocallyUniqueId, ntddk/ZwAllocateLocallyUniqueId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,5 +116,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwAllocateLocallyUniqueId routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwAllocateLocallyUniqueId routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

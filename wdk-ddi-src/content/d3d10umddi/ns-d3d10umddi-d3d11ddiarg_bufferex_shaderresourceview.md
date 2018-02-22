@@ -7,8 +7,8 @@ old-location: display\d3d11ddiarg_bufferex_shaderresourceview.htm
 old-project: display
 ms.assetid: b3585a06-fdb0-4fe9-8d5c-63680039a789
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3d11ddiarg_bufferex_shaderresourceview, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices], D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml
+ms.date: 2/20/2018
+ms.keywords: display.d3d11ddiarg_bufferex_shaderresourceview, d3d10umddi/D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW, UMDisplayDriver_Dx11param_Structs_49ef78b9-8a6f-4b67-bf2f-bae79086b6c7.xml, D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,38 +75,38 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 
 
 
-### -field FirstElement
-
-[in] The offset, in bytes, to the first element in the buffer. 
-
-
-### -field ElementOffset
-
-[in] The offset, in bytes, to the first element in the buffer. 
-
-
-### -field NumElements
-
-[in] The number of elements in the buffer. 
-
-
-### -field ElementWidth
-
-[in] The width, in elements, in the buffer. 
-
-
 ### -field Flags
 
 [in] A valid bitwise OR of flag values that describe the buffer. Currently, the Direct3D runtime supports only the D3D11_DDI_BUFFEREX_SRV_FLAG_RAW (0x00000001) flag. If this flag is set, the buffer is in raw format. 
 
 
+#### - FirstElement
+
+[in] The offset, in bytes, to the first element in the buffer. 
+
+
+#### - ElementOffset
+
+[in] The offset, in bytes, to the first element in the buffer. 
+
+
+#### - NumElements
+
+[in] The number of elements in the buffer. 
+
+
+#### - ElementWidth
+
+[in] The width, in elements, in the buffer. 
+
+
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
-
-
-
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createshaderresourceview.md">CreateShaderResourceView(D3D11)</a>
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createshaderresourceview.md">D3D11DDIARG_CREATESHADERRESOURCEVIEW</a>
 
 
 
@@ -118,5 +118,5 @@ typedef struct D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11DDIARG_BUFFEREX_SHADERRESOURCEVIEW structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

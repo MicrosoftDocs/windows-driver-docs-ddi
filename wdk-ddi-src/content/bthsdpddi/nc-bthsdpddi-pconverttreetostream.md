@@ -7,7 +7,7 @@ old-location: bltooth\sdpconverttreetostream.htm
 old-project: bltooth
 ms.assetid: 6e3cc0ae-e214-4096-834b-b435ee0fcb46
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.sdpconverttreetostream, SdpConvertTreeToStream callback function [Bluetooth Devices], SdpConvertTreeToStream, PCONVERTTREETOSTREAM, PCONVERTTREETOSTREAM, bthsdpddi/SdpConvertTreeToStream, bth_funcs_0f0b531b-9391-475c-a3a2-ac2b2a94e1dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -103,6 +103,7 @@ Specifies a 4-byte
 ## -returns
 
 
+
 Possible return values include:
 
 
@@ -117,7 +118,9 @@ Possible return values include:
 
 
 
+
 ## -remarks
+
 
 
 The 
@@ -129,24 +132,31 @@ The
 
 <b>SdpConvertTreeToStream</b> allocates the necessary memory to store the stream version of the SDP
     record. When the memory is no longer needed, the caller is responsible for freeing the memory using the 
-    <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> driver support routine.
+    <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> driver support routine.
 
 Bluetooth profile drivers can obtain a pointer to this function through the 
     <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>.
 
 
 
+
 ## -see-also
 
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+
+
 
 <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PCONVERTTREETOSTREAM callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20PCONVERTTREETOSTREAM callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\rxinferfiletype.htm
 old-project: ifsk
 ms.assetid: 340b304c-5484-4d98-9ef4-8814c68443a0
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fcb/RxInferFileType, RxInferFileType, RxInferFileType function [Installable File System Drivers], rxref_e020604c-fa08-40f3-895d-425347c73307.xml, ifsk.rxinferfiletype
+ms.date: 2/16/2018
+ms.keywords: rxref_e020604c-fa08-40f3-895d-425347c73307.xml, fcb/RxInferFileType, ifsk.rxinferfiletype, RxInferFileType, RxInferFileType function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxInferFileType
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # RxInferFileType function
@@ -137,17 +137,17 @@ The <b>RxInferFileType</b> routine is not called internally by RDBSS. The <b>RxI
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
-
-
-
 <a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxInferFileType function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxInferFileType function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

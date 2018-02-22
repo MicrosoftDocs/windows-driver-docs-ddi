@@ -7,8 +7,8 @@ old-location: dtf\iwdtf2_config.htm
 old-project: dtf
 ms.assetid: d7302c51-02b3-4876-b215-6bde1160245a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IWDTF2.Config, IWDTF2 interface [Windows Device Testing Framework], Config property, wdtf/IWDTF2::Config, Microsoft.WDTF.IWDTF2.Config, dtf.iwdtf2_config, Config property [Windows Device Testing Framework], IWDTF2::get_Config, get_Config, Microsoft::WDTF::IWDTF2::Config, Config property [Windows Device Testing Framework], IWDTF2 interface, IWDTF2, wdtf/IWDTF2::get_Config
+ms.date: 2/20/2018
+ms.keywords: wdtf/IWDTF2::Config, IWDTF2, IWDTF2 interface [Windows Device Testing Framework], Config property, Config property [Windows Device Testing Framework], IWDTF2 interface, get_Config, Microsoft::WDTF::IWDTF2::Config, Microsoft.WDTF.IWDTF2.Config, IWDTF2.Config, Config property [Windows Device Testing Framework], wdtf/IWDTF2::get_Config, dtf.iwdtf2_config, IWDTF2::get_Config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IWDTF2.get_Config
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 
@@ -83,5 +83,5 @@ HRESULT get_Config(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTF2::Config property%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTF2::Config property%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

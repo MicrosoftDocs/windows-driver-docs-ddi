@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlremoveperfileobjectcontext.htm
 old-project: ifsk
 ms.assetid: 84d359db-08d7-4f42-b912-02f3d483aa05
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlRemovePerFileObjectContext function [Installable File System Drivers], ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext, fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml
+ms.date: 2/16/2018
+ms.keywords: fsrtlref_2ff0b1e9-cbe5-46be-b571-3a328284b14d.xml, ifsk.fsrtlremoveperfileobjectcontext, ntifs/FsRtlRemovePerFileObjectContext, FsRtlRemovePerFileObjectContext function [Installable File System Drivers], FsRtlRemovePerFileObjectContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,15 +118,11 @@ Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfileobjectcontext.md">FsRtlInsertPerFileObjectContext</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-fsrtllookupperfileobjectcontext.md">FsRtlLookupPerFileObjectContext</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtlinsertperfileobjectcontext.md">FsRtlInsertPerFileObjectContext</a>
 
 
 
@@ -134,9 +130,13 @@ Additionally, file system minifilter drivers must not use the <b>FsRtl</b><i>Xxx
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546170">FsRtlInitPerFileObjectContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlRemovePerFileObjectContext function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlRemovePerFileObjectContext function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

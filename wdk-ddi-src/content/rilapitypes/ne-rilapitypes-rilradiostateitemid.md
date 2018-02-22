@@ -7,8 +7,8 @@ old-location: netvista\rilradiostateitemid_2.htm
 old-project: netvista
 ms.assetid: 55c75583-945d-45f5-ac69-b6019b82aead
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilradiostateitemid_2, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILRADIOSTATEITEMID, RILRADIOSTATEITEMID
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILRADIOSTATEITEMID, RILRADIOSTATEITEMID enumeration [Network Drivers Starting with Windows Vista], netvista.rilradiostateitemid_2, RILRADIOSTATEITEMID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

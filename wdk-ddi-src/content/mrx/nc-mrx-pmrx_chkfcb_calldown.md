@@ -7,7 +7,7 @@ old-location: ifsk\mrxarefilesaliased.htm
 old-project: ifsk
 ms.assetid: 273266b3-98f4-4c93-a06b-8e149440ad24
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/16/2018
 ms.keywords: ifsk.mrxarefilesaliased, MRxAreFilesAliased, MRxAreFilesAliased routine [Installable File System Drivers], MRxAreFilesAliased, PMRX_CHKFCB_CALLDOWN, PMRX_CHKFCB_CALLDOWN, mrx/MRxAreFilesAliased, mrxref_5d6e6988-84d7-43ac-860e-4f184686a9e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,7 +84,9 @@ A pointer to the second FCB structure.
 ## -returns
 
 
+
 <b>MRxAreFilesAliased</b> returns STATUS_SUCCESS indicating that the files are not aliased, or an appropriate NTSTATUS value, such as the following: 
+
 <table>
 <tr>
 <th>Return code</th>
@@ -101,16 +103,20 @@ The <b>IndexNumber.QuadPart</b> members of the two FCB structures are identical.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
+
 RDBSS calls this routine when processing two files that appear to be the same but have different names (for example, an MS-DOS short name and a long name).
 
 <b>MRxAreFilesAliased</b> is called by the <a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a> routine when purging all the structures of an FOBX structure associated with a NET_ROOT structure. As part of this process, an attempt is made to purge all the FOBX structures that had a close pending before the purge request was received. RDBSS needs to scavenge any temporary FOBX structures in the following cases: 
+
 <ol>
 <li>
 The <i>PurgingFcb</i> parameter that is passed to the <a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a> routine is the FCB structure for which the scavenging should occur. When this parameter is a directory, RDBSS needs to ensure that files that can potentially be in that directory are closed.
@@ -120,47 +126,81 @@ The <i>PurgingFcb</i> parameter that is passed to the <a href="..\scavengr\nf-sc
 The FCB structure that is associated with the FOBX structure on the <b>FobxsToBeFinalized</b> member of the RDBSS_SCAVENGER structure doesn't point to the same FCB structure as the <i>PurgingFCB</i> parameter passed to <a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>. This is complicated by the fact that they might not be the same FCB structures, but are actually the same file because of aliasing. In this case, the <b>MRxAreFilesAliased</b> routine is called to determine if the FCB structure is aliased.
 
 </li>
-</ol><b>MRxAreFilesAliased</b> is also called by the <a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a> routine when purging all the file objects associated with a NET_ROOT structure. This is complicated by the fact that the <i>PurgingFCB</i> parameter passed to <b>RxScavengeFobxsForNetRoot</b> and the FCB structure that is associated with the NET_ROOT structure might actually be the same file because of aliasing. In this case, the <b>MRxAreFilesAliased</b> routine is called to determine if the FCB structure is aliased.  
+</ol>
+<b>MRxAreFilesAliased</b> is also called by the <a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a> routine when purging all the file objects associated with a NET_ROOT structure. This is complicated by the fact that the <i>PurgingFCB</i> parameter passed to <b>RxScavengeFobxsForNetRoot</b> and the FCB structure that is associated with the NET_ROOT structure might actually be the same file because of aliasing. In this case, the <b>MRxAreFilesAliased</b> routine is called to determine if the FCB structure is aliased.  
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
 
 <a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
+<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
 
-<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
-
-<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
- 
+
+
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fcb.md">MRxDeallocateForFcb</a>
+
+
+
+<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_is_lock_realizable.md">MRxIsLockRealizable</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549847">MRxCollapseOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CHKFCB_CALLDOWN routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CHKFCB_CALLDOWN routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

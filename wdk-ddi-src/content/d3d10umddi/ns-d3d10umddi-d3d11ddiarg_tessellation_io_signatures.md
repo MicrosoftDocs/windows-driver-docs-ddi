@@ -7,8 +7,8 @@ old-location: display\d3d11ddiarg_tessellation_io_signatures.htm
 old-project: display
 ms.assetid: ed652b52-33c9-4961-af29-b5fc54cf29b8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3d11ddiarg_tessellation_io_signatures, D3D11DDIARG_TESSELLATION_IO_SIGNATURES, UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: d3d10umddi/D3D11DDIARG_TESSELLATION_IO_SIGNATURES, D3D11DDIARG_TESSELLATION_IO_SIGNATURES, UMDisplayDriver_Dx11param_Structs_5fb8a2b5-8291-4c80-a529-303f50f34cac.xml, D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure [Display Devices], display.d3d11ddiarg_tessellation_io_signatures
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -127,5 +127,5 @@ The declarations within the shader code itself also show which registers are act
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11DDIARG_TESSELLATION_IO_SIGNATURES structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

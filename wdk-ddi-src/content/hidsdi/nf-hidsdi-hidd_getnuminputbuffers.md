@@ -7,8 +7,8 @@ old-location: hid\hidd_getnuminputbuffers.htm
 old-project: hid
 ms.assetid: f9ed28a5-835c-47c8-b9cf-888785013b69
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: HidD_GetNumInputBuffers, HidD_GetNumInputBuffers routine [Human Input Devices], hidsdi/HidD_GetNumInputBuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, hid.hidd_getnuminputbuffers
+ms.date: 2/15/2018
+ms.keywords: hidsdi/HidD_GetNumInputBuffers, hidfunc_addf7040-0b62-45bc-8b43-1aa0157924e8.xml, HidD_GetNumInputBuffers routine [Human Input Devices], HidD_GetNumInputBuffers, hid.hidd_getnuminputbuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setnuminputbuffers.md">HidD_SetNumInputBuffers</a>
+<a href="..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a>
 
 
 
@@ -108,7 +108,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_get_num_device_input_buffers.md">IOCTL_GET_NUM_DEVICE_INPUT_BUFFERS</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_setnuminputbuffers.md">HidD_SetNumInputBuffers</a>
 
 
 
@@ -116,5 +116,5 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidD_GetNumInputBuffers routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidD_GetNumInputBuffers routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

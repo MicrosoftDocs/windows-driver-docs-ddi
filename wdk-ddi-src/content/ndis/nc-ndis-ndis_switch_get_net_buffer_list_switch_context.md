@@ -7,7 +7,7 @@ old-location: netvista\getnetbufferlistswitchcontext.htm
 old-project: netvista
 ms.assetid: 68270219-7003-489B-8362-8D6867D571FD
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.getnetbufferlistswitchcontext, GetNetBufferListSwitchContext callback function [Network Drivers Starting with Windows Vista], GetNetBufferListSwitchContext, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT, ndis/GetNetBufferListSwitchContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	GetNetBufferListSwitchContext
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback
@@ -115,11 +115,7 @@ For more information about the extensible switch forwarding context, see <a href
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
+<a href="..\ndis\nc-ndis-ndis_switch_set_net_buffer_list_switch_context.md">SetNetBufferListSwitchContext</a>
 
 
 
@@ -127,7 +123,7 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
 
 
 
@@ -135,11 +131,15 @@ For more information about the extensible switch forwarding context, see <a href
 
 
 
-<a href="..\ndis\nc-ndis-ndis_switch_set_net_buffer_list_switch_context.md">SetNetBufferListSwitchContext</a>
+<a href="..\ndis\ns-ndis-_ndis_switch_port_destination.md">NDIS_SWITCH_PORT_DESTINATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568388">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
 
 
 
@@ -155,5 +155,5 @@ For more information about the extensible switch forwarding context, see <a href
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_GET_NET_BUFFER_LIST_SWITCH_CONTEXT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

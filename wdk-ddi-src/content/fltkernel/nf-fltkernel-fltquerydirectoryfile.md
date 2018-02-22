@@ -7,8 +7,8 @@ old-location: ifsk\fltquerydirectoryfile.htm
 old-project: ifsk
 ms.assetid: d77dfcc7-a7a7-4027-9831-42b1b79738d0
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltQueryDirectoryFile, ifsk.fltquerydirectoryfile, FltQueryDirectoryFile routine [Installable File System Drivers], fltkernel/FltQueryDirectoryFile, FltApiRef_p_to_z_d91e48f4-f6a2-4f36-a5f6-9e39821446c2.xml
+ms.date: 2/16/2018
+ms.keywords: FltQueryDirectoryFile routine [Installable File System Drivers], ifsk.fltquerydirectoryfile, fltkernel/FltQueryDirectoryFile, FltQueryDirectoryFile, FltApiRef_p_to_z_d91e48f4-f6a2-4f36-a5f6-9e39821446c2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -269,43 +269,11 @@ Callers of <b>FltQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_full_dir_information.md">FILE_FULL_DIR_INFORMATION</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_full_dir_information.md">FILE_FULL_DIR_INFORMATION</a>
 
 
 
@@ -313,13 +281,45 @@ Callers of <b>FltQueryDirectoryFile</b> must be running at IRQL = PASSIVE_LEVEL 
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex.md">FltCreateFileEx</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_id_full_dir_information.md">FILE_ID_FULL_DIR_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_reparse_point_information.md">FILE_REPARSE_POINT_INFORMATION</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_file_both_dir_information.md">FILE_BOTH_DIR_INFORMATION</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_id_both_dir_information.md">FILE_ID_BOTH_DIR_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryDirectoryFile routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryDirectoryFile routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

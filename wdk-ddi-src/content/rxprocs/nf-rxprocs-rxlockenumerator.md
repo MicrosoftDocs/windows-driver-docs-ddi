@@ -7,8 +7,8 @@ old-location: ifsk\rxlockenumerator.htm
 old-project: ifsk
 ms.assetid: 8d14604f-c9e5-4a2d-bb51-ef1925b39118
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml, rxprocs/RxLockEnumerator, ifsk.rxlockenumerator, RxLockEnumerator function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.rxlockenumerator, RxLockEnumerator, rxref_62372da9-aa80-447e-8e79-6bc1f1c5cf54.xml, rxprocs/RxLockEnumerator, RxLockEnumerator function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,17 +119,17 @@ The <b>RxLockEnumerator</b> routine needs to allocate non-paged pool memory in o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxLockEnumerator function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxLockEnumerator function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

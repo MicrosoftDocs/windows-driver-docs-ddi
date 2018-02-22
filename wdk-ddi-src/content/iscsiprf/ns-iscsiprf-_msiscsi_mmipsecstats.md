@@ -7,8 +7,8 @@ old-location: storage\msiscsi_mmipsecstats.htm
 old-project: storage
 ms.assetid: 75b11689-f940-467e-92ee-59b5e0adbf70
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_MSiSCSI_MMIPSECStats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml, MSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], PMSiSCSI_MMIPSECStats, iscsiprf/PMSiSCSI_MMIPSECStats, iscsiprf/MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], storage.msiscsi_mmipsecstats, *PMSiSCSI_MMIPSECStats"
+ms.date: 2/16/2018
+ms.keywords: "_MSiSCSI_MMIPSECStats, MSiSCSI_MMIPSECStats structure [Storage Devices], PMSiSCSI_MMIPSECStats structure pointer [Storage Devices], iscsiprf/MSiSCSI_MMIPSECStats, *PMSiSCSI_MMIPSECStats, storage.msiscsi_mmipsecstats, MSiSCSI_MMIPSECStats, structs-iSCSI_6edce57f-fce5-422a-a98f-049cc6418514.xml, iscsiprf/PMSiSCSI_MMIPSECStats, PMSiSCSI_MMIPSECStats"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -211,5 +211,5 @@ It is optional that you implement this class.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_MMIPSECStats structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_MMIPSECStats structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

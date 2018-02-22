@@ -7,8 +7,8 @@ old-location: kernel\rtlunicodestringcchcopynex.htm
 old-project: kernel
 ms.assetid: c7ed5af4-7731-4f1d-8802-a932c26d276a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringCchCopyNEx, kernel.rtlunicodestringcchcopynex, safestrings_e87c890a-b794-41c0-b506-b2b29902339c.xml, RtlUnicodeStringCchCopyNEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringCchCopyNEx
+ms.date: 2/16/2018
+ms.keywords: kernel.rtlunicodestringcchcopynex, RtlUnicodeStringCchCopyNEx, RtlUnicodeStringCchCopyNEx function [Kernel-Mode Driver Architecture], safestrings_e87c890a-b794-41c0-b506-b2b29902339c.xml, ntstrsafe/RtlUnicodeStringCchCopyNEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCchCopyNEx
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
 ---
 
 # RtlUnicodeStringCchCopyNEx function
@@ -217,7 +217,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -225,7 +225,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringcchcopyn.md">RtlUnicodeStringCchCopyN</a>
 
 
 
@@ -233,5 +233,5 @@ For more information about the safe string functions, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCchCopyNEx function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlUnicodeStringCchCopyNEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

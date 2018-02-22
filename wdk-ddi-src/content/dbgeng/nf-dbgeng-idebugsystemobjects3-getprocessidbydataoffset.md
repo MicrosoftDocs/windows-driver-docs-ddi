@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::GetProcessIdByDataOffset method
 author: windows-driver-content
 description: The GetProcessIdByDataOffset method returns the engine process ID for the specified process. The process is specified by its data offset.
 old-location: debugger\getprocessidbydataoffset.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: a2c094f4-f54d-4c3c-95e7-75df717db8cc
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects_8c7f276b-9a12-41ac-8c56-4e37b68d491d.xml, IDebugSystemObjects2::GetProcessIdByDataOffset, IDebugSystemObjects::GetProcessIdByDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByDataOffset method, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3::GetProcessIdByDataOffset, dbgeng/IDebugSystemObjects::GetProcessIdByDataOffset, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByDataOffset method, GetProcessIdByDataOffset method [Windows Debugging], GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByDataOffset method, dbgeng/IDebugSystemObjects2::GetProcessIdByDataOffset, IDebugSystemObjects4::GetProcessIdByDataOffset, IDebugSystemObjects2, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3, debugger.getprocessidbydataoffset, IDebugSystemObjects, dbgeng/IDebugSystemObjects3::GetProcessIdByDataOffset, GetProcessIdByDataOffset
+ms.date: 2/15/2018
+ms.keywords: IDebugSystemObjects, IDebugSystemObjects3::GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, GetProcessIdByDataOffset method [Windows Debugging], dbgeng/IDebugSystemObjects3::GetProcessIdByDataOffset, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects_8c7f276b-9a12-41ac-8c56-4e37b68d491d.xml, IDebugSystemObjects4::GetProcessIdByDataOffset, GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects2::GetProcessIdByDataOffset, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects2, IDebugSystemObjects2::GetProcessIdByDataOffset, debugger.getprocessidbydataoffset, dbgeng/IDebugSystemObjects4::GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByDataOffset method, IDebugSystemObjects3, dbgeng/IDebugSystemObjects::GetProcessIdByDataOffset, IDebugSystemObjects::GetProcessIdByDataOffset, GetProcessIdByDataOffset method [Windows Debugging], IDebugSystemObjects2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetProcessIdByDataOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects3::GetProcessIdByDataOffset method

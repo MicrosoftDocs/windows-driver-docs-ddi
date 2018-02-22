@@ -7,13 +7,13 @@ old-location: kernel\interface_type.htm
 old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MPSABus, CBus, wdm/MPSABus, wdm/CBus, wdm/InternalPowerBus, wdm/Internal, wdm/TurboChannel, ProcessorInternal, PCMCIABus, wdm/INTERFACE_TYPE, NuBus, Eisa, _INTERFACE_TYPE, TurboChannel, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], ACPIBus, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PNPISABus, PNPBus, wdm/VMEBus, wdm/PNPBus, wdm/Vmcs, MicroChannel, wdm/InterfaceTypeUndefined, INTERFACE_TYPE, wdm/PCMCIABus, PINTERFACE_TYPE, wdm/Isa, wdm/MaximumInterfaceType, Isa, wdm/PCIBus, MaximumInterfaceType, Vmcs, wdm/NuBus, Internal, VMEBus, PCIBus, PNPISABus, wdm/MicroChannel, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/ACPIBus, wdm/Eisa, kernel.interface_type, wdm/ProcessorInternal, InternalPowerBus, wdm/PINTERFACE_TYPE, *PINTERFACE_TYPE, MPIBus, InterfaceTypeUndefined, wdm/MPIBus
+ms.date: 2/16/2018
+ms.keywords: wdm/Eisa, InterfaceTypeUndefined, wdm/CBus, MPIBus, Vmcs, kernel.interface_type, wdm/InternalPowerBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PINTERFACE_TYPE, wdm/MPSABus, *PINTERFACE_TYPE, PNPISABus, NuBus, wdm/PCMCIABus, InternalPowerBus, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], PCIBus, wdm/ProcessorInternal, Eisa, CBus, wdm/PCIBus, MPSABus, wdm/Vmcs, _INTERFACE_TYPE, wdm/InterfaceTypeUndefined, MaximumInterfaceType, INTERFACE_TYPE, wdm/MicroChannel, wdm/NuBus, wdm/VMEBus, ProcessorInternal, TurboChannel, wdm/ACPIBus, wdm/PINTERFACE_TYPE, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/Isa, wdm/PNPISABus, wdm/INTERFACE_TYPE, MicroChannel, PCMCIABus, VMEBus, wdm/MPIBus, PNPBus, wdm/MaximumInterfaceType, wdm/PNPBus, Isa, wdm/TurboChannel, ACPIBus, wdm/Internal, Internal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	INTERFACE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: INTERFACE_TYPE, *PINTERFACE_TYPE
+req.typenames: "*PINTERFACE_TYPE, INTERFACE_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -189,7 +189,19 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+
+
+
+<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
@@ -201,21 +213,9 @@ Marks the upper limit of the possible bus types.
 
 
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
-
-
-
-<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20INTERFACE_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20INTERFACE_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

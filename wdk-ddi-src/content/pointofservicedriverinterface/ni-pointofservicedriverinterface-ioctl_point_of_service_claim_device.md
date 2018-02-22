@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_claim_device.htm
 old-project: pos
 ms.assetid: e9dfa630-d3ac-4228-ae2a-02ff5a0fd558
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/19/2018
 ms.keywords: pos.ioctl_point_of_service_claim_device, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE control code, IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_CLAIM_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

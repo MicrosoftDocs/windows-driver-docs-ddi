@@ -7,8 +7,8 @@ old-location: sd\sdcmd_descriptor.htm
 old-project: SD
 ms.assetid: 7c49c394-d0b3-4594-a623-0a13825bdcec
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], sddef/SDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], SD.sdcmd_descriptor, _SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR
+ms.date: 2/15/2018
+ms.keywords: SD.sdcmd_descriptor, sddef/PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR, _SDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,6 +75,7 @@ typedef struct _SDCMD_DESCRIPTOR {
 ### -field Cmd
 
 Contains a value of type SD_COMMAND_CODE that specifies the SD command.
+
 <ul>
 <li>SDCMD_IO_RW_DIRECTIndicates a read or write operation of a single byte.
 
@@ -110,7 +111,9 @@ Contains an enumeration value of type <a href="https://msdn.microsoft.com/librar
 ## -remarks
 
 
+
 To send a command to an SD device, a device driver must complete the following steps:
+
 <ol>
 <li>
 Set the <b>RequestFunction</b> member of SDBUS_REQUEST_PACKET to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a> enumeration value of SDRF_DEVICE_COMMAND.
@@ -124,31 +127,49 @@ Initialize the <b>CmdDesc</b> member of SDBUS_REQUEST_PACKET to define the comma
 Send the request to the bus driver by passing the initialized SDBUS_REQUEST_PACKET structure to either <a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>.
 
 </li>
-</ol>If a driver submits a command request without properly initializing the <b>TransferDirection</b>, <b>TransferType</b>, and <b>ResponseType</b> members of the command descriptor, the request will fail. These members cannot be 0.
+</ol>
+If a driver submits a command request without properly initializing the <b>TransferDirection</b>, <b>TransferType</b>, and <b>ResponseType</b> members of the command descriptor, the request will fail. These members cannot be 0.
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
+
 
 <a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537914">SdBusSubmitRequestAsync</a>
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
- 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SDCMD_DESCRIPTOR structure%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SDCMD_DESCRIPTOR structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

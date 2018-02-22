@@ -7,8 +7,8 @@ old-location: netvista\wwan_vendor_specific.htm
 old-project: netvista
 ms.assetid: e3f024d0-4543-4c28-958f-58a3072027ad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wwan_vendor_specific, PWWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista], PWWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC, _WWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC, WwanRef_9261cb07-079e-4266-8358-fff73af8c31a.xml, WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_VENDOR_SPECIFIC, wwan/WWAN_VENDOR_SPECIFIC
+ms.date: 2/16/2018
+ms.keywords: wwan/WWAN_VENDOR_SPECIFIC, *PWWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC structure [Network Drivers Starting with Windows Vista], PWWAN_VENDOR_SPECIFIC, WwanRef_9261cb07-079e-4266-8358-fff73af8c31a.xml, _WWAN_VENDOR_SPECIFIC, netvista.wwan_vendor_specific, wwan/PWWAN_VENDOR_SPECIFIC, WWAN_VENDOR_SPECIFIC, PWWAN_VENDOR_SPECIFIC structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,5 +94,5 @@ NDIS_WWAN_VENDOR_SPECIFIC should have the data following the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_VENDOR_SPECIFIC structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_VENDOR_SPECIFIC structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

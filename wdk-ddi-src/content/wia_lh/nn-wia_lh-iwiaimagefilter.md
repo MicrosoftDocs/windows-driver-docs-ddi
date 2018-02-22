@@ -4,10 +4,10 @@ title: IWiaImageFilter
 author: windows-driver-content
 description: The IWiaImageFilter interface is an extension interface implemented by image processing filter developers and called by Microsoft Windows Image Acquisition (WIA).
 old-location: image\iwiaimagefilter_interface.htm
-old-project: image
+old-project: Image
 ms.assetid: de74898b-ac04-468d-874d-7ca281e22a86
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/15/2018
 ms.keywords: image.iwiaimagefilter_interface, IWiaImageFilter interface [Imaging Devices], IWiaImageFilter interface [Imaging Devices], described, IWiaImageFilter, wia_lh/IWiaImageFilter, IWiaErrorHandler_3922a578-25ee-448c-a0db-c339711ad2cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWiaImageFilter
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

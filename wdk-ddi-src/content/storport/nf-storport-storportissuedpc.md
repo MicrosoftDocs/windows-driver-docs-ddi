@@ -7,8 +7,8 @@ old-location: storage\storportissuedpc.htm
 old-project: storage
 ms.assetid: a0c46c51-f6c4-4609-9dba-b730f33c3ed6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storport/StorPortIssueDpc, storage.storportissuedpc, storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml, StorPortIssueDpc routine [Storage Devices], StorPortIssueDpc
+ms.date: 2/16/2018
+ms.keywords: StorPortIssueDpc, storport/StorPortIssueDpc, storprt_e9cbe677-4d21-4c07-97a2-9db50858321f.xml, StorPortIssueDpc routine [Storage Devices], storage.storportissuedpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,7 @@ If a miniport driver has multiple work-items that must be performed by the same 
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
+<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
 
 
@@ -121,7 +121,7 @@ If a miniport driver has multiple work-items that must be performed by the same 
 
 
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
+<a href="..\storport\ns-storport-_stor_dpc.md">STOR_DPC</a>
 
 
 
@@ -129,5 +129,5 @@ If a miniport driver has multiple work-items that must be performed by the same 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortIssueDpc routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortIssueDpc routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

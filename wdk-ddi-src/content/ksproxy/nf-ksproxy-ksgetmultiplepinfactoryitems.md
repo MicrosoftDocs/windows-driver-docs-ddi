@@ -7,8 +7,8 @@ old-location: stream\ksgetmultiplepinfactoryitems.htm
 old-project: stream
 ms.assetid: 43210484-dcae-49b7-bda3-50d6c06ee2c0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksgetmultiplepinfactoryitems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, KsGetMultiplePinFactoryItems, ksproxy/KsGetMultiplePinFactoryItems, KsGetMultiplePinFactoryItems function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: ksproxy/KsGetMultiplePinFactoryItems, ksproxy_cd252212-9317-4e1a-9f57-ee18afc23766.xml, KsGetMultiplePinFactoryItems function [Streaming Media Devices], KsGetMultiplePinFactoryItems, stream.ksgetmultiplepinfactoryitems
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,10 +113,6 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
-
-
-
 <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
@@ -129,9 +125,13 @@ For more information about <b>CoTaskMemFree</b>, see the Microsoft Windows SDK d
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetMultiplePinFactoryItems function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGetMultiplePinFactoryItems function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

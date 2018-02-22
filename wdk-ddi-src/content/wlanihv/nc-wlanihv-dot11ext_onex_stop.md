@@ -7,7 +7,7 @@ old-location: netvista\dot11extstoponex.htm
 old-project: netvista
 ms.assetid: b4893698-47ae-4888-9dcd-0dbdf051266b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.dot11extstoponex, Dot11ExtStopOneX callback function [Network Drivers Starting with Windows Vista], Dot11ExtStopOneX, DOT11EXT_ONEX_STOP, DOT11EXT_ONEX_STOP, wlanihv/Dot11ExtStopOneX, Native_802.11_IHV_Ext_fcc1f11d-938e-431e-8327-42d34fedff04.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtStopOneX
 product: Windows
 targetos: Windows
-req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
+req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
 req.product: Windows 10 or later.
 ---
 
@@ -82,13 +82,16 @@ The handle used by the operating system to reference the wireless LAN (WLAN) ada
 ## -returns
 
 
+
 If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
      defined in 
      Winerror.h.
 
 
 
+
 ## -remarks
+
 
 
 When it calls the 
@@ -103,6 +106,7 @@ Before the 802.1X authentication operation completes, the IHV Extensions DLL can
 When calling the 
     <b>Dot11ExtStopOneX</b> function, the IHV Extensions DLL must follow these
     guidelines.
+
 <ul>
 <li>
 <b>Dot11ExtStopOneX</b> can only be called while an 802.1X authentication
@@ -121,9 +125,11 @@ After the IHV Extensions DLL calls
       packets, refer to Clause 7 of the IEEE 802.1X-2001 standard.
 
 </li>
-</ul>For more information about using the 802.1X module for authentication, see 
+</ul>
+For more information about using the 802.1X module for authentication, see 
     <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/interface-to-the-native-802-11-802-1x-module">Interface to the Native
     802.11 802.1X Module</a>.
+
 
 
 
@@ -131,24 +137,38 @@ After the IHV Extensions DLL calls
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
    Dot11ExtPostAssociateCompletion</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
-   Dot11ExtIhvPerformPostAssociate</a>
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
    Dot11ExtIhvOneXIndicateResult</a>
 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_start.md">Dot11ExtStartOneX</a>
+
+
 
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
 
- 
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_ONEX_STOP callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_ONEX_STOP callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

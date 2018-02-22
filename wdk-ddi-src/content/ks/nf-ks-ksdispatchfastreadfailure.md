@@ -7,8 +7,8 @@ old-location: stream\ksdispatchfastreadfailure.htm
 old-project: stream
 ms.assetid: 7e0c72ce-0959-4835-ac1a-3f37869cc81f
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ksdispatchfastreadfailure, ks/KsDispatchFastReadFailure, KsDispatchFastReadFailure function [Streaming Media Devices], ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, KsDispatchFastReadFailure
+ms.date: 2/20/2018
+ms.keywords: KsDispatchFastReadFailure, ksfunc_fe3ea42f-80ae-4fbd-a2c2-55e957e913cc.xml, KsDispatchFastReadFailure function [Streaming Media Devices], stream.ksdispatchfastreadfailure, ks/KsDispatchFastReadFailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

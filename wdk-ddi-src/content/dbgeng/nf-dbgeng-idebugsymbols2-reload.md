@@ -4,11 +4,11 @@ title: IDebugSymbols2::Reload method
 author: windows-driver-content
 description: The Reload method deletes the engine's symbol information for the specified module and reload these symbols as needed.
 old-location: debugger\reload.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f739d5b8-80be-40e3-9139-93342c4fe458
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Reload method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::Reload, Reload method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], Reload method, debugger.reload, IDebugSymbols3::Reload, dbgeng/IDebugSymbols3::Reload, IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], Reload method, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, dbgeng/IDebugSymbols2::Reload, IDebugSymbols interface [Windows Debugging], Reload method, IDebugSymbols, Reload method [Windows Debugging], IDebugSymbols3 interface, Reload method [Windows Debugging], IDebugSymbols2 interface, Reload, dbgeng/IDebugSymbols::Reload, IDebugSymbols::Reload
+ms.date: 2/15/2018
+ms.keywords: Reload method [Windows Debugging], IDebugSymbols3::Reload, IDebugSymbols_ec5df701-b081-45c4-b2e4-10c101ce69a4.xml, dbgeng/IDebugSymbols3::Reload, IDebugSymbols2 interface [Windows Debugging], Reload method, dbgeng/IDebugSymbols::Reload, IDebugSymbols::Reload, Reload method [Windows Debugging], IDebugSymbols interface, debugger.reload, IDebugSymbols2::Reload, IDebugSymbols2, Reload method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], Reload method, Reload, Reload method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], Reload method, dbgeng/IDebugSymbols2::Reload, IDebugSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.Reload
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols2::Reload method
@@ -115,6 +115,10 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
@@ -127,13 +131,9 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564805">.reload (Reload Module)</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::Reload method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::Reload method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: hid\mouse_state.htm
 old-project: hid
 ms.assetid: 6d2af5a8-f12a-4d22-945c-8cba32b3f277
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: XMovement, ntdd8042/MouseIdle, ntdd8042/MOUSE_STATE, MOUSE_STATE, _MOUSE_STATE, MouseExpectingACK, PMOUSE_STATE enumeration pointer [Human Input Devices], YMovement, ntdd8042/MouseExpectingACK, MOUSE_STATE enumeration [Human Input Devices], PMOUSE_STATE, ntdd8042/PMOUSE_STATE, *PMOUSE_STATE, ntdd8042/XMovement, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, MouseResetting, ZMovement, ntdd8042/ZMovement, MouseIdle, ntdd8042/MouseResetting, hid.mouse_state, ntdd8042/YMovement
+ms.date: 2/15/2018
+ms.keywords: ntdd8042/MOUSE_STATE, ZMovement, YMovement, hid.mouse_state, _MOUSE_STATE, MOUSE_STATE, XMovement, ntdd8042/MouseResetting, MouseIdle, ntdd8042/MouseIdle, ntdd8042/XMovement, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, MouseExpectingACK, PMOUSE_STATE, PMOUSE_STATE enumeration pointer [Human Input Devices], ntdd8042/YMovement, *PMOUSE_STATE, ntdd8042/ZMovement, ntdd8042/MouseExpectingACK, ntdd8042/PMOUSE_STATE, MouseResetting, MOUSE_STATE enumeration [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -125,5 +125,5 @@ The MOUSE_STATE enumerator is used as input to a <a href="..\ntdd8042\nc-ntdd804
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20MOUSE_STATE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20MOUSE_STATE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_enumerate_pdos.htm
 old-project: storage
 ms.assetid: 900A8CAB-287D-4D92-B4CB-2959E87C8E67
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_ehstor_device_enumerate_pdos, IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS control code [Storage Devices], IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS, ehstorioctl/IOCTL_EHSTOR_DEVICE_ENUMERATE_PDOS
 ms.prod: windows-hardware
 ms.technology: windows-devices

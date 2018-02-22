@@ -7,8 +7,8 @@ old-location: whea\whea_processor_generic_error_section.htm
 old-project: whea
 ms.assetid: d1ac2ca0-ad08-4149-b489-53807f308fc0
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: GENPROC_PROCERRTYPE_BUS, GENPROC_PROCISA_IPF, WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure [WHEA Drivers and Applications], GENPROC_FLAGS_CORRECTED, whea.whea_processor_generic_error_section, GENPROC_PROCISA_X64, GENPROC_PROCERRTYPE_MAE, GENPROC_FLAGS_PRECISEIP, ntddk/WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCTYPE_IPF, GENPROC_OP_DATAREAD, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION structure pointer [WHEA Drivers and Applications], GENPROC_OP_GENERIC, ntddk/PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_OP_INSTRUCTIONEXE, GENPROC_OP_DATAWRITE, GENPROC_PROCERRTYPE_CACHE, whearef_589ac6c8-3889-4033-8776-0d8f402d1f69.xml, WHEA_GENERIC_PROCESSOR_ERROR, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_FLAGS_RESTARTABLE, *PWHEA_GENERIC_PROCESSOR_ERROR, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCERRTYPE_TLB, _WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCISA_X86, GENPROC_PROCTYPE_XPF, GENPROC_FLAGS_OVERFLOW, GENPROC_PROCERRTYPE_UNKNOWN
+ms.date: 2/20/2018
+ms.keywords: GENPROC_PROCERRTYPE_UNKNOWN, GENPROC_PROCERRTYPE_MAE, GENPROC_OP_GENERIC, GENPROC_PROCERRTYPE_TLB, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION structure pointer [WHEA Drivers and Applications], GENPROC_PROCTYPE_IPF, GENPROC_OP_INSTRUCTIONEXE, GENPROC_PROCTYPE_XPF, WHEA_PROCESSOR_GENERIC_ERROR_SECTION, whearef_589ac6c8-3889-4033-8776-0d8f402d1f69.xml, WHEA_GENERIC_PROCESSOR_ERROR, GENPROC_OP_DATAREAD, WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure [WHEA Drivers and Applications], GENPROC_FLAGS_OVERFLOW, GENPROC_FLAGS_CORRECTED, PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCISA_X86, *PWHEA_GENERIC_PROCESSOR_ERROR, GENPROC_FLAGS_RESTARTABLE, GENPROC_PROCISA_IPF, whea.whea_processor_generic_error_section, GENPROC_FLAGS_PRECISEIP, ntddk/PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, *PWHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_PROCISA_X64, GENPROC_PROCERRTYPE_CACHE, GENPROC_PROCERRTYPE_BUS, _WHEA_PROCESSOR_GENERIC_ERROR_SECTION, ntddk/WHEA_PROCESSOR_GENERIC_ERROR_SECTION, GENPROC_OP_DATAWRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -465,17 +465,17 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_processor_family_info.md">WHEA_PROCESSOR_FAMILY_INFO</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PROCESSOR_GENERIC_ERROR_SECTION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

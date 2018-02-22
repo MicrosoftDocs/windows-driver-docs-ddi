@@ -7,8 +7,8 @@ old-location: pci\sriov_invalidate_block.htm
 old-project: PCI
 ms.assetid: 483e6144-9752-4d47-9ed4-7e73bc0a59cc
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI.sriov_invalidate_block, _SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses], pcivirt/SRIOV_INVALIDATE_BLOCK, *PSRIOV_INVALIDATE_BLOCK
+ms.date: 2/15/2018
+ms.keywords: PCI.sriov_invalidate_block, SRIOV_INVALIDATE_BLOCK, *PSRIOV_INVALIDATE_BLOCK, pcivirt/SRIOV_INVALIDATE_BLOCK, _SRIOV_INVALIDATE_BLOCK, SRIOV_INVALIDATE_BLOCK structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,5 +88,5 @@ a block of configuration data.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20SRIOV_INVALIDATE_BLOCK structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20SRIOV_INVALIDATE_BLOCK structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ksfilterfactoryregisteraggregatedclientunknown.htm
 old-project: stream
 ms.assetid: 7750a0f5-f38d-4530-81dc-589a1c2009ca
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, ks/KsFilterFactoryRegisterAggregatedClientUnknown, stream.ksfilterfactoryregisteraggregatedclientunknown, KsFilterFactoryRegisterAggregatedClientUnknown, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: ks/KsFilterFactoryRegisterAggregatedClientUnknown, avfunc_03ec0abd-d481-4b97-b8ab-6be504e95a55.xml, KsFilterFactoryRegisterAggregatedClientUnknown function [Streaming Media Devices], stream.ksfilterfactoryregisteraggregatedclientunknown, KsFilterFactoryRegisterAggregatedClientUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,5 +106,5 @@ Note that this inline function only performs a typecast and then calls <b>KsRegi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterFactoryRegisterAggregatedClientUnknown function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterFactoryRegisterAggregatedClientUnknown function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

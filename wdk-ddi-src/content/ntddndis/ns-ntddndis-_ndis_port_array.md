@@ -7,8 +7,8 @@ old-location: netvista\ndis_port_array.htm
 old-project: netvista
 ms.assetid: f77469d3-ce48-4e17-9fff-1af56296f61f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, _NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_port_array, ntddndis/NDIS_PORT_ARRAY, NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY
+ms.date: 2/16/2018
+ms.keywords: PNDIS_PORT_ARRAY, netvista.ndis_port_array, NDIS_PORT_ARRAY, ntddndis/PNDIS_PORT_ARRAY, PNDIS_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PORT_ARRAY, ndis_ports_ref_1bba9fc6-0cd9-40f7-92ad-20979dcaa400.xml, *PNDIS_PORT_ARRAY, _NDIS_PORT_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PORT_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PORT_ARRAY, NDIS_PORT_ARRAY"
+req.typenames: NDIS_PORT_ARRAY, *PNDIS_PORT_ARRAY
 ---
 
 # _NDIS_PORT_ARRAY structure
@@ -125,6 +125,10 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
 
@@ -133,13 +137,9 @@ The NDIS_PORT_ARRAY structure specifies characteristics, of all of the active ND
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_ARRAY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PORT_ARRAY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

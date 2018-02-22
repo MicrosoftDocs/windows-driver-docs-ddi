@@ -7,8 +7,8 @@ old-location: netvista\ril_setcallwaitingstatus.htm
 old-project: netvista
 ms.assetid: e511db5d-3544-45a4-9ed4-72bb3f2572ec
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SetCallWaitingStatus, rilapi/RIL_SetCallWaitingStatus, netvista.ril_setcallwaitingstatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_setcallwaitingstatus, RIL_SetCallWaitingStatus method [Network Drivers Starting with Windows Vista], RIL_SetCallWaitingStatus, rilapi/RIL_SetCallWaitingStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetCallWaitingStatus
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

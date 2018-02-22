@@ -7,8 +7,8 @@ old-location: pos\msr_deauthenticate_device.htm
 old-project: pos
 ms.assetid: 7174a342-de02-4a3c-8bb9-9c86e7f4b5e1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.msr_deauthenticate_device, _MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE structure pointer, pointofservicedriverinterface/MSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE structure
+ms.date: 2/19/2018
+ms.keywords: "_MSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/MSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/PMSR_DEAUTHENTICATE_DEVICE, PMSR_DEAUTHENTICATE_DEVICE structure pointer, MSR_DEAUTHENTICATE_DEVICE structure, pos.msr_deauthenticate_device, PMSR_DEAUTHENTICATE_DEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSR_DEAUTHENTICATE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: MSR_DEAUTHENTICATE_DEVICE, *PMSR_DEAUTHENTICATE_DEVICE
+req.typenames: "*PMSR_DEAUTHENTICATE_DEVICE, MSR_DEAUTHENTICATE_DEVICE"
 ---
 
 # _MSR_DEAUTHENTICATE_DEVICE structure

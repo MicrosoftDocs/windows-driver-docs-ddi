@@ -4,11 +4,11 @@ title: IDebugControl2::GetNumberBreakpoints method
 author: windows-driver-content
 description: The GetNumberBreakpoints method returns the number of breakpoints for the current process.
 old-location: debugger\getnumberbreakpoints.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 9faffb72-3559-4db7-a02e-3d93dc751ac3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl2, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, GetNumberBreakpoints method [Windows Debugging], IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, debugger.getnumberbreakpoints, dbgeng/IDebugControl3::GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, IDebugControl3::GetNumberBreakpoints, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl::GetNumberBreakpoints, IDebugControl, IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetNumberBreakpoints, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method
+ms.date: 2/15/2018
+ms.keywords: GetNumberBreakpoints method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl, IDebugControl interface [Windows Debugging], GetNumberBreakpoints method, IDebugControl::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface, IDebugControl_c5b9bf83-0a0e-4570-8a05-04ca39a4d335.xml, dbgeng/IDebugControl2::GetNumberBreakpoints, IDebugControl2, debugger.getnumberbreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl interface, IDebugControl2::GetNumberBreakpoints, GetNumberBreakpoints, dbgeng/IDebugControl::GetNumberBreakpoints, GetNumberBreakpoints method [Windows Debugging], IDebugControl2 interface [Windows Debugging], GetNumberBreakpoints method, dbgeng/IDebugControl3::GetNumberBreakpoints, IDebugControl3::GetNumberBreakpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetNumberBreakpoints
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl2::GetNumberBreakpoints method
@@ -108,15 +108,11 @@ The method was successful.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -124,9 +120,13 @@ The method was successful.
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetNumberBreakpoints method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetNumberBreakpoints method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\dot11_vwifi_attributes.htm
 old-project: netvista
 ms.assetid: 46eee6ea-8259-4036-b1c4-f0eef6587879
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PDOT11_VWIFI_ATTRIBUTES, netvista.dot11_vwifi_attributes, windot11/DOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_VWIFI_ATTRIBUTES, windot11/PDOT11_VWIFI_ATTRIBUTES"
+ms.date: 2/16/2018
+ms.keywords: DOT11_VWIFI_ATTRIBUTES, netvista.dot11_vwifi_attributes, windot11/PDOT11_VWIFI_ATTRIBUTES, Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_ATTRIBUTES, windot11/DOT11_VWIFI_ATTRIBUTES, *PDOT11_VWIFI_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_VWIFI_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES"
+req.typenames: DOT11_VWIFI_ATTRIBUTES, *PDOT11_VWIFI_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -112,21 +112,6 @@ The maximum number of entries that the
      <b>Combinations</b> array can contain.
 
 
-### -field Combinations.unique
-
- 
-
-
-### -field Combinations.size_is
-
- 
-
-
-### -field Combinations.size_is.uTotalNumOfEntries
-
- 
-
-
 ### -field Combinations
 
 The list of supported combinations of 802.11 MAC entities that an 802.11 miniport driver can
@@ -137,6 +122,10 @@ The list of supported combinations of 802.11 MAC entities that an 802.11 minipor
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\windot11\ns-windot11-_dot11_vwifi_combination_v2.md">DOT11_VWIFI_COMBINATION_V2</a>
 
 
@@ -145,13 +134,9 @@ The list of supported combinations of 802.11 MAC entities that an 802.11 minipor
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_VWIFI_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_VWIFI_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

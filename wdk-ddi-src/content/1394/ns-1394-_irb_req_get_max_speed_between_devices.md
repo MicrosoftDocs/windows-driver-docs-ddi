@@ -7,8 +7,8 @@ old-location: ieee\irb_req_get_max_speed_between_devices.htm
 old-project: IEEE
 ms.assetid: 7B296D94-32DB-4190-935F-F1CC5F566706
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, 1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IEEE.irb_req_get_max_speed_between_devices, _IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES structure [Buses], IEEE.irb_req_get_max_speed_between_devices, 1394/IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, _IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES, IRB_REQ_GET_MAX_SPEED_BETWEEN_DEVICES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

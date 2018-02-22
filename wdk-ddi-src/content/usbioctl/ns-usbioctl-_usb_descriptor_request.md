@@ -4,11 +4,11 @@ title: "_USB_DESCRIPTOR_REQUEST"
 author: windows-driver-content
 description: The USB_DESCRIPTOR_REQUEST structure is used with the IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION I/O control request to retrieve one or more descriptors for the device that is associated with the indicated connection index.
 old-location: buses\usb_descriptor_request.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: d4d51366-4d04-47fe-8c44-09c9c6ccf35f
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], usbioctl/USB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST, _USB_DESCRIPTOR_REQUEST, usbioctl/PUSB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST, buses.usb_descriptor_request, USB_DESCRIPTOR_REQUEST structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: "_USB_DESCRIPTOR_REQUEST, usbioctl/USB_DESCRIPTOR_REQUEST, buses.usb_descriptor_request, usbstrct_b5a96c38-53d8-4d08-849b-d6c8c4b69c72.xml, PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST, PUSB_DESCRIPTOR_REQUEST structure pointer [Buses], USB_DESCRIPTOR_REQUEST structure [Buses], usbioctl/PUSB_DESCRIPTOR_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_DESCRIPTOR_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: USB_DESCRIPTOR_REQUEST, *PUSB_DESCRIPTOR_REQUEST
+req.typenames: "*PUSB_DESCRIPTOR_REQUEST, USB_DESCRIPTOR_REQUEST"
 req.product: Windows 10 or later.
 ---
 
@@ -86,17 +86,20 @@ The port whose descriptors are retrieved.
 The members of the <b>SetupPacket</b> structure are as follows:
 
 
-### -field SetupPacket.bmRequest
+
+#### bmRequest
 
 The type of USB device request (standard, class, or vendor), the direction of the data transfer, and the type of data recipient (device, interface, or endpoint). On input to the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bmRequest</b> and inserts a value of 0x80. This value indicates a standard USB device request and a device-to-host data transfer. For more information about this member, see Universal Serial Bus Specification.
 
 
-### -field SetupPacket.bRequest
+
+#### bRequest
 
 The request number. On input to the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the USB stack ignores the value of <b>bRequest</b> and inserts a value of 0x06. This value indicates a request of <b>GET_DESCRIPTOR</b>. For more information about this member see Universal Serial Bus Specification.
 
 
-### -field SetupPacket.wValue
+
+#### wValue
 
 On input to the <a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_descriptor_from_node_connection.md">IOCTL_USB_GET_DESCRIPTOR_FROM_NODE_CONNECTION</a> I/O control request, the caller should specify the type of descriptor to retrieve in the high byte of <b>wValue</b> and the descriptor index in the low byte. The following table lists the possible descriptor types.
 
@@ -159,12 +162,14 @@ Instructs the USB stack to return the indicated endpoint descriptor.
  
 
 
-### -field SetupPacket.wIndex
+
+#### wIndex
 
 The device-specific index of the descriptor that is to be retrieved. For more information about this member, see Universal Serial Bus Specification.
 
 
-### -field SetupPacket.wLength
+
+#### wLength
 
 The length of the data that is transferred during the second phase of the control transfer. For more information about this member, see Universal Serial Bus Specification.
 
@@ -197,5 +202,5 @@ If the caller specifies a value of USB_CONFIGURATION_DESCRIPTOR_TYPE in the <b>w
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_DESCRIPTOR_REQUEST structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_DESCRIPTOR_REQUEST structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

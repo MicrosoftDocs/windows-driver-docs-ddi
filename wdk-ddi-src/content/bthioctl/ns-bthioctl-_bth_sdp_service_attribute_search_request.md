@@ -7,8 +7,8 @@ old-location: bltooth\bth_sdp_service_attribute_search_request.htm
 old-project: bltooth
 ms.assetid: 28255569-57ce-44b7-9d53-9e8797b914c5
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bltooth.bth_sdp_service_attribute_search_request, bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST
+ms.date: 2/15/2018
+ms.keywords: PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure pointer [Bluetooth Devices], PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bthioctl/PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, _BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure [Bluetooth Devices], bltooth.bth_sdp_service_attribute_search_request, *PBTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bthioctl/BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST, bth_structs_0e06cbd7-0737-4786-bdc3-c9c1e980e3a3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,6 +120,10 @@ The Bluetooth driver stack determines the number of array items in the
 
 ## -see-also
 
+<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
+
+
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
 
 
@@ -129,13 +133,9 @@ The Bluetooth driver stack determines the number of array items in the
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=50714">SdpAttributeRange</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_SDP_SERVICE_ATTRIBUTE_SEARCH_REQUEST structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

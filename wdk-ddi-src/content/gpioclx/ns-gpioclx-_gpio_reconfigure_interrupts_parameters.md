@@ -7,8 +7,8 @@ old-location: gpio\gpio_reconfigure_interrupts_parameters.htm
 old-project: GPIO
 ms.assetid: 98C9CFA6-76B3-4AF7-8280-BF84CC31CF70
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], gpioclx/PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure [Parallel Ports], _GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, gpioclx/GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO.gpio_reconfigure_interrupts_parameters
+ms.date: 2/15/2018
+ms.keywords: "_GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO.gpio_reconfigure_interrupts_parameters, PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure pointer [Parallel Ports], gpioclx/GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure [Parallel Ports], *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, gpioclx/PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, *PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS
+req.typenames: "*PGPIO_RECONFIGURE_INTERRUPTS_PARAMETERS, GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS"
 ---
 
 # _GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure
@@ -89,7 +89,7 @@ Indicates whether to configure the GPIO interrupt pin to be level-sensitive or e
 <li><b>LevelSensitive</b></li>
 <li><b>Latched</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
+For more information, see <a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
 
 
 ### -field Polarity
@@ -103,7 +103,7 @@ Indicates the polarity of the reconfigured GPIO interrupt pin. For a level-sensi
 <li><b>InterruptFallingEdge</b></li>
 <li><b>InterruptActiveBoth</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
+For more information, see <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
 
 
 ### -field Flags
@@ -122,19 +122,7 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+<a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
 
 
@@ -142,9 +130,21 @@ The <i>ReconfigureParameters</i> parameter of the <a href="https://msdn.microsof
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
+<a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_RECONFIGURE_INTERRUPTS_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

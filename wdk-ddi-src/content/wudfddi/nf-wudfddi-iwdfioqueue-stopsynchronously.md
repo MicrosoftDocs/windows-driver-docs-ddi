@@ -7,8 +7,8 @@ old-location: wdf\iwdfioqueue_stopsynchronously.htm
 old-project: wdf
 ms.assetid: ea05cb82-8a50-48d8-a15c-b7ab58c01b30
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoQueue::StopSynchronously, IWDFIoQueue interface, StopSynchronously method, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, StopSynchronously method, IWDFIoQueue interface, IWDFIoQueue, umdf.iwdfioqueue_stopsynchronously, StopSynchronously, wdf.iwdfioqueue_stopsynchronously, IWDFIoQueue::StopSynchronously, StopSynchronously method
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfioqueue_stopsynchronously, StopSynchronously method, StopSynchronously, IWDFIoQueue interface, StopSynchronously method, IWDFIoQueue, UMDFQueueObjectRef_18e42c5a-ade3-4d81-8af1-bd19655650e7.xml, wudfddi/IWDFIoQueue::StopSynchronously, IWDFIoQueue::StopSynchronously, StopSynchronously method, IWDFIoQueue interface, wdf.iwdfioqueue_stopsynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.StopSynchronously
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -92,17 +92,17 @@ The <b>StopSynchronously</b> method enables the queue to receive new requests, e
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
 
 
- 
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::StopSynchronously method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::StopSynchronously method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

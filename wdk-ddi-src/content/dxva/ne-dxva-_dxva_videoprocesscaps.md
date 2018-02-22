@@ -7,8 +7,8 @@ old-location: display\dxva_videoprocesscaps.htm
 old-project: display
 ms.assetid: 225da110-cd59-4803-bde8-26e275b3ddbd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: dxva/DXVA_VideoProcess_None, display.dxva_videoprocesscaps, dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_SubStreams, dxva/DXVA_VideoProcess_StretchY, DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_YUV2RGBExtended, DXVA_VideoProcess_AlphaBlend, DXVA_VideoProcess_StretchY, _DXVA_VideoProcessCaps, DXVA_VideoProcess_StretchX, DXVA_VideoProcessCaps, dxva/DXVA_VideoProcess_SubRects, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml, DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_AlphaBlendExtended, DXVA_VideoProcess_None, dxva/DXVA_VideoProcessCaps, DXVA_VideoProcess_SubRects, DXVA_VideoProcess_YUV2RGBExtended, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcessCaps enumeration [Display Devices], dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_SubStreams
+ms.date: 2/20/2018
+ms.keywords: DXVA_VideoProcess_StretchY, DXVA_VideoProcess_YUV2RGBExtended, _DXVA_VideoProcessCaps, DXVA_VideoProcess_StretchX, dxva/DXVA_VideoProcess_None, dxva/DXVA_VideoProcess_StretchY, display.dxva_videoprocesscaps, dxva/DXVA_VideoProcess_YUV2RGBExtended, dxva/DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_StretchX, DXVA_VideoProcessCaps, DXVA_VideoProcess_SubStreams, DXVA_VideoProcess_None, dxva/DXVA_VideoProcess_AlphaBlendExtended, dxva/DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_SubRects, DXVA_VideoProcess_SubStreamsExtended, DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcess_SubRects, dxvaref_4298738a-dc13-47b4-bb3d-84e90661542b.xml, DXVA_VideoProcess_AlphaBlendExtended, DXVA_VideoProcessCaps enumeration [Display Devices], dxva/DXVA_VideoProcess_AlphaBlend, dxva/DXVA_VideoProcess_YUV2RGB, dxva/DXVA_VideoProcessCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -175,17 +175,17 @@ Color space conversion performed by <b>DXVA_VideoProcess_YUV2RGB</b> is particul
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
-
-
-
 <a href="https://msdn.microsoft.com/12a0e467-54f8-4cca-8ec0-aa8d04480ab6">DeinterlaceBltEx</a>
 
 
 
- 
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoProcessCaps enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoProcessCaps enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\ndistcpoffloadreceivecomplete.htm
 old-project: netvista
 ms.assetid: d5b1341b-cbe0-483c-9abb-b8706f2db2dd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.ndistcpoffloadreceivecomplete, NdisTcpOffloadReceiveComplete callback function [Network Drivers Starting with Windows Vista], NdisTcpOffloadReceiveComplete, NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE, NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE, ndischimney/NdisTcpOffloadReceiveComplete, tcp_chim_ndis_func_7d17cfb0-d83a-42e2-9ac8-042bf1964991.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -94,11 +94,14 @@ A pointer to a
 ## -returns
 
 
+
 None
 
 
 
+
 ## -remarks
+
 
 
 An offload target should use and return preposted receive requests in the order in which the requests
@@ -134,6 +137,7 @@ To improve system performance, an offload target can create a linked list that c
 Before calling the 
     <b>NdisTcpOffloadReceiveComplete</b> function, the offload target does the following for each
     NET_BUFFER_LIST structure that it passes to the function:
+
 <ul>
 <li>Writes one of the following status values to the 
      <b>Status</b> member:
@@ -179,7 +183,8 @@ The receive request was posted after the offload target indicated a disconnect b
 </dd>
 </dl>
 </li>
-</ul><ul>
+</ul>
+<ul>
 <li>
 Specifies the number of data bytes returned by calling the 
       <a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a> macro with an 
@@ -201,22 +206,33 @@ Calls the
 </ul>
 
 
+
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
 
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
    NdisAdvanceNetBufferDataStart</a>
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
 
 <a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
- 
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_OFFLOAD_RECEIVE_COMPLETE callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

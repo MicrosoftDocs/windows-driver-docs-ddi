@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2drawtripatch.htm
 old-project: display
 ms.assetid: 79985523-5665-4879-af04-fd53725d6d07
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "*LPD3DHAL_DP2DRAWTRIPATCH, d3dhal/D3DHAL_DP2DRAWTRIPATCH, d3dhal/LPD3DHAL_DP2DRAWTRIPATCH, d3dstrct_0cad313a-b700-4aff-a111-3bd5472ea75d.xml, LPD3DHAL_DP2DRAWTRIPATCH, _D3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH structure [Display Devices], display.d3dhal_dp2drawtripatch, LPD3DHAL_DP2DRAWTRIPATCH structure pointer [Display Devices]"
+ms.date: 2/20/2018
+ms.keywords: d3dhal/D3DHAL_DP2DRAWTRIPATCH, LPD3DHAL_DP2DRAWTRIPATCH structure pointer [Display Devices], D3DHAL_DP2DRAWTRIPATCH structure [Display Devices], _D3DHAL_DP2DRAWTRIPATCH, LPD3DHAL_DP2DRAWTRIPATCH, d3dstrct_0cad313a-b700-4aff-a111-3bd5472ea75d.xml, *LPD3DHAL_DP2DRAWTRIPATCH, D3DHAL_DP2DRAWTRIPATCH, d3dhal/LPD3DHAL_DP2DRAWTRIPATCH, display.d3dhal_dp2drawtripatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,18 +109,6 @@ The driver receives notification that cached patch information is be released vi
 
 ## -see-also
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
-
-
-
-D3DDP2OP_DRAWTRIPATCH
-
-
-
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
-
-
-
 D3DRS_DELETERTPATCH
 
 
@@ -129,9 +117,21 @@ D3DRS_DELETERTPATCH
 
 
 
- 
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawrectpatch.md">D3DHAL_DP2DRAWRECTPATCH</a>
+
+
+
+D3DDP2OP_DRAWTRIPATCH
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2DRAWTRIPATCH structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2DRAWTRIPATCH structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

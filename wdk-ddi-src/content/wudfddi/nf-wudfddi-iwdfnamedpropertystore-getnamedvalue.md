@@ -7,8 +7,8 @@ old-location: wdf\iwdfnamedpropertystore_getnamedvalue.htm
 old-project: wdf
 ms.assetid: 9581e3af-f7f8-4365-8bb2-daedcb7a3280
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: GetNamedValue, IWDFNamedPropertyStore, GetNamedValue method, IWDFNamedPropertyStore interface, wdf.iwdfnamedpropertystore_getnamedvalue, IWDFNamedPropertyStore::GetNamedValue, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, umdf.iwdfnamedpropertystore_getnamedvalue, IWDFNamedPropertyStore interface, GetNamedValue method, wudfddi/IWDFNamedPropertyStore::GetNamedValue, GetNamedValue method
+ms.date: 2/20/2018
+ms.keywords: GetNamedValue method, IWDFNamedPropertyStore interface, UMDFPropertyStoreObjectRef_ba3dd45a-7045-4798-81c6-35cb1a743cc4.xml, IWDFNamedPropertyStore, GetNamedValue, wudfddi/IWDFNamedPropertyStore::GetNamedValue, umdf.iwdfnamedpropertystore_getnamedvalue, IWDFNamedPropertyStore::GetNamedValue, wdf.iwdfnamedpropertystore_getnamedvalue, GetNamedValue method, IWDFNamedPropertyStore interface, GetNamedValue method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFNamedPropertyStore.GetNamedValue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -212,17 +212,17 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
-
-
-
 <a href="https://msdn.microsoft.com/062b6065-a56f-4ecd-b232-3ba338a6d806">PropVariantClear</a>
 
 
 
- 
+<a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFNamedPropertyStore::GetNamedValue method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFNamedPropertyStore::GetNamedValue method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

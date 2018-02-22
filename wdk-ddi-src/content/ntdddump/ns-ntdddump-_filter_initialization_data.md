@@ -7,8 +7,8 @@ old-location: storage\filter_initialization_data.htm
 old-project: storage
 ms.assetid: 71f9d0c2-ffc9-4fe1-ae95-f38a1d1e82df
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, FILTER_INITIALIZATION_DATA structure [Storage Devices], *PFILTER_INITIALIZATION_DATA, PFILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION, storage.filter_initialization_data, DUMP_FILTER_MAJOR_VERSION_1, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, ntdddump/PFILTER_INITIALIZATION_DATA, ntdddump/FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA, _FILTER_INITIALIZATION_DATA, DUMP_FILTER_CRITICAL
+ms.date: 2/16/2018
+ms.keywords: "_FILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA structure [Storage Devices], ntdddump/PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA, DUMP_FILTER_MAJOR_VERSION_1, DUMP_FILTER_MAJOR_VERSION, DUMP_FILTER_CRITICAL, ntdddump/FILTER_INITIALIZATION_DATA, DUMP_FILTER_FLAG_SYSTEM_SUPPORT_READ, structs-filter_5efcc842-8111-4808-9b70-14d63dd91ba5.xml, PFILTER_INITIALIZATION_DATA structure pointer [Storage Devices], *PFILTER_INITIALIZATION_DATA, storage.filter_initialization_data, PFILTER_INITIALIZATION_DATA"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -180,11 +180,7 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
-
-
-
-<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
+<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
 
 
 
@@ -200,7 +196,11 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
+
+
+
+<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 
@@ -208,5 +208,5 @@ If any of these members are not set, the dump filter driver will be marked as no
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FILTER_INITIALIZATION_DATA structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FILTER_INITIALIZATION_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

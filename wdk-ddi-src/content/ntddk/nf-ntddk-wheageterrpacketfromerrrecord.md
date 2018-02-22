@@ -7,8 +7,8 @@ old-location: whea\wheageterrpacketfromerrrecord.htm
 old-project: whea
 ms.assetid: 8b4a835f-b1ec-4308-8e0d-a13c0f421dc8
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ntddk/WheaGetErrPacketFromErrRecord, whearef2_c7c202ca-0ed0-4a12-a3f0-64723e6483c6.xml, whea.wheageterrpacketfromerrrecord, WheaGetErrPacketFromErrRecord, WheaGetErrPacketFromErrRecord function [WHEA Drivers and Applications]
+ms.date: 2/20/2018
+ms.keywords: whearef2_c7c202ca-0ed0-4a12-a3f0-64723e6483c6.xml, WheaGetErrPacketFromErrRecord, whea.wheageterrpacketfromerrrecord, ntddk/WheaGetErrPacketFromErrRecord, WheaGetErrPacketFromErrRecord function [WHEA Drivers and Applications]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,11 @@ The <b>WheaGetErrPacketFromErrRecord</b> function returns a pointer to the hardw
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 
@@ -108,5 +108,5 @@ The <b>WheaGetErrPacketFromErrRecord</b> function returns a pointer to the hardw
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WheaGetErrPacketFromErrRecord function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WheaGetErrPacketFromErrRecord function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

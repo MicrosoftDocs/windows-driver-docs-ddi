@@ -7,8 +7,8 @@ old-location: storage\sm_setpersistentbinding_in.htm
 old-project: storage
 ms.assetid: 33a8c609-aa65-4629-b4ee-3723e614d400
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PSM_SetPersistentBinding_IN structure pointer [Storage Devices], PSM_SetPersistentBinding_IN, _SM_SetPersistentBinding_IN, hbapiwmi/PSM_SetPersistentBinding_IN, storage.sm_setpersistentbinding_in, hbapiwmi/SM_SetPersistentBinding_IN, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml, *PSM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN structure [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: SM_SetPersistentBinding_IN structure [Storage Devices], _SM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN, hbapiwmi/PSM_SetPersistentBinding_IN, structs-Fibre_9af25c8f-f9de-482d-8103-f372405d7771.xml, hbapiwmi/SM_SetPersistentBinding_IN, storage.sm_setpersistentbinding_in, *PSM_SetPersistentBinding_IN, PSM_SetPersistentBinding_IN structure pointer [Storage Devices], SM_SetPersistentBinding_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SetPersistentBinding_IN
 product: Windows
 targetos: Windows
-req.typenames: SM_SetPersistentBinding_IN, *PSM_SetPersistentBinding_IN
+req.typenames: "*PSM_SetPersistentBinding_IN, SM_SetPersistentBinding_IN"
 ---
 
 # _SM_SetPersistentBinding_IN structure

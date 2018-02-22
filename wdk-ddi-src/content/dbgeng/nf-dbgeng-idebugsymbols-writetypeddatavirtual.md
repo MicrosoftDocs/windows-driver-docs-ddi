@@ -4,11 +4,11 @@ title: IDebugSymbols::WriteTypedDataVirtual method
 author: windows-driver-content
 description: The WriteTypedDataVirtual method writes data to the target's virtual address space. The number of bytes written is the size of the specified type.
 old-location: debugger\writetypeddatavirtual.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: c7a3854b-2405-4e20-8c6c-4e0c0d43987e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols::WriteTypedDataVirtual, WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, dbgeng/IDebugSymbols::WriteTypedDataVirtual, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols2::WriteTypedDataVirtual, debugger.writetypeddatavirtual, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols3::WriteTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols_51186c12-dc2b-4906-a8fa-9e0f4a960135.xml, dbgeng/IDebugSymbols3::WriteTypedDataVirtual, dbgeng/IDebugSymbols2::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, WriteTypedDataVirtual, IDebugSymbols::WriteTypedDataVirtual, WriteTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2::WriteTypedDataVirtual, dbgeng/IDebugSymbols::WriteTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], WriteTypedDataVirtual method, IDebugSymbols, debugger.writetypeddatavirtual, IDebugSymbols interface [Windows Debugging], WriteTypedDataVirtual method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.WriteTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::WriteTypedDataVirtual method

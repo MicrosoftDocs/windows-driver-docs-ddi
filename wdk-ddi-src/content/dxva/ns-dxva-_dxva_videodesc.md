@@ -7,8 +7,8 @@ old-location: display\dxva_videodesc.htm
 old-project: display
 ms.assetid: 5623ed85-e78a-48f2-ab21-e6364da86b2a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_DXVA_VideoDesc, *LPDXVA_VideoDesc, display.dxva_videodesc, DXVA_VideoDesc structure [Display Devices], dxva/DXVA_VideoDesc, LPDXVA_VideoDesc, dxva/LPDXVA_VideoDesc, DXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml"
+ms.date: 2/20/2018
+ms.keywords: "*LPDXVA_VideoDesc, LPDXVA_VideoDesc structure pointer [Display Devices], DXVA_VideoDesc, dxva/DXVA_VideoDesc, LPDXVA_VideoDesc, DXVA_VideoDesc structure [Display Devices], dxva/LPDXVA_VideoDesc, _DXVA_VideoDesc, dxvaref_1b9d87d3-06b4-4a61-9cb1-9752c55ef865.xml, display.dxva_videodesc"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_VideoDesc
 product: Windows
 targetos: Windows
-req.typenames: DXVA_VideoDesc, *LPDXVA_VideoDesc
+req.typenames: "*LPDXVA_VideoDesc, DXVA_VideoDesc"
 ---
 
 # _DXVA_VideoDesc structure
@@ -131,5 +131,5 @@ For examples showing structure member values for deinterlacing or converting dif
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoDesc structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_VideoDesc structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

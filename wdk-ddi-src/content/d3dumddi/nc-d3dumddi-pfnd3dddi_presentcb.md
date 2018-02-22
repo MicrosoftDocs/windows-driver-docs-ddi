@@ -7,7 +7,7 @@ old-location: display\pfnpresentcb.htm
 old-project: display
 ms.assetid: 460b9be5-5817-4225-9089-f86ad64f4554
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnpresentcb, pfnPresentCb callback function [Display Devices], pfnPresentCb, PFND3DDDI_PRESENTCB, PFND3DDDI_PRESENTCB, d3dumddi/pfnPresentCb, D3Druntime_Functions_0c10afaf-9bcf-42d9-9bdf-0be67780875c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -190,19 +190,7 @@ The following code example shows how to color-fill a destination surface.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_present.md">D3DDDICB_PRESENT</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
 
 
 
@@ -210,9 +198,21 @@ The following code example shows how to color-fill a destination surface.
 
 
 
- 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+
+
+
+<a href="https://msdn.microsoft.com/f3f5d6bc-3bc6-4214-830a-cffff01069cc">pfnCreateContextCb</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_present.md">D3DDDICB_PRESENT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_PRESENTCB callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_PRESENTCB callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

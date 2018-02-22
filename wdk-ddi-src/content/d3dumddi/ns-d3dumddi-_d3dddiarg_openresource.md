@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_openresource.htm
 old-project: display
 ms.assetid: eb1b7317-2e54-4e61-a3e5-b5ac0c09064e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml, _D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE, D3DDDIARG_OPENRESOURCE structure [Display Devices], d3dumddi/D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource
+ms.date: 2/20/2018
+ms.keywords: D3DDDIARG_OPENRESOURCE, _D3DDDIARG_OPENRESOURCE, d3dumddi/D3DDDIARG_OPENRESOURCE, display.d3dddiarg_openresource, D3DDDIARG_OPENRESOURCE structure [Display Devices], UMDisplayDriver_param_Structs_d0d23672-9994-4fad-b104-4eef57b3b03e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,13 +86,6 @@ typedef struct _D3DDDIARG_OPENRESOURCE {
 [in] The number of elements in the array that is specified by <b>pOpenAllocationInfo</b>. <b>NumAllocations</b> represents the number of allocations to open.
 
 
-### -field pOpenAllocationInfo2
-
-This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
-
-
 ### -field pOpenAllocationInfo
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a> structures that describe the allocations in the resource to open.
@@ -136,6 +129,13 @@ When the primary resource is used with a full-screen device and is rotated, the 
 [in] A <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a> structure that identifies the type of resource to open. 
 
 
+#### - pOpenAllocationInfo2
+
+This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ## -remarks
 
 
@@ -147,11 +147,15 @@ The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>F
 
 ## -see-also
 
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
+
+
+
 <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_openallocationinfo.md">D3DDDI_OPENALLOCATIONINFO</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a>
 
 
 
@@ -163,11 +167,7 @@ The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>F
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createresource.md">CreateResource</a>
-
-
-
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddi_rotation.md">D3DDDI_ROTATION</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_openresourceflags.md">D3DDDI_OPENRESOURCEFLAGS</a>
 
 
 
@@ -175,5 +175,5 @@ The <b>Primary</b> and <b>SharedResource</b> bit-field flags are set in the <b>F
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_OPENRESOURCE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_OPENRESOURCE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

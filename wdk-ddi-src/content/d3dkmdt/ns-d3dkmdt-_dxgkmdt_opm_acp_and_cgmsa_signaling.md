@@ -7,8 +7,8 @@ old-location: display\dxgkmdt_opm_acp_and_cgmsa_signaling.htm
 old-project: display
 ms.assetid: edc0472c-d222-49f5-9d26-6b7e8c032031
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, DmStructs_0d89c3c0-96f1-4b88-8c79-a33ad8246e4a.xml, d3dkmdt/DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, display.dxgkmdt_opm_acp_and_cgmsa_signaling, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure [Display Devices], DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING"
+ms.date: 2/20/2018
+ms.keywords: d3dkmdt/DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, display.dxgkmdt_opm_acp_and_cgmsa_signaling, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure [Display Devices], _DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING, DmStructs_0d89c3c0-96f1-4b88-8c79-a33ad8246e4a.xml, DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -162,5 +162,5 @@ Reserved. Must be set to zero.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_ACP_AND_CGMSA_SIGNALING structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

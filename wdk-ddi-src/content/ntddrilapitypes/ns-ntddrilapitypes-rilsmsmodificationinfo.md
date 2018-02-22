@@ -7,8 +7,8 @@ old-location: netvista\rilsmsmodificationinfo.htm
 old-project: netvista
 ms.assetid: 8fed32a2-f0a7-4462-b8bb-b01c9cccf6b7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], RILSMSMODIFICATIONINFO, ntddrilapitypes/RILSMSMODIFICATIONINFO, *LPRILSMSMODIFICATIONINFO, netvista.rilsmsmodificationinfo
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSMSMODIFICATIONINFO, netvista.rilsmsmodificationinfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSMSMODIFICATIONINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSMSMODIFICATIONINFO, RILSMSMODIFICATIONINFO"
+req.typenames: RILSMSMODIFICATIONINFO, *LPRILSMSMODIFICATIONINFO
 ---
 
 # RILSMSMODIFICATIONINFO structure

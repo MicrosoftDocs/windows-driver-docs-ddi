@@ -7,8 +7,8 @@ old-location: ifsk\file_objectid_information.htm
 old-project: ifsk
 ms.assetid: bbbaf48b-78c3-4a4b-801b-2fe3c0112a68
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "_FILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, ntifs/PFILE_OBJECTID_INFORMATION, FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], PFILE_OBJECTID_INFORMATION, ntifs/FILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], *PFILE_OBJECTID_INFORMATION, ifsk.file_objectid_information"
+ms.date: 2/16/2018
+ms.keywords: FILE_OBJECTID_INFORMATION structure [Installable File System Drivers], _FILE_OBJECTID_INFORMATION, ntifs/PFILE_OBJECTID_INFORMATION, ifsk.file_objectid_information, FILE_OBJECTID_INFORMATION, fileinformationstructures_330b72bc-0a91-45d2-b4c9-04d065e0545e.xml, *PFILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION structure pointer [Installable File System Drivers], ntifs/FILE_OBJECTID_INFORMATION, PFILE_OBJECTID_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,9 +111,6 @@ The 16-byte file object ID for the file. NTFS generates this number and assigns 
  
 
 
-### -field DUMMYUNIONNAME.ExtendedInfo
-
-User-provided data. You can use it to contain the <b>BirthVolumeID</b>, <b>BirthObjectID</b>, and <b>DomainID</b> members, or you can define a different data structure. 
 
 
 #### - ( unnamed struct )
@@ -137,6 +134,11 @@ The object identifier of the file at the time it was created. After copy operati
 #### DomainId
 
 Reserved; must be zero. 
+
+
+#### - ExtendedInfo
+
+User-provided data. You can use it to contain the <b>BirthVolumeID</b>, <b>BirthObjectID</b>, and <b>DomainID</b> members, or you can define a different data structure. 
 
 
 ## -remarks
@@ -172,17 +174,17 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548658">IRP_MJ_DIRECTORY_CONTROL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_OBJECTID_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_OBJECTID_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

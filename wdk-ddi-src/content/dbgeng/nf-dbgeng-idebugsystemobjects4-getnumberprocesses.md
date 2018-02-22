@@ -4,11 +4,11 @@ title: IDebugSystemObjects4::GetNumberProcesses method
 author: windows-driver-content
 description: The GetNumberProcesses method returns the number of processes for the current target.
 old-location: debugger\getnumberprocesses.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: bf0c750f-0e29-42d9-a127-953e3d49b969
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects3::GetNumberProcesses, debugger.getnumberprocesses, IDebugSystemObjects2::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects interface, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects4::GetNumberProcesses, IDebugSystemObjects::GetNumberProcesses, IDebugSystemObjects3 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects2 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects3::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects2 interface, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_28914631-9658-462c-8234-f48bb85efdf6.xml, GetNumberProcesses method [Windows Debugging], dbgeng/IDebugSystemObjects::GetNumberProcesses, IDebugSystemObjects4 interface [Windows Debugging], GetNumberProcesses method, GetNumberProcesses, IDebugSystemObjects4, IDebugSystemObjects2, IDebugSystemObjects3, IDebugSystemObjects interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects4::GetNumberProcesses, dbgeng/IDebugSystemObjects2::GetNumberProcesses, IDebugSystemObjects
+ms.date: 2/15/2018
+ms.keywords: GetNumberProcesses method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getnumberprocesses, IDebugSystemObjects_28914631-9658-462c-8234-f48bb85efdf6.xml, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects::GetNumberProcesses, dbgeng/IDebugSystemObjects2::GetNumberProcesses, dbgeng/IDebugSystemObjects3::GetNumberProcesses, IDebugSystemObjects3::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4::GetNumberProcesses, IDebugSystemObjects2 interface [Windows Debugging], GetNumberProcesses method, GetNumberProcesses, IDebugSystemObjects2, dbgeng/IDebugSystemObjects::GetNumberProcesses, dbgeng/IDebugSystemObjects4::GetNumberProcesses, GetNumberProcesses method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects3, IDebugSystemObjects interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects3 interface [Windows Debugging], GetNumberProcesses method, IDebugSystemObjects2::GetNumberProcesses, IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetNumberProcesses
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetNumberProcesses method

@@ -4,11 +4,11 @@ title: "_FA_EXTENSION_PLUGIN_PHASE"
 author: windows-driver-content
 description: A value in the FA_EXTENSION_PLUGIN_PHASE enumeration is passed to the _EFN_Analyze function to specify which phase of the analysis is currently in progress.
 old-location: debugger\fa_extension_plugin_phase.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 67BDC6F7-4099-4AE9-931A-302FDBE1B05C
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: "_FA_EXTENSION_PLUGIN_PHASE, FA_PLUGIN_STACK_ANALYSIS, extsfns/FA_PLUGIN_STACK_ANALYSIS, extsfns/FA_PLUGIN_POST_BUCKETING, FA_PLUGIN_INITILIZATION, extsfns/FA_EXTENSION_PLUGIN_PHASE, extsfns/FA_PLUGIN_PRE_BUCKETING, FA_EXTENSION_PLUGIN_PHASE enumeration [Windows Debugging], debugger.fa_extension_plugin_phase, FA_EXTENSION_PLUGIN_PHASE, extsfns/FA_PLUGIN_INITILIZATION, FA_PLUGIN_PRE_BUCKETING, FA_PLUGIN_POST_BUCKETING"
+ms.date: 2/15/2018
+ms.keywords: extsfns/FA_EXTENSION_PLUGIN_PHASE, _FA_EXTENSION_PLUGIN_PHASE, FA_EXTENSION_PLUGIN_PHASE enumeration [Windows Debugging], FA_PLUGIN_PRE_BUCKETING, extsfns/FA_PLUGIN_POST_BUCKETING, FA_EXTENSION_PLUGIN_PHASE, FA_PLUGIN_STACK_ANALYSIS, extsfns/FA_PLUGIN_PRE_BUCKETING, extsfns/FA_PLUGIN_STACK_ANALYSIS, debugger.fa_extension_plugin_phase, extsfns/FA_PLUGIN_INITILIZATION, FA_PLUGIN_INITILIZATION, FA_PLUGIN_POST_BUCKETING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -99,7 +99,7 @@ The analysis is in the initialization phase. This is after the primary data such
 
 ## -see-also
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
 
 
 
@@ -107,7 +107,7 @@ The analysis is in the initialization phase. This is after the primary data such
 
 
 
-<a href="..\extsfns\nn-extsfns-idebugfailureanalysis2.md">IDebugFailureAnalysis2</a>
+<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
 
 
 
@@ -115,5 +115,5 @@ The analysis is in the initialization phase. This is after the primary data such
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20FA_EXTENSION_PLUGIN_PHASE enumeration%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20FA_EXTENSION_PLUGIN_PHASE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

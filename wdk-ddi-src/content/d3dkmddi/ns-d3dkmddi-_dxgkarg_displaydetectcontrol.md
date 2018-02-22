@@ -7,8 +7,8 @@ old-location: display\dxgkarg_displaydetectcontrol.htm
 old-project: display
 ms.assetid: A0B5798E-FF4D-4133-BFA9-39B37CC387F6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PDXGKARG_DISPLAYDETECTCONTROL, _DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], display.dxgkarg_displaydetectcontrol
+ms.date: 2/20/2018
+ms.keywords: PDXGKARG_DISPLAYDETECTCONTROL structure pointer [Display Devices], _DXGKARG_DISPLAYDETECTCONTROL, display.dxgkarg_displaydetectcontrol, DXGKARG_DISPLAYDETECTCONTROL, DXGKARG_DISPLAYDETECTCONTROL structure [Display Devices], d3dkmddi/PDXGKARG_DISPLAYDETECTCONTROL, d3dkmddi/DXGKARG_DISPLAYDETECTCONTROL, PDXGKARG_DISPLAYDETECTCONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: display\d3dddicb_lockflags.htm
 old-project: display
 ms.assetid: 4b3a266f-4d60-4d39-81fb-ea2b4aa12a8d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDICB_LOCKFLAGS structure [Display Devices], display.d3dddicb_lockflags, D3DDDICB_LOCKFLAGS, _D3DDDICB_LOCKFLAGS, D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, d3dukmdt/D3DDDICB_LOCKFLAGS
+ms.date: 2/20/2018
+ms.keywords: D3DDDICB_LOCKFLAGS structure [Display Devices], display.d3dddicb_lockflags, _D3DDDICB_LOCKFLAGS, D3DDDICB_LOCKFLAGS, D3D_other_Structs_6238800f-60d9-472d-aa18-10343abbcee7.xml, d3dukmdt/D3DDDICB_LOCKFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -201,7 +201,7 @@ Setting this member is equivalent to setting the eleventh bit of the 32-bit <b>V
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 21 bits (0xFFFFF800) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in D3DDDICB_LOCKFLAGS that can hold one 32-bit value that identifies how to lock an allocation.
 
@@ -255,15 +255,7 @@ An allocation that is locked with a swizzled range must be unlocked before it ca
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
-
-
-
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lockcb.md">pfnLockCb</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
 
 
 
@@ -271,9 +263,17 @@ An allocation that is locked with a swizzled range must be unlocked before it ca
 
 
 
- 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_lock.md">D3DDDICB_LOCK</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfoflags.md">DXGK_ALLOCATIONINFOFLAGS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_LOCKFLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_LOCKFLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

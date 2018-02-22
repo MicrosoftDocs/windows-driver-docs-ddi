@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice3_assigns0idlesettingsex.htm
 old-project: wdf
 ms.assetid: D020B8AA-7353-47E1-A111-82BFE6F5F03D
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: AssignS0IdleSettingsEx, wdf.iwdfdevice3_assigns0idlesettingsex, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx, IWDFDevice3 interface, AssignS0IdleSettingsEx method, IWDFDevice3::AssignS0IdleSettingsEx, AssignS0IdleSettingsEx method, IWDFDevice3 interface, IWDFDevice3, AssignS0IdleSettingsEx method, umdf.iwdfdevice3_assigns0idlesettingsex
+ms.date: 2/20/2018
+ms.keywords: AssignS0IdleSettingsEx method, IWDFDevice3 interface, wudfddi/IWDFDevice3::AssignS0IdleSettingsEx, wdf.iwdfdevice3_assigns0idlesettingsex, IWDFDevice3::AssignS0IdleSettingsEx, IWDFDevice3, AssignS0IdleSettingsEx method, AssignS0IdleSettingsEx, umdf.iwdfdevice3_assigns0idlesettingsex, IWDFDevice3 interface, AssignS0IdleSettingsEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.AssignS0IdleSettingsEx
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -141,11 +141,11 @@ SAFE_RELEASE(pIWDFDevice3);
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556920">IWDFDevice2::AssignS0IdleSettings</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassigns0idlesettings.md">WdfDeviceAssignS0IdleSettings</a>
 
 
 
@@ -157,5 +157,5 @@ SAFE_RELEASE(pIWDFDevice3);
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::AssignS0IdleSettingsEx method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::AssignS0IdleSettingsEx method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

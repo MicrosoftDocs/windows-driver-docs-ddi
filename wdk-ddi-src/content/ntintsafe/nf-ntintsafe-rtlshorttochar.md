@@ -7,8 +7,8 @@ old-location: kernel\rtlshorttochar.htm
 old-project: kernel
 ms.assetid: AC7D5479-7C68-445A-9788-F5E96D6BB41E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlShortToChar, RtlShortToChar, kernel.rtlshorttochar, RtlShortToChar function [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: ntintsafe/RtlShortToChar, RtlShortToChar function [Kernel-Mode Driver Architecture], kernel.rtlshorttochar, RtlShortToChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

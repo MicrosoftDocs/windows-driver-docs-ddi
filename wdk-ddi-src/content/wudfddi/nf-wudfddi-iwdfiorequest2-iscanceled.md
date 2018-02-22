@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_iscanceled.htm
 old-project: wdf
 ms.assetid: 68523fcb-bb0d-492f-b6ae-3dab4f6aa637
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2::IsCanceled, wudfddi/IWDFIoRequest2::IsCanceled, IsCanceled method, IWDFIoRequest2 interface, IsCanceled method, wdf.iwdfiorequest2_iscanceled, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml, IWDFIoRequest2, IsCanceled, IWDFIoRequest2 interface, IsCanceled method, umdf.iwdfiorequest2_iscanceled
+ms.date: 2/20/2018
+ms.keywords: IsCanceled method, IWDFIoRequest2, wdf.iwdfiorequest2_iscanceled, IWDFIoRequest2::IsCanceled, IsCanceled, umdf.iwdfiorequest2_iscanceled, IWDFIoRequest2 interface, IsCanceled method, IsCanceled method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::IsCanceled, UMDFRequestObjectRef_7fdd0046-2e99-4221-9e73-c1bebf6251aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.IsCanceled
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -124,7 +124,7 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
 
@@ -132,17 +132,17 @@ In the following code example, if <b>IsCanceled</b> returns <b>TRUE</b>, the dri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559146">IWDFIoRequest::MarkCancelable</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559163">IWDFIoRequest::UnmarkCancelable</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::IsCanceled method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::IsCanceled method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

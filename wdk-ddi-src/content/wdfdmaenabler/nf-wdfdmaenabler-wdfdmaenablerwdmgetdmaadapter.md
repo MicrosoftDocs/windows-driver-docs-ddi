@@ -7,8 +7,8 @@ old-location: wdf\wdfdmaenablerwdmgetdmaadapter.htm
 old-project: wdf
 ms.assetid: 2546303a-53c3-4c6b-a230-eb1ebd74cb76
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDmaEnablerWdmGetDmaAdapter method, PFN_WDFDMAENABLERWDMGETDMAADAPTER, kmdf.wdfdmaenablerwdmgetdmaadapter, wdf.wdfdmaenablerwdmgetdmaadapter, WdfDmaEnablerWdmGetDmaAdapter, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfdmaenablerwdmgetdmaadapter, wdf.wdfdmaenablerwdmgetdmaadapter, wdfdmaenabler/WdfDmaEnablerWdmGetDmaAdapter, WdfDmaEnablerWdmGetDmaAdapter, DFDmaObjectRef_9ed5be1b-56fd-4305-8aad-0ebb0856e34a.xml, WdfDmaEnablerWdmGetDmaAdapter method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,10 +152,6 @@ writeAdapter = WdfDmaEnablerWdmGetDmaAdapter(
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
-
-
-
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
@@ -164,9 +160,13 @@ writeAdapter = WdfDmaEnablerWdmGetDmaAdapter(
 
 
 
- 
+<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_direction.md">WDF_DMA_DIRECTION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaEnablerWdmGetDmaAdapter method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaEnablerWdmGetDmaAdapter method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

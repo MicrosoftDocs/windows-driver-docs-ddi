@@ -7,8 +7,8 @@ old-location: kernel\ioallocateerrorlogentry.htm
 old-project: kernel
 ms.assetid: 07fc3ae1-325a-4e50-a83d-9e70a8d63aaa
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], IoAllocateErrorLogEntry, kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry, k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml
+ms.date: 2/16/2018
+ms.keywords: kernel.ioallocateerrorlogentry, wdm/IoAllocateErrorLogEntry, IoAllocateErrorLogEntry, IoAllocateErrorLogEntry routine [Kernel-Mode Driver Architecture], k104_e3257473-eeae-4912-b3e1-8dd5ceb7430e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,7 @@ Specifies the size, in bytes, of the error log entry to be allocated. This value
 
 
 
-The driver must first fill in the packet with information about the error, then call <a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> to post the entry to the error log. The error log entry buffer is automatically freed once the log entry is recorded. Entry buffers that are not going to be written to the log can be freed by using <a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>.
+The driver must first fill in the packet with information about the error, then call <a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a> to post the entry to the error log. The error log entry buffer is automatically freed once the log entry is recorded. Entry buffers that are not going to be written to the log can be freed by using <a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>.
 
 An error log entry consists of a variable-length <a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a> structure, possibly followed by one or more zero-counted Unicode strings. The Event Viewer inserts these strings into the error message it displays for the entry. <b>IO_ERROR_LOG_PACKET</b> contains one variable-length member, the <b>DumpData</b> member. Thus, the value for <i>EntrySize</i> must be <b>sizeof</b>(<b>IO_ERROR_LOG_PACKET</b>) + size of the <b>DumpData</b> member + combined size of any driver-supplied insertion strings.
 
@@ -107,21 +107,21 @@ Drivers must not treat <b>IoAllocateErrorLogEntry</b> returning <b>NULL</b> as a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
-
-
-
-<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_error_log_packet.md">IO_ERROR_LOG_PACKET</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-iofreeerrorlogentry.md">IoFreeErrorLogEntry</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoAllocateErrorLogEntry routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoAllocateErrorLogEntry routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

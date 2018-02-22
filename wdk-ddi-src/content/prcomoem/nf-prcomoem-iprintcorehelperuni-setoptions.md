@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperuni_setoptions.htm
 old-project: print
 ms.assetid: f9dd7b32-7a87-427e-9efe-861301249add
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrintCoreHelperUni::SetOptions, SetOptions, prcomoem/IPrintCoreHelperUni::SetOptions, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml, SetOptions method [Print Devices], SetOptions method [Print Devices], IPrintCoreHelperUni interface, print.iprintcorehelperuni_setoptions, IPrintCoreHelperUni, IPrintCoreHelperUni interface [Print Devices], SetOptions method
+ms.date: 2/21/2018
+ms.keywords: IPrintCoreHelperUni interface [Print Devices], SetOptions method, SetOptions, print.iprintcorehelperuni_setoptions, SetOptions method [Print Devices], IPrintCoreHelperUni::SetOptions, SetOptions method [Print Devices], IPrintCoreHelperUni interface, print_unidrv-pscript_allplugins_3178bdef-a7fd-48ba-9b2e-cafda9fb0802.xml, prcomoem/IPrintCoreHelperUni::SetOptions, IPrintCoreHelperUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperUni.SetOptions
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -217,6 +217,10 @@ For most scenarios the <i>bResolveConflicts</i> parameter should be set to <b>TR
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/e581d190-8185-45c1-80c7-ff8eb305360e">IPrintCoreHelperUni</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552937">IPrintCoreHelperUni::GetOption</a>
 
 
@@ -225,5 +229,5 @@ For most scenarios the <i>bResolveConflicts</i> parameter should be set to <b>TR
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::SetOptions method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperUni::SetOptions method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\storportconvertulongtophysicaladdress.htm
 old-project: storage
 ms.assetid: 772ca60b-a957-47de-b95d-486497b295ce
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml, StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices], storage.storportconvertulongtophysicaladdress, storport/StorPortConvertUlongToPhysicalAddress
+ms.date: 2/16/2018
+ms.keywords: storport/StorPortConvertUlongToPhysicalAddress, storage.storportconvertulongtophysicaladdress, storprt_c0da13f0-81f8-48ae-93e2-8af7bcedf4dc.xml, StorPortConvertUlongToPhysicalAddress, StorPortConvertUlongToPhysicalAddress routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

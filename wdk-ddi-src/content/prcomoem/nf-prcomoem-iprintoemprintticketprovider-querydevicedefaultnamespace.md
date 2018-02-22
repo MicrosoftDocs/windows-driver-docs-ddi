@@ -7,8 +7,8 @@ old-location: print\iprintoemprintticketprovider_querydevicedefaultnamespace.htm
 old-project: print
 ms.assetid: 1af15e59-8796-48e2-ab18-a450db3086d3
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, IPrintOemPrintTicketProvider, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method, IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace method [Print Devices], print.iprintoemprintticketprovider_querydevicedefaultnamespace
+ms.date: 2/21/2018
+ms.keywords: QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider interface, IPrintOemPrintTicketProvider interface [Print Devices], QueryDeviceDefaultNamespace method, print.iprintoemprintticketprovider_querydevicedefaultnamespace, IPrintOemPrintTicketProvider, print_ticket-package_9b7bc4a4-a8db-4bef-b592-b6774c8d9fb2.xml, QueryDeviceDefaultNamespace method [Print Devices], IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, prcomoem/IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace, QueryDeviceDefaultNamespace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPrintTicketProvider.QueryDeviceDefaultNamespace
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -125,6 +125,10 @@ The plug-in should specify the name of the private namespace URI that the core d
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/a32b5ec9-b4f2-4f33-879d-252806bd34ed">IPrintOemPrintTicketProvider</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553151">IPrintOemPrintTicketProvider::BindPrinter</a>
 
 
@@ -133,5 +137,5 @@ The plug-in should specify the name of the private namespace URI that the core d
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPrintTicketProvider::QueryDeviceDefaultNamespace method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

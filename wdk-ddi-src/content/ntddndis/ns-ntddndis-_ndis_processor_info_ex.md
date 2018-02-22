@@ -7,8 +7,8 @@ old-location: netvista\ndis_processor_info_ex.htm
 old-project: netvista
 ms.assetid: e4f28f30-32bc-4bbc-8e95-f87dfe80229d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, _NDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], *PNDIS_PROCESSOR_INFO_EX, netvista.ndis_processor_info_ex, ntddndis/PNDIS_PROCESSOR_INFO_EX, ntddndis/NDIS_PROCESSOR_INFO_EX, PNDIS_PROCESSOR_INFO_EX
+ms.date: 2/16/2018
+ms.keywords: "*PNDIS_PROCESSOR_INFO_EX, _NDIS_PROCESSOR_INFO_EX, ntddndis/NDIS_PROCESSOR_INFO_EX, ndis_processor_group_ref_0a75adfb-c28f-4d9b-8b29-6da14662bda7.xml, PNDIS_PROCESSOR_INFO_EX structure pointer [Network Drivers Starting with Windows Vista], NDIS_PROCESSOR_INFO_EX structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX, netvista.ndis_processor_info_ex, PNDIS_PROCESSOR_INFO_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PROCESSOR_INFO_EX
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PROCESSOR_INFO_EX, *PNDIS_PROCESSOR_INFO_EX
+req.typenames: "*PNDIS_PROCESSOR_INFO_EX, NDIS_PROCESSOR_INFO_EX"
 ---
 
 # _NDIS_PROCESSOR_INFO_EX structure
@@ -129,10 +129,6 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_system_processor_info_ex.md">NDIS_SYSTEM_PROCESSOR_INFO_EX</a>
 
 
@@ -142,9 +138,13 @@ The NDIS_PROCESSOR_INFO_EX structure is used in the
 
 
 
- 
+<a href="..\ndis\ns-ndis-_ndis_processor_info.md">NDIS_PROCESSOR_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PROCESSOR_INFO_EX structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PROCESSOR_INFO_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

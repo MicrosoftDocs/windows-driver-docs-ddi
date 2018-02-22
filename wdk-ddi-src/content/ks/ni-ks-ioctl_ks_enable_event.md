@@ -7,7 +7,7 @@ old-location: stream\ioctl_ks_enable_event.htm
 old-project: stream
 ms.assetid: 194a99f4-900f-44d1-bbc3-64953e4dce21
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.ioctl_ks_enable_event, IOCTL_KS_ENABLE_EVENT control code [Streaming Media Devices], IOCTL_KS_ENABLE_EVENT, ks/IOCTL_KS_ENABLE_EVENT, ks-ioctl_7cc1eab4-2a30-4998-8f7d-122150800c9a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,23 +119,11 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
-
-
-
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-
-
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+<a href="..\ks\ns-ks-ksdpc_item.md">KSDPC_ITEM</a>
 
 
 
@@ -143,7 +131,7 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
 
 
 
@@ -151,9 +139,21 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 
- 
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_KS_ENABLE_EVENT control code%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IOCTL_KS_ENABLE_EVENT control code%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

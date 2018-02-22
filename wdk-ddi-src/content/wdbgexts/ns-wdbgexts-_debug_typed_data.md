@@ -4,11 +4,11 @@ title: "_DEBUG_TYPED_DATA"
 author: windows-driver-content
 description: The DEBUG_TYPED_DATA structure describes typed data in the memory of the target.
 old-location: debugger\debug_typed_data.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 3173e69e-a6e5-4459-a57e-94cf7b10ef32
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.debug_typed_data, wdbgexts/PDEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA, _DEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, wdbgexts/DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], DEBUG_TYPED_DATA structure [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: "*PDEBUG_TYPED_DATA, Structures_6e8e758c-2c5d-4590-8908-3e1734ea2c7d.xml, _DEBUG_TYPED_DATA, PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA, wdbgexts/DEBUG_TYPED_DATA, debugger.debug_typed_data, PDEBUG_TYPED_DATA structure pointer [Windows Debugging], wdbgexts/PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA structure [Windows Debugging]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_TYPED_DATA
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_TYPED_DATA, *PDEBUG_TYPED_DATA
+req.typenames: "*PDEBUG_TYPED_DATA, DEBUG_TYPED_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -221,5 +221,5 @@ There is one exception to the preceding rule: the <b>EXT_TDOP_SET_FROM_TYPE_ID_A
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20DEBUG_TYPED_DATA structure%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20DEBUG_TYPED_DATA structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

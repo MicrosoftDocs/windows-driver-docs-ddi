@@ -7,13 +7,13 @@ old-location: storage\tape_drive_problem_type.htm
 old-project: storage
 ms.assetid: c2732686-5f95-41fd-8e47-8acf6900a44b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: TapeDriveWriteWarning, TapeDriveTimetoClean, ntddtape/TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWriteWarning, ntddtape/TapeDriveWriteError, TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadWriteWarning, ntddtape/TapeDriveMediaLifeExpired, TapeDriveSnappedTape, _TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveWriteWarning, storage.tape_drive_problem_type, TapeDriveProblemNone, ntddtape/TapeDriveReadWriteError, TapeDriveWriteError, TapeDriveCleanDriveNow, ntddtape/TapeDriveReadError, TapeDriveHardwareError, ntddtape/TapeDriveTimetoClean, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], TapeDriveScsiConnectionError, ntddtape/TapeDriveScsiConnectionError, TapeDriveUnsupportedMedia, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveReadWarning, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveReadError, ntddtape/TapeDriveProblemNone, ntddtape/TapeDriveSnappedTape, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, TapeDriveReadWriteError, TapeDriveReadWarning, TapeDriveMediaLifeExpired, ntddtape/TapeDriveHardwareError
+ms.date: 2/16/2018
+ms.keywords: TapeDriveScsiConnectionError, ntddtape/TapeDriveReadWarning, TapeDriveWriteWarning, TAPE_DRIVE_PROBLEM_TYPE enumeration [Storage Devices], TapeDriveTimetoClean, _TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveMediaLifeExpired, TapeDriveWriteError, ntddtape/TapeDriveWriteWarning, ntddtape/TapeDriveCleanDriveNow, ntddtape/TapeDriveWriteError, TapeDriveProblemNone, TapeDriveCleanDriveNow, structs-tape_e5fef478-5c62-4cbf-adc1-8f0cc6eabb8e.xml, ntddtape/TapeDriveTimetoClean, ntddtape/TapeDriveUnsupportedMedia, TapeDriveSnappedTape, storage.tape_drive_problem_type, ntddtape/TAPE_DRIVE_PROBLEM_TYPE, TapeDriveUnsupportedMedia, ntddtape/TapeDriveReadWriteWarning, TapeDriveReadWriteWarning, TapeDriveReadError, ntddtape/TapeDriveScsiConnectionError, TapeDriveHardwareError, TapeDriveReadWriteError, ntddtape/TapeDriveReadError, ntddtape/TapeDriveSnappedTape, TAPE_DRIVE_PROBLEM_TYPE, ntddtape/TapeDriveHardwareError, ntddtape/TapeDriveReadWriteError, ntddtape/TapeDriveProblemNone, TapeDriveReadWarning, TapeDriveMediaLifeExpired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: ntddtape.h
-req.include-header: 
+req.include-header: Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -164,5 +164,5 @@ Indicates that the tape has snapped.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_DRIVE_PROBLEM_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_DRIVE_PROBLEM_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

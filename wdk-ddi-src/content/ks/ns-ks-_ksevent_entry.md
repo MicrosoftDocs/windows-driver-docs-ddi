@@ -7,8 +7,8 @@ old-location: stream\ksevent_entry.htm
 old-project: stream
 ms.assetid: 2d246109-839d-46fd-9898-9e059b803790
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "_KSEVENT_ENTRY, ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, KSEVENT_ENTRY, *PKSEVENT_ENTRY, KSEVENT_ENTRY structure [Streaming Media Devices], stream.ksevent_entry, ks/KSEVENT_ENTRY"
+ms.date: 2/20/2018
+ms.keywords: ks-struct_1c40526b-bc37-4f6b-a1e1-b0e710238156.xml, _KSEVENT_ENTRY, ks/KSEVENT_ENTRY, *PKSEVENT_ENTRY, KSEVENT_ENTRY, stream.ksevent_entry, KSEVENT_ENTRY structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSEVENT_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PKSEVENT_ENTRY, KSEVENT_ENTRY"
+req.typenames: KSEVENT_ENTRY, *PKSEVENT_ENTRY
 ---
 
 # _KSEVENT_ENTRY structure
@@ -86,12 +86,6 @@ typedef struct _KSEVENT_ENTRY {
 ### -field Object
 
 
-### -field DpcItem
-
-
-### -field BufferItem
-
-
 ### -field EventData
 
 
@@ -114,6 +108,12 @@ typedef struct _KSEVENT_ENTRY {
 
 
 ### -field Flags
+
+
+#### - DpcItem
+
+
+#### - BufferItem
 
 
 ## -remarks

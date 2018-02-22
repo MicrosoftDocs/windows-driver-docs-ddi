@@ -7,8 +7,8 @@ old-location: print\_iprintschemaparameterdefinition_datatype.htm
 old-project: print
 ms.assetid: 82CC79A8-0281-4100-B3FB-1FFFB2454B8D
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: DataType property [Print Devices], IPrintSchemaParameterDefinition interface, printerextension/IPrintSchemaParameterDefinition::DataType, print._iprintschemaparameterdefinition_datatype, IPrintSchemaParameterDefinition interface [Print Devices], DataType property, IPrintSchemaParameterDefinition, IPrintSchemaParameterDefinition::get_DataType, IPrintSchemaParameterDefinition.DataType, get_DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType, DataType property [Print Devices]
+ms.date: 2/21/2018
+ms.keywords: get_DataType, print._iprintschemaparameterdefinition_datatype, IPrintSchemaParameterDefinition::get_DataType, IPrintSchemaParameterDefinition interface [Print Devices], DataType property, DataType property [Print Devices], printerextension/IPrintSchemaParameterDefinition::DataType, printerextension/IPrintSchemaParameterDefinition::get_DataType, IPrintSchemaParameterDefinition, DataType property [Print Devices], IPrintSchemaParameterDefinition interface, IPrintSchemaParameterDefinition.DataType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -71,17 +71,17 @@ HRESULT get_DataType(
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
-
-
-
 <a href="..\printerextension\ne-printerextension-tagprintschemaparameterdatatype.md">PrintSchemaParameterDataType</a>
 
 
 
- 
+<a href="..\printerextension\nn-printerextension-iprintschemaparameterdefinition.md">IPrintSchemaParameterDefinition</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaParameterDefinition::DataType property%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaParameterDefinition::DataType property%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

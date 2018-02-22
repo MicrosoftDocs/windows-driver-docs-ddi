@@ -7,8 +7,8 @@ old-location: netvista\ndisclincomingcallcomplete.htm
 old-project: netvista
 ms.assetid: b3931dd7-319e-4ef8-9812-6dc3f2e41b2c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], ndis/NdisClIncomingCallComplete, condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, NdisClIncomingCallComplete, netvista.ndisclincomingcallcomplete
+ms.date: 2/16/2018
+ms.keywords: ndis/NdisClIncomingCallComplete, NdisClIncomingCallComplete function [Network Drivers Starting with Windows Vista], netvista.ndisclincomingcallcomplete, condis_client_ref_93263dd6-f55a-4923-8173-b3617f40353a.xml, NdisClIncomingCallComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,7 +154,7 @@ If a client rejects an offered call by setting
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 
@@ -163,7 +163,11 @@ If a client rejects an offered call by setting
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
+<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 
 
@@ -175,15 +179,11 @@ If a client rejects an offered call by setting
 
 
 
-<a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+<a href="..\ndis\nc-ndis-protocol_cl_call_connected.md">ProtocolClCallConnected</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cl_incoming_call.md">ProtocolClIncomingCall</a>
+<a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
 
 
 
@@ -191,5 +191,5 @@ If a client rejects an offered call by setting
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClIncomingCallComplete function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClIncomingCallComplete function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

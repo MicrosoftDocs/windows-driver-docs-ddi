@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallbackremoteinterfacenotification_onremoteinterfacearriv
 old-project: wdf
 ms.assetid: 19a0eec7-1a67-42ad-86d2-20566a2c1268
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, IPnpCallbackRemoteInterfaceNotification, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival
+ms.date: 2/20/2018
+ms.keywords: IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, wdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, IPnpCallbackRemoteInterfaceNotification interface, OnRemoteInterfaceArrival method, UMDFDeviceObjectRef_68b238b1-6614-4217-90ae-12ec291fa7ba.xml, OnRemoteInterfaceArrival method, OnRemoteInterfaceArrival, umdf.ipnpcallbackremoteinterfacenotification_onremoteinterfacearrival, IPnpCallbackRemoteInterfaceNotification, wudfddi/IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival, OnRemoteInterfaceArrival method, IPnpCallbackRemoteInterfaceNotification interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallbackRemoteInterfaceNotification.OnRemoteInterfaceArrival
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -116,11 +116,7 @@ For more information about using remote interface objects to access device inter
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a>
 
 
 
@@ -128,7 +124,11 @@ For more information about using remote interface objects to access device inter
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackremoteinterfacenotification.md">IPnpCallbackRemoteInterfaceNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556925">IWDFDevice2::CreateRemoteInterface</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
 
 
 
@@ -140,5 +140,5 @@ For more information about using remote interface objects to access device inter
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

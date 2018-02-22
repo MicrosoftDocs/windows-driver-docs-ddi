@@ -7,8 +7,8 @@ old-location: display\dxgk_querysegmentin.htm
 old-project: display
 ms.assetid: 5a3e6edf-40c7-49f3-8394-0e54c080c92c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DmStructs_d47cf13d-48ec-49fd-b80c-4df1501db329.xml, d3dkmddi/DXGK_QUERYSEGMENTIN, _DXGK_QUERYSEGMENTIN, display.dxgk_querysegmentin, DXGK_QUERYSEGMENTIN, DXGK_QUERYSEGMENTIN structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: "_DXGK_QUERYSEGMENTIN, DXGK_QUERYSEGMENTIN structure [Display Devices], d3dkmddi/DXGK_QUERYSEGMENTIN, DXGK_QUERYSEGMENTIN, DmStructs_d47cf13d-48ec-49fd-b80c-4df1501db329.xml, display.dxgk_querysegmentin"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -86,15 +86,15 @@ typedef struct _DXGK_QUERYSEGMENTIN {
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryadapterinfo.md">DxgkDdiQueryAdapterInfo</a>
 
 
 
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_segmentdescriptor.md">DXGK_SEGMENTDESCRIPTOR</a>
 
 
 
@@ -110,5 +110,5 @@ typedef struct _DXGK_QUERYSEGMENTIN {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_QUERYSEGMENTIN structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_QUERYSEGMENTIN structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

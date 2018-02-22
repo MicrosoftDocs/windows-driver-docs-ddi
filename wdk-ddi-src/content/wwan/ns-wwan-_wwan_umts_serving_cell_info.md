@@ -7,8 +7,8 @@ old-location: netvista\wwan_umts_serving_cell_info.htm
 old-project: netvista
 ms.assetid: 62257D65-DCB9-43C3-A862-DAB31C27EF0A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO, netvista.wwan_umts_serving_cell_info, PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_UMTS_SERVING_CELL_INFO, _WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO, wwan/WWAN_UMTS_SERVING_CELL_INFO
+ms.date: 2/16/2018
+ms.keywords: netvista.wwan_umts_serving_cell_info, wwan/PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO, PWWAN_UMTS_SERVING_CELL_INFO structure pointer [Network Drivers Starting with Windows Vista], PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO structure [Network Drivers Starting with Windows Vista], wwan/WWAN_UMTS_SERVING_CELL_INFO, _WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_UMTS_SERVING_CELL_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_UMTS_SERVING_CELL_INFO, WWAN_UMTS_SERVING_CELL_INFO"
+req.typenames: WWAN_UMTS_SERVING_CELL_INFO, *PWWAN_UMTS_SERVING_CELL_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -154,15 +154,7 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
 
 
 
@@ -170,9 +162,17 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
- 
+<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UMTS_SERVING_CELL_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UMTS_SERVING_CELL_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

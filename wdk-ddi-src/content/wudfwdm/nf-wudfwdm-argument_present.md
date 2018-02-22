@@ -7,8 +7,8 @@ old-location: kernel\argument_present.htm
 old-project: kernel
 ms.assetid: 00b9c218-8ae7-4624-be6b-6b6b2f83764a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.argument_present, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, wudfwdm/ARGUMENT_PRESENT, ARGUMENT_PRESENT
+ms.date: 2/16/2018
+ms.keywords: ARGUMENT_PRESENT, wudfwdm/ARGUMENT_PRESENT, ARGUMENT_PRESENT macro [Kernel-Mode Driver Architecture], k106_a835da4a-e4c4-4c39-8b20-c7ef88f2ab6b.xml, kernel.argument_present
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	ARGUMENT_PRESENT
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
 req.product: Windows 10 or later.
 ---
 

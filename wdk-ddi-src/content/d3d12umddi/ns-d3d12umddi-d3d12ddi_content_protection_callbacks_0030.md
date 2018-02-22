@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-content-protection-callbacks-0030.htm
 old-project: display
 ms.assetid: a3a9b862-872e-4a1e-bb80-1831db983b28
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, display.d3d12ddi-content-protection-callbacks-0030, D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 structure [Display Devices], D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030
+ms.date: 2/20/2018
+ms.keywords: display.d3d12ddi-content-protection-callbacks-0030, D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, d3d12umddi/D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030, D3D12DDI_CONTENT_PROTECTION_CALLBACKS_0030 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

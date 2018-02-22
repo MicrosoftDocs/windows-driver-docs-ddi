@@ -7,8 +7,8 @@ old-location: stream\kspingetavailablebytecount.htm
 old-project: stream
 ms.assetid: e3669f11-7284-4f65-b814-624337e7fa7f
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsPinGetAvailableByteCount routine [Streaming Media Devices], stream.kspingetavailablebytecount, KsPinGetAvailableByteCount, avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, ks/KsPinGetAvailableByteCount
+ms.date: 2/20/2018
+ms.keywords: KsPinGetAvailableByteCount routine [Streaming Media Devices], ks/KsPinGetAvailableByteCount, stream.kspingetavailablebytecount, avfunc_2ba6a7f8-59b4-45bf-989a-97f8a494b4bc.xml, KsPinGetAvailableByteCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,11 @@ For additional information, see <a href="https://msdn.microsoft.com/73ab974f-803
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
+<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
 
 
 
@@ -121,11 +125,15 @@ For additional information, see <a href="https://msdn.microsoft.com/73ab974f-803
 
 
 
-<a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
+<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
 
 
 
-<a href="..\ks\nf-ks-kspingetleadingedgestreampointer.md">KsPinGetLeadingEdgeStreamPointer</a>
+<a href="..\ks\nf-ks-kspinacquireprocessingmutex.md">KsPinAcquireProcessingMutex</a>
+
+
+
+<a href="..\ks\nf-ks-ksfilteracquireprocessingmutex.md">KsFilterAcquireProcessingMutex</a>
 
 
 
@@ -137,11 +145,7 @@ For additional information, see <a href="https://msdn.microsoft.com/73ab974f-803
 
 
 
-<a href="..\ks\nf-ks-ksfilteracquireprocessingmutex.md">KsFilterAcquireProcessingMutex</a>
-
-
-
-<a href="..\ks\ns-ks-_ksstream_pointer.md">KSSTREAM_POINTER</a>
+<a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
 
 
 
@@ -149,13 +153,9 @@ For additional information, see <a href="https://msdn.microsoft.com/73ab974f-803
 
 
 
-<a href="..\ks\nf-ks-kspingettrailingedgestreampointer.md">KsPinGetTrailingEdgeStreamPointer</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetAvailableByteCount routine%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetAvailableByteCount routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

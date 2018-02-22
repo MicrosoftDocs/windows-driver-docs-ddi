@@ -7,8 +7,8 @@ old-location: netvista\ndis_pm_wake_reason_type.htm
 old-project: netvista
 ms.assetid: 7919226a-4d36-4397-bca1-f7338b3e7ade
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisWakeReasonWlan4WayHandshakeRequest, ntddndis/NdisWakeReasonPacket, ntddndis/NdisWakeReasonMediaConnect, ntddndis/NdisWakeReasonWwanUSSDReceive, _NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWwanSMSReceive, ntddndis/NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWlanNLODiscovery, NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonPacket, NdisWakeReasonMediaConnect, PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, NdisWakeReasonWlanAPAssociationLost, netvista.ndis_pm_wake_reason_type, ntddndis/NdisWakeReasonWwanSMSReceive, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonMediaDisconnect, NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonUnspecified, NdisWakeReasonUnspecified, NdisWakeReasonWwanUSSDReceive, NdisWakeReasonMediaDisconnect, *PNDIS_PM_WAKE_REASON_TYPE
+ms.date: 2/16/2018
+ms.keywords: NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWlanAPAssociationLost, NdisWakeReasonUnspecified, ntddndis/PNDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonMediaConnect, NdisWakeReasonWwanUSSDReceive, *PNDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWlanAPAssociationLost, ntddndis/NdisWakeReasonWwanSMSReceive, _NDIS_PM_WAKE_REASON_TYPE, ntddndis/NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonUnspecified, NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWlanGTKHandshakeError, ntddndis/NdisWakeReasonWwanUSSDReceive, PNDIS_PM_WAKE_REASON_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisWakeReasonPacket, NdisWakeReasonWlanNLODiscovery, netvista.ndis_pm_wake_reason_type, ntddndis/NDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonWwanSMSReceive, ntddndis/NdisWakeReasonMediaDisconnect, PNDIS_PM_WAKE_REASON_TYPE, NdisWakeReasonMediaDisconnect, ntddndis/NdisWakeReasonWlan4WayHandshakeRequest, ntddndis/NdisWakeReasonMediaConnect, NdisWakeReasonPacket, NDIS_PM_WAKE_REASON_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisWakeReasonWwanRegisterState, ntddndis/NdisWakeReasonWlanNLODiscovery, NdisWakeReasonWlan4WayHandshakeRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WAKE_REASON_TYPE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PM_WAKE_REASON_TYPE, *PNDIS_PM_WAKE_REASON_TYPE
+req.typenames: "*PNDIS_PM_WAKE_REASON_TYPE, NDIS_PM_WAKE_REASON_TYPE"
 ---
 
 # _NDIS_PM_WAKE_REASON_TYPE enumeration
@@ -158,5 +158,5 @@ The
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WAKE_REASON_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WAKE_REASON_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::GetPassCount method
 author: windows-driver-content
 description: The GetPassCount method returns the number of times that the target was originally required to reach the breakpoint location before the breakpoint is triggered.
 old-location: debugger\getpasscount.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: d7abe2aa-a33c-4184-a850-d0efa1e99221
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ComOther_bf916108-efd7-436f-a89e-a26826e2e258.xml, dbgeng/IDebugBreakpoint::GetPassCount, IDebugBreakpoint2::GetPassCount, IDebugBreakpoint::GetPassCount, GetPassCount method [Windows Debugging], IDebugBreakpoint interface, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetPassCount method, GetPassCount, IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::GetPassCount, IDebugBreakpoint, IDebugBreakpoint interface [Windows Debugging], GetPassCount method, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, debugger.getpasscount
+ms.date: 2/15/2018
+ms.keywords: debugger.getpasscount, IDebugBreakpoint2::GetPassCount, IDebugBreakpoint interface [Windows Debugging], GetPassCount method, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetPassCount method, GetPassCount method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, dbgeng/IDebugBreakpoint::GetPassCount, ComOther_bf916108-efd7-436f-a89e-a26826e2e258.xml, IDebugBreakpoint, dbgeng/IDebugBreakpoint2::GetPassCount, GetPassCount, GetPassCount method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetPassCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetPassCount
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetPassCount method

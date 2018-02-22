@@ -7,8 +7,8 @@ old-location: stream\cip_hdr1.htm
 old-project: stream
 ms.assetid: 15450f33-cb86-4c1d-87d7-2d77a1d66a81
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PCIP_HDR1 structure pointer [Streaming Media Devices], _CIP_HDR1, *PCIP_HDR1, CIP_HDR1, avcsref_bfb761c5-6eb2-459a-b75f-32c5e2d11700.xml, avcstrm/CIP_HDR1, CIP_HDR1 structure [Streaming Media Devices], avcstrm/PCIP_HDR1, stream.cip_hdr1, PCIP_HDR1
+ms.date: 2/20/2018
+ms.keywords: CIP_HDR1, PCIP_HDR1 structure pointer [Streaming Media Devices], PCIP_HDR1, *PCIP_HDR1, CIP_HDR1 structure [Streaming Media Devices], avcstrm/CIP_HDR1, _CIP_HDR1, avcstrm/PCIP_HDR1, avcsref_bfb761c5-6eb2-459a-b75f-32c5e2d11700.xml, stream.cip_hdr1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_HDR1
 product: Windows
 targetos: Windows
-req.typenames: "*PCIP_HDR1, CIP_HDR1"
+req.typenames: CIP_HDR1, *PCIP_HDR1
 ---
 
 # _CIP_HDR1 structure
@@ -132,5 +132,5 @@ Must be set to 0:0.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20CIP_HDR1 structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20CIP_HDR1 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

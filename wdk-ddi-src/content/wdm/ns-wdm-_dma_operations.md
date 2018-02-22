@@ -7,8 +7,8 @@ old-location: kernel\dma_operations.htm
 old-project: kernel
 ms.assetid: b4a5d830-252b-410e-be2c-390371af971c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml, wdm/DMA_OPERATIONS, PDMA_OPERATIONS, _DMA_OPERATIONS, DMA_OPERATIONS, kernel.dma_operations, DMA_OPERATIONS structure [Kernel-Mode Driver Architecture], PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], *PDMA_OPERATIONS, wdm/PDMA_OPERATIONS
+ms.date: 2/16/2018
+ms.keywords: DMA_OPERATIONS, kernel.dma_operations, *PDMA_OPERATIONS, DMA_OPERATIONS structure [Kernel-Mode Driver Architecture], _DMA_OPERATIONS, wdm/DMA_OPERATIONS, PDMA_OPERATIONS, PDMA_OPERATIONS structure pointer [Kernel-Mode Driver Architecture], wdm/PDMA_OPERATIONS, kstruct_a_ace4fb72-3208-4f4a-9c36-5a1f5791451a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DMA_OPERATIONS
 product: Windows
 targetos: Windows
-req.typenames: "*PDMA_OPERATIONS, DMA_OPERATIONS"
+req.typenames: DMA_OPERATIONS, *PDMA_OPERATIONS
 req.product: Windows 10 or later.
 ---
 
@@ -279,91 +279,7 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
-
-
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
-
-
-
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
-
-
-
-<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
-
-
-
-<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
-
-
-
-<a href="..\wdm\nc-wdm-pallocate_common_buffer_ex.md">AllocateCommonBufferEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
-
-
-
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-
-
-
-<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
-
-
-
-<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
-
-
-
 <a href="..\wdm\nc-wdm-pget_dma_alignment.md">GetDmaAlignment</a>
-
-
-
-<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
-
-
-
-<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
-
-
-
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
 
 
 
@@ -371,19 +287,7 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 
 
-<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
-
-
-
-<a href="..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md">BuildMdlFromScatterGatherList</a>
-
-
-
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
-
-
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
+<a href="..\wdm\nc-wdm-pfree_common_buffer.md">FreeCommonBuffer</a>
 
 
 
@@ -391,7 +295,95 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 
 
+<a href="..\wdm\nc-wdm-pbuild_mdl_from_scatter_gather_list.md">BuildMdlFromScatterGatherList</a>
+
+
+
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer_ex.md">AllocateCommonBufferEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pput_scatter_gather_list.md">PutScatterGatherList</a>
+
+
+
+<a href="..\wdm\nc-wdm-pcancel_mapped_transfer.md">CancelMappedTransfer</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+
+
+<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
+
+
+
+<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
+
+
+
 <a href="..\wdm\nc-wdm-pconfigure_adapter_channel.md">ConfigureAdapterChannel</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_dma_adapter_info.md">GetDmaAdapterInfo</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+
+
+
+<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a>
+
+
+
+<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
+
+
+<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list.md">BuildScatterGatherList</a>
 
 
 
@@ -399,9 +391,17 @@ All members of this structure, with the exception of <b>Size</b>, are pointers t
 
 
 
- 
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel_ex.md">AllocateAdapterChannelEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DMA_OPERATIONS structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DMA_OPERATIONS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

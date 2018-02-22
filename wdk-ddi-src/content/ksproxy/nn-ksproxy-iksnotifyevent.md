@@ -7,7 +7,7 @@ old-location: stream\iksnotifyevent.htm
 old-project: stream
 ms.assetid: 1de4db64-be4c-4a9b-b1ab-29f703e17959
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.iksnotifyevent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices], described, IKsNotifyEvent, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

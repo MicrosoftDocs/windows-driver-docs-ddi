@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_compression.htm
 old-project: print
 ms.assetid: 02524493-3842-462e-86f6-2ab35998c65e
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.iprintoemuni_compression, prcomoem/IPrintOemUni::Compression, Compression method [Print Devices], IPrintOemUni::Compression, Compression method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], Compression method, IPrintOemUni, Compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml
+ms.date: 2/21/2018
+ms.keywords: Compression method [Print Devices], IPrintOemUni interface, prcomoem/IPrintOemUni::Compression, print.iprintoemuni_compression, IPrintOemUni, IPrintOemUni::Compression, Compression, print_unidrv-pscript_rendering_47704483-1ab7-46a6-8a1e-07559fc6bde2.xml, IPrintOemUni interface [Print Devices], Compression method, Compression method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.Compression
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

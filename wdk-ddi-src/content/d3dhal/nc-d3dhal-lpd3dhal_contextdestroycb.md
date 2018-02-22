@@ -7,7 +7,7 @@ old-location: display\d3dcontextdestroy.htm
 old-project: display
 ms.assetid: caed780c-06a1-4697-b102-bffb134ecf84
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.d3dcontextdestroy, D3dContextDestroy callback function [Display Devices], D3dContextDestroy, LPD3DHAL_CONTEXTDESTROYCB, LPD3DHAL_CONTEXTDESTROYCB, d3dhal/D3dContextDestroy, d3dfncs_95c72dbe-9292-4501-ae28-f76316ce01e5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,7 +134,7 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
 
 
 
@@ -146,17 +146,17 @@ If the driver cached the pointer to the <a href="https://msdn.microsoft.com/libr
 
 
 
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_contextcreatecb.md">D3dContextCreate</a>
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_contextcreatedata.md">D3DHAL_CONTEXTCREATEDATA</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_contextdestroydata.md">D3DHAL_CONTEXTDESTROYDATA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20LPD3DHAL_CONTEXTDESTROYCB callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20LPD3DHAL_CONTEXTDESTROYCB callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

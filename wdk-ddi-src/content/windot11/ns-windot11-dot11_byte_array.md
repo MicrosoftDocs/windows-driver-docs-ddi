@@ -7,8 +7,8 @@ old-location: netvista\dot11_byte_array.htm
 old-project: netvista
 ms.assetid: a2c67eaf-d39e-43c9-8e06-18f668c0baa3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PDOT11_BYTE_ARRAY, windot11/PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array, windot11/DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml"
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_BYTE_ARRAY, windot11/DOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_b4146de4-b261-40d9-847d-1eebb48eafea.xml, windot11/PDOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY, DOT11_BYTE_ARRAY, PDOT11_BYTE_ARRAY structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_byte_array"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -204,6 +204,10 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
 
@@ -213,13 +217,9 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_BYTE_ARRAY structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_BYTE_ARRAY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

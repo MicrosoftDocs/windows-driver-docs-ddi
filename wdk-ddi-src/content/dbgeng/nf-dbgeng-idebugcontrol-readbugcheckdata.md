@@ -4,11 +4,11 @@ title: IDebugControl::ReadBugCheckData method
 author: windows-driver-content
 description: The ReadBugCheckData method reads the kernel bug check code and related parameters.
 old-location: debugger\readbugcheckdata.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 3ede32f5-9671-4f38-a33f-96536300267b
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ReadBugCheckData method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, dbgeng/IDebugControl3::ReadBugCheckData, IDebugControl, ReadBugCheckData method [Windows Debugging], IDebugControl::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, ReadBugCheckData, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl2::ReadBugCheckData, IDebugControl3::ReadBugCheckData, debugger.readbugcheckdata, dbgeng/IDebugControl::ReadBugCheckData
+ms.date: 2/15/2018
+ms.keywords: debugger.readbugcheckdata, IDebugControl, ReadBugCheckData method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::ReadBugCheckData, IDebugControl3::ReadBugCheckData, dbgeng/IDebugControl3::ReadBugCheckData, IDebugControl3 interface [Windows Debugging], ReadBugCheckData method, ReadBugCheckData method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ReadBugCheckData method, IDebugControl::ReadBugCheckData, dbgeng/IDebugControl::ReadBugCheckData, IDebugControl2 interface [Windows Debugging], ReadBugCheckData method, IDebugControl_d96bd559-1a82-4d5d-8aa8-7a32242f2b68.xml, ReadBugCheckData method [Windows Debugging], IDebugControl2 interface, IDebugControl2::ReadBugCheckData, ReadBugCheckData method [Windows Debugging], ReadBugCheckData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.ReadBugCheckData
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl::ReadBugCheckData method

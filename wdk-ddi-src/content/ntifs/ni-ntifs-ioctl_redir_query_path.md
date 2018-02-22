@@ -7,7 +7,7 @@ old-location: ifsk\ioctl_redir_query_path.htm
 old-project: ifsk
 ms.assetid: 876453a7-922e-4ab7-a609-64d31e60ce88
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
+ms.date: 2/16/2018
 ms.keywords: ifsk.ioctl_redir_query_path, IOCTL_REDIR_QUERY_PATH control code [Installable File System Drivers], IOCTL_REDIR_QUERY_PATH, ntifs/IOCTL_REDIR_QUERY_PATH, ioctl_ref_f46fa4a1-0546-4d70-8490-7a233a2e743f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -291,17 +291,17 @@ For more information, see the following sections in the Design Guide:
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
-
-
-
 <a href="..\ntifs\ni-ntifs-ioctl_redir_query_path_ex.md">IOCTL_REDIR_QUERY_PATH_EX</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-fsrtlderegisteruncprovider.md">FsRtlDeregisterUncProvider</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IOCTL_REDIR_QUERY_PATH control code%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IOCTL_REDIR_QUERY_PATH control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

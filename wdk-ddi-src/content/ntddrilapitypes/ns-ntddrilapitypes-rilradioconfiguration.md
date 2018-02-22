@@ -7,8 +7,8 @@ old-location: netvista\rilradioconfiguration.htm
 old-project: netvista
 ms.assetid: 24ff04b3-aec2-4bce-aa85-e33f3dbffa22
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILRADIOCONFIGURATION, RILRADIOCONFIGURATION structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRADIOCONFIGURATION, RILRADIOCONFIGURATION, netvista.rilradioconfiguration"
+ms.date: 2/16/2018
+ms.keywords: RILRADIOCONFIGURATION, RILRADIOCONFIGURATION structure [Network Drivers Starting with Windows Vista], *LPRILRADIOCONFIGURATION, ntddrilapitypes/RILRADIOCONFIGURATION, netvista.rilradioconfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRADIOCONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILRADIOCONFIGURATION, RILRADIOCONFIGURATION"
+req.typenames: RILRADIOCONFIGURATION, *LPRILRADIOCONFIGURATION
 ---
 
 # RILRADIOCONFIGURATION structure

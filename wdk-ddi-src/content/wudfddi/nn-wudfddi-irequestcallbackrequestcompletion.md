@@ -7,7 +7,7 @@ old-location: wdf\irequestcallbackrequestcompletion.htm
 old-project: wdf
 ms.assetid: 65803145-8043-4902-981a-9dbbda2d69e9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.irequestcallbackrequestcompletion, IRequestCallbackRequestCompletion interface, IRequestCallbackRequestCompletion interface, described, IRequestCallbackRequestCompletion, wudfddi/IRequestCallbackRequestCompletion, UMDFRequestObjectRef_9940e95b-e321-4cdf-95bb-3540e95f6094.xml, umdf.irequestcallbackrequestcompletion
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IRequestCallbackRequestCompletion
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

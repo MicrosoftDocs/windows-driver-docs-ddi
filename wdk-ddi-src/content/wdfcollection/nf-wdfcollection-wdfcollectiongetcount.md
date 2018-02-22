@@ -7,8 +7,8 @@ old-location: wdf\wdfcollectiongetcount.htm
 old-project: wdf
 ms.assetid: 95b6e441-f564-4642-8474-8e10e83177b9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfcollectiongetcount, DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml, PFN_WDFCOLLECTIONGETCOUNT, WdfCollectionGetCount method, WdfCollectionGetCount, wdfcollection/WdfCollectionGetCount, kmdf.wdfcollectiongetcount
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfcollectiongetcount, WdfCollectionGetCount method, wdfcollection/WdfCollectionGetCount, WdfCollectionGetCount, kmdf.wdfcollectiongetcount, DFCollectionObjectRef_835a8d24-fd48-4de9-83bc-62a8b5a3a93b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,5 +134,5 @@ for (i = 0; i &lt; count; i++) {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfCollectionGetCount method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfCollectionGetCount method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

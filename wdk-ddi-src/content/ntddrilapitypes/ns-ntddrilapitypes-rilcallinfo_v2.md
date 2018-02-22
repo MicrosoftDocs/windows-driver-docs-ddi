@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfo_v2.htm
 old-project: netvista
 ms.assetid: 02eaaaa4-fe88-4f07-bfbf-1ba52d0c1362
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLINFO_V2 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLINFO_V2, RILCALLINFO_V2, netvista.rilcallinfo_v2, *LPRILCALLINFO_V2
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLINFO_V2, RILCALLINFO_V2, netvista.rilcallinfo_v2, ntddrilapitypes/RILCALLINFO_V2, RILCALLINFO_V2 structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

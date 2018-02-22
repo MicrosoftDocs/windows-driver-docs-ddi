@@ -7,8 +7,8 @@ old-location: print\iprintschemafeature_displayui.htm
 old-project: print
 ms.assetid: 47E8BF6E-7CBE-43B9-9F3F-D91E88FB02D4
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: get_DisplayUI, IPrintSchemaFeature interface [Print Devices], DisplayUI property, printerextension/IPrintSchemaFeature::get_DisplayUI, DisplayUI property [Print Devices], DisplayUI property [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature, IPrintSchemaFeature.DisplayUI, IPrintSchemaFeature::get_DisplayUI, print.iprintschemafeature_displayui, printerextension/IPrintSchemaFeature::DisplayUI
+ms.date: 2/21/2018
+ms.keywords: IPrintSchemaFeature interface [Print Devices], DisplayUI property, IPrintSchemaFeature.DisplayUI, get_DisplayUI, DisplayUI property [Print Devices], DisplayUI property [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature::get_DisplayUI, IPrintSchemaFeature, printerextension/IPrintSchemaFeature::get_DisplayUI, printerextension/IPrintSchemaFeature::DisplayUI, print.iprintschemafeature_displayui
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -88,5 +88,5 @@ Note that the <b>DisplayUI</b> property  corresponds to the psk:DisplayUI elemen
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaFeature::DisplayUI property%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaFeature::DisplayUI property%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

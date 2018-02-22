@@ -7,8 +7,8 @@ old-location: kernel\pocreatepowerrequest.htm
 old-project: kernel
 ms.assetid: 67986bf8-b070-44e9-95a2-eea35100b0e7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pocreatepowerrequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, PoCreatePowerRequest, wdm/PoCreatePowerRequest, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: wdm/PoCreatePowerRequest, kernel.pocreatepowerrequest, PoCreatePowerRequest, portn_059f00e2-74ea-4c61-8fcd-6b257c084161.xml, PoCreatePowerRequest routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -82,7 +82,7 @@ A pointer to the device object of the caller (a <a href="..\wdm\ns-wdm-_device_o
 
 ### -param Context [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_counted_reason_context.md">COUNTED_REASON_CONTEXT</a> structure that describes why the caller is creating the power request object. This parameter is optional and can be set to <b>NULL</b>.
+A pointer to a <a href="..\ntpoapi\ns-ntpoapi-_counted_reason_context.md">COUNTED_REASON_CONTEXT</a> structure that describes why the caller is creating the power request object. This parameter is optional and can be set to <b>NULL</b>.
 
 
 ## -returns
@@ -128,26 +128,26 @@ There is not enough memory available to create a power request object.
 
 
 
-This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a> and <a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a> routines.
+This routine creates a power request object. To enable power requests, the caller should create one power request object and use that object for all calls to the <a href="..\ntifs\nf-ntifs-posetpowerrequest.md">PoSetPowerRequest</a> and <a href="..\ntifs\nf-ntifs-poclearpowerrequest.md">PoClearPowerRequest</a> routines.
 
 A driver can use power requests to override certain aspects of the computer's default power behavior. For example, a driver for a TV receiver device can use power requests to prevent the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559829">power manager</a> from automatically blanking the display during extended periods of time in which no user interaction occurs.
 
-When the power request object is no longer needed, the caller must delete the object by calling the <a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a> routine. The driver must delete the power request object before it deletes the device object that was used to create the power request object.
+When the power request object is no longer needed, the caller must delete the object by calling the <a href="..\ntifs\nf-ntifs-podeletepowerrequest.md">PoDeletePowerRequest</a> routine. The driver must delete the power request object before it deletes the device object that was used to create the power request object.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-podeletepowerrequest.md">PoDeletePowerRequest</a>
+<a href="..\ntifs\nf-ntifs-podeletepowerrequest.md">PoDeletePowerRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-posetpowerrequest.md">PoSetPowerRequest</a>
+<a href="..\ntifs\nf-ntifs-poclearpowerrequest.md">PoClearPowerRequest</a>
 
 
 
-<a href="..\wdm\nf-wdm-poclearpowerrequest.md">PoClearPowerRequest</a>
+<a href="..\ntifs\nf-ntifs-posetpowerrequest.md">PoSetPowerRequest</a>
 
 
 
@@ -155,5 +155,5 @@ When the power request object is no longer needed, the caller must delete the ob
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoCreatePowerRequest routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PoCreatePowerRequest routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

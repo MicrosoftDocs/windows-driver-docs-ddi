@@ -7,8 +7,8 @@ old-location: netvista\rilsendflashparams.htm
 old-project: netvista
 ms.assetid: e45b8f47-4e46-4265-9c56-055e753eb6e6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILSENDFLASHPARAMS, netvista.rilsendflashparams, *LPRILSENDFLASHPARAMS, RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSENDFLASHPARAMS, netvista.rilsendflashparams, RILSENDFLASHPARAMS, ntddrilapitypes/RILSENDFLASHPARAMS, RILSENDFLASHPARAMS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: ieee\cip_frame.htm
 old-project: IEEE
 ms.assetid: ac9efa58-fd38-43f2-85e6-577d58735847
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PCIP_FRAME, _CIP_FRAME, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, 61883/PCIP_FRAME, CIP_FRAME, 61883/CIP_FRAME, PCIP_FRAME, IEEE.cip_frame, PCIP_FRAME structure pointer [Buses], CIP_FRAME structure [Buses]"
+ms.date: 2/15/2018
+ms.keywords: IEEE.cip_frame, 61883_structures_1fd796fa-88d2-4dc4-a440-89bf50b81ae8.xml, PCIP_FRAME structure pointer [Buses], CIP_FRAME, *PCIP_FRAME, _CIP_FRAME, PCIP_FRAME, 61883/CIP_FRAME, CIP_FRAME structure [Buses], 61883/PCIP_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_FRAME
 product: Windows
 targetos: Windows
-req.typenames: CIP_FRAME, *PCIP_FRAME
+req.typenames: "*PCIP_FRAME, CIP_FRAME"
 ---
 
 # _CIP_FRAME structure
@@ -77,14 +77,6 @@ typedef struct _CIP_FRAME {
 ## -struct-fields
 
 
-
-
-### -field Reserved
-
-
-### -field pNext
-
-Reserved for internal use.
 
 
 ### -field Flags
@@ -232,6 +224,14 @@ Points to the beginning of a caller-allocated data buffer to be transmitted or r
 ### -field CompletedBytes
 
 
+#### - Reserved
+
+
+#### - pNext
+
+Reserved for internal use.
+
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536956">Av61883_CancelFrame</a>
@@ -246,5 +246,5 @@ Points to the beginning of a caller-allocated data buffer to be transmitted or r
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_FRAME structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_FRAME structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

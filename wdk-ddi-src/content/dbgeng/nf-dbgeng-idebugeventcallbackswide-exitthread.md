@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::ExitThread method
 author: windows-driver-content
 description: The ExitThread callback method is called by the engine when an exit-threaddebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exitthread.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 77933fa9-ff30-45cf-894d-83a425802e25
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.idebugeventcallbackswide_exitthread, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], ExitThread method, ExitThread method [Windows Debugging], IDebugEventCallbacksWide::ExitThread, dbgeng/IDebugEventCallbacksWide::ExitThread, ExitThread, ExitThread method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.date: 2/15/2018
+ms.keywords: IDebugEventCallbacksWide, ExitThread method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_exitthread, ExitThread method [Windows Debugging], IDebugEventCallbacksWide::ExitThread, IDebugEventCallbacksWide interface [Windows Debugging], ExitThread method, dbgeng/IDebugEventCallbacksWide::ExitThread, ExitThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.ExitThread
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ExitThread method

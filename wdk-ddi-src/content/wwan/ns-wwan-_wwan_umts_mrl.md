@@ -7,8 +7,8 @@ old-location: netvista\wwan_umts_mrl.htm
 old-project: netvista
 ms.assetid: B62F63EB-747A-4672-9A79-5065A8BC04D1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wwan_umts_mrl, WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], wwan/WWAN_UMTS_MRL, WWAN_UMTS_MRL, *PWWAN_UMTS_MRL, _WWAN_UMTS_MRL, wwan/PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], PWWAN_UMTS_MRL
+ms.date: 2/16/2018
+ms.keywords: netvista.wwan_umts_mrl, PWWAN_UMTS_MRL, _WWAN_UMTS_MRL, *PWWAN_UMTS_MRL, PWWAN_UMTS_MRL structure pointer [Network Drivers Starting with Windows Vista], WWAN_UMTS_MRL structure [Network Drivers Starting with Windows Vista], wwan/WWAN_UMTS_MRL, WWAN_UMTS_MRL, wwan/PWWAN_UMTS_MRL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_UMTS_MRL
 product: Windows
 targetos: Windows
-req.typenames: WWAN_UMTS_MRL, *PWWAN_UMTS_MRL
+req.typenames: "*PWWAN_UMTS_MRL, WWAN_UMTS_MRL"
 req.product: Windows 10 or later.
 ---
 
@@ -88,15 +88,7 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_umt
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
 
 
 
@@ -104,9 +96,17 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_umt
 
 
 
- 
+<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UMTS_MRL structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_UMTS_MRL structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

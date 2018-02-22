@@ -4,10 +4,10 @@ title: PUSB_BUSIFFN_GETUSBDI_VERSION
 author: windows-driver-content
 description: The GetUSBDIVersion routine returns the USB interface version number and the version number of the USB specification that defines the interface, along with information about host controller capabilities.
 old-location: buses\getusbdiversion.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 05a22049-5165-41a3-aa6f-134c5d1b6c15
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.getusbdiversion, GetUSBDIVersion, PUSB_BUSIFFN_GETUSBDI_VERSION, GetUSBDIVersion callback function [Buses], GetUSBDIVersion, USB_BUSIFFN_GETUSBDI_VERSION, USB_BUSIFFN_GETUSBDI_VERSION, usbbusif/GetUSBDIVersion, usbinterKR_48f5b2a5-9cd8-46c2-abf9-313469817541.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,7 +124,7 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_getusbdiversion.md">USBD_GetUSBDIVersion</a>
 
 
 
@@ -132,7 +132,7 @@ The function definition that is provided on this reference page is an example fu
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_getusbdiversion.md">USBD_GetUSBDIVersion</a>
+<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
 
 
 
@@ -140,5 +140,5 @@ The function definition that is provided on this reference page is an example fu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_BUSIFFN_GETUSBDI_VERSION callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_BUSIFFN_GETUSBDI_VERSION callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

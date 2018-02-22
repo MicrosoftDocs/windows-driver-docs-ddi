@@ -7,7 +7,7 @@ old-location: display\dxgkddisetpointerposition.htm
 old-project: display
 ms.assetid: b30e4f19-068c-4ab0-a2e9-b1f57592be1c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddisetpointerposition, DxgkDdiSetPointerPosition callback function [Display Devices], DxgkDdiSetPointerPosition, DXGKDDI_SETPOINTERPOSITION, DXGKDDI_SETPOINTERPOSITION, d3dkmddi/DxgkDdiSetPointerPosition, DmFunctions_1067a75d-aece-48c2-93c1-35465c57c07e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,11 +84,14 @@ NTSTATUS APIENTRY DxgkDdiSetPointerPosition(
 ## -returns
 
 
+
 <i>DxgkDdiSetPointerPosition</i> returns STATUS_SUCCESS if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
 
 
 
+
 ## -remarks
+
 
 
 The DirectX graphics kernel subsystem calls the display miniport driver's <i>DxgkDdiSetPointerPosition</i> function to set the location of the mouse pointer. The <i>DxgkDdiSetPointerPosition</i> function is called independently of all of the other display miniport driver functions. Therefore, a <i>DxgkDdiSetPointerPosition</i> thread can run simultaneously with another display miniport driver thread. However, the system ensures that <i>DxgkDdiSetPointerPosition</i> and <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a> threads cannot run simultaneously. 
@@ -101,17 +104,24 @@ If you run a <i>DxgkDdiSetPointerPosition</i> thread simultaneously with another
 
 
 
-## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a>
+## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_setpointerposition.md">DXGKARG_SETPOINTERPOSITION</a>
 
- 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_setpointershape.md">DxgkDdiSetPointerShape</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_SETPOINTERPOSITION callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_SETPOINTERPOSITION callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

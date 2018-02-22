@@ -7,13 +7,13 @@ old-location: pci\pci_express_uncorrectable_error_severity.htm
 old-project: PCI
 ms.assetid: de2a908a-a032-4b61-963e-e5028ccdba11
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_uncorrectable_error_severity, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY"
+ms.date: 2/15/2018
+ms.keywords: PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union [Buses], PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union pointer [Buses], pci_struct_49aec790-2c99-489c-b0ca-0653ebe5b52c.xml, _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI.pci_express_uncorrectable_error_severity, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, wdm/PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, wdm/PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Ntddk.h, Wdm.h
+req.include-header: Ntddk.h, Wdm.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY"
+req.typenames: PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY, *PPCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY
 req.product: Windows 10 or later.
 ---
 
@@ -90,109 +90,84 @@ typedef union _PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY {
  
 
 
-### -field DUMMYSTRUCTNAME.Undefined
+### -field AsULONG
+
+A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
+
+
+#### - Undefined
 
 A single bit that contains an undefined value. In versions of the <i>PCIe Specification</i> prior to version 1.1, this bit indicates that a reported link training error is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.Reserved1
+#### - Reserved1
 
 Reserved.
 
 
-### -field DUMMYSTRUCTNAME.DataLinkProtocolError
+#### - DataLinkProtocolError
 
 A single bit that indicates that a reported data link protocol error is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.SurpriseDownError
+#### - SurpriseDownError
 
 A single bit that indicates that a reported surprise down error is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.Reserved2
+#### - Reserved2
 
 Reserved.
 
 
-### -field DUMMYSTRUCTNAME.PoisonedTLP
+#### - PoisonedTLP
 
 A single bit that indicates that a reported poisoned transaction layer packet (TLP) is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.FlowControlProtocolError
+#### - FlowControlProtocolError
 
 A single bit that indicates that a reported flow control protocol error is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.CompletionTimeout
+#### - CompletionTimeout
 
 A single bit that indicates that a reported completion timeout is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.CompleterAbort
+#### - CompleterAbort
 
 A single bit that indicates that a reported completer abort is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.UnexpectedCompletion
+#### - UnexpectedCompletion
 
 A single bit that indicates that a reported unexpected completion is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.ReceiverOverflow
+#### - ReceiverOverflow
 
 A single bit that indicates that a reported receiver overflow is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.MalformedTLP
+#### - MalformedTLP
 
 A single bit that indicates that a reported malformed transaction layer packet (TLP) is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.ECRCError
+#### - ECRCError
 
 A single bit that indicates that a reported end-to-end cyclic redundancy check (ECRC) error is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.UnsupportedRequestError
+#### - UnsupportedRequestError
 
 A single bit that indicates that a reported unsupported request error is a fatal error.
 
 
-### -field DUMMYSTRUCTNAME.AcsViolation
-
- 
-
-
-### -field DUMMYSTRUCTNAME.UncorrectableInternalError
-
- 
-
-
-### -field DUMMYSTRUCTNAME.MCBlockedTlp
-
- 
-
-
-### -field DUMMYSTRUCTNAME.AtomicOpEgressBlocked
-
- 
-
-
-### -field DUMMYSTRUCTNAME.TlpPrefixBlocked
-
- 
-
-
-### -field DUMMYSTRUCTNAME.Reserved3
+#### - Reserved3
 
 Reserved.
-
-
-### -field AsULONG
-
-A ULONG representation of the contents of the PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure.
 
 
 ## -remarks
@@ -212,17 +187,17 @@ A PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY structure is contained in the <a href
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537458">PCI_EXPRESS_BRIDGE_AER_CAPABILITY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_UNCORRECTABLE_ERROR_SEVERITY union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

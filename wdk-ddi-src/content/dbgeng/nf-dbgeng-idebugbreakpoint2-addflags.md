@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::AddFlags method
 author: windows-driver-content
 description: The AddFlags method adds flags to a breakpoint.
 old-location: debugger\addflags.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 92161111-5e02-4a97-9656-9a297e9ea1af
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint interface [Windows Debugging], AddFlags method, dbgeng/IDebugBreakpoint::AddFlags, dbgeng/IDebugBreakpoint2::AddFlags, AddFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2::AddFlags, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, IDebugBreakpoint2, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint, IDebugBreakpoint::AddFlags, debugger.addflags, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, AddFlags method [Windows Debugging], AddFlags
+ms.date: 2/15/2018
+ms.keywords: AddFlags, IDebugBreakpoint interface [Windows Debugging], AddFlags method, AddFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2 interface [Windows Debugging], AddFlags method, ComOther_2becec27-600b-4d57-93b0-8a794ff2f068.xml, debugger.addflags, AddFlags method [Windows Debugging], IDebugBreakpoint2, dbgeng/IDebugBreakpoint2::AddFlags, IDebugBreakpoint2::AddFlags, IDebugBreakpoint, AddFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::AddFlags, IDebugBreakpoint::AddFlags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.AddFlags
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::AddFlags method

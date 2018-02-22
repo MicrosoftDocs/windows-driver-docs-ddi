@@ -7,8 +7,8 @@ old-location: print\drvsplclose.htm
 old-project: print
 ms.assetid: bd5f0bf2-ccb8-446c-b1e5-2e32538ebfbd
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.drvsplclose, print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, DrvSplClose function [Print Devices], DrvSplClose, winddiui/DrvSplClose
+ms.date: 2/21/2018
+ms.keywords: print_interface-graphics_e43f66ed-0e5e-4a27-ad52-0faebe549ac5.xml, print.drvsplclose, winddiui/DrvSplClose, DrvSplClose, DrvSplClose function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvSplClose
 product: Windows
 targetos: Windows
-req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
+req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
 req.product: Windows 10 or later.
 ---
 

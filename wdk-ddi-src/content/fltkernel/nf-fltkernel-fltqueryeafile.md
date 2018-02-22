@@ -7,8 +7,8 @@ old-location: ifsk\fltqueryeafile.htm
 old-project: ifsk
 ms.assetid: 3981ab65-2d21-4188-88dc-04eb7aff0869
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltQueryEaFile function [Installable File System Drivers], fltkernel/FltQueryEaFile, ifsk.fltqueryeafile, FltQueryEaFile, FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltqueryeafile, FltApiRef_p_to_z_cfb86d4e-84c0-4ab7-a813-094420e437cc.xml, fltkernel/FltQueryEaFile, FltQueryEaFile, FltQueryEaFile function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,7 +178,7 @@ The instance or volume is being torn down. This is an error code.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
+<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
 
 
 
@@ -186,7 +186,7 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="..\wdm\ns-wdm-_file_full_ea_information.md">FILE_FULL_EA_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltseteafile.md">FltSetEaFile</a>
 
 
 
@@ -198,5 +198,5 @@ The instance or volume is being torn down. This is an error code.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryEaFile function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryEaFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

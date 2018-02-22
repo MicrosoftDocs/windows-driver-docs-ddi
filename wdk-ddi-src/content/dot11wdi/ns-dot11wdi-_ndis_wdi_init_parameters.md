@@ -7,8 +7,8 @@ old-location: netvista\ndis_wdi_init_parameters.htm
 old-project: netvista
 ms.assetid: 871D266C-55DF-4113-9714-92AB129303E5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndis_wdi_init_parameters, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS, _NDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS, dot11wdi/PNDIS_WDI_INIT_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: "_NDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS, dot11wdi/NDIS_WDI_INIT_PARAMETERS, netvista.ndis_wdi_init_parameters, dot11wdi/PNDIS_WDI_INIT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WDI_INIT_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WDI_INIT_PARAMETERS, NDIS_WDI_INIT_PARAMETERS"
+req.typenames: NDIS_WDI_INIT_PARAMETERS, *PNDIS_WDI_INIT_PARAMETERS
 ---
 
 # _NDIS_WDI_INIT_PARAMETERS structure

@@ -7,8 +7,8 @@ old-location: print\oemfontinstallerdlgproc.htm
 old-project: print
 ms.assetid: 6007723b-c7db-42da-bc50-328e19f80448
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: printoem/OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], print.oemfontinstallerdlgproc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, OEMFontInstallerDlgProc
+ms.date: 2/21/2018
+ms.keywords: OEMFontInstallerDlgProc, OEMFontInstallerDlgProc function [Print Devices], printoem/OEMFontInstallerDlgProc, print_obsoletefunctions_63eb736f-a9cd-4caf-823e-87b927d09c7a.xml, print.oemfontinstallerdlgproc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

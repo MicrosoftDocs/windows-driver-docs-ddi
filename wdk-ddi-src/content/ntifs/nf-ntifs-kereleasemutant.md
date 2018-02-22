@@ -7,8 +7,8 @@ old-location: ifsk\kereleasemutant.htm
 old-project: ifsk
 ms.assetid: f5dc0f1b-3287-410d-97be-6d4f65466e65
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant, KeReleaseMutant, ntifs/KeReleaseMutant
+ms.date: 2/16/2018
+ms.keywords: keref_3bfd3822-4bbe-4d79-844e-afc6511d1bbb.xml, ntifs/KeReleaseMutant, KeReleaseMutant, KeReleaseMutant function [Installable File System Drivers], ifsk.kereleasemutant
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

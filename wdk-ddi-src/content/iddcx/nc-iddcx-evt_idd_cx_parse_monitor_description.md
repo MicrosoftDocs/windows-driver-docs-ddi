@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_parse_monitor_description.htm
 old-project: display
 ms.assetid: b195cd68-fedc-436d-8afd-5e33ccb96344
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.evt_idd_cx_parse_monitor_description, EvtIddCxParseMonitorDescription callback function [Display Devices], EvtIddCxParseMonitorDescription, EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION, EVT_IDD_CX_PARSE_MONITOR_DESCRIPTION, iddcx/EvtIddCxParseMonitorDescription, PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION callback function pointer [Display Devices], PFN_IDD_CX_PARSE_MONITOR_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices

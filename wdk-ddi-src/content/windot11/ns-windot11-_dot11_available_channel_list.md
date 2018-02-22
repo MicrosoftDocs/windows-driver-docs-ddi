@@ -7,8 +7,8 @@ old-location: netvista\dot11_available_channel_list.htm
 old-project: netvista
 ms.assetid: 11fee366-5853-4702-8179-d5b764174dce
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST, Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, windot11/DOT11_AVAILABLE_CHANNEL_LIST, _DOT11_AVAILABLE_CHANNEL_LIST, *PDOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], netvista.dot11_available_channel_list
+ms.date: 2/16/2018
+ms.keywords: netvista.dot11_available_channel_list, DOT11_AVAILABLE_CHANNEL_LIST structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_c36ff4d6-283a-484c-8d68-0109c6150f4f.xml, windot11/DOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_AVAILABLE_CHANNEL_LIST, _DOT11_AVAILABLE_CHANNEL_LIST, DOT11_AVAILABLE_CHANNEL_LIST, *PDOT11_AVAILABLE_CHANNEL_LIST, PDOT11_AVAILABLE_CHANNEL_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,5 +154,5 @@ This structure is used with
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AVAILABLE_CHANNEL_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AVAILABLE_CHANNEL_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

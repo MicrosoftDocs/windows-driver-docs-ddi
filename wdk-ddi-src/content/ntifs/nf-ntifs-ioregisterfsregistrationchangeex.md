@@ -7,8 +7,8 @@ old-location: ifsk\ioregisterfsregistrationchangeex.htm
 old-project: ifsk
 ms.assetid: e318e13b-8b6c-4593-93ce-17d2a1056ac2
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], IoRegisterFsRegistrationChangeEx, ifsk.ioregisterfsregistrationchangeex, ntifs/IoRegisterFsRegistrationChangeEx
+ms.date: 2/16/2018
+ms.keywords: IoRegisterFsRegistrationChangeEx, IoRegisterFsRegistrationChangeEx routine [Installable File System Drivers], ioref_330f3a93-4d81-4a6b-9733-521558d255a6.xml, ifsk.ioregisterfsregistrationchangeex, ntifs/IoRegisterFsRegistrationChangeEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,11 +142,11 @@ If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twi
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
 
 
 
@@ -162,5 +162,5 @@ If a file system filter driver calls <b>IoRegisterFsRegistrationChangeEx</b> twi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoRegisterFsRegistrationChangeEx routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoRegisterFsRegistrationChangeEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

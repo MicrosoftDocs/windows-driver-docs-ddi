@@ -7,8 +7,8 @@ old-location: netvista\wwan_register_mode.htm
 old-project: netvista
 ms.assetid: 608d041c-1034-49cf-b8da-cb3f7769ac55
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/PWWAN_REGISTER_MODE, _WWAN_REGISTER_MODE, wwan/WwanRegisterModeAutomatic, wwan/WwanRegisterModeMax, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterModeManual, wwan/WWAN_REGISTER_MODE, WwanRegisterModeAutomatic, WWAN_REGISTER_MODE, WwanRegisterModeUnknown, WwanRegisterModeManual, WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, WwanRegisterModeMax, netvista.wwan_register_mode, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_REGISTER_MODE, PWWAN_REGISTER_MODE, wwan/WwanRegisterModeUnknown
+ms.date: 2/16/2018
+ms.keywords: WwanRegisterModeManual, PWWAN_REGISTER_MODE, WwanRegisterModeMax, WWAN_REGISTER_MODE, wwan/PWWAN_REGISTER_MODE, wwan/WwanRegisterModeAutomatic, WwanRef_eac9611f-2097-43fc-96ea-ade56e77b7e7.xml, *PWWAN_REGISTER_MODE, _WWAN_REGISTER_MODE, wwan/WwanRegisterModeMax, netvista.wwan_register_mode, PWWAN_REGISTER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], WwanRegisterModeUnknown, WwanRegisterModeAutomatic, wwan/WWAN_REGISTER_MODE, WWAN_REGISTER_MODE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanRegisterModeUnknown, wwan/WwanRegisterModeManual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -113,5 +113,5 @@ The total number of supported registration modes.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTER_MODE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTER_MODE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndis_pm_wake_reason.htm
 old-project: netvista
 ms.assetid: 9caed664-6367-4eb0-9c9f-551f8a5938bc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_wake_reason, NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_PM_WAKE_REASON, _NDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON
+ms.date: 2/16/2018
+ms.keywords: PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON structure [Network Drivers Starting with Windows Vista], _NDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON, PNDIS_PM_WAKE_REASON structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_pm_wake_reason, *PNDIS_PM_WAKE_REASON, ntddndis/PNDIS_PM_WAKE_REASON, ntddndis/NDIS_PM_WAKE_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WAKE_REASON
 product: Windows
 targetos: Windows
-req.typenames: NDIS_PM_WAKE_REASON, *PNDIS_PM_WAKE_REASON
+req.typenames: "*PNDIS_PM_WAKE_REASON, NDIS_PM_WAKE_REASON"
 ---
 
 # _NDIS_PM_WAKE_REASON structure
@@ -132,11 +132,11 @@ For more information about how to issue an <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wake_reason_type.md">NDIS_PM_WAKE_REASON_TYPE</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_pm_wake_reason_type.md">NDIS_PM_WAKE_REASON_TYPE</a>
 
 
 
@@ -148,5 +148,5 @@ For more information about how to issue an <a href="https://msdn.microsoft.com/l
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WAKE_REASON structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WAKE_REASON structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

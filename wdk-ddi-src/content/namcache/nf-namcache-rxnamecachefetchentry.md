@@ -7,8 +7,8 @@ old-location: ifsk\rxnamecachefetchentry.htm
 old-project: ifsk
 ms.assetid: 1f4c50a8-2eee-46c6-8ca0-f5858d227922
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxref_8e34b551-b8ee-44e9-a0ff-bbc680e44ad6.xml, RxNameCacheFetchEntry function [Installable File System Drivers], namcache/RxNameCacheFetchEntry, RxNameCacheFetchEntry, ifsk.rxnamecachefetchentry
+ms.date: 2/16/2018
+ms.keywords: ifsk.rxnamecachefetchentry, RxNameCacheFetchEntry, RxNameCacheFetchEntry function [Installable File System Drivers], namcache/RxNameCacheFetchEntry, rxref_8e34b551-b8ee-44e9-a0ff-bbc680e44ad6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxNameCacheFetchEntry
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # RxNameCacheFetchEntry function
@@ -104,11 +104,19 @@ As a aside effect as the name cache active list is scanned, any non-matching ent
 
 ## -see-also
 
+<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
+
+
+
 <a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
 
 
 
@@ -120,11 +128,7 @@ As a aside effect as the name cache active list is scanned, any non-matching ent
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
+<a href="..\namcache\nf-namcache-rxnamecacheactivateentry.md">RxNameCacheActivateEntry</a>
 
 
 
@@ -132,13 +136,9 @@ As a aside effect as the name cache active list is scanned, any non-matching ent
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachecreateentry.md">RxNameCacheCreateEntry</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxNameCacheFetchEntry function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxNameCacheFetchEntry function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

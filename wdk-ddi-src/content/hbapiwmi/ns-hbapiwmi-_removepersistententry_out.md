@@ -7,8 +7,8 @@ old-location: storage\removepersistententry_out.htm
 old-project: storage
 ms.assetid: 2fa578f7-5892-4ec1-a01f-49c828bd6913
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbapiwmi/RemovePersistentEntry_OUT, structs-Fibre_8a84bc15-be90-4a74-a551-c3cf43d4f5ef.xml, *PRemovePersistentEntry_OUT, hbapiwmi/PRemovePersistentEntry_OUT, _RemovePersistentEntry_OUT, PRemovePersistentEntry_OUT structure pointer [Storage Devices], RemovePersistentEntry_OUT structure [Storage Devices], RemovePersistentEntry_OUT, PRemovePersistentEntry_OUT, storage.removepersistententry_out
+ms.date: 2/16/2018
+ms.keywords: "*PRemovePersistentEntry_OUT, structs-Fibre_8a84bc15-be90-4a74-a551-c3cf43d4f5ef.xml, storage.removepersistententry_out, PRemovePersistentEntry_OUT, RemovePersistentEntry_OUT structure [Storage Devices], hbapiwmi/RemovePersistentEntry_OUT, hbapiwmi/PRemovePersistentEntry_OUT, RemovePersistentEntry_OUT, PRemovePersistentEntry_OUT structure pointer [Storage Devices], _RemovePersistentEntry_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,5 +91,5 @@ The WMI tool suite generates a declaration of the RemovePersistentEntry_OUT stru
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemovePersistentEntry_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RemovePersistentEntry_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

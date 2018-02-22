@@ -7,8 +7,8 @@ old-location: ieee\cip_data_format_ver3.htm
 old-project: IEEE
 ms.assetid: A7EDC949-A2C6-43E9-9CA0-886FEE5282F5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 61883/PCIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], _CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3 structure [Buses], *PCIP_DATA_FORMAT, PCIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT, *PCIP_DATA_FORMAT_VER3, 61883/CIP_DATA_FORMAT_VER3, IEEE.cip_data_format_ver3
+ms.date: 2/15/2018
+ms.keywords: CIP_DATA_FORMAT_VER3 structure [Buses], 61883/PCIP_DATA_FORMAT_VER3, PCIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT, 61883/CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT, IEEE.cip_data_format_ver3, PCIP_DATA_FORMAT_VER3 structure pointer [Buses], _CIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CIP_DATA_FORMAT_VER3
 product: Windows
 targetos: Windows
-req.typenames: CIP_DATA_FORMAT_VER3, *PCIP_DATA_FORMAT_VER3
+req.typenames: "*PCIP_DATA_FORMAT_VER3, CIP_DATA_FORMAT_VER3"
 ---
 
 # _CIP_DATA_FORMAT_VER3 structure
@@ -142,5 +142,5 @@ This member is the number of blocks per packet; used for blocking mode only
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_DATA_FORMAT_VER3 structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CIP_DATA_FORMAT_VER3 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

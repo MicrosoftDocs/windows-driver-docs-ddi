@@ -7,8 +7,8 @@ old-location: stream\kspingetconnectedpininterface.htm
 old-project: stream
 ms.assetid: 594614ee-0d30-4574-81ad-a523e7fadc2c
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface, avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml, stream.kspingetconnectedpininterface, KsPinGetConnectedPinInterface function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: stream.kspingetconnectedpininterface, KsPinGetConnectedPinInterface, avfunc_57b89966-efc8-4b5a-96c1-da5aeb58e2d3.xml, ks/KsPinGetConnectedPinInterface, KsPinGetConnectedPinInterface function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,7 +125,11 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
+<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
+
+
+
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
 
 
 
@@ -137,7 +141,7 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 
 
-<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
 
 
 
@@ -145,11 +149,7 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
 
 
-<a href="..\ks\nf-ks-kspingetconnectedfilterinterface.md">KsPinGetConnectedFilterInterface</a>
-
-
-
-<a href="..\ks\nn-ks-iksreferenceclock.md">IKsReferenceClock</a>
+<a href="..\ks\nf-ks-kspingetreferenceclockinterface.md">KsPinGetReferenceClockInterface</a>
 
 
 
@@ -157,5 +157,5 @@ Otherwise, STATUS_UNSUCCESSFUL is returned.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetConnectedPinInterface function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetConnectedPinInterface function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

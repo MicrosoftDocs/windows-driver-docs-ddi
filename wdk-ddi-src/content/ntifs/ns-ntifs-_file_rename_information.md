@@ -7,8 +7,8 @@ old-location: ifsk\file_rename_information.htm
 old-project: ifsk
 ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "*PFILE_RENAME_INFORMATION, ifsk.file_rename_information, ntifs/PFILE_RENAME_INFORMATION, _FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, ntifs/FILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], FILE_RENAME_INFORMATION"
+ms.date: 2/16/2018
+ms.keywords: ntifs/PFILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, PFILE_RENAME_INFORMATION, _FILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], *PFILE_RENAME_INFORMATION, ifsk.file_rename_information, ntifs/FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], FILE_RENAME_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_RENAME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION"
+req.typenames: FILE_RENAME_INFORMATION, *PFILE_RENAME_INFORMATION
 ---
 
 # _FILE_RENAME_INFORMATION structure
@@ -71,16 +71,6 @@ typedef struct _FILE_RENAME_INFORMATION {
 
 
 ### -field DUMMYUNIONNAME
-
- 
-
-
-### -field DUMMYUNIONNAME.ReplaceIfExists
-
-Set to <b>TRUE</b> to specify that if a file with the given name already exists, it should be replaced with the given file. Set to <b>FALSE</b> if the rename operation should fail if a file with the given name already exists. 
-
-
-### -field DUMMYUNIONNAME.Flags
 
  
 
@@ -220,6 +210,10 @@ The size of the <i>FileInformation</i> buffer passed to <a href="..\wdm\nf-wdm-z
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
@@ -228,13 +222,9 @@ The size of the <i>FileInformation</i> buffer passed to <a href="..\wdm\nf-wdm-z
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549366">IRP_MJ_SET_INFORMATION</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_RENAME_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_RENAME_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilsmsmsginflags_2.htm
 old-project: netvista
 ms.assetid: 83842f98-6ec5-443a-ad48-492a487a6dae
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_SMSMSGIN_IMS, rilapitypes/RIL_SMSMSGIN_IMS, RIL_SMSMSGIN_ALL, rilapitypes/RIL_SMSMSGIN_ALL, rilapitypes/RILSMSMSGINFLAGS, netvista.rilsmsmsginflags_2, RILSMSMSGINFLAGS
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILSMSMSGINFLAGS, rilapitypes/RIL_SMSMSGIN_ALL, RIL_SMSMSGIN_ALL, RILSMSMSGINFLAGS enumeration [Network Drivers Starting with Windows Vista], RIL_SMSMSGIN_IMS, RILSMSMSGINFLAGS, netvista.rilsmsmsginflags_2, rilapitypes/RIL_SMSMSGIN_IMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

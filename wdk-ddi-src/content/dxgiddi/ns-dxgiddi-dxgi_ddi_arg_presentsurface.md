@@ -7,8 +7,8 @@ old-location: display\dxgi_ddi_arg_presentsurface.htm
 old-project: display
 ms.assetid: 1A1E2644-7411-4D69-8D45-B19D707221AB
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices], DXGI_DDI_ARG_PRESENTSURFACE, display.dxgi_ddi_arg_presentsurface
+ms.date: 2/20/2018
+ms.keywords: dxgiddi/DXGI_DDI_ARG_PRESENTSURFACE, DXGI_DDI_ARG_PRESENTSURFACE, display.dxgi_ddi_arg_presentsurface, DXGI_DDI_ARG_PRESENTSURFACE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

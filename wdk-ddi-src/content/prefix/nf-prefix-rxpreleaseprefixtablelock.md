@@ -7,8 +7,8 @@ old-location: ifsk\rxpreleaseprefixtablelock.htm
 old-project: ifsk
 ms.assetid: 57aef4ed-2ece-4af3-b1ca-e4fe5a306f82
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RxpReleasePrefixTableLock function [Installable File System Drivers], RxpReleasePrefixTableLock, rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml, ifsk.rxpreleaseprefixtablelock, prefix/RxpReleasePrefixTableLock
+ms.date: 2/16/2018
+ms.keywords: RxpReleasePrefixTableLock function [Installable File System Drivers], rxref_34f5b33a-efeb-42a0-8e57-6c32c262319a.xml, prefix/RxpReleasePrefixTableLock, ifsk.rxpreleaseprefixtablelock, RxpReleasePrefixTableLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxpReleasePrefixTableLock
 product: Windows
 targetos: Windows
-req.typenames: "*PSHIMOPTS, SHIMOPTS"
+req.typenames: SHIMOPTS, *PSHIMOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -112,15 +112,19 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 ## -see-also
 
-<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
+<a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a>
-
-
-
-<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 
@@ -132,11 +136,7 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545908">FsRtlExitFileSystem</a>
-
-
-
-<a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>
+<a href="..\prefix\nf-prefix-rxpacquireprefixtablelockshared.md">RxpAcquirePrefixTableLockShared</a>
 
 
 
@@ -144,5 +144,5 @@ Normal kernel APC delivery should be disabled before calling the <b>RxpAcquirePr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxpReleasePrefixTableLock function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxpReleasePrefixTableLock function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

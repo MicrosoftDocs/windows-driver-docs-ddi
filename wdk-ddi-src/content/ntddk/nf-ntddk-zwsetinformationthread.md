@@ -7,13 +7,13 @@ old-location: kernel\zwsetinformationthread.htm
 old-project: kernel
 ms.assetid: ec67c643-bc91-4784-b5f4-09a20e8406c3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/NtSetInformationThread, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], MEMORY_PRIORITY_BELOW_NORMAL, MEMORY_PRIORITY_MEDIUM, MEMORY_PRIORITY_NORMAL, kernel.zwsetinformationthread, ZwSetInformationThread, k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, MEMORY_PRIORITY_VERY_LOW, NtSetInformationThread, ntddk/ZwSetInformationThread, MEMORY_PRIORITY_LOW
+ms.date: 2/16/2018
+ms.keywords: k111_6d6657b3-b0f9-4c47-9bb5-d5c692161c53.xml, ZwSetInformationThread routine [Kernel-Mode Driver Architecture], MEMORY_PRIORITY_VERY_LOW, MEMORY_PRIORITY_NORMAL, MEMORY_PRIORITY_MEDIUM, ntddk/NtSetInformationThread, MEMORY_PRIORITY_LOW, ntddk/ZwSetInformationThread, MEMORY_PRIORITY_BELOW_NORMAL, kernel.zwsetinformationthread, ZwSetInformationThread, NtSetInformationThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: ntddk.h
-req.include-header: Ntddk.h
+req.include-header: Ntddk.h, Ntifs.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 
@@ -196,11 +196,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 
 
@@ -216,5 +216,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetInformationThread routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetInformationThread routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

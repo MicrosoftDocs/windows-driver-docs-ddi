@@ -7,7 +7,7 @@ old-location: parports\pterminate_ieee_mode.htm
 old-project: parports
 ms.assetid: 35c4f348-aeaa-4e6e-8cc5-62d78beaa434
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: parports.pterminate_ieee_mode, PTERMINATE_IEEE_MODE function pointer [Parallel Ports], PTERMINATE_IEEE_MODE, parallel/PTERMINATE_IEEE_MODE, cisspd_97e0ba9c-746e-4f7a-8d52-a321d6a18a4b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -113,15 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 ## -see-also
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
-
-
-
 <a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
-
-
-
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
 
 
@@ -129,11 +121,19 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 
 
-<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_get_mode.md">IOCTL_IEEE1284_GET_MODE</a>
+
+
+
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
 
 
 
@@ -145,5 +145,5 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PTERMINATE_IEEE_MODE function pointer%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PTERMINATE_IEEE_MODE function pointer%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

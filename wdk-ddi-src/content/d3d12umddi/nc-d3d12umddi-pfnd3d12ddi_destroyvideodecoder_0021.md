@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_destroyvideodecoder_.htm
 old-project: display
 ms.assetid: 97028FEB-A3C2-4C2F-B64E-07024BC3C382
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_destroyvideodecoder_, PFND3D12DDI_DESTROYVIDEODECODER_0021 callback function [Display Devices], PFND3D12DDI_DESTROYVIDEODECODER_0021, d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODER_0021
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -71,8 +71,9 @@ VOID APIENTRY PFND3D12DDI_DESTROYVIDEODECODER_0021(
 ### -param hDrvDevice
 
 
-
 ### -param hDrvVideoDecoder
+
+
 
 
 
@@ -92,6 +93,8 @@ Holds the HVideoDecoder
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

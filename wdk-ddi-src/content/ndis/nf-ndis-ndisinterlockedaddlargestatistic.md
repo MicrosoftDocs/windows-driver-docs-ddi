@@ -7,8 +7,8 @@ old-location: netvista\ndisinterlockedaddlargestatistic.htm
 old-project: netvista
 ms.assetid: 7bc753b1-5e09-431b-b226-fb7194dd6947
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisInterlockedAddLargeStatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis/NdisInterlockedAddLargeStatistic, netvista.ndisinterlockedaddlargestatistic, ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml
+ms.date: 2/16/2018
+ms.keywords: NdisInterlockedAddLargeStatistic, ndis/NdisInterlockedAddLargeStatistic, netvista.ndisinterlockedaddlargestatistic, NdisInterlockedAddLargeStatistic macro [Network Drivers Starting with Windows Vista], ndis_interlocked_ref_f1b7622e-acc8-45d7-b85e-c39058b595fe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -106,5 +106,5 @@ Functions that perform interlocked operations must not cause a page fault to occ
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedAddLargeStatistic macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInterlockedAddLargeStatistic macro%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

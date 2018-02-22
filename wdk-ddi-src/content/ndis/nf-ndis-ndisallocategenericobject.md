@@ -7,8 +7,8 @@ old-location: netvista\ndisallocategenericobject.htm
 old-project: netvista
 ms.assetid: 166584fb-8a81-4a5b-93c9-3ad5348e15a7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisAllocateGenericObject, ndis_object_ref_bb08930d-d264-4580-be64-a48061ab8ad4.xml, NdisAllocateGenericObject, netvista.ndisallocategenericobject, NdisAllocateGenericObject function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisAllocateGenericObject function [Network Drivers Starting with Windows Vista], ndis_object_ref_bb08930d-d264-4580-be64-a48061ab8ad4.xml, ndis/NdisAllocateGenericObject, NdisAllocateGenericObject, netvista.ndisallocategenericobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,17 +117,17 @@ NDIS drivers must call the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_generic_object.md">NDIS_GENERIC_OBJECT</a>
 
 
 
- 
+<a href="..\ndis\nf-ndis-ndisfreegenericobject.md">NdisFreeGenericObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateGenericObject function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateGenericObject function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

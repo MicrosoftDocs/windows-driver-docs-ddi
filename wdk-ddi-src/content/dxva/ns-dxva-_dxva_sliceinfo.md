@@ -7,8 +7,8 @@ old-location: display\dxva_sliceinfo.htm
 old-project: display
 ms.assetid: fd1d0cf5-2ee2-44d8-945f-492af57c3990
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: LPDXVA_SliceInfo, DXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], DXVA_SliceInfo structure [Display Devices], display.dxva_sliceinfo, dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml, dxva/DXVA_SliceInfo, _DXVA_SliceInfo, *LPDXVA_SliceInfo, dxva/LPDXVA_SliceInfo
+ms.date: 2/20/2018
+ms.keywords: dxva/DXVA_SliceInfo, LPDXVA_SliceInfo, DXVA_SliceInfo structure [Display Devices], *LPDXVA_SliceInfo, DXVA_SliceInfo, LPDXVA_SliceInfo structure pointer [Display Devices], display.dxva_sliceinfo, _DXVA_SliceInfo, dxva/LPDXVA_SliceInfo, dxvaref_04736e26-0c58-4e92-9f45-1675565c9f55.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_SliceInfo
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_SliceInfo, DXVA_SliceInfo"
+req.typenames: DXVA_SliceInfo, *LPDXVA_SliceInfo
 ---
 
 # _DXVA_SliceInfo structure
@@ -187,5 +187,5 @@ In H.261 bitstreams, a GOB is considered a slice. In H.263 bitstreams, a sequenc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_SliceInfo structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_SliceInfo structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

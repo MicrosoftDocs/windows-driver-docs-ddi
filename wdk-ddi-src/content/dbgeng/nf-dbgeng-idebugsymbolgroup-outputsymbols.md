@@ -4,11 +4,11 @@ title: IDebugSymbolGroup::OutputSymbols method
 author: windows-driver-content
 description: The OutputSymbols method prints the specified symbols to the debugger console.
 old-location: debugger\outputsymbols.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1fe99cc4-35d9-432a-aed9-074d40438976
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: OutputSymbols method [Windows Debugging], IDebugSymbolGroup2::OutputSymbols, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup, IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, debugger.outputsymbols, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method, dbgeng/IDebugSymbolGroup::OutputSymbols, IDebugSymbolGroup::OutputSymbols, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, OutputSymbols
+ms.date: 2/15/2018
+ms.keywords: debugger.outputsymbols, IDebugSymbolGroup2::OutputSymbols, OutputSymbols method [Windows Debugging], IDebugSymbolGroup::OutputSymbols, dbgeng/IDebugSymbolGroup2::OutputSymbols, IDebugSymbolGroup interface [Windows Debugging], OutputSymbols method, dbgeng/IDebugSymbolGroup::OutputSymbols, OutputSymbols, OutputSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup, OutputSymbols method [Windows Debugging], IDebugSymbolGroup interface, ComOther_47d8529f-4fdf-4a79-ae80-61e483c897f2.xml, IDebugSymbolGroup2 interface [Windows Debugging], OutputSymbols method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.OutputSymbols
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup::OutputSymbols method
@@ -182,10 +182,6 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
@@ -194,9 +190,13 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup.md">IDebugSymbolGroup</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup::OutputSymbols method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup::OutputSymbols method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

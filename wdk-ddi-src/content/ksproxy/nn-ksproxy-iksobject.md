@@ -7,7 +7,7 @@ old-location: stream\iksobject.htm
 old-project: stream
 ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.iksobject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices], described, IKsObject, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

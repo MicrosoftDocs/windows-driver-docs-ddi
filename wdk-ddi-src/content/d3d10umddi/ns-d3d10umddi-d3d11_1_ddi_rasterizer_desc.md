@@ -7,8 +7,8 @@ old-location: display\d3d11_1_ddi_rasterizer_desc.htm
 old-project: display
 ms.assetid: a78655b3-3ca3-4632-9ac4-3efae6b10a0c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3d11_1_ddi_rasterizer_desc, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices], D3D11_1_DDI_RASTERIZER_DESC, d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC
+ms.date: 2/20/2018
+ms.keywords: display.d3d11_1_ddi_rasterizer_desc, d3d10umddi/D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC, D3D11_1_DDI_RASTERIZER_DESC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

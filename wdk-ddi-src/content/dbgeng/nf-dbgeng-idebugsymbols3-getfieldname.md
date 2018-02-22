@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetFieldName method
 author: windows-driver-content
 description: The GetFieldName method returns the name of a field within a structure.
 old-location: debugger\getfieldname.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 3fb9abdd-f2c0-41b4-8df9-2f7f5065f90c
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetFieldName method, GetFieldName, IDebugSymbols2 interface [Windows Debugging], GetFieldName method, debugger.getfieldname, dbgeng/IDebugSymbols2::GetFieldName, GetFieldName method [Windows Debugging], IDebugSymbols3 interface, GetFieldName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetFieldName, dbgeng/IDebugSymbols3::GetFieldName, IDebugSymbols2::GetFieldName, IDebugSymbols2, GetFieldName method [Windows Debugging], IDebugSymbols3, IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols_9956ec9a-7914-46e4-9cec-49a22a0d184f.xml, IDebugSymbols3::GetFieldName, dbgeng/IDebugSymbols3::GetFieldName, GetFieldName method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetFieldName method, dbgeng/IDebugSymbols2::GetFieldName, GetFieldName, IDebugSymbols2::GetFieldName, GetFieldName method [Windows Debugging], IDebugSymbols3 interface, debugger.getfieldname, IDebugSymbols3, GetFieldName method [Windows Debugging], IDebugSymbols2, IDebugSymbols2 interface [Windows Debugging], GetFieldName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbols3.GetFieldName
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetFieldName method

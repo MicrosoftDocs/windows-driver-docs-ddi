@@ -7,8 +7,8 @@ old-location: print\ixpspartiterator_current.htm
 old-project: print
 ms.assetid: ccc8125a-c571-4267-860a-11fc313e395c
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: Current, print.ixpspartiterator_current, filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, filterpipeline/IXpsPartIterator::Current, IXpsPartIterator interface [Print Devices], Current method, Current method [Print Devices], IXpsPartIterator interface, IXpsPartIterator::Current, IXpsPartIterator, Current method [Print Devices]
+ms.date: 2/21/2018
+ms.keywords: filterpipeline_72cbd5d6-003c-410b-a943-bfd6552df8ee.xml, IXpsPartIterator::Current, Current, Current method [Print Devices], IXpsPartIterator interface, IXpsPartIterator interface [Print Devices], Current method, print.ixpspartiterator_current, filterpipeline/IXpsPartIterator::Current, IXpsPartIterator, Current method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

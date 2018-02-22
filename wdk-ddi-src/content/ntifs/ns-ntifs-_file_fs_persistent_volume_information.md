@@ -7,8 +7,8 @@ old-location: ifsk\file_fs_persistent_volume_information.htm
 old-project: ifsk
 ms.assetid: f1c7785e-e135-4060-8cf7-5c985b37ff83
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FILE_FS_PERSISTENT_VOLUME_INFORMATION, ntifs/PFILE_FS_PERSISTENT_VOLUME_INFORMATION, ntifs/FILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_GLOBAL_METADATA_NO_SEEK_PENALTY, PFILE_FS_PERSISTENT_VOLUME_INFORMATION structure pointer [Installable File System Drivers], FILE_FS_PERSISTENT_VOLUME_INFORMATION structure [Installable File System Drivers], PERSISTENT_VOLUME_STATE_VOLUME_SCRUB_DISABLED, PERSISTENT_VOLUME_STATE_CONTAINS_BACKING_WIM, PERSISTENT_VOLUME_STATE_BACKED_BY_WIM, PERSISTENT_VOLUME_STATE_LOCAL_METADATA_NO_SEEK_PENALTY, PERSISTENT_VOLUME_STATE_SHORT_NAME_CREATION_DISABLED, _FILE_FS_PERSISTENT_VOLUME_INFORMATION, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_NO_HEAT_GATHERING, fileinformationstructures_81dcbc8f-6b7e-455e-b1b2-b99e6fd4084d.xml, ifsk.file_fs_persistent_volume_information
+ms.date: 2/16/2018
+ms.keywords: ntifs/PFILE_FS_PERSISTENT_VOLUME_INFORMATION, fileinformationstructures_81dcbc8f-6b7e-455e-b1b2-b99e6fd4084d.xml, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_BACKED_BY_WIM, PERSISTENT_VOLUME_STATE_NO_HEAT_GATHERING, PFILE_FS_PERSISTENT_VOLUME_INFORMATION structure pointer [Installable File System Drivers], PFILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_GLOBAL_METADATA_NO_SEEK_PENALTY, PERSISTENT_VOLUME_STATE_LOCAL_METADATA_NO_SEEK_PENALTY, PERSISTENT_VOLUME_STATE_SHORT_NAME_CREATION_DISABLED, PERSISTENT_VOLUME_STATE_CONTAINS_BACKING_WIM, FILE_FS_PERSISTENT_VOLUME_INFORMATION, FILE_FS_PERSISTENT_VOLUME_INFORMATION structure [Installable File System Drivers], ifsk.file_fs_persistent_volume_information, _FILE_FS_PERSISTENT_VOLUME_INFORMATION, ntifs/FILE_FS_PERSISTENT_VOLUME_INFORMATION, PERSISTENT_VOLUME_STATE_VOLUME_SCRUB_DISABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FS_PERSISTENT_VOLUME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_FS_PERSISTENT_VOLUME_INFORMATION, FILE_FS_PERSISTENT_VOLUME_INFORMATION"
+req.typenames: FILE_FS_PERSISTENT_VOLUME_INFORMATION, *PFILE_FS_PERSISTENT_VOLUME_INFORMATION
 ---
 
 # _FILE_FS_PERSISTENT_VOLUME_INFORMATION structure
@@ -234,17 +234,17 @@ The <b>Version</b> member must be set to the current version of 1 for both a que
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545496">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545564">FSCTL_SET_PERSISTENT_VOLUME_STATE</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545496">FSCTL_QUERY_PERSISTENT_VOLUME_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_FS_PERSISTENT_VOLUME_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_FS_PERSISTENT_VOLUME_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

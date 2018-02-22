@@ -7,8 +7,8 @@ old-location: netvista\ril_getradiostatedetails.htm
 old-project: netvista
 ms.assetid: 0421fef7-5c59-4824-83a5-38020b933883
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_getradiostatedetails, RIL_GetRadioStateDetails method [Network Drivers Starting with Windows Vista], RIL_GetRadioStateDetails, rilapi/RIL_GetRadioStateDetails
+ms.date: 2/16/2018
+ms.keywords: RIL_GetRadioStateDetails method [Network Drivers Starting with Windows Vista], RIL_GetRadioStateDetails, rilapi/RIL_GetRadioStateDetails, netvista.ril_getradiostatedetails
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetRadioStateDetails
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

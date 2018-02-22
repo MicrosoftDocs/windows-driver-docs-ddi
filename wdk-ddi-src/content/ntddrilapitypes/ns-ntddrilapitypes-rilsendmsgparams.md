@@ -7,8 +7,8 @@ old-location: netvista\rilsendmsgparams.htm
 old-project: netvista
 ms.assetid: de1049a8-e089-4d15-baca-2c760f895894
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilsendmsgparams, ntddrilapitypes/RILSENDMSGPARAMS, RILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSENDMSGPARAMS
+ms.date: 2/16/2018
+ms.keywords: RILSENDMSGPARAMS, netvista.rilsendmsgparams, *LPRILSENDMSGPARAMS, ntddrilapitypes/RILSENDMSGPARAMS, RILSENDMSGPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSENDMSGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSENDMSGPARAMS, RILSENDMSGPARAMS"
+req.typenames: RILSENDMSGPARAMS, *LPRILSENDMSGPARAMS
 ---
 
 # RILSENDMSGPARAMS structure

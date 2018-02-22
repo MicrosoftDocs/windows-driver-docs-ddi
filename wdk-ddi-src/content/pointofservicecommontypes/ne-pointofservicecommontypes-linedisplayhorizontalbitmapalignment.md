@@ -7,8 +7,8 @@ old-location: pos\linedisplayhorizontalbitmapalignment.htm
 old-project: pos
 ms.assetid: 7C5981A5-6156-459E-8405-B178E2D3B487
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicecommontypes/, LineDisplayHorizontalBitmapAlignment enumeration, pos.linedisplayhorizontalbitmapalignment, pointofservicecommontypes/LineDisplayHorizontalBitmapAlignment, LineDisplayHorizontalBitmapAlignment
+ms.date: 2/19/2018
+ms.keywords: pointofservicecommontypes/LineDisplayHorizontalBitmapAlignment, LineDisplayHorizontalBitmapAlignment, LineDisplayHorizontalBitmapAlignment enumeration, pos.linedisplayhorizontalbitmapalignment, pointofservicecommontypes/
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

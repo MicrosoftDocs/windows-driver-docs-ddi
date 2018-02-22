@@ -7,8 +7,8 @@ old-location: powermeter\pmi_threshold_configuration.htm
 old-project: powermeter
 ms.assetid: f2a76389-575d-425b-afe6-27fb93e101eb
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION, _PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], powermeter.pmi_threshold_configuration, pmi/PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION, PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, pmi/PMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices]
+ms.date: 2/15/2018
+ms.keywords: pmi/PMI_THRESHOLD_CONFIGURATION, PowerMeterRef_0c5ec9e4-4a74-4fcc-b134-e66cd14f0352.xml, *PPMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION structure pointer [Power Metering and Budgeting Devices], PMI_THRESHOLD_CONFIGURATION structure [Power Metering and Budgeting Devices], powermeter.pmi_threshold_configuration, pmi/PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION, _PMI_THRESHOLD_CONFIGURATION, PPMI_THRESHOLD_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PMI_THRESHOLD_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION"
+req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---
 
 # _PMI_THRESHOLD_CONFIGURATION structure
@@ -109,5 +109,5 @@ Power levels that are monitored by the power meter drop below the <b>UpperThresh
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_THRESHOLD_CONFIGURATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_THRESHOLD_CONFIGURATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

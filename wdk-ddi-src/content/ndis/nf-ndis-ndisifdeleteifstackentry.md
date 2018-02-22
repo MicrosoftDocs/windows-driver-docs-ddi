@@ -7,8 +7,8 @@ old-location: netvista\ndisifdeleteifstackentry.htm
 old-project: netvista
 ms.assetid: 02b4a485-d44b-458c-89f5-1807500b6db8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndisifdeleteifstackentry, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], NdisIfDeleteIfStackEntry, net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, ndis/NdisIfDeleteIfStackEntry
+ms.date: 2/16/2018
+ms.keywords: net_if_functions_ref_dc4a2189-1dc6-43c5-8cef-baf5907d3d60.xml, NdisIfDeleteIfStackEntry function [Network Drivers Starting with Windows Vista], ndis/NdisIfDeleteIfStackEntry, netvista.ndisifdeleteifstackentry, NdisIfDeleteIfStackEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,5 +118,5 @@ NDIS maintains an interface stack table (<i>ifStackTable</i> from
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfDeleteIfStackEntry function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisIfDeleteIfStackEntry function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

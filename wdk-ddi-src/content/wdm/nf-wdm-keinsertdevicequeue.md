@@ -7,8 +7,8 @@ old-location: kernel\keinsertdevicequeue.htm
 old-project: kernel
 ms.assetid: d0e634e0-f0b4-49a7-9df5-7af0842154f4
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml, wdm/KeInsertDeviceQueue, kernel.keinsertdevicequeue, KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], KeInsertDeviceQueue
+ms.date: 2/16/2018
+ms.keywords: kernel.keinsertdevicequeue, KeInsertDeviceQueue, KeInsertDeviceQueue routine [Kernel-Mode Driver Architecture], wdm/KeInsertDeviceQueue, k105_a527fbb6-bb60-4051-9983-e960d9406abe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,15 +103,15 @@ This routine is for code that queues an I/O request to a device driver.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinsertbykeydevicequeue.md">KeInsertByKeyDeviceQueue</a>
 
 
 
 <a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+
+
+
+<a href="..\wdm\nf-wdm-keremoveentrydevicequeue.md">KeRemoveEntryDeviceQueue</a>
 
 
 
@@ -123,5 +123,5 @@ This routine is for code that queues an I/O request to a device driver.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeInsertDeviceQueue routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeInsertDeviceQueue routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndiswriteeventlogentry.htm
 old-project: netvista
 ms.assetid: 1f3fbcf1-e6f4-4117-a795-f4b14ef9fc96
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisWriteEventLogEntry, NdisWriteEventLogEntry function [Network Drivers Starting with Windows Vista], ndis/NdisWriteEventLogEntry, miniport_logging_ref_435a14ad-ae5a-4ff9-80a9-2c41966ed8ba.xml, netvista.ndiswriteeventlogentry
+ms.date: 2/16/2018
+ms.keywords: ndis/NdisWriteEventLogEntry, netvista.ndiswriteeventlogentry, miniport_logging_ref_435a14ad-ae5a-4ff9-80a9-2c41966ed8ba.xml, NdisWriteEventLogEntry function [Network Drivers Starting with Windows Vista], NdisWriteEventLogEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -205,15 +205,15 @@ The system limits the total size of the optional data supplied to
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiswriteerrorlogentry.md">NdisWriteErrorLogEntry</a>
 
 
 
@@ -225,5 +225,5 @@ The system limits the total size of the optional data supplied to
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteEventLogEntry function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisWriteEventLogEntry function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

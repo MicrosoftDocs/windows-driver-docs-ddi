@@ -7,7 +7,7 @@ old-location: display\dxgkddidestroyprocess.htm
 old-project: display
 ms.assetid: C5117F9B-876D-4F74-B528-47698666B44B
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddidestroyprocess, DxgkDdiDestroyProcess callback function [Display Devices], DxgkDdiDestroyProcess, DXGKDDI_DESTROYPROCESS, DXGKDDI_DESTROYPROCESS, dispmprt/DxgkDdiDestroyProcess, d3dkmddi/DxgkDdiDestroyProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,6 +86,8 @@ A handle to the kernel mode driver process.
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> if it succeeds. Otherwise, it returns one of the error codes defined in <b>Ntstatus.h</b>.
+
 
 

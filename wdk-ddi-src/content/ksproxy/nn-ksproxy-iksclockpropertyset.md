@@ -7,7 +7,7 @@ old-location: stream\iksclockpropertyset.htm
 old-project: stream
 ms.assetid: bf50d4b1-782f-4d15-b6ef-23fa13da68ff
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.iksclockpropertyset, IKsClockPropertySet interface [Streaming Media Devices], IKsClockPropertySet interface [Streaming Media Devices], described, IKsClockPropertySet, ksproxy/IKsClockPropertySet, ksproxy_0be3eb82-08b7-4afc-a4e5-3815f7499ad0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

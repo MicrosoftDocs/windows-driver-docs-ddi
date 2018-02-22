@@ -7,8 +7,8 @@ old-location: ifsk\rxlowiogetbufferaddress.htm
 old-project: ifsk
 ms.assetid: a4d78135-38bc-4a34-98ce-d2712829124a
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: lowio/RxLowIoGetBufferAddress, RxLowIoGetBufferAddress, ifsk.rxlowiogetbufferaddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml, RxLowIoGetBufferAddress function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.rxlowiogetbufferaddress, RxLowIoGetBufferAddress function [Installable File System Drivers], lowio/RxLowIoGetBufferAddress, rxref_b45afb50-cf03-4450-9e96-3d8f08392eb6.xml, RxLowIoGetBufferAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,15 +96,7 @@ A pointer to the RX_CONTEXT structure for this request.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554591">RxNewMapUserBuffer</a>
-
-
-
-<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
 
 
 
@@ -116,9 +108,17 @@ A pointer to the RX_CONTEXT structure for this request.
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+
+
+
+<a href="..\rxcontx\ns-rxcontx-_rx_context.md">RX_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxLowIoGetBufferAddress function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxLowIoGetBufferAddress function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

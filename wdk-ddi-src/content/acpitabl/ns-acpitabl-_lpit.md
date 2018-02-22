@@ -7,8 +7,8 @@ old-location: acpi\lpit.htm
 old-project: acpi
 ms.assetid: 351BC859-E703-4F75-B691-A503C08560CF
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: PLPIT, acpitabl/LPIT, LPIT, LPIT structure [ACPI Devices], acpitabl/PLPIT, PLPIT structure pointer [ACPI Devices], acpi.lpit, _LPIT, *PLPIT
+ms.date: 2/15/2018
+ms.keywords: PLPIT, LPIT structure [ACPI Devices], acpi.lpit, acpitabl/PLPIT, acpitabl/LPIT, _LPIT, *PLPIT, PLPIT structure pointer [ACPI Devices], LPIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LPIT
 product: Windows
 targetos: Windows
-req.typenames: "*PLPIT, LPIT"
+req.typenames: LPIT, *PLPIT
 ---
 
 # _LPIT structure

@@ -7,8 +7,8 @@ old-location: display\miracast_chunk_id.htm
 old-project: display
 ms.assetid: 30140530-63B6-4FE4-98A4-C6950D7D4D9A
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: netdispumdddi/MIRACAST_CHUNK_ID, display.miracast_chunk_id, MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID union [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: MIRACAST_CHUNK_ID union [Display Devices], display.miracast_chunk_id, netdispumdddi/MIRACAST_CHUNK_ID, MIRACAST_CHUNK_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -71,17 +71,17 @@ typedef union {
 
 
 
-### -field FrameNumber
+### -field Value
+
+Holds a 64-bit value that identifies the encode chunk.
+
+
+#### - FrameNumber
 
 The number of the encoded Wi-Fi frame.
 
 
-### -field PartNumber
+#### - PartNumber
 
 The frame part number.
-
-
-### -field Value
-
-Holds a 64-bit value that identifies the encode chunk.
 

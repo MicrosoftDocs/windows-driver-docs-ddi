@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USBFN_RESERVED
 author: windows-driver-content
 description: Do not use.
 old-location: buses\ioctl_internal_usbfn_reserved.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: F6935F5F-B6A8-4495-835D-151A26633F04
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_internal_usbfn_reserved, IOCTL_INTERNAL_USBFN_RESERVED control code [Buses], IOCTL_INTERNAL_USBFN_RESERVED, usbfnioctl/IOCTL_INTERNAL_USBFN_RESERVED
 ms.prod: windows-hardware
 ms.technology: windows-devices

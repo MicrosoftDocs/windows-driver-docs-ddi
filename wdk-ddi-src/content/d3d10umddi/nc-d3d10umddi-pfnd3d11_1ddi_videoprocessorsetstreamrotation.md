@@ -7,7 +7,7 @@ old-location: display\videoprocessorsetstreamrotation.htm
 old-project: display
 ms.assetid: 9b7d91e0-4913-404c-b7d7-eb63e9919919
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.videoprocessorsetstreamrotation, pfnVideoProcessorSetStreamRotation callback function [Display Devices], pfnVideoProcessorSetStreamRotation, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION, d3d10umddi/pfnVideoProcessorSetStreamRotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnVideoProcessorSetStreamRotation
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback
@@ -77,20 +77,18 @@ VOID APIENTRY* pfnVideoProcessorSetStreamRotation(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param D3D11_1DDI_HVIDEOPROCESSOR
-
 
 
 ### -param UINT
 
 
-
 ### -param BOOL
 
 
-
 ### -param D3D11_1DDI_VIDEO_PROCESSOR_ROTATION
+
+
 
 
 
@@ -129,11 +127,14 @@ The clockwise degrees of rotation as specified by a <a href="..\d3d10umddi\ne-d3
 ## -returns
 
 
+
 This callback function does not return a value.
 
 
 
+
 ## -remarks
+
 
 
 The stream source rectangle will be specified in the pre-rotation coordinates (typically landscape) and the stream destination rectangle will be specified in the post-rotation coordinates (typically portrait).   
@@ -142,15 +143,20 @@ The application must update the stream destination rectangle correctly when usin
 
 
 
+
 ## -see-also
 
 <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_rotation.md">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a>
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D11_1DDI_VIDEOPROCESSORSETSTREAMROTATION callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

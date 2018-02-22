@@ -7,8 +7,8 @@ old-location: display\dxgk_querypagetableleveldescin.htm
 old-project: display
 ms.assetid: 1B13BBB1-4184-4166-A61F-CC266D0391BF
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_QUERYPAGETABLELEVELDESCIN, d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, display.dxgk_querypagetableleveldescin, _DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/DXGK_QUERYPAGETABLELEVELDESCIN, DXGK_QUERYPAGETABLELEVELDESCIN structure [Display Devices], display.dxgk_querypagetableleveldescin, DXGK_QUERYPAGETABLELEVELDESCIN, _DXGK_QUERYPAGETABLELEVELDESCIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

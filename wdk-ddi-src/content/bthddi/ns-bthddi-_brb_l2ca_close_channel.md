@@ -7,8 +7,8 @@ old-location: bltooth\_brb_l2ca_close_channel.htm
 old-project: bltooth
 ms.assetid: 0a9f3720-8ae4-4219-a8b3-f1b88126f176
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, bthddi/_BRB_L2CA_CLOSE_CHANNEL, bltooth._brb_l2ca_close_channel, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_CLOSE_CHANNEL
+ms.date: 2/15/2018
+ms.keywords: bthddi/_BRB_L2CA_CLOSE_CHANNEL, bth_structs_97d7dc1f-eb95-4cf3-8d21-a814622a0b81.xml, _BRB_L2CA_CLOSE_CHANNEL structure [Bluetooth Devices], _BRB_L2CA_CLOSE_CHANNEL, bltooth._brb_l2ca_close_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,15 +106,15 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
-
-
-
 <a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536614">BRB_L2CA_CLOSE_CHANNEL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536615">BRB_L2CA_OPEN_CHANNEL</a>
 
 
 
@@ -127,5 +127,5 @@ A <b>BRB_L2CA_CLOSE_CHANNEL</b> request can be made for a channel that was initi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_L2CA_CLOSE_CHANNEL structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_L2CA_CLOSE_CHANNEL structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

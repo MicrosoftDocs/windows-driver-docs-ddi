@@ -7,8 +7,8 @@ old-location: audio\ksds3d_buffer_all.htm
 old-project: audio
 ms.assetid: c94e2189-62a6-44d6-9a29-4fd32c72437a
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PKSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, ksmedia/PKSDS3D_BUFFER_ALL, PKSDS3D_BUFFER_ALL structure pointer [Audio Devices], ksmedia/KSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL structure [Audio Devices], audio.ksds3d_buffer_all, *PKSDS3D_BUFFER_ALL, aud-prop_46bd2b81-3d2a-49e1-93e6-867e84ae4c04.xml
+ms.date: 2/21/2018
+ms.keywords: ksmedia/PKSDS3D_BUFFER_ALL, PKSDS3D_BUFFER_ALL, audio.ksds3d_buffer_all, *PKSDS3D_BUFFER_ALL, KSDS3D_BUFFER_ALL, PKSDS3D_BUFFER_ALL structure pointer [Audio Devices], aud-prop_46bd2b81-3d2a-49e1-93e6-867e84ae4c04.xml, KSDS3D_BUFFER_ALL structure [Audio Devices], ksmedia/KSDS3D_BUFFER_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,17 +149,17 @@ The members of this structure are similar to those defined for the DS3DBUFFER st
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537315">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_ds3dvector.md">DS3DVECTOR</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537315">KSPROPERTY_DIRECTSOUND3DBUFFER_ALL</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDS3D_BUFFER_ALL structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSDS3D_BUFFER_ALL structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

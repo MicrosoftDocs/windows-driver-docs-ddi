@@ -7,8 +7,8 @@ old-location: storage\mpio_path_health_class.htm
 old-project: storage
 ms.assetid: 13be9014-e1ce-4b08-a264-c2828e8632ae
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: MPIO_PATH_HEALTH_CLASS structure [Storage Devices], MPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, storage.mpio_path_health_class, _MPIO_PATH_HEALTH_CLASS, *PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml, mpiowmi/PMPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS
+ms.date: 2/16/2018
+ms.keywords: PMPIO_PATH_HEALTH_CLASS structure pointer [Storage Devices], mpiowmi/PMPIO_PATH_HEALTH_CLASS, mpiowmi/MPIO_PATH_HEALTH_CLASS, _MPIO_PATH_HEALTH_CLASS, PMPIO_PATH_HEALTH_CLASS, MPIO_PATH_HEALTH_CLASS, structs-scsibus_ffbf044f-24cd-4e04-8a26-bfa5f2542189.xml, storage.mpio_path_health_class, MPIO_PATH_HEALTH_CLASS structure [Storage Devices], *PMPIO_PATH_HEALTH_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

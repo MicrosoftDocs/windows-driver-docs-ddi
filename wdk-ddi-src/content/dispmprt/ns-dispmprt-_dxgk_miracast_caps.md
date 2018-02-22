@@ -7,8 +7,8 @@ old-location: display\dxgk_miracast_caps.htm
 old-project: display
 ms.assetid: 63ED28D9-654F-45CC-BFDC-89C9E73DCF95
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_miracast_caps, *PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], dispmprt/DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], DXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS
+ms.date: 2/20/2018
+ms.keywords: "*PDXGK_MIRACAST_CAPS, dispmprt/PDXGK_MIRACAST_CAPS, PDXGK_MIRACAST_CAPS structure pointer [Display Devices], PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS, dispmprt/DXGK_MIRACAST_CAPS, _DXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS structure [Display Devices], display.dxgk_miracast_caps"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_MIRACAST_CAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_MIRACAST_CAPS, DXGK_MIRACAST_CAPS"
+req.typenames: DXGK_MIRACAST_CAPS, *PDXGK_MIRACAST_CAPS
 ---
 
 # _DXGK_MIRACAST_CAPS structure
@@ -82,6 +82,12 @@ The maximum size, in bytes, of the private data that the display miniport driver
 ### -field Flags
 
 
+
+#### Value
+
+Holds a 32-bit value that identifies the capabilities of the Miracast device.
+
+
 ### -field Flags.HdcpSupport
 
 Indicates whether the display adapter supports the Miracast High-bandwidth Digital Content Protection (HDCP) feature.
@@ -90,11 +96,6 @@ Indicates whether the display adapter supports the Miracast High-bandwidth Digit
 ### -field Flags.Reserved
 
 Reserved for system use. The display miniport driver must set this value to zero.
-
-
-### -field Flags.Value
-
-Holds a 32-bit value that identifies the capabilities of the Miracast device.
 
 
 ## -see-also
@@ -107,5 +108,5 @@ Holds a 32-bit value that identifies the capabilities of the Miracast device.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_MIRACAST_CAPS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_MIRACAST_CAPS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

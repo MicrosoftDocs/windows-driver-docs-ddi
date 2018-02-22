@@ -7,8 +7,8 @@ old-location: storage\changer_device_problem_type.htm
 old-project: storage
 ms.assetid: 2ba267ad-cfd7-4a19-9ecb-16be9187406a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, DeviceProblemTargetFailure, CHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemCartridgeEjectError, storage.changer_device_problem_type, DeviceProblemCartridgeInsertError, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], ntddchgr/DeviceProblemCHMError, ntddchgr/DeviceProblemHardware, DeviceProblemGripperError, DeviceProblemCHMError, ntddchgr/DeviceProblemPositionError, PCHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemDoorOpen, DeviceProblemNone, DeviceProblemHardware, DeviceProblemCHMMoveError, DeviceProblemCalibrationError, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], ntddchgr/DeviceProblemSensorError, _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, *PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemDriveError, ntddchgr/DeviceProblemDriveError, ntddchgr/DeviceProblemCartridgeEjectError, DeviceProblemPositionError, DeviceProblemDoorOpen, ntddchgr/DeviceProblemTargetFailure, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemGripperError, ntddchgr/DeviceProblemNone, ntddchgr/DeviceProblemCartridgeInsertError, DeviceProblemSensorError, ntddchgr/DeviceProblemCalibrationError, ntddchgr/DeviceProblemCHMMoveError, ntddchgr/DeviceProblemCHMZeroError, DeviceProblemCHMZeroError
+ms.date: 2/16/2018
+ms.keywords: DeviceProblemCalibrationError, *PCHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemCHMZeroError, DeviceProblemTargetFailure, CHANGER_DEVICE_PROBLEM_TYPE, CHANGER_DEVICE_PROBLEM_TYPE enumeration [Storage Devices], DeviceProblemSensorError, PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemDriveError, ntddchgr/DeviceProblemNone, ntddchgr/DeviceProblemTargetFailure, DeviceProblemCartridgeInsertError, ntddchgr/DeviceProblemPositionError, DeviceProblemPositionError, ntddchgr/PCHANGER_DEVICE_PROBLEM_TYPE, DeviceProblemHardware, _CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemDriveError, ntddchgr/DeviceProblemCalibrationError, ntddchgr/CHANGER_DEVICE_PROBLEM_TYPE, ntddchgr/DeviceProblemGripperError, structs-changer_907f5212-0009-476e-9187-c9f2edb0f0c8.xml, DeviceProblemCHMMoveError, ntddchgr/DeviceProblemCHMMoveError, PCHANGER_DEVICE_PROBLEM_TYPE enumeration pointer [Storage Devices], DeviceProblemNone, storage.changer_device_problem_type, ntddchgr/DeviceProblemDoorOpen, DeviceProblemGripperError, DeviceProblemCHMZeroError, ntddchgr/DeviceProblemSensorError, DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemCartridgeEjectError, ntddchgr/DeviceProblemHardware, DeviceProblemDoorOpen, ntddchgr/DeviceProblemCHMError, DeviceProblemCHMError, ntddchgr/DeviceProblemCartridgeInsertError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -152,17 +152,17 @@ Indicates the changer's drive is malfunctioning.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
-
-
-
 <a href="..\wmidata\ns-wmidata-_wmi_changer_problem_device_error.md">WMI_CHANGER_PROBLEM_DEVICE_ERROR</a>
 
 
 
- 
+<a href="..\mcd\nf-mcd-changerperformdiagnostics.md">ChangerPerformDiagnostics</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_DEVICE_PROBLEM_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CHANGER_DEVICE_PROBLEM_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

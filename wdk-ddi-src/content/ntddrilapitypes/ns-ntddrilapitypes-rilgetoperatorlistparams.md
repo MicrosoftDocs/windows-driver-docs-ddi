@@ -7,8 +7,8 @@ old-location: netvista\rilgetoperatorlistparams.htm
 old-project: netvista
 ms.assetid: 75c8b3b3-4f33-465a-a35c-9d3056a2eb75
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILGETOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGETOPERATORLISTPARAMS, netvista.rilgetoperatorlistparams, *LPRILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS
+ms.date: 2/16/2018
+ms.keywords: RILGETOPERATORLISTPARAMS, RILGETOPERATORLISTPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGETOPERATORLISTPARAMS, *LPRILGETOPERATORLISTPARAMS, netvista.rilgetoperatorlistparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

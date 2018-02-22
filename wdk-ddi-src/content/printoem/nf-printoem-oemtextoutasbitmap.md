@@ -7,8 +7,8 @@ old-location: print\oemtextoutasbitmap.htm
 old-project: print
 ms.assetid: 37bf1cbe-9200-4d3e-b5e6-746f18293c1a
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: printoem/OEMTextOutAsBitmap, OEMTextOutAsBitmap function [Print Devices], print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, OEMTextOutAsBitmap, print.oemtextoutasbitmap
+ms.date: 2/21/2018
+ms.keywords: printoem/OEMTextOutAsBitmap, print.oemtextoutasbitmap, OEMTextOutAsBitmap, print_obsoletefunctions_17993b3a-2343-4c6f-86ea-8273abaa8c80.xml, OEMTextOutAsBitmap function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

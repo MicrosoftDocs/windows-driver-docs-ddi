@@ -7,7 +7,7 @@ old-location: stream\kspingetnextsiblingpin.htm
 old-project: stream
 ms.assetid: e6eb5998-50ad-4ad9-8368-4cd29e4f7777
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: avfunc_a5363c0a-af05-43a6-aa4d-edd43e076eb7.xml, KsPinGetNextSiblingPin function [Streaming Media Devices], KsPinGetNextSiblingPin, ks/KsPinGetNextSiblingPin, stream.kspingetnextsiblingpin
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -93,6 +93,10 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 
 ## -see-also
 
+<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+
+
+
 <a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
 
 
@@ -101,13 +105,9 @@ A pointer to the <a href="..\ks\ns-ks-_kspin.md">KSPIN</a> structure for which t
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetNextSiblingPin function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsPinGetNextSiblingPin function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

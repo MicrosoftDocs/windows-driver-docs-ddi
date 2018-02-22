@@ -4,11 +4,11 @@ title: CWiauPropertyList::CWiauPropertyList method
 author: windows-driver-content
 description: The CWiauPropertyList::CWiauPropertyList method is the constructor for the CWiauPropertyList class.
 old-location: image\cwiaupropertylist_cwiaupropertylist.htm
-old-project: image
+old-project: Image
 ms.assetid: 5e493d3c-81b6-4db5-a550-c86eadf5a723
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: CWiauPropertyList interface [Imaging Devices], CWiauPropertyList method, CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, CWiauPropertyList, wiautil/CWiauPropertyList::CWiauPropertyList, image.cwiaupropertylist_cwiaupropertylist, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml, CWiauPropertyList method [Imaging Devices], CWiauPropertyList::CWiauPropertyList
+ms.date: 2/15/2018
+ms.keywords: CWiauPropertyList, CWiauPropertyList method [Imaging Devices], CWiauPropertyList method [Imaging Devices], CWiauPropertyList interface, image.cwiaupropertylist_cwiaupropertylist, CWiauPropertyList interface [Imaging Devices], CWiauPropertyList method, CWiauPropertyList::CWiauPropertyList, wiauFncs_834023ef-b425-4469-a5e7-c127fd5acf2a.xml, wiautil/CWiauPropertyList::CWiauPropertyList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,5 +108,5 @@ The <b>CWiauPropertyList</b> constructor initializes all data members of a prope
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20CWiauPropertyList::CWiauPropertyList method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20CWiauPropertyList::CWiauPropertyList method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\nfs_open_ecp_context.htm
 old-project: ifsk
 ms.assetid: f3600dca-d246-41b5-99b4-4054e677b03b
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.nfs_open_ecp_context, ntifs/PNFS_OPEN_ECP_CONTEXT, PNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PPNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], PNFS_OPEN_ECP_CONTEXT, *PNFS_OPEN_ECP_CONTEXT, ntifs/PPNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT structure [Installable File System Drivers], _NFS_OPEN_ECP_CONTEXT, ntifs/NFS_OPEN_ECP_CONTEXT, ECP_Structures_d19b2618-0b21-424c-b5bd-abc9b6bdc518.xml, PPNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT
+ms.date: 2/16/2018
+ms.keywords: NFS_OPEN_ECP_CONTEXT structure [Installable File System Drivers], PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], NFS_OPEN_ECP_CONTEXT, ntifs/PNFS_OPEN_ECP_CONTEXT, ECP_Structures_d19b2618-0b21-424c-b5bd-abc9b6bdc518.xml, ifsk.nfs_open_ecp_context, ntifs/PPNFS_OPEN_ECP_CONTEXT, _NFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT, ntifs/NFS_OPEN_ECP_CONTEXT, PNFS_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], *PNFS_OPEN_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NFS_OPEN_ECP_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PNFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT"
+req.typenames: "*PNFS_OPEN_ECP_CONTEXT, NFS_OPEN_ECP_CONTEXT, PPNFS_OPEN_ECP_CONTEXT"
 ---
 
 # _NFS_OPEN_ECP_CONTEXT structure
@@ -103,5 +103,5 @@ The NFS_OPEN_ECP_CONTEXT structure is read-only. You should use it to retrieve i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20NFS_OPEN_ECP_CONTEXT structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20NFS_OPEN_ECP_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

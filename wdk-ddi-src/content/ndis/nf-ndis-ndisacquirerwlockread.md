@@ -7,8 +7,8 @@ old-location: netvista\ndisacquirerwlockread.htm
 old-project: netvista
 ms.assetid: a9c16537-e344-43d4-bae7-fb11487caa0e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis_processor_group_ref_0ac3bf44-b94f-4818-af69-79eec8045cc9.xml, ndis/NdisAcquireRWLockRead, NdisAcquireRWLockRead function [Network Drivers Starting with Windows Vista], NdisAcquireRWLockRead, netvista.ndisacquirerwlockread
+ms.date: 2/16/2018
+ms.keywords: NdisAcquireRWLockRead, ndis_processor_group_ref_0ac3bf44-b94f-4818-af69-79eec8045cc9.xml, NdisAcquireRWLockRead function [Network Drivers Starting with Windows Vista], netvista.ndisacquirerwlockread, ndis/NdisAcquireRWLockRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -155,8 +155,31 @@ The driver cannot use a lock to protect resources from read or write access that
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
-   MiniportSynchronizeInterrupt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
+
+
+
+<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
 
 
 
@@ -165,31 +188,8 @@ The driver cannot use a lock to protect resources from read or write access that
 
 
 
-<a href="..\ndis\ns-ndis-_lock_state_ex.md">LOCK_STATE_EX</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreleaserwlock.md">NdisReleaseRWLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567279">NDIS_RW_LOCK_EX</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocaterwlock.md">NdisAllocateRWLock</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisacquirerwlockwrite.md">NdisAcquireRWLockWrite</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\ndis\nc-ndis-miniport_synchronize_interrupt.md">
+   MiniportSynchronizeInterrupt</a>
 
 
 
@@ -197,5 +197,5 @@ The driver cannot use a lock to protect resources from read or write access that
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAcquireRWLockRead function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAcquireRWLockRead function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

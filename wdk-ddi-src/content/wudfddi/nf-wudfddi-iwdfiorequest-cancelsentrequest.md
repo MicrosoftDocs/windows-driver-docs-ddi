@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest_cancelsentrequest.htm
 old-project: wdf
 ms.assetid: 1951a2e8-c2f0-42bc-9deb-8d2a049817c4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest::CancelSentRequest, CancelSentRequest method, IWDFIoRequest interface, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, IWDFIoRequest interface, CancelSentRequest method, wdf.iwdfiorequest_cancelsentrequest, CancelSentRequest method, CancelSentRequest, wudfddi/IWDFIoRequest::CancelSentRequest, umdf.iwdfiorequest_cancelsentrequest, IWDFIoRequest
+ms.date: 2/20/2018
+ms.keywords: CancelSentRequest, umdf.iwdfiorequest_cancelsentrequest, IWDFIoRequest interface, CancelSentRequest method, wdf.iwdfiorequest_cancelsentrequest, UMDFRequestObjectRef_cf439791-044b-4cd8-8a1c-eafc7b266897.xml, IWDFIoRequest, CancelSentRequest method, wudfddi/IWDFIoRequest::CancelSentRequest, CancelSentRequest method, IWDFIoRequest interface, IWDFIoRequest::CancelSentRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.CancelSentRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -94,10 +94,6 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
@@ -110,6 +106,10 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
 
 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
 
@@ -118,5 +118,5 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::CancelSentRequest method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::CancelSentRequest method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

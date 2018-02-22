@@ -7,8 +7,8 @@ old-location: wdf\wdfchildlistupdateallchilddescriptionsaspresent.htm
 old-project: wdf
 ms.assetid: 598d2b4f-9b49-480a-9cf8-25661c24483f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfchildlistupdateallchilddescriptionsaspresent, wdf.wdfchildlistupdateallchilddescriptionsaspresent, DFDeviceObjectChildListRef_55956590-2843-4486-acfb-0e85c01702a0.xml, wdfchildlist/WdfChildListUpdateAllChildDescriptionsAsPresent, WdfChildListUpdateAllChildDescriptionsAsPresent method, PFN_WDFCHILDLISTUPDATEALLCHILDDESCRIPTIONSASPRESENT, WdfChildListUpdateAllChildDescriptionsAsPresent
+ms.date: 2/20/2018
+ms.keywords: WdfChildListUpdateAllChildDescriptionsAsPresent method, kmdf.wdfchildlistupdateallchilddescriptionsaspresent, WdfChildListUpdateAllChildDescriptionsAsPresent, wdf.wdfchildlistupdateallchilddescriptionsaspresent, DFDeviceObjectChildListRef_55956590-2843-4486-acfb-0e85c01702a0.xml, wdfchildlist/WdfChildListUpdateAllChildDescriptionsAsPresent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

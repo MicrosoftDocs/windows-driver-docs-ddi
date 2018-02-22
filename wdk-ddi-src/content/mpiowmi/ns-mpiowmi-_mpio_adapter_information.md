@@ -7,8 +7,8 @@ old-location: storage\mpio_adapter_information.htm
 old-project: storage
 ms.assetid: bcf159a7-75a5-46aa-897a-2c5eb00f51d8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-scsibus_bcdbb143-5a91-4a69-83e5-82e32c23b404.xml, mpiowmi/MPIO_ADAPTER_INFORMATION, mpiowmi/PMPIO_ADAPTER_INFORMATION, storage.mpio_adapter_information, PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION, _MPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION structure pointer [Storage Devices], MPIO_ADAPTER_INFORMATION structure [Storage Devices], *PMPIO_ADAPTER_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: storage.mpio_adapter_information, mpiowmi/PMPIO_ADAPTER_INFORMATION, _MPIO_ADAPTER_INFORMATION, mpiowmi/MPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION, PMPIO_ADAPTER_INFORMATION structure pointer [Storage Devices], structs-scsibus_bcdbb143-5a91-4a69-83e5-82e32c23b404.xml, *PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_ADAPTER_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_ADAPTER_INFORMATION, MPIO_ADAPTER_INFORMATION"
+req.typenames: MPIO_ADAPTER_INFORMATION, *PMPIO_ADAPTER_INFORMATION
 ---
 
 # _MPIO_ADAPTER_INFORMATION structure

@@ -7,8 +7,8 @@ old-location: netvista\riluiccresponse_2.htm
 old-project: netvista
 ms.assetid: c3d3481e-a0db-492d-8fc3-6bdcfa26f4c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riluiccresponse_2, rilapitypes/RILUICCRESPONSE, RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista], *LPRILUICCRESPONSE
+ms.date: 2/16/2018
+ms.keywords: netvista.riluiccresponse_2, *LPRILUICCRESPONSE, RILUICCRESPONSE, rilapitypes/RILUICCRESPONSE, RILUICCRESPONSE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUICCRESPONSE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUICCRESPONSE, RILUICCRESPONSE"
+req.typenames: RILUICCRESPONSE, *LPRILUICCRESPONSE
 req.product: Windows 10 or later.
 ---
 

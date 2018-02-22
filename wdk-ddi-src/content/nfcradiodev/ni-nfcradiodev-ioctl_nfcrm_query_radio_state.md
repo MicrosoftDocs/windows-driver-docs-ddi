@@ -7,7 +7,7 @@ old-location: nfpdrivers\ioctl_nfcrm_query_radio_state.htm
 old-project: nfpdrivers
 ms.assetid: BEFA6568-3E89-4626-AAC2-A0C628E5429F
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
+ms.date: 2/15/2018
 ms.keywords: nfpdrivers.ioctl_nfcrm_query_radio_state, IOCTL_NFCRM_QUERY_RADIO_STATE control code [Near-Field Proximity Drivers], IOCTL_NFCRM_QUERY_RADIO_STATE, nfcradiodev/IOCTL_NFCRM_QUERY_RADIO_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCRM_QUERY_RADIO_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_RF_DISCOVERY_CONFIG, NFC_CX_RF_DISCOVERY_CONFIG"
+req.typenames: NFC_CX_RF_DISCOVERY_CONFIG, *PNFC_CX_RF_DISCOVERY_CONFIG
 ---
 
 # IOCTL_NFCRM_QUERY_RADIO_STATE IOCTL

@@ -7,8 +7,8 @@ old-location: stream\kswritefile.htm
 old-project: stream
 ms.assetid: ed66db40-d159-4660-96c0-da52f752a409
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.kswritefile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml, ks/KsWriteFile, KsWriteFile, KsWriteFile function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: stream.kswritefile, KsWriteFile function [Streaming Media Devices], KsWriteFile, ks/KsWriteFile, ksfunc_4e15871e-8093-4b8e-a1ec-0eda4588e262.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

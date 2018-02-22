@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlpreparemdlwritedev.htm
 old-project: ifsk
 ms.assetid: f425487d-c4cd-4fd0-93d3-d5ce15277c6d
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fsrtlref_0d4bcdd2-9d31-41f1-aba3-ee9341d82b92.xml, FsRtlPrepareMdlWriteDev, ntifs/FsRtlPrepareMdlWriteDev, ifsk.fsrtlpreparemdlwritedev
+ms.date: 2/16/2018
+ms.keywords: fsrtlref_0d4bcdd2-9d31-41f1-aba3-ee9341d82b92.xml, ntifs/FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwritedev, FsRtlPrepareMdlWriteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,7 +100,7 @@ On output, a pointer to a linked list of memory descriptor lists (MDLs) that poi
 
 ### -param IoStatus [out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 
 ### -param DeviceObject [in]
@@ -134,17 +134,17 @@ The pages that the MDLs point to are locked in memory, but are not mapped in sys
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md">FsRtlMdlWriteCompleteDev</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md">FsRtlMdlWriteCompleteDev</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlPrepareMdlWriteDev routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlPrepareMdlWriteDev routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

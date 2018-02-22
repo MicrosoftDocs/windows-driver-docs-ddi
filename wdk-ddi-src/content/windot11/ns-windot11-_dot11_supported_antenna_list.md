@@ -7,8 +7,8 @@ old-location: netvista\dot11_supported_antenna_list.htm
 old-project: netvista
 ms.assetid: 45c6b9a3-b834-4e57-b7f8-fab7be749269
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_SUPPORTED_ANTENNA_LIST, Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, _DOT11_SUPPORTED_ANTENNA_LIST, *PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST, netvista.dot11_supported_antenna_list, PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista], windot11/DOT11_SUPPORTED_ANTENNA_LIST
+ms.date: 2/16/2018
+ms.keywords: PDOT11_SUPPORTED_ANTENNA_LIST, DOT11_SUPPORTED_ANTENNA_LIST, Native_802.11_data_types_5e735315-0745-4395-bf71-fe53a941daf8.xml, _DOT11_SUPPORTED_ANTENNA_LIST, PDOT11_SUPPORTED_ANTENNA_LIST structure pointer [Network Drivers Starting with Windows Vista], DOT11_SUPPORTED_ANTENNA_LIST structure [Network Drivers Starting with Windows Vista], *PDOT11_SUPPORTED_ANTENNA_LIST, windot11/PDOT11_SUPPORTED_ANTENNA_LIST, windot11/DOT11_SUPPORTED_ANTENNA_LIST, netvista.dot11_supported_antenna_list
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,6 +177,10 @@ Return NDIS_STATUS_SUCCESS from its
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/ms893804.aspx">OID_DOT11_SUPPORTED_RX_ANTENNA</a>
 
 
@@ -185,13 +189,9 @@ Return NDIS_STATUS_SUCCESS from its
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/ee484405.aspx">OID_DOT11_SUPPORTED_TX_ANTENNA</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SUPPORTED_ANTENNA_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_SUPPORTED_ANTENNA_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

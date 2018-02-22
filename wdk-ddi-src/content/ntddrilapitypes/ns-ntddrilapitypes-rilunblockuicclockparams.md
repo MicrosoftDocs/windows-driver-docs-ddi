@@ -7,8 +7,8 @@ old-location: netvista\rilunblockuicclockparams.htm
 old-project: netvista
 ms.assetid: 48d1deeb-8862-4e01-aa22-119a53aa4aba
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS, *LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilunblockuicclockparams
+ms.date: 2/16/2018
+ms.keywords: RILUNBLOCKUICCLOCKPARAMS, ntddrilapitypes/RILUNBLOCKUICCLOCKPARAMS, *LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilunblockuicclockparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILUNBLOCKUICCLOCKPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILUNBLOCKUICCLOCKPARAMS, RILUNBLOCKUICCLOCKPARAMS"
+req.typenames: RILUNBLOCKUICCLOCKPARAMS, *LPRILUNBLOCKUICCLOCKPARAMS
 ---
 
 # RILUNBLOCKUICCLOCKPARAMS structure

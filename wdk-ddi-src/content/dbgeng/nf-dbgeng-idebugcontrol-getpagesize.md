@@ -4,11 +4,11 @@ title: IDebugControl::GetPageSize method
 author: windows-driver-content
 description: The GetPageSize method returns the page size for the effective processor mode.
 old-location: debugger\getpagesize.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 26f11dfb-3fc3-4804-a294-2dfc674b4a73
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getpagesize, IDebugControl3 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl2::GetPageSize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, GetPageSize method [Windows Debugging], dbgeng/IDebugControl3::GetPageSize, IDebugControl::GetPageSize, dbgeng/IDebugControl::GetPageSize, IDebugControl2 interface [Windows Debugging], GetPageSize method, IDebugControl, IDebugControl3::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl interface, GetPageSize method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], GetPageSize method, GetPageSize
+ms.date: 2/15/2018
+ms.keywords: IDebugControl3 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl3::GetPageSize, IDebugControl interface [Windows Debugging], GetPageSize method, GetPageSize method [Windows Debugging], IDebugControl interface, IDebugControl, GetPageSize method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetPageSize, IDebugControl::GetPageSize, IDebugControl3::GetPageSize, GetPageSize method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetPageSize method, dbgeng/IDebugControl::GetPageSize, GetPageSize, debugger.getpagesize, IDebugControl_b38e4c0a-5992-4afe-b684-2eb65b3a0271.xml, GetPageSize method [Windows Debugging], dbgeng/IDebugControl2::GetPageSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetPageSize
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl::GetPageSize method

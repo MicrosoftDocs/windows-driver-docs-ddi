@@ -7,8 +7,8 @@ old-location: kernel\process_mitigation_payload_restriction_policy.htm
 old-project: kernel
 ms.assetid: f55a47b2-c95c-4b6c-aeff-aed99dd9e43b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, *PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY
+ms.date: 2/16/2018
+ms.keywords: "*PPROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, kernel.process_mitigation_payload_restriction_policy, _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY structure [Kernel-Mode Driver Architecture], PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY, ntddk/PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,7 +87,8 @@ typedef struct _PROCESS_MITIGATION_PAYLOAD_RESTRICTION_POLICY {
 ### -field DUMMYUNIONNAME
 
 
-### -field DUMMYUNIONNAME.Flags
+
+#### Flags
 
 Bitwise of flags in this structure.
 

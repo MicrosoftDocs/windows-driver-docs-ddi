@@ -7,8 +7,8 @@ old-location: kernel\device_object.htm
 old-project: kernel
 ms.assetid: f3522315-cf15-41f7-ac87-c625c7dc8040
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], PDEVICE_OBJECT, kernel.device_object, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], DEVICE_OBJECT, *PDEVICE_OBJECT, wdm/PDEVICE_OBJECT, wdm/DEVICE_OBJECT, _DEVICE_OBJECT
+ms.date: 2/16/2018
+ms.keywords: wdm/DEVICE_OBJECT, kernel.device_object, PDEVICE_OBJECT structure pointer [Kernel-Mode Driver Architecture], kstruct_a_93734fb2-0dd1-4376-a595-44008eb68f2c.xml, wdm/PDEVICE_OBJECT, *PDEVICE_OBJECT, DEVICE_OBJECT, _DEVICE_OBJECT, DEVICE_OBJECT structure [Kernel-Mode Driver Architecture], PDEVICE_OBJECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_OBJECT, DEVICE_OBJECT"
+req.typenames: DEVICE_OBJECT, *PDEVICE_OBJECT
 req.product: Windows 10 or later.
 ---
 
@@ -141,7 +141,7 @@ A pointer to the attached device object. If there is no attached device object, 
 
 ### -field CurrentIrp
 
-A pointer to the current IRP if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine whose entry point was set in the driver object and if the driver is currently processing IRP(s). Otherwise, this member is <b>NULL</b>. For more information, see the <a href="..\wdm\nf-wdm-iostartpacket.md">IoStartPacket</a> and <a href="..\wdm\nf-wdm-iostartnextpacket.md">IoStartNextPacket</a> topics. This is a read-only member.
+A pointer to the current IRP if the driver has a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563858">StartIo</a> routine whose entry point was set in the driver object and if the driver is currently processing IRP(s). Otherwise, this member is <b>NULL</b>. For more information, see the <a href="..\ntifs\nf-ntifs-iostartpacket.md">IoStartPacket</a> and <a href="..\ntifs\nf-ntifs-iostartnextpacket.md">IoStartNextPacket</a> topics. This is a read-only member.
 
 
 ### -field _IRP
@@ -346,12 +346,14 @@ Specifies the minimum number of stack locations in IRPs to be sent to this drive
 Used internally by the I/O manager to queue the device object when it is required. This is an opaque member.
 
 
-### -field Queue.ListEntry
+
+#### ListEntry
 
 A <a href="https://msdn.microsoft.com/library/windows/hardware/ff554296">LIST_ENTRY</a> structure that contains forward and backward pointers for a doubly linked list.
 
 
-### -field Queue.Wcb
+
+#### Wcb
 
 Device context information used by I/O manager.
 
@@ -434,19 +436,11 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
 
 
 
@@ -454,13 +448,21 @@ The system-supplied NDIS library sets up the fields of the device objects that i
 
 
 
+<a href="..\wdm\nf-wdm-ioattachdevicetodevicestack.md">IoAttachDeviceToDeviceStack</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_OBJECT structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20DEVICE_OBJECT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfpdoclearejectionrelationsdevices.htm
 old-project: wdf
 ms.assetid: 09154884-130d-47aa-be00-08a3a4da6f22
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfpdo/WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, wdf.wdfpdoclearejectionrelationsdevices, WdfPdoClearEjectionRelationsDevices, DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, kmdf.wdfpdoclearejectionrelationsdevices, PFN_WDFPDOCLEAREJECTIONRELATIONSDEVICES
+ms.date: 2/20/2018
+ms.keywords: WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, kmdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices, wdf.wdfpdoclearejectionrelationsdevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,17 +113,17 @@ The following code example clears the specified device's list of ejection relati
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
 
 
 
- 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoClearEjectionRelationsDevices method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoClearEjectionRelationsDevices method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_createextensiondevice.htm
 old-project: display
 ms.assetid: 33076a24-8856-4533-b4ab-ec1d7bdb083d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, _D3DDDIARG_CREATEEXTENSIONDEVICE, D3DDDIARG_CREATEEXTENSIONDEVICE, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: "_D3DDDIARG_CREATEEXTENSIONDEVICE, UMDisplayDriver_param_Structs_edb27385-af11-4750-aa90-854e21ee11a0.xml, D3DDDIARG_CREATEEXTENSIONDEVICE structure [Display Devices], D3DDDIARG_CREATEEXTENSIONDEVICE, display.d3dddiarg_createextensiondevice, d3dumddi/D3DDDIARG_CREATEEXTENSIONDEVICE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,5 +102,5 @@ typedef struct _D3DDDIARG_CREATEEXTENSIONDEVICE {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEEXTENSIONDEVICE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEEXTENSIONDEVICE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

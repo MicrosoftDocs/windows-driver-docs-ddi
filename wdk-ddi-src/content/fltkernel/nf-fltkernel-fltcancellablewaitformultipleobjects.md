@@ -7,8 +7,8 @@ old-location: ifsk\fltcancellablewaitformultipleobjects.htm
 old-project: ifsk
 ms.assetid: 0afe431d-55dd-4aaa-bcbc-467ac3a7b604
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltcancellablewaitformultipleobjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], FltCancellableWaitForMultipleObjects, FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, ntifs/FltCancellableWaitForMultipleObjects
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_a_to_d_3f130d06-8af0-46c1-9db3-bd70d1cbabe1.xml, ifsk.fltcancellablewaitformultipleobjects, FltCancellableWaitForMultipleObjects function [Installable File System Drivers], ntifs/FltCancellableWaitForMultipleObjects, FltCancellableWaitForMultipleObjects
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -218,7 +218,7 @@ A special consideration applies when one or more of the elements in the <i>Objec
 
 A mutex can be recursively acquired only MINLONG times. If this limit is exceeded, the routine raises a STATUS_MUTANT_LIMIT_EXCEEDED exception. 
 
-The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
+The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL PASSIVE_LEVEL if the <i>CallbackData</i> parameter represents a valid filter manager IRP. Otherwise, the routine can be called at IRQL less or equal to APC_LEVEL. Normal kernel APCs can be disabled by the caller, if needed, by calling the <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff545900">FsRtlEnterFileSystem</a> routines. However, special kernel APCs must not be disabled. 
 
 <b>FltCancellableWaitForMultipleObjects</b> will assert on debug builds if the <i>CallbackData</i> represents a Filter Manager IRP operation, but the IRP in the <i>CallbackData</i> structure is <b>NULL</b>.
 
@@ -227,7 +227,7 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
 
 
@@ -235,19 +235,7 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitforsingleobject.md">FltCancellableWaitForSingleObject</a>
+<b>KeWaitForMultipleObjects</b>
 
 
 
@@ -255,7 +243,15 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 
-<b>KeWaitForMultipleObjects</b>
+<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitforsingleobject.md">FltCancellableWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
@@ -263,11 +259,15 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 
-<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlcancellablewaitformultipleobjects.md">FsRtlCancellableWaitForMultipleObjects</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 
@@ -279,5 +279,5 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancellableWaitForMultipleObjects function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancellableWaitForMultipleObjects function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

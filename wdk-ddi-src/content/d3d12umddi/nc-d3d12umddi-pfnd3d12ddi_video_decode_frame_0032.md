@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_video_decode_frame_0032.htm
 old-project: display
 ms.assetid: 0E7DC432-64F9-4EDE-B0FC-5F65EB9E68AD
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_video_decode_frame_0032, PFND3D12DDI_VIDEO_DECODE_FRAME_0030 callback function [Display Devices], PFND3D12DDI_VIDEO_DECODE_FRAME_0030, d3d12umddi/PFND3D12DDI_VIDEO_DECODE_FRAME_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -99,6 +99,8 @@ The submission ID.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

@@ -7,8 +7,8 @@ old-location: stream\transportstatus.htm
 old-project: stream
 ms.assetid: 2896fd39-5c33-4c79-8adb-f6862b7b4314
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PTRANSPORTSTATUS structure pointer [Streaming Media Devices], *PTRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml, PTRANSPORTSTATUS, TRANSPORTSTATUS structure [Streaming Media Devices], ksmedia/PTRANSPORTSTATUS, TRANSPORTSTATUS, tagTRANSPORTSTATUS, stream.transportstatus
+ms.date: 2/20/2018
+ms.keywords: TRANSPORTSTATUS, ksmedia/TRANSPORTSTATUS, tagTRANSPORTSTATUS, PTRANSPORTSTATUS structure pointer [Streaming Media Devices], vidcapstruct_12a98ac2-58b9-47ce-ae09-30c8feeec2f0.xml, TRANSPORTSTATUS structure [Streaming Media Devices], ksmedia/PTRANSPORTSTATUS, PTRANSPORTSTATUS, stream.transportstatus, *PTRANSPORTSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSPORTSTATUS
 product: Windows
 targetos: Windows
-req.typenames: TRANSPORTSTATUS, *PTRANSPORTSTATUS
+req.typenames: "*PTRANSPORTSTATUS, TRANSPORTSTATUS"
 ---
 
 # tagTRANSPORTSTATUS structure

@@ -7,8 +7,8 @@ old-location: storage\storage_device_form_factor.htm
 old-project: storage
 ms.assetid: EE59767B-2504-4E5F-A442-60EEBEE70B59
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], FormFactorUnknown, FormFactorDimm, ntddstor/FormFactor1_8, ntddstor/STORAGE_DEVICE_FORM_FACTOR, FormFactorM_2, _STORAGE_DEVICE_FORM_FACTOR, FormFactorPCIeBoard, ntddstor/FormFactor3_5, FormFactor2_5, FormFactorEmbedded, ntddstor/FormFactorDimm, ntddstor/FormFactor2_5, ntddstor/FormFactorUnknown, ntddstor/FormFactormSata, FormFactor3_5, FormFactorMemoryCard, ntddstor/FormFactorMemoryCard, STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactor1_8Less, FormFactor1_8Less, storage.storage_device_form_factor, ntddstor/FormFactorM_2, ntddstor/FormFactorEmbedded, ntddstor/FormFactorPCIeBoard, PSTORAGE_DEVICE_FORM_FACTOR, FormFactormSata, *PSTORAGE_DEVICE_FORM_FACTOR, FormFactor1_8, ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: ntddstor/PSTORAGE_DEVICE_FORM_FACTOR, FormFactorMemoryCard, FormFactor1_8Less, FormFactorPCIeBoard, FormFactor3_5, FormFactor1_8, FormFactorM_2, PSTORAGE_DEVICE_FORM_FACTOR enumeration pointer [Storage Devices], FormFactorDimm, ntddstor/FormFactormSata, ntddstor/STORAGE_DEVICE_FORM_FACTOR, FormFactormSata, FormFactor2_5, ntddstor/FormFactorPCIeBoard, ntddstor/FormFactor2_5, STORAGE_DEVICE_FORM_FACTOR enumeration [Storage Devices], ntddstor/FormFactor3_5, PSTORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactor1_8, _STORAGE_DEVICE_FORM_FACTOR, storage.storage_device_form_factor, ntddstor/FormFactorUnknown, *PSTORAGE_DEVICE_FORM_FACTOR, FormFactorUnknown, ntddstor/FormFactorEmbedded, ntddstor/FormFactor1_8Less, ntddstor/FormFactorM_2, FormFactorEmbedded, STORAGE_DEVICE_FORM_FACTOR, ntddstor/FormFactorDimm, ntddstor/FormFactorMemoryCard
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DEVICE_FORM_FACTOR
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_FORM_FACTOR, *PSTORAGE_DEVICE_FORM_FACTOR
+req.typenames: "*PSTORAGE_DEVICE_FORM_FACTOR, STORAGE_DEVICE_FORM_FACTOR"
 ---
 
 # _STORAGE_DEVICE_FORM_FACTOR enumeration

@@ -7,8 +7,8 @@ old-location: pos\pospropertyid.htm
 old-project: pos
 ms.assetid: 82864db1-ee0a-4d41-a516-4e04befd2e89
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pointofservicedriverinterface/PosPropertyId, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, PosPropertyId enumeration, MagneticStripeReaderIsDecodeDataEnabled, MagneticStripeReaderTracksToRead, BarcodeScannerActiveProfile, pointofservicedriverinterface/BarcodeScannerCapabilities, pointofservicedriverinterface/IsEnabled, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, MagneticStripeReaderIsDeviceAuthenticated, BarcodeScannerSupportedProfiles, BarcodeScannerSupportedSymbologies, MagneticStripeReaderIsTransmitSentinelsEnabled, MagneticStripeReaderCapabilities, _PosPropertyId, BarcodeScannerCapabilities, pointofservicedriverinterface/IsDisabledOnDataReceived, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/MagneticStripeReaderCapabilities, IsDisabledOnDataReceived, IsEnabled, pos.pospropertyid, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, MagneticStripeReaderErrorReportingType, MagneticStripeReaderDataEncryptionAlgorithm, BarcodeScannerActiveSymbologies, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, pointofservicedriverinterface/BarcodeScannerActiveProfile, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, PosPropertyId, BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, MagneticStripeReaderSupportedCardTypes
+ms.date: 2/19/2018
+ms.keywords: pointofservicedriverinterface/MagneticStripeReaderIsDeviceAuthenticated, MagneticStripeReaderDataEncryptionAlgorithm, PosPropertyId, BarcodeScannerCapabilities, pointofservicedriverinterface/MagneticStripeReaderCapabilities, pointofservicedriverinterface/MagneticStripeReaderIsTransmitSentinelsEnabled, pointofservicedriverinterface/PosPropertyId, MagneticStripeReaderErrorReportingType, MagneticStripeReaderDeviceAuthenticationProtocol, MagneticStripeReaderIsDeviceAuthenticated, pointofservicedriverinterface/BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/BarcodeScannerSupportedProfiles, BarcodeScannerActiveSymbologies, MagneticStripeReaderTracksToRead, pointofservicedriverinterface/MagneticStripeReaderDataEncryptionAlgorithm, pos.pospropertyid, MagneticStripeReaderIsTransmitSentinelsEnabled, IsEnabled, pointofservicedriverinterface/IsDisabledOnDataReceived, pointofservicedriverinterface/BarcodeScannerCapabilities, pointofservicedriverinterface/MagneticStripeReaderErrorReportingType, BarcodeScannerIsDecodeDataEnabled, MagneticStripeReaderIsDecodeDataEnabled, MagneticStripeReaderCapabilities, pointofservicedriverinterface/BarcodeScannerIsDecodeDataEnabled, pointofservicedriverinterface/MagneticStripeReaderSupportedCardTypes, pointofservicedriverinterface/BarcodeScannerActiveProfile, MagneticStripeReaderSupportedCardTypes, PosPropertyId enumeration, BarcodeScannerActiveProfile, _PosPropertyId, pointofservicedriverinterface/IsEnabled, BarcodeScannerSupportedProfiles, IsDisabledOnDataReceived, pointofservicedriverinterface/MagneticStripeReaderIsDecodeDataEnabled, pointofservicedriverinterface/MagneticStripeReaderTracksToRead, BarcodeScannerSupportedSymbologies, pointofservicedriverinterface/BarcodeScannerActiveSymbologies, pointofservicedriverinterface/MagneticStripeReaderDeviceAuthenticationProtocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax
@@ -143,7 +143,7 @@ Returns an array of <a href="..\pointofservicedriverinterface\ne-pointofserviced
 
 ### -field MagneticStripeReaderDeviceAuthenticationProtocol
 
-The driver must return a <a href="https://msdn.microsoft.com/6f06d03e-001e-4340-9b96-8e3654be5c1a">MsrAuthenticationProtocolType</a> that describes the device authentication protocol supported by the MSR. (Read-only).
+The driver must return a <a href="..\pointofservicedriverinterface\ne-pointofservicedriverinterface-_msrauthenticationprotocol.md">MsrAuthenticationProtocolType</a> that describes the device authentication protocol supported by the MSR. (Read-only).
 
 
 ### -field MagneticStripeReaderErrorReportingType
@@ -445,17 +445,17 @@ Specifies the <a href="..\pointofservicedriverinterface\ne-pointofservicedriveri
 
 ## -see-also
 
-<a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
-
-
-
 <a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_get_property.md">IOCTL_POINT_OF_SERVICE_GET_PROPERTY</a>
 
 
 
- 
+<a href="..\pointofservicedriverinterface\ni-pointofservicedriverinterface-ioctl_point_of_service_set_property.md">IOCTL_POINT_OF_SERVICE_SET_PROPERTY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosPropertyId enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20PosPropertyId enumeration%20 RELEASE:%20(2/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

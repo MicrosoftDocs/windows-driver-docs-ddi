@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcchvprintf.htm
 old-project: kernel
 ms.assetid: a3552042-15e6-4778-8026-a4b615228dc7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, kernel.rtlstringcchvprintf, ntstrsafe/RtlStringCchVPrintfA, RtlStringCchVPrintf, RtlStringCchVPrintfA, RtlStringCchVPrintfW, ntstrsafe/RtlStringCchVPrintfW
+ms.date: 2/16/2018
+ms.keywords: ntstrsafe/RtlStringCchVPrintfA, RtlStringCchVPrintfA, RtlStringCchVPrintfW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchVPrintfW, kernel.rtlstringcchvprintf, safestrings_7e5dc683-a092-4540-a6e5-81b72bae11ec.xml, RtlStringCchVPrintfW, RtlStringCchVPrintf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchVPrintfW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
 ---
 
 # RtlStringCchVPrintfW function
@@ -229,6 +229,10 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
+
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
 
 
@@ -237,13 +241,9 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfw.md">RtlStringCchPrintf</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchVPrintfW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCchVPrintfW function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

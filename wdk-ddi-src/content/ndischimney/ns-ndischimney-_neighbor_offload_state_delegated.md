@@ -7,8 +7,8 @@ old-location: netvista\neighbor_offload_state_delegated.htm
 old-project: netvista
 ms.assetid: 94a35d0f-3585-45d0-bba8-0b4a8ebbe883
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PNEIGHBOR_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_860c3a42-4276-4a6e-92c2-c32bc1afa9b2.xml, NEIGHBOR_OFFLOAD_STATE_DELEGATED, _NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_DELEGATED, NEIGHBOR_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED, netvista.neighbor_offload_state_delegated, PNEIGHBOR_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista]"
+ms.date: 2/16/2018
+ms.keywords: NEIGHBOR_OFFLOAD_STATE_DELEGATED, netvista.neighbor_offload_state_delegated, NEIGHBOR_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], *PNEIGHBOR_OFFLOAD_STATE_DELEGATED, _NEIGHBOR_OFFLOAD_STATE_DELEGATED, ndischimney/PNEIGHBOR_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_860c3a42-4276-4a6e-92c2-c32bc1afa9b2.xml, ndischimney/NEIGHBOR_OFFLOAD_STATE_DELEGATED, PNEIGHBOR_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], PNEIGHBOR_OFFLOAD_STATE_DELEGATED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,7 +123,7 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_DELEGATED structure i
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
 
 
 
@@ -135,7 +135,7 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_DELEGATED structure i
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_cached.md">NEIGHBOR_OFFLOAD_STATE_CACHED</a>
+<a href="..\ndischimney\ns-ndischimney-_neighbor_offload_state_const.md">NEIGHBOR_OFFLOAD_STATE_CONST</a>
 
 
 
@@ -151,5 +151,5 @@ When passed to an offload target, a NEIGHBOR_OFFLOAD_STATE_DELEGATED structure i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NEIGHBOR_OFFLOAD_STATE_DELEGATED structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NEIGHBOR_OFFLOAD_STATE_DELEGATED structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

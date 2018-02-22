@@ -7,8 +7,8 @@ old-location: display\dxgk_display_usage.htm
 old-project: display
 ms.assetid: 07B51679-4E9B-4360-AA4A-D5BD9BADB4FC
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/PDXGK_DISPLAY_USAGE, _DXGK_DISPLAY_USAGE, PDXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, DXGK_DU_VR, d3dkmdt/DXGK_DU_GENERIC, DXGK_DISPLAY_USAGE enumeration [Display Devices], PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices], *PDXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_INVALID, display.dxgk_display_usage, DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_AR, d3dkmdt/DXGK_DU_VR, DXGK_DU_AR, DXGK_DISPLAY_USAGE, DXGK_DU_INVALID
+ms.date: 2/20/2018
+ms.keywords: DXGK_DU_AR, _DXGK_DISPLAY_USAGE, *PDXGK_DISPLAY_USAGE, display.dxgk_display_usage, DXGK_DU_VR, DXGK_DISPLAY_USAGE enumeration [Display Devices], DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_GENERIC, PDXGK_DISPLAY_USAGE, DXGK_DU_GENERIC, d3dkmdt/DXGK_DU_VR, d3dkmdt/DXGK_DU_AR, DXGK_DU_INVALID, d3dkmdt/PDXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DISPLAY_USAGE, d3dkmdt/DXGK_DU_INVALID, PDXGK_DISPLAY_USAGE enumeration pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

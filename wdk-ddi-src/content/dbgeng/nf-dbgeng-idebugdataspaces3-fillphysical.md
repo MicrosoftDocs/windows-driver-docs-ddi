@@ -4,11 +4,11 @@ title: IDebugDataSpaces3::FillPhysical method
 author: windows-driver-content
 description: The FillPhysical method writes a pattern of bytes to the target's physical memory. The pattern is written repeatedly until the specified memory range is filled.
 old-location: debugger\fillphysical.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 9fd2cc6d-c891-4566-896b-80d56d143e8d
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3, dbgeng/IDebugDataSpaces4::FillPhysical, IDebugDataSpaces2 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces2::FillPhysical, IDebugDataSpaces3::FillPhysical, IDebugDataSpaces3 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces3::FillPhysical, IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml, FillPhysical method [Windows Debugging], IDebugDataSpaces2 interface, FillPhysical, IDebugDataSpaces2::FillPhysical, IDebugDataSpaces4 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces4::FillPhysical, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2, FillPhysical method [Windows Debugging], IDebugDataSpaces4 interface, debugger.fillphysical, FillPhysical method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: FillPhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces3::FillPhysical, IDebugDataSpaces2::FillPhysical, debugger.fillphysical, FillPhysical method [Windows Debugging], dbgeng/IDebugDataSpaces2::FillPhysical, IDebugDataSpaces4 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces4::FillPhysical, IDebugDataSpaces2, FillPhysical method [Windows Debugging], IDebugDataSpaces4 interface, FillPhysical, IDebugDataSpaces3 interface [Windows Debugging], FillPhysical method, dbgeng/IDebugDataSpaces3::FillPhysical, IDebugDataSpaces3, FillPhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2 interface [Windows Debugging], FillPhysical method, IDebugDataSpaces4::FillPhysical, IDebugDataSpaces_a188638a-cb30-4e13-8fd0-07114f03df52.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugDataSpaces4.FillPhysical
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces3::FillPhysical method
@@ -143,10 +143,6 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561432">WritePhysical</a>
 
 
@@ -155,9 +151,13 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces2::FillPhysical method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugDataSpaces2::FillPhysical method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

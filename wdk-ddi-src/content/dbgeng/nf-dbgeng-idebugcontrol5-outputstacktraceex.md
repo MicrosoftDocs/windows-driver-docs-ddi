@@ -4,11 +4,11 @@ title: IDebugControl5::OutputStackTraceEx method
 author: windows-driver-content
 description: The OutputStackTraceEx method outputs either the supplied stack frame or the current stack frames.
 old-location: debugger\idebugcontrol5_outputstacktraceex.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: C89203F9-FCCF-4D71-8E8A-9F5F4AE89004
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, IDebugControl5, IDebugControl5::OutputStackTraceEx, OutputStackTraceEx method [Windows Debugging], dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex
+ms.date: 2/15/2018
+ms.keywords: OutputStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::OutputStackTraceEx, debugger.idebugcontrol5_outputstacktraceex, IDebugControl5 interface [Windows Debugging], OutputStackTraceEx method, OutputStackTraceEx method [Windows Debugging], IDebugControl5::OutputStackTraceEx, OutputStackTraceEx, IDebugControl5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl5.OutputStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl5::OutputStackTraceEx method
@@ -255,17 +255,17 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818564">GetContextStackTraceEx</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl5::OutputStackTraceEx method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl5::OutputStackTraceEx method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

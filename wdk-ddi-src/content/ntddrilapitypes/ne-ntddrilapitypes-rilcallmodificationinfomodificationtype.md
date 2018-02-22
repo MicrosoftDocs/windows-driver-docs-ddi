@@ -7,8 +7,8 @@ old-location: netvista\rilcallmodificationinfomodificationtype.htm
 old-project: netvista
 ms.assetid: 37b18047-7818-4e57-b25a-3c958106e215
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED, RIL_CALLMODIFICATIONTYPE_MODIFIED, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rilcallmodificationinfomodificationtype, RIL_CALLMODIFICATIONTYPE_MAX, ntddrilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MAX
+ms.date: 2/16/2018
+ms.keywords: RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RIL_CALLMODIFICATIONTYPE_BLOCKED, RIL_CALLMODIFICATIONTYPE_MODIFIED, RILCALLMODIFICATIONINFOMODIFICATIONTYPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MODIFIED, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_MAX, netvista.rilcallmodificationinfomodificationtype, ntddrilapitypes/RIL_CALLMODIFICATIONTYPE_BLOCKED, ntddrilapitypes/RILCALLMODIFICATIONINFOMODIFICATIONTYPE, RIL_CALLMODIFICATIONTYPE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

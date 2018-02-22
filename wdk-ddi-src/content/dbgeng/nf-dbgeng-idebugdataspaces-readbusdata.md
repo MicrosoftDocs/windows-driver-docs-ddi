@@ -4,11 +4,11 @@ title: IDebugDataSpaces::ReadBusData method
 author: windows-driver-content
 description: The ReadBusData method reads data from a system bus.
 old-location: debugger\readbusdata.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 5790b133-dbdc-4f77-a70e-616b0902794e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces4::ReadBusData, IDebugDataSpaces3 interface [Windows Debugging], ReadBusData method, IDebugDataSpaces2::ReadBusData, IDebugDataSpaces interface [Windows Debugging], ReadBusData method, IDebugDataSpaces3::ReadBusData, IDebugDataSpaces::ReadBusData, IDebugDataSpaces4 interface [Windows Debugging], ReadBusData method, dbgeng/IDebugDataSpaces::ReadBusData, debugger.readbusdata, ReadBusData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces, ReadBusData method [Windows Debugging], IDebugDataSpaces interface, ReadBusData method [Windows Debugging], ReadBusData, IDebugDataSpaces4::ReadBusData, IDebugDataSpaces_59d5bf3f-7eb5-452c-ace2-4aed701d34a6.xml, ReadBusData method [Windows Debugging], IDebugDataSpaces3 interface, dbgeng/IDebugDataSpaces2::ReadBusData, dbgeng/IDebugDataSpaces3::ReadBusData, ReadBusData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces2 interface [Windows Debugging], ReadBusData method
+ms.date: 2/15/2018
+ms.keywords: IDebugDataSpaces4::ReadBusData, IDebugDataSpaces interface [Windows Debugging], ReadBusData method, ReadBusData, IDebugDataSpaces2::ReadBusData, IDebugDataSpaces3 interface [Windows Debugging], ReadBusData method, ReadBusData method [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging], ReadBusData method, ReadBusData method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadBusData method, dbgeng/IDebugDataSpaces2::ReadBusData, IDebugDataSpaces::ReadBusData, IDebugDataSpaces_59d5bf3f-7eb5-452c-ace2-4aed701d34a6.xml, ReadBusData method [Windows Debugging], IDebugDataSpaces interface, debugger.readbusdata, dbgeng/IDebugDataSpaces::ReadBusData, ReadBusData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces, dbgeng/IDebugDataSpaces4::ReadBusData, dbgeng/IDebugDataSpaces3::ReadBusData, IDebugDataSpaces3::ReadBusData, ReadBusData method [Windows Debugging], IDebugDataSpaces4 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadBusData
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces::ReadBusData method

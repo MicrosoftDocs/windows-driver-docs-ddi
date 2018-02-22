@@ -7,8 +7,8 @@ old-location: ifsk\_rxlog.htm
 old-project: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk._rxlog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml, _RxLog, _RxLog function [Installable File System Drivers], rxlog/_RxLog
+ms.date: 2/16/2018
+ms.keywords: "_RxLog function [Installable File System Drivers], _RxLog, rxlog/_RxLog, ifsk._rxlog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,5 +139,5 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20_RxLog function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20_RxLog function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

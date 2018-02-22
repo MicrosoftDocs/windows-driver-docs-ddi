@@ -7,8 +7,8 @@ old-location: stream\ksquerybuffer.htm
 old-project: stream
 ms.assetid: 6827df53-f970-4ceb-961d-b4b95fa56cfe
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSQUERYBUFFER structure pointer [Streaming Media Devices], ks/PKSQUERYBUFFER, ks/KSQUERYBUFFER, PKSQUERYBUFFER, KSQUERYBUFFER, KSQUERYBUFFER structure [Streaming Media Devices], *PKSQUERYBUFFER, stream.ksquerybuffer, ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml
+ms.date: 2/20/2018
+ms.keywords: KSQUERYBUFFER, ks/KSQUERYBUFFER, stream.ksquerybuffer, KSQUERYBUFFER structure [Streaming Media Devices], PKSQUERYBUFFER, ks-struct_aa45ed01-603d-4452-8862-649a73361c48.xml, *PKSQUERYBUFFER, ks/PKSQUERYBUFFER, PKSQUERYBUFFER structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSQUERYBUFFER
 product: Windows
 targetos: Windows
-req.typenames: KSQUERYBUFFER, *PKSQUERYBUFFER
+req.typenames: "*PKSQUERYBUFFER, KSQUERYBUFFER"
 ---
 
 # KSQUERYBUFFER structure
@@ -157,17 +157,17 @@ life is good.
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
-
-
-
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
 
 
- 
+<a href="..\ks\ns-ks-ksbuffer_item.md">KSBUFFER_ITEM</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSQUERYBUFFER structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSQUERYBUFFER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

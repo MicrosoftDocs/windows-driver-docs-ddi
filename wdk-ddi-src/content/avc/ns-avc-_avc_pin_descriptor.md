@@ -7,8 +7,8 @@ old-location: stream\avc_pin_descriptor.htm
 old-project: stream
 ms.assetid: 6d404c47-01ae-496c-8252-32f180cf0fd3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.avc_pin_descriptor, PAVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR, avc/AVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], avc/PAVC_PIN_DESCRIPTOR, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, AVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR structure [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: avc/AVC_PIN_DESCRIPTOR, _AVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR, avc/PAVC_PIN_DESCRIPTOR, PAVC_PIN_DESCRIPTOR structure pointer [Streaming Media Devices], AVC_PIN_DESCRIPTOR structure [Streaming Media Devices], *PAVC_PIN_DESCRIPTOR, avcref_4207f0d3-ba1e-47ae-abdd-4eebccf094b9.xml, stream.avc_pin_descriptor, AVC_PIN_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_PIN_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: AVC_PIN_DESCRIPTOR, *PAVC_PIN_DESCRIPTOR
+req.typenames: "*PAVC_PIN_DESCRIPTOR, AVC_PIN_DESCRIPTOR"
 ---
 
 # _AVC_PIN_DESCRIPTOR structure
@@ -142,17 +142,17 @@ A description of the members of the <b>KSPIN_DESCRIPTOR</b> structure used in AV
 
 
 
-<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
-
-
-
 <a href="..\avc\nc-avc-pfnavcintersecthandler.md">AV/C Intersect Handler</a>
 
 
 
- 
+<a href="..\avc\ns-avc-_avc_multifunc_irb.md">AVC_MULTIFUNC_IRB</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_PIN_DESCRIPTOR structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_PIN_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

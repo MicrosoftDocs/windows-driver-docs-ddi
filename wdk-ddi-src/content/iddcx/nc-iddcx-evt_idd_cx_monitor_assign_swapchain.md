@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_assign_swapchain.htm
 old-project: display
 ms.assetid: ae3b4101-d006-48ad-91c9-d9b3ee9a4674
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.evt_idd_cx_monitor_assign_swapchain, EvtIddCxMonitorAssignSwapchain callback function [Display Devices], EvtIddCxMonitorAssignSwapchain, EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, EVT_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN, iddcx/EvtIddCxMonitorAssignSwapchain, PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_ASSIGN_SWAPCHAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices

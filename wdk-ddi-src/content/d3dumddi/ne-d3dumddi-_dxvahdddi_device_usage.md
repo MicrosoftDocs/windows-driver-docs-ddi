@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_device_usage.htm
 old-project: display
 ms.assetid: 9a2e74fa-ee02-46f9-a51e-b2ffcdf7617a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, d3dumddi/DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], display.dxvahdddi_device_usage, _DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED
+ms.date: 2/20/2018
+ms.keywords: d3dumddi/DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, display.dxvahdddi_device_usage, DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_QUALITY, d3dumddi/DXVAHDDDI_DEVICE_USAGE, _DXVAHDDDI_DEVICE_USAGE, DXVAHDDDI_DEVICE_USAGE_PLAYBACK_NORMAL, d3dumddi/DXVAHDDDI_DEVICE_USAGE_OPTIMAL_SPEED, DXVAHDDDI_DEVICE_USAGE enumeration [Display Devices], DXVAHDDDI_DEVICE_USAGE, DXVA2_Structs_37d96cb2-48a3-4538-9225-e63bfe0b5b5f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -103,5 +103,5 @@ A DXVAHDDDI_DEVICE_USAGE-typed value is specified in the <b>Usage</b> member of 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_DEVICE_USAGE enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_DEVICE_USAGE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

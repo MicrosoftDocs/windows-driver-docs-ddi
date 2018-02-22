@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO I/O request returns information about a USB device and the hub it is attached to.
 old-location: buses\ioctl_internal_usb_get_device_config_info.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 518de598-6281-4838-b453-9f699524cbf4
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_internal_usb_get_device_config_info, IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code [Buses], IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO, usbioctl/IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,5 +133,5 @@ Upon successful completion, the HardwareIds, CompatibleIds, DeviceDescription <a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

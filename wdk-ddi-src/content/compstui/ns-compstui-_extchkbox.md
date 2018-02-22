@@ -7,8 +7,8 @@ old-location: print\extchkbox.htm
 old-project: print
 ms.assetid: b3b82474-d4e5-467c-93dc-30edac189c66
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: compstui/PEXTCHKBOX, EXTCHKBOX, PEXTCHKBOX, PEXTCHKBOX structure pointer [Print Devices], compstui/EXTCHKBOX, _EXTCHKBOX, print.extchkbox, EXTCHKBOX structure [Print Devices], *PEXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml
+ms.date: 2/21/2018
+ms.keywords: PEXTCHKBOX structure pointer [Print Devices], PEXTCHKBOX, compstui/PEXTCHKBOX, EXTCHKBOX structure [Print Devices], EXTCHKBOX, _EXTCHKBOX, print.extchkbox, compstui/EXTCHKBOX, *PEXTCHKBOX, cpsuifnc_3d620423-7173-4a78-b087-f8f269c5715d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -207,5 +207,5 @@ An extended check box is a CPSUI-defined type of check box that can be associate
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EXTCHKBOX structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EXTCHKBOX structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

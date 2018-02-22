@@ -7,8 +7,8 @@ old-location: wdf\wdfrequestcompletewithpriorityboost.htm
 old-project: wdf
 ms.assetid: c09ea33d-a20e-4535-8b5c-4645a30841a7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfrequestcompletewithpriorityboost, kmdf.wdfrequestcompletewithpriorityboost, WdfRequestCompleteWithPriorityBoost method, WdfRequestCompleteWithPriorityBoost, wdfrequest/WdfRequestCompleteWithPriorityBoost, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml, PFN_WDFREQUESTCOMPLETEWITHPRIORITYBOOST
+ms.date: 2/20/2018
+ms.keywords: wdfrequest/WdfRequestCompleteWithPriorityBoost, WdfRequestCompleteWithPriorityBoost method, kmdf.wdfrequestcompletewithpriorityboost, WdfRequestCompleteWithPriorityBoost, wdf.wdfrequestcompletewithpriorityboost, DFRequestObjectRef_a396672f-9267-489a-af15-44b4b01831b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,10 +167,6 @@ The following code example shows how the example at <a href="..\wdfrequest\nf-wd
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548758">WdfObjectReference</a>
 
 
@@ -179,9 +175,13 @@ The following code example shows how the example at <a href="..\wdfrequest\nf-wd
 
 
 
- 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestCompleteWithPriorityBoost method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRequestCompleteWithPriorityBoost method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

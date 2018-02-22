@@ -4,11 +4,11 @@ title: "_INLINE_FRAME_CONTEXT"
 author: windows-driver-content
 description: Describes inline frame context.
 old-location: debugger\inline_frame_context.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 6EB52227-8685-4096-882F-64550A84DE4F
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.inline_frame_context, INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging], dbgeng/INLINE_FRAME_CONTEXT, _INLINE_FRAME_CONTEXT
+ms.date: 2/15/2018
+ms.keywords: dbgeng/INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT, debugger.inline_frame_context, _INLINE_FRAME_CONTEXT, INLINE_FRAME_CONTEXT union [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,23 +75,6 @@ typedef union _INLINE_FRAME_CONTEXT {
 ### -field ContextValue
 
 A context value. 
-
-
-### -field FrameId
-
- 
-
-
-### -field FrameType
-
- 
-
-
-### -field FrameSignature
-
- 
-
-
 
 
 #### - {

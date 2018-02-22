@@ -7,13 +7,13 @@ old-location: kernel\io_access_type.htm
 old-project: kernel
 ms.assetid: 9ABFF1E8-50B8-4B59-964D-BA79AB63BFCE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IO_ACCESS_TYPE, WriteAccess, wdm/WriteAccess, wdm/IO_ACCESS_TYPE, IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/ReadAccess, ModifyAccess, wdm/ModifyAccess, _IO_ACCESS_TYPE, ReadAccess, kernel.io_access_type
+ms.date: 2/16/2018
+ms.keywords: IO_ACCESS_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/ModifyAccess, _IO_ACCESS_TYPE, WriteAccess, wdm/IO_ACCESS_TYPE, IO_ACCESS_TYPE, wdm/ReadAccess, ModifyAccess, ReadAccess, wdm/WriteAccess, kernel.io_access_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Ntddsfio.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

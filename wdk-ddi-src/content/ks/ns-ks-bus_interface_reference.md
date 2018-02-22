@@ -7,8 +7,8 @@ old-location: stream\bus_interface_reference.htm
 old-project: stream
 ms.assetid: 17c2c46c-ff79-4c80-82c9-c49b18426789
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: BUS_INTERFACE_REFERENCE, ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, *PBUS_INTERFACE_REFERENCE, ks/PBUS_INTERFACE_REFERENCE, stream.bus_interface_reference, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices], PBUS_INTERFACE_REFERENCE, ks/BUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE structure [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: PBUS_INTERFACE_REFERENCE, stream.bus_interface_reference, ks/PBUS_INTERFACE_REFERENCE, ks-struct_815b7147-1ae1-48d2-bae3-3efce2613b53.xml, BUS_INTERFACE_REFERENCE structure [Streaming Media Devices], BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE, ks/BUS_INTERFACE_REFERENCE, PBUS_INTERFACE_REFERENCE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BUS_INTERFACE_REFERENCE
 product: Windows
 targetos: Windows
-req.typenames: "*PBUS_INTERFACE_REFERENCE, BUS_INTERFACE_REFERENCE"
+req.typenames: BUS_INTERFACE_REFERENCE, *PBUS_INTERFACE_REFERENCE
 ---
 
 # BUS_INTERFACE_REFERENCE structure
@@ -72,7 +72,7 @@ typedef struct {
 
 ### -field Interface
 
-Specifies the exported <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
+Specifies the exported <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>.
 
 
 ### -field ReferenceDeviceObject

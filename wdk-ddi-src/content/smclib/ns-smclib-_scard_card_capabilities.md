@@ -7,8 +7,8 @@ old-location: smartcrd\scard_card_capabilities.htm
 old-project: smartcrd
 ms.assetid: 8cc223be-a692-4141-81f6-4cca9e2fccf1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PSCARD_CARD_CAPABILITIES, smclib/SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], SCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, _SCARD_CARD_CAPABILITIES, smartcrd.scard_card_capabilities, SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], smclib/PSCARD_CARD_CAPABILITIES
+ms.date: 2/15/2018
+ms.keywords: smartcrd.scard_card_capabilities, smclib/PSCARD_CARD_CAPABILITIES, _SCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, SCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], PSCARD_CARD_CAPABILITIES, smclib/SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Any level (See Remarks section)
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	SCARD_CARD_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
+req.typenames: "*PSCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES"
 req.product: Windows 10 or later.
 ---
 
@@ -120,12 +120,14 @@ Contains the elementary time unit (ETU). The ETU indicates the space of transmis
       A structure with the following members:
 
 
-### -field ATR.Buffer
+
+#### Buffer
 
 A pointer to the buffer that receives the answer-to-reset (ATR) information that the smart card provides to the smart card reader after a warm or cold reset. 
 
 
-### -field ATR.Length
+
+#### Length
 
 Contains the length, in bytes, of the ATR. 
 
@@ -138,14 +140,16 @@ Contains the length, in bytes, of the ATR.
      
 
 
-### -field HistoricalChars.Buffer
+
+#### Buffer
 
 Contains the historical characters. Historical characters designate general information, such as the smart card manufacturer, the chip inserted in the smart card, the masked ROM in the chip, and the life cycle of the smart card. For more information about historical characters, see the <i>ISO 7816-3 Specification</i> and part 4 of the <i>ISO 7816 Specification</i>. (This resource may not be available in some languages 
 
 and countries.)
 
 
-### -field HistoricalChars.Length
+
+#### Length
 
 Indicates the length, in bytes, of the historical character information. 
 
@@ -202,12 +206,14 @@ Contains the guard time, in units of microseconds (including the extra guard tim
      
 
 
-### -field Protocol.Supported
+
+#### Supported
 
 Contains a bitmask of the supported protocols. 
 
 
-### -field Protocol.Selected
+
+#### Selected
 
 Contains the protocol that is selected. 
 
@@ -220,12 +226,14 @@ Contains the protocol that is selected.
      
 
 
-### -field T0.WI
+
+#### WI
 
 Contains the work-waiting integer for the T=0 protocol. 
 
 
-### -field T0.WT
+
+#### WT
 
 Contains the work-waiting time, in microseconds, for the T=0 protocol, which is the maximum delay allowed between two consecutive characters. 
 
@@ -238,37 +246,44 @@ Contains the work-waiting time, in microseconds, for the T=0 protocol, which is 
      
 
 
-### -field T1.IFSC
+
+#### IFSC
 
 Contains the size, in bytes, of the card's information field.
 
 
-### -field T1.CWI
+
+#### CWI
 
 Contains the character-waiting integer. 
 
 
-### -field T1.BWI
+
+#### BWI
 
 Contains the block-waiting integer. 
 
 
-### -field T1.EDC
+
+#### EDC
 
 Contains the error detection code. 
 
 
-### -field T1.CWT
+
+#### CWT
 
 Contains the character-waiting time, in microseconds, for the T=1 protocol, which is the maximum delay that is allowed between two consecutive characters.s. 
 
 
-### -field T1.BWT
+
+#### BWT
 
 Contains the block-waiting time, in microseconds, for the T=1 protocol. This is the maximum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
 
 
-### -field T1.BGT
+
+#### BGT
 
 Contains the block-guarding time, in microseconds, for the T=1 protocol. This is the minimum delay between the end of a block and the start of the next block that is sent in the opposite direction. 
 

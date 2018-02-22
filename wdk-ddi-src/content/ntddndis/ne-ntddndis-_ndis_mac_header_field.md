@@ -7,8 +7,8 @@ old-location: netvista\ndis_mac_header_field.htm
 old-project: netvista
 ms.assetid: 31db285c-a7e7-4ba5-ba07-a60cfcfa9af9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMacHeaderFieldPriority, NdisMacHeaderFieldUndefined, netvista.ndis_mac_header_field, virtual_machine_queue_ref_e521f802-ada1-444a-bf43-63405f40e45a.xml, NDIS_MAC_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], NdisMacHeaderFieldVlanId, ntddndis/NdisMacHeaderFieldMaximum, NdisMacHeaderFieldSourceAddress, ntddndis/NDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldProtocol, ntddndis/NdisMacHeaderFieldSourceAddress, ntddndis/NdisMacHeaderFieldDestinationAddress, ntddndis/NdisMacHeaderFieldVlanId, ntddndis/PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldMaximum, _NDIS_MAC_HEADER_FIELD, NDIS_MAC_HEADER_FIELD, *PNDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldProtocol, ntddndis/NdisMacHeaderFieldUndefined, NdisMacHeaderFieldDestinationAddress, ntddndis/NdisMacHeaderFieldPacketType, PNDIS_MAC_HEADER_FIELD, PNDIS_MAC_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisMacHeaderFieldPriority, NdisMacHeaderFieldPacketType
+ms.date: 2/16/2018
+ms.keywords: ntddndis/NdisMacHeaderFieldProtocol, PNDIS_MAC_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_MAC_HEADER_FIELD, NDIS_MAC_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisMacHeaderFieldSourceAddress, ntddndis/NdisMacHeaderFieldDestinationAddress, NdisMacHeaderFieldDestinationAddress, PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldProtocol, ntddndis/NdisMacHeaderFieldUndefined, NdisMacHeaderFieldPacketType, ntddndis/NdisMacHeaderFieldMaximum, NDIS_MAC_HEADER_FIELD, *PNDIS_MAC_HEADER_FIELD, ntddndis/NdisMacHeaderFieldVlanId, netvista.ndis_mac_header_field, NdisMacHeaderFieldPriority, ntddndis/NdisMacHeaderFieldPacketType, _NDIS_MAC_HEADER_FIELD, virtual_machine_queue_ref_e521f802-ada1-444a-bf43-63405f40e45a.xml, NdisMacHeaderFieldVlanId, ntddndis/NdisMacHeaderFieldPriority, ntddndis/PNDIS_MAC_HEADER_FIELD, NdisMacHeaderFieldMaximum, NdisMacHeaderFieldUndefined, NdisMacHeaderFieldSourceAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_MAC_HEADER_FIELD
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_MAC_HEADER_FIELD, NDIS_MAC_HEADER_FIELD"
+req.typenames: NDIS_MAC_HEADER_FIELD, *PNDIS_MAC_HEADER_FIELD
 ---
 
 # _NDIS_MAC_HEADER_FIELD enumeration
@@ -141,5 +141,5 @@ The NDIS_MAC_HEADER_FIELD enumeration is used in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MAC_HEADER_FIELD enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MAC_HEADER_FIELD enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

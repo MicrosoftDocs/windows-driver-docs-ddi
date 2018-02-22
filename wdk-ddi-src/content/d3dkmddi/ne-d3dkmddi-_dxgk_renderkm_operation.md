@@ -7,8 +7,8 @@ old-location: display\dxgk_renderkm_operation.htm
 old-project: display
 ms.assetid: bde22894-97a1-42a8-97c1-ba9738c087b9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_BITBLT, DXGK_RENDERKM_OPERATION, DXGK_GDIOP_ESCAPE, d3dkmddi/DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_CLEARTYPEBLEND, DXGK_RENDERKM_OPERATION enumeration [Display Devices], d3dkmddi/DXGK_GDIOP_ESCAPE, DXGK_GDIOP_TRANSPARENTBLT, d3dkmddi/DXGK_GDIOP_BITBLT, display.dxgk_renderkm_operation, DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml, DXGK_GDIOP_ALPHABLEND, d3dkmddi/DXGK_GDIOP_STRETCHBLT, d3dkmddi/DXGK_RENDERKM_OPERATION, DXGK_GDIOP_COLORFILL, _DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/DXGK_GDIOP_ALPHABLEND, DXGK_GDIOP_COLORFILL, _DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_COLORFILL, d3dkmddi/DXGK_GDIOP_TRANSPARENTBLT, DXGK_GDIOP_TRANSPARENTBLT, DmEnums_f7b836bc-00ed-4ecc-8bb7-460e3e44d165.xml, d3dkmddi/DXGK_GDIOP_ESCAPE, DXGK_RENDERKM_OPERATION, d3dkmddi/DXGK_GDIOP_BITBLT, DXGK_GDIOP_CLEARTYPEBLEND, d3dkmddi/DXGK_GDIOP_STRETCHBLT, DXGK_GDIOP_STRETCHBLT, d3dkmddi/DXGK_GDIOP_CLEARTYPEBLEND, DXGK_GDIOP_BITBLT, DXGK_RENDERKM_OPERATION enumeration [Display Devices], DXGK_GDIOP_ESCAPE, display.dxgk_renderkm_operation, d3dkmddi/DXGK_RENDERKM_OPERATION, DXGK_GDIOP_ALPHABLEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -110,17 +110,17 @@ Indicates a ClearType blend.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_renderkm.md">DxgkDdiRenderKm</a>
 
 
 
- 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_renderkm_command.md">DXGK_RENDERKM_COMMAND</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_RENDERKM_OPERATION enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_RENDERKM_OPERATION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

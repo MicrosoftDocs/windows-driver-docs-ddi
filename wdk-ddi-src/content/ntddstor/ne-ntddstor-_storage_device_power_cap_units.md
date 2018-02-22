@@ -7,8 +7,8 @@ old-location: storage\storage_device_power_cap_units.htm
 old-project: storage
 ms.assetid: 199900F4-90A7-4F2E-B85E-25BF3593D50B
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.storage_device_power_cap_units, STORAGE_DEVICE_POWER_CAP_UNITS, StorageDevicePowerCapUnitsMilliwatts, *PSTORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsPercent, StorageDevicePowerCapUnitsPercent, ntddstor/StorageDevicePowerCapUnitsMilliwatts, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, _STORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, ntddstor/StorageDevicePowerCapUnitsMilliwatts, StorageDevicePowerCapUnitsMilliwatts, ntddstor/StorageDevicePowerCapUnitsPercent, STORAGE_DEVICE_POWER_CAP_UNITS, storage.storage_device_power_cap_units, ntddstor/STORAGE_DEVICE_POWER_CAP_UNITS, _STORAGE_DEVICE_POWER_CAP_UNITS, StorageDevicePowerCapUnitsPercent, STORAGE_DEVICE_POWER_CAP_UNITS enumeration [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DEVICE_POWER_CAP_UNITS
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_POWER_CAP_UNITS, STORAGE_DEVICE_POWER_CAP_UNITS"
+req.typenames: STORAGE_DEVICE_POWER_CAP_UNITS, *PSTORAGE_DEVICE_POWER_CAP_UNITS
 ---
 
 # _STORAGE_DEVICE_POWER_CAP_UNITS enumeration

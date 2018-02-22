@@ -7,8 +7,8 @@ old-location: netvista\rilequipmentstate_2.htm
 old-project: netvista
 ms.assetid: fd3af191-aae8-4afa-b737-8c51029df0e4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_EQSTATE_FULL, rilapitypes/RILEQUIPMENTSTATE, RILEQUIPMENTSTATE, netvista.rilequipmentstate_2, rilapitypes/RIL_EQSTATE_SHUTDOWN, rilapitypes/RIL_EQSTATE_MAX, RIL_EQSTATE_SHUTDOWN, RIL_EQSTATE_MAX, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_EQSTATE_FULL
+ms.date: 2/16/2018
+ms.keywords: RILEQUIPMENTSTATE, rilapitypes/RIL_EQSTATE_FULL, RIL_EQSTATE_MAX, rilapitypes/RIL_EQSTATE_SHUTDOWN, rilapitypes/RILEQUIPMENTSTATE, netvista.rilequipmentstate_2, RILEQUIPMENTSTATE enumeration [Network Drivers Starting with Windows Vista], RIL_EQSTATE_FULL, RIL_EQSTATE_SHUTDOWN, rilapitypes/RIL_EQSTATE_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: storage\partition_information.htm
 old-project: storage
 ms.assetid: 06c3ed56-3640-431d-a4f0-bf3228a02cc2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PARTITION_INFORMATION, PPARTITION_INFORMATION, structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml, ntdddisk/PPARTITION_INFORMATION, _PARTITION_INFORMATION, PARTITION_INFORMATION structure [Storage Devices], ntdddisk/PARTITION_INFORMATION, *PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], storage.partition_information
+ms.date: 2/16/2018
+ms.keywords: structs-disk_19ff49c5-6929-46fb-a9c2-4850969a99a8.xml, PARTITION_INFORMATION structure [Storage Devices], ntdddisk/PPARTITION_INFORMATION, ntdddisk/PARTITION_INFORMATION, storage.partition_information, _PARTITION_INFORMATION, PPARTITION_INFORMATION, PPARTITION_INFORMATION structure pointer [Storage Devices], PARTITION_INFORMATION, *PPARTITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARTITION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PARTITION_INFORMATION, *PPARTITION_INFORMATION
+req.typenames: "*PPARTITION_INFORMATION, PARTITION_INFORMATION"
 ---
 
 # _PARTITION_INFORMATION structure
@@ -137,7 +137,7 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
 
 
 
@@ -149,11 +149,11 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
 
 
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformationex.md">IoSetPartitionInformationEx</a>
 
 
 
@@ -165,5 +165,5 @@ In Windows 2000 and later operating systems, disk drivers should use structures 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PARTITION_INFORMATION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PARTITION_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

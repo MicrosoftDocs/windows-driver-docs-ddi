@@ -7,8 +7,8 @@ old-location: netvista\wsk_inspect_id.htm
 old-project: netvista
 ms.assetid: 54578dc5-a88f-4649-adbd-6a5e1e31e7b3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PWSK_INSPECT_ID, PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], *PWSK_INSPECT_ID, WSK_INSPECT_ID, _WSK_INSPECT_ID, netvista.wsk_inspect_id, wsk/WSK_INSPECT_ID, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], wsk/PWSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml
+ms.date: 2/16/2018
+ms.keywords: wsk/PWSK_INSPECT_ID, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, _WSK_INSPECT_ID, wsk/WSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml, *PWSK_INSPECT_ID, PWSK_INSPECT_ID, netvista.wsk_inspect_id
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_INSPECT_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_INSPECT_ID, WSK_INSPECT_ID"
+req.typenames: WSK_INSPECT_ID, *PWSK_INSPECT_ID
 req.product: Windows 10 or later.
 ---
 
@@ -118,15 +118,7 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
 
 
 
@@ -134,9 +126,17 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570829">SO_CONDITIONAL_ACCEPT</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_INSPECT_ID structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_INSPECT_ID structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

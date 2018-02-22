@@ -7,8 +7,8 @@ old-location: netvista\ril_senddtmf.htm
 old-project: netvista
 ms.assetid: 4091a37e-5115-4213-9242-76b119ad28fc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SendDTMF method [Network Drivers Starting with Windows Vista], netvista.ril_senddtmf, RIL_SendDTMF, rilapi/RIL_SendDTMF
+ms.date: 2/16/2018
+ms.keywords: RIL_SendDTMF, netvista.ril_senddtmf, rilapi/RIL_SendDTMF, RIL_SendDTMF method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SendDTMF
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

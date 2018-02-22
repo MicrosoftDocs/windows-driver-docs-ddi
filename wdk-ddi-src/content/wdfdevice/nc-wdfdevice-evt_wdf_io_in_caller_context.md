@@ -7,7 +7,7 @@ old-location: wdf\evtioincallercontext.htm
 old-project: wdf
 ms.assetid: b8bcea29-e404-490e-9d0c-02c96a5690ab
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtioincallercontext, EvtIoInCallerContext callback function, EvtIoInCallerContext, EVT_WDF_IO_IN_CALLER_CONTEXT, EVT_WDF_IO_IN_CALLER_CONTEXT, wdfdevice/EvtIoInCallerContext, DFDeviceObjectGeneralRef_027a6221-e735-4a5c-a378-d9d9236f21ae.xml, kmdf.evtioincallercontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -165,5 +165,5 @@ The <b>EVT_WDF_IO_IN_CALLER_CONTEXT</b> function type is defined in the Wdfdevic
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_IO_IN_CALLER_CONTEXT callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_IO_IN_CALLER_CONTEXT callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

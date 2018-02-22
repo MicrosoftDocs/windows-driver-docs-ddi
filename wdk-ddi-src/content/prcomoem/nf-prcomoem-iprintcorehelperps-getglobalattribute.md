@@ -7,8 +7,8 @@ old-location: print\iprintcorehelperps_getglobalattribute.htm
 old-project: print
 ms.assetid: 4243ac31-83a7-47b5-8406-9d9537fbeb11
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, IPrintCoreHelperPS, GetGlobalAttribute, print.iprintcorehelperps_getglobalattribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, IPrintCoreHelperPS::GetGlobalAttribute, print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml
+ms.date: 2/21/2018
+ms.keywords: print_unidrv-pscript_allplugins_9c11e4ae-21bd-493c-b4d0-39b8406c8843.xml, print.iprintcorehelperps_getglobalattribute, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface, GetGlobalAttribute, prcomoem/IPrintCoreHelperPS::GetGlobalAttribute, IPrintCoreHelperPS, GetGlobalAttribute method [Print Devices], IPrintCoreHelperPS interface [Print Devices], GetGlobalAttribute method, IPrintCoreHelperPS::GetGlobalAttribute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintCoreHelperPS.GetGlobalAttribute
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -170,6 +170,10 @@ For more information about <b>IPrintCoreHelperPS::GetGlobalAttribute</b>, see <a
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/2be594f1-1eb1-42e0-a345-ee7edf4d96dd">IPrintCoreHelperPS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
 
 
@@ -182,5 +186,5 @@ For more information about <b>IPrintCoreHelperPS::GetGlobalAttribute</b>, see <a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::GetGlobalAttribute method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintCoreHelperPS::GetGlobalAttribute method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

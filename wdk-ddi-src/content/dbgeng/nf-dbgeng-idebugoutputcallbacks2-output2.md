@@ -4,11 +4,11 @@ title: IDebugOutputCallbacks2::Output2 method
 author: windows-driver-content
 description: Returns notifications for the IDebugOutputCallbacks2 interface.
 old-location: debugger\idebugoutputcallbacks2_output2.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2FFF9B54-6E77-4D46-B6C0-5BADD208BFCC
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugOutputCallbacks2, IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, DEBUG_OUTCBI_EXPLICIT_FLUSH, DEBUG_OUTCBI_DML, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface, dbgeng/IDebugOutputCallbacks2::Output2, debugger.idebugoutputcallbacks2_output2, DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], Output2, DEBUG_OUTCBI_ANY_FORMAT
+ms.date: 2/15/2018
+ms.keywords: IDebugOutputCallbacks2 interface [Windows Debugging], Output2 method, DEBUG_OUTCBI_ANY_FORMAT, DEBUG_OUTCBI_EXPLICIT_FLUSH, Output2, Output2 method [Windows Debugging], DEBUG_OUTCBI_TEXT, IDebugOutputCallbacks2, dbgeng/IDebugOutputCallbacks2::Output2, DEBUG_OUTCBI_DML, debugger.idebugoutputcallbacks2_output2, IDebugOutputCallbacks2::Output2, Output2 method [Windows Debugging], IDebugOutputCallbacks2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugOutputCallbacks2.Output2
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugOutputCallbacks2::Output2 method
@@ -166,5 +166,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugOutputCallbacks2::Output2 method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugOutputCallbacks2::Output2 method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

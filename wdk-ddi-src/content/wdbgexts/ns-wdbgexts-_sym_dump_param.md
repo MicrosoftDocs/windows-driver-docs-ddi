@@ -4,11 +4,11 @@ title: "_SYM_DUMP_PARAM"
 author: windows-driver-content
 description: The IG_DUMP_SYMBOL_INFO Ioctl operation provides information about the type of a symbol.
 old-location: debugger\ig_dump_symbol_info.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 5a00f401-89e5-4863-ab14-a8ab7eec1869
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: wdbgexts/PSYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging], *PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM, SYM_DUMP_PARAM structure [Windows Debugging], debugger.ig_dump_symbol_info, WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, _SYM_DUMP_PARAM, SYM_DUMP_PARAM, PSYM_DUMP_PARAM
+ms.date: 2/15/2018
+ms.keywords: debugger.ig_dump_symbol_info, SYM_DUMP_PARAM structure [Windows Debugging], PSYM_DUMP_PARAM, WdbgExts_Ref_22e264c9-ed41-4257-a192-7b3f6d4ffdea.xml, _SYM_DUMP_PARAM, SYM_DUMP_PARAM, *PSYM_DUMP_PARAM, wdbgexts/PSYM_DUMP_PARAM, wdbgexts/SYM_DUMP_PARAM, PSYM_DUMP_PARAM structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,16 +117,6 @@ The callback function specified in the <b>fieldCallBack</b> member of this struc
 DBG_DUMP_LIST should be set in <b>Options</b> to tell this <b>Ioctl</b> to iterate over the list.
 
 
-### -field Context
-
-Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
-
-
-### -field pBuffer
-
-Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
-
-
 ### -field CallbackRoutine
 
 Specifies a callback function that is called by the engine.  The engine provides the callback function with information about the symbol and its members.
@@ -183,6 +173,16 @@ Receives a Boolean value that indicates whether the symbol is a constant.  <b>fC
 
 
 ### -field Reserved
+
+
+#### - Context
+
+Specifies a pointer that is passed to the callback function in the <b>CallbackRoutine</b> member and to the callback functions in the <b>fieldCallBack</b> member of the <b>linkList</b> and <b>Fields</b> members.
+
+
+#### - pBuffer
+
+Specifies a buffer that receives information about the symbol.  This buffer is only used if the DBG_DUMP_COPY_TYPE_DATA flag is set in <b>Options</b>.  The size of this buffer is specified in <b>BufferSize</b>.
 
 
 ## -remarks
@@ -484,6 +484,14 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 ## -see-also
 
+<a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
+
+
+
 <a href="..\wdbgexts\nc-wdbgexts-pwindbg_ioctl_routine.md">Ioctl</a>
 
 
@@ -492,17 +500,9 @@ In addition, the result of the macro DBG_DUMP_RECUR_LEVEL(<i>Level</i>) can be a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550910">IG_DUMP_SYMBOL_INFO Error Codes</a>
-
-
-
-<a href="..\wdbgexts\ns-wdbgexts-_field_info.md">FIELD_INFO</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20SYM_DUMP_PARAM structure%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20SYM_DUMP_PARAM structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgk_updatehwcontextstate_flags.htm
 old-project: display
 ms.assetid: 23F0679A-05BB-4988-AF83-B6CC91C4CB79
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices], DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, display.dxgk_updatehwcontextstate_flags
+ms.date: 2/20/2018
+ms.keywords: display.dxgk_updatehwcontextstate_flags, _DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS, d3dkmddi/DXGK_UPDATEHWCONTEXTSTATE_FLAGS, DXGK_UPDATEHWCONTEXTSTATE_FLAGS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,7 +89,7 @@ Used when the context state update is effective on the GPU.
 This value is reserved for system use.
 
 
-### -field Value
+#### - Value
 
 Used to operate over the rest of values.
 

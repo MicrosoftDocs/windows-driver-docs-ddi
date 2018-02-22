@@ -7,8 +7,8 @@ old-location: netvista\ndis_client_chimney_offload_generic_characteristics.htm
 old-project: netvista
 ms.assetid: 66eb9528-e026-44cd-a775-c8d963036adc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndis_client_chimney_offload_generic_characteristics, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_5db55d5e-f540-4f60-9f3b-adcd24932b1d.xml, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS
+ms.date: 2/16/2018
+ms.keywords: netvista.ndis_client_chimney_offload_generic_characteristics, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, tcp_chim_struct_5db55d5e-f540-4f60-9f3b-adcd24932b1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,35 +153,8 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
-   ProtocolUpdateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
-   ProtocolTerminateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
-   ProtocolInvalidateOffloadComplete</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
    ProtocolQueryOffloadComplete</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
 
 
 
@@ -195,9 +168,36 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 
 
- 
+<a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
+   ProtocolUpdateOffloadComplete</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-invalidate_offload_complete_handler.md">
+   ProtocolInvalidateOffloadComplete</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-terminate_offload_complete_handler.md">
+   ProtocolTerminateOffloadComplete</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

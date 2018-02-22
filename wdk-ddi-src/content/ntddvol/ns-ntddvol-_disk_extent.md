@@ -7,8 +7,8 @@ old-location: storage\disk_extent.htm
 old-project: storage
 ms.assetid: 74ffdfba-1b80-479d-9637-43222a438fa9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DISK_EXTENT structure [Storage Devices], PDISK_EXTENT, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml, storage.disk_extent, ntddvol/DISK_EXTENT, PDISK_EXTENT structure pointer [Storage Devices], DISK_EXTENT, ntddvol/PDISK_EXTENT, _DISK_EXTENT, *PDISK_EXTENT
+ms.date: 2/16/2018
+ms.keywords: "*PDISK_EXTENT, _DISK_EXTENT, DISK_EXTENT, storage.disk_extent, PDISK_EXTENT structure pointer [Storage Devices], PDISK_EXTENT, ntddvol/DISK_EXTENT, DISK_EXTENT structure [Storage Devices], ntddvol/PDISK_EXTENT, structs-disk_2874d2a7-dc4e-46e6-9d43-2374e82c857b.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DISK_EXTENT
 product: Windows
 targetos: Windows
-req.typenames: "*PDISK_EXTENT, DISK_EXTENT"
+req.typenames: DISK_EXTENT, *PDISK_EXTENT
 ---
 
 # _DISK_EXTENT structure
@@ -98,5 +98,5 @@ Specifies the number of bytes of this extent.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_EXTENT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_EXTENT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

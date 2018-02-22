@@ -7,8 +7,8 @@ old-location: netvista\rilsendsupservicedataparams.htm
 old-project: netvista
 ms.assetid: a48c9543-602f-4f3c-876e-9acc76ca1a6b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSENDSUPSERVICEDATAPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendsupservicedataparams, *LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS, ntddrilapitypes/RILSENDSUPSERVICEDATAPARAMS
+ms.date: 2/16/2018
+ms.keywords: RILSENDSUPSERVICEDATAPARAMS, netvista.rilsendsupservicedataparams, ntddrilapitypes/RILSENDSUPSERVICEDATAPARAMS, *LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSENDSUPSERVICEDATAPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILSENDSUPSERVICEDATAPARAMS, *LPRILSENDSUPSERVICEDATAPARAMS
+req.typenames: "*LPRILSENDSUPSERVICEDATAPARAMS, RILSENDSUPSERVICEDATAPARAMS"
 ---
 
 # RILSENDSUPSERVICEDATAPARAMS structure

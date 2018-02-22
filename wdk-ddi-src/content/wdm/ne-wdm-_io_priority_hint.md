@@ -7,8 +7,8 @@ old-location: kernel\io_priority_hint.htm
 old-project: kernel
 ms.assetid: 38d19398-b34f-4934-b643-df119ebd9711
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoPriorityNormal, IoPriorityCritical, kernel.io_priority_hint, wdm/IoPriorityNormal, wdm/IoPriorityCritical, wdm/MaxIoPriorityTypes, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], wdm/IoPriorityLow, IoPriorityLow, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, wdm/IoPriorityHigh, MaxIoPriorityTypes, IoPriorityVeryLow, _IO_PRIORITY_HINT, wdm/IoPriorityVeryLow, wdm/IO_PRIORITY_HINT, IoPriorityHigh, IO_PRIORITY_HINT
+ms.date: 2/16/2018
+ms.keywords: wdm/IoPriorityVeryLow, wdm/IoPriorityLow, wdm/IoPriorityHigh, sysenum_0b8187d9-c762-45d2-a310-294c3c696608.xml, IoPriorityVeryLow, IoPriorityCritical, IoPriorityHigh, IO_PRIORITY_HINT, kernel.io_priority_hint, wdm/IoPriorityNormal, IoPriorityLow, wdm/IoPriorityCritical, wdm/MaxIoPriorityTypes, MaxIoPriorityTypes, IO_PRIORITY_HINT enumeration [Kernel-Mode Driver Architecture], _IO_PRIORITY_HINT, wdm/IO_PRIORITY_HINT, IoPriorityNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -126,5 +126,5 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_PRIORITY_HINT enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_PRIORITY_HINT enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

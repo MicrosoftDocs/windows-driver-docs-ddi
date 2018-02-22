@@ -4,11 +4,11 @@ title: COMPOSITE_DEVICE_CAPABILITIES_INIT function
 author: windows-driver-content
 description: The COMPOSITE_DEVICE_CAPABILITIES_INIT macro initializes the COMPOSITE_DEVICE_CAPABILITIES structure.
 old-location: buses\composite_driver_capabilities_init.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 92DDF65E-4B5B-443A-9C90-3B1BB2DD3CAF
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT, buses.composite_driver_capabilities_init, COMPOSITE_DEVICE_CAPABILITIES_INIT
+ms.date: 2/15/2018
+ms.keywords: usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], COMPOSITE_DEVICE_CAPABILITIES_INIT, buses.composite_driver_capabilities_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	COMPOSITE_DEVICE_CAPABILITIES_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -90,17 +90,17 @@ This routine does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
-
-
-
 <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20COMPOSITE_DEVICE_CAPABILITIES_INIT routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20COMPOSITE_DEVICE_CAPABILITIES_INIT routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

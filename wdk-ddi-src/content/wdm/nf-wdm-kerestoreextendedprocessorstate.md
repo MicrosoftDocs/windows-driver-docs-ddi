@@ -7,8 +7,8 @@ old-location: kernel\kerestoreextendedprocessorstate.htm
 old-project: kernel
 ms.assetid: ea5e654a-9cb5-4d4d-9660-339410a6a20f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState, k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: wdm/KeRestoreExtendedProcessorState, KeRestoreExtendedProcessorState routine [Kernel-Mode Driver Architecture], KeRestoreExtendedProcessorState, k105_35142457-ddfe-4773-b4ed-d2d84d5c74d0.xml, kernel.kerestoreextendedprocessorstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,7 +113,7 @@ A similar set of rules apply to the <a href="..\wdm\nf-wdm-kesavefloatingpointst
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
+<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
 
 
 
@@ -125,7 +125,7 @@ A similar set of rules apply to the <a href="..\wdm\nf-wdm-kesavefloatingpointst
 
 
 
-<a href="..\wdm\nf-wdm-kerestorefloatingpointstate.md">KeRestoreFloatingPointState</a>
+<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
 
 
 
@@ -133,5 +133,5 @@ A similar set of rules apply to the <a href="..\wdm\nf-wdm-kesavefloatingpointst
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRestoreExtendedProcessorState routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeRestoreExtendedProcessorState routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndis_tcp_connection_offload.htm
 old-project: netvista
 ms.assetid: d37a773d-0a83-4592-9c21-3ceaa6454549
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, netvista.ndis_tcp_connection_offload, NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, _NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD, tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_TCP_CONNECTION_OFFLOAD
+ms.date: 2/16/2018
+ms.keywords: netvista.ndis_tcp_connection_offload, ntddndis/PNDIS_TCP_CONNECTION_OFFLOAD, PNDIS_TCP_CONNECTION_OFFLOAD structure pointer [Network Drivers Starting with Windows Vista], tcpip_offload_ref_d53e40a7-cf71-4281-ba14-80d913f810d7.xml, *PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_CONNECTION_OFFLOAD, _NDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD, ntddndis/NDIS_TCP_CONNECTION_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_TCP_CONNECTION_OFFLOAD
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_TCP_CONNECTION_OFFLOAD, NDIS_TCP_CONNECTION_OFFLOAD"
+req.typenames: NDIS_TCP_CONNECTION_OFFLOAD, *PNDIS_TCP_CONNECTION_OFFLOAD
 ---
 
 # _NDIS_TCP_CONNECTION_OFFLOAD structure
@@ -256,17 +256,8 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
-   OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567828">
-   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
+<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
+   NdisMIndicateReceiveNetBufferLists</a>
 
 
 
@@ -280,16 +271,25 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndismindicatereceivenetbufferlists.md">
-   NdisMIndicateReceiveNetBufferLists</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+   OID_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567828">
+   NDIS_STATUS_TCP_CONNECTION_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
@@ -297,5 +297,5 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_CONNECTION_OFFLOAD structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_CONNECTION_OFFLOAD structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

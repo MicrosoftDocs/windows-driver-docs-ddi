@@ -7,8 +7,8 @@ old-location: netvista\riluiccserviceinfo.htm
 old-project: netvista
 ms.assetid: 80abf9a7-0a34-4fc2-ab5a-afcb678b7003
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riluiccserviceinfo, ntddrilapitypes/RILUICCSERVICEINFO, RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista], *LPRILUICCSERVICEINFO
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILUICCSERVICEINFO, netvista.riluiccserviceinfo, *LPRILUICCSERVICEINFO, RILUICCSERVICEINFO, RILUICCSERVICEINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,13 +7,13 @@ old-location: storage\tape_get_position.htm
 old-project: storage
 ms.assetid: dd7a194a-6ce4-4889-b574-7c4f232f45f0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: TAPE_GET_POSITION, _TAPE_GET_POSITION, ntddtape/TAPE_GET_POSITION, PTAPE_GET_POSITION structure pointer [Storage Devices], storage.tape_get_position, TAPE_GET_POSITION structure [Storage Devices], structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml, *PTAPE_GET_POSITION, ntddtape/PTAPE_GET_POSITION, PTAPE_GET_POSITION
+ms.date: 2/16/2018
+ms.keywords: storage.tape_get_position, PTAPE_GET_POSITION, *PTAPE_GET_POSITION, ntddtape/PTAPE_GET_POSITION, ntddtape/TAPE_GET_POSITION, _TAPE_GET_POSITION, structs-tape_e80e5f0f-02d5-4745-a2d1-3d94e8dc9959.xml, TAPE_GET_POSITION structure [Storage Devices], PTAPE_GET_POSITION structure pointer [Storage Devices], TAPE_GET_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddtape.h
-req.include-header: Ntddtape.h
+req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -94,5 +94,5 @@ Indicates the number of bytes from the beginning of the partition to the current
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_GET_POSITION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_GET_POSITION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

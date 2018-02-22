@@ -7,8 +7,8 @@ old-location: whea\pshedsynchronizeexecution.htm
 old-project: whea
 ms.assetid: 299fd2fc-d7f4-4176-addd-d45d010b1056
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: whea.pshedsynchronizeexecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml, PshedSynchronizeExecution, PshedSynchronizeExecution function [WHEA Drivers and Applications], ntddk/PshedSynchronizeExecution
+ms.date: 2/20/2018
+ms.keywords: PshedSynchronizeExecution function [WHEA Drivers and Applications], whea.pshedsynchronizeexecution, ntddk/PshedSynchronizeExecution, PshedSynchronizeExecution, whearef_7a6363f4-466d-498a-97c4-b5f7937005dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,5 +151,5 @@ Callers of the <b>PshedSynchronizeExecution</b> function must be running at IRQL
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PshedSynchronizeExecution function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PshedSynchronizeExecution function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

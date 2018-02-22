@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlcheckoplockex.htm
 old-project: ifsk
 ms.assetid: e06ae137-fbd8-47cc-8102-9fe21993f1ca
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlCheckOplockEx, ntifs/FsRtlCheckOplockEx, ifsk.fsrtlcheckoplockex, fsrtlref_8c9699aa-3c4e-4095-9eee-4caef21f4709.xml, FsRtlCheckOplockEx routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ntifs/FsRtlCheckOplockEx, ifsk.fsrtlcheckoplockex, FsRtlCheckOplockEx routine [Installable File System Drivers], fsrtlref_8c9699aa-3c4e-4095-9eee-4caef21f4709.xml, FsRtlCheckOplockEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -330,7 +330,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">FltCheckOplockEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
 
 
 
@@ -338,7 +338,27 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-fsrtloplockisfastiopossible.md">FsRtlOplockIsFastIoPossible</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock.md">FsRtlUninitializeOplock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">FltCheckOplockEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
 
 
@@ -350,15 +370,11 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545476">FSCTL_OPLOCK_BREAK_ACK_NO_2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
 
 
 
@@ -366,23 +382,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">
 
 
 
-<a href="..\rxprocs\nf-rxprocs-fsrtloplockisfastiopossible.md">FsRtlOplockIsFastIoPossible</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock.md">FsRtlUninitializeOplock</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545485">FSCTL_OPLOCK_BREAK_NOTIFY</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializeoplock.md">FsRtlInitializeOplock</a>
 
 
 
@@ -390,5 +390,5 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCheckOplockEx routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCheckOplockEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

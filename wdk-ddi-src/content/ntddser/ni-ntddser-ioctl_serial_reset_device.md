@@ -7,7 +7,7 @@ old-location: serports\ioctl_serial_reset_device.htm
 old-project: serports
 ms.assetid: af7482b4-4622-40b7-af7a-c952813e7095
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serial_reset_device, IOCTL_SERIAL_RESET_DEVICE control code [Serial Ports], IOCTL_SERIAL_RESET_DEVICE, ntddser/IOCTL_SERIAL_RESET_DEVICE, serref_8c489e42-94d9-4a10-9336-dae4adea904a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

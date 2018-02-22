@@ -7,8 +7,8 @@ old-location: ieee\set_cmp_address_type.htm
 old-project: IEEE
 ms.assetid: b08588a2-d786-44c1-a265-0f7fef9ecd6a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 61883_structures_35b30fc9-69a6-4599-8d76-5aaf35104346.xml, *PSET_CMP_ADDRESS_TYPE, 61883/PSET_CMP_ADDRESS_TYPE, _SET_CMP_ADDRESS_TYPE, PSET_CMP_ADDRESS_TYPE structure pointer [Buses], PSET_CMP_ADDRESS_TYPE, IEEE.set_cmp_address_type, SET_CMP_ADDRESS_TYPE, 61883/SET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: 61883_structures_35b30fc9-69a6-4599-8d76-5aaf35104346.xml, PSET_CMP_ADDRESS_TYPE, IEEE.set_cmp_address_type, *PSET_CMP_ADDRESS_TYPE, 61883/PSET_CMP_ADDRESS_TYPE, PSET_CMP_ADDRESS_TYPE structure pointer [Buses], _SET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE, 61883/SET_CMP_ADDRESS_TYPE, SET_CMP_ADDRESS_TYPE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,5 +96,5 @@ This flag must be set before any plugs are created or removed within the driver.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SET_CMP_ADDRESS_TYPE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SET_CMP_ADDRESS_TYPE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

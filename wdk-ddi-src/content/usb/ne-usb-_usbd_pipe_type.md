@@ -4,11 +4,11 @@ title: "_USBD_PIPE_TYPE"
 author: windows-driver-content
 description: The USBD_PIPE_TYPE enumerator indicates the type of pipe.
 old-location: buses\usbd_pipe_type.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 4522a7d0-d297-4668-bb4e-e4ceae18f52a
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: USBD_PIPE_TYPE, buses.usbd_pipe_type, usb/UsbdPipeTypeInterrupt, _USBD_PIPE_TYPE, UsbdPipeTypeInterrupt, UsbdPipeTypeControl, usb/USBD_PIPE_TYPE, UsbdPipeTypeBulk, usb/UsbdPipeTypeControl, usb/UsbdPipeTypeBulk, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, UsbdPipeTypeIsochronous, USBD_PIPE_TYPE enumeration [Buses], usb/UsbdPipeTypeIsochronous
+ms.date: 2/15/2018
+ms.keywords: usb/UsbdPipeTypeBulk, UsbdPipeTypeBulk, USBD_PIPE_TYPE, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, UsbdPipeTypeControl, usb/USBD_PIPE_TYPE, _USBD_PIPE_TYPE, usb/UsbdPipeTypeIsochronous, usb/UsbdPipeTypeInterrupt, usb/UsbdPipeTypeControl, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeInterrupt, buses.usbd_pipe_type, UsbdPipeTypeIsochronous
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,5 +101,5 @@ Indicates that the pipe is a interrupt pipe.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_PIPE_TYPE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_PIPE_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

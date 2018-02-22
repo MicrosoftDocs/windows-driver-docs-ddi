@@ -4,11 +4,11 @@ title: "_DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR"
 author: windows-driver-content
 description: Describes the system error of the last event.
 old-location: debugger\debug_last_event_info_system_error.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: A66C26AB-3AED-4F44-9F7F-DE5A92BB611A
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: "*PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, dbgeng/PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure [Windows Debugging], _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, dbgeng/DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure pointer [Windows Debugging], debugger.debug_last_event_info_system_error"
+ms.date: 2/15/2018
+ms.keywords: debugger.debug_last_event_info_system_error, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure [Windows Debugging], _DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, *PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR structure pointer [Windows Debugging], dbgeng/DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, dbgeng/PDEBUG_LAST_EVENT_INFO_SYSTEM_ERROR, DEBUG_LAST_EVENT_INFO_SYSTEM_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

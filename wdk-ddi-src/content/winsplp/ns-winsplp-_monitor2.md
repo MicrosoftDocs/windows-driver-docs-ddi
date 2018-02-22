@@ -7,8 +7,8 @@ old-location: print\monitor2.htm
 old-project: print
 ms.assetid: 0bfb5119-2034-4e63-9fbe-e2ff42a352d6
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: LPMONITOR2, winsplp/PMONITOR2, _MONITOR2, winsplp/MONITOR2, *PMONITOR2, MONITOR2, MONITOR2 structure [Print Devices], winsplp/LPMONITOR2, PMONITOR2 structure pointer [Print Devices], PMONITOR2, *LPMONITOR2, LPMONITOR2 structure pointer [Print Devices], spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, print.monitor2
+ms.date: 2/21/2018
+ms.keywords: MONITOR2 structure [Print Devices], *LPMONITOR2, print.monitor2, *PMONITOR2, LPMONITOR2 structure pointer [Print Devices], winsplp/MONITOR2, PMONITOR2, MONITOR2, PMONITOR2 structure pointer [Print Devices], _MONITOR2, spoolfnc_db4ec1e7-1368-4695-bae0-91fd5dcd8a1a.xml, winsplp/LPMONITOR2, LPMONITOR2, winsplp/PMONITOR2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MONITOR2
 product: Windows
 targetos: Windows
-req.typenames: "*LPMONITOR2, MONITOR2, *PMONITOR2"
+req.typenames: "*LPMONITOR2, *PMONITOR2, MONITOR2"
 req.product: Windows 10 or later.
 ---
 
@@ -167,97 +167,104 @@ Specifies the size, in bytes, of the MONITOR2 structure.
 
 ### -field pfnEnumPorts
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548754">EnumPorts</a> function. (Port monitors only.)
+A port monitor server DLL's <b>EnumPorts</b> function enumerates the ports that the port monitor supports.
 
 
 ### -field pfnOpenPort
 
-Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-openport.md">OpenPort</a> function.
+Pointer to the print monitor's <b>OpenPort</b> function.
 
 
 ### -field pfnOpenPortEx
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff559596">OpenPortEx</a> function. (Language monitors only.)
+A language monitor's <code>OpenPortEx</code> function opens a printer port.
 
 
 ### -field pfnStartDocPort
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562710">StartDocPort</a> function.
+A print monitor's <code>StartDocPort</code> function performs the tasks required to start a print job on the specified port.
 
 
 ### -field pfnWritePort
 
-Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-writeport.md">WritePort</a> function.
+Pointer to the print monitor's <b>WritePort</b> function.
 
 
 ### -field pfnReadPort
 
-Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-readport.md">ReadPort</a> function.
+Pointer to the print monitor's <b>ReadPort</b> function.
 
 
 ### -field pfnEndDocPort
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548742">EndDocPort</a> function.
+A print monitor's <b>EndDocPort</b> function performs the tasks required to end a print job on the specified port.
 
 
 ### -field pfnClosePort
 
-Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-closeport.md">ClosePort</a> function.
+Pointer to the print monitor's <b>ClosePort</b> function.
 
 
 ### -field pfnAddPort
 
-(Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> function.
+The <a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> function is obsolete and is for use only with Windows NT 4.0 and previous versions.
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545022">AddPort</a> creates a port and adds it to the list of ports currently supported by the specified monitor in the spooler environment.
 
 
 ### -field pfnAddPortEx
 
-(Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff545025">AddPortEx</a> function. (Port monitors only.)
+(Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <b>AddPortEx</b> function. (Port monitors only.)
 
 
 ### -field pfnConfigurePort
 
-(Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546286">ConfigurePort</a> function.
+The <b>ConfigurePort</b> function is obsolete and is for use only with Windows NT 4.0 and previous versions. For later versions of Windows, use <b>ConfigurePortUI</b>.
+
+<b>ConfigurePort</b> is a port management function that configures the specified port.
 
 
 ### -field pfnDeletePort
 
-(Obsolete. Must be <b>NULL</b>.) Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff547427">DeletePort</a> function.
+The <b>DeletePort</b> function is obsolete and is for use only with Windows NT 4.0 and previous versions.
+
+<b>DeletePort</b> deletes a port from the monitor's environment.
 
 
 ### -field pfnGetPrinterDataFromPort
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff550506">GetPrinterDataFromPort</a> function.
+Pointer to the print monitor's <b>GetPrinterDataFromPort</b> function.
 
 
 ### -field pfnSetPortTimeOuts
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562630">SetPortTimeOuts</a> function. (Port monitors only.)
+A port monitor server DLL's <code>SetPortTimeOuts</code> function sets port time-out values for an open port.
 
 
 ### -field pfnXcvOpenPort
 
-Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvopenport.md">XcvOpenPort</a> function. (Port monitors only.)
+Pointer to the print monitor's <b>XcvOpenPort</b> function. (Port monitors only.)
 
 
 ### -field pfnXcvDataPort
 
-Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvdataport.md">XcvDataPort</a> function. (Port monitors only.)
+Pointer to the print monitor's <b>XcvDataPort</b> function. (Port monitors only.)
 
 
 ### -field pfnXcvClosePort
 
-Pointer to the print monitor's <a href="..\winsplp\nf-winsplp-xcvcloseport.md">XcvClosePort</a> function. (Port monitors only.)
+Pointer to the print monitor's <b>XcvClosePort</b> function. (Port monitors only.)
 
 
 ### -field pfnShutdown
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/dn926950">Shutdown</a> function.
+Pointer to the print monitor's <b>Shutdown</b> function.
 
 
 ### -field pfnSendRecvBidiDataFromPort
 
-Pointer to the print monitor's <a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a> function.
+Pointer to the print monitor's <b>SendRecvBidiDataFromPort</b> function.
 
 
 ### -field pfnNotifyUsedPorts
@@ -290,17 +297,17 @@ If a function is not defined, its pointer must be <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
-
-
-
 <a href="..\winsplp\ns-winsplp-_monitorui.md">MONITORUI</a>
 
 
 
- 
+<a href="..\winsplp\nf-winsplp-initializeprintmonitor2.md">InitializePrintMonitor2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITOR2 structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITOR2 structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

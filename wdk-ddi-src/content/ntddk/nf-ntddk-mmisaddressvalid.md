@@ -7,8 +7,8 @@ old-location: kernel\mmisaddressvalid.htm
 old-project: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MmIsAddressValid routine [Kernel-Mode Driver Architecture], ntddk/MmIsAddressValid, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, MmIsAddressValid, kernel.mmisaddressvalid
+ms.date: 2/16/2018
+ms.keywords: k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, ntddk/MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], MmIsAddressValid, kernel.mmisaddressvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,5 +100,5 @@ Even if <b>MmIsAddressValid</b> returns <b>TRUE</b>, accessing the address can c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmIsAddressValid routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MmIsAddressValid routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

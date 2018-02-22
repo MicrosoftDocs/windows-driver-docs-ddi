@@ -7,8 +7,8 @@ old-location: display\d3dkmtopenadapterfromhdc.htm
 old-project: display
 ms.assetid: f54951fe-c79e-435e-9f31-9c39da26da6c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTOpenAdapterFromHdc function [Display Devices], OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, D3DKMTOpenAdapterFromHdc, display.d3dkmtopenadapterfromhdc, d3dkmthk/D3DKMTOpenAdapterFromHdc
+ms.date: 2/20/2018
+ms.keywords: d3dkmthk/D3DKMTOpenAdapterFromHdc, D3DKMTOpenAdapterFromHdc, OpenGL_Functions_f12cc225-0315-4dfa-ae28-52657ea0f030.xml, D3DKMTOpenAdapterFromHdc function [Display Devices], display.d3dkmtopenadapterfromhdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -196,5 +196,5 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTOpenA
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOpenAdapterFromHdc function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOpenAdapterFromHdc function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

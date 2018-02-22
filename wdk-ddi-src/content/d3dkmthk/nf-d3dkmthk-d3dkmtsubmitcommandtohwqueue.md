@@ -7,8 +7,8 @@ old-location: display\d3dkmtsubmitcommandtohwqueue.htm
 old-project: display
 ms.assetid: E4E6B637-BFAF-4ACD-86C2-109704B8D33D
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmtsubmitcommandtohwqueue, d3dkmthk/D3DKMTSubmitCommandToHwQueue, D3DKMTSubmitCommandToHwQueue function [Display Devices], D3DKMTSubmitCommandToHwQueue
+ms.date: 2/20/2018
+ms.keywords: D3DKMTSubmitCommandToHwQueue function [Display Devices], display.d3dkmtsubmitcommandtohwqueue, D3DKMTSubmitCommandToHwQueue, d3dkmthk/D3DKMTSubmitCommandToHwQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

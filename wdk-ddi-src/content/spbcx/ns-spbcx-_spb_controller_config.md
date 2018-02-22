@@ -7,8 +7,8 @@ old-location: spb\spb_controller_config.htm
 old-project: SPB
 ms.assetid: 73856669-ACE9-46B0-AC7A-282D9C8A0285
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SPB_CONTROLLER_CONFIG structure [Buses], PSPB_CONTROLLER_CONFIG structure pointer [Buses], spbcx/SPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG, SPB.spb_controller_config, SPB_CONTROLLER_CONFIG, _SPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG
+ms.date: 2/15/2018
+ms.keywords: SPB_CONTROLLER_CONFIG structure [Buses], *PSPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG structure pointer [Buses], SPB.spb_controller_config, SPB_CONTROLLER_CONFIG, spbcx/SPB_CONTROLLER_CONFIG, _SPB_CONTROLLER_CONFIG, PSPB_CONTROLLER_CONFIG, spbcx/PSPB_CONTROLLER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -142,27 +142,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 ## -see-also
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
-
-
-
-<a href="https://msdn.microsoft.com/4EB36115-2783-4FD5-9CEE-1F7C971C334D">EvtSpbControllerUnlock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
 
@@ -174,7 +154,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
+<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
 
 
 
@@ -182,11 +162,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDeviceInitialize</a>
 
 
 
@@ -198,11 +174,35 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitsetfilter.md">WdfFdoInitSetFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+
+
 <a href="https://msdn.microsoft.com/02756C35-E76C-42C0-80FA-359CADE224A1">EvtSpbTargetDisconnect</a>
 
 
 
-<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
+
+
+
+<a href="https://msdn.microsoft.com/4EB36115-2783-4FD5-9CEE-1F7C971C334D">EvtSpbControllerUnlock</a>
+
+
+
+<a href="https://msdn.microsoft.com/2BC0E6E7-7EE1-487A-9276-AE8EBB3FFD43">EvtSpbControllerIoRead</a>
+
+
+
+<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
 
 
 
@@ -210,5 +210,5 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_CONTROLLER_CONFIG structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_CONTROLLER_CONFIG structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

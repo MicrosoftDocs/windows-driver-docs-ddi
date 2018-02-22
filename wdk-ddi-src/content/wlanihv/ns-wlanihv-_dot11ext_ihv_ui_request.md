@@ -7,8 +7,8 @@ old-location: netvista\dot11ext_ihv_ui_request.htm
 old-project: netvista
 ms.assetid: 028e3445-320a-41c8-9577-219f9fbabe40
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wlanihv/DOT11EXT_IHV_UI_REQUEST, Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, wlanihv/PDOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_ui_request, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_UI_REQUEST
+ms.date: 2/16/2018
+ms.keywords: PDOT11EXT_IHV_UI_REQUEST, wlanihv/PDOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST, _DOT11EXT_IHV_UI_REQUEST, PDOT11EXT_IHV_UI_REQUEST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_2d145576-2a7d-4fff-ae75-a99e27ebbb18.xml, DOT11EXT_IHV_UI_REQUEST structure [Network Drivers Starting with Windows Vista], DOT11EXT_IHV_UI_REQUEST, netvista.dot11ext_ihv_ui_request, wlanihv/DOT11EXT_IHV_UI_REQUEST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11EXT_IHV_UI_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11EXT_IHV_UI_REQUEST, DOT11EXT_IHV_UI_REQUEST"
+req.typenames: DOT11EXT_IHV_UI_REQUEST, *PDOT11EXT_IHV_UI_REQUEST
 req.product: Windows 10 or later.
 ---
 
@@ -104,18 +104,6 @@ A pointer to a buffer that contains the request data in a format defined by the 
      hardware vendor (IHV).
 
 
-### -field pvUIRequest.size_is
-
- 
-
-
-### -field pvUIRequest.size_is.dwByteCount
-
- 
-
-
-
-
 ## -remarks
 
 
@@ -136,11 +124,11 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_query_ui_request.md">Dot11ExtIhvQueryUIRequest</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_send_ui_request.md">Dot11ExtSendUIRequest</a>
 
 
 
@@ -153,5 +141,5 @@ For each UI request, the DLL must format a DOT11EXT_IHV_UI_REQUEST structure to 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_UI_REQUEST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_IHV_UI_REQUEST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

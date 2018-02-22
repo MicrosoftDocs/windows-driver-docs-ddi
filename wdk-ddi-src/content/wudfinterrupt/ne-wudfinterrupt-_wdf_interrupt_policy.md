@@ -7,8 +7,8 @@ old-location: wdf\wdf_interrupt_policy_umdf.htm
 old-project: wdf
 ms.assetid: 92E2A992-8A0B-4E0F-B615-DC6E30E4A227
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfinterrupt/WdfIrqPolicyMachineDefault, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WDF_INTERRUPT_POLICY, WdfIrqPolicyOneCloseProcessor, WdfIrqPolicyAllProcessorsInMachine, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, umdf.wdf_interrupt_policy, WdfIrqPolicyMachineDefault, wdf.wdf_interrupt_policy_umdf, WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, wudfinterrupt/PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, WDF_INTERRUPT_POLICY enumeration, WDF_INTERRUPT_POLICY, WdfIrqPolicyAllCloseProcessors, *PWDF_INTERRUPT_POLICY, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, PWDF_INTERRUPT_POLICY enumeration pointer, PWDF_INTERRUPT_POLICY
+ms.date: 2/20/2018
+ms.keywords: PWDF_INTERRUPT_POLICY, WdfIrqPolicyOneCloseProcessor, wudfinterrupt/WdfIrqPolicyAllProcessorsInMachine, umdf.wdf_interrupt_policy, wudfinterrupt/WdfIrqPolicySpecifiedProcessors, wdf.wdf_interrupt_policy_umdf, WdfIrqPolicySpreadMessagesAcrossAllProcessors, _WDF_INTERRUPT_POLICY, WdfIrqPolicySpecifiedProcessors, wudfinterrupt/WdfIrqPolicyOneCloseProcessor, PWDF_INTERRUPT_POLICY enumeration pointer, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyMachineDefault, wudfinterrupt/PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY enumeration, wudfinterrupt/WdfIrqPolicyMachineDefault, wudfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, WdfIrqPolicyAllCloseProcessors, wudfinterrupt/WdfIrqPolicyAllCloseProcessors, *PWDF_INTERRUPT_POLICY, wudfinterrupt/WDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_INTERRUPT_POLICY
 product: Windows
 targetos: Windows
-req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
+req.typenames: "*PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY"
 req.product: Windows 10 or later.
 ---
 
@@ -124,5 +124,5 @@ The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_policy.md">WDF_INT
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_POLICY enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_POLICY enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

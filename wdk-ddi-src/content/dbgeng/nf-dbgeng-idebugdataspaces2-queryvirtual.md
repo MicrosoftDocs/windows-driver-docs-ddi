@@ -4,11 +4,11 @@ title: IDebugDataSpaces2::QueryVirtual method
 author: windows-driver-content
 description: The QueryVirtual method provides information about the specified pages in the target's virtual address space.
 old-location: debugger\queryvirtual.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2d607433-0d2d-4662-acd6-9adbce290b97
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], QueryVirtual method, QueryVirtual method [Windows Debugging], QueryVirtual method [Windows Debugging], IDebugDataSpaces2 interface, debugger.queryvirtual, QueryVirtual, dbgeng/IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces_45524d69-d9be-4eb0-971c-3ae6bb6089b2.xml, IDebugDataSpaces2, IDebugDataSpaces2::QueryVirtual
+ms.date: 2/15/2018
+ms.keywords: IDebugDataSpaces2 interface [Windows Debugging], QueryVirtual method, QueryVirtual, IDebugDataSpaces2, debugger.queryvirtual, QueryVirtual method [Windows Debugging], IDebugDataSpaces2::QueryVirtual, IDebugDataSpaces_45524d69-d9be-4eb0-971c-3ae6bb6089b2.xml, dbgeng/IDebugDataSpaces2::QueryVirtual, QueryVirtual method [Windows Debugging], IDebugDataSpaces2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugDataSpaces2.QueryVirtual
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces2::QueryVirtual method

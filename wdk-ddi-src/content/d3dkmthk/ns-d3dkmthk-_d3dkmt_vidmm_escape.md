@@ -7,8 +7,8 @@ old-location: display\d3dkmt_vidmm_escape.htm
 old-project: display
 ms.assetid: b9fb9960-9e6a-4c41-9c40-8ad307f83f0e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml, _D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], d3dkmthk/D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape
+ms.date: 2/20/2018
+ms.keywords: d3dkmthk/D3DKMT_VIDMM_ESCAPE, D3DKMT_VIDMM_ESCAPE structure [Display Devices], D3DKMT_VIDMM_ESCAPE, _D3DKMT_VIDMM_ESCAPE, display.d3dkmt_vidmm_escape, OpenGL_Structs_9a9c243b-b99e-43f2-a749-afbb839fb7c0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,6 +119,10 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 #### HotAddMemory
 
 
+
+#### Value
+
+
 ### -field SetFault.ProbeAndLock
 
 
@@ -171,9 +175,6 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 ### -field SetFault.Reserved
 
 
-### -field SetFault.Value
-
-
 ### -field Evict
 
 
@@ -211,31 +212,6 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
 
 ### -field GetVads.GetNumVads.NumVads
-
- 
-
-
-### -field GetVads.GetVad
-
- 
-
-
-### -field GetVads.GetVadRange
-
- 
-
-
-### -field GetVads.GetGpuMmuCaps
-
- 
-
-
-### -field GetVads.GetPte
-
- 
-
-
-### -field GetVads.GetSegmentCaps
 
  
 
@@ -320,11 +296,6 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
  
 
 
-### -field EvictByCriteria
-
- 
-
-
 ### -field Wake
 
  
@@ -386,5 +357,5 @@ typedef struct _D3DKMT_VIDMM_ESCAPE {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_VIDMM_ESCAPE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_VIDMM_ESCAPE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

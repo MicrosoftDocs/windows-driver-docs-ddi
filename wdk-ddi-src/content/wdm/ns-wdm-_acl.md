@@ -7,8 +7,8 @@ old-location: ifsk\acl.htm
 old-project: ifsk
 ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: wdm/PACL, wdm/ACL, *PACL, ifsk.acl, PACL structure pointer [Installable File System Drivers], ACL structure [Installable File System Drivers], securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, ACL, PACL, _ACL
+ms.date: 2/16/2018
+ms.keywords: ACL structure [Installable File System Drivers], wdm/ACL, _ACL, wdm/PACL, PACL structure pointer [Installable File System Drivers], ACL, ifsk.acl, *PACL, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, PACL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,26 +164,6 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
 
 
@@ -192,11 +172,7 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
 
 
 
@@ -204,9 +180,33 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 
- 
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ACL structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ACL structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

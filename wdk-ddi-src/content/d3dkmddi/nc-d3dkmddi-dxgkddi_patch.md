@@ -7,7 +7,7 @@ old-location: display\dxgkddipatch.htm
 old-project: display
 ms.assetid: 363be784-0e3b-4f9a-a643-80857478bbae
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddipatch, DxgkDdiPatch callback function [Display Devices], DxgkDdiPatch, DXGKDDI_PATCH, DXGKDDI_PATCH, d3dkmddi/DxgkDdiPatch, DmFunctions_dc8691fa-b688-4762-a641-93e4625d8931.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -85,11 +85,14 @@ NTSTATUS APIENTRY DxgkDdiPatch(
 
 
 
+
       Returns <b>STATUS_SUCCESS</b> upon successful completion. If the driver instead returns an error code, the operating system causes a system bugcheck to occur. For more information, see the following Remarks section.
 
 
 
+
 ## -remarks
+
 
 
 The <i>DxgkDdiPatch</i> function must assign physical addresses to the DMA buffer in place. Therefore, when the display miniport driver generates the DMA buffer, the driver must ensure that space is available in the DMA buffer to insert instructions that are required to handle physical addresses. Note that physical addresses might correspond to video memory, AGP/PCI Express memory, or system memory. 
@@ -99,24 +102,31 @@ The driver must examine the supplied patch-location list in the <b>pPatchLocatio
 The driver can patch the value that is supplied in the <b>SubmissionFenceId</b> member of DXGKARG_PATCH into the fence command at the end of the DMA buffer. For more information about this member, see <a href="https://msdn.microsoft.com/0ec8a4eb-c441-47ae-b5de-d86e6065ffd4">Supplying Fence Identifiers</a>.
 
 If the driver returns an error code, the Microsoft DirectX graphics kernel subsystem  causes a system bugcheck to occur. In a crash dump file, the error is noted by the message <b>BugCheck 0x119</b>, which has the following four parameters.
+
 <ol>
 <li>0x3</li>
 <li>A pointer to an internal scheduler data structure</li>
 <li>A pointer to an internal scheduler data structure</li>
 <li>A pointer to an internal scheduler data structure</li>
-</ol><i>DxgkDdiPatch</i> should be made pageable.
+</ol>
+<i>DxgkDdiPatch</i> should be made pageable.
+
 
 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
- 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_patch.md">DXGKARG_PATCH</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_PATCH callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_PATCH callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

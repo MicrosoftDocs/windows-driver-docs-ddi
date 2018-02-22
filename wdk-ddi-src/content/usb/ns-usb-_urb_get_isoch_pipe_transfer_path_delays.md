@@ -4,11 +4,11 @@ title: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
 author: windows-driver-content
 description: The _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure is used by USB client drivers to retrieve delays associated with isochronous transfer programming in the host controller and transfer completion so that the client driver can ensure that the device gets the isochronous packets in time.
 old-location: buses\_urb_get_isoch_pipe_transfer_path_delays.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 70B74088-C537-4104-A535-F41A24BB72A5
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: "_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, buses._urb_get_isoch_pipe_transfer_path_delays, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses], usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS"
+ms.date: 2/15/2018
+ms.keywords: usb/_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, buses._urb_get_isoch_pipe_transfer_path_delays, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,11 +75,6 @@ struct _URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS {
 ### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS, and <b>Hdr.Length</b> must be set to <code>sizeofsizeof(_URB_GET_ISOCH_PIPE_TRANSFER_PATH_DELAYS)</code>.
-
-
-### -field _URB_HEADER
-
- 
 
 
 ### -field PipeHandle

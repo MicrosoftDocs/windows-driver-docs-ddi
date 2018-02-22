@@ -7,7 +7,7 @@ old-location: audio\phdaudio_transfer_complete_callback.htm
 old-project: audio
 ms.assetid: 6B3DA3B1-33E9-4BE4-A3EE-146080C483A6
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.phdaudio_transfer_complete_callback, HDAudioTransferCompleteCallback callback function [Audio Devices], HDAudioTransferCompleteCallback, PHDAUDIO_TRANSFER_COMPLETE_CALLBACK, PHDAUDIO_TRANSFER_COMPLETE_CALLBACK, hdaudio/HDAudioTransferCompleteCallback, HDAudioTransferCompleteCallback callback function [Audio Devices], HDAudioTransferCompleteCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	HDAudioTransferCompleteCallback
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
 ---
 
 # PHDAUDIO_TRANSFER_COMPLETE_CALLBACK callback

@@ -7,7 +7,7 @@ old-location: display\dxgkddisetpowerstate.htm
 old-project: display
 ms.assetid: 6462be4f-1f6e-4b85-a3ba-15820ee8605b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddisetpowerstate, DxgkDdiSetPowerState callback function [Display Devices], DxgkDdiSetPowerState, DXGKDDI_SET_POWER_STATE, DXGKDDI_SET_POWER_STATE, dispmprt/DxgkDdiSetPowerState, DmFunctions_712dfd67-ab92-4ffb-80e8-18e6b80a0dd4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiSetPowerState
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_SET_POWER_STATE callback
@@ -96,11 +96,14 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560459">POWER_A
 ## -returns
 
 
+
 <i>DxgkDdiSetPowerState</i> returns <b>STATUS_SUCCESS</b> if it succeeds. <i>DxgkDdiSetPowerState</i> should never fail; however, it can return any NTSTATUS-typed value that is defined in <i>Ntstatus.h</i> and that passes the <a href="https://msdn.microsoft.com/7792201b-63bb-4db5-803d-2af02893d505">NT_SUCCESS(Status)</a> macro.
 
 
 
+
 ## -remarks
+
 
 
 If the requested state is equal to <b>PowerDeviceD1</b>, <b>PowerDeviceD2</b>, or <b>PowerDeviceD3</b>, <i>DxgkDdiSetPowerState</i> saves any context that will later be required to bring the device back to <b>PowerDeviceD0</b> and then places the device in the requested state. If the requested state is <b>PowerDeviceD0</b> (fully on), <i>DxgkDdiSetPowerState</i> restores the device context and places the device in <b>PowerDeviceD0</b>.
@@ -117,17 +120,24 @@ The <i>DxgkDdiSetPowerState</i> function should be made pageable.
 
 
 
-## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
 
+
+
 <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
 
- 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_SET_POWER_STATE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_SET_POWER_STATE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

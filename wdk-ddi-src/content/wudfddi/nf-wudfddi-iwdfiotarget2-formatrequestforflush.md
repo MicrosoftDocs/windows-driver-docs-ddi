@@ -7,8 +7,8 @@ old-location: wdf\iwdfiotarget2_formatrequestforflush.htm
 old-project: wdf
 ms.assetid: 28509e28-0e81-4531-947c-9ce452564682
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfiotarget2_formatrequestforflush, wudfddi/IWDFIoTarget2::FormatRequestForFlush, FormatRequestForFlush method, IWDFIoTarget2 interface, IWDFIoTarget2 interface, FormatRequestForFlush method, IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, IWDFIoTarget2, FormatRequestForFlush method, FormatRequestForFlush, umdf.iwdfiotarget2_formatrequestforflush
+ms.date: 2/20/2018
+ms.keywords: FormatRequestForFlush method, FormatRequestForFlush method, IWDFIoTarget2 interface, IWDFIoTarget2::FormatRequestForFlush, wudfddi/IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, umdf.iwdfiotarget2_formatrequestforflush, FormatRequestForFlush, wdf.iwdfiotarget2_formatrequestforflush, IWDFIoTarget2 interface, FormatRequestForFlush method, IWDFIoTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTarget2.FormatRequestForFlush
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -185,11 +185,11 @@ CMyQueue::OnDefaultIoHandler(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
 
 
 
@@ -201,5 +201,5 @@ CMyQueue::OnDefaultIoHandler(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoTarget2::FormatRequestForFlush method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoTarget2::FormatRequestForFlush method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

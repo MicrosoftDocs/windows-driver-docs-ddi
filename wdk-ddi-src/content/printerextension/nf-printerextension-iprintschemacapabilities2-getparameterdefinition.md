@@ -7,8 +7,8 @@ old-location: print\iprintschemacapabilities2_getparameterdefinition.htm
 old-project: print
 ms.assetid: 19C3A3C5-446B-48FD-8E77-2E0F787B16B1
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2, GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface, IPrintSchemaCapabilities2::GetParameterDefinition, GetParameterDefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method
+ms.date: 2/21/2018
+ms.keywords: IPrintSchemaCapabilities2, IPrintSchemaCapabilities2::GetParameterDefinition, print.iprintschemacapabilities2_getparameterdefinition, IPrintSchemaCapabilities2 interface [Print Devices], GetParameterDefinition method, GetParameterDefinition, printerextension/IPrintSchemaCapabilities2::GetParameterDefinition, GetParameterDefinition method [Print Devices], GetParameterDefinition method [Print Devices], IPrintSchemaCapabilities2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,6 +111,10 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 ## -see-also
 
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
+
+
+
 <a href="http://msdn.microsoft.com/en-us/library/windows/hardware/gg463385.aspx">Print Schema Specification</a>
 
 
@@ -119,13 +123,9 @@ For more information about the data types that you can use with the &lt;psf:Para
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities2.md">IPrintSchemaCapabilities2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaCapabilities2::GetParameterDefinition method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaCapabilities2::GetParameterDefinition method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

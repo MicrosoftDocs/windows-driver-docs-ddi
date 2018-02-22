@@ -7,8 +7,8 @@ old-location: wdf\wdffileobjectgetdevice.htm
 old-project: wdf
 ms.assetid: 10bb8bbd-0347-4ceb-844e-87f049813684
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFFILEOBJECTGETDEVICE, kmdf.wdffileobjectgetdevice, wdf.wdffileobjectgetdevice, wdffileobject/WdfFileObjectGetDevice, WdfFileObjectGetDevice, DFFileObjectRef_4986a619-be10-4eca-84dd-9ae1dcac423f.xml, WdfFileObjectGetDevice method
+ms.date: 2/20/2018
+ms.keywords: wdffileobject/WdfFileObjectGetDevice, kmdf.wdffileobjectgetdevice, WdfFileObjectGetDevice method, DFFileObjectRef_4986a619-be10-4eca-84dd-9ae1dcac423f.xml, wdf.wdffileobjectgetdevice, WdfFileObjectGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFileObjectGetDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

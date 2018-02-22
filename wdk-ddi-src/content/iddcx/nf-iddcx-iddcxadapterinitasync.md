@@ -7,8 +7,8 @@ old-location: display\iddcxadapterinitasync.htm
 old-project: display
 ms.assetid: c23d0d24-b043-4e39-afd3-abab6bb84769
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.iddcxadapterinitasync, IddCxAdapterInitAsync, IddCxAdapterInitAsync method [Display Devices], iddcx/IddCxAdapterInitAsync
+ms.date: 2/20/2018
+ms.keywords: iddcx/IddCxAdapterInitAsync, display.iddcxadapterinitasync, IddCxAdapterInitAsync method [Display Devices], IddCxAdapterInitAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,7 +7,7 @@ old-location: display\dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset.h
 old-project: display
 ms.assetid: 37878f3a-f61e-423c-ab03-94318089f7af
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgk_monitor_interface_v2_pfngetadditionalmonitormodeset, pfnGetAdditionalMonitorModeSet callback function [Display Devices], pfnGetAdditionalMonitorModeSet, DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET, d3dkmddi/pfnGetAdditionalMonitorModeSet, VidPnFunctions_c86b07fb-c73c-4990-86a0-15c93ba7e2dd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -178,15 +178,11 @@ This function is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_targetmode_detail_timing.md">DXGK_TARGETMODE_DETAIL_TIMING</a>
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset.md">DXGK_MONITOR_INTERFACE_V2::pfnReleaseAdditionalMonitorModeSet</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_monitor_interface_v2.md">DXGK_MONITOR_INTERFACE_V2</a>
 
 
 
@@ -202,9 +198,13 @@ This function is available beginning with Windows 7.
 
 
 
- 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_monitor_releaseadditionalmonitormodeset.md">DXGK_MONITOR_INTERFACE_V2::pfnReleaseAdditionalMonitorModeSet</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_MONITOR_GETADDITIONALMONITORMODESET callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

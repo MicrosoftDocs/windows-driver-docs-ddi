@@ -7,8 +7,8 @@ old-location: netvista\ril_getuicclockstate.htm
 old-project: netvista
 ms.assetid: a831f49b-203e-4672-aced-679f0835dabb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetUiccLockState method [Network Drivers Starting with Windows Vista], RIL_GetUiccLockState, rilapi/RIL_GetUiccLockState, netvista.ril_getuicclockstate
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_getuicclockstate, rilapi/RIL_GetUiccLockState, RIL_GetUiccLockState method [Network Drivers Starting with Windows Vista], RIL_GetUiccLockState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetUiccLockState
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

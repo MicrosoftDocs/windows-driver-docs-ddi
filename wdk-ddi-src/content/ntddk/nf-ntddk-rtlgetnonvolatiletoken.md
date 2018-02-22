@@ -7,8 +7,8 @@ old-location: ifsk\rtlgetnonvolatiletoken.htm
 old-project: ifsk
 ms.assetid: A9E866D4-C47F-4926-A838-EDB739CF1185
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.rtlgetnonvolatiletoken, RtlGetNonVolatileToken, ntddk/RtlGetNonVolatileToken, RtlGetNonVolatileToken routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: RtlGetNonVolatileToken routine [Installable File System Drivers], ntddk/RtlGetNonVolatileToken, ifsk.rtlgetnonvolatiletoken, RtlGetNonVolatileToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,10 +168,6 @@ RtlFlushNonVolatileMemory</a>
 
 
 
-<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
-
-
-
 <a href="https://msdn.microsoft.com/169C5F41-B372-4056-AAC5-53DD0582A563">RtlFlushNonVolatileMemoryRanges</a>
 
 
@@ -180,9 +176,13 @@ RtlFlushNonVolatileMemory</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetNonVolatileToken routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlGetNonVolatileToken routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

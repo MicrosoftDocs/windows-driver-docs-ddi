@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlinitextracreateparameterlookasidelist.htm
 old-project: ifsk
 ms.assetid: 30ad87de-a371-415b-b77f-513369fed098
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlinitextracreateparameterlookasidelist, FsRtlInitExtraCreateParameterLookasideList, fsrtlref_4b4e21ec-cfcc-45b7-bcb9-74dbc7c486ac.xml, ntifs/FsRtlInitExtraCreateParameterLookasideList, FsRtlInitExtraCreateParameterLookasideList routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.fsrtlinitextracreateparameterlookasidelist, ntifs/FsRtlInitExtraCreateParameterLookasideList, FsRtlInitExtraCreateParameterLookasideList routine [Installable File System Drivers], FsRtlInitExtraCreateParameterLookasideList, fsrtlref_4b4e21ec-cfcc-45b7-bcb9-74dbc7c486ac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,27 +116,11 @@ For more information on using lookaside lists with drivers, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist.md">FsRtlAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtldeleteextracreateparameterlookasidelist.md">FsRtlDeleteExtraCreateParameterLookasideList</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameter.md">FsRtlFreeExtraCreateParameter</a>
 
 
 
@@ -144,9 +128,25 @@ For more information on using lookaside lists with drivers, see <a href="https:/
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-fsrtldeleteextracreateparameterlookasidelist.md">FsRtlDeleteExtraCreateParameterLookasideList</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlallocateextracreateparameterfromlookasidelist.md">FsRtlAllocateExtraCreateParameterFromLookasideList</a>
+
+
+
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlInitExtraCreateParameterLookasideList routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlInitExtraCreateParameterLookasideList routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

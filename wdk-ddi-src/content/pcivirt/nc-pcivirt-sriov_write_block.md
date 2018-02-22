@@ -7,7 +7,7 @@ old-location: pci\sriov_write_block.htm
 old-project: PCI
 ms.assetid: da47d601-2fab-49bb-b669-909a2e5c95c0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.sriov_write_block, SriovWriteBlock callback function [Buses], SriovWriteBlock, SRIOV_WRITE_BLOCK, SRIOV_WRITE_BLOCK, pcivirt/SriovWriteBlock, *PSRIOV_WRITE_BLOCK callback function pointer [Buses], *PSRIOV_WRITE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_WRITE_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_WRITE_BLOCK callback

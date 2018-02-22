@@ -4,11 +4,11 @@ title: IDebugSystemObjects4::GetCurrentProcessUpTime method
 author: windows-driver-content
 description: The GetCurrentProcessUpTime method returns the length of time the current process has been running.
 old-location: debugger\getcurrentprocessuptime.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 6c6f3824-5e04-45df-8128-f3778aaa3636
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects2::GetCurrentProcessUpTime, IDebugSystemObjects4, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessUpTime method, GetCurrentProcessUpTime method [Windows Debugging], IDebugSystemObjects2 interface, GetCurrentProcessUpTime method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessUpTime method [Windows Debugging], IDebugSystemObjects4 interface, debugger.getcurrentprocessuptime, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessUpTime method, IDebugSystemObjects4::GetCurrentProcessUpTime, IDebugSystemObjects_cf0611a9-8535-4e53-ae13-32d46b887954.xml, IDebugSystemObjects2, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessUpTime method, IDebugSystemObjects3, GetCurrentProcessUpTime, dbgeng/IDebugSystemObjects4::GetCurrentProcessUpTime, IDebugSystemObjects3::GetCurrentProcessUpTime, dbgeng/IDebugSystemObjects3::GetCurrentProcessUpTime, IDebugSystemObjects2::GetCurrentProcessUpTime, GetCurrentProcessUpTime method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: IDebugSystemObjects_cf0611a9-8535-4e53-ae13-32d46b887954.xml, dbgeng/IDebugSystemObjects4::GetCurrentProcessUpTime, GetCurrentProcessUpTime, IDebugSystemObjects2::GetCurrentProcessUpTime, dbgeng/IDebugSystemObjects3::GetCurrentProcessUpTime, debugger.getcurrentprocessuptime, IDebugSystemObjects3::GetCurrentProcessUpTime, dbgeng/IDebugSystemObjects2::GetCurrentProcessUpTime, GetCurrentProcessUpTime method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentProcessUpTime method, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentProcessUpTime method, IDebugSystemObjects4::GetCurrentProcessUpTime, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessUpTime method, IDebugSystemObjects2, IDebugSystemObjects3, GetCurrentProcessUpTime method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentProcessUpTime method [Windows Debugging], IDebugSystemObjects4 interface, GetCurrentProcessUpTime method [Windows Debugging], IDebugSystemObjects4
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSystemObjects4.GetCurrentProcessUpTime
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetCurrentProcessUpTime method

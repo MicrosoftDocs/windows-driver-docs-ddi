@@ -7,8 +7,8 @@ old-location: display\dxgk_monitorlinkinfo_usagehints.htm
 old-project: display
 ms.assetid: 4FC2509A-9983-41F8-901F-60DCEDBC163F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/PDXGK_MONITORLINKINFO_USAGEHINTS, _DXGK_MONITORLINKINFO_USAGEHINTS, d3dkmdt/DXGK_MONITORLINKINFO_USAGEHINTS, PDXGK_MONITORLINKINFO_USAGEHINTS, *PDXGK_MONITORLINKINFO_USAGEHINTS, DXGK_MONITORLINKINFO_USAGEHINTS, DXGK_MONITORLINKINFO_USAGEHINTS union [Display Devices], display.dxgk_monitorlinkinfo_usagehints, PDXGK_MONITORLINKINFO_USAGEHINTS union pointer [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: DXGK_MONITORLINKINFO_USAGEHINTS union [Display Devices], PDXGK_MONITORLINKINFO_USAGEHINTS union pointer [Display Devices], d3dkmdt/PDXGK_MONITORLINKINFO_USAGEHINTS, PDXGK_MONITORLINKINFO_USAGEHINTS, _DXGK_MONITORLINKINFO_USAGEHINTS, display.dxgk_monitorlinkinfo_usagehints, *PDXGK_MONITORLINKINFO_USAGEHINTS, DXGK_MONITORLINKINFO_USAGEHINTS, d3dkmdt/DXGK_MONITORLINKINFO_USAGEHINTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -68,19 +68,19 @@ typedef union _DXGK_MONITORLINKINFO_USAGEHINTS {
 
 
 
-### -field Hidden
-
-If TRUE, DxgKrnl will hide this display from Win32 so it cannot be a part of the desktop.
-
-
-### -field Reserved
-
-This value is reserved for system use.
-
-
 ### -field Value
 
  
 
 
+
+
+#### - Hidden
+
+If TRUE, DxgKrnl will hide this display from Win32 so it cannot be a part of the desktop.
+
+
+#### - Reserved
+
+This value is reserved for system use.
 

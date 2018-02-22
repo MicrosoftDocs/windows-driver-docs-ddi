@@ -7,8 +7,8 @@ old-location: display\d3dddicb_submitcommandflags.htm
 old-project: display
 ms.assetid: 415255A8-4D43-4677-B4B3-0425D6D57933
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS, display.d3dddicb_submitcommandflags, D3DDDICB_SUBMITCOMMANDFLAGS"
+ms.date: 2/20/2018
+ms.keywords: D3DDDICB_SUBMITCOMMANDFLAGS, _D3DDDICB_SUBMITCOMMANDFLAGS, D3DDDICB_SUBMITCOMMANDFLAGS structure [Display Devices], display.d3dddicb_submitcommandflags, d3dumddi/D3DDDICB_SUBMITCOMMANDFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -90,7 +90,7 @@ This member is reserved and should be set to zero.
 Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 The consolidated value of the bit-field members in this structure.
 

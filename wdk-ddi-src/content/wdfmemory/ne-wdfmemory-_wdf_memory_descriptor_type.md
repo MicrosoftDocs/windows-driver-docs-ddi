@@ -7,8 +7,8 @@ old-location: wdf\wdf_memory_descriptor_type.htm
 old-project: wdf
 ms.assetid: ab364ad8-1b04-4ad0-a036-9b1c41e16604
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfMemoryDescriptorTypeHandle, _WDF_MEMORY_DESCRIPTOR_TYPE, wdf.wdf_memory_descriptor_type, WdfMemoryDescriptorTypeMdl, WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeMdl, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeBuffer, wdfmemory/WdfMemoryDescriptorTypeHandle, WdfMemoryDescriptorTypeInvalid, DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, wdfmemory/WdfMemoryDescriptorTypeInvalid, WdfMemoryDescriptorTypeBuffer, kmdf.wdf_memory_descriptor_type, WDF_MEMORY_DESCRIPTOR_TYPE enumeration
+ms.date: 2/20/2018
+ms.keywords: WdfMemoryDescriptorTypeInvalid, WDF_MEMORY_DESCRIPTOR_TYPE, wdfmemory/WdfMemoryDescriptorTypeBuffer, wdf.wdf_memory_descriptor_type, DFMemoryObjectRef_3817f18e-3d20-43d6-b6f0-584c1533fe9a.xml, kmdf.wdf_memory_descriptor_type, wdfmemory/WdfMemoryDescriptorTypeHandle, wdfmemory/WdfMemoryDescriptorTypeMdl, WDF_MEMORY_DESCRIPTOR_TYPE enumeration, wdfmemory/WdfMemoryDescriptorTypeInvalid, wdfmemory/WDF_MEMORY_DESCRIPTOR_TYPE, _WDF_MEMORY_DESCRIPTOR_TYPE, WdfMemoryDescriptorTypeBuffer, WdfMemoryDescriptorTypeHandle, WdfMemoryDescriptorTypeMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -103,5 +103,5 @@ The <a href="..\wdfmemory\ns-wdfmemory-_wdf_memory_descriptor.md">WDF_MEMORY_DES
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_MEMORY_DESCRIPTOR_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_MEMORY_DESCRIPTOR_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

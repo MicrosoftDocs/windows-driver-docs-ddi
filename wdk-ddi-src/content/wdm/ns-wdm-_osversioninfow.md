@@ -7,8 +7,8 @@ old-location: kernel\rtl_osversioninfow.htm
 old-project: kernel
 ms.assetid: 04e50a2c-eb85-4fc8-9751-798397eddf95
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "_OSVERSIONINFOW, *POSVERSIONINFOW, RTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, OSVERSIONINFO, *PRTL_OSVERSIONINFOW, kernel.rtl_osversioninfow, wdm/PRTL_OSVERSIONINFOW, wdm/RTL_OSVERSIONINFOW, OSVERSIONINFOW, *LPOSVERSIONINFOW, PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOW"
+ms.date: 2/16/2018
+ms.keywords: PRTL_OSVERSIONINFOW structure pointer [Kernel-Mode Driver Architecture], *LPOSVERSIONINFOW, RTL_OSVERSIONINFOW, *POSVERSIONINFOW, _OSVERSIONINFOW, kernel.rtl_osversioninfow, wdm/PRTL_OSVERSIONINFOW, RTL_OSVERSIONINFOW structure [Kernel-Mode Driver Architecture], PRTL_OSVERSIONINFOW, kstruct_d_61d86312-0550-4bce-81c8-bb29551cc586.xml, wdm/RTL_OSVERSIONINFOW, OSVERSIONINFOW, *PRTL_OSVERSIONINFOW, OSVERSIONINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RTL_OSVERSIONINFOW
 product: Windows
 targetos: Windows
-req.typenames: OSVERSIONINFOW, *POSVERSIONINFOW, RTL_OSVERSIONINFOW, *PRTL_OSVERSIONINFOW, *LPOSVERSIONINFOW
+req.typenames: "*PRTL_OSVERSIONINFOW, OSVERSIONINFOW, *POSVERSIONINFOW, RTL_OSVERSIONINFOW, *LPOSVERSIONINFOW"
 req.product: Windows 10 or later.
 ---
 
@@ -114,7 +114,7 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
+<a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
 
 
 
@@ -122,7 +122,7 @@ For a list of the major and minor version numbers for the various versions of Wi
 
 
 
-<a href="..\wdm\ns-wdm-_osversioninfoexw.md">RTL_OSVERSIONINFOEXW</a>
+<a href="..\wdm\nf-wdm-rtlverifyversioninfo.md">RtlVerifyVersionInfo</a>
 
 
 
@@ -130,5 +130,5 @@ For a list of the major and minor version numbers for the various versions of Wi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RTL_OSVERSIONINFOW structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RTL_OSVERSIONINFOW structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

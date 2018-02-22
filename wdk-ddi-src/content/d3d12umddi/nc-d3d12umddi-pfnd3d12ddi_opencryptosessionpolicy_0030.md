@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_opencryptosessionpolicy_0030.htm
 old-project: display
 ms.assetid: 24B30BE0-9B7E-4946-8677-E3E727A63498
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_opencryptosessionpolicy_0030, PFND3D12DDI_OPENCRYPTOSESSIONPOLICY_0030 callback function [Display Devices], PFND3D12DDI_OPENCRYPTOSESSIONPOLICY_0030, d3d12umddi/PFND3D12DDI_OPENCRYPTOSESSIONPOLICY_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,6 +87,8 @@ The crypto session policy.
 ## -returns
 
 
+
 Returns STATUS_SUCCESS if completed successfully.
+
 
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltcbdqremoveio.htm
 old-project: ifsk
 ms.assetid: 88ff23b0-502c-4b15-9037-e4ea75441722
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltCbdqRemoveIo, ifsk.fltcbdqremoveio, fltkernel/FltCbdqRemoveIo, FltCbdqRemoveIo function [Installable File System Drivers], FltApiRef_a_to_d_3d737d8a-141a-4a15-9b78-45a215f9fd25.xml
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltCbdqRemoveIo, FltCbdqRemoveIo function [Installable File System Drivers], FltApiRef_a_to_d_3d737d8a-141a-4a15-9b78-45a215f9fd25.xml, ifsk.fltcbdqremoveio, FltCbdqRemoveIo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,15 +114,11 @@ If the queue is protected by a <a href="https://msdn.microsoft.com/0585fc2a-0d0b
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
 
 
 
@@ -130,17 +126,21 @@ If the queue is protected by a <a href="https://msdn.microsoft.com/0585fc2a-0d0b
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltcbdqinitialize.md">FltCbdqInitialize</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCbdqRemoveIo function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCbdqRemoveIo function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

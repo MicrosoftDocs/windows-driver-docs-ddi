@@ -4,11 +4,11 @@ title: IDebugSymbols2::GetSymbolTypeId method
 author: windows-driver-content
 description: The GetSymbolTypeId method returns the type ID and module of the specified symbol.
 old-location: debugger\getsymboltypeid.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 0c77ad1a-218d-4857-a07c-f5d542d070d7
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols::GetSymbolTypeId, GetSymbolTypeId, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, dbgeng/IDebugSymbols2::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::GetSymbolTypeId, debugger.getsymboltypeid, GetSymbolTypeId method [Windows Debugging], GetSymbolTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeId method, dbgeng/IDebugSymbols3::GetSymbolTypeId, IDebugSymbols2, IDebugSymbols interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols2 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols, IDebugSymbols3::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2::GetSymbolTypeId
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols2::GetSymbolTypeId, IDebugSymbols3::GetSymbolTypeId, IDebugSymbols::GetSymbolTypeId, GetSymbolTypeId method [Windows Debugging], IDebugSymbols3 interface, GetSymbolTypeId method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::GetSymbolTypeId, dbgeng/IDebugSymbols::GetSymbolTypeId, IDebugSymbols interface [Windows Debugging], GetSymbolTypeId method, GetSymbolTypeId method [Windows Debugging], GetSymbolTypeId, IDebugSymbols2, dbgeng/IDebugSymbols3::GetSymbolTypeId, IDebugSymbols_c62a5150-7e20-4217-8fb8-667cbd93042a.xml, IDebugSymbols2 interface [Windows Debugging], GetSymbolTypeId method, IDebugSymbols, GetSymbolTypeId method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], GetSymbolTypeId method, debugger.getsymboltypeid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetSymbolTypeId
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols2::GetSymbolTypeId method
@@ -127,19 +127,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -147,9 +135,21 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetSymbolTypeId method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetSymbolTypeId method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

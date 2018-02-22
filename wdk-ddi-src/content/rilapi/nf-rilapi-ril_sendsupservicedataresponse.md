@@ -7,8 +7,8 @@ old-location: netvista\ril_sendsupservicedataresponse.htm
 old-project: netvista
 ms.assetid: 28e8093e-6fcc-4abd-999a-5948e7062c43
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SendSupServiceDataResponse method [Network Drivers Starting with Windows Vista], netvista.ril_sendsupservicedataresponse, RIL_SendSupServiceDataResponse, rilapi/RIL_SendSupServiceDataResponse
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_sendsupservicedataresponse, RIL_SendSupServiceDataResponse method [Network Drivers Starting with Windows Vista], rilapi/RIL_SendSupServiceDataResponse, RIL_SendSupServiceDataResponse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SendSupServiceDataResponse
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: wdf\iwdfobject_acquirelock.htm
 old-project: wdf
 ms.assetid: f69328fb-356b-4381-ae6e-df39ac60e032
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: AcquireLock method, IWDFObject interface, AcquireLock method, IWDFObject::AcquireLock, AcquireLock, wudfddi/IWDFObject::AcquireLock, umdf.iwdfobject_acquirelock, AcquireLock method, IWDFObject interface, IWDFObject, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, wdf.iwdfobject_acquirelock
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfobject_acquirelock, UMDFBaseObjectRef_3a9b581b-87cd-489d-b945-924489d5c3b9.xml, AcquireLock, AcquireLock method, AcquireLock method, IWDFObject interface, wdf.iwdfobject_acquirelock, IWDFObject::AcquireLock, wudfddi/IWDFObject::AcquireLock, IWDFObject interface, AcquireLock method, IWDFObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFObject.AcquireLock
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -112,5 +112,5 @@ For a code example of how to use the <b>AcquireLock</b> method, see <a href="htt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFObject::AcquireLock method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFObject::AcquireLock method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

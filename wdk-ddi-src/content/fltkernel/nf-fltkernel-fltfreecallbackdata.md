@@ -7,8 +7,8 @@ old-location: ifsk\fltfreecallbackdata.htm
 old-project: ifsk
 ms.assetid: 45cf398f-f7f0-4eb1-b490-4123c6c9f6fa
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltfreecallbackdata, FltFreeCallbackData routine [Installable File System Drivers], fltkernel/FltFreeCallbackData, FltFreeCallbackData, FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml
+ms.date: 2/16/2018
+ms.keywords: FltFreeCallbackData routine [Installable File System Drivers], fltkernel/FltFreeCallbackData, FltApiRef_e_to_o_1ad2fa09-dd36-4178-a422-a6a1f3854182.xml, FltFreeCallbackData, ifsk.fltfreecallbackdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,6 +97,10 @@ The <b>FltFreeCallbackData</b> routine frees any <a href="..\wdm\ns-wdm-_mdl.md"
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
 
 
@@ -113,13 +117,9 @@ The <b>FltFreeCallbackData</b> routine frees any <a href="..\wdm\ns-wdm-_mdl.md"
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltFreeCallbackData routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltFreeCallbackData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

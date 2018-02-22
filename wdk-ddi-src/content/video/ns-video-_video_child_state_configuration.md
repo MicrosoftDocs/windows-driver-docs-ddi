@@ -7,8 +7,8 @@ old-location: display\video_child_state_configuration.htm
 old-project: display
 ms.assetid: e298ef49-d285-426a-9028-78f7f54340b2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "*PVIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION structure [Display Devices], video/VIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION, video/PVIDEO_CHILD_STATE_CONFIGURATION, Video_Structs_22fa1242-c537-4cae-ab47-b7e972e24d09.xml, _VIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION structure pointer [Display Devices], display.video_child_state_configuration"
+ms.date: 2/20/2018
+ms.keywords: Video_Structs_22fa1242-c537-4cae-ab47-b7e972e24d09.xml, PVIDEO_CHILD_STATE_CONFIGURATION structure pointer [Display Devices], video/VIDEO_CHILD_STATE_CONFIGURATION, PVIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION, *PVIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION structure [Display Devices], display.video_child_state_configuration, _VIDEO_CHILD_STATE_CONFIGURATION, video/PVIDEO_CHILD_STATE_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: See Remarks section.
+req.irql: "<= DISPATCH_LEVEL"
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_CHILD_STATE_CONFIGURATION
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_CHILD_STATE_CONFIGURATION, *PVIDEO_CHILD_STATE_CONFIGURATION
+req.typenames: "*PVIDEO_CHILD_STATE_CONFIGURATION, VIDEO_CHILD_STATE_CONFIGURATION"
 req.product: Windows 10 or later.
 ---
 
@@ -102,15 +102,7 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 
 ## -see-also
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
-
-
-
 <a href="..\video\ns-video-_video_request_packet.md">VIDEO_REQUEST_PACKET</a>
-
-
-
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
 
 
 
@@ -118,9 +110,17 @@ The video port driver sends a VIDEO_CHILD_STATE_CONFIGURATION structure to the m
 
 
 
- 
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_validate_child_state_configuration.md">IOCTL_VIDEO_VALIDATE_CHILD_STATE_CONFIGURATION</a>
+
+
+
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_set_child_state_configuration.md">IOCTL_VIDEO_SET_CHILD_STATE_CONFIGURATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_CHILD_STATE_CONFIGURATION structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_CHILD_STATE_CONFIGURATION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

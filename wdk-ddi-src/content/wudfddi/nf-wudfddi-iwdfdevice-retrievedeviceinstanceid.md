@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice_retrievedeviceinstanceid.htm
 old-project: wdf
 ms.assetid: 224277b4-447f-4981-aabf-90a10322c0df
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice, wudfddi/IWDFDevice::RetrieveDeviceInstanceId, IWDFDevice::RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId, RetrieveDeviceInstanceId method, IWDFDevice interface, IWDFDevice interface, RetrieveDeviceInstanceId method, wdf.iwdfdevice_retrievedeviceinstanceid, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml
+ms.date: 2/20/2018
+ms.keywords: RetrieveDeviceInstanceId, wdf.iwdfdevice_retrievedeviceinstanceid, UMDFDeviceObjectRef_fef96c70-8877-4c1f-9e05-d4caf9a8ea28.xml, RetrieveDeviceInstanceId method, RetrieveDeviceInstanceId method, IWDFDevice interface, IWDFDevice::RetrieveDeviceInstanceId, IWDFDevice, umdf.iwdfdevice_retrievedeviceinstanceid, IWDFDevice interface, RetrieveDeviceInstanceId method, wudfddi/IWDFDevice::RetrieveDeviceInstanceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice.RetrieveDeviceInstanceId
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -117,5 +117,5 @@ If <i>Buffer</i> is non-<b>NULL</b>, the framework returns the size, in characte
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::RetrieveDeviceInstanceId method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice::RetrieveDeviceInstanceId method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

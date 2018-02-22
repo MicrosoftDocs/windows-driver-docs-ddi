@@ -7,8 +7,8 @@ old-location: display\dxgi_ddi_multiplane_overlay_blend.htm
 old-project: display
 ms.assetid: 00b263e7-8655-4219-8e06-e0feba659d04
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND, display.dxgi_ddi_multiplane_overlay_blend, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
+ms.date: 2/20/2018
+ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_BLEND, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, display.dxgi_ddi_multiplane_overlay_blend, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_OPAQUE, DXGI_DDI_MULTIPLANE_OVERLAY_BLEND enumeration [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_BLEND_ALPHABLEND, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_BLEND
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

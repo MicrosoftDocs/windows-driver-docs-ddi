@@ -7,8 +7,8 @@ old-location: display\dxgkmdt_opm_configure_parameters.htm
 old-project: display
 ms.assetid: 7f9a4770-c30d-41ae-bd46-dce106b1811d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/PDXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_CONFIGURE_PARAMETERS structure [Display Devices], DXGKMDT_OPM_CONFIGURE_PARAMETERS, d3dkmdt/DXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_SET_HDCP_SRM, _DXGKMDT_OPM_CONFIGURE_PARAMETERS, DmStructs_98db66f6-39e1-4e08-83c5-ead1c527302f.xml, DXGKMDT_OPM_SET_PROTECTION_LEVEL or DXGKMDT_OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD, *PDXGKMDT_OPM_CONFIGURE_PARAMETERS, PDXGKMDT_OPM_CONFIGURE_PARAMETERS structure pointer [Display Devices], DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING, display.dxgkmdt_opm_configure_parameters, PDXGKMDT_OPM_CONFIGURE_PARAMETERS
+ms.date: 2/20/2018
+ms.keywords: DXGKMDT_OPM_SET_PROTECTION_LEVEL or DXGKMDT_OPM_SET_PROTECTION_LEVEL_ACCORDING_TO_CSS_DVD, d3dkmdt/PDXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_SET_ACP_AND_CGMSA_SIGNALING, DXGKMDT_OPM_CONFIGURE_PARAMETERS, DmStructs_98db66f6-39e1-4e08-83c5-ead1c527302f.xml, *PDXGKMDT_OPM_CONFIGURE_PARAMETERS, _DXGKMDT_OPM_CONFIGURE_PARAMETERS, PDXGKMDT_OPM_CONFIGURE_PARAMETERS, d3dkmdt/DXGKMDT_OPM_CONFIGURE_PARAMETERS, display.dxgkmdt_opm_configure_parameters, PDXGKMDT_OPM_CONFIGURE_PARAMETERS structure pointer [Display Devices], DXGKMDT_OPM_SET_HDCP_SRM, DXGKMDT_OPM_CONFIGURE_PARAMETERS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGKMDT_OPM_CONFIGURE_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGKMDT_OPM_CONFIGURE_PARAMETERS, DXGKMDT_OPM_CONFIGURE_PARAMETERS"
+req.typenames: DXGKMDT_OPM_CONFIGURE_PARAMETERS, *PDXGKMDT_OPM_CONFIGURE_PARAMETERS
 ---
 
 # _DXGKMDT_OPM_CONFIGURE_PARAMETERS structure
@@ -159,7 +159,7 @@ These are possible GUIDs and structures for configuration information:
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
 
 
 
@@ -167,11 +167,7 @@ These are possible GUIDs and structures for configuration information:
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_omac.md">DXGKMDT_OPM_OMAC</a>
-
-
-
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_hdcp_srm_parameters.md">DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS</a>
 
 
 
@@ -179,7 +175,11 @@ These are possible GUIDs and structures for configuration information:
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_hdcp_srm_parameters.md">DXGKMDT_OPM_SET_HDCP_SRM_PARAMETERS</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_configure_protected_output.md">DxgkDdiOPMConfigureProtectedOutput</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_set_protection_level_parameters.md">DXGKMDT_OPM_SET_PROTECTION_LEVEL_PARAMETERS</a>
 
 
 
@@ -187,5 +187,5 @@ These are possible GUIDs and structures for configuration information:
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_CONFIGURE_PARAMETERS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKMDT_OPM_CONFIGURE_PARAMETERS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

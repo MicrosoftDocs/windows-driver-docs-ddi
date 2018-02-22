@@ -7,7 +7,7 @@ old-location: ifsk\ioctl_volsnap_flush_and_hold_writes.htm
 old-project: ifsk
 ms.assetid: c9189ca4-8b0e-470b-b027-f629ed243534
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
+ms.date: 2/16/2018
 ms.keywords: ifsk.ioctl_volsnap_flush_and_hold_writes, IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code [Installable File System Drivers], IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, ntifs/IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES, ioctl_ref_f21aed38-5d6d-4b8c-ac8a-6cd1738a3de7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -166,5 +166,5 @@ If this is a read-only volume, then there is normally nothing that a file system
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IOCTL_VOLSNAP_FLUSH_AND_HOLD_WRITES control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\ksrtaudio_setwritepacket_info.htm
 old-project: audio
 ms.assetid: 641DE2B5-7903-4D25-A280-F2BCCE8B1500
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: KSRTAUDIO_SETWRITEPACKET_INFO structure [Audio Devices], KSRTAUDIO_SETWRITEPACKET_INFO, ksmedia/KSRTAUDIO_SETWRITEPACKET_INFO, PKSRTAUDIO_SETWRITEPACKET_INFO, PKSRTAUDIO_SETWRITEPACKET_INFO structure pointer [Audio Devices], ksmedia/PKSRTAUDIO_SETWRITEPACKET_INFO, audio.ksrtaudio_setwritepacket_info, *PKSRTAUDIO_SETWRITEPACKET_INFO
+ms.date: 2/21/2018
+ms.keywords: KSRTAUDIO_SETWRITEPACKET_INFO structure [Audio Devices], PKSRTAUDIO_SETWRITEPACKET_INFO structure pointer [Audio Devices], ksmedia/KSRTAUDIO_SETWRITEPACKET_INFO, ksmedia/PKSRTAUDIO_SETWRITEPACKET_INFO, PKSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO, *PKSRTAUDIO_SETWRITEPACKET_INFO, audio.ksrtaudio_setwritepacket_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRTAUDIO_SETWRITEPACKET_INFO
 product: Windows
 targetos: Windows
-req.typenames: KSRTAUDIO_SETWRITEPACKET_INFO, *PKSRTAUDIO_SETWRITEPACKET_INFO
+req.typenames: "*PKSRTAUDIO_SETWRITEPACKET_INFO, KSRTAUDIO_SETWRITEPACKET_INFO"
 ---
 
 # KSRTAUDIO_SETWRITEPACKET_INFO structure
@@ -102,5 +102,5 @@ The length of the EOS packet if <i>KSSTREAM_HEADER_OPTIONSF_ENDOFSTREAM</i> is s
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSRTAUDIO_SETWRITEPACKET_INFO structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSRTAUDIO_SETWRITEPACKET_INFO structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

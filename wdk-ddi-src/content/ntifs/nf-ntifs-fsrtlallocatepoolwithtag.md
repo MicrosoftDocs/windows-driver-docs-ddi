@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlallocatepoolwithtag.htm
 old-project: ifsk
 ms.assetid: a9ea59d1-1d51-4332-b497-7d2b7f39e686
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlAllocatePoolWithTag routine [Installable File System Drivers], fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, FsRtlAllocatePoolWithTag, ifsk.fsrtlallocatepoolwithtag, ntifs/FsRtlAllocatePoolWithTag
+ms.date: 2/16/2018
+ms.keywords: FsRtlAllocatePoolWithTag, FsRtlAllocatePoolWithTag routine [Installable File System Drivers], ntifs/FsRtlAllocatePoolWithTag, fsrtlref_1137174c-fe54-4575-98a6-64a569f91b96.xml, ifsk.fsrtlallocatepoolwithtag
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -112,7 +112,7 @@ Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL &lt;= DISPATC
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 
 
@@ -124,5 +124,5 @@ Callers of <b>FsRtlAllocatePoolWithTag</b> must be running at IRQL &lt;= DISPATC
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAllocatePoolWithTag routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlAllocatePoolWithTag routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: whea\whea_error_record_header.htm
 old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ntddk/WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], whea.whea_error_record_header, ntddk/PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
+ms.date: 2/20/2018
+ms.keywords: PWHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, whea.whea_error_record_header, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -277,15 +277,7 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
-
-
-
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 
 
@@ -293,9 +285,17 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 
 
- 
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_RECORD_HEADER structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_RECORD_HEADER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

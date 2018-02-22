@@ -4,11 +4,11 @@ title: "_USBFN_DEVICE_STATE"
 author: windows-driver-content
 description: Defines the Universal Serial Bus (USB) device states for the device/controller. These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 old-location: buses\usbfn_device_state.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: B367D0F7-5026-4C88-B88A-69068F76B675
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: UsbfnDeviceStateMinimum, usbfnbase/UsbfnDeviceStateDetached, USBFN_DEVICE_STATE enumeration [Buses], usbfnbase/UsbfnDeviceStateAddressed, usbfnbase/UsbfnDeviceStateDefault, usbfnbase/UsbfnDeviceStateSuspended, usbfnbase/UsbfnDeviceStateAttached, USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateConfigured, UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateStateMaximum, UsbfnDeviceStateDetached, UsbfnDeviceStateAddressed, _USBFN_DEVICE_STATE, UsbfnDeviceStateDefault, buses.usbfn_device_state, *PUSBFN_DEVICE_STATE, UsbfnDeviceStateAttached, UsbfnDeviceStateSuspended, usbfnbase/USBFN_DEVICE_STATE, UsbfnDeviceStateStateMaximum, usbfnbase/UsbfnDeviceStateMinimum
+ms.date: 2/15/2018
+ms.keywords: usbfnbase/UsbfnDeviceStateAttached, usbfnbase/UsbfnDeviceStateConfigured, usbfnbase/UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateMinimum, UsbfnDeviceStateDefault, buses.usbfn_device_state, usbfnbase/UsbfnDeviceStateSuspended, *PUSBFN_DEVICE_STATE, UsbfnDeviceStateAddressed, UsbfnDeviceStateConfigured, usbfnbase/USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateDefault, UsbfnDeviceStateMinimum, USBFN_DEVICE_STATE enumeration [Buses], UsbfnDeviceStateSuspended, UsbfnDeviceStateDetached, usbfnbase/UsbfnDeviceStateStateMaximum, UsbfnDeviceStateStateMaximum, UsbfnDeviceStateAttached, USBFN_DEVICE_STATE, _USBFN_DEVICE_STATE, usbfnbase/UsbfnDeviceStateAddressed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: USBFN_DEVICE_STATE, *PUSBFN_DEVICE_STATE
+req.typenames: "*PUSBFN_DEVICE_STATE, USBFN_DEVICE_STATE"
 req.product: Windows 10 or later.
 ---
 

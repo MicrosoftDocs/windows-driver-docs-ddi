@@ -7,8 +7,8 @@ old-location: display\d3dddigpuvirtualaddress_protection_type.htm
 old-project: display
 ms.assetid: CA46EEC4-5F3D-4E4C-8C83-6D91BE301C68
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], display.d3dddigpuvirtualaddress_protection_type, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE"
+ms.date: 2/20/2018
+ms.keywords: D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, display.d3dddigpuvirtualaddress_protection_type, D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE structure [Display Devices], _D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE, d3dukmdt/D3DDDIGPUVIRTUALADDRESS_PROTECTION_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,7 +107,7 @@ This member is for system use only and should not be set by the user mode driver
 This member is reserved and should be set to zero.
 
 
-### -field Value
+#### - Value
 
 The consolidated value of the structure's members.
 

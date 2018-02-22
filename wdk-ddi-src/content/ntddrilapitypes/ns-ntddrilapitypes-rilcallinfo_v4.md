@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfo_v4.htm
 old-project: netvista
 ms.assetid: 456597d1-e24c-414c-b099-509078cafdc1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLINFO_V4, *LPRILCALLINFO_V4, netvista.rilcallinfo_v4, RILCALLINFO_V4
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCALLINFO_V4, RILCALLINFO_V4, netvista.rilcallinfo_v4, RILCALLINFO_V4 structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLINFO_V4"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLINFO_V4
 product: Windows
 targetos: Windows
-req.typenames: RILCALLINFO_V4, *LPRILCALLINFO_V4
+req.typenames: "*LPRILCALLINFO_V4, RILCALLINFO_V4"
 ---
 
 # RILCALLINFO_V4 structure

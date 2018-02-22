@@ -7,8 +7,8 @@ old-location: bltooth\enumerator_type.htm
 old-project: bltooth
 ms.assetid: 2f8ae260-3a4c-44a5-85b7-e3ebcf21522b
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: ENUMERATOR_TYPE_SERVICE, bltooth.enumerator_type, bthddi/ENUMERATOR_TYPE_SERVICE, PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], *PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], ENUMERATOR_TYPE_MAX, _ENUMERATOR_TYPE, ENUMERATOR_TYPE_PROTOCOL, bthddi/ENUMERATOR_TYPE_MAX, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, bthddi/PENUMERATOR_TYPE
+ms.date: 2/15/2018
+ms.keywords: PENUMERATOR_TYPE enumeration pointer [Bluetooth Devices], bltooth.enumerator_type, ENUMERATOR_TYPE_SERVICE, bthddi/ENUMERATOR_TYPE, ENUMERATOR_TYPE enumeration [Bluetooth Devices], ENUMERATOR_TYPE_MAX, _ENUMERATOR_TYPE, PENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_SERVICE, bthddi/ENUMERATOR_TYPE_MAX, bth_enums_48fc8cf9-53b6-46fd-831a-f4a5c56ff3f1.xml, bthddi/PENUMERATOR_TYPE, *PENUMERATOR_TYPE, ENUMERATOR_TYPE, bthddi/ENUMERATOR_TYPE_PROTOCOL, ENUMERATOR_TYPE_PROTOCOL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	ENUMERATOR_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PENUMERATOR_TYPE, ENUMERATOR_TYPE"
+req.typenames: ENUMERATOR_TYPE, *PENUMERATOR_TYPE
 ---
 
 # _ENUMERATOR_TYPE enumeration
@@ -106,18 +106,18 @@ A value from this enumeration is returned as the
 
 ## -see-also
 
+<a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
+
+
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_internal_bthenum_get_enuminfo.md">
    IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO</a>
 
 
 
-<a href="..\bthddi\ns-bthddi-_bth_enumerator_info.md">BTH_ENUMERATOR_INFO</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20ENUMERATOR_TYPE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20ENUMERATOR_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

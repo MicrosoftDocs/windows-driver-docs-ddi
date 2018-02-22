@@ -7,8 +7,8 @@ old-location: ifsk\system_audit_ace.htm
 old-project: ifsk
 ms.assetid: 03806d36-0066-4603-ba53-10149778b4e7
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "*PSYSTEM_AUDIT_ACE, securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml, ntifs/PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE, ifsk.system_audit_ace, _SYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], ntifs/SYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers]"
+ms.date: 2/16/2018
+ms.keywords: "_SYSTEM_AUDIT_ACE, ntifs/PSYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE structure [Installable File System Drivers], securitystructures_f47f7528-0214-4efc-9ec8-0f799d643299.xml, ntifs/SYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE, PSYSTEM_AUDIT_ACE structure pointer [Installable File System Drivers], ifsk.system_audit_ace, *PSYSTEM_AUDIT_ACE, SYSTEM_AUDIT_ACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,31 +97,11 @@ This structure must be aligned on a 32-bit boundary.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
 
 
@@ -129,9 +109,29 @@ This structure must be aligned on a 32-bit boundary.
 
 
 
- 
+<a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SYSTEM_AUDIT_ACE structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SYSTEM_AUDIT_ACE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

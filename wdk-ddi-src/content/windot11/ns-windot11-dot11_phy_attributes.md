@@ -7,8 +7,8 @@ old-location: netvista\dot11_phy_attributes.htm
 old-project: netvista
 ms.assetid: 9e81144e-e562-4f61-83de-7b7659106de8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], windot11/DOT11_PHY_ATTRIBUTES, netvista.dot11_phy_attributes, windot11/PDOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml"
+ms.date: 2/16/2018
+ms.keywords: DOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], netvista.dot11_phy_attributes, PDOT11_PHY_ATTRIBUTES, windot11/PDOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES, windot11/DOT11_PHY_ATTRIBUTES, PDOT11_PHY_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_76ba44f0-4597-4397-b686-1f70e5e27eec.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PHY_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_PHY_ATTRIBUTES, DOT11_PHY_ATTRIBUTES"
+req.typenames: DOT11_PHY_ATTRIBUTES, *PDOT11_PHY_ATTRIBUTES
 req.product: Windows 10 or later.
 ---
 
@@ -189,61 +189,6 @@ The PHY's type of antenna diversity, defined through a
  
 
 
-### -field PhySpecificAttributes.HRDSSSAttributes
-
- 
-
-
-### -field PhySpecificAttributes.HRDSSSAttributes.case
-
- 
-
-
-### -field PhySpecificAttributes.HRDSSSAttributes.case.dot11_phy_type_hrdsss
-
- 
-
-
-### -field PhySpecificAttributes.OFDMAttributes
-
- 
-
-
-### -field PhySpecificAttributes.OFDMAttributes.case
-
- 
-
-
-### -field PhySpecificAttributes.OFDMAttributes.case.dot11_phy_type_ofdm
-
- 
-
-
-### -field PhySpecificAttributes.ERPAttributes
-
- 
-
-
-### -field PhySpecificAttributes.ERPAttributes.case
-
- 
-
-
-### -field PhySpecificAttributes.ERPAttributes.case.dot11_phy_type_erp
-
- 
-
-
-### -field PhySpecificAttributes.switch_is
-
- 
-
-
-### -field PhySpecificAttributes.switch_is.PhyType
-
- 
-
-
 
 
 #### - HRDSSSAttributes
@@ -330,24 +275,19 @@ The
 
 ## -see-also
 
-<a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_hrdsss_phy_attributes.md">DOT11_HRDSSS_PHY_ATTRIBUTES</a>
 
 
 
-<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
-   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
+<a href="..\windot11\ne-windot11-_dot11_phy_type.md">DOT11_PHY_TYPE</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_erp_phy_attributes.md">DOT11_ERP_PHY_ATTRIBUTES</a>
 
 
 
@@ -359,6 +299,14 @@ The
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\windot11\ne-windot11-_dot11_temp_type.md">DOT11_TEMP_TYPE</a>
 
 
@@ -367,7 +315,7 @@ The
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-hardware-phy-state">OID_DOT11_HARDWARE_PHY_STATE</a>
 
 
 
@@ -376,11 +324,8 @@ The
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
+<a href="..\windot11\ns-windot11-_dot11_supported_data_rates_value_v2.md">
+   DOT11_SUPPORTED_DATA_RATES_VALUE_V2</a>
 
 
 
@@ -388,5 +333,5 @@ The
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

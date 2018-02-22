@@ -4,10 +4,10 @@ title: IOCTL_USB_DIAGNOSTIC_MODE_OFF
 author: windows-driver-content
 description: The IOCTL_USB_DIAGNOSTIC_MODE_OFF I/O control has been deprecated. Do not use.
 old-location: buses\ioctl_usb_diagnostic_mode_off.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 8452c9a2-3e1f-4b62-8ab2-9071d55f5f68
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_usb_diagnostic_mode_off, IOCTL_USB_DIAGNOSTIC_MODE_OFF control code [Buses], IOCTL_USB_DIAGNOSTIC_MODE_OFF, usbioctl/IOCTL_USB_DIAGNOSTIC_MODE_OFF, usbirp_7b761254-b350-4ac8-820f-04426139f6bb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

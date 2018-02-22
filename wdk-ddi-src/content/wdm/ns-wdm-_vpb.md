@@ -7,8 +7,8 @@ old-location: ifsk\vpb.htm
 old-project: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: VPB, PVPB, VPB_PERSISTENT, VPB_LOCKED, _VPB, PVPB structure pointer [Installable File System Drivers], *PVPB, wdm/VPB, VPB_RAW_MOUNT, VPB_MOUNTED, VPB_DIRECT_WRITES_ALLOWED, wdm/PVPB, ifsk.vpb, VPB_REMOVE_PENDING, VPB structure [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: VPB structure [Installable File System Drivers], VPB_REMOVE_PENDING, *PVPB, ifsk.vpb, VPB_RAW_MOUNT, PVPB, VPB_LOCKED, VPB_PERSISTENT, VPB_DIRECT_WRITES_ALLOWED, _VPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB_MOUNTED, wdm/VPB, wdm/PVPB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VPB
 product: Windows
 targetos: Windows
-req.typenames: "*PVPB, VPB"
+req.typenames: VPB, *PVPB
 req.product: Windows 10 or later.
 ---
 
@@ -227,17 +227,17 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
-
-
-
 <a href="https://msdn.microsoft.com/e8f39b06-9904-40e8-af52-eae310d11fa7">How the Volume Is Mounted</a>
 
 
 
- 
+<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20VPB structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20VPB structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: audio\iminiportwavepcistream_setstate.htm
 old-project: audio
 ms.assetid: ae029e17-7229-49a6-bf5f-96e0cb143d5b
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: IMiniportWavePciStream, IMiniportWavePciStream::SetState, portcls/IMiniportWavePciStream::SetState, SetState, SetState method [Audio Devices], audio.iminiportwavepcistream_setstate, IMiniportWavePciStream interface [Audio Devices], SetState method, SetState method [Audio Devices], IMiniportWavePciStream interface, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml
+ms.date: 2/21/2018
+ms.keywords: SetState, SetState method [Audio Devices], SetState method [Audio Devices], IMiniportWavePciStream interface, IMiniportWavePciStream::SetState, IMiniportWavePciStream interface [Audio Devices], SetState method, audmp-routines_71487eb9-23d5-4428-92c0-fc75e58d0da5.xml, portcls/IMiniportWavePciStream::SetState, audio.iminiportwavepcistream_setstate, IMiniportWavePciStream
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWavePciStream.SetState
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWavePciStream::SetState method
@@ -134,7 +134,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMini
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
 
 
 
@@ -142,17 +142,17 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMini
 
 
 
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::SetState method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWavePciStream::SetState method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\disk_geometry_ex.htm
 old-project: storage
 ms.assetid: 6397c0dd-4dc7-49fa-85a7-841f6c2b30d8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntdddisk/DISK_GEOMETRY_EX, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml, storage.disk_geometry_ex, DISK_GEOMETRY_EX structure [Storage Devices], DISK_GEOMETRY_EX, PDISK_GEOMETRY_EX structure pointer [Storage Devices], PDISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX, ntdddisk/PDISK_GEOMETRY_EX, _DISK_GEOMETRY_EX
+ms.date: 2/16/2018
+ms.keywords: DISK_GEOMETRY_EX, storage.disk_geometry_ex, PDISK_GEOMETRY_EX structure pointer [Storage Devices], _DISK_GEOMETRY_EX, *PDISK_GEOMETRY_EX, ntdddisk/DISK_GEOMETRY_EX, ntdddisk/PDISK_GEOMETRY_EX, DISK_GEOMETRY_EX structure [Storage Devices], PDISK_GEOMETRY_EX, structs-disk_58b543a6-c9ee-4acf-9012-6572e9e9e627.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -112,11 +112,11 @@ Because the partition and detect information are not at fixed locations within t
 
 ## -see-also
 
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
+
+
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_geometry.md">IOCTL_DISK_GET_DRIVE_GEOMETRY</a>
-
-
-
-<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
 
 
 
@@ -124,7 +124,7 @@ Because the partition and detect information are not at fixed locations within t
 
 
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
+<a href="..\ntdddisk\ns-ntdddisk-_disk_geometry.md">DISK_GEOMETRY</a>
 
 
 
@@ -136,5 +136,5 @@ Because the partition and detect information are not at fixed locations within t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_GEOMETRY_EX structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_GEOMETRY_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

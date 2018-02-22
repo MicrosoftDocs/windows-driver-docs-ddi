@@ -7,8 +7,8 @@ old-location: kernel\rtluinttouchar.htm
 old-project: kernel
 ms.assetid: E47C3DA7-C9DD-47C6-A652-05D85989C85F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtluinttouchar, RtlUIntToUChar, RtlUIntToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlUIntToUChar
+ms.date: 2/16/2018
+ms.keywords: RtlUIntToUChar, kernel.rtluinttouchar, ntintsafe/RtlUIntToUChar, RtlUIntToUChar function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

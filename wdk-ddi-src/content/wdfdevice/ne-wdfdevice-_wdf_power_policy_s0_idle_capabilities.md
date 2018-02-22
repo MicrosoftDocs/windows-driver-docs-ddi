@@ -7,8 +7,8 @@ old-location: wdf\wdf_power_policy_s0_idle_capabilities.htm
 old-project: wdf
 ms.assetid: b4a3611d-5eb6-4fb2-a66a-e563569c4790
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfdevice/IdleCanWakeFromS0, wdfdevice/IdleUsbSelectiveSuspend, IdleCapsInvalid, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, IdleCannotWakeFromS0, wudfddi_types/IdleCannotWakeFromS0, wudfddi_types/IdleCanWakeFromS0, wudfddi_types/IdleUsbSelectiveSuspend, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, wdf.wdf_power_policy_s0_idle_capabilities, wudfddi_types/IdleCapsInvalid, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, IdleUsbSelectiveSuspend, kmdf.wdf_power_policy_s0_idle_capabilities, wdfdevice/IdleCannotWakeFromS0, wdfdevice/IdleCapsInvalid, IdleCanWakeFromS0, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES
+ms.date: 2/20/2018
+ms.keywords: IdleCanWakeFromS0, wdfdevice/IdleCannotWakeFromS0, wdfdevice/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, wdfdevice/IdleCapsInvalid, wudfddi_types/IdleCannotWakeFromS0, _WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, DFDeviceObjectGeneralRef_42de97ef-91c2-44e1-9b69-fe92ca5b0edc.xml, wdfdevice/IdleUsbSelectiveSuspend, wudfddi_types/IdleUsbSelectiveSuspend, IdleUsbSelectiveSuspend, IdleCannotWakeFromS0, kmdf.wdf_power_policy_s0_idle_capabilities, wdf.wdf_power_policy_s0_idle_capabilities, wudfddi_types/WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES, IdleCapsInvalid, wdfdevice/IdleCanWakeFromS0, wudfddi_types/IdleCapsInvalid, WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration, wudfddi_types/IdleCanWakeFromS0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -175,5 +175,5 @@ else {...}</pre>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_POLICY_S0_IDLE_CAPABILITIES enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

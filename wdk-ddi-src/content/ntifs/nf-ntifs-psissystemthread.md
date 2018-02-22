@@ -7,8 +7,8 @@ old-location: kernel\psissystemthread.htm
 old-project: kernel
 ms.assetid: ecbea013-b876-4690-a455-ebe420a4f050
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.psissystemthread, k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, PsIsSystemThread routine [Kernel-Mode Driver Architecture], PsIsSystemThread, ntifs/PsIsSystemThread
+ms.date: 2/16/2018
+ms.keywords: kernel.psissystemthread, PsIsSystemThread routine [Kernel-Mode Driver Architecture], ntifs/PsIsSystemThread, k108_eacaf1ad-4ab8-49a6-9d43-3aba7821e110.xml, PsIsSystemThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,7 +92,7 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 
@@ -104,5 +104,5 @@ For more information about using system threads and managing synchronization wit
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsIsSystemThread routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PsIsSystemThread routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

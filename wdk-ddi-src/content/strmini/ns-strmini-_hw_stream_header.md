@@ -7,8 +7,8 @@ old-location: stream\hw_stream_header.htm
 old-project: stream
 ms.assetid: 1931c640-666b-4db5-8d05-eab43ae96665
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: strmini/PHW_STREAM_HEADER, HW_STREAM_HEADER structure [Streaming Media Devices], HW_STREAM_HEADER, PHW_STREAM_HEADER structure pointer [Streaming Media Devices], strmini/HW_STREAM_HEADER, PHW_STREAM_HEADER, stream.hw_stream_header, _HW_STREAM_HEADER, *PHW_STREAM_HEADER, strclass-struct_bf41c526-276a-4e94-9d27-97177a3164bc.xml
+ms.date: 2/20/2018
+ms.keywords: HW_STREAM_HEADER structure [Streaming Media Devices], strmini/PHW_STREAM_HEADER, *PHW_STREAM_HEADER, strmini/HW_STREAM_HEADER, PHW_STREAM_HEADER, PHW_STREAM_HEADER structure pointer [Streaming Media Devices], strclass-struct_bf41c526-276a-4e94-9d27-97177a3164bc.xml, stream.hw_stream_header, HW_STREAM_HEADER, _HW_STREAM_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HW_STREAM_HEADER
 product: Windows
 targetos: Windows
-req.typenames: HW_STREAM_HEADER, *PHW_STREAM_HEADER
+req.typenames: "*PHW_STREAM_HEADER, HW_STREAM_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -145,5 +145,5 @@ Reserved for system use. Do not use.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_STREAM_HEADER structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_STREAM_HEADER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

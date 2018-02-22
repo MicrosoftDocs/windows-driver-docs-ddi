@@ -7,8 +7,8 @@ old-location: display\dxgk_queryadapterinfotype.htm
 old-project: display
 ms.assetid: 5cceffb1-853c-4635-b855-d0e3f107c23d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKQAITYPE_QUERYSEGMENT3, d3dkmddi/DXGKQAITYPE_PHYSICALADAPTERCAPS, d3dkmddi/DXGKQAITYPE_DRIVERCAPS, DmEnums_c4637ac2-b8e0-4c30-a709-5a8ff1ee3fdc.xml, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT4, DXGKQAITYPE_QUERYSEGMENT2, DXGKQAITYPE_DRIVERCAPS, DXGKQAITYPE_PREFERREDGPUNODE, DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, DXGKQAITYPE_SEGMENTMEMORYSTATE, DXGK_QUERYADAPTERINFOTYPE, DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, d3dkmddi/DXGKQAITYPE_PAGETABLELEVELDESC, DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, DXGKQAITYPE_ALLOCATIONGROUP, d3dkmddi/DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGK_QUERYADAPTERINFOTYPE enumeration [Display Devices], d3dkmddi/DXGKQAITYPE_QUERYSEGMENT3, DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, d3dkmddi/DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, _DXGK_QUERYADAPTERINFOTYPE, DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_GPUMMUCAPS, DXGKQAITYPE_PAGETABLELEVELDESC, display.dxgk_queryadapterinfotype, d3dkmddi/DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_PREFERREDGPUNODE, d3dkmddi/DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT2, DXGKQAITYPE_UMDRIVERPRIVATE, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTINFO, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT, d3dkmddi/DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_QUERYSEGMENT4, d3dkmddi/DXGKQAITYPE_GPUMMUCAPS, d3dkmddi/DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, d3dkmddi/DXGKQAITYPE_ALLOCATIONGROUP, DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, d3dkmddi/DXGKQAITYPE_UMDRIVERPRIVATE, d3dkmddi/DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, DXGKQAITYPE_POWERCOMPONENTINFO, d3dkmddi/DXGKQAITYPE_SEGMENTMEMORYSTATE, DXGKQAITYPE_PHYSICALADAPTERCAPS
+ms.date: 2/20/2018
+ms.keywords: d3dkmddi/DXGKQAITYPE_QUERYSEGMENT3, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT, DXGK_QUERYADAPTERINFOTYPE, d3dkmddi/DXGKQAITYPE_UMDRIVERPRIVATE, DXGKQAITYPE_UMDRIVERPRIVATE, DXGKQAITYPE_QUERYSEGMENT2, d3dkmddi/DXGKQAITYPE_PAGETABLELEVELDESC, DXGKQAITYPE_PREFERREDGPUNODE, d3dkmddi/DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT4, d3dkmddi/DXGKQAITYPE_PHYSICALADAPTERCAPS, DXGKQAITYPE_QUERYSEGMENT3, DmEnums_c4637ac2-b8e0-4c30-a709-5a8ff1ee3fdc.xml, d3dkmddi/DXGKQAITYPE_QUERYSEGMENT2, d3dkmddi/DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_POWERCOMPONENTINFO, DXGKQAITYPE_PHYSICALADAPTERCAPS, d3dkmddi/DXGKQAITYPE_SEGMENTMEMORYSTATE, DXGKQAITYPE_NUMPOWERCOMPONENTS, display.dxgk_queryadapterinfotype, d3dkmddi/DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, d3dkmddi/DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, d3dkmddi/DXGKQAITYPE_NUMPOWERCOMPONENTS, DXGKQAITYPE_PAGETABLELEVELDESC, DXGKQAITYPE_GPUMMUCAPS, d3dkmddi/DXGK_QUERYADAPTERINFOTYPE, DXGKQAITYPE_DRIVERCAPS, d3dkmddi/DXGKQAITYPE_DRIVERCAPS, DXGKQAITYPE_HISTORYBUFFERPRECISION, DXGKQAITYPE_ALLOCATIONGROUP, DXGKQAITYPE_INTEGRATED_DISPLAY_DESCRIPTOR, DXGK_QUERYADAPTERINFOTYPE enumeration [Display Devices], d3dkmddi/DXGKQAITYPE_POWERCOMPONENTINFO, DXGKQAITYPE_QUERYSEGMENT4, _DXGK_QUERYADAPTERINFOTYPE, DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, d3dkmddi/DXGKQAITYPE_GPUMMUCAPS, d3dkmddi/DXGKQAITYPE_PREFERREDGPUNODE, DXGKQAITYPE_SEGMENTMEMORYSTATE, DXGKQAITYPE_DISPLAY_DRIVERCAPS_EXTENSION, DXGKQAITYPE_QUERYCOLORIMETRYOVERRIDES, DXGKQAITYPE_QUERYSEGMENT, DXGKQAITYPE_UEFIFRAMEBUFFERRANGES, d3dkmddi/DXGKQAITYPE_ALLOCATIONGROUP, d3dkmddi/DXGKQAITYPE_POWERCOMPONENTPSTATEINFO, d3dkmddi/DXGKQAITYPE_UEFIFRAMEBUFFERRANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -286,7 +286,7 @@ The display miniport driver must fill the buffer pointed to by the <b>pOutputDat
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
 
 
 
@@ -294,11 +294,15 @@ The display miniport driver must fill the buffer pointed to by the <b>pOutputDat
 
 
 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
+
+
+
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_queryadapterinfo.md">DXGKARG_QUERYADAPTERINFO</a>
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_power_runtime_component.md">DXGK_POWER_RUNTIME_COMPONENT</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_querysegmentout3.md">DXGK_QUERYSEGMENTOUT3</a>
 
 
 
@@ -306,13 +310,9 @@ The display miniport driver must fill the buffer pointed to by the <b>pOutputDat
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_drivercaps.md">DXGK_DRIVERCAPS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_QUERYADAPTERINFOTYPE enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_QUERYADAPTERINFOTYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

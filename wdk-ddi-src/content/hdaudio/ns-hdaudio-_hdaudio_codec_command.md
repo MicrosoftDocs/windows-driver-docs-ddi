@@ -7,8 +7,8 @@ old-location: audio\hdaudio_codec_command.htm
 old-project: audio
 ms.assetid: 803e3506-fb63-4d64-b562-1956e99f9d9b
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: hdaudio/PHDAUDIO_CODEC_COMMAND, _HDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices], HDAUDIO_CODEC_COMMAND, hdaudio/HDAUDIO_CODEC_COMMAND, audio.hdaudio_codec_command, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, HDAUDIO_CODEC_COMMAND structure [Audio Devices]
+ms.date: 2/21/2018
+ms.keywords: hdaudio/HDAUDIO_CODEC_COMMAND, aud-prop2_9e7db610-d310-4285-8556-7a88567c22b6.xml, hdaudio/PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND structure [Audio Devices], *PHDAUDIO_CODEC_COMMAND, audio.hdaudio_codec_command, HDAUDIO_CODEC_COMMAND, _HDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND, PHDAUDIO_CODEC_COMMAND structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HDAUDIO_CODEC_COMMAND
 product: Windows
 targetos: Windows
-req.typenames: HDAUDIO_CODEC_COMMAND, *PHDAUDIO_CODEC_COMMAND
+req.typenames: "*PHDAUDIO_CODEC_COMMAND, HDAUDIO_CODEC_COMMAND"
 ---
 
 # _HDAUDIO_CODEC_COMMAND structure
@@ -135,7 +135,7 @@ Specifies an 8-bit node identifier for the 16-bit payload command format.
 Specifies a 4-bit codec address for the 16-bit payload command format.
 
 
-### -field Command
+#### - Command
 
 Specifies a 32-bit codec command that contains payload data, a verb identifier, a node identifier, and a codec address.
 
@@ -153,17 +153,17 @@ The validity of individual members depends on the type of command sent.
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 
- 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_codec_transfer.md">HDAUDIO_CODEC_TRANSFER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HDAUDIO_CODEC_COMMAND structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20HDAUDIO_CODEC_COMMAND structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

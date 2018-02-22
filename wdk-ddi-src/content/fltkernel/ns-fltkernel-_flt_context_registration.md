@@ -7,8 +7,8 @@ old-location: ifsk\flt_context_registration.htm
 old-project: ifsk
 ms.assetid: 6316acfa-c19c-4705-becb-b89c3feed6a3
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], FLT_CONTEXT_REGISTRATION, ifsk.flt_context_registration, *PFLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], fltkernel/FLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION, fltkernel/PFLT_CONTEXT_REGISTRATION, FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, _FLT_CONTEXT_REGISTRATION
+ms.date: 2/16/2018
+ms.keywords: FLT_CONTEXT_REGISTRATION, fltkernel/FLT_CONTEXT_REGISTRATION, _FLT_CONTEXT_REGISTRATION, FLT_CONTEXT_REGISTRATION structure [Installable File System Drivers], ifsk.flt_context_registration, PFLT_CONTEXT_REGISTRATION structure pointer [Installable File System Drivers], fltkernel/PFLT_CONTEXT_REGISTRATION, FltSystemStructures_534c1657-6f7c-42fa-b8df-2a64ed6edf3a.xml, *PFLT_CONTEXT_REGISTRATION, PFLT_CONTEXT_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -179,11 +179,7 @@ No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
@@ -191,11 +187,15 @@ No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member
 
 
 
+<a href="..\fltkernel\nc-fltkernel-pflt_context_allocate_callback.md">PFLT_CONTEXT_ALLOCATE_CALLBACK</a>
+
+
+
 <a href="..\fltkernel\nc-fltkernel-pflt_context_cleanup_callback.md">PFLT_CONTEXT_CLEANUP_CALLBACK</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 
@@ -203,5 +203,5 @@ No more than three FLT_CONTEXT_REGISTRATION structures with a <b>Size</b> member
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_CONTEXT_REGISTRATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_CONTEXT_REGISTRATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

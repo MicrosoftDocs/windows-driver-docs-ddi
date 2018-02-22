@@ -7,8 +7,8 @@ old-location: wdf\wdfiotargetcreate.htm
 old-project: wdf
 ms.assetid: 21a2fa9c-24c1-4964-aaa7-96ac86b8c078
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfiotargetcreate, WdfIoTargetCreate, DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, wdf.wdfiotargetcreate, wdfiotarget/WdfIoTargetCreate, WdfIoTargetCreate method, PFN_WDFIOTARGETCREATE
+ms.date: 2/20/2018
+ms.keywords: WdfIoTargetCreate, wdfiotarget/WdfIoTargetCreate, wdf.wdfiotargetcreate, kmdf.wdfiotargetcreate, DFIOTargetRef_3de8d750-e0e1-4a74-8e2b-977a27db024f.xml, WdfIoTargetCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -185,5 +185,5 @@ For a code example that uses <b>WdfIoTargetCreate</b>, see <a href="..\wdfiotarg
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

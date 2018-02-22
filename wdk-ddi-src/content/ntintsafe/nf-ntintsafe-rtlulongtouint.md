@@ -7,8 +7,8 @@ old-location: kernel\rtlulongtouint.htm
 old-project: kernel
 ms.assetid: 110A77D5-48FD-4C10-BE2B-8BA9510F6334
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlULongToUInt, RtlULongToUInt function [Kernel-Mode Driver Architecture], kernel.rtlulongtouint, RtlULongToUInt
+ms.date: 2/16/2018
+ms.keywords: RtlULongToUInt, RtlULongToUInt function [Kernel-Mode Driver Architecture], kernel.rtlulongtouint, ntintsafe/RtlULongToUInt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

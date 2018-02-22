@@ -7,8 +7,8 @@ old-location: netvista\rilsubaddress_2.htm
 old-project: netvista
 ms.assetid: fa8f7b01-a767-4713-b1e3-7417efb7db47
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], netvista.rilsubaddress_2, rilapitypes/RILSUBADDRESS, RILSUBADDRESS"
+ms.date: 2/16/2018
+ms.keywords: netvista.rilsubaddress_2, *LPRILSUBADDRESS, rilapitypes/RILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

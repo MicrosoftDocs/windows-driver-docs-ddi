@@ -7,7 +7,7 @@ old-location: netvista\providerdetachclient.htm
 old-project: netvista
 ms.assetid: 0f29bf89-856c-4019-a966-3e666a7fc78d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.providerdetachclient, ProviderDetachClient callback function [Network Drivers Starting with Windows Vista], ProviderDetachClient, NPI_PROVIDER_DETACH_CLIENT_FN, NPI_PROVIDER_DETACH_CLIENT_FN, netioddk/ProviderDetachClient, PNPI_PROVIDER_DETACH_CLIENT_FN callback function [Network Drivers Starting with Windows Vista], PNPI_PROVIDER_DETACH_CLIENT_FN, nmrref_04fc189d-40e1-4cc5-87ea-dda2664f7e63.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,8 +84,10 @@ A pointer to the provider module's context for the binding between the provider 
 ## -returns
 
 
+
 A provider module's 
      <i>ProviderDetachClient</i> callback function returns one of the following NTSTATUS codes:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -113,11 +115,14 @@ The provider module could not detach from the client module immediately.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The NMR calls a provider module's 
@@ -163,27 +168,42 @@ The NMR calls a provider module's
 
 
 
+
 ## -see-also
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
+
+
+
+<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
+
+
 
 <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
    ProviderCleanupBindingContext</a>
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+
 
 <a href="..\netioddk\nf-netioddk-nmrproviderdetachclientcomplete.md">
    NmrProviderDetachClientComplete</a>
 
+
+
+<a href="..\netioddk\nf-netioddk-nmrderegisterprovider.md">NmrDeregisterProvider</a>
+
+
+
 <a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
-<a href="..\netioddk\ns-netioddk-_npi_provider_characteristics.md">NPI_PROVIDER_CHARACTERISTICS</a>
 
-<a href="..\netioddk\nf-netioddk-nmrderegisterclient.md">NmrDeregisterClient</a>
-
-<a href="..\netioddk\nc-netioddk-npi_client_cleanup_binding_context_fn.md">ClientCleanupBindingContext</a>
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_PROVIDER_DETACH_CLIENT_FN callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NPI_PROVIDER_DETACH_CLIENT_FN callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltallocatecallbackdata.htm
 old-project: ifsk
 ms.assetid: a2afb8b8-b0e2-4d22-9d93-33ba2b2f8933
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltApiRef_a_to_d_74309bb1-841a-41a6-bd3e-71ed710bc727.xml, fltkernel/FltAllocateCallbackData, ifsk.fltallocatecallbackdata, FltAllocateCallbackData routine [Installable File System Drivers], FltAllocateCallbackData
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_a_to_d_74309bb1-841a-41a6-bd3e-71ed710bc727.xml, FltAllocateCallbackData, FltAllocateCallbackData routine [Installable File System Drivers], ifsk.fltallocatecallbackdata, fltkernel/FltAllocateCallbackData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,11 +173,23 @@ When the callback data structure allocated by <b>FltAllocateCallbackData</b> is 
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
 
 
 
@@ -189,7 +201,7 @@ When the callback data structure allocated by <b>FltAllocateCallbackData</b> is 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
 
 
 
@@ -197,19 +209,11 @@ When the callback data structure allocated by <b>FltAllocateCallbackData</b> is 
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltcreatefile.md">FltCreateFile</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltwritefile.md">FltWriteFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 
 
@@ -217,11 +221,7 @@ When the callback data structure allocated by <b>FltAllocateCallbackData</b> is 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
 
 
 
@@ -229,5 +229,5 @@ When the callback data structure allocated by <b>FltAllocateCallbackData</b> is 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAllocateCallbackData routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAllocateCallbackData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

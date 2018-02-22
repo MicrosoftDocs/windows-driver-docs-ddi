@@ -7,8 +7,8 @@ old-location: dtf\iwdtfaction2_getstatus.htm
 old-project: dtf
 ms.assetid: 39e5bfb8-83fe-4b68-814d-933a26d6d567
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: Microsoft.WDTF.IWDTFAction2.GetStatus, Microsoft::WDTF::IWDTFAction2::GetStatus, GetStatus, GetStatus method [Windows Device Testing Framework], IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], GetStatus method, GetStatus method [Windows Device Testing Framework], IWDTFAction2 interface, IWDTFAction2::GetStatus, wdtf/IWDTFAction2::GetStatus, dtf.iwdtfaction2_getstatus
+ms.date: 2/20/2018
+ms.keywords: IWDTFAction2 interface [Windows Device Testing Framework], GetStatus method, Microsoft.WDTF.IWDTFAction2.GetStatus, IWDTFAction2::GetStatus, GetStatus method [Windows Device Testing Framework], GetStatus method [Windows Device Testing Framework], IWDTFAction2 interface, dtf.iwdtfaction2_getstatus, IWDTFAction2, Microsoft::WDTF::IWDTFAction2::GetStatus, wdtf/IWDTFAction2::GetStatus, GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFAction2.GetStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 
@@ -92,5 +92,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFAction2::GetStatus method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFAction2::GetStatus method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

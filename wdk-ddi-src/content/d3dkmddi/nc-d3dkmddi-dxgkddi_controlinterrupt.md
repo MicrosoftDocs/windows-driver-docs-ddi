@@ -7,7 +7,7 @@ old-location: display\dxgkddicontrolinterrupt.htm
 old-project: display
 ms.assetid: d6bef242-bafc-4d9e-a729-d62ccdbd2667
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddicontrolinterrupt, DxgkDdiControlInterrupt callback function [Display Devices], DxgkDdiControlInterrupt, DXGKDDI_CONTROLINTERRUPT, DXGKDDI_CONTROLINTERRUPT, d3dkmddi/DxgkDdiControlInterrupt, DmFunctions_a124d234-9609-4f21-a1f5-c1f4cfa65d9c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -89,6 +89,8 @@ NTSTATUS APIENTRY* DxgkDdiControlInterrupt(
 
 
 
+
+
 #### - Enable [in]
 
 [in] A Boolean value that indicates whether <i>DxgkDdiControlInterrupt</i> enables or disables the specified interrupt type. <b>TRUE</b> indicates that it enables and <b>FALSE</b> indicates that it disables.
@@ -97,7 +99,9 @@ NTSTATUS APIENTRY* DxgkDdiControlInterrupt(
 ## -returns
 
 
+
 <i>DxgkDdiControlInterrupt</i> returns one of the following values:
+
 <table>
 <tr>
 <th>Return code</th>
@@ -125,11 +129,14 @@ The interrupt type was successfully enabled or disabled on the graphics hardware
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
+
 
 
 The display miniport driver's <i>DxgkDdiControlInterrupt</i> function can enable or disable the specified interrupt type. However, <i>DxgkDdiControlInterrupt</i> is not required to disable the interrupt type if the driver requires the interrupt type for an internal purpose. A call to <i>DxgkDdiControlInterrupt</i> to enable the specified interrupt type indicates that the operating system requires that the driver call the <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a> function to report when the interrupt type is triggered on the graphics hardware.
@@ -142,17 +149,24 @@ The driver must return STATUS_NOT_IMPLEMENTED if an interrupt type other than DX
 
 
 
-## -see-also
 
-<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+## -see-also
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
+
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
 
- 
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_CONTROLINTERRUPT callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_CONTROLINTERRUPT callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

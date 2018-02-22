@@ -7,8 +7,8 @@ old-location: kernel\vpci_read_block_input.htm
 old-project: kernel
 ms.assetid: d8d68231-017a-42fc-ad09-8e7f5cc743d3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], vpci/VPCI_READ_BLOCK_INPUT, *PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], kernel.vpci_read_block_input, PVPCI_READ_BLOCK_INPUT, vpci/PVPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT, _VPCI_READ_BLOCK_INPUT
+ms.date: 2/16/2018
+ms.keywords: VPCI_READ_BLOCK_INPUT, _VPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT, PVPCI_READ_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], kernel.vpci_read_block_input, *PVPCI_READ_BLOCK_INPUT, vpci/PVPCI_READ_BLOCK_INPUT, vpci/VPCI_READ_BLOCK_INPUT, VPCI_READ_BLOCK_INPUT structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,5 +118,5 @@ This operating system runs within the Hyper-V parent partition.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20VPCI_READ_BLOCK_INPUT structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20VPCI_READ_BLOCK_INPUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

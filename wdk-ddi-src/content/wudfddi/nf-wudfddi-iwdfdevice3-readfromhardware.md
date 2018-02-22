@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice3_readfromhardware.htm
 old-project: wdf
 ms.assetid: 19B472D0-D607-4874-ADB9-232C379B0DFD
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice3::ReadFromHardware, umdf.iwdfdevice3_readfromhardware, ReadFromHardware method, IWDFDevice3 interface, ReadFromHardware method, ReadFromHardware, IWDFDevice3, IWDFDevice3::ReadFromHardware, wdf.iwdfdevice3_readfromhardware, IWDFDevice3 interface, ReadFromHardware method
+ms.date: 2/20/2018
+ms.keywords: wudfddi/IWDFDevice3::ReadFromHardware, ReadFromHardware method, ReadFromHardware method, IWDFDevice3 interface, IWDFDevice3 interface, ReadFromHardware method, umdf.iwdfdevice3_readfromhardware, IWDFDevice3::ReadFromHardware, IWDFDevice3, wdf.iwdfdevice3_readfromhardware, ReadFromHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.ReadFromHardware
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -99,5 +99,5 @@ SIZE_T ReadFromHardware(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::ReadFromHardware method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::ReadFromHardware method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

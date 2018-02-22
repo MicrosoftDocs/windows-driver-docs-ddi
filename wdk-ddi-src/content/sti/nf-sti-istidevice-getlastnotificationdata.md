@@ -4,11 +4,11 @@ title: IStiDevice::GetLastNotificationData method
 author: windows-driver-content
 description: The IStiDevice::GetLastNotificationData method returns a description of the most recent event that occurred on a still image device.
 old-location: image\istidevice_getlastnotificationdata.htm
-old-project: image
+old-project: Image
 ms.assetid: dd073fde-d2ba-45c0-a52c-22e86718901a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IStiDevice::GetLastNotificationData, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, image.istidevice_getlastnotificationdata, GetLastNotificationData method [Imaging Devices], IStiDevice, sti/IStiDevice::GetLastNotificationData, IStiDevice interface [Imaging Devices], GetLastNotificationData method, GetLastNotificationData method [Imaging Devices], IStiDevice interface, GetLastNotificationData
+ms.date: 2/15/2018
+ms.keywords: image.istidevice_getlastnotificationdata, GetLastNotificationData, sti/IStiDevice::GetLastNotificationData, GetLastNotificationData method [Imaging Devices], IStiDevice interface, stifnc_def72c8c-f8cf-4eb7-84a1-e99ecddee4de.xml, IStiDevice, IStiDevice interface [Imaging Devices], GetLastNotificationData method, IStiDevice::GetLastNotificationData, GetLastNotificationData method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

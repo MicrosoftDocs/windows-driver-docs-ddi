@@ -7,8 +7,8 @@ old-location: netvista\ndis_qos_capabilities.htm
 old-project: netvista
 ms.assetid: 23698bb8-3fb6-4e60-aaac-75c2e3341d54
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], netvista.ndis_qos_capabilities, PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], PNDIS_QOS_CAPABILITIES, _NDIS_QOS_CAPABILITIES, ntddndis/NDIS_QOS_CAPABILITIES, ntddndis/PNDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES
+ms.date: 2/16/2018
+ms.keywords: ntddndis/PNDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES structure [Network Drivers Starting with Windows Vista], netvista.ndis_qos_capabilities, _NDIS_QOS_CAPABILITIES, NDIS_QOS_CAPABILITIES, PNDIS_QOS_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_QOS_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -188,12 +188,11 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query request
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
-    NdisMSetMiniportAttributes</a>
 
 
 
@@ -201,7 +200,8 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query request
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
+    NdisMSetMiniportAttributes</a>
 
 
 
@@ -213,5 +213,5 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query request
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_QOS_CAPABILITIES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_QOS_CAPABILITIES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

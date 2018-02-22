@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_pointer_position.htm
 old-project: display
 ms.assetid: de581a49-da6d-410b-82be-28cc1eccfde4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.ioctl_video_set_pointer_position, IOCTL_VIDEO_SET_POINTER_POSITION control code [Display Devices], IOCTL_VIDEO_SET_POINTER_POSITION, ntddvdeo/IOCTL_VIDEO_SET_POINTER_POSITION, Video_IOCTLs_cc9ab1b6-f2be-4dab-b657-f686bc0af329.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

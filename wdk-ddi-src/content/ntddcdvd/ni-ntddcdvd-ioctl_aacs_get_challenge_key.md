@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_get_challenge_key.htm
 old-project: storage
 ms.assetid: 97c43a15-e120-44bd-8a5e-40b80aba646d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_aacs_get_challenge_key, IOCTL_AACS_GET_CHALLENGE_KEY control code [Storage Devices], IOCTL_AACS_GET_CHALLENGE_KEY, ntddcdvd/IOCTL_AACS_GET_CHALLENGE_KEY, k307_f500a9e4-ea44-4089-bfa0-8215635a11c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_AACS_GET_CHALLENGE_KEY
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_GET_CHALLENGE_KEY IOCTL

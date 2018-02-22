@@ -7,7 +7,7 @@ old-location: wdf\evt_wdf_companion_pre_prepare_hardware.htm
 old-project: wdf
 ms.assetid: 36076a28-d3f7-4463-b538-59794a18c4f9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evt_wdf_companion_pre_prepare_hardware, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE callback function, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE, wdfcompanion/EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 product: Windows
 targetos: Windows
-req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
+req.typenames: "*PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG"
 req.product: Windows 10 or later.
 ---
 

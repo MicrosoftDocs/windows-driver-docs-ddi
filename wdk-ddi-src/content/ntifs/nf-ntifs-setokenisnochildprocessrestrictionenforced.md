@@ -7,8 +7,8 @@ old-location: ifsk\setokenisnochildprocessrestrictionenforced.htm
 old-project: ifsk
 ms.assetid: 6D214346-8CE6-4E9C-B054-1C72B928ED2B
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: SeTokenIsNoChildProcessRestrictionEnforced, SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], ntifs/SeTokenIsNoChildProcessRestrictionEnforced, ifsk.setokenisnochildprocessrestrictionenforced
+ms.date: 2/16/2018
+ms.keywords: ifsk.setokenisnochildprocessrestrictionenforced, SeTokenIsNoChildProcessRestrictionEnforced function [Installable File System Drivers], ntifs/SeTokenIsNoChildProcessRestrictionEnforced, SeTokenIsNoChildProcessRestrictionEnforced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

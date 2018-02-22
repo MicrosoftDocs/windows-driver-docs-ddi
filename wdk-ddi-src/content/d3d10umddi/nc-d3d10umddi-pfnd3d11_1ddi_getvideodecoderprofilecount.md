@@ -7,7 +7,7 @@ old-location: display\getvideodecoderprofilecount.htm
 old-project: display
 ms.assetid: ae24bc29-177e-48a1-adf9-ed8c79b7f39c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.getvideodecoderprofilecount, pfnGetVideoDecoderProfileCount callback function [Display Devices], pfnGetVideoDecoderProfileCount, PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT, PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT, d3d10umddi/pfnGetVideoDecoderProfileCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnGetVideoDecoderProfileCount
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_GETVIDEODECODERPROFILECOUNT callback
@@ -74,8 +74,9 @@ VOID APIENTRY* pfnGetVideoDecoderProfileCount(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
+
+
 
 
 
@@ -97,6 +98,8 @@ A pointer to a UINT value that specifies the maximum number of decoder profiles 
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

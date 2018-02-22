@@ -7,8 +7,8 @@ old-location: powermeter\pmi_capabilities.htm
 old-project: powermeter
 ms.assetid: 7e564512-ff57-4bce-93c1-76e6034ec061
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: pmi/PPMI_CAPABILITIES, PPMI_CAPABILITIES, pmi/PMI_CAPABILITIES, PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], _PMI_CAPABILITIES, PMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], *PPMI_CAPABILITIES, powermeter.pmi_capabilities
+ms.date: 2/15/2018
+ms.keywords: PPMI_CAPABILITIES, PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, *PPMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], PMI_CAPABILITIES, pmi/PMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], powermeter.pmi_capabilities, _PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PMI_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PPMI_CAPABILITIES, PMI_CAPABILITIES"
+req.typenames: PMI_CAPABILITIES, *PPMI_CAPABILITIES
 ---
 
 # _PMI_CAPABILITIES structure
@@ -93,14 +93,16 @@ A <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a> enu
 A union of the supported Power Meter Interface (PMI) capability structures. Based on the value of the <b>CapabilityType</b> member, one of the following <b>Capabilities</b> submembers is used to reference the following PMI capability structures:
 
 
-### -field Capabilities.ReportedCapabilities
+
+#### ReportedCapabilities
 
 A <a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a> structure that specifies one or more hardware devices that are monitored by the power meter. 
 
 The <b>Capabilities</b> member contains this structure if the <b>CapabilityType</b> member is set to <b>PmiMeteredHardware</b>.
 
 
-### -field Capabilities.MeteredHardwareInformation
+
+#### MeteredHardwareInformation
 
 A <a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a> structure that specifies the PMI capabilities of the power meter, such as the following:
 
@@ -142,7 +144,7 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
@@ -150,17 +152,17 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 
 
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+
+
+
 <a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CAPABILITIES structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CAPABILITIES structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

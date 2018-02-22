@@ -7,8 +7,8 @@ old-location: ifsk\io_driver_create_context.htm
 old-project: ifsk
 ms.assetid: c2d10f76-5587-4855-9a02-fa7656a3805e
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fileinformationstructures_d5939ca3-7c95-4788-bec9-b2d4cc7dd45b.xml, ntddk/IO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT structure [Installable File System Drivers], PIO_DRIVER_CREATE_CONTEXT, _IO_DRIVER_CREATE_CONTEXT, IO_DRIVER_CREATE_CONTEXT, ifsk.io_driver_create_context, PIO_DRIVER_CREATE_CONTEXT structure pointer [Installable File System Drivers], ntddk/PIO_DRIVER_CREATE_CONTEXT, *PIO_DRIVER_CREATE_CONTEXT
+ms.date: 2/16/2018
+ms.keywords: IO_DRIVER_CREATE_CONTEXT structure [Installable File System Drivers], PIO_DRIVER_CREATE_CONTEXT structure pointer [Installable File System Drivers], *PIO_DRIVER_CREATE_CONTEXT, fileinformationstructures_d5939ca3-7c95-4788-bec9-b2d4cc7dd45b.xml, ifsk.io_driver_create_context, IO_DRIVER_CREATE_CONTEXT, PIO_DRIVER_CREATE_CONTEXT, ntddk/PIO_DRIVER_CREATE_CONTEXT, ntddk/IO_DRIVER_CREATE_CONTEXT, _IO_DRIVER_CREATE_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -136,11 +136,7 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 
 
@@ -148,39 +144,7 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameterlist.md">FsRtlFreeExtraCreateParameterList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransactionParameterBlock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -192,7 +156,15 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
@@ -200,9 +172,37 @@ Upon return from a call to <a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreat
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlfreeextracreateparameterlist.md">FsRtlFreeExtraCreateParameterList</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iogettransactionparameterblock.md">IoGetTransactionParameterBlock</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IO_DRIVER_CREATE_CONTEXT structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IO_DRIVER_CREATE_CONTEXT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

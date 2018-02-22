@@ -7,8 +7,8 @@ old-location: storage\cdrom_opc_info_type.htm
 old-project: storage
 ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PCDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type, ntddcdrm/PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], SimpleOpcInfo, CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], _CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, PCDROM_OPC_INFO_TYPE"
+ms.date: 2/16/2018
+ms.keywords: "_CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, *PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], PCDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, SimpleOpcInfo, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], ntddcdrm/CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -86,5 +86,5 @@ Specifies the wrapper for the SEND OPC INFORMATION command from the Multimedia C
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_OPC_INFO_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20CDROM_OPC_INFO_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

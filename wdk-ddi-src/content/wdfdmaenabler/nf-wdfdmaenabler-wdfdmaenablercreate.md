@@ -7,8 +7,8 @@ old-location: wdf\wdfdmaenablercreate.htm
 old-project: wdf
 ms.assetid: 750c9293-7662-41e0-9a2a-5c19e49ad20e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFDMAENABLERCREATE, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, WdfDmaEnablerCreate method, wdfdmaenabler/WdfDmaEnablerCreate, kmdf.wdfdmaenablercreate, WdfDmaEnablerCreate, wdf.wdfdmaenablercreate
+ms.date: 2/20/2018
+ms.keywords: WdfDmaEnablerCreate, wdfdmaenabler/WdfDmaEnablerCreate, DFDmaObjectRef_f0ec3598-ae92-45b3-98af-b2ce590f996f.xml, WdfDmaEnablerCreate method, wdf.wdfdmaenablercreate, kmdf.wdfdmaenablercreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -230,11 +230,7 @@ WdfDeviceSetAlignmentRequirement(
 
 ## -see-also
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
-
-
-
-<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
 
 
 
@@ -242,7 +238,11 @@ WdfDeviceSetAlignmentRequirement(
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicesetalignmentrequirement.md">WdfDeviceSetAlignmentRequirement</a>
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+
+
+
+<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdf_dma_enabler_config_init.md">WDF_DMA_ENABLER_CONFIG_INIT</a>
 
 
 
@@ -250,5 +250,5 @@ WdfDeviceSetAlignmentRequirement(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaEnablerCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaEnablerCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

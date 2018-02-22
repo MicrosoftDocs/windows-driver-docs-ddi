@@ -4,11 +4,11 @@ title: IDebugAdvanced3::GetSourceFileInformation method
 author: windows-driver-content
 description: The GetSourceFileInformation method returns specified information about a source file.
 old-location: debugger\getsourcefileinformation.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: c854b3a7-963a-4386-b6fa-9c22b9d496a1
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced3, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, GetSourceFileInformation method [Windows Debugging], GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2, GetSourceFileInformation, debugger.getsourcefileinformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced3::GetSourceFileInformation
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugAdvanced2::GetSourceFileInformation, IDebugAdvanced_2f76d1fd-36fe-48c1-a131-eb4722d2af95.xml, IDebugAdvanced3::GetSourceFileInformation, IDebugAdvanced3 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced2, debugger.getsourcefileinformation, IDebugAdvanced2 interface [Windows Debugging], GetSourceFileInformation method, IDebugAdvanced3, GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced3 interface, dbgeng/IDebugAdvanced3::GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2::GetSourceFileInformation, GetSourceFileInformation method [Windows Debugging], IDebugAdvanced2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugAdvanced3.GetSourceFileInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced3::GetSourceFileInformation method
@@ -183,10 +183,6 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
 
@@ -195,9 +191,13 @@ For more information about source files, see <a href="https://msdn.microsoft.com
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced2::GetSourceFileInformation method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugAdvanced2::GetSourceFileInformation method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

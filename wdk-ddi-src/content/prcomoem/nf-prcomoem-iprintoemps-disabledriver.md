@@ -7,8 +7,8 @@ old-location: print\iprintoemps_disabledriver.htm
 old-project: print
 ms.assetid: 4fa25706-dc79-45fd-a805-7b9d110213ed
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrintOemPS interface [Print Devices], DisableDriver method, DisableDriver, DisableDriver method [Print Devices], IPrintOemPS interface, print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, print.iprintoemps_disabledriver, DisableDriver method [Print Devices], IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, IPrintOemPS
+ms.date: 2/21/2018
+ms.keywords: print_unidrv-pscript_rendering_f8c7413c-104b-4509-9909-89e97acc0069.xml, DisableDriver method [Print Devices], IPrintOemPS interface, IPrintOemPS interface [Print Devices], DisableDriver method, IPrintOemPS, DisableDriver method [Print Devices], IPrintOemPS::DisableDriver, prcomoem/IPrintOemPS::DisableDriver, print.iprintoemps_disabledriver, DisableDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS.DisableDriver
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

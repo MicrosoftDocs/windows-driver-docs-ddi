@@ -7,13 +7,13 @@ old-location: kernel\memory_caching_type.htm
 old-project: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MmCached, wdm/MmNonCached, MmNonCached, wdm/MmUSWCCached, wdm/MmMaximumCacheType, wdm/MEMORY_CACHING_TYPE, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MmCached, MmHardwareCoherentCached, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/MmHardwareCoherentCached, MmUSWCCached, wdm/MmNonCachedUnordered, _MEMORY_CACHING_TYPE, MmWriteCombined, MmNonCachedUnordered, wdm/MmWriteCombined, MmMaximumCacheType, MEMORY_CACHING_TYPE, kernel.memory_caching_type
+ms.date: 2/16/2018
+ms.keywords: MmNonCachedUnordered, MmNonCached, wdm/MmNonCached, wdm/MmWriteCombined, MmUSWCCached, wdm/MEMORY_CACHING_TYPE, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], _MEMORY_CACHING_TYPE, MmWriteCombined, wdm/MmNonCachedUnordered, wdm/MmUSWCCached, MmCached, wdm/MmMaximumCacheType, kernel.memory_caching_type, MEMORY_CACHING_TYPE, wdm/MmHardwareCoherentCached, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, MmMaximumCacheType, MmHardwareCoherentCached, wdm/MmCached
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Ntddk.h, Wdm.h
+req.include-header: Ntddk.h, Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 2000 and later versions of Windows.
 req.target-min-winversvr: 
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax
@@ -125,11 +125,7 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 
 
@@ -137,7 +133,11 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
 
 
 
@@ -149,5 +149,5 @@ Processor translation buffers cache virtual to physical address translations. Th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_CACHING_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_CACHING_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

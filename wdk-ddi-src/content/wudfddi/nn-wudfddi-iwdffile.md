@@ -7,7 +7,7 @@ old-location: wdf\iwdffile.htm
 old-project: wdf
 ms.assetid: bf8e5ab1-9a17-4eb5-8c54-34670ea27068
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdffile, IWDFFile interface, IWDFFile interface, described, IWDFFile, wudfddi/IWDFFile, UMDFFileObjectRef_41506c7e-3abb-4f41-ab23-a69114c3fdbd.xml, umdf.iwdffile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFFile
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

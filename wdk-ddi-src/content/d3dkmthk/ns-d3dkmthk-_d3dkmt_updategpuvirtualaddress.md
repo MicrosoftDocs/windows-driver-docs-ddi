@@ -7,8 +7,8 @@ old-location: display\d3dkmt_updategpuvirtualaddress.htm
 old-project: display
 ms.assetid: B6586406-6CAD-479F-AE41-93EFBA195B99
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmt_updategpuvirtualaddress, d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS, _D3DKMT_UPDATEGPUVIRTUALADDRESS, D3DKMT_UPDATEGPUVIRTUALADDRESS structure [Display Devices], D3DKMT_UPDATEGPUVIRTUALADDRESS
+ms.date: 2/20/2018
+ms.keywords: display.d3dkmt_updategpuvirtualaddress, d3dkmthk/D3DKMT_UPDATEGPUVIRTUALADDRESS, D3DKMT_UPDATEGPUVIRTUALADDRESS, D3DKMT_UPDATEGPUVIRTUALADDRESS structure [Display Devices], _D3DKMT_UPDATEGPUVIRTUALADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,6 +126,12 @@ Specifies the <b>FenceValue</b> for <b>hFenceObject</b> that the map operation s
 ### -field Flags
 
 
+
+#### Value
+
+The consolidated value of the <b>Flags</b> union.
+
+
 ### -field Flags.DoNotWait
 
 When set to 1, there will be no wait for the sync objects before executing the operations.
@@ -134,9 +140,4 @@ When set to 1, there will be no wait for the sync objects before executing the o
 ### -field Flags.Reserved
 
 This member is reserved and should be set to zero.
-
-
-### -field Flags.Value
-
-The consolidated value of the <b>Flags</b> union.
 

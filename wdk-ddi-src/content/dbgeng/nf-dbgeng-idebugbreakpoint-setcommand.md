@@ -4,11 +4,11 @@ title: IDebugBreakpoint::SetCommand method
 author: windows-driver-content
 description: The SetCommand method sets the command that is executed when a breakpoint is triggered.
 old-location: debugger\setcommand.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 0c9db77e-6e5d-45cd-a52c-dcc3acf5cba0
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetCommand method [Windows Debugging], IDebugBreakpoint interface, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint2::SetCommand, SetCommand method [Windows Debugging], dbgeng/IDebugBreakpoint::SetCommand, IDebugBreakpoint interface [Windows Debugging], SetCommand method, IDebugBreakpoint, debugger.setcommand, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, dbgeng/IDebugBreakpoint2::SetCommand, SetCommand, IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface
+ms.date: 2/15/2018
+ms.keywords: IDebugBreakpoint::SetCommand, SetCommand method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], SetCommand method, ComOther_166ee15d-c9e1-466f-9337-a6d20e9355ee.xml, IDebugBreakpoint2::SetCommand, SetCommand method [Windows Debugging], SetCommand method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint, dbgeng/IDebugBreakpoint2::SetCommand, IDebugBreakpoint interface [Windows Debugging], SetCommand method, SetCommand, debugger.setcommand, dbgeng/IDebugBreakpoint::SetCommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.SetCommand
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint::SetCommand method

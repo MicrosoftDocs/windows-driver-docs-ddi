@@ -7,8 +7,8 @@ old-location: display\dxva_picresample.htm
 old-project: display
 ms.assetid: 29b26400-9b27-4bff-9c7e-d612d250da30
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "*LPDXVA_PicResample, DXVA_PicResample, dxva/LPDXVA_PicResample, dxva/DXVA_PicResample, LPDXVA_PicResample structure pointer [Display Devices], _DXVA_PicResample, display.dxva_picresample, DXVA_PicResample structure [Display Devices], dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml, LPDXVA_PicResample"
+ms.date: 2/20/2018
+ms.keywords: dxva/LPDXVA_PicResample, display.dxva_picresample, LPDXVA_PicResample structure pointer [Display Devices], DXVA_PicResample, DXVA_PicResample structure [Display Devices], LPDXVA_PicResample, dxva/DXVA_PicResample, _DXVA_PicResample, *LPDXVA_PicResample, dxvaref_523256d7-10ef-4750-a065-bd4bb02c1fbe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_PicResample
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_PicResample, DXVA_PicResample"
+req.typenames: DXVA_PicResample, *LPDXVA_PicResample
 ---
 
 # _DXVA_PicResample structure

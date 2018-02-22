@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_queue_state.htm
 old-project: wdf
 ms.assetid: d89c4d4c-d3c2-47fc-9eb8-e2eb8424d5cc
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfIoQueueDispatchRequests, WdfIoQueueAcceptRequests, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, wdfio/WdfIoQueueDriverNoRequests, WDF_IO_QUEUE_STATE enumeration, WDF_IO_QUEUE_STATE, wdfio/WDF_IO_QUEUE_STATE, WdfIoQueueDriverNoRequests, wdfio/WdfIoQueueNoRequests, WdfIoQueueNoRequests, wdf.wdf_io_queue_state, wdfio/WdfIoQueuePnpHeld, kmdf.wdf_io_queue_state, wdfio/WdfIoQueueDispatchRequests, WdfIoQueuePnpHeld, _WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueAcceptRequests
+ms.date: 2/20/2018
+ms.keywords: WdfIoQueueDispatchRequests, WdfIoQueueDriverNoRequests, WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueAcceptRequests, WdfIoQueuePnpHeld, DFQueueObjectRef_210e9189-4d80-4c0f-930b-319af65697d2.xml, _WDF_IO_QUEUE_STATE, wdfio/WdfIoQueueNoRequests, wdfio/WdfIoQueueDispatchRequests, wdfio/WdfIoQueueDriverNoRequests, wdfio/WDF_IO_QUEUE_STATE, WDF_IO_QUEUE_STATE enumeration, WdfIoQueueNoRequests, kmdf.wdf_io_queue_state, wdfio/WdfIoQueuePnpHeld, WdfIoQueueAcceptRequests, wdf.wdf_io_queue_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -124,5 +124,5 @@ The following functions are defined in <i>wdfio.h</i>:
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

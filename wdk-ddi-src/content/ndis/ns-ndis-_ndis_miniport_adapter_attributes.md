@@ -7,8 +7,8 @@ old-location: netvista\ndis_miniport_adapter_attributes.htm
 old-project: netvista
 ms.assetid: 41e3c65a-0ab8-4f6f-af49-1aa2edbeda5c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_MINIPORT_ADAPTER_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_ATTRIBUTES union [Network Drivers Starting with Windows Vista], _NDIS_MINIPORT_ADAPTER_ATTRIBUTES, ndis/NDIS_MINIPORT_ADAPTER_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, netvista.ndis_miniport_adapter_attributes, miniport_structures_ref_dc9acf58-fbc9-4b4c-8c99-33ab7a3bc653.xml, ndis/PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES union pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: miniport_structures_ref_dc9acf58-fbc9-4b4c-8c99-33ab7a3bc653.xml, NDIS_MINIPORT_ADAPTER_ATTRIBUTES, ndis/PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES, _NDIS_MINIPORT_ADAPTER_ATTRIBUTES, NDIS_MINIPORT_ADAPTER_ATTRIBUTES union [Network Drivers Starting with Windows Vista], netvista.ndis_miniport_adapter_attributes, PNDIS_MINIPORT_ADAPTER_ATTRIBUTES union pointer [Network Drivers Starting with Windows Vista], ndis/NDIS_MINIPORT_ADAPTER_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -207,13 +207,13 @@ Miniport drivers pass these structures to the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">
-   NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">
+   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
@@ -226,12 +226,8 @@ Miniport drivers pass these structures to the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_registration_attributes.md">
-   NDIS_MINIPORT_ADAPTER_REGISTRATION_ATTRIBUTES</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
+   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
 
 
 
@@ -239,13 +235,17 @@ Miniport drivers pass these structures to the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">
-   NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_add_device_registration_attributes.md">
+   NDIS_MINIPORT_ADD_DEVICE_REGISTRATION_ATTRIBUTES</a>
 
 
 
@@ -253,5 +253,5 @@ Miniport drivers pass these structures to the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MINIPORT_ADAPTER_ATTRIBUTES union%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_MINIPORT_ADAPTER_ATTRIBUTES union%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

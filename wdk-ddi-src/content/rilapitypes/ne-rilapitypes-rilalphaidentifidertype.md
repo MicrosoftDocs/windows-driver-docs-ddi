@@ -7,8 +7,8 @@ old-location: netvista\rilalphaidentifidertype_2.htm
 old-project: netvista
 ms.assetid: 25e65540-b221-453a-95ff-ec2b96857475
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILALPHAIDENTIFIDERTYPE enumeration [Network Drivers Starting with Windows Vista], RIL_ALPHAIDENTIFIERTYPE_PRESENT, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_PRESENT, rilapitypes/RILALPHAIDENTIFIDERTYPE, RIL_ALPHAIDENTIFIERTYPE_MAX, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_MAX, netvista.rilalphaidentifidertype_2, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, RILALPHAIDENTIFIDERTYPE, RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RIL_ALPHAIDENTIFIERTYPE_MAX, RILALPHAIDENTIFIDERTYPE, RIL_ALPHAIDENTIFIERTYPE_PRESENT, RILALPHAIDENTIFIDERTYPE enumeration [Network Drivers Starting with Windows Vista], netvista.rilalphaidentifidertype_2, rilapitypes/RILALPHAIDENTIFIDERTYPE, RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_NOTPRESENT, RIL_ALPHAIDENTIFIERTYPE_MAX, rilapitypes/RIL_ALPHAIDENTIFIERTYPE_PRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

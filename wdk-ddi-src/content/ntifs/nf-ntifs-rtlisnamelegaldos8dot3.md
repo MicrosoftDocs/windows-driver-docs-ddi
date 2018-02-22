@@ -7,8 +7,8 @@ old-location: ifsk\rtlisnamelegaldos8dot3.htm
 old-project: ifsk
 ms.assetid: 27aa6bd1-c4e2-427e-a9e4-383d66fe2d61
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/RtlIsNameLegalDOS8Dot3, ifsk.rtlisnamelegaldos8dot3, RtlIsNameLegalDOS8Dot3, rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.rtlisnamelegaldos8dot3, ntifs/RtlIsNameLegalDOS8Dot3, rtlref_73bcf962-f0aa-4fa1-9e45-0a471a6b2c40.xml, RtlIsNameLegalDOS8Dot3 routine [Installable File System Drivers], RtlIsNameLegalDOS8Dot3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,10 +108,6 @@ If the block of memory at <i>Name</i> is nonpaged, the caller can be running at 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
@@ -120,9 +116,13 @@ If the block of memory at <i>Name</i> is nonpaged, the caller can be running at 
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558741">OEM_STRING</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlIsNameLegalDOS8Dot3 routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlIsNameLegalDOS8Dot3 routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

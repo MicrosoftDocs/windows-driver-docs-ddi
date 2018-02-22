@@ -7,8 +7,8 @@ old-location: nfpdrivers\nfccx_driver_globals.htm
 old-project: nfpdrivers
 ms.assetid: 3B84B227-7155-4FA2-A224-1317D103F5C3
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfpdrivers.nfccx_driver_globals, *PNFCCX_DRIVER_GLOBALS, _NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], nfccx/PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], NFCCX_DRIVER_GLOBALS
+ms.date: 2/15/2018
+ms.keywords: "_NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], NFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], nfccx/PNFCCX_DRIVER_GLOBALS, nfpdrivers.nfccx_driver_globals"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,5 +84,5 @@ typedef struct _NFCCX_DRIVER_GLOBALS {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFCCX_DRIVER_GLOBALS structure%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20NFCCX_DRIVER_GLOBALS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

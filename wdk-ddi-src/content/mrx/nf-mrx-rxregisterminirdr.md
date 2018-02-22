@@ -7,8 +7,8 @@ old-location: ifsk\rxregisterminirdr.htm
 old-project: ifsk
 ms.assetid: f9c2fedd-b513-4ea9-b915-cdcc05b88d6f
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, ifsk.rxregisterminirdr, RxRegisterMinirdr function [Installable File System Drivers], RxRegisterMinirdr, mrx/RxRegisterMinirdr
+ms.date: 2/16/2018
+ms.keywords: mrx/RxRegisterMinirdr, RxRegisterMinirdr, ifsk.rxregisterminirdr, rxref_72a33968-ea1e-4431-9843-5bf3aa11a12a.xml, RxRegisterMinirdr function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -270,7 +270,7 @@ The <b>pRdbssScavenger</b> member structure is initialized.
 </ul>
 If the <b>RxRegisterMinirdr</b> call is successful, RDBSS sets the internal state of the network mini-redirector in RDBSS to RDBSS_STARTABLE.
 
-The network mini-redirector does not actually start operation until it receives a call to its <a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a> routine, one of the callback routines passed in the MINIRDR_DISPATCH structure. The <b>MrxStart</b> callback routine must be implemented by the network mini-redirector driver if it wishes to receive callbacks for operations, unless the network mini-redirector preserves its own driver dispatch entry points. Otherwise, RDBSS will only allow the following I/O request packets through to the driver until <b>MrxStart</b> returns successfully:
+The network mini-redirector does not actually start operation until it receives a call to its <a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a> routine, one of the callback routines passed in the MINIRDR_DISPATCH structure. The <b>MrxStart</b> callback routine must be implemented by the network mini-redirector driver if it wishes to receive callbacks for operations, unless the network mini-redirector preserves its own driver dispatch entry points. Otherwise, RDBSS will only allow the following I/O request packets through to the driver until <b>MrxStart</b> returns successfully:
 
 <ul>
 <li>
@@ -299,23 +299,7 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550829">MRxStart</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
-
-
-
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -323,7 +307,11 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
-<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
 
 
 
@@ -331,11 +319,23 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
 <a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
 
 
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_calldown_ctx.md">MRxStart</a>
+
+
+
+<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
 
 
 
@@ -343,5 +343,5 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxRegisterMinirdr function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxRegisterMinirdr function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

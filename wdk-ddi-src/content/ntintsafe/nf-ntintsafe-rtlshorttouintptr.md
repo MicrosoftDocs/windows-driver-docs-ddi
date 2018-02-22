@@ -7,8 +7,8 @@ old-location: kernel\rtlshorttouintptr.htm
 old-project: kernel
 ms.assetid: C9E81C1A-56F2-414F-8FE5-847E291A022A
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntintsafe/RtlShortToUIntPtr, kernel.rtlshorttouintptr, RtlShortToUIntPtr, RtlShortToUIntPtr function [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: kernel.rtlshorttouintptr, ntintsafe/RtlShortToUIntPtr, RtlShortToUIntPtr function [Kernel-Mode Driver Architecture], RtlShortToUIntPtr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

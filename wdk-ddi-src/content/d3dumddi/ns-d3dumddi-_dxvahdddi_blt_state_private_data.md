@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_blt_state_private_data.htm
 old-project: display
 ms.assetid: f9c0f137-e84c-4626-aa6a-dce352bf7bb0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVA2_Structs_162bb87d-6383-4c29-b137-0316ace07a65.xml, d3dumddi/DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure [Display Devices], _DXVAHDDDI_BLT_STATE_PRIVATE_DATA, display.dxvahdddi_blt_state_private_data
+ms.date: 2/20/2018
+ms.keywords: d3dumddi/DXVAHDDDI_BLT_STATE_PRIVATE_DATA, _DXVAHDDDI_BLT_STATE_PRIVATE_DATA, DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure [Display Devices], DXVA2_Structs_162bb87d-6383-4c29-b137-0316ace07a65.xml, display.dxvahdddi_blt_state_private_data, DXVAHDDDI_BLT_STATE_PRIVATE_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,6 +95,14 @@ Unlike other bitblt states (<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_blt_stat
 
 ## -see-also
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
+
+
+
 <a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_blt_state.md">DXVAHDDDI_BLT_STATE</a>
 
 
@@ -103,17 +111,9 @@ Unlike other bitblt states (<a href="..\d3dumddi\ne-d3dumddi-_dxvahdddi_blt_stat
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
-
-
-
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessbltstate.md">SetVideoProcessBltState</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_BLT_STATE_PRIVATE_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

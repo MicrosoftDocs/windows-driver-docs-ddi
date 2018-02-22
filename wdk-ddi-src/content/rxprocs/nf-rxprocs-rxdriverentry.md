@@ -7,8 +7,8 @@ old-location: ifsk\rxdriverentry.htm
 old-project: ifsk
 ms.assetid: f100f872-6db2-4b6d-a9c0-abbbfee0a621
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RxDriverEntry, ifsk.rxdriverentry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml, RxDriverEntry routine [Installable File System Drivers], rxprocs/RxDriverEntry
+ms.date: 2/16/2018
+ms.keywords: rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml, RxDriverEntry routine [Installable File System Drivers], RxDriverEntry, rxprocs/RxDriverEntry, ifsk.rxdriverentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -189,35 +189,7 @@ For a non-monolithic network mini-redirector driver (the Microsoft SMB redirecto
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
-
-
-
-<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
 
 
@@ -225,9 +197,37 @@ For a non-monolithic network mini-redirector driver (the Microsoft SMB redirecto
 
 
 
- 
+<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+
+<a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxDriverEntry routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxDriverEntry routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

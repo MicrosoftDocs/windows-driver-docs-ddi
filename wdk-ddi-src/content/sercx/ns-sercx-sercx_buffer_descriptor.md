@@ -7,8 +7,8 @@ old-location: serports\sercx_buffer_descriptor.htm
 old-project: serports
 ms.assetid: 0F13A5B2-CD35-4127-B2E3-F4027D098CB2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], serports.sercx_buffer_descriptor, PSERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], 1/PSERCX_BUFFER_DESCRIPTOR
+ms.date: 2/15/2018
+ms.keywords: SERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], 1/PSERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR, serports.sercx_buffer_descriptor, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], PSERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_BUFFER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: SERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR
+req.typenames: "*PSERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -106,17 +106,17 @@ The controller driver must call the <a href="..\sercx\nf-sercx-sercx_buffer_desc
 
 
 
-<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
 
 
 
- 
+<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX_BUFFER_DESCRIPTOR structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX_BUFFER_DESCRIPTOR structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

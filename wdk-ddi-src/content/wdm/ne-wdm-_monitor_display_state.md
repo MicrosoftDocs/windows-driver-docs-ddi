@@ -7,13 +7,13 @@ old-location: kernel\monitor_display_state.htm
 old-project: kernel
 ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PowerMonitorDim, PowerMonitorOn, *PMONITOR_DISPLAY_STATE, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], MONITOR_DISPLAY_STATE, kernel.monitor_display_state, wdm/PowerMonitorOff, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorOn, wdm/PowerMonitorDim, _MONITOR_DISPLAY_STATE, PowerMonitorOff
+ms.date: 2/16/2018
+ms.keywords: "*PMONITOR_DISPLAY_STATE, PowerMonitorDim, MONITOR_DISPLAY_STATE, wdm/PowerMonitorOn, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorOff, PowerMonitorOn, kernel.monitor_display_state, _MONITOR_DISPLAY_STATE, wdm/PowerMonitorDim, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], PowerMonitorOff"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: 
+req.include-header: Ntpoapi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

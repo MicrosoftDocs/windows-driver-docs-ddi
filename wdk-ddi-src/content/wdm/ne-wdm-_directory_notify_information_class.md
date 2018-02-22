@@ -7,8 +7,8 @@ old-location: ifsk\_directory_notify_information_class.htm
 old-project: ifsk
 ms.assetid: 77c2515b-f20a-47ac-9564-9eab009cf625
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk._directory_notify_information_class, wdm/DirectoryNotifyExtendedInformation, _DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DirectoryNotifyExtendedInformation, DIRECTORY_NOTIFY_INFORMATION_CLASS, DirectoryNotifyInformation, *PDIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyInformation, wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS
+ms.date: 2/16/2018
+ms.keywords: wdm/DIRECTORY_NOTIFY_INFORMATION_CLASS, _DIRECTORY_NOTIFY_INFORMATION_CLASS, DIRECTORY_NOTIFY_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], DIRECTORY_NOTIFY_INFORMATION_CLASS, *PDIRECTORY_NOTIFY_INFORMATION_CLASS, wdm/DirectoryNotifyInformation, wdm/DirectoryNotifyExtendedInformation, ifsk._directory_notify_information_class, DirectoryNotifyExtendedInformation, DirectoryNotifyInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: Called at PASSIVE_LEVEL.
+req.irql: PASSIVE_LEVEL
 topictype:
 -	APIRef
 -	kbSyntax

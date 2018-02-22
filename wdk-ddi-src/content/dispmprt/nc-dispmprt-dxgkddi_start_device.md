@@ -7,7 +7,7 @@ old-location: display\dxgkddistartdevice.htm
 old-project: display
 ms.assetid: ffacbb39-2581-4207-841d-28ce57fbc64d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddistartdevice, DxgkDdiStartDevice callback function [Display Devices], DxgkDdiStartDevice, DXGKDDI_START_DEVICE, DXGKDDI_START_DEVICE, dispmprt/DxgkDdiStartDevice, DmFunctions_3b4ea5b7-9ccb-408f-9f37-693965ee99cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	DxgkDdiStartDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSYMBOL_INFO_EX, SYMBOL_INFO_EX"
+req.typenames: SYMBOL_INFO_EX, *PSYMBOL_INFO_EX
 ---
 
 # DXGKDDI_START_DEVICE callback
@@ -102,14 +102,18 @@ A pointer to a <b>ULONG</b> variable that receives the total number of devices t
 ## -returns
 
 
+
 <i>DxgkDdiStartDevice</i> returns <b>STATUS_SUCCESS</b> if it succeeds; otherwise, it returns one of the error codes defined in <i>Ntstatus.h</i>.
+
 
 
 
 ## -remarks
 
 
+
 The <i>DxgkDdiStartDevice</i> function must perform the following actions:
+
 <ul>
 <li>
 Save the function pointers supplied by the <a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a> structure passed to the <i>DxgkInterface</i> parameter. Also save the <b>DeviceHandle</b> member of the <b>DXGKRNL_INTERFACE</b> structure; you will need that handle to call back into the DirectX graphics kernel subsystem.
@@ -139,31 +143,47 @@ Set <i>NumberOfChildren </i> to the number of devices that are (or could become)
 Enable interrupts for the display adapter represented by <i>MiniportDeviceContext</i>.
 
 </li>
-</ul>Starting with Windows Display Driver Model (WDDM) 1.2, the display miniport driver calls   the <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> function to obtain the information about the display mode that had been previously set by the firmware and system loader. If <b>DxgkCbAcquirePostDisplayOwnership</b> returns with <b>STATUS_SUCCESS</b>, the driver determines whether it has to reinitialize the display based on the display mode information that was returned through the <i>DisplayInfo</i> parameter. Otherwise,  the driver should not assume that any specific display mode is currently enabled on the device, and it should initialize the display.
+</ul>
+Starting with Windows Display Driver Model (WDDM) 1.2, the display miniport driver calls   the <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a> function to obtain the information about the display mode that had been previously set by the firmware and system loader. If <b>DxgkCbAcquirePostDisplayOwnership</b> returns with <b>STATUS_SUCCESS</b>, the driver determines whether it has to reinitialize the display based on the display mode information that was returned through the <i>DisplayInfo</i> parameter. Otherwise,  the driver should not assume that any specific display mode is currently enabled on the device, and it should initialize the display.
 
 The <i>DxgkDdiStartDevice</i> function should be made pageable.
 
 
 
+
 ## -see-also
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
-
-<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
 
 <a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
 
-<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
-
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a>
 
- 
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgkrnl_interface.md">DXGKRNL_INTERFACE</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_get_device_information.md">DxgkCbGetDeviceInformation</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_map_memory.md">DxgkCbMapMemory</a>
+
+
+
+<a href="..\dispmprt\ns-dispmprt-_dxgk_device_info.md">DXGK_DEVICE_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_START_DEVICE callback function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKDDI_START_DEVICE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

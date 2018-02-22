@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::Breakpoint method
 author: windows-driver-content
 description: The Breakpoint callback method is called by the engine when the target issues a breakpointexception.
 old-location: debugger\idebugeventcallbacks_breakpoint.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 76b9aca2-4630-45e2-bed4-f701018c86a5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacks::Breakpoint, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, IDebugEventCallbacks, debugger.idebugeventcallbacks_breakpoint, dbgeng/IDebugEventCallbacks::Breakpoint, Breakpoint
+ms.date: 2/15/2018
+ms.keywords: debugger.idebugeventcallbacks_breakpoint, IDebugEventCallbacks interface [Windows Debugging], Breakpoint method, Breakpoint method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_16ba89ba-0eb2-4565-ba29-5865abffe1bc.xml, dbgeng/IDebugEventCallbacks::Breakpoint, IDebugEventCallbacks::Breakpoint, Breakpoint, Breakpoint method [Windows Debugging], IDebugEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.Breakpoint
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::Breakpoint method

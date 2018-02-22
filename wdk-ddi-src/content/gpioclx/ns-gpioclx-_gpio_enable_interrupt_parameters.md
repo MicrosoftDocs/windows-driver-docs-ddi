@@ -7,8 +7,8 @@ old-location: gpio\gpio_enable_interrupt_parameters.htm
 old-project: GPIO
 ms.assetid: 9F9AA4C1-A202-4AF8-8E1D-F7E56C08A2C1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PGPIO_ENABLE_INTERRUPT_PARAMETERS, _GPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], *PGPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/PGPIO_ENABLE_INTERRUPT_PARAMETERS, gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO.gpio_enable_interrupt_parameters
+ms.date: 2/15/2018
+ms.keywords: "_GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS structure pointer [Parallel Ports], *PGPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO.gpio_enable_interrupt_parameters, gpioclx/GPIO_ENABLE_INTERRUPT_PARAMETERS, GPIO_ENABLE_INTERRUPT_PARAMETERS structure [Parallel Ports], gpioclx/PGPIO_ENABLE_INTERRUPT_PARAMETERS, PGPIO_ENABLE_INTERRUPT_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,7 +98,7 @@ Whether the interrupt request from this GPIO pin is level-sensitive or edge-trig
 <li><b>LevelSensitive</b></li>
 <li><b>Latched</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
+For more information, see <a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>.
 
 
 ### -field Polarity
@@ -112,7 +112,7 @@ Whether the interrupt line from this GPIO pin is active-high or active-low. This
 <li><b>InterruptFallingEdge</b></li>
 <li><b>InterruptActiveBoth</b></li>
 </ul>
-For more information, see <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
+For more information, see <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>.
 
 
 ### -field PullConfiguration
@@ -171,23 +171,7 @@ If none of the system-defined <b>GPIO_PIN_PULL_CONFIGURATION_<i>XXX</i></b> cons
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
-
-
-
-<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+<a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
 
 
@@ -195,9 +179,25 @@ If none of the system-defined <b>GPIO_PIN_PULL_CONFIGURATION_<i>XXX</i></b> cons
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439377">CLIENT_EnableInterrupt</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
+
+
+
+<a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_ENABLE_INTERRUPT_PARAMETERS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [GPIO\parports]:%20GPIO_ENABLE_INTERRUPT_PARAMETERS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

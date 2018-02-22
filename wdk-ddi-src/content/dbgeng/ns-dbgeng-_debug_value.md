@@ -4,11 +4,11 @@ title: "_DEBUG_VALUE"
 author: windows-driver-content
 description: The DEBUG_VALUE structure holds register and expression values.
 old-location: debugger\debug_value.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 568469ad-79c4-4437-aefe-a29e77e5143a
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_VALUE, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/PDEBUG_VALUE, PDEBUG_VALUE, debugger.debug_value, DEBUG_VALUE, PDEBUG_VALUE structure pointer [Windows Debugging], DEBUG_VALUE structure [Windows Debugging], *PDEBUG_VALUE
+ms.date: 2/15/2018
+ms.keywords: PDEBUG_VALUE structure pointer [Windows Debugging], debugger.debug_value, Structures_2486f31c-2a25-41eb-ac3f-9cc1d62dd2e0.xml, _DEBUG_VALUE, dbgeng/PDEBUG_VALUE, DEBUG_VALUE, PDEBUG_VALUE, *PDEBUG_VALUE, dbgeng/DEBUG_VALUE, DEBUG_VALUE structure [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,82 +97,12 @@ typedef struct _DEBUG_VALUE {
 
 
 
-### -field I8
-
- 
-
-
-### -field I16
-
- 
-
-
-### -field I32
-
- 
-
-
 ### -field I64
 
  
 
 
 ### -field Nat
-
- 
-
-
-### -field F32
-
- 
-
-
-### -field F64
-
- 
-
-
-### -field F80Bytes
-
- 
-
-
-### -field F82Bytes
-
- 
-
-
-### -field F128Bytes
-
- 
-
-
-### -field VI8
-
- 
-
-
-### -field VI16
-
- 
-
-
-### -field VI32
-
- 
-
-
-### -field VI64
-
- 
-
-
-### -field VF32
-
- 
-
-
-### -field VF64
 
  
 
@@ -203,11 +133,6 @@ typedef struct _DEBUG_VALUE {
 
 
 ### -field F128Parts64.HighPart
-
- 
-
-
-### -field RawBytes
 
  
 

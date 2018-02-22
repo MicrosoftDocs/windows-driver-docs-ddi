@@ -7,8 +7,8 @@ old-location: netvista\dot11_cipher_default_key_value.htm
 old-project: netvista
 ms.assetid: 7362b20a-6ec4-4b22-8981-3a4b647a3cfa
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, netvista.dot11_cipher_default_key_value, DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE, *PDOT11_CIPHER_DEFAULT_KEY_VALUE, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE
+ms.date: 2/16/2018
+ms.keywords: windot11/PDOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_CIPHER_DEFAULT_KEY_VALUE, PDOT11_CIPHER_DEFAULT_KEY_VALUE, Native_802.11_data_types_dba46983-b572-4b76-8628-776848e4b22e.xml, DOT11_CIPHER_DEFAULT_KEY_VALUE structure [Network Drivers Starting with Windows Vista], DOT11_CIPHER_DEFAULT_KEY_VALUE, windot11/DOT11_CIPHER_DEFAULT_KEY_VALUE, netvista.dot11_cipher_default_key_value
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -242,21 +242,6 @@ The length, in bytes, of the key material in the
      <b>ucKey</b> array.
 
 
-### -field ucKey.unique
-
- 
-
-
-### -field ucKey.size_is
-
- 
-
-
-### -field ucKey.size_is.usKeyLength
-
- 
-
-
 ### -field ucKey
 
 The key material. 
@@ -310,11 +295,7 @@ If the
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
 
 
@@ -322,7 +303,7 @@ If the
 
 
 
-<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-default-key-id">OID_DOT11_CIPHER_DEFAULT_KEY</a>
 
 
 
@@ -334,7 +315,11 @@ If the
 
 
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_key_algo_ccmp.md">DOT11_KEY_ALGO_CCMP</a>
 
 
 
@@ -342,5 +327,5 @@ If the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_DEFAULT_KEY_VALUE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_CIPHER_DEFAULT_KEY_VALUE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

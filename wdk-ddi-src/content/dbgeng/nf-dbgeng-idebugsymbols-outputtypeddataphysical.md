@@ -4,11 +4,11 @@ title: IDebugSymbols::OutputTypedDataPhysical method
 author: windows-driver-content
 description: The OutputTypedDataPhysical method formats the contents of a variable in the target computer's physical memory, and then sends this to the output callbacks.
 old-location: debugger\outputtypeddataphysical.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 0c2ae1ff-bbf1-462f-b9ab-49f74cf12fae
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::OutputTypedDataPhysical, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, debugger.outputtypeddataphysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3::OutputTypedDataPhysical, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols, OutputTypedDataPhysical, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method, OutputTypedDataPhysical method [Windows Debugging], OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface
+ms.date: 2/15/2018
+ms.keywords: OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols3::OutputTypedDataPhysical, dbgeng/IDebugSymbols::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols3::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols interface, debugger.outputtypeddataphysical, IDebugSymbols, dbgeng/IDebugSymbols2::OutputTypedDataPhysical, OutputTypedDataPhysical method [Windows Debugging], IDebugSymbols2 interface [Windows Debugging], OutputTypedDataPhysical method, IDebugSymbols::OutputTypedDataPhysical, IDebugSymbols_35ce4485-6c19-44fd-8382-011b0e620f48.xml, IDebugSymbols2::OutputTypedDataPhysical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.OutputTypedDataPhysical
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::OutputTypedDataPhysical method

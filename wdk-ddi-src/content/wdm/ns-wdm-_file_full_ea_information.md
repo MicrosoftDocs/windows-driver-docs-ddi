@@ -7,8 +7,8 @@ old-location: kernel\file_full_ea_information.htm
 old-project: kernel
 ms.assetid: 1b9bbb6a-2dfb-4f3f-8083-62b51a62dec6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: FILE_FULL_EA_INFORMATION, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, _FILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.file_full_ea_information, *PFILE_FULL_EA_INFORMATION, wdm/PFILE_FULL_EA_INFORMATION, wdm/FILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: wdm/FILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION structure [Kernel-Mode Driver Architecture], *PFILE_FULL_EA_INFORMATION, PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION, _FILE_FULL_EA_INFORMATION, kstruct_b_3640566d-def9-44eb-a205-a6361d46e246.xml, PFILE_FULL_EA_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PFILE_FULL_EA_INFORMATION, kernel.file_full_ea_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_FULL_EA_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_FULL_EA_INFORMATION, *PFILE_FULL_EA_INFORMATION
+req.typenames: "*PFILE_FULL_EA_INFORMATION, FILE_FULL_EA_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -118,5 +118,5 @@ The value(s) associated with each entry follows the <b>EaName</b> array. That is
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_FULL_EA_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_FULL_EA_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

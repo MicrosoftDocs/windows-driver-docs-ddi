@@ -7,7 +7,7 @@ old-location: wdf\evtdmaenablerfill.htm
 old-project: wdf
 ms.assetid: 3da947b4-76f9-492f-b8e2-b52aa7812b26
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtdmaenablerfill, EvtDmaEnablerFill callback function, EvtDmaEnablerFill, EVT_WDF_DMA_ENABLER_FILL, EVT_WDF_DMA_ENABLER_FILL, wdfdmaenabler/EvtDmaEnablerFill, DFDmaObjectRef_3546c1f6-cb96-4b6e-bafa-25a1d15b00c5.xml, kmdf.evtdmaenablerfill
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -154,5 +154,5 @@ The <b>EVT_WDF_DMA_ENABLER_FILL</b> function type is defined in the WdfDmaEnable
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_DMA_ENABLER_FILL callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_DMA_ENABLER_FILL callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: kernel\flushadapterbuffersex.htm
 old-project: kernel
 ms.assetid: D211CB5B-9FE6-4829-950D-F7DDD1A00F76
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.flushadapterbuffersex, FlushAdapterBuffersEx, FlushAdapterBuffersEx callback function [Kernel-Mode Driver Architecture], FlushAdapterBuffersEx, PFLUSH_ADAPTER_BUFFERS_EX, PFLUSH_ADAPTER_BUFFERS_EX, wdm/FlushAdapterBuffersEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	FlushAdapterBuffersEx
 product: Windows
 targetos: Windows
-req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
+req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
 req.product: Windows 10 or later.
 ---
 
@@ -78,7 +78,7 @@ NTSTATUS FlushAdapterBuffersEx(
 
 ### -param DmaAdapter [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel or bus-master device. The caller obtained this pointer from a previous call to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> routine.
+A pointer to a <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a> structure. This structure is the adapter object that represents the driver's system DMA channel or bus-master device. The caller obtained this pointer from a previous call to the <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> routine.
 
 
 ### -param Mdl [in]
@@ -109,7 +109,9 @@ The direction of the DMA transfer. Set this parameter to the value that was used
 ## -returns
 
 
+
 <b>FlushAdapterBuffersEx</b> returns STATUS_SUCCESS if the call is successful. Possible error return values include the following status codes.
+
 <table>
 <tr>
 <th>Return code</th>
@@ -126,14 +128,17 @@ The routine failed due to invalid parameter values passed by the caller.
 
 </td>
 </tr>
-</table> 
+</table>
+ 
+
 
 
 
 ## -remarks
 
 
-<b>FlushAdapterBuffersEx</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
+
+<b>FlushAdapterBuffersEx</b><i> is not a system routine that can be called directly by name. This routine can be called only by pointer from the address returned in a </i><a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a><i> structure. </i>Drivers obtain the address of this routine by calling <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a> with the <b>Version</b> member of the <i>DeviceDescription</i> parameter set to DEVICE_DESCRIPTION_VERSION3. If <b>IoGetDmaAdapter</b> returns <b>NULL</b>, the routine is not available on your platform.
 
 <b>FlushAdapterBuffersEx</b> enables processor cache coherency in hardware platforms that do not implement hardware-enforced cache coherency (bus snooping). In addition, for a system DMA transfer, <b>FlushAdapterBuffersEx</b> flushes any data that remains in the system DMA controller's internal cache.
 
@@ -147,25 +152,40 @@ If <b>FlushAdapterBuffersEx</b> is called before the DMA transfer operation fini
 
 
 
+
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
 
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
-
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
-
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
 
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549220">IoGetDmaAdapter</a>
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pget_scatter_gather_list_ex.md">GetScatterGatherListEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PFLUSH_ADAPTER_BUFFERS_EX callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PFLUSH_ADAPTER_BUFFERS_EX callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

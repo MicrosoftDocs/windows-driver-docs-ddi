@@ -7,8 +7,8 @@ old-location: kernel\rtlnumberofclearbits.htm
 old-project: kernel
 ms.assetid: 739dc01d-7340-449f-8fe6-64e5c8284436
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k109_1b655b45-806c-4199-91e6-2ed2f4d4e570.xml, wdm/RtlNumberOfClearBits, kernel.rtlnumberofclearbits, RtlNumberOfClearBits, RtlNumberOfClearBits routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: RtlNumberOfClearBits, kernel.rtlnumberofclearbits, k109_1b655b45-806c-4199-91e6-2ed2f4d4e570.xml, wdm/RtlNumberOfClearBits, RtlNumberOfClearBits routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,15 +93,15 @@ Callers of <b>RtlNumberOfClearBits</b> must be running at IRQL &lt;= APC_LEVEL i
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
+<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
+<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
 
 
 
@@ -109,11 +109,11 @@ Callers of <b>RtlNumberOfClearBits</b> must be running at IRQL &lt;= APC_LEVEL i
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindlongestrunclear.md">RtlFindLongestRunClear</a>
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+<a href="..\wdm\nf-wdm-rtlfindclearruns.md">RtlFindClearRuns</a>
 
 
 
@@ -125,7 +125,7 @@ Callers of <b>RtlNumberOfClearBits</b> must be running at IRQL &lt;= APC_LEVEL i
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="..\wdm\nf-wdm-rtlfindnextforwardrunclear.md">RtlFindNextForwardRunClear</a>
 
 
 
@@ -133,5 +133,5 @@ Callers of <b>RtlNumberOfClearBits</b> must be running at IRQL &lt;= APC_LEVEL i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlNumberOfClearBits routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlNumberOfClearBits routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

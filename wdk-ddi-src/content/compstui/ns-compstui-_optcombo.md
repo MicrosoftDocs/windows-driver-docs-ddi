@@ -7,8 +7,8 @@ old-location: print\optcombo.htm
 old-project: print
 ms.assetid: B1F5A79A-8F64-4B7B-ADB4-BDD8EC17F22E
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: compstui/POPTCOMBO, compstui/OPTCOMBO, POPTCOMBO structure pointer [Print Devices], *POPTCOMBO, OPTCOMBO, print.optcombo, _OPTCOMBO, OPTCOMBO structure [Print Devices], POPTCOMBO
+ms.date: 2/21/2018
+ms.keywords: "_OPTCOMBO, POPTCOMBO, POPTCOMBO structure pointer [Print Devices], OPTCOMBO structure [Print Devices], print.optcombo, *POPTCOMBO, compstui/POPTCOMBO, compstui/OPTCOMBO, OPTCOMBO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OPTCOMBO
 product: Windows
 targetos: Windows
-req.typenames: "*POPTCOMBO, OPTCOMBO"
+req.typenames: OPTCOMBO, *POPTCOMBO
 ---
 
 # _OPTCOMBO structure

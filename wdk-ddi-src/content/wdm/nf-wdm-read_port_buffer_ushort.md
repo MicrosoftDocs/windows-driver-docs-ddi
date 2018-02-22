@@ -7,13 +7,13 @@ old-location: kernel\read_port_buffer_ushort.htm
 old-project: kernel
 ms.assetid: 27c2f249-bfd2-497d-aa34-f5d1e1a1fac7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.read_port_buffer_ushort, READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml, wdm/READ_PORT_BUFFER_USHORT
+ms.date: 2/16/2018
+ms.keywords: wdm/READ_PORT_BUFFER_USHORT, kernel.read_port_buffer_ushort, READ_PORT_BUFFER_USHORT, READ_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_59466909-4881-4b5f-95aa-c1d742ef17af.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 

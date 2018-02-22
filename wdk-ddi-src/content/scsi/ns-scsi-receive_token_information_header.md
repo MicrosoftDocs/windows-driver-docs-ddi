@@ -7,13 +7,13 @@ old-location: storage\receive_token_information_header.htm
 old-project: storage
 ms.assetid: 3D8BF059-2063-499E-B287-41EE184A2264
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: TRANSFER_COUNT_UNITS_GIBIBYTES, RECEIVE_TOKEN_INFORMATION_HEADER, *PRECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], TRANSFER_COUNT_UNITS_PEBIBYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, SERVICE_ACTION_POPULATE_TOKEN, TRANSFER_COUNT_UNITS_TEBIBYTES, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], scsi/RECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_EXBIBYTES, storage.receive_token_information_header, SERVICE_ACTION_WRITE_USING_TOKEN, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_BYTES
+ms.date: 2/16/2018
+ms.keywords: TRANSFER_COUNT_UNITS_TEBIBYTES, TRANSFER_COUNT_UNITS_BYTES, *PRECEIVE_TOKEN_INFORMATION_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_HEADER, SERVICE_ACTION_POPULATE_TOKEN, TRANSFER_COUNT_UNITS_KIBIBYTES, TRANSFER_COUNT_UNITS_EXBIBYTES, TRANSFER_COUNT_UNITS_NUMBER_BLOCKS, scsi/PRECEIVE_TOKEN_INFORMATION_HEADER, TRANSFER_COUNT_UNITS_MEBIBYTES, TRANSFER_COUNT_UNITS_GIBIBYTES, storage.receive_token_information_header, PRECEIVE_TOKEN_INFORMATION_HEADER structure pointer [Storage Devices], SERVICE_ACTION_WRITE_USING_TOKEN, TRANSFER_COUNT_UNITS_PEBIBYTES, RECEIVE_TOKEN_INFORMATION_HEADER structure [Storage Devices], PRECEIVE_TOKEN_INFORMATION_HEADER, RECEIVE_TOKEN_INFORMATION_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: scsi.h
-req.include-header: Scsi.h
+req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
@@ -362,7 +362,7 @@ Sense data returned for the copy operation.
 
 
 
-If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
+If <b>RECEIVE_TOKEN_INFORMATION_HEADER</b> is for a POPULATE TOKEN command operation, and the command completed successfully, a <a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a> structure will also be present after <b>SenseData</b> at an offset of <b>SenseDataFieldLength</b> from the beginning of the <b>SenseData</b> array. The <b>RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</b> structure will contain the token created as a representation of data (ROD) for the range parameters sent with the command.
 
 All multibyte values are in big endian format. Prior to evaluation, these values must be converted to match the endian format of the current platform.
 
@@ -371,7 +371,7 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
+<a href="..\storport\ns-storport-receive_token_information_response_header.md">RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER</a>
 
 
 
@@ -379,5 +379,5 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RECEIVE_TOKEN_INFORMATION_HEADER structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20RECEIVE_TOKEN_INFORMATION_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

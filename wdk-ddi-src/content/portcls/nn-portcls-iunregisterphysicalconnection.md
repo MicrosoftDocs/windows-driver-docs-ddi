@@ -7,7 +7,7 @@ old-location: audio\iunregisterphysicalconnection.htm
 old-project: audio
 ms.assetid: 876a457e-8774-4c51-bd23-6451b3e3a7b7
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.iunregisterphysicalconnection, IUnregisterPhysicalConnection interface [Audio Devices], IUnregisterPhysicalConnection interface [Audio Devices], described, IUnregisterPhysicalConnection, portcls/IUnregisterPhysicalConnection, audmp-routines_b26d005c-70d9-4df0-80ae-446907f22fd4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IUnregisterPhysicalConnection
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IUnregisterPhysicalConnection interface

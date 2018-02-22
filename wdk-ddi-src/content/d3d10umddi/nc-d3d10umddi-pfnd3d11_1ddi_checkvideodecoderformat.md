@@ -7,7 +7,7 @@ old-location: display\checkvideodecoderformat.htm
 old-project: display
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.checkvideodecoderformat, CheckVideoDecoderFormat callback function [Display Devices], CheckVideoDecoderFormat, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, d3d10umddi/CheckVideoDecoderFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	CheckVideoDecoderFormat
 product: Windows
 targetos: Windows
-req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
+req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
 ---
 
 # PFND3D11_1DDI_CHECKVIDEODECODERFORMAT callback
@@ -76,7 +76,6 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 ### -param D3D10DDI_HDEVICE
 
 
-
 ### -param *
 
 
@@ -84,8 +83,9 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 
 
 
-### -param DXGI_FORMAT
 
+
+### -param DXGI_FORMAT
 
 
 #### - hDevice [in]
@@ -113,13 +113,17 @@ A BOOL value that, if TRUE, specifies that the specified format can be used  for
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 
 
 ## -remarks
 
 
+
 This function is not expected to fail.
+
 
 

@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookadditionalnumberinfo.htm
 old-project: netvista
 ms.assetid: bc4026e5-6613-4787-9218-22d1d3e447c3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO, netvista.rilphonebookadditionalnumberinfo
+ms.date: 2/16/2018
+ms.keywords: RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO, ntddrilapitypes/RILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO structure [Network Drivers Starting with Windows Vista], netvista.rilphonebookadditionalnumberinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKADDITIONALNUMBERINFO
 product: Windows
 targetos: Windows
-req.typenames: RILPHONEBOOKADDITIONALNUMBERINFO, *LPRILPHONEBOOKADDITIONALNUMBERINFO
+req.typenames: "*LPRILPHONEBOOKADDITIONALNUMBERINFO, RILPHONEBOOKADDITIONALNUMBERINFO"
 ---
 
 # RILPHONEBOOKADDITIONALNUMBERINFO structure

@@ -7,8 +7,8 @@ old-location: netvista\wsk_client_listen_dispatch.htm
 old-project: netvista
 ms.assetid: aaef10f5-2933-4e16-aca6-2277b52fb174
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_WSK_CLIENT_LISTEN_DISPATCH, PWSK_CLIENT_LISTEN_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], PWSK_CLIENT_LISTEN_DISPATCH, WSK_CLIENT_LISTEN_DISPATCH structure [Network Drivers Starting with Windows Vista], wsk/PWSK_CLIENT_LISTEN_DISPATCH, netvista.wsk_client_listen_dispatch, wskref_38021620-217a-4a26-b461-f59f87c9579d.xml, *PWSK_CLIENT_LISTEN_DISPATCH, wsk/WSK_CLIENT_LISTEN_DISPATCH, WSK_CLIENT_LISTEN_DISPATCH"
+ms.date: 2/16/2018
+ms.keywords: wsk/PWSK_CLIENT_LISTEN_DISPATCH, PWSK_CLIENT_LISTEN_DISPATCH, *PWSK_CLIENT_LISTEN_DISPATCH, netvista.wsk_client_listen_dispatch, _WSK_CLIENT_LISTEN_DISPATCH, WSK_CLIENT_LISTEN_DISPATCH structure [Network Drivers Starting with Windows Vista], wskref_38021620-217a-4a26-b461-f59f87c9579d.xml, PWSK_CLIENT_LISTEN_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_CLIENT_LISTEN_DISPATCH, WSK_CLIENT_LISTEN_DISPATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,7 +109,7 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
 
 
@@ -117,7 +117,7 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 
 
@@ -125,7 +125,7 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -133,5 +133,5 @@ A WSK application passes a pointer to a WSK_CLIENT_LISTEN_DISPATCH structure to 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_CLIENT_LISTEN_DISPATCH structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_CLIENT_LISTEN_DISPATCH structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

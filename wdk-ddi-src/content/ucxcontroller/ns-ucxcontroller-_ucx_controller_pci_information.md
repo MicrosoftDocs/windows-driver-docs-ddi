@@ -4,11 +4,11 @@ title: "_UCX_CONTROLLER_PCI_INFORMATION"
 author: windows-driver-content
 description: This structure provides information about a PCI USB controller.
 old-location: buses\_ucx_controller_pci_information.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 178C9423-D7C9-43FD-BC80-A675383BDE9B
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses._ucx_controller_pci_information, ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION, _UCX_CONTROLLER_PCI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], *PUCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION, _UCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses], P_UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCX_CONTROLLER_PCI_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
+req.typenames: "*PUCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -105,6 +105,10 @@ Specifies the specific function on the device that is located in the logical PCI
 
 ## -see-also
 
+<a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
+
+
+
 <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
 
 
@@ -113,13 +117,9 @@ Specifies the specific function on the device that is located in the logical PCI
 
 
 
-<a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UCX_CONTROLLER_PCI_INFORMATION structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UCX_CONTROLLER_PCI_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

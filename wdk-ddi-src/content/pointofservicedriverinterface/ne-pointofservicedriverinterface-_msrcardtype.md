@@ -7,8 +7,8 @@ old-location: pos\msrcardtype.htm
 old-project: pos
 ms.assetid: aa7af210-fb5e-49a1-911f-cb1e90c2ac26
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType_Unknown, pointofservicedriverinterface/MsrCardType_Aamva, MsrCardType_Unknown, MsrCardType_Bank, _MsrCardType, MsrCardType_Aamva, pointofservicedriverinterface/MsrCardType, pos.msrcardtype, pointofservicedriverinterface/MsrCardType_Bank, pointofservicedriverinterface/MsrCardType_ExtendedBase, MsrCardType enumeration, MsrCardType
+ms.date: 2/19/2018
+ms.keywords: pos.msrcardtype, MsrCardType_Aamva, pointofservicedriverinterface/MsrCardType_ExtendedBase, pointofservicedriverinterface/MsrCardType, _MsrCardType, MsrCardType, pointofservicedriverinterface/MsrCardType_Unknown, pointofservicedriverinterface/MsrCardType_Aamva, MsrCardType_Unknown, MsrCardType_ExtendedBase, MsrCardType_Bank, MsrCardType enumeration, pointofservicedriverinterface/MsrCardType_Bank
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Called at PASSIVE_LEVEL.
 topictype:
 -	APIRef
 -	kbSyntax

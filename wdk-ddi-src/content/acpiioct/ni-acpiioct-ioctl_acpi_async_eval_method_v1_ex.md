@@ -7,7 +7,7 @@ old-location: acpi\ioctl_acpi_async_eval_method_v1_ex.htm
 old-project: acpi
 ms.assetid: 52201F43-7556-4A63-B1B1-47DAE0A5C098
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
+ms.date: 2/15/2018
 ms.keywords: acpi.ioctl_acpi_async_eval_method_v1_ex, IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX control code [ACPI Devices], IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX, acpiioct/IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX
 product: Windows
 targetos: Windows
-req.typenames: UNIT_ISOCH_PARAMS, *PUNIT_ISOCH_PARAMS
+req.typenames: "*PUNIT_ISOCH_PARAMS, UNIT_ISOCH_PARAMS"
 ---
 
 # IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX IOCTL
@@ -115,17 +115,17 @@ The size, in bytes, of the output buffer.
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
- 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX control code%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20IOCTL_ACPI_ASYNC_EVAL_METHOD_V1_EX control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

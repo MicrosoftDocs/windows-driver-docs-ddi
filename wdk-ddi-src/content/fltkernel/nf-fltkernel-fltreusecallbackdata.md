@@ -7,8 +7,8 @@ old-location: ifsk\fltreusecallbackdata.htm
 old-project: ifsk
 ms.assetid: c8671ba7-6128-4f0f-b5b1-32ce35e31168
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltreusecallbackdata, FltReuseCallbackData, FltApiRef_p_to_z_a412f56d-8cee-40de-93fb-1c007fe87c3c.xml, fltkernel/FltReuseCallbackData, FltReuseCallbackData routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_p_to_z_a412f56d-8cee-40de-93fb-1c007fe87c3c.xml, ifsk.fltreusecallbackdata, FltReuseCallbackData, fltkernel/FltReuseCallbackData, FltReuseCallbackData routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,15 @@ In particular, a minifilter driver should not use this routine for any callback 
 
 ## -see-also
 
+<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
 
 
 
@@ -130,5 +130,5 @@ In particular, a minifilter driver should not use this routine for any callback 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltReuseCallbackData routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltReuseCallbackData routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

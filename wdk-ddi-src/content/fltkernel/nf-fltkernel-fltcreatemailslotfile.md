@@ -7,8 +7,8 @@ old-location: ifsk\fltcreatemailslotfile.htm
 old-project: ifsk
 ms.assetid: A727CDC1-A17A-4ABE-92AC-7CAEC11B78D1
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltcreatemailslotfile, FltCreateMailslotFile, fltkernel/FltCreateMailslotFile, FltCreateMailslotFile function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltCreateMailslotFile, FltCreateMailslotFile, ifsk.fltcreatemailslotfile, FltCreateMailslotFile function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -307,7 +307,7 @@ A set of flags that controls the file object attributes. If the caller is runnin
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateMailslotFile</b>, the <b>Information</b> member of the variable contains one of the following values:
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>FltCreateMailslotFile</b>, the <b>Information</b> member of the variable contains one of the following values:
 
 FILE_CREATED
 
@@ -464,7 +464,7 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 
 
@@ -472,11 +472,11 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
 
 
+<a href="..\ntddk\nf-ntddk-ioinitializedrivercreatecontext.md">IoInitializeDriverCreateContext</a>
+
+
+
 <a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 
 
@@ -488,5 +488,5 @@ To specify an extra create parameter (ECP) as part of a create operation, initia
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateMailslotFile function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCreateMailslotFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

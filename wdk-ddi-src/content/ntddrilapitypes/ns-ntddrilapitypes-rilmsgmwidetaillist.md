@@ -7,8 +7,8 @@ old-location: netvista\rilmsgmwidetaillist.htm
 old-project: netvista
 ms.assetid: 026cf4d6-2f34-4911-8ec6-0b4170463e4d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgmwidetaillist, RILMSGMWIDETAILLIST structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST, ntddrilapitypes/RILMSGMWIDETAILLIST
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILMSGMWIDETAILLIST, netvista.rilmsgmwidetaillist, RILMSGMWIDETAILLIST structure [Network Drivers Starting with Windows Vista], *LPRILMSGMWIDETAILLIST, RILMSGMWIDETAILLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_destroyvideoprocessor.htm
 old-project: display
 ms.assetid: 93C1FA5F-064F-41AC-B854-FF59A5CC172C
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_destroyvideoprocessor, pfnDestroyVideoProcessor callback function [Display Devices], pfnDestroyVideoProcessor, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, PFND3D12DDI_DESTROYVIDEOPROCESSOR_0021, d3d12umddi/pfnDestroyVideoProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -84,6 +84,8 @@ The handle of a video processor.
 ## -returns
 
 
+
 This callback function does not return a value.
+
 
 

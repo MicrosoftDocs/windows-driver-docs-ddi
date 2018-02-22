@@ -7,8 +7,8 @@ old-location: stream\optimal_weight_totals.htm
 old-project: stream
 ms.assetid: 56D97D0F-1934-4834-99A7-8A745A3E6757
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: OPTIMAL_WEIGHT_TOTALS structure [Streaming Media Devices], OPTIMAL_WEIGHT_TOTALS, ksproxy/OPTIMAL_WEIGHT_TOTALS, stream.optimal_weight_totals
+ms.date: 2/20/2018
+ms.keywords: ksproxy/OPTIMAL_WEIGHT_TOTALS, OPTIMAL_WEIGHT_TOTALS, OPTIMAL_WEIGHT_TOTALS structure [Streaming Media Devices], stream.optimal_weight_totals
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

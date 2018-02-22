@@ -7,8 +7,8 @@ old-location: stream\kspin_descriptor_ex.htm
 old-project: stream
 ms.assetid: 05c82973-86f9-44f9-8df2-1fc84c8be975
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSPIN_FLAG_FRAMES_NOT_REQUIRED_FOR_PROCESSING, KSPIN_FLAG_USE_STANDARD_TRANSPORT, KSPIN_FLAG_DO_NOT_USE_STANDARD_TRANSPORT, KSPIN_FLAG_INITIATE_PROCESSING_ON_EVERY_ARRIVAL, KSPIN_FLAG_GENERATE_MAPPINGS, KSPIN_FLAG_HYPERCRITICAL_PROCESSING, KSPIN_FLAG_RENDERER, KSPIN_FLAG_ENFORCE_FIFO, ks/PKSPIN_DESCRIPTOR_EX, ks/KSPIN_DESCRIPTOR_EX, KSPIN_FLAG_PROCESS_IF_ANY_IN_RUN_STATE, KSPIN_FLAG_DENY_USERMODE_ACCESS, KSPIN_DESCRIPTOR_EX, KSPIN_FLAG_ASYNCHRONOUS_PROCESSING, _KSPIN_DESCRIPTOR_EX, KSPIN_FLAG_PROCESS_IN_RUN_STATE_ONLY, avstruct_6a73afe1-d131-47fc-877b-1abff4a75833.xml, *PKSPIN_DESCRIPTOR_EX, KSPIN_FLAG_DISPATCH_LEVEL_PROCESSING, KSPIN_DESCRIPTOR_EX structure [Streaming Media Devices], KSPIN_FLAG_FIXED_FORMAT, KSPIN_FLAG_GENERATE_EOS_EVENTS, KSPIN_FLAG_SPLITTER, KSPIN_FLAG_IMPLEMENT_CLOCK, KSPIN_FLAG_DISTINCT_TRAILING_EDGE, PKSPIN_DESCRIPTOR_EX structure pointer [Streaming Media Devices], KSPIN_FLAG_CRITICAL_PROCESSING, stream.kspin_descriptor_ex, KSPIN_FLAG_SOME_FRAMES_REQUIRED_FOR_PROCESSING, PKSPIN_DESCRIPTOR_EX, KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING
+ms.date: 2/20/2018
+ms.keywords: KSPIN_FLAG_FIXED_FORMAT, KSPIN_FLAG_GENERATE_MAPPINGS, KSPIN_FLAG_ENFORCE_FIFO, KSPIN_DESCRIPTOR_EX structure [Streaming Media Devices], PKSPIN_DESCRIPTOR_EX structure pointer [Streaming Media Devices], KSPIN_FLAG_CRITICAL_PROCESSING, KSPIN_DESCRIPTOR_EX, KSPIN_FLAG_GENERATE_EOS_EVENTS, avstruct_6a73afe1-d131-47fc-877b-1abff4a75833.xml, _KSPIN_DESCRIPTOR_EX, KSPIN_FLAG_DISPATCH_LEVEL_PROCESSING, KSPIN_FLAG_FRAMES_NOT_REQUIRED_FOR_PROCESSING, *PKSPIN_DESCRIPTOR_EX, KSPIN_FLAG_DENY_USERMODE_ACCESS, ks/KSPIN_DESCRIPTOR_EX, ks/PKSPIN_DESCRIPTOR_EX, KSPIN_FLAG_PROCESS_IN_RUN_STATE_ONLY, KSPIN_FLAG_SOME_FRAMES_REQUIRED_FOR_PROCESSING, KSPIN_FLAG_IMPLEMENT_CLOCK, stream.kspin_descriptor_ex, KSPIN_FLAG_DO_NOT_USE_STANDARD_TRANSPORT, KSPIN_FLAG_RENDERER, KSPIN_FLAG_INITIATE_PROCESSING_ON_EVERY_ARRIVAL, PKSPIN_DESCRIPTOR_EX, KSPIN_FLAG_ASYNCHRONOUS_PROCESSING, KSPIN_FLAG_USE_STANDARD_TRANSPORT, KSPIN_FLAG_SPLITTER, KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING, KSPIN_FLAG_PROCESS_IF_ANY_IN_RUN_STATE, KSPIN_FLAG_DISTINCT_TRAILING_EDGE, KSPIN_FLAG_HYPERCRITICAL_PROCESSING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -262,15 +262,11 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
-
-
-
 <a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 
-<a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
 
 
 
@@ -278,9 +274,13 @@ Furthermore, if you specify KSPIN_FLAG_DO_NOT_INITIATE_PROCESSING and the pin us
 
 
 
- 
+<a href="..\ks\nf-ks-ksdeviceregisteradapterobject.md">KsDeviceRegisterAdapterObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPIN_DESCRIPTOR_EX structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPIN_DESCRIPTOR_EX structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 
