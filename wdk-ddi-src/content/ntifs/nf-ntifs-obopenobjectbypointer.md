@@ -251,7 +251,7 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
 
 
 

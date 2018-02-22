@@ -104,7 +104,7 @@ Pointer to the miniport driver's per-adapter storage area. For more information,
 
 
 
-<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+<a href="..\video\nc-video-pvideo_read_clock_line.md">ReadClockLine</a>
 
 
 

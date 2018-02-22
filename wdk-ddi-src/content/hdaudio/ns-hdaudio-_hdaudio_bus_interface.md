@@ -223,7 +223,7 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_buffer.md">FreeDmaBuffer</a>
 
 
 
@@ -231,7 +231,7 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pget_wall_clock_register.md">GetWallClockRegister</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
 
 
 
@@ -243,11 +243,11 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pget_device_information.md">GetDeviceInformation</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pfree_dma_engine.md">FreeDmaEngine</a>
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 
@@ -264,6 +264,10 @@ The names and definitions of the first five members (<b>Size</b>, <b>Version</b>
 
 
 <a href="..\hdaudio\nc-hdaudio-punregister_event_callback.md">UnregisterEventCallback</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 

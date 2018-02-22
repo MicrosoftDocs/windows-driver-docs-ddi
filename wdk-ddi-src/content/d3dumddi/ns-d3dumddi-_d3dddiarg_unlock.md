@@ -86,11 +86,11 @@ typedef struct _D3DDDIARG_UNLOCK {
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddi_unlockflags.md">D3DDDI_UNLOCKFLAGS</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlock.md">Unlock</a>
 
 
 

@@ -123,7 +123,7 @@ If using the specified number of bytes in the stream pointer results in zero rem
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
+<a href="..\ks\nf-ks-ksstreampointeradvance.md">KsStreamPointerAdvance</a>
 
 
 

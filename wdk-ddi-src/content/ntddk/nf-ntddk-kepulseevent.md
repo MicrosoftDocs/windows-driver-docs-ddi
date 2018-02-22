@@ -127,7 +127,7 @@ If the caller is executing at IRQL = DISPATCH_LEVEL or in an arbitrary thread co
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 

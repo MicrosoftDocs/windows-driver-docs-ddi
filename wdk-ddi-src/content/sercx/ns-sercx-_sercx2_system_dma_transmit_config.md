@@ -202,7 +202,7 @@ The <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDma
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_system_dma_transmit_cleanup_transaction.md">EvtSerCx2SystemDmaTransmitCleanupTransaction</a>
+<a href="..\sercx\nf-sercx-sercx2_system_dma_transmit_config_init.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG_INIT</a>
 
 
 

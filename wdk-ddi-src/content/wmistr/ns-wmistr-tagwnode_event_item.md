@@ -114,7 +114,7 @@ For best performance, events should be small in size. However, if the amount of 
 
 
 
-<a href="..\wdm\nf-wdm-iowmiwriteevent.md">IoWMIWriteEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550859">IRP_MN_ENABLE_EVENTS</a>
 
 
 

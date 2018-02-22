@@ -147,6 +147,12 @@ Beginning with Windows 7, if a display miniport driver processes a call to the <
 
 
 
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_getstandardallocationdriverdata.md">DXGKARG_GETSTANDARDALLOCATIONDRIVERDATA</a>
+
+
+
  
 
  

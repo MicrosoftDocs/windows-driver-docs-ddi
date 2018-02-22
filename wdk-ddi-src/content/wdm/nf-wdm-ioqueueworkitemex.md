@@ -111,7 +111,7 @@ For more information about work items, see <a href="https://msdn.microsoft.com/l
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550679">IO_WORKITEM</a>
 
 
 

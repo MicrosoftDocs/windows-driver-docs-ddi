@@ -95,19 +95,6 @@ TBD
 
 
 
-#### - Status [in]
-
-Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
-     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
-
-
-#### - NdisPartyHandle [in]
-
-Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
-     to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
-
-
 #### - CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area in which the MCM driver will
@@ -121,6 +108,19 @@ Specifies the handle to a caller-allocated resident context area in which the MC
 Pointer to a structure of type 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that contains the call
      parameters, originally supplied by the client, for the party to be added.
+
+
+#### - NdisPartyHandle [in]
+
+Specifies the handle identifying the party. The MCM driver obtained this handle as input parameter
+     to its 
+     <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
+
+
+#### - Status [in]
+
+Specifies the final status of the MCM driver's add-party operation, either NDIS_STATUS_SUCCESS or
+     any NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -203,8 +203,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 

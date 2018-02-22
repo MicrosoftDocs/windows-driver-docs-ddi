@@ -135,8 +135,7 @@ If an overlying driver originated the direct OID request, NDIS calls the request
 
 
 
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">
-   ProtocolDirectOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-filter_direct_oid_request.md">FilterDirectOidRequest</a>
 
 
 

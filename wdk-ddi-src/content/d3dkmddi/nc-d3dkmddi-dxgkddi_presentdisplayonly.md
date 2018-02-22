@@ -162,7 +162,13 @@ The operating system guarantees that this function follows the  zero level  sync
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present_displayonly.md">DXGKARG_PRESENT_DISPLAYONLY</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_queue_dpc.md">DxgkCbQueueDpc</a>
+
+
 
 
 

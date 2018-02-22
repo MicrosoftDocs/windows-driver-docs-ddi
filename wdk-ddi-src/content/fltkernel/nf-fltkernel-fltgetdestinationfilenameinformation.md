@@ -315,7 +315,7 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_rename_information.md">FILE_RENAME_INFORMATION</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -347,7 +347,7 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasefilenameinformation.md">FltReleaseFileNameInformation</a>
+<a href="..\ntifs\nf-ntifs-iogettoplevelirp.md">IoGetTopLevelIrp</a>
 
 
 

@@ -100,20 +100,20 @@ typedef struct _RILRADIOSTATEITEM {
 ### -field wszItemValueOptions
 
 
+#### - byteArray
+
+
+#### - intArray
+
+
 #### - intVal
+
+
+#### - uintArray
 
 
 #### - uintVal
 
 
 #### - wszVal
-
-
-#### - intArray
-
-
-#### - uintArray
-
-
-#### - byteArray
 

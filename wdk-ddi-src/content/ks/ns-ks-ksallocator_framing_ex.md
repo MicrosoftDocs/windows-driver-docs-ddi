@@ -119,11 +119,11 @@ DECLARE_SIMPLE_FRAMING_EX declares a KSALLOCATOR_FRAMING_EX structure called <b>
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
-
-
-
 <a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
+
+
+
+<a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</a>
 
 
 
@@ -131,11 +131,11 @@ DECLARE_SIMPLE_FRAMING_EX declares a KSALLOCATOR_FRAMING_EX structure called <b>
 
 
 
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
-
-
-
 <a href="..\ks\ns-ks-ks_framing_item.md">KS_FRAMING_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 

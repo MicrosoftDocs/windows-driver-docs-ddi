@@ -142,7 +142,7 @@ The <b>RxSetMinirdrCancelRoutine</b> routine sets the <b>MRxCancelRoutine</b> me
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+<a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
 
 
 

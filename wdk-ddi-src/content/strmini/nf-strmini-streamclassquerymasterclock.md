@@ -130,7 +130,7 @@ On rare occasions, the graph manager switches the master clock. The class driver
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568467">StrMiniReceiveStreamControlPacket</a>
+<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
 
 
 

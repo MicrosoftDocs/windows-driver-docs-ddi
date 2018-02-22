@@ -116,11 +116,6 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_INFO_LENGTH_MISMATCH
 
 The input buffer length is smaller than required.
@@ -129,6 +124,11 @@ The input buffer length is smaller than required.
 #### -STATUS_INVALID_PARAMETER
 
 The request type is not <b>SimpleOpcInfo</b>.
+
+
+#### -STATUS_SUCCESS
+
+The request completed successfully.
 
 
 ## -remarks

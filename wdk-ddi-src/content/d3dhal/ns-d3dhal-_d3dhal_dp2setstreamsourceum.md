@@ -97,7 +97,7 @@ The actual user memory pointer to the vertex data should be extracted from the <
 
 ## -see-also
 
-D3DDP2OP_SETSTREAMSOURCEUM
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsource.md">D3DHAL_DP2SETSTREAMSOURCE</a>
 
 
 

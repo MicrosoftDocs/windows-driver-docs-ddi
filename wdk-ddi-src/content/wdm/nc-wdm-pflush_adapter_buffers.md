@@ -141,6 +141,12 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
+
+
+<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
 
@@ -149,7 +155,7 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
-<a href="..\wdm\nc-wdm-pmap_transfer.md">MapTransfer</a>
+
 
 
 

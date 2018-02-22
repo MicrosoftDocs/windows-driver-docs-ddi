@@ -126,11 +126,11 @@ When a KSPROPERTY_ITD3D_PARAMS set-property request changes either <b>TotalDryAt
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksds3d_itd_params_msg.md">KSDS3D_ITD_PARAMS_MSG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537358">KSPROPERTY_ITD3D_PARAMS</a>
 
 
 

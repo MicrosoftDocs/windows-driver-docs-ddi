@@ -109,11 +109,11 @@ A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> &lt;= <i>Cu
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
-
-
-
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
+
+
+
+<a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
 
 
 

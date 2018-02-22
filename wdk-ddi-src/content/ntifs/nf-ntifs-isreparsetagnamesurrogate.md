@@ -109,7 +109,7 @@ For more information about reparse points and volume mount points, see the Micro
 
 
 
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
 
 
 

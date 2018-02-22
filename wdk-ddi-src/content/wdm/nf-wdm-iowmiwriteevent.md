@@ -149,11 +149,11 @@ Callers of this routine must be running at IRQL &lt;= APC_LEVEL, with one except
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWmiDeviceObjectToProviderId</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
+
+
+<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWmiDeviceObjectToProviderId</a>
 
 
 

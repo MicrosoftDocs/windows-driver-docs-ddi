@@ -116,7 +116,7 @@ The WavePci port driver implements a property handler for <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
 
 
 
@@ -124,7 +124,7 @@ The WavePci port driver implements a property handler for <a href="https://msdn.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 

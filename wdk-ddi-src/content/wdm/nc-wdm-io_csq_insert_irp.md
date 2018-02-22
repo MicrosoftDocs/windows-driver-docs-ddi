@@ -144,7 +144,13 @@ The IO_CSQ_INSERT_IRP function type is defined in the Wdm.h header file. To more
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocsqremoveirp.md">IoCsqRemoveIrp</a>
+<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocsqinitializeex.md">IoCsqInitializeEx</a>
+
+
 
 
 

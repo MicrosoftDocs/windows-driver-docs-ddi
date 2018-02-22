@@ -82,7 +82,7 @@ Specifies a physical address of an OS-dependent size.
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetphysicaladdresslow.md">NdisGetPhysicalAddressLow</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
 
 
 

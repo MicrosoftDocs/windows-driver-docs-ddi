@@ -271,8 +271,7 @@ Filter drivers call the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff548813">DriverEntry of NDIS Filter
-   Drivers</a>
+<a href="..\ndis\nf-ndis-ndisfderegisterfilterdriver.md">NdisFDeregisterFilterDriver</a>
 
 
 

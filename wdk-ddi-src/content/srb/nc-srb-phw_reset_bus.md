@@ -107,7 +107,7 @@ For more information about the bus reset routine that is used with the StorPort 
 
 
 
-<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
 
 
 

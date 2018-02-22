@@ -112,8 +112,7 @@ None
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistcontext.md">
-   NdisAllocateNetBufferListContext</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
 
 
 

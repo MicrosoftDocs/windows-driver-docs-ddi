@@ -111,7 +111,7 @@ For more information about using assembly with the <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541443">DEBUG_ASMOPT_XXX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
 
 
 
@@ -127,11 +127,11 @@ For more information about using assembly with the <a href="https://msdn.microso
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554483">RemoveAssemblyOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556626">SetAssemblyOptions</a>
 
 
 

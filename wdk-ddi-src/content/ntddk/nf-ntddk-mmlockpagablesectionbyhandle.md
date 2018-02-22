@@ -122,7 +122,7 @@ For more information about paging code and data, see <a href="https://msdn.micro
 
 
 
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
 
 

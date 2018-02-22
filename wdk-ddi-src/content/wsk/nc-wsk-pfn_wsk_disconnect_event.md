@@ -199,8 +199,7 @@ A WSK application's <i>WskDisconnectEvent</i> event callback function must not w
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-   WSK_CLIENT_CONNECTION_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
 
 
 

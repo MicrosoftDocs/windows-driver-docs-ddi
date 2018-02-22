@@ -120,7 +120,7 @@ To free the adapter object, the driver should call <a href="..\wdm\nc-wdm-pput_d
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pput_dma_adapter.md">PutDmaAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
@@ -140,7 +140,7 @@ To free the adapter object, the driver should call <a href="..\wdm\nc-wdm-pput_d
 
 
 
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

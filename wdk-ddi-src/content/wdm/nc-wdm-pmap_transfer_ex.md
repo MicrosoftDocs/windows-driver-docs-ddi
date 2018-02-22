@@ -262,6 +262,12 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
 
 

@@ -204,7 +204,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 
-<a href="..\pmi\ne-pmi-pmi_event_type.md">PMI_EVENT_TYPE</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -224,7 +224,7 @@ The <b>AssociatedIrp.SystemBuffer</b> member is set to the address of an initiat
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="..\pmi\ne-pmi-pmi_capabilities_type.md">PMI_CAPABILITIES_TYPE</a>
 
 
 

@@ -196,7 +196,7 @@ The <b>NDIS_QOS_CAPABILITIES</b> structure is also returned in OID query request
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
 
 
 

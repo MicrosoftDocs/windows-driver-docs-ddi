@@ -131,11 +131,11 @@ IOCTL_HID_READ_REPORT  is typically used for continuously completing input repor
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
 
 
 
@@ -143,7 +143,7 @@ IOCTL_HID_READ_REPORT  is typically used for continuously completing input repor
 
 
 
-<a href="..\hidport\ni-hidport-ioctl_hid_write_report.md">IOCTL_HID_WRITE_REPORT</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
 
 
@@ -159,11 +159,11 @@ IOCTL_HID_READ_REPORT  is typically used for continuously completing input repor
 
 
 
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
 
 
 

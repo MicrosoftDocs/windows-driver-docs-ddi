@@ -145,6 +145,10 @@ For more information about client objects and how they are used in the debugger 
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
  
 
  

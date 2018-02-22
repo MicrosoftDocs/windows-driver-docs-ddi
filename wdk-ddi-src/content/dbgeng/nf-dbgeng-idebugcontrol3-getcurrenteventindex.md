@@ -115,7 +115,7 @@ Targets that do not have fixed sets of events will always return zero to <i>Inde
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 
 

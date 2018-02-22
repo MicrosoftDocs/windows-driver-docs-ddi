@@ -333,25 +333,25 @@ The type of address space that was associated with the transaction that caused t
 
 #### XPF_BUS_CHECK_ADDRESS_MEMORY
 
-Memory address space.
+The local processor responded to the request.
 
 
 
 #### XPF_BUS_CHECK_ADDRESS_RESERVED
 
-Reserved.
+A data access transaction.
 
 
 
 #### XPF_BUS_CHECK_ADDRESS_IO
 
-I/O address space.
+A generic transaction.
 
 
 
 #### XPF_BUS_CHECK_ADDRESS_OTHER
 
-An unclassified type of address space.
+A processor instruction transaction.
 
 This member contains valid data only if the <b>AddressSpaceValid</b> bit is set.
 

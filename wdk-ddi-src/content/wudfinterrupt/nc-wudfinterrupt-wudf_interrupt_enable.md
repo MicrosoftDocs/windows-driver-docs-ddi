@@ -86,14 +86,14 @@ HRESULT OnInterruptEnable(
 
 
 
-#### - pInterrupt [in]
-
-A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a> interface.
-
-
 #### - pAssociatedDevice [in]
 
 A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a> interface that the driver used to call <a href="https://msdn.microsoft.com/library/windows/hardware/hh451208">CreateInterrupt</a>. 
+
+
+#### - pInterrupt [in]
+
+A pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a> interface.
 
 
 ## -returns

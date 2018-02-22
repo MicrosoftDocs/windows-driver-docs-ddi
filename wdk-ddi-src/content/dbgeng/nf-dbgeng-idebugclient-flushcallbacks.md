@@ -144,6 +144,14 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550815">IDebugOutputCallbacks::Output</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
  
 
  

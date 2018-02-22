@@ -181,11 +181,11 @@ A pointer to an <a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRU
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
-
-
-
 <a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_interrupt_message_info.md">IO_INTERRUPT_MESSAGE_INFO</a>
 
 
 

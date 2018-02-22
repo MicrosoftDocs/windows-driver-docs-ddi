@@ -118,7 +118,7 @@ The <i>EventData</i> parameter of <b>IKsControl::KsEvent</b> contains a handle i
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
 
 
 

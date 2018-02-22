@@ -110,7 +110,7 @@ A BDA minidriver calls the <b>BdaPropertyNodeTypes</b> function to retrieve the 
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564332">KSPROPERTY_BDA_NODE_TYPES</a>
 
 
 

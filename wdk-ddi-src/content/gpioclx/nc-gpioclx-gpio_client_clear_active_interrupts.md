@@ -149,7 +149,7 @@ The GPIO_CLIENT_CLEAR_ACTIVE_INTERRUPTS function type is defined in the Gpioclx.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439479">GPIO_CLIENT_REGISTRATION_PACKET</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439358">CLIENT_CONTROLLER_BASIC_INFORMATION</a>
 
 
 

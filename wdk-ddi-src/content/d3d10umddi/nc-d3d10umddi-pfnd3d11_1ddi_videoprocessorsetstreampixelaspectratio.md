@@ -105,9 +105,9 @@ A handle to the display device (graphics context).
 
 
 
-#### - hVideoProcessor [in]
+#### - Enable [in]
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+If <b>TRUE</b>, the <i>pSourceRatio</i> and <i>pDestinationRatio</i> parameters contain valid values. Otherwise, the pixel aspect ratios are unspecified.
 
 
 
@@ -117,14 +117,17 @@ A handle to the video processor object that was created through a call to the <a
 The zero-based index of the input stream.
 
 
-#### - Enable [in]
+#### - hDevice [in]
 
-If <b>TRUE</b>, the <i>pSourceRatio</i> and <i>pDestinationRatio</i> parameters contain valid values. Otherwise, the pixel aspect ratios are unspecified.
-
-
+A handle to the display device (graphics context).
 
 
-#### - pSourceRatio [in]
+
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+
 
 A pointer to a <b>DXGI_RATIONAL</b> structure that contains the pixel aspect ratio of the source rectangle. 
 

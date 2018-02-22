@@ -201,6 +201,10 @@ For a code example that calls the <code>RasterizeRect</code> method, see the XPS
 
 
 
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
+
+
+
  
 
  

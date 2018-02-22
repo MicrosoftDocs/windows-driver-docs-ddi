@@ -235,7 +235,7 @@ The following function identifiers are defined for the <b>DxApi</b> function in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550660">DD_DXAPI_GET_POLARITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550650">DD_DXAPI_GET_LAST_VP_AUTOFLIP_SURFACE</a>
 
 
 

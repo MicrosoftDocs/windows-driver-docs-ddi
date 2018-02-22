@@ -113,7 +113,7 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
+<a href="..\wiamicro\ns-wiamicro-val.md">VAL</a>
 
 
 

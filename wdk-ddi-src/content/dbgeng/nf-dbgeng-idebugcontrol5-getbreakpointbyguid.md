@@ -119,11 +119,11 @@ No breakpoint was found with the given GUID, or the breakpoint with the specifie
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539284">Controlling Breakpoint Flags and Parameters</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 

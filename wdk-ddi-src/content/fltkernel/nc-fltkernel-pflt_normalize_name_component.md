@@ -151,7 +151,7 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_generate_file_name.md">PFLT_GENERATE_FILE_NAME</a>
 
 
 

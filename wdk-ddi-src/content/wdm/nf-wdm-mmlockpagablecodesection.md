@@ -173,7 +173,7 @@ For more information about creating pageable code sections, see <a href="https:/
 
 
 
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 
 

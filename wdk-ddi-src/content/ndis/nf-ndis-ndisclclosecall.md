@@ -262,8 +262,7 @@ After the client releases an
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
-   ProtocolClModifyCallQoSComplete</a>
+<a href="..\ndis\nf-ndis-ndiscodeletevc.md">NdisCoDeleteVc</a>
 
 
 
@@ -275,7 +274,8 @@ After the client releases an
 
 
 
-<a href="..\ndis\nf-ndis-ndisclmakecall.md">NdisClMakeCall</a>
+<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
+   ProtocolCoSendNetBufferListsComplete</a>
 
 
 

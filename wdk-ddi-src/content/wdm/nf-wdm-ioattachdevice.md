@@ -132,7 +132,7 @@ This routine sets the <b>AlignmentRequirement</b> in <i>SourceDevice</i> to the 
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nf-wdm-iogetrelateddeviceobject.md">IoGetRelatedDeviceObject</a>
 
 
 

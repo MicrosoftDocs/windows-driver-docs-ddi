@@ -162,7 +162,7 @@ If <i>AccessMode</i> is <b>UserMode</b>, the caller must be running at IRQL &lt;
 
 
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+<a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
 
 
 
@@ -174,7 +174,7 @@ If <i>AccessMode</i> is <b>UserMode</b>, the caller must be running at IRQL &lt;
 
 
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

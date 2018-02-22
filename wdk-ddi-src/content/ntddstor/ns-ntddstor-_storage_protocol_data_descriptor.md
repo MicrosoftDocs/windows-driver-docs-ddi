@@ -146,7 +146,7 @@ Set the <b>DataType</b>  field to an enumeration value defined by <a href="..\nt
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_protocol_specific_data.md">STORAGE_PROTOCOL_SPECIFIC_DATA</a>
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 

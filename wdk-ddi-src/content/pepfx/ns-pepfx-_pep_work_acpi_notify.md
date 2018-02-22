@@ -89,11 +89,11 @@ The <b>AcpiNotify</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_informa
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

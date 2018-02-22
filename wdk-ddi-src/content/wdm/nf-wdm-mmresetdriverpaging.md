@@ -103,7 +103,7 @@ For more information about paging an entire driver, see <a href="https://msdn.mi
 
 
 
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 
 
@@ -111,7 +111,7 @@ For more information about paging an entire driver, see <a href="https://msdn.mi
 
 
 
-<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
 
 
 

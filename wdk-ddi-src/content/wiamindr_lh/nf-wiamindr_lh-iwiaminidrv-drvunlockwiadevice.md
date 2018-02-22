@@ -87,14 +87,14 @@ HRESULT drvUnLockWiaDevice(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is currently unused. 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]

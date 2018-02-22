@@ -191,6 +191,20 @@ The PHY's type of antenna diversity, defined through a
 
 
 
+#### - DataRateMappingEntries
+
+An array of the data rates supported by the PHY. Each entry is formatted as a 
+      <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
+      DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
+
+
+#### - ERPAttributes
+
+The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
+       member only if the 
+       <b>PhyType</b> member is set to dot11_phy_type_erp.
+
+
 #### - HRDSSSAttributes
 
 The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDSS) PHY type. The
@@ -203,39 +217,6 @@ The PHY-specific attributes of a high-rate direct-sequence spread spectrum (HRDS
 The PHY-specific attributes of an orthogonal frequency division multiplexing (OFDM) PHY type. The
        miniport driver must use this member only if the 
        <b>PhyType</b> member is set to dot11_phy_type_ofdm.
-
-
-#### - ERPAttributes
-
-The PHY-specific attributes of an extended-rate PHY (ERP) type. The miniport driver must use this
-       member only if the 
-       <b>PhyType</b> member is set to dot11_phy_type_erp.
-
-
-#### - uNumberSupportedPowerLevels
-
-The number of power levels within the 
-      <b>TxPowerLevels</b> array. 
-      <b>uNumOfSupportedPowerLevels</b> must have a value from 1 through 8.
-
-
-#### - TxPowerLevels
-
-An array of the supported transmit power levels in units of milliwatts (mWs). Each power level must
-      be a value from 0 through 1000.
-
-
-#### - uNumDataRateMappingEntries
-
-The number of data rates within the 
-      <b>DataRateMappingEntries</b> array.
-
-
-#### - DataRateMappingEntries
-
-An array of the data rates supported by the PHY. Each entry is formatted as a 
-      <a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">
-      DOT11_DATA_RATE_MAPPING_ENTRY</a> structure.
 
 
 #### - SupportedDataRatesValue
@@ -254,6 +235,25 @@ The receive data rates supported by the PLCP and PMD of the PHY.
 </li>
 </ul>
 Each entry in the array is formatted as a DOT11_SUPPORTED_DATA_RATES_VALUE_V2 structure.
+
+
+#### - TxPowerLevels
+
+An array of the supported transmit power levels in units of milliwatts (mWs). Each power level must
+      be a value from 0 through 1000.
+
+
+#### - uNumDataRateMappingEntries
+
+The number of data rates within the 
+      <b>DataRateMappingEntries</b> array.
+
+
+#### - uNumberSupportedPowerLevels
+
+The number of power levels within the 
+      <b>TxPowerLevels</b> array. 
+      <b>uNumOfSupportedPowerLevels</b> must have a value from 1 through 8.
 
 
 ## -remarks
@@ -311,7 +311,7 @@ The
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\windot11\ns-windot11-dot11_data_rate_mapping_entry.md">DOT11_DATA_RATE_MAPPING_ENTRY</a>
 
 
 
@@ -319,8 +319,7 @@ The
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569392">OID_DOT11_NIC_POWER_STATE</a>
 
 
 

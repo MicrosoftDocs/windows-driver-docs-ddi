@@ -425,15 +425,15 @@ Asynchronous OID_WWAN_DEVICE_SERVICE_COMMAND set request.
 The maximum number of entries in the WWAN_ASYNC_GETSET_TYPE enumeration.
 
 
-##### - WwanAsyncGetPinEx get request.
-
-Asynchronous OID_WWAN_PIN_EX get request.
-
-
 ##### - WwanAsyncGetDeviceServiceCommand get request.
 
 Asynchronous <a href="https://msdn.microsoft.com/library/windows/hardware/hh440094">OID_WWAN_DEVICE_SERVICE_COMMAND</a>
 
+
+
+##### - WwanAsyncGetPinEx get request.
+
+Asynchronous OID_WWAN_PIN_EX get request.
 
 
 ## -see-also

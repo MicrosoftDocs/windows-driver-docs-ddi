@@ -159,15 +159,15 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
 
 
 
@@ -175,7 +175,7 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

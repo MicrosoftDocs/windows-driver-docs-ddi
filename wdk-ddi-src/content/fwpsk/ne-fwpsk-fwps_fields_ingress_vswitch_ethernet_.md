@@ -151,12 +151,12 @@ The virtual switch ingress source virtual machine (VM)  identifier field.
 The maximum value for this enumeration. This value might change in future versions of the NDIS header files and binaries.
 
 
-#### - FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_TENANT_NETWORK_ID
-
-The virtual switch ingress tenant network identifier   field.
-
-
 #### - FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_FLAGS
 
 The virtual switch ingress ethernet flags field.
+
+
+#### - FWPS_FIELD_INGRESS_VSWITCH_ETHERNET_TENANT_NETWORK_ID
+
+The virtual switch ingress tenant network identifier   field.
 

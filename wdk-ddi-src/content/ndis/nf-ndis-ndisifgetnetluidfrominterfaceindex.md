@@ -209,7 +209,8 @@ NDIS provides the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
+<a href="..\ndis\nf-ndis-ndisifgetinterfaceindexfromnetluid.md">
+   NdisIfGetInterfaceIndexFromNetLuid</a>
 
 
 

@@ -197,6 +197,10 @@ The <b>EVT_WDF_WMI_INSTANCE_QUERY_INSTANCE</b> function type is defined in the W
 
 
 
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
+
+
+
  
 
  

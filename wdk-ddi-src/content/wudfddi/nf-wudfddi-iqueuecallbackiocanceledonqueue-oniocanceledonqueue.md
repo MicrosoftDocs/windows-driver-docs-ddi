@@ -111,7 +111,7 @@ For more information about the <b>OnIoCanceledOnQueue</b> callback function, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559081">IWDFIoRequest::ForwardToIoQueue</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557020">IWDFDevice::CreateIoQueue</a>
 
 
 

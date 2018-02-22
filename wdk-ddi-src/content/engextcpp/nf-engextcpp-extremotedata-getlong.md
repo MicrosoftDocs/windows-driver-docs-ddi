@@ -87,7 +87,7 @@ The size of the memory represented by this <a href="..\engextcpp\nl-engextcpp-ex
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
@@ -95,7 +95,7 @@ The size of the memory represented by this <a href="..\engextcpp\nl-engextcpp-ex
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544019">ExtRemoteData::GetData</a>
 
 
 

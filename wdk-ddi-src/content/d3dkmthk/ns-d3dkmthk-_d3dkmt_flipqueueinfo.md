@@ -86,7 +86,7 @@ typedef struct _D3DKMT_FLIPQUEUEINFO {
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_queryadapterinfo.md">D3DKMT_QUERYADAPTERINFO</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipinfoflags.md">D3DKMT_FLIPINFOFLAGS</a>
 
 
 

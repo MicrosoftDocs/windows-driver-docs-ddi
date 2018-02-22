@@ -68,7 +68,7 @@ VOID ExFreePool(
 
 
 
-#### - P [in]
+### -param P [in]
 
 Specifies the address of the block of pool memory being deallocated. 
 
@@ -109,7 +109,7 @@ Callers of <b>ExFreePool</b> must be running at IRQL &lt;= DISPATCH_LEVEL. A cal
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithquota.md">ExAllocatePoolWithQuota</a>
+<a href="..\wdm\nf-wdm-exallocatepool.md">ExAllocatePool</a>
 
 
 

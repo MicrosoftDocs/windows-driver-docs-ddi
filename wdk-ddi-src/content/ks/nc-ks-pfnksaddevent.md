@@ -117,7 +117,13 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+
+<a href="..\ks\nc-ks-pfnksremoveevent.md">AVStrMiniRemoveEvent</a>
+
+
+
+
 
 
 
@@ -146,6 +152,12 @@ If an AVStream minidriver specifies <b>AddHandler</b> as non-NULL, AVStream does
 
 
 <a href="..\ks\ns-ks-ksautomation_table_.md">KSAUTOMATION_TABLE</a>
+
+
+
+
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
 
 
 

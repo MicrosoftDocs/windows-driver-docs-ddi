@@ -112,11 +112,11 @@ SD card drivers must call this routine to establish communication with the bus d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/92b8762d-8af3-493c-aa1d-bc245b0cbd83">SDBUS_INTERFACE_STANDARD</a>
 
 
 

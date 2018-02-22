@@ -170,7 +170,7 @@ To access information about an <b>IWiaItem2</b> object's properties, the <b>Devi
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=121992">IWiaItem2</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=121993">IWiaItem2::DeviceDlg</a>
 
 
 

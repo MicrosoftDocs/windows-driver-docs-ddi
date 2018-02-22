@@ -114,7 +114,7 @@ If, during system initialization, Windows encounters a NUMA hardware node that c
 
 
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="..\wdm\nf-wdm-kequeryhighestnodenumber.md">KeQueryHighestNodeNumber</a>
 
 
 

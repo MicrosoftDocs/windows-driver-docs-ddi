@@ -277,7 +277,7 @@ The <i>Mdl</i> parameter is provided as a convenience when a minifilter already 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreadfileex.md">FltReadFileEx</a>
+<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
 
 
 

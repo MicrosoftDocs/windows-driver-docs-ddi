@@ -125,8 +125,7 @@ From the
 
 ## -see-also
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -144,7 +143,7 @@ From the
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
 
 
 

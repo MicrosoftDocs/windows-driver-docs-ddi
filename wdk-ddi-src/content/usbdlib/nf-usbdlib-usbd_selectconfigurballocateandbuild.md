@@ -176,11 +176,11 @@ You can use the received pointer to the <a href="..\usb\ns-usb-_urb.md">URB</a> 
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_createhandle.md">USBD_CreateHandle</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
 
 
 

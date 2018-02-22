@@ -129,7 +129,7 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
 
 
 
@@ -137,7 +137,7 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
-<a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
 
 
 

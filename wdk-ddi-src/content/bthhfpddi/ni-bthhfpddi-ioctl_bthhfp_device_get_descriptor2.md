@@ -127,7 +127,7 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
+<a href="..\bthhfpddi\ns-bthhfpddi-_bthhfp_descriptor2.md">BTHHFP_DESCRIPTOR2</a>
 
 
 

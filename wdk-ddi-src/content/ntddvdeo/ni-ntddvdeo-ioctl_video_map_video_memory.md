@@ -120,7 +120,7 @@ If the miniport driver successfully maps the memory, it sets the <b>Information<
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportmapmemory.md">VideoPortMapMemory</a>
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory.md">VIDEO_MEMORY</a>
 
 
 

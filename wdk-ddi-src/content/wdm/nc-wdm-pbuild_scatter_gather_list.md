@@ -217,7 +217,6 @@ The driver should retain the pointer to the scatter/gather list in <i>ScatterGat
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 
@@ -225,7 +224,6 @@ The driver should retain the pointer to the scatter/gather list in <i>ScatterGat
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

@@ -134,7 +134,7 @@ The <b>RxCompleteRequest</b> routine is not normally called by network mini-redi
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 

@@ -98,11 +98,11 @@ The file system is responsible for ensuring that the value of <i>SectionObjectPo
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
 
 
 

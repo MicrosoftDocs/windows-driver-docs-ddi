@@ -101,7 +101,7 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537419">KSPROPERTY_SYSAUDIO_DEVICE_COUNT</a>
 
 
 
@@ -109,7 +109,7 @@ This property is similar to <a href="https://msdn.microsoft.com/library/windows/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537427">KSPROPERTY_SYSAUDIO_INSTANCE_INFO</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

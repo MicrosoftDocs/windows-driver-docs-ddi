@@ -140,7 +140,7 @@ Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_d3dkmt_present_display_only_flags.md">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_presentdisplayonly.md">DxgkDdiPresentDisplayOnly</a>
 
 
 

@@ -103,6 +103,10 @@ Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if t
 
 
 
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+
+
+
  
 
  

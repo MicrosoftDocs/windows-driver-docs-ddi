@@ -336,7 +336,8 @@ If the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 

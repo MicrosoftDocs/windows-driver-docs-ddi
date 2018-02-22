@@ -97,32 +97,32 @@ typedef struct _RILCALLMEDIASTATE {
 ### -field RILCALLMEDIASTATEUNION
 
 
-#### - switch_is
-
-
-#### - stAudioState
-
-
-#### - case
-
-
 #### - RIL_CALLMEDIATYPE_AUDIO
-
-
-#### - stVideoState
-
-
-#### - RIL_CALLMEDIATYPE_VIDEO
-
-
-#### - dwCustomStateSpecific
 
 
 #### - RIL_CALLMEDIATYPE_CUSTOM
 
 
+#### - RIL_CALLMEDIATYPE_UNKNOWN
+
+
+#### - RIL_CALLMEDIATYPE_VIDEO
+
+
+#### - case
+
+
+#### - dwCustomStateSpecific
+
+
 #### - pad
 
 
-#### - RIL_CALLMEDIATYPE_UNKNOWN
+#### - stAudioState
+
+
+#### - stVideoState
+
+
+#### - switch_is
 

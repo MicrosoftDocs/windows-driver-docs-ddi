@@ -140,7 +140,7 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
+<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
 
 
 

@@ -195,6 +195,16 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 
 
+<a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
+   ProtocolQueryOffloadComplete</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
+   ProtocolInitiateOffloadComplete</a>
+
+
+
  
 
  

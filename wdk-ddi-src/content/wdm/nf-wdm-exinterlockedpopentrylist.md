@@ -107,11 +107,11 @@ The <b>ExInterlockedPopEntryList</b> routine can be called at any IRQL. The stor
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
-
-
-
 <a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentryslist.md">ExInterlockedPopEntrySList</a>
 
 
 

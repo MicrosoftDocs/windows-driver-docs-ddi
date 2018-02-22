@@ -113,7 +113,7 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_mi_parent_information.md">USB_MI_PARENT_INFORMATION</a>
+<a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
 
 
 

@@ -238,8 +238,7 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v2.md">
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V2</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
@@ -251,7 +250,8 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v2.md">
+   NDIS_TCP_LARGE_SEND_OFFLOAD_V2</a>
 
 
 
@@ -267,8 +267,7 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/jj991956">Network Virtualization using Generic Routing Encapsulation (NVGRE) Task Offload</a>
 
 
 
@@ -280,8 +279,7 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
+<a href="..\ndis\ns-ndis-_ndis_status_indication.md">NDIS_STATUS_INDICATION</a>
 
 
 
@@ -298,7 +296,7 @@ The <b>NDIS_OFFLOAD</b> structure is used in the following places:<ul>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v1.md">NDIS_IPSEC_OFFLOAD_V1</a>
 
 
 

@@ -148,7 +148,7 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567494">StorPortReleaseMSISpinLock</a>
+<a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
 
 
 

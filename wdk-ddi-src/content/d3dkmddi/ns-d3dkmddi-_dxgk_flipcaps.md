@@ -185,7 +185,7 @@ A member in the union that DXGK_FLIPCAPS contains that can hold a 32-bit value t
 
 
 
-<a href="https://msdn.microsoft.com/488c929b-3816-457f-b5c2-c176b93d5546">DxgkDdiSetVidPnSourceAddress</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_present.md">DXGKARG_PRESENT</a>
 
 
 

@@ -88,19 +88,19 @@ The <b>CWiauPropertyList</b> constructor initializes all data members of a prope
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540472">CWiauPropertyList::~CWiauPropertyList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540396">CWiauPropertyList::Init</a>
 
 
 
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540391">CWiauPropertyList::DefineProperty</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540472">CWiauPropertyList::~CWiauPropertyList</a>
 
 
 

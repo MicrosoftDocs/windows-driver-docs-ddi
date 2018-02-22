@@ -109,7 +109,7 @@ The client calls the <a href="https://msdn.microsoft.com/library/windows/hardwar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559862">IKsInterfaceHandler::KsCompleteIo</a>
 
 
 

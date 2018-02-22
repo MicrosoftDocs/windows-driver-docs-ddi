@@ -246,7 +246,7 @@ If the driver does specify the WNODE_FLAG_USE_MOF_PTR flag, the <b>EVENT_TRACE_H
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 

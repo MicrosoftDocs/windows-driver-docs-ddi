@@ -106,21 +106,16 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - pGuid [in]
-
-A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
-
-
-
-
-#### - DataSize [in]
-
-The size, in bytes, of the private state data in the buffer referenced by the <i>pData</i> parameter.
-
-
 #### - pData [in, out]
 
 A pointer to a buffer that receives the private state data. 
+
+
+
+
+#### - pGuid [in]
+
+A pointer to a GUID that identifies the private state data. The meaning of this GUID is defined by the graphics driver.
 
 
 

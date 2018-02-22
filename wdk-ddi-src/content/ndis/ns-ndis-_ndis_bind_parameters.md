@@ -648,7 +648,7 @@ NDIS passes a pointer to an NDIS_BIND_PARAMETERS structure in the
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
 
 
 

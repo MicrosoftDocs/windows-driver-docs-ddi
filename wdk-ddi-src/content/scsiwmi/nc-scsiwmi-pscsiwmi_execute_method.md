@@ -141,7 +141,7 @@ The miniport driver executes the method and writes output, if any, to the buffer
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 

@@ -212,7 +212,7 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitformultipleobjects.md">FltCancellableWaitForMultipleObjects</a>
+<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
 
 
 
@@ -240,7 +240,7 @@ The <b>FltCancellableWaitForSingleObject</b> routine will assert on debug builds
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 

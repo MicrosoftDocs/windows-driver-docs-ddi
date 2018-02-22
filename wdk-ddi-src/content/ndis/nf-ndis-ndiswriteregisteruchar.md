@@ -114,6 +114,10 @@ If a driver calls this function, a NIC's device registers must be mapped to nonc
 
 
 
+<a href="..\ndis\nf-ndis-ndismmapiospace.md">NdisMMapIoSpace</a>
+
+
+
  
 
  

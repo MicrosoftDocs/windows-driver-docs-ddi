@@ -120,7 +120,7 @@ Because the partition and detect information are not at fixed locations within t
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_detection_info.md">DISK_DETECTION_INFO</a>
+<a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a>
 
 
 
@@ -128,7 +128,7 @@ Because the partition and detect information are not at fixed locations within t
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_disk_partition_info.md">DISK_PARTITION_INFO</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_media_types.md">IOCTL_DISK_GET_MEDIA_TYPES</a>
 
 
 

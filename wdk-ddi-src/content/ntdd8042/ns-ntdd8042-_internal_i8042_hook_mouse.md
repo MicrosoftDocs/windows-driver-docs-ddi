@@ -115,7 +115,7 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_mouse.md">IOCTL_INTERNAL_I8042_HOOK_MOUSE</a>
 
 
 

@@ -148,7 +148,7 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
 
 
 
@@ -156,7 +156,7 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
 
 

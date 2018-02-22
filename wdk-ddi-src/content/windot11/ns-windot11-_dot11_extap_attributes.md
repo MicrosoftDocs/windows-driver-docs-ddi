@@ -334,8 +334,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
-   DOT11_COUNTRY_OR_REGION_STRING</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 

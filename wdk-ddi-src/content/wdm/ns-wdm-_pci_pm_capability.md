@@ -172,7 +172,7 @@ Contains the same data as the <b>BridgeSupport</b> member.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537581">PCI_PMC</a>
 
 
 

@@ -277,11 +277,11 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_register_state.md">WWAN_REGISTER_STATE</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_registration_state.md">NDIS_WWAN_REGISTRATION_STATE</a>
 
 
 

@@ -130,7 +130,7 @@ The pages that the MDLs point to are locked in memory, but are not mapped in sys
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md">FsRtlMdlWriteCompleteDev</a>
 
 
 

@@ -253,7 +253,8 @@ If an error occurs in
 
 
 
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_driver_characteristics.md">
+   NDIS_MINIPORT_DRIVER_CHARACTERISTICS</a>
 
 
 

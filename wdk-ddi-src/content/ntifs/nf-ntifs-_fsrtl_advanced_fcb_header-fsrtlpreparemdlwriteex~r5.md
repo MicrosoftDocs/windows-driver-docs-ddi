@@ -155,7 +155,7 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
+<a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
 
 
 

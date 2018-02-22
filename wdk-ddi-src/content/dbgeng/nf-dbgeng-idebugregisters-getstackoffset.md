@@ -116,11 +116,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548414">GetStackOffset2</a>
 
 
 

@@ -190,7 +190,7 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
+<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
 
 
 

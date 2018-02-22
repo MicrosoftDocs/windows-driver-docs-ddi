@@ -124,14 +124,14 @@ Specifies the connection settings for communicating with the computer running th
 eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
 
 
-##### - ConnectOptions.DEBUG_ATTACH_KERNEL_CONNECTION
-
-<i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.
-
-
 ##### - ConnectOptions.DEBUG_ATTACH_EXDI_DRIVER
 
 eXDI drivers are not described in this documentation.  If you have an eXDI interface to your hardware probe or hardware simulator, please contact Microsoft for debugging information.
+
+
+##### - ConnectOptions.DEBUG_ATTACH_KERNEL_CONNECTION
+
+<i>ConnectOptions</i> will be interpreted the same way as the options that follow the <b>-k</b> switch on the WinDbg and KD command lines.  Environment variables affect <i>ConnectOptions</i> in the same way they affect the <b>-k</b> switch.
 
 
 ## -returns
@@ -203,7 +203,7 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

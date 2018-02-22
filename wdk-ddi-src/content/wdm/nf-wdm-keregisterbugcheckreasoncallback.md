@@ -190,7 +190,7 @@ To display secondary dump data, you can use the <a href="http://go.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
+<a href="..\wdm\nc-wdm-kbugcheck_reason_callback_routine.md">BugCheckAddPagesCallback</a>
 
 
 

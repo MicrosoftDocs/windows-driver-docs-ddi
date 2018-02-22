@@ -100,7 +100,7 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+<a href="..\wdm\nf-wdm-rtlappendunicodestringtostring.md">RtlAppendUnicodeStringToString</a>
 
 
 

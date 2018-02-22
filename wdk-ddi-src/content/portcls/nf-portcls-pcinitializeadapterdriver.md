@@ -171,11 +171,11 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
 ## -see-also
 
+<a href="..\portcls\nf-portcls-pcaddadapterdevice.md">PcAddAdapterDevice</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
 
 
 

@@ -170,7 +170,7 @@ To set a stream context, call <a href="..\fltkernel\nf-fltkernel-fltsetstreamcon
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
 
 
 

@@ -139,7 +139,7 @@ The <b>UpdateProcessorIdleState</b> routine must be called at IRQL = PASSIVE_LEV
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+## -see-also
 
 
 

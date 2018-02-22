@@ -113,7 +113,7 @@ Callers of <b>RtlFindNextForwardRunClear</b> must be running at IRQL &lt;= APC_L
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 

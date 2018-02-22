@@ -165,11 +165,11 @@ For a WdbgExts extension, include wdbgexts.h. For a DbgEng extension, include wd
 
 ## -see-also
 
+<a href="..\wdbgexts\nf-wdbgexts-writephysical.md">WritePhysical</a>
+
+
+
 <a href="..\wdbgexts\nf-wdbgexts-readphysicalwithflags.md">ReadPhysicalWithFlags</a>
-
-
-
-<a href="..\dbgeng\nf-dbgeng-idebugdataspaces-writephysical.md">WritePhysical</a>
 
 
 

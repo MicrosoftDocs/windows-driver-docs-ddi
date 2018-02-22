@@ -164,7 +164,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRegisters</a>
 
 
 

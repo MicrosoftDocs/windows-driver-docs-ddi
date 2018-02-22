@@ -198,7 +198,7 @@ For a code example that calls the <code>CreateRasterizer</code> method, see the 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+<a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a>
 
 
 

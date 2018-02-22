@@ -111,6 +111,14 @@ An address family (AF) handle that NDIS passed to the MCM's
      ProtocolCoOidRequest</a> function.
 
 
+#### - NdisPartyHandle [in, optional]
+
+A party handle that NDIS passed to the MCM's 
+     <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
+     party-specific. This parameter is <b>NULL</b> if the caller of the 
+     <b>NdisCoOidRequest</b> function specified a <b>NULL</b> party handle.
+
+
 #### - NdisVcHandle [in, optional]
 
 A virtual connection (VC) handle that NDIS passed to the MCM's 
@@ -118,14 +126,6 @@ A virtual connection (VC) handle that NDIS passed to the MCM's
      VC-specific. This parameter is <b>NULL</b> if the caller of the 
      <a href="..\ndis\nf-ndis-ndiscooidrequest.md">NdisCoOidRequest</a> function specified a
      <b>NULL</b> VC handle.
-
-
-#### - NdisPartyHandle [in, optional]
-
-A party handle that NDIS passed to the MCM's 
-     <i>ProtocolCoOidRequest</i> function. A <b>NULL</b> value for this parameter indicates that the request is not
-     party-specific. This parameter is <b>NULL</b> if the caller of the 
-     <b>NdisCoOidRequest</b> function specified a <b>NULL</b> party handle.
 
 
 #### - OidRequest [in]

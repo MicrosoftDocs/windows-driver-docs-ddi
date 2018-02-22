@@ -111,6 +111,12 @@ For more information about time-outs in this situation, see <a href="https://msd
 
 
 
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
+
+
  
 
  

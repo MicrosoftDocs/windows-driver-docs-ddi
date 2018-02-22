@@ -113,7 +113,7 @@ The <b>VPortState</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_s
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
 
 
 

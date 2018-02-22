@@ -40,7 +40,7 @@ apiname:
 -	HwStorStateChange
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -146,6 +146,10 @@ HW_STATE_CHANGE (
 
 
 ## -see-also
+
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
+
+
 
 <a href="..\storport\nf-storport-storportstatechangedetected.md"> StorPortStateChangeDetected</a>
 

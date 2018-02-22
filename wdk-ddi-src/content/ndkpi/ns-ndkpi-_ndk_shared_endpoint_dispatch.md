@@ -95,7 +95,7 @@ The <b>NDK_SHARED_ENDPOINT_DISPATCH</b> structure is used in the <a href="..\ndk
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 

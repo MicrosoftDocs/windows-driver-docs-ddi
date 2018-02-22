@@ -190,11 +190,11 @@ Every miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
-
-
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 
 

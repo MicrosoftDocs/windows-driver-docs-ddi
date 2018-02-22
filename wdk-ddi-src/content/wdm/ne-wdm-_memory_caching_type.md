@@ -141,7 +141,7 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 
 
-<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
 
 
 

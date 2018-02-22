@@ -201,7 +201,7 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 
 
-<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
+<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
 
 
 

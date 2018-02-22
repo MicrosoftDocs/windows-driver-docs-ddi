@@ -131,7 +131,7 @@ To obtain the maximum number of processors in a group, call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
+<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
 
 
 

@@ -235,7 +235,7 @@ To enumerate all volumes that are known to the Filter Manager, call <a href="..\
 
 ## -see-also
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_instance_partial_information.md">INSTANCE_PARTIAL_INFORMATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
 
 
 

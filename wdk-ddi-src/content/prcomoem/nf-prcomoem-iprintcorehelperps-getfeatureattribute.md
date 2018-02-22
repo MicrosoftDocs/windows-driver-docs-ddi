@@ -184,7 +184,7 @@ For more information about <b>IPrintCoreHelperPS::GetFeatureAttribute</b>, see <
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552899">IPrintCoreHelperPS::GetGlobalAttribute</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552903">IPrintCoreHelperPS::GetOptionAttribute</a>
 
 
 

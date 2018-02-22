@@ -94,7 +94,7 @@ This call is an empty function. It should be used for code readability and clari
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateremoveoffinputfromor.md">KsGateRemoveOffInputFromOr</a>
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
 
 

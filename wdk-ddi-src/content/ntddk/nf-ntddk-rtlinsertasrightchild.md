@@ -136,7 +136,7 @@ Callers of <b>RtlInsertAsRightChild</b> must be running at IRQL &lt;= DISPATCH_L
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+<a href="..\ntddk\nf-ntddk-rtlisroot.md">RtlIsRoot</a>
 
 
 

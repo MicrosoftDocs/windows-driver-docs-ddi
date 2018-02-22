@@ -180,7 +180,7 @@ This function might also return other error codes that are defined in Ntstatus.h
 
 ## -see-also
 
-<a href="..\d3dkmdt\ne-d3dkmdt-_dxgkmdt_certificate_type.md">DXGKMDT_CERTIFICATE_TYPE</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_certificate_size.md">DxgkDdiOPMGetCertificateSize</a>
 
 
 

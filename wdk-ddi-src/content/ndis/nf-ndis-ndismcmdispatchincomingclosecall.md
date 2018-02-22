@@ -95,6 +95,12 @@ TBD
 
 
 
+#### - Buffer [in, optional]
+
+Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
+     data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>.
+
+
 #### - CloseStatus [in]
 
 Specifies a caller-determined NDIS_STATUS_<i>XXX</i>, indicating the reason for the disconnect request. During normal network operations, an MCM
@@ -109,12 +115,6 @@ Specifies the handle to the VC of the call being disconnected. This handle was s
      <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> or as an input parameter
      to its 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
-
-
-#### - Buffer [in, optional]
-
-Pointer to a caller-allocated resident buffer containing additional protocol-specific disconnect
-     data, if any. Depending on the underlying medium, this pointer can be <b>NULL</b>.
 
 
 #### - Size [in]

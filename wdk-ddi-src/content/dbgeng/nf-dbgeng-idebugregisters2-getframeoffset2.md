@@ -166,11 +166,11 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546806">GetFrameOffset</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugregisters2.md">IDebugRegisters2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546806">GetFrameOffset</a>
 
 
 

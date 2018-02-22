@@ -202,7 +202,7 @@ A formatted
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_device_caps_ex.md">WWAN_DEVICE_CAPS_EX</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -214,7 +214,7 @@ A formatted
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\wwan\ns-wwan-_wwan_device_caps_ex.md">WWAN_DEVICE_CAPS_EX</a>
 
 
 

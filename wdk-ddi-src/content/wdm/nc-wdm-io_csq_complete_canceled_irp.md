@@ -186,6 +186,12 @@ The IO_CSQ_COMPLETE_CANCELED_IRP function type is defined in the Wdm.h header fi
 
 
 
+
+
+<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
 
 

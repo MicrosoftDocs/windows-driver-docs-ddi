@@ -96,7 +96,7 @@ A WSK application passes a pointer to a <b>WSK_CLIENT_STREAM_DISPATCH</b> struct
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_listen_dispatch.md">WSK_CLIENT_LISTEN_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 

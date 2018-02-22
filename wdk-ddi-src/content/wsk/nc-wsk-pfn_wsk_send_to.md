@@ -247,7 +247,7 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_receive_from_event.md">WskReceiveFromEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
 
 
 
@@ -259,7 +259,7 @@ The WSK subsystem does not perform any buffering of data when it sends datagrams
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
 
 
 

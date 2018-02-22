@@ -121,7 +121,7 @@ The driver can set <i>Flags</i> = 0 to indicate that it does not care whether th
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn939769">PO_FX_FLAG_XXX</a>
 
 
 

@@ -170,7 +170,7 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 

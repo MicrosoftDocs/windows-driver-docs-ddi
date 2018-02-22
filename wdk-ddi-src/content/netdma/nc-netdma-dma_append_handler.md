@@ -199,7 +199,7 @@ NetDMA calls
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
+<a href="..\netdma\nc-netdma-dma_start_handler.md">ProviderStartDma</a>
 
 
 

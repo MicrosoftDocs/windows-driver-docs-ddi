@@ -314,11 +314,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+<a href="https://msdn.microsoft.com/20047ee2-ba37-47c2-858f-36e31ae19154">Miniport Driver Reset and Halt Functions</a>
 
 
 
-<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 

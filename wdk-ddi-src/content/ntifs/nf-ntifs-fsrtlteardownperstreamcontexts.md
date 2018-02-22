@@ -98,7 +98,7 @@ To avoid conflicts in synchronization, the <b>FsRtlTeardownPerStreamContexts</b>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 
 
 
@@ -110,7 +110,7 @@ To avoid conflicts in synchronization, the <b>FsRtlTeardownPerStreamContexts</b>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
 
 
 

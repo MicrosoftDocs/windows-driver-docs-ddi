@@ -92,14 +92,14 @@ VOID APIENTRY ShaderResourceViewReadAfterWriteHazard(
  A handle to the display device (graphics context).
 
 
-#### - hShaderResourceView [in]
-
- A handle to the driver's private data for a shader resource view object. 
-
-
 #### - hResource [in]
 
  A handle to the resource.
+
+
+#### - hShaderResourceView [in]
+
+ A handle to the driver's private data for a shader resource view object. 
 
 
 ## -returns

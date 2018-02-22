@@ -170,7 +170,7 @@ Miniports should call <b>StorPortFreeTimer</b> whenever a work item is no longer
 
 
 
-<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
+<a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
 
 
 

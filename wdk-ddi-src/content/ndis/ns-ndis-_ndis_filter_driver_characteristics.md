@@ -490,7 +490,7 @@ A filter driver calls the
 
 
 
-<a href="..\ndis\nc-ndis-filter_oid_request.md">FilterOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
 
 
 
@@ -557,7 +557,7 @@ A filter driver calls the
 
 
 
-<a href="..\ndis\nc-ndis-filter_status.md">FilterStatus</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

@@ -99,14 +99,14 @@ VOID APIENTRY* pfnVideoProcessorSetStreamSourceRect(
 
 #### - hDevice [in]
 
-A handle to the display device (graphics context).
+
+#### - Enable [in]
+
+If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
 
 
 
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+If <b>FALSE</b>, no source rectangle is applied to the input stream.
 
 
 
@@ -116,13 +116,16 @@ A handle to the video processor object that was created through a call to the <a
 The zero-based index of the input stream.
 
 
-#### - Enable [in]
+#### - hDevice [in]
 
-If <b>TRUE</b>, the specified source rectangle must be applied to the input stream.
+A handle to the display device (graphics context).
 
 
 
-If <b>FALSE</b>, no source rectangle is applied to the input stream.
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
 
 
 

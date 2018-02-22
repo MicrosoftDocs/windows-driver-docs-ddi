@@ -235,7 +235,8 @@ To register the hardware-assisted capabilities of the underlying network adapter
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
+   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
 
 
 
@@ -251,7 +252,7 @@ To register the hardware-assisted capabilities of the underlying network adapter
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
 
 
 

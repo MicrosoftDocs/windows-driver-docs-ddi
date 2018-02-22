@@ -193,7 +193,7 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 ## -see-also
 
-<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
 
 
 
@@ -201,7 +201,7 @@ Drivers must call <a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlib
 
 
 
-<a href="..\aux_klib\nf-aux_klib-auxklibgetsystemfirmwaretable.md">AuxKlibGetSystemFirmwareTable</a>
+<a href="..\aux_klib\nf-aux_klib-auxklibinitialize.md">AuxKlibInitialize</a>
 
 
 

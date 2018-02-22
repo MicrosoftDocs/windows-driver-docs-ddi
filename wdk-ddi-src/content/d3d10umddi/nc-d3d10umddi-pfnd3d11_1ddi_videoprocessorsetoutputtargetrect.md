@@ -107,11 +107,6 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - Enable [in]
-
-If <b>TRUE</b>, the target rectangle specified by the <i>pOutputRect</i> parameter should be used by the video processor.
-
-
 #### - pOutputRect [in]
 
 A  pointer to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a> structure that specifies the target rectangle. 

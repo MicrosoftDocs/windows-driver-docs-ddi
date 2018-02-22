@@ -303,11 +303,7 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550078">FWPM_CLASSIFY_OPTION0</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552428">FWP_CLASSIFY_OPTION_TYPE</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -321,6 +317,10 @@ The first (highest weight) caller to set a particular option will be granted tha
 
 <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
    FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552450">FWP_VALUE0</a>
 
 
 

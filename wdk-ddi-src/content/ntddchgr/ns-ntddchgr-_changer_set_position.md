@@ -86,7 +86,7 @@ Indicates, when <b>TRUE</b>, that the <b>Transport</b> should be flipped. When <
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
 
 
 
@@ -98,7 +98,7 @@ Indicates, when <b>TRUE</b>, that the <b>Transport</b> should be flipped. When <
 
 
 
-<a href="..\mcd\nf-mcd-changersetposition.md">ChangerSetPosition</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 

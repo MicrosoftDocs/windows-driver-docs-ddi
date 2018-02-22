@@ -130,7 +130,7 @@ The following definition is in fwpvi.h:
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 
 
 
@@ -142,7 +142,7 @@ The following definition is in fwpvi.h:
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">FWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_filter_engine_reorder_callback0.md">FWPS_VSWITCH_FILTER_ENGINE_REORDER_CALLBACK0</a>
 
 
 

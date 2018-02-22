@@ -261,7 +261,7 @@ On an abnormal termination or other failure, <b>RxStartMinirdr</b> will try to u
 
 
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550709">MRxLowIOSubmit[LOWIO_OP_FSCTL]</a>
 
 
 

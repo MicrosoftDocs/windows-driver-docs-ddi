@@ -175,7 +175,7 @@ After the driver calls <b>pfnOfferAllocationsCb</b> to offer an allocation to re
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_offerallocations.md">D3DDDICB_OFFERALLOCATIONS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 

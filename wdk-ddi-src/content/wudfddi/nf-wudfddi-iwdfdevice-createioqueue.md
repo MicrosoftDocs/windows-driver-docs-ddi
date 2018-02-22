@@ -227,7 +227,7 @@ For a code example of how to use the <b>CreateIoQueue</b> method, see <a href="h
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iqueuecallbackioresume.md">IQueueCallbackIoResume</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 

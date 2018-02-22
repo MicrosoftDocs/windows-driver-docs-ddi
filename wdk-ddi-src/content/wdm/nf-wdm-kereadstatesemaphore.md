@@ -99,7 +99,7 @@ For more information about semaphore objects, see <a href="https://msdn.microsof
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
 
 

@@ -130,13 +130,13 @@ If instances to be returned vary in size, <b>OffsetInstanceDataAndLength</b> is 
 
 #### OffsetInstanceData
 
-Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the instance data.
+Indicates the length in bytes of the instance data.
 
 
 
 #### LengthInstanceData
 
-Indicates the length in bytes of the instance data.
+Indicates the offset in bytes from the beginning of the <b>WNODE_ALL_DATA</b> to the instance data.
 
 Each instance must be aligned on a USHORT boundary. The <b>OffsetInstanceDataAndLength</b> member is valid only if the driver clears WNODE_FLAG_FIXED_INSTANCE_SIZE in <b>WnodeHeader.Flags</b>. 
 

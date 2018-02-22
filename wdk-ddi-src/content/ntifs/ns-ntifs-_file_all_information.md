@@ -137,11 +137,11 @@ This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_mode_information.md">FILE_MODE_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_name_information.md">FILE_NAME_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
@@ -149,7 +149,7 @@ This structure is used by the <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">
 
 
 
-<a href="..\wdm\ns-wdm-_file_standard_information.md">FILE_STANDARD_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_access_information.md">FILE_ACCESS_INFORMATION</a>
 
 
 

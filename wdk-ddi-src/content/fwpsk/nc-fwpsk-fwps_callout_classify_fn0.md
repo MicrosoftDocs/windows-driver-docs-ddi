@@ -243,7 +243,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsreferencenetbufferlist0.md">FwpsReferenceNetBufferList0</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

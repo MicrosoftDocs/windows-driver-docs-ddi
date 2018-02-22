@@ -79,11 +79,11 @@ This method does not return a value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540370">CWiauFormatConverter::CWiauFormatConverter</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiauformatconverter.md">CWiauFormatConverter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540370">CWiauFormatConverter::CWiauFormatConverter</a>
 
 
 

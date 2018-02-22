@@ -154,6 +154,12 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
+
+
+
  
 
  

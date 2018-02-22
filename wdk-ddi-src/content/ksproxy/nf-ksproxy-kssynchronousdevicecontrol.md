@@ -161,7 +161,7 @@ After the call to <b>KsSynchronousDeviceControl</b>, <i>OutBuffer</i> will conta
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 

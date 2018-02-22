@@ -129,11 +129,11 @@ However it is possible to move around the single view that you retrieve. In othe
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue2.md">IPrinterQueue2</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterqueueview.md">IPrinterQueueView</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterqueue2.md">IPrinterQueue2</a>
 
 
 

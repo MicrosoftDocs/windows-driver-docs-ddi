@@ -120,11 +120,11 @@ Parameters were validated and determined to be incorrect.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetcontextinprocessschedulingpriority.md">D3DKMTGetContextInProcessSchedulingPriority</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_setcontextinprocessschedulingpriority.md">D3DKMT_SETCONTEXTINPROCESSSCHEDULINGPRIORITY</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetcontextinprocessschedulingpriority.md">D3DKMTGetContextInProcessSchedulingPriority</a>
 
 
 

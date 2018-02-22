@@ -163,11 +163,11 @@ For more information, see the topic <a href="https://msdn.microsoft.com/library/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546982">GetLastEventInformation</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

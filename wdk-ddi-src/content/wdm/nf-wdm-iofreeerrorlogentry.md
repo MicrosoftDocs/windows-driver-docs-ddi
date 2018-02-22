@@ -93,7 +93,7 @@ Drivers use <b>IoFreeErrorLogEntry</b> to free an error log entry allocated by <
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 

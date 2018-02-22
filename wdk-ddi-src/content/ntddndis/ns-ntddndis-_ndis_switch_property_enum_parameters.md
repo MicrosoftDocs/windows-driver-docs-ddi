@@ -141,7 +141,7 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598282">OID_SWITCH_PROPERTY_ENUM</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

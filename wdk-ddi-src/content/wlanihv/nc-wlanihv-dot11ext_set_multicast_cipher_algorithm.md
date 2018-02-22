@@ -114,8 +114,7 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-multicast-algorithm-pair">
-   OID_DOT11_SUPPORTED_MULTICAST_ALGORITHM_PAIR</a>
+## -see-also
 
 
 

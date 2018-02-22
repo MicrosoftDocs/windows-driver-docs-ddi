@@ -83,6 +83,13 @@ TBD
 
 
 
+#### - CallParameters [in]
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the new
+     QoS, requested by the client on the remote node, for this connection.
+
+
 #### - NdisVcHandle [in]
 
 Specifies the handle to the VC for which the change in QoS is being requested. The MCM driver
@@ -90,13 +97,6 @@ Specifies the handle to the VC for which the change in QoS is being requested. T
      <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> to set up this connection
      for an incoming call or as an input parameter to its 
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
-
-
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the new
-     QoS, requested by the client on the remote node, for this connection.
 
 
 ## -remarks
@@ -159,7 +159,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 

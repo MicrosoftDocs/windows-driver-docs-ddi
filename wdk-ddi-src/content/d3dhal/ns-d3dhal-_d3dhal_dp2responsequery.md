@@ -116,7 +116,7 @@ The runtime parses the returned response buffer and updates its internal data st
 
 
 
-D3DDP2OP_RESPONSEQUERY
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2issuequery.md">D3DHAL_DP2ISSUEQUERY</a>
 
 
 

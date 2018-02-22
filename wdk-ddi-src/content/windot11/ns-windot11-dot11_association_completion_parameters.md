@@ -620,7 +620,7 @@ Management Frame Protection is negotiated when an access point (AP) and STA set 
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+OID_DOT11_DESIRED_BSS_TYPE
 
 
 

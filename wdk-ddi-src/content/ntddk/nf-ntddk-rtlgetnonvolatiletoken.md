@@ -159,7 +159,7 @@ This routine is currently not supported for Windows Server until the next major 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/EA1C2DF3-591C-407A-ABBF-DE615466A498">RtlDrainNonVolatileFlush</a>
+<a href="https://msdn.microsoft.com/8E083814-7408-47D2-A811-2DCBDCD13097">RtlFreeNonVolatileToken</a>
 
 
 

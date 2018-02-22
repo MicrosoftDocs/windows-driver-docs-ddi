@@ -129,7 +129,7 @@ All MDLs that are allocated by calling
 
 
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">NdisAllocateMemoryWithTagPriority</a>
 
 
 
@@ -141,7 +141,7 @@ All MDLs that are allocated by calling
 
 
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 

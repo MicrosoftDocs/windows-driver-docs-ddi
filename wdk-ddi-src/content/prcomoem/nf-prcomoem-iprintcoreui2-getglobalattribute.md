@@ -199,7 +199,7 @@ For more information, see <a href="https://msdn.microsoft.com/0e23ecba-7d89-44f5
 
 
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
 
 
 

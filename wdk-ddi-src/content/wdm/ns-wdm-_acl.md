@@ -196,7 +196,7 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
 
 
 

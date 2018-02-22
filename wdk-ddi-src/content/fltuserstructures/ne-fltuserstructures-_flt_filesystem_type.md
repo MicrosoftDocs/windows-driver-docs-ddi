@@ -265,7 +265,7 @@ New file systems that are not part of the <b>FLT_FILESYSTEM_TYPE</b> enumeration
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilesystemtype.md">FltGetFileSystemType</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_setup_callback.md">PFLT_INSTANCE_SETUP_CALLBACK</a>
 
 
 

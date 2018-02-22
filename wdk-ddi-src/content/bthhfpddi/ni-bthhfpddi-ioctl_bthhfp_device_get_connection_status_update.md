@@ -135,7 +135,7 @@ When handling the <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537136">KSJACK_DESCRIPTION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn302027">Bluetooth HFP DDI IOCTLs</a>
 
 
 

@@ -188,6 +188,10 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChangeMultiple</b> routi
 
 
 
+<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechange.md">PoFxIssueComponentPerfStateChange</a>
+
+
+
  
 
  

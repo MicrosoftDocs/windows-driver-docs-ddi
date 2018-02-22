@@ -101,16 +101,6 @@ TBD
 
 
 
-#### - InitializedAttributes [out]
-
-Specifies the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure to initialize.
-
-
-#### - ObjectName [in]
-
-A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</a> that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the <i>RootDirectory</i> parameter.
-
-
 #### - Attributes [in]
 
 Specifies one or more of the following flags:
@@ -158,6 +148,16 @@ Specifies that the handle can only be accessed in kernel mode.
 #### OBJ_FORCE_ACCESS_CHECK
 
 The routine opening the handle should enforce all access checks for the object, even if the handle is being opened in kernel mode.
+
+
+#### - InitializedAttributes [out]
+
+Specifies the <a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a> structure to initialize.
+
+
+#### - ObjectName [in]
+
+A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">Unicode string</a> that contains name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the object directory specified by the <i>RootDirectory</i> parameter.
 
 
 #### - RootDirectory [in]

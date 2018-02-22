@@ -322,7 +322,7 @@ All the members of this structure, other than the
 
 
 
-<a href="..\sdplib\nf-sdplib-sdpcreatenodeuint8.md">SdpCreateNodeUInt8</a>
+<a href="..\sdplib\nf-sdplib-sdpcreatenodeuuid32.md">SdpCreateNodeUUID32</a>
 
 
 

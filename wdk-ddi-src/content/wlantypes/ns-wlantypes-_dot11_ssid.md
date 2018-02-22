@@ -102,12 +102,11 @@ A
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/dn305127">
-   NDIS_STATUS_DOT11_CONNECTION_START</a>
 
 
 

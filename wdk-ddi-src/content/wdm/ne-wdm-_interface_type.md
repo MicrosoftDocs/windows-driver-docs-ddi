@@ -201,7 +201,7 @@ Marks the upper limit of the possible bus types.
 
 
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="..\storport\nf-storport-storportvalidaterange.md">StorPortValidateRange</a>
 
 
 

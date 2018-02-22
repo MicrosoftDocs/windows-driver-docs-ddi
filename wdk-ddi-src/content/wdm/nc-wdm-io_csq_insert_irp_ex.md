@@ -163,6 +163,12 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 
 
+
+
+<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+
+
+
 <a href="..\wdm\nc-wdm-io_csq_complete_canceled_irp.md">CsqCompleteCanceledIrp</a>
 
 
@@ -175,7 +181,6 @@ The IO_CSQ_INSERT_IRP_EX function type is defined in the Wdm.h header file. To m
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_peek_next_irp.md">CsqPeekNextIrp</a>
 
 
 

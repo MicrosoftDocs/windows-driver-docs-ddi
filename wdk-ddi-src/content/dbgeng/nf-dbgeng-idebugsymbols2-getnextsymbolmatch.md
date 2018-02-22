@@ -165,7 +165,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543008">EndSymbolMatch</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558815">StartSymbolMatch</a>
 
 
 

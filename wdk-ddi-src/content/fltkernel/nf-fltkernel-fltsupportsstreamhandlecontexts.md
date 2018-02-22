@@ -126,7 +126,7 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltsupportsstreamcontexts.md">FltSupportsStreamContexts</a>
 
 
 

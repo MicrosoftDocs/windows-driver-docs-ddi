@@ -101,6 +101,18 @@ typedef struct _RILMESSAGE {
 ### -field RILMSGUNION
 
 
+#### - unMsgBcGeneral
+
+
+#### - unMsgCDMAInDeliver
+
+
+#### - unMsgCDMAOutSubmit
+
+
+#### - unMsgIS637InStatus
+
+
 #### - unMsgInDeliver
 
 
@@ -108,16 +120,4 @@ typedef struct _RILMESSAGE {
 
 
 #### - unMsgOutSubmit
-
-
-#### - unMsgBcGeneral
-
-
-#### - unMsgIS637InStatus
-
-
-#### - unMsgCDMAInDeliver
-
-
-#### - unMsgCDMAOutSubmit
 

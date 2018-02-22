@@ -91,7 +91,7 @@ Note that the <b>WaveFormatEx</b> member of the KSDATAFORMAT_WAVEFORMATEX struct
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-waveformatextensible.md">WAVEFORMATEXTENSIBLE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538799">WAVEFORMATEX</a>
 
 
 

@@ -264,7 +264,8 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_control.md">AdapterListControl</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
 
 
 
@@ -276,15 +277,23 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
+
+
+<a href="..\wdm\nc-wdm-driver_control.md">AdapterListControl</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 
-<a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

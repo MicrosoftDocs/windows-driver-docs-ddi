@@ -84,11 +84,11 @@ On return, contains the USBD status of the operation.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_usb_hub_cycle_port.md">IOCTL_USB_HUB_CYCLE_PORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

@@ -100,7 +100,7 @@ None
 
 
 
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 

@@ -169,7 +169,7 @@ After receiving a <a href="https://msdn.microsoft.com/library/windows/hardware/f
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536744">IMiniportWaveRTStream::AllocateAudioBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537374">KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION</a>
 
 
 

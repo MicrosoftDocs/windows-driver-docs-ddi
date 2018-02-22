@@ -230,7 +230,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismcoactivatevccomplete.md">NdisMCoActivateVcComplete</a>
+<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
 
 
 

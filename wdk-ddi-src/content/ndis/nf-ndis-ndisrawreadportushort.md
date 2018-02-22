@@ -93,7 +93,7 @@ Pointer to a caller-supplied variable in which this function returns a USHORT va
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+<a href="..\ndis\nf-ndis-ndismregisterioportrange.md">NdisMRegisterIoPortRange</a>
 
 
 

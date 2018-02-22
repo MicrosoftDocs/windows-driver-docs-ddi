@@ -92,16 +92,6 @@ TBD
 
 
 
-#### - OpaqueMcb [in]
-
-Pointer to an initialized MCB structure. 
-
-
-#### - LargeVbn [in]
-
-Starting virtual block number (VBN) of the new mapping run to be added to the MCB. 
-
-
 #### - LargeLbn [in]
 
 Logical block number (LBN) to which <i>LargeVbn</i> is to be mapped.
@@ -110,6 +100,16 @@ Logical block number (LBN) to which <i>LargeVbn</i> is to be mapped.
 #### - LargeSectorCount [in]
 
 Number of sectors in the new mapping run. 
+
+
+#### - LargeVbn [in]
+
+Starting virtual block number (VBN) of the new mapping run to be added to the MCB. 
+
+
+#### - OpaqueMcb [in]
+
+Pointer to an initialized MCB structure. 
 
 
 ## -returns
@@ -172,7 +172,7 @@ To initialize an MCB, call <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry~r6.md">FsRtlLookupLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializelargemcb.md">FsRtlUninitializeLargeMcb</a>
 
 
 

@@ -173,7 +173,7 @@ Note that even if S_OK is returned, the buffer may not have been large enough to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554357">ReadUnicodeStringVirtualWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554300">ReadMultiByteStringVirtual</a>
 
 
 

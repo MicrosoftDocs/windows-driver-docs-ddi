@@ -142,6 +142,10 @@ If
 
 
 
+<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+
+
+
  
 
  

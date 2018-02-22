@@ -110,7 +110,7 @@ Specifies the details of the video stream.
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_videoinfo.md">KS_VIDEOINFO</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
 
 
 

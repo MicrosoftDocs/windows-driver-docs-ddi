@@ -95,7 +95,7 @@ The HID class driver uses this structure to specify information about a HID repo
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
 
 
 

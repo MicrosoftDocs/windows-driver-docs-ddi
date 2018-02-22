@@ -125,8 +125,8 @@ To obtain an active processor count, call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisgroupactiveprocessorcount.md">
-   NdisGroupActiveProcessorCount</a>
+<a href="..\ndis\nf-ndis-ndissystemactiveprocessorcount.md">
+   NdisSystemActiveProcessorCount</a>
 
 
 

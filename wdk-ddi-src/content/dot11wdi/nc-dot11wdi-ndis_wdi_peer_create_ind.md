@@ -127,7 +127,7 @@ In peer queuing mode, a peer is created with all TIDs paused with <b>WDI_TX_PAUS
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297658">WDI_PEER_ID</a>
 
 
 

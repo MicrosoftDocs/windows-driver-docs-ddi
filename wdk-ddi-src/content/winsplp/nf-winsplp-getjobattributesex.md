@@ -230,7 +230,7 @@ This function first checks whether the driver supports the attribute level that 
 
 
 
-<a href="..\winsplp\nf-winsplp-getjobattributes.md">GetJobAttributes</a>
+<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
 
 
 

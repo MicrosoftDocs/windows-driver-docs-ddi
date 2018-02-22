@@ -112,7 +112,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
 
 
 

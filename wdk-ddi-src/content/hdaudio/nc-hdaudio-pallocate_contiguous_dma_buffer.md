@@ -99,6 +99,16 @@ Specifies the context value from the <b>Context</b> member of the <a href="..\hd
 
 
 
+#### - bdl [out]
+
+Retrieves the buffer descriptor list (BDL). This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the BDL. The BDL allocation size is exactly one memory page and the BDL begins on a page boundary.
+
+
+#### - dataBuffer [out]
+
+Retrieves the data buffer. This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the data buffer.
+
+
 #### - handle [in]
 
 Handle identifying the DMA engine. This handle value was obtained from a previous call to <a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a> or <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>.
@@ -107,16 +117,6 @@ Handle identifying the DMA engine. This handle value was obtained from a previou
 #### - requestedBufferSize
 
 Specifies the requested buffer size in bytes.
-
-
-#### - dataBuffer [out]
-
-Retrieves the data buffer. This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the data buffer.
-
-
-#### - bdl [out]
-
-Retrieves the buffer descriptor list (BDL). This parameter points to a caller-allocated PVOID variable into which the routine writes the system virtual address of the BDL. The BDL allocation size is exactly one memory page and the BDL begins on a page boundary.
 
 
 ## -returns
@@ -257,7 +257,7 @@ The stream is in a state other than reset.
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
+<a href="..\hdaudio\nc-hdaudio-pfree_contiguous_dma_buffer.md">FreeContiguousDmaBuffer</a>
 
 
 
@@ -266,6 +266,10 @@ The stream is in a state other than reset.
 
 
 <a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_bdl.md">HDAUDIO_BUS_INTERFACE_BDL</a>
 
 
 

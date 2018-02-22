@@ -247,10 +247,6 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn818565">GetStackTraceEx</a>
 
 
@@ -260,6 +256,10 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 <a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 

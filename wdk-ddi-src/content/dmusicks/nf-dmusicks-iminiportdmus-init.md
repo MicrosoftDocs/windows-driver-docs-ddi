@@ -92,9 +92,9 @@ NTSTATUS Init(
 
 
 
-#### - pUnknownAdapter [in, optional]
+#### - pPort [in]
 
-Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
+Pointer to an <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a> object that provides the port driver's callback interface.
 
 
 #### - pResourceList [in]
@@ -102,9 +102,9 @@ Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport ob
 Pointer to an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object that contains the adapter's resource list. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list.
 
 
-#### - pPort [in]
+#### - pUnknownAdapter [in, optional]
 
-Pointer to an <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a> object that provides the port driver's callback interface.
+Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
 
 #### - ppServiceGroup [out]

@@ -108,7 +108,7 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\ntifs\nf-ntifs-keinsertheadqueue.md">KeInsertHeadQueue</a>
+<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
 
 
 
@@ -116,7 +116,7 @@ For more information about using driver-managed internal queues, see <a href="ht
 
 
 
-<a href="..\ntifs\nf-ntifs-keremovequeue.md">KeRemoveQueue</a>
+<a href="..\wdm\nf-wdm-exallocatefromnpagedlookasidelist.md">ExAllocateFromNPagedLookasideList</a>
 
 
 

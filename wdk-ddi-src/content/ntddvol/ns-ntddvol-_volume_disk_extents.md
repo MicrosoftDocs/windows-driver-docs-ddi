@@ -88,7 +88,7 @@ disk extent
 
 
 
-<a href="..\ntddvol\ni-ntddvol-ioctl_volume_get_volume_disk_extents.md">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
+disk extent
 
 
 

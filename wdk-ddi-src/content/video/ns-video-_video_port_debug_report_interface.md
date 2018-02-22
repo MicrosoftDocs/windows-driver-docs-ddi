@@ -109,6 +109,11 @@ Pointer to an interface reference function that is implemented by the video port
 Pointer to an interface dereference function that is implemented by the video port driver.
 
 
+#### - DbgReportComplete
+
+Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a> function. 
+
+
 #### - DbgReportCreate
 
 Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> function. 
@@ -117,11 +122,6 @@ Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/w
 #### - DbgReportSecondaryData
 
 Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a> function. 
-
-
-#### - DbgReportComplete
-
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a> function. 
 
 
 ## -remarks
@@ -151,7 +151,7 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
+<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
 
 
 

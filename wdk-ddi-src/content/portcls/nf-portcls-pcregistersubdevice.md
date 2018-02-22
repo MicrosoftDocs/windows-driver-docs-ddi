@@ -109,7 +109,7 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iport.md">IPort</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -121,7 +121,7 @@ An adapter driver can call the <a href="https://msdn.microsoft.com/library/windo
 
 
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537032">IUnregisterSubdevice::UnregisterSubdevice</a>
 
 
 

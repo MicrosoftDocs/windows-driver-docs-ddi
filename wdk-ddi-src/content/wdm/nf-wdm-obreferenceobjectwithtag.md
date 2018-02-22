@@ -100,7 +100,7 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointerwithtag.md">ObReferenceObjectByPointerWithTag</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandlewithtag.md">ObReferenceObjectByHandleWithTag</a>
 
 
 
@@ -108,7 +108,7 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobjectwithtag.md">ObDereferenceObjectWithTag</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointerwithtag.md">ObReferenceObjectByPointerWithTag</a>
 
 
 

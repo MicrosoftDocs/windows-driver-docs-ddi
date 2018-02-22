@@ -243,7 +243,7 @@ Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL &lt;= D
 
 
 
-<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
 
 
 
@@ -259,7 +259,7 @@ Callers of <b>ExInitializeNPagedLookasideList</b> can be running at IRQL &lt;= D
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exdeletenpagedlookasidelist.md">ExDeleteNPagedLookasideList</a>
 
 
 

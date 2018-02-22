@@ -235,31 +235,6 @@ Reserved for system use and not available for use by miniport drivers. This memb
 Reserved for system use and not available for use by miniport drivers.
 
 
-##### - SrbFlags.SRB_FLAGS_DATA_IN
-
-Indicates data will be transferred from the device to the system.
-
-
-##### - SrbFlags.SRB_FLAGS_DATA_OUT
-
-Indicates data will be transferred from the system to the device.
-
-
-##### - SrbFlags.SRB_FLAGS_NO_DATA_TRANSFER
-
-Indicates no data transfer with this request. If this is set, the flags SRB_FLAGS_DATA_OUT, SRB_FLAGS_DATA_IN, and SRB_FLAGS_UNSPECIFIED_DIRECTION are clear.
-
-
-##### - SrbFlags.SRB_FLAGS_DISABLE_SYNCH_TRANSFER
-
-Indicates the HBA, if possible, should perform asynchronous I/O for this transfer request. If synchronous I/O was negotiated previously, the HBA must renegotiate for asynchronous I/O before performing the transfer.
-
-
-##### - SrbFlags.SRB_FLAGS_DISABLE_DISCONNECT
-
-Indicates the HBA should not allow the target to disconnect from the SCSI bus during processing of this request.
-
-
 ## -remarks
 
 

@@ -130,7 +130,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_base_stations_info_req.md">WWAN_BASE_
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-base-stations-info">OID_WWAN_BASE_STATIONS_INFO</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

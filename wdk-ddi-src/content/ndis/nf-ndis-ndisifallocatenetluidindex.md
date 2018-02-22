@@ -177,7 +177,7 @@ The interface provider must store the NET_LUID values that it allocates in persi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565890">NDIS_MAKE_NET_LUID</a>
+<a href="..\ndis\nf-ndis-ndisifregisterinterface.md">NdisIfRegisterInterface</a>
 
 
 

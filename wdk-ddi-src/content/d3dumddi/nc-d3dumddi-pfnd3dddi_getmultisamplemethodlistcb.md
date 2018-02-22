@@ -166,6 +166,10 @@ The user-mode display driver typically uses the <b>pfnGetMultisampleMethodListCb
 
 
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_getmultisamplemethodlist.md">D3DDDICB_GETMULTISAMPLEMETHODLIST</a>
+
+
+
  
 
  

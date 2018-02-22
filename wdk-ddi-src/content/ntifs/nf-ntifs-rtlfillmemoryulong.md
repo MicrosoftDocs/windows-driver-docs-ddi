@@ -114,7 +114,7 @@ For more information about managing buffered data and initializing driver-alloca
 
 
 
-<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

@@ -107,11 +107,11 @@ A module that lies downstream from the KS filter that creates the content ID typ
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536588">IDrmPort::GetContentRights</a>
-
-
-
-<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
 
 
 

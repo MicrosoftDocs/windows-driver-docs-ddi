@@ -119,7 +119,7 @@ Callers of <b>ExInterlockedAddUlong</b> run at any IRQL. The storage for the <i>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
+<a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 
 

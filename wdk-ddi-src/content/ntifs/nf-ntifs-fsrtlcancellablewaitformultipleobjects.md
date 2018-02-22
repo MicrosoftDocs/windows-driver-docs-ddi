@@ -250,7 +250,7 @@ A mutex can be recursively acquired only MINLONG times.  If this limit is exceed
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
+<a href="..\wdm\nf-wdm-exinitializefastmutex.md">ExInitializeFastMutex</a>
 
 
 

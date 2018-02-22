@@ -121,7 +121,7 @@ Note that disk drivers also return and set partition information in response to 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontableex.md">IoWritePartitionTableEx</a>
 
 
 

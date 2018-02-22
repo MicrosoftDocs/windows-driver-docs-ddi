@@ -142,11 +142,11 @@ The <i>DmaChannel</i>, <i>OuterUnknown</i>, and <i>ResourceList</i> parameters f
 
 
 
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
 
 
 

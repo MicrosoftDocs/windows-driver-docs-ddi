@@ -117,7 +117,7 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -129,7 +129,7 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549155">GetSymbolPath</a>
 
 
 

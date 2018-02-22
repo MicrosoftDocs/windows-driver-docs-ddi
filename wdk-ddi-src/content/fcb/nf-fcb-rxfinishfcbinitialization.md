@@ -86,6 +86,11 @@ TBD
 
 
 
+#### - InitPacket [in, optional]
+
+Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.
+
+
 #### - MrxFcb [in, out]
 
 A pointer to the MRX_FCB structure being initialized.
@@ -154,11 +159,6 @@ A file.
  
 
 
-#### - InitPacket [in, optional]
-
-Pointer to extra data that is required for initialization depending on the storage type of the FCB being initialized. This parameter may be a <b>NULL</b> pointer if no extra data is provided.
-
-
 ## -returns
 
 
@@ -195,7 +195,7 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
+<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
 
 
 
@@ -207,7 +207,7 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFCB</a>
+<a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
 
 
 
@@ -231,7 +231,7 @@ If the storage type is an RDBSS_NTC_MAILSLOT and the FcbState member of the FCB 
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 
 

@@ -121,7 +121,7 @@ The camera minidriver may obtain the USBCAMD_INTERFACE entry points at any point
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568629">USBCAMD_SetIsoPipeState</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568182">SRB_INITIALIZATION_COMPLETE</a>
 
 
 

@@ -128,6 +128,11 @@ The <b>NDIS_RECEIVE_QUEUE_STATE</b> structure is used in the
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567214">
+   NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
+
+
+
  
 
  

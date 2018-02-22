@@ -255,7 +255,7 @@ If this flag is set, then the flags DEBUG_ATTACH_NONINVASIVE and DEBUG_ATTACH_EX
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562135">.attach (Attach to Process)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
 
 

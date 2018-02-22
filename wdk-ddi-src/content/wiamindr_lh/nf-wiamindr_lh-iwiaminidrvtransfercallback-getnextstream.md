@@ -133,6 +133,10 @@ When the current transfer sequence is cancelled, the <b>GetNextStream</b> method
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551590">WIA_IPA_ITEM_NAME</a>
+
+
+
  
 
  

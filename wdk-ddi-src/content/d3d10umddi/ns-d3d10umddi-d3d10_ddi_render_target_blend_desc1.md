@@ -187,7 +187,7 @@ An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the 
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_1_ddi_blend_desc.md">D3D10_1_DDI_BLEND_DESC</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10_1ddi_calcprivateblendstatesize.md">CalcPrivateBlendStateSize(D3D10_1)</a>
 
 
 
@@ -195,7 +195,7 @@ An array of D3D10_DDI_RENDER_TARGET_BLEND_DESC1 structures are specified in the 
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend_op.md">D3D10_DDI_BLEND_OP</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_blend.md">D3D10_DDI_BLEND</a>
 
 
 

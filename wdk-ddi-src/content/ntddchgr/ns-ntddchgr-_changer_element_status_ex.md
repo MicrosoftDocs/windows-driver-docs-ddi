@@ -281,7 +281,7 @@ The <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 

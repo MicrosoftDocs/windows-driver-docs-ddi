@@ -244,8 +244,8 @@ Injected frames could get classified again if the packets match the same filter 
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">
-       FwpsInjectionHandleCreate0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+     FwpsAllocateCloneNetBufferList0</a>
 
 
 
@@ -258,8 +258,8 @@ Injected frames could get classified again if the packets match the same filter 
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-     FwpsAllocateNetBufferAndNetBufferList0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">
+       FwpsInjectionHandleCreate0</a>
 
 
 

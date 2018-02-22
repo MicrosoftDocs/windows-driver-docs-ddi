@@ -40,7 +40,7 @@ apiname:
 -	HwStorAdapterControl
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -1004,9 +1004,11 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 
 
 
-## -see-also
+To define an <b>HwStorAdapterControl</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
 
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
 
 
 
@@ -1023,6 +1025,12 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 
 
 <a href="..\storport\nf-storport-storportsetpowersettingnotificationguids.md">StorPortSetPowerSettingNotificationGuids</a>
+
+
+
+
+
+<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
 
 
 

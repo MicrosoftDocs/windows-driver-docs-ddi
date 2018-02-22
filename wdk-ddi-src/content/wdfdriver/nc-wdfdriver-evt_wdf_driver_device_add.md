@@ -40,7 +40,7 @@ apiname:
 -	EvtDriverDeviceAdd
 product: Windows
 targetos: Windows
-req.typenames: WDF_DPC_CONFIG, *PWDF_DPC_CONFIG
+req.typenames: "*PWDF_DPC_CONFIG, WDF_DPC_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -193,11 +193,15 @@ The <b>EVT_WDF_DRIVER_DEVICE_ADD</b> function type is defined in the WdfDriver.h
 
 
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
 
 
 
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+
 
 
 

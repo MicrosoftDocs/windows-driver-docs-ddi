@@ -298,7 +298,7 @@ For more information about absolute and relative symbolic links, see Creating Sy
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
 
 
 

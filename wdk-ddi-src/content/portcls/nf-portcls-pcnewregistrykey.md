@@ -219,7 +219,7 @@ The <i>OutRegistryKey</i> and <i>OuterUnknown</i> parameters follow the <a href=
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 

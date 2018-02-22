@@ -100,11 +100,11 @@ Contains the feature data, beginning with the <a href="..\ntddmmc\ns-ntddmmc-_fe
 
 
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
-
-
-
 <a href="..\ntddmmc\ne-ntddmmc-_feature_number.md">FEATURE_NUMBER</a>
+
+
+
+<a href="..\ntddmmc\ne-ntddmmc-_feature_profile_type.md">FEATURE_PROFILE_TYPE</a>
 
 
 

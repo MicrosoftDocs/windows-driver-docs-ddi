@@ -125,6 +125,10 @@ For more information about using this routine, see <a href="https://msdn.microso
 
 
 
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+
+
+
  
 
  

@@ -149,7 +149,7 @@ LPGUID is a pointer to a 128-bit unique identifier.  It is defined in the Micros
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 

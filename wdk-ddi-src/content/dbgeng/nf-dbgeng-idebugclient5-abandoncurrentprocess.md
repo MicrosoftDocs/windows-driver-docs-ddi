@@ -147,6 +147,10 @@ Windows will continue to consider this process as being debugged, and so the pro
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
  
 
  

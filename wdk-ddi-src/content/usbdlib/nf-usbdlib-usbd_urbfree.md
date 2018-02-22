@@ -105,11 +105,11 @@ For a code example, see <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
 
 

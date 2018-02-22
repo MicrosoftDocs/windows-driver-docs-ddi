@@ -95,11 +95,11 @@ For more information, see <a href="https://msdn.microsoft.com/5BC4F94C-2B45-44E2
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enginestatus.md">DXGK_ENGINESTATUS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_queryenginestatus.md">DxgkDdiQueryEngineStatus</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_enginestatus.md">DXGK_ENGINESTATUS</a>
 
 
 

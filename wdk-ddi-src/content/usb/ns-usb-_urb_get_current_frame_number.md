@@ -81,7 +81,7 @@ Contains the current 32-bit frame number, on the USB bus, on return from the hos
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 

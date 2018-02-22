@@ -168,11 +168,11 @@ The current communication direction, interface, and medium of a pin are a subset
 
 
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565197">KSPROPERTY_PIN_DATAFLOW</a>
+
+
+
+<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
 
 
 

@@ -182,7 +182,7 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
 
 
 
@@ -190,7 +190,7 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 

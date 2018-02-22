@@ -154,7 +154,7 @@ Although the driver can set <b>ResourcePrivateDriverDataSize</b> or <b>Allocatio
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_gdisurfacedata.md">D3DKMDT_GDISURFACEDATA</a>
+<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_stagingsurfacedata.md">D3DKMDT_STAGINGSURFACEDATA</a>
 
 
 

@@ -235,7 +235,7 @@ If the specified key does not exist, the routine attempts to create the key. For
 
 
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="..\wdm\nf-wdm-rtldeleteregistryvalue.md">RtlDeleteRegistryValue</a>
 
 
 

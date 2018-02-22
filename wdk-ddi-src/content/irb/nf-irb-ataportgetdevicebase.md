@@ -107,7 +107,7 @@ Miniport drivers must use logical addresses that have been mapped into system sp
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadportuchar.md">AtaPortReadPortUchar</a>
+<a href="..\irb\nf-irb-ataportreadportushort.md">AtaPortReadPortUshort</a>
 
 
 

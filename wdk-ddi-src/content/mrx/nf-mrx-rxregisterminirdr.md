@@ -311,7 +311,7 @@ The network mini-redirector <b>MrxStart</b> routine is called by RDBSS when the 
 
 
 
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 

@@ -219,12 +219,12 @@ Protocol drivers call the
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/gg156036.aspx">DriverEntry of NDIS Protocol
+   Drivers</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_protocol_driver_characteristics.md">
-   NDIS_PROTOCOL_DRIVER_CHARACTERISTICS</a>
 
 
 

@@ -83,14 +83,14 @@ TBD
 
 
 
-#### - Status [in]
-
-Specifies NDIS_STATUS_SUCCESS.
-
-
 #### - NdisSapHandle [in]
 
 Specifies the handle identifying the SAP.
+
+
+#### - Status [in]
+
+Specifies NDIS_STATUS_SUCCESS.
 
 
 ## -remarks

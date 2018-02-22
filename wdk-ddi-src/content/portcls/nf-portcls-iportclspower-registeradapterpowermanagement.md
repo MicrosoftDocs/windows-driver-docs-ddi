@@ -102,7 +102,7 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
 
 
 
@@ -110,7 +110,7 @@ When the <code>RegisterAdapterPowerManagement</code> method registers the power 
 
 
 
-<a href="..\portcls\nn-portcls-iportclspower.md">IPortClsPower</a>
+<a href="..\portcls\nn-portcls-iadapterpowermanagement2.md">IAdapterPowerManagement2</a>
 
 
 

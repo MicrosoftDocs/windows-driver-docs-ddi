@@ -109,7 +109,7 @@ Use <a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a> or <a href="..\wdm\nf-w
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 

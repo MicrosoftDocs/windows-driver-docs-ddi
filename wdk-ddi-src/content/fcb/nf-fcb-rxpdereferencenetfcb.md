@@ -96,7 +96,7 @@ On checked builds, <b>RxpDereferenceNetFcb</b> causes the system to ASSERT if th
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
 
 

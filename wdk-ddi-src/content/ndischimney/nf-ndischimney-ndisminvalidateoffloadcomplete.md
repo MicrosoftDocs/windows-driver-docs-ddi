@@ -131,7 +131,7 @@ The invalidate operation did not succeed. In this case, the offload target has s
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-w_invalidate_offload_handler.md">MiniportInvalidateOffload</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 

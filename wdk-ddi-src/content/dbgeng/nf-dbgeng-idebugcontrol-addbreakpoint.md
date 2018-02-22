@@ -174,7 +174,7 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

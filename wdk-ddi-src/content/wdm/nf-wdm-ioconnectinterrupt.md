@@ -173,6 +173,10 @@ Kernel routines that use the KAFFINITY type include <b>IoConnectInterrupt</b>, <
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
 
 
@@ -186,10 +190,6 @@ Kernel routines that use the KAFFINITY type include <b>IoConnectInterrupt</b>, <
 
 
 <a href="..\wdm\nf-wdm-iodisconnectinterrupt.md">IoDisconnectInterrupt</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 

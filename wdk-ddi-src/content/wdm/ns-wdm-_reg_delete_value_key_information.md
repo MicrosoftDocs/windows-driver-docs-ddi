@@ -118,7 +118,7 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="..\wdm\nf-wdm-zwdeletevaluekey.md">ZwDeleteValueKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 

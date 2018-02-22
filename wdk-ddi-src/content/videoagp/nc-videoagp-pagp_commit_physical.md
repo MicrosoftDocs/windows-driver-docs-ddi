@@ -122,7 +122,7 @@ When a video miniport driver calls <b>AgpCommitPhysical</b>, a portion of the ph
 
 ## -see-also
 
-<a href="..\videoagp\nc-videoagp-pagp_reserve_virtual.md">AgpReserveVirtual</a>
+<a href="..\videoagp\nc-videoagp-pagp_reserve_physical.md">AgpReservePhysical</a>
 
 
 

@@ -107,7 +107,7 @@ For more information about <b>IoReportInterruptActive</b>, see <a href="https://
 
 
 
-<a href="..\wdm\nf-wdm-iodisconnectinterruptex.md">IoDisconnectInterruptEx</a>
+<a href="..\wdm\nf-wdm-ioreportinterruptinactive.md">IoReportInterruptInactive</a>
 
 
 

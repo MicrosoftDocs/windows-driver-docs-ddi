@@ -103,7 +103,7 @@ Callers of <b>KeInitializeTimer</b> should be running at IRQL = DISPATCH_LEVEL o
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereadstatetimer.md">KeReadStateTimer</a>
+<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 
 

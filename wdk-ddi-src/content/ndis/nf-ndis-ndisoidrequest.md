@@ -291,7 +291,7 @@ For more information about the general and media-specific OIDs and their respect
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 
 

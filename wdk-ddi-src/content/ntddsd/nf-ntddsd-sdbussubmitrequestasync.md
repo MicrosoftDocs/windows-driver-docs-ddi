@@ -124,7 +124,7 @@ This request is handled asynchronously and might return STATUS_PENDING.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537906">SdBusOpenInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
 
 
 

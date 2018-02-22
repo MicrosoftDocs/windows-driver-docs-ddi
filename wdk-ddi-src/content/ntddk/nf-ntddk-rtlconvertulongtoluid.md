@@ -96,7 +96,7 @@ Specifies the unsigned long integer to convert.
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
 
 
 
@@ -104,7 +104,7 @@ Specifies the unsigned long integer to convert.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+<a href="..\ntddk\nf-ntddk-rtlconvertlongtoluid.md">RtlConvertLongToLuid</a>
 
 
 

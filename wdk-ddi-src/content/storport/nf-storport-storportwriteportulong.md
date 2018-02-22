@@ -120,7 +120,7 @@ For more information, see <a href="..\storport\nf-storport-scsiportwriteportulon
 
 
 
-<a href="..\storport\nf-storport-storportwriteportbufferulong.md">StorPortWritePortBufferUlong</a>
+<a href="..\srb\nf-srb-scsiportwriteportulong.md">ScsiPortWritePortUlong</a>
 
 
 

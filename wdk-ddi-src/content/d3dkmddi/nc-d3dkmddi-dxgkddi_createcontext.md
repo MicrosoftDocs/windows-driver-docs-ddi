@@ -162,6 +162,12 @@ Typically, each context can reference any resource that was previously created f
 
 
 
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
+
+
+
  
 
  

@@ -84,7 +84,7 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
+<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 
@@ -96,7 +96,7 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 
 
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

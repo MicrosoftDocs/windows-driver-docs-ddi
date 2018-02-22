@@ -130,7 +130,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_set_uicc_reset.md">WWAN_SET_UICC_RESE
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_set_uicc_reset.md">WWAN_SET_UICC_RESET</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
 
 
 

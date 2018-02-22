@@ -183,6 +183,16 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
+
+<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542043">CONTAINING_RECORD</a>
 
 
@@ -191,11 +201,11 @@ Bluetooth profile drivers can obtain a pointer to this function through the
 
 
 
+
+
+
 <a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_parse_interface.md">BTHDDI_SDP_PARSE_INTERFACE</a>
 
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node_data.md">SDP_NODE_DATA</a>
 
 
 

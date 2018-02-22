@@ -165,11 +165,11 @@ After the driver calls <b>pfnOfferAllocations2Cb</b> to offer an allocation to r
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3cb.md">pfnReclaimAllocations3Cb</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_offerresources.md">pfnOfferResources</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_reclaimallocations3cb.md">pfnReclaimAllocations3Cb</a>
 
 
 

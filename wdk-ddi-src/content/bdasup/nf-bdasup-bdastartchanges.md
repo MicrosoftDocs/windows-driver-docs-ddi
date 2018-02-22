@@ -110,7 +110,7 @@ Calling the <b>BdaStartChanges</b> function causes any previously requested topo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563418">KSMETHOD_BDA_START_CHANGES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
 
 
 

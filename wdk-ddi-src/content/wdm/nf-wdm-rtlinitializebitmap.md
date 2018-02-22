@@ -112,7 +112,7 @@ Callers of <b>RtlInitializeBitMap</b>, and callers of other <b>Rtl<i>Xxx</i></b>
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
+<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
 
 
 
@@ -136,7 +136,7 @@ Callers of <b>RtlInitializeBitMap</b>, and callers of other <b>Rtl<i>Xxx</i></b>
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsset.md">RtlAreBitsSet</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 

@@ -180,7 +180,7 @@ The maximum value in this enumeration type.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 
 
@@ -192,7 +192,7 @@ The maximum value in this enumeration type.
 
 
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
 
 
 

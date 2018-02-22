@@ -154,6 +154,12 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 
 
+
+
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+
+
+
  
 
  

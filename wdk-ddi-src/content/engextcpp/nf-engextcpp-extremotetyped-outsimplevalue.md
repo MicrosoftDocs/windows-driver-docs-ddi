@@ -89,11 +89,11 @@ The value is sent to the debugger engine's output callbacks.
 
 ## -see-also
 
-<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544362">ExtRemoteTyped::OutFullValue</a>
+
+
+
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped</a>
 
 
 

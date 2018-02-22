@@ -263,7 +263,7 @@ status = WdfUsbTargetPipeConfigContinuousReader(
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

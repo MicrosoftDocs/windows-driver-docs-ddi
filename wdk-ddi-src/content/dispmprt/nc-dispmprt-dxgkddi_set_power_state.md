@@ -123,7 +123,7 @@ The <i>DxgkDdiSetPowerState</i> function should be made pageable.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_relations.md">DxgkDdiQueryChildRelations</a>
+
 
 
 

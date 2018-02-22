@@ -146,7 +146,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.m
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 

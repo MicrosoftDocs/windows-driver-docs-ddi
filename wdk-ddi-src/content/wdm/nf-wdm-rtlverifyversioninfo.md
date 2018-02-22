@@ -479,7 +479,7 @@ To verify a range of system versions, a driver can call <b>RtlVerifyVersionInfo<
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_osversioninfow.md">RTL_OSVERSIONINFOW</a>
+<a href="..\wdm\nf-wdm-rtlgetversion.md">RtlGetVersion</a>
 
 
 

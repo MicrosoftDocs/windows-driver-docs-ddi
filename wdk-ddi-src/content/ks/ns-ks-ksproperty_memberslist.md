@@ -113,7 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="..\ks\ns-ks-ksproperty_stepping_long.md">KSPROPERTY_STEPPING_LONG</a>
+<a href="..\ks\ns-ks-ksproperty_bounds_longlong.md">KSPROPERTY_BOUNDS_LONGLONG</a>
 
 
 

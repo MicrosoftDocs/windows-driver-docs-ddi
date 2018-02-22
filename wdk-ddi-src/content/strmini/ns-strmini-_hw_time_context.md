@@ -131,11 +131,11 @@ The current system time, in 100-nanosecond units.
 
 
 
-<a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>
+<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
 
 
 
-<a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
 
 
 

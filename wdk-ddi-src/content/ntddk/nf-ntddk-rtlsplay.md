@@ -105,7 +105,7 @@ Callers of <b>RtlSplay</b> must be running at IRQL &lt;= DISPATCH_LEVEL if the t
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasrightchild.md">RtlInsertAsRightChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
 
 
 

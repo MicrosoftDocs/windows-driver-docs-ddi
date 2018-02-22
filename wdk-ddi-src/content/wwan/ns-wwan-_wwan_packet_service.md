@@ -190,12 +190,12 @@ Miniport drivers must report the cause code at the earliest possible instance. F
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
+
+
+
 <a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_packet_service_state.md">
    NDIS_WWAN_PACKET_SERVICE_STATE</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_packet_service_state.md">WWAN_PACKET_SERVICE_STATE</a>
 
 
 

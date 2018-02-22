@@ -101,7 +101,7 @@ D3DHAL_DP2ADDDIRTYBOX, along with the DP2OP_ADDDIRTYBOX token, is used only for 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549248">DDCORECAPS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551627">DD_HALINFO</a>
 
 
 
@@ -109,7 +109,7 @@ D3DHAL_DP2ADDDIRTYBOX, along with the DP2OP_ADDDIRTYBOX token, is used only for 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
 

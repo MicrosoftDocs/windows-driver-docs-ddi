@@ -241,7 +241,7 @@ If the driver receives a call to <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_crea
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_rendercb.md">pfnRenderCb</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_misc_flag.md">D3D10_DDI_RESOURCE_MISC_FLAG</a>
 
 
 

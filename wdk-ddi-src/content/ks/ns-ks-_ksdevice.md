@@ -137,7 +137,7 @@ As mentioned above, <b>Context</b> is initialized to <b>NULL</b> at create time.
 
 
 
-<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 
 
@@ -149,7 +149,7 @@ As mentioned above, <b>Context</b> is initialized to <b>NULL</b> at create time.
 
 
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\ks\ns-ks-_ksdevice_dispatch.md">KSDEVICE_DISPATCH</a>
 
 
 

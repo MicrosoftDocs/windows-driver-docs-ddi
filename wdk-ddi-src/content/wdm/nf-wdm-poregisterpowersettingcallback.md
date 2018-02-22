@@ -263,7 +263,7 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
 
 
 

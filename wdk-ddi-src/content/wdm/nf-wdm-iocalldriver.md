@@ -134,6 +134,10 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 
 
 
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
+
+
+
  
 
  

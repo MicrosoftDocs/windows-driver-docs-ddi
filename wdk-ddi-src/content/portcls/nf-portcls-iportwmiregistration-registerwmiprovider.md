@@ -75,14 +75,14 @@ NTSTATUS RegisterWMIProvider(
 
 
 
-#### - pDeviceObject [in]
-
-Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
-
-
 #### - MiniportWmiContext [in]
 
 Specifies a pointer to a <a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a> structure that provides registration information for a driver's data blocks and event blocks.
+
+
+#### - pDeviceObject [in]
+
+Specifies a pointer to a <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT </a> structure that represents the functional device object of the adapter driver.
 
 
 ## -returns
@@ -113,7 +113,7 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 
 
@@ -121,7 +121,7 @@ For more information about ETW, see <a href="http://go.microsoft.com/fwlink/p/?l
 
 
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=154129">Improve Debugging And Performance Tuning With ETW</a>
 
 
 

@@ -119,11 +119,11 @@ This structure should be used instead of a <a href="..\ksmedia\ns-ksmedia-tagks_
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
-
-
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
 

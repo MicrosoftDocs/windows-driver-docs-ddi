@@ -85,14 +85,14 @@ The PEP claims ownership of this device.
 
 
 
-#### - PepDeviceAcceptedReserved
-
-The PEP claims ownership of the device on behalf of the default PEP. The default PEP is implemented by the Windows kernel to manage devices for which hardware-specific PEPs are not available.
-
-
 #### - PepDeviceAcceptedMax
 
 Reserved for use by operating system.
+
+
+#### - PepDeviceAcceptedReserved
+
+The PEP claims ownership of the device on behalf of the default PEP. The default PEP is implemented by the Windows kernel to manage devices for which hardware-specific PEPs are not available.
 
 
 ## -remarks

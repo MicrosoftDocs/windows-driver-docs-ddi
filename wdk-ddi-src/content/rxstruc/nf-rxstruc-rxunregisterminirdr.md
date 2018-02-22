@@ -101,7 +101,7 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
 
 
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -117,7 +117,7 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 
 

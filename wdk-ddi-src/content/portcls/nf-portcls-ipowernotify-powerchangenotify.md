@@ -96,11 +96,11 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
-
-
-
 <a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536488">IAdapterPowerManagement::PowerChangeState</a>
 
 
 

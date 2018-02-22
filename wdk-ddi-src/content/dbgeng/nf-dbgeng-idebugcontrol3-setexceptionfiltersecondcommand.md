@@ -127,11 +127,11 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556678">SetEventFilterCommand</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

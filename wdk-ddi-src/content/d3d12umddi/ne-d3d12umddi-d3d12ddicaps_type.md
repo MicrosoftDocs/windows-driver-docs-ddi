@@ -176,9 +176,9 @@ UMD-based command queue priority.
 
 
 
-#### - D3D12DDICAPS_TYPE_JPEG_OPTIONS
+#### - D3D12DDICAPS_TYPE_0020_CONTENT_PROTECTION_DRM_SUPPORT
 
-JPEG options.
+Content protection digital rights management (DRM) support.
 
 
 #### - D3D12DDICAPS_TYPE_0020_CONTENT_PROTECTION_SUPPORT
@@ -186,7 +186,7 @@ JPEG options.
 Content protection support.
 
 
-#### - D3D12DDICAPS_TYPE_0020_CONTENT_PROTECTION_DRM_SUPPORT
+#### - D3D12DDICAPS_TYPE_JPEG_OPTIONS
 
-Content protection digital rights management (DRM) support.
+JPEG options.
 

@@ -99,11 +99,11 @@ Callers of <b>RtlClearBit</b> must be running at IRQL &lt;= APC_LEVEL if the mem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 

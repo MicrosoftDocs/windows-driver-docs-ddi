@@ -84,14 +84,14 @@ TBD
 
 
 
-#### - SpinLock [in, out]
-
-Pointer to a spin lock for which the caller provides the storage.
-
-
 #### - NewIrql [in]
 
 Specifies the IRQL value saved from the preceding call to <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>.
+
+
+#### - SpinLock [in, out]
+
+Pointer to a spin lock for which the caller provides the storage.
 
 
 ## -remarks

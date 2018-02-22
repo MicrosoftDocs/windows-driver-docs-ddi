@@ -165,6 +165,8 @@ In this situation, the DLL must free the memory buffer by calling
 
 
 
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11ext_free_buffer.md">Dot11ExtFreeBuffer</a>
 
 

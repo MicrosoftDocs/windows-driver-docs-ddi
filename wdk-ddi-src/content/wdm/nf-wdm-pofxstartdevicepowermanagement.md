@@ -97,7 +97,7 @@ If the driver requires a component to be in the active condition immediately aft
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406420">ComponentIdleConditionCallback</a>
 
 
 
@@ -105,7 +105,7 @@ If the driver requires a component to be in the active condition immediately aft
 
 
 
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
 
 
 

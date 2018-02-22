@@ -306,7 +306,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/jj983426">SetUl
 
 
 
-<a href="..\extsfns\nc-extsfns-ext_analysis_plugin.md">_EFN_Analyze</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562112">!analyze</a>
 
 
 

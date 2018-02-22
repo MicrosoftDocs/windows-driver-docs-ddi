@@ -245,7 +245,7 @@ A member in the union that DXGK_VIDSCHCAPS contains that can hold a 32-bit value
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 

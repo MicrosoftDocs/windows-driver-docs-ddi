@@ -103,7 +103,7 @@ A BDA minidriver calls the <a href="..\bdasup\nf-bdasup-bdamethoddeletepin.md">B
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563415">KSMETHOD_BDA_DELETE_PIN_FACTORY</a>
+<a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
 
 
 

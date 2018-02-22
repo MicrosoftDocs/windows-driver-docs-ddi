@@ -710,11 +710,11 @@ Indicates the size in bytes of the early warning zone toward the end of the tape
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
-
-
-
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
 
 
 

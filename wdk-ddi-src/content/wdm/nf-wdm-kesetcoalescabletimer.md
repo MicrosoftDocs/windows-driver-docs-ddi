@@ -171,7 +171,7 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
+<a href="..\wdm\nf-wdm-keinitializetimerex.md">KeInitializeTimerEx</a>
 
 
 
@@ -187,7 +187,7 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kesettargetprocessordpcex.md">KeSetTargetProcessorDpcEx</a>
+<a href="..\wdm\nf-wdm-keinitializedpc.md">KeInitializeDpc</a>
 
 
 

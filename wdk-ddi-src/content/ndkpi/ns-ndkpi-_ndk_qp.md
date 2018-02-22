@@ -101,7 +101,7 @@ An NDK provider must set the <b>Dispatch</b> member to point to its  <a href="..
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp_dispatch.md">NDK_QP_DISPATCH</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_qp_with_srq.md">NDK_FN_CREATE_QP_WITH_SRQ</a>
 
 
 

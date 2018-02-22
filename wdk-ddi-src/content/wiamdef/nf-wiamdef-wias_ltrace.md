@@ -97,16 +97,6 @@ TBD
 
 
 
-#### - pIWiaLog
-
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
-
-
-#### - ResourceID
-
-Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
-
-
 #### - DetailLevel
 
 Specifies the diagnostic detail level of the message. This parameter can be one of the following values.
@@ -170,9 +160,19 @@ User-defined log levels.
  
 
 
+#### - ResourceID
+
+Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
+
+
 #### - format_string
 
 Specifies a variable argument list, which starts with an ANSI format string describing the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+
+
+#### - pIWiaLog
+
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 ## -remarks

@@ -134,7 +134,7 @@ typedef struct D3D10DDIARG_CREATESHADERRESOURCEVIEW {
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_shaderresourceview.md">D3D10DDIARG_TEXCUBE_SHADERRESOURCEVIEW</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivateshaderresourceviewsize.md">CalcPrivateShaderResourceViewSize</a>
 
 
 

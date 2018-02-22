@@ -107,7 +107,7 @@ If the dispatch function in question does not pass an IRP, it <b>cannot</b> retu
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
 
 
 

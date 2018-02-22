@@ -139,7 +139,7 @@ This routine must be called before committing the device (returning from <a href
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
 
 
 

@@ -152,7 +152,7 @@ For more information about Native 802.11 operation modes, see
 
 
 
-<a href="..\wlclient\ns-wlclient-_dot11_adapter.md">DOT11_ADAPTER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-operation-modes">Native 802.11 Operation Modes</a>
 
 
 

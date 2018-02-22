@@ -102,11 +102,11 @@ The <i>Mdl</i>, <i>Offset</i>, and <i>Length</i> parameters to the <a href="..\w
 
 
 
-<a href="..\wdm\ns-wdm-_dma_transfer_info.md">DMA_TRANSFER_INFO</a>
-
-
-
 <a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_transfer_info.md">DMA_TRANSFER_INFO</a>
 
 
 

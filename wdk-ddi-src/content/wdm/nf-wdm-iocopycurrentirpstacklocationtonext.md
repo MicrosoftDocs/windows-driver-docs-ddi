@@ -105,7 +105,7 @@ If your driver calls <b>IoSkipCurrentIrpStackLocation</b>, be careful not to mod
 
 
 
-<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
 
 
 

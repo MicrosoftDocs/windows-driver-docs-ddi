@@ -97,7 +97,7 @@ The <b>DeviceIdle</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_informa
 
 
 
-<a href="..\wdm\nf-wdm-pofxsetdeviceidletimeout.md">PoFxSetDeviceIdleTimeout</a>
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

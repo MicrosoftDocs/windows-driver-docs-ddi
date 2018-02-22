@@ -235,7 +235,7 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 
 
@@ -243,7 +243,7 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536862">BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 
@@ -255,7 +255,7 @@ While this procedure allows a profile driver to accept incoming connection reque
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 

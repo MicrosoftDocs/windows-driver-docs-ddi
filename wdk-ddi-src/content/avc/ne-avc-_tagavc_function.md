@@ -190,7 +190,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
+<a href="..\avc\ns-avc-_avc_unique_id.md">AVC_UNIQUE_ID</a>
 
 
 
@@ -198,7 +198,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_unique_id.md">AVC_UNIQUE_ID</a>
+<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
 
 
 
@@ -206,7 +206,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
+<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
 
 
 
@@ -226,7 +226,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
-<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
+<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
 
 
 

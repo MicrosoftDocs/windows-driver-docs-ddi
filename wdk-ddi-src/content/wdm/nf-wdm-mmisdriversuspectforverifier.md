@@ -107,7 +107,7 @@ Another related routine, <a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md"
 
 
 
-<a href="..\wdm\nf-wdm-mmisdriververifyingbyaddress.md">MmIsDriverVerifyingByAddress</a>
+<a href="..\wdm\nf-wdm-mmisdriververifying.md">MmIsDriverVerifying</a>
 
 
 

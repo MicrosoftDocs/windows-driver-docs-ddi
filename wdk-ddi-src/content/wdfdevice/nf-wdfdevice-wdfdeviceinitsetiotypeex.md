@@ -153,7 +153,7 @@ WdfDeviceInitSetIoTypeEx(DeviceInit, &amp;ioConfig);
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicestackiotype.md">WdfDeviceGetDeviceStackIoType</a>
+<a href="https://msdn.microsoft.com/7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0"> IWDFDeviceInitialize2::SetIoTypePreference</a>
 
 
 
@@ -161,7 +161,7 @@ WdfDeviceInitSetIoTypeEx(DeviceInit, &amp;ioConfig);
 
 
 
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFIG</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
 
 

@@ -151,6 +151,10 @@ The <i>OutDmaChannel</i> and <i>OuterUnknown </i>parameters follow the <a href="
 
 
 
+<a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>
+
+
+
  
 
  

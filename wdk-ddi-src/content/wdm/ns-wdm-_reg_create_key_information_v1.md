@@ -276,7 +276,7 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=155042">SECURITY_QUALITY_OF_SERVICE</a>
+<a href="..\wdm\ns-wdm-_reg_create_key_information.md">REG_CREATE_KEY_INFORMATION</a>
 
 
 
@@ -296,7 +296,7 @@ The <b>REG_CREATE_KEY_INFORMATION_V1</b> structure is one of a number of structu
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="http://go.microsoft.com/fwlink/p/?linkid=155071">RegCreateKeyEx</a>
 
 
 

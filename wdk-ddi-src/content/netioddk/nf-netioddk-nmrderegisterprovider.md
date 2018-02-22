@@ -186,6 +186,10 @@ A provider module typically calls the
 
 
 
+<a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
+
+
+
  
 
  

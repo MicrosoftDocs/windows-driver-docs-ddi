@@ -140,7 +140,7 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
 
 
 

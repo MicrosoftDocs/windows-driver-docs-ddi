@@ -109,11 +109,11 @@ If an error occurs in the miniport driver's
 
 
 
-<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_unload.md">MiniportDriverUnload</a>
 
 
 

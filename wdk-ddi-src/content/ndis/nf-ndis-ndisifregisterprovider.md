@@ -205,7 +205,8 @@ A component that is no longer an interface provider can call the
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\ndis\ns-ndis-_ndis_if_provider_characteristics.md">
+   NDIS_IF_PROVIDER_CHARACTERISTICS</a>
 
 
 

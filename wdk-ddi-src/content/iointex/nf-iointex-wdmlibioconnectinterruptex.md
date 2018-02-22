@@ -167,11 +167,11 @@ For more information about registering an interrupt-handling routine, see <a hre
 
 ## -see-also
 
+<a href="..\iointex\nf-iointex-wdmlibiodisconnectinterruptex.md">WdmlibIoDisconnectInterruptEx</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547940">InterruptMessageService</a>
 
 
 

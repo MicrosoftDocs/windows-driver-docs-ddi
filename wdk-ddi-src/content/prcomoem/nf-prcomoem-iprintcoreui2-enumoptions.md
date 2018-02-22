@@ -204,7 +204,7 @@ For more information, see <a href="https://msdn.microsoft.com/6ce16d28-eff7-4701
 
 
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
 
 
 

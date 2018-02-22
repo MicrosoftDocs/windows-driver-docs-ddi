@@ -157,7 +157,7 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 ## -see-also
 
-<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
 
 
 

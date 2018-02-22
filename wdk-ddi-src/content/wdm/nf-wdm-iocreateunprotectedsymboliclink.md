@@ -109,11 +109,11 @@ For more information about when to use <b>IoCreateSymbolicLink</b>, see <a href=
 
 
 
+<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+
+
+
 <a href="..\wdm\nf-wdm-iodeletesymboliclink.md">IoDeleteSymbolicLink</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
 
 
 

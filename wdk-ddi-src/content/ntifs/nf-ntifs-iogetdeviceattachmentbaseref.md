@@ -110,7 +110,7 @@ A file system filter driver typically calls <b>IoGetDeviceAttachmentBaseRef</b> 
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetlowerdeviceobject.md">IoGetLowerDeviceObject</a>
+<a href="..\ntifs\nf-ntifs-ioenumeratedeviceobjectlist.md">IoEnumerateDeviceObjectList</a>
 
 
 

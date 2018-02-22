@@ -123,7 +123,7 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 
@@ -132,6 +132,10 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 
 <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
+
+
+
+<a href="..\d3dhal\ns-d3dhal-_dd_getdriverinfo2data.md">DD_GETDRIVERINFO2DATA</a>
 
 
 

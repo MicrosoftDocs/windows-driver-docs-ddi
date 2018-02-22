@@ -121,7 +121,7 @@ Callers of <b>RtlFindClearRuns</b> must be running at IRQL &lt;= APC_LEVEL if th
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindclearbits.md">RtlFindClearBits</a>
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 

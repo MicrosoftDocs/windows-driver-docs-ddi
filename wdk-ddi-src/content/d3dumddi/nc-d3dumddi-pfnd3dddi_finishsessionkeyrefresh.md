@@ -152,7 +152,7 @@ When the runtime subsequently calls the driver's <i>FinishSessionKeyRefresh</i> 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_startsessionkeyrefresh.md">StartSessionKeyRefresh</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_finishsessionkeyrefresh.md">D3DDDIARG_FINISHSESSIONKEYREFRESH</a>
 
 
 

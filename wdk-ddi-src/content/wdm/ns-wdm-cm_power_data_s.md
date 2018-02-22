@@ -139,7 +139,7 @@ Specifies the least-powered system state from which the device can wake the syst
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551967">SetupDiGetDeviceRegistryProperty</a>
 
 
 

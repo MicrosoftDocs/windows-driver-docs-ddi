@@ -165,7 +165,7 @@ If a driver's call to <b>WdmlibIoCreateDeviceSecure</b> returns an error, the dr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

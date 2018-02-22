@@ -130,7 +130,7 @@ The routine is similar to <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfastiomdlreadcomplete.md">FltFastIoMdlReadComplete</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlreaddev~r6.md">FsRtlMdlReadDev</a>
 
 
 

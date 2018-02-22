@@ -180,7 +180,7 @@ To get the volume globally unique identifier (GUID) name for a given volume, cal
 
 
 
-<b>FltGetVolumeName</b>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

@@ -100,7 +100,7 @@ When you dereference the <i>ppXmlNode</i> parameter (using *ppXmlNode ), you obt
 
 
 
-<a href="https://msdn.microsoft.com/B9A0C9EC-6C37-4C42-A10A-8CEE028C5998">IPrintSchemaTicket::NotifyXmlChanged</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 

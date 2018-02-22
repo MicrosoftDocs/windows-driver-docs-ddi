@@ -146,7 +146,7 @@ Callers of <b>FltReleaseContext</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumecontext.md">FltSetVolumeContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamhandlecontext.md">FltSetStreamHandleContext</a>
 
 
 
@@ -170,7 +170,7 @@ Callers of <b>FltReleaseContext</b> must be running at IRQL &lt;= DISPATCH_LEVEL
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetinstancecontext.md">FltSetInstanceContext</a>
 
 
 

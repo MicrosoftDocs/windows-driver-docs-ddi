@@ -173,7 +173,7 @@ A WSK application can call the <b>WskListen</b> function only on a stream socket
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
 
 
 

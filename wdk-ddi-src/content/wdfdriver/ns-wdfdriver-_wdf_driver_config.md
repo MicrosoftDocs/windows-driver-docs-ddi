@@ -118,7 +118,7 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdr
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

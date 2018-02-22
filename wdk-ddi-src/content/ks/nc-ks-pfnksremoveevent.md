@@ -131,7 +131,13 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 
 
-<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+
+
+
+
+
+<a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a>
 
 
 
@@ -147,7 +153,11 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 
 
-<a href="..\ks\nc-ks-pfnksaddevent.md">AVStrMiniAddEvent</a>
+
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
+
 
 
 

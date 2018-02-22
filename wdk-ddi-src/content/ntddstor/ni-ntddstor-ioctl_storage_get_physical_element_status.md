@@ -167,7 +167,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 
 
 
-<a href="https://msdn.microsoft.com/A0876712-4D9B-4A97-8E94-AA570A71C53D">PHYSICAL_ELEMENT_STATUS_REQUEST</a>
+<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
 
 
 

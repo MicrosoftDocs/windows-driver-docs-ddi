@@ -142,7 +142,7 @@ A driver obtains a pointer to the <b>PCI_MSIX_TABLE_CONFIG_INTERFACE</b> structu
 
 
 
-<a href="..\wdm\nc-wdm-pci_msix_set_entry.md">SetTableEntry</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff558787">GUID_MSIX_TABLE_CONFIG_INTERFACE</a>
 
 
 

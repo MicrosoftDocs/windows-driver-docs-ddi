@@ -259,7 +259,7 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 
 
-<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 
 

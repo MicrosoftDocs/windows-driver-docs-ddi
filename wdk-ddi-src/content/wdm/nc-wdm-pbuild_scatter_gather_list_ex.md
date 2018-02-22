@@ -280,7 +280,8 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
+<a href="..\wdm\nc-wdm-pcalculate_scatter_gather_list_size.md">CalculateScatterGatherList</a>
+
 
 
 
@@ -304,7 +305,6 @@ If the driver does not supply an <i>AdapterListControl</i> routine, the driver c
 
 
 
-<a href="..\wdm\nc-wdm-pget_scatter_gather_list.md">GetScatterGatherList</a>
 
 
 

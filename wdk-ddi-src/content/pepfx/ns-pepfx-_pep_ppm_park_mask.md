@@ -101,11 +101,11 @@ The Processors array is guaranteed to contain the processors in increasing order
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_processor_park_state.md">PEP_PROCESSOR_PARK_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186768">PEP_NOTIFY_PPM_PARK_MASK notification</a>
+
+
+
+<a href="..\pepfx\ns-pepfx-_pep_processor_park_state.md">PEP_PROCESSOR_PARK_STATE</a>
 
 
 

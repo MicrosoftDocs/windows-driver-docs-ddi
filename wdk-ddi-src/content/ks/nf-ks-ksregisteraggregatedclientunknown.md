@@ -109,7 +109,7 @@ Minidrivers do not need to be running in a C++ environment to use this function.
 
 
 
-<a href="..\ks\nf-ks-ksfilterfactoryregisteraggregatedclientunknown.md">KsFilterFactoryRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
 
 
 
@@ -117,11 +117,11 @@ Minidrivers do not need to be running in a C++ environment to use this function.
 
 
 
-<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
+<a href="..\ks\nf-ks-ksfilterfactoryregisteraggregatedclientunknown.md">KsFilterFactoryRegisterAggregatedClientUnknown</a>
 
 
 
-<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
+<a href="..\ks\nf-ks-ksdeviceregisteraggregatedclientunknown.md">KsDeviceRegisterAggregatedClientUnknown</a>
 
 
 

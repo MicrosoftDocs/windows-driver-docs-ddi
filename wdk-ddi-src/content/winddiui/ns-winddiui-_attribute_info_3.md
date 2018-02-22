@@ -254,10 +254,6 @@ For information about other ATTRIBUTE_INFO_3 structure members, see <a href="..\
 
 
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
-
-
-
  
 
  

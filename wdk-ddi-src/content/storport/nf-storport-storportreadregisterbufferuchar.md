@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - HwDeviceExtension [in]
-
-Pointer to the hardware device extension.
-
-
-#### - Register [in]
-
-Pointer to the register where the data is to be read. 
-
-
 #### - Buffer [in]
 
 Pointer to the buffer that receives the data that is read.
@@ -114,6 +104,16 @@ Pointer to the buffer that receives the data that is read.
 #### - Count [in]
 
 Number of data items to be read. Each data item has a size of <b>sizeof</b>(UCHAR). 
+
+
+#### - HwDeviceExtension [in]
+
+Pointer to the hardware device extension.
+
+
+#### - Register [in]
+
+Pointer to the register where the data is to be read. 
 
 
 ## -remarks

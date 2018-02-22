@@ -173,8 +173,7 @@ A
 
 
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
-   IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
+<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa.md">IPSEC_OFFLOAD_V2_ADD_SA</a>
 
 
 

@@ -92,19 +92,14 @@ typedef enum _NDIS_NIC_SWITCH_VPORT_INTERRUPT_MODERATION {
 
 
 
-#### - NdisNicSwitchVPortIntModUndefined
-
-Interrupt moderation for the VPort is not defined.
-
-
 #### - NdisNicSwitchVPortIntModAdaptive
 
 Interrupt moderation for the VPort is adaptive. This state enables the network adapter to adjust the interrupt moderation rate for the VPort based on the pattern of network traffic.
 
 
-#### - NdisNicSwitchVPortIntModOff
+#### - NdisNicSwitchVPortIntModHigh
 
-Interrupt moderation for the VPort is disabled.
+Interrupt moderation for the VPort is high.
 
 
 #### - NdisNicSwitchVPortIntModLow
@@ -117,9 +112,14 @@ Interrupt moderation for the VPort is low.
 Interrupt moderation for the VPort is medium.
 
 
-#### - NdisNicSwitchVPortIntModHigh
+#### - NdisNicSwitchVPortIntModOff
 
-Interrupt moderation for the VPort is high.
+Interrupt moderation for the VPort is disabled.
+
+
+#### - NdisNicSwitchVPortIntModUndefined
+
+Interrupt moderation for the VPort is not defined.
 
 
 ## -remarks
@@ -135,11 +135,11 @@ The <b>InterruptModeration</b> member of the <a href="..\ntddndis\ns-ntddndis-_n
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
 
 
 

@@ -115,7 +115,7 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
 
 
 

@@ -144,11 +144,11 @@ Description for custom PIN. This is a custom vendor-defined PIN type. It is not 
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_list.md">NDIS_WWAN_PIN_LIST</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_pin_desc.md">WWAN_PIN_DESC</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_pin_list.md">NDIS_WWAN_PIN_LIST</a>
 
 
 

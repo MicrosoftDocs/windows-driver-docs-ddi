@@ -153,7 +153,11 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
 
 

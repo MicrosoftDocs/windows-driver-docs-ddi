@@ -214,7 +214,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/57d964f1-03c7-4b54-9d04-1d187c96e052">Miniport Adapter Shutdown</a>
+<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
 
 
 

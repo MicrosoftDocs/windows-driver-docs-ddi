@@ -92,7 +92,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetdevice.md">KsG
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\ks\nf-ks-ksgetdevice.md">KsGetDevice</a>
 
 
 

@@ -129,7 +129,7 @@ The IPSEC_OFFLOAD_V2_UPDATE_SA structure specifies updates for a SA and a pointe
 
 
 
-<a href="..\ndis\ne-ndis-_ipsec_offload_v2_operation.md">IPSEC_OFFLOAD_V2_OPERATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

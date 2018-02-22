@@ -128,7 +128,7 @@ Before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiterati
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
+<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
 
 
 

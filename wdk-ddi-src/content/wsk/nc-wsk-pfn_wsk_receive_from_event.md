@@ -280,7 +280,7 @@ A WSK application's <i>WskReceiveFromEvent</i> event callback function must not 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 

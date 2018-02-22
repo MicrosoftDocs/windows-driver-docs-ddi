@@ -101,11 +101,11 @@ For a code example, see <a href="..\ucxcontroller\nc-ucxcontroller-evt_ucx_contr
 
 ## -see-also
 
-<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
-
-
-
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_ucx_usbdevice_event_callbacks.md">UCX_USBDEVICE_EVENT_CALLBACKS</a>
+
+
+
+<a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
 
 
 

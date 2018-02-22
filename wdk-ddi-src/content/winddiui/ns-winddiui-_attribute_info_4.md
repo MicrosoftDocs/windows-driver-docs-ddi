@@ -405,10 +405,6 @@ This structure is available in Windows Vista.
 
 
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
-
-
-
  
 
  

@@ -118,7 +118,7 @@ After the operating system-specific port driver programs the system DMA controll
 
 
 
-<a href="..\srb\nf-srb-scsiportflushdma.md">ScsiPortFlushDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557291">HwScsiDmaStarted</a>
 
 
 

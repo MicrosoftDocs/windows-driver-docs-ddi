@@ -104,7 +104,7 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 
 
-<a href="..\wdm\ne-wdm-_transaction_information_class.md">TRANSACTION_INFORMATION_CLASS</a>
+<a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
 
 
 
@@ -112,7 +112,7 @@ The <b>TRANSACTION_BASIC_INFORMATION</b> structure is used with the <a href="..\
 
 
 
-<a href="..\wdm\nf-wdm-tmgettransactionid.md">TmGetTransactionId</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
 
 

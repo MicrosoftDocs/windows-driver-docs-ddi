@@ -98,6 +98,8 @@ Value is not used.
 
 
 
+
+
 <a href="..\hpmi\ns-hpmi-_hpmi_battery_utilization_hint.md">HPMI_BATTERY_UTILIZATION_HINT</a>
 
 

@@ -106,7 +106,7 @@ The <b>RxReleaseFcbResourceForThreadInMRx</b> routine will release an FCB resour
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
 
 
 

@@ -113,6 +113,10 @@ Before the driver calls the <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocat
 
 
 
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+
+
+
  
 
  

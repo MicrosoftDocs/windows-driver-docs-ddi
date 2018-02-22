@@ -173,7 +173,7 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nf-dbgeng-debugconnect.md">DebugConnect</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -189,7 +189,7 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -197,7 +197,7 @@ For more information about remote debugging, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

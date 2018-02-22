@@ -133,7 +133,7 @@ The <code>Read</code> method returns STATUS_SUCCESS and a <i>BytesRead</i> count
 
 
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536893">IPortMidi::Notify</a>
 
 
 

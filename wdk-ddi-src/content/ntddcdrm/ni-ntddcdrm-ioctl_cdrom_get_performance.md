@@ -118,9 +118,9 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_BUFFER_TOO_SMALL
 
-The request completed successfully.
+The output buffer length is smaller than required.
 
 
 #### -STATUS_INFO_LENGTH_MISMATCH
@@ -128,19 +128,19 @@ The request completed successfully.
 The input buffer length is smaller than required.
 
 
+#### -STATUS_INVALID_DEVICE_REQUEST
+
+The device does not support this request.
+
+
 #### -STATUS_INVALID_PARAMETER
 
 The CDROM_PERFORMANCE_REQUEST header does not contain a valid combination of parameters specified by enumerations.
 
 
-#### -STATUS_BUFFER_TOO_SMALL
+#### -STATUS_SUCCESS
 
-The output buffer length is smaller than required.
-
-
-#### -STATUS_INVALID_DEVICE_REQUEST
-
-The device does not support this request.
+The request completed successfully.
 
 
 ## -see-also
@@ -149,7 +149,7 @@ The device does not support this request.
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_request.md">CDROM_WRITE_SPEED_REQUEST</a>
 
 
 
@@ -157,7 +157,7 @@ The device does not support this request.
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_request.md">CDROM_WRITE_SPEED_REQUEST</a>
+<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
 
 
 

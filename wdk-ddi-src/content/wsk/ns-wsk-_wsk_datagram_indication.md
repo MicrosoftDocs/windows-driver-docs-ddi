@@ -146,6 +146,10 @@ The WSK subsystem passes a pointer to a WSK_DATAGRAM_INDICATION structure as the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff570822">SOCKADDR</a>
+
+
+
  
 
  

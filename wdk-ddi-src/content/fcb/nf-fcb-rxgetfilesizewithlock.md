@@ -106,7 +106,7 @@ These IRPs will normally result in a call to one of the <b>MRxQueryFileInfo, MRx
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550776">MRxQuerySdInfo</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
 
 

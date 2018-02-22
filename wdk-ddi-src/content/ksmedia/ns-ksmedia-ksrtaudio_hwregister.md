@@ -123,7 +123,7 @@ For position registers, the <i>Accuracy</i> parameter represents the accuracy of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537376">KSPROPERTY_RTAUDIO_CLOCKREGISTER</a>
+<a href="..\ksmedia\ns-ksmedia-ksrtaudio_hwregister_property.md">KSRTAUDIO_HWREGISTER_PROPERTY</a>
 
 
 

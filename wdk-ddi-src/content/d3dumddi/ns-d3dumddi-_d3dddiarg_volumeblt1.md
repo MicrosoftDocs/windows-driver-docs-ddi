@@ -110,11 +110,11 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddibox.md">D3DDDIBOX</a>
 
 
 

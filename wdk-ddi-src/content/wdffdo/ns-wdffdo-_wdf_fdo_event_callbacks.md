@@ -112,7 +112,7 @@ A driver that specifies an <a href="https://msdn.microsoft.com/7d9b38b5-989d-45a
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitseteventcallbacks.md">WdfPdoInitSetEventCallbacks</a>
+<a href="..\wdffdo\nf-wdffdo-wdf_fdo_event_callbacks_init.md">WDF_FDO_EVENT_CALLBACKS_INIT</a>
 
 
 

@@ -124,7 +124,7 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
+<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
 
 
 

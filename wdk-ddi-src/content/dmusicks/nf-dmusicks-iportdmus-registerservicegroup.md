@@ -109,7 +109,7 @@ The <i>pServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536700">IMiniportDMus::Init</a>
+<a href="..\portcls\nn-portcls-iservicesink.md">IServiceSink</a>
 
 
 

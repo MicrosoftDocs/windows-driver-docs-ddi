@@ -156,7 +156,7 @@ An error occurred.
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_srq.md">NDK_SRQ</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_sge.md">NDK_SGE</a>
 
 
 

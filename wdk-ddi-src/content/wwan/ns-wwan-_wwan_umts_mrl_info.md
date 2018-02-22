@@ -144,7 +144,7 @@ The data buffer containing <i>ProviderId</i>.
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 

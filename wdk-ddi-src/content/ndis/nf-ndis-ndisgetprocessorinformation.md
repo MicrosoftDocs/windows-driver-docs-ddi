@@ -145,12 +145,12 @@ RSS-capable miniport drivers that support MSI-X call
 
 
 
+<a href="..\ndis\nf-ndis-ndisgetprocessorinformationex.md">
+   NdisGetProcessorInformationEx</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559452(d=robot)">
-   MiniportFilterResourceRequirements</a>
 
 
 

@@ -267,7 +267,8 @@ After the 802.11 station completes the scan operation, the miniport driver retur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+<a href="..\windot11\ns-windot11-dot11_bss_entry_phy_specific_info.md">
+   DOT11_BSS_ENTRY_PHY_SPECIFIC_INFO</a>
 
 
 

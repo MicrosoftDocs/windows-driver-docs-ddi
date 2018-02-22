@@ -146,7 +146,7 @@ This call always executes synchronously.
 
 
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
+<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_COMPONENT_PERF_INFO</a>
 
 
 

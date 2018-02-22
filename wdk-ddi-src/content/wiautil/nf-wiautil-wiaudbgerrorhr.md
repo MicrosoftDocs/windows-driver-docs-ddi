@@ -131,11 +131,11 @@ The <b>wiauDbgErrorHr</b> function typically logs two lines to the log file, or 
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
-
-
-
 <a href="..\wiautil\nf-wiautil-wiaudbgwarning.md">wiauDbgWarning</a>
+
+
+
+<a href="..\wiautil\nf-wiautil-wiaudbgerror.md">wiauDbgError</a>
 
 
 

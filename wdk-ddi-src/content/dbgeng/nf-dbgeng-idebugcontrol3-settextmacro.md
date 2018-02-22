@@ -133,7 +133,7 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
 
 
 

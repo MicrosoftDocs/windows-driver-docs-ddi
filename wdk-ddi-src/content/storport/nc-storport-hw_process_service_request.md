@@ -158,11 +158,11 @@ The <b>HW_PROCESS_SERVICE_REQUEST</b> function type is defined in the Storport.h
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
-
-
-
 <a href="..\storport\nf-storport-storportcompleteserviceirp.md">StorPortCompleteServiceIrp</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_miniport_process_service_irp.md">IOCTL_MINIPORT_PROCESS_SERVICE_IRP</a>
 
 
 

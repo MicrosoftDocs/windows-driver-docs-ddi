@@ -175,7 +175,7 @@ If the driver does not check that D3D11DDI_MINOR_HEADER_VERSION &gt;= 3 before a
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_resource_usage.md">D3D10_DDI_RESOURCE_USAGE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
 
 
 

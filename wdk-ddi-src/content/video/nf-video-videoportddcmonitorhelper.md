@@ -141,7 +141,7 @@ No EDID
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_write_clock_line.md">WriteClockLine</a>
+<a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
 
 
 

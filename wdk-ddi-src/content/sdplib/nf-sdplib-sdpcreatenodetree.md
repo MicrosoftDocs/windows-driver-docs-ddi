@@ -111,7 +111,7 @@ Bluetooth profile drivers can obtain a pointer to this function through the BTHD
 
 ## -see-also
 
-<a href="..\sdplib\nf-sdplib-sdpfreetree.md">SdpFreeTree</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
 
 
 

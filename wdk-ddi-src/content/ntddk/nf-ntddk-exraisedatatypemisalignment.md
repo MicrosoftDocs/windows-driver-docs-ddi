@@ -101,7 +101,7 @@ Because <b>ExRaiseDatatypeMisalignment</b> can only be used at IRQL = PASSIVE_LE
 
 
 
-<a href="..\wdm\nf-wdm-exraisestatus.md">ExRaiseStatus</a>
+<a href="..\ntddk\nf-ntddk-exraiseaccessviolation.md">ExRaiseAccessViolation</a>
 
 
 

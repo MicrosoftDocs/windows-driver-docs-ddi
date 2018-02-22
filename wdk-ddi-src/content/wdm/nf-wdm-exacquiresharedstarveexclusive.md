@@ -123,7 +123,7 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
+<a href="..\wdm\nf-wdm-exacquireresourcesharedlite.md">ExAcquireResourceSharedLite</a>
 
 
 

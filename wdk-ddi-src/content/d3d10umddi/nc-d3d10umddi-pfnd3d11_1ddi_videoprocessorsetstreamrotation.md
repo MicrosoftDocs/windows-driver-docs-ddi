@@ -101,19 +101,6 @@ A handle to the display device (graphics context).
 
 
 
-
-#### - hVideoProcessor [in]
-
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
-
-
-
-
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - Enable [in]
 
 If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is disabled on the input stream.
@@ -122,6 +109,25 @@ If <b>TRUE</b>, rotation is enabled on the input stream. Otherwise, rotation is 
 #### - Rotation [in]
 
 The clockwise degrees of rotation as specified by a <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_processor_rotation.md">D3D11_1DDI_VIDEO_PROCESSOR_ROTATION</a> enumeration value.
+
+
+#### - StreamIndex [in]
+
+The zero-based index of the input stream.
+
+
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
+#### - hVideoProcessor [in]
+
+A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+
+
 
 
 ## -returns

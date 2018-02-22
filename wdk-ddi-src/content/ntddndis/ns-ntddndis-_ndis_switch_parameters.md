@@ -188,7 +188,7 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+<a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a>
 
 
 

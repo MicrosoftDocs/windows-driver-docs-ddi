@@ -86,11 +86,11 @@ typedef struct _D3DKMT_SHAREDPRIMARYLOCKNOTIFICATION {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsharedprimarylocknotification.md">D3DKMTSharedPrimaryLockNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569236">RECTL</a>
 
 
 

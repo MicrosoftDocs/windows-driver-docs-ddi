@@ -144,7 +144,7 @@ The following code example purges an I/O queue and does not call a callback func
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuepurgesynchronously.md">WdfIoQueuePurgeSynchronously</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuedrain.md">WdfIoQueueDrain</a>
 
 
 

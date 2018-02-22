@@ -117,11 +117,11 @@ When the client object connects to a session, the most recent output from the se
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558852">Synchronizing with the Target Computer</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol6.md">IDebugControl6</a>
 
 
 

@@ -83,14 +83,14 @@ NTSTATUS MRxCreateSrvCall(
 
 
 
-#### - pSrvCall [in, out]
-
-A pointer to the SRV_CALL structure to be created. 
-
-
 #### - pCallbackContext [in, out]
 
 A pointer to the callback context used by the network mini-redirector to notify RDBSS when the <i>MRxCreateSrvCall</i> request is finally completed. The <i>pCallbackContext</i> parameter points to an MRX_SRVCALLDOWN_STRUCTURE structure that contains the RX_CONTEXT structure for this request, as well as the <b>Callback</b> routine that the mini-redirector calls when the <i>MRxCreateSrvCall</i> request is finally completed. 
+
+
+#### - pSrvCall [in, out]
+
+A pointer to the SRV_CALL structure to be created. 
 
 
 ## -returns

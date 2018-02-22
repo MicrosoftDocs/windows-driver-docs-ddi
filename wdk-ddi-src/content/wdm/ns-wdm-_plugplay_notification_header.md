@@ -116,6 +116,10 @@ Drivers can cast a PnP notification structure to this type to access the <b>Even
 
 
 
+<a href="..\wdm\ns-wdm-_device_interface_change_notification.md">DEVICE_INTERFACE_CHANGE_NOTIFICATION</a>
+
+
+
  
 
  

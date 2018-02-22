@@ -128,6 +128,10 @@ Typically, an overlying driver calls
 
 
 
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+
+
  
 
  

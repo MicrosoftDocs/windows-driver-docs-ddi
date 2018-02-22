@@ -135,7 +135,7 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CONST structure is associ
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
 
 
 

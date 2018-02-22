@@ -94,7 +94,7 @@ typedef struct D3D11DDIARG_TEX1D_UNORDEREDACCESSVIEW {
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_calcprivateunorderedaccessviewsize.md">CalcPrivateUnorderedAccessViewSize</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11ddiarg_createunorderedaccessview.md">D3D11DDIARG_CREATEUNORDEREDACCESSVIEW</a>
 
 
 

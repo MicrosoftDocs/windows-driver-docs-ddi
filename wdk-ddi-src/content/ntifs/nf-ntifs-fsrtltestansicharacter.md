@@ -104,11 +104,6 @@ Pointer to the character to be tested.
 Default value to be returned if the value of <i>(SCHAR *)Character</i> is &lt; 0.
 
 
-#### - WildCardsPermissible
-
-Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
-
-
 #### - Flags
 
 Combination of one or more of the flag values described following.
@@ -182,6 +177,11 @@ FSRTL_NTFS_LEGAL | FSRTL_OLE_LEGAL
  
 
 
+#### - WildCardsPermissible
+
+Set to <b>TRUE</b> if wildcard characters are to be considered legal, <b>FALSE</b> otherwise.
+
+
 ## -remarks
 
 
@@ -193,15 +193,15 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalfat.md">FsRtlIsAnsiCharacterLegalFat</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegalntfs.md">FsRtlIsAnsiCharacterLegalNtfs</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-fsrtlisansicharacterlegal.md">FsRtlIsAnsiCharacterLegal</a>
 
 
 

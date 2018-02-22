@@ -141,11 +141,17 @@ There may or may not be a session active when this function is called, so the ex
 
 ## -see-also
 
+<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
+
+
+
+
+
+
+
 <a href="..\dbgeng\nc-dbgeng-pdebug_extension_known_struct.md">KnownStructOutput</a>
 
 
-
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_uninitialize.md">DebugExtensionUninitialize</a>
 
 
 

@@ -178,6 +178,12 @@ An MDL describes the physical memory pages that underlie a locked-down, contiguo
 
 
 
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
 <a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
 
 

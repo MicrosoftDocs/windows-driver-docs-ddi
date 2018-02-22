@@ -110,7 +110,7 @@ After calling <b>FltRetainSwappedBufferMdlAddress</b>, the caller is responsible
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+<a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
 
 
 

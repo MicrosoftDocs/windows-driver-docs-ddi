@@ -92,11 +92,11 @@ Specifies the character to convert.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlupcaseunicodechar.md">RtlUpcaseUnicodeChar</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
 
 
 

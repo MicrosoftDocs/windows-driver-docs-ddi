@@ -189,7 +189,7 @@ Additionally, the value DEBUG_ASMOPT_DEFAULT represents the default set of assem
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538121">Assemble</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562128">.asm (Change Disassembly Options)</a>
 
 
 

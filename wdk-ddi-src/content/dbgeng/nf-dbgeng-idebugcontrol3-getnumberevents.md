@@ -130,7 +130,7 @@ For more information, see the topic <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
 
 
 

@@ -211,7 +211,7 @@ Pointer to a miniport driver-supplied context that is passed back to the driver 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567322">HwVidBankedMemoryCallback</a>
+<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_share_video_memory.md">IOCTL_VIDEO_SHARE_VIDEO_MEMORY</a>
 
 
 

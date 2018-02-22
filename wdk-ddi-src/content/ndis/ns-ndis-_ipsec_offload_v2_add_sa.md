@@ -355,13 +355,11 @@ If a member is set to zero, that parameter is not used to filter packets for the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
-   IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_algorithm_info.md">
-   IPSEC_OFFLOAD_V2_ALGORITHM_INFO</a>
+<a href="..\ndis\ns-ndis-_ipsec_offload_v2_add_sa_ex.md">IPSEC_OFFLOAD_V2_ADD_SA_EX</a>
 
 
 

@@ -170,7 +170,7 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553138">IPrintOemDriverUni::DrvWriteSpoolBuf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554253">IPrintOemUni::GetImplementedMethod</a>
 
 
 
@@ -182,7 +182,7 @@ For additional information see <a href="https://msdn.microsoft.com/6e643703-ace1
 
 
 
-<a href="..\printoem\ns-printoem-_unifontobj.md">UNIFONTOBJ</a>
+<a href="..\printoem\ns-printoem-_finvocation.md">FINVOCATION</a>
 
 
 

@@ -145,7 +145,7 @@ The <b>EVT_SERCX2_CUSTOM_TRANSMIT_TRANSACTION_CLEANUP</b> function type is defin
 
 
 
-<a href="..\sercx\nf-sercx-sercx2customtransmittransactioncreate.md">SerCx2CustomTransmitTransactionCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn265257">SERCX2CUSTOMTRANSMITTRANSACTION</a>
 
 
 

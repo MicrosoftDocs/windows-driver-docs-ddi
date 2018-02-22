@@ -225,6 +225,10 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553056">IPrintCoreUI2::GetFeatureAttribute</a>
+
+
+
  
 
  

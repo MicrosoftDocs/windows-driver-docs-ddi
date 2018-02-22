@@ -135,7 +135,7 @@ Initializes a enumeration over the tagged data associated with a debugger sessio
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces2.md">IDebugDataSpaces2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
 
 
 

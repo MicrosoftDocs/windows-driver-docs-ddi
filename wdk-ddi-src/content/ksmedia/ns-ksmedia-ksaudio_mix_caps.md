@@ -121,11 +121,11 @@ This scale has a resolution of 1/65536 decibel.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksaudio_mixcap_table.md">KSAUDIO_MIXCAP_TABLE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537291">KSPROPERTY_AUDIO_MIX_LEVEL_CAPS</a>
 
 
 

@@ -86,11 +86,11 @@ Specifies the subsequent interval when the event should continue to be signaled.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a>
-
-
-
 <a href="..\ks\ns-ks-ksevent_time_mark.md">KSEVENT_TIME_MARK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561764">KSEVENTSETID_Clock</a>
 
 
 

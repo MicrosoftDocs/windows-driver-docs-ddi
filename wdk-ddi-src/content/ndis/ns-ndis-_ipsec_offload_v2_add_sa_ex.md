@@ -361,8 +361,7 @@ This structure is nearly identical to the previous version,
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ipsec_offload_v2_security_association.md">
-   IPSEC_OFFLOAD_V2_SECURITY_ASSOCIATION</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -376,8 +375,8 @@ This structure is nearly identical to the previous version,
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-delete-sa">
-   OID_TCP_TASK_IPSEC_OFFLOAD_V2_DELETE_SA</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-task-ipsec-offload-v2-add-sa">
+   OID_TCP_TASK_IPSEC_OFFLOAD_V2_ADD_SA_EX</a>
 
 
 

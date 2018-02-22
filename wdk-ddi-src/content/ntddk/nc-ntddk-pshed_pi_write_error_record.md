@@ -155,7 +155,7 @@ The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at I
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
 
 
 
@@ -163,7 +163,7 @@ The PSHED calls a PSHED plug-in's <i>WriteErrorRecord</i> callback function at I
 
 
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_clear_error_record.md">ClearErrorRecord</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
 
 
 

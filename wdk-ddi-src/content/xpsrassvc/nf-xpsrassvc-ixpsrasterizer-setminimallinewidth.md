@@ -109,7 +109,7 @@ This method is supported in Windows 7 and later. It is not supported in versions
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556365">IXpsRasterizer::RasterizeRect</a>
+<a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ee719675.aspx">IWICBitmap</a>
 
 
 

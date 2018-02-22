@@ -108,7 +108,7 @@ A pointer to the driver's  <a href="..\netdispumdddi\nc-netdispumdddi-pfn_handle
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_handle_kmd_message.md">HandleKernelModeMessage</a>
+<a href="..\netdispumdddi\nc-netdispumdddi-pfn_stop_miracast_session.md">StopMiracastSession</a>
 
 
 

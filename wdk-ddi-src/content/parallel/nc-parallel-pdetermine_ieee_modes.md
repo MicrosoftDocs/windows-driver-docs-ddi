@@ -134,7 +134,7 @@ The PDETERMINE_IEEE_MODES callback runs in the caller's thread at the IRQL of th
 
 
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+<a href="..\parallel\nc-parallel-pparallel_ieee_rev_to_fwd.md">PPARALLEL_IEEE_REV_TO_FWD</a>
 
 
 

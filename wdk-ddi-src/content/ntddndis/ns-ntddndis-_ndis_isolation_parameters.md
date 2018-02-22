@@ -132,7 +132,7 @@ A <b>ULONG</b> value that specifies the offset, in bytes, to the first <a href="
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_isolation_mode.md">NDIS_ISOLATION_MODE</a>
 
 
 

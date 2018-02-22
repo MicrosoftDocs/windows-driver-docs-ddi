@@ -167,7 +167,7 @@ Before calling <b>RxCreateSrvCall</b>, a lock on the name table associated with 
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

@@ -1240,11 +1240,11 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 
 
-<a href="..\wdm\nf-wdm-iogetnextirpstacklocation.md">IoGetNextIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 
@@ -1252,7 +1252,7 @@ In some cases, a higher-level driver layered over a mass-storage device driver i
 
 
 
-<a href="..\wdm\nf-wdm-iogetcurrentirpstacklocation.md">IoGetCurrentIrpStackLocation</a>
+<a href="..\wdm\nf-wdm-iocopycurrentirpstacklocationtonext.md">IoCopyCurrentIrpStackLocationToNext</a>
 
 
 

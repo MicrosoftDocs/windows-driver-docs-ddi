@@ -178,7 +178,7 @@ The EVT_SPB_CONTROLLER_WRITE function type is defined in the Spbcx.h header file
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBTARGET</a>
 
 
 

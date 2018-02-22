@@ -129,7 +129,7 @@ Use the <b>KEY_VALUE_INFORMATION_CLASS</b> values to specify the type of data to
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 
 

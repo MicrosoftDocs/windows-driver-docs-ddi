@@ -128,7 +128,7 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
 
 
 

@@ -145,7 +145,7 @@ For more information about symbols and symbol names, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548062">GetOffsetTypeId</a>
 
 
 

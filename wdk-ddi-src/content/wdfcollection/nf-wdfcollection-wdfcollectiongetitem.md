@@ -123,11 +123,11 @@ For a code example that uses <b>WdfCollectionGetItem</b>, see <a href="..\wdfcol
 
 ## -see-also
 
-<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
-
-
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetfirstitem.md">WdfCollectionGetFirstItem</a>
+
+
+
+<a href="..\wdfcollection\nf-wdfcollection-wdfcollectiongetlastitem.md">WdfCollectionGetLastItem</a>
 
 
 

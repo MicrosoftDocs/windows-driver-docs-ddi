@@ -92,7 +92,7 @@ The bitwise <b>OR</b> of values from the <a href="..\wdfdevice\ne-wdfdevice-_wdf
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetremovelockoptions.md">WdfDeviceInitSetRemoveLockOptions</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdf_remove_lock_options_init.md">WDF_REMOVE_LOCK_OPTIONS_INIT</a>
 
 
 

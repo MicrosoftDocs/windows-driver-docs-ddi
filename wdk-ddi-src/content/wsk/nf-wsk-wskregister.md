@@ -167,7 +167,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
+<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
 
 
 

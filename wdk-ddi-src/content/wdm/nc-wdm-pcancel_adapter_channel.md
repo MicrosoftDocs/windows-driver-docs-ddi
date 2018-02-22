@@ -136,7 +136,8 @@ Similarly, if a driver calls <b>GetScatterGatherListEx</b> or <b>BuildScatterGat
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
+<a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
+
 
 
 
@@ -148,7 +149,6 @@ Similarly, if a driver calls <b>GetScatterGatherListEx</b> or <b>BuildScatterGat
 
 
 
-<a href="..\wdm\nc-wdm-pbuild_scatter_gather_list_ex.md">BuildScatterGatherListEx</a>
 
 
 

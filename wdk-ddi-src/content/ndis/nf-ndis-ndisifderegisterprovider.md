@@ -111,11 +111,11 @@ The provider must not use the provider handle that it passed at the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
 
 
 

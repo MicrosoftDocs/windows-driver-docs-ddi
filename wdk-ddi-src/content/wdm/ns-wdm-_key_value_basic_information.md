@@ -238,7 +238,7 @@ A kernel-mode driver can obtain a <b>KEY_VALUE_BASIC_INFORMATION</b> that descri
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratevaluekey.md">ZwEnumerateValueKey</a>
+<a href="..\wdm\ne-wdm-_key_value_information_class.md">KEY_VALUE_INFORMATION_CLASS</a>
 
 
 

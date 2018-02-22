@@ -157,11 +157,11 @@ Any event sink that implements <a href="..\printerextension\nn-printerextension-
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
-
-
-
 <a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms694318(v=vs.85).aspx">IConnectionPoint</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
 
 
 

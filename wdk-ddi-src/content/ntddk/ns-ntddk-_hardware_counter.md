@@ -103,15 +103,15 @@ The <b>Type</b> member specifies the type of hardware counter that is described 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
 
 
 
 <a href="..\ntddk\ne-ntddk-_hardware_counter_type.md">HARDWARE_COUNTER_TYPE</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kesethardwarecounterconfiguration.md">KeSetHardwareCounterConfiguration</a>
 
 
 

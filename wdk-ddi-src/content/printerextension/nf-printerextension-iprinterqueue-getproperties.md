@@ -84,11 +84,11 @@ This method returns and <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprinterpropertybag.md">IPrinterPropertyBag</a>
 
 
 

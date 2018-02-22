@@ -249,7 +249,6 @@ The KBUGCHECK_REASON_CALLBACK_ROUTINE function type is defined in the Wdm.h head
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 

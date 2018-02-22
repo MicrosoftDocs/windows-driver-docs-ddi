@@ -116,7 +116,7 @@ A member of the <a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d11_1ddi_video_usage.md">D3D11_1DDI_VIDEO_USAGE</a>
 
 
 

@@ -111,6 +111,10 @@ Minidrivers rarely call this function directly. Those that do must manually perf
 
 
 
+<a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
+
+
+
  
 
  

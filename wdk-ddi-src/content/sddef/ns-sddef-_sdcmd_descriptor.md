@@ -40,7 +40,7 @@ apiname:
 -	SDCMD_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
+req.typenames: "*PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR"
 req.product: Windows 10 or later.
 ---
 
@@ -135,11 +135,20 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
+
+
+
+
+
+
 
 
 
 <a href="https://msdn.microsoft.com/1e821ca5-ff65-48a1-be5c-6d776c61f166">SD_TRANSFER_DIRECTION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538012">SD_REQUEST_FUNCTION</a>
 
 
 

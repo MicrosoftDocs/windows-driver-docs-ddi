@@ -80,11 +80,11 @@ Specifies the context parameter to use when reporting quality problems. The cont
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565750">KSPROPERTY_STREAM_QUALITY</a>
+
+
+
+<a href="..\ks\ns-ks-ksquality.md">KSQUALITY</a>
 
 
 

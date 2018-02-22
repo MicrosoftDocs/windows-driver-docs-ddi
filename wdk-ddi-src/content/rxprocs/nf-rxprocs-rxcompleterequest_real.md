@@ -123,7 +123,7 @@ If a <b>NULL</b> value is passed in for <i>Irp</i>, then <b>RxCompleteRequest_Re
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
+<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
 
 
 
@@ -139,7 +139,7 @@ If a <b>NULL</b> value is passed in for <i>Irp</i>, then <b>RxCompleteRequest_Re
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
+<a href="..\rxcontx\nf-rxcontx-rxpreparecontextforreuse.md">RxPrepareContextForReuse</a>
 
 
 

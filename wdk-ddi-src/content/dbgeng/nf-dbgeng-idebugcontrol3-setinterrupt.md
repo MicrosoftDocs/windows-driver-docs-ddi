@@ -165,7 +165,7 @@ If <i>Flags</i> is DEBUG_INTERRUPT_ACTIVE, and the interrupt times out, the engi
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546944">GetInterrupt</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

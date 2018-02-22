@@ -195,7 +195,7 @@ NDIS network drivers use the <b>NDIS_RSS_PROCESSOR_INFO</b> structure in calls t
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_rss_processor.md">NDIS_RSS_PROCESSOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj849980">NDIS_RSS_PROFILE</a>
 
 
 

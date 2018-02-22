@@ -107,7 +107,7 @@ Callers of this routine can be running at any IRQL. Usually, a caller is running
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+<a href="..\wdm\nf-wdm-kereleasespinlockfromdpclevel.md">KeReleaseSpinLockFromDpcLevel</a>
 
 
 
@@ -115,7 +115,7 @@ Callers of this routine can be running at any IRQL. Usually, a caller is running
 
 
 
-<a href="..\wdm\nf-wdm-kereleasespinlockfromdpclevel.md">KeReleaseSpinLockFromDpcLevel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
 
 
 

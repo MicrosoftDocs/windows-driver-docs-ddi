@@ -132,7 +132,7 @@ hr = m_IWdfDevice3-&gt;CreateWorkItem(&amp;config,
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
 
 
 

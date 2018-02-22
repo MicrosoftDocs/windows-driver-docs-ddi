@@ -294,16 +294,16 @@ The members of this structure are used to record PHY-level statistics for:
 
 
 
-<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-phy-statistics">Extensible Station PHY
    Statistics</a>
 
 
 
 <a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
+
+
+
+<a href="..\windot11\ns-windot11-dot11_statistics.md">DOT11_STATISTICS</a>
 
 
 

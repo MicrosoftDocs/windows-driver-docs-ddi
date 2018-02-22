@@ -104,7 +104,7 @@ typedef struct _DXVADDI_QUERYPROCAMPINPUT {
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_procampvalues.md">DXVADDI_PROCAMPVALUES</a>
 
 
 

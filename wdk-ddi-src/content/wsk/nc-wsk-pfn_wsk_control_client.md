@@ -312,11 +312,11 @@ If the
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
+
+
+
 <a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff571157">WSK Client Control Operations</a>
 
 
 

@@ -194,24 +194,29 @@ The two most significant bits in the function number are used for phantom functi
 All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
 
 
-##### - PhantomFunctionsSupported.0
+##### - L0sAcceptableLatency.L0s_256ns_512ns
 
-No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
-
-
-##### - PhantomFunctionsSupported.1
-
-The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
+512 nanoseconds
 
 
-##### - PhantomFunctionsSupported.2
+##### - L0sAcceptableLatency.L0s_2us_4us
 
-The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
+4 microseconds
 
 
-##### - PhantomFunctionsSupported.3
+##### - L0sAcceptableLatency.L0s_512ns_1us
 
-All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
+1 microsecond
+
+
+##### - L0sAcceptableLatency.L0s_64ns_128ns
+
+128 nanoseconds
+
+
+##### - L0sAcceptableLatency.L0s_Above4us
+
+No limit
 
 
 #### - ExtendedTagSupported
@@ -279,37 +284,37 @@ No limit
 64 nanoseconds
 
 
-##### - L0sAcceptableLatency.L0s_64ns_128ns
+##### - L1AcceptableLatency.L1_16us_32us
 
-128 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_128ns_256ns
-
-256 nanoseconds
+32 microseconds
 
 
-##### - L0sAcceptableLatency.L0s_256ns_512ns
-
-512 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_512ns_1us
-
-1 microsecond
-
-
-##### - L0sAcceptableLatency.L0s_1us_2us
+##### - L1AcceptableLatency.L1_1us_2us
 
 2 microseconds
 
 
-##### - L0sAcceptableLatency.L0s_2us_4us
+##### - L1AcceptableLatency.L1_2us_4us
 
 4 microseconds
 
 
-##### - L0sAcceptableLatency.L0s_Above4us
+##### - L1AcceptableLatency.L1_32us_64us
+
+64 microseconds
+
+
+##### - L1AcceptableLatency.L1_4us_8us
+
+8 microseconds
+
+
+##### - L1AcceptableLatency.L1_8us_16us
+
+16 microseconds
+
+
+##### - L1AcceptableLatency.L1_Above64us
 
 No limit
 
@@ -374,39 +379,34 @@ No limit
 1 microsecond
 
 
-##### - L1AcceptableLatency.L1_1us_2us
+##### - MaxPayloadSizeSupported.MaxPayload1024Bytes
 
-2 microseconds
-
-
-##### - L1AcceptableLatency.L1_2us_4us
-
-4 microseconds
+1024 byte maximum payload size
 
 
-##### - L1AcceptableLatency.L1_4us_8us
+##### - MaxPayloadSizeSupported.MaxPayload128Bytes
 
-8 microseconds
-
-
-##### - L1AcceptableLatency.L1_8us_16us
-
-16 microseconds
+128 byte maximum payload size
 
 
-##### - L1AcceptableLatency.L1_16us_32us
+##### - MaxPayloadSizeSupported.MaxPayload2048Bytes
 
-32 microseconds
-
-
-##### - L1AcceptableLatency.L1_32us_64us
-
-64 microseconds
+2048 byte maximum payload size
 
 
-##### - L1AcceptableLatency.L1_Above64us
+##### - MaxPayloadSizeSupported.MaxPayload256Bytes
 
-No limit
+256 byte maximum payload size
+
+
+##### - MaxPayloadSizeSupported.MaxPayload4096Bytes
+
+4096 byte maximum payload size
+
+
+##### - MaxPayloadSizeSupported.MaxPayload512Bytes
+
+512 byte maximum payload size
 
 
 #### - Undefined
@@ -462,22 +462,22 @@ Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
 
 ##### - CapturedSlotPowerLimitScale.0
 
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 1.0.
+No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
 
 
-##### - CapturedSlotPowerLimitScale.1
+##### - PhantomFunctionsSupported.1
 
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.1.
-
-
-##### - CapturedSlotPowerLimitScale.2
-
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
+The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
 
 
-##### - CapturedSlotPowerLimitScale.3
+##### - PhantomFunctionsSupported.2
 
-Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
+The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
+
+
+##### - PhantomFunctionsSupported.3
+
+All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
 
 
 #### - Rsvd2

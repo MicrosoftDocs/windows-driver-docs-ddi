@@ -134,7 +134,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
 
 
 
@@ -142,7 +142,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536723">IMini
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclicstream.md">IMiniportWaveCyclicStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
 
 
 

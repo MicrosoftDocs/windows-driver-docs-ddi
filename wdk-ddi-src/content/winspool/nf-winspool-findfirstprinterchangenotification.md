@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: f6d2034a-0906-42ea-a4bd-9cdb1b36c5cf
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: FindFirstPrinterChangeNotification function [Print Devices], spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, print.findfirstprinterchangenotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification
+ms.keywords: spoolfnc_cf13c78b-91e2-4d6e-b7be-fda42b3e7588.xml, print.findfirstprinterchangenotification, FindFirstPrinterChangeNotification, winspool/FindFirstPrinterChangeNotification, FindFirstPrinterChangeNotification function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,6 +106,11 @@ One or more caller-supplied PRINTER_CHANGE-prefixed flags. For more information,
 Caller-supplied notification handle. This handle must be saved and used as input to <a href="..\winsplp\nf-winsplp-replyprinterchangenotification.md">ReplyPrinterChangeNotification</a> and <a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>.
 
 
+#### - pPrinterNotifyInit
+
+Not used.
+
+
 #### - pfdwStatus
 
 Caller-supplied pointer to a location to receive provider-specified flags. The following flags are defined.
@@ -135,11 +140,6 @@ If clear, the print provider notifies the spooler of changes by calling <a href=
 
 
 #### PRINTER_NOTIFY_STATUS_INFO
-
-Not used.
-
-
-#### - pPrinterNotifyInit
 
 Not used.
 

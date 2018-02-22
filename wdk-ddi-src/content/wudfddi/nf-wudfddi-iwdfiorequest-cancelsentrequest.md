@@ -98,7 +98,7 @@ If the driver previously registered the <a href="..\wudfddi\nn-wudfddi-irequestc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
+<a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
 
 

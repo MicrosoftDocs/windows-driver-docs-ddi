@@ -116,11 +116,11 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltprocessfilelock.md">FltProcessFileLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549251">IRP_MJ_LOCK_CONTROL</a>
 
 
 

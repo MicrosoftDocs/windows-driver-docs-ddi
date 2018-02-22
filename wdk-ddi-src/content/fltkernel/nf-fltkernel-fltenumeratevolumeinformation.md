@@ -235,7 +235,7 @@ To enumerate instances of all minifilter drivers on all volumes, call <a href=".
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumerateinstanceinformationbyvolume.md">FltEnumerateInstanceInformationByVolume</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumeratevolumes.md">FltEnumerateVolumes</a>
 
 
 

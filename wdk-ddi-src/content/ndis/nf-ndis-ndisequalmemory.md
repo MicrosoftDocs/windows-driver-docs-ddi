@@ -115,8 +115,7 @@ Callers of
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
+<a href="..\wdm\nf-wdm-rtlcopymemory.md">RtlCopyMemory</a>
 
 
 

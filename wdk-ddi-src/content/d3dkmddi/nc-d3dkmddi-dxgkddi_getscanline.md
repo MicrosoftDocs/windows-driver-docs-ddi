@@ -109,6 +109,8 @@ NTSTATUS APIENTRY DxgkDdiGetScanLine(
 
 
 
+
+
  
 
  

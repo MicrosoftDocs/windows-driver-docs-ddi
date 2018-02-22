@@ -126,7 +126,7 @@ There are no more blocks of tagged data available in this enumeration.
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 

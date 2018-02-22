@@ -119,15 +119,15 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549201">GetSymbolValueText</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 

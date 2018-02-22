@@ -160,7 +160,7 @@ One of the source files to be compiled into the EngExtCpp extension library shou
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544508">EXT_CLASS</a>
+<a href="..\engextcpp\nf-engextcpp-ext_command_method.md">EXT_COMMAND_METHOD</a>
 
 
 

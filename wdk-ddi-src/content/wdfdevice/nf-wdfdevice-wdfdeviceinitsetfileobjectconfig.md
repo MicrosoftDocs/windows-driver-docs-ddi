@@ -162,6 +162,10 @@ WdfDeviceInitSetFileObjectConfig(
 
 
 
+<a href="..\wdfdevice\nf-wdfdevice-wdf_fileobject_config_init.md">WDF_FILEOBJECT_CONFIG_INIT</a>
+
+
+
  
 
  

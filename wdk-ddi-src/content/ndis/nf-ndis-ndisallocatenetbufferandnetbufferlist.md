@@ -202,8 +202,7 @@ NET_BUFFER_CURRENT_MDL_OFFSET(_NB) = Z';</pre>
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
 
 
 

@@ -168,7 +168,7 @@ BOOLEAN GetAssignedResources(PCM_RESOURCE_LIST reslist)
 
 
 
-<a href="..\ntddk\nf-ntddk-ioreportresourcefordetection.md">IoReportResourceForDetection</a>
+<a href="..\wdm\nf-wdm-iogetdeviceproperty.md">IoGetDeviceProperty</a>
 
 
 

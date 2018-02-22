@@ -98,15 +98,15 @@ The <i>ServiceGroup</i> parameter follows the <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536719">IMiniportWaveCyclicStream::SetNotificationFreq</a>
-
-
-
 <a href="..\portcls\nn-portcls-iservicegroup.md">IServiceGroup</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536719">IMiniportWaveCyclicStream::SetNotificationFreq</a>
 
 
 

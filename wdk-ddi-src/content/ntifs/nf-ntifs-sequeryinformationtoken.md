@@ -287,7 +287,7 @@ For more information about security and access control, see the documentation ab
 
 
 
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
+<a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
 
 
 

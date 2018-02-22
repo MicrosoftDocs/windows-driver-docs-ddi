@@ -285,7 +285,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumeinformation.md">FltSetVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549318">IRP_MJ_QUERY_VOLUME_INFORMATION</a>
 
 
 

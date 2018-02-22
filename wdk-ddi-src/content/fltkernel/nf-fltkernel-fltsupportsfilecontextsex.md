@@ -116,7 +116,7 @@ To decrement the reference count on a context, call <a href="..\fltkernel\nf-flt
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 

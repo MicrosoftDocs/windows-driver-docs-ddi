@@ -136,11 +136,11 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_device_config_info.md">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a>
-
-
-
-<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
 
 
 

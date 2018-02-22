@@ -256,7 +256,7 @@ For more information, see <a href="https://msdn.microsoft.com/6A4E62BD-B10F-4F01
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_isr.md">EvtInterruptIsr</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptcreate.md">WdfInterruptCreate</a>
 
 
 
@@ -281,6 +281,10 @@ For more information, see <a href="https://msdn.microsoft.com/6A4E62BD-B10F-4F01
 
 
 <a href="..\wdfinterrupt\nf-wdfinterrupt-wdf_interrupt_config_init.md">WDF_INTERRUPT_CONFIG_INIT</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>
 
 
 

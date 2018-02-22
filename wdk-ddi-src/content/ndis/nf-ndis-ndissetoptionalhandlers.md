@@ -399,11 +399,12 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">MiniportSetOptions</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff570269">FilterSetOptions</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_pnp_characteristics.md">
+   NDIS_MINIPORT_PNP_CHARACTERISTICS</a>
 
 
 
@@ -420,8 +421,7 @@ For more information on the 4 chimney offload structures, see
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_co_characteristics.md">
-   NDIS_MINIPORT_CO_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 

@@ -113,7 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
 
 
 

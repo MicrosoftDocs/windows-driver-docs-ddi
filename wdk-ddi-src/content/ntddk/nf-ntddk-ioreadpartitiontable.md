@@ -124,7 +124,7 @@ Read each partition table and, for each and every entry, fill in a partition inf
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 
 

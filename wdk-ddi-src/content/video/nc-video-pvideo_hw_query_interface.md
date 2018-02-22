@@ -136,11 +136,11 @@ A child device is enumerated by <a href="..\video\nc-video-pvideo_hw_get_child_d
 
 ## -see-also
 
-<a href="..\video\nf-video-videoportacquiredevicelock.md">VideoPortAcquireDeviceLock</a>
-
-
-
 <a href="..\video\nc-video-pvideo_hw_get_child_descriptor.md">HwVidGetVideoChildDescriptor</a>
+
+
+
+<a href="..\video\nf-video-videoportreleasedevicelock.md">VideoPortReleaseDeviceLock</a>
 
 
 

@@ -167,7 +167,7 @@ Only a single call of the <b>PoFxIssueComponentPerfStateChange</b> routine  is a
 
 
 
-<a href="..\wdm\nf-wdm-pofxissuecomponentperfstatechangemultiple.md">PoFxIssueComponentPerfStateChangeMultiple</a>
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 
 

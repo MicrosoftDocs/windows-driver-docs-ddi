@@ -122,7 +122,7 @@ An FCB resource acquired with <b>RxAcquireExclusiveFcbResourceInMRx </b>should b
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md">RxReleaseFcbResourceForThreadInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
 
 
 

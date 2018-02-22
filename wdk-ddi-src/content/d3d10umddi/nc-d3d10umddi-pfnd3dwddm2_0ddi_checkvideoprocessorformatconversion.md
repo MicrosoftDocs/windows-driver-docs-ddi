@@ -95,7 +95,7 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
+## -see-also
 
 
 

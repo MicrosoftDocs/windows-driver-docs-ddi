@@ -606,7 +606,7 @@ A guard area to protect against drivers that interpret this structure as <a href
 
 ### -field AddressOffset
 
-The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
+The offset of the storage request address from the beginning of this structure. This offset locates a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure that contains the address for the request.
 
 
 ### -field NumSrbExData
@@ -1032,7 +1032,7 @@ Starting in Windows 8, an extended  SRB type is supported with the use of the <
 
 If <b>NumSrbExData</b> &gt; 0, the offsets for the SRB extended data blocks are in the  <b>SrbExDataOffset</b> array. Each offset is relative to the beginning of this structure and points to a <a href="..\minitape\ns-minitape-_srbex_data.md">SRBEX_DATA</a> structure containing the extended data block.
 
-The target device address for the SRB is in a <a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
+The target device address for the SRB is in a <a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a> structure indicated by <b>AddressOffset</b>.
 
 
 

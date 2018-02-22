@@ -312,7 +312,7 @@ Miniport drivers call the
 
 
 
-<a href="https://msdn.microsoft.com/70b8321b-7b21-4d11-a9c2-46b0caa26ce6">NDIS Scatter/Gather DMA</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -354,8 +354,7 @@ Miniport drivers call the
 
 
 
-<a href="..\ndis\nf-ndis-ndismderegisterscattergatherdma.md">
-   NdisMDeregisterScatterGatherDma</a>
+<a href="..\ndis\nc-ndis-miniport_process_sg_list.md">MiniportProcessSGList</a>
 
 
 

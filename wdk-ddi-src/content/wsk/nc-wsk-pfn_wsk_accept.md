@@ -297,7 +297,7 @@ The WSK subsystem allocates the memory for the socket object structure (
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_bind.md">WskBind</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 

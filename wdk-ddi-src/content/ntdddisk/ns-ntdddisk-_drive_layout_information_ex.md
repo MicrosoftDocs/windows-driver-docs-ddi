@@ -118,7 +118,7 @@ This structure is used for both reading and writing disk partition information. 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_mbr.md">DRIVE_LAYOUT_INFORMATION_MBR</a>
 
 
 
@@ -130,7 +130,7 @@ This structure is used for both reading and writing disk partition information. 
 
 
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
 
 
 

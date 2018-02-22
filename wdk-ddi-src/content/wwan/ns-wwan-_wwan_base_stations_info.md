@@ -228,7 +228,7 @@ The data buffer containing the base stations information. This buffer is where t
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_gsm_nmr.md">WWAN_GSM_NMR</a>
+<a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
 
 
 

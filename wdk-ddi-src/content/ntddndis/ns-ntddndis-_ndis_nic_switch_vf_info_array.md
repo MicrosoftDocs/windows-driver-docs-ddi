@@ -152,7 +152,7 @@ NDIS returns an <b>NDIS_NIC_SWITCH_VF_INFO_ARRAY</b> structure when it handles a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451820">OID_NIC_SWITCH_ENUM_VFS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vf_info.md">NDIS_NIC_SWITCH_VF_INFO</a>
 
 
 

@@ -252,11 +252,11 @@ Indicates to a driver the amount, in bytes, of physical memory in the system.
 
 
 
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
+<a href="..\video\nc-video-pvideo_port_get_proc_address.md">VideoPortGetProcAddress</a>
 
 
 
-<a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_save_hardware_state.md">IOCTL_VIDEO_SAVE_HARDWARE_STATE</a>
+<a href="..\video\nf-video-videoportgetdevicedata.md">VideoPortGetDeviceData</a>
 
 
 
@@ -272,7 +272,7 @@ Indicates to a driver the amount, in bytes, of physical memory in the system.
 
 
 
-<a href="..\video\nf-video-videoportverifyaccessranges.md">VideoPortVerifyAccessRanges</a>
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 

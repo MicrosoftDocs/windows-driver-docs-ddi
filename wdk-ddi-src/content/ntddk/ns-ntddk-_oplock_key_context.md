@@ -168,7 +168,7 @@ If an oplock is requested for a file during an <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\ntddk\nf-ntddk-iogetoplockkeycontextex.md">IoGetOplockKeyContextEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406392">DUAL_OPLOCK_KEY_ECP_CONTEXT</a>
 
 
 

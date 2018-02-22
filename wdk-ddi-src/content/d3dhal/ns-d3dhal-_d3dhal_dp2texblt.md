@@ -140,7 +140,7 @@ rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
 
 ## -see-also
 
-D3DDP2OP_TEXBLT
+<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
 

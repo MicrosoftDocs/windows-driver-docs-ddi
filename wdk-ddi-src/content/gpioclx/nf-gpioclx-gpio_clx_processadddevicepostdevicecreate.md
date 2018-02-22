@@ -150,7 +150,7 @@ For a code example that contains a call to <b>GPIO_CLX_ProcessAddDevicePostDevic
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439487">GPIO_CLX_ProcessAddDevicePreDeviceCreate</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

@@ -101,7 +101,7 @@ This function allows IRPs to be forwarded through an object by ensuring that any
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kssetdevicepnpandbaseobject.md">KsSetDevicePnpAndBaseObject</a>
+<a href="..\ks\nf-ks-kssettargetdeviceobject.md">KsSetTargetDeviceObject</a>
 
 
 

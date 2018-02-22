@@ -111,6 +111,11 @@ A pointer to an optional Unicode string specifying the instance name for connect
 An optional variable specifying the instance port for connecting with the security service provider. 
 
 
+#### - Length [out]
+
+A pointer to an optional variable for storing the length of the security service provider name string created by this function.
+
+
 #### - Referrer [in]
 
 A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
@@ -119,11 +124,6 @@ A pointer to an optional Unicode string specifying the referrer name for connect
 #### - TargetInfo [in]
 
 A pointer to an optional Unicode string specifying target information for connecting with the security service provider. 
-
-
-#### - Length [out]
-
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
 
 
 ## -returns
@@ -191,11 +191,11 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-secmakespnex2.md">SecMakeSPNEx2</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secmakespn.md">SecMakeSPN</a>
 
 
 

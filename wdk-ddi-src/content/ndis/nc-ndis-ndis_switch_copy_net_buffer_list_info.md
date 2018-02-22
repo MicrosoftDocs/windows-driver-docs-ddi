@@ -163,7 +163,7 @@ For example, the extension can call <a href="..\ndis\nf-ndis-ndisallocateclonene
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisfgetoptionalswitchhandlers.md">NdisFGetOptionalSwitchHandlers</a>
 
 
 

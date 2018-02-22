@@ -97,7 +97,7 @@ Callers of <b>InitializeListHead</b> can be running at any IRQL. If <b>Initializ
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-removeentrylist.md">RemoveEntryList</a>
 
 
 

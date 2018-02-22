@@ -194,7 +194,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
@@ -206,7 +206,7 @@ When a callout has indicated that it intends to modify the clone net buffer list
 
 
 
-<a href="https://msdn.microsoft.com/464c74ae-5e37-41f1-b305-ef57039b28ba">Using a Callout for Deep Inspection</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 
 

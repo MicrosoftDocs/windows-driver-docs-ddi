@@ -144,12 +144,12 @@ The Native 802.11 miniport driver includes a DOT11_CAN_SUSTAIN_AP_PARAMETERS str
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-can-sustain-ap">
    NDIS_STATUS_DOT11_CAN_SUSTAIN_AP</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

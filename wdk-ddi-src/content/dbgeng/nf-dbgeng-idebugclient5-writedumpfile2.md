@@ -351,6 +351,10 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
  
 
  

@@ -171,11 +171,15 @@ The PO_FX_COMPONENT_IDLE_STATE_CALLBACK function type is defined in the Wdm.h he
 
 
 
-<a href="..\wdm\nf-wdm-pofxsetcomponentresidency.md">PoFxSetComponentResidency</a>
+<a href="..\wdm\nf-wdm-pofxcompleteidlestate.md">PoFxCompleteIdleState</a>
 
 
 
 <a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxsetcomponentresidency.md">PoFxSetComponentResidency</a>
 
 
 

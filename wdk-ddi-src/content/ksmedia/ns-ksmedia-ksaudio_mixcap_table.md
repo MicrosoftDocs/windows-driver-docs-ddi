@@ -205,7 +205,7 @@ If the client sends an initial KSPROPERTY_AUDIO_MIX_LEVEL_CAPS request in which 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537292">KSPROPERTY_AUDIO_MIX_LEVEL_TABLE</a>
+<a href="..\ksmedia\ns-ksmedia-ksaudio_mix_caps.md">KSAUDIO_MIX_CAPS</a>
 
 
 

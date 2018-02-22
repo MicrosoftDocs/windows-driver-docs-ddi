@@ -87,9 +87,9 @@ VOID APIENTRY DrawInstancedIndirect(
 
 
 
-#### - hDevice [in]
+#### - AlignedByteOffsetForArgs [in]
 
- A handle to the display device (graphics context).
+ The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of four. 
 
 
 #### - hBufferForArgs [in]
@@ -114,9 +114,9 @@ VOID APIENTRY DrawInstancedIndirect(
 For more information about these arguments, see the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_drawinstanced.md">DrawInstanced</a> reference page. 
 
 
-#### - AlignedByteOffsetForArgs [in]
+#### - hDevice [in]
 
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of four. 
+ A handle to the display device (graphics context).
 
 
 ## -returns

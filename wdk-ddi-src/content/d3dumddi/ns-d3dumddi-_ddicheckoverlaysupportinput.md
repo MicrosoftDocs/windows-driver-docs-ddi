@@ -141,7 +141,7 @@ The runtime specifies a pointer to a DDICHECKOVERLAYSUPPORTINPUT structure in th
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
 
 
 

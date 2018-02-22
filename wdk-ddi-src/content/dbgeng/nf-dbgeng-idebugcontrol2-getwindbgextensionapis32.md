@@ -128,7 +128,7 @@ For a list of the functions provided by the WdbgExts API, see <a href="https://m
 
 ## -see-also
 
-<a href="..\dbgeng\nc-dbgeng-pdebug_extension_initialize.md">DebugExtensionInitialize</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 

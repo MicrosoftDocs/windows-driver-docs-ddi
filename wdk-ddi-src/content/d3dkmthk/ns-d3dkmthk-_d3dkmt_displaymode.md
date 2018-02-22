@@ -138,7 +138,7 @@ typedef struct _D3DKMT_DISPLAYMODE {
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_getdisplaymodelist.md">D3DKMT_GETDISPLAYMODELIST</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_rational.md">D3DDDI_RATIONAL</a>
 
 
 

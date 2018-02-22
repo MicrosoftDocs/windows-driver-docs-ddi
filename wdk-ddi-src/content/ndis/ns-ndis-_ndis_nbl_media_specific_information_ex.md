@@ -155,8 +155,7 @@ To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566512">
-   NDIS_NBL_GET_MEDIA_SPECIFIC_INFO_EX</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -169,7 +168,7 @@ To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_nbl_media_media_specific_information.md">NDIS_NBL_MEDIA_SPECIFIC_INFORMATION</a>
 
 
 
@@ -178,7 +177,8 @@ To add, get, and remove NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX structures in the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566518">
+   NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO_EX</a>
 
 
 

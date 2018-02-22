@@ -416,7 +416,7 @@ A pointer to a variable that receives the final completion status and informatio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451581">OpenSpbResource</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406257">CloseSpbResource</a>
 
 
 

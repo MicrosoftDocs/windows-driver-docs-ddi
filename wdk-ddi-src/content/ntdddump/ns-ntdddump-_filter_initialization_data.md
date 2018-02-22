@@ -192,7 +192,7 @@ If any of these members are not set, the dump filter driver will be marked as no
 
 
 
-<a href="..\ntdddump\nc-ntdddump-dump_unload.md">Dump_Unload</a>
+<a href="..\ntdddump\nc-ntdddump-dump_finish.md">Dump_Finish</a>
 
 
 

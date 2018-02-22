@@ -88,7 +88,7 @@ Pointer to a buffered Unicode string that is the user-visible name for the symbo
 
 
 
-<a href="..\wdm\nf-wdm-iocreatesymboliclink.md">IoCreateSymbolicLink</a>
+<a href="..\ntddk\nf-ntddk-iodeassignarcname.md">IoDeassignArcName</a>
 
 
 

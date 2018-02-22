@@ -205,7 +205,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
 
 
 

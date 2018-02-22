@@ -326,7 +326,7 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 

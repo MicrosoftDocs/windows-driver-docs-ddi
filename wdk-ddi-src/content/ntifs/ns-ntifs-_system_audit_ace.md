@@ -113,7 +113,7 @@ This structure must be aligned on a 32-bit boundary.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\ntifs\ns-ntifs-_ace_header.md">ACE_HEADER</a>
 
 
 
@@ -121,7 +121,7 @@ This structure must be aligned on a 32-bit boundary.
 
 
 
-<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
 
 

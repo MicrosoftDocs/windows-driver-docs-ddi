@@ -106,7 +106,7 @@ If a miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAda
 
 
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
 
 
 

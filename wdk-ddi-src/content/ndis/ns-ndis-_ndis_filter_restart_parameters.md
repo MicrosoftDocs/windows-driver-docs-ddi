@@ -173,6 +173,10 @@ Filter drivers can modify the restart attributes that are specified by underlyin
 
 
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+
  
 
  

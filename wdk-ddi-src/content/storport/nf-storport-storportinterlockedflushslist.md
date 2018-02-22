@@ -154,7 +154,7 @@ The <b>StorPortInterlockedFlushSList</b> will also return <b>STATUS_SUCCESS</b> 
 
 
 
-<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
+<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
 
 
 

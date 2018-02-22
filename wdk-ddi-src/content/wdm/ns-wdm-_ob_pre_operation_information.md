@@ -135,7 +135,7 @@ Reserved. Use the <b>KernelHandle</b> member instead.
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+<a href="..\wdm\ns-wdm-_ob_pre_operation_parameters.md">OB_PRE_OPERATION_PARAMETERS</a>
 
 
 

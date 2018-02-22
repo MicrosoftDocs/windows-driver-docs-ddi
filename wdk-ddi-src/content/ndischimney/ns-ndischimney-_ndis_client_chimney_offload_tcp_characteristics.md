@@ -163,8 +163,7 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
-   ProtocolTcpOffloadDisconnectComplete</a>
+<a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
 
@@ -189,8 +188,8 @@ To register its TCP chimney offload entry points, a protocol or intermediate dri
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_recv_complete_handler.md">
-   ProtocolTcpOffloadReceiveComplete</a>
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_disconnect_complete_handler.md">
+   ProtocolTcpOffloadDisconnectComplete</a>
 
 
 

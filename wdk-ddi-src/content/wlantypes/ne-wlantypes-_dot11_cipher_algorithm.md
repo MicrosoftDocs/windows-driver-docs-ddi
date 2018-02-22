@@ -241,7 +241,7 @@ If WPS is enabled on a NIC that is operating in Extensible AP mode, the miniport
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569135">OID_DOT11_CURRENT_PHY_ID</a>
+<a href="..\windot11\ns-windot11-dot11_cipher_algorithm_list.md">DOT11_CIPHER_ALGORITHM_LIST</a>
 
 
 

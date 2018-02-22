@@ -96,7 +96,7 @@ Miniport drivers define the HBA's interrupt synchronization mode by assigning on
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\storport\nc-storport-hw_message_signaled_interrupt_routine.md">HwMSInterruptRoutine</a>
 
 
 

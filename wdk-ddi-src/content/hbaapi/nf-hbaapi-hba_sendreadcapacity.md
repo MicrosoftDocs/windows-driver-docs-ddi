@@ -108,6 +108,11 @@ Pointer to a buffer that receives the SCSI sense data.
 On input, indicates on input the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
 
 
+#### - fcLUN [in]
+
+Indicates the fibre channel logical unit number of the logical unit to which the SCSI read capacity command will be sent. 
+
+
 #### - handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA through which the SCSI read capacity command is sent.
@@ -116,11 +121,6 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 #### - portWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI read capacity command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
-
-
-#### - fcLUN [in]
-
-Indicates the fibre channel logical unit number of the logical unit to which the SCSI read capacity command will be sent. 
 
 
 ## -returns

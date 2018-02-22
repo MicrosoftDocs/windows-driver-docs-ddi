@@ -118,7 +118,7 @@ A driver can use the same <b>WMIREGINFO</b> structure(s) to remove or update blo
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
+<a href="..\wmistr\ns-wmistr-wmiregguidw.md">WMIREGGUID</a>
 
 
 

@@ -92,16 +92,6 @@ typedef struct {
 
 
 
-#### - Set
-
-Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536197">Audio Drivers Property Sets</a>.
-
-
-#### - Id
-
-Specifies the property ID. This member identifies a property item within the property set. If the property set contains N items, valid property IDs are integers in the range 0 to N-1.
-
-
 #### - Flags
 
 Specifies the types of property requests that the driver supports. Set this member to the bitwise OR of some or all of the flag bits that appear in the following table.
@@ -213,6 +203,16 @@ Pointer to the property-handler routine. This member is a function pointer of ty
 </tr>
 </table></span></div>
 See the following Remarks section.
+
+
+#### - Id
+
+Specifies the property ID. This member identifies a property item within the property set. If the property set contains N items, valid property IDs are integers in the range 0 to N-1.
+
+
+#### - Set
+
+Specifies the property set. This member is a pointer to a GUID that uniquely identifies the property set. See the list of property-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536197">Audio Drivers Property Sets</a>.
 
 
 ## -remarks

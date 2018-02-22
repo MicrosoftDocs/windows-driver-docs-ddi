@@ -83,16 +83,16 @@ TBD
 
 
 
-#### - Status [in]
-
-The caller sets this to NDIS_STATUS_SUCCESS.
-
-
 #### - NdisAfHandle [in]
 
 Specifies the NDIS-supplied handle passed to the MCM driver's 
      <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a> function when this
      client originally opened the address family.
+
+
+#### - Status [in]
+
+The caller sets this to NDIS_STATUS_SUCCESS.
 
 
 ## -remarks
@@ -135,7 +135,8 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_close_af_complete.md">ProtocolClCloseAfComplete</a>
+<a href="..\ndis\nf-ndis-ndiscmcloseaddressfamilycomplete.md">
+   NdisCmCloseAddressFamilyComplete</a>
 
 
 

@@ -188,7 +188,7 @@ You delete EA’s by specifying an <b>EAName</b> with an <b>EaValueLength</b> of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff961907">ZwQueryEaFile</a>
+<a href="..\ntifs\nf-ntifs-fsrtlquerykerneleafile.md">FsRtlQueryKernelEaFile</a>
 
 
 

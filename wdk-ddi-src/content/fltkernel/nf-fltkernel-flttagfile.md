@@ -211,7 +211,7 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="..\ntifs\nf-ntifs-isreparsetagnamesurrogate.md">IsReparseTagNameSurrogate</a>
+<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
 
 
 
@@ -219,7 +219,7 @@ For more information about reparse points, see the Microsoft Windows SDK documen
 
 
 
-<a href="..\ntifs\ns-ntifs-_reparse_data_buffer.md">REPARSE_DATA_BUFFER</a>
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
 
 
 

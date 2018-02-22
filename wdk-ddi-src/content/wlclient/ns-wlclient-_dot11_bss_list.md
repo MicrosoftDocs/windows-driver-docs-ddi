@@ -127,6 +127,11 @@ The 802.11 Beacon and Probe Response frames within the
 
 
 
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_create_discovery_profiles.md">
+   Dot11ExtIhvCreateDiscoveryProfiles</a>
+
+
+
  
 
  

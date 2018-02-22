@@ -146,7 +146,7 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
 
 
 

@@ -86,11 +86,11 @@ This method returns an <b>HRESULT</b> value.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406706">EnableEvents</a>
-
-
-
 <a href="https://msdn.microsoft.com/918AE3F6-2AC4-42AD-9581-E87AD7E79BAD">IPrinterExtensionManager</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406706">EnableEvents</a>
 
 
 

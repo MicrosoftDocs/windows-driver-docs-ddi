@@ -208,8 +208,9 @@ Note that the
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_disconnect_handler.md">
-   MiniportTcpOffloadDisconnect</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
 
 
 

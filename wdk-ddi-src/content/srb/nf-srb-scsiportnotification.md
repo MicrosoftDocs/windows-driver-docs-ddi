@@ -437,7 +437,7 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
+<a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
 
 
 

@@ -129,7 +129,7 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+<a href="..\ks\ns-ks-ksproperty_memberslist.md">KSPROPERTY_MEMBERSLIST</a>
 
 
 
@@ -141,7 +141,7 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="..\ks\ns-ks-ksproperty_description.md">KSPROPERTY_DESCRIPTION</a>
+<a href="..\ks\ns-ks-ksproperty_item.md">KSPROPERTY_ITEM</a>
 
 
 

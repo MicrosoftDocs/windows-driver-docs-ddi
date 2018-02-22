@@ -101,11 +101,11 @@ A miniport driver can call
 
 
 
-<a href="..\ndis\nf-ndis-ndiszeromemory.md">NdisZeroMemory</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiszeromemory.md">NdisZeroMemory</a>
 
 
 

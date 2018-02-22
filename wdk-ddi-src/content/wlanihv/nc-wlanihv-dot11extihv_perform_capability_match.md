@@ -213,8 +213,7 @@ For more information about the Native 802.11 XML schema, refer to the Microsoft 
 
 
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
-   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
+<a href="..\wlclient\ns-wlclient-_dot11_bss_list.md">DOT11_BSS_LIST</a>
 
 
 
@@ -226,7 +225,8 @@ For more information about the Native 802.11 XML schema, refer to the Microsoft 
 
 
 
-<a href="..\wlanihvtypes\ns-wlanihvtypes-_dot11ext_ihv_profile_params.md">DOT11EXT_IHV_PROFILE_PARAMS</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
 
 
 

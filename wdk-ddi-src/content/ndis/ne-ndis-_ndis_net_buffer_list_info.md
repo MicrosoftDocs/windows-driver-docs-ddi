@@ -475,7 +475,8 @@ Use these enumeration values with the
 
 
 
-<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
+<a href="..\ndis\ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md">
+   NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>
 
 
 

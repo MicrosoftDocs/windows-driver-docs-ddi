@@ -153,7 +153,7 @@ A driver can register the <a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObj
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558902">IWDFDriver::CreatePreallocatedWdfMemory</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 

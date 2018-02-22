@@ -123,7 +123,7 @@ If the <i>ServicesType</i> parameter is set to <b>VideoPortServicesWCMemoryProte
 
 
 
-<a href="..\videoagp\nc-videoagp-pagp_set_rate.md">AgpSetRate</a>
+<a href="..\video\ns-video-_video_port_agp_interface_2.md">VIDEO_PORT_AGP_INTERFACE_2</a>
 
 
 

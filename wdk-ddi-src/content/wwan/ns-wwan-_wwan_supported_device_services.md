@@ -95,7 +95,7 @@ This member points to the list of the <a href="..\wwan\ns-wwan-_wwan_device_serv
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_supported_device_services.md">NDIS_WWAN_SUPPORTED_DEVICE_SERVICES</a>
 
 
 

@@ -202,7 +202,7 @@ In an array of VIDEO_ACCESS_RANGE-type elements passed to <b>VideoPortSetTrapped
 
 
 
-<a href="..\video\nf-video-videoportinitialize.md">VideoPortInitialize</a>
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 

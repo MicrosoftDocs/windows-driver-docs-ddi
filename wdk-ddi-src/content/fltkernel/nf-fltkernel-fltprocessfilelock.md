@@ -158,7 +158,7 @@ To free an initialized<a href="https://msdn.microsoft.com/library/windows/hardwa
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.md">FltInitializeFileLock</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -198,7 +198,7 @@ To free an initialized<a href="https://msdn.microsoft.com/library/windows/hardwa
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540328">FILE_LOCK</a>
 
 
 

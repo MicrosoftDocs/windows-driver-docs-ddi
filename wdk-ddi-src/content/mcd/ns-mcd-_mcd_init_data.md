@@ -410,7 +410,7 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 
-<a href="..\mcd\nf-mcd-changeradditionalextensionsize.md">ChangerAdditionalExtensionSize</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_position.md">IOCTL_CHANGER_SET_POSITION</a>
 
 
 
@@ -458,7 +458,7 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 
-<a href="..\mcd\nf-mcd-changergetparameters.md">ChangerGetParameters</a>
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_parameters.md">IOCTL_CHANGER_GET_PARAMETERS</a>
 
 
 
@@ -470,7 +470,7 @@ This structure is used by the changer driver in Windows XP and later operating s
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>
+<a href="..\mcd\nf-mcd-changerreinitializeunit.md">ChangerReinitializeUnit</a>
 
 
 

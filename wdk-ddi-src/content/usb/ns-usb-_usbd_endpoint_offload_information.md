@@ -203,13 +203,6 @@ The virtual address of the current segment of the transfer data.
 The virtual address of the current segment of the transfer data.
 
 
-#### - size_t
-
-The size of the requested data.
-
-The size of the requested data.
-
-
 #### - ULONG
 
 The cycle state of the transfer.
@@ -218,4 +211,11 @@ Reserved message for endpoint offload mode.
 
 
 The cycle state of the transfer.
+
+
+#### - size_t
+
+The size of the requested data.
+
+The size of the requested data.
 

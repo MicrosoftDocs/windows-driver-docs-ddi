@@ -140,7 +140,7 @@ The NetDMA interface waits for outstanding DMA operations to complete and frees 
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_provider_attributes.md">NET_DMA_PROVIDER_ATTRIBUTES</a>
+<a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 

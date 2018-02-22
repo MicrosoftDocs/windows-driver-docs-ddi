@@ -102,7 +102,7 @@ Specifies how many ULONGs to transfer from the NIC.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisrawreadportulong.md">NdisRawReadPortUlong</a>
+<a href="..\ndis\nf-ndis-ndisrawwriteportbufferulong.md">NdisRawWritePortBufferUlong</a>
 
 
 

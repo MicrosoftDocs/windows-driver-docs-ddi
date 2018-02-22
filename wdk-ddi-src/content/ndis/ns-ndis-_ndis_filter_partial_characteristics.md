@@ -158,8 +158,7 @@ This structure specifies optional
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
-   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
 
 
@@ -172,7 +171,7 @@ This structure specifies optional
 
 
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

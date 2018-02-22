@@ -199,7 +199,7 @@ For more information, see <a href="https://msdn.microsoft.com/e5050cb1-c178-405d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553050">IPrintCoreUI2::EnumFeatures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553059">IPrintCoreUI2::GetGlobalAttribute</a>
 
 
 

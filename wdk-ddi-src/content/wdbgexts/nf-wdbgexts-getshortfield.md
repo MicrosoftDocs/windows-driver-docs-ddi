@@ -280,7 +280,7 @@ If this macro succeeds, it returns the value zero.  If it fails because the call
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550957">InitTypeReadPhysical</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553539">ReadField</a>
 
 
 

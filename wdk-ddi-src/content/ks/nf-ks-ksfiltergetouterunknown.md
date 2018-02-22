@@ -96,7 +96,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 
 
-<b>KsRegisterAggregatedClientUnknown</b>
+<a href="..\ks\nf-ks-ksfilterregisteraggregatedclientunknown.md">KsFilterRegisterAggregatedClientUnknown</a>
 
 
 
@@ -104,7 +104,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 
 
-<a href="https://msdn.microsoft.com/305039fe-0a00-4f3e-ae1a-61c50a2f2fb3">AVStream Overview</a>
+<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
 
 
 

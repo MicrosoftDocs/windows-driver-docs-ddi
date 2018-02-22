@@ -202,7 +202,7 @@ The filter manager calls this routine to allow the minifilter driver to respond 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
 
 
 

@@ -166,7 +166,7 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
+<a href="..\filterpipeline\nn-filterpipeline-ifixeddocument.md">IFixedDocument</a>
 
 
 
@@ -182,7 +182,7 @@ A filter can create new XPS parts by using the <code>GetNewEmptyPart</code> meth
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-ipartcolorprofile.md">IPartColorProfile</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartimage.md">IPartImage</a>
 
 
 

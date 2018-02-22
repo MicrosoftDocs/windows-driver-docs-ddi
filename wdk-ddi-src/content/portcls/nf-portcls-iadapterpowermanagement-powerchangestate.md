@@ -150,15 +150,15 @@ The code for this method must reside in paged memory.
 
 ## -see-also
 
+<a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551744">IRP_MN_SET_POWER</a>
 
 
 
 <a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
-
-
-
-<a href="..\portcls\nn-portcls-ipowernotify.md">IPowerNotify</a>
 
 
 

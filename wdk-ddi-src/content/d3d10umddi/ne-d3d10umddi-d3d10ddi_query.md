@@ -453,7 +453,7 @@ D3D10DDI_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, D3D10DDI_COUNTER_LOCAL_VIDM
 
 ## -see-also
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md">D3D10_DDI_QUERY_DATA_SO_STATISTICS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounterinfo.md">CheckCounterInfo</a>
 
 
 
@@ -461,7 +461,7 @@ D3D10DDI_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, D3D10DDI_COUNTER_LOCAL_VIDM
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_query_data_so_statistics.md">D3D10_DDI_QUERY_DATA_SO_STATISTICS</a>
 
 
 
@@ -469,7 +469,7 @@ D3D10DDI_COUNTER_HOST_ADAPTER_BANDWIDTH_UTILIZATION, D3D10DDI_COUNTER_LOCAL_VIDM
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createquery.md">D3D10DDIARG_CREATEQUERY</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_counter_info.md">D3D10DDI_COUNTER_INFO</a>
 
 
 

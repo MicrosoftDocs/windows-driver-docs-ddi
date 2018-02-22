@@ -116,7 +116,7 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iadapterpowermanagement.md">IAdapterPowerManagement</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
 
 
 
@@ -128,7 +128,7 @@ The code for the <code>QueryDeviceCapabilities</code> method must reside in page
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551664">IRP_MN_QUERY_CAPABILITIES</a>
+<a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
 
 
 

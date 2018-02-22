@@ -226,7 +226,7 @@ The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is con
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 

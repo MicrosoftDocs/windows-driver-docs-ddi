@@ -117,7 +117,7 @@ When an <b>NDK_SGE</b> structure is used in a work request with the <b>NDK_OP_FL
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_send.md">NDK_FN_SEND</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_write.md">NDK_FN_WRITE</a>
 
 
 
@@ -133,7 +133,7 @@ When an <b>NDK_SGE</b> structure is used in a work request with the <b>NDK_OP_FL
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_receive.md">NDK_FN_SRQ_RECEIVE</a>
+<a href="https://msdn.microsoft.com/94993523-D0D7-441E-B95C-417800840BAC">NDKPI Object Lifetime Requirements</a>
 
 
 

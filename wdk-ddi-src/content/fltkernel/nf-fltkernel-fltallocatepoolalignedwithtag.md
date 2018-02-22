@@ -135,7 +135,7 @@ Callers of <b>FltAllocatePoolAlignedWithTag</b> can be running at IRQL DISPATCH_
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreadfile.md">FltReadFile</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

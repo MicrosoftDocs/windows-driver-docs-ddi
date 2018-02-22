@@ -163,12 +163,12 @@ The number of entries in the cdma2000 measured results list <b>rc2kMRL</b>.
 The cdma2000 measured results list, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilc2kmrl.md">RILC2KMRL</a> structs.
 
 
-#### - RILUMTSMRL
+#### - RILTDSCDMAMRL
 
 UMTS measured results list, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-rilumtsmrl.md">RILUMTSMRL</a> structs.
 
 
-#### - RILTDSCDMAMRL
+#### - RILUMTSMRL
 
 TD-SCDMA measured results list, an array of <a href="..\ntddrilapitypes\ns-ntddrilapitypes-riltdscdmamrl.md">RILTDSCDMAMRL</a> structs. This field is not present in RILPOSITIONINFO_V1.
 

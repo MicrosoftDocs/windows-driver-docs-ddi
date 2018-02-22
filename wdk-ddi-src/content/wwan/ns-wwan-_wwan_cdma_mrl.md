@@ -92,7 +92,7 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_cdm
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_cdma_mrl_info.md">WWAN_CDMA_MRL_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
 
 
 

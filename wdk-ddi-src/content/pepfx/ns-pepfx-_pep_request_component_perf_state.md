@@ -125,7 +125,7 @@ PoFx writes the requested P-state changes to the <b>PerfRequests</b> array befor
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186626">AcceptDeviceNotification</a>
+<a href="..\pepfx\ns-pepfx-_pep_component_perf_state_request.md">PEP_COMPONENT_PERF_STATE_REQUEST</a>
 
 
 

@@ -149,6 +149,10 @@ For an overview of output in the debugger engine, see <a href="https://msdn.micr
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
  
 
  

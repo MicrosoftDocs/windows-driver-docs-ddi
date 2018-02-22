@@ -146,7 +146,7 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 
@@ -154,8 +154,7 @@ Before accessing received data, miniport drivers must call <b>NdisMFreeNetBuffer
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterscattergatherdma.md">
-   NdisMRegisterScatterGatherDma</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

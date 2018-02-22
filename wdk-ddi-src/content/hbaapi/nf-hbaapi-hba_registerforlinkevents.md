@@ -104,14 +104,14 @@ TBD
 
 
 
-#### - handle
-
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
-
-
 #### - callbackHandle
 
 Pointer to an opaque identifier that may be used to deregister the caller and suspend calls to the callback routine when events occur.
+
+
+#### - handle
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA for which event callbacks are requested.
 
 
 ## -returns

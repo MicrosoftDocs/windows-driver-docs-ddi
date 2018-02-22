@@ -163,8 +163,7 @@ Usually a callout driver will not need to use this function, because the tagged 
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext0.md">
-   FwpsNetBufferListAssociateContext0</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

@@ -174,7 +174,7 @@ To register its generic chimney offload entry points, an offload target or inter
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_query_offload_handler.md">MiniportQueryOffload</a>
+<a href="..\ndischimney\nc-ndischimney-w_initiate_offload_handler.md">MiniportInitiateOffload</a>
 
 
 

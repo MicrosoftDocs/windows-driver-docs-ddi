@@ -90,6 +90,11 @@ The device being processed.
 Used to create a pipeline state.
 
 
+#### - hDevice
+
+The device being processed.
+
+
 ## -returns
 
 

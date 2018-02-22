@@ -112,7 +112,7 @@ When the memory allocated by this function is no longer needed, use <a href="..\
 
 
 
-<a href="..\winsplp\nf-winsplp-routerfreebidiresponsecontainer.md">RouterFreeBidiResponseContainer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562071">SendRecvBidiDataFromPort</a>
 
 
 

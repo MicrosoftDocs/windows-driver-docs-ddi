@@ -260,7 +260,7 @@ To deregister the memory region, use the <i>NdkDeregisterMr</i> (<a href="..\ndk
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_request_completion.md">NDK_FN_REQUEST_COMPLETION</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_deregister_mr.md">NDK_FN_DEREGISTER_MR</a>
 
 
 

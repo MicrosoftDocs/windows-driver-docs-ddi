@@ -92,11 +92,11 @@ The <b>KsSetPin</b> method is called after an instance of the interface handler 
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>
-
-
-
 <a href="..\ksproxy\nn-ksproxy-ikspin.md">IKsPin</a>
+
+
+
+<a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>
 
 
 

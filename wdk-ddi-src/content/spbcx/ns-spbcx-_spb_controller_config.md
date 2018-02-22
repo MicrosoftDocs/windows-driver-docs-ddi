@@ -186,7 +186,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh450919">SpbDe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+<a href="https://msdn.microsoft.com/4EB36115-2783-4FD5-9CEE-1F7C971C334D">EvtSpbControllerUnlock</a>
 
 
 

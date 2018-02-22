@@ -245,7 +245,7 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_deinit_service.md">Dot11ExtIhvDeinitService</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 
 

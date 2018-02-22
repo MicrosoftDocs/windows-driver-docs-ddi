@@ -321,7 +321,7 @@ The DRIVER_NOTIFICATION_CALLBACK_ROUTINE function type is defined in the Wdm.h h
 
 
 
-<a href="..\wdm\ns-wdm-_plugplay_notification_header.md">PLUGPLAY_NOTIFICATION_HEADER</a>
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
 
 
 

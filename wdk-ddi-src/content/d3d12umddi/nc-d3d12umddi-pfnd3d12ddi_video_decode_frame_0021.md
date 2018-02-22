@@ -111,6 +111,11 @@ The output surface and output parameters.  For more information, see the <a href
 The input bitstream, parameters, reference frames, and other input parameters for the decode operation.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_input_stream_arguments_0020.md">D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS</a> structure.
 
 
+#### - pOutputStreamArguments
+
+The output surface and output parameters.  For more information, see the <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a> structure. 
+
+
 ## -returns
 
 
@@ -122,7 +127,7 @@ This callback function does not return a value.
 
 ## -see-also
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_decode_output_stream_arguments_0021.md">D3D12DDI_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS</a>
+## -see-also
 
 
 

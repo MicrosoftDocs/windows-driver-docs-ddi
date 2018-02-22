@@ -171,7 +171,7 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
-<a href="..\d3dumddi\ne-d3dumddi-d3dddi_multiplane_overlay_stretch_quality.md">D3DDDI_MULTIPLANE_OVERLAY_STRETCH_QUALITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

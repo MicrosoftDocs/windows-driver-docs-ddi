@@ -184,6 +184,10 @@ NDIS network drivers use the NDIS_SYSTEM_PROCESSOR_INFO_EX structure in calls to
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_system_processor_info.md">NDIS_SYSTEM_PROCESSOR_INFO</a>
+
+
+
  
 
  

@@ -135,11 +135,11 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
 

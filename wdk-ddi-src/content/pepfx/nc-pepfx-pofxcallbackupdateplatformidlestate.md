@@ -145,7 +145,6 @@ The <b>UpdatePlatformIdleState</b> routine must be called at IRQL = PASSIVE_LEVE
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_platform_idle_state_update.md">PEP_PLATFORM_IDLE_STATE_UPDATE</a>
 
 
 

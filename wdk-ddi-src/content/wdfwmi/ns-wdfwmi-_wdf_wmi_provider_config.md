@@ -116,7 +116,7 @@ To initialize a <b>WDF_WMI_PROVIDER_CONFIG</b> structure, your driver should cal
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
 
 
@@ -132,7 +132,7 @@ To initialize a <b>WDF_WMI_PROVIDER_CONFIG</b> structure, your driver should cal
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_flags.md">WDF_WMI_PROVIDER_FLAGS</a>
 
 
 

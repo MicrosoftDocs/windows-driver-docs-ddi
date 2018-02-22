@@ -40,7 +40,7 @@ apiname:
 -	CLS_IO_STATISTICS_HEADER
 product: Windows
 targetos: Windows
-req.typenames: PPCLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER, *PCLS_IO_STATISTICS_HEADER
+req.typenames: "*PCLS_IO_STATISTICS_HEADER, CLS_IO_STATISTICS_HEADER, PPCLS_IO_STATISTICS_HEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -98,6 +98,10 @@ The offset, in bytes, from the beginning of the <b>CLFS_IO_STATISTICS</b> struct
 
 
 ## -see-also
+
+<a href="..\wdm\nf-wdm-clfsgetiostatistics.md">ClfsGetIoStatistics</a>
+
+
 
 <a href="..\wdm\ns-wdm-_cls_io_statistics.md">CLFS_IO_STATISTICS</a>
 

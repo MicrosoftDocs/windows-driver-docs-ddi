@@ -121,7 +121,7 @@ This function allocates a buffer and stores its address in the <i>ppbVal</i> par
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
 
 
 

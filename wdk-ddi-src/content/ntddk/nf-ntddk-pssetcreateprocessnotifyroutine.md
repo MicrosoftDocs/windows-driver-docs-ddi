@@ -134,7 +134,7 @@ After a driver-supplied routine is registered, it is called with <i>Create</i> s
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pcreate_process_notify_routine.md">PCREATE_PROCESS_NOTIFY_ROUTINE</a>
+<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
 
 

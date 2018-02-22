@@ -108,7 +108,7 @@ Indicates, when <b>TRUE</b>, that the medium moved to <b>Destination2</b> should
 
 
 
-<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

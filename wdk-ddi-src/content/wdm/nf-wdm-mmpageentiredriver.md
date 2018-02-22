@@ -101,7 +101,7 @@ If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> 
 
 
 
-<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
 
 
 
@@ -109,7 +109,7 @@ If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> 
 
 
 
-<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
 
 

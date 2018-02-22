@@ -139,7 +139,7 @@ For more information, see <a href="https://msdn.microsoft.com/893fea84-9136-4107
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537297">KSPROPERTY_AUDIO_POSITION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563384">KSINTERFACE_STANDARD_STREAMING</a>
 
 
 

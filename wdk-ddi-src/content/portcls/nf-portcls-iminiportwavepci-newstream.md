@@ -172,15 +172,15 @@ Note that the <code>NewStream</code> methods for the other port types (WaveCycli
 
 
 
-<a href="..\portcls\nn-portcls-idmachannel.md">IDmaChannel</a>
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
+
+
+
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
 
 
 <a href="..\ksmedia\ns-ksmedia-ksdataformat_waveformatex.md">KSDATAFORMAT_WAVEFORMATEX</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksdataformat_dsound.md">KSDATAFORMAT_DSOUND</a>
 
 
 

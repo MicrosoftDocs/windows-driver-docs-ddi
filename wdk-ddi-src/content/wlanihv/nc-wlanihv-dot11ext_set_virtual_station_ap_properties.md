@@ -144,7 +144,7 @@ If the IHV Extensions DLL calls
 
 ## -see-also
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+
 
 
 

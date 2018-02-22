@@ -170,7 +170,7 @@ The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="..\ndis\ns-nd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
 
 
 

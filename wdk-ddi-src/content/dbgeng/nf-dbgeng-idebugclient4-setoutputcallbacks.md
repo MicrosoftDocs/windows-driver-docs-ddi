@@ -147,6 +147,10 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
  
 
  

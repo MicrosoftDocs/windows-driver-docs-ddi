@@ -202,11 +202,11 @@ For some values of <i>InformationClass</i>, <b>RxCeQueryInformation</b> calls <b
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
-
-
-
 <a href="..\rxce\nf-rxce-rxcequeryadapterstatus.md">RxCeQueryAdapterStatus</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxcequerytransportinformation.md">RxCeQueryTransportInformation</a>
 
 
 

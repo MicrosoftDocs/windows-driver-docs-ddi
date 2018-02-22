@@ -228,7 +228,7 @@ The
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisinitiateoffload.md">NdisInitiateOffload</a>
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
@@ -236,7 +236,7 @@ The
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceivereturn.md">NdisOffloadTcpReceiveReturn</a>
 
 
 

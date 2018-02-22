@@ -148,7 +148,7 @@ The PPARALLEL_IEEE_REV_TO_FWD callback runs in the caller's thread at the IRQL o
 
 
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+<a href="..\parallel\nc-parallel-pterminate_ieee_mode.md">PTERMINATE_IEEE_MODE</a>
 
 
 

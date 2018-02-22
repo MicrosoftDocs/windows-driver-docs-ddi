@@ -159,7 +159,7 @@ The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID reque
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
 
 
 

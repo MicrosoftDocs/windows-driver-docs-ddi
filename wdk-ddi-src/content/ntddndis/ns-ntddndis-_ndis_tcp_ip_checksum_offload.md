@@ -392,6 +392,11 @@ The meaning of the values in the
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+
+
+
  
 
  

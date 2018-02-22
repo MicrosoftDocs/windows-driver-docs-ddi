@@ -345,7 +345,7 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandlecreate0.md">FwpsInjectionHandleCreate0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
@@ -358,6 +358,10 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 <a href="..\fwpsk\nf-fwpsk-fwpsinjectionhandledestroy0.md">FwpsInjectionHandleDestroy0</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

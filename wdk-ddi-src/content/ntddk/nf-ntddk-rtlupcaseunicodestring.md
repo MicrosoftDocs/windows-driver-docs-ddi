@@ -100,7 +100,7 @@ If the operation succeeds, <b>RtlUpcaseUnicodeString</b> returns STATUS_SUCCESS.
 
 
 
-<a href="..\wdm\nf-wdm-rtlupcaseunicodechar.md">RtlUpcaseUnicodeChar</a>
+<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
 
 

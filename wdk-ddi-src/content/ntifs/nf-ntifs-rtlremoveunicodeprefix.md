@@ -118,6 +118,10 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 
 
+<a href="..\ntifs\nf-ntifs-rtlinsertunicodeprefix.md">RtlInsertUnicodePrefix</a>
+
+
+
  
 
  

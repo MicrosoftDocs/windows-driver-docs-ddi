@@ -128,34 +128,9 @@ typedef struct {
 
 
 
-#### - PropertyItemSize
+#### - EventCount
 
-Specifies the size in bytes of the property structure used. Set this member to <b>sizeof</b>(PCPROPERTY_ITEM) or greater. See the following Remarks section.
-
-
-#### - PropertyCount
-
-Specifies the number of property items in the <i>Properties</i> array.
-
-
-#### - Properties
-
-Pointer to the filter's array of properties. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_3.md">PCPROPERTY_ITEM</a> structures.
-
-
-#### - MethodItemSize
-
-Specifies the size in bytes of the methods structure used. Set this member to <b>sizeof</b>(PCMETHOD_ITEM) or greater. See the following Remarks section.
-
-
-#### - MethodCount
-
-Specifies the number of method items in the <b>Methods</b> array.
-
-
-#### - Methods
-
-Pointer to the filter's array of methods. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structures.
+Specifies the number of event items in the <b>Events</b> array.
 
 
 #### - EventItemSize
@@ -163,14 +138,39 @@ Pointer to the filter's array of methods. This is an array of <a href="..\portcl
 Specifies the size in bytes of the event structure used. Set this member to <b>sizeof</b>(PCEVENT_ITEM) or greater. See the following Remarks section.
 
 
-#### - EventCount
-
-Specifies the number of event items in the <b>Events</b> array.
-
-
 #### - Events
 
 Pointer to the filter's array of events. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a> structures.
+
+
+#### - MethodCount
+
+Specifies the number of method items in the <b>Methods</b> array.
+
+
+#### - MethodItemSize
+
+Specifies the size in bytes of the methods structure used. Set this member to <b>sizeof</b>(PCMETHOD_ITEM) or greater. See the following Remarks section.
+
+
+#### - Methods
+
+Pointer to the filter's array of methods. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_4.md">PCMETHOD_ITEM</a> structures.
+
+
+#### - Properties
+
+Pointer to the filter's array of properties. This is an array of <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_3.md">PCPROPERTY_ITEM</a> structures.
+
+
+#### - PropertyCount
+
+Specifies the number of property items in the <i>Properties</i> array.
+
+
+#### - PropertyItemSize
+
+Specifies the size in bytes of the property structure used. Set this member to <b>sizeof</b>(PCPROPERTY_ITEM) or greater. See the following Remarks section.
 
 
 #### - Reserved

@@ -200,11 +200,11 @@ For additional information about the PCIe capability structure, see the <a href=
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537477">PCI_EXPRESS_ROOT_STATUS_REGISTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537468">PCI_EXPRESS_LINK_CAPABILITIES_REGISTER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537473">PCI_EXPRESS_ROOT_CAPABILITIES_REGISTER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537474">PCI_EXPRESS_ROOT_CONTROL_REGISTER</a>
 
 
 

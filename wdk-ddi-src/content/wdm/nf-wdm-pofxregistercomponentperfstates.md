@@ -212,7 +212,7 @@ If the driver requires the PEP to provide performance state information, the dri
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
+<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 
 

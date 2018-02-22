@@ -138,7 +138,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMini
 
 
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
+<a href="..\portcls\nn-portcls-iminiportwavepcistream.md">IMiniportWavePciStream</a>
 
 
 

@@ -96,7 +96,7 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
 
 
-<a href="..\ks\ns-ks-kscorrelated_time.md">KSCORRELATED_TIME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564465">KSPROPERTY_CLOCK_CORRELATEDTIME</a>
 
 
 

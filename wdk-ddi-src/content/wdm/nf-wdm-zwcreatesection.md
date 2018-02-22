@@ -285,7 +285,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 

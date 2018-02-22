@@ -140,7 +140,7 @@ To enumerate all volumes that are known to the Filter Manager, call <a href="..\
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumerateinstances.md">FltEnumerateInstances</a>
 
 
 

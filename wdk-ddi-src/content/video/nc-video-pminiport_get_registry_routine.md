@@ -134,7 +134,7 @@ The returned <i>ValueData</i> is on the stack, so it can be referenced locally. 
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
 
 
 

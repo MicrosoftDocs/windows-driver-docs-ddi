@@ -74,7 +74,7 @@ Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 
 
@@ -82,7 +82,7 @@ Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
+<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
 
 
 

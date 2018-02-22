@@ -200,7 +200,7 @@ The <i>Parameters</i> parameter of the <a href="..\ndis\nf-ndis-ndisallocatenetb
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_data.md">NET_BUFFER_LIST_DATA</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

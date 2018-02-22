@@ -92,3 +92,8 @@ The handle of a device.
 
 Information used to get pageable size.
 
+
+#### - hDevice
+
+The handle of a device.
+

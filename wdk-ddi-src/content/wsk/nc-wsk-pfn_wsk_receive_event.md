@@ -342,8 +342,7 @@ A WSK application's <i>WskReceiveEvent</i> event callback function must not wait
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_connection_dispatch.md">
-   WSK_CLIENT_CONNECTION_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_release_data_indication_list.md">WskRelease</a>
 
 
 

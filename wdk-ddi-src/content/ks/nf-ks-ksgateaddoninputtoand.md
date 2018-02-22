@@ -94,11 +94,11 @@ This call is an empty function. It should be used for code readability and clari
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateaddoffinputtoand.md">KsGateAddOffInputToAnd</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 
@@ -110,7 +110,7 @@ This call is an empty function. It should be used for code readability and clari
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 

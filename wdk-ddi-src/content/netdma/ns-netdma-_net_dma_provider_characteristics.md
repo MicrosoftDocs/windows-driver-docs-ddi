@@ -219,7 +219,7 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 
 
-<a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
@@ -244,7 +244,7 @@ The DMA provider driver supplies a NET_DMA_PROVIDER_CHARACTERISTICS structure at
 
 
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
 
 
 

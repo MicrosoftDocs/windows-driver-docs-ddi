@@ -117,7 +117,7 @@ A DXVAHDDDI_BLT_STATE-typed value, which is specified in the <b>State</b> member
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_dxvahd_setvideoprocessbltstate.md">D3DDDIARG_DXVAHD_SETVIDEOPROCESSBLTSTATE</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_blt_state_target_rect_data.md">DXVAHDDDI_BLT_STATE_TARGET_RECT_DATA</a>
 
 
 

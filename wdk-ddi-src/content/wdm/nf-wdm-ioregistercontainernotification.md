@@ -212,7 +212,7 @@ The caller should cast the callback function pointer to this type to match the <
 
 
 
-<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
+<a href="..\wdm\nf-wdm-iounregistercontainernotification.md">IoUnregisterContainerNotification</a>
 
 
 

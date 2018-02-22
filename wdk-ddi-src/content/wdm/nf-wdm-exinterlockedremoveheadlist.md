@@ -103,7 +103,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wdm\nf-wdm-exinterlockedinsertheadlist.md">ExInterlockedInsertHeadList</a>
 
 
 
@@ -119,7 +119,7 @@ The <b>ExInterlockedRemoveHeadList</b> routine can be called at any IRQL. The st
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-removeheadlist.md">RemoveHeadList</a>
 
 
 

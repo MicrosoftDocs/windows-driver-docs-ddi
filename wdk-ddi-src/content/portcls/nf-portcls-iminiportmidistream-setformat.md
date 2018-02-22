@@ -92,11 +92,11 @@ The <code>SetFormat</code> method essentially does nothing because the data form
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
+
+
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

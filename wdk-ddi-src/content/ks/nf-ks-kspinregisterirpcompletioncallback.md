@@ -117,7 +117,7 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 
 
-<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
+<a href="..\ks\nc-ks-pfnkspinirp.md">AVStrMiniPinCreate</a>
 
 
 
@@ -126,6 +126,10 @@ This function is frequently called from the pin creation dispatch. See <a href="
 
 
 <a href="..\ks\nc-ks-pfnkspinirpcompletion.md">AVStrMiniPinIrpCompletion</a>
+
+
+
+<a href="..\ks\ns-ks-_kspin_dispatch.md">KSPIN_DISPATCH</a>
 
 
 

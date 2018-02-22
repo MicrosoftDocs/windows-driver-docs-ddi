@@ -96,7 +96,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="..\ntifs\nf-ntifs-ioissystemthread.md">IoIsSystemThread</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 

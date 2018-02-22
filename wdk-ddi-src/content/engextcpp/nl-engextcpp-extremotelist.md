@@ -168,7 +168,7 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
 
 
 
@@ -176,7 +176,7 @@ The number of steps taken in the current list iteration.  For doubly-linked list
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/d7d9163b-54bb-4753-96a3-f92eddbe25f5">StartHead</a>
 
 
 

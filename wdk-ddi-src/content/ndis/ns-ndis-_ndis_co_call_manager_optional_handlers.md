@@ -364,13 +364,12 @@ An MCM driver cannot set the
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_incoming_call_complete.md">
-   ProtocolCmIncomingCallComplete</a>
+<a href="..\ndis\nc-ndis-miniport_co_delete_vc.md">MiniportCoDeleteVc</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmregisteraddressfamilyex.md">
-   NdisCmRegisterAddressFamilyEx</a>
+<a href="..\ndis\nc-ndis-protocol_cm_deactivate_vc_complete.md">
+   ProtocolCmDeactivateVcComplete</a>
 
 
 

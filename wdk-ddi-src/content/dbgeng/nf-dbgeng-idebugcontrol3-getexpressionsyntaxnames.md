@@ -166,7 +166,7 @@ Currently, there are two expression syntaxes, their full names are "Microsoft As
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
 
 

@@ -96,11 +96,6 @@ contains <b>VT_EMPTY</b>.
 True if the target supports the interface; otherwise false.
 
 
-#### - ProgID [in]
-
-The WDTF ProgID of the requested interface.
-
-
 #### - MoreTargets [in, optional]
 
 Optional extra arguments that you can use to 
@@ -109,6 +104,11 @@ define additional targets to attach to the returned interface.
 This parameter is not 
 currently implemented. Set <i>MoreTargets</i>o a <b>VARIANT</b> 
 that contains <b>VT_EMPTY</b>.
+
+
+#### - ProgID [in]
+
+The WDTF ProgID of the requested interface.
 
 
 ## -returns

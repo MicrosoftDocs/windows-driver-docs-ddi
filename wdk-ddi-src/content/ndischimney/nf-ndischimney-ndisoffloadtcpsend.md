@@ -147,8 +147,7 @@ When the underlying driver or offload target subsequently completes the send ope
 
 
 
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
-   ProtocolTcpOffloadSendComplete</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
 
 
 
@@ -156,15 +155,16 @@ When the underlying driver or offload target subsequently completes the send ope
 
 
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_send_complete.md">NdisTcpOffloadSendComplete</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndischimney\nc-ndischimney-tcp_offload_send_complete_handler.md">
+   ProtocolTcpOffloadSendComplete</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
 
 
 

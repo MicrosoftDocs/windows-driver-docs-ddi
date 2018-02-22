@@ -74,7 +74,7 @@ typedef struct _DXVADDI_PVP_SETKEY {
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_pvp_block128.md">DXVADDI_PVP_KEY128</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_decodebeginframe.md">DecodeBeginFrame</a>
 
 
 

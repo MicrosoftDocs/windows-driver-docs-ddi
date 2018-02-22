@@ -125,7 +125,7 @@ The <b>wiauDbgError</b> typically is used to display an error message with no da
 
 
 
-<a href="..\wiautil\nf-wiautil-wiaudbgdump.md">wiauDbgDump</a>
+<a href="..\wiautil\nf-wiautil-wiaudbgerrorhr.md">wiauDbgErrorHr</a>
 
 
 

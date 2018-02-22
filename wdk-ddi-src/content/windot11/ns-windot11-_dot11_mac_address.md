@@ -219,7 +219,7 @@ The PDOT11_MAC_ADDRESS type is defined as a pointer to the DOT11_MAC_ADDRESS typ
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569360">OID_DOT11_ENUM_BSS_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
 
 

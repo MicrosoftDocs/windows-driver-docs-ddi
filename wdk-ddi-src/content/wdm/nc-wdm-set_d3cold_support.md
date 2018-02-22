@@ -142,7 +142,6 @@ Windows 8 is the first version of Windows to support devices that can enter and
 
 
 
-## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551766">IRP_MN_WAIT_WAKE</a>
 

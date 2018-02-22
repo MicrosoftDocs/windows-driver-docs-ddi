@@ -117,6 +117,10 @@ If the camera has only one lens, these values can be used to represent zoom rati
 
 
 
+<a href="..\ksmedia\ns-ksmedia-ksproperty_cameracontrol_node_focal_length_s.md">KSPROPERTY_CAMERACONTROL_NODE_FOCAL_LENGTH_S</a>
+
+
+
  
 
  

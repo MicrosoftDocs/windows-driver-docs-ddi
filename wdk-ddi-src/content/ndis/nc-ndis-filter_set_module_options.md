@@ -40,7 +40,7 @@ apiname:
 -	(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
 product: Windows
 targetos: Windows
-req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
+req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
 ---
 
 # FILTER_SET_MODULE_OPTIONS callback
@@ -268,6 +268,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
+
+
 
 
 

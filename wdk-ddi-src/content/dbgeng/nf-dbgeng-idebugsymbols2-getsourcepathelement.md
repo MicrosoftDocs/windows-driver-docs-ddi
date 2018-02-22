@@ -160,7 +160,7 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
 
 

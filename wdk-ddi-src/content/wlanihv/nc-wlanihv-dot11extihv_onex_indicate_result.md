@@ -140,7 +140,7 @@ For more information about using the 802.1X module for authentication, see
 
 
 
-<a href="..\wlanihv\ns-wlanihv-_dot11_msonex_result_params.md">DOT11_MSONEX_RESULT_PARAMS</a>
+<a href="..\wlanihv\ne-wlanihv-_dot11_msonex_result.md">DOT11_MSONEX_RESULT</a>
 
 
 

@@ -179,7 +179,7 @@ For more information, see <a href="https://msdn.microsoft.com/4a87cedf-066a-445b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
 
 
 

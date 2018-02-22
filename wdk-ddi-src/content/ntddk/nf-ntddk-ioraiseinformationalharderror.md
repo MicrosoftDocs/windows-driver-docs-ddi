@@ -120,7 +120,7 @@ Starting with Windows Vista, if the routine is called from a thread in session 
 
 
 
-<a href="..\ntddk\nf-ntddk-iosetthreadharderrormode.md">IoSetThreadHardErrorMode</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 

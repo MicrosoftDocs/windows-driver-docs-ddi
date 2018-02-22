@@ -136,7 +136,7 @@ For more information on how to handle idle notifications for NDIS selective susp
 
 
 
-<a href="..\ndis\nc-ndis-miniport_cancel_idle_notification.md">MiniportCancelIdleNotification</a>
+<a href="..\ndis\nc-ndis-miniport_idle_notification.md">MiniportIdleNotification</a>
 
 
 

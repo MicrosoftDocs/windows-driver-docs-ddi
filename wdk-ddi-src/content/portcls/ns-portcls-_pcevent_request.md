@@ -197,11 +197,11 @@ The handler can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636
 
 
 
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
 <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_5.md">PCEVENT_ITEM</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
 
 
 

@@ -131,7 +131,7 @@ For more information about paging data, see <a href="https://msdn.microsoft.com/
 
 
 
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
 
 
 

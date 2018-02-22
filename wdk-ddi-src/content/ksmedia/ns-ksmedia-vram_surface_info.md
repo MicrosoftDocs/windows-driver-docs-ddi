@@ -129,11 +129,11 @@ The data in these members persists for the lifetime of the stream header. When a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a>
-
-
-
 <a href="..\ks\nc-ks-pfnkspin.md">AVStrMiniPinProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565177">KSPROPERTY_MAP_CAPTURE_HANDLE_TO_VRAM_ADDRESS</a>
 
 
 

@@ -104,11 +104,11 @@ The exception code for the exception filter.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546650">GetExceptionFilterParameters</a>
 
 
 

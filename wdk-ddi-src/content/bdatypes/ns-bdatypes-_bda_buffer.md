@@ -84,8 +84,8 @@ typedef struct _BDA_BUFFER {
 
 
 
-#### - ulKeyuuidBufferLen
-
-
 #### - argKeyuuidBuffer
+
+
+#### - ulKeyuuidBufferLen
 

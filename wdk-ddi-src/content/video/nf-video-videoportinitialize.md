@@ -141,6 +141,10 @@ The miniport driver's <b>DriverEntry</b> routine propagates the value returned b
 
 ## -see-also
 
+<a href="..\video\ns-video-_video_hw_initialization_data.md">VIDEO_HW_INITIALIZATION_DATA</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
 
 

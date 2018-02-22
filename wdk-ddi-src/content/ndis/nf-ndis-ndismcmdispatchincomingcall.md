@@ -89,6 +89,13 @@ TBD
 
 
 
+#### - CallParameters [in]
+
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
+     and media parameters for the VC.
+
+
 #### - NdisSapHandle [in]
 
 Specifies the handle identifying the SAP. NDIS set up this handle when the client originally
@@ -104,13 +111,6 @@ Specifies the handle identifying the SAP. NDIS set up this handle when the clien
 Specifies the handle identifying the VC, created with 
      <a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a> when the MCM driver
      processes the incoming call offer directed to this registered SAP.
-
-
-#### - CallParameters [in]
-
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
-     and media parameters for the VC.
 
 
 ## -remarks
@@ -191,7 +191,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndiscmdispatchincomingcall.md">NdisCmDispatchIncomingCall</a>
+<a href="..\ndis\nc-ndis-miniport_interrupt_dpc.md">MiniportInterruptDPC</a>
 
 
 

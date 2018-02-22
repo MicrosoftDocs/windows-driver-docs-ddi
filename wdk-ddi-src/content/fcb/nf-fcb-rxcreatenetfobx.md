@@ -180,7 +180,7 @@ On success, the reference count for the SRV_OPEN structure is incremented and th
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatenetroot.md">RxCreateNetRoot</a>
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
 
 
 

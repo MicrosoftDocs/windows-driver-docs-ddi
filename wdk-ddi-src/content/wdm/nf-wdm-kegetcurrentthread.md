@@ -94,7 +94,7 @@ A caller of <b>KeGetCurrentThread</b> can use the returned pointer as an input p
 
 
 
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
 
 
 

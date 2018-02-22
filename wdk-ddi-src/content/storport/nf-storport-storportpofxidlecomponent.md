@@ -210,7 +210,7 @@ Each call to <b>StorPortPoFxIdleComponent</b> must be matched with a previous ca
 
 
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 

@@ -150,7 +150,7 @@ Drivers typically call <b>AllocateCommonBuffer</b> as part of device start-up, d
 
 
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
 
 
 

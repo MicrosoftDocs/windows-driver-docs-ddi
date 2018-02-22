@@ -212,7 +212,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatespinlock.md">NdisAllocateSpinLock</a>
+<a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInetrrupt</a>
 
 
 

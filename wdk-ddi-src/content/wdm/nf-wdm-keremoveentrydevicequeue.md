@@ -119,7 +119,7 @@ The specified <i>DeviceQueue</i> spin lock is released and IRQL is restored to i
 
 
 
-<a href="..\wdm\nf-wdm-keinitializedevicequeue.md">KeInitializeDeviceQueue</a>
+<a href="..\wdm\nf-wdm-keinsertdevicequeue.md">KeInsertDeviceQueue</a>
 
 
 

@@ -170,7 +170,7 @@ To determine whether file contexts are supported for a given file, call <a href=
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_context_registration.md">FLT_CONTEXT_REGISTRATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetfilecontext.md">FltSetFileContext</a>
 
 
 

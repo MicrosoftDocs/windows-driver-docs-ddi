@@ -121,7 +121,7 @@ The <b>NDIS_SRIOV_BAR_RESOURCES_INFO</b> structure is used in OID method request
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451852">OID_SRIOV_BAR_RESOURCES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

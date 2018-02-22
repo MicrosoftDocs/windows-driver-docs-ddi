@@ -105,11 +105,11 @@ To reduce resource usage, a miniport driver should always call
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenfile.md">NdisOpenFile</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismapfile.md">NdisMapFile</a>
 
 
 

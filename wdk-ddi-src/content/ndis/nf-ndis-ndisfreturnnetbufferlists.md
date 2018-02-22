@@ -149,7 +149,7 @@ If the NDIS_RECEIVE_FLAGS_RESOURCES flag in the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nc-ndis-filter_receive_net_buffer_lists.md">FilterReceiveNetBufferLists</a>
 
 
 

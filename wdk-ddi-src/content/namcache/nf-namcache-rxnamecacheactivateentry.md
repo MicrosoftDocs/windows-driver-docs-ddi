@@ -144,6 +144,10 @@ The <b>RxNameCacheActivateEntry</b> routine assumes that the name cache entry is
 
 
 
+<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+
+
+
  
 
  

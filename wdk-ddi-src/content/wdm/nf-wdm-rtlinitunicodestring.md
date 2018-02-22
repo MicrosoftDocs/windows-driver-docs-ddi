@@ -129,7 +129,7 @@ You can use <b>RTL_CONSTANT_STRING</b> to initialize global variables.
 
 
 
-<a href="..\wdmsec\nf-wdmsec-wdmlibrtlinitunicodestringex.md">WdmlibRtlInitUnicodeStringEx</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

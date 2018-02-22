@@ -166,7 +166,7 @@ The changes made to the band table by this request are committed to the device a
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_delete_band.md">IOCTL_EHSTOR_BANDMGMT_DELETE_BAND</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_set_band_security_parameters.md">SET_BAND_SECURITY_PARAMETERS</a>
 
 
 

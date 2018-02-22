@@ -118,11 +118,11 @@ The operating system-specific port driver can consider a logical unit to be none
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
-
-
-
 <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 

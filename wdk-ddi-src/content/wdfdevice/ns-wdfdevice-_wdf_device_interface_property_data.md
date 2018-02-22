@@ -146,7 +146,7 @@ For an example of how to use <b>WDF_DEVICE_INTERFACE_PROPERTY_DATA</b>, see <a h
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicequeryinterfaceproperty.md">WdfDeviceQueryInterfaceProperty</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdf_device_interface_property_data_init.md">WDF_DEVICE_INTERFACE_PROPERTY_DATA_INIT</a>
 
 
 

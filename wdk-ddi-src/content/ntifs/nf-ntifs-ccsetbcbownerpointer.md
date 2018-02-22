@@ -102,7 +102,7 @@ BCBs that have been modified by <b>CcSetBcbOwnerPointer</b> cannot be unpinned b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
+<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
 
 
 
@@ -110,7 +110,7 @@ BCBs that have been modified by <b>CcSetBcbOwnerPointer</b> cannot be unpinned b
 
 
 
-<a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinData</a>
+<a href="..\wdm\nf-wdm-exsetresourceownerpointer.md">ExSetResourceOwnerPointer</a>
 
 
 

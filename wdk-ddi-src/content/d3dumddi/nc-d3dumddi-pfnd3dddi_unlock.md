@@ -159,7 +159,7 @@ The runtime calls the user-mode display driver's <i>Unlock</i> function to unloc
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_unlock.md">D3DDDIARG_UNLOCK</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
@@ -167,7 +167,7 @@ The runtime calls the user-mode display driver's <i>Unlock</i> function to unloc
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_lock.md">Lock</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_unlockcb.md">pfnUnlockCb</a>
 
 
 

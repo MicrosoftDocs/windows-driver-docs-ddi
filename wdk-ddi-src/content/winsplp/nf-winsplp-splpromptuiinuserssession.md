@@ -113,11 +113,11 @@ If you plan to use this function in a driver intended to run under Windows 2000,
 
 ## -see-also
 
-<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-splissessionzero.md">SplIsSessionZero</a>
+
+
+
+<a href="..\winsplp\ns-winsplp-showuiparams.md">SHOWUIPARAMS</a>
 
 
 

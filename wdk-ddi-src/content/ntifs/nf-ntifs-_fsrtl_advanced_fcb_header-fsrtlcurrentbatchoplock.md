@@ -132,7 +132,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcurrentbatchoplock.md">FltCurrentBatchOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545462">FSCTL_OPBATCH_ACK_CLOSE_PENDING</a>
 
 
 

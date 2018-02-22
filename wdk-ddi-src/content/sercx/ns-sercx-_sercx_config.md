@@ -192,11 +192,11 @@ Before this structure is passed to the <a href="..\sercx\nf-sercx-sercxinitializ
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_receive_cancel.md">EvtSerCxReceiveCancel</a>
+<a href="..\sercx\nc-sercx-evt_sercx_transmit.md">EvtSerCxTransmit</a>
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx_apply_config.md">EvtSerCxApplyConfig</a>
+<a href="..\sercx\nc-sercx-evt_sercx_control.md">EvtSerCxControl</a>
 
 
 

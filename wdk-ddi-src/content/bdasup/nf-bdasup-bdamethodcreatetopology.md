@@ -120,7 +120,7 @@ If a BDA minidriver must create the template topology between two filter pins wi
 
 
 
-<a href="..\bdasup\nf-bdasup-bdacreatetopology.md">BdaCreateTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563413">KSMETHOD_BDA_CREATE_TOPOLOGY</a>
 
 
 

@@ -152,7 +152,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -160,7 +160,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 

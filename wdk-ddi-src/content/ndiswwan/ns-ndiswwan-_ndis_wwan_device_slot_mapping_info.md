@@ -207,7 +207,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEV
 
 
 
-<a href="https://msdn.microsoft.com/7825C20E-FB56-420D-B516-1ADA0C7C382E">NDIS_STATUS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_device_slot_mapping_info.md">WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 

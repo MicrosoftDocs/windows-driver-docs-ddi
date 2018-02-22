@@ -114,7 +114,7 @@ When a bug check is unavoidable, most system components call <a href="..\wdm\nf-
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
+<a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
 
 
 

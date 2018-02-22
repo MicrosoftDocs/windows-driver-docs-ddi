@@ -297,7 +297,7 @@ Treat other members that are part of this structure but not described here as op
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
@@ -305,7 +305,7 @@ Treat other members that are part of this structure but not described here as op
 
 
 
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

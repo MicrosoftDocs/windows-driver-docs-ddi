@@ -132,7 +132,7 @@ This is the extended version of the partition information structure, PARTITION_I
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">PARTITION_INFORMATION_GPT</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 
 

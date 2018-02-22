@@ -145,7 +145,7 @@ In the display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 
 

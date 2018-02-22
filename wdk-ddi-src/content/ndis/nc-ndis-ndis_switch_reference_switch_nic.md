@@ -153,7 +153,7 @@ The extension calls <i>ReferenceSwitchNic</i> after the network adapter connecti
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598265">OID_SWITCH_NIC_DISCONNECT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598205">NDIS_STATUS_SWITCH_NIC_STATUS</a>
 
 
 

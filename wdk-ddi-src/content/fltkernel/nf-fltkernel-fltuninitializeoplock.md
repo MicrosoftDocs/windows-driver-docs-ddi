@@ -142,7 +142,7 @@ For detailed information about opportunistic locks, see the Microsoft Windows SD
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545518">FSCTL_REQUEST_FILTER_OPLOCK</a>
 
 
 

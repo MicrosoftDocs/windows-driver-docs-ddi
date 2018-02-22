@@ -97,7 +97,7 @@ A related routine, <a href="..\ntddk\nf-ntddk-kequeryactiveprocessors.md">KeQuer
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+<a href="..\wdm\nf-wdm-kequeryactiveprocessors.md">KeQueryActiveProcessors</a>
 
 
 

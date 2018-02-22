@@ -89,7 +89,7 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 
@@ -97,7 +97,7 @@ The WMI tool suite generates a declaration of the GetPortAttributesByWWN_OUT str
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554965">GetPortAttributesByWWN</a>
 
 
 

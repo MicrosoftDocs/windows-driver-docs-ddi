@@ -111,7 +111,7 @@ Note that this is only an attempt at processing; calling this function does not 
 
 
 
-<a href="..\ks\nf-ks-ksgatecapturethreshold.md">KsGateCaptureThreshold</a>
+<a href="..\ks\nf-ks-kspinattemptprocessing.md">KsPinAttemptProcessing</a>
 
 
 

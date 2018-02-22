@@ -123,7 +123,7 @@ The <i>Component</i> string is used to identify the driver during crash-dump deb
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keregisterbugcheckreasoncallback.md">KeRegisterBugCheckReasonCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
 
 
 
@@ -139,7 +139,7 @@ The <i>Component</i> string is used to identify the driver during crash-dump deb
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552109">KeInitializeCallbackRecord</a>
+<a href="..\wdm\nc-wdm-kbugcheck_callback_routine.md">BugCheckCallback</a>
 
 
 

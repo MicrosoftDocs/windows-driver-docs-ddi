@@ -246,6 +246,10 @@ status = WdfUsbTargetDeviceAllocAndQueryString(
 
 
 
+<a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
+
+
+
  
 
  

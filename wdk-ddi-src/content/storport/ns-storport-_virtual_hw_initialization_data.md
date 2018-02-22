@@ -287,7 +287,7 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
 
 
 
@@ -303,7 +303,7 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568008">VirtualHwStorFindAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
 
 
 
@@ -311,7 +311,7 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 

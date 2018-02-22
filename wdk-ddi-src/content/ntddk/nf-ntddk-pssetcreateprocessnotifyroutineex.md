@@ -151,7 +151,7 @@ The operating system calls the driver's process-notify routine at PASSIVE_LEVEL 
 
 
 
-<a href="..\ntddk\ns-ntddk-_ps_create_notify_info.md">PS_CREATE_NOTIFY_INFO</a>
+<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
 
 
 

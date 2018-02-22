@@ -128,6 +128,10 @@ Zero means there were no completions in the CQ.
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
  
 
  

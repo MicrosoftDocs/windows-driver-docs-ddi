@@ -112,7 +112,7 @@ RDBSS ignores the return value from the <i>MRxFinalizeSrvCall</i> call.
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549864">MRxCreateSrvCall</a>
 
 
 

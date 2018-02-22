@@ -161,7 +161,7 @@ A BDA minidriver calls <b>BdaCreateFilterFactoryEx</b> rather than the <a href="
 
 
 
-<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
+<a href="..\bdasup\ns-bdasup-_bda_filter_template.md">BDA_FILTER_TEMPLATE</a>
 
 
 

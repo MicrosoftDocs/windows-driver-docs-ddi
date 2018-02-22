@@ -128,7 +128,7 @@ With the <b>ReadPreviousLogRestartArea</b> routine, clients can implement a form
 
 
 
-<a href="..\wdm\nf-wdm-clfsreadrestartarea.md">ClfsReadRestartArea</a>
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 

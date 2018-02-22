@@ -209,7 +209,7 @@ If the runtime requests to create a vertex or index buffer and if the user-mode 
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddiarg_createresource2.md">D3DDDIARG_CREATERESOURCE2</a>
 
 
 

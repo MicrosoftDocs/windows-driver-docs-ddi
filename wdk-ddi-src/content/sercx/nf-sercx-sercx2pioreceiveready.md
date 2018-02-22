@@ -107,7 +107,7 @@ Additionally, SerCx2 uses these ready notifications to detect interval time-outs
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_timeouts.md">SERIAL_TIMEOUTS</a>
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 

@@ -96,7 +96,7 @@ Specifies that the object is a pin.
 
 
 
-<a href="..\ks\nf-ks-ksgetpinfromfileobject.md">KsGetPinFromFileObject</a>
+<a href="..\ks\nf-ks-kspingetconnectedpinfileobject.md">KsPinGetConnectedPinFileObject</a>
 
 
 

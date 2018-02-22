@@ -194,7 +194,7 @@ The D3DDDI_ID_NOTAPPLICABLE constant is defined in D3dukmdt.h.
 
 
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_sharedprimarysurfacedata.md">D3DKMDDI_SHAREDPRIMARYSURFACEDATA</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createallocation.md">DxgkDdiCreateAllocation</a>
 
 
 
@@ -210,7 +210,7 @@ The D3DDDI_ID_NOTAPPLICABLE constant is defined in D3dukmdt.h.
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createallocation.md">DXGKARG_CREATEALLOCATION</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_allocationinfo.md">DXGK_ALLOCATIONINFO</a>
 
 
 

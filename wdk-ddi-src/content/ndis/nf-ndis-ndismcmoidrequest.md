@@ -293,12 +293,11 @@ For more information about the OIDs that are defined to use with
 
 
 
+<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
-   ProtocolCoOidRequestComplete</a>
 
 
 

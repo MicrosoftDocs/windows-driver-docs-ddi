@@ -164,11 +164,15 @@ Windows kernel-mode functions might not be available while this function is bein
 
 
 
-<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
-
 
 
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_reset_device.md">DxgkDdiResetDevice</a>
+
+
+
+
+
+
 
 
 
@@ -181,6 +185,12 @@ Windows kernel-mode functions might not be available while this function is bein
 
 
 <a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
+
+
+
+
+
+<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
 
 
 

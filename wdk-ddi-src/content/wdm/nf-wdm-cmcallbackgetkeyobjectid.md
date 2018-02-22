@@ -158,7 +158,7 @@ For more information about <b>CmCallbackGetKeyObjectID</b> and registry filterin
 
 
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectidex.md">CmCallbackGetKeyObjectIDEx</a>
 
 
 

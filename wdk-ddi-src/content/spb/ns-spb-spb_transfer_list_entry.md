@@ -108,7 +108,7 @@ To request an I/O transfer sequence for a target device on the bus, a client (pe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406221">SPB_TRANSFER_LIST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406218">SPB_TRANSFER_DESCRIPTOR</a>
 
 
 

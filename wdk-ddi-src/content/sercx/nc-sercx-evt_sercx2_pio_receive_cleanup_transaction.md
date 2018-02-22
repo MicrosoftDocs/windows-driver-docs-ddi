@@ -141,7 +141,7 @@ The <b>EVT_SERCX2_PIO_RECEIVE_CLEANUP_TRANSACTION</b> function type is defined i
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
+<a href="..\sercx\nf-sercx-sercx2pioreceivecleanuptransactioncomplete.md">SerCx2PioReceiveCleanupTransactionComplete</a>
 
 
 

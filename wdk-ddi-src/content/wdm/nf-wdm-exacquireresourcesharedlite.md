@@ -141,7 +141,7 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 
-<a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
+<a href="..\wdm\nf-wdm-exacquiresharedstarveexclusive.md">ExAcquireSharedStarveExclusive</a>
 
 
 

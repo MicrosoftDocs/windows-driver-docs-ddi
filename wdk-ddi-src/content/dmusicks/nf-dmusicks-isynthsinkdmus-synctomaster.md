@@ -105,11 +105,11 @@ Parameter <i>fStart</i> is <b>TRUE</b> during the first call to <code>SyncToMast
 
 ## -see-also
 
-<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
-
-
-
 <a href="..\dmusicks\nn-dmusicks-isynthsinkdmus.md">ISynthSinkDMus</a>
+
+
+
+<a href="..\ks\ne-ks-pksstate.md">KSSTATE</a>
 
 
 

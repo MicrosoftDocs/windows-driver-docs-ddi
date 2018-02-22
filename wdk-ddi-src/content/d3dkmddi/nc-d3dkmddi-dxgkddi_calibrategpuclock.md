@@ -128,7 +128,7 @@ The DirectX graphics kernel subsystem calls this function often enough, typicall
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn467320">DXGKARG_CALIBRATEGPUCLOCK</a>
+
 
 
 

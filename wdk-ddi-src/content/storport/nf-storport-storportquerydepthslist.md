@@ -150,11 +150,11 @@ Since <b>StorPortQueryDepthSList</b> is not interlocked, the list  depth value p
 
 
 
-<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
-
-
-
 <a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
 
 

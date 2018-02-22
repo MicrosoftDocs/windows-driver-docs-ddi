@@ -395,6 +395,10 @@ You can specify properties of an allocation by setting bits in the 32-bit <b>Val
 
 
 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
+
+
  
 
  

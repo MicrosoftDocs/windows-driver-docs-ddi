@@ -122,7 +122,7 @@ While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
 
 

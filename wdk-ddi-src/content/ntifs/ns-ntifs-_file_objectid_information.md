@@ -170,7 +170,7 @@ This structure must be aligned on a LONG (4-byte) boundary.
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+<a href="..\ntifs\ns-ntifs-_file_internal_information.md">FILE_INTERNAL_INFORMATION</a>
 
 
 

@@ -83,7 +83,7 @@ The name of the member whose offset is requested.  Sub-members can be specified 
 
 ## -see-also
 
-<a href="..\dbgeng\nf-dbgeng-idebugsymbols-getfieldoffset.md">GetFieldOffset</a>
+<a href="..\wdbgexts\nf-wdbgexts-getfieldoffset.md">GetFieldOffset</a>
 
 
 

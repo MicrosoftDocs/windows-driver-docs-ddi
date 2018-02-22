@@ -40,7 +40,7 @@ apiname:
 -	HwStorWorkItem
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -133,6 +133,12 @@ HW_WORKITEM (
 
 
 <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
+
+
+<a href="..\storport\nf-storport-storportfreeworker.md">StorPortFreeWorker</a>
+
+
 
 
 

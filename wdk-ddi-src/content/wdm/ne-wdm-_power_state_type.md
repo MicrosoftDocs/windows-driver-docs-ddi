@@ -98,7 +98,7 @@ The <b>POWER_STATE_TYPE</b> enumeration type is used in conjunction with a value
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_device_power_state.md">DEVICE_POWER_STATE</a>
+<a href="..\wdm\ns-wdm-_power_state.md">POWER_STATE</a>
 
 
 

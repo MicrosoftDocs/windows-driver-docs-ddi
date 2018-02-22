@@ -117,7 +117,7 @@ Bluetooth profile drivers can obtain a pointer to the
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
+<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
 
 
 

@@ -116,7 +116,7 @@ The operating system-specific port driver can consider a logical unit to be none
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 

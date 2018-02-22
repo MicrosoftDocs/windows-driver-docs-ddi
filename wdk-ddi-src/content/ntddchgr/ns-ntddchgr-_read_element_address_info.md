@@ -84,7 +84,7 @@ Contains an array holding the first <a href="..\ntddchgr\ns-ntddchgr-_changer_el
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

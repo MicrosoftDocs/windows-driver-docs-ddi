@@ -80,11 +80,11 @@ typedef struct DXGI_DDI_ARG_GET_GAMMA_CONTROL_CAPS {
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557521">DXGI_GAMMA_CONTROL_CAPABILIITES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566790">GetGammaCapsDXGI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557521">DXGI_GAMMA_CONTROL_CAPABILIITES</a>
 
 
 

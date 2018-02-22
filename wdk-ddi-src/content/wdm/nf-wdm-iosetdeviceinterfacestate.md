@@ -132,7 +132,7 @@ Callers of <b>IoSetDeviceInterfaceState</b> must be running at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterdeviceinterface.md">IoRegisterDeviceInterface</a>
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
 
 

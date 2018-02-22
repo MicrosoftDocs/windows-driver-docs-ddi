@@ -181,7 +181,7 @@ The length, in bytes, of the IEs at <b>uProbeResponseIEsOffset</b>. This is an e
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetcurrentsystemtime.md">NdisGetCurrentSystemTime</a>
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 
 

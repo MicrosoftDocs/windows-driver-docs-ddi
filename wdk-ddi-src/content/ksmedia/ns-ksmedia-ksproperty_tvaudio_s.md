@@ -146,7 +146,7 @@ Indicates that the audio is in the third language supported by the device.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567811">PROPSETID_VIDCAP_TVAUDIO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565944">KSPROPERTY_TVAUDIO_MODE</a>
 
 
 

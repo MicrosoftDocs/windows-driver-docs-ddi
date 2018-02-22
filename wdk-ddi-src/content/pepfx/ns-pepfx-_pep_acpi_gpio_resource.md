@@ -168,7 +168,7 @@ The size of the <b>VendorData</b> buffer.
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a>
+<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 

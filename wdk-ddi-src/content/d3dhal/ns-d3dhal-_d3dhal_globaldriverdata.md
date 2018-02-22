@@ -125,7 +125,7 @@ The driver is responsible for allocating space for and setting all members of th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556229">DrvGetDirectDrawInfo</a>
+<a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1.md">D3DDEVICEDESC_V1</a>
 
 
 

@@ -123,7 +123,7 @@ Most targets do not support interrupt time-outs.  Live user-mode debugging is on
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550717">IDebugEventCallbacks::Exception</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556722">SetInterrupt</a>
 
 
 

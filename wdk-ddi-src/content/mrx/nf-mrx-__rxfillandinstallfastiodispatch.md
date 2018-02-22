@@ -112,7 +112,7 @@ For monolithic network mini-redirectors built by developers, the <b>__RxFillAndI
 
 
 
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
 
 

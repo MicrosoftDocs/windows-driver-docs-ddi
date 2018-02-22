@@ -121,7 +121,7 @@ D3DDP2OP_DELETEVERTEXSHADERDECL
 
 
 
-D3DDP2OP_SETSTREAMSOURCE
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
 
 
 

@@ -164,7 +164,7 @@ Similarly, using an earlier version descriptor on later versions of AVStream cau
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\ks\nf-ks-kscreatedevice.md">KsCreateDevice</a>
 
 
 

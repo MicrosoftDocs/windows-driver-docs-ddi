@@ -158,7 +158,7 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 

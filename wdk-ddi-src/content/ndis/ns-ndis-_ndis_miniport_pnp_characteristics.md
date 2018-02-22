@@ -160,7 +160,7 @@ Miniport drivers that support MSI-X and will change the interrupt affinity for e
 
 
 
-<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
 
 
 

@@ -132,6 +132,10 @@ If this method does not find an <a href="https://msdn.microsoft.com/759DE159-F2A
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983406">AddBuffer</a>
+
+
+
  
 
  

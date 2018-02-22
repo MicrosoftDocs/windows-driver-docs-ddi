@@ -142,7 +142,7 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598283">OID_SWITCH_PROPERTY_UPDATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598280">OID_SWITCH_PROPERTY_ADD</a>
 
 
 

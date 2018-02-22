@@ -164,7 +164,8 @@ Whether to enable automatic processing features on the video processor.
 
 
 
-<a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_process_alpha_blending_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_BLENDING</a>
+
+
 
 
 

@@ -96,11 +96,11 @@ Indicates, when <b>TRUE</b>, that the piece of media should be flipped. When <b>
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
-
-
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">IOCTL_CHANGER_MOVE_MEDIUM</a>
+
+
+
+<a href="..\mcd\nf-mcd-changermovemedium.md">ChangerMoveMedium</a>
 
 
 

@@ -214,7 +214,7 @@ Callers of the
 
 
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
 
 
 

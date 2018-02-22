@@ -100,11 +100,11 @@ D3DDP2OP_RESPONSEQUERY
 
 
 
+D3DDP2OP_RESPONSECONTINUE
+
+
+
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2responsequery.md">D3DHAL_DP2RESPONSEQUERY</a>
-
-
-
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

@@ -1118,7 +1118,7 @@ SYNCHRONIZE
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
+<a href="..\ntddk\nf-ntddk-iocreatefilespecifydeviceobjecthint.md">IoCreateFileSpecifyDeviceObjectHint</a>
 
 
 
@@ -1135,6 +1135,10 @@ SYNCHRONIZE
 
 
 <a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

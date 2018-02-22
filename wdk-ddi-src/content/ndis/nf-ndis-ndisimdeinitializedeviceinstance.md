@@ -113,8 +113,7 @@ The call to
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 

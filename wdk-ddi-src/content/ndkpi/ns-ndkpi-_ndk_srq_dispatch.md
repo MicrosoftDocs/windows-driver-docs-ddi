@@ -113,7 +113,7 @@ The <b>NDK_SRQ_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_srq_receive.md">NDK_FN_SRQ_RECEIVE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_modify_srq.md">NDK_FN_MODIFY_SRQ</a>
 
 
 

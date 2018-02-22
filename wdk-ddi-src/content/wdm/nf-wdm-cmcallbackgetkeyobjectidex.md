@@ -172,7 +172,7 @@ For more information about registry filter drivers, see <a href="https://msdn.mi
 
 
 
-<a href="..\wdm\nf-wdm-cmregistercallbackex.md">CmRegisterCallbackEx</a>
+<a href="..\wdm\nf-wdm-cmcallbackgetkeyobjectid.md">CmCallbackGetKeyObjectID</a>
 
 
 

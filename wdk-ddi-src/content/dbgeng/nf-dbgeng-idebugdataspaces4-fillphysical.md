@@ -139,7 +139,7 @@ If the final copy of the pattern will not completely fit into the memory range, 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 

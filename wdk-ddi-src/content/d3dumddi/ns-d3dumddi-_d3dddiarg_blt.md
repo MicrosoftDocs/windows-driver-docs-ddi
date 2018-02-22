@@ -131,7 +131,7 @@ The <b>SrcColorKey</b> and <b>DstColorKey</b> bit-field flags are never set simu
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
 
 
 

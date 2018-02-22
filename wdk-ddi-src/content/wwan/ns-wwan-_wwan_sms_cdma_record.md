@@ -200,7 +200,7 @@ The encoded content of the record that represents the SMS text message.
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
+<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
 
 
 
@@ -208,7 +208,7 @@ The encoded content of the record that represents the SMS text message.
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_sms_cdma_encoding.md">WWAN_SMS_CDMA_ENCODING</a>
+<a href="..\wwan\ne-wwan-_wwan_msg_status.md">WWAN_MSG_STATUS</a>
 
 
 

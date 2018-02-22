@@ -184,6 +184,10 @@ For more information about how to use this structure, see <a href="https://msdn.
 
 
 
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
+
+
+
  
 
  

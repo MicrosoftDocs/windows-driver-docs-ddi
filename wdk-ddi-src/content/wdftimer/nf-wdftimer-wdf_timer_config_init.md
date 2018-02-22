@@ -108,7 +108,7 @@ For a code example that uses <b>WDF_TIMER_CONFIG_INIT</b>, see <a href="..\wdfti
 
 ## -see-also
 
-<a href="..\wdftimer\ns-wdftimer-_wdf_timer_config.md">WDF_TIMER_CONFIG</a>
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
 
 
 

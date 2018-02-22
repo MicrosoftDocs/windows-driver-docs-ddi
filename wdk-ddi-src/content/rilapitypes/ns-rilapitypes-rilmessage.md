@@ -118,50 +118,50 @@ typedef struct _RILMESSAGE {
 ### -field RILMSGUNION
 
 
-#### - switch_is
-
-
-#### - unMsgInDeliver
-
-
-#### - case
-
-
-#### - RIL_MSGTYPE_IN_DELIVER
-
-
-#### - unMsgInStatus
-
-
-#### - RIL_MSGTYPE_IN_STATUS
-
-
-#### - unMsgOutSubmit
-
-
-#### - RIL_MSGTYPE_OUT_SUBMIT
-
-
-#### - unMsgBcGeneral
-
-
 #### - RIL_MSGTYPE_BC_GENERAL
-
-
-#### - unMsgIS637InStatus
-
-
-#### - RIL_MSGTYPE_IN_IS637STATUS
-
-
-#### - unMsgCDMAInDeliver
 
 
 #### - RIL_MSGTYPE_IN_CDMADELIVER
 
 
-#### - unMsgCDMAOutSubmit
+#### - RIL_MSGTYPE_IN_DELIVER
+
+
+#### - RIL_MSGTYPE_IN_IS637STATUS
+
+
+#### - RIL_MSGTYPE_IN_STATUS
 
 
 #### - RIL_MSGTYPE_OUT_CDMASUBMIT
+
+
+#### - RIL_MSGTYPE_OUT_SUBMIT
+
+
+#### - case
+
+
+#### - switch_is
+
+
+#### - unMsgBcGeneral
+
+
+#### - unMsgCDMAInDeliver
+
+
+#### - unMsgCDMAOutSubmit
+
+
+#### - unMsgIS637InStatus
+
+
+#### - unMsgInDeliver
+
+
+#### - unMsgInStatus
+
+
+#### - unMsgOutSubmit
 

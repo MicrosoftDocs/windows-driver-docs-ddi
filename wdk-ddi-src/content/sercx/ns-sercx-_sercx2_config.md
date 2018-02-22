@@ -164,7 +164,7 @@ A driver that never needs a request context does not need to call <b>WdfDeviceIn
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_fileclose.md">EvtSerCx2FileClose</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_select_next_transmit_transaction_type.md">EvtSerCx2SelectNextTransmitTransactionType</a>
 
 
 

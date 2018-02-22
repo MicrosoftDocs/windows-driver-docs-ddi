@@ -231,7 +231,7 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancelio.md">FltCancelIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553344">KeWaitForMutexObject</a>
 
 
 
@@ -247,7 +247,7 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcancellablewaitforsingleobject.md">FltCancellableWaitForSingleObject</a>
+<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
 
 
 
@@ -271,7 +271,7 @@ The <b>FltCancellableWaitForMultipleObjects</b> routine must be called at IRQL P
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcancelcompletion.md">FltSetCancelCompletion</a>
+<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
 
 
 

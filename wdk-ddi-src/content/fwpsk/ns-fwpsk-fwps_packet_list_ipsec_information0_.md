@@ -107,6 +107,10 @@ A FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure is included as a member of the
 
 ## -see-also
 
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
+
+
+
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_.md">
    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a>
 
@@ -114,10 +118,6 @@ A FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure is included as a member of the
 
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_outbound_ipsec_information0_.md">
    FWPS_PACKET_LIST_OUTBOUND_IPSEC_INFORMATION0</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 

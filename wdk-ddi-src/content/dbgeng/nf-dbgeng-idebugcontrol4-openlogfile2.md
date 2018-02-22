@@ -169,7 +169,7 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563986">.logappend (Append Log File)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547066">GetLogMask</a>
 
 
 

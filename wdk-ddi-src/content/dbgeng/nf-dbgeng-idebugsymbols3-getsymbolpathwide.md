@@ -134,7 +134,7 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
 
 

@@ -134,7 +134,7 @@ The port driver calls the <b><i>AtaAdapterControl</i></b> routine by using contr
 
 
 
-<a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
+<a href="..\irb\ns-irb-_ide_controller_interface.md">IDE_CONTROLLER_INTERFACE</a>
 
 
 

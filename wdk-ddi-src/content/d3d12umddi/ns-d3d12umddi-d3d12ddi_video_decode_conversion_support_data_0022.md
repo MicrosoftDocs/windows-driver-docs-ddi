@@ -137,6 +137,8 @@ Callers should check the <i>ScaleSupport</i> parameter to understand if the scal
 
 
 
+
+
 <a href="..\d3d12umddi\ns-d3d12umddi-d3d12ddi_video_scale_support_0022.md">D3D12DDI_VIDEO_SCALE_SUPPORT</a>
 
 
@@ -150,6 +152,8 @@ Callers should check the <i>ScaleSupport</i> parameter to understand if the scal
 
 
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_decode_conversion_support_flags_0020.md">D3D12DDI_VIDEO_DECODE_CONVERSION_SUPPORT_FLAGS</a>
+
+
 
 
 

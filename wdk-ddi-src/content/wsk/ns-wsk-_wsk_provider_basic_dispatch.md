@@ -130,8 +130,7 @@ The WSK_PROVIDER_BASIC_DISPATCH structure is also included in the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 

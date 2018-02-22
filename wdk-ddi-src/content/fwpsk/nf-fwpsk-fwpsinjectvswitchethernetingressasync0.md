@@ -204,7 +204,7 @@ When a callout injects packets with <b>FwpsInjectvSwitchEthernetIngressAsync0</b
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">FwpsAllocateNetBufferAndNetBufferList0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
 
 
 
@@ -212,7 +212,7 @@ When a callout injects packets with <b>FwpsInjectvSwitchEthernetIngressAsync0</b
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">FwpsAllocateNetBufferAndNetBufferList0</a>
 
 
 

@@ -109,7 +109,7 @@ If <b>KsSetDevicePnpAndBaseObject</b> is also used to assign the PnP object stac
 
 
 
-<a href="..\ks\nf-ks-ksallocateobjectheader.md">KsAllocateObjectHeader</a>
+<a href="..\ks\nf-ks-ksallocatedeviceheader.md">KsAllocateDeviceHeader</a>
 
 
 

@@ -88,7 +88,7 @@ At startup time, the operating system determines the time increment to use for t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
 
 

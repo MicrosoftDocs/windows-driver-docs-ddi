@@ -85,10 +85,10 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 ### -field RILRESETMODEMCONFIGVALUEUNION
 
 
-#### - fValue
-
-
 #### - dwValue
+
+
+#### - fValue
 
 
 #### - wszValue

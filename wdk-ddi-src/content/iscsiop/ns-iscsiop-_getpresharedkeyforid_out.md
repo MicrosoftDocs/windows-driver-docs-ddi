@@ -105,7 +105,7 @@ You must initiate this method if the initiator supports IKE.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
 
 
 

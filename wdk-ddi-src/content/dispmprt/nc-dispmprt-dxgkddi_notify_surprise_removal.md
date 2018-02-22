@@ -110,7 +110,7 @@ If the driver returns an error code, does not set <a href="..\d3dkmddi\ns-d3dkmd
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+
 
 
 

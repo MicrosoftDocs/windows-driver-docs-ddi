@@ -1122,7 +1122,7 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps_ex.md">NDIS_WWAN_DEVICE_CAPS_EX</a>
+<a href="https://msdn.microsoft.com/BE664B41-3FE7-4E93-8739-12BD2F0AE5B8">OID_WWAN_DEVICE_CAPS_EX</a>
 
 
 

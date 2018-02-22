@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - OpaqueMcb [in]
-
-Pointer to the MCB structure. 
-
-
 #### - LargeVbn [in]
 
 Starting virtual block number (VBN) of the range of mappings to be removed from the MCB. 
+
+
+#### - OpaqueMcb [in]
+
+Pointer to the MCB structure. 
 
 
 ## -returns
@@ -144,7 +144,7 @@ If the starting VBN is zero, all mappings are removed from the MCB.
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplargemcbentry~r6.md">FsRtlLookupLargeMcbEntry</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtllookuplastlargemcbentryandindex~r3.md">FsRtlLookupLastLargeMcbEntryAndIndex</a>
 
 
 

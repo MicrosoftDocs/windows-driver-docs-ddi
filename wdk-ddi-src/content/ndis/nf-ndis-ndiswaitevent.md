@@ -121,7 +121,7 @@ A miniport driver typically calls
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

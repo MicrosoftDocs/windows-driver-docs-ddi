@@ -164,6 +164,10 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+
+
+
  
 
  

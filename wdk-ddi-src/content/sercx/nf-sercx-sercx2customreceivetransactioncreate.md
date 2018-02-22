@@ -199,7 +199,7 @@ For more information about creating custom-receive-transaction objects, see <a h
 
 
 
-<a href="..\wdfobject\nc-wdfobject-evt_wdf_object_context_cleanup.md">EvtCleanupCallback</a>
+<a href="..\sercx\nc-sercx-evt_sercx2_custom_receive_transaction_start.md">EvtSerCx2CustomReceiveTransactionStart</a>
 
 
 

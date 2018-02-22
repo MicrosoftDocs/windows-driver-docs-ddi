@@ -115,7 +115,7 @@ For a code example, see <a href="https://msdn.microsoft.com/library/windows/hard
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
 
 
 

@@ -319,7 +319,7 @@ The meaning of this prototype's parameters are different for each miniclass driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 
 
 

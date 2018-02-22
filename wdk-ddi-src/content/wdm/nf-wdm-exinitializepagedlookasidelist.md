@@ -229,7 +229,7 @@ Starting with Windows Vista, a similar routine, <a href="..\wdm\nf-wdm-exinitia
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinitializenpagedlookasidelist.md">ExInitializeNPagedLookasideList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558775">PAGED_LOOKASIDE_LIST</a>
 
 
 
@@ -241,7 +241,7 @@ Starting with Windows Vista, a similar routine, <a href="..\wdm\nf-wdm-exinitia
 
 
 
-<a href="..\wdm\nf-wdm-exallocatefrompagedlookasidelist.md">ExAllocateFromPagedLookasideList</a>
+<a href="..\wdm\nf-wdm-exdeletepagedlookasidelist.md">ExDeletePagedLookasideList</a>
 
 
 
@@ -253,7 +253,7 @@ Starting with Windows Vista, a similar routine, <a href="..\wdm\nf-wdm-exinitia
 
 
 
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

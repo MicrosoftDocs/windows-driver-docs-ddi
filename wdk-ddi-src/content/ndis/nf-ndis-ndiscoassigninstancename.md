@@ -209,7 +209,7 @@ The caller is responsible for freeing the buffer containing the returned instanc
 
 
 
-<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
+<a href="..\ndis\nf-ndis-ndiscocreatevc.md">NdisCoCreateVc</a>
 
 
 

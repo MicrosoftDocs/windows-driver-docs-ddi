@@ -115,7 +115,7 @@ state = WdfDeviceGetDevicePnpState(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md">WdfDevStateNormalize</a>
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepowerpolicystate.md">WdfDeviceGetDevicePowerPolicyState</a>
 
 
 

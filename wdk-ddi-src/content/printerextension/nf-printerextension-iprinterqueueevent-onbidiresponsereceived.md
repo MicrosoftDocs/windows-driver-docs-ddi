@@ -111,7 +111,7 @@ The <i>bstrResponse</i> parameter is formatted according to the schema that is d
 
 
 
-<a href="..\printerextension\nn-printerextension-iprinterqueue.md">IPrinterQueue</a>
+<a href="..\printerextension\nn-printerextension-iprinterqueueevent.md">IPrinterQueueEvent</a>
 
 
 

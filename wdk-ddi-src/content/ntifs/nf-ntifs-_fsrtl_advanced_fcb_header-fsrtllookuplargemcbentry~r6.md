@@ -108,14 +108,9 @@ TBD
 Pointer to a variable that receives the index of the mapping run that contains the VBN. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - OpaqueMcb [in]
+#### - LargeCountFromStartingLbn [out, optional]
 
-Pointer to an initialized MCB structure. 
-
-
-#### - LargeVbn [in]
-
-Pointer to the requested VBN.
+Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
 
 
 #### - LargeLbn [out, optional]
@@ -133,9 +128,14 @@ Pointer to a variable that receives the number of sectors that follow <i>LargeVb
 Pointer to a variable that receives the LBN corresponding to the start of the mapping run, or -1 if no such LBN exists. This parameter is optional and can be <b>NULL</b>. 
 
 
-#### - LargeCountFromStartingLbn [out, optional]
+#### - LargeVbn [in]
 
-Pointer to a variable that receives the number of sectors in the mapping run. This parameter is optional and can be <b>NULL</b>. 
+Pointer to the requested VBN.
+
+
+#### - OpaqueMcb [in]
+
+Pointer to an initialized MCB structure. 
 
 
 ## -returns

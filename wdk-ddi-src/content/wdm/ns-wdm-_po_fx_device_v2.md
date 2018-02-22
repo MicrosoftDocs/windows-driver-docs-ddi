@@ -160,7 +160,6 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
 
 
 
@@ -172,7 +171,7 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
 
 
 

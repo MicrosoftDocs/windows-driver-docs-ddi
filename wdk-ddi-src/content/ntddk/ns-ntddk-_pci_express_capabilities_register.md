@@ -150,6 +150,11 @@ A PCIe endpoint device that is integrated into the root complex.
 A PCIe root complex event collector.
 
 
+##### - DeviceType.PciExpressDownstreamSwitchPort
+
+A downstream port of a PCIe switch.
+
+
 ##### - DeviceType.PciExpressEndpoint
 
 A PCIe endpoint device.
@@ -160,29 +165,9 @@ A PCIe endpoint device.
 A legacy PCIe endpoint device.
 
 
-##### - DeviceType.PciExpressRootPort
+##### - DeviceType.PciExpressRootComplexEventCollector
 
-A root port of a PCIe root complex.
-
-
-##### - DeviceType.PciExpressUpstreamSwitchPort
-
-An upstream port of a PCIe switch.
-
-
-##### - DeviceType.PciExpressDownstreamSwitchPort
-
-A downstream port of a PCIe switch.
-
-
-##### - DeviceType.PciExpressToPciXBridge
-
-A PCIe-to-PCI or PCI-X bridge.
-
-
-##### - DeviceType.PciXToExpressBridge
-
-A PCI- or PCI-X-to PCIe bridge.
+A PCIe root complex event collector.
 
 
 ##### - DeviceType.PciExpressRootComplexIntegratedEndpoint
@@ -190,9 +175,24 @@ A PCI- or PCI-X-to PCIe bridge.
 A PCIe endpoint device that is integrated into the root complex.
 
 
-##### - DeviceType.PciExpressRootComplexEventCollector
+##### - DeviceType.PciExpressRootPort
 
-A PCIe root complex event collector.
+A root port of a PCIe root complex.
+
+
+##### - DeviceType.PciExpressToPciXBridge
+
+A PCIe-to-PCI or PCI-X bridge.
+
+
+##### - DeviceType.PciExpressUpstreamSwitchPort
+
+An upstream port of a PCIe switch.
+
+
+##### - DeviceType.PciXToExpressBridge
+
+A PCI- or PCI-X-to PCIe bridge.
 
 
 #### - SlotImplemented

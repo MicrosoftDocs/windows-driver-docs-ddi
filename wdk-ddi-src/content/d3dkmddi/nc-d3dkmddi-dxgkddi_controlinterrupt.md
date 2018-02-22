@@ -160,7 +160,11 @@ The driver must return STATUS_NOT_IMPLEMENTED if an interrupt type other than DX
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_interrupt.md">DxgkCbNotifyInterrupt</a>
+
+
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
+
+
 
 
 

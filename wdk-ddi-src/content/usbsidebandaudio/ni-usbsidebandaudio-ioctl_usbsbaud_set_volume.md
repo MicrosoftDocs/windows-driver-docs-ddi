@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_USBSBAUD_SET_VOLUME
 product: Windows
 targetos: Windows
-req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
+req.typenames: "*PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT"
 req.product: Windows 10 or later.
 ---
 
@@ -116,6 +116,8 @@ TBD
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+
+
 
 
 

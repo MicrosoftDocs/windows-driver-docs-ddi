@@ -129,7 +129,7 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 

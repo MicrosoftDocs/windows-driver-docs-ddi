@@ -103,7 +103,7 @@ Callers of <b>PushEntryList</b> can be running at any IRQL. If <b>PushEntryList<
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedpushentrylist.md">ExInterlockedPushEntryList</a>
+<a href="..\wdm\nf-wdm-popentrylist.md">PopEntryList</a>
 
 
 

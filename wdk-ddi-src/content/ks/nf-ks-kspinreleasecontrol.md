@@ -94,7 +94,7 @@ Note that this function is an inline call to <a href="..\ks\nf-ks-ksreleasecontr
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspinacquirecontrol.md">KsPinAcquireControl</a>
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 
 

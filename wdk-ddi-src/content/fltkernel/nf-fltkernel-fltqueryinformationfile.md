@@ -325,7 +325,7 @@ Callers of <b>FltQueryInformationFile</b> must be running at IRQL = PASSIVE_LEVE
 
 
 
-<a href="..\wdm\ns-wdm-_file_position_information.md">FILE_POSITION_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_links_information.md">FILE_LINKS_INFORMATION</a>
 
 
 

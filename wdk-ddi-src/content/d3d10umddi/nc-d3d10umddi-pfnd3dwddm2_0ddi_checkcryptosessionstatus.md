@@ -116,6 +116,12 @@ The application may call this DDI after receiving a hardware content protection 
 
 
 
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createcryptosession.md">CreateCryptoSession</a>
+
+
+
  
 
  

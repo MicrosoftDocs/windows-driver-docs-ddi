@@ -94,11 +94,11 @@ Applications call <b>KsQueryMediums</b> to retrieve mediums that pins support in
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
-
-
-
 <a href="..\ks\ns-ks-ksmultiple_item.md">KSMULTIPLE_ITEM</a>
+
+
+
+<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
 
 
 

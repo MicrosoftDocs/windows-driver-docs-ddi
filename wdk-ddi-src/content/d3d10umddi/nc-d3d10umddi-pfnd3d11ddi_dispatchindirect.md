@@ -87,9 +87,9 @@ VOID APIENTRY DispatchIndirect(
 
 
 
-#### - hDevice [in]
+#### - AlignedByteOffsetForArgs [in]
 
- A handle to the display device (graphics context).
+ The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4.
 
 
 #### - hBufferForArgs [in]
@@ -111,9 +111,9 @@ VOID APIENTRY DispatchIndirect(
 </tr>
 </table></span></div>
 
-#### - AlignedByteOffsetForArgs [in]
+#### - hDevice [in]
 
- The offset, in bytes, into the buffer that <i>hBufferForArgs</i> specifies. <i>AlignedByteOffsetForArgs</i> must be a multiple of 4.
+ A handle to the display device (graphics context).
 
 
 ## -returns

@@ -149,13 +149,13 @@ Supported starting with Windows 10.
 
 
 
+
+
 #### - D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_PIXEL_SHADER_USAGE
 
 Indicates that the hardware can benefit from a hint as to whether a shader might be used to read the output of  <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorblt.md">VideoProcessorBlt</a>.  This should only be set by hardware that support multi-plane overlays.
 
 Supported starting with Windows 10.
-
-
 
 
 ## -see-also

@@ -131,7 +131,7 @@ If a BDA minidriver requires a pointer to the newly created filter factory (<a h
 
 
 
-<a href="..\bdasup\nf-bdasup-bdacreatefilterfactoryex.md">BdaCreateFilterFactoryEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 

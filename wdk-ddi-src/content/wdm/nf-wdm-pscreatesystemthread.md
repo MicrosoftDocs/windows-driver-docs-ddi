@@ -163,11 +163,11 @@ For more information about the <i>StartContext</i> parameter, see <a href="https
 
 
 
+<a href="..\wdm\nf-wdm-kesetprioritythread.md">KeSetPriorityThread</a>
+
+
+
 <a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kesetbaseprioritythread.md">KeSetBasePriorityThread</a>
 
 
 

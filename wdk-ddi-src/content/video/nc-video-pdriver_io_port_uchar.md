@@ -147,7 +147,7 @@ If one or more application-issued x86 <b>IN</b> or <b>OUT</b> instructions might
 
 
 
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569908">SVGA Functions</a>
 
 
 

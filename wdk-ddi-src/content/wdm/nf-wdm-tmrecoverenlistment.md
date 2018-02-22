@@ -159,7 +159,7 @@ For more information about recovery operations, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-zwrecoverenlistment.md">ZwRecoverEnlistment</a>
 
 
 

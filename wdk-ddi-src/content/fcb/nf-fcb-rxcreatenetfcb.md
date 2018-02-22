@@ -192,7 +192,7 @@ If the <b>Create.Flags</b> member in the RX_CONTEXT has the RX_CONTEXT_CREATE_FL
 
 
 
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fcb-structure">The FCB Structure</a>
 
 
 

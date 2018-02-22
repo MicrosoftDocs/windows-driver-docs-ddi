@@ -181,7 +181,7 @@ If synchronization objects are of type <b>D3DDDI_FENCE</b> (where <a href="..\d3
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddicb_createsynchronizationobject2.md">D3DDDICB_CREATESYNCHRONIZATIONOBJECT2</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_waitforsynchronizationobject2cb.md">pfnWaitForSynchronizationObject2Cb</a>
 
 
 

@@ -165,7 +165,7 @@ For information about how the KMDF driver for a multiple-component device regist
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

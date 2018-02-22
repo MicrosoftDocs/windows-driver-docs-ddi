@@ -121,7 +121,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 
 
 

@@ -110,7 +110,7 @@ Specifies the number of horizontal sync pulses the video decoder produces during
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568121">PROPSETID_VIDCAP_VIDEODECODER</a>
+<a href="..\ksmedia\ne-ksmedia-ks_videodecoder_flags.md">KS_VIDEODECODER_FLAGS</a>
 
 
 

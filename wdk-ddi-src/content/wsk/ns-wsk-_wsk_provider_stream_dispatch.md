@@ -185,15 +185,15 @@ A WSK application receives a pointer to a WSK_PROVIDER_STREAM_DISPATCH structure
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
-
-
-
 <a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_client_stream_dispatch.md">WSK_CLIENT_STREAM_DISPATCH</a>
 
 
 

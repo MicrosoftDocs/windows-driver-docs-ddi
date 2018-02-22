@@ -113,7 +113,7 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
+<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
 
 
 

@@ -40,7 +40,7 @@ apiname:
 -	HwStorBuildIo
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -319,7 +319,6 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
@@ -327,7 +326,11 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 
 
-<a href="..\storport\nf-storport-storportacquirespinlock.md">StorPortAcquireSpinLock</a>
+
+
+<a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
+
+
 
 
 
@@ -340,6 +343,12 @@ The <b>HW_BUILDIO</b> function type is defined in the Storport.h header file. To
 
 
 <a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+
+
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 

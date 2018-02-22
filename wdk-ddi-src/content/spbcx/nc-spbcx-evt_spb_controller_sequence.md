@@ -188,7 +188,7 @@ The EVT_SPB_CONTROLLER_SEQUENCE function type is defined in the Spbcx.h header f
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/spb/spbcx-object-handles">SPBREQUEST</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
 
 
 

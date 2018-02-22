@@ -135,7 +135,7 @@ The TxMgr may return a list of <a href="..\ndis\ns-ndis-_net_buffer_list.md">NET
 
 ## -see-also
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_tx_send_pause_ind.md">NdisWdiTxSendPauseIndication</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

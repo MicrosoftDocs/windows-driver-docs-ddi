@@ -243,6 +243,11 @@ A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_reclaimresources.md"
 
 
 
+#### - pfnCheckMultiPlaneOverlaySupport
+
+A pointer to the driver's <a href="https://msdn.microsoft.com/9062BB6D-7B52-42B0-83D9-A101299C0B12">pfnCheckMultiPlaneOverlaySupport (DXGI)</a> function. Supported starting with Windows 8.1.
+
+
 #### - pfnGetMultiPlaneOverlayCaps
 
 Called by the DXGI runtime to request that the user-mode display driver  get basic overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers.
@@ -277,7 +282,7 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
 
 
 
@@ -285,11 +290,11 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
 
 
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_functions.md">DXGI_DDI_BASE_FUNCTIONS</a>
 
 
 

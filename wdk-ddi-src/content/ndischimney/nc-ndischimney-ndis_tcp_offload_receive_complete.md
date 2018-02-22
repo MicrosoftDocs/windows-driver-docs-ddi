@@ -213,8 +213,8 @@ Calls the
 
 
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
+
+
 
 
 

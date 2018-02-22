@@ -107,7 +107,7 @@ Note that a particular DPC object and the function that it represents can each b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542972">CustomDpc</a>
+<a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
 
 
 

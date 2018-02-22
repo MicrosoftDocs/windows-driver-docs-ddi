@@ -126,7 +126,7 @@ This function is implemented by the class extension and the driver must call it.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt219125">EvtSensorSetBatchLatency</a>
+<a href="..\sensorsdef\ns-sensorsdef-sensor_collection_list.md">SENSOR_COLLECTION_LIST</a>
 
 
 

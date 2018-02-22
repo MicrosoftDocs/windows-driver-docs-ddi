@@ -137,7 +137,7 @@ If one or more application-issued x86 <b>INSB</b> or <b>OUTSB</b> instructions m
 
 ## -see-also
 
-<a href="..\video\nc-video-pdriver_io_port_uchar.md">SvgaHwIoPortUchar</a>
+<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
 
 
 
@@ -157,11 +157,11 @@ If one or more application-issued x86 <b>INSB</b> or <b>OUTSB</b> instructions m
 
 
 
-<a href="..\miniport\ns-miniport-_emulator_access_entry.md">EMULATOR_ACCESS_ENTRY</a>
+<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 
-<a href="..\video\nf-video-videoportsettrappedemulatorports.md">VideoPortSetTrappedEmulatorPorts</a>
+<a href="..\video\ns-video-_video_port_config_info.md">VIDEO_PORT_CONFIG_INFO</a>
 
 
 

@@ -102,7 +102,7 @@ The controller driver must call the <a href="..\sercx\nf-sercx-sercx_buffer_desc
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
+<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
 
 
 

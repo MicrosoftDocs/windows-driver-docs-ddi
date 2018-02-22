@@ -101,6 +101,21 @@ The subresource count.
 A pointer to a MIP level swizzle transition. 
 
 
+#### - Handle [out]
+
+A kernel handle.
+
+
+#### - SubresourceLayout [out, optional]
+
+A pointer to the subresource layout.
+
+
+#### - TextureLayout [out]
+
+A pointer to a texture layout.
+
+
 #### - hDevice
 
 A device handle.
@@ -109,21 +124,6 @@ A device handle.
 #### - hResource
 
 A resource handle. 
-
-
-#### - Handle [out]
-
-A kernel handle.
-
-
-#### - TextureLayout [out]
-
-A pointer to a texture layout.
-
-
-#### - SubresourceLayout [out, optional]
-
-A pointer to the subresource layout.
 
 
 ## -returns

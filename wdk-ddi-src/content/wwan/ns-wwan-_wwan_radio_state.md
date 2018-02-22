@@ -230,11 +230,11 @@ The miniport driver should send all applicable status indications such as
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_radio_state.md">NDIS_WWAN_RADIO_STATE</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_radio.md">WWAN_RADIO</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_radio_state.md">NDIS_WWAN_RADIO_STATE</a>
 
 
 

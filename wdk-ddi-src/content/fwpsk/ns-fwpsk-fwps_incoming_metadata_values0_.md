@@ -621,16 +621,16 @@ Reserved.
 
 
 
-#### - l2ConnectionProfileIndex
+#### - Reserved1
 
-A the layer 2 connection profile index. 
+Reserved. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>
 
-#### - Reserved1
+#### - l2ConnectionProfileIndex
 
-Reserved. 
+A the layer 2 connection profile index. 
 
 <div class="alert"><b>Note</b>  Available only in <i>Windows 8</i> and later versions of Windows.</div>
 <div> </div>

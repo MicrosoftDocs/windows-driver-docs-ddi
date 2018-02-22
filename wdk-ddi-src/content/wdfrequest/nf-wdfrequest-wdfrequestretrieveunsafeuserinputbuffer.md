@@ -196,7 +196,7 @@ For a code example that uses <b>WdfRequestRetrieveUnsafeUserInputBuffer</b>, see
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestprobeandlockuserbufferforread.md">WdfRequestProbeAndLockUserBufferForRead</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveunsafeuseroutputbuffer.md">WdfRequestRetrieveUnsafeUserOutputBuffer</a>
 
 
 

@@ -107,7 +107,7 @@ A miniport driver cannot call <b>VideoPortStartTimer</b> or <b>VideoPortStopTime
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556159">DriverEntry of Video Miniport Driver</a>
+<a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
 
 
 

@@ -109,11 +109,6 @@ A handle to the video processor object that was created through a call to the <a
 
 
 
-#### - StreamIndex [in]
-
-The zero-based index of the input stream.
-
-
 #### - pColorSpace [in]
 
 A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_color_space.md">D3D11_1DDI_VIDEO_PROCESSOR_COLOR_SPACE</a> structure that specifies the color space for the specified input stream.

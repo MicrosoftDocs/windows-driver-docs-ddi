@@ -146,7 +146,7 @@ Indicates that the tuner is capable of tuning (get) or should switch to tuning (
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567800">PROPSETID_TUNER</a>
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

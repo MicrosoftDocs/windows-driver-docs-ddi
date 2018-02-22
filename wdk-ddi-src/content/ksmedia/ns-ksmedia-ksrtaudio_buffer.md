@@ -95,7 +95,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPRO
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537370">KSPROPERTY_RTAUDIO_BUFFER</a>
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 

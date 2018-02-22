@@ -87,14 +87,14 @@ HRESULT drvInitItemProperties(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is reserved. Set to zero. 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
@@ -132,11 +132,11 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
+<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
 
 
 
@@ -144,7 +144,7 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropnames.md">wiasSetItemPropNames</a>
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
 
 
 

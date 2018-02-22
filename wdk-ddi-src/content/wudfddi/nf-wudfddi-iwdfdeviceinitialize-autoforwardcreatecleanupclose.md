@@ -159,7 +159,7 @@ For more information about how a UMDF driver uses <b>AutoForwardCreateCleanupClo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize.md">IWDFDeviceInitialize</a>
 
 
 

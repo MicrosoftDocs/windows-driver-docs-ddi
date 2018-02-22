@@ -94,26 +94,26 @@ typedef struct _RILRESETMODEMCONFIGVALUE {
 ### -field RILRESETMODEMCONFIGVALUEUNION
 
 
-#### - switch_is
-
-
-#### - fValue
-
-
-#### - case
-
-
 #### - RIL_RMCV_TYPE_BOOLEAN
-
-
-#### - dwValue
 
 
 #### - RIL_RMCV_TYPE_DWORD
 
 
-#### - wszValue
-
-
 #### - RIL_RMCV_TYPE_STRING
+
+
+#### - case
+
+
+#### - dwValue
+
+
+#### - fValue
+
+
+#### - switch_is
+
+
+#### - wszValue
 

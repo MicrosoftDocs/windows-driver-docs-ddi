@@ -198,7 +198,7 @@ To obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first 
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
 
 
 
@@ -210,7 +210,7 @@ To obtain an IXMLDOMDocument2 object for the PrintTicket object, you must first 
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemaelement.md">IPrintSchemaElement</a>
+<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
 
 
 

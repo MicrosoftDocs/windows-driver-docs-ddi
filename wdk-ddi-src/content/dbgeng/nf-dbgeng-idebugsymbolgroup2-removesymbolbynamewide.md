@@ -115,6 +115,10 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
@@ -124,10 +128,6 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549121">GetSymbolName</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537925">AddSymbol</a>
 
 
 

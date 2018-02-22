@@ -92,7 +92,7 @@ Most drivers are expected to define a single set of performance states per compo
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn939352">Component-Level Performance State Management</a>
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 
 

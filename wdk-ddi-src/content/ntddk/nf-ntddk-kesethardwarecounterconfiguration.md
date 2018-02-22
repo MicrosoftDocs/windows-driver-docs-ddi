@@ -163,7 +163,7 @@ Virtualization software typically does not virtualize hardware performance count
 
 
 
-<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
+<a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
 
 
 

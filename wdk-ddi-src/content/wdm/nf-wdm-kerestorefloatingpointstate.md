@@ -115,11 +115,11 @@ The <b>KeRestoreFloatingPointState</b> call that restores a saved state must be 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554233">KFLOATING_SAVE</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesavefloatingpointstate.md">KeSaveFloatingPointState</a>
 
 
 

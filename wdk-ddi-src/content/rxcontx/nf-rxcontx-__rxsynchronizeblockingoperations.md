@@ -163,7 +163,7 @@ The following two macros are defined on Windows Server 2003 or later for calling
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxcreaterxcontext.md">RxCreateRxContext</a>
+<a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
 
 
 

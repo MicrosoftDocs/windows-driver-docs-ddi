@@ -74,11 +74,11 @@ typedef struct _DXGKARG_UPDATEOVERLAY {
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_overlayinfo.md">DXGK_OVERLAYINFO</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_updateoverlay.md">DxgkDdiUpdateOverlay</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_overlayinfo.md">DXGK_OVERLAYINFO</a>
 
 
 

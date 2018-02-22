@@ -109,11 +109,11 @@ Call <b>PoFxNotifySurprisePowerOn</b> only if the device was turned on incidenta
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxreportdevicepoweredon.md">PoFxReportDevicePoweredOn</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 
 

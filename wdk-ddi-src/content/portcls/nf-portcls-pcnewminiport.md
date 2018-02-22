@@ -81,14 +81,14 @@ TBD
 
 
 
-#### - OutMiniport [out]
-
-Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
-
-
 #### - ClassId [in]
 
 Specifies the miniport interface that is being requested. For more information, see the following Remarks section.
+
+
+#### - OutMiniport [out]
+
+Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
 
 
 ## -returns
@@ -203,7 +203,7 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 
 
-<a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>
+<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
 
 
 

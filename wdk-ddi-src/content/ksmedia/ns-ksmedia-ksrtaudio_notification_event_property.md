@@ -95,11 +95,11 @@ The <b>NotificationEvent</b> member is a user-mode event handle that, when regis
 
 
 
-<b>KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</b>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
+
+
+
+<b>KSPROPERTY_RTAUDIO_UNREGISTER_NOTIFICATION_EVENT</b>
 
 
 

@@ -86,15 +86,15 @@ TBD
 A pointer to a caller-supplied spin lock, not currently held by the caller.
 
 
+#### - ListEntry [in]
+
+A pointer to the entry to be inserted.
+
+
 #### - ListHead [in]
 
 A pointer to the head of the already initialized sequenced, singly linked list into which the
      specified entry is to be inserted.
-
-
-#### - ListEntry [in]
-
-A pointer to the entry to be inserted.
 
 
 ## -remarks

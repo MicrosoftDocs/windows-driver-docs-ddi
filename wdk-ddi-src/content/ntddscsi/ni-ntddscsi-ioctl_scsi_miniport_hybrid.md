@@ -399,7 +399,7 @@ The <a href="..\ntddscsi\ns-ntddscsi-_srb_io_control.md">SRB_IO_CONTROL</a> stru
 
 ## -see-also
 
-<a href="..\ntddscsi\ns-ntddscsi-_hybrid_information.md">HYBRID_INFORMATION</a>
+<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

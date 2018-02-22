@@ -100,7 +100,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetparent.md">KsG
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 

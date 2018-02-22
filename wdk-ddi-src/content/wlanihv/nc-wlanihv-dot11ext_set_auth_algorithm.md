@@ -114,6 +114,15 @@ If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/gg157261.aspx">
+   OID_DOT11_SUPPORTED_UNICAST_ALGORITHM_PAIR</a>
+
+
+
+
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
 
 

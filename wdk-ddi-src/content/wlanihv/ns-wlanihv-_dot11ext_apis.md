@@ -276,8 +276,7 @@ All of the function pointers are required and will not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_profile_custom_user_data.md">
-   Dot11ExtSetProfileCustomUserData</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_key_mapping_key.md">Dot11ExtSetKeyMappingKey</a>
 
 
 
@@ -294,8 +293,8 @@ All of the function pointers are required and will not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_unicast_cipher_algorithm.md">
-   Dot11ExtSetUnicastCipherAlgorithm</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+   Dot11ExtPreAssociateCompletion</a>
 
 
 
@@ -346,7 +345,7 @@ All of the function pointers are required and will not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_get_profile_custom_user_data.md">Dot11ExtGetUserData</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_ethertype_handling.md">Dot11ExtSetEtherTypeHandling</a>
 
 
 

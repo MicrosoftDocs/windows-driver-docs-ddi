@@ -89,10 +89,14 @@ TBD
 
 
 
-#### - Status [in]
+#### - NdisPartyHandle [in, optional]
 
-Specifies the final status of the client's request that the MCM driver close the connection,
-     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
+Specifies either <b>NULL</b> if the 
+     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
+     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
+     <i>CallMgrPartyContext</i> passed as an input parameter to its 
+     <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">
+     ProtocolCmCloseCall</a> function.
 
 
 #### - NdisVcHandle [in]
@@ -104,14 +108,10 @@ Specifies the handle to the VC for the call. This handle was supplied by NDIS wh
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - NdisPartyHandle [in, optional]
+#### - Status [in]
 
-Specifies either <b>NULL</b> if the 
-     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
-     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
-     <i>CallMgrPartyContext</i> passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">
-     ProtocolCmCloseCall</a> function.
+Specifies the final status of the client's request that the MCM driver close the connection,
+     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -148,7 +148,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
 
 
 
@@ -172,7 +172,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
 
 
 

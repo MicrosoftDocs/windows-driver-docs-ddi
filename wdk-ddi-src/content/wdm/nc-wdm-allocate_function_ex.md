@@ -194,7 +194,7 @@ The FREE_FUNCTION_EX function type is defined in the Wdm.h header file. To more 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554329">LOOKASIDE_LIST_EX</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 

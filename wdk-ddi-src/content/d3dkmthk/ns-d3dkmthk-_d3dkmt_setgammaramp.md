@@ -114,7 +114,7 @@ typedef struct _D3DKMT_SETGAMMARAMP {
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1.md">D3DDDI_GAMMA_RAMP_DXGI_1</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtsetgammaramp.md">D3DKMTSetGammaRamp</a>
 
 
 

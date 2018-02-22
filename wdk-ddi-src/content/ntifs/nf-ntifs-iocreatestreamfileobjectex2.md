@@ -189,7 +189,7 @@ If a pool allocation failure occurs, <b>IoCreateStreamFileObjectEx2</b> raises a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548608">IRP_MJ_CLEANUP</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

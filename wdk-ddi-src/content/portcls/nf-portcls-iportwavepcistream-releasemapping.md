@@ -96,7 +96,7 @@ To avoid potential deadlocks, the miniport driver must avoid holding a spin lock
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereleasespinlock.md">KeReleaseSpinLock</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536909">IPortWavePciStream::GetMapping</a>
 
 
 

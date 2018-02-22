@@ -225,7 +225,7 @@ DriverEntry(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

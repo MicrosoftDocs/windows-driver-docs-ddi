@@ -249,7 +249,7 @@ The NetDMA interface supplies a <b>NET_DMA_CHANNEL_PARAMETERS</b> structure at t
 
 
 
-<a href="..\netdma\nc-netdma-dma_resume_handler.md">ProviderResumeDma</a>
+<a href="..\netdma\nc-netdma-dma_suspend_handler.md">ProviderSuspendDma</a>
 
 
 

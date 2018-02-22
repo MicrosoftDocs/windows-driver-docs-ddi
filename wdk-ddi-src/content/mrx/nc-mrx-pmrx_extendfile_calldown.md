@@ -89,14 +89,14 @@ A pointer to the RX_CONTEXT structure. This parameter contains the IRP that is r
 
 
 
-#### - pNewFileSize [in, out]
-
-A pointer to the LARGE_INTEGER structure indicating the byte count of the new file size. 
-
-
 #### - pNewAllocationSize [out]
 
 A pointer to the LARGE_INTEGER structure for storing the new allocation size when <i>MRxExtendForCache</i> returns. 
+
+
+#### - pNewFileSize [in, out]
+
+A pointer to the LARGE_INTEGER structure indicating the byte count of the new file size. 
 
 
 ## -returns
@@ -143,7 +143,7 @@ A network mini-redirector that caches file or directory information may need to 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
 
 
 

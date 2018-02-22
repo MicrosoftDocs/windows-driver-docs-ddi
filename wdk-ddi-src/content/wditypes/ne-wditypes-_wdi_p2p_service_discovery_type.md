@@ -92,16 +92,16 @@ The adapter encodes the service hashes in the IEs, tracks the service names from
 
 
 
-#### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY
-
-Added in Windows 10, version 1607, WDI version 1.0.21.
-
-The adapter encodes ASP2 service hashes in the P2P IEs during probe requests and indicates probe responses. It does not perform any GAS queries for service information.
-
-
 #### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_INFORMATION
 
 Added in Windows 10, version 1607, WDI version 1.0.21.
 
 The adapter encodes ASP2 service hashes in the P2P IEs, tracks  service names (service type and instance name) from the probe responses, and does GAS queries to get service information for each responding device.  This is only applicable if the adapter supports the P2P ASP2 Service Information Discovery capability.
+
+
+#### - WDI_P2P_SERVICE_DISCOVERY_TYPE_ASP2_SERVICE_NAME_ONLY
+
+Added in Windows 10, version 1607, WDI version 1.0.21.
+
+The adapter encodes ASP2 service hashes in the P2P IEs during probe requests and indicates probe responses. It does not perform any GAS queries for service information.
 

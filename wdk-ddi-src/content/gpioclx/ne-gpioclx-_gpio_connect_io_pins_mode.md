@@ -107,7 +107,7 @@ The <b>ConnectModeInput</b> enumeration constant labels a set of GPIO pins that 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406487">IOCTL_GPIO_WRITE_PINS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406483">IOCTL_GPIO_READ_PINS</a>
 
 
 

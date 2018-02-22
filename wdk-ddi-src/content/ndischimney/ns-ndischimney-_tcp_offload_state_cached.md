@@ -303,7 +303,7 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associ
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
 
 

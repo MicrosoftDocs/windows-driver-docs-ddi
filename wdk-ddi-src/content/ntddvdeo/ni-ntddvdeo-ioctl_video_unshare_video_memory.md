@@ -122,7 +122,7 @@ The miniport driver does not set the <b>Information</b> member of the <a href=".
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_share_memory.md">VIDEO_SHARE_MEMORY</a>
+<a href="..\video\nf-video-videoportunmapmemory.md">VideoPortUnmapMemory</a>
 
 
 

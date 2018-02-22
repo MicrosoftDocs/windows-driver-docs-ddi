@@ -122,8 +122,7 @@ The filter driver can call
 
 
 
-<a href="..\ndis\nc-ndis-filter_cancel_direct_oid_request.md">
-   FilterCancelDirectOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

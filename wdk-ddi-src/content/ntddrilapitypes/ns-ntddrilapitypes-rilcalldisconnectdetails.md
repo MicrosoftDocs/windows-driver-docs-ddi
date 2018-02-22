@@ -84,20 +84,20 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 ### -field RILCAUSEUNION
 
 
+#### - dwASCode
+
+
+#### - dwOtherCode
+
+
+#### - unGPP2Cause
+
+
 #### - unGPPCause
 
 
 #### - unGPPRejectCause
 
 
-#### - unGPP2Cause
-
-
 #### - unIMSSIPCause
-
-
-#### - dwASCode
-
-
-#### - dwOtherCode
 

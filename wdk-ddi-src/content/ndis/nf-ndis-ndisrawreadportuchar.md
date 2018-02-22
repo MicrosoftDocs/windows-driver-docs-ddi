@@ -106,7 +106,7 @@ Pointer to a caller-supplied variable in which this function returns a byte read
 
 
 
-<a href="..\ndis\nf-ndis-ndisrawreadportbufferuchar.md">NdisRawReadPortBufferUchar</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

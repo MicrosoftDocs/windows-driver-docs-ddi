@@ -39,7 +39,7 @@ apiname:
 -	USBSIDEBANDAUDIO_MUTE_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSIDEBANDAUDIO_MUTE_PARAMS, USBSIDEBANDAUDIO_MUTE_PARAMS"
+req.typenames: USBSIDEBANDAUDIO_MUTE_PARAMS, *PUSBSIDEBANDAUDIO_MUTE_PARAMS
 req.product: Windows 10 or later.
 ---
 

@@ -125,7 +125,7 @@ To delete an instance context, call <a href="..\fltkernel\nf-fltkernel-fltdelete
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
@@ -141,7 +141,7 @@ To delete an instance context, call <a href="..\fltkernel\nf-fltkernel-fltdelete
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetinstancecontext.md">FltSetInstanceContext</a>
 
 
 

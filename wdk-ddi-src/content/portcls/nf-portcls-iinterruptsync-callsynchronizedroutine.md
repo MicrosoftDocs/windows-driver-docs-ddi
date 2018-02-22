@@ -108,7 +108,7 @@ Callers of <code>CallSynchronizedRoutine</code> must be running at an IRQL that 
 
 
 
-<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
+<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
 
 
 

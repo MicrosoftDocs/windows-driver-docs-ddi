@@ -125,7 +125,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_pd.md">NDK_PD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439942">NDK_VERSION</a>
 
 
 
@@ -177,7 +177,7 @@ Set the  <b>NdkReserved</b> member to zero. The NDK provider must not modify thi
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_listener.md">NDK_LISTENER</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_object_header_reserved_block.md">NDK_OBJECT_HEADER_RESERVED_BLOCK</a>
 
 
 

@@ -160,7 +160,7 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 
 
-<a href="..\wdm\nf-wdm-keregisterprocessorchangecallback.md">KeRegisterProcessorChangeCallback</a>
+<a href="..\wdm\ns-wdm-_ke_processor_change_notify_context.md">KE_PROCESSOR_CHANGE_NOTIFY_CONTEXT</a>
 
 
 
@@ -172,7 +172,7 @@ The operating system calls registered callback routines at the same IRQL at whic
 
 
 
-<a href="..\wdm\nf-wdm-excreatecallback.md">ExCreateCallback</a>
+<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
 
 
 

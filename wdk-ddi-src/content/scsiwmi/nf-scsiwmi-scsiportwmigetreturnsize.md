@@ -84,7 +84,7 @@ A miniport driver must call <b>ScsiPortWmiGetReturnSize</b> to obtain the value 
 
 ## -see-also
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
 
 

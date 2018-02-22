@@ -40,7 +40,7 @@ apiname:
 -	EvtIoInternalDeviceControl
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_INFO, WDF_INTERRUPT_INFO"
+req.typenames: WDF_INTERRUPT_INFO, *PWDF_INTERRUPT_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -197,7 +197,6 @@ The <b>EVT_WDF_IO_QUEUE_IO_INTERNAL_DEVICE_CONTROL</b> function type is defined 
 
 
 
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_device_control.md">EvtIoDeviceControl</a>
 
 
 

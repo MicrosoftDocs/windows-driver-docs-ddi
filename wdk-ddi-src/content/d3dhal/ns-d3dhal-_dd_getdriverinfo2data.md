@@ -478,7 +478,7 @@ For more information about D3DCAPS8 and D3DCAPS9, see the DirectX SDK documentat
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_dd_free_deferred_agp_data.md">DD_FREE_DEFERRED_AGP_DATA</a>
+<a href="..\d3dhal\ns-d3dhal-_dd_getformatdata.md">DD_GETFORMATDATA</a>
 
 
 

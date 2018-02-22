@@ -233,7 +233,7 @@ For more information about security and access control, see the Microsoft Window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_stream_information.md">FILE_STREAM_INFORMATION</a>
 
 
 

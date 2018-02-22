@@ -122,15 +122,15 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549428">GetTypeOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554551">RemoveTypeOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556874">SetTypeOptions</a>
 
 
 

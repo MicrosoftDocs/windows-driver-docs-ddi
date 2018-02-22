@@ -231,8 +231,8 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
+<a href="..\ndis\nf-ndis-ndisimdeinitializedeviceinstance.md">
+   NdisIMDeInitializeDeviceInstance</a>
 
 
 
@@ -249,7 +249,7 @@ After NDIS calls an intermediate driver's
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 

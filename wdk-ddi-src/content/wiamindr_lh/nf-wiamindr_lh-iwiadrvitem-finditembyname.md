@@ -87,14 +87,14 @@ HRESULT FindItemByName(
 
 
 
-#### - lFlags [in]
-
-Reserved. Set to zero. 
-
-
 #### - bstrFullItemName [in]
 
 Specifies the full name of the item to find.
+
+
+#### - lFlags [in]
+
+Reserved. Set to zero. 
 
 
 #### - ppItem [out, optional]

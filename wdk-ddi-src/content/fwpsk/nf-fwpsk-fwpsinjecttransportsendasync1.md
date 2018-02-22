@@ -347,7 +347,7 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_transport_send_params1_.md">FWPS_TRANSPORT_SEND_PARAMS1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544887">classifyFn</a>
 
 
 
@@ -367,7 +367,8 @@ FWPS_LAYER_DATAGRAM_DATA_V6 (when outbound direction is specified with FWP_DIREC
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsfreenetbufferlist0.md">FwpsFreeNetBufferList0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">
+   FwpsQueryPacketInjectionState0</a>
 
 
 

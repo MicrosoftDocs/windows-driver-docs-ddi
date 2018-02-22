@@ -112,7 +112,7 @@ Retract the IEport. Valid only if CHANGER_CLOSE_IEPORT is set.
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

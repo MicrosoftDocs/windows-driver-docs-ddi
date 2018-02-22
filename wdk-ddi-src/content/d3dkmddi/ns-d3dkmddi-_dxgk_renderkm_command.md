@@ -178,7 +178,7 @@ Each command varies in length depending on the value of the <b>OpCode</b> member
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_alphablend.md">DXGK_GDIARG_ALPHABLEND</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_gdiarg_colorfill.md">DXGK_GDIARG_COLORFILL</a>
 
 
 

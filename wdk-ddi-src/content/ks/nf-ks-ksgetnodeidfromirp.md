@@ -88,11 +88,11 @@ A pointer to the <a href="..\wdm\ns-wdm-_irp.md">IRP</a> structure for which to 
 
 
 
-<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
-
-
-
 <a href="..\ks\nf-ks-ksforwardirp.md">KsForwardIrp</a>
+
+
+
+<a href="..\ks\nf-ks-ksaddirptocancelablequeue.md">KsAddIrpToCancelableQueue</a>
 
 
 

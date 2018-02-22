@@ -119,6 +119,8 @@ The driver supports changing the pixel aspect ratio.  If the driver does not rep
 
 
 
+
+
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode.md">SetOutputAlphaFillMode</a>
 
 

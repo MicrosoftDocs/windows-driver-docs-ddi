@@ -8,7 +8,7 @@ old-project: print
 ms.assetid: 2d0e3509-27d9-439f-9d47-e0e500e8907f
 ms.author: windowsdriverdev
 ms.date: 2/2/2018
-ms.keywords: XcvDataPort function [Print Devices], XcvDataPort, winsplp/XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, print.xcvdataport
+ms.keywords: print.xcvdataport, winsplp/XcvDataPort, XcvDataPort, spoolfnc_09b26a0a-26ad-43c9-995a-99cd4fb4a726.xml, XcvDataPort function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -207,19 +207,19 @@ If you are writing a port monitor that will communicate with TCPMON, see <a href
 
 
 
-<a href="..\winsplp\nf-winsplp-addportui.md">AddPortUI</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
-
-
-
 <a href="..\winsplp\nf-winsplp-deleteportui.md">DeletePortUI</a>
 
 
 
 <a href="..\winsplp\nf-winsplp-configureportui.md">ConfigurePortUI</a>
+
+
+
+<a href="..\winsplp\nf-winsplp-addportui.md">AddPortUI</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
 
 
 

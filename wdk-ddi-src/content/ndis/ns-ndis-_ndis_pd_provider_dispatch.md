@@ -154,14 +154,14 @@ See <a href="..\ndis\nc-ndis-ndis_pd_clear_receive_filter.md">NdisPDClearReceive
 
 
 
-#### - NdisPDOnRssReceiveQueues
-
-See <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
-
-
 #### - NdisPDOffRssReceiveQueues
 
 See <a href="https://msdn.microsoft.com/library/windows/hardware/dn931860(d=robot)">NdisPDOffRssReceiveQueues</a>.
+
+
+#### - NdisPDOnRssReceiveQueues
+
+See <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt808524(d=robot)">NdisPDOnRssReceiveQueues</a>.
 
 
 ## -see-also

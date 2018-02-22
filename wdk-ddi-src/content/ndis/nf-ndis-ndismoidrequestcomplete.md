@@ -140,7 +140,7 @@ A call to
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+<a href="..\ndis\nc-ndis-miniport_oid_request.md">MiniportOidRequest</a>
 
 
 
@@ -148,7 +148,7 @@ A call to
 
 
 
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="https://msdn.microsoft.com/2c383523-7d9c-4f1b-8df1-5cb4cc3562d6">ProtocolRequestComplete</a>
 
 
 

@@ -88,16 +88,8 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 ### -param DXGI_FORMAT
 
 
-#### - hDevice [in]
 
-A handle to the display device (graphics context).
-
-
-
-
-#### - pDecoderProfile [in]
-
-A pointer to a GUID that identifies the DXVA profile. 
+### -param DXGI_FORMAT
 
 
 #### - Format [in]
@@ -105,9 +97,21 @@ A pointer to a GUID that identifies the DXVA profile.
 A DXGI_FORMAT value that specifies the output format. Typical values include DXGI_FORMAT_NV12 and DXGI_FORMAT_420_OPAQUE.
 
 
+#### - hDevice [in]
+
+A handle to the display device (graphics context).
+
+
+
+
 #### - pBool [out]
 
 A BOOL value that, if TRUE, specifies that the specified format can be used  for the specified DXVA profile.
+
+
+#### - pDecoderProfile [in]
+
+A pointer to a GUID that identifies the DXVA profile. 
 
 
 ## -returns

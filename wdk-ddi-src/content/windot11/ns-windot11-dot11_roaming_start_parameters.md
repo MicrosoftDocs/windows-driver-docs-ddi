@@ -171,7 +171,7 @@ For more information about the roaming operation, see
 
 ## -see-also
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -179,11 +179,11 @@ For more information about the roaming operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/ndis-status-dot11-roaming-start">NDIS_STATUS_DOT11_ROAMING_START</a>
+
+
+
+<a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
 
 
 

@@ -169,11 +169,11 @@ Whatever size of log file is allocated, subsequent calls to
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismwritelogdata.md">NdisMWriteLogData</a>
 
 
 

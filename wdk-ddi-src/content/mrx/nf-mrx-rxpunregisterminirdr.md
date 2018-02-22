@@ -116,7 +116,7 @@ Note that the inline routine, <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 
 

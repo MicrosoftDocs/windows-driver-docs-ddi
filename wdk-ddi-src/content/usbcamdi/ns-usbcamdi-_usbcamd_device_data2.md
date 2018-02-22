@@ -166,7 +166,7 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 
 
-<a href="..\usbcamdi\nc-usbcamdi-pcam_state_routine.md">CamRestoreState</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_process_raw_frame_routine_ex.md">CamProcessRawVideoFrameEx</a>
 
 
 
@@ -190,7 +190,7 @@ Camera minidrivers that must be backward compatible with the original USBCAMD li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557635">CamSaveState</a>
+<a href="..\usbcamdi\nc-usbcamdi-pcam_state_routine.md">CamRestoreState</a>
 
 
 

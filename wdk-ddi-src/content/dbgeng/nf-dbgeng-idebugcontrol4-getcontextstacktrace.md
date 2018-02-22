@@ -167,7 +167,7 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553203">OutputContextStackTrace</a>
 
 
 

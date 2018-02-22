@@ -190,7 +190,7 @@ It is not necessary to call <a href="..\ntifs\nf-ntifs-ccunpindata.md">CcUnpinDa
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
+<a href="..\ntifs\nf-ntifs-ccsetdirtypinneddata.md">CcSetDirtyPinnedData</a>
 
 
 

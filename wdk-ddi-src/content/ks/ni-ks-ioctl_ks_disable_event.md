@@ -122,7 +122,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 
@@ -130,7 +130,7 @@ If the request is successful, the Status member is set to STATUS_SUCCESS.
 
 
 
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 

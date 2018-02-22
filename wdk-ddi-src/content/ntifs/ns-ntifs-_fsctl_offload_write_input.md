@@ -121,7 +121,7 @@ A byte array that contains a token structure, <a href="..\ntddstor\ns-ntddstor-_
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451122">FSCTL_OFFLOAD_WRITE</a>
+<a href="..\ntddstor\ns-ntddstor-_storage_offload_token.md">STORAGE_OFFLOAD_TOKEN</a>
 
 
 

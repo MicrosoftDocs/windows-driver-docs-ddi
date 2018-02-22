@@ -190,7 +190,7 @@ Drivers can also use the <a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetS
 
 
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+<a href="..\wdm\nf-wdm-iowmisetsingleitem.md">IoWMISetSingleItem</a>
 
 
 

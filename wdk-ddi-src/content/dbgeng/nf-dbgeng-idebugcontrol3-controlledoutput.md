@@ -492,7 +492,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 

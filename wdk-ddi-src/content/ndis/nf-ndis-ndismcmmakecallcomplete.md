@@ -101,31 +101,6 @@ TBD
 
 
 
-#### - Status [in]
-
-Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
-     any caller-determined NDIS_STATUS_
-     <i>XXX</i> except NDIS_STATUS_PENDING.
-
-
-#### - NdisVcHandle [in]
-
-Specifies the handle to the client-created VC, which the MCM driver obtained as an input parameter
-     to its 
-     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function and,
-     more recently, from the 
-     <i>CallMgrVcContext</i> passed to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function.
-
-
-#### - NdisPartyHandle [in, optional]
-
-Specifies the handle to the initial party on the client-created multipoint VC, which the MCM
-     driver obtained as an input parameter to its 
-     <i>ProtocolCmMakeCall</i> function. If the given 
-     <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
-
-
 #### - CallMgrPartyContext [in, optional]
 
 Specifies the handle to a caller-allocated resident context area, in which the MCM driver will
@@ -141,6 +116,31 @@ Pointer to a structure of type
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> that specifies the call
      parameters set up for this connection if 
      <i>Status</i> is NDIS_STATUS_SUCCESS.
+
+
+#### - NdisPartyHandle [in, optional]
+
+Specifies the handle to the initial party on the client-created multipoint VC, which the MCM
+     driver obtained as an input parameter to its 
+     <i>ProtocolCmMakeCall</i> function. If the given 
+     <i>NdisVcHandle</i> represented a point-to-point VC, this parameter was <b>NULL</b>.
+
+
+#### - NdisVcHandle [in]
+
+Specifies the handle to the client-created VC, which the MCM driver obtained as an input parameter
+     to its 
+     <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function and,
+     more recently, from the 
+     <i>CallMgrVcContext</i> passed to its 
+     <a href="..\ndis\nc-ndis-protocol_cm_make_call.md">ProtocolCmMakeCall</a> function.
+
+
+#### - Status [in]
+
+Specifies the final status of the attempt to make the connection, either NDIS_STATUS_SUCCESS or
+     any caller-determined NDIS_STATUS_
+     <i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 ## -remarks

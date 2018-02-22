@@ -132,6 +132,10 @@ For more information about enabling and disabling a socket's event callback func
 
 
 
+<a href="..\wsk\nc-wsk-pfn_wsk_control_socket.md">WskControlSocket</a>
+
+
+
  
 
  

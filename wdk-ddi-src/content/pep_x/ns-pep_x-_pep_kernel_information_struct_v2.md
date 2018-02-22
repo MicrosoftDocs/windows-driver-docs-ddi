@@ -177,7 +177,6 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
 
 
@@ -193,7 +192,7 @@ The <b>KernelInformation</b> parameter to the <a href="..\pepfx\nf-pepfx-pofxreg
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackplatformidleveto.md">PlatformIdleVeto</a>
+<a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
 
 
 

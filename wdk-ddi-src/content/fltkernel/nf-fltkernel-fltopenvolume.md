@@ -146,11 +146,11 @@ To get detailed information about the volume that a given instance is attached t
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetdeviceobject.md">FltGetDeviceObject</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetfilterfrominstance.md">FltGetFilterFromInstance</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltclose.md">FltClose</a>
 
 
 

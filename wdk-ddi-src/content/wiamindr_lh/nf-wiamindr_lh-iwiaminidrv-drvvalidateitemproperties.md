@@ -99,11 +99,6 @@ HRESULT drvValidateItemProperties(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is reserved. Set to zero. 
@@ -117,6 +112,11 @@ Indicates the number of items n the <i>pPropSpec</i> array.
 #### - pPropSpec [in]
 
 Points to the first element of an array of PROPSPEC structures (defined in the Microsoft Windows SDK documentation). 
+
+
+#### - pWiasContext [in]
+
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]

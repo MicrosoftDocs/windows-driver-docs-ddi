@@ -215,7 +215,7 @@ Sets the RX_CONTEXT members based on the <i>Irp</i>. These include <b>CurrentIrp
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
 
 
 

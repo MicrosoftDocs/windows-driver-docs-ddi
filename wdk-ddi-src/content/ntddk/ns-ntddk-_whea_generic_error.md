@@ -115,7 +115,7 @@ A WHEA_GENERIC_ERROR structure is included in the <b>RawData</b> member of a <a 
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_descriptor.md">WHEA_GENERIC_ERROR_DESCRIPTOR</a>
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 
 
@@ -127,7 +127,7 @@ A WHEA_GENERIC_ERROR structure is included in the <b>RawData</b> member of a <a 
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_generic_error_blockstatus.md">WHEA_GENERIC_ERROR_BLOCKSTATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 

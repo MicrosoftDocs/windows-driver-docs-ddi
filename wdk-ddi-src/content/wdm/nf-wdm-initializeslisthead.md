@@ -119,7 +119,7 @@ Callers of <b>InitializeSListHead or ExInitializeSListHead</b> can be running at
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+<a href="..\wdm\nf-wdm-exinitializepagedlookasidelist.md">ExInitializePagedLookasideList</a>
 
 
 

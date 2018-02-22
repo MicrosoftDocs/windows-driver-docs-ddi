@@ -164,11 +164,11 @@ The NDIS_INTERRUPT_MODERATION_PARAMETERS structure defines interrupt parameters 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569590">OID_GEN_INTERRUPT_MODERATION</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569590">OID_GEN_INTERRUPT_MODERATION</a>
 
 
 

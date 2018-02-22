@@ -175,7 +175,7 @@ Drivers typically define one KSPIN_DESCRIPTOR structure for each pin type they s
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATARANGE</a>
+<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
 
 
 

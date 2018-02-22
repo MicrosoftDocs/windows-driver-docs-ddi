@@ -130,7 +130,7 @@ If the RDMA technology for the NDK provider requires the provider to map ND conn
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_connection_entry.md">NDIS_NDK_CONNECTION_ENTRY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451810">OID_NDK_CONNECTIONS</a>
 
 
 

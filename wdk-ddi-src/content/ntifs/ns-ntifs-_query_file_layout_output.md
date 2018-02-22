@@ -147,11 +147,11 @@ When multiple entries of the same type exist for a single <b>FILE_LAYOUT_ENTRY</
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_query_file_layout_input.md">QUERY_FILE_LAYOUT_INPUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451133">FSCTL_QUERY_FILE_LAYOUT</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_query_file_layout_input.md">QUERY_FILE_LAYOUT_INPUT</a>
 
 
 

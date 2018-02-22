@@ -171,8 +171,7 @@ To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DE
 
 
 
-<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
-   MiniportDevicePnPEventNotify</a>
+<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
 
 
 

@@ -119,7 +119,7 @@ Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
 
 
 

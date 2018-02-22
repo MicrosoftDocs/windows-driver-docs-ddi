@@ -233,7 +233,7 @@ The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcom
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkcb_notify_dpc.md">DxgkCbNotifyDpc</a>
 
 
 
@@ -245,7 +245,7 @@ The display miniport driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcom
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 
 

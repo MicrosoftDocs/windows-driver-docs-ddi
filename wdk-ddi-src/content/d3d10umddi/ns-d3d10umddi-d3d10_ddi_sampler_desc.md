@@ -132,7 +132,7 @@ typedef struct D3D10_DDI_SAMPLER_DESC {
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_texture_address_mode.md">D3D10_DDI_TEXTURE_ADDRESS_MODE</a>
+<a href="..\d3d10umddi\ne-d3d10umddi-d3d10_ddi_comparison_func.md">D3D10_DDI_COMPARISON_FUNC</a>
 
 
 

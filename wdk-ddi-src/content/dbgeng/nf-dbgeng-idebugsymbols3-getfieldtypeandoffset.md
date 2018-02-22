@@ -148,7 +148,7 @@ For more information about types, see <a href="https://msdn.microsoft.com/librar
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549376">GetTypeId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546758">GetFieldOffset</a>
 
 
 

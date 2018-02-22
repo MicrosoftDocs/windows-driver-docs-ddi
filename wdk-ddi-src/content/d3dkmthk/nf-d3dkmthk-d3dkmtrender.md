@@ -278,11 +278,11 @@ The following code example demonstrates how an OpenGL ICD can use <b>D3DKMTRende
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetdevicestate.md">D3DKMTGetDeviceState</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_render.md">D3DKMT_RENDER</a>
 
 
 

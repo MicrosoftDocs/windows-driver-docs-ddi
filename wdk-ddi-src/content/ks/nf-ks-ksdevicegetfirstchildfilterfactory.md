@@ -106,7 +106,7 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 

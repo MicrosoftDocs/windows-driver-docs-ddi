@@ -103,7 +103,7 @@ Pins of filters specify the data ranges they support to enable stream connection
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556552">BDA Stream Format GUIDs</a>
+<a href="..\bdamedia\ns-bdamedia-tagbda_transport_info.md">BDA_TRANSPORT_INFO</a>
 
 
 

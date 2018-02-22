@@ -160,7 +160,7 @@ The RxMgr tracks the number of frames indicated to NDIS against the limit specif
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_data_api.md">NDIS_WDI_DATA_API</a>
+<a href="..\ndis\ns-ndis-_ndis_receive_throttle_parameters.md">NDIS_RECEIVE_THROTTLE_PARAMETERS</a>
 
 
 

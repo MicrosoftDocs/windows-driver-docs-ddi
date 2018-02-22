@@ -133,7 +133,7 @@ After the expression syntax has been changed, the engine sends out notification 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543046">Evaluate</a>
 
 
 
@@ -141,7 +141,7 @@ After the expression syntax has been changed, the engine sends out notification 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546701">GetExpressionSyntax</a>
 
 
 

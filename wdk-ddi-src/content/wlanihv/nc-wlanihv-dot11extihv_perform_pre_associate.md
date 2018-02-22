@@ -226,7 +226,8 @@ For more information about the pre-association operation, see
 
 
 
-<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_security_profile.md">DOT11EXT_IHV_SECURITY_PROFILE</a>
+<a href="..\wlanihv\ns-wlanihv-_dot11ext_ihv_connectivity_profile.md">
+   DOT11EXT_IHV_CONNECTIVITY_PROFILE</a>
 
 
 
@@ -239,7 +240,8 @@ For more information about the pre-association operation, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569122">OID_DOT11_CONNECT_REQUEST</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_pre_associate_completion.md">
+   Dot11ExtPreAssociateCompletion</a>
 
 
 

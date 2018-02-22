@@ -101,7 +101,7 @@ The size of the memory represented by the <a href="..\engextcpp\nl-engextcpp-ext
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544081">ExtRemoteData::GetW32Bool</a>
 
 
 

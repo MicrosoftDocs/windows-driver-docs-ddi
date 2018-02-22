@@ -115,7 +115,7 @@ The executable image path can consist of several directories separated by semico
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -131,7 +131,7 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556708">SetImagePath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
 
 
 

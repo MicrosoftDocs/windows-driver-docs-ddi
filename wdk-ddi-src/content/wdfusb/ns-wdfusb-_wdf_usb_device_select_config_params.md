@@ -207,7 +207,7 @@ If the driver sets the <b>Type</b> member to <b>WdfUsbTargetDeviceSelectConfigTy
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_setting_pair.md">WDF_USB_INTERFACE_SETTING_PAIR</a>
 
 
 

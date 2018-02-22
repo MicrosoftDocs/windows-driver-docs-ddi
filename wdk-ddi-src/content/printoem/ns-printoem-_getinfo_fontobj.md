@@ -90,11 +90,11 @@ To obtain a font's FONTOBJ structure contents, a rendering plug-in can supply th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565974">FONTOBJ</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 
 

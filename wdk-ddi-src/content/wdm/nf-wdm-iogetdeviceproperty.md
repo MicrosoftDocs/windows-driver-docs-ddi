@@ -308,7 +308,7 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 
 
-<a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a>
+<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
 
 
 

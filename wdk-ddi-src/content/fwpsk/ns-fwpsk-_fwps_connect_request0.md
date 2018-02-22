@@ -206,8 +206,7 @@ This structure acts as a linked list that contains a record of all the changes m
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/using-bind-or-connect-redirection">Using Bind or Connect
-   Redirection</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsapplymodifiedlayerdata0.md">FwpsApplyModifiedLayerData0</a>
 
 
 

@@ -473,7 +473,7 @@ The macros <b>va_list</b>, <b>va_start</b>, and <b>va_end</b> are defined in Std
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539248">ControlledOutput</a>
 
 
 

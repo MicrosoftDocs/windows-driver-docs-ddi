@@ -109,7 +109,7 @@ Reserved for system use. Do not use.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
+<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
 
 
 

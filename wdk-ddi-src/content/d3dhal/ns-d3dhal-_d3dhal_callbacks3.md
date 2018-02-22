@@ -173,7 +173,7 @@ The driver allocates this structure and sets appropriate values in all members. 
 
 
 
-D3DDP2OP_CLEAR
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549064">D3dValidateTextureStageState</a>
 
 
 

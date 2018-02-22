@@ -121,7 +121,7 @@ Memory allocated by <b>MmAllocateContiguousMemory</b> must be freed when the mem
 
 
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemory.md">MmFreeContiguousMemory</a>
 
 
 

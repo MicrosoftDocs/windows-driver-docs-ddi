@@ -247,7 +247,7 @@ In case of response to the NDIS_WWAN_SET_CONTEXT_STATE, use this member to provi
 
 
 
-<a href="..\wwan\ne-wwan-_wwan_voice_call_state.md">WWAN_VOICE_CALL_STATE</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_context_state.md">NDIS_WWAN_CONTEXT_STATE</a>
 
 
 

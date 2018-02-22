@@ -177,7 +177,7 @@ The miniport driver must call <b>AtaPortRegistryChannelSubKeyRead</b> either dur
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557465">IdeHwControl</a>
+<a href="..\irb\nf-irb-ataportregistrychannelsubkeywrite.md">AtaPortRegistryChannelSubKeyWrite</a>
 
 
 

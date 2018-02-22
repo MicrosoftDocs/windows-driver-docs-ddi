@@ -146,7 +146,7 @@ Each time the Direct3D runtime calls the driver's <i>GetEncryptionBltKey</i> fun
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_getencryptionbltkey.md">D3DDDIARG_GETENCRYPTIONBLTKEY</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createcryptosession.md">D3DDDIARG_CREATECRYPTOSESSION</a>
 
 
 

@@ -263,7 +263,7 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 
 
-<a href="..\wdm\nf-wdm-zwopenkeyex.md">ZwOpenKeyEx</a>
+<a href="..\wdm\nf-wdm-zwopenkeytransacted.md">ZwOpenKeyTransacted</a>
 
 
 

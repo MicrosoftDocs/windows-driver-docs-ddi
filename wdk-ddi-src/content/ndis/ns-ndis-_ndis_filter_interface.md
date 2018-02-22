@@ -212,7 +212,7 @@ A light-weight filter may dynamically insert or remove itself from the send or r
 
 
 
-<a href="..\ndis\nf-ndis-ndisenumeratefiltermodules.md">NdisEnumerateFilterModules</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568747">NET_LUID</a>
 
 
 

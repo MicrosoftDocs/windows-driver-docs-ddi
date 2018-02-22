@@ -110,7 +110,7 @@ A BDA minidriver calls the <b>BdaPropertyGetControllingPinId</b> function to ret
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564303">KSPROPERTY_BDA_CONTROLLING_PIN_ID</a>
 
 
 

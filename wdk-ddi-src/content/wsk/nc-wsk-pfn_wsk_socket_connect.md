@@ -329,7 +329,7 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_control_client.md">WskControlClient</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
 
 

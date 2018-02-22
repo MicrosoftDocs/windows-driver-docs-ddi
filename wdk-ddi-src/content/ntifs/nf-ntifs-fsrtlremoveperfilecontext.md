@@ -136,7 +136,7 @@ Do not use this routine inside your IRP_CLOSE handler. You will not be notified 
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperfilecontext.md">FsRtlInsertPerFileContext</a>
+<a href="..\ntifs\nf-ntifs-fsrtllookupperfilecontext.md">FsRtlLookupPerFileContext</a>
 
 
 

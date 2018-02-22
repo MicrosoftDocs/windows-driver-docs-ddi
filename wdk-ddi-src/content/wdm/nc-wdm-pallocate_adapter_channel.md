@@ -189,7 +189,18 @@ The system passes the value of the <b>CurrentIrp</b> member of <i>DeviceObject</
 
 
 
-<a href="..\wdm\nc-wdm-pread_dma_counter.md">ReadDmaCounter</a>
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+
+
 
 
 

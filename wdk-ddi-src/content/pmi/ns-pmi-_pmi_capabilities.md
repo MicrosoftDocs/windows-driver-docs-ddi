@@ -148,7 +148,7 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 

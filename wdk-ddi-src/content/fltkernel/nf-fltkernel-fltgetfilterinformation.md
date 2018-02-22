@@ -183,7 +183,7 @@ An invalid value was specified for the <i>InformationClass</i> parameter. For ex
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 
 

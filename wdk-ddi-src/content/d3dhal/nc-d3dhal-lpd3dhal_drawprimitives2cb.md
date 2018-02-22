@@ -226,11 +226,11 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2linelist.md">D3DHAL_DP2LINELIST</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglelist.md">D3DHAL_DP2TRIANGLELIST</a>
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2points.md">D3DHAL_DP2POINTS</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2indexedlinelist.md">D3DHAL_DP2INDEXEDLINELIST</a>
 
 
 
@@ -242,7 +242,7 @@ DrawPrimitives2(Explicit VB, D3DHALDP2_SWAPVERTEXBUFFER | D3DHALDP2_REQCOMMANDBU
 
 
 
-<a href="https://msdn.microsoft.com/206f4275-bcb8-4e8e-9c11-c6fb5d9c561d">FVF</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2trianglestrip.md">D3DHAL_DP2TRIANGLESTRIP</a>
 
 
 

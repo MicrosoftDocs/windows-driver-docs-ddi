@@ -119,7 +119,7 @@ The <b>Information</b> field is set to zero. The <b>Status</b> field is set to S
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567953">TapeMiniSetMediaParameters</a>
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

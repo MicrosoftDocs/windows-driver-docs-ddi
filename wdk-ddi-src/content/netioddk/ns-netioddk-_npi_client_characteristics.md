@@ -147,7 +147,7 @@ A client module must make sure that this structure remains valid and resident in
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
 
 
 

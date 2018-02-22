@@ -157,7 +157,7 @@ A WSK application's <i>WskSendBacklogEvent</i> event callback function must not 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
 
 
 

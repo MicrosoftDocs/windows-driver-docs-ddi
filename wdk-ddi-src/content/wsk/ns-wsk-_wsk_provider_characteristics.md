@@ -158,8 +158,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\nf-wsk-wskqueryprovidercharacteristics.md">
-   WskQueryProviderCharacteristics</a>
+<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
 
 
 

@@ -202,7 +202,7 @@ The eject, removal, and install characteristics for the device are set in the <b
 
 
 
-<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
+<a href="..\storport\ns-storport-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 
 
 

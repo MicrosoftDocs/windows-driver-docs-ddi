@@ -102,7 +102,7 @@ For more information about handling interrupts in UMDF drivers, see <a href="htt
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfinterrupt.md">IWDFInterrupt</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterrupttrytoacquirelock.md">WdfInterruptTryToAcquireLock</a>
 
 
 

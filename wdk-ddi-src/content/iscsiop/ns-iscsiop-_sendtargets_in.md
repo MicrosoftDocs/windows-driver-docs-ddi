@@ -105,6 +105,10 @@ You must implement this method.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565526">SendTargets</a>
+
+
+
  
 
  

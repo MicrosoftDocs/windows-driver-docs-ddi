@@ -89,10 +89,12 @@ TBD
 
 
 
-#### - Status [in]
+#### - CallParameters [in]
 
-Specifies the final status of the client's request to modify the QoS on this VC, either
-     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
+Pointer to a structure of type 
+     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
+     acceptable to the MCM driver if 
+     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
 
 
 #### - NdisVcHandle [in]
@@ -103,12 +105,10 @@ Specifies the handle to the VC, obtained from the per-VC state designated by the
      ProtocolCmModifyCallQoS</a> function for this request.
 
 
-#### - CallParameters [in]
+#### - Status [in]
 
-Pointer to a structure of type 
-     <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a> specifying a QoS
-     acceptable to the MCM driver if 
-     <i>Status</i> is set to NDIS_STATUS_SUCCESS.
+Specifies the final status of the client's request to modify the QoS on this VC, either
+     NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i><u>except</u> NDIS_STATUS_PENDING.
 
 
 ## -remarks
@@ -157,8 +157,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
-   ProtocolClModifyCallQoSComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
 

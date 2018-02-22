@@ -85,7 +85,7 @@ Indicates that the driver-registered callback function is invoked for threads of
 
 
 
-<a href="..\ntddk\ne-ntddk-_subsystem_information_type.md">SUBSYSTEM_INFORMATION_TYPE</a>
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
 
 
 

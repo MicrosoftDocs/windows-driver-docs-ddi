@@ -152,7 +152,7 @@ Call <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext<
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_related_contexts.md">FLT_RELATED_CONTEXTS</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 

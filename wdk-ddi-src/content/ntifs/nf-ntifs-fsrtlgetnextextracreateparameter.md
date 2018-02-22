@@ -161,7 +161,7 @@ The<b>FsRtlGetNextExtraCreateParameter</b> routine processes an ECP list in a no
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
 
 
 
@@ -177,7 +177,7 @@ The<b>FsRtlGetNextExtraCreateParameter</b> routine processes an ECP list in a no
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 
 

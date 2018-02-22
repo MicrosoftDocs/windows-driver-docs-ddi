@@ -114,7 +114,7 @@ A driver must remove any callbacks it registers before it unloads. You can remov
 
 
 
-<a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
 
 
 

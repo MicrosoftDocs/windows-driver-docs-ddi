@@ -123,14 +123,14 @@ TBD
 
 
 
-#### - pSrb
-
-Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. If <i>NotificationType</i> equals <b>DeviceRequestComplete</b>, this parameter points to the stream request block that the minidriver has completed processing. After <b>StreamClassDeviceNotification</b> completes, this address is no longer valid.
-
-
 #### - EventEntry
 
 If <i>NotificationType</i> equals either SignalDeviceEvent or DeleteDeviceEvent, points to a structure of type <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a> that specifies the event to be signaled or deleted. 
+
+
+#### - EventId
+
+Specifies the event ID to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>.
 
 
 #### - EventSet
@@ -138,9 +138,9 @@ If <i>NotificationType</i> equals either SignalDeviceEvent or DeleteDeviceEvent,
 Specifies the event set to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>. 
 
 
-#### - EventId
+#### - pSrb
 
-Specifies the event ID to match against in the device event queue if <i>NotificationType</i> equals <b>SignalMultipleDeviceEvents</b>.
+Pointer to an <a href="..\strmini\ns-strmini-_hw_stream_request_block.md">HW_STREAM_REQUEST_BLOCK</a> structure. If <i>NotificationType</i> equals <b>DeviceRequestComplete</b>, this parameter points to the stream request block that the minidriver has completed processing. After <b>StreamClassDeviceNotification</b> completes, this address is no longer valid.
 
 
 ## -returns

@@ -132,7 +132,7 @@ The last task that the video port driver's <b>VideoPortStartDma</b> function per
 
 
 
-<a href="..\video\nf-video-videoportgetdmaadapter.md">VideoPortGetDmaAdapter</a>
+<a href="..\video\nf-video-videoportcompletedma.md">VideoPortCompleteDma</a>
 
 
 

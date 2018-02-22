@@ -157,14 +157,14 @@ Specifies the size, in bytes, of the buffer <i>Buffer</i>.
 Receives the size of the information that is returned.
 
 
-##### - Arg64.DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
-
-Not used.
-
-
 ##### - Arg32.DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
 
 The engine thread ID of the desired thread.
+
+
+##### - Arg64.DEBUG_SYSOBJINFO_THREAD_BASIC_INFORMATION
+
+Not used.
 
 
 ## -returns

@@ -102,13 +102,18 @@ VOID APIENTRY* pfnVideoProcessorSetStreamAlpha(
 A handle to the display device (graphics context).
 
 
+#### - Alpha [in]
 
+A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque). 
 
-#### - hVideoProcessor [in]
+<div class="alert"><b>Note</b>  If the <i>Enable</i> parameter is <b>FALSE</b>, this parameter is ignored.
 
-A handle to the video processor object that was created through a call to the <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a> function. 
+</div>
+<div> </div>
 
+#### - Enable [in]
 
+If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
 
 
 #### - StreamIndex [in]
@@ -116,12 +121,11 @@ A handle to the video processor object that was created through a call to the <a
 The zero-based index of the input stream.
 
 
-#### - Enable [in]
+#### - hDevice [in]
 
-If <b>TRUE</b>, alpha blending is to be enabled on the video processor.
+A handle to the display device (graphics context).
 
 
-#### - Alpha [in]
 
 A pointer to a <b>FLOAT</b> value that specifies the planar alpha value. The value can range from 0.0 (transparent) to 1.0 (opaque). 
 
@@ -171,18 +175,29 @@ The driver reports its ability to support stereo alpha blending for an input str
 <div> </div>
 
 
+<div class="alert"><b>Note</b>  If the driver does not support the <b>D3D11_1DDI_VIDEO_PROCESSOR_FEATURE_CAPS_STEREO</b> capability, the Microsoft Direct3D runtime does not call the <b>VideoProcessorSetStreamAlpha</b> function.</div>
+<div> </div>
 
-## -see-also
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_videoprocessorsetoutputalphafillmode.md">VideoProcessorSetOutputAlphaFillMode</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
+## -see-also
 
 
 
 <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_createvideoprocessor.md">CreateVideoProcessor</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11_1ddi_getvideoprocessorcaps.md">GetVideoProcessorCaps</a>
+
+
+
+
+
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d11_1ddi_video_processor_caps.md">D3D11_1DDI_VIDEO_PROCESSOR_CAPS</a>
 
 
 

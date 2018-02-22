@@ -226,7 +226,7 @@ Supported starting with Windows 7.
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">VsSetShaderResources</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_setshaderresources.md">PsSetShaderResources</a>
 
 
 

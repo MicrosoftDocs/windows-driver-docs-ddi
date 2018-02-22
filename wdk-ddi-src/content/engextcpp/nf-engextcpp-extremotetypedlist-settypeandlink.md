@@ -118,7 +118,7 @@ For more information about the SINGLE_LIST_ENTRY and LIST_ENTRY structures, see 
 
 ## -see-also
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
 
 
 

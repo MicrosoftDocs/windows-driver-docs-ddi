@@ -106,7 +106,7 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 
 

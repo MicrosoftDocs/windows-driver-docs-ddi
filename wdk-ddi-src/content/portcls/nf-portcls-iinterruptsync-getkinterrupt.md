@@ -94,7 +94,7 @@ A driver typically calls <code>GetKInterrupt</code> only if it needs to obtain t
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesynchronizeexecution.md">KeSynchronizeExecution</a>
+<a href="..\portcls\nn-portcls-iinterruptsync.md">IInterruptSync</a>
 
 
 

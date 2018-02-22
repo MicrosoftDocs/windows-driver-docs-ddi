@@ -183,7 +183,7 @@ After a port is no longer required, the miniport driver should call the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -199,7 +199,7 @@ After a port is no longer required, the miniport driver should call the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+<a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
 
 
 

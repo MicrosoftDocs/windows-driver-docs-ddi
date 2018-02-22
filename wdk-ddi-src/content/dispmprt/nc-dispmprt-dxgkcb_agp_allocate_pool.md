@@ -95,11 +95,6 @@ NTSTATUS APIENTRY AgpAllocatePool(
 
 
 
-#### - Context [in]
-
-A handle to a context block associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>.
-
-
 #### - AllocationSize [in]
 
 The size, in bytes, of the AGP memory to be allocated.
@@ -108,6 +103,11 @@ The size, in bytes, of the AGP memory to be allocated.
 #### - CacheType [in]
 
 A constant from the <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> enumeration that specifies whether the CPU can use caching or write combining when it accesses the allocated AGP memory.
+
+
+#### - Context [in]
+
+A handle to a context block associated with an AGP interface. The display miniport driver previously received this handle in the <b>Context</b> member of the DXGK_AGP_INTERFACE structure that was filled in by <a href="..\dispmprt\nc-dispmprt-dxgkcb_query_services.md">DxgkCbQueryServices</a>.
 
 
 #### - PhysicalAddress [out]

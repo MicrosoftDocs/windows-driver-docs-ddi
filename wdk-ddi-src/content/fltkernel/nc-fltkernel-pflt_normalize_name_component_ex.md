@@ -163,7 +163,7 @@ If the minifilter driver uses the <i>NormalizationContext</i> parameter, it shou
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_names_information.md">FILE_NAMES_INFORMATION</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

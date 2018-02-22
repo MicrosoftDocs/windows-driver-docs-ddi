@@ -102,15 +102,15 @@ This method is for proxy use and is not recommended for application use.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
+
+
+
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
 
 
 
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559890">IKsObject::KsGetObjectHandle</a>
 
 
 

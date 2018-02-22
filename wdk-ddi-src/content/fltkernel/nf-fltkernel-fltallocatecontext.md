@@ -555,7 +555,7 @@ FLT_VOLUME_CONTEXT
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetvolumecontext.md">FltSetVolumeContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilecontext.md">FltGetFileContext</a>
 
 
 

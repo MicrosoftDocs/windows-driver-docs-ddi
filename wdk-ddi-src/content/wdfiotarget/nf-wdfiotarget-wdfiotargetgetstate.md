@@ -82,7 +82,7 @@ A handle to a local or remote I/O target object that was obtained from a previou
 
 
 
-<b>WdfIoTargetGetState</b> returns a <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that indicates the state of the specified I/O target.
+<b>WdfIoTargetGetState</b> returns a <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>-typed value that indicates the state of the specified I/O target.
 
 A bug check occurs if the driver supplies an invalid object handle.
 

@@ -131,7 +131,7 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 
-<a href="..\ks\nf-ks-ksdisableevent.md">KsDisableEvent</a>
+<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
 
 
 
@@ -139,7 +139,7 @@ To determine events supported by a KS object, specify <b>NULL</b> and 0 respecti
 
 
 
-<a href="..\ks\ns-ks-ksevent_set.md">KSEVENT_SET</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 

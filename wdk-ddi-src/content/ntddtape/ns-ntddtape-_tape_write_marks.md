@@ -134,11 +134,11 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
-
-
-
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_write_marks.md">IOCTL_TAPE_WRITE_MARKS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
 
 
 

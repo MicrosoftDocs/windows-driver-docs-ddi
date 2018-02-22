@@ -298,7 +298,7 @@ Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP ope
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_register_server.md">_BRB_SCO_REGISTER_SERVER</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
@@ -334,7 +334,7 @@ Defines the format of the enhanced L2CAP open channel and the enhanced L2CAP ope
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_sco_open_channel.md">_BRB_SCO_OPEN_CHANNEL</a>
+<a href="..\bthddi\ns-bthddi-_brb_l2ca_unregister_server.md">_BRB_L2CA_UNREGISTER_SERVER</a>
 
 
 

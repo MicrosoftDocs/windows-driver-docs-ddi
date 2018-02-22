@@ -97,7 +97,7 @@ For more information about <b>CmUnRegisterCallback</b> and filtering registry op
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
@@ -105,7 +105,7 @@ For more information about <b>CmUnRegisterCallback</b> and filtering registry op
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
 
 
 

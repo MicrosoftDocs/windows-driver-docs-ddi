@@ -238,6 +238,10 @@ To support header-data split, a miniport driver passes a pointer to an
 
 
 
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
  
 
  

@@ -92,7 +92,7 @@ After calling this method to get the page-level print ticket, a print driver fil
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550977">IFixedDocumentSequence::GetPrintTicket</a>
+<a href="..\filterpipeline\nn-filterpipeline-ipartprintticket.md">IPartPrintTicket</a>
 
 
 

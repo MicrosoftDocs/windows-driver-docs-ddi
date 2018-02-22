@@ -265,7 +265,7 @@ Skipped macroblocks are not used by intra pictures, so the <i>MBskipsFollowing</
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_configpicturedecode.md">DXVA_ConfigPictureDecode</a>
+<a href="..\dxva\ns-dxva-_dxva_pictureparameters.md">DXVA_PictureParameters</a>
 
 
 

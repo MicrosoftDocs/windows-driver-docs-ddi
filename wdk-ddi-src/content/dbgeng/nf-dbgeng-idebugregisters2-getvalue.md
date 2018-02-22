@@ -142,7 +142,7 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549487">GetValues2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549480">GetValues</a>
 
 
 

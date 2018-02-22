@@ -120,14 +120,14 @@ Failure of one of the copy protection mechanisms.
 The authentication process has failed.
 
 
-#### -STATUS_CSS_KEY_NOT_PRESENT or STG_E_CSS_KEY_NOT_PRESENT
-
-No AACS protection exists for this media.
-
-
 #### -STATUS_CSS_KEY_NOT_ESTABLISHED or STG_E_CSS_KEY_NOT_ESTABLISHED
 
 The AGID for AACS has not been established.
+
+
+#### -STATUS_CSS_KEY_NOT_PRESENT or STG_E_CSS_KEY_NOT_PRESENT
+
+No AACS protection exists for this media.
 
 
 ## -remarks

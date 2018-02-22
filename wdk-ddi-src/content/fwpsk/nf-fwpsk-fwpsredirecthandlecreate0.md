@@ -155,7 +155,7 @@ After a callout driver has finished using a redirect handle, it must call the <a
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsredirecthandledestroy0.md">FwpsRedirectHandleDestroy0</a>
+<a href="..\fwpsk\ns-fwpsk-_fwps_connect_request0.md">FWPS_CONNECT_REQUEST0</a>
 
 
 

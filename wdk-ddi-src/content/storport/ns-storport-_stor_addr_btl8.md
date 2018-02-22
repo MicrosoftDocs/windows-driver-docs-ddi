@@ -113,7 +113,7 @@ Reserved, set to 0.
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\storport\ns-storport-_stor_address.md">STOR_ADDRESS</a>
 
 
 

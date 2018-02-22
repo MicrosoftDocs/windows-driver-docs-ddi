@@ -92,11 +92,11 @@ Specifies the long integer to convert.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-sesingleprivilegecheck.md">SeSinglePrivilegeCheck</a>
-
-
-
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 

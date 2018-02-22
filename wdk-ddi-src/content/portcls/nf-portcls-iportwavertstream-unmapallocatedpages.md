@@ -100,7 +100,7 @@ This method is similar in operation to the <a href="..\wdm\nf-wdm-mmunmaplockedp
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iportwavertstream.md">IPortWaveRTStream</a>
+<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
 
 
 

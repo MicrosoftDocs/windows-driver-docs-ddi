@@ -181,8 +181,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_activate_vc_complete.md">
-   ProtocolCmActivateVcComplete</a>
+<a href="..\ndis\nf-ndis-ndismcmactivatevc.md">NdisMCmActivateVc</a>
 
 
 

@@ -221,7 +221,7 @@ Callers of <b>KeWaitForMutexObject</b> must be running at IRQL &lt;= DISPATCH_LE
 
 
 
-<a href="..\wdm\nf-wdm-keinitializemutex.md">KeInitializeMutex</a>
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
 
 

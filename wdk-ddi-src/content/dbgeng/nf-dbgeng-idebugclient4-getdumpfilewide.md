@@ -158,6 +158,10 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 

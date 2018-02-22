@@ -156,7 +156,7 @@ When reading memory that contains pointers, these pointers are for the target's 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554361">ReadVirtualUncached</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561468">WriteVirtual</a>
 
 
 

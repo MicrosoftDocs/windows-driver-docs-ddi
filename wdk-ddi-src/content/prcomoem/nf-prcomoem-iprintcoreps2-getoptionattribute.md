@@ -209,7 +209,7 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553009">IPrintCorePS2::GetGlobalAttribute</a>
 
 
 
@@ -217,7 +217,7 @@ For more information, see <a href="https://msdn.microsoft.com/d35f0811-d572-422c
 
 
 
-<a href="..\printoem\ns-printoem-_devobj.md">DEVOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552996">IPrintCorePS2::EnumOptions</a>
 
 
 

@@ -93,11 +93,11 @@ NDK provider must set the <b>Dispatch</b> member to its own <a href="..\ndkpi\ns
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_create_completion.md">NDK_FN_CREATE_COMPLETION</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_create_shared_endpoint.md">NDK_FN_CREATE_SHARED_ENDPOINT</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint_dispatch.md">NDK_SHARED_ENDPOINT_DISPATCH</a>
 
 
 

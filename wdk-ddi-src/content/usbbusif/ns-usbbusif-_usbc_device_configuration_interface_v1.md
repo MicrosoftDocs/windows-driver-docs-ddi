@@ -117,7 +117,7 @@ Reserved.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB structures</a>
+<a href="..\usbbusif\nc-usbbusif-usbc_start_device_callback.md">USBC_START_DEVICE_CALLBACK</a>
 
 
 

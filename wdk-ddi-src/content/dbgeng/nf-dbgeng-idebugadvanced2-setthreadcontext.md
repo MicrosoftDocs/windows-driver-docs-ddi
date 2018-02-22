@@ -121,7 +121,7 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549291">GetThreadContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556773">SetScope</a>
 
 
 

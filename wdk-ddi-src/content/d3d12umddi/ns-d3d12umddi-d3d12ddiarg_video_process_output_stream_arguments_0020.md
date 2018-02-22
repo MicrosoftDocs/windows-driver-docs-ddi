@@ -145,11 +145,15 @@ The target rectangle, which is the area within the destination surface where the
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+
+
+
 <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_video_process_alpha_fill_mode_0020.md">D3D12DDI_VIDEO_PROCESS_ALPHA_FILL_MODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/0a878d11-dc90-4cad-bde5-54a135e53a86">DXGI_RATIONAL</a>
+
 
 
 

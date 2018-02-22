@@ -153,7 +153,7 @@ When the Direct3D runtime calls <b>CreateDevice</b> to create a device, the runt
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_destroydevice.md">DestroyDevice</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createdevice.md">D3DDDIARG_CREATEDEVICE</a>
 
 
 

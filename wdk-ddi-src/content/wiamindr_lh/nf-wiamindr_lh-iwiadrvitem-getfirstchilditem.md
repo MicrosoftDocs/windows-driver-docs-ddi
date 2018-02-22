@@ -100,7 +100,7 @@ Minidrivers typically use this method to retrieve the first child item in a driv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
 
 
 

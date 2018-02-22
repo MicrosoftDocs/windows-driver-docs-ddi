@@ -108,11 +108,11 @@ For more information about the sensor data fields that use this enumeration, see
 
 ## -see-also
 
-<a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type_count.md">PEDOMETER_STEP_TYPE_COUNT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn957076">Pedometer data fields</a>
+
+
+
+<a href="..\sensorsdef\ne-sensorsdef-pedometer_step_type_count.md">PEDOMETER_STEP_TYPE_COUNT</a>
 
 
 

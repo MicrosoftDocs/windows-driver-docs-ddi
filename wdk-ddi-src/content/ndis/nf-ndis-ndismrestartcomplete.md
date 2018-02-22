@@ -151,7 +151,7 @@ A miniport driver can resume indicating received packets immediately after NDIS 
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
 
 
 

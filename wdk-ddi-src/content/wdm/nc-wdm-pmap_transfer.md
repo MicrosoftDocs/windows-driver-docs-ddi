@@ -143,6 +143,8 @@ The driver of a bus-master device with scatter/gather support can use the return
 
 
 
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554539">MmGetMdlVirtualAddress</a>
 
 
@@ -163,7 +165,7 @@ The driver of a bus-master device with scatter/gather support can use the return
 
 
 
-<a href="..\wdm\nc-wdm-pallocate_common_buffer.md">AllocateCommonBuffer</a>
+
 
 
 

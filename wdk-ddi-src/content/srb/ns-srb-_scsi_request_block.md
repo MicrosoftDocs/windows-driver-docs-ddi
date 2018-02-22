@@ -927,7 +927,7 @@ The preceding SRB_FUNCTION_<i>XXX</i>  are never set in SRBs sent to SCSI minipo
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545387">ExInterlockedFreeToZone</a>
+<a href="..\srb\nf-srb-scsiportiomaptransfer.md">ScsiPortIoMapTransfer</a>
 
 
 

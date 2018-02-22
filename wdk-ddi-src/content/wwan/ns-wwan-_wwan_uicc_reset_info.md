@@ -79,7 +79,7 @@ The passthrough status of the miniport adapter. For more info, see <a href="..\w
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+<a href="..\wwan\ne-wwan-_wwan_uicc_passthrough_status.md">WWAN_UICC_PASSTHROUGH_STATUS</a>
 
 
 

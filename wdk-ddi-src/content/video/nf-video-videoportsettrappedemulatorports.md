@@ -117,11 +117,11 @@ Calling <b>VideoPortSetTrappedEmulatorPorts</b> again and resetting the <b>Range
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportsynchronizeexecution.md">VideoPortSynchronizeExecution</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
-
-
-
-<a href="..\video\ns-video-_video_access_range.md">VIDEO_ACCESS_RANGE</a>
 
 
 

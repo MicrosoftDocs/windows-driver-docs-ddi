@@ -99,44 +99,44 @@ typedef struct _RILCALLDISCONNECTDETAILS {
 ### -field RILCAUSEUNION
 
 
-#### - switch_is
-
-
-#### - unGPPCause
-
-
-#### - case
+#### - RIL_CD_3GPP2_VENDOR_CAUSE
 
 
 #### - RIL_CD_3GPP_NETWORK_CAUSE
 
 
-#### - unGPPRejectCause
-
-
 #### - RIL_CD_3GPP_REJECT_CAUSE
-
-
-#### - unGPP2Cause
-
-
-#### - RIL_CD_3GPP2_VENDOR_CAUSE
-
-
-#### - unIMSSIPCause
-
-
-#### - RIL_CD_IMS_SIP_CAUSE
-
-
-#### - dwASCode
 
 
 #### - RIL_CD_AS_CAUSE
 
 
-#### - dwOtherCode
+#### - RIL_CD_IMS_SIP_CAUSE
 
 
 #### - RIL_CD_OTHER_CAUSE
+
+
+#### - case
+
+
+#### - dwASCode
+
+
+#### - dwOtherCode
+
+
+#### - switch_is
+
+
+#### - unGPP2Cause
+
+
+#### - unGPPCause
+
+
+#### - unGPPRejectCause
+
+
+#### - unIMSSIPCause
 

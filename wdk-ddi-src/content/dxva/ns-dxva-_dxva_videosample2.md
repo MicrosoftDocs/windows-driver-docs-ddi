@@ -173,7 +173,7 @@ For information about how input samples are arranged in the array in the <b>Sour
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_ayuvsample2.md">DXVA_AYUVsample2</a>
+<a href="..\dxva\ns-dxva-_dxva_extendedformat.md">DXVA_ExtendedFormat</a>
 
 
 

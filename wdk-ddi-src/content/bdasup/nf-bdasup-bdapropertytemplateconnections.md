@@ -112,7 +112,7 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566561">KSPROPSETID_BdaTopology</a>
 
 
 
@@ -120,7 +120,7 @@ The BDA minidriver provided a list of connections to the BDA support library in 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564386">KSPROPERTY_BDA_TEMPLATE_CONNECTIONS</a>
+<a href="..\bdasup\nf-bdasup-bdainitfilter.md">BdaInitFilter</a>
 
 
 

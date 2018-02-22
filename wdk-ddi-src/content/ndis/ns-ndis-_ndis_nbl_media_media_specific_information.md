@@ -118,13 +118,12 @@ To access NDIS_NBL_MEDIA_SPECIFIC_INFORMATION structures in a linked list, use t
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/gg159261.aspx">
-   NDIS_NBL_GET_MEDIA_SPECIFIC_INFO</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566520">
+   NDIS_NBL_REMOVE_MEDIA_SPECIFIC_INFO</a>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff566503">
-   NDIS_NBL_ADD_MEDIA_SPECIFIC_INFO</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

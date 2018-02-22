@@ -224,7 +224,8 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
+<a href="..\ntddndis\ne-ntddndis-_ndis_receive_queue_operational_state.md">
+   NDIS_RECEIVE_QUEUE_OPERATIONAL_STATE</a>
 
 
 
@@ -232,7 +233,7 @@ With a successful return from the <a href="https://docs.microsoft.com/en-us/wind
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-enum-queues">OID_RECEIVE_FILTER_ENUM_QUEUES</a>
 
 
 

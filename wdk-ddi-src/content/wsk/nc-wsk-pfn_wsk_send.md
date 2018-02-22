@@ -242,7 +242,7 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
 
 

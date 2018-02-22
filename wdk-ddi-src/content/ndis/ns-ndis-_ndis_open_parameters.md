@@ -175,6 +175,10 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 
 
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+
  
 
  

@@ -266,7 +266,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
 
 
 

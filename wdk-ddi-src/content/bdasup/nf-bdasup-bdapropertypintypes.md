@@ -110,7 +110,7 @@ A BDA minidriver calls the <b>BdaPropertyPinTypes</b> function to retrieve the l
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564352">KSPROPERTY_BDA_PIN_TYPES</a>
 
 
 

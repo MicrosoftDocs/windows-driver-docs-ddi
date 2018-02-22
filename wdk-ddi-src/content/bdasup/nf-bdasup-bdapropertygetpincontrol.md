@@ -118,11 +118,11 @@ A BDA minidriver calls the <b>BdaPropertyGetPinControl</b> function to retrieve 
 
 
 
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564348">KSPROPERTY_BDA_PIN_ID</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564350">KSPROPERTY_BDA_PIN_TYPE</a>
 
 
 

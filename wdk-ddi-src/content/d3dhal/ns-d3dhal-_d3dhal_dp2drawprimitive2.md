@@ -107,7 +107,7 @@ The vertex data has been transformed by the runtime.
 
 
 
-D3DDP2OP_DRAWPRIMITIVE
+D3DDP2OP_DRAWPRIMITIVE2
 
 
 

@@ -119,7 +119,7 @@ The <b>NDK_LISTENER_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-n
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_listen.md">NDK_FN_LISTEN</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_control_connect_events.md">NDK_FN_CONTROL_CONNECT_EVENTS</a>
 
 
 

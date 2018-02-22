@@ -123,11 +123,11 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 ## -see-also
 
-<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
 
 
 

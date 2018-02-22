@@ -126,7 +126,7 @@ The address data specific to an address type.
 
 
 
-<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+<a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
 
 

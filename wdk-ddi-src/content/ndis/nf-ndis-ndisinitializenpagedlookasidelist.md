@@ -190,7 +190,8 @@ Callers of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556431">NPAGED_LOOKASIDE_LIST</a>
+<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
+   NdisDeleteNPagedLookasideList</a>
 
 
 
@@ -207,8 +208,8 @@ Callers of
 
 
 
-<a href="..\ndis\nf-ndis-ndisdeletenpagedlookasidelist.md">
-   NdisDeleteNPagedLookasideList</a>
+<a href="..\ndis\nf-ndis-ndisfreetonpagedlookasidelist.md">
+   NdisFreeToNPagedLookasideList</a>
 
 
 

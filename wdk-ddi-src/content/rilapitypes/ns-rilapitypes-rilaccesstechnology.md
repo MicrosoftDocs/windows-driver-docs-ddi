@@ -98,11 +98,11 @@ typedef struct _RILACCESSTECHNOLOGY {
 #### - dwGsmKind
 
 
-#### - dwUmtsKind
+#### - dwLteKind
 
 
 #### - dwTdscdmaKind
 
 
-#### - dwLteKind
+#### - dwUmtsKind
 

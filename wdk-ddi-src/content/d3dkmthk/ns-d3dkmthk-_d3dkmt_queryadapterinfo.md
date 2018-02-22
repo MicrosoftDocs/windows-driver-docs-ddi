@@ -340,7 +340,7 @@ Supported starting with  Windows 8.1.
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_adapteraddress.md">D3DKMT_ADAPTERADDRESS</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_flipqueueinfo.md">D3DKMT_FLIPQUEUEINFO</a>
 
 
 
@@ -392,11 +392,11 @@ Supported starting with  Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ne-d3dkmthk-_qai_driverversion.md">D3DKMT_DRIVERVERSION</a>
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_segmentsizeinfo.md">D3DKMT_SEGMENTSIZEINFO</a>
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_currentdisplaymode.md">D3DKMT_CURRENTDISPLAYMODE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406678">D3DKMT_WDDM_1_2_CAPS</a>
 
 
 

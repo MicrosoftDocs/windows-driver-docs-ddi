@@ -120,7 +120,7 @@ Minifilters must call <a href="..\fltkernel\nf-fltkernel-fltinitializefilelock.m
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlaretherecurrentfilelocks.md">FsRtlAreThereCurrentFileLocks</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlprocessfilelock~r2.md">FsRtlProcessFileLock</a>
 
 
 

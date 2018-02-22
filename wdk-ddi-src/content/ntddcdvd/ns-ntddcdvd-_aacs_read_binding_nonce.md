@@ -115,7 +115,7 @@ Clients retrieve the binding nonce with an <a href="..\ntddcdvd\ni-ntddcdvd-ioct
 
 
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_binding_nonce.md">AACS_BINDING_NONCE</a>
+<a href="..\ntddcdvd\ni-ntddcdvd-ioctl_aacs_generate_binding_nonce.md">IOCTL_AACS_GENERATE_BINDING_NONCE</a>
 
 
 

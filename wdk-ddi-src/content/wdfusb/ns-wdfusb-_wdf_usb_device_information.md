@@ -104,7 +104,11 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\
 
 ## -see-also
 
-<a href="..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md">WDF_USB_DEVICE_TRAITS</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md">WDF_USB_DEVICE_INFORMATION_INIT</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
 
 
 
@@ -112,11 +116,7 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md">WDF_USB_DEVICE_INFORMATION_INIT</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveinformation.md">WdfUsbTargetDeviceRetrieveInformation</a>
+<a href="..\wdfusb\ne-wdfusb-_wdf_usb_device_traits.md">WDF_USB_DEVICE_TRAITS</a>
 
 
 

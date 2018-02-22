@@ -148,7 +148,7 @@ On success, the reference count for the SRV_CALL structure is incremented.
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
+<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
 
 
 
@@ -176,7 +176,7 @@ On success, the reference count for the SRV_CALL structure is incremented.
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 
 
@@ -188,7 +188,7 @@ On success, the reference count for the SRV_CALL structure is incremented.
 
 
 
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
 
 
 

@@ -171,7 +171,7 @@ The engine will read up to <i>MaxBytes</i> from the target, looking for a null-t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554357">ReadUnicodeStringVirtualWide</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554300">ReadMultiByteStringVirtual</a>
 
 
 

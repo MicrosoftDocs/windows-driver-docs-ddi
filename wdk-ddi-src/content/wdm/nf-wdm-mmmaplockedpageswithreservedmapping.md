@@ -155,7 +155,7 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 
 
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
 
 
 

@@ -94,7 +94,7 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_kspin.md">KSPIN</a>
+<a href="..\ks\nf-ks-ksreleasecontrol.md">KsReleaseControl</a>
 
 
 
@@ -102,7 +102,7 @@ The pin control mutex is the same mutex that is used by <i>Pin</i>'s parent. Thi
 
 
 
-<a href="..\ks\nf-ks-kspinreleasecontrol.md">KsPinReleaseControl</a>
+<a href="..\ks\nf-ks-ksacquirecontrol.md">KsAcquireControl</a>
 
 
 

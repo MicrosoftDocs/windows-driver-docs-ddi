@@ -217,7 +217,7 @@ The unnamed 25-bitfield between the <b>UnsolicitedResponse</b> and <b>HasFifoOve
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pregister_event_callback.md">RegisterEventCallback</a>
+<a href="..\hdaudio\nc-hdaudio-ptransfer_codec_verbs.md">TransferCodecVerbs</a>
 
 
 

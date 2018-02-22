@@ -116,11 +116,11 @@ Profile drivers obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
-
-
 <a href="..\bthddi\ne-bthddi-_brb_type.md">BRB_TYPE</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 

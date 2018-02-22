@@ -90,11 +90,11 @@ Returns an <b>HRESULT</b> value. If the method call was not successful, it retur
 
 ## -see-also
 
-<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprintjobcollection.md">IPrintJobCollection</a>
+
+
+
+<a href="..\printerextension\nn-printerextension-iprintjob.md">IPrintJob</a>
 
 
 

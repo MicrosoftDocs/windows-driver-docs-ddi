@@ -247,7 +247,7 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
 
 
 

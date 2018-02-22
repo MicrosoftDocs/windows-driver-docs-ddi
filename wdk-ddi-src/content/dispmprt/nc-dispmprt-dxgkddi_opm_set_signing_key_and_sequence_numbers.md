@@ -211,15 +211,15 @@ RSAES-OAEP is a parameterized encryption scheme and MGF1 is a parameterized mask
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a>
-
-
-
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_copp_compatible_information.md">DxgkDdiOPMGetCOPPCompatibleInformation</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_create_protected_output.md">DxgkDdiOPMCreateProtectedOutput</a>
 
 
 
 <a href="..\d3dkmdt\ns-d3dkmdt-_dxgkmdt_opm_encrypted_parameters.md">DXGKMDT_OPM_ENCRYPTED_PARAMETERS</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_opm_get_random_number.md">DxgkDdiOPMGetRandomNumber</a>
 
 
 

@@ -153,7 +153,7 @@ The <b>PsLookupThreadByThreadId</b> routine contains pageable code.
 
 
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentprocessid.md">PsGetCurrentProcessId</a>
+<a href="..\ntddk\nf-ntddk-pssetloadimagenotifyroutine.md">PsSetLoadImageNotifyRoutine</a>
 
 
 

@@ -111,7 +111,7 @@ The number of functions supported by the composite device. The <b>FunctionCount<
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
+<a href="..\usbdlib\nf-usbdlib-composite_device_capabilities_init.md">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
 
 
 

@@ -132,7 +132,7 @@ RDBSS defines a MID as a 16-bit value, which can be used by both the network cli
 
 
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+<a href="..\midatlax\nf-midatlax-rxmapmidtocontext.md">RxMapMidToContext</a>
 
 
 

@@ -91,16 +91,6 @@ VOID  APIENTRY* pfnBeginQuery(
 
 
 
-#### - hCommandList
-
-The handle of a command list for which to query. 
-
-
-#### - hQueryHeap
-
-The handle of a query heap, which represents an array of query results.
-
-
 #### - QueryType
 
 The type of query.
@@ -109,6 +99,16 @@ The type of query.
 #### - StartElement
 
 The value of the start element.
+
+
+#### - hCommandList
+
+The handle of a command list for which to query. 
+
+
+#### - hQueryHeap
+
+The handle of a query heap, which represents an array of query results.
 
 
 ## -returns

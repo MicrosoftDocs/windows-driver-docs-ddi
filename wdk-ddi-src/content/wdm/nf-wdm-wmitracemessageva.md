@@ -259,7 +259,7 @@ All message buffers allocated to software tracing session are full.
 
 
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+<a href="..\wdm\nf-wdm-wmitracemessage.md">WmiTraceMessage</a>
 
 
 

@@ -153,11 +153,11 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598237">NDIS_SWITCH_PORT_PROPERTY_ENUM_PARAMETERS_GET_FIRST_INFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh598277">OID_SWITCH_PORT_PROPERTY_ENUM</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -165,7 +165,7 @@ For more information about extensible switch policies, see <a href="https://msdn
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

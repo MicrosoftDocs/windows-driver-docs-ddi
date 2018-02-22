@@ -121,7 +121,7 @@ The CDROM_SUB_Q_DATA_FORMAT structure indicates the track from which to read the
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
 
 
 

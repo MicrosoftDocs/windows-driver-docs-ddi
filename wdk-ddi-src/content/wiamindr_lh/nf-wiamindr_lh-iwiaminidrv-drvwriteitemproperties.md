@@ -93,24 +93,24 @@ HRESULT drvWriteItemProperties(
 
 
 
-#### - pWiasContext [in]
-
-Pointer to a WIA item context.
-
-
 #### - lFlags [in]
 
 Is currently unused. 
 
 
-#### - pmdtc [in]
+#### - pWiasContext [in]
 
-Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context.
+Pointer to a WIA item context.
 
 
 #### - plDevErrVal [out]
 
 Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+
+
+#### - pmdtc [in]
+
+Points to a <a href="..\wiamindr_lh\ns-wiamindr_lh-_minidrv_transfer_context.md">MINIDRV_TRANSFER_CONTEXT</a> structure containing the device transfer context.
 
 
 ## -returns

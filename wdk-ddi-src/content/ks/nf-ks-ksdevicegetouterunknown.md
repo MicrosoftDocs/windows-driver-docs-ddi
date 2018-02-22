@@ -104,7 +104,7 @@ This call is an inline function call to <a href="..\ks\nf-ks-ksgetouterunknown.m
 
 
 
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+<a href="..\ks\nf-ks-ksgetouterunknown.md">KsGetOuterUnknown</a>
 
 
 

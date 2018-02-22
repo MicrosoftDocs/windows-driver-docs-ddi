@@ -200,7 +200,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
+<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
 
 
 
@@ -208,7 +208,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 
-<a href="..\printoem\ns-printoem-_oemuiobj.md">OEMUIOBJ</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 

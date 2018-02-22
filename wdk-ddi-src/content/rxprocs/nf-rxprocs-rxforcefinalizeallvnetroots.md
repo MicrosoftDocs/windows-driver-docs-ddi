@@ -165,7 +165,7 @@ Before calling <b>RxForceFinalizeAllVNetRoots</b>, a lock on the netname table a
 
 
 
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
 
 
 

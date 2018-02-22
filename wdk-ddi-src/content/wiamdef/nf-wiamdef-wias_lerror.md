@@ -91,9 +91,9 @@ TBD
 
 
 
-#### - pIWiaLog
+####### - format_string, ...
 
-Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
+Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
 
 
 #### - lResId
@@ -101,9 +101,9 @@ Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 Specifies the resource ID. This value should be set to WIALOG_NO_RESOURCE_ID.
 
 
-####### - format_string, ...
+#### - pIWiaLog
 
-Specifies a variable argument list, which starts with an ANSI format string that describes the message and any format identifiers. The ellipsis (...) specifies a variable number of arguments that need to be output. The error text should be prefixed with the full name of the method or function and generate the message in the format of "class::method, error-text".
+Pointer to an <a href="..\wia_lh\nn-wia_lh-iwialog.md">IWiaLog Interface</a>.
 
 
 ## -remarks

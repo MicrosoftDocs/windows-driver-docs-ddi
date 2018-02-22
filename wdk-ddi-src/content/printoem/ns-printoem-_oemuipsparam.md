@@ -179,7 +179,7 @@ Reserved for system use.
 
 
 
-<a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 

@@ -233,7 +233,7 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439768">FWPS_FILTER2</a>
 
 
 

@@ -123,7 +123,7 @@ If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL an
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
+<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
 
 

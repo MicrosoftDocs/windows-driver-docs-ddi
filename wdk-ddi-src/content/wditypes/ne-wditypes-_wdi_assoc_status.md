@@ -251,12 +251,12 @@ The link quality to the peer is low.
 
 
 
-#### - WDI_ASSOC_STATUS_AUTH_REQUEST_TX_NO_ACK
-
-The association failed because the port was unable to get an ACK for the 802.11 authentication request frame.
-
-
 #### - WDI_ASSOC_STATUS_ASSOC_REQUEST_TX_NO_ACK
 
 The association failed because port was unable to get an ACK for the 802.11 association request frame.
+
+
+#### - WDI_ASSOC_STATUS_AUTH_REQUEST_TX_NO_ACK
+
+The association failed because the port was unable to get an ACK for the 802.11 authentication request frame.
 

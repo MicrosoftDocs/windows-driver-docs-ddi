@@ -150,7 +150,7 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
+<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
 
 

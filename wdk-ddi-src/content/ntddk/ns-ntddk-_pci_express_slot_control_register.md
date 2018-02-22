@@ -186,9 +186,19 @@ The indicator is blinking.
 The indicator is off.
 
 
-##### - PowerIndicatorControl.IndicatorOn
+##### - AttentionIndicatorControl.IndicatorOn
 
 The indicator is on.
+
+
+##### - PowerControllerControl.PowerOff
+
+The power is off.
+
+
+##### - PowerControllerControl.PowerOn
+
+The power is on.
 
 
 ##### - PowerIndicatorControl.IndicatorBlink
@@ -227,7 +237,7 @@ The power is on.
 
 ##### - PowerControllerControl.PowerOff
 
-The power is off.
+The indicator is on.
 
 
 #### - ElectromechanicalLockControl

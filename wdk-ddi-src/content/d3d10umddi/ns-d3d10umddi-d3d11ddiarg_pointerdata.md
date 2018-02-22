@@ -135,7 +135,7 @@ D3D11DDIARG_POINTERDATA contains the location of the data for one of the interfa
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_setshader_with_ifaces.md">VsSetShaderWithIfaces</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_setshader_with_ifaces.md">PsSetShaderWithIfaces</a>
 
 
 

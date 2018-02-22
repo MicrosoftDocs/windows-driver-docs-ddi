@@ -104,7 +104,7 @@ When an event is set to the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
 
 
 
@@ -112,7 +112,7 @@ When an event is set to the
 
 
 
-<a href="..\ndis\nf-ndis-ndisinitializeevent.md">NdisInitializeEvent</a>
+<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
 
 
 

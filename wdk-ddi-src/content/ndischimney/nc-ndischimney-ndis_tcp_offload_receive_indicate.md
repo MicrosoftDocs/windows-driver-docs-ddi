@@ -325,7 +325,21 @@ In the
 
 
 
+
+
+
+
+
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_return_handler.md">
+   MiniportTcpOffloadReceiveReturn</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

@@ -125,11 +125,11 @@ A session event causes a transition from one session state to another. For more 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
-
-
-
 <a href="..\wdm\ne-wdm-_io_session_state.md">IO_SESSION_STATE</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
 
 
 

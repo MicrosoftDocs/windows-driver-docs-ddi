@@ -148,7 +148,7 @@ File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a fil
 
 
 
-<a href="..\ntifs\nf-ntifs-ioenumeratedeviceobjectlist.md">IoEnumerateDeviceObjectList</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

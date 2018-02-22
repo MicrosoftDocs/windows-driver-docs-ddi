@@ -135,7 +135,7 @@ Indicates the interval in seconds that the request can execute before the port d
 
 ### -field StorAddressOffset
 
-The location of the target device's <a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a> address structure, in bytes, from the beginning of this structure.
+The location of the target device's <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a> address structure, in bytes, from the beginning of this structure.
 
 
 ### -field SenseInfoOffset

@@ -122,7 +122,7 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 ## -see-also
 
-<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 
@@ -138,7 +138,7 @@ In Windows 7, <a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">Wdml
 
 
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550874">IRP_MN_FILTER_RESOURCE_REQUIREMENTS</a>
 
 
 

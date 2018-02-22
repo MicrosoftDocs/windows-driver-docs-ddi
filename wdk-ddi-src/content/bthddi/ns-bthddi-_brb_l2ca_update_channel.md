@@ -148,8 +148,7 @@ By building and sending a <b>BRB_L2CA_UPDATE_CHANNEL</b> request, profile driver
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536616">
-   BRB_L2CA_OPEN_CHANNEL_RESPONSE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536620">BRB_L2CA_UPDATE_CHANNEL</a>
 
 
 

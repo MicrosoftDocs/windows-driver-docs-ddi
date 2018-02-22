@@ -290,7 +290,7 @@ A WSK application's <i>WskAcceptEvent</i> event callback function must not wait 
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_get_remote_address.md">WskGetRemoteAddress</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 

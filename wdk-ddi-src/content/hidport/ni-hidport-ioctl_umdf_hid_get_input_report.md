@@ -112,11 +112,11 @@ HID minidrivers that carry out the I/O to the device must also:
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439672">IOCTL_UMDF_HID_SET_OUTPUT_REPORT</a>
-
-
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439672">IOCTL_UMDF_HID_SET_OUTPUT_REPORT</a>
 
 
 

@@ -155,11 +155,11 @@ The GPIO_CLIENT_SAVE_BANK_HARDWARE_CONTEXT function type is defined in the Gpioc
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439490">GPIO_CLX_RegisterClient</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439399">CLIENT_QueryControllerBasicInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439414">CLIENT_RestoreBankHardwareContext</a>
 
 
 

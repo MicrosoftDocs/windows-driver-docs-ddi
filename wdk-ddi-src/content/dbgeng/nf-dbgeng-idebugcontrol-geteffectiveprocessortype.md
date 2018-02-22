@@ -113,7 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546670">GetExecutingProcessorType</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a>
 
 
 

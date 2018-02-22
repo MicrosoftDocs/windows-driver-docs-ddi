@@ -185,6 +185,10 @@ For more information about debugging clients, see Debugging Server and Debugging
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
  
 
  

@@ -85,7 +85,7 @@ Specifies a value of type ULONG.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetvirtualaddress.md">ScsiPortGetVirtualAddress</a>
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
@@ -93,7 +93,7 @@ Specifies a value of type ULONG.
 
 
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
 
 
 

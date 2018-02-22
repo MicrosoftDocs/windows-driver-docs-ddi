@@ -188,6 +188,16 @@ The IO_CSQ_RELEASE_LOCK function type is defined in the Wdm.h header file. To mo
 
 
 
+
+
+<a href="..\wdm\nc-wdm-io_csq_insert_irp.md">CsqInsertIrp</a>
+
+
+
+<a href="..\wdm\nc-wdm-io_csq_acquire_lock.md">CsqAcquireLock</a>
+
+
+
 <a href="..\wdm\nf-wdm-iocsqinitialize.md">IoCsqInitialize</a>
 
 

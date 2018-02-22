@@ -216,7 +216,7 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
 
 
 

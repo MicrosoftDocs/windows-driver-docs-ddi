@@ -181,8 +181,7 @@ For more information on how to use net buffers, see
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -191,12 +190,12 @@ For more information on how to use net buffers, see
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff568391">
-   NET_BUFFER_LIST_CONTEXT_DATA_START</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

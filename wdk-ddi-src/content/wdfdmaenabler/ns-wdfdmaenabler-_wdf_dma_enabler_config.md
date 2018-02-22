@@ -178,7 +178,7 @@ On Windows 7 and Windows Vista, when the driver provides a nonzero value for <
 
 
 
-<a href="..\wdfdmaenabler\ne-wdfdmaenabler-_wdf_dma_profile.md">WDF_DMA_PROFILE</a>
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_fill.md">EvtDmaEnablerFill</a>
 
 
 

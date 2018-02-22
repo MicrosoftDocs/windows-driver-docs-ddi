@@ -86,9 +86,9 @@ TBD
 
 
 
-#### - u8Augend [in]
+#### - pu8Result [out]
 
-The first value in the equation.
+A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
 
 
 #### - u8Addend [in]
@@ -96,9 +96,9 @@ The first value in the equation.
 The value to add to <i>u8Augend</i>.
 
 
-#### - pu8Result [out]
+#### - u8Augend [in]
 
-A pointer to the sum. If the operation results in a value that overflows or underflows the capacity of the type, the function returns STATUS_INTEGER_OVERFLOW and this parameter is not valid.
+The first value in the equation.
 
 
 ## -remarks

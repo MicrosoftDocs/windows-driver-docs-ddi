@@ -127,7 +127,7 @@ Callers of <b>PoSetPowerState</b> must be running at IRQL &lt;= APC_LEVEL except
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+<a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
 
 
 

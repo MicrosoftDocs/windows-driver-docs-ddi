@@ -241,8 +241,8 @@ The following flags are defined for the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
 

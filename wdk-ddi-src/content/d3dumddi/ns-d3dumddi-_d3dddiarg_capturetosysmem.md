@@ -115,7 +115,7 @@ Because the source resource that is specified by the <b>hSrcResource</b> member 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_capturetosysmem.md">CaptureToSysMem</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_blt.md">Blt</a>
 
 
 

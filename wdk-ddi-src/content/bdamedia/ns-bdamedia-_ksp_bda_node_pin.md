@@ -92,7 +92,7 @@ Identifier of an output pin of the filter.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="..\bdasup\nf-bdasup-bdapropertygetcontrollingpinid.md">BdaPropertyGetControllingPinId</a>
 
 
 

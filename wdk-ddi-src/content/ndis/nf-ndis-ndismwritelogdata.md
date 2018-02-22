@@ -165,7 +165,8 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
 
 
 
@@ -174,8 +175,7 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
 
 

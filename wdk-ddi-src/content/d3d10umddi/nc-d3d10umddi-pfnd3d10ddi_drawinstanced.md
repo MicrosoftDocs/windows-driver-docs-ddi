@@ -86,19 +86,14 @@ VOID APIENTRY DrawInstanced(
 
 
 
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - VertexCountPerInstance [in]
-
- The number of vertices per instance of the buffer that vertices are read from to draw the primitives. 
-
-
 #### - InstanceCount [in]
 
  The number of instances of the buffer that vertices are read from to draw the primitives. 
+
+
+#### - StartInstanceLocation [in]
+
+ The first instance of the buffer that vertices are read from to draw the primitives. 
 
 
 #### - StartVertexLocation [in]
@@ -106,9 +101,14 @@ VOID APIENTRY DrawInstanced(
  The first vertex in the buffer that vertices are read from to draw the primitives. 
 
 
-#### - StartInstanceLocation [in]
+#### - VertexCountPerInstance [in]
 
- The first instance of the buffer that vertices are read from to draw the primitives. 
+ The number of vertices per instance of the buffer that vertices are read from to draw the primitives. 
+
+
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
 
 
 ## -returns

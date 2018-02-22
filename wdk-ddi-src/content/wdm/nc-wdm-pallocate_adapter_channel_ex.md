@@ -232,11 +232,16 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
 <a href="..\wdm\nc-wdm-pmap_transfer_ex.md">MapTransferEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
+
+
+
+
+
 
 
 
@@ -244,7 +249,6 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

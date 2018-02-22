@@ -108,7 +108,7 @@ For more information about spin locks, see <a href="https://msdn.microsoft.com/l
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551908">KeAcquireInStackQueuedSpinLockAtDpcLevel</a>
+<a href="..\wdm\nf-wdm-ketrytoacquirespinlockatdpclevel.md">KeTryToAcquireSpinLockAtDpcLevel</a>
 
 
 

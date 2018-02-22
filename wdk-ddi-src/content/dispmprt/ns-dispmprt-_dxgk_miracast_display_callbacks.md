@@ -86,11 +86,11 @@ A pointer to the display port driver's <a href="..\dispmprt\nc-dispmprt-dxgkcb_m
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_report_chunk_info.md">DxgkCbReportChunkInfo</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_send_message.md">DxgkCbMiracastSendMessage</a>
+
+
+
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_miracast_report_chunk_info.md">DxgkCbReportChunkInfo</a>
 
 
 

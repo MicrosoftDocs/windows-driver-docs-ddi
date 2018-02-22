@@ -151,7 +151,7 @@ For more information about callback objects, see <a href="https://msdn.microsoft
 
 
 
-<a href="..\wdm\nf-wdm-exnotifycallback.md">ExNotifyCallback</a>
+<a href="..\wdm\nf-wdm-exregistercallback.md">ExRegisterCallback</a>
 
 
 

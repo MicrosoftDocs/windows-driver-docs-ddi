@@ -133,7 +133,7 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
-<a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>
+<a href="..\winddiui\nf-winddiui-drvdevicepropertysheets.md">DrvDevicePropertySheets</a>
 
 
 

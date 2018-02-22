@@ -132,7 +132,7 @@ To initialize a WDF_CHILD_RETRIEVE_INFO structure, the driver must call <a href=
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_address_description_header.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER</a>
+<a href="..\wdfchildlist\ne-wdfchildlist-_wdf_child_list_retrieve_device_status.md">WDF_CHILD_LIST_RETRIEVE_DEVICE_STATUS</a>
 
 
 

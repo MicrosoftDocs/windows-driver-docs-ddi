@@ -113,7 +113,7 @@ A driver that acquired a pointer to the target device by calling <a href="..\wdm
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\nf-wdm-iodetachdevice.md">IoDetachDevice</a>
 
 
 

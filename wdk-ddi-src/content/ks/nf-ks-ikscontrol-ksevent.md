@@ -116,11 +116,11 @@ To disable an event, set <i>Event</i> to <b>NULL</b>, <i>EventLength</i> to zero
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
 <a href="..\ks\nf-ks-ikscontrol-ksevent.md">KSEVENT</a>
+
+
+
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 

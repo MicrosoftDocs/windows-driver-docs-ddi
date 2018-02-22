@@ -201,7 +201,7 @@ The <b>EVT_WDF_IO_QUEUE_IO_DEVICE_CONTROL</b> function type is defined in the Wd
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_internal_device_control.md">EvtIoInternalDeviceControl</a>
 
 
 

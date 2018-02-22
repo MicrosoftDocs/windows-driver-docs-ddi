@@ -91,17 +91,6 @@ TBD
 
 
 
-#### - MiniportAdapterHandle [in]
-
-The miniport adapter handle that NDIS originally passed to the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
-
-
-#### - Status [in]
-
-The final status of the reset operation just completed
-
-
 #### - AddressingReset [in]
 
 A Boolean value that is <b>TRUE</b> if NDIS is responsible for restoring the settings for multicast
@@ -117,6 +106,17 @@ If
 
 For more information, see 
      <a href="https://msdn.microsoft.com/library/windows/hardware/ff546572">Hardware Reset</a>.
+
+
+#### - MiniportAdapterHandle [in]
+
+The miniport adapter handle that NDIS originally passed to the 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function.
+
+
+#### - Status [in]
+
+The final status of the reset operation just completed
 
 
 ## -remarks
@@ -150,7 +150,7 @@ In NDIS 6.0 and later, callers of
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

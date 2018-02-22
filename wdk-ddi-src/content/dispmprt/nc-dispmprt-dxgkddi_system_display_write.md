@@ -157,6 +157,8 @@ Windows kernel-mode functions might not be available while this function is bein
 
 ## -see-also
 
+
+
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
 
 

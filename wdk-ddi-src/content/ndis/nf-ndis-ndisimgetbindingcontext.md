@@ -121,7 +121,8 @@ All protocol drivers that call
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
+   NdisIMInitializeDeviceInstanceEx</a>
 
 
 

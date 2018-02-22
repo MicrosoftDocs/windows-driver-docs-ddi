@@ -209,10 +209,6 @@ NetDMA calls
 
 ## -see-also
 
-<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
-
-
-
 <a href="..\netdma\nc-netdma-dma_abort_handler.md">ProviderAbortDma</a>
 
 
@@ -222,6 +218,10 @@ NetDMA calls
 
 
 <a href="..\netdma\nc-netdma-dma_channel_allocate_handler.md">ProviderAllocateDmaChannel</a>
+
+
+
+<a href="..\netdma\ns-netdma-_net_dma_descriptor.md">NET_DMA_DESCRIPTOR</a>
 
 
 

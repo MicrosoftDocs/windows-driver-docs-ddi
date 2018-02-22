@@ -89,7 +89,7 @@ Specifies the value to be written into the low-order part of the address.
 
 
 
-<a href="..\ndis\nf-ndis-ndisgetphysicaladdresslow.md">NdisGetPhysicalAddressLow</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557129">NDIS_PHYSICAL_ADDRESS</a>
 
 
 

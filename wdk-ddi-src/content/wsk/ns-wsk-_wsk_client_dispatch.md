@@ -142,7 +142,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_client_event.md">WskClientEvent</a>
 
 
 
@@ -154,7 +154,7 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_npi.md">WSK_PROVIDER_NPI</a>
 
 
 

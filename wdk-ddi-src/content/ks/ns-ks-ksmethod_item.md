@@ -187,7 +187,7 @@ A minidriver uses the KSMETHOD_ITEM structure to define methods in a method set.
 
 
 
-<a href="..\ks\ns-ks-ksfastmethod_item.md">KSFASTMETHOD_ITEM</a>
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrSupportHandler</a>
 
 
 

@@ -160,11 +160,11 @@ For information about other string-handling routines, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlupperstring.md">RtlUpperString</a>
 
 
 

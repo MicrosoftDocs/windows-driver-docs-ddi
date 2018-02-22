@@ -1083,7 +1083,7 @@ SYNCHRONIZE
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetinformationfile.md">FltSetInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -1107,7 +1107,7 @@ SYNCHRONIZE
 
 
 
-<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
@@ -1127,7 +1127,7 @@ SYNCHRONIZE
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+<a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
 
 
 

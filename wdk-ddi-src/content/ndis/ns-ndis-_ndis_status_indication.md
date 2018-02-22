@@ -227,7 +227,7 @@ Protocol drivers receive status indications at the
 
 
 
-<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567391">NDIS_STATUS_LINK_STATE</a>
 
 
 

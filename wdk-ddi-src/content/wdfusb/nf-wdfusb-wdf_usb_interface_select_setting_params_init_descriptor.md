@@ -174,6 +174,10 @@ Status = WdfUsbInterfaceSelectSetting(
 
 
 
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
+
+
+
  
 
  

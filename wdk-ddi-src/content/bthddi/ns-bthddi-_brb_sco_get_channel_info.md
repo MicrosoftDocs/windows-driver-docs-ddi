@@ -365,6 +365,10 @@ To get the settings and statistics of a SCO channel, profile drivers should
 
 
 
+<a href="..\bthddi\ns-bthddi-_baseband_channel_info.md">BASEBAND_CHANNEL_INFO</a>
+
+
+
  
 
  

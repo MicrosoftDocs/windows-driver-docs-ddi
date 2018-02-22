@@ -165,7 +165,7 @@ The driver can modify the allocation private driver data that is passed in the <
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_createdevice.md">DXGKARG_CREATEDEVICE</a>
+
 
 
 

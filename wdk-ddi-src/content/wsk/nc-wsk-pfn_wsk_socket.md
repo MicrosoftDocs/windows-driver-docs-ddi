@@ -416,7 +416,7 @@ The WSK subsystem allocates the memory for the socket object structure (WSK_SOCK
 
 
 
-<a href="..\wsk\nf-wsk-wskcaptureprovidernpi.md">WskCaptureProviderNPI</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 

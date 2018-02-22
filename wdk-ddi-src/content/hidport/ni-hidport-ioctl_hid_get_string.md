@@ -149,7 +149,7 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
 
 
 

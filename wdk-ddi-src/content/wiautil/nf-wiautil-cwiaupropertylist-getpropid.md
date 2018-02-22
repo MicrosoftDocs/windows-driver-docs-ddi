@@ -84,11 +84,11 @@ The <b>CWiauPropertyList::GetPropId</b> method returns the property ID for the p
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540400">CWiauPropertyList::LookupPropId</a>
-
-
-
 <a href="..\wiautil\nl-wiautil-cwiaupropertylist.md">CWiauPropertyList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540400">CWiauPropertyList::LookupPropId</a>
 
 
 

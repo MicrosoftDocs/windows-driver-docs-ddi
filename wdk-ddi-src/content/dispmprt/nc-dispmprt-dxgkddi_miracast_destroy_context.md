@@ -118,7 +118,7 @@ The operating system groups the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracas
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_add_device.md">DxgkDdiAddDevice</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_create_context.md">DxgkDdiMiracastCreateContext</a>
 
 
 
@@ -126,7 +126,7 @@ The operating system groups the <a href="..\dispmprt\nc-dispmprt-dxgkddi_miracas
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_miracast_io_control.md">MiracastIoControl</a>
+<a href="..\dispmprt\nc-dispmprt-dxgkddi_miracast_handle_io_control.md">DxgkDdiMiracastIoControl</a>
 
 
 

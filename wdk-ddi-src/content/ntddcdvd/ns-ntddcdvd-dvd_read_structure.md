@@ -101,11 +101,11 @@ The DVD_READ_STRUCTURE structure contains data such as copyright information, or
 
 ## -see-also
 
-<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
-
-
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_structure.md">IOCTL_DVD_READ_STRUCTURE</a>
+
+
+
+<a href="..\ntddcdvd\ne-ntddcdvd-dvd_structure_format.md">DVD_STRUCTURE_FORMAT</a>
 
 
 

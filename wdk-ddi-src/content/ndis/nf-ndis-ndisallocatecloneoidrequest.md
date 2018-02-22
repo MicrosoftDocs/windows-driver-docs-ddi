@@ -98,18 +98,18 @@ TBD
 
 
 
-#### - Request [in]
-
-A pointer to an existing 
-     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure from which NDIS
-     copies the information to the newly allocated structure.
-
-
 #### - CloneRequest [out]
 
 A pointer to a pointer to an NDIS_OID_REQUEST structure. If NDIS returns NDIS_STATUS_SUCCESS, NDIS
      provides a pointer to the new, cloned NDIS_OID_REQUEST structure; otherwise, NDIS sets the pointer value
      to <b>NULL</b>.
+
+
+#### - Request [in]
+
+A pointer to an existing 
+     <a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a> structure from which NDIS
+     copies the information to the newly allocated structure.
 
 
 ## -returns

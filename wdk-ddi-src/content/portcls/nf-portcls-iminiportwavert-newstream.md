@@ -134,7 +134,7 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
 
 
 
@@ -142,7 +142,7 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536749">IMiniportWaveRTStream::GetPosition</a>
+IMiniportWaveRTStream
 
 
 
@@ -150,7 +150,7 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 
 
-IMiniportWaveRTStream
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
 
 
 

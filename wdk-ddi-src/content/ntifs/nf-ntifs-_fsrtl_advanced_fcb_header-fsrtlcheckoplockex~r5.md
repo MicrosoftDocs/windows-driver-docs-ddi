@@ -334,7 +334,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltcheckoplockex.md">
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545510">FSCTL_REQUEST_BATCH_OPLOCK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
 
 
 

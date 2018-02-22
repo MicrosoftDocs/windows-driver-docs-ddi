@@ -160,7 +160,7 @@ For a code example of how to use the <b>RetrieveUsbInterface</b> method, see <a 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560366">IWDFUsbTargetDevice::GetNumInterfaces</a>
+<a href="..\usb\ns-usb-_usbd_interface_information.md">USBD_INTERFACE_INFORMATION</a>
 
 
 

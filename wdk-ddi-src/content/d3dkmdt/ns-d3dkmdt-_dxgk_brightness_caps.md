@@ -110,11 +110,11 @@ Do not assume that the <b>SmoothBrightness</b> members of <a href="..\d3dkmdt\ns
 
 ## -see-also
 
-<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_state.md">DXGK_BRIGHTNESS_STATE</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgk_brightness_get_caps.md">DxgkDdiGetBrightnessCaps</a>
+
+
+
+<a href="..\d3dkmdt\ns-d3dkmdt-_dxgk_brightness_state.md">DXGK_BRIGHTNESS_STATE</a>
 
 
 

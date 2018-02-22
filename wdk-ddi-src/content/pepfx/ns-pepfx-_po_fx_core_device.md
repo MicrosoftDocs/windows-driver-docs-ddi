@@ -129,7 +129,7 @@ For more information about component transitions between the active condition an
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186630">ComponentCriticalTransitionCallback</a>
+<a href="..\pepfx\nf-pepfx-pofxregistercoredevice.md">PoFxRegisterCoreDevice</a>
 
 
 

@@ -120,6 +120,10 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
+
+
+
  
 
  

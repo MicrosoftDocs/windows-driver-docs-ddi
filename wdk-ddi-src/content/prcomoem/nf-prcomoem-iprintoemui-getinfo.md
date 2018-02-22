@@ -188,7 +188,7 @@ For more information about creating and installing user interface plug-ins, see 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553221">IPrintOemPS::GetInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554256">IPrintOemUni::GetInfo</a>
 
 
 

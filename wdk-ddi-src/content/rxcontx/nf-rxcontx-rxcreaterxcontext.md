@@ -159,7 +159,7 @@ When this value is set, the RX_CONTEXT structure was allocated from non-paged po
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest.md">RxCompleteRequest</a>
 
 
 

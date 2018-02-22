@@ -257,7 +257,7 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
 
 

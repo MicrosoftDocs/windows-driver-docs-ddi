@@ -169,7 +169,7 @@ The <b>FwpsQueryConnectionSioFormatRedirectRecords0</b> function is designed to 
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/hh859713">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (WDK)</a>
+<a href="https://msdn.microsoft.com/E0D7CC1A-8F93-45A0-9543-3F2ACAF352F5">SIO_QUERY_WFP_CONNECTION_REDIRECT_RECORDS (SDK)</a>
 
 
 

@@ -114,11 +114,11 @@ The <i>DriverEntry</i> routine can call <b>IoRegisterBootDriverReinitialization<
 
 
 
-<a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a>
-
-
-
 <a href="..\ntddk\nc-ntddk-driver_reinitialize.md">Reinitialize</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-ioregisterdriverreinitialization.md">IoRegisterDriverReinitialization</a>
 
 
 

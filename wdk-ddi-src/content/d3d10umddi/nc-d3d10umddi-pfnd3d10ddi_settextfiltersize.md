@@ -84,9 +84,9 @@ VOID APIENTRY SetTextFilterSize(
 
 
 
-#### - hDevice [in]
+#### - Height [in]
 
- A handle to the display device (graphics context).
+ The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
 
 
 #### - Width [in]
@@ -94,9 +94,9 @@ VOID APIENTRY SetTextFilterSize(
  The width of the monochrome convolution filter. The width can be from 1 to 7 texels.
 
 
-#### - Height [in]
+#### - hDevice [in]
 
- The height of the monochrome convolution filter. The height can be from 1 to 7 texels.
+ A handle to the display device (graphics context).
 
 
 ## -returns

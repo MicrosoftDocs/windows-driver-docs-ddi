@@ -117,7 +117,7 @@ All calls to <i>DxgkDdiReleaseSwizzlingRange</i> are serialized among themselves
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_releaseswizzlingrange.md">DXGKARG_RELEASESWIZZLINGRANGE</a>
+
 
 
 

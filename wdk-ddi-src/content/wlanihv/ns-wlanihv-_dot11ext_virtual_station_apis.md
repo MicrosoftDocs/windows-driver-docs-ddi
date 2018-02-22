@@ -134,8 +134,8 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_request_virtual_station.md">
-   Dot11ExtRequestVirtualStation</a>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_virtual_station.md">
+   Dot11ExtIhvInitVirtualStation</a>
 
 
 
@@ -144,8 +144,8 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11ext_set_virtual_station_ap_properties.md">
-   Dot11ExtSetVirtualStationAPProperties</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_request_virtual_station.md">
+   Dot11ExtRequestVirtualStation</a>
 
 
 

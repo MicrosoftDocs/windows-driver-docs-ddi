@@ -180,11 +180,11 @@ Callers of <b>IoGetDeviceInterfacePropertyData</b> must be running at IRQL = PAS
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-
-
-
 <a href="..\wdm\nf-wdm-iosetdeviceinterfacepropertydata.md">IoSetDeviceInterfacePropertyData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 

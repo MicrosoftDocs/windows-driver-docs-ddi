@@ -1060,6 +1060,7 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 
+
 ## -see-also
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
@@ -1070,7 +1071,19 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
+
+
 
 
 
@@ -1083,6 +1096,8 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
 
 
 
@@ -1114,7 +1129,6 @@ MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call sh
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550839">MRxTruncate</a>
 
 
 

@@ -103,7 +103,7 @@ For information about when the framework calls <b>OnCleanupFile</b>, see <a href
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 

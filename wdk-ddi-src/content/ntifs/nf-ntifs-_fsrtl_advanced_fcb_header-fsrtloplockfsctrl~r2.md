@@ -242,7 +242,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">F
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545468">FSCTL_OPLOCK_BREAK_ACKNOWLEDGE</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtluninitializeoplock.md">FsRtlUninitializeOplock</a>
 
 
 
@@ -270,7 +270,7 @@ Minifilters should call <a href="..\fltkernel\nf-fltkernel-fltoplockfsctrl.md">F
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545538">FSCTL_REQUEST_OPLOCK_LEVEL_1</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545546">FSCTL_REQUEST_OPLOCK_LEVEL_2</a>
 
 
 

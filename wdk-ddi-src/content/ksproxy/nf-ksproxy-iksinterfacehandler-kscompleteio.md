@@ -110,7 +110,7 @@ For more information about <b>IMediaSample</b>, see the Microsoft Windows SDK do
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559869">IKsInterfaceHandler::KsProcessMediaSamples</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560710">IKsPin::KsDeliver</a>
 
 
 

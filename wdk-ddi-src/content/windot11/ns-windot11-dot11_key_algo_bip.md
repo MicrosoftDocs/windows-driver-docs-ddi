@@ -87,12 +87,12 @@ The length, in bytes, of the BIP key material in <b>ucBIPKey</b> array.
 
 
 
-#### - ucIPN[6]
-
-The initial IGTK packet number (IPN) used for replay protection.
-
-
 #### - ucBIPKey[1]
 
 The BIP key material.
+
+
+#### - ucIPN[6]
+
+The initial IGTK packet number (IPN) used for replay protection.
 

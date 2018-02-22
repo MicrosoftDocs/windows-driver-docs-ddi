@@ -161,7 +161,7 @@ The display miniport driver can indicate up to four bank preferences in the <b>H
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562047">DXGK_SEGMENTPREFERENCE</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
 
 
 

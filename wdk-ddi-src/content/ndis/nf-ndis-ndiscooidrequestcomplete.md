@@ -171,7 +171,7 @@ Only clients and stand-alone call managers, which register themselves with NDIS 
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmoidrequest.md">NdisMCmOidRequest</a>
+<a href="..\ndis\nf-ndis-ndismcooidrequestcomplete.md">NdisMCoOidRequestComplete</a>
 
 
 

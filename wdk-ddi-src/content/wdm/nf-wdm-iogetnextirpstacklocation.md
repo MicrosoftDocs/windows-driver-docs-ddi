@@ -97,7 +97,7 @@ The return value is a pointer to an <a href="..\wdm\ns-wdm-_io_stack_location.md
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetnextirpstacklocation.md">IoSetNextIrpStackLocation</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 

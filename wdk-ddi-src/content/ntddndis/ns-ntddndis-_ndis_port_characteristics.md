@@ -361,11 +361,11 @@ NDIS uses a linked list of ports in port activation Plug and Play (PnP) events. 
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port.md">NDIS_PORT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568742">NET_IF_DIRECTION_TYPE</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_port_array.md">NDIS_PORT_ARRAY</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-connect-status-ex">OID_GEN_MEDIA_CONNECT_STATUS_EX</a>
 
 
 

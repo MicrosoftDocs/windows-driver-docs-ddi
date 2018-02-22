@@ -87,7 +87,7 @@ This macro
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
 
 

@@ -99,6 +99,10 @@ The number of bytes of metadata flushed.
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfsgetiostatistics.md">ClfsGetIoStatistics</a>
+
+
+
 <a href="..\wdm\ns-wdm-_cls_io_statistics_header.md">CLFS_IO_STATISTICS_HEADER</a>
 
 

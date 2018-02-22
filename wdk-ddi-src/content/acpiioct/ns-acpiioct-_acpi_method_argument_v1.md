@@ -156,7 +156,7 @@ For more information about how to use ACPI_METHOD_ARGUMENT structures to supply 
 
 ## -see-also
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_eval_input_buffer_complex_v1.md">ACPI_EVAL_INPUT_BUFFER_COMPLEX</a>
+<a href="..\acpiioct\ns-acpiioct-_acpi_eval_output_buffer_v1.md">ACPI_EVAL_OUTPUT_BUFFER</a>
 
 
 

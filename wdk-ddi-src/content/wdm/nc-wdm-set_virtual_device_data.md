@@ -125,7 +125,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451552">SetVi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
+
 
 
 

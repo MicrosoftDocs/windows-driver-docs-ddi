@@ -145,11 +145,19 @@ The following code snippet shows an example of an implementation of a method han
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
+
 <a href="..\ks\ns-ks-ksmethod_set.md">KSMETHOD_SET</a>
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksmethod.md">KSMETHOD</a>
+
+
+<a href="..\ks\nf-ks-ksmethodhandler.md">KsMethodHandler</a>
+
+
 
 
 

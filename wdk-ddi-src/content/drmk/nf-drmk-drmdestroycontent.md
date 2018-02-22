@@ -119,6 +119,10 @@ A KS audio filter can only use <code>DrmDestroyContent</code> to delete a DRM co
 
 
 
+<a href="..\drmk\nf-drmk-drmcreatecontentmixed.md">DrmCreateContentMixed</a>
+
+
+
  
 
  

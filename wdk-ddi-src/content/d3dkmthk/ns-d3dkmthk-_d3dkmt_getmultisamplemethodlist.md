@@ -123,7 +123,7 @@ If the runtime returns a non-<b>NULL</b> value in <b>pMethodList</b>, the runtim
 
 
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetmultisamplemethodlist.md">D3DKMTGetMultisampleMethodList</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 

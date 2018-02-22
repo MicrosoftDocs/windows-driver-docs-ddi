@@ -86,14 +86,14 @@ typedef struct _RILCALLMEDIASTATE {
 ### -field RILCALLMEDIASTATEUNION
 
 
-#### - stAudioState
-
-
-#### - stVideoState
-
-
 #### - dwCustomStateSpecific
 
 
 #### - pad
+
+
+#### - stAudioState
+
+
+#### - stVideoState
 

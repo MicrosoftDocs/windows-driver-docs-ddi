@@ -108,6 +108,33 @@ TBD
 
 
 
+#### - Buffer [in]
+
+A pointer to the buffer descriptor previously passed to 
+     <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>.
+
+
+#### - Length [in]
+
+The length in bytes of the transfer. This value also was passed to 
+     <b>NdisMSetupDmaTransfer</b>.
+
+
+#### - MiniportDmaHandle [in]
+
+The handle returned when the 
+     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
+     called the 
+     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">
+     NdisMRegisterDmaChannel</a> function.
+
+
+#### - Offset [in]
+
+The byte offset at which the transfer began. This value also was passed to 
+     <b>NdisMSetupDmaTransfer</b>.
+
+
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the final status of the DMA
@@ -128,33 +155,6 @@ The data has been transferred and flushed to host memory or to the device to mai
 #### NDIS_STATUS_RESOURCES
 
 The DMA controller was released but the data transfer might be incoherent.
-
-
-#### - MiniportDmaHandle [in]
-
-The handle returned when the 
-     <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a> function
-     called the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">
-     NdisMRegisterDmaChannel</a> function.
-
-
-#### - Buffer [in]
-
-A pointer to the buffer descriptor previously passed to 
-     <a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>.
-
-
-#### - Offset [in]
-
-The byte offset at which the transfer began. This value also was passed to 
-     <b>NdisMSetupDmaTransfer</b>.
-
-
-#### - Length [in]
-
-The length in bytes of the transfer. This value also was passed to 
-     <b>NdisMSetupDmaTransfer</b>.
 
 
 #### - WriteToDevice [in]
@@ -180,11 +180,11 @@ The length in bytes of the transfer. This value also was passed to
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismsetupdmatransfer.md">NdisMSetupDmaTransfer</a>
 
 
 

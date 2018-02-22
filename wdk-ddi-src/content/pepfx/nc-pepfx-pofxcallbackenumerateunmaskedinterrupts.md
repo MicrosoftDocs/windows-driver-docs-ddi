@@ -142,7 +142,7 @@ The PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186632">EnumerateInterruptSource</a>
+
 
 
 

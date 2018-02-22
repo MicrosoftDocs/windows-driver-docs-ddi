@@ -96,9 +96,9 @@ VOID APIENTRY CreateRasterizerState(
  A handle to the display device (graphics context).
 
 
-#### - pRasterizerDesc [in]
+#### - hRTRasterizerState [in]
 
- A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_rasterizer_desc.md">D3D10_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a rasterizer state. 
+ A handle to the rasterizer state that the driver should use anytime it calls back into the Direct3D runtime. 
 
 
 #### - hRasterizerState [in]
@@ -106,9 +106,9 @@ VOID APIENTRY CreateRasterizerState(
  A handle to the driver's private data for the rasterizer state. The driver returns the size, in bytes, of the memory region that the Microsoft Direct3D runtime must allocate for the private data from a call to the driver's <a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterasterizerstatesize.md">CalcPrivateRasterizerStateSize</a> function. The handle is really just a pointer to a region of memory, the size of which the driver requested. The driver uses this region of memory to store internal data structures that are related to its rasterizer state object.
 
 
-#### - hRTRasterizerState [in]
+#### - pRasterizerDesc [in]
 
- A handle to the rasterizer state that the driver should use anytime it calls back into the Direct3D runtime. 
+ A pointer to a <a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_rasterizer_desc.md">D3D10_DDI_RASTERIZER_DESC</a> structure that describes the parameters that the user-mode display driver uses to create a rasterizer state. 
 
 
 ## -returns
@@ -151,7 +151,7 @@ The user-mode display driver is not required to create more than 4,096 unique in
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_seterror_cb.md">pfnSetErrorCb</a>
 
 
 

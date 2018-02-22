@@ -100,11 +100,11 @@ A filter driver must call
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549936">FilterDriverUnload</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

@@ -91,7 +91,7 @@ The <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a> structure i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
+<a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
 
 
 

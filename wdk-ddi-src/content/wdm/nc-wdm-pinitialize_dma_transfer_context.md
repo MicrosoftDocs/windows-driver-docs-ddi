@@ -133,6 +133,12 @@ The DMA transfer context that is supplied to <b>AllocateAdapterChannelEx</b>, <b
 
 
 
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
+
 <a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
 
 

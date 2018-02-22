@@ -214,6 +214,10 @@ Time values <b>CreationTime</b>, <b>LastAccessTime</b>, and <b>LastWriteTime</b>
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfscreatescancontext.md">ClfsCreateScanContext</a>
+
+
+
 <a href="..\wdm\ns-wdm-_cls_scan_context.md">CLFS_SCAN_CONTEXT</a>
 
 

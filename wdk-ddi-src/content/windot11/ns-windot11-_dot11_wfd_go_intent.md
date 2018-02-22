@@ -81,12 +81,12 @@ typedef struct _DOT11_WFD_GO_INTENT {
 
 
 
-#### - TieBreaker:1
-
-If set, indicates that group ownership is granted.
-
-
 #### - Intent:7
 
 Group ownership intent level. The value of the local device intent is compared to the remote device intent to negociate ownership.
+
+
+#### - TieBreaker:1
+
+If set, indicates that group ownership is granted.
 

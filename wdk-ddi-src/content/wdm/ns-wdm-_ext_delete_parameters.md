@@ -116,7 +116,7 @@ Your driver can use an <a href="https://msdn.microsoft.com/library/windows/hardw
 
 
 
-<a href="..\wdm\nf-wdm-exinitializedeletetimerparameters.md">ExInitializeDeleteTimerParameters</a>
+<a href="..\wdm\nf-wdm-exdeletetimer.md">ExDeleteTimer</a>
 
 
 

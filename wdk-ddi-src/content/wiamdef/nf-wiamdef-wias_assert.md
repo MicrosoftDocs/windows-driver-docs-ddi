@@ -83,14 +83,14 @@ TBD
 
 
 
-#### - HInst
-
-Handle to the DLL (driver).
-
-
 #### - Expression
 
 Specifies any logical expression.
+
+
+#### - HInst
+
+Handle to the DLL (driver).
 
 
 ## -remarks

@@ -154,7 +154,7 @@ The <code>IPrintOemUI::DevMode</code> method must perform the operation indicate
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554230">IPrintOemUni::DevMode</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553205">IPrintOemPS::DevMode</a>
 
 
 

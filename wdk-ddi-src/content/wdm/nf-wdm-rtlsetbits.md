@@ -116,7 +116,7 @@ Callers of <b>RtlSetBits</b> must be running at IRQL &lt;= APC_LEVEL if the memo
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
+<a href="..\wdm\nf-wdm-rtlfindlastbackwardrunclear.md">RtlFindLastBackwardRunClear</a>
 
 
 
@@ -132,7 +132,7 @@ Callers of <b>RtlSetBits</b> must be running at IRQL &lt;= APC_LEVEL if the memo
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofclearbits.md">RtlNumberOfClearBits</a>
+<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
 
 
 

@@ -127,11 +127,11 @@ A stream class minidriver creates and passes this structure as part of its <a hr
 
 ## -see-also
 
-<a href="..\ks\ns-ks-kstopology_connection.md">KSTOPOLOGY_CONNECTION</a>
-
-
-
 <a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
+
+
+
+<a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
 
 
 

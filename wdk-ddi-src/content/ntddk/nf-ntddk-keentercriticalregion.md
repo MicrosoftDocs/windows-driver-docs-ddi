@@ -97,7 +97,7 @@ For more information about APCs, see <a href="https://msdn.microsoft.com/library
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn308551">ExReleaseResourceAndLeaveCriticalRegion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn308550">ExEnterCriticalRegionAndAcquireResourceExclusive</a>
 
 
 
@@ -105,7 +105,7 @@ For more information about APCs, see <a href="https://msdn.microsoft.com/library
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn308550">ExEnterCriticalRegionAndAcquireResourceExclusive</a>
+<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
 
 
 

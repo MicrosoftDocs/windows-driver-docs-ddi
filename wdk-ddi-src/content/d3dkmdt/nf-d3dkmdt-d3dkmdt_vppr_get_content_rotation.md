@@ -239,7 +239,7 @@ Here's an example of how this function can provide your driver with the info it 
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_presentflags.md">DXGK_PRESENTFLAGS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
@@ -247,11 +247,11 @@ Here's an example of how this function can provide your driver with the info it 
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dkmdt\ne-d3dkmdt-_d3dkmdt_vidpn_present_path_rotation.md">D3DKMDT_VIDPN_PRESENT_PATH_ROTATION</a>
 
 
 
-<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_offset_rotation.md">D3DKMDT_VPPR_GET_OFFSET_ROTATION</a>
+<a href="..\d3dkmdt\nf-d3dkmdt-d3dkmdt_vppr_get_content_rotation_part.md">D3DKMDT_VPPR_GET_CONTENT_ROTATION_PART</a>
 
 
 

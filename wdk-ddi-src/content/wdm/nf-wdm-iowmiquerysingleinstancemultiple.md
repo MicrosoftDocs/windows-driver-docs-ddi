@@ -167,7 +167,7 @@ To query for a single WMI class and instance name, use the <a href="..\wdm\nf-wd
 
 
 
-<a href="..\wdm\nf-wdm-iowmiquerysingleinstance.md">IoWMIQuerySingleInstance</a>
+<a href="..\wdm\nf-wdm-iowmiopenblock.md">IoWMIOpenBlock</a>
 
 
 

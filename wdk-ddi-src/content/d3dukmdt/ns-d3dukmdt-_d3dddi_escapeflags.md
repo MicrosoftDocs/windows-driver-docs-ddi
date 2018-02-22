@@ -173,7 +173,7 @@ If these conditions are not met, <i>pfnEscapeCb</i> call returns an <b>E_INVALID
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_executionstateescape.md">D3DDDI_EXECUTIONSTATEESCAPE</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_escape.md">DxgkDdiEscape</a>
 
 
 
@@ -185,7 +185,7 @@ If these conditions are not met, <i>pfnEscapeCb</i> call returns an <b>E_INVALID
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_framelatencyescape.md">D3DDDI_FRAMELATENCYESCAPE</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_escape.md">DXGKARG_ESCAPE</a>
 
 
 

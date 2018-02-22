@@ -108,7 +108,7 @@ For more information about handling interrupts in framework-based drivers, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
+<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
 
 
 

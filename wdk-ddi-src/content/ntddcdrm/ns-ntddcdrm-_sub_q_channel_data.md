@@ -103,7 +103,7 @@ The value of the <b>Format </b>member of the CDROM_SUB_Q_DATA_FORMAT structure t
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_current_position.md">SUB_Q_CURRENT_POSITION</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_media_catalog_number.md">SUB_Q_MEDIA_CATALOG_NUMBER</a>
 
 
 

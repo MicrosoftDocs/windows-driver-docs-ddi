@@ -115,7 +115,7 @@ For more information on the differences between versions, see <a href="https://m
 
 
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+<a href="..\wdm\ns-wdm-_reg_post_create_key_information.md">REG_POST_CREATE_KEY_INFORMATION</a>
 
 
 

@@ -393,7 +393,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-gen-media-duplex-state">OID_GEN_MEDIA_DUPLEX_STATE</a>
 
 
 
@@ -409,8 +409,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_receive_filter_capabilities.md">
-   NDIS_RECEIVE_FILTER_CAPABILITIES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -418,7 +417,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568744">NET_IF_MEDIA_CONNECT_STATE</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
 
 
 
@@ -446,7 +445,7 @@ Filter drivers should avoid issuing unnecessary OID queries. Instead, use the in
 
 
 
-<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_sriov_capabilities.md">NDIS_SRIOV_CAPABILITIES</a>
 
 
 

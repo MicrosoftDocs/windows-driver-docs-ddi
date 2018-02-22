@@ -566,7 +566,7 @@ See <a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a> for a description
 
 
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

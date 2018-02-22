@@ -175,7 +175,7 @@ If the driver calls the <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetreque
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetrequestattributes.md">WdfDeviceInitSetRequestAttributes</a>
+<a href="..\sercx\ns-sercx-_sercx2_config.md">SERCX2_CONFIG</a>
 
 
 

@@ -106,7 +106,7 @@ Several WIA service library functions use the WIA_PROPERTY_CONTEXT structure. Th
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvaluefloat.md">wiasGetChangedValueFloat</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetchangedvalueguid.md">wiasGetChangedValueGuid</a>
 
 
 

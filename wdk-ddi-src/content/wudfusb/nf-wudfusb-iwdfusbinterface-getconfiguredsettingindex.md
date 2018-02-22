@@ -94,7 +94,7 @@ The <b>GetConfiguredSettingIndex</b> method is provided for convenience because 
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
 
 
 

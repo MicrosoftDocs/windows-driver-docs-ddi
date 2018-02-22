@@ -121,8 +121,7 @@ If
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_notify_close_af_complete.md">
-   ProtocolCmNotifyCloseAfComplete</a>
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
 
 
 

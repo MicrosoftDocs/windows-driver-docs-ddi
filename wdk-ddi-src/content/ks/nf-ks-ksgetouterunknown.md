@@ -95,7 +95,7 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdevicegetouterunknown.md">KsDeviceGetOuterUnknown</a>
+<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
 
 
 
@@ -111,7 +111,7 @@ Minidrivers using this function must include <i>kcom.h</i> and use a C++ compile
 
 
 
-<a href="..\ks\nf-ks-ksfiltergetouterunknown.md">KsFilterGetOuterUnknown</a>
+<a href="..\ks\nf-ks-ksregisteraggregatedclientunknown.md">KsRegisterAggregatedClientUnknown</a>
 
 
 

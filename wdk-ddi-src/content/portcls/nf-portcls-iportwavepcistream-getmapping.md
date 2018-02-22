@@ -185,7 +185,7 @@ For more information about mappings, see <a href="https://msdn.microsoft.com/6d8
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536730">IMiniportWavePciStream::RevokeMappings</a>
+<a href="..\portcls\nn-portcls-iportwavepcistream.md">IPortWavePciStream</a>
 
 
 

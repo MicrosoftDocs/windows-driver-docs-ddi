@@ -114,7 +114,7 @@ For more information about how this enumeration type is used, see <a href="https
 
 
 
-<a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 

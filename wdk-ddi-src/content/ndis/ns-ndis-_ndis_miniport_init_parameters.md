@@ -170,8 +170,7 @@ NDIS passes a pointer to an initialized <b>NDIS_MINIPORT_INIT_PARAMETERS</b> str
 
 
 
-<a href="..\ndis\nf-ndis-ndisiminitializedeviceinstanceex.md">
-   NdisIMInitializeDeviceInstanceEx</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

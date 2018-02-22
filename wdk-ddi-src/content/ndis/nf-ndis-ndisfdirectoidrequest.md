@@ -192,6 +192,10 @@ The direct OID request interface is similar to the general OID request interface
 
 
 
+<a href="..\ndis\nf-ndis-ndisdirectoidrequest.md">NdisDirectOidRequest</a>
+
+
+
  
 
  

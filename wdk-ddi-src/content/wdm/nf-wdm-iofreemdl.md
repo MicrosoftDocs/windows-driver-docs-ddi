@@ -99,11 +99,11 @@ This routine frees only the specified MDL. Any MDLs that are chained to this MDL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 

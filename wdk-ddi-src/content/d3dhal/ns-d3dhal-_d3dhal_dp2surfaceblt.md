@@ -129,7 +129,7 @@ D3DDP2OP_SURFACEBLT
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
+D3DDP2OP_SURFACEBLT
 
 
 

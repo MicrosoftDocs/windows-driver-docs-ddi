@@ -125,7 +125,7 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
 
 
 
@@ -137,7 +137,7 @@ The D3DKMDT_GDISURFACEDATA structure is passed by the Microsoft DirectX graphics
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_getstandardallocationdriverdata.md">DxgkDdiGetStandardAllocationDriverData</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 

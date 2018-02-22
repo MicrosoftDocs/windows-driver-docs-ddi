@@ -117,7 +117,7 @@ If the runtime returns a non-<b>NULL</b> value in the <b>pMethodList</b> member,
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_multisamplingmethod.md">D3DDDI_MULTISAMPLINGMETHOD</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 

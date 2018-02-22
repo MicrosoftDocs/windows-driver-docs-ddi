@@ -209,8 +209,7 @@ Until NDIS calls
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_send_net_buffer_lists_complete.md">
-   ProtocolCoSendNetBufferListsComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
 
 
 

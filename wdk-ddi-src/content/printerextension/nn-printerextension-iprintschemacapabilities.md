@@ -208,7 +208,7 @@ To obtain an IXMLDOMDocument2 object for the PrintCapabilities object, you must 
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschematicket.md">IPrintSchemaTicket</a>
+<a href="https://msdn.microsoft.com/5E7F2292-1F71-4581-8E34-86F1464EC08F">IPrintSchemaElement::XmlNode</a>
 
 
 

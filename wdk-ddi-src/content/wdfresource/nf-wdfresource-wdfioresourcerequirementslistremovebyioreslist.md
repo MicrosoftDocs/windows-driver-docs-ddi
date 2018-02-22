@@ -189,7 +189,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistremove.md">WdfIoResourceRequirementsListRemove</a>
+<a href="..\wdfresource\nf-wdfresource-wdfioresourcelistgetcount.md">WdfIoResourceListGetCount</a>
 
 
 
@@ -197,7 +197,7 @@ Example_EvtDeviceFilterRemoveResourceRequirements(
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfioresourcerequirementslistgetioreslist.md">WdfIoResourceRequirementsListGetIoResList</a>
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 

@@ -161,7 +161,7 @@ Drivers must not free the memory allocated for the subobject
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksfreeobjectheader.md">KsFreeObjectHeader</a>
+<a href="..\ks\ns-ks-ksobject_create_item.md">KSOBJECT_CREATE_ITEM</a>
 
 
 

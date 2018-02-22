@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - HbaHandle [in]
-
-Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
-
-
 #### - HbaAdapterAttributes [out]
 
 Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a> that holds the HBA attributes. 
+
+
+#### - HbaHandle [in]
+
+Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
 
 
 ## -returns
@@ -101,11 +101,11 @@ The <b>HBA_GetAdapterAttributes</b> routine returns a value of type <a href="htt
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
 
 
 

@@ -117,7 +117,7 @@ Not used by the stream class driver.
 
 
 
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
@@ -125,7 +125,7 @@ Not used by the stream class driver.
 
 
 
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
 
 
 

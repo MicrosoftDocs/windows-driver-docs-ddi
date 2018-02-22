@@ -96,7 +96,7 @@ typedef struct _DXGKARG_PREEMPTCOMMAND {
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_preemptcommandflags.md">DXGK_PREEMPTCOMMANDFLAGS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_submitcommand.md">DxgkDdiSubmitCommand</a>
 
 
 

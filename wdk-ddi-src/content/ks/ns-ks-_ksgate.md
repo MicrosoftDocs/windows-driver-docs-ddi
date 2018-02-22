@@ -92,7 +92,7 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
 
 
@@ -100,7 +100,7 @@ All of the manipulations of <b>Count</b> are done using interlocked functions to
 
 
 
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
 
 
 

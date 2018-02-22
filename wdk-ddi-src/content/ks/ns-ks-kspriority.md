@@ -139,11 +139,11 @@ If the removal of resources by a higher priority client causes the filter pin to
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
-
-
-
 <a href="..\ks\nf-ks-kscreatepin.md">KsCreatePin</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565104">KSPROPERTY_CONNECTION_PRIORITY</a>
 
 
 

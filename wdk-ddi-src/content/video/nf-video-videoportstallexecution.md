@@ -109,11 +109,11 @@ If a miniport driver has work to be done at regular intervals of more than 50 mi
 
 
 
+<a href="..\video\nc-video-pvideo_hw_timer.md">HwVidTimer</a>
+
+
+
 <a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
 
 
 

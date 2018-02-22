@@ -137,7 +137,7 @@ An intermediate or highest-level driver also can call <a href="..\wdm\nf-wdm-iob
 
 
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
 
 
 

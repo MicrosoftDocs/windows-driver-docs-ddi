@@ -134,7 +134,7 @@ When the Native 802.11 miniport driver, which manages the WLAN adapter, makes an
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+<a href="..\wlanihv\ne-wlanihv-_dot11ext_ihv_indication_type.md">DOT11EXT_IHV_INDICATION_TYPE</a>
 
 
 

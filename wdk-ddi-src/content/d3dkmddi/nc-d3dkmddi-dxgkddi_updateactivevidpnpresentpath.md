@@ -124,7 +124,6 @@ The <i>DxgkDdiUpdateActiveVidPnPresentPath</i> function should be made pageable.
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
 
 
 

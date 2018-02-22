@@ -253,7 +253,7 @@ Protocol drivers are not required to implement <a href="..\ndis\nc-ndis-protocol
 
 
 
-<a href="..\ndis\nc-ndis-protocol_direct_oid_request_complete.md">ProtocolDirectOidRequestComplete</a>
+<a href="..\ndis\nc-ndis-protocol_status_ex.md">ProtocolStatusEx</a>
 
 
 
@@ -265,7 +265,7 @@ Protocol drivers are not required to implement <a href="..\ndis\nc-ndis-protocol
 
 
 
-<a href="..\ndis\nf-ndis-ndisoidrequest.md">NdisOidRequest</a>
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
 
 
 

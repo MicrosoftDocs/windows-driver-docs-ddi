@@ -144,6 +144,10 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554510">RemoveSymbolByIndex</a>
+
+
+
  
 
  

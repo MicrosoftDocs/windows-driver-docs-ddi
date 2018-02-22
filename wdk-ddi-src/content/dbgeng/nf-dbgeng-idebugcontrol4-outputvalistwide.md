@@ -301,7 +301,7 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
 
 
 

@@ -171,7 +171,7 @@ IoFreeIrp(Irp);
 
 
 
-<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 

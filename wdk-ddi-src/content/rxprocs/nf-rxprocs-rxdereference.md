@@ -151,7 +151,7 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 
 
-<a href="https://msdn.microsoft.com/9a3bb194-0289-47f4-a5c8-848d8d82cdd7">The SRV_CALL Structure</a>
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 
 

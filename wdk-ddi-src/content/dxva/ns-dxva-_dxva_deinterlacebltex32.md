@@ -128,7 +128,7 @@ Specifies a collection of flags that indicate changes in the current destination
 
 
 
-<a href="..\dxva\ne-dxva-_dxva_destinationflags.md">DXVA_DestinationFlags</a>
+<a href="..\dxva\ns-dxva-_dxva_videosample32.md">DXVA_VideoSample32</a>
 
 
 

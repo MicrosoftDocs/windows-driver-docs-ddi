@@ -123,7 +123,7 @@ The <b>MPIO_PASS_THROUGH_PATH</b> structure is used for a double-buffered device
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
 
 

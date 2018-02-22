@@ -259,7 +259,7 @@ Callers of <b>RtlInitializeGenericTableAvl</b> must be running at IRQL &lt;= DIS
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictable.md">RtlInitializeGenericTable</a>
+<a href="..\ntddk\nf-ntddk-rtlenumerategenerictableavl.md">RtlEnumerateGenericTableAvl</a>
 
 
 

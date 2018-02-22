@@ -128,11 +128,11 @@ The Windows Server 2008 Enterprise operating system and the Windows Server 2008 
 
 
 
-<a href="..\ndis\nf-ndis-ndissystemprocessorcount.md">NdisSystemProcessorCount</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
 
 

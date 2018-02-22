@@ -123,7 +123,7 @@ The HID class driver sets the following fields of <b>Irp-&gt;IoStatus</b>:
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getproductstring.md">HidD_GetProductString</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_getserialnumberstring.md">HidD_GetSerialNumberString</a>
 
 
 

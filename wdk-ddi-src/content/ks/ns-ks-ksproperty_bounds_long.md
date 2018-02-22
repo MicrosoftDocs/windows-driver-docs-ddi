@@ -121,11 +121,11 @@ Also see related information in <a href="https://msdn.microsoft.com/a385929e-193
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
-
-
-
 <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
 
 
 

@@ -105,11 +105,11 @@ The <b>pChanged</b> member of the <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_pr
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
-
-
-
 <a href="..\wiamindr_lh\ns-wiamindr_lh-_wia_property_context.md">WIA_PROPERTY_CONTEXT</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasispropchanged.md">wiasIsPropChanged</a>
 
 
 

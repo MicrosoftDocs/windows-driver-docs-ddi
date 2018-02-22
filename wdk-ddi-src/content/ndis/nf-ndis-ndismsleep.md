@@ -144,7 +144,7 @@ Both
 
 
 
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 

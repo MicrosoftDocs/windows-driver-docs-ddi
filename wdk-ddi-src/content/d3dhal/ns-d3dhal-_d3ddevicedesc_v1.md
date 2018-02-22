@@ -506,7 +506,7 @@ The Direct3D runtime constructs the application-level D3DDEVICEDESC7 structure (
 
 
 
-<a href="https://msdn.microsoft.com/89a22163-a678-4c72-932a-ae4d17922e0b">DdGetDriverInfo</a>
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_globaldriverdata.md">D3DHAL_GLOBALDRIVERDATA</a>
 
 
 

@@ -109,11 +109,11 @@ The translation is done in accord with the current system-locale information.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlfreeansistring.md">RtlFreeAnsiString</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlansistringtounicodestring.md">RtlAnsiStringToUnicodeString</a>
 
 
 

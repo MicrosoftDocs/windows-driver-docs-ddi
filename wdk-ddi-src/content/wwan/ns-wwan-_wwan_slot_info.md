@@ -89,7 +89,7 @@ The state of the slot being queried, a member of the  <a href="..\wwan\ne-wwan-_
 
 
 
-<a href="https://msdn.microsoft.com/FA1E16E4-56A3-4401-875F-D75DD01FE75D">NDIS_STATUS_WWAN_SLOT_INFO</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_slot_info.md">NDIS_WWAN_SLOT_INFO</a>
 
 
 

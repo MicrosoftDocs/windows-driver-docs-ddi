@@ -187,7 +187,6 @@ For more information on how this function is used in PnP scenarios, see <a href=
 
 
 
-<a href="..\dispmprt\nc-dispmprt-dxgkddi_stop_device.md">DxgkDdiStopDevice</a>
 
 
 

@@ -269,7 +269,7 @@ The array of stack frames can be obtained using <a href="https://msdn.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
 
 
 

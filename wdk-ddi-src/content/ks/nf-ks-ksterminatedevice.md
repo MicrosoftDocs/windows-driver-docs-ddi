@@ -93,11 +93,11 @@ Normally, AVStream calls <b>KsTerminateDevice</b> upon receipt of a PnP remove d
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 

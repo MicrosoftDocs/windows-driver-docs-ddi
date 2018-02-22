@@ -115,7 +115,7 @@ The <a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a> rout
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_list_control.md">AdapterListControl</a>
+## -see-also
 
 
 
@@ -135,7 +135,7 @@ The <a href="..\wdm\nc-wdm-pfree_adapter_channel.md">FreeAdapterChannel</a> rout
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
+
 
 
 

@@ -196,7 +196,7 @@ For example, consider video that natively has 1920 x 1080 pixels and that is dis
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvaddi_videoprocessbltflags.md">DXVADDI_VIDEOPROCESSBLTFLAGS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createvideoprocessdevice.md">CreateVideoProcessDevice</a>
 
 
 

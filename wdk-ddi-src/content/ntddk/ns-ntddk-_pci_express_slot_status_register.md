@@ -162,14 +162,14 @@ The slot is empty.
 A card is present in the slot.
 
 
-##### - PresenceDetectState.SlotEmpty
-
-The slot is empty.
-
-
 ##### - PresenceDetectState.CardPresent
 
 A card is present in the slot.
+
+
+##### - PresenceDetectState.SlotEmpty
+
+The slot is empty.
 
 
 #### - ElectromechanicalLockEngaged

@@ -308,8 +308,7 @@ For more information about setup and installation files, see
 
 
 
-<a href="..\ndis\nf-ndis-ndisunicodestringtoansistring.md">
-   NdisUnicodeStringToAnsiString</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
 
 
 

@@ -357,7 +357,7 @@ Because StorPortNotification returns VOID, the scanning engine should assume the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567452">StorPortNotification for WMIEvent</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567456">StorPortNotification for WMIReregister</a>
 
 
 
@@ -365,11 +365,11 @@ Because StorPortNotification returns VOID, the scanning engine should assume the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567441">StorPortNotification for LinkUp</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567446">StorPortNotification for RequestComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567437">StorPortNotification for BusChangeDetected</a>
+<a href="..\storport\nf-storport-storportinitialize.md">StorPortInitialize</a>
 
 
 

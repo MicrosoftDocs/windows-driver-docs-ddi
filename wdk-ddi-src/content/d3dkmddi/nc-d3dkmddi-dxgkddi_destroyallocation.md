@@ -105,7 +105,7 @@ The display miniport driver can release the entire resource as well as allocatio
 
 ## -see-also
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_deallocatecb.md">pfnDeallocateCb</a>
+## -see-also
 
 
 

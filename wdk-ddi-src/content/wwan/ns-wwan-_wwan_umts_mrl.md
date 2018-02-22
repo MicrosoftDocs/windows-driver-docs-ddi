@@ -96,7 +96,7 @@ The array of MRL records, each specified as a <a href="..\wwan\ns-wwan-_wwan_umt
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_umts_mrl_info.md">WWAN_UMTS_MRL_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
 
 
 

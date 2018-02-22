@@ -179,7 +179,7 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 
 
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
 
 
 
@@ -187,7 +187,7 @@ Specifies the registry path according to the <i>RelativeTo</i> value.
 
 
 
-<a href="..\wdm\nf-wdm-rtlqueryregistryvalues.md">RtlQueryRegistryValues</a>
+<a href="..\wdm\nf-wdm-rtlwriteregistryvalue.md">RtlWriteRegistryValue</a>
 
 
 

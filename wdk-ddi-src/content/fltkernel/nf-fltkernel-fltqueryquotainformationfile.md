@@ -170,7 +170,7 @@ The instance or volume is being torn down. This is an error code.
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetquotainformationfile.md">FltSetQuotaInformationFile</a>
+<a href="..\ntifs\nf-ntifs-zwqueryquotainformationfile.md">ZwQueryQuotaInformationFile</a>
 
 
 

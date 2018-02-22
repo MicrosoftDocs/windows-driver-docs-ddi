@@ -260,7 +260,7 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

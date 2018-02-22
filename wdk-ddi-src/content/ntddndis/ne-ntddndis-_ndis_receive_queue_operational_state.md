@@ -129,7 +129,8 @@ The <b>
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_receive_queue_state.md">NDIS_RECEIVE_QUEUE_STATE</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
+   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
 
 
 
@@ -142,8 +143,7 @@ The <b>
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567214">
-   NDIS_STATUS_RECEIVE_QUEUE_STATE</a>
+<a href="..\ndis\ns-ndis-_ndis_receive_queue_state.md">NDIS_RECEIVE_QUEUE_STATE</a>
 
 
 

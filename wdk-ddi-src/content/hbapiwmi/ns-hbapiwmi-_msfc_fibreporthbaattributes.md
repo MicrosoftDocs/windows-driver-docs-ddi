@@ -86,11 +86,11 @@ Contains a structure of type <a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattri
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_msfc_hbaportattributesresults.md">MSFC_HBAPortAttributesResults</a>
 
 
 

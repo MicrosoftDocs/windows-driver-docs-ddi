@@ -109,7 +109,7 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
 
 

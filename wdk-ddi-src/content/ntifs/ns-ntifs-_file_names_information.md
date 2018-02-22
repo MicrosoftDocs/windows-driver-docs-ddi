@@ -115,7 +115,7 @@ This structure must be aligned on a LONG (4-byte) boundary. If a buffer contains
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 
 

@@ -1046,7 +1046,7 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-initializeprintprovidor.md">InitializePrintProvidor</a>
+<a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>
 
 
 
@@ -1054,11 +1054,11 @@ Function pointers are listed in the order they are specified within the PRINTPRO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564255">XcvData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562068">SendRecvBidiData</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561930">RefreshPrinterChangeNotification</a>
+<a href="..\winsplp\nf-winsplp-initializeprintprovidor.md">InitializePrintProvidor</a>
 
 
 

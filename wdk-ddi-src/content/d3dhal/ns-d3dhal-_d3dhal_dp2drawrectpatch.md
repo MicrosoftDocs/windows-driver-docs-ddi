@@ -113,7 +113,7 @@ D3DRS_DELETERTPATCH
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2drawtripatch.md">D3DHAL_DP2DRAWTRIPATCH</a>
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 

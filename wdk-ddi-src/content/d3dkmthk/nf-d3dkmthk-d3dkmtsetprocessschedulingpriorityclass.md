@@ -78,14 +78,14 @@ TBD
 
 
 
-#### - hProcess [in]
-
-A handle to the process that scheduling priority is set for.
-
-
 #### - Priority [in]
 
 A <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>-typed value that indicates the priority level to set for the process.
+
+
+#### - hProcess [in]
+
+A handle to the process that scheduling priority is set for.
 
 
 ## -returns
@@ -131,11 +131,11 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md">D3DKMTGetProcessSchedulingPriorityClass</a>
-
-
-
 <a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_schedulingpriorityclass.md">D3DKMT_SCHEDULINGPRIORITYCLASS</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtgetprocessschedulingpriorityclass.md">D3DKMTGetProcessSchedulingPriorityClass</a>
 
 
 

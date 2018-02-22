@@ -173,7 +173,7 @@ The <b>EVT_WDF_WMI_INSTANCE_SET_ITEM</b> function type is defined in the WdfWMI.
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 

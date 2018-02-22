@@ -232,7 +232,7 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
+<a href="..\wdfdpc\nf-wdfdpc-wdfdpcenqueue.md">WdfDpcEnqueue</a>
 
 
 

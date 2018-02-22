@@ -102,7 +102,7 @@ If a driver must wait for an interval longer than 50 microseconds, it should cal
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_reset.md">MiniportResetEx</a>
+<a href="..\ndis\nf-ndis-ndismsleep.md">NdisMSleep</a>
 
 
 
@@ -114,7 +114,7 @@ If a driver must wait for an interval longer than 50 microseconds, it should cal
 
 
 
-<a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

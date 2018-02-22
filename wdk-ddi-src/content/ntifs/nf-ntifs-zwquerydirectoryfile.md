@@ -321,7 +321,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECTID_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwopenfile.md">ZwOpenFile</a>
 
 
 

@@ -197,6 +197,10 @@ To free a timer object, you must call the
 
 
 
+<a href="..\ndis\nf-ndis-ndiscanceltimerobject.md">NdisCancelTimerObject</a>
+
+
+
  
 
  

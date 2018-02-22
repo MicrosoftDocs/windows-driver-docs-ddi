@@ -205,7 +205,9 @@ New values for this parameter will also be a power of two and cannot exceed adap
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">NDIS_RSS_HASH_TYPE_FROM_HASH_INFO</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
+
+
 
 
 
@@ -213,7 +215,16 @@ New values for this parameter will also be a power of two and cannot exceed adap
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
+
+
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-nic-switch-vport-parameters">OID_NIC_SWITCH_VPORT_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
 
 
 
@@ -229,7 +240,7 @@ New values for this parameter will also be a power of two and cannot exceed adap
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567266">NDIS_RSS_HASH_INFO_FROM_TYPE_AND_FUNC</a>
+
 
 
 

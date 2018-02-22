@@ -133,7 +133,7 @@ This routine is NONPAGED and can be called from paging IO paths.
 
 
 
-<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+<a href="..\fltkernel\nf-fltkernel-fltretrieveiopriorityinfo.md">FltRetrieveIoPriorityInfo</a>
 
 
 

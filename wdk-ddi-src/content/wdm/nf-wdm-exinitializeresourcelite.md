@@ -133,7 +133,7 @@ Call <b>ExDeleteResourceLite</b> before freeing the memory for the resource.
 
 
 
-<a href="..\wdm\nf-wdm-exdeleteresourcelite.md">ExDeleteResourceLite</a>
+<a href="..\wdm\nf-wdm-exisresourceacquiredsharedlite.md">ExIsResourceAcquiredSharedLite</a>
 
 
 

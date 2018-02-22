@@ -127,7 +127,7 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554497">RemoveExtension</a>
 
 
 

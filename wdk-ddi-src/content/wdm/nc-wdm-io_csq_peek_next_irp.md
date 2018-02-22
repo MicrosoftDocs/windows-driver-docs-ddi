@@ -175,7 +175,11 @@ The IO_CSQ_PEEK_NEXT_IRP function type is defined in the Wdm.h header file. To m
 
 
 
-<a href="..\wdm\nc-wdm-io_csq_insert_irp_ex.md">CsqInsertIrpEx</a>
+
+
+<a href="..\wdm\nf-wdm-iocsqinsertirp.md">IoCsqInsertIrp</a>
+
+
 
 
 

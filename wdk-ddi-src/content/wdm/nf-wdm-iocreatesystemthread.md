@@ -215,11 +215,11 @@ In contrast to a system thread that is created by the <a href="..\wdm\nf-wdm-psc
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-psterminatesystemthread.md">PsTerminateSystemThread</a>
+<a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
 
 
 

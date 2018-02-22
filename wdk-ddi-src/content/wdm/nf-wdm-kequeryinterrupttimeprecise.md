@@ -111,7 +111,7 @@ However, power-management state changes do affect the system interrupt time coun
 
 
 
-<a href="..\wdm\nf-wdm-kequeryunbiasedinterrupttime.md">KeQueryUnbiasedInterruptTime</a>
+<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
 
 
 

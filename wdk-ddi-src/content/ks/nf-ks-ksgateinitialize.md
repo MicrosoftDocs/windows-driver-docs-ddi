@@ -122,7 +122,7 @@ To learn more about the gate construct in AVStream, see <a href="https://msdn.mi
 
 
 
-<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+<a href="..\ks\nf-ks-ksgateinitializeor.md">KsGateInitializeOr</a>
 
 
 

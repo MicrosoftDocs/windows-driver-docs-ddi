@@ -172,7 +172,7 @@ If this member has a value of <b>NULL</b>, the value of the <b>KeyedMutexPrivate
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439280">D3DDDI_OPENALLOCATIONINFO2</a>
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopennthandlefromname.md">D3DKMTOpenNtHandleFromName</a>
 
 
 

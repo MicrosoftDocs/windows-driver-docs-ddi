@@ -126,7 +126,7 @@ The corresponding base logical address returned by <b>ScsiPortGetDeviceBase</b> 
 
 
 
-<a href="..\srb\nf-srb-scsiportconvertulongtophysicaladdress.md">ScsiPortConvertUlongToPhysicalAddress</a>
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 

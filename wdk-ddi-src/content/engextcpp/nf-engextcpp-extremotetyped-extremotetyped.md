@@ -73,7 +73,7 @@ ExtRemoteTyped();
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(bool)</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetyped.md">ExtRemoteTyped::ExtRemoteTyped (PCSTR, ULONG64, bool)</a>
 
 
 
@@ -93,7 +93,7 @@ ExtRemoteTyped();
 
 
 
-<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
+<a href="..\engextcpp\nl-engextcpp-extremotetypedlist.md">ExtRemoteTypedList</a>
 
 
 
@@ -105,7 +105,7 @@ ExtRemoteTyped();
 
 
 
-<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr)</a>
+<a href="..\engextcpp\nf-engextcpp-extbuffer-set.md">ExtRemoteTyped::Set(pcstr ulong64)</a>
 
 
 

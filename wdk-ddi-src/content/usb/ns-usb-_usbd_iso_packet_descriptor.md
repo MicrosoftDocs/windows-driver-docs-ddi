@@ -104,7 +104,7 @@ This structure is used as part of an isochronous transfer request to the host co
 
 
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
 
 
 

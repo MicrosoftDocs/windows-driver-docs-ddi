@@ -118,7 +118,7 @@ The <i>UnknownAdapter</i>, <i>ResourceList</i>, and <i>Port</i> parameters follo
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavecyclic.md">IMiniportWavweCyclic</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 

@@ -89,7 +89,7 @@ In response to an input <i>DataRange</i> parameter that specifies a DirectSound 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-ksdsound_bufferdesc.md">KSDSOUND_BUFFERDESC</a>
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 

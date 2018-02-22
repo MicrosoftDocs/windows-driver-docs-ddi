@@ -148,11 +148,11 @@ Zero. This value indicates that the device is too busy to write any of the calle
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536705">IMiniportMidiStream::Read</a>
-
-
-
 <a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536705">IMiniportMidiStream::Read</a>
 
 
 

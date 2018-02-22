@@ -150,6 +150,20 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
 
 
@@ -162,7 +176,6 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 
-<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
 
 
 
@@ -178,7 +191,8 @@ The FCB structure that is associated with the FOBX structure on the <b>FobxsToBe
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+<a href="..\mrx\nc-mrx-pmrx_calldown.md">MRxCloseSrvOpen</a>
+
 
 
 

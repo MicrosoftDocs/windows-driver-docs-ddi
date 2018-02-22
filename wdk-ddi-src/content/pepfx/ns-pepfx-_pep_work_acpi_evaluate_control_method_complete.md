@@ -126,7 +126,7 @@ A <b>PEP_WORK_INFORMATION</b> structure is included in the input parameters to t
 
 
 
-<a href="..\acpiioct\ns-acpiioct-_acpi_method_argument_v1.md">ACPI_METHOD_ARGUMENT</a>
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

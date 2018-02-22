@@ -184,7 +184,7 @@ Callers of <b>IoGetDeviceInterfaces</b> must be running at IRQL = PASSIVE_LEVEL 
 
 
 
-<a href="..\wdm\nf-wdm-iogetdeviceobjectpointer.md">IoGetDeviceObjectPointer</a>
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
 
 
 

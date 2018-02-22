@@ -161,7 +161,6 @@ The <b>EVT_WDF_INTERRUPT_ENABLE</b> function type is defined in the Wdfinterrupt
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_disable.md">EvtInterruptDisable</a>
 
 
 

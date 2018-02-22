@@ -115,7 +115,7 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -123,7 +123,7 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
-<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
+<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 
@@ -135,7 +135,7 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
@@ -143,7 +143,7 @@ An intermediate or highest-level driver also can call <b>IoBuildDeviceIoControlR
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="..\wdm\nf-wdm-ioreuseirp.md">IoReuseIrp</a>
 
 
 

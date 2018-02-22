@@ -179,7 +179,7 @@ The <b>NDK_CONNECTOR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>
 
 
 

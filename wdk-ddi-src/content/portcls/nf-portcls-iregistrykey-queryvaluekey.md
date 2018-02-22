@@ -184,6 +184,10 @@ If the <i>KeyValueInformation</i> buffer is too small to hold the requested info
 
 
 
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+
+
+
  
 
  

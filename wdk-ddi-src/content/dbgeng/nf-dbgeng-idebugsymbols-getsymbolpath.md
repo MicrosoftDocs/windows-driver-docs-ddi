@@ -148,11 +148,11 @@ For more information about manipulating the symbol path, see <a href="https://ms
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538110">AppendSymbolPath</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556802">SetSymbolPath</a>
 
 
 

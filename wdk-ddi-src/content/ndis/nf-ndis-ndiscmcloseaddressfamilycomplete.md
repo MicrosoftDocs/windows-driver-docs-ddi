@@ -129,8 +129,7 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmcloseaddressfamilycomplete.md">
-   NdisMCmCloseAddressFamilyComplete</a>
+<a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 

@@ -125,7 +125,7 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 

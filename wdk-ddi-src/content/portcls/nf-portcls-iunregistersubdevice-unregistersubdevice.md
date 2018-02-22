@@ -110,7 +110,7 @@ For more information, see <a href="https://msdn.microsoft.com/d8ebd6d9-37ed-4890
 
 
 
-<a href="..\portcls\nn-portcls-iunregistersubdevice.md">IUnregisterSubdevice</a>
+<a href="..\portcls\nf-portcls-pcregistersubdevice.md">PcRegisterSubdevice</a>
 
 
 

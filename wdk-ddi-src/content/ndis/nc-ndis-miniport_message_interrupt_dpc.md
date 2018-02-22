@@ -269,7 +269,8 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterinterruptex.md">NdisMRegisterInterruptEx</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
+   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
 
 
 
@@ -286,8 +287,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_interrupt_characteristics.md">
-   NDIS_MINIPORT_INTERRUPT_CHARACTERISTICS</a>
+<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
 
 
 

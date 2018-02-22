@@ -202,11 +202,11 @@ The <i>OutPort</i> parameter follows the <a href="https://msdn.microsoft.com/e6b
 
 
 
-<a href="..\portcls\nn-portcls-iportmidi.md">IPortMidi</a>
-
-
-
 <a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
 
 
 

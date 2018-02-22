@@ -40,7 +40,7 @@ apiname:
 -	HwStorFindAdapter
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
+req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
 req.product: Windows 10 or later.
 ---
 
@@ -259,6 +259,8 @@ The <b>HW_FIND_ADAPTER</b> function type is defined in the Storport.h header fil
 
 
 <a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+
+
 
 
 

@@ -149,11 +149,11 @@ In response, NDIS calls the overlying driver's
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_receive_handler.md">MiniportTcpOffloadReceive</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndischimney\nf-ndischimney-ndisoffloadtcpreceive.md">NdisOffloadTcpReceive</a>
 
 
 

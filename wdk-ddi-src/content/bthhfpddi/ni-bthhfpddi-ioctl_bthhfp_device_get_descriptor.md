@@ -123,7 +123,7 @@ The audio driver sends this request once with an output buffer size of zero (0) 
 
 ## -see-also
 
-<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_ksnodetypes.md">IOCTL_BTHHFP_DEVICE_GET_KSNODETYPES</a>
+<a href="..\bthhfpddi\ni-bthhfpddi-ioctl_bthhfp_device_get_containerid.md">IOCTL_BTHHFP_DEVICE_GET_CONTAINERID</a>
 
 
 

@@ -202,7 +202,7 @@ This method is inherited from the <a href="https://msdn.microsoft.com/ed11789f-7
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553115">IPrintOemDriverUI::DrvUpdateUISetting</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 

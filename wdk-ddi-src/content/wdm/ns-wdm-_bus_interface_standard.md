@@ -160,7 +160,7 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE_CONFIG </a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
 
 
 
@@ -176,11 +176,11 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
+<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
 
 
 
-<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
+<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
 
 
 
@@ -192,7 +192,7 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 

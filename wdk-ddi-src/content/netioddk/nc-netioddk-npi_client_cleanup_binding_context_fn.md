@@ -132,7 +132,7 @@ The NMR calls a client module's
 
 
 
-<a href="..\netioddk\nf-netioddk-nmrclientattachprovider.md">NmrClientAttachProvider</a>
+
 
 
 
@@ -141,6 +141,8 @@ The NMR calls a client module's
 
 
 <a href="..\netioddk\nc-netioddk-npi_client_attach_provider_fn.md">ClientAttachProvider</a>
+
+
 
 
 

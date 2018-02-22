@@ -92,16 +92,6 @@ typedef struct {
 
 
 
-#### - Set
-
-Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536195">Audio Drivers Event Sets</a>.
-
-
-#### - Id
-
-Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
-
-
 #### - Flags
 
 Specifies the type of event. This member is set to one of the following values:
@@ -145,6 +135,16 @@ Pointer to the miniport driver's event-handler routine. This member is a functio
 </tr>
 </table></span></div>
 When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a> structure.
+
+
+#### - Id
+
+Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
+
+
+#### - Set
+
+Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536195">Audio Drivers Event Sets</a>.
 
 
 ## -remarks

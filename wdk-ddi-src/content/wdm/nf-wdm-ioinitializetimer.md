@@ -115,7 +115,7 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
+<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
 
 
 
@@ -127,7 +127,7 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 
 
-<a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 

@@ -97,7 +97,7 @@ A minidriver can use AND gates on a filter as a processing control mechanism for
 
 
 
-<a href="..\ks\nf-ks-kspinattachandgate.md">KsPinAttachAndGate</a>
+<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
 
 
 
@@ -113,7 +113,7 @@ A minidriver can use AND gates on a filter as a processing control mechanism for
 
 
 
-<a href="..\ks\nf-ks-ksgateturninputon.md">KsGateTurnInputOn</a>
+<a href="..\ks\nf-ks-ksgateturninputoff.md">KsGateTurnInputOff</a>
 
 
 

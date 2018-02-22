@@ -94,7 +94,7 @@ Indicates a feature report.
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getdata.md">HidP_GetData</a>
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 
 

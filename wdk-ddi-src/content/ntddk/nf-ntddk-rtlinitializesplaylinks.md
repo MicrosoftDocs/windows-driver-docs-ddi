@@ -116,7 +116,7 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrealpredecessor.md">RtlRealPredecessor</a>
+<a href="..\ntddk\nf-ntddk-rtlleftchild.md">RtlLeftChild</a>
 
 
 
@@ -140,7 +140,7 @@ Callers of <b>RtlInitializeSplayLinks</b> must be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
+<a href="..\ntddk\nf-ntddk-rtlisleftchild.md">RtlIsLeftChild</a>
 
 
 

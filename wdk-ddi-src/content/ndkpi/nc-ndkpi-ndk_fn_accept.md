@@ -264,7 +264,7 @@ The <i>NdkConnectEventCallback</i> function is used by the NDK provider to notif
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector_dispatch.md">NDK_CONNECTOR_DISPATCH</a>
 
 
 

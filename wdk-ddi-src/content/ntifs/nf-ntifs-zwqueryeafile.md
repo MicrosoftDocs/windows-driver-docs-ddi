@@ -198,7 +198,7 @@ The <i>EaList</i> parameter is not formatted correctly. This is an error code.
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_get_ea_information.md">FILE_GET_EA_INFORMATION</a>
+<a href="..\ntifs\nf-ntifs-zwseteafile.md">ZwSetEaFile</a>
 
 
 

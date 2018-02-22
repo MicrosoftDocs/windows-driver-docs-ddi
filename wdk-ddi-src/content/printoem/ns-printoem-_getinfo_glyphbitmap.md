@@ -106,7 +106,7 @@ The value that a rendering plug-in specifies for the <b>hGlyph</b> member must h
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554241">IPrintOemUni::DownloadCharGlyph</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563594">UNIFONTOBJ_GetInfo</a>
 
 
 

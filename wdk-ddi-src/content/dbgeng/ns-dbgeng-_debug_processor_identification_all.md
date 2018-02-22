@@ -104,7 +104,7 @@ An ARM64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identifica
 
 ## -see-also
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_ia64.md">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_amd64.md">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
 
 
 
@@ -112,7 +112,7 @@ An ARM64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identifica
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_x86.md">DEBUG_PROCESSOR_IDENTIFICATION_X86</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_ia64.md">DEBUG_PROCESSOR_IDENTIFICATION_IA64</a>
 
 
 
@@ -124,7 +124,7 @@ An ARM64 processor as a <a href="..\dbgeng\ns-dbgeng-_debug_processor_identifica
 
 
 
-<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_amd64.md">DEBUG_PROCESSOR_IDENTIFICATION_AMD64</a>
+<a href="..\dbgeng\ns-dbgeng-_debug_processor_identification_alpha.md">DEBUG_PROCESSOR_IDENTIFICATION_ALPHA</a>
 
 
 

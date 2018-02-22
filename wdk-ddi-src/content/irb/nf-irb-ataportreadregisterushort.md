@@ -86,7 +86,7 @@ A pointer to the register to be read. The address value that is assigned to this
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportreadregisteruchar.md">AtaPortReadRegisterUchar</a>
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 
@@ -94,7 +94,7 @@ A pointer to the register to be read. The address value that is assigned to this
 
 
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+<a href="..\irb\nf-irb-ataportreadregisteruchar.md">AtaPortReadRegisterUchar</a>
 
 
 

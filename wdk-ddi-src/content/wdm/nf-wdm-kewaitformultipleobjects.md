@@ -233,7 +233,7 @@ Callers of <b>KeWaitForMultipleObjects</b> can be running at IRQL &lt;= DISPATCH
 
 
 
-<a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
+<a href="..\wdm\nf-wdm-keinitializesemaphore.md">KeInitializeSemaphore</a>
 
 
 

@@ -360,7 +360,7 @@ Flags to describe gamma and colorspace transform capabilities of the display pip
 Supported starting with Windows 7.
 
 
-#### - DmaBufferCaps
+#### - VirtualAddressCaps
 
 [out] This member is reserved and should be set to zero.
 

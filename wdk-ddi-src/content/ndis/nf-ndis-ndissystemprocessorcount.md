@@ -123,7 +123,7 @@ If you are not optimizing and if the data structures that result from using the 
 
 
 
-<a href="..\ndis\nf-ndis-ndisgroupmaxprocessorcount.md">NdisGroupMaxProcessorCount</a>
+<a href="..\wdm\nf-wdm-kequerymaximumprocessorcount.md">KeQueryMaximumProcessorCount</a>
 
 
 

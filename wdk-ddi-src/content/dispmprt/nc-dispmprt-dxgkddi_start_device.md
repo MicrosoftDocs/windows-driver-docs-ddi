@@ -181,6 +181,12 @@ The <i>DxgkDdiStartDevice</i> function should be made pageable.
 
 
 
+
+
+<a href="https://msdn.microsoft.com/6454adb3-c958-467b-acbc-b8937b98cd57">DxgkCbAcquirePostDisplayOwnership</a>
+
+
+
  
 
  

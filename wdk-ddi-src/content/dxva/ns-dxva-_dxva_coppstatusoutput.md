@@ -155,7 +155,7 @@ Status requests are passed in the <i>pInput</i> parameter of the <a href="https:
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_coppstatushdcpkeydata.md">DXVA_COPPStatusHDCPKeyData</a>
+<a href="..\dxva\ns-dxva-_dxva_coppstatusdata.md">DXVA_COPPStatusData</a>
 
 
 

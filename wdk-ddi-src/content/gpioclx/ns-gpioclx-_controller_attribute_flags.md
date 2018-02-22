@@ -162,7 +162,7 @@ Some GPIO controllers implement active-both interrupt inputs in hardware. Howeve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439445">CLIENT_WriteGpioPinsUsingMask</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh698243">CLIENT_ReconfigureInterrupt</a>
 
 
 

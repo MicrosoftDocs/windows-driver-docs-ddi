@@ -87,7 +87,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561602">LogoutFromTarget</a>
 
 
 

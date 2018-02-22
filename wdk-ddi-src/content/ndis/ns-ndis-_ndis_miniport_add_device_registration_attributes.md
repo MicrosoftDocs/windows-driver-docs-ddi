@@ -131,7 +131,7 @@ NDIS later passes the context handle in the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
+<a href="..\ndis\nc-ndis-miniport_add_device.md">MiniportAddDevice</a>
 
 
 
@@ -148,7 +148,7 @@ NDIS later passes the context handle in the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_pnp_irp.md">MiniportStartDevice</a>
+<a href="..\ndis\nc-ndis-miniport_remove_device.md">MiniportRemoveDevice</a>
 
 
 

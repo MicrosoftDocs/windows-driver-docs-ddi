@@ -169,7 +169,7 @@ The FILE_STREAM_INFORMATION structure must be aligned on a LONGLONG (8-byte) bou
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryvolumeinformation.md">FltQueryVolumeInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
 
 
 

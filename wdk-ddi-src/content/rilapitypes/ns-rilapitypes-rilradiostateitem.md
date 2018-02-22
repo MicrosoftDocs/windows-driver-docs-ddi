@@ -115,44 +115,44 @@ typedef struct _RILRADIOSTATEITEM {
 ### -field wszItemValueOptions
 
 
-#### - switch_is
-
-
-#### - intVal
-
-
-#### - case
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
-
-
-#### - uintVal
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
-
-
-#### - wszVal
-
-
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
-
-
-#### - intArray
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
 
 
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_INTARRAY
 
 
-#### - uintArray
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_INTVAL
 
 
 #### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTARRAY
 
 
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_UINTVAL
+
+
+#### - RIL_RADIOSTATE_ITEMFLAG_USE_WSZVAL
+
+
 #### - byteArray
 
 
-#### - RIL_RADIOSTATE_ITEMFLAG_USE_BYTEARRAY
+#### - case
+
+
+#### - intArray
+
+
+#### - intVal
+
+
+#### - switch_is
+
+
+#### - uintArray
+
+
+#### - uintVal
+
+
+#### - wszVal
 

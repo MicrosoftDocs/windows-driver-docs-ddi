@@ -110,7 +110,7 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 
-<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
+<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
 
 
 

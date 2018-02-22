@@ -121,7 +121,7 @@ Finally, <b>ChangerSetAccess</b> builds an SRB with a CDB for the given operatio
 
 
 
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_set_access.md">IOCTL_CHANGER_SET_ACCESS</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

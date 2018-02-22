@@ -93,7 +93,7 @@ Host software send this challenge key to an AACS-compliant device with an <a hre
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553743">DVD_SESSION_ID</a>
+<a href="..\ntddcdvd\ns-ntddcdvd-_aacs_challenge_key.md">AACS_CHALLENGE_KEY</a>
 
 
 

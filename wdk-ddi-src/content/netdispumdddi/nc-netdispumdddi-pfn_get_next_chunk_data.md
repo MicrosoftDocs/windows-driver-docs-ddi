@@ -176,7 +176,7 @@ Only one thread should call this function at a time. Otherwise it's unpredictabl
 
 
 
-<a href="..\netdispumdddi\nc-netdispumdddi-pfn_create_miracast_context.md">CreateMiracastContext</a>
+<a href="..\d3dkmddi\ne-d3dkmddi-_dxgk_interrupt_type.md">DXGK_INTERRUPT_TYPE</a>
 
 
 

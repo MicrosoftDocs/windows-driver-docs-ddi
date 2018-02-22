@@ -273,7 +273,7 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
 
 
 
@@ -285,7 +285,7 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 
 
-<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
+<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
 
 
 

@@ -163,7 +163,6 @@ If <b>FlushAdapterBuffersEx</b> is called before the DMA transfer operation fini
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter_info.md">DMA_ADAPTER</a>
 
 
 

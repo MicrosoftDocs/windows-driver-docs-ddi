@@ -124,15 +124,15 @@ Although callers of <code>GenerateEventList</code> can be running at any IRQL, t
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
+
+
+
 <a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
 
 
 
 <a href="..\portcls\nn-portcls-iportevents.md">IPortEvents</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
 
 
 

@@ -172,7 +172,7 @@ For a simple code example that shows how the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565802">KSPROPERTY_TOPOLOGY_CONNECTIONS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566584">KSPROPSETID_Pin</a>
 
 
 

@@ -116,7 +116,7 @@ This routine must be called at IRQL = PASSIVE_LEVEL because it uses a kernel eve
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 
 

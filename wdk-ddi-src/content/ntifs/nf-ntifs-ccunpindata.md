@@ -104,7 +104,7 @@ BCBs that have been modified by <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
 
 
 
@@ -112,7 +112,7 @@ BCBs that have been modified by <a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetbcbownerpointer.md">CcSetBcbOwnerPointer</a>
+<a href="..\ntifs\nf-ntifs-ccunpindataforthread.md">CcUnpinDataForThread</a>
 
 
 

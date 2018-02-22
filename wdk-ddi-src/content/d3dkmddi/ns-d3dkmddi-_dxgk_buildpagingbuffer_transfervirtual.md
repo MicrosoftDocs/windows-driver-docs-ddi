@@ -132,11 +132,11 @@ The GPU virtual address of the page table that  is used to map the <b>Destinatio
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transfervirtualflags.md">DXGK_TRANSFERVIRTUALFLAGS</a>
-
-
-
 <a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_buildpagingbuffer.md">DXGKARG_BUILDPAGINGBUFFER</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_transfervirtualflags.md">DXGK_TRANSFERVIRTUALFLAGS</a>
 
 
 

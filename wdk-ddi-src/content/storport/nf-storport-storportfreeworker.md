@@ -169,11 +169,11 @@ Miniports should call <b>StorPortFreeWorker</b> whenever a work item is no longe
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializeworker.md">StorPortInitializeWorker</a>
+
+
+
+<a href="..\storport\nf-storport-storportqueueworkitem.md">StorPortQueueWorkItem</a>
 
 
 

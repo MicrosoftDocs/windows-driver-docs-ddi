@@ -280,7 +280,8 @@ Note that an offload target cannot directly indicate new offload capabilities. I
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-current-config">
+   OID_TCP_CONNECTION_OFFLOAD_CURRENT_CONFIG</a>
 
 
 

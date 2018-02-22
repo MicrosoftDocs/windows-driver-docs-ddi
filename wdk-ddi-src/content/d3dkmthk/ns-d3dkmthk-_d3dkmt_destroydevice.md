@@ -74,11 +74,11 @@ typedef struct _D3DKMT_DESTROYDEVICE {
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroydevice.md">D3DKMTDestroyDevice</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a>
+
+
+
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtdestroydevice.md">D3DKMTDestroyDevice</a>
 
 
 

@@ -127,7 +127,7 @@ The offset, in bytes, from the beginning of the buffer pointed to by the <b>Info
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_name.md">NDIS_ISOLATION_NAME</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

@@ -172,7 +172,7 @@ The <code>PinCount</code> method is called at IRQL PASSIVE_LEVEL. The code for t
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536765">IMiniport::GetDescription</a>
 
 
 

@@ -80,11 +80,11 @@ This member specifies a pointer to a structure of type <a href="..\ksmedia\ns-ks
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-vram_surface_info.md">VRAM_SURFACE_INFO</a>
+
+
+
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
 
 
 

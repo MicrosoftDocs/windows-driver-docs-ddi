@@ -128,7 +128,7 @@ The pitch, in bytes, of the allocation—that is, the distance, in bytes, to the
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_openallocationinfo.md">DxgkDdiOpenAllocation</a>
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_openallocationflags.md">DXGK_OPENALLOCATIONFLAGS</a>
 
 
 

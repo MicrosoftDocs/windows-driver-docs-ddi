@@ -116,7 +116,7 @@ For more information about translated and untranslated (or "raw") resources, see
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536984">IResourceList::FindUntranslatedEntry</a>
 
 
 

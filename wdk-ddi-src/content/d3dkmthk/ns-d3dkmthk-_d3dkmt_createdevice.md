@@ -138,11 +138,11 @@ The <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</
 
 ## -see-also
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdeviceflags.md">D3DKMT_CREATEDEVICEFLAGS</a>
-
-
-
 <a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtcreatedevice.md">D3DKMTCreateDevice</a>
+
+
+
+<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_createdeviceflags.md">D3DKMT_CREATEDEVICEFLAGS</a>
 
 
 

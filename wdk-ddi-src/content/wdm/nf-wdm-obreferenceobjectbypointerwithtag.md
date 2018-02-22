@@ -166,7 +166,7 @@ To view an object reference trace in the <a href="http://go.microsoft.com/fwlink
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
 
 
 

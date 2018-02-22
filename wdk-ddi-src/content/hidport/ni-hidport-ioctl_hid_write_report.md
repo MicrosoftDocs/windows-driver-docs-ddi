@@ -71,6 +71,11 @@ For general information about HIDClass devices, see <a href="https://msdn.micros
 
 
 
+#### -ReportID
+
+Specifies the report identifier, for this collection, of the report data to be written to the device.
+
+
 #### -reportBuffer
 
 A pointer to a resident buffer containing the data to be sent to the device.
@@ -79,11 +84,6 @@ A pointer to a resident buffer containing the data to be sent to the device.
 #### -reportBufferLen
 
 Specifies the length of the buffer provided at <b>reportBuffer</b>.
-
-
-#### -ReportID
-
-Specifies the report identifier, for this collection, of the report data to be written to the device.
 
 
 ### -input-buffer-length
@@ -139,11 +139,11 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 ## -see-also
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+<a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a>
 
 
 
@@ -151,7 +151,7 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 
 
-<a href="..\hidport\ni-hidport-ioctl_hid_read_report.md">IOCTL_HID_READ_REPORT</a>
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
 
 
@@ -171,11 +171,11 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 
 
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
-
-
-
-<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
 
 
 

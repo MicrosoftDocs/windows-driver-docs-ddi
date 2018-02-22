@@ -231,7 +231,7 @@ For more information about working with registry keys in kernel mode, see <a hre
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_object_attributes.md">OBJECT_ATTRIBUTES</a>
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 

@@ -204,11 +204,11 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553045">IPrintCoreUI2::EnumConstrainedOptions</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554173">IPrintOemUI::DocumentPropertySheets</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 
@@ -216,7 +216,7 @@ To reduce the need to make two calls per data access, pass the method an output 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553045">IPrintCoreUI2::EnumConstrainedOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554165">IPrintOemUI::DevicePropertySheets</a>
 
 
 

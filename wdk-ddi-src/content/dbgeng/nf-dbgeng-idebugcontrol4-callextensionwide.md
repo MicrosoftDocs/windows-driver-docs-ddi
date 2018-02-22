@@ -133,11 +133,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546733">GetExtensionFunction</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
 
 

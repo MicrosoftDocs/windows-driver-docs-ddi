@@ -131,7 +131,7 @@ An intermediate driver should call
 
 
 
-<a href="https://msdn.microsoft.com/b2b2a15d-4183-4022-bb08-2d97aa26d4b1">MiniportInitializeEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564520">NdisRegisterProtocolDriver</a>
 
 
 

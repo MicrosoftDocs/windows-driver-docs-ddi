@@ -249,7 +249,7 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 
 
-<a href="..\video\nc-video-pminiport_query_device_routine.md">HwVidQueryDeviceCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556178">DrvAssertMode</a>
 
 
 
@@ -293,7 +293,7 @@ If the driver does not handle interrupts, <i>HwVidFindAdapter</i> should set bot
 
 
 
-<a href="..\video\nf-video-videoportgetregistryparameters.md">VideoPortGetRegistryParameters</a>
+<a href="..\video\nc-video-pminiport_get_registry_routine.md">HwVidQueryNamedValueCallback</a>
 
 
 

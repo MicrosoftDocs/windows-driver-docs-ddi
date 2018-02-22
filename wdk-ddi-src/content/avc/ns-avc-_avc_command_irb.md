@@ -187,7 +187,7 @@ This structure is used with the <a href="https://msdn.microsoft.com/library/wind
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554150">AVC_FUNCTION_COMMAND</a>
+<a href="..\avc\ne-avc-_tagavc_function.md">AVC_FUNCTION</a>
 
 
 

@@ -132,7 +132,7 @@ RX metadata.
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_rx_metadata.md">WDI_RX_METADATA</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

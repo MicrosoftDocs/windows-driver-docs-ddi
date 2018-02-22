@@ -159,7 +159,7 @@ If the function succeeds, it returns S_OK. If the function fails, it returns a s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
 
 
 

@@ -170,7 +170,7 @@ The driver should not encounter any error, except for D3DDDIERR_DEVICEREMOVED. T
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10_ddi_viewport.md">D3D10_DDI_VIEWPORT</a>
 
 
 

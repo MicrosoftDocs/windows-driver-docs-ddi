@@ -122,7 +122,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
 
 
 

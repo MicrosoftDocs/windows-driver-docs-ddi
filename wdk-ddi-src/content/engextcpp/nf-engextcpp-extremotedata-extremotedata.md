@@ -92,7 +92,7 @@ The constructor is called by the <a href="https://msdn.microsoft.com/a335f881-7b
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData::ExtRemoteData (Offset, Bytes)</a>
+<a href="https://msdn.microsoft.com/a335f881-7b6f-4069-87fe-c036867b0c77">ExtRemoteData::Set(Typed)</a>
 
 
 

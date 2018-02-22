@@ -49,7 +49,7 @@ req.typenames:
 ## -description
 
 
-The <b>IKsControl</b> interface is a COM-style interface implemented on AVStream filters and pins. It enables clients in kernel mode to access AVStream automation objects (properties, methods, and events). See the <a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a> kernel-streaming proxy COM interface for information about the kernel-mode equivalent of this interface.
+The <b>IKsControl</b> interface is a COM-style interface implemented on AVStream filters and pins. It enables clients in kernel mode to access AVStream automation objects (properties, methods, and events). See the <a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a> kernel-streaming proxy COM interface for information about the kernel-mode equivalent of this interface.
 
 
 ## -members

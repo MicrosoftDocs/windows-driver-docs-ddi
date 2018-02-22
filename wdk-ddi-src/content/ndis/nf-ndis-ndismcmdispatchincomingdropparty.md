@@ -95,6 +95,13 @@ TBD
 
 
 
+#### - Buffer [in, optional]
+
+Pointer to a caller-allocated resident buffer containing additional protocol-specific data
+     received from the remote party, if any. Depending on the underlying medium, this pointer can be
+     <b>NULL</b>.
+
+
 #### - DropStatus [in]
 
 Indicates the reason this party is being dropped, usually NDIS_STATUS_SUCCESS if the remote party
@@ -107,13 +114,6 @@ Specifies the handle that identifies the party to be dropped from the multipoint
      have other parties that are still connected. The MCM driver originally obtained this handle as an input
      parameter to its 
      <a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a> function.
-
-
-#### - Buffer [in, optional]
-
-Pointer to a caller-allocated resident buffer containing additional protocol-specific data
-     received from the remote party, if any. Depending on the underlying medium, this pointer can be
-     <b>NULL</b>.
 
 
 #### - Size [in]

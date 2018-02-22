@@ -191,7 +191,7 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_video_frame_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_VIDEO_FRAME_FORMAT</a>
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_flip_mode.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FLIP_MODE</a>
 
 
 
@@ -207,7 +207,7 @@ Specifies the overlay plane's stretch quality, given as a value from the <a href
 
 
 
-<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_stereo_format.md">DXGI_DDI_MULTIPLANE_OVERLAY_STEREO_FORMAT</a>
+<a href="..\dxgiddi\ne-dxgiddi-dxgi_ddi_multiplane_overlay_ycbcr_flags.md">DXGI_DDI_MULTIPLANE_OVERLAY_YCbCr_FLAGS</a>
 
 
 

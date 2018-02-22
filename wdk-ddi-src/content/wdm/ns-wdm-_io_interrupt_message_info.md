@@ -100,11 +100,11 @@ When a driver calls <a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInt
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_connect_interrupt_parameters.md">IO_CONNECT_INTERRUPT_PARAMETERS</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioconnectinterruptex.md">IoConnectInterruptEx</a>
 
 
 

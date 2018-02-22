@@ -103,6 +103,8 @@ NTSTATUS APIENTRY DxgkDdiDestroyOverlay(
 
 
 
+
+
  
 
  

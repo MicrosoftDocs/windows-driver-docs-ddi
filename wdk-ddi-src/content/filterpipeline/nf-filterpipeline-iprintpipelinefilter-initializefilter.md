@@ -123,11 +123,11 @@ Get the read and write interfaces.
 
 
 
-<a href="..\filterpipeline\nn-filterpipeline-iinterfiltercommunicator.md">IInterFilterCommunicator</a>
-
-
-
 <a href="..\filterpipeline\nn-filterpipeline-iprintpipelinemanagercontrol.md">IPrintPipelineManagerControl</a>
+
+
+
+<a href="..\filterpipeline\nn-filterpipeline-iprintpipelinepropertybag.md">IPrintPipelinePropertyBag</a>
 
 
 

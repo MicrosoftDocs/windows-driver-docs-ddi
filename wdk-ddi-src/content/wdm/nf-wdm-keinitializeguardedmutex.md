@@ -95,11 +95,11 @@ For more information about guarded mutexes, see <a href="https://msdn.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554235">KGUARDED_MUTEX</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551892">KeAcquireGuardedMutex</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554235">KGUARDED_MUTEX</a>
 
 
 

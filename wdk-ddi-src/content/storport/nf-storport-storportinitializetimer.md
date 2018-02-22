@@ -169,7 +169,7 @@ Starting with Windows 8, there is no maximum timers limitation.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
+<a href="..\storport\nf-storport-storportrequesttimer.md">StorPortRequestTimer</a>
 
 
 

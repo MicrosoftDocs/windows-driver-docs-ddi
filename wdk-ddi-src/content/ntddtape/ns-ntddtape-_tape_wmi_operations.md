@@ -125,11 +125,11 @@ Returns general I/O error data, such as read/write errors, based on the I/O erro
 
 ## -see-also
 
-<a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567957">TapeMiniWMIControl</a>
+
+
+
+<a href="..\ntddtape\ne-ntddtape-_tape_drive_problem_type.md">TAPE_DRIVE_PROBLEM_TYPE</a>
 
 
 

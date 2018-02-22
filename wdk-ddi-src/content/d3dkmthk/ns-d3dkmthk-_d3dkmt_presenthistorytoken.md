@@ -160,7 +160,7 @@ Supported starting with Windows 8.1.
 
 
 
-<a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_gdimodel_presenthistorytoken.md">D3DKMT_GDIMODEL_PRESENTHISTORYTOKEN</a>
+<a href="..\d3dkmthk\ne-d3dkmthk-_d3dkmt_present_model.md">D3DKMT_PRESENT_MODEL</a>
 
 
 

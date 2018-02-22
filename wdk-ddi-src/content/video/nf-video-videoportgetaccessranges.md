@@ -156,7 +156,7 @@ If the <i>HwVidFindAdapter</i> function claims bus-relative access ranges and po
 
 ## -see-also
 
-<a href="..\video\nc-video-pvideo_hw_find_adapter.md">HwVidFindAdapter</a>
+<a href="..\wdm\ns-wdm-_pci_slot_number.md">PCI_SLOT_NUMBER</a>
 
 
 

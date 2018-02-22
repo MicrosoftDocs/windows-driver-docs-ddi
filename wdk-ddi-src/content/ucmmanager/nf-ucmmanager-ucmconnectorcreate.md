@@ -163,11 +163,11 @@ This example code shows how to create a Type-C connector that is PD-capable.
 
 ## -see-also
 
-<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
-
-
-
 <a href="..\ucmmanager\nf-ucmmanager-ucm_connector_config_init.md">UCM_CONNECTOR_CONFIG_INIT</a>
+
+
+
+<a href="..\ucmmanager\ns-ucmmanager-_ucm_connector_config.md">UCM_CONNECTOR_CONFIG</a>
 
 
 

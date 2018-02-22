@@ -179,7 +179,7 @@ The IEs present at <b>uIEsOffset</b>, for the duration of the device discovery, 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451795">OID_DOT11_WFD_DISCOVER_REQUEST</a>
+<a href="..\windot11\ne-windot11-_dot11_wfd_discover_type.md">DOT11_WFD_DISCOVER_TYPE</a>
 
 
 

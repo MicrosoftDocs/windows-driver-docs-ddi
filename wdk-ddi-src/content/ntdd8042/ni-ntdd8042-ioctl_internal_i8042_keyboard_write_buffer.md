@@ -112,11 +112,6 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_SUCCESS
-
-The request completed successfully.
-
-
 #### -STATUS_DEVICE_NOT_READY
 
 The keyboard interrupt is not initialized.
@@ -132,13 +127,18 @@ The input parameters are not valid.
 The request timed out.
 
 
+#### -STATUS_SUCCESS
+
+The request completed successfully.
+
+
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542076">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542067">IOCTL_KEYBOARD_SET_INDICATORS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542076">IOCTL_KEYBOARD_SET_TYPEMATIC</a>
 
 
 

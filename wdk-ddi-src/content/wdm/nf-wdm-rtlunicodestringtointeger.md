@@ -188,7 +188,7 @@ A related routine, <a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
 
 

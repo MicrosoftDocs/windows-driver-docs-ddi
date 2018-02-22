@@ -952,11 +952,11 @@ RDBSS provides a number of routines that are used to manipulate an RX_CONTEXT an
 
 
 
-<a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550782">MRxQueryVolumeInfo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550790">MRxSetFileInfo</a>
 
 
 

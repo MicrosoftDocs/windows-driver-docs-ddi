@@ -229,11 +229,11 @@ When a filter that specifies a callout for the filter's action is deleted from t
 
 
 
+<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
+
+
+
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn2.md">notifyFn2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568802">notifyFn</a>
 
 
 
