@@ -52,7 +52,7 @@ req.product: Windows 10 or later.
 
 <p class="CCE_Message">[Applies to KMDF and UMDF]
 
-The <b>WDF_INTERRUPT_INFO_INIT</b> function initializes a <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
+The <b>WDF_INTERRUPT_INFO_INIT</b> function initializes a <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
 
 
 ## -syntax
@@ -72,7 +72,7 @@ VOID WDF_INTERRUPT_INFO_INIT(
 
 ### -param Info [out]
 
-A pointer to a driver-allocated <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
+A pointer to a driver-allocated <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure.
 
 
 ## -returns
@@ -88,7 +88,7 @@ None
 
 
 
-The <b>WDF_INTERRUPT_INFO_INIT</b> function zeros the specified <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure and sets the structure's <b>Size</b> member.
+The <b>WDF_INTERRUPT_INFO_INIT</b> function zeros the specified <a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a> structure and sets the structure's <b>Size</b> member.
 
 For more information about handling interrupts in framework-based drivers, see <a href="https://msdn.microsoft.com/08460510-6e5f-4c02-8086-9caa9b4b4c2d">Handling Hardware Interrupts</a>.
 
@@ -107,7 +107,7 @@ For a code example that uses <b>WDF_INTERRUPT_INFO_INIT</b>, see <a href="..\wdf
 
 
 
-<a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
+<a href="..\wdfinterrupt\ns-wdfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
 
 
 

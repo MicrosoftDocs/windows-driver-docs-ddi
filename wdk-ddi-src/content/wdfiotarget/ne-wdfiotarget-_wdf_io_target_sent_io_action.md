@@ -101,7 +101,7 @@ The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration is used as an input paramete
 
 If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the driver must not call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> from a request handler, a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, or an <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a> callback function.
 
-For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION (UMDF)</a>.
+For the UMDF version of this enumeration, see <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION (UMDF)</a>.
 
 
 

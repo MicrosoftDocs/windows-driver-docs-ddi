@@ -269,7 +269,7 @@ The <b>WDF_REQUEST_TYPE</b> enumeration type is used in the <a href="..\wdfreque
 
 For information about how a framework-based driver can handle request types that the framework does not support, see <a href="https://msdn.microsoft.com/0481f335-f63b-4f93-8eb4-523a70082302">Handling an IRP that the Framework Does Not Support</a>.
 
-For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE (UMDF)</a>.
+For the UMDF version of this enumeration, see <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WDF_REQUEST_TYPE (UMDF)</a>.
 
 
 

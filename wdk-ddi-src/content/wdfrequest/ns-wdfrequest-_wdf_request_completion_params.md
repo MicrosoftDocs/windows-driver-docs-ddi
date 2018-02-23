@@ -124,7 +124,7 @@ The size, in bytes, of this structure.
 
 ### -field Type
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a> value that identifies the request type.
+A <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WDF_REQUEST_TYPE</a> value that identifies the request type.
 
 
 ### -field IoStatus
@@ -275,7 +275,7 @@ The <b>Parameters.Others.Argument</b>  members are custom arguments that a drive
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
+<a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WDF_REQUEST_TYPE</a>
 
 
 

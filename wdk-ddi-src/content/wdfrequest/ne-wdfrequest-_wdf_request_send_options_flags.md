@@ -127,11 +127,11 @@ The driver is sending the I/O request to a remote I/O target, and the driver spe
 
 </li>
 <li>
-The request type is <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WdfRequestTypeCreate</a> and the driver has not set the <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WdfFileObjectNotRequired</a> flag. (For more information about this situation, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.)
+The request type is <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WdfRequestTypeCreate</a> and the driver has not set the <a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WdfFileObjectNotRequired</a> flag. (For more information about this situation, see <a href="https://msdn.microsoft.com/93ec5dd7-8ef0-4cea-9253-ea5d7869d4b8">Framework File Objects</a>.)
 
 </li>
 </ul>
-For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>.
+For the UMDF version of this enumeration, see <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_send_options_flags.md">WDF_REQUEST_SEND_OPTIONS_FLAGS (UMDF)</a>.
 
 
 

@@ -107,7 +107,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_
 
 ### -field Type
 
-A <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>-typed values that identifies the request type.
+A <a href="..\wdfusb\ne-wdfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>-typed values that identifies the request type.
 
 
 ### -field Parameters
