@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9c7f3e24-1d7c-450e-bbef-df0479911bc6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwcommitenlistment, NtCommitEnlistment, ZwCommitEnlistment routine [Kernel-Mode Driver Architecture], wdm/ZwCommitEnlistment, ZwCommitEnlistment, ktm_ref_b99f9962-ce40-4324-9482-b8202d96425d.xml, wdm/NtCommitEnlistment
+ms.keywords: wdm/NtCommitEnlistment, wdm/ZwCommitEnlistment, ktm_ref_b99f9962-ce40-4324-9482-b8202d96425d.xml, ZwCommitEnlistment routine [Kernel-Mode Driver Architecture], NtCommitEnlistment, ZwCommitEnlistment, kernel.zwcommitenlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,15 +206,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmcommitenlistment.md">TmCommitEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmcommitenlistment.md">TmCommitEnlistment</a>
 
 
 

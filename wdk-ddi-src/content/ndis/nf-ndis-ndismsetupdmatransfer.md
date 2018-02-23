@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2a7ebedd-0042-4624-9c9b-721cccfb0c4f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMSetupDmaTransfer, netvista.ndismsetupdmatransfer, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, NdisMSetupDmaTransfer, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisMSetupDmaTransfer, dma_ref_b6de5799-dca5-4c30-aa3a-e20e1eac4f0f.xml, NdisMSetupDmaTransfer macro [Network Drivers Starting with Windows Vista], netvista.ndismsetupdmatransfer, NdisMSetupDmaTransfer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMSetupDmaTransfer
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMSetupDmaTransfer macro
@@ -107,34 +107,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-A pointer to the buffer descriptor mapping the range of host memory from which or into which the
-     data will be transferred.
-
-
-#### - Length [in]
-
-The number of bytes of data to be transferred. The range specified by 
-     <i>Offset</i> and 
-     <i>Length</i> must be a proper subrange of that specified at 
-     <i>Buffer</i> .
-
-
-#### - MiniportDmaHandle [in]
-
-The DMA handle returned by the 
-     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
-     during initialization.
-
-
-#### - Offset [in]
-
-The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
-     transfer should begin at the initial byte of the range specified at 
-     <i>Buffer</i> .
-
-
 #### - Status [out]
 
 A pointer to a caller-supplied variable in which this function returns the status of the request,
@@ -158,6 +130,34 @@ An attempt to set up the DMA controller for the transfer has failed, either beca
        designated by 
        <i>MiniportDmaHandle</i> is currently in use transferring data or because the given 
        <i>Length</i> is invalid.
+
+
+#### - MiniportDmaHandle [in]
+
+The DMA handle returned by the 
+     <a href="..\ndis\nf-ndis-ndismregisterdmachannel.md">NdisMRegisterDmaChannel</a> function
+     during initialization.
+
+
+#### - Buffer [in]
+
+A pointer to the buffer descriptor mapping the range of host memory from which or into which the
+     data will be transferred.
+
+
+#### - Offset [in]
+
+The byte offset within the mapped buffer at which the transfer should start. Zero indicates the
+     transfer should begin at the initial byte of the range specified at 
+     <i>Buffer</i> .
+
+
+#### - Length [in]
+
+The number of bytes of data to be transferred. The range specified by 
+     <i>Offset</i> and 
+     <i>Length</i> must be a proper subrange of that specified at 
+     <i>Buffer</i> .
 
 
 #### - WriteToDevice [in]

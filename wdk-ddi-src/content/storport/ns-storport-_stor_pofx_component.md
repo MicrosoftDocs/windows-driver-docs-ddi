@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D44FF0C7-D82C-4CDD-A5F9-BBD8257C6771
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: STOR_POFX_COMPONENT structure [Storage Devices], storport/STOR_POFX_COMPONENT, storport/PSTOR_POFX_COMPONENT, storage.stor_pofx_component, STOR_POFX_COMPONENT, _STOR_POFX_COMPONENT, *PSTOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], PSTOR_POFX_COMPONENT
+ms.keywords: "_STOR_POFX_COMPONENT, storport/STOR_POFX_COMPONENT, STOR_POFX_COMPONENT structure [Storage Devices], *PSTOR_POFX_COMPONENT, STOR_POFX_COMPONENT, PSTOR_POFX_COMPONENT structure pointer [Storage Devices], PSTOR_POFX_COMPONENT, storage.stor_pofx_component, storport/PSTOR_POFX_COMPONENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POFX_COMPONENT
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_POFX_COMPONENT, STOR_POFX_COMPONENT"
+req.typenames: STOR_POFX_COMPONENT, *PSTOR_POFX_COMPONENT
 req.product: Windows 10 or later.
 ---
 

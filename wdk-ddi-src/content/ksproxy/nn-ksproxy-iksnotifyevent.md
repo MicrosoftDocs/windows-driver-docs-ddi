@@ -7,7 +7,7 @@ old-location: stream\iksnotifyevent.htm
 old-project: stream
 ms.assetid: 1de4db64-be4c-4a9b-b1ab-29f703e17959
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.iksnotifyevent, IKsNotifyEvent interface [Streaming Media Devices], IKsNotifyEvent interface [Streaming Media Devices], described, IKsNotifyEvent, ksproxy/IKsNotifyEvent, ksproxy_1ef13fd1-5ccb-410c-8b0e-4942d9ba790e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -57,6 +57,13 @@ The <b>IKsNotifyEvent</b> interface provides a method to cause the KS object tha
 The IID for this interface is IID_IKsNotifyEvent
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsNotifyEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsNotifyEvent</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IKsNotifyEvent</b> interface has these methods.
@@ -74,7 +81,5 @@ Sets up for notification whenever action related to a DirectShow event occurs.
 
 </td>
 </tr>
-</table>Sets up for notification whenever action related to a DirectShow event occurs.
-
- 
+</table> 
 

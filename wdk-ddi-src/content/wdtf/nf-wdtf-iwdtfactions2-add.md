@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: a6361d17-419f-4e34-b36f-5258dd34cc88
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfactions2_add, IWDTFActions2 interface [Windows Device Testing Framework], Add method, wdtf/IWDTFActions2::Add, Add method [Windows Device Testing Framework], IWDTFActions2 interface, Add method [Windows Device Testing Framework], Add, IWDTFActions2, IWDTFActions2::Add
+ms.keywords: Add method [Windows Device Testing Framework], IWDTFActions2 interface, IWDTFActions2::Add, wdtf/IWDTFActions2::Add, IWDTFActions2 interface [Windows Device Testing Framework], Add method, dtf.iwdtfactions2_add, Add method [Windows Device Testing Framework], Add, IWDTFActions2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

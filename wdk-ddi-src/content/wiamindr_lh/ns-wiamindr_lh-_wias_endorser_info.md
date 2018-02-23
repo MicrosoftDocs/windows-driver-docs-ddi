@@ -4,11 +4,11 @@ title: "_WIAS_ENDORSER_INFO"
 author: windows-driver-content
 description: The WIAS_ENDORSER_INFO structure holds custom endorser token/value pairs.
 old-location: image\wias_endorser_info.htm
-old-project: Image
+old-project: image
 ms.assetid: 4874ddab-5443-4e03-8f49-493682dabac1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], WIAS_ENDORSER_INFO, _WIAS_ENDORSER_INFO, image.wias_endorser_info, wiamindr_lh/WIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices], wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml, wiamindr_lh/PWIAS_ENDORSER_INFO
+ms.date: 2/22/2018
+ms.keywords: image.wias_endorser_info, _WIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO structure [Imaging Devices], *PWIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO structure pointer [Imaging Devices], wiamindr_lh/WIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO, PWIAS_ENDORSER_INFO, wiamindr_lh/PWIAS_ENDORSER_INFO, wiastrct_de79ab57-ad51-4bf0-90cb-51bd1a8352bd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_ENDORSER_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWIAS_ENDORSER_INFO, WIAS_ENDORSER_INFO"
+req.typenames: WIAS_ENDORSER_INFO, *PWIAS_ENDORSER_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -108,5 +108,5 @@ Currently, <a href="..\wiamdef\nf-wiamdef-wiasparseendorserstring.md">wiasParseE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20WIAS_ENDORSER_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ENDORSER_INFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

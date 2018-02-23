@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 8db09aa8-240d-40b6-a28c-77158aff6c39
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_SRIOV_PROXY_QUERY_LUID_OUTPUT, pcivirt/SRIOV_PROXY_QUERY_LUID_OUTPUT, SRIOV_PROXY_QUERY_LUID_OUTPUT structure [Buses], SRIOV_PROXY_QUERY_LUID_OUTPUT, PCI.sriov_proxy_query_luid_output, *PSRIOV_PROXY_QUERY_LUID_OUTPUT"
+ms.keywords: "_SRIOV_PROXY_QUERY_LUID_OUTPUT, SRIOV_PROXY_QUERY_LUID_OUTPUT, pcivirt/SRIOV_PROXY_QUERY_LUID_OUTPUT, *PSRIOV_PROXY_QUERY_LUID_OUTPUT, PCI.sriov_proxy_query_luid_output, SRIOV_PROXY_QUERY_LUID_OUTPUT structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRIOV_PROXY_QUERY_LUID_OUTPUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSRIOV_PROXY_QUERY_LUID_OUTPUT, SRIOV_PROXY_QUERY_LUID_OUTPUT"
+req.typenames: SRIOV_PROXY_QUERY_LUID_OUTPUT, *PSRIOV_PROXY_QUERY_LUID_OUTPUT
 ---
 
 # _SRIOV_PROXY_QUERY_LUID_OUTPUT structure

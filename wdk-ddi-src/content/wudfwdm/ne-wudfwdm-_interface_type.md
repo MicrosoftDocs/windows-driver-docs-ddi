@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4d20f3fd-d06e-420b-af69-9ef34addc611
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/Eisa, InterfaceTypeUndefined, wdm/CBus, MPIBus, Vmcs, kernel.interface_type, wdm/InternalPowerBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PINTERFACE_TYPE, wdm/MPSABus, *PINTERFACE_TYPE, ACPIBus, PNPISABus, NuBus, wdm/PCMCIABus, InternalPowerBus, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], PCIBus, wdm/ProcessorInternal, CBus, Eisa, wdm/PCIBus, MPSABus, wdm/Vmcs, _INTERFACE_TYPE, wdm/InterfaceTypeUndefined, MaximumInterfaceType, INTERFACE_TYPE, wdm/NuBus, wdm/VMEBus, ProcessorInternal, TurboChannel, wdm/ACPIBus, wdm/PINTERFACE_TYPE, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/Isa, wdm/PNPISABus, wdm/INTERFACE_TYPE, MicroChannel, PCMCIABus, VMEBus, wdm/MPIBus, Internal, wdm/MaximumInterfaceType, wdm/PNPBus, Isa, wdm/TurboChannel, PNPBus, wdm/Internal, wdm/MicroChannel
+ms.keywords: wdm/PCMCIABus, wdm/CBus, wdm/INTERFACE_TYPE, wdm/Isa, CBus, wdm/VMEBus, wdm/MaximumInterfaceType, ACPIBus, *PINTERFACE_TYPE, PNPISABus, wdm/Eisa, Vmcs, wdm/TurboChannel, INTERFACE_TYPE enumeration [Kernel-Mode Driver Architecture], TurboChannel, Isa, wdm/InternalPowerBus, INTERFACE_TYPE, _INTERFACE_TYPE, InternalPowerBus, ProcessorInternal, PINTERFACE_TYPE, InterfaceTypeUndefined, wdm/ACPIBus, Internal, PNPBus, wdm/MPSABus, wdm/ProcessorInternal, NuBus, PCMCIABus, wdm/PNPBus, PINTERFACE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], MPSABus, wdm/NuBus, VMEBus, MicroChannel, sysenum_a73e08e6-79ef-4a5b-82b1-cfd4bc4269f8.xml, wdm/Internal, MaximumInterfaceType, kernel.interface_type, wdm/InterfaceTypeUndefined, Eisa, PCIBus, wdm/MPIBus, MPIBus, wdm/PINTERFACE_TYPE, wdm/PCIBus, wdm/PNPISABus, wdm/Vmcs, wdm/MicroChannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	INTERFACE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PINTERFACE_TYPE, INTERFACE_TYPE"
+req.typenames: INTERFACE_TYPE, *PINTERFACE_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -189,7 +189,15 @@ Marks the upper limit of the possible bus types.
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
+
+
+
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+
+
+
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 
@@ -197,15 +205,7 @@ Marks the upper limit of the possible bus types.
 
 
 
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
-<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 
 

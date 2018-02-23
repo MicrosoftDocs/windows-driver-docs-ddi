@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: FE160EB4-EDBD-4783-A02D-F82D2842ADD0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_IRB_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], 1394/IRB_REQ_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets"
+ms.keywords: "_IRB_RECEIVE_PHY_PACKETS, IEEE.irb_req_receive_phy_packets, IRB_REQ_RECEIVE_PHY_PACKETS structure [Buses], IRB_REQ_RECEIVE_PHY_PACKETS, 1394/IRB_REQ_RECEIVE_PHY_PACKETS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c53672b7-fbe7-45f7-b3ff-30cfeefa7d52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlStringCchCopyNExA, RtlStringCchCopyNExW, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], RtlStringCchCopyNExA, STRSAFE_IGNORE_NULLS, ntstrsafe/RtlStringCchCopyNExW, kernel.rtlstringcchcopynex, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, RtlStringCchCopyNEx, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION
+ms.keywords: ntstrsafe/RtlStringCchCopyNExW, RtlStringCchCopyNExW, RtlStringCchCopyNExW function [Kernel-Mode Driver Architecture], RtlStringCchCopyNEx, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, kernel.rtlstringcchcopynex, STRSAFE_NULL_ON_FAILURE, safestrings_60ae1ee7-e0ba-407d-8946-a2928d2b9b32.xml, STRSAFE_NO_TRUNCATION, ntstrsafe/RtlStringCchCopyNExA, STRSAFE_IGNORE_NULLS, RtlStringCchCopyNExA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchCopyNExW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchCopyNExW function

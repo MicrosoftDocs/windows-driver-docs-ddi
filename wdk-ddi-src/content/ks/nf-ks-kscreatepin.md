@@ -7,8 +7,8 @@ old-location: stream\kscreatepin.htm
 old-project: stream
 ms.assetid: 0dae335a-bcc1-4f6a-8926-e2ecc4112dc5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KsCreatePin, KsCreatePin function [Streaming Media Devices], KsCreatePin, stream.kscreatepin, ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml
+ms.date: 2/22/2018
+ms.keywords: KsCreatePin function [Streaming Media Devices], stream.kscreatepin, ks/KsCreatePin, ksfunc_f49fab36-1309-4eec-addb-4eba94583692.xml, KsCreatePin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,6 +114,10 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
+
+
+
 <a href="..\ks\ns-ks-kspin_connect.md">KSPIN_CONNECT</a>
 
 
@@ -122,13 +126,9 @@ If <i>Connect</i>-&gt;<b>PinToHandle</b> is <b>NULL</b>, <b>KsCreatePin</b> crea
 
 
 
-<a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreatePin function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreatePin function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

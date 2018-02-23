@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 0536f452-c513-45dc-9048-5420d2165715
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdtfdriverpackageaction/IWDTFDriverPackageAction2::HasCatalog, IWDTFDriverPackageAction2::get_HasCatalog, get_HasCatalog, IWDTFDriverPackageAction2.HasCatalog, Microsoft::WDTF::IWDTFDriverPackageAction2::HasCatalog, Microsoft.WDTF.IWDTFDriverPackageAction2.HasCatalog, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], HasCatalog property, HasCatalog property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_hascatalog, HasCatalog property [Windows Device Testing Framework], IWDTFDriverPackageAction2, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_HasCatalog
+ms.keywords: Microsoft::WDTF::IWDTFDriverPackageAction2::HasCatalog, IWDTFDriverPackageAction2.HasCatalog, dtf.iwdtfdriverpackageaction2_hascatalog, HasCatalog property [Windows Device Testing Framework], get_HasCatalog, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], HasCatalog property, IWDTFDriverPackageAction2, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_HasCatalog, wdtfdriverpackageaction/IWDTFDriverPackageAction2::HasCatalog, IWDTFDriverPackageAction2::get_HasCatalog, HasCatalog property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft.WDTF.IWDTFDriverPackageAction2.HasCatalog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

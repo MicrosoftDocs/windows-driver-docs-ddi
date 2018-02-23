@@ -40,7 +40,7 @@ apiname:
 -	USBFN_SET_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_INTERFACE_LIST_ENTRY, USBD_INTERFACE_LIST_ENTRY"
+req.typenames: USBD_INTERFACE_LIST_ENTRY, *PUSBD_INTERFACE_LIST_ENTRY
 req.product: Windows 10 or later.
 ---
 

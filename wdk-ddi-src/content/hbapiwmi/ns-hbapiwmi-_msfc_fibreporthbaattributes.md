@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e8a31f48-bad2-49d1-81be-d345d87a0fd5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/PMSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes structure [Storage Devices], structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml, storage.msfc_fibreporthbaattributes, MSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], hbapiwmi/MSFC_FibrePortHBAAttributes, _MSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes
+ms.keywords: "_MSFC_FibrePortHBAAttributes, PMSFC_FibrePortHBAAttributes, hbapiwmi/MSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes, hbapiwmi/PMSFC_FibrePortHBAAttributes, storage.msfc_fibreporthbaattributes, PMSFC_FibrePortHBAAttributes structure pointer [Storage Devices], structs-Fibre_8721cac7-a44b-4401-991d-1b8822aec5be.xml, *PMSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FibrePortHBAAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_FibrePortHBAAttributes, MSFC_FibrePortHBAAttributes"
+req.typenames: MSFC_FibrePortHBAAttributes, *PMSFC_FibrePortHBAAttributes
 ---
 
 # _MSFC_FibrePortHBAAttributes structure

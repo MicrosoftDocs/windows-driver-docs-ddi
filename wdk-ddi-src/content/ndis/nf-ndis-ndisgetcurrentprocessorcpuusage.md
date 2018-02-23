@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 03f1559c-83a7-478c-a616-ebe6002cb724
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], netvista.ndisgetcurrentprocessorcpuusage, ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, NdisGetCurrentProcessorCpuUsage, ndis/NdisGetCurrentProcessorCpuUsage
+ms.keywords: ndis_sysinfo_ref_64c35a8c-5776-4902-b062-0685a16f5453.xml, NdisGetCurrentProcessorCpuUsage function [Network Drivers Starting with Windows Vista], netvista.ndisgetcurrentprocessorcpuusage, NdisGetCurrentProcessorCpuUsage, ndis/NdisGetCurrentProcessorCpuUsage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGetCurrentProcessorCpuUsage
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGetCurrentProcessorCpuUsage function

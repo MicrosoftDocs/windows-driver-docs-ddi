@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0f06b154-7d85-4a60-b354-bd61fbc597dc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hba_geteventbuffer, fibreHBA_rtns_782019e1-826f-486d-b8c7-6d58c097aa1d.xml, HBA_GetEventBuffer, hbaapi/HBA_GetEventBuffer, HBA_GetEventBuffer routine [Storage Devices]
+ms.keywords: hbaapi/HBA_GetEventBuffer, HBA_GetEventBuffer routine [Storage Devices], HBA_GetEventBuffer, fibreHBA_rtns_782019e1-826f-486d-b8c7-6d58c097aa1d.xml, storage.hba_geteventbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

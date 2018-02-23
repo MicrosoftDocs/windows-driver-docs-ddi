@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2F73ECD7-EC58-43A9-89F8-E0268510A498
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioqueryfulldriverpath, IoQueryFullDriverPath, wdm/IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.ioqueryfulldriverpath, IoQueryFullDriverPath, IoQueryFullDriverPath routine [Kernel-Mode Driver Architecture], wdm/IoQueryFullDriverPath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoQueryFullDriverPath
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoQueryFullDriverPath function
@@ -136,7 +136,7 @@ A driver can call this routine to query for the full path name of its binary fil
 
 The caller allocates the <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a> structure pointed to by the <i>FullPath</i> parameter, but does not need to initialize this structure. <b>IoQueryFullDriverPath</b> assumes that the original contents of this structure are invalid and overwrites them. This routine allocates a string buffer from paged system memory, sets the <b>Buffer</b> member of the structure to point to this buffer, and sets the <b>MaximumLength</b> and <b>Buffer</b> members to describe the buffer and its contents.
 
-The caller is responsible for freeing the storage pointed to by <i>FullPath</i>-&gt;<b>Buffer</b> when the full path string is no longer needed. Typically, the caller frees this storage by calling a routine such as <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>.
+The caller is responsible for freeing the storage pointed to by <i>FullPath</i>-&gt;<b>Buffer</b> when the full path string is no longer needed. Typically, the caller frees this storage by calling a routine such as <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>.
 
 
 
@@ -147,11 +147,11 @@ The caller is responsible for freeing the storage pointed to by <i>FullPath</i>-
 
 
 
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
+
+
+
 <a href="..\wdm\ns-wdm-_driver_object.md">DRIVER_OBJECT</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
 
 
 

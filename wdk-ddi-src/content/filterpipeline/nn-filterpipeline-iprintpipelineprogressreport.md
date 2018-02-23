@@ -7,7 +7,7 @@ old-location: print\iprintpipelineprogressreport.htm
 old-project: print
 ms.assetid: 7a2644af-fdfe-4481-8c44-c40244b8a00e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.iprintpipelineprogressreport, IPrintPipelineProgressReport interface [Print Devices], IPrintPipelineProgressReport interface [Print Devices], described, IPrintPipelineProgressReport, filterpipeline/IPrintPipelineProgressReport, filterpipeline_de104fc6-8ac2-4a10-ab09-09596a093835.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,6 +54,13 @@ A rendering filter uses the <code>IPrintPipelineProgressReport</code> interface 
 A rendering filter should search for the <b>XPS_FP_PROGRESS_REPORT</b> property in a property bag, get the progress, and then remove it from the property bag. If there are no rendering filters, the filter pipeline sends the notifications to the spooler. It is very important for a rendering filter to remove the progress and send progress status to the spooler; if progress status is not handled correctly, the spooler may get conflicting progress reports.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintPipelineProgressReport</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintPipelineProgressReport</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintPipelineProgressReport</b> interface has these methods.
@@ -71,7 +78,5 @@ The <code>ReportProgress</code> method reports the progress of the XPS job consu
 
 </td>
 </tr>
-</table>The <code>ReportProgress</code> method reports the progress of the XPS job consumption to the pipeline manager.
-
- 
+</table> 
 

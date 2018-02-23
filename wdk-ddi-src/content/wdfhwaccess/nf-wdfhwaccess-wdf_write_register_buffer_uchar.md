@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A2BFF042-8358-4F82-B15D-7AD130C95DE3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_write_register_buffer_uchar, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_UCHAR, WDF_WRITE_REGISTER_BUFFER_UCHAR, WDF_WRITE_REGISTER_BUFFER_UCHAR function
+ms.keywords: wdf.wdf_write_register_buffer_uchar, WDF_WRITE_REGISTER_BUFFER_UCHAR function, wdfhwaccess/WDF_WRITE_REGISTER_BUFFER_UCHAR, WDF_WRITE_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

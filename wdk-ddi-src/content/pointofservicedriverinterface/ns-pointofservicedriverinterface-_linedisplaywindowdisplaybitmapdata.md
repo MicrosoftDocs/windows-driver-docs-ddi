@@ -7,8 +7,8 @@ old-location: pos\linedisplaywindowdisplaybitmapdata.htm
 old-project: pos
 ms.assetid: C18A13B1-C4DD-4147-8CA3-4F23E689ACF3
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: LineDisplayWindowDisplayBitmapData, PLineDisplayWindowDisplayBitmapData structure pointer, pointofservicedriverinterface/PLineDisplayWindowDisplayBitmapData, LineDisplayWindowDisplayBitmapData structure, pos.linedisplaywindowdisplaybitmapdata, pointofservicedriverinterface/LineDisplayWindowDisplayBitmapData, _LineDisplayWindowDisplayBitmapData, PLineDisplayWindowDisplayBitmapData
+ms.date: 2/22/2018
+ms.keywords: pointofservicedriverinterface/PLineDisplayWindowDisplayBitmapData, LineDisplayWindowDisplayBitmapData, LineDisplayWindowDisplayBitmapData structure, pointofservicedriverinterface/LineDisplayWindowDisplayBitmapData, pos.linedisplaywindowdisplaybitmapdata, PLineDisplayWindowDisplayBitmapData structure pointer, PLineDisplayWindowDisplayBitmapData, _LineDisplayWindowDisplayBitmapData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

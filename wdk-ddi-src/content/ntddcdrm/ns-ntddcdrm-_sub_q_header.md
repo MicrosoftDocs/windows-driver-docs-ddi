@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3ee3657d-acdd-4d3f-9cff-eb4a494429b4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_SUB_Q_HEADER, storage.sub_q_header, PSUB_Q_HEADER structure pointer [Storage Devices], ntddcdrm/PSUB_Q_HEADER, *PSUB_Q_HEADER, ntddcdrm/SUB_Q_HEADER, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml, SUB_Q_HEADER, PSUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices]"
+ms.keywords: storage.sub_q_header, ntddcdrm/PSUB_Q_HEADER, PSUB_Q_HEADER structure pointer [Storage Devices], ntddcdrm/SUB_Q_HEADER, PSUB_Q_HEADER, *PSUB_Q_HEADER, _SUB_Q_HEADER, SUB_Q_HEADER structure [Storage Devices], SUB_Q_HEADER, structs-CD-ROM_c72df573-2396-4bf3-b586-7241d408c550.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,15 +134,15 @@ Gives the length of Q subchannel data that follows this header structure. The by
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
 
 
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
 
 
 

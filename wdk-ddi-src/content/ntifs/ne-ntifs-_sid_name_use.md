@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3dd02d1-c259-4c17-8bd5-ee304e576a39
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SidTypeInvalid, ntifs/SidTypeInvalid, PSID_NAME_USE, SidTypeLabel, SidTypeComputer, ntifs/SID_NAME_USE, ntifs/SidTypeWellKnownGroup, SID_NAME_USE, ifsk.sid_name_use, ntifs/SidTypeGroup, ntifs/SidTypeDomain, ntifs/SidTypeLabel, SID_NAME_USE enumeration [Installable File System Drivers], securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, SidTypeUnknown, SidTypeAlias, SidTypeDeletedAccount, ntifs/SidTypeDeletedAccount, SidTypeUser, _SID_NAME_USE, ntifs/PSID_NAME_USE, SidTypeWellKnownGroup, ntifs/SidTypeComputer, *PSID_NAME_USE, ntifs/SidTypeUser, ntifs/SidTypeUnknown, SidTypeGroup, SidTypeDomain, ntifs/SidTypeAlias, PSID_NAME_USE enumeration pointer [Installable File System Drivers]
+ms.keywords: SID_NAME_USE, SidTypeDeletedAccount, ntifs/SidTypeComputer, ntifs/SidTypeDeletedAccount, ntifs/SidTypeWellKnownGroup, ntifs/SID_NAME_USE, SidTypeUser, SID_NAME_USE enumeration [Installable File System Drivers], SidTypeDomain, ntifs/PSID_NAME_USE, *PSID_NAME_USE, ntifs/SidTypeAlias, ntifs/SidTypeDomain, SidTypeInvalid, ifsk.sid_name_use, _SID_NAME_USE, SidTypeAlias, PSID_NAME_USE, SidTypeGroup, ntifs/SidTypeGroup, securitystructures_7ff44465-6d8e-46f6-9bd4-b5be754dde4b.xml, SidTypeUnknown, SidTypeLabel, ntifs/SidTypeUnknown, PSID_NAME_USE enumeration pointer [Installable File System Drivers], ntifs/SidTypeLabel, SidTypeWellKnownGroup, ntifs/SidTypeUser, SidTypeComputer, ntifs/SidTypeInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

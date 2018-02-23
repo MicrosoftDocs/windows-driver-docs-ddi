@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c86c753-dddf-488d-b332-4b79602c454a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml, HBA_GetFC4Statistics routine [Storage Devices], hbaapi/HBA_GetFC4Statistics, HBA_GetFC4Statistics, storage.hba_getfc4statistics
+ms.keywords: HBA_GetFC4Statistics routine [Storage Devices], hbaapi/HBA_GetFC4Statistics, HBA_GetFC4Statistics, storage.hba_getfc4statistics, fibreHBA_rtns_483a1f57-5e5b-4919-a61b-5853ffb5be6f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

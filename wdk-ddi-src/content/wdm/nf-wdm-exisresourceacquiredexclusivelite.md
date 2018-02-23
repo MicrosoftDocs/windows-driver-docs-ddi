@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 81c07809-1c66-4b68-b2d9-05992c778ae6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExIsResourceAcquiredExclusiveLite, kernel.exisresourceacquiredexclusivelite, ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, ExIsResourceAcquiredExclusiveLite
+ms.keywords: kernel.exisresourceacquiredexclusivelite, ExIsResourceAcquiredExclusiveLite, ExIsResourceAcquiredExclusiveLite routine [Kernel-Mode Driver Architecture], k102_ef023047-60ff-42aa-8224-37e2cfbe9f7b.xml, wdm/ExIsResourceAcquiredExclusiveLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

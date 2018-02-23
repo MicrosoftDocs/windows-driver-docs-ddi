@@ -7,8 +7,8 @@ old-location: pos\posstatusupdatedeventdata.htm
 old-project: pos
 ms.assetid: 382e5441-dce1-428b-90af-d57b5f930abb
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: pos.posstatusupdatedeventdata, pointofservicedriverinterface/PosStatusUpdatedEventData, PosStatusUpdatedEventData, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData
+ms.date: 2/22/2018
+ms.keywords: pointofservicedriverinterface/PosStatusUpdatedEventData, PosStatusUpdatedEventData, pos.posstatusupdatedeventdata, PosStatusUpdatedEventData structure, _PosStatusUpdatedEventData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

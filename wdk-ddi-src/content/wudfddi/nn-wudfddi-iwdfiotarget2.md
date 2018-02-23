@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 To obtain the <b>IWDFIoTarget2</b> interface, drivers call <b>IWDFIoTarget::QueryInterface</b>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoTarget2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>. <b>IWDFIoTarget2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFIoTarget2</b> interface has these methods.
@@ -90,11 +97,5 @@ The <a href="https://msdn.microsoft.com/2bfdc5c6-da5a-43c1-9165-02d6c448a690">Fo
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/28509e28-0e81-4531-947c-9ce452564682">FormatRequestForFlush</a> method builds an I/O request for a flush operation but does not send the request to an I/O target.
-
-The <a href="https://msdn.microsoft.com/24ce2918-1d9f-41eb-add1-a50b888f0a99">FormatRequestForQueryInformation</a> method formats an I/O request to obtain information about a file, but it does not send the request to an I/O target.
-
-The <a href="https://msdn.microsoft.com/2bfdc5c6-da5a-43c1-9165-02d6c448a690">FormatRequestForSetInformation</a> method formats an I/O request to set information about a file, but it does not send the request to an I/O target.
-
- 
+</table> 
 

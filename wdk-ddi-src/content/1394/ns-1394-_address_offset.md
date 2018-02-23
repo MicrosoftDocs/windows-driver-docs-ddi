@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: e1ee536f-40e4-48b7-b2d0-6ead22520ec8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ADDRESS_OFFSET structure [Buses], 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, *PADDRESS_OFFSET, _ADDRESS_OFFSET, PADDRESS_OFFSET, ADDRESS_OFFSET, 1394/ADDRESS_OFFSET, IEEE.address_offset, 1394/PADDRESS_OFFSET, PADDRESS_OFFSET structure pointer [Buses]
+ms.keywords: PADDRESS_OFFSET structure pointer [Buses], 1394stct_7b2efd3c-fcd3-4a01-8ece-8a70975787b1.xml, IEEE.address_offset, _ADDRESS_OFFSET, ADDRESS_OFFSET, 1394/ADDRESS_OFFSET, PADDRESS_OFFSET, 1394/PADDRESS_OFFSET, ADDRESS_OFFSET structure [Buses], *PADDRESS_OFFSET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ADDRESS_OFFSET
 product: Windows
 targetos: Windows
-req.typenames: "*PADDRESS_OFFSET, ADDRESS_OFFSET"
+req.typenames: ADDRESS_OFFSET, *PADDRESS_OFFSET
 ---
 
 # _ADDRESS_OFFSET structure
@@ -80,15 +80,15 @@ Specifies the low order offset for a IEEE 1394 address.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537155">GET_LOCAL_HOST_INFO6</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537346">IO_ADDRESS</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537632">REQUEST_ALLOCATE_ADDRESS_RANGE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537155">GET_LOCAL_HOST_INFO6</a>
 
 
 

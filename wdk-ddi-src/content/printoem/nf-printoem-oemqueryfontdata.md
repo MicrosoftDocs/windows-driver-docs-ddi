@@ -7,8 +7,8 @@ old-location: print\oemqueryfontdata.htm
 old-project: print
 ms.assetid: dccf1bca-6ea5-4cf0-b768-b569898c90e7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMQueryFontData function [Print Devices], OEMQueryFontData, printoem/OEMQueryFontData, print.oemqueryfontdata, print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml
+ms.date: 2/22/2018
+ms.keywords: OEMQueryFontData, OEMQueryFontData function [Print Devices], print_unidrv-pscript_rendering_5044e745-e2bf-4047-a8d8-371fc21c33fa.xml, printoem/OEMQueryFontData, print.oemqueryfontdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

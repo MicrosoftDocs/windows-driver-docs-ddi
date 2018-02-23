@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 82b1fe8e-054c-4710-9a32-d620a62a070e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, wdf.wdf_execution_level, kmdf.wdf_execution_level, WdfExecutionLevelDispatch, WDF_EXECUTION_LEVEL enumeration, wdfobject/WdfExecutionLevelInheritFromParent, WdfExecutionLevelPassive, wdfobject/WdfExecutionLevelPassive, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelDispatch, wdfobject/WDF_EXECUTION_LEVEL, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, WDF_EXECUTION_LEVEL, _WDF_EXECUTION_LEVEL
+ms.keywords: wdfobject/WdfExecutionLevelInheritFromParent, DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, wdfobject/WdfExecutionLevelDispatch, _WDF_EXECUTION_LEVEL, WDF_EXECUTION_LEVEL, kmdf.wdf_execution_level, WdfExecutionLevelDispatch, WdfExecutionLevelInvalid, WDF_EXECUTION_LEVEL enumeration, wdf.wdf_execution_level, wdfobject/WdfExecutionLevelPassive, wdfobject/WdfExecutionLevelInvalid, wdfobject/WDF_EXECUTION_LEVEL, WdfExecutionLevelPassive, WdfExecutionLevelInheritFromParent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

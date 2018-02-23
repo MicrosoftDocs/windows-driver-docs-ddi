@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19999e21-1afd-42ac-9809-b8ed4b6ac7e3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortGetBusData, StorPortGetBusData routine [Storage Devices], storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, storage.storportgetbusdata, storport/StorPortGetBusData
+ms.keywords: storport/StorPortGetBusData, storage.storportgetbusdata, storprt_fb8cc730-c53e-49b6-abe5-6a0648200d32.xml, StorPortGetBusData, StorPortGetBusData routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,7 +86,7 @@ Contains a value of type <a href="..\miniport\ne-miniport-_bus_data_type.md">BUS
 
 ### -param SystemIoBusNumber [in]
 
-Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains this value from the <b>SystemIoBusNumber</b> member initially set in <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
+Specifies the system-assigned number of the I/O bus. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains this value from the <b>SystemIoBusNumber</b> member initially set in <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
 
 
 ### -param SlotNumber [in]
@@ -158,11 +158,11 @@ Configuration data returned by <b>StorPortGetBusData</b> is valid only until the
 
 ## -see-also
 
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+
+
+
 <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
-
-
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 

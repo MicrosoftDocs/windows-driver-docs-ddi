@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A1ED9DBD-67FF-4AE7-8E5E-016C2C89A79E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_URS_ROLE, urstypes/UrsRoleHost, URS_ROLE, *PURS_ROLE, urstypes/UrsRoleNone, UrsRoleHost, UrsRoleFunction, UrsRoleNone, URS_ROLE, *PURS_ROLE enumeration [Buses], URS_ROLE enumeration [Buses], buses.urs_role, urstypes/UrsRoleFunction, *PURS_ROLE, URS_ROLE, urstypes/URS_ROLE"
+ms.keywords: "_URS_ROLE, urstypes/URS_ROLE, urstypes/UrsRoleNone, UrsRoleHost, urstypes/UrsRoleFunction, UrsRoleFunction, UrsRoleNone, URS_ROLE, *PURS_ROLE enumeration [Buses], *PURS_ROLE, URS_ROLE enumeration [Buses], URS_ROLE, *PURS_ROLE, urstypes/UrsRoleHost, URS_ROLE, buses.urs_role"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

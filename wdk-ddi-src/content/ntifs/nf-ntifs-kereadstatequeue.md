@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 02bcc901-91f4-40fc-ab4b-de958e00f862
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: keref_ae112949-4020-4501-8403-da1075d854c6.xml, ntifs/KeReadStateQueue, KeReadStateQueue, KeReadStateQueue function [Installable File System Drivers], ifsk.kereadstatequeue
+ms.keywords: keref_ae112949-4020-4501-8403-da1075d854c6.xml, ntifs/KeReadStateQueue, ifsk.kereadstatequeue, KeReadStateQueue, KeReadStateQueue function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

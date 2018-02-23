@@ -40,7 +40,7 @@ apiname:
 -	RequestCommon
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE"
+req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
 
 # POFXCALLBACKREQUESTCOMMON callback
@@ -94,7 +94,7 @@ A pointer to a data structure that contains the input data and/or result data fo
 
 
 
-This routine is implemented by the <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
+This routine is implemented by the <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx) and is called by the platform extension plug-in (PEP). The <b>RequestCommon</b> member of the <a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure is a pointer to an <b>RequestCommon</b> routine.
 
 A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
@@ -103,7 +103,7 @@ A PEP can call this routine at IRQL &lt;= HIGH_LEVEL.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 

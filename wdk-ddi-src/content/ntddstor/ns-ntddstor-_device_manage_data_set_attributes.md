@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ms.keywords: storage.device_manage_data_set_attributes, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DeviceDsmActionFlag_NonDestructive, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

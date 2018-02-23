@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8e9735b2-23d3-4fe6-8184-31e7707b6400
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft::WDTF::IWDTFTargets2::GetInterfaces, IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfaces method, GetInterfaces, GetInterfaces method [Windows Device Testing Framework], dtf.iwdtftargets2_getinterfaces, GetInterfaces method [Windows Device Testing Framework], IWDTFTargets2 interface, IWDTFTargets2::GetInterfaces, wdtf/IWDTFTargets2::GetInterfaces, Microsoft.WDTF.IWDTFTargets2.GetInterfaces, IWDTFTargets2
+ms.keywords: Microsoft::WDTF::IWDTFTargets2::GetInterfaces, wdtf/IWDTFTargets2::GetInterfaces, IWDTFTargets2, IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfaces method, GetInterfaces method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFTargets2.GetInterfaces, dtf.iwdtftargets2_getinterfaces, GetInterfaces method [Windows Device Testing Framework], IWDTFTargets2 interface, GetInterfaces, IWDTFTargets2::GetInterfaces
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

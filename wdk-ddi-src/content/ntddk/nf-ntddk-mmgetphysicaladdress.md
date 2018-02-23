@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2381c1c2-d7fc-4cb2-bbdf-2a95c78c34d0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmGetPhysicalAddress, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], ntddk/MmGetPhysicalAddress, kernel.mmgetphysicaladdress, k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml
+ms.keywords: MmGetPhysicalAddress, k106_1dc50500-ccd1-41a9-8a6c-55e3e283b00b.xml, MmGetPhysicalAddress routine [Kernel-Mode Driver Architecture], ntddk/MmGetPhysicalAddress, kernel.mmgetphysicaladdress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	MmGetPhysicalAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # MmGetPhysicalAddress function
@@ -94,19 +94,19 @@ Callers of <b>MmGetPhysicalAddress</b> can be running at any IRQL, provided that
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+<a href="..\ntddk\nf-ntddk-mmisaddressvalid.md">MmIsAddressValid</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554588">MmIsNonPagedSystemAddressValid</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
 
 
 

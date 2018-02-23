@@ -4,11 +4,11 @@ title: IDebugControl::GetPromptText method
 author: windows-driver-content
 description: The GetPromptText method returns the standard prompt text that will be prepended to the formatted output specified in the OutputPrompt and OutputPromptVaList methods.
 old-location: debugger\getprompttext.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 8d828cf1-991b-4c2d-882b-de56512a6737
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetPromptText method, IDebugControl::GetPromptText, debugger.getprompttext, GetPromptText method [Windows Debugging], IDebugControl interface, IDebugControl, GetPromptText, GetPromptText method [Windows Debugging], dbgeng/IDebugControl3::GetPromptText, dbgeng/IDebugControl::GetPromptText, IDebugControl3::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], GetPromptText method, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, dbgeng/IDebugControl2::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetPromptText, IDebugControl2 interface [Windows Debugging], GetPromptText method
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugControl::GetPromptText, IDebugControl interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl interface, IDebugControl_1f566e74-8920-43ce-8e5f-3c467ddb8d8a.xml, IDebugControl2::GetPromptText, dbgeng/IDebugControl2::GetPromptText, debugger.getprompttext, IDebugControl3 interface [Windows Debugging], GetPromptText method, GetPromptText method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetPromptText, GetPromptText method [Windows Debugging], IDebugControl2 interface, IDebugControl::GetPromptText, dbgeng/IDebugControl3::GetPromptText, IDebugControl, GetPromptText method [Windows Debugging], GetPromptText, IDebugControl2 interface [Windows Debugging], GetPromptText method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,19 +136,19 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553227">OutputPrompt</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -160,5 +160,5 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetPromptText method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetPromptText method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

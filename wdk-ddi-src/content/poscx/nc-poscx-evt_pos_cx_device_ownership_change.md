@@ -7,7 +7,7 @@ old-location: pos\evt_pos_cx_device_ownership_change.htm
 old-project: pos
 ms.assetid: 9587928C-6C40-4550-820A-B77968E3E16A
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.evt_pos_cx_device_ownership_change, EvtPosCxDeviceOwnershipChange callback function, EvtPosCxDeviceOwnershipChange, EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, EVT_POS_CX_DEVICE_OWNERSHIP_CHANGE, poscx/EvtPosCxDeviceOwnershipChange
 ms.prod: windows-hardware
 ms.technology: windows-devices

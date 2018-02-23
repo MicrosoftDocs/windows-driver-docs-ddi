@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3fca6d50-ac38-4edf-b24a-ea4fe5d8a4fd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, WDF_USB_PIPE_DIRECTION_IN, WDF_USB_PIPE_DIRECTION_IN function, kmdf.wdf_usb_pipe_direction_in, wdf.wdf_usb_pipe_direction_in, wdfusb/WDF_USB_PIPE_DIRECTION_IN
+ms.keywords: kmdf.wdf_usb_pipe_direction_in, WDF_USB_PIPE_DIRECTION_IN function, wdf.wdf_usb_pipe_direction_in, DFUsbRef_e0e1b604-8973-4901-91ea-76fce4e69b7c.xml, wdfusb/WDF_USB_PIPE_DIRECTION_IN, WDF_USB_PIPE_DIRECTION_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WDF_USB_PIPE_DIRECTION_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

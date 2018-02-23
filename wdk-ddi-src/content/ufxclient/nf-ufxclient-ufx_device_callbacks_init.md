@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D9E7D359-5FC8-44C8-ACA2-641DEFF17616
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxclient/UFX_DEVICE_CALLBACKS_INIT, UFX_DEVICE_CALLBACKS_INIT function [Buses], UFX_DEVICE_CALLBACKS_INIT, buses.ufx_device_callbacks_init
+ms.keywords: UFX_DEVICE_CALLBACKS_INIT, buses.ufx_device_callbacks_init, UFX_DEVICE_CALLBACKS_INIT function [Buses], ufxclient/UFX_DEVICE_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UFX_DEVICE_CALLBACKS_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

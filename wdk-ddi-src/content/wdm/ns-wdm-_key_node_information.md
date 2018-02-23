@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2eed1a3d-fc40-4416-ad61-d82bf4fb69a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kstruct_c_a41bb6c8-4e12-4aac-94cf-a24d32727c5e.xml, kernel.key_node_information, PKEY_NODE_INFORMATION, PKEY_NODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _KEY_NODE_INFORMATION, wdm/PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION, wdm/KEY_NODE_INFORMATION, KEY_NODE_INFORMATION structure [Kernel-Mode Driver Architecture], *PKEY_NODE_INFORMATION
+ms.keywords: kernel.key_node_information, *PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION, wdm/PKEY_NODE_INFORMATION, PKEY_NODE_INFORMATION, wdm/KEY_NODE_INFORMATION, kstruct_c_a41bb6c8-4e12-4aac-94cf-a24d32727c5e.xml, KEY_NODE_INFORMATION structure [Kernel-Mode Driver Architecture], _KEY_NODE_INFORMATION, PKEY_NODE_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KEY_NODE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKEY_NODE_INFORMATION, KEY_NODE_INFORMATION"
+req.typenames: KEY_NODE_INFORMATION, *PKEY_NODE_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -114,23 +114,7 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
-
-
-
-<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 
@@ -138,7 +122,23 @@ The <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a> and <a href="..
 
 
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+<a href="..\ntddk\ns-ntddk-_key_virtualization_information.md">KEY_VIRTUALIZATION_INFORMATION</a>
+
+
+
+<a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_full_information.md">KEY_FULL_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
 
 
 

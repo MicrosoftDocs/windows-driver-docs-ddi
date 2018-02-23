@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: bd98186f-5681-4611-9c27-eabfe4412df7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFLOG2::OutputInfo, OutputInfo, OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface, dtf.iwdtflog2_outputinfo, wdtf/IWDTFLOG2::OutputInfo, IWDTFLOG2, OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface [Windows Device Testing Framework], OutputInfo method, Microsoft.WDTF.IWDTFLOG2.OutputInfo, Microsoft::WDTF::IWDTFLOG2::OutputInfo
+ms.keywords: IWDTFLOG2 interface [Windows Device Testing Framework], OutputInfo method, OutputInfo method [Windows Device Testing Framework], IWDTFLOG2::OutputInfo, Microsoft::WDTF::IWDTFLOG2::OutputInfo, dtf.iwdtflog2_outputinfo, OutputInfo method [Windows Device Testing Framework], IWDTFLOG2 interface, Microsoft.WDTF.IWDTFLOG2.OutputInfo, OutputInfo, IWDTFLOG2, wdtf/IWDTFLOG2::OutputInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

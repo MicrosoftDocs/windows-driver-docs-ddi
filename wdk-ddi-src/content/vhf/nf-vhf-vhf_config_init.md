@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 4A87D9E2-F1FC-4CA8-834C-E545D8F0277B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.vhf_config_init, vhf/VHF_CONFIG_INIT, VHF_CONFIG_INIT, VHF_CONFIG_INIT function [Human Input Devices]
+ms.keywords: VHF_CONFIG_INIT function [Human Input Devices], vhf/VHF_CONFIG_INIT, hid.vhf_config_init, VHF_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

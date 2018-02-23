@@ -4,11 +4,11 @@ title: IStiDeviceControl::WriteToErrorLog method
 author: windows-driver-content
 description: The IStiDeviceControl::WriteToErrorLog method allows a user-mode still image minidriver to write a message into the still image error log.
 old-location: image\istidevicecontrol_writetoerrorlog.htm
-old-project: Image
+old-project: image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, WriteToErrorLog method [Imaging Devices], stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, stiusd/IStiDeviceControl::WriteToErrorLog, IStiDeviceControl::WriteToErrorLog, image.istidevicecontrol_writetoerrorlog, WriteToErrorLog, IStiDeviceControl, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface
+ms.date: 2/22/2018
+ms.keywords: IStiDeviceControl::WriteToErrorLog, IStiDeviceControl, stiusd/IStiDeviceControl::WriteToErrorLog, IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, WriteToErrorLog, image.istidevicecontrol_writetoerrorlog, WriteToErrorLog method [Imaging Devices], stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

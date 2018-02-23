@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: EAFC6B53-98E9-46A4-9D45-56B0A32993B1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdeviceopendevicemapkey, WdfDeviceOpenDevicemapKey, wdfdevice/WdfDeviceOpenDevicemapKey, WdfDeviceOpenDevicemapKey method
+ms.keywords: WdfDeviceOpenDevicemapKey method, WdfDeviceOpenDevicemapKey, wdfdevice/WdfDeviceOpenDevicemapKey, wdf.wdfdeviceopendevicemapkey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

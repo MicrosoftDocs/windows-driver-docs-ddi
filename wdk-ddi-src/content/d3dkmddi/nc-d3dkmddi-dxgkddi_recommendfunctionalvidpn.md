@@ -7,7 +7,7 @@ old-location: display\dxgkddirecommendfunctionalvidpn.htm
 old-project: display
 ms.assetid: 320a77a7-d7d4-47b9-8a40-2b6e12819e4b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.dxgkddirecommendfunctionalvidpn, DxgkDdiRecommendFunctionalVidPn callback function [Display Devices], DxgkDdiRecommendFunctionalVidPn, DXGKDDI_RECOMMENDFUNCTIONALVIDPN, DXGKDDI_RECOMMENDFUNCTIONALVIDPN, d3dkmddi/DxgkDdiRecommendFunctionalVidPn, DmFunctions_9b5062a8-31fa-4351-bf10-a90f57bbaed8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

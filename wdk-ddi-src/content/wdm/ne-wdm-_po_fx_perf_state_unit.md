@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E16657AE-9EEF-4E36-AAC5-5BF822006F1C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PoFxPerfStateUnitBandwidth, PoFxPerfStateUnitBandwidth, _PO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitMaximum, PPO_FX_PERF_STATE_UNIT enumeration pointer [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE_UNIT, kernel.po_fx_perf_state_unit, wdm/PPO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitMaximum, PO_FX_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateUnitFrequency, wdm/PO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitOther, wdm/PoFxPerfStateUnitFrequency, PoFxPerfStateUnitOther
+ms.keywords: PPO_FX_PERF_STATE_UNIT enumeration pointer [Kernel-Mode Driver Architecture], PoFxPerfStateUnitFrequency, _PO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitMaximum, wdm/PoFxPerfStateUnitOther, wdm/PoFxPerfStateUnitFrequency, wdm/PoFxPerfStateUnitMaximum, PoFxPerfStateUnitBandwidth, PPO_FX_PERF_STATE_UNIT, wdm/PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT, kernel.po_fx_perf_state_unit, PO_FX_PERF_STATE_UNIT enumeration [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE_UNIT, PoFxPerfStateUnitOther, *PPO_FX_PERF_STATE_UNIT, wdm/PoFxPerfStateUnitBandwidth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_PERF_STATE_UNIT
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 
@@ -102,11 +102,11 @@ The <b>Unit</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_pe
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 
 

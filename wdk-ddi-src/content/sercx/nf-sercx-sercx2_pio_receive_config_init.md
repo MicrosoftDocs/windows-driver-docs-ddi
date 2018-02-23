@@ -40,7 +40,7 @@ apiname:
 -	SERCX2_PIO_RECEIVE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 

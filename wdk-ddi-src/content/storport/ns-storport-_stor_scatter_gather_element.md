@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2e387418-a37c-492b-8ee4-b6ff8f0e53b0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSTOR_SCATTER_GATHER_ELEMENT, _STOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices], storport/STOR_SCATTER_GATHER_ELEMENT, storport/PSTOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT, storage.stor_scatter_gather_element, PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml, *PSTOR_SCATTER_GATHER_ELEMENT
+ms.keywords: PSTOR_SCATTER_GATHER_ELEMENT structure pointer [Storage Devices], storport/STOR_SCATTER_GATHER_ELEMENT, *PSTOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT, _STOR_SCATTER_GATHER_ELEMENT, PSTOR_SCATTER_GATHER_ELEMENT, structs-storport_e7e71caf-d421-45ba-b356-c1450eec6e6c.xml, storport/PSTOR_SCATTER_GATHER_ELEMENT, STOR_SCATTER_GATHER_ELEMENT structure [Storage Devices], storage.stor_scatter_gather_element
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

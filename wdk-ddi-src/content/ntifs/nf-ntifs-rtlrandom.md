@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f3975ad7-8eb8-4f46-8024-6a1decc21c77
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlrandom, rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml, RtlRandom routine [Installable File System Drivers], ntifs/RtlRandom, RtlRandom
+ms.keywords: ntifs/RtlRandom, RtlRandom, RtlRandom routine [Installable File System Drivers], rtlref_c9c196b4-7335-4320-ae7f-7c565b6f73e6.xml, ifsk.rtlrandom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

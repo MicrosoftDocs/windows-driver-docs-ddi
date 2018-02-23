@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 8ffa85ee-cad6-476e-91ab-1897a6b43ca1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PGET_UNIT_IDS structure pointer [Buses], GET_UNIT_IDS, *PGET_UNIT_IDS, _GET_UNIT_IDS, 61883/PGET_UNIT_IDS, GET_UNIT_IDS structure [Buses], PGET_UNIT_IDS, IEEE.get_unit_ids, 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, 61883/GET_UNIT_IDS
+ms.keywords: 61883/PGET_UNIT_IDS, 61883/GET_UNIT_IDS, GET_UNIT_IDS structure [Buses], GET_UNIT_IDS, *PGET_UNIT_IDS, 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, _GET_UNIT_IDS, PGET_UNIT_IDS, IEEE.get_unit_ids, PGET_UNIT_IDS structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

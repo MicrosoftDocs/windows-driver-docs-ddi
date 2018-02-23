@@ -40,7 +40,7 @@ apiname:
 -	(*FILTER_SET_FILTER_MODULE_OPTIONS_HANDLER)
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # FILTER_SET_MODULE_OPTIONS callback
@@ -249,16 +249,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_restart.md">FilterRestart</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
-   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
 
 
 
@@ -267,9 +258,16 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_filter_driver_characteristics.md">
+   NDIS_FILTER_DRIVER_CHARACTERISTICS</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissetoptionalhandlers.md">NdisSetOptionalHandlers</a>
 
 
+
+<a href="..\ndis\nf-ndis-ndisfregisterfilterdriver.md">NdisFRegisterFilterDriver</a>
 
 
 

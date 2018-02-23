@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4FCFC48A-97BC-48E0-BBA7-F9E8B8A7588A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExAllocateTimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], kernel.exallocatetimer, ExAllocateTimer
+ms.keywords: kernel.exallocatetimer, ExAllocateTimer routine [Kernel-Mode Driver Architecture], ExAllocateTimer, wdm/ExAllocateTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,7 +144,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
+<a href="..\wdm\nf-wdm-excanceltimer.md">ExCancelTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
 
 
 
@@ -156,11 +160,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-excanceltimer.md">ExCancelTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-exsettimer.md">ExSetTimer</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/exxxxtimer-routines-and-ex-timer-objects">EX_TIMER</a>
 
 
 

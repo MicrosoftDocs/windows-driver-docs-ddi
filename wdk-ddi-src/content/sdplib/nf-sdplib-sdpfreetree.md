@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 7d3f743e-2422-474d-aaad-4386e0dc100a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, SdpFreeTree, sdplib/SdpFreeTree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml
+ms.keywords: SdpFreeTree function [Bluetooth Devices], SdpFreeTree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, bltooth.sdpfreetree, sdplib/SdpFreeTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,15 @@ Bluetooth profile drivers can obtain a pointer to the
 
 ## -see-also
 
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+
+
+<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
+
+
+
+<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
 
 
 
@@ -118,14 +126,6 @@ Bluetooth profile drivers can obtain a pointer to the
 
 
 <a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
-
-
-
-<a href="..\bthsdpddi\ns-bthsdpddi-_bthddi_sdp_node_interface.md">BTHDDI_SDP_NODE_INTERFACE</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
 
 
 

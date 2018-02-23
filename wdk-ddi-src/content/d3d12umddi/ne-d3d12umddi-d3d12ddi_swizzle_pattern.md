@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_swizzle_pattern.htm
 old-project: display
 ms.assetid: 2C51BB44-3204-4EE8-9C86-605698BD58C0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDI_SP_ROW_MAJOR, display.d3d12ddi_swizzle_pattern, d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SWIZZLE_PATTERN, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SP_DEVICE_DEPENDENT_0, D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, d3d12umddi/D3D12DDI_SP_ROW_MAJOR, D3D12DDI_SP_64KB_STANDARD_SWIZZLE
+ms.date: 2/22/2018
+ms.keywords: D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SWIZZLE_PATTERN enumeration [Display Devices], d3d12umddi/D3D12DDI_SWIZZLE_PATTERN, display.d3d12ddi_swizzle_pattern, D3D12DDI_SP_ROW_MAJOR, D3D12DDI_SP_DEVICE_DEPENDENT_0, d3d12umddi/D3D12DDI_SP_DEVICE_DEPENDENT_0, d3d12umddi/D3D12DDI_SP_ROW_MAJOR, d3d12umddi/D3D12DDI_SP_64KB_STANDARD_SWIZZLE, D3D12DDI_SWIZZLE_PATTERN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

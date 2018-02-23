@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a34845a9-d596-40de-b4d1-0f733818d961
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlRemoveExtraCreateParameter, ifsk.fsrtlremoveextracreateparameter, FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], FsRtlRemoveExtraCreateParameter, fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml
+ms.keywords: FsRtlRemoveExtraCreateParameter routine [Installable File System Drivers], FsRtlRemoveExtraCreateParameter, fsrtlref_3fa961e9-0dc1-4d4b-a5dc-80883b1db15e.xml, ifsk.fsrtlremoveextracreateparameter, ntifs/FsRtlRemoveExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,7 +146,11 @@ The <b>FsRtlRemoveExtraCreateParameter</b> routine searches the ECP list given b
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 
@@ -154,11 +158,7 @@ The <b>FsRtlRemoveExtraCreateParameter</b> routine searches the ECP list given b
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
+<a href="..\fltkernel\nf-fltkernel-fltinsertextracreateparameter.md">FltInsertExtraCreateParameter</a>
 
 
 
@@ -166,11 +166,11 @@ The <b>FsRtlRemoveExtraCreateParameter</b> routine searches the ECP list given b
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
 <b>FltAllocateExtraCreateParameterFromLookasideList</b>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 

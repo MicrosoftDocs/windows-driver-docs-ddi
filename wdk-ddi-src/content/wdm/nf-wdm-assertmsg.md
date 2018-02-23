@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 88c0cd30-607b-48f4-b2b6-3c21be1ce31a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: ASSERTMSG function [Driver Development Tools], devtest.assertmsg, ASSERTMSG, DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, ntddk/ASSERTMSG
+ms.keywords: ASSERTMSG function [Driver Development Tools], devtest.assertmsg, DebugFns_998b520e-90e6-440f-94d4-55ff0b6e102f.xml, ntddk/ASSERTMSG, ASSERTMSG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

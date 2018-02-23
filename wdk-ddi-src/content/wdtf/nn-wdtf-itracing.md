@@ -54,6 +54,13 @@ req.product: Windows 10 or later.
 The <b>ITracing </b>interface sets an object's <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a> value. This interface is a base interface for most of the WDTF interfaces.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITracing</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITracing</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>ITracing</b> interface has these methods.
@@ -69,9 +76,7 @@ Sets the tracing level for an object.
 
 </td>
 </tr>
-</table>Sets the tracing level for an object.
-
- 
+</table> 
 
 
 ## -remarks
@@ -85,15 +90,15 @@ Because the <a href="..\wdtf\nn-wdtf-iaction.md">IAction</a> interface inherits 
 
 ## -see-also
 
+<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538787">IAction</a>
 
 
 
 <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
-
-
-
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
 
 
 

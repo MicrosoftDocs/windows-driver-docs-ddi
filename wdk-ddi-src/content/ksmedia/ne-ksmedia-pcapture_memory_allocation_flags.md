@@ -7,8 +7,8 @@ old-location: stream\capture_memory_allocation_flags.htm
 old-project: stream
 ms.assetid: 3b96301a-28a5-494b-bd12-8d3d4516730e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.capture_memory_allocation_flags, *PCAPTURE_MEMORY_ALLOCATION_FLAGS, PCAPTURE_MEMORY_ALLOCATION_FLAGS, avstruct_2c1411b2-f4a6-44f9-ba68-63f2f5654105.xml, CAPTURE_MEMORY_ALLOCATION_FLAGS, KS_CAPTURE_ALLOC_SYSTEM_AGP, ksmedia/KS_CAPTURE_ALLOC_SYSTEM_AGP, ksmedia/KS_CAPTURE_ALLOC_VRAM_MAPPED, PCAPTURE_MEMORY_ALLOCATION_FLAGS enumeration pointer [Streaming Media Devices], CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration [Streaming Media Devices], ksmedia/KS_CAPTURE_ALLOC_INVALID, ksmedia/CAPTURE_MEMORY_ALLOCATION_FLAGS, KS_CAPTURE_ALLOC_VRAM, ksmedia/KS_CAPTURE_ALLOC_VRAM, KS_CAPTURE_ALLOC_INVALID, ksmedia/KS_CAPTURE_ALLOC_SYSTEM, ksmedia/PCAPTURE_MEMORY_ALLOCATION_FLAGS, KS_CAPTURE_ALLOC_SYSTEM, KS_CAPTURE_ALLOC_VRAM_MAPPED
+ms.date: 2/22/2018
+ms.keywords: KS_CAPTURE_ALLOC_INVALID, *PCAPTURE_MEMORY_ALLOCATION_FLAGS, stream.capture_memory_allocation_flags, KS_CAPTURE_ALLOC_SYSTEM, ksmedia/KS_CAPTURE_ALLOC_VRAM, ksmedia/KS_CAPTURE_ALLOC_INVALID, KS_CAPTURE_ALLOC_VRAM, CAPTURE_MEMORY_ALLOCATION_FLAGS, ksmedia/PCAPTURE_MEMORY_ALLOCATION_FLAGS, CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration [Streaming Media Devices], ksmedia/KS_CAPTURE_ALLOC_SYSTEM, KS_CAPTURE_ALLOC_VRAM_MAPPED, PCAPTURE_MEMORY_ALLOCATION_FLAGS enumeration pointer [Streaming Media Devices], ksmedia/KS_CAPTURE_ALLOC_VRAM_MAPPED, PCAPTURE_MEMORY_ALLOCATION_FLAGS, avstruct_2c1411b2-f4a6-44f9-ba68-63f2f5654105.xml, ksmedia/KS_CAPTURE_ALLOC_SYSTEM_AGP, KS_CAPTURE_ALLOC_SYSTEM_AGP, ksmedia/CAPTURE_MEMORY_ALLOCATION_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	CAPTURE_MEMORY_ALLOCATION_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: "*PCAPTURE_MEMORY_ALLOCATION_FLAGS, CAPTURE_MEMORY_ALLOCATION_FLAGS"
+req.typenames: CAPTURE_MEMORY_ALLOCATION_FLAGS, *PCAPTURE_MEMORY_ALLOCATION_FLAGS
 ---
 
 # *PCAPTURE_MEMORY_ALLOCATION_FLAGS enumeration
@@ -103,17 +103,17 @@ Not currently supported.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565130">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565209">KSPROPERTY_PREFERRED_CAPTURE_SURFACE</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565130">KSPROPERTY_CURRENT_CAPTURE_SURFACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20CAPTURE_MEMORY_ALLOCATION_FLAGS enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\iprintreadstream.htm
 old-project: print
 ms.assetid: f31a6547-44ec-4331-8f9b-e46192f4966a
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.iprintreadstream, IPrintReadStream interface [Print Devices], IPrintReadStream interface [Print Devices], described, IPrintReadStream, filterpipeline/IPrintReadStream, filterpipeline_51454792-ccd6-4c55-adbc-d5cc1536f93c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,13 @@ req.typenames: EXpsFontRestriction
 Filters use the <code>IPrintReadStream</code> interface to read data as a raw stream of bytes.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintReadStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintReadStream</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintReadStream</b> interface has these methods.
@@ -78,9 +85,5 @@ The <code>Seek</code> method changes the seek pointer to a new location in the s
 
 </td>
 </tr>
-</table>The <code>ReadBytes</code> method reads a number of bytes into a buffer.
-
-The <code>Seek</code> method changes the seek pointer to a new location in the stream.
-
- 
+</table> 
 

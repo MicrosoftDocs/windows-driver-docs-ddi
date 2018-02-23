@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 41df2847-7cfa-4746-82bd-d0b8b482a0d4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices], structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices], *PDRIVE_LAYOUT_INFORMATION_MBR, storage.drive_layout_information_mbr, _DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR
+ms.keywords: PDRIVE_LAYOUT_INFORMATION_MBR, structs-disk_766d8fbf-64c1-4b4e-b0ce-421c8892b0d4.xml, DRIVE_LAYOUT_INFORMATION_MBR, storage.drive_layout_information_mbr, ntdddisk/PDRIVE_LAYOUT_INFORMATION_MBR, PDRIVE_LAYOUT_INFORMATION_MBR structure pointer [Storage Devices], _DRIVE_LAYOUT_INFORMATION_MBR, ntdddisk/DRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR structure [Storage Devices], *PDRIVE_LAYOUT_INFORMATION_MBR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRIVE_LAYOUT_INFORMATION_MBR
 product: Windows
 targetos: Windows
-req.typenames: "*PDRIVE_LAYOUT_INFORMATION_MBR, DRIVE_LAYOUT_INFORMATION_MBR"
+req.typenames: DRIVE_LAYOUT_INFORMATION_MBR, *PDRIVE_LAYOUT_INFORMATION_MBR
 ---
 
 # _DRIVE_LAYOUT_INFORMATION_MBR structure
@@ -90,7 +90,7 @@ This structure contains the drive layout information that is specific to a drive
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 
 
@@ -98,7 +98,7 @@ This structure contains the drive layout information that is specific to a drive
 
 
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information_ex.md">DRIVE_LAYOUT_INFORMATION_EX</a>
 
 
 

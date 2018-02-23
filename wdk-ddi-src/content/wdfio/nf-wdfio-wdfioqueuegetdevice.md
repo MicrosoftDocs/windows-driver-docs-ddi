@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 68f0038d-6c2e-4228-86b2-c96bea789474
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfio/WdfIoQueueGetDevice, kmdf.wdfioqueuegetdevice, WdfIoQueueGetDevice, WdfIoQueueGetDevice method, DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, wdf.wdfioqueuegetdevice
+ms.keywords: DFQueueObjectRef_4f5c8dbb-feb5-4c08-a2ea-06d375d5a6be.xml, WdfIoQueueGetDevice method, WdfIoQueueGetDevice, wdf.wdfioqueuegetdevice, wdfio/WdfIoQueueGetDevice, kmdf.wdfioqueuegetdevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

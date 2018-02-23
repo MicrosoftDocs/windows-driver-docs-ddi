@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: da01963f-a0eb-4222-b0c7-20b924f65f66
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], RILSYSTEMTIME, *LPRILSYSTEMTIME, ntddrilapitypes/RILSYSTEMTIME, netvista.rilsystemtime
+ms.keywords: RILSYSTEMTIME structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSYSTEMTIME, *LPRILSYSTEMTIME, netvista.rilsystemtime, RILSYSTEMTIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

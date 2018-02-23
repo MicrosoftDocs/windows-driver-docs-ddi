@@ -7,8 +7,8 @@ old-location: display\dxva_coppstatusdisplaydata.htm
 old-project: display
 ms.assetid: 377845f7-772f-4361-8fcb-10c432fa7abf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_DXVA_COPPStatusDisplayData, DXVA_COPPStatusDisplayData structure [Display Devices], dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml, DXVA_COPPStatusDisplayData, display.dxva_coppstatusdisplaydata, dxva/DXVA_COPPStatusDisplayData"
+ms.date: 2/22/2018
+ms.keywords: "_DXVA_COPPStatusDisplayData, dxvaref_93230a15-ba58-4da6-8577-eb1f2bf8528e.xml, DXVA_COPPStatusDisplayData structure [Display Devices], dxva/DXVA_COPPStatusDisplayData, display.dxva_coppstatusdisplaydata, DXVA_COPPStatusDisplayData"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,11 +143,11 @@ The refresh rate of the current display mode is expressed as a numerator/denomin
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
-
-
-
 <a href="..\dxva\ns-dxva-_dxva_coppstatusinput.md">DXVA_COPPStatusInput</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539652">COPPQueryStatus</a>
 
 
 
@@ -163,5 +163,5 @@ The refresh rate of the current display mode is expressed as a numerator/denomin
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPStatusDisplayData structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_COPPStatusDisplayData structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

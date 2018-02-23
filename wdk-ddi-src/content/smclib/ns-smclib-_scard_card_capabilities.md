@@ -7,8 +7,8 @@ old-location: smartcrd\scard_card_capabilities.htm
 old-project: smartcrd
 ms.assetid: 8cc223be-a692-4141-81f6-4cca9e2fccf1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: smartcrd.scard_card_capabilities, smclib/PSCARD_CARD_CAPABILITIES, _SCARD_CARD_CAPABILITIES, scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, SCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], PSCARD_CARD_CAPABILITIES, smclib/SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices]
+ms.date: 2/22/2018
+ms.keywords: smclib/SCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES structure pointer [Smart Card Reader Devices], scstruct_b60c574d-a6db-4d15-a974-dc15ba375b5b.xml, _SCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES structure [Smart Card Reader Devices], *PSCARD_CARD_CAPABILITIES, PSCARD_CARD_CAPABILITIES, smclib/PSCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES, smartcrd.scard_card_capabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCARD_CARD_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PSCARD_CARD_CAPABILITIES, SCARD_CARD_CAPABILITIES"
+req.typenames: SCARD_CARD_CAPABILITIES, *PSCARD_CARD_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 

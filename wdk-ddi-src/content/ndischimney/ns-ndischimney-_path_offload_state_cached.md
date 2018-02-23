@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5afd2499-3f47-481e-9d20-770842f79677
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndischimney/PPATH_OFFLOAD_STATE_CACHED, PPATH_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PATH_OFFLOAD_STATE_CACHED, PATH_OFFLOAD_STATE_CACHED, netvista.path_offload_state_cached, _PATH_OFFLOAD_STATE_CACHED, PATH_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], PPATH_OFFLOAD_STATE_CACHED, tcp_chim_struct_768560e8-d67c-42f3-aa43-78c48e198eef.xml, *PPATH_OFFLOAD_STATE_CACHED
+ms.keywords: ndischimney/PATH_OFFLOAD_STATE_CACHED, PPATH_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], tcp_chim_struct_768560e8-d67c-42f3-aa43-78c48e198eef.xml, *PPATH_OFFLOAD_STATE_CACHED, _PATH_OFFLOAD_STATE_CACHED, netvista.path_offload_state_cached, PATH_OFFLOAD_STATE_CACHED, PPATH_OFFLOAD_STATE_CACHED, ndischimney/PPATH_OFFLOAD_STATE_CACHED, PATH_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -114,6 +114,14 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CACHED structure is assoc
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
+
+
 <a href="..\ndischimney\ns-ndischimney-_path_offload_state_delegated.md">PATH_OFFLOAD_STATE_DELEGATED</a>
 
 
@@ -123,14 +131,6 @@ When passed to an offload target, a PATH_OFFLOAD_STATE_CACHED structure is assoc
 
 
 <a href="..\ndischimney\ns-ndischimney-_path_offload_state_const.md">PATH_OFFLOAD_STATE_CONST</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

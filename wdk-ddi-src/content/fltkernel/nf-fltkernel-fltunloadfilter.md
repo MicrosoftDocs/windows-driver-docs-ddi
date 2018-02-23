@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 234907d8-d21e-4303-9508-0673afa471a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltunloadfilter, FltUnloadFilter function [Installable File System Drivers], FltApiRef_p_to_z_88925df3-96d3-4e1f-9e0b-f97eb8d9b40b.xml, FltUnloadFilter, fltkernel/FltUnloadFilter
+ms.keywords: fltkernel/FltUnloadFilter, FltUnloadFilter function [Installable File System Drivers], ifsk.fltunloadfilter, FltApiRef_p_to_z_88925df3-96d3-4e1f-9e0b-f97eb8d9b40b.xml, FltUnloadFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,11 +126,11 @@ A minifilter driver cannot call <b>FltUnloadFilter</b> to unload itself.
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltloadfilter.md">FltLoadFilter</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

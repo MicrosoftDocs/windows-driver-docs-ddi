@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ea6e373-225d-4fcd-abcf-c19b07f9f5d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_TRI_STATE, _WDF_TRI_STATE, wdftypes/WDF_TRI_STATE, WdfUseDefault, wudfddi_types/WdfTrue, wdf.wdf_tri_state, WDF_TRI_STATE enumeration, wudfddi_types/WdfFalse, wudfddi_types/WDF_TRI_STATE, PWDF_TRI_STATE enumeration pointer, wudfddi_types/PWDF_TRI_STATE, WdfFalse, DFGenObjectRef_83855649-9d84-4f8c-9685-5e5321209b4d.xml, wdftypes/WdfUseDefault, PWDF_TRI_STATE, wdftypes/PWDF_TRI_STATE, wdftypes/WdfFalse, wudfddi_types/WdfUseDefault, *PWDF_TRI_STATE, WdfTrue, kmdf.wdf_tri_state, wdftypes/WdfTrue
+ms.keywords: "*PWDF_TRI_STATE, WdfTrue, WdfFalse, kmdf.wdf_tri_state, wdftypes/WdfUseDefault, wdftypes/PWDF_TRI_STATE, wdftypes/WdfFalse, WDF_TRI_STATE, wudfddi_types/WdfUseDefault, wudfddi_types/PWDF_TRI_STATE, wdf.wdf_tri_state, WDF_TRI_STATE enumeration, _WDF_TRI_STATE, wudfddi_types/WdfTrue, wudfddi_types/WDF_TRI_STATE, wdftypes/WdfTrue, wudfddi_types/WdfFalse, wdftypes/WDF_TRI_STATE, DFGenObjectRef_83855649-9d84-4f8c-9685-5e5321209b4d.xml, WdfUseDefault, PWDF_TRI_STATE, PWDF_TRI_STATE enumeration pointer"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

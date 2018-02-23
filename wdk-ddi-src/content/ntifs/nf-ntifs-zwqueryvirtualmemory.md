@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 011BE902-5ED3-4AD8-B825-6850A72C1D5F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/NtQueryVirtualMemory, kernel.zwqueryvirtualmemory, ZwQueryVirtualMemory, NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory, ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwQueryVirtualMemory routine [Kernel-Mode Driver Architecture], ntifs/NtQueryVirtualMemory, ntifs/ZwQueryVirtualMemory, ZwQueryVirtualMemory, kernel.zwqueryvirtualmemory, NtQueryVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,7 +206,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntpoapi\ns-ntpoapi-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
 
 
 

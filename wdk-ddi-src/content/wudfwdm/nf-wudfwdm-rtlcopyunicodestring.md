@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 241801a5-4a02-46f3-a007-f571d58c7825
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml, RtlCopyUnicodeString, kernel.rtlcopyunicodestring, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture], wdm/RtlCopyUnicodeString
+ms.keywords: wdm/RtlCopyUnicodeString, k109_5d0b341c-a440-4137-bdc3-77e0da0db58c.xml, RtlCopyUnicodeString routine [Kernel-Mode Driver Architecture], RtlCopyUnicodeString, kernel.rtlcopyunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlCopyUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 
@@ -108,11 +108,11 @@ The <i>DestinationString</i> and <i>SourceString</i> buffers must be resident if
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlcopystring.md">RtlCopyString</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72dc7128-fcbc-4ad8-ac81-e2767ac6ffa2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WDIAG_IHV_WLAN_ID, wlanihv/PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], wlanihv/WDIAG_IHV_WLAN_ID, _WDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID, netvista.wdiag_ihv_wlan_id, *PWDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml
+ms.keywords: netvista.wdiag_ihv_wlan_id, wlanihv/WDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID structure pointer [Network Drivers Starting with Windows Vista], WDIAG_IHV_WLAN_ID, wlanihv/PWDIAG_IHV_WLAN_ID, Native_802.11_data_types_25565f34-9a6d-4c59-908f-527c1d9a43b1.xml, *PWDIAG_IHV_WLAN_ID, PWDIAG_IHV_WLAN_ID, WDIAG_IHV_WLAN_ID structure [Network Drivers Starting with Windows Vista], _WDIAG_IHV_WLAN_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -105,11 +105,11 @@ An error reason code, when available.
 
 ## -see-also
 
-<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
-
-
-
 <a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_bss_type.md">DOT11_BSS_TYPE</a>
 
 
 

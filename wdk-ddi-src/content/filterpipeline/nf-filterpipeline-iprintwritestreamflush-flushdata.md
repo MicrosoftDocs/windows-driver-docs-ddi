@@ -7,8 +7,8 @@ old-location: print\iprintwritestreamflush_flushdata.htm
 old-project: print
 ms.assetid: F0E31AA1-47BD-4294-89BA-27B02FC8125B
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.iprintwritestreamflush_flushdata, IPrintWriteStreamFlush interface [Print Devices], FlushData method, FlushData method [Print Devices], IPrintWriteStreamFlush interface, filterpipeline/IPrintWriteStreamFlush::FlushData, FlushData, IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush, FlushData method [Print Devices]
+ms.date: 2/22/2018
+ms.keywords: IPrintWriteStreamFlush, FlushData method [Print Devices], filterpipeline/IPrintWriteStreamFlush::FlushData, IPrintWriteStreamFlush::FlushData, FlushData, FlushData method [Print Devices], IPrintWriteStreamFlush interface, IPrintWriteStreamFlush interface [Print Devices], FlushData method, print.iprintwritestreamflush_flushdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -123,17 +123,17 @@ hr = pIFlush-&gt;FlushData();
 
 ## -see-also
 
-<a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554394">IPrintWriteStream::WriteBytes</a>
 
 
 
- 
+<a href="..\filterpipeline\nn-filterpipeline-iprintwritestreamflush.md">IPrintWriteStreamFlush</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintWriteStreamFlush::FlushData method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintWriteStreamFlush::FlushData method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

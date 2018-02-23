@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2d8f1b49-5add-4dd9-998f-d0c1e79f3e7d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/SendRNIDV2_OUT, structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml, PSendRNIDV2_OUT, _SendRNIDV2_OUT, *PSendRNIDV2_OUT, SendRNIDV2_OUT, storage.sendrnidv2_out, hbapiwmi/PSendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], PSendRNIDV2_OUT structure pointer [Storage Devices]
+ms.keywords: "*PSendRNIDV2_OUT, hbapiwmi/PSendRNIDV2_OUT, hbapiwmi/SendRNIDV2_OUT, PSendRNIDV2_OUT structure pointer [Storage Devices], structs-Fibre_78855dda-228d-432f-8189-8be83df6d2ea.xml, PSendRNIDV2_OUT, _SendRNIDV2_OUT, SendRNIDV2_OUT structure [Storage Devices], SendRNIDV2_OUT, storage.sendrnidv2_out"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendRNIDV2_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSendRNIDV2_OUT, SendRNIDV2_OUT"
+req.typenames: SendRNIDV2_OUT, *PSendRNIDV2_OUT
 ---
 
 # _SendRNIDV2_OUT structure

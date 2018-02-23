@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D7B47E18-038E-41B4-85E5-A48931CDCA89
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/CDROM_PERFORMANCE_HEADER, _CDROM_PERFORMANCE_HEADER, storage.cdrom_performance_header, PCDROM_PERFORMANCE_HEADER, PCDROM_PERFORMANCE_HEADER structure pointer [Storage Devices], CDROM_PERFORMANCE_HEADER structure [Storage Devices], ntddcdrm/PCDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER, *PCDROM_PERFORMANCE_HEADER
+ms.keywords: ntddcdrm/CDROM_PERFORMANCE_HEADER, ntddcdrm/PCDROM_PERFORMANCE_HEADER, PCDROM_PERFORMANCE_HEADER structure pointer [Storage Devices], *PCDROM_PERFORMANCE_HEADER, _CDROM_PERFORMANCE_HEADER, PCDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER structure [Storage Devices], CDROM_PERFORMANCE_HEADER, storage.cdrom_performance_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_PERFORMANCE_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_PERFORMANCE_HEADER, CDROM_PERFORMANCE_HEADER"
+req.typenames: CDROM_PERFORMANCE_HEADER, *PCDROM_PERFORMANCE_HEADER
 ---
 
 # _CDROM_PERFORMANCE_HEADER structure
@@ -107,19 +107,19 @@ Contains a list of the following records, depending upon the type of request: <a
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exception_performance_descriptor.md">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_nominal_performance_descriptor.md">CDROM_NOMINAL_PERFORMANCE_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_descriptor.md">CDROM_WRITE_SPEED_DESCRIPTOR</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_exception_performance_descriptor.md">CDROM_EXCEPTION_PERFORMANCE_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_write_speed_descriptor.md">CDROM_WRITE_SPEED_DESCRIPTOR</a>
 
 
 

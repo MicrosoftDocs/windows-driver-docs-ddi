@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E18AD58C-74D0-4CA7-9EE5-F96863F88E26
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: BDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForUnload, ntddk/BdCbStatusPrepareForUnload, *PBDCB_STATUS_UPDATE_TYPE, ntddk/BDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForDependecyLoad, BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], kernel.bdcb_status_update_type, BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDependecyLoad
+ms.keywords: BDCB_STATUS_UPDATE_TYPE enumeration [Kernel-Mode Driver Architecture], BdCbStatusPrepareForUnload, *PBDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForDriverLoad, _BDCB_STATUS_UPDATE_TYPE, ntddk/BdCbStatusPrepareForUnload, ntddk/BDCB_STATUS_UPDATE_TYPE, BDCB_STATUS_UPDATE_TYPE, BdCbStatusPrepareForDriverLoad, ntddk/BdCbStatusPrepareForDependecyLoad, BdCbStatusPrepareForDependecyLoad, kernel.bdcb_status_update_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,7 +7,7 @@ old-location: audio\iportclsnotifications.htm
 old-project: audio
 ms.assetid: 03F65E4E-C942-4748-8D3E-938A6AC51B2A
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.iportclsnotifications, IPortClsNotifications interface [Audio Devices], IPortClsNotifications interface [Audio Devices], described, IPortClsNotifications, portcls/IPortClsNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,6 +59,13 @@ For more information about audio modules,
 The miniport audio driver will call into their port to create and send the notification.  
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsNotifications</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortClsNotifications</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPortClsNotifications</b> interface has these methods.
@@ -94,11 +101,5 @@ Sends a notification to the listening UWP apps, to allow for communications betw
 
 </td>
 </tr>
-</table>Allocates a buffer of the specified size, in the specified memory pool, for use in sending notifications, to allow for communications between audio modules and UWP apps. 
-
-Frees a previously allocated IPortClsNotifications buffer. The buffer is used in sending notifications, to allow for communications between audio modules and UWP apps. 
-
-Sends a notification to the listening UWP apps, to allow for communications between audio modules and UWP apps. 
-
- 
+</table> 
 

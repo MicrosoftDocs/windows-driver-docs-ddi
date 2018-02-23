@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b45811c-4e5f-4344-b0b3-15d36b912b5b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml, storage.storportreadportbufferushort, StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices], storport/StorPortReadPortBufferUshort
+ms.keywords: StorPortReadPortBufferUshort, storprt_8bb9a625-864a-4566-a570-87425b6bc9af.xml, storage.storportreadportbufferushort, storport/StorPortReadPortBufferUshort, StorPortReadPortBufferUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,11 +106,21 @@ Pointer to the hardware device extension.
 Pointer to the address from which to read. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer that receives the data that is read.
+
+
+#### - Count [in]
+
+Number of data items to be read. Each data item has a size of <b>sizeof</b>(USHORT). 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
+For more information, see <a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportushort.md">StorPortReadPortUshort</a>. 
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\storport\nf-storport-scsiportreadportbuffe
 
 
 
-<a href="..\storport\nf-storport-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
+<a href="..\srb\nf-srb-scsiportreadportbufferushort.md">ScsiPortReadPortBufferUshort</a>
 
 
 

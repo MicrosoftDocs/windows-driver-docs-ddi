@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 952812f4-5d29-4d1d-ab81-dd3a76a5f04c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/ChangeDataControlArea, PFSRTL_CHANGE_BACKING_TYPE, contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], ntifs/FSRTL_CHANGE_BACKING_TYPE, FSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeImageControlArea, ntifs/PFSRTL_CHANGE_BACKING_TYPE, _FSRTL_CHANGE_BACKING_TYPE, ifsk.fsrtl_change_backing_type, FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], ChangeSharedCacheMap, ntifs/ChangeSharedCacheMap, ChangeDataControlArea, ChangeImageControlArea, *PFSRTL_CHANGE_BACKING_TYPE
+ms.keywords: ntifs/FSRTL_CHANGE_BACKING_TYPE, ifsk.fsrtl_change_backing_type, ntifs/ChangeSharedCacheMap, FSRTL_CHANGE_BACKING_TYPE enumeration [Installable File System Drivers], _FSRTL_CHANGE_BACKING_TYPE, ntifs/ChangeImageControlArea, PFSRTL_CHANGE_BACKING_TYPE enumeration pointer [Installable File System Drivers], PFSRTL_CHANGE_BACKING_TYPE, *PFSRTL_CHANGE_BACKING_TYPE, ntifs/PFSRTL_CHANGE_BACKING_TYPE, contextstructures_f0bf2082-c88d-4f01-8e40-f7259e040ea6.xml, ChangeDataControlArea, ntifs/ChangeDataControlArea, ChangeImageControlArea, FSRTL_CHANGE_BACKING_TYPE, ChangeSharedCacheMap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

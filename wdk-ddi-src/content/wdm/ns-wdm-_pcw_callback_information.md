@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: cc1882a9-eba7-494c-9047-5c97b1e3c19b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.pcw_callback_information, wdm/PCW_CALLBACK_INFORMATION, wdm/PPCW_CALLBACK_INFORMATION, km_pcw_d44ee92a-c8a0-4da9-8739-cf5443ee2d85.xml, PPCW_CALLBACK_INFORMATION, PCW_CALLBACK_INFORMATION union [Driver Development Tools], PCW_CALLBACK_INFORMATION, _PCW_CALLBACK_INFORMATION, PPCW_CALLBACK_INFORMATION union pointer [Driver Development Tools], *PPCW_CALLBACK_INFORMATION
+ms.keywords: PPCW_CALLBACK_INFORMATION, devtest.pcw_callback_information, *PPCW_CALLBACK_INFORMATION, _PCW_CALLBACK_INFORMATION, wdm/PPCW_CALLBACK_INFORMATION, PPCW_CALLBACK_INFORMATION union pointer [Driver Development Tools], PCW_CALLBACK_INFORMATION union [Driver Development Tools], wdm/PCW_CALLBACK_INFORMATION, PCW_CALLBACK_INFORMATION, km_pcw_d44ee92a-c8a0-4da9-8739-cf5443ee2d85.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

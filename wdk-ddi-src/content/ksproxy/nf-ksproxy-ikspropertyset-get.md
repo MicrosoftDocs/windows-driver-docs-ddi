@@ -7,8 +7,8 @@ old-location: stream\ikspropertyset_get.htm
 old-project: stream
 ms.assetid: 09b131f1-4e09-47f7-89b5-970b8b3e495a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: Get method [Streaming Media Devices], IKsPropertySet interface, ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, Get, IKsPropertySet interface [Streaming Media Devices], Get method, IKsPropertySet::Get, stream.ikspropertyset_get, ksproxy/IKsPropertySet::Get, IKsPropertySet, Get method [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: ksproxy_d5ef4576-b05f-466d-8d87-094d97f83e10.xml, Get method [Streaming Media Devices], IKsPropertySet interface, stream.ikspropertyset_get, IKsPropertySet, IKsPropertySet::Get, ksproxy/IKsPropertySet::Get, Get method [Streaming Media Devices], Get, IKsPropertySet interface [Streaming Media Devices], Get method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -146,5 +146,5 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPropertySet::Get method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPropertySet::Get method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

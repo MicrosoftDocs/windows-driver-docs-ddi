@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fb884cff-dedb-44cf-b9ea-306bfa66b06f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml, PMSiSCSI_RequestTimeStatistics, iscsiprf/MSiSCSI_RequestTimeStatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics structure [Storage Devices], PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], *PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics, _MSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics
+ms.keywords: structs-iSCSI_32f6d3e4-d3d4-431d-aff0-f956aa2c1594.xml, MSiSCSI_RequestTimeStatistics structure [Storage Devices], iscsiprf/MSiSCSI_RequestTimeStatistics, *PMSiSCSI_RequestTimeStatistics, MSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics structure pointer [Storage Devices], _MSiSCSI_RequestTimeStatistics, storage.msiscsi_requesttimestatistics, iscsiprf/PMSiSCSI_RequestTimeStatistics, PMSiSCSI_RequestTimeStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

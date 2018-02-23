@@ -7,8 +7,8 @@ old-location: audio\iminiportdmus_init.htm
 old-project: audio
 ms.assetid: 08111f70-d0cc-4abc-8bcd-86683af3eb32
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: Init method [Audio Devices], dmusicks/IMiniportDMus::Init, Init, Init method [Audio Devices], IMiniportDMus interface, IMiniportDMus, IMiniportDMus interface [Audio Devices], Init method, IMiniportDMus::Init, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, audio.iminiportdmus_init
+ms.date: 2/22/2018
+ms.keywords: audio.iminiportdmus_init, IMiniportDMus interface [Audio Devices], Init method, Init, IMiniportDMus, audmp-routines_016b2aed-13f3-4d9a-86c0-fbdbcbf55341.xml, Init method [Audio Devices], IMiniportDMus interface, Init method [Audio Devices], IMiniportDMus::Init, dmusicks/IMiniportDMus::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,9 +92,9 @@ NTSTATUS Init(
 
 
 
-#### - pPort [in]
+#### - pUnknownAdapter [in, optional]
 
-Pointer to an <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a> object that provides the port driver's callback interface.
+Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
 
 
 #### - pResourceList [in]
@@ -102,9 +102,9 @@ Pointer to an <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a> objec
 Pointer to an <a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a> object that contains the adapter's resource list. After passing this reference to the miniport driver, the port driver is free to examine the contents of the resource list but will not modify the contents of this list.
 
 
-#### - pUnknownAdapter [in, optional]
+#### - pPort [in]
 
-Pointer to the <b>IUnknown</b> interface of the adapter object whose miniport object is being initialized. This parameter is optional and can be specified as <b>NULL</b>. For more information, see the following Remarks section.
+Pointer to an <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a> object that provides the port driver's callback interface.
 
 
 #### - ppServiceGroup [out]
@@ -148,11 +148,7 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 ## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
+<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
 
 
 
@@ -160,15 +156,7 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
-
-
-
-<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536943">IPort::Init</a>
 
 
 
@@ -180,9 +168,21 @@ The <i>pUnknownAdapter</i>, <i>pResourceList</i>, <i>pPort</i>, and <i>ppService
 
 
 
- 
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+
+
+
+<a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536880">IPortDMus::Notify</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportDMus::Init method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportDMus::Init method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

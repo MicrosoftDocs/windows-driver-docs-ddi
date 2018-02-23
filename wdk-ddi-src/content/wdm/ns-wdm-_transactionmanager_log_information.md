@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7d0da54d-54a2-4440-910f-d99716660506
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PTRANSACTIONMANAGER_LOG_INFORMATION, ktm_ref_3cdc0767-5078-43dc-8a25-3e90a4a1483a.xml, kernel.transactionmanager_log_information, _TRANSACTIONMANAGER_LOG_INFORMATION, PTRANSACTIONMANAGER_LOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], TRANSACTIONMANAGER_LOG_INFORMATION, TRANSACTIONMANAGER_LOG_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/TRANSACTIONMANAGER_LOG_INFORMATION, wdm/PTRANSACTIONMANAGER_LOG_INFORMATION, PTRANSACTIONMANAGER_LOG_INFORMATION"
+ms.keywords: PTRANSACTIONMANAGER_LOG_INFORMATION, _TRANSACTIONMANAGER_LOG_INFORMATION, ktm_ref_3cdc0767-5078-43dc-8a25-3e90a4a1483a.xml, kernel.transactionmanager_log_information, TRANSACTIONMANAGER_LOG_INFORMATION, *PTRANSACTIONMANAGER_LOG_INFORMATION, wdm/PTRANSACTIONMANAGER_LOG_INFORMATION, TRANSACTIONMANAGER_LOG_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/TRANSACTIONMANAGER_LOG_INFORMATION, PTRANSACTIONMANAGER_LOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSACTIONMANAGER_LOG_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PTRANSACTIONMANAGER_LOG_INFORMATION, TRANSACTIONMANAGER_LOG_INFORMATION"
+req.typenames: TRANSACTIONMANAGER_LOG_INFORMATION, *PTRANSACTIONMANAGER_LOG_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -84,11 +84,11 @@ The <b>TRANSACTIONMANAGER_LOG_INFORMATION</b> structure is used with the <a href
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-
-
-
 <a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
 
 
 

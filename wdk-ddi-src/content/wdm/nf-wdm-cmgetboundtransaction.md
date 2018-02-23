@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f38a5ad6-6816-4b27-98ea-51ac1453d90f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/CmGetBoundTransaction, kernel.cmgetboundtransaction, CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], CmGetBoundTransaction, ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml
+ms.keywords: CmGetBoundTransaction routine [Kernel-Mode Driver Architecture], wdm/CmGetBoundTransaction, CmGetBoundTransaction, kernel.cmgetboundtransaction, ConfigMgrRef_bf8b79d4-04cf-4cd2-b25c-4e59c63f0b86.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,7 +103,7 @@ For more information about transactions, see <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
@@ -111,7 +111,7 @@ For more information about transactions, see <a href="https://msdn.microsoft.com
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\nf-wdm-cmregistercallback.md">CmRegisterCallback</a>
 
 
 

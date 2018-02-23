@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e85c0d92-d989-4afc-8516-c63535d2c728
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PMOUNTMGR_MOUNT_POINTS structure pointer [Storage Devices], mountmgr/PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS structure [Storage Devices], storage.mountmgr_mount_points, structs-mntmgr_844fdf51-1324-4b1d-b68f-abba5f471652.xml, _MOUNTMGR_MOUNT_POINTS, *PMOUNTMGR_MOUNT_POINTS, mountmgr/MOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS
+ms.keywords: "*PMOUNTMGR_MOUNT_POINTS, mountmgr/MOUNTMGR_MOUNT_POINTS, _MOUNTMGR_MOUNT_POINTS, mountmgr/PMOUNTMGR_MOUNT_POINTS, PMOUNTMGR_MOUNT_POINTS, MOUNTMGR_MOUNT_POINTS structure [Storage Devices], storage.mountmgr_mount_points, PMOUNTMGR_MOUNT_POINTS structure pointer [Storage Devices], MOUNTMGR_MOUNT_POINTS, structs-mntmgr_844fdf51-1324-4b1d-b68f-abba5f471652.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

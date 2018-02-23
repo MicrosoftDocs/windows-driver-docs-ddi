@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 310C55F8-E62C-4ABE-997E-E551CA6C4BB2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_WRITE_PORT_USHORT, WDF_WRITE_PORT_USHORT function, wdfhwaccess/WDF_WRITE_PORT_USHORT, wdf.wdf_write_port_ushort
+ms.keywords: wdf.wdf_write_port_ushort, wdfhwaccess/WDF_WRITE_PORT_USHORT, WDF_WRITE_PORT_USHORT, WDF_WRITE_PORT_USHORT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

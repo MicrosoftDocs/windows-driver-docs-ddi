@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C0EC5488-B08D-40A6-9E90-48E59B45B116
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDK_MR_DISPATCH, ndkpi/NDK_MR_DISPATCH, ndkpi/PNDK_MR_DISPATCH, PNDK_MR_DISPATCH, _NDK_MR_DISPATCH, netvista.ndk_mr_dispatch, PNDK_MR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_MR_DISPATCH structure [Network Drivers Starting with Windows Vista]
+ms.keywords: PNDK_MR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_MR_DISPATCH, ndkpi/PNDK_MR_DISPATCH, ndkpi/NDK_MR_DISPATCH, PNDK_MR_DISPATCH, NDK_MR_DISPATCH structure [Network Drivers Starting with Windows Vista], NDK_MR_DISPATCH, netvista.ndk_mr_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,19 +119,15 @@ The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 ## -see-also
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_token_from_mr.md">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a>
 
 
 
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_register_mr.md">NDK_FN_REGISTER_MR</a>
 
 
 
@@ -143,7 +139,7 @@ The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_token_from_mr.md">NDK_FN_GET_LOCAL_TOKEN_FROM_MR</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_close_object.md">NDK_FN_CLOSE_OBJECT</a>
 
 
 
@@ -151,7 +147,7 @@ The <b>NDK_MR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-ndkpi-_
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_query_extension_interface.md">NDK_FN_QUERY_EXTENSION_INTERFACE</a>
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_initialize_fast_register_mr.md">NDK_FN_INITIALIZE_FAST_REGISTER_MR</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a4ccb122-ae90-4b06-a40d-21f131add99b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PHBA_MGMTINFO, hbaapi/HBA_MgmtInfo, hbaapi/PHBA_MGMTINFO, structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, HBA_MgmtInfo, HBA_MGMTINFO, PHBA_MGMTINFO structure pointer [Storage Devices], HBA_MGMTINFO structure [Storage Devices], storage.hba_mgmtinfo, HBA_MgmtInfo structure [Storage Devices], PHBA_MGMTINFO"
+ms.keywords: HBA_MgmtInfo structure [Storage Devices], hbaapi/PHBA_MGMTINFO, HBA_MGMTINFO, PHBA_MGMTINFO, HBA_MgmtInfo, storage.hba_mgmtinfo, hbaapi/HBA_MgmtInfo, HBA_MGMTINFO structure [Storage Devices], structs-Fibre_d7bcdc56-a999-4d0b-b7f0-88fe53b349b1.xml, PHBA_MGMTINFO structure pointer [Storage Devices], *PHBA_MGMTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_MGMTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_MGMTINFO, HBA_MGMTINFO"
+req.typenames: HBA_MGMTINFO, *PHBA_MGMTINFO
 ---
 
 # HBA_MgmtInfo structure
@@ -122,11 +122,11 @@ Contains the topology discovery flags. For an explanation of this member, see th
 
 ## -see-also
 
-<a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a>
-
-
-
 <a href="..\hbaapi\nf-hbaapi-hba_getrnidmgmtinfo.md">HBA_GetRNIDMgmtInfo</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_setrnidmgmtinfo.md">HBA_SetRNIDMgmtInfo</a>
 
 
 

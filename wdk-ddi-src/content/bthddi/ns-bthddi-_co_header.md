@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 76fa3316-bbec-4bf1-8cb8-d92e9f54d2d6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CO_HEADER structure [Bluetooth Devices], CO_HEADER, _CO_HEADER, bth_structs_bb345dd7-5895-472a-ab07-38c8b5ac6a72.xml, bltooth.co_header, bthddi/CO_HEADER
+ms.keywords: bltooth.co_header, bthddi/CO_HEADER, bth_structs_bb345dd7-5895-472a-ab07-38c8b5ac6a72.xml, CO_HEADER structure [Bluetooth Devices], _CO_HEADER, CO_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

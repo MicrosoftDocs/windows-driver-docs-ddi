@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8d670887-e8bb-4b99-99ae-16c0dd9c4431
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], MSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, iscsiprf/MSiSCSI_InitiatorLoginStatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics, *PMSiSCSI_InitiatorLoginStatistics, _MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics
+ms.keywords: "*PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics structure [Storage Devices], PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics, structs-iSCSI_a19b84b5-d660-4005-a22d-2d4157eadab9.xml, iscsiprf/MSiSCSI_InitiatorLoginStatistics, PMSiSCSI_InitiatorLoginStatistics structure pointer [Storage Devices], _MSiSCSI_InitiatorLoginStatistics, storage.msiscsi_initiatorloginstatistics, iscsiprf/PMSiSCSI_InitiatorLoginStatistics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_InitiatorLoginStatistics
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_InitiatorLoginStatistics, MSiSCSI_InitiatorLoginStatistics"
+req.typenames: MSiSCSI_InitiatorLoginStatistics, *PMSiSCSI_InitiatorLoginStatistics
 ---
 
 # _MSiSCSI_InitiatorLoginStatistics structure

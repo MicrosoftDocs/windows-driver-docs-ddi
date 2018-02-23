@@ -7,7 +7,7 @@ old-location: stream\iksqualityforwarder.htm
 old-project: stream
 ms.assetid: 1f0ebadc-4a6c-4d57-ba96-936ce138142b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.iksqualityforwarder, IKsQualityForwarder interface [Streaming Media Devices], IKsQualityForwarder interface [Streaming Media Devices], described, IKsQualityForwarder, ksproxy/IKsQualityForwarder, ksproxy_ed147fca-8a84-407c-861a-f33625d90bc7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,13 @@ req.typenames: PIPE_STATE
 The <b>IKsQualityForwarder</b> interface inherits the method of the <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a> interface and extends <b>IKsObject</b> to provide a method that flushes information from a pin. 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsQualityForwarder</b> interface inherits from <a href="..\ksproxy\nn-ksproxy-iksobject.md">IKsObject</a>. <b>IKsQualityForwarder</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IKsQualityForwarder</b> interface has these methods.
@@ -69,9 +76,7 @@ Flushes information from a pin.
 
 </td>
 </tr>
-</table>Flushes information from a pin. 
-
- 
+</table> 
 
 
 ## -remarks

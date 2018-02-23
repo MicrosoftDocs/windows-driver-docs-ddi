@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 384E04BE-794F-4F87-81E5-35B974EB6172
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbd_urballocate, usbdlib/USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], USBD_UrbAllocate
+ms.keywords: usbdlib/USBD_UrbAllocate, USBD_UrbAllocate routine [Buses], buses.usbd_urballocate, USBD_UrbAllocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -173,11 +173,11 @@ CreateandSubmitURBExit:
 
 
 
-<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
-
-
-
 <a href="..\usbdlib\nf-usbdlib-usbd_urbfree.md">USBD_UrbFree</a>
+
+
+
+<a href="https://msdn.microsoft.com/15be1e51-5ab2-40c4-95a8-8555c92523aa">Sending Requests to a USB Device</a>
 
 
 

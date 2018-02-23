@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6e494112-a808-4914-8194-e68a2799c38e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.islistempty, wdm/IsListEmpty, IsListEmpty, k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, IsListEmpty routine [Kernel-Mode Driver Architecture]
+ms.keywords: IsListEmpty, kernel.islistempty, k109_26969818-30d0-4e01-965d-e0ee6891fdd5.xml, wdm/IsListEmpty, IsListEmpty routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,11 +97,11 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
-
-
-
 <a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
 
 
 
@@ -109,7 +109,7 @@ Callers of <b>IsListEmpty</b> can be running at any IRQL. If <b>IsListEmpty</b> 
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeentrylist.md">RemoveEntryList</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializelisthead.md">InitializeListHead</a>
 
 
 

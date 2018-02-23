@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 71011FDF-547E-4FF0-9015-E8E09FDF950E
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT, wdf.wudf_interrupt_config_init, WUDF_INTERRUPT_CONFIG_INIT function, umdf.wudf_interrupt_config_init
+ms.keywords: wudfinterrupt/WUDF_INTERRUPT_CONFIG_INIT, WUDF_INTERRUPT_CONFIG_INIT function, umdf.wudf_interrupt_config_init, wdf.wudf_interrupt_config_init, WUDF_INTERRUPT_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

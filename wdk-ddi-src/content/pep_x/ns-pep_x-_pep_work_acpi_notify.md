@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DFFDDF13-B8C7-4AB0-B2C9-9F34D19B21AE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_WORK_ACPI_NOTIFY, kernel.pep_work_acpi_notify, PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], _PEP_WORK_ACPI_NOTIFY, pepfx/PEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pep_work_acpi_notify, PEP_WORK_ACPI_NOTIFY, _PEP_WORK_ACPI_NOTIFY, pepfx/PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, PPEP_WORK_ACPI_NOTIFY structure pointer [Kernel-Mode Driver Architecture], PEP_WORK_ACPI_NOTIFY structure [Kernel-Mode Driver Architecture], pepfx/PEP_WORK_ACPI_NOTIFY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_ACPI_NOTIFY
 product: Windows
 targetos: Windows
-req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
+req.typenames: PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY, PEP_WORK_ACPI_NOTIFY, *PPEP_WORK_ACPI_NOTIFY
 ---
 
 # _PEP_WORK_ACPI_NOTIFY structure
@@ -82,18 +82,18 @@ The Notify code. For a list of Notify codes and their meanings, see section 5.6.
 
 
 
-The <b>AcpiNotify</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACPI_NOTIFY</b> structure.
+The <b>AcpiNotify</b> member of the <a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_ACPI_NOTIFY</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186689">PEP_NOTIFY_ACPI_REGISTER_DEVICE</a>
+
+
+
+<a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

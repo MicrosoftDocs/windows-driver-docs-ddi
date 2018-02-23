@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6199672C-A4A4-4ED8-B91E-95D96A472449
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iounregisterbootdrivercallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], IoUnRegisterBootDriverCallback, ntddk/IoUnRegisterBootDriverCallback, IoUnregisterBootDriverCallback
+ms.keywords: kernel.iounregisterbootdrivercallback, IoUnRegisterBootDriverCallback, IoUnregisterBootDriverCallback, IoUnRegisterBootDriverCallback routine [Kernel-Mode Driver Architecture], ntddk/IoUnRegisterBootDriverCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoUnRegisterBootDriverCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoUnregisterBootDriverCallback function

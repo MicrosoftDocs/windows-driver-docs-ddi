@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E2413C3A-79D3-47E3-A664-80869A721F37
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PO_FX_DEVICE_V1, *PPO_FX_DEVICE_V1, kernel.po_fx_device, wdm/PO_FX_DEVICE, _PO_FX_DEVICE_V2, PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], wdm/PPO_FX_DEVICE_V1, *PPO_FX_DEVICE, PO_FX_DEVICE_V2, *PPO_FX_DEVICE_V2, wdm/PO_FX_DEVICE_V1, PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PO_FX_DEVICE, PPO_FX_DEVICE_V1, _PO_FX_DEVICE_V1, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PPO_FX_DEVICE_V1, *PPO_FX_DEVICE, PO_FX_DEVICE, PO_FX_DEVICE_V1, _PO_FX_DEVICE_V1, PO_FX_DEVICE_V2, PPO_FX_DEVICE_V1, PO_FX_DEVICE_V1 structure [Kernel-Mode Driver Architecture], *PPO_FX_DEVICE_V1, kernel.po_fx_device, wdm/PO_FX_DEVICE, PO_FX_DEVICE structure [Kernel-Mode Driver Architecture], PPO_FX_DEVICE_V1 structure pointer [Kernel-Mode Driver Architecture], _PO_FX_DEVICE_V2, *PPO_FX_DEVICE_V2, wdm/PO_FX_DEVICE_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,27 +152,11 @@ A device driver is not required to implement all six callback routines. The driv
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450931">ComponentIdleStateCallback</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
 
 
 
@@ -184,11 +168,27 @@ A device driver is not required to implement all six callback routines. The driv
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406416">ComponentActiveConditionCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450949">DevicePowerRequiredCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450946">DevicePowerNotRequiredCallback</a>
+<a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439564">PowerControlCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxcompleteidlecondition.md">PoFxCompleteIdleCondition</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
 
 
 

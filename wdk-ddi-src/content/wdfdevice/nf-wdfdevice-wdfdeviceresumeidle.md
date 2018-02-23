@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d63848e8-0e6a-4ad7-a147-8804869b9c9b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/WdfDeviceResumeIdle, kmdf.wdfdeviceresumeidle, wdf.wdfdeviceresumeidle, DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml, WdfDeviceResumeIdle method, WdfDeviceResumeIdle
+ms.keywords: wdfdevice/WdfDeviceResumeIdle, wdf.wdfdeviceresumeidle, WdfDeviceResumeIdle method, WdfDeviceResumeIdle, kmdf.wdfdeviceresumeidle, DFDeviceObjectGeneralRef_6078e8e8-7d4e-4714-a1b4-74fc973a678c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -106,7 +106,7 @@ The following code example informs the framework that the specified device is no
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn932459">WdfDeviceResumeIdleWithTag</a>
+<a href="https://msdn.microsoft.com/25F4EEBB-4733-498C-8704-8E015F81FE06">Debugging Power Reference Leaks in WDF</a>
 
 
 

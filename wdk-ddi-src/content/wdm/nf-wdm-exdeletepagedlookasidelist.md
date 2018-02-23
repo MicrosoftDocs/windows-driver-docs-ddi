@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: da3784a8-6fc5-47cc-932e-52ec16392e49
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExDeletePagedLookasideList, ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml, kernel.exdeletepagedlookasidelist
+ms.keywords: ExDeletePagedLookasideList, ExDeletePagedLookasideList routine [Kernel-Mode Driver Architecture], wdm/ExDeletePagedLookasideList, kernel.exdeletepagedlookasidelist, k102_6e78a15a-e6e1-4282-a8de-a4f38f74ebc6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

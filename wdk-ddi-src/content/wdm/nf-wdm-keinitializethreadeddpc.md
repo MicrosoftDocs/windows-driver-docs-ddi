@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee9124db-9d92-42e1-84fa-6d3eefeaeac5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], kernel.keinitializethreadeddpc, wdm/KeInitializeThreadedDpc, KeInitializeThreadedDpc
+ms.keywords: wdm/KeInitializeThreadedDpc, k105_b5df057f-6d75-4a06-ac5f-d99340bdbb21.xml, kernel.keinitializethreadeddpc, KeInitializeThreadedDpc routine [Kernel-Mode Driver Architecture], KeInitializeThreadedDpc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,15 +105,15 @@ For more information about threaded DPCs, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
+
+
+
 <a href="..\wdm\nf-wdm-keremovequeuedpc.md">KeRemoveQueueDpc</a>
 
 
 
 <a href="..\wdm\nf-wdm-keinsertqueuedpc.md">KeInsertQueueDpc</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542976">CustomThreadedDpc</a>
 
 
 

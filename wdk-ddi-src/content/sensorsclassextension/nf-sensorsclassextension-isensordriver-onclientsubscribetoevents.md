@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onclientsubscribetoevents.htm
 old-project: sensors
 ms.assetid: b0528932-d7a8-46d7-bd94-6fd729a9d7f2
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.isensordriver_onclientsubscribetoevents, OnClientSubscribeToEvents method [Sensor Devices], ISensorDriver::OnClientSubscribeToEvents, OnClientSubscribeToEvents, ISensorDriver
+ms.date: 2/22/2018
+ms.keywords: OnClientSubscribeToEvents, ISensorDriver, OnClientSubscribeToEvents method [Sensor Devices], sensors.isensordriver_onclientsubscribetoevents, ISensorDriver::OnClientSubscribeToEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

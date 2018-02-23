@@ -7,7 +7,7 @@ old-location: audio\iservicesink.htm
 old-project: audio
 ms.assetid: 329ae226-02fb-438b-b461-da51e3afd6eb
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.iservicesink, IServiceSink interface [Audio Devices], IServiceSink interface [Audio Devices], described, IServiceSink, portcls/IServiceSink, audmp-routines_68a03e77-6246-44e7-acad-6de0fbe10c41.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -58,6 +58,13 @@ Although the PortCls system driver provides a <a href="..\portcls\nf-portcls-pcn
 For more information, see <a href="https://msdn.microsoft.com/00e17e01-8889-4fae-a0ff-e110d7a9b21e">Service Sink and Service Group Objects</a>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IServiceSink</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IServiceSink</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IServiceSink</b> interface has these methods.
@@ -75,7 +82,5 @@ The <code>RequestService</code> method is called to forward a service request to
 
 </td>
 </tr>
-</table>The <code>RequestService</code> method is called to forward a service request to an <b>IServiceSink</b> object.
-
- 
+</table> 
 

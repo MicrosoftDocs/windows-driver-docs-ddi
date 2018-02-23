@@ -4,11 +4,11 @@ title: "_STI_WIA_DEVICE_INFORMATIONW"
 author: windows-driver-content
 description: The STI_WIA_DEVICE_INFORMATION structure contains device information.
 old-location: image\sti_wia_device_information.htm
-old-project: Image
+old-project: image
 ms.assetid: a1339fd5-49ec-498b-bc07-221526a57d74
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: stifnc_5b853150-0ce1-4ba1-bf9c-2071c6a993bc.xml, STI_WIA_DEVICE_INFORMATION structure [Imaging Devices], STI_WIA_DEVICE_INFORMATION, image.sti_wia_device_information, PSTI_WIA_DEVICE_INFORMATION, STI_WIA_DEVICE_INFORMATIONW, PSTI_WIA_DEVICE_INFORMATION structure pointer [Imaging Devices], sti/STI_WIA_DEVICE_INFORMATION, sti/PSTI_WIA_DEVICE_INFORMATION, *PSTI_WIA_DEVICE_INFORMATIONW, _STI_WIA_DEVICE_INFORMATIONW
+ms.date: 2/22/2018
+ms.keywords: STI_WIA_DEVICE_INFORMATION structure [Imaging Devices], PSTI_WIA_DEVICE_INFORMATION, _STI_WIA_DEVICE_INFORMATIONW, sti/STI_WIA_DEVICE_INFORMATION, PSTI_WIA_DEVICE_INFORMATION structure pointer [Imaging Devices], STI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATION, image.sti_wia_device_information, *PSTI_WIA_DEVICE_INFORMATIONW, sti/PSTI_WIA_DEVICE_INFORMATION, stifnc_5b853150-0ce1-4ba1-bf9c-2071c6a993bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

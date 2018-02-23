@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d86a5810-7014-41d5-bd88-3a1bd50032da
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-Fibre_364bd5e8-0276-425b-a1f9-9659aabecd19.xml, HBA_ADAPTERATTRIBUTES, HBA_ADAPTERATTRIBUTES structure [Storage Devices], HBA_AdapterAttributes, storage.hba_adapterattributes, *PHBA_ADAPTERATTRIBUTES, PHBA_ADAPTERATTRIBUTES structure pointer [Storage Devices], hbaapi/PHBA_ADAPTERATTRIBUTES, hbaapi/HBA_AdapterAttributes, HBA_AdapterAttributes structure [Storage Devices], PHBA_ADAPTERATTRIBUTES
+ms.keywords: PHBA_ADAPTERATTRIBUTES, structs-Fibre_364bd5e8-0276-425b-a1f9-9659aabecd19.xml, HBA_AdapterAttributes, *PHBA_ADAPTERATTRIBUTES, hbaapi/HBA_AdapterAttributes, hbaapi/PHBA_ADAPTERATTRIBUTES, HBA_ADAPTERATTRIBUTES, PHBA_ADAPTERATTRIBUTES structure pointer [Storage Devices], HBA_ADAPTERATTRIBUTES structure [Storage Devices], HBA_AdapterAttributes structure [Storage Devices], storage.hba_adapterattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

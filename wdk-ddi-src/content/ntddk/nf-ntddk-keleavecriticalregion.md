@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3e90c3b-5ead-40d1-9143-a2b1fc8c255d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], wdm/KeLeaveCriticalRegion, kernel.keleavecriticalregion, k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, KeLeaveCriticalRegion
+ms.keywords: k105_f9344044-a57f-4ee4-800c-a03edcc27196.xml, kernel.keleavecriticalregion, KeLeaveCriticalRegion routine [Kernel-Mode Driver Architecture], KeLeaveCriticalRegion, wdm/KeLeaveCriticalRegion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KeLeaveCriticalRegion
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KeLeaveCriticalRegion function
@@ -87,11 +87,11 @@ Highest-level drivers can call this routine while running in the context of the 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
+<a href="..\wdm\nf-wdm-keareapcsdisabled.md">KeAreApcsDisabled</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-keareapcsdisabled.md">KeAreApcsDisabled</a>
+<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
 
 
 

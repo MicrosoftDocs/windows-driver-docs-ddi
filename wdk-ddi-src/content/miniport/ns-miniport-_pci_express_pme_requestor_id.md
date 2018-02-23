@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 2305ffbd-22c8-4f63-bbe4-fd297bf98e39
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID, _PCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml
+ms.keywords: PPCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, _PCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], PCI_EXPRESS_PME_REQUESTOR_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

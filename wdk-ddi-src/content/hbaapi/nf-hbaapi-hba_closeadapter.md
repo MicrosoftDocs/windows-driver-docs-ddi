@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 404c7f82-02dd-4145-91e3-8820f6cbf781
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_CloseAdapter, storage.hba_closeadapter, fibreHBA_rtns_dcbe3983-fc4d-4a50-886b-6fdb138296a7.xml, HBA_CloseAdapter routine [Storage Devices], hbaapi/HBA_CloseAdapter
+ms.keywords: hbaapi/HBA_CloseAdapter, fibreHBA_rtns_dcbe3983-fc4d-4a50-886b-6fdb138296a7.xml, HBA_CloseAdapter, HBA_CloseAdapter routine [Storage Devices], storage.hba_closeadapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

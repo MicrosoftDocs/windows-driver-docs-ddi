@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c4a5eb8-d364-4e5d-9d2f-2605c8c34f63
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.power_action, wudfddi/PowerActionWarmEject, wudfddi/PowerActionNone, PowerActionWarmEject, PowerActionHibernate, wudfddi/PowerActionShutdownReset, PPOWER_ACTION, wudfddi/PowerActionShutdownOff, PowerActionSleep, wudfddi/PPOWER_ACTION, *PPOWER_ACTION, PowerActionReserved, wudfddi/PowerActionHibernate, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, POWER_ACTION enumeration, POWER_ACTION, wdf.power_action, wudfddi/PowerActionSleep, wudfddi/PowerActionShutdown, PowerActionShutdown, PowerActionShutdownReset, PPOWER_ACTION enumeration pointer, wudfddi/PowerActionReserved, PowerActionShutdownOff, PowerActionNone, wudfddi/POWER_ACTION
+ms.keywords: wudfddi/PowerActionSleep, wudfddi/PowerActionReserved, PowerActionHibernate, umdfstructs_02db2a83-1907-4aa2-9cdd-af3477e78ddd.xml, PowerActionSleep, POWER_ACTION enumeration, PPOWER_ACTION enumeration pointer, wudfddi/PowerActionWarmEject, wudfddi/PowerActionNone, wdf.power_action, wudfddi/PowerActionShutdownReset, PowerActionShutdownOff, PowerActionWarmEject, umdf.power_action, PowerActionShutdown, PowerActionNone, wudfddi/PowerActionShutdownOff, PowerActionReserved, wudfddi/PowerActionShutdown, PowerActionShutdownReset, wudfddi/PowerActionHibernate, wudfddi/POWER_ACTION, POWER_ACTION, *PPOWER_ACTION, wudfddi/PPOWER_ACTION, PPOWER_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

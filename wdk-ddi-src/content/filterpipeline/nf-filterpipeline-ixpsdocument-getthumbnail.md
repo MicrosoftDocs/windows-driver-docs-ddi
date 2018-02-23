@@ -7,8 +7,8 @@ old-location: print\ixpsdocument_getthumbnail.htm
 old-project: print
 ms.assetid: 74466609-4408-4065-a607-cd338902335d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IXpsDocument, GetThumbnail method [Print Devices], IXpsDocument interface, GetThumbnail method [Print Devices], IXpsDocument interface [Print Devices], GetThumbnail method, IXpsDocument::GetThumbnail, filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, filterpipeline/IXpsDocument::GetThumbnail, GetThumbnail, print.ixpsdocument_getthumbnail
+ms.date: 2/22/2018
+ms.keywords: GetThumbnail, IXpsDocument::GetThumbnail, filterpipeline/IXpsDocument::GetThumbnail, IXpsDocument, GetThumbnail method [Print Devices], filterpipeline_dbbd8b80-198b-4cdd-af97-68093d87c4e1.xml, GetThumbnail method [Print Devices], IXpsDocument interface, print.ixpsdocument_getthumbnail, IXpsDocument interface [Print Devices], GetThumbnail method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

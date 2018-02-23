@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 13a1a106-0c5c-4c0e-964d-27e549e1c699
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeRevertToUserGroupAffinityThread, kernel.kereverttousergroupaffinitythread, k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture], wdm/KeRevertToUserGroupAffinityThread
+ms.keywords: kernel.kereverttousergroupaffinitythread, wdm/KeRevertToUserGroupAffinityThread, KeRevertToUserGroupAffinityThread, k105_be46d681-835f-40ba-8120-b8699e16ea0b.xml, KeRevertToUserGroupAffinityThread routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID KeRevertToUserGroupAffinityThread(
 
 ### -param PreviousAffinity [in]
 
-A pointer to the group affinity to restore. This parameter points to a <a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
+A pointer to the group affinity to restore. This parameter points to a <a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a> structure that contains a group number and an affinity mask. The affinity mask specifies the set of logical processors that the user thread can run on. 
 
 
 ## -returns
@@ -123,7 +123,7 @@ If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL an
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
+<a href="..\wdm\nf-wdm-kereverttouseraffinitythreadex.md">KeRevertToUserAffinityThreadEx</a>
 
 
 
@@ -131,7 +131,7 @@ If <b>KeRevertToUserGroupAffinityThread</b> is called at IRQL &lt;= APC_LEVEL an
 
 
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
+<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 

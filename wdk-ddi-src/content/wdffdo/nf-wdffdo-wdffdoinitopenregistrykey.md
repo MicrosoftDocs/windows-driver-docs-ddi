@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1b720e3e-8858-4567-ada3-30ac0dcf9696
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, wdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey, kmdf.wdffdoinitopenregistrykey, WdfFdoInitOpenRegistryKey method
+ms.keywords: WdfFdoInitOpenRegistryKey method, DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, wdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey, kmdf.wdffdoinitopenregistrykey, WdfFdoInitOpenRegistryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

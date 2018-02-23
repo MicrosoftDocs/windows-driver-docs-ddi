@@ -7,8 +7,8 @@ old-location: stream\kscamera_extendedprop_profile.htm
 old-project: stream
 ms.assetid: 43529BA7-1F5A-4B9B-9792-2D6050F0480D
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], stream.kscamera_extendedprop_profile, *PKSCAMERA_EXTENDEDPROP_PROFILE, KSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE, _KSCAMERA_EXTENDEDPROP_PROFILE, ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE
+ms.date: 2/22/2018
+ms.keywords: KSCAMERA_EXTENDEDPROP_PROFILE structure [Streaming Media Devices], KSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE structure pointer [Streaming Media Devices], ksmedia/KSCAMERA_EXTENDEDPROP_PROFILE, *PKSCAMERA_EXTENDEDPROP_PROFILE, stream.kscamera_extendedprop_profile, ksmedia/PKSCAMERA_EXTENDEDPROP_PROFILE, PKSCAMERA_EXTENDEDPROP_PROFILE, _KSCAMERA_EXTENDEDPROP_PROFILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

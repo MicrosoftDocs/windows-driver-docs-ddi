@@ -40,7 +40,7 @@ apiname:
 -	GetDmaAlignment
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -101,11 +101,7 @@ A driver can call this routine to determine alignment requirements for DMA buffe
 
 ## -see-also
 
-
-
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
 
 
 
@@ -117,7 +113,7 @@ A driver can call this routine to determine alignment requirements for DMA buffe
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ac3ec079-61a5-42fe-a1c0-b7626e5f32d2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml, *PScsiInquiry_OUT, PScsiInquiry_OUT, _ScsiInquiry_OUT, storage.scsiinquiry_out, PScsiInquiry_OUT structure pointer [Storage Devices], ScsiInquiry_OUT, iscsiop/PScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT, ScsiInquiry_OUT structure [Storage Devices]
+ms.keywords: structs-iSCSI_0c90b572-8a05-4a75-86ce-5b12d82a1c2f.xml, _ScsiInquiry_OUT, storage.scsiinquiry_out, ScsiInquiry_OUT structure [Storage Devices], *PScsiInquiry_OUT, PScsiInquiry_OUT, PScsiInquiry_OUT structure pointer [Storage Devices], iscsiop/PScsiInquiry_OUT, iscsiop/ScsiInquiry_OUT, ScsiInquiry_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,11 +107,11 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_in.md">ScsiInquiry_IN</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_scsiinquiry_in.md">ScsiInquiry_IN</a>
 
 
 

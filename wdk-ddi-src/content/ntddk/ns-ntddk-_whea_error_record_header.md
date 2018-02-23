@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 2e6476c7-d096-4756-bebb-56fe559dce6d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_ERROR_RECORD_HEADER, ntddk/WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, _WHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, whea.whea_error_record_header, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER
+ms.keywords: whearef_25871c17-6a61-422d-ba94-d63b633c7f5a.xml, _WHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER structure [WHEA Drivers and Applications], ntddk/WHEA_ERROR_RECORD_HEADER, ntddk/PWHEA_ERROR_RECORD_HEADER, PWHEA_ERROR_RECORD_HEADER structure pointer [WHEA Drivers and Applications], whea.whea_error_record_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_RECORD_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_RECORD_HEADER, WHEA_ERROR_RECORD_HEADER"
+req.typenames: WHEA_ERROR_RECORD_HEADER, *PWHEA_ERROR_RECORD_HEADER
 ---
 
 # _WHEA_ERROR_RECORD_HEADER structure
@@ -269,27 +269,27 @@ A WHEA_ERROR_RECORD_HEADER structure is contained within the <a href="..\ntddk\n
 
 ## -see-also
 
+<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record.md">WHEA_ERROR_RECORD</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_whea_error_record_header_validbits.md">WHEA_ERROR_RECORD_HEADER_VALIDBITS</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_revision.md">WHEA_REVISION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_persistence_info.md">WHEA_PERSISTENCE_INFO</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_timestamp.md">WHEA_TIMESTAMP</a>
+
+
+
+<a href="..\ntddk\ne-ntddk-_whea_error_severity.md">WHEA_ERROR_SEVERITY</a>
 
 
 

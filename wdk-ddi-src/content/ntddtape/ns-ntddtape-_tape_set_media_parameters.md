@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f038eb24-71d2-414c-ad7c-06cb1fa24070
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TAPE_SET_MEDIA_PARAMETERS structure [Storage Devices], ntddtape/TAPE_SET_MEDIA_PARAMETERS, storage.tape_set_media_parameters, _TAPE_SET_MEDIA_PARAMETERS, structs-tape_83d386fe-a430-4c8f-af97-2f6c7ecc4b67.xml, TAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Storage Devices], PTAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS, ntddtape/PTAPE_SET_MEDIA_PARAMETERS
+ms.keywords: storage.tape_set_media_parameters, ntddtape/PTAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Storage Devices], ntddtape/TAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS structure [Storage Devices], TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS, _TAPE_SET_MEDIA_PARAMETERS, structs-tape_83d386fe-a430-4c8f-af97-2f6c7ecc4b67.xml, PTAPE_SET_MEDIA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

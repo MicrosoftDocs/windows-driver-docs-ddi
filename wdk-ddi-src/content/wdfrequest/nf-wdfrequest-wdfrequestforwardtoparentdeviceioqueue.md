@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 81511d81-206c-420b-a956-42cf68b57fc4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestForwardToParentDeviceIoQueue, wdfrequest/WdfRequestForwardToParentDeviceIoQueue, WdfRequestForwardToParentDeviceIoQueue method, DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, kmdf.wdfrequestforwardtoparentdeviceioqueue, wdf.wdfrequestforwardtoparentdeviceioqueue
+ms.keywords: DFRequestObjectRef_0bfa4a8a-7b79-4256-84df-5bdabfff234b.xml, kmdf.wdfrequestforwardtoparentdeviceioqueue, WdfRequestForwardToParentDeviceIoQueue method, WdfRequestForwardToParentDeviceIoQueue, wdfrequest/WdfRequestForwardToParentDeviceIoQueue, wdf.wdfrequestforwardtoparentdeviceioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

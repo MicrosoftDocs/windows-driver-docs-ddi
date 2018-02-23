@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2714E346-6BDD-49EF-9820-6B82F8F29380
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: BAND_TABLE, BAND_TABLE structure [Storage Devices], PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], *PBAND_TABLE, _BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, ehstorbandmgmt/BAND_TABLE, storage.band_table
+ms.keywords: BAND_TABLE, ehstorbandmgmt/PBAND_TABLE, _BAND_TABLE, storage.band_table, BAND_TABLE structure [Storage Devices], ehstorbandmgmt/BAND_TABLE, PBAND_TABLE, PBAND_TABLE structure pointer [Storage Devices], *PBAND_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,7 +92,7 @@ The size of each entry, in bytes, in the array at <b>BandTableOffset</b>. Instea
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
 
 
 

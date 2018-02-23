@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 560cb5a3-ac15-4a11-977a-b66caefc2f6b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_enablenotifications, RIL_EnableNotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], rilapi/RIL_EnableNotifications
+ms.keywords: rilapi/RIL_EnableNotifications, netvista.ril_enablenotifications, RIL_EnableNotifications method [Network Drivers Starting with Windows Vista], RIL_EnableNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_EnableNotifications
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

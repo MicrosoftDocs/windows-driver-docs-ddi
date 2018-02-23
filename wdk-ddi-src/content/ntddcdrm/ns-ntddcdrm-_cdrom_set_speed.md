@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 42cffab4-d8a7-4dff-9f53-19aa2769a85c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-CD-ROM_e6e6b227-c3d9-4976-b1a5-a2100c49d266.xml, PCDROM_SET_SPEED structure pointer [Storage Devices], storage.cdrom_set_speed, ntddcdrm/CDROM_SET_SPEED, PCDROM_SET_SPEED, CDROM_SET_SPEED, *PCDROM_SET_SPEED, CDROM_SET_SPEED structure [Storage Devices], ntddcdrm/PCDROM_SET_SPEED, _CDROM_SET_SPEED
+ms.keywords: storage.cdrom_set_speed, ntddcdrm/PCDROM_SET_SPEED, CDROM_SET_SPEED, PCDROM_SET_SPEED, PCDROM_SET_SPEED structure pointer [Storage Devices], *PCDROM_SET_SPEED, CDROM_SET_SPEED structure [Storage Devices], ntddcdrm/CDROM_SET_SPEED, structs-CD-ROM_e6e6b227-c3d9-4976-b1a5-a2100c49d266.xml, _CDROM_SET_SPEED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_SET_SPEED
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_SET_SPEED, CDROM_SET_SPEED"
+req.typenames: CDROM_SET_SPEED, *PCDROM_SET_SPEED
 ---
 
 # _CDROM_SET_SPEED structure
@@ -92,15 +92,15 @@ A <a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>-typed 
 
 ## -see-also
 
+<a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>
+
+
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_streaming.md">CDROM_SET_STREAMING</a>
-
-
-
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
 

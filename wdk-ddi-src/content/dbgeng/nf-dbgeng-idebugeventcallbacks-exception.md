@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::Exception method
 author: windows-driver-content
 description: The Exception callback method is called by the engine when an exceptiondebugging event occurs in the target.
 old-location: debugger\idebugeventcallbacks_exception.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 93f915ab-1f9e-453c-b76e-8260eecd7298
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, IDebugEventCallbacks::Exception, debugger.idebugeventcallbacks_exception, Exception method [Windows Debugging], IDebugEventCallbacks interface, dbgeng/IDebugEventCallbacks::Exception, Exception, IDebugEventCallbacks interface [Windows Debugging], Exception method, IDebugEventCallbacks, Exception method [Windows Debugging]
+ms.date: 2/22/2018
+ms.keywords: debugger.idebugeventcallbacks_exception, IDebugEventCallbacks, IDebugEventCallbacks interface [Windows Debugging], Exception method, Exception method [Windows Debugging], IDebugEventCallbacks interface, Exception, ComCallbacks_46bf959d-52a9-4b0a-b074-d28b76de343d.xml, IDebugEventCallbacks::Exception, dbgeng/IDebugEventCallbacks::Exception, Exception method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

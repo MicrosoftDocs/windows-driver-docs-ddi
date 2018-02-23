@@ -7,8 +7,8 @@ old-location: audio\pcrequestnewpowerstate.htm
 old-project: audio
 ms.assetid: fbe2c665-a7e8-43e4-95e5-a7e87521e163
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PcRequestNewPowerState, audio.pcrequestnewpowerstate, portcls/PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml
+ms.date: 2/22/2018
+ms.keywords: PcRequestNewPowerState, portcls/PcRequestNewPowerState, PcRequestNewPowerState function [Audio Devices], audpc-routines_c3341fb0-4609-4b3f-a0b2-ef589c804f1d.xml, audio.pcrequestnewpowerstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,5 +161,5 @@ For more information, see <a href="https://msdn.microsoft.com/3d3d63af-5790-4760
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcRequestNewPowerState function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcRequestNewPowerState function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e0f22096-3d82-4e1c-9398-d5e441fbb473
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDriverOpenParametersRegistryKey method, WdfDriverOpenParametersRegistryKey, wdfdriver/WdfDriverOpenParametersRegistryKey, kmdf.wdfdriveropenparametersregistrykey, wdf.wdfdriveropenparametersregistrykey, DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml
+ms.keywords: DFDriverObjectRef_c79992f7-2a85-4c1b-859d-9bfdf441a9c4.xml, WdfDriverOpenParametersRegistryKey, wdfdriver/WdfDriverOpenParametersRegistryKey, wdf.wdfdriveropenparametersregistrykey, WdfDriverOpenParametersRegistryKey method, kmdf.wdfdriveropenparametersregistrykey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,15 +188,15 @@ status = WdfDriverOpenParametersRegistryKey(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivergetregistrypath.md">WdfDriverGetRegistryPath</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

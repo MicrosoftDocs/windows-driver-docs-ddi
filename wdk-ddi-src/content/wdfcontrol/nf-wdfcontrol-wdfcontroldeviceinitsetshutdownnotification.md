@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43a5a017-f5de-4906-acbb-96419b4a3f1c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfControlDeviceInitSetShutdownNotification, kmdf.wdfcontroldeviceinitsetshutdownnotification, wdf.wdfcontroldeviceinitsetshutdownnotification, wdfcontrol/WdfControlDeviceInitSetShutdownNotification, WdfControlDeviceInitSetShutdownNotification method, DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml
+ms.keywords: WdfControlDeviceInitSetShutdownNotification, DFDeviceObjectControllerDevObjRef_ee736de4-6e27-46d9-8f83-40d7368c960a.xml, wdfcontrol/WdfControlDeviceInitSetShutdownNotification, wdf.wdfcontroldeviceinitsetshutdownnotification, WdfControlDeviceInitSetShutdownNotification method, kmdf.wdfcontroldeviceinitsetshutdownnotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,19 +114,19 @@ For a code example that uses <b>WdfControlDeviceInitSetShutdownNotification</b>,
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546951">WDFDEVICE_INIT</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 
+<a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
+
+
+
 <a href="..\wdfcontrol\ne-wdfcontrol-_wdf_device_shutdown_flags.md">WDF_DEVICE_SHUTDOWN_FLAGS</a>
-
-
-
-<a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
-
-
-
-<a href="https://msdn.microsoft.com/365e669b-b4a1-432a-ab0c-9292a910256e">EvtDeviceShutdownNotification</a>
 
 
 

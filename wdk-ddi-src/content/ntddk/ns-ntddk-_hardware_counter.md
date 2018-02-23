@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 15eeeb07-b71f-4868-8854-6a5034d3f8c6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PHARDWARE_COUNTER, kernel.hardware_counter, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], HARDWARE_COUNTER, ntddk/HARDWARE_COUNTER, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], *PHARDWARE_COUNTER, _HARDWARE_COUNTER, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, ntddk/PHARDWARE_COUNTER
+ms.keywords: HARDWARE_COUNTER, ntddk/PHARDWARE_COUNTER, ntddk/HARDWARE_COUNTER, kstruct_b_3e230097-13da-4e6b-bb89-baf3563c3570.xml, PHARDWARE_COUNTER structure pointer [Kernel-Mode Driver Architecture], _HARDWARE_COUNTER, *PHARDWARE_COUNTER, HARDWARE_COUNTER structure [Kernel-Mode Driver Architecture], PHARDWARE_COUNTER, kernel.hardware_counter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HARDWARE_COUNTER
 product: Windows
 targetos: Windows
-req.typenames: "*PHARDWARE_COUNTER, HARDWARE_COUNTER"
+req.typenames: HARDWARE_COUNTER, *PHARDWARE_COUNTER
 ---
 
 # _HARDWARE_COUNTER structure
@@ -103,11 +103,11 @@ The <b>Type</b> member specifies the type of hardware counter that is described 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
-
-
-
 <a href="..\ntddk\ne-ntddk-_hardware_counter_type.md">HARDWARE_COUNTER_TYPE</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-kequeryhardwarecounterconfiguration.md">KeQueryHardwareCounterConfiguration</a>
 
 
 

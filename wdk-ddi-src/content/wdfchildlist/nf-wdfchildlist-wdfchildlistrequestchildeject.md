@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d7729edf-e92d-4707-83e2-fece90daeacf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, WdfChildListRequestChildEject method, wdf.wdfchildlistrequestchildeject, wdfchildlist/WdfChildListRequestChildEject, WdfChildListRequestChildEject, kmdf.wdfchildlistrequestchildeject
+ms.keywords: WdfChildListRequestChildEject method, wdfchildlist/WdfChildListRequestChildEject, DFDeviceObjectChildListRef_52991ad9-29ef-4ab8-b746-168fcc0b8e99.xml, kmdf.wdfchildlistrequestchildeject, wdf.wdfchildlistrequestchildeject, WdfChildListRequestChildEject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

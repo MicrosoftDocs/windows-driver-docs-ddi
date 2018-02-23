@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2texblt.htm
 old-project: display
 ms.assetid: e240fb49-26e6-4d30-b579-03824ac8b67f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dhal/D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], display.d3dhal_dp2texblt, _D3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, *LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT
+ms.date: 2/22/2018
+ms.keywords: d3dhal/D3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT, d3dhal/LPD3DHAL_DP2TEXBLT, LPD3DHAL_DP2TEXBLT, D3DHAL_DP2TEXBLT structure [Display Devices], _D3DHAL_DP2TEXBLT, d3dstrct_80dddffa-3403-4e1e-a1cc-1cbbfdad09a8.xml, LPD3DHAL_DP2TEXBLT structure pointer [Display Devices], display.d3dhal_dp2texblt, *LPD3DHAL_DP2TEXBLT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -140,6 +140,10 @@ rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
 
 ## -see-also
 
+D3DDP2OP_TEXBLT
+
+
+
 <a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
 
 
@@ -148,13 +152,9 @@ rect.bottom = ((bottom - rect.top ) &lt; 1) ? (rect.top + 1) : (bottom); </pre>
 
 
 
-<a href="https://msdn.microsoft.com/dd07e49c-ec1f-4ba6-8b17-80ce6d3c5813">D3dCreateSurfaceEx</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TEXBLT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TEXBLT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue.h
 old-project: print
 ms.assetid: A0705B79-BD13-4AB7-8647-A7AF905B97CC
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: JobCopiesAllDocumentsMaxValue property [Print Devices], JobCopiesAllDocumentsMaxValue property [Print Devices], IPrintSchemaCapabilities interface, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities, IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities interface [Print Devices], JobCopiesAllDocumentsMaxValue property, get_JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue
+ms.date: 2/22/2018
+ms.keywords: get_JobCopiesAllDocumentsMaxValue, IPrintSchemaCapabilities interface [Print Devices], JobCopiesAllDocumentsMaxValue property, IPrintSchemaCapabilities, IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, printerextension/IPrintSchemaCapabilities::get_JobCopiesAllDocumentsMaxValue, print.iprintschemacapabilities_get_jobcopiesalldocumentsmaxvalue, printerextension/IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue, JobCopiesAllDocumentsMaxValue property [Print Devices], JobCopiesAllDocumentsMaxValue property [Print Devices], IPrintSchemaCapabilities interface, IPrintSchemaCapabilities.JobCopiesAllDocumentsMaxValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -81,5 +81,5 @@ HRESULT get_JobCopiesAllDocumentsMaxValue(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue property%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaCapabilities::JobCopiesAllDocumentsMaxValue property%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

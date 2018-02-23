@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DA9C020F-18E7-4C6C-AEBB-81B099C80CD0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT_PERF_INFO, _PO_FX_COMPONENT_PERF_INFO, kernel.po_fx_component_perf_info, wdm/PPO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT_PERF_INFO
+ms.keywords: PO_FX_COMPONENT_PERF_INFO, wdm/PO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO, wdm/PPO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], kernel.po_fx_component_perf_info, _PO_FX_COMPONENT_PERF_INFO, PPO_FX_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT_PERF_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_COMPONENT_PERF_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_COMPONENT_PERF_INFO, PO_FX_COMPONENT_PERF_INFO"
+req.typenames: PO_FX_COMPONENT_PERF_INFO, *PPO_FX_COMPONENT_PERF_INFO
 req.product: Windows 10 or later.
 ---
 

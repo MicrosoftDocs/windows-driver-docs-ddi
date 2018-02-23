@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6ebd4b00-ec25-4383-beba-0478b3241f09
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxNameCacheActivateEntry, ifsk.rxnamecacheactivateentry, namcache/RxNameCacheActivateEntry, rxref_f8bd601f-32b7-4164-beb5-c020f3670fe7.xml, RxNameCacheActivateEntry function [Installable File System Drivers]
+ms.keywords: rxref_f8bd601f-32b7-4164-beb5-c020f3670fe7.xml, namcache/RxNameCacheActivateEntry, ifsk.rxnamecacheactivateentry, RxNameCacheActivateEntry function [Installable File System Drivers], RxNameCacheActivateEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,19 +116,7 @@ The <b>RxNameCacheActivateEntry</b> routine assumes that the name cache entry is
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
-
-
-
-<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
 
 
 
@@ -136,15 +124,23 @@ The <b>RxNameCacheActivateEntry</b> routine assumes that the name cache entry is
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
-
-
-
 <a href="..\namcache\nf-namcache-rxnamecacheexpireentrywithshortname.md">RxNameCacheExpireEntryWithShortName</a>
 
 
 
-<a href="..\namcache\nf-namcache-rxnamecacheinitialize.md">RxNameCacheInitialize</a>
+<a href="..\namcache\nf-namcache-rxnamecachefetchentry.md">RxNameCacheFetchEntry</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecachecheckentry.md">RxNameCacheCheckEntry</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecacheexpireentry.md">RxNameCacheExpireEntry</a>
+
+
+
+<a href="..\namcache\nf-namcache-rxnamecachefinalize.md">RxNameCacheFinalize</a>
 
 
 

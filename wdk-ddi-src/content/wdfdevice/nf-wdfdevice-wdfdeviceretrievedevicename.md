@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 26fdc802-e28b-47a0-b248-5403d024fea3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdeviceretrievedevicename, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, WdfDeviceRetrieveDeviceName, wdf.wdfdeviceretrievedevicename, wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName method
+ms.keywords: WdfDeviceRetrieveDeviceName method, wdfdevice/WdfDeviceRetrieveDeviceName, WdfDeviceRetrieveDeviceName, kmdf.wdfdeviceretrievedevicename, DFDeviceObjectGeneralRef_8c3bab28-12f1-456b-a972-37444e81c847.xml, wdf.wdfdeviceretrievedevicename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

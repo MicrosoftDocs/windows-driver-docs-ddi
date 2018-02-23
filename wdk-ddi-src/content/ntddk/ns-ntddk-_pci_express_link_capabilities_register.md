@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d49d1deb-cb98-4dc0-9ec5-7015b765c9e4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], PCI.pci_express_link_capabilities_register, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses]
+ms.keywords: PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER union pointer [Buses], _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI.pci_express_link_capabilities_register, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER union [Buses], ntddk/PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, pci_struct_22681134-04dc-4d7c-86a0-3d92c21ef8b3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER, PCI_EXPRESS_LINK_CAPABILITIES_REGISTER"
+req.typenames: PCI_EXPRESS_LINK_CAPABILITIES_REGISTER, *PPCI_EXPRESS_LINK_CAPABILITIES_REGISTER
 ---
 
 # _PCI_EXPRESS_LINK_CAPABILITIES_REGISTER structure
@@ -162,37 +162,37 @@ All other values are reserved.
 
 ##### - MaximumLinkWidth.1
 
-L0s and L1 are supported.
+x1 (1 lane)
 
 
-##### - ActiveStatePMSupport.L0sEntrySupport
+##### - MaximumLinkWidth.2
 
-L0s is supported.
-
-
-##### - L0sExitLatency.L0s_128ns_256ns
-
-128 nanoseconds to 256 nanoseconds
+x2 (2 lanes)
 
 
-##### - L0sExitLatency.L0s_1us_2us
+##### - MaximumLinkWidth.4
 
-1 microsecond to 2 microseconds
-
-
-##### - L0sExitLatency.L0s_256ns_512ns
-
-256 nanoseconds to 512 nanoseconds
+x4 (4 lanes)
 
 
-##### - L0sExitLatency.L0s_2us_4us
+##### - MaximumLinkWidth.8
 
-2 microseconds to 4 microseconds
+x8 (8 lanes)
 
 
-##### - L0sExitLatency.L0s_512ns_1us
+##### - MaximumLinkWidth.12
 
-512 nanoseconds to 1 microsecond
+x12 (12 lanes)
+
+
+##### - MaximumLinkWidth.16
+
+x16 (16 lanes)
+
+
+##### - MaximumLinkWidth.32
+
+x32 (32 lanes)
 
 
 #### - ActiveStatePMSupport
@@ -218,12 +218,12 @@ All other values are reserved.
 
 ##### - ActiveStatePMSupport.L0sEntrySupport
 
-64 nanoseconds to 128 nanoseconds
+L0s is supported.
 
 
-##### - L0sExitLatency.L0s_Above4us
+##### - ActiveStatePMSupport.L0sAndL1EntrySupport
 
-More than 4 microseconds
+L0s and L1 are supported.
 
 
 #### - L0sExitLatency
@@ -286,39 +286,39 @@ More than 4 microseconds
 Less than 64 nanoseconds
 
 
-##### - L1ExitLatency.L1_16us_32us
+##### - L0sExitLatency.L0s_64ns_128ns
 
-16 microseconds to 32 microseconds
+64 nanoseconds to 128 nanoseconds
 
 
-##### - L1ExitLatency.L1_1us_2us
+##### - L0sExitLatency.L0s_128ns_256ns
+
+128 nanoseconds to 256 nanoseconds
+
+
+##### - L0sExitLatency.L0s_256ns_512ns
+
+256 nanoseconds to 512 nanoseconds
+
+
+##### - L0sExitLatency.L0s_512ns_1us
+
+512 nanoseconds to 1 microsecond
+
+
+##### - L0sExitLatency.L0s_1us_2us
 
 1 microsecond to 2 microseconds
 
 
-##### - L1ExitLatency.L1_2us_4us
+##### - L0sExitLatency.L0s_2us_4us
 
 2 microseconds to 4 microseconds
 
 
-##### - L1ExitLatency.L1_32us_64us
+##### - L0sExitLatency.L0s_Above4us
 
-32 microseconds to 64 microseconds
-
-
-##### - L1ExitLatency.L1_4us_8us
-
-4 microseconds to 8 microseconds
-
-
-##### - L1ExitLatency.L1_8us_16us
-
-8 microseconds to 16 microseconds
-
-
-##### - L1ExitLatency.L1_Above64us
-
-More than 64 microseconds
+More than 4 microseconds
 
 
 #### - L1ExitLatency
@@ -383,44 +383,39 @@ This value is ignored if the <b>ActiveStatePMSupport </b>member is not set to <b
 Less than 1 microsecond
 
 
-##### - MaximumLinkSpeed.1
+##### - L1ExitLatency.L1_1us_2us
 
-2.5 gigabits per second
-
-
-##### - MaximumLinkWidth.1
-
-x1 (1 lane)
+1 microsecond to 2 microseconds
 
 
-##### - MaximumLinkWidth.12
+##### - L1ExitLatency.L1_2us_4us
 
-x12 (12 lanes)
-
-
-##### - MaximumLinkWidth.16
-
-x16 (16 lanes)
+2 microseconds to 4 microseconds
 
 
-##### - MaximumLinkWidth.2
+##### - L1ExitLatency.L1_4us_8us
 
-x2 (2 lanes)
-
-
-##### - MaximumLinkWidth.32
-
-x32 (32 lanes)
+4 microseconds to 8 microseconds
 
 
-##### - MaximumLinkWidth.4
+##### - L1ExitLatency.L1_8us_16us
 
-x4 (4 lanes)
+8 microseconds to 16 microseconds
 
 
-##### - MaximumLinkWidth.8
+##### - L1ExitLatency.L1_16us_32us
 
-x8 (8 lanes)
+16 microseconds to 32 microseconds
+
+
+##### - L1ExitLatency.L1_32us_64us
+
+32 microseconds to 64 microseconds
+
+
+##### - L1ExitLatency.L1_Above64us
+
+More than 64 microseconds
 
 
 #### - ClockPowerManagement

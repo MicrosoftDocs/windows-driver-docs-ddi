@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5625c4af-329d-4b16-9d5d-0ca962a7abff
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsimpleiostressaction2_continue, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Continue method, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, IWDTFSimpleIOStressAction2, wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue, Continue method [Windows Device Testing Framework], Continue, Continue method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2::Continue, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue
+ms.keywords: wdtfinterfaces/IWDTFSimpleIOStressAction2::Continue, dtf.iwdtfsimpleiostressaction2_continue, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Continue method, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Continue, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Continue, Continue, Continue method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, IWDTFSimpleIOStressAction2, Continue method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2::Continue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -40,7 +40,7 @@ apiname:
 -	GetInjectionCapabilities
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_INITIALIZATION_DATA, FILTER_INITIALIZATION_DATA"
+req.typenames: FILTER_INITIALIZATION_DATA, *PFILTER_INITIALIZATION_DATA
 ---
 
 # PSHED_PI_GET_INJECTION_CAPABILITIES callback
@@ -133,19 +133,19 @@ The Windows kernel calls into the PSHED to retrieve information about the types 
 
 ## -see-also
 
-<a href="..\ntddk\nc-ntddk-pshed_pi_inject_error.md">InjectError</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_injection_capabilities.md">WHEA_ERROR_INJECTION_CAPABILITIES</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
+<a href="..\ntddk\nc-ntddk-pshed_pi_inject_error.md">InjectError</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-pshedregisterplugin.md">PshedRegisterPlugin</a>
 
 
 

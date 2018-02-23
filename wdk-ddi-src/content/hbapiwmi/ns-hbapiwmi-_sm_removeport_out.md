@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7ca1bd9f-8fd4-4d9d-8571-4d6e4b721f3b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SM_RemovePort_OUT structure [Storage Devices], hbapiwmi/PSM_RemovePort_OUT, PSM_RemovePort_OUT, structs-Fibre_00eb7ab2-9a70-4e22-8b57-1468f52bfe02.xml, storage.sm_removeport_out, *PSM_RemovePort_OUT, hbapiwmi/SM_RemovePort_OUT, PSM_RemovePort_OUT structure pointer [Storage Devices], SM_RemovePort_OUT, _SM_RemovePort_OUT
+ms.keywords: PSM_RemovePort_OUT structure pointer [Storage Devices], hbapiwmi/PSM_RemovePort_OUT, storage.sm_removeport_out, *PSM_RemovePort_OUT, structs-Fibre_00eb7ab2-9a70-4e22-8b57-1468f52bfe02.xml, _SM_RemovePort_OUT, SM_RemovePort_OUT structure [Storage Devices], SM_RemovePort_OUT, PSM_RemovePort_OUT, hbapiwmi/SM_RemovePort_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_RemovePort_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_RemovePort_OUT, SM_RemovePort_OUT"
+req.typenames: SM_RemovePort_OUT, *PSM_RemovePort_OUT
 ---
 
 # _SM_RemovePort_OUT structure

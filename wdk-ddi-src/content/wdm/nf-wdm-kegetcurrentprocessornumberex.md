@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb66a17e-2e85-453c-8b39-091f0dc8c29b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, wdm/KeGetCurrentProcessorNumberEx, kernel.kegetcurrentprocessornumberex, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture], KeGetCurrentProcessorNumberEx
+ms.keywords: wdm/KeGetCurrentProcessorNumberEx, k105_3eea6705-7267-452a-88c2-1597c6f19828.xml, kernel.kegetcurrentprocessornumberex, KeGetCurrentProcessorNumberEx, KeGetCurrentProcessorNumberEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ ULONG KeGetCurrentProcessorNumberEx(
 
 ### -param ProcNumber [out, optional]
 
-A pointer to a caller-allocated buffer into which the routine writes a <a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the current logical processor. This structure contains the group number and the group-relative processor number. You can set this parameter to <b>NULL</b> if you do not need this information. 
+A pointer to a caller-allocated buffer into which the routine writes a <a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a> structure that identifies the current logical processor. This structure contains the group number and the group-relative processor number. You can set this parameter to <b>NULL</b> if you do not need this information. 
 
 
 ## -returns
@@ -90,22 +90,22 @@ If <i>ProcNumber</i> is non-<b>NULL</b>, the buffer that is pointed to by <i>Pro
 
 For example, if a multiprocessor system contains two groups, and each group contains 64 logical processors, the processor numbers in each group range from 0 to 63, but the systemwide processor indexes range from 0 to 127.
 
-A related routine, <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>, returns the current processor number, but this routine, unlike <b>KeGetCurrentProcessorNumberEx</b>, does not provide a group number for the processor. In Windows 7 and later versions of the Windows operating system, <b>KeGetCurrentProcessorNumber</b> returns the group-relative processor number if the caller is running on a processor in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. However, if the caller is running on a processor in any group other than group 0, this routine returns a number that is less than the number of processors in group 0. This behavior ensures that the return value is less than the return value of the <a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a> routine. Existing drivers that call <b>KeGetCurrentProcessorNumber</b> and that use no group-oriented features run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeGetCurrentProcessorNumberEx</b> instead of <b>KeGetCurrentProcessorNumber</b>. 
+A related routine, <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>, returns the current processor number, but this routine, unlike <b>KeGetCurrentProcessorNumberEx</b>, does not provide a group number for the processor. In Windows 7 and later versions of the Windows operating system, <b>KeGetCurrentProcessorNumber</b> returns the group-relative processor number if the caller is running on a processor in group 0, which is compatible with the behavior of this routine in earlier versions of Windows that do not support groups. However, if the caller is running on a processor in any group other than group 0, this routine returns a number that is less than the number of processors in group 0. This behavior ensures that the return value is less than the return value of the <a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a> routine. Existing drivers that call <b>KeGetCurrentProcessorNumber</b> and that use no group-oriented features run correctly in multiprocessor systems that have two or more groups. However, drivers that use any group-oriented features in Windows 7 and later versions of the Windows operating system should call <b>KeGetCurrentProcessorNumberEx</b> instead of <b>KeGetCurrentProcessorNumber</b>. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
-
-
-
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
+<a href="..\minitape\ns-minitape-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-kegetcurrentprocessornumber.md">KeGetCurrentProcessorNumber</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryactiveprocessorcount.md">KeQueryActiveProcessorCount</a>
 
 
 

@@ -4,11 +4,11 @@ title: IDebugClient4::GetDumpFileWide method
 author: windows-driver-content
 description: The GetDumpFileWide method describes the files containing supporting information that were used when opening the current dump target.
 old-location: debugger\getdumpfilewide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 42acd24e-5952-46b3-bb0b-1eb43125fccd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient4, dbgeng/IDebugClient5::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient4::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient5::GetDumpFileWide, IDebugClient4::GetDumpFileWide, GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, debugger.getdumpfilewide, IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method
+ms.date: 2/22/2018
+ms.keywords: IDebugClient4 interface [Windows Debugging], GetDumpFileWide method, debugger.getdumpfilewide, dbgeng/IDebugClient4::GetDumpFileWide, IDebugClient4::GetDumpFileWide, GetDumpFileWide method [Windows Debugging], IDebugClient4 interface, GetDumpFileWide method [Windows Debugging], dbgeng/IDebugClient5::GetDumpFileWide, IDebugClient5 interface [Windows Debugging], GetDumpFileWide method, GetDumpFileWide, IDebugClient5::GetDumpFileWide, IDebugClient4, GetDumpFileWide method [Windows Debugging], IDebugClient5 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -142,15 +142,7 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
 
 
 
@@ -158,17 +150,21 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537874">AddDumpInformationFileWide</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient4::GetDumpFileWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient4::GetDumpFileWide method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

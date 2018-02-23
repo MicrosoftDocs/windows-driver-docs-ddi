@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f786fa36-1faa-4e12-aec1-872b44c01a85
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, wdm/PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection, kernel.poregisterdeviceforidledetection, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.poregisterdeviceforidledetection, wdm/PoRegisterDeviceForIdleDetection, PoRegisterDeviceForIdleDetection, portn_be0ccb17-9465-4f61-a8ed-fa945f5340d6.xml, PoRegisterDeviceForIdleDetection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

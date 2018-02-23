@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 05be98a8-dad2-4539-b725-e898db19a789
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_DOT11_VWIFI_COMBINATION, *PDOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION, netvista.dot11_vwifi_combination, Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, DOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], windot11/DOT11_VWIFI_COMBINATION"
+ms.keywords: DOT11_VWIFI_COMBINATION structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION, windot11/PDOT11_VWIFI_COMBINATION, netvista.dot11_vwifi_combination, _DOT11_VWIFI_COMBINATION, windot11/DOT11_VWIFI_COMBINATION, PDOT11_VWIFI_COMBINATION structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_6b9469d7-deb2-4681-8f03-5ff6137946b4.xml, *PDOT11_VWIFI_COMBINATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_VWIFI_COMBINATION
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_VWIFI_COMBINATION, DOT11_VWIFI_COMBINATION"
+req.typenames: DOT11_VWIFI_COMBINATION, *PDOT11_VWIFI_COMBINATION
 req.product: Windows 10 or later.
 ---
 

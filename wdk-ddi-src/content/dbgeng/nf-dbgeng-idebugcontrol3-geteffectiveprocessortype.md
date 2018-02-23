@@ -4,11 +4,11 @@ title: IDebugControl3::GetEffectiveProcessorType method
 author: windows-driver-content
 description: The GetEffectiveProcessorType method returns the effective processor type of the processor of the computer that is running the target.
 old-location: debugger\geteffectiveprocessortype.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 66a5aa3d-fe35-4c30-951f-f25de75dacb0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetEffectiveProcessorType, IDebugControl_9e0db836-17eb-4df1-a298-f8d54282d188.xml, IDebugControl::GetEffectiveProcessorType, IDebugControl2 interface [Windows Debugging], GetEffectiveProcessorType method, IDebugControl, dbgeng/IDebugControl2::GetEffectiveProcessorType, IDebugControl2, IDebugControl interface [Windows Debugging], GetEffectiveProcessorType method, debugger.geteffectiveprocessortype, GetEffectiveProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl2::GetEffectiveProcessorType, GetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetEffectiveProcessorType method, dbgeng/IDebugControl3::GetEffectiveProcessorType, GetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetEffectiveProcessorType, IDebugControl3, dbgeng/IDebugControl::GetEffectiveProcessorType, GetEffectiveProcessorType method [Windows Debugging], IDebugControl interface
+ms.date: 2/22/2018
+ms.keywords: GetEffectiveProcessorType method [Windows Debugging], IDebugControl interface, GetEffectiveProcessorType method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetEffectiveProcessorType, GetEffectiveProcessorType, debugger.geteffectiveprocessortype, IDebugControl::GetEffectiveProcessorType, dbgeng/IDebugControl2::GetEffectiveProcessorType, GetEffectiveProcessorType method [Windows Debugging], IDebugControl3::GetEffectiveProcessorType, dbgeng/IDebugControl::GetEffectiveProcessorType, IDebugControl3 interface [Windows Debugging], GetEffectiveProcessorType method, IDebugControl, IDebugControl3, IDebugControl2, IDebugControl2::GetEffectiveProcessorType, IDebugControl2 interface [Windows Debugging], GetEffectiveProcessorType method, GetEffectiveProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl_9e0db836-17eb-4df1-a298-f8d54282d188.xml, IDebugControl interface [Windows Debugging], GetEffectiveProcessorType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,11 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -129,17 +125,21 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546670">GetExecutingProcessorType</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545572">GetActualProcessorType</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetEffectiveProcessorType method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetEffectiveProcessorType method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

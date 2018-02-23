@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B7508B3B-DCE7-42F4-9257-E1E140625DA9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntintsafe/RtlSizeTSub, RtlSizeTSub function [Kernel-Mode Driver Architecture], RtlSizeTSub, kernel.rtlsizetsub
+ms.keywords: ntintsafe/RtlSizeTSub, kernel.rtlsizetsub, RtlSizeTSub function [Kernel-Mode Driver Architecture], RtlSizeTSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

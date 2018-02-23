@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe8c55de-e542-4c0d-a96b-31ad39e11dff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml, ntddcdvd/DVD_READ_STRUCTURE, PDVD_READ_STRUCTURE structure pointer [Storage Devices], *PDVD_READ_STRUCTURE, storage.dvd_read_structure, ntddcdvd/PDVD_READ_STRUCTURE, PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], DVD_READ_STRUCTURE
+ms.keywords: structs-DVD_64ffaf42-815a-4a1e-a712-7027930d099f.xml, PDVD_READ_STRUCTURE structure pointer [Storage Devices], storage.dvd_read_structure, *PDVD_READ_STRUCTURE, DVD_READ_STRUCTURE, PDVD_READ_STRUCTURE, ntddcdvd/DVD_READ_STRUCTURE, DVD_READ_STRUCTURE structure [Storage Devices], ntddcdvd/PDVD_READ_STRUCTURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

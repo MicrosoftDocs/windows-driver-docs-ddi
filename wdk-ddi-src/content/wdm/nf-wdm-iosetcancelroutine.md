@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5bc81897-6463-4588-9348-78a1954216bd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoSetCancelRoutine routine [Kernel-Mode Driver Architecture], IoSetCancelRoutine, k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, wdm/IoSetCancelRoutine, kernel.iosetcancelroutine
+ms.keywords: IoSetCancelRoutine, kernel.iosetcancelroutine, k104_a9ac44bc-fe8a-4392-b9f8-d9a90a03fbc0.xml, wdm/IoSetCancelRoutine, IoSetCancelRoutine routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 505e2ab7-13c3-4cdd-90ba-a37bb38fe160
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlfreeunicodestring, wdm/RtlFreeUnicodeString, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], RtlFreeUnicodeString, k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml
+ms.keywords: k109_c23e6c5e-d2dd-4b88-8249-5f88ad8482ad.xml, RtlFreeUnicodeString routine [Kernel-Mode Driver Architecture], RtlFreeUnicodeString, wdm/RtlFreeUnicodeString, kernel.rtlfreeunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlFreeUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 

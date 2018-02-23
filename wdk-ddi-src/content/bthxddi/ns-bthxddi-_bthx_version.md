@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2C5CC5B1-52F1-4DF5-9397-E8FD4983BA25
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BTHX_VERSION, *PBTHX_VERSION, bthxddi/_BTHX_VERSION, _BTHX_VERSION, bltooth.bthx_version, BTHX_VERSION structure [Bluetooth Devices]
+ms.keywords: BTHX_VERSION, bltooth.bthx_version, BTHX_VERSION structure [Bluetooth Devices], _BTHX_VERSION, *PBTHX_VERSION, bthxddi/_BTHX_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	_BTHX_VERSION
 product: Windows
 targetos: Windows
-req.typenames: "*PBTHX_VERSION, BTHX_VERSION"
+req.typenames: BTHX_VERSION, *PBTHX_VERSION
 ---
 
 # _BTHX_VERSION structure

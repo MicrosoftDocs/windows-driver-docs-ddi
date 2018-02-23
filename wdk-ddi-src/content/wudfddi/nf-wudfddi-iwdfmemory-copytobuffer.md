@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c5b34168-b3b8-4559-8b41-982f0a66f01d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFMemory interface, CopyToBuffer method, UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml, CopyToBuffer, CopyToBuffer method, IWDFMemory interface, wudfddi/IWDFMemory::CopyToBuffer, IWDFMemory::CopyToBuffer, CopyToBuffer method, wdf.iwdfmemory_copytobuffer, IWDFMemory, umdf.iwdfmemory_copytobuffer
+ms.keywords: UMDFMemoryObjectRef_40ff2a7e-f93c-4f95-ba14-b7ade765ab2d.xml, wudfddi/IWDFMemory::CopyToBuffer, IWDFMemory interface, CopyToBuffer method, CopyToBuffer method, IWDFMemory interface, CopyToBuffer method, IWDFMemory::CopyToBuffer, wdf.iwdfmemory_copytobuffer, umdf.iwdfmemory_copytobuffer, IWDFMemory, CopyToBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

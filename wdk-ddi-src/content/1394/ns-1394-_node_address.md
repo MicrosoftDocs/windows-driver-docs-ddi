@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: ecafa166-356e-48d6-84c4-0f0c339289ac
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: IEEE.node_address, PNODE_ADDRESS, _NODE_ADDRESS, 1394/NODE_ADDRESS, NODE_ADDRESS structure [Buses], PNODE_ADDRESS structure pointer [Buses], 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, NODE_ADDRESS, 1394/PNODE_ADDRESS, *PNODE_ADDRESS
+ms.keywords: PNODE_ADDRESS structure pointer [Buses], PNODE_ADDRESS, NODE_ADDRESS, *PNODE_ADDRESS, _NODE_ADDRESS, IEEE.node_address, 1394/PNODE_ADDRESS, 1394stct_4b87009c-620b-4840-aea3-52e059d388cd.xml, NODE_ADDRESS structure [Buses], 1394/NODE_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NODE_ADDRESS
 product: Windows
 targetos: Windows
-req.typenames: "*PNODE_ADDRESS, NODE_ADDRESS"
+req.typenames: NODE_ADDRESS, *PNODE_ADDRESS
 ---
 
 # _NODE_ADDRESS structure

@@ -7,7 +7,7 @@ old-location: display\ioctl_video_prepare_for_earecovery.htm
 old-project: display
 ms.assetid: 71cd4559-9cb3-468e-a53e-fb40b97a90b6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.ioctl_video_prepare_for_earecovery, IOCTL_VIDEO_PREPARE_FOR_EARECOVERY control code [Display Devices], IOCTL_VIDEO_PREPARE_FOR_EARECOVERY, ntddvdeo/IOCTL_VIDEO_PREPARE_FOR_EARECOVERY, Video_IOCTLs_72bcebdd-6335-4953-9a23-00061760b4a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

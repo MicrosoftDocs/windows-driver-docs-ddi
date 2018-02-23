@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d031e032-66e3-4697-8db1-67655cfc223d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.enlistment_information_class, wdm/EnlistmentRecoveryInformation, wdm/EnlistmentCrmInformation, _ENLISTMENT_INFORMATION_CLASS, ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentBasicInformation, EnlistmentCrmInformation, wdm/ENLISTMENT_INFORMATION_CLASS, EnlistmentRecoveryInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], EnlistmentBasicInformation
+ms.keywords: wdm/EnlistmentRecoveryInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, ENLISTMENT_INFORMATION_CLASS, wdm/ENLISTMENT_INFORMATION_CLASS, _ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentCrmInformation, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], kernel.enlistment_information_class, EnlistmentCrmInformation, EnlistmentBasicInformation, EnlistmentRecoveryInformation, wdm/EnlistmentBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,11 +91,11 @@ Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMA
 
 
 
-<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetinformationenlistment.md">ZwSetInformationEnlistment</a>
+
+
+
+<a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
 
 
 

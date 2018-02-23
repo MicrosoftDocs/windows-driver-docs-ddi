@@ -4,11 +4,11 @@ title: IDebugControl::IsPointer64Bit method
 author: windows-driver-content
 description: The IsPointer64Bit method determines if the effective processor uses 64-bit pointers.
 old-location: debugger\ispointer64bit.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 01003268-844e-4613-ac13-0306396e56b9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::IsPointer64Bit, IDebugControl, IDebugControl3::IsPointer64Bit, IDebugControl interface [Windows Debugging], IsPointer64Bit method, IDebugControl::IsPointer64Bit, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IsPointer64Bit method [Windows Debugging], IsPointer64Bit, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method, dbgeng/IDebugControl2::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, debugger.ispointer64bit, IDebugControl2::IsPointer64Bit, dbgeng/IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl interface
+ms.date: 2/22/2018
+ms.keywords: IDebugControl::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl3 interface, IDebugControl_62a0cc8d-e542-4889-9f68-591d00828d4b.xml, IDebugControl3::IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl interface, IsPointer64Bit method [Windows Debugging], IDebugControl2::IsPointer64Bit, debugger.ispointer64bit, IsPointer64Bit, IsPointer64Bit method [Windows Debugging], IDebugControl2 interface, IDebugControl, dbgeng/IDebugControl::IsPointer64Bit, dbgeng/IDebugControl2::IsPointer64Bit, dbgeng/IDebugControl3::IsPointer64Bit, IDebugControl interface [Windows Debugging], IsPointer64Bit method, IDebugControl3 interface [Windows Debugging], IsPointer64Bit method, IDebugControl2 interface [Windows Debugging], IsPointer64Bit method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

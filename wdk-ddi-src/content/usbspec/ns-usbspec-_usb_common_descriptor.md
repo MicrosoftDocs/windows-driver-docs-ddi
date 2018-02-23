@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 1ea51976-c786-4ca3-aaa3-a44fa8697efa
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usb_common_descriptor, _USB_COMMON_DESCRIPTOR, usbspec/USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], PUSB_COMMON_DESCRIPTOR structure pointer [Buses], usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml, *PUSB_COMMON_DESCRIPTOR, usbspec/PUSB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR
+ms.keywords: usbspec/USB_COMMON_DESCRIPTOR, PUSB_COMMON_DESCRIPTOR structure pointer [Buses], PUSB_COMMON_DESCRIPTOR, usbspec/PUSB_COMMON_DESCRIPTOR, *PUSB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR structure [Buses], USB_COMMON_DESCRIPTOR, buses.usb_common_descriptor, usbstrct_be74945b-60a4-44cc-9c7b-e1eb5cc25525.xml, _USB_COMMON_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_COMMON_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_COMMON_DESCRIPTOR, USB_COMMON_DESCRIPTOR"
+req.typenames: USB_COMMON_DESCRIPTOR, *PUSB_COMMON_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

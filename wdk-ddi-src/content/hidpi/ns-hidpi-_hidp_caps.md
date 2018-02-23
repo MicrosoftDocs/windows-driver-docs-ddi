@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: ec4d4b7b-acf6-4839-9a61-1883eddce3f4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.hidp_caps, HIDP_CAPS, *PHIDP_CAPS, PHIDP_CAPS, _HIDP_CAPS, HIDP_CAPS structure [Human Input Devices], PHIDP_CAPS structure pointer [Human Input Devices], hidpi/PHIDP_CAPS, hidpi/HIDP_CAPS, hidstrct_2ef93e42-2fd2-4dff-87fb-11f1d1342b07.xml
+ms.keywords: hidpi/HIDP_CAPS, HIDP_CAPS structure [Human Input Devices], hidpi/PHIDP_CAPS, hidstrct_2ef93e42-2fd2-4dff-87fb-11f1d1342b07.xml, hid.hidp_caps, PHIDP_CAPS, _HIDP_CAPS, PHIDP_CAPS structure pointer [Human Input Devices], HIDP_CAPS, *PHIDP_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -173,19 +173,11 @@ Callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a>
-
-
-
-<a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
 
 
 
@@ -197,7 +189,11 @@ Callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_value_caps.md">HIDP_VALUE_CAPS</a>
+<a href="..\hidpi\nf-hidpi-hidp_getlinkcollectionnodes.md">HidP_GetLinkCollectionNodes</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 
 
@@ -205,7 +201,11 @@ Callers of the <a href="https://msdn.microsoft.com/library/windows/hardware/ff53
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_button_caps.md">HIDP_BUTTON_CAPS</a>
+<a href="..\hidpi\nf-hidpi-hidp_getspecificbuttoncaps.md">HidP_GetSpecificButtonCaps</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
 
 
 

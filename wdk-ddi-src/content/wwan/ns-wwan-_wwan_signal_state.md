@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ba5632bb-c1d7-47b1-b6b4-88c67710149f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista], WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], PWWAN_SIGNAL_STATE, wwan/WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE, wwan/PWWAN_SIGNAL_STATE, _WWAN_SIGNAL_STATE, netvista.wwan_signal_state, *PWWAN_SIGNAL_STATE
+ms.keywords: wwan/WWAN_SIGNAL_STATE, netvista.wwan_signal_state, wwan/PWWAN_SIGNAL_STATE, WwanRef_6a92457b-8b82-4956-9dce-98e5aeec9091.xml, *PWWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_SIGNAL_STATE, PWWAN_SIGNAL_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_SIGNAL_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_SIGNAL_STATE, WWAN_SIGNAL_STATE"
+req.typenames: WWAN_SIGNAL_STATE, *PWWAN_SIGNAL_STATE
 req.product: Windows 10 or later.
 ---
 

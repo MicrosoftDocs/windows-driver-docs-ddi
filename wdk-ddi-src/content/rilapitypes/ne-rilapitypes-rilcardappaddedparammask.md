@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 47726715-306c-4167-8080-65085d1e7f8f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCARDAPPADDEDPARAMMASK, rilapitypes/RILCARDAPPADDEDPARAMMASK, rilapitypes/RIL_PARAM_CARDAPPADDED_ALL, rilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO, RIL_PARAM_CARDAPPADDED_ALL, RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilcardappaddedparammask_2, RIL_PARAM_CARDAPPADDED_UICCAPPINFO
+ms.keywords: RILCARDAPPADDEDPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CARDAPPADDED_ALL, rilapitypes/RIL_PARAM_CARDAPPADDED_UICCAPPINFO, RILCARDAPPADDEDPARAMMASK, RIL_PARAM_CARDAPPADDED_UICCAPPINFO, rilapitypes/RILCARDAPPADDEDPARAMMASK, rilapitypes/RIL_PARAM_CARDAPPADDED_ALL, netvista.rilcardappaddedparammask_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

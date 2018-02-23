@@ -7,8 +7,8 @@ old-location: display\dxgi1_2_ddi_base_functions.htm
 old-project: display
 ms.assetid: 7A1CD16A-4B7A-40FE-8650-AAD8CAC10FB0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS, display.dxgi1_2_ddi_base_functions, DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], DXGI1_2_DDI_BASE_FUNCTIONS
+ms.date: 2/22/2018
+ms.keywords: DXGI1_2_DDI_BASE_FUNCTIONS structure [Display Devices], DXGI1_2_DDI_BASE_FUNCTIONS, display.dxgi1_2_ddi_base_functions, dxgiddi/DXGI1_2_DDI_BASE_FUNCTIONS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -243,11 +243,6 @@ A pointer to a <a href="..\dxgiddi\ns-dxgiddi-_dxgi_ddi_arg_reclaimresources.md"
 
 
 
-#### - pfnCheckMultiPlaneOverlaySupport
-
-A pointer to the driver's <a href="https://msdn.microsoft.com/9062BB6D-7B52-42B0-83D9-A101299C0B12">pfnCheckMultiPlaneOverlaySupport (DXGI)</a> function. Supported starting with Windows 8.1.
-
-
 #### - pfnGetMultiPlaneOverlayCaps
 
 Called by the DXGI runtime to request that the user-mode display driver  get basic overlay plane capabilities. Optionally implemented by WDDM 1.3 and later user-mode display drivers.
@@ -282,15 +277,11 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 
 ## -see-also
 
-<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
-
-
-
 <a href="..\dxgiddi\ns-dxgiddi-dxgi1_3_ddi_base_functions.md">DXGI1_3_DDI_BASE_FUNCTIONS</a>
 
 
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createdevice.md">CreateDevice(D3D10)</a>
+<a href="..\dxgiddi\ns-dxgiddi-dxgi_ddi_base_args.md">DXGI_DDI_BASE_ARGS</a>
 
 
 
@@ -302,9 +293,13 @@ A pointer to the driver's <a href="..\dxgiddi\nc-dxgiddi-pfnddxgiddi_present_mul
 
 
 
- 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createdevice.md">D3D10DDIARG_CREATEDEVICE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI1_2_DDI_BASE_FUNCTIONS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGI1_2_DDI_BASE_FUNCTIONS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

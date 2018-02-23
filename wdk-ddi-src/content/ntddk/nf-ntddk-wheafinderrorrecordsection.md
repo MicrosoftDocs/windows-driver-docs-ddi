@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 57c94f04-82e2-4790-b198-d415e494d70b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WheaFindErrorRecordSection, whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml, whea.wheafinderrorrecordsection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindErrorRecordSection
+ms.keywords: ntddk/WheaFindErrorRecordSection, WheaFindErrorRecordSection, whea.wheafinderrorrecordsection, WheaFindErrorRecordSection function [WHEA Drivers and Applications], whearef2_fe7f8220-081d-475c-9230-d59cff81164d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WheaFindErrorRecordSection
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # WheaFindErrorRecordSection function

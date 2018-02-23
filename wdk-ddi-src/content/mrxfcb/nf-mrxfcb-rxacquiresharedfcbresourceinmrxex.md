@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bf8390db-7e42-4860-8cf6-df3459f16cea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml, ifsk.rxacquiresharedfcbresourceinmrxex, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers], mrxfcb/RxAcquireSharedFcbResourceInMRxEx, RxAcquireSharedFcbResourceInMRxEx
+ms.keywords: mrxfcb/RxAcquireSharedFcbResourceInMRxEx, RxAcquireSharedFcbResourceInMRxEx, ifsk.rxacquiresharedfcbresourceinmrxex, rxref_2b8fc5d6-96e5-45a0-897a-f55964e6cc8a.xml, RxAcquireSharedFcbResourceInMRxEx routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,7 +139,11 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRxEx </b>should be
 
 ## -see-also
 
-<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
+<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
+
+
+
+<b>RxAcquireSharedFcbResourceInMRx</b>
 
 
 
@@ -147,11 +151,7 @@ An FCB resource acquired with <b>RxAcquireSharedFcbResourceInMRxEx </b>should be
 
 
 
-<a href="..\mrxfcb\nf-mrxfcb-rxreleasefcbresourceinmrx.md">RxReleaseFcbResourceInMRx</a>
-
-
-
-<b>RxAcquireSharedFcbResourceInMRx</b>
+<a href="..\mrxfcb\nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md">RxAcquireExclusiveFcbResourceInMRx</a>
 
 
 

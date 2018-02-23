@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B821AF54-AF2C-4E19-BC70-2E0A8F172D93
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pofxpowercontrol, wdm/PoFxPowerControl, PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/PoFxPowerControl, PoFxPowerControl routine [Kernel-Mode Driver Architecture], PoFxPowerControl, kernel.pofxpowercontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

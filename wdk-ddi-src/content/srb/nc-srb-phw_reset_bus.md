@@ -40,7 +40,7 @@ apiname:
 -	(*PHW_RESET_BUS)
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: SPB_CONTROLLER_CONFIG, *PSPB_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -107,7 +107,7 @@ For more information about the bus reset routine that is used with the StorPort 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557318">HwScsiResetBus</a>
+<a href="..\storport\nc-storport-hw_reset_bus.md">HwStorResetBus</a>
 
 
 

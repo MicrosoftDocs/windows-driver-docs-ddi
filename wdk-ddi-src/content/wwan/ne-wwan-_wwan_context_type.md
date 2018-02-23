@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 73a18050-fc89-41df-82ce-0f29c5716496
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanContextTypeInternet, WwanContextTypeVpn, PWWAN_CONTEXT_TYPE, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_context_type, wwan/WwanContextTypeVpn, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanContextTypeNone, wwan/WwanContextTypeInternet, WwanContextTypeVoice, wwan/WwanContextTypeVoice, WwanContextTypeCustom, WwanContextTypePurchase, wwan/WwanContextTypeNone, wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeMax, wwan/WwanContextTypePurchase, WwanContextTypeMax, *PWWAN_CONTEXT_TYPE, wwan/PWWAN_CONTEXT_TYPE, WwanContextTypeVideoShare, WWAN_CONTEXT_TYPE, wwan/WWAN_CONTEXT_TYPE, _WWAN_CONTEXT_TYPE, wwan/WwanContextTypeCustom
+ms.keywords: netvista.wwan_context_type, WwanContextTypePurchase, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_CONTEXT_TYPE, wwan/WwanContextTypeVideoShare, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, wwan/WwanContextTypeVpn, wwan/WWAN_CONTEXT_TYPE, wwan/WwanContextTypeNone, wwan/WwanContextTypePurchase, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/PWWAN_CONTEXT_TYPE, WwanContextTypeVideoShare, WwanContextTypeVpn, wwan/WwanContextTypeMax, _WWAN_CONTEXT_TYPE, wwan/WwanContextTypeVoice, WwanContextTypeInternet, WwanContextTypeCustom, WwanContextTypeVoice, WwanContextTypeNone, wwan/WwanContextTypeInternet, wwan/WwanContextTypeCustom, PWWAN_CONTEXT_TYPE, WwanContextTypeMax, *PWWAN_CONTEXT_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

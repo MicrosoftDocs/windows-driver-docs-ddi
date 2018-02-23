@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b07b8186-970a-428f-955f-4e7e6ab20bfc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiprf/MSiSCSI_InitiatorInstanceStatistics, _MSiSCSI_InitiatorInstanceStatistics, PMSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics structure [Storage Devices], MSiSCSI_InitiatorInstanceStatistics, iscsiprf/PMSiSCSI_InitiatorInstanceStatistics, PMSiSCSI_InitiatorInstanceStatistics structure pointer [Storage Devices], *PMSiSCSI_InitiatorInstanceStatistics, structs-iSCSI_6914e221-73b2-4626-9281-2e1748bd0048.xml, storage.msiscsi_initiatorinstancestatistics
+ms.keywords: MSiSCSI_InitiatorInstanceStatistics structure [Storage Devices], storage.msiscsi_initiatorinstancestatistics, PMSiSCSI_InitiatorInstanceStatistics, iscsiprf/PMSiSCSI_InitiatorInstanceStatistics, MSiSCSI_InitiatorInstanceStatistics, _MSiSCSI_InitiatorInstanceStatistics, *PMSiSCSI_InitiatorInstanceStatistics, structs-iSCSI_6914e221-73b2-4626-9281-2e1748bd0048.xml, PMSiSCSI_InitiatorInstanceStatistics structure pointer [Storage Devices], iscsiprf/MSiSCSI_InitiatorInstanceStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,7 +111,7 @@ It is optional that you implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563038">MSiSCSI_InitiatorInstanceStatistics WMI Class</a>
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 

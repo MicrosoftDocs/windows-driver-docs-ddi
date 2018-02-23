@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 1d8d723f-aae5-499e-94cf-c7ccdb24c45f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: OUTPUT_PACKET structure [Human Input Devices], OUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], *POUTPUT_PACKET, POUTPUT_PACKET, hid.output_packet, _OUTPUT_PACKET, ntdd8042/OUTPUT_PACKET, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, ntdd8042/POUTPUT_PACKET
+ms.keywords: hid.output_packet, ntdd8042/POUTPUT_PACKET, i8042ref_3e563892-06cb-4021-847d-d6afda279c7a.xml, OUTPUT_PACKET, POUTPUT_PACKET structure pointer [Human Input Devices], ntdd8042/OUTPUT_PACKET, OUTPUT_PACKET structure [Human Input Devices], POUTPUT_PACKET, _OUTPUT_PACKET, *POUTPUT_PACKET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OUTPUT_PACKET
 product: Windows
 targetos: Windows
-req.typenames: "*POUTPUT_PACKET, OUTPUT_PACKET"
+req.typenames: OUTPUT_PACKET, *POUTPUT_PACKET
 ---
 
 # _OUTPUT_PACKET structure
@@ -132,15 +132,15 @@ This structure is used with a <a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_i
 
 
 
-<a href="https://msdn.microsoft.com/0feca7de-aa80-4d1e-a5fc-901c18169649">KbFilter_IsrHook</a>
-
-
-
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
 
 
 
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
 
 
 

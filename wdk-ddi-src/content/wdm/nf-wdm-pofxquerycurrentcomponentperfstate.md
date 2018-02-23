@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DFB59020-1F4A-4ABB-8BBE-85F9C8615249
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture], PoFxQueryCurrentComponentPerfState, wdm/PoFxQueryCurrentComponentPerfState, kernel.pofxquerycurrentcomponentperfstate
+ms.keywords: PoFxQueryCurrentComponentPerfState, kernel.pofxquerycurrentcomponentperfstate, wdm/PoFxQueryCurrentComponentPerfState, PoFxQueryCurrentComponentPerfState routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,19 +142,19 @@ This call always executes synchronously.
 
 ## -see-also
 
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
+
+
+
 <a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
 
 
 
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_COMPONENT_PERF_INFO</a>
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 
 
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_COMPONENT_PERF_INFO</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
 
 
 

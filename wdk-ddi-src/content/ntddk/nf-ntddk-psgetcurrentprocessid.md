@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9434f740-34c1-4244-813d-3fe9f1ead333
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsGetCurrentProcessId routine [Kernel-Mode Driver Architecture], ntddk/PsGetCurrentProcessId, PsGetCurrentProcessId, kernel.psgetcurrentprocessid, k108_e38b09ef-d948-4eb9-bfdd-24b25ba55034.xml
+ms.keywords: ntddk/PsGetCurrentProcessId, k108_e38b09ef-d948-4eb9-bfdd-24b25ba55034.xml, PsGetCurrentProcessId, kernel.psgetcurrentprocessid, PsGetCurrentProcessId routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetCurrentProcessId
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetCurrentProcessId function
@@ -78,7 +78,7 @@ HANDLE PsGetCurrentProcessId(void);
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
 
 
@@ -86,7 +86,7 @@ HANDLE PsGetCurrentProcessId(void);
 
 
 
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
+<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
 
 
 
@@ -94,15 +94,15 @@ HANDLE PsGetCurrentProcessId(void);
 
 
 
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutine.md">PsSetCreateThreadNotifyRoutine</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-psgetcurrentthreadid.md">PsGetCurrentThreadId</a>
+
+
+
 <a href="..\ntddk\nf-ntddk-pssetcreateprocessnotifyroutine.md">PsSetCreateProcessNotifyRoutine</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
 
 

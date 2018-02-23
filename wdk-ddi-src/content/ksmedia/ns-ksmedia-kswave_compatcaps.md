@@ -7,8 +7,8 @@ old-location: stream\kswave_compatcaps.htm
 old-project: stream
 ms.assetid: 92e6090e-6a31-45d9-ac6d-a20bf180f12e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, KSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS, stream.kswave_compatcaps, ksmedia/KSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS structure [Streaming Media Devices], *PKSWAVE_COMPATCAPS
+ms.date: 2/22/2018
+ms.keywords: dvdref_496e945d-fb6d-47da-8668-4cb8f1b265e6.xml, *PKSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS structure pointer [Streaming Media Devices], KSWAVE_COMPATCAPS structure [Streaming Media Devices], ksmedia/KSWAVE_COMPATCAPS, stream.kswave_compatcaps, KSWAVE_COMPATCAPS, PKSWAVE_COMPATCAPS, ksmedia/PKSWAVE_COMPATCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSWAVE_COMPATCAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PKSWAVE_COMPATCAPS, KSWAVE_COMPATCAPS"
+req.typenames: KSWAVE_COMPATCAPS, *PKSWAVE_COMPATCAPS
 ---
 
 # KSWAVE_COMPATCAPS structure
@@ -119,5 +119,5 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSWAVE_COMPATCAPS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSWAVE_COMPATCAPS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

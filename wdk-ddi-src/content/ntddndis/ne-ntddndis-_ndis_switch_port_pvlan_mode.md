@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8B07B225-D612-47D2-B93C-7F9E3A23ACE1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, netvista.ndis_switch_port_pvlan_mode, *PNDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeUndefined, NdisSwitchPortPvlanModeCommunity, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModeIsolated, ntddndis/NdisSwitchPortPvlanModeCommunity, ntddndis/NdisSwitchPortPvlanModeUndefined, PNDIS_SWITCH_PORT_PVLAN_MODE, _NDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeIsolated, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortPvlanModePromiscuous
+ms.keywords: ntddndis/NDIS_SWITCH_PORT_PVLAN_MODE, netvista.ndis_switch_port_pvlan_mode, ntddndis/NdisSwitchPortPvlanModeUndefined, ntddndis/NdisSwitchPortPvlanModeIsolated, NdisSwitchPortPvlanModeUndefined, *PNDIS_SWITCH_PORT_PVLAN_MODE, _NDIS_SWITCH_PORT_PVLAN_MODE, NdisSwitchPortPvlanModeCommunity, NdisSwitchPortPvlanModePromiscuous, ntddndis/PNDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE enumeration [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_PVLAN_MODE, PNDIS_SWITCH_PORT_PVLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortPvlanModePromiscuous, NdisSwitchPortPvlanModeIsolated, NDIS_SWITCH_PORT_PVLAN_MODE, ntddndis/NdisSwitchPortPvlanModeCommunity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_PVLAN_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_PORT_PVLAN_MODE, NDIS_SWITCH_PORT_PVLAN_MODE"
+req.typenames: NDIS_SWITCH_PORT_PVLAN_MODE, *PNDIS_SWITCH_PORT_PVLAN_MODE
 ---
 
 # _NDIS_SWITCH_PORT_PVLAN_MODE enumeration
@@ -110,11 +110,11 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d58f5d02-d4cf-4208-b5c4-1047b8278ff7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WaitNoPendingInstallEvents method [Windows Device Testing Framework], dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, IWDTFDriverSetupSystemAction2, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], WaitNoPendingInstallEvents method, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents
+ms.keywords: WaitNoPendingInstallEvents method [Windows Device Testing Framework], dtf.iwdtfdriversetupsystemaction2_waitnopendinginstallevents, IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.WaitNoPendingInstallEvents, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::WaitNoPendingInstallEvents, IWDTFDriverSetupSystemAction2, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], WaitNoPendingInstallEvents method, WaitNoPendingInstallEvents, WaitNoPendingInstallEvents method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

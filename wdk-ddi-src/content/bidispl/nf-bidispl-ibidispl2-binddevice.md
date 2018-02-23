@@ -7,8 +7,8 @@ old-location: print\ibidispl2_ibidispl2__binddevice.htm
 old-project: print
 ms.assetid: c5bd238d-4b85-4463-aa73-ff3a7798ccff
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: gdi.ibidispl2_ibidispl2__binddevice, _win32_IBidiSpl2_BindDevice, BindDevice method [Print Devices], IBidiSpl2 interface, print.ibidispl2_ibidispl2__binddevice, bidispl/IBidiSpl2::BindDevice, IBidiSpl2, BindDevice, BIDI_ACCESS_USER, BIDI_ACCESS_ADMINISTRATOR, IBidiSpl2::BindDevice, IBidiSpl2 interface [Print Devices], BindDevice method, BindDevice method [Print Devices]
+ms.date: 2/22/2018
+ms.keywords: BIDI_ACCESS_ADMINISTRATOR, BindDevice, gdi.ibidispl2_ibidispl2__binddevice, BindDevice method [Print Devices], IBidiSpl2 interface, BindDevice method [Print Devices], bidispl/IBidiSpl2::BindDevice, IBidiSpl2, _win32_IBidiSpl2_BindDevice, IBidiSpl2 interface [Print Devices], BindDevice method, BIDI_ACCESS_USER, IBidiSpl2::BindDevice, print.ibidispl2_ibidispl2__binddevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiSpl2.BindDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
+req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
 ---
 
 # IBidiSpl2::BindDevice method
@@ -158,19 +158,15 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+<a href="https://msdn.microsoft.com/8bbb46a8-2bba-4d15-a2e2-4770b52d2505">OpenPrinter</a>
 
 
 
-<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+<a href="..\bidispl\nn-bidispl-ibidispl2.md">IBidiSpl2</a>
 
 
 
@@ -178,9 +174,13 @@ The <b>HRESULT</b> contains an error code that corresponds to the last error.
 
 
 
- 
+<a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl2::BindDevice method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiSpl2::BindDevice method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

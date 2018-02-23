@@ -7,8 +7,8 @@ old-location: display\dxgk_inherited_timing_info.htm
 old-project: display
 ms.assetid: 8A5CB3A6-970C-448D-8808-F072EE67BCA3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmddi/PDXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], DXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info, _DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO, *PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices]
+ms.date: 2/22/2018
+ms.keywords: "_DXGK_INHERITED_TIMING_INFO, d3dkmddi/DXGK_INHERITED_TIMING_INFO, PDXGK_INHERITED_TIMING_INFO, display.dxgk_inherited_timing_info, PDXGK_INHERITED_TIMING_INFO structure pointer [Display Devices], *PDXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO, DXGK_INHERITED_TIMING_INFO structure [Display Devices], d3dkmddi/PDXGK_INHERITED_TIMING_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C38F8222-7F22-4D6B-A3F2-C326ECE22E8B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsCreateThreadNotifySubsystems, _PSCREATETHREADNOTIFYTYPE, PsCreateThreadNotifyNonSystem, PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], ntddk/PsCreateThreadNotifyNonSystem, ntddk/PsCreateThreadNotifySubsystems, ntddk/PSCREATETHREADNOTIFYTYPE
+ms.keywords: ntddk/PsCreateThreadNotifyNonSystem, PSCREATETHREADNOTIFYTYPE, PSCREATETHREADNOTIFYTYPE enumeration [Kernel-Mode Driver Architecture], _PSCREATETHREADNOTIFYTYPE, kernel.pscreatethreadnotifytype, PsCreateThreadNotifySubsystems, ntddk/PsCreateThreadNotifySubsystems, PsCreateThreadNotifyNonSystem, ntddk/PSCREATETHREADNOTIFYTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -81,15 +81,15 @@ Indicates that the driver-registered callback function is invoked for threads of
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
+
+
+
+<a href="..\ntddk\ne-ntddk-_subsystem_information_type.md">SUBSYSTEM_INFORMATION_TYPE</a>
+
+
+
 <a href="https://msdn.microsoft.com/ca292efc-1ea9-4c0f-b0a7-1cfb35d69f81">NtQueryInformationThread</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-pssetcreatethreadnotifyroutineex.md">PsSetCreateThreadNotifyRoutineEx</a>
 
 
 

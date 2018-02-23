@@ -4,11 +4,11 @@ title: CWiauFormatConverter::~CWiauFormatConverter method
 author: windows-driver-content
 description: The CWiauFormatConverter::~CWiauFormatConverter method is the destructor for the CWiauFormatConverter class.
 old-location: image\cwiauformatconverter__cwiauformatconverter.htm
-old-project: Image
+old-project: image
 ms.assetid: 2bdf9564-70b0-4936-95e5-4470b731ac3b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: CWiauFormatConverter::~CWiauFormatConverter, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface, ~CWiauFormatConverter, wiautil/CWiauFormatConverter::~CWiauFormatConverter, image.cwiauformatconverter__cwiauformatconverter, CWiauFormatConverter, wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method
+ms.date: 2/22/2018
+ms.keywords: wiautil/CWiauFormatConverter::~CWiauFormatConverter, ~CWiauFormatConverter, image.cwiauformatconverter__cwiauformatconverter, CWiauFormatConverter, CWiauFormatConverter::~CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], ~CWiauFormatConverter method, ~CWiauFormatConverter method [Imaging Devices], wiauFncs_9e90093a-c28a-4cbb-a4be-55750e309940.xml, ~CWiauFormatConverter method [Imaging Devices], CWiauFormatConverter interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,5 +91,5 @@ This method does not return a value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20CWiauFormatConverter::~CWiauFormatConverter method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20CWiauFormatConverter::~CWiauFormatConverter method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

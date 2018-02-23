@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C19C250D-3C8D-4855-A8B3-82E139CE09BB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DiagnoseLevelFirmwareImageDump, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], eDiagnoseLevel, DiagnoseLevelNone, dot11wdi/DiagnoseLevelFirmwareImageDump, netvista.wdiediagnoselevel, dot11wdi/DiagnoseLevelNone, DiagnoseLevelDriverStateDump, dot11wdi/DiagnoseLevelDriverStateDump, dot11wdi/eDiagnoseLevel, dot11wdi/DiagnoseLevelHardwareRegisters, DiagnoseLevelHardwareRegisters
+ms.keywords: DiagnoseLevelFirmwareImageDump, DiagnoseLevelHardwareRegisters, netvista.wdiediagnoselevel, eDiagnoseLevel enumeration [Network Drivers Starting with Windows Vista], dot11wdi/DiagnoseLevelDriverStateDump, DiagnoseLevelNone, dot11wdi/DiagnoseLevelNone, dot11wdi/eDiagnoseLevel, dot11wdi/DiagnoseLevelFirmwareImageDump, DiagnoseLevelDriverStateDump, eDiagnoseLevel, dot11wdi/DiagnoseLevelHardwareRegisters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

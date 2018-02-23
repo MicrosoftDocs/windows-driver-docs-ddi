@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: df59e0f7-6e78-4098-9a2a-9a3143d66152
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_EVDOKIND_MAX, rilapitypes/RIL_EVDOKIND_REVB, RIL_EVDOKIND_REVA, netvista.rilevdokind_2, RILEVDOKIND, RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], RIL_EVDOKIND_REVB, rilapitypes/RIL_EVDOKIND_REVA, RIL_EVDOKIND_MAX, rilapitypes/RILEVDOKIND
+ms.keywords: RILEVDOKIND enumeration [Network Drivers Starting with Windows Vista], RILEVDOKIND, RIL_EVDOKIND_REVB, RIL_EVDOKIND_REVA, rilapitypes/RIL_EVDOKIND_REVB, rilapitypes/RILEVDOKIND, rilapitypes/RIL_EVDOKIND_MAX, netvista.rilevdokind_2, RIL_EVDOKIND_MAX, rilapitypes/RIL_EVDOKIND_REVA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

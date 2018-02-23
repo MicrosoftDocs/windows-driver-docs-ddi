@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fa02a787-502c-48a3-a5e1-710d7513c42e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, wdfrequest/WdfRequestRetrieveInputBuffer, kmdf.wdfrequestretrieveinputbuffer, wdf.wdfrequestretrieveinputbuffer, WdfRequestRetrieveInputBuffer method, WdfRequestRetrieveInputBuffer
+ms.keywords: wdf.wdfrequestretrieveinputbuffer, WdfRequestRetrieveInputBuffer, kmdf.wdfrequestretrieveinputbuffer, wdfrequest/WdfRequestRetrieveInputBuffer, DFRequestObjectRef_7b0c1902-f3a3-4b89-8a9d-3e05e1639fd3.xml, WdfRequestRetrieveInputBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -248,15 +248,15 @@ SerialEvtIoDeviceControl(
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
+
+
+
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceretrieveconfigdescriptor.md">WdfUsbTargetDeviceRetrieveConfigDescriptor</a>
 
 
 
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveinputmemory.md">WdfRequestRetrieveInputMemory</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestretrieveoutputbuffer.md">WdfRequestRetrieveOutputBuffer</a>
 
 
 

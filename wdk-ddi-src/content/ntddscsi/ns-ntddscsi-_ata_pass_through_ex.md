@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 76d8f5be-0011-4a7c-ac21-7115ad7e1155
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ata_pass_through_ex, ATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], _ATA_PASS_THROUGH_EX, ntddscsi/ATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX structure [Storage Devices], ntddscsi/PATA_PASS_THROUGH_EX, *PATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX, structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml
+ms.keywords: ATA_PASS_THROUGH_EX structure [Storage Devices], *PATA_PASS_THROUGH_EX, ntddscsi/PATA_PASS_THROUGH_EX, ntddscsi/ATA_PASS_THROUGH_EX, PATA_PASS_THROUGH_EX, ATA_PASS_THROUGH_EX, _ATA_PASS_THROUGH_EX, storage.ata_pass_through_ex, PATA_PASS_THROUGH_EX structure pointer [Storage Devices], structs-IDE_72cc1a49-a438-40cb-b4b5-8ec7c87669f8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -396,7 +396,7 @@ Reserved
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
+<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
 
 
 
@@ -404,7 +404,7 @@ Reserved
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_ata_pass_through_direct.md">ATA_PASS_THROUGH_DIRECT</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_ata_pass_through.md">IOCTL_ATA_PASS_THROUGH</a>
 
 
 

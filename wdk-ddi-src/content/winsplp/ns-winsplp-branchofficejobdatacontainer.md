@@ -7,8 +7,8 @@ old-location: print\branchofficejobdatacontainer.htm
 old-project: print
 ms.assetid: 5C6D2FFC-DBFF-4C44-8757-ED87593A584F
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: BranchOfficeJobDataContainer structure [Print Devices], winsplp/PBranchOfficeJobDataContainer, PBranchOfficeJobDataContainer structure pointer [Print Devices], LPBranchOfficeJobDataContainer, BranchOfficeJobDataContainer, *PBranchOfficeJobDataContainer, winsplp/LPBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer structure pointer [Print Devices], *LPBranchOfficeJobDataContainer, print.branchofficejobdatacontainer, winsplp/BranchOfficeJobDataContainer, PBranchOfficeJobDataContainer
+ms.date: 2/22/2018
+ms.keywords: PBranchOfficeJobDataContainer structure pointer [Print Devices], print.branchofficejobdatacontainer, BranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer structure pointer [Print Devices], *PBranchOfficeJobDataContainer, *LPBranchOfficeJobDataContainer, BranchOfficeJobDataContainer structure [Print Devices], winsplp/PBranchOfficeJobDataContainer, LPBranchOfficeJobDataContainer, winsplp/BranchOfficeJobDataContainer, winsplp/LPBranchOfficeJobDataContainer, PBranchOfficeJobDataContainer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

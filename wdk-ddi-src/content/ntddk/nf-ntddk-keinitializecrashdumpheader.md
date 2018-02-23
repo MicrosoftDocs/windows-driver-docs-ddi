@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6fa0cf86-35f4-4e5d-bced-ebd2ec499b64
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml
+ms.keywords: kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader, k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], KeInitializeCrashDumpHeader
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KeInitializeCrashDumpHeader
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KeInitializeCrashDumpHeader function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 78fef8f7-e6cd-4da6-9c2a-2eaf1da6339b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rildialparamsoptions, ntddrilapitypes/RILDIALPARAMSOPTIONS, ntddrilapitypes/RIL_DIALOPT_RTTFULL, RILDIALPARAMSOPTIONS, RILDIALPARAMSOPTIONS enumeration [Network Drivers Starting with Windows Vista], RIL_DIALOPT_PRESENTID, RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, RIL_DIALOPT_RTTFULL, ntddrilapitypes/RIL_DIALOPT_ALL, RIL_DIALOPT_ALL, ntddrilapitypes/RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, ntddrilapitypes/RIL_DIALOPT_PRESENTID, ntddrilapitypes/RIL_DIALOPT_RESTRICTID, RIL_DIALOPT_RESTRICTID
+ms.keywords: ntddrilapitypes/RIL_DIALOPT_RTTFULL, RILDIALPARAMSOPTIONS, ntddrilapitypes/RILDIALPARAMSOPTIONS, RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, ntddrilapitypes/RIL_DIALOPT_ALL, RIL_DIALOPT_ALL, ntddrilapitypes/RIL_DIALOPT_RESTRICTID, RIL_DIALOPT_PRESENTID, ntddrilapitypes/RIL_DIALOPT_ANYEXECUTORFOREMERGENCY, ntddrilapitypes/RIL_DIALOPT_PRESENTID, RILDIALPARAMSOPTIONS enumeration [Network Drivers Starting with Windows Vista], netvista.rildialparamsoptions, RIL_DIALOPT_RESTRICTID, RIL_DIALOPT_RTTFULL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

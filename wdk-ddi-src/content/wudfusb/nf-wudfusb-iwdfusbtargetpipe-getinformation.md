@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, GetInformation method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface, GetInformation method, GetInformation method, wudfusb/IWDFUsbTargetPipe::GetInformation, umdf.iwdfusbtargetpipe_getinformation, GetInformation, wdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe, IWDFUsbTargetPipe::GetInformation
+ms.keywords: IWDFUsbTargetPipe::GetInformation, wdf.iwdfusbtargetpipe_getinformation, umdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe interface, GetInformation method, IWDFUsbTargetPipe, GetInformation method, GetInformation, GetInformation method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::GetInformation, UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.GetInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -95,11 +95,11 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560339">IWDFUsbInterface::RetrieveUsbPipeObject</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 

@@ -4,10 +4,10 @@ title: IOCTL_GET_CHANNEL_ALIGN_RQST
 author: windows-driver-content
 description: Returns a USB device's maximum packet size for the read, write, and interrupt transfer pipes associated with the specified device handle.
 old-location: image\ioctl_get_channel_align_rqst.htm
-old-project: Image
+old-project: image
 ms.assetid: 8025a092-470a-4cd5-af63-21f82e094933
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.ioctl_get_channel_align_rqst, IOCTL_GET_CHANNEL_ALIGN_RQST control code [Imaging Devices], IOCTL_GET_CHANNEL_ALIGN_RQST, usbscan/IOCTL_GET_CHANNEL_ALIGN_RQST, stifnc_a81e47eb-3d6f-4bfb-a371-08c42602bc5a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

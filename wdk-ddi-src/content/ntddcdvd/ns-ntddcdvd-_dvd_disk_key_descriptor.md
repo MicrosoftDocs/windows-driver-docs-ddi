@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 48b0e44d-51bb-48b1-bcbc-6a51fde3c8db
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-DVD_b5c88389-0128-4069-b460-d9fa81a2150e.xml, PDVD_DISK_KEY_DESCRIPTOR structure pointer [Storage Devices], ntddcdvd/DVD_DISK_KEY_DESCRIPTOR, *PDVD_DISK_KEY_DESCRIPTOR, storage.dvd_disk_key_descriptor, _DVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR structure [Storage Devices], ntddcdvd/PDVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR, PDVD_DISK_KEY_DESCRIPTOR
+ms.keywords: PDVD_DISK_KEY_DESCRIPTOR structure pointer [Storage Devices], ntddcdvd/PDVD_DISK_KEY_DESCRIPTOR, ntddcdvd/DVD_DISK_KEY_DESCRIPTOR, *PDVD_DISK_KEY_DESCRIPTOR, structs-DVD_b5c88389-0128-4069-b460-d9fa81a2150e.xml, storage.dvd_disk_key_descriptor, DVD_DISK_KEY_DESCRIPTOR structure [Storage Devices], PDVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR, _DVD_DISK_KEY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVD_DISK_KEY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR"
+req.typenames: DVD_DISK_KEY_DESCRIPTOR, *PDVD_DISK_KEY_DESCRIPTOR
 ---
 
 # _DVD_DISK_KEY_DESCRIPTOR structure

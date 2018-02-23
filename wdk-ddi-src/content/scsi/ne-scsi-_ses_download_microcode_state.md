@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5edff312-8373-4d36-b93c-c35fe8c2996a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SesDownloadMcStateInProgress, PSES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingPowerOn, scsi/SES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateInProgress, scsi/PSES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingReset, *PSES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingReset, scsi/SesDownloadMcStateCompletedPendingActivation, SesDownloadMcStateNoneInProgress, SES_DOWNLOAD_MICROCODE_STATE, storage.ses_download_microcode_state, _SES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingActivation, scsi/SesDownloadMcStateNoneInProgress, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices]
+ms.keywords: scsi/SesDownloadMcStateCompletedPendingActivation, SesDownloadMcStateNoneInProgress, storage.ses_download_microcode_state, SesDownloadMcStateCompletedPendingPowerOn, scsi/SesDownloadMcStateNoneInProgress, PSES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateCompletedPendingPowerOn, scsi/PSES_DOWNLOAD_MICROCODE_STATE, scsi/SesDownloadMcStateInProgress, SES_DOWNLOAD_MICROCODE_STATE enumeration [Storage Devices], SES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingReset, PSES_DOWNLOAD_MICROCODE_STATE enumeration pointer [Storage Devices], scsi/SesDownloadMcStateCompletedPendingReset, *PSES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateInProgress, scsi/SES_DOWNLOAD_MICROCODE_STATE, SesDownloadMcStateCompletedPendingActivation, _SES_DOWNLOAD_MICROCODE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SES_DOWNLOAD_MICROCODE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PSES_DOWNLOAD_MICROCODE_STATE, SES_DOWNLOAD_MICROCODE_STATE"
+req.typenames: SES_DOWNLOAD_MICROCODE_STATE, *PSES_DOWNLOAD_MICROCODE_STATE
 req.product: Windows 10 or later.
 ---
 

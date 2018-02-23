@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 47C442F5-7D16-4E73-8D05-82D63D5265C1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxusbdevice/_USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, _USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses], P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], *PUSBDEVICE_TREE_PURGEIO
+ms.keywords: ucxusbdevice/P_USBDEVICE_TREE_PURGEIO, _USBDEVICE_TREE_PURGEIO, P_USBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO, buses._usbdevice_tree_purgeio, P_USBDEVICE_TREE_PURGEIO structure pointer [Buses], *PUSBDEVICE_TREE_PURGEIO, USBDEVICE_TREE_PURGEIO structure [Buses], ucxusbdevice/_USBDEVICE_TREE_PURGEIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

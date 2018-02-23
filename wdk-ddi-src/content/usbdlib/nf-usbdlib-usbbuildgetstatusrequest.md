@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 7a5fcb4f-fc9a-4ebb-93ef-b83461557b22
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml, usbdlib/UsbBuildGetStatusRequest, buses.usbbuildgetstatusrequest
+ms.keywords: UsbBuildGetStatusRequest, UsbBuildGetStatusRequest routine [Buses], usbfunc_a99bf737-8bb6-4000-af2b-ac076a4ffc8e.xml, buses.usbbuildgetstatusrequest, usbdlib/UsbBuildGetStatusRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -132,15 +132,15 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 
 
 <a href="..\usb\ns-usb-_urb_control_get_status_request.md">_URB_CONTROL_GET_STATUS_REQUEST</a>
+
+
+
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

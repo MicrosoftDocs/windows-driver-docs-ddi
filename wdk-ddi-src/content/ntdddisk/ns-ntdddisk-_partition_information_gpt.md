@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2d76b4c-7acd-4701-b978-3d29dc8cde0b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntdddisk/PPARTITION_INFORMATION_GPT, storage.partition_information_gpt, *PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Storage Devices], _PARTITION_INFORMATION_GPT, ntdddisk/PARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT, SET_PARTITION_INFORMATION_GPT, structs-disk_dad0a2a5-4351-4940-af39-28f7a4005c14.xml, PARTITION_INFORMATION_GPT structure [Storage Devices], PARTITION_INFORMATION_GPT
+ms.keywords: "_PARTITION_INFORMATION_GPT, storage.partition_information_gpt, *PPARTITION_INFORMATION_GPT, SET_PARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Storage Devices], PPARTITION_INFORMATION_GPT, ntdddisk/PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT, ntdddisk/PPARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Storage Devices], structs-disk_dad0a2a5-4351-4940-af39-28f7a4005c14.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

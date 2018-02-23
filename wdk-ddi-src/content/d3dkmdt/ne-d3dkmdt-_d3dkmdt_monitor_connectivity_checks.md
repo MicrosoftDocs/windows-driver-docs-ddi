@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_monitor_connectivity_checks.htm
 old-project: display
 ms.assetid: 8a32fef1-e404-478d-8b99-064ed456e37c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices], D3DKMDT_MCC_ENFORCE, D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, d3dkmdt/D3DKMDT_MCC_ENFORCE, display.d3dkmdt_monitor_connectivity_checks, DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS"
+ms.date: 2/22/2018
+ms.keywords: d3dkmdt/D3DKMDT_MCC_ENFORCE, display.d3dkmdt_monitor_connectivity_checks, d3dkmdt/D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MCC_ENFORCE, d3dkmdt/D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, _D3DKMDT_MONITOR_CONNECTIVITY_CHECKS, DmEnums_ac54453d-cc4d-4ea7-ad10-943389a837d7.xml, D3DKMDT_MCC_UNINITIALIZED, D3DKMDT_MCC_IGNORE, d3dkmdt/D3DKMDT_MCC_IGNORE, D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -103,5 +103,5 @@ The <b>MonitorConnectivityChecks</b> member of the <a href="..\d3dkmddi\ns-d3dkm
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_MONITOR_CONNECTIVITY_CHECKS enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

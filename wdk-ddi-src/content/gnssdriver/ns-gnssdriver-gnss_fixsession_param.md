@@ -7,8 +7,8 @@ old-location: sensors\gnss_fixsession_param.htm
 old-project: sensors
 ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsession_param, GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, gnssdriver/GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], sensors.gnss_fixsesson_param"
+ms.date: 2/22/2018
+ms.keywords: sensors.gnss_fixsesson_param, *PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], gnssdriver/GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsession_param, GNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

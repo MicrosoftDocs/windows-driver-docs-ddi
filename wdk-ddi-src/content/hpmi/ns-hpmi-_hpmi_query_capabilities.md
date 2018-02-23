@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 9DEEB369-8B9E-40AA-9531-6B8138E5668F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hpmi/PHPMI_QUERY_CAPABILITIES, _HPMI_QUERY_CAPABILITIES, powermeter.hpmi_query_capabilities, HPMI_QUERY_CAPABILITIES structure [Power Metering and Budgeting Devices], *PHPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES, hpmi/HPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES structure pointer [Power Metering and Budgeting Devices]
+ms.keywords: hpmi/HPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES, PHPMI_QUERY_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], PHPMI_QUERY_CAPABILITIES, hpmi/PHPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES, _HPMI_QUERY_CAPABILITIES, powermeter.hpmi_query_capabilities, HPMI_QUERY_CAPABILITIES structure [Power Metering and Budgeting Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HPMI_QUERY_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_QUERY_CAPABILITIES, HPMI_QUERY_CAPABILITIES"
+req.typenames: HPMI_QUERY_CAPABILITIES, *PHPMI_QUERY_CAPABILITIES
 ---
 
 # _HPMI_QUERY_CAPABILITIES structure

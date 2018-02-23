@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 68D944D9-1A52-4FB0-B2D7-9680AB1EDABB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortIsCurrentOsInstallationUpgrade, storage.storportiscurrentosinstallationupgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], StorPortIsCurrentOsInstallationUpgrade
+ms.keywords: storage.storportiscurrentosinstallationupgrade, StorPortIsCurrentOsInstallationUpgrade routine [Storage Devices], storport/StorPortIsCurrentOsInstallationUpgrade, StorPortIsCurrentOsInstallationUpgrade
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

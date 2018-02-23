@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41560DC4-EE5E-4756-8540-ACC19835A9DA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice, kernel.pofxpoweroncrashdumpdevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pofxpoweroncrashdumpdevice, wdm/PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice, PoFxPowerOnCrashdumpDevice routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

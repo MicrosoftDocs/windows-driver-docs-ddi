@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7f7eac7e-f512-4446-a83b-92d313c14420
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml, ndis/NdisInitializeEvent, netvista.ndisinitializeevent, NdisInitializeEvent function [Network Drivers Starting with Windows Vista], NdisInitializeEvent
+ms.keywords: NdisInitializeEvent function [Network Drivers Starting with Windows Vista], ndis/NdisInitializeEvent, netvista.ndisinitializeevent, NdisInitializeEvent, ndis_event_ref_35523d4a-3084-43ea-9dc0-6e9017b9ed22.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisInitializeEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisInitializeEvent function
@@ -110,11 +110,11 @@ While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
 
 
 
@@ -122,7 +122,7 @@ While driver functions that must run at IRQL &lt;= DISPATCH_LEVEL can call the
 
 
 
-<a href="..\ndis\nf-ndis-ndissetevent.md">NdisSetEvent</a>
+<a href="..\ndis\nf-ndis-ndiswaitevent.md">NdisWaitEvent</a>
 
 
 

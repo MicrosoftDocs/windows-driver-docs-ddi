@@ -4,11 +4,11 @@ title: IDebugControl::SetTextMacro method
 author: windows-driver-content
 description: The SetTextMacro method sets the value of a fixed-name alias.
 old-location: debugger\settextmacro.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 8319ab12-bb23-4de4-b3dc-afd3cd13d03e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugControl::SetTextMacro, IDebugControl2::SetTextMacro, IDebugControl, SetTextMacro method [Windows Debugging], SetTextMacro, dbgeng/IDebugControl2::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, IDebugControl2 interface [Windows Debugging], SetTextMacro method, IDebugControl::SetTextMacro, SetTextMacro method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], SetTextMacro method, IDebugControl3::SetTextMacro, IDebugControl3 interface [Windows Debugging], SetTextMacro method, SetTextMacro method [Windows Debugging], IDebugControl interface, SetTextMacro method [Windows Debugging], IDebugControl2 interface, debugger.settextmacro, dbgeng/IDebugControl3::SetTextMacro
+ms.date: 2/22/2018
+ms.keywords: SetTextMacro method [Windows Debugging], IDebugControl3 interface, IDebugControl3::SetTextMacro, dbgeng/IDebugControl3::SetTextMacro, dbgeng/IDebugControl2::SetTextMacro, IDebugControl2 interface [Windows Debugging], SetTextMacro method, IDebugControl::SetTextMacro, IDebugControl_5eac09ea-004d-4231-b865-d191790880fc.xml, IDebugControl2::SetTextMacro, SetTextMacro method [Windows Debugging], SetTextMacro method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], SetTextMacro method, IDebugControl, SetTextMacro, debugger.settextmacro, SetTextMacro method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], SetTextMacro method, dbgeng/IDebugControl::SetTextMacro
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,14 +121,6 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549270">GetTextMacro</a>
 
 
@@ -137,7 +129,15 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -145,7 +145,7 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554548">RemoveTextReplacements</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556818">SetTextReplacement</a>
 
 
 
@@ -153,5 +153,5 @@ For an overview of aliases used by the debugger engine, see <a href="https://msd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::SetTextMacro method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetTextMacro method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

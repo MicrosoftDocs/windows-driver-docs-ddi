@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 8ad93312-932c-417c-8198-9ba515e3d55d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.pshedregisterplugin, PshedRegisterPlugin, ntddk/PshedRegisterPlugin, whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml, PshedRegisterPlugin function [WHEA Drivers and Applications]
+ms.keywords: whearef_27f04399-dd53-44b3-a31e-350aee53bcb1.xml, ntddk/PshedRegisterPlugin, PshedRegisterPlugin function [WHEA Drivers and Applications], whea.pshedregisterplugin, PshedRegisterPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PshedRegisterPlugin
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PshedRegisterPlugin function
@@ -115,22 +115,22 @@ The data in the supplied registration packet is invalid.
 
 
 
-A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
+A PSHED plug-in calls the <b>PshedRegisterPlugin</b> function to register itself with the PSHED. A PSHED plug-in typically calls this function from within either its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> function or its <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> function.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
 
 
 
 <a href="..\ntddk\ns-ntddk-_whea_pshed_plugin_registration_packet.md">WHEA_PSHED_PLUGIN_REGISTRATION_PACKET</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 

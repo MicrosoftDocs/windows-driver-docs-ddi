@@ -7,7 +7,7 @@ old-location: audio\iminiporttopology.htm
 old-project: audio
 ms.assetid: f66129df-07c4-4472-aa14-6c4d9578a92d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.iminiporttopology, IMiniportTopology interface [Audio Devices], IMiniportTopology interface [Audio Devices], described, IMiniportTopology, portcls/IMiniportTopology, audmp-routines_c2137cf2-ab04-4b0b-aeda-d50fe3225324.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

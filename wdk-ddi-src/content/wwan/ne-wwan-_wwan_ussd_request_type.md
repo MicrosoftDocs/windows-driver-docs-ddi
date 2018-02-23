@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 773490EE-ECFC-4089-869D-19683A76E4FA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_USSD_REQUEST_TYPE, wwan/WWAN_USSD_REQUEST_TYPE, _WWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, WwanUssdRequestCancel, WwanUssdRequestInitiate, netvista.wwan_ussd_request_type, *PWWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestInitiate, wwan/WwanUssdRequestContinue, WwanUssdRequestContinue, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: wwan/WwanUssdRequestInitiate, WWAN_USSD_REQUEST_TYPE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_USSD_REQUEST_TYPE, wwan/WwanUssdRequestCancel, netvista.wwan_ussd_request_type, WwanUssdRequestInitiate, WWAN_USSD_REQUEST_TYPE, wwan/WWAN_USSD_REQUEST_TYPE, WwanUssdRequestContinue, WwanUssdRequestCancel, wwan/WwanUssdRequestContinue, _WWAN_USSD_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_USSD_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_USSD_REQUEST_TYPE, WWAN_USSD_REQUEST_TYPE"
+req.typenames: WWAN_USSD_REQUEST_TYPE, *PWWAN_USSD_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createvideodecoder_0032.htm
 old-project: display
 ms.assetid: F3E8FB7A-A25B-47CE-8B14-9AE8737930D4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3d12ddi_createvideodecoder_0032, PFND3D12DDI_CREATEVIDEODECODER_0032 callback function [Display Devices], PFND3D12DDI_CREATEVIDEODECODER_0032, d3d12umddi/PFND3D12DDI_CREATEVIDEODECODER_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

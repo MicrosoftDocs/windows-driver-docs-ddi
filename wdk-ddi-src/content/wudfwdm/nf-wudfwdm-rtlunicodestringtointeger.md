@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d9357864-d49b-44fe-b884-64c6da609789
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], kernel.rtlunicodestringtointeger, RtlUnicodeStringToInteger, wdm/RtlUnicodeStringToInteger
+ms.keywords: wdm/RtlUnicodeStringToInteger, kernel.rtlunicodestringtointeger, RtlUnicodeStringToInteger routine [Kernel-Mode Driver Architecture], k109_862feacf-64af-4aae-87b5-264ef277ea22.xml, RtlUnicodeStringToInteger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringToInteger
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 

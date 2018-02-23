@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: e8061408-2efe-4620-bc57-4cf0c3e41874
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Close method, Close method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface, IWDTFSimpleIOEx2, Microsoft.WDTF.IWDTFSimpleIOEx2.Close, IWDTFSimpleIOEx2::Close, Close, Close method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFSimpleIOEx2::Close, wdtfinterfaces/IWDTFSimpleIOEx2::Close, dtf.iwdtfsimpleioex2_close
+ms.keywords: Microsoft.WDTF.IWDTFSimpleIOEx2.Close, Microsoft::WDTF::IWDTFSimpleIOEx2::Close, Close method [Windows Device Testing Framework], dtf.iwdtfsimpleioex2_close, Close, IWDTFSimpleIOEx2::Close, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], Close method, IWDTFSimpleIOEx2, wdtfinterfaces/IWDTFSimpleIOEx2::Close, Close method [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5366a28-a541-47bb-b158-af676ad46273
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/MmGetSystemAddressForMdl, MmGetSystemAddressForMdl, MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, kernel.mmgetsystemaddressformdl
+ms.keywords: MmGetSystemAddressForMdl routine [Kernel-Mode Driver Architecture], kernel.mmgetsystemaddressformdl, k106_fc92914d-81c3-4ae9-a12d-86003d55bb4d.xml, wdm/MmGetSystemAddressForMdl, MmGetSystemAddressForMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -101,11 +101,11 @@ Windows 2000 issues a bug check if the attempt to map to system space fails. (Th
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

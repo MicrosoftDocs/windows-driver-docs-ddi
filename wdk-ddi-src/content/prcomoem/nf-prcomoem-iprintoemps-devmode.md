@@ -7,8 +7,8 @@ old-location: print\iprintoemps_devmode.htm
 old-project: print
 ms.assetid: 72775113-435c-44cf-83e7-9aa62f7f252e
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemPS interface [Print Devices], DevMode method, prcomoem/IPrintOemPS::DevMode, IPrintOemPS, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml, DevMode method [Print Devices], DevMode method [Print Devices], IPrintOemPS interface, print.iprintoemps_devmode, DevMode, IPrintOemPS::DevMode
+ms.date: 2/22/2018
+ms.keywords: DevMode method [Print Devices], IPrintOemPS interface, print_unidrv-pscript_rendering_d14a1c50-fd58-4c64-989d-3a7807cfd929.xml, print.iprintoemps_devmode, IPrintOemPS interface [Print Devices], DevMode method, prcomoem/IPrintOemPS::DevMode, IPrintOemPS, IPrintOemPS::DevMode, DevMode method [Print Devices], DevMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS.DevMode
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

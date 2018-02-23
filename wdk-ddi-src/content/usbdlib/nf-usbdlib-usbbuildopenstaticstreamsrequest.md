@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B514B88E-2D1F-43F1-BF70-BC49294CFE93
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UsbBuildOpenStaticStreamsRequest, buses.usbbuildopenbasicstreamsrequest, UsbBuildOpenStaticStreamsRequest function [Buses], usbdlib/UsbBuildOpenStaticStreamsRequest
+ms.keywords: usbdlib/UsbBuildOpenStaticStreamsRequest, buses.usbbuildopenbasicstreamsrequest, UsbBuildOpenStaticStreamsRequest, UsbBuildOpenStaticStreamsRequest function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

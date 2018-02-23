@@ -7,7 +7,7 @@ old-location: audio\iportwavepci.htm
 old-project: audio
 ms.assetid: a3489a6a-e993-4f89-9242-714323ec64ec
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.iportwavepci, IPortWavePci interface [Audio Devices], IPortWavePci interface [Audio Devices], described, IPortWavePci, portcls/IPortWavePci, audmp-routines_4948783a-44c9-42c3-ba67-c3c66a0a2951.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,6 +54,13 @@ The <code>IPortWavePci</code> interface is the WavePci port driver's primary int
 An adapter driver forms a miniport/port driver pair by binding an <b>IMiniportWavePci</b> object to an <code>IPortWavePci</code> object. The PortCls system driver registers this pair with the system as a <a href="https://msdn.microsoft.com/9e364c8f-55c3-4ec9-a9ce-9ee0f6a0746b">wave filter</a>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortWavePci</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortWavePci</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPortWavePci</b> interface has these methods.
@@ -80,9 +87,5 @@ The <code>Notify</code> method notifies the port driver that an interrupt indica
 
 </td>
 </tr>
-</table>The <code>NewMasterDmaChannel</code> method creates a new instance of a bus-master DMA channel.
-
-The <code>Notify</code> method notifies the port driver that an interrupt indicating the progress of the DMA pointer has occurred.
-
- 
+</table> 
 

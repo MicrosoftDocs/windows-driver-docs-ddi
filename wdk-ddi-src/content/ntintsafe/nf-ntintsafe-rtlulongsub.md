@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54776F17-C7EE-46DB-BA3F-2F545240FC61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlULongSub, kernel.rtlulongsub, RtlULongSub function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongSub
+ms.keywords: ntintsafe/RtlULongSub, RtlULongSub, RtlULongSub function [Kernel-Mode Driver Architecture], kernel.rtlulongsub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

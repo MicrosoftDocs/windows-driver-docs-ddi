@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9f610927-d8d0-44c5-8a66-0204953c1859
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDEVICE_DATA_SET_RANGE, ntddstor/DEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], *PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE, ntddstor/PDEVICE_DATA_SET_RANGE, _DEVICE_DATA_SET_RANGE, storage.device_data_set_range, DEVICE_DATA_SET_RANGE structure [Storage Devices], structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml
+ms.keywords: structs-general_28460ffa-da09-47af-9f30-6e991c422620.xml, PDEVICE_DATA_SET_RANGE, ntddstor/PDEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE, _DEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE structure [Storage Devices], storage.device_data_set_range, ntddstor/DEVICE_DATA_SET_RANGE, PDEVICE_DATA_SET_RANGE structure pointer [Storage Devices], DEVICE_DATA_SET_RANGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_DATA_SET_RANGE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_DATA_SET_RANGE, DEVICE_DATA_SET_RANGE"
+req.typenames: DEVICE_DATA_SET_RANGE, *PDEVICE_DATA_SET_RANGE
 ---
 
 # _DEVICE_DATA_SET_RANGE structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 083ACFD8-A8AE-4205-9E25-497D6A3ADBCD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], kernel.pep_system_latency, PEP_SYSTEM_LATENCY, _PEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY
+ms.keywords: pepfx/PEP_SYSTEM_LATENCY, *PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY structure pointer [Kernel-Mode Driver Architecture], kernel.pep_system_latency, PEP_SYSTEM_LATENCY, PEP_SYSTEM_LATENCY structure [Kernel-Mode Driver Architecture], _PEP_SYSTEM_LATENCY, pepfx/PPEP_SYSTEM_LATENCY, PPEP_SYSTEM_LATENCY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 36F009C8-046B-437A-83D6-AE8D5BF51AF3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._usbdevice_update_flags, ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS structure [Buses], P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], ucxusbdevice/_USBDEVICE_UPDATE_FLAGS, _USBDEVICE_UPDATE_FLAGS, P_USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS
+ms.keywords: USBDEVICE_UPDATE_FLAGS structure [Buses], buses._usbdevice_update_flags, P_USBDEVICE_UPDATE_FLAGS structure pointer [Buses], P_USBDEVICE_UPDATE_FLAGS, ucxusbdevice/P_USBDEVICE_UPDATE_FLAGS, _USBDEVICE_UPDATE_FLAGS, ucxusbdevice/_USBDEVICE_UPDATE_FLAGS, USBDEVICE_UPDATE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,7 +117,7 @@ Do not use.
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
 
 
 
@@ -125,7 +125,7 @@ Do not use.
 
 
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_failure_flags.md">USBDEVICE_UPDATE_FAILURE_FLAGS</a>
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_update_20_hardware_lpm_parameters.md">USBDEVICE_UPDATE_20_HARDWARE_LPM_PARAMETERS</a>
 
 
 

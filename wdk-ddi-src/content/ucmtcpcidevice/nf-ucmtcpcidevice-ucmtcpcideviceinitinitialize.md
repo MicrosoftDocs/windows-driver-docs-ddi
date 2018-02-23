@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: a9afbac3-9494-466c-b36b-26a5839913f1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmTcpciDeviceInitInitialize method [Buses], buses.ucmtcpcideviceinitinitialize, ucmtcpcidevice/UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize
+ms.keywords: buses.ucmtcpcideviceinitinitialize, UcmTcpciDeviceInitInitialize, UcmTcpciDeviceInitInitialize method [Buses], ucmtcpcidevice/UcmTcpciDeviceInitInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UcmTcpciDeviceInitInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PUCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG"
+req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
 req.product: Windows 10 or later.
 ---
 

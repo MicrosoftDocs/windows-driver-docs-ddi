@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2F69FC2F-C336-4B51-8EFC-0A9AA22121B9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/IoClearActivityIdThread, IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.ioclearactivityidthread, IoClearActivityIdThread
+ms.keywords: IoClearActivityIdThread routine [Kernel-Mode Driver Architecture], ntddk/IoClearActivityIdThread, IoClearActivityIdThread, kernel.ioclearactivityidthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoClearActivityIdThread
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoClearActivityIdThread function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d0b968bc-bbab-4b6f-bb1f-9e36ac7c1e05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ktm_ref_1bcef47a-0767-4bfe-944c-f88a5ecff0e6.xml, ZwCommitComplete routine [Kernel-Mode Driver Architecture], ZwCommitComplete, wdm/ZwCommitComplete, NtCommitComplete, wdm/NtCommitComplete, kernel.zwcommitcomplete
+ms.keywords: kernel.zwcommitcomplete, ktm_ref_1bcef47a-0767-4bfe-944c-f88a5ecff0e6.xml, wdm/NtCommitComplete, NtCommitComplete, ZwCommitComplete routine [Kernel-Mode Driver Architecture], ZwCommitComplete, wdm/ZwCommitComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,11 +158,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-tmcommitcomplete.md">TmCommitComplete</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 

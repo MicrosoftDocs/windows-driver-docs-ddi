@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2769eb2c-33e2-4e3f-a1bf-1ebc9213b224
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlRunOnceExecuteOnce function [Kernel-Mode Driver Architecture], ntddk/RtlRunOnceExecuteOnce, kernel.rtlrunonceexecuteonce, RtlRunOnceExecuteOnce, k109_c1729bff-038f-4714-b422-1b97dd5a9c19.xml
+ms.keywords: kernel.rtlrunonceexecuteonce, ntddk/RtlRunOnceExecuteOnce, RtlRunOnceExecuteOnce, k109_c1729bff-038f-4714-b422-1b97dd5a9c19.xml, RtlRunOnceExecuteOnce function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlRunOnceExecuteOnce
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlRunOnceExecuteOnce function
@@ -112,7 +112,7 @@ For the first call to <b>RtlRunOnceExecuteOnce</b> for a particular <a href="htt
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
+<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
 
 
 
@@ -120,15 +120,15 @@ For the first call to <b>RtlRunOnceExecuteOnce</b> for a particular <a href="htt
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrunoncebegininitialize.md">RtlRunOnceBeginInitialize</a>
+<a href="..\ntddk\nf-ntddk-rtlrunoncecomplete.md">RtlRunOnceComplete</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
 
 
 

@@ -4,11 +4,11 @@ title: IDebugClient3::DisconnectProcessServer method
 author: windows-driver-content
 description: The DisconnectProcessServer method disconnects the debugger engine from a process server.
 old-location: debugger\disconnectprocessserver.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 47776bb3-883f-4e45-9398-31de6596c57f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient3 interface [Windows Debugging], DisconnectProcessServer method, DisconnectProcessServer method [Windows Debugging], IDebugClient3 interface, DisconnectProcessServer method [Windows Debugging], IDebugClient4 interface, DisconnectProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient4::DisconnectProcessServer, IDebugClient_7cfc70fe-c298-40bf-aa28-0c084262d41d.xml, DisconnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient::DisconnectProcessServer, dbgeng/IDebugClient3::DisconnectProcessServer, IDebugClient5 interface [Windows Debugging], DisconnectProcessServer method, dbgeng/IDebugClient::DisconnectProcessServer, debugger.disconnectprocessserver, DisconnectProcessServer, IDebugClient, dbgeng/IDebugClient5::DisconnectProcessServer, IDebugClient2 interface [Windows Debugging], DisconnectProcessServer method, IDebugClient3::DisconnectProcessServer, IDebugClient2::DisconnectProcessServer, IDebugClient4 interface [Windows Debugging], DisconnectProcessServer method, DisconnectProcessServer method [Windows Debugging], dbgeng/IDebugClient2::DisconnectProcessServer, IDebugClient2, dbgeng/IDebugClient4::DisconnectProcessServer, IDebugClient interface [Windows Debugging], DisconnectProcessServer method, IDebugClient3, DisconnectProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient5::DisconnectProcessServer
+ms.date: 2/22/2018
+ms.keywords: DisconnectProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient4::DisconnectProcessServer, DisconnectProcessServer method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], DisconnectProcessServer method, DisconnectProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient5 interface [Windows Debugging], DisconnectProcessServer method, IDebugClient4 interface [Windows Debugging], DisconnectProcessServer method, dbgeng/IDebugClient4::DisconnectProcessServer, IDebugClient3, IDebugClient3::DisconnectProcessServer, dbgeng/IDebugClient::DisconnectProcessServer, IDebugClient5::DisconnectProcessServer, IDebugClient interface [Windows Debugging], DisconnectProcessServer method, IDebugClient_7cfc70fe-c298-40bf-aa28-0c084262d41d.xml, IDebugClient::DisconnectProcessServer, IDebugClient2, DisconnectProcessServer method [Windows Debugging], debugger.disconnectprocessserver, dbgeng/IDebugClient2::DisconnectProcessServer, dbgeng/IDebugClient3::DisconnectProcessServer, IDebugClient, dbgeng/IDebugClient5::DisconnectProcessServer, DisconnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient2::DisconnectProcessServer, DisconnectProcessServer, DisconnectProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient3 interface [Windows Debugging], DisconnectProcessServer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,15 +115,7 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -131,11 +123,15 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -147,7 +143,7 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -155,5 +151,5 @@ For more information about process servers and remote debugging, see <a href="ht
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::DisconnectProcessServer method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::DisconnectProcessServer method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

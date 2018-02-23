@@ -7,8 +7,8 @@ old-location: print\drvsplstartdoc.htm
 old-project: print
 ms.assetid: 3bd25a77-bce6-4cd3-808c-6df3b3033dd2
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: winddiui/DrvSplStartDoc, DrvSplStartDoc function [Print Devices], print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, DrvSplStartDoc, print.drvsplstartdoc
+ms.date: 2/22/2018
+ms.keywords: DrvSplStartDoc function [Print Devices], print_interface-graphics_c37a0824-d460-4d62-b029-55ec4bc842d2.xml, winddiui/DrvSplStartDoc, DrvSplStartDoc, print.drvsplstartdoc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DrvSplStartDoc
 product: Windows
 targetos: Windows
-req.typenames: "*PWINBIO_VERSION, WINBIO_VERSION"
+req.typenames: WINBIO_VERSION, *PWINBIO_VERSION
 req.product: Windows 10 or later.
 ---
 

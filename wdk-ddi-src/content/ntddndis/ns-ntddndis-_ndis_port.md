@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: aef1b7b2-73d3-49ad-a3f2-c06fa1f34839
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_ports_ref_df9a02e1-4a6b-4901-8794-37a5e30ececb.xml, NDIS_PORT, PNDIS_PORT, ntddndis/NDIS_PORT, *PNDIS_PORT, NDIS_PORT structure [Network Drivers Starting with Windows Vista], _NDIS_PORT, ntddndis/PNDIS_PORT, netvista.ndis_port, PNDIS_PORT structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: ntddndis/NDIS_PORT, ntddndis/PNDIS_PORT, netvista.ndis_port, PNDIS_PORT, ndis_ports_ref_df9a02e1-4a6b-4901-8794-37a5e30ececb.xml, *PNDIS_PORT, _NDIS_PORT, NDIS_PORT, PNDIS_PORT structure pointer [Network Drivers Starting with Windows Vista], NDIS_PORT structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

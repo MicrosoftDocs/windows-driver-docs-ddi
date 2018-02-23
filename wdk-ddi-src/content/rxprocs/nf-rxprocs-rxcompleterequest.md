@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f5e9219b-0697-427e-b92e-7cd647a0e0b6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCompleteRequest, RxCompleteRequest function [Installable File System Drivers], rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml, ifsk.rxcompleterequest, rxprocs/RxCompleteRequest
+ms.keywords: rxref_12eec336-4619-430c-a36c-ddbe855b8865.xml, RxCompleteRequest, rxprocs/RxCompleteRequest, RxCompleteRequest function [Installable File System Drivers], ifsk.rxcompleterequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,14 +106,6 @@ The <b>RxCompleteRequest</b> routine is not normally called by network mini-redi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
-
-
-
-<a href="..\rxcontx\nf-rxcontx-__rxsynchronizeblockingoperations.md">__RxSynchronizeBlockingOperations</a>
-
-
-
 <a href="..\rxcontx\nf-rxcontx-rxdereferenceanddeleterxcontext_real.md">RxDereferenceAndDeleteRxContext_Real</a>
 
 
@@ -122,11 +114,19 @@ The <b>RxCompleteRequest</b> routine is not normally called by network mini-redi
 
 
 
-<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
-
-
-
 <a href="..\rxprocs\nf-rxprocs-rxdereference.md">RxDereference</a>
+
+
+
+<a href="..\rxcontx\nf-rxcontx-rxresumeblockedoperations_serially.md">RxResumeBlockedOperations_Serially</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557382">__RxSynchronizeBlockingOperationsMaybeDroppingFcbLock</a>
 
 
 
@@ -138,7 +138,7 @@ The <b>RxCompleteRequest</b> routine is not normally called by network mini-redi
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxcompleterequest_real.md">RxCompleteRequest_Real</a>
+<a href="..\rxcontx\nf-rxcontx-rxinitializecontext.md">RxInitializeContext</a>
 
 
 

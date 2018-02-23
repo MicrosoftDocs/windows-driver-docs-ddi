@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F986A431-A70D-4488-A792-F37128902C7E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoValidateDeviceIoControlAccess, wdmsec/WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, FILE_WRITE_ACCESS, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], FILE_READ_ACCESS, wdmsec/IoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess
+ms.keywords: wdmsec/WdmlibIoValidateDeviceIoControlAccess, WdmlibIoValidateDeviceIoControlAccess, FILE_READ_ACCESS, FILE_WRITE_ACCESS, wdmsec/IoValidateDeviceIoControlAccess, kernel.wdmlibiovalidatedeviceiocontrolaccess, WdmlibIoValidateDeviceIoControlAccess function [Kernel-Mode Driver Architecture], IoValidateDeviceIoControlAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	IoValidateDeviceIoControlAccess
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 req.product: Windows 10 or later.
 ---
 

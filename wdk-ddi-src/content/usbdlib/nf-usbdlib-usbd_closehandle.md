@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6876E96D-E249-4B7C-A496-27E3F4A7F7E2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_CloseHandle routine [Buses], buses.usbd_unregister, USBD_CloseHandle, usbdlib/USBD_CloseHandle
+ms.keywords: usbdlib/USBD_CloseHandle, USBD_CloseHandle, buses.usbd_unregister, USBD_CloseHandle routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

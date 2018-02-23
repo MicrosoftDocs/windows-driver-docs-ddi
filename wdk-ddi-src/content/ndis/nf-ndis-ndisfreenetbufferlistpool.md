@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 811df5ea-f5e6-4986-adc0-c5fa95e5f072
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_netbuf_functions_ref_c2efb4b4-41de-4493-92a2-42e3fa78628b.xml, NdisFreeNetBufferListPool, netvista.ndisfreenetbufferlistpool, ndis/NdisFreeNetBufferListPool, NdisFreeNetBufferListPool function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisFreeNetBufferListPool, NdisFreeNetBufferListPool, netvista.ndisfreenetbufferlistpool, NdisFreeNetBufferListPool function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_c2efb4b4-41de-4493-92a2-42e3fa78628b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NdisFreeNetBufferListPool
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeNetBufferListPool function
@@ -99,7 +99,8 @@ Before freeing a
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
+   NdisAllocateNetBufferListPool</a>
 
 
 
@@ -107,8 +108,7 @@ Before freeing a
 
 
 
-<a href="..\ndis\nf-ndis-ndisallocatenetbufferlistpool.md">
-   NdisAllocateNetBufferListPool</a>
+<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
 
 
 

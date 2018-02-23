@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 14cde545-e9bb-4b96-ba10-a63595e8a107
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmNonCachedUnordered, MmNonCached, wdm/MmNonCached, wdm/MmWriteCombined, MmMaximumCacheType, wdm/MEMORY_CACHING_TYPE, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, _MEMORY_CACHING_TYPE, MmWriteCombined, wdm/MmNonCachedUnordered, wdm/MmUSWCCached, MmCached, wdm/MmMaximumCacheType, kernel.memory_caching_type, MEMORY_CACHING_TYPE, wdm/MmHardwareCoherentCached, MmUSWCCached, wdm/MmCached, MmHardwareCoherentCached
+ms.keywords: "_MEMORY_CACHING_TYPE, wdm/MmMaximumCacheType, MmUSWCCached, MEMORY_CACHING_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/MmNonCachedUnordered, wdm/MmCached, MmNonCachedUnordered, MEMORY_CACHING_TYPE, MmHardwareCoherentCached, MmWriteCombined, wdm/MmUSWCCached, MmMaximumCacheType, MmCached, wdm/MmNonCached, MmNonCached, sysenum_8e18fde8-a812-4d6a-a203-1c87d4d825cf.xml, wdm/MmHardwareCoherentCached, wdm/MEMORY_CACHING_TYPE, wdm/MmWriteCombined, kernel.memory_caching_type"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -124,23 +124,23 @@ Processor translation buffers cache virtual to physical address translations. Th
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-mmfreecontiguousmemoryspecifycache.md">MmFreeContiguousMemorySpecifyCache</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmmapiospace.md">MmMapIoSpace</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatecontiguousmemoryspecifycache.md">MmAllocateContiguousMemorySpecifyCache</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
 
 
 

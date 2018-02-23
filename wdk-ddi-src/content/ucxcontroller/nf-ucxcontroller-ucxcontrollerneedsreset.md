@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: FAE099E4-6BE9-4637-934F-9F86FFDCAA6A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], ucxcontroller/UcxControllerNeedsReset, buses._ucxcontrollerneedsreset
+ms.keywords: UcxControllerNeedsReset, UcxControllerNeedsReset method [Buses], buses._ucxcontrollerneedsreset, ucxcontroller/UcxControllerNeedsReset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

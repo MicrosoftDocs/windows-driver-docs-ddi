@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 888f88db-2149-4da2-acdb-4bf88a5362dd
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI.pci_express_device_control_register, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER, _PCI_EXPRESS_DEVICE_CONTROL_REGISTER
+ms.keywords: "_PCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER union [Buses], PCI.pci_express_device_control_register, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER, pci_struct_344c5f1d-566f-4755-ba52-57635c4fabfe.xml, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PPCI_EXPRESS_DEVICE_CONTROL_REGISTER union pointer [Buses], ntddk/PCI_EXPRESS_DEVICE_CONTROL_REGISTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_DEVICE_CONTROL_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_DEVICE_CONTROL_REGISTER, PCI_EXPRESS_DEVICE_CONTROL_REGISTER"
+req.typenames: PCI_EXPRESS_DEVICE_CONTROL_REGISTER, *PPCI_EXPRESS_DEVICE_CONTROL_REGISTER
 ---
 
 # _PCI_EXPRESS_DEVICE_CONTROL_REGISTER structure
@@ -166,24 +166,29 @@ The maximum payload size for the device. Possible values are:
 This value must not exceed the maximum payload size that is specified in the PCIe device capabilities register of the PCIe capability structure.
 
 
-##### - MaxPayloadSize.MaxPayload1024Bytes
-
-1024 byte maximum payload size
-
-
 ##### - MaxPayloadSize.MaxPayload128Bytes
 
 128 byte maximum payload size
 
 
-##### - MaxPayloadSize.MaxPayload2048Bytes
-
-2048 byte maximum payload size
-
-
 ##### - MaxPayloadSize.MaxPayload256Bytes
 
 256 byte maximum payload size
+
+
+##### - MaxPayloadSize.MaxPayload512Bytes
+
+512 byte maximum payload size
+
+
+##### - MaxPayloadSize.MaxPayload1024Bytes
+
+1024 byte maximum payload size
+
+
+##### - MaxPayloadSize.MaxPayload2048Bytes
+
+2048 byte maximum payload size
 
 
 ##### - MaxPayloadSize.MaxPayload4096Bytes
@@ -256,7 +261,17 @@ The maximum read request size for the device as a requester. Possible values are
 
 ##### - MaxReadRequestSize.MaxPayload128Bytes
 
-512 byte maximum payload size
+128 byte maximum read request size
+
+
+##### - MaxReadRequestSize.MaxPayload256Bytes
+
+256 byte maximum read request size
+
+
+##### - MaxReadRequestSize.MaxPayload512Bytes
+
+512 byte maximum read request size
 
 
 ##### - MaxReadRequestSize.MaxPayload1024Bytes
@@ -264,19 +279,9 @@ The maximum read request size for the device as a requester. Possible values are
 1024 byte maximum read request size
 
 
-##### - MaxReadRequestSize.MaxPayload128Bytes
-
-128 byte maximum read request size
-
-
 ##### - MaxReadRequestSize.MaxPayload2048Bytes
 
 2048 byte maximum read request size
-
-
-##### - MaxReadRequestSize.MaxPayload256Bytes
-
-256 byte maximum read request size
 
 
 ##### - MaxReadRequestSize.MaxPayload4096Bytes

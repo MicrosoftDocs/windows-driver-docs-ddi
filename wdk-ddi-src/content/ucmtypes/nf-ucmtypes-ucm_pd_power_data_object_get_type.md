@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: ACB0AB92-5EC8-4792-AB40-853FC5AAD125
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ucm_pd_power_data_object_get_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses]
+ms.keywords: buses.ucm_pd_power_data_object_get_type, ucmtypes/UCM_PD_POWER_DATA_OBJECT_GET_TYPE, UCM_PD_POWER_DATA_OBJECT_GET_TYPE function [Buses], UCM_PD_POWER_DATA_OBJECT_GET_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

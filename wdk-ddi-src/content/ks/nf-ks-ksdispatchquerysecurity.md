@@ -7,8 +7,8 @@ old-location: stream\ksdispatchquerysecurity.htm
 old-project: stream
 ms.assetid: 0aed2613-b40f-4328-91c4-c8e945c6ef17
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsDispatchQuerySecurity, KsDispatchQuerySecurity function [Streaming Media Devices], ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, ks/KsDispatchQuerySecurity, stream.ksdispatchquerysecurity
+ms.date: 2/22/2018
+ms.keywords: ksfunc_9bf0ae3b-19d0-455d-9d58-2d7b7c515f30.xml, KsDispatchQuerySecurity, stream.ksdispatchquerysecurity, ks/KsDispatchQuerySecurity, KsDispatchQuerySecurity function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

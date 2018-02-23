@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4AD156F8-911F-4D70-8B0E-8BB0D0747470
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/CdromNominalPerformance, CdromPerformanceExceptionsOnly, _CDROM_PERFORMANCE_EXCEPTION_TYPE, PCDROM_PERFORMANCE_EXCEPTION_TYPE, CdromNominalPerformance, ntddcdrm/CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CdromEntirePerformanceList, PCDROM_PERFORMANCE_EXCEPTION_TYPE enumeration pointer [Storage Devices], CdromEntirePerformanceList, CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/PCDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration [Storage Devices], ntddcdrm/ CdromPerformanceExceptionsOnly, *PCDROM_PERFORMANCE_EXCEPTION_TYPE, storage.cdrom_performance_exception_type
+ms.keywords: ntddcdrm/PCDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration [Storage Devices], CDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/ CdromPerformanceExceptionsOnly, PCDROM_PERFORMANCE_EXCEPTION_TYPE enumeration pointer [Storage Devices], CdromPerformanceExceptionsOnly, _CDROM_PERFORMANCE_EXCEPTION_TYPE, storage.cdrom_performance_exception_type, ntddcdrm/CdromNominalPerformance, PCDROM_PERFORMANCE_EXCEPTION_TYPE, CdromEntirePerformanceList, *PCDROM_PERFORMANCE_EXCEPTION_TYPE, ntddcdrm/CdromEntirePerformanceList, CdromNominalPerformance
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_PERFORMANCE_EXCEPTION_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_PERFORMANCE_EXCEPTION_TYPE, CDROM_PERFORMANCE_EXCEPTION_TYPE"
+req.typenames: CDROM_PERFORMANCE_EXCEPTION_TYPE, *PCDROM_PERFORMANCE_EXCEPTION_TYPE
 ---
 
 # _CDROM_PERFORMANCE_EXCEPTION_TYPE enumeration
@@ -86,11 +86,11 @@ Requests only performance exceptions that cause the performance to fall outside 
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
 
 
 

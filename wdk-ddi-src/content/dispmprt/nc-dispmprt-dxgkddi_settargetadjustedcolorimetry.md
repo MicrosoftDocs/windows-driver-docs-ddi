@@ -7,7 +7,7 @@ old-location: display\dxgkddi_settargetadjustedcolorimetry.htm
 old-project: display
 ms.assetid: C37E0DE1-E849-440F-A11A-BB0E3F50BDFA
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.dxgkddi_settargetadjustedcolorimetry, DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY callback function [Display Devices], DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY, dispmprt/DXGKDDI_SETTARGETADJUSTEDCOLORIMETRY
 ms.prod: windows-hardware
 ms.technology: windows-devices

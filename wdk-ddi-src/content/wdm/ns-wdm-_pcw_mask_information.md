@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 5519aec9-9a02-4571-8809-fa8273269ea5
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.pcw_mask_information, PPCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION, PCW_MASK_INFORMATION structure [Driver Development Tools], wdm/PPCW_MASK_INFORMATION, PPCW_MASK_INFORMATION structure pointer [Driver Development Tools], wdm/PCW_MASK_INFORMATION, _PCW_MASK_INFORMATION, km_pcw_44887cd4-4c18-4c6e-9168-5e89f37e970a.xml, PCW_MASK_INFORMATION
+ms.keywords: "*PPCW_MASK_INFORMATION, PCW_MASK_INFORMATION, PPCW_MASK_INFORMATION, devtest.pcw_mask_information, PPCW_MASK_INFORMATION structure pointer [Driver Development Tools], km_pcw_44887cd4-4c18-4c6e-9168-5e89f37e970a.xml, wdm/PCW_MASK_INFORMATION, wdm/PPCW_MASK_INFORMATION, _PCW_MASK_INFORMATION, PCW_MASK_INFORMATION structure [Driver Development Tools]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCW_MASK_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPCW_MASK_INFORMATION, PCW_MASK_INFORMATION"
+req.typenames: PCW_MASK_INFORMATION, *PPCW_MASK_INFORMATION
 req.product: Windows 10 or later.
 ---
 

@@ -4,11 +4,11 @@ title: IDebugControl2::Execute method
 author: windows-driver-content
 description: The Execute method executes the specified debugger commands.
 old-location: debugger\execute.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 595aa371-ff7e-48e2-b29a-a7aabc70ebd7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl::Execute, IDebugControl, IDebugControl2, Execute method [Windows Debugging], IDebugControl3 interface, Execute method [Windows Debugging], IDebugControl2 interface, debugger.execute, IDebugControl2::Execute, dbgeng/IDebugControl3::Execute, IDebugControl3 interface [Windows Debugging], Execute method, dbgeng/IDebugControl2::Execute, Execute, Execute method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::Execute, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, Execute method [Windows Debugging], IDebugControl3::Execute, IDebugControl2 interface [Windows Debugging], Execute method, IDebugControl interface [Windows Debugging], Execute method
+ms.date: 2/22/2018
+ms.keywords: IDebugControl2 interface [Windows Debugging], Execute method, Execute method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], Execute method, IDebugControl_d49bfbf9-c9e1-4a43-8f2c-8778ef51db79.xml, Execute method [Windows Debugging], IDebugControl interface, Execute method [Windows Debugging], IDebugControl3 interface, debugger.execute, IDebugControl3 interface [Windows Debugging], Execute method, dbgeng/IDebugControl3::Execute, Execute method [Windows Debugging], dbgeng/IDebugControl::Execute, IDebugControl, IDebugControl2, dbgeng/IDebugControl2::Execute, IDebugControl3::Execute, IDebugControl::Execute, IDebugControl2::Execute, Execute
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -165,7 +165,11 @@ This method executes the given command string.  If the string has multiple comma
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
 
 
 
@@ -177,13 +181,9 @@ This method executes the given command string.  If the string has multiple comma
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543215">ExecuteCommandFile</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::Execute method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Execute method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

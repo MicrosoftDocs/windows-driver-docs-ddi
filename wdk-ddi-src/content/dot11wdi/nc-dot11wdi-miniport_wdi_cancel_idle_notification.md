@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiCancelIdleNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_CANCEL_IDLE_NOTIFICATION callback

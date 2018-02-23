@@ -7,8 +7,8 @@ old-location: stream\streamclassdebugprint.htm
 old-project: stream
 ms.assetid: a8b7efd2-7773-44dc-92de-85b03c31ada8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: strmini/StreamClassDebugPrint, StreamClassDebugPrint, strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, StreamClassDebugPrint routine [Streaming Media Devices], stream.streamclassdebugprint
+ms.date: 2/22/2018
+ms.keywords: StreamClassDebugPrint routine [Streaming Media Devices], stream.streamclassdebugprint, strclass-routines_858a2dd4-ee74-44de-9293-05bd804c315d.xml, strmini/StreamClassDebugPrint, StreamClassDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,17 +113,17 @@ For more information, see <a href="https://msdn.microsoft.com/544b922b-58e4-4cbb
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassdebugassert.md">StreamClassDebugAssert</a>
-
-
-
 <a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
 
 
 
- 
+<a href="..\strmini\nf-strmini-streamclassdebugassert.md">StreamClassDebugAssert</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassDebugPrint routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20StreamClassDebugPrint routine%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

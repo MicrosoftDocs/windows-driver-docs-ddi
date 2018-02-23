@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 340933ad-1a71-421c-b1e1-360aa9c441fd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wskregister, WskRegister function [Network Drivers Starting with Windows Vista], WskRegister, wsk/WskRegister, wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml
+ms.keywords: wsk/WskRegister, netvista.wskregister, WskRegister function [Network Drivers Starting with Windows Vista], wskref_21a26aab-f817-457f-bfde-28bcf1e2c8d0.xml, WskRegister
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskRegister
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -167,11 +167,11 @@ For more information about attaching a WSK application to the WSK subsystem, see
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_client_npi.md">WSK_CLIENT_NPI</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_registration.md">WSK_REGISTRATION</a>
 
 
 

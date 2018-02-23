@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ec2a26a0-4325-41d9-a6b4-5b9c2f22dd4e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_PARAM_CBMC_CDMASIZE, netvista.rilcbmsgconfigparammask_2, rilapitypes/RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_ALL, rilapitypes/RILCBMSGCONFIGPARAMMASK, rilapitypes/RIL_PARAM_CBMC_GWLINFO, rilapitypes/RIL_PARAM_CBMC_ALL, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CBMC_GWLINFO, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMASIZE, RILCBMSGCONFIGPARAMMASK
+ms.keywords: netvista.rilcbmsgconfigparammask_2, rilapitypes/RIL_PARAM_CBMC_ALL, RILCBMSGCONFIGPARAMMASK, rilapitypes/RIL_PARAM_CBMC_CDMASIZE, RILCBMSGCONFIGPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CBMC_GWLINFO, RIL_PARAM_CBMC_CDMASIZE, rilapitypes/RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_CDMAINFO, RIL_PARAM_CBMC_ALL, rilapitypes/RILCBMSGCONFIGPARAMMASK, rilapitypes/RIL_PARAM_CBMC_GWLINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

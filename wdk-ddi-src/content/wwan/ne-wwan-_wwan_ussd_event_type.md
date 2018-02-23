@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: CEBC8A75-03E9-4E2A-9092-2FA3005371FE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_USSD_EVENT_TYPE, WwanUssdEventTerminated, wwan/WwanUssdEventNoActionRequired, wwan/WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventTerminated, wwan/WwanUssdEventActionRequired, wwan/WwanUssdEventOtherLocalClient, wwan/WwanUssdEventNetworkTimeOut, _WWAN_USSD_EVENT_TYPE, WwanUssdEventNoActionRequired, WwanUssdEventActionRequired, *PWWAN_USSD_EVENT_TYPE, WwanUssdEventNetworkTimeOut, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanUssdEventOperationNotSupported, netvista.wwan_ussd_event_type, WwanUssdEventOtherLocalClient, WwanUssdEventOperationNotSupported
+ms.keywords: wwan/WwanUssdEventNoActionRequired, wwan/WwanUssdEventOtherLocalClient, WwanUssdEventNoActionRequired, wwan/WwanUssdEventOperationNotSupported, wwan/WwanUssdEventNetworkTimeOut, netvista.wwan_ussd_event_type, wwan/WwanUssdEventTerminated, *PWWAN_USSD_EVENT_TYPE, WwanUssdEventTerminated, WWAN_USSD_EVENT_TYPE, wwan/WwanUssdEventActionRequired, WwanUssdEventOtherLocalClient, WwanUssdEventNetworkTimeOut, wwan/WWAN_USSD_EVENT_TYPE, WwanUssdEventOperationNotSupported, _WWAN_USSD_EVENT_TYPE, WWAN_USSD_EVENT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanUssdEventActionRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

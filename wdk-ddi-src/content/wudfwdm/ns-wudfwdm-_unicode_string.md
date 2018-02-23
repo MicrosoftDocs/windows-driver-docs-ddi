@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b02f29a9-1049-4e29-aac3-72bf0c70a21e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_UNICODE_STRING, *PUNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], wudfwdm/PUNICODE_STRING, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml, PUNICODE_STRING, kernel.unicode_string, wudfwdm/UNICODE_STRING, UNICODE_STRING"
+ms.keywords: wudfwdm/PUNICODE_STRING, PUNICODE_STRING, _UNICODE_STRING, wudfwdm/UNICODE_STRING, UNICODE_STRING structure [Kernel-Mode Driver Architecture], PUNICODE_STRING structure pointer [Kernel-Mode Driver Architecture], UNICODE_STRING, kernel.unicode_string, *PUNICODE_STRING, kstruct_d_9f862aaa-4cd6-4420-8255-ad577d8a8c59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,11 +100,15 @@ The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
+<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540605">ANSI_STRING</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 
 
@@ -116,15 +120,11 @@ The <b>MaximumLength</b> is used to indicate the length of <b>Buffer</b> so that
 
 
 
-<a href="..\wdm\nf-wdm-rtlansistringtounicodesize.md">RtlAnsiStringToUnicodeSize</a>
-
-
-
-<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlunicodestringtoansisize.md">RtlUnicodeStringToAnsiSize</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlunicodestringtoansistring.md">RtlUnicodeStringToAnsiString</a>
 
 
 

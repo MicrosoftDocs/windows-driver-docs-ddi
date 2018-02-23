@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_video_process_frame_0032.htm
 old-project: display
 ms.assetid: C7923B09-FBA2-43EE-A56B-0B8B6C3403A0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3d12ddi_video_process_frame_0032, PFND3D12DDI_VIDEO_PROCESS_FRAME_0032 callback function [Display Devices], PFND3D12DDI_VIDEO_PROCESS_FRAME_0032, d3d12umddi/PFND3D12DDI_VIDEO_PROCESS_FRAME_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

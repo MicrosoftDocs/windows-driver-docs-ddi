@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::SessionStatus method
 author: windows-driver-content
 description: The SessionStatus callback method is called by the engine when a change occurs in the debugger session.
 old-location: debugger\idebugeventcallbackswide_sessionstatus.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: cc3ed4ef-5e2d-4865-8d6f-b140d6b5d7af
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide::SessionStatus, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_sessionstatus, IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method, SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface, SessionStatus method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::SessionStatus, SessionStatus
+ms.date: 2/22/2018
+ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], SessionStatus method, SessionStatus method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_sessionstatus, SessionStatus, SessionStatus method [Windows Debugging], IDebugEventCallbacksWide, dbgeng/IDebugEventCallbacksWide::SessionStatus, IDebugEventCallbacksWide::SessionStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

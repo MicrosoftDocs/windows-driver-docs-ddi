@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6d61c6-40e5-46fd-8c18-1f9d89c58515
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportwriteportulong, storprt_4f568f62-adb7-4176-9229-e2af5d4453cb.xml, StorPortWritePortUlong routine [Storage Devices], storport/StorPortWritePortUlong, StorPortWritePortUlong
+ms.keywords: storport/StorPortWritePortUlong, storage.storportwriteportulong, StorPortWritePortUlong routine [Storage Devices], StorPortWritePortUlong, storprt_4f568f62-adb7-4176-9229-e2af5d4453cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -109,14 +109,14 @@ Contains the value to be written.
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportulong.md">ScsiPortWritePortUlong</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferulong.md">StorPortWritePortBufferUlong</a>. 
+For more information, see <a href="..\srb\nf-srb-scsiportwriteportulong.md">ScsiPortWritePortUlong</a>. For a buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportbufferulong.md">StorPortWritePortBufferUlong</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteportulong.md">ScsiPortWritePortUlong</a>
+<a href="..\storport\nf-storport-storportwriteportbufferulong.md">StorPortWritePortBufferUlong</a>
 
 
 

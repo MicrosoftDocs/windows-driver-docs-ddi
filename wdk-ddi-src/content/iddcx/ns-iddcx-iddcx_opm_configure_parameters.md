@@ -7,8 +7,8 @@ old-location: display\iddcx_opm_configure_parameters.htm
 old-project: display
 ms.assetid: 88d8171f-8ed4-40af-8c05-7421895dca26
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS, iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS, IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], display.iddcx_opm_configure_parameters
+ms.date: 2/22/2018
+ms.keywords: IDDCX_OPM_CONFIGURE_PARAMETERS structure [Display Devices], IDDCX_OPM_CONFIGURE_PARAMETERS, iddcx/IDDCX_OPM_CONFIGURE_PARAMETERS, display.iddcx_opm_configure_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

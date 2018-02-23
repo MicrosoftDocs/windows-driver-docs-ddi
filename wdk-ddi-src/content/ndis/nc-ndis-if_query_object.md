@@ -40,7 +40,7 @@ apiname:
 -	*IFP_QUERY_OBJECT
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # IF_QUERY_OBJECT callback

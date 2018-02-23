@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B8CEBCEA-7F1F-4E4B-B04E-D914D5875027
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS
+ms.keywords: buses._controller_usb_20_hardware_lpm_flags, ucxroothub/_CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, _CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS union [Buses], *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: "*PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS, CONTROLLER_USB_20_HARDWARE_LPM_FLAGS"
+req.typenames: CONTROLLER_USB_20_HARDWARE_LPM_FLAGS, *PCONTROLLER_USB_20_HARDWARE_LPM_FLAGS
 req.product: Windows 10 or later.
 ---
 

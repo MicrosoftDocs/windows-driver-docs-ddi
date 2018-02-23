@@ -7,7 +7,7 @@ old-location: print\iprintasyncnotifyregistration.htm
 old-project: print
 ms.assetid: DF6A3FD2-22B4-452D-8D43-1EB25E2CEEA5
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.iprintasyncnotifyregistration, IPrintAsyncNotifyRegistration interface [Print Devices], IPrintAsyncNotifyRegistration interface [Print Devices], described, IPrintAsyncNotifyRegistration, prnasntp/IPrintAsyncNotifyRegistration
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,13 @@ req.product: Windows 10 or later.
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotifyRegistration</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintAsyncNotifyRegistration</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 

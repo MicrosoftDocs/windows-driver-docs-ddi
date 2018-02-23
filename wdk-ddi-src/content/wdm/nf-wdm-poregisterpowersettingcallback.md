@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a4dd91c4-f6b1-4751-a2be-9b4872fa7bb2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoRegisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], portn_ddaef830-5cf5-4b7f-9fa6-e29a2b9f847f.xml, kernel.poregisterpowersettingcallback, wdm/PoRegisterPowerSettingCallback, PoRegisterPowerSettingCallback
+ms.keywords: PoRegisterPowerSettingCallback, kernel.poregisterpowersettingcallback, wdm/PoRegisterPowerSettingCallback, PoRegisterPowerSettingCallback routine [Kernel-Mode Driver Architecture], portn_ddaef830-5cf5-4b7f-9fa6-e29a2b9f847f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,7 +94,7 @@ A pointer to the context for the callback routine. This parameter is optional. I
 
 ### -param Handle [out]
 
-A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to <a href="..\ntifs\nf-ntifs-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a> to unregister the callback routine.
+A handle that the power manager uses to represent the callback routine. A driver must subsequently supply this handle in a call to <a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a> to unregister the callback routine.
 
 
 ## -returns
@@ -142,9 +142,9 @@ The routine could not allocate the system resources that are required to registe
 
 A driver calls <b>PoRegisterPowerSettingCallback</b> to register a callback routine with the power manager. The power manager subsequently calls this callback routine to notify the driver after there is a change to the specified power setting. In addition, the power manager initializes the power setting of the driver by immediately calling the callback routine and passing the current value of the power setting. The power manager initializes the power setting of the driver this way regardless of whether the power setting has actually changed.
 
-A driver should call <b>PoRegisterPowerSettingCallback</b> for each power setting that the driver needs to monitor. Drivers should call this routine in their <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine during initialization. Typically, most drivers pass a pointer to a device extension in the <i>Context</i> parameter.
+A driver should call <b>PoRegisterPowerSettingCallback</b> for each power setting that the driver needs to monitor. Drivers should call this routine in their <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine during initialization. Typically, most drivers pass a pointer to a device extension in the <i>Context</i> parameter.
 
-To unregister a power-setting callback, call the <a href="..\ntifs\nf-ntifs-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a> routine.
+To unregister a power-setting callback, call the <a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a> routine.
 
 Typically, Kernel-Mode Driver Framework (KMDF) drivers should call <b>PoRegisterPowerSettingCallback</b> from their <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md">EvtDeviceSelfManagedIoInit</a> callback function, and should call <b>PoUnregisterPowerSettingCallback</b> from their <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a> callback function. These drivers should <u>not</u> call <b>PoRegisterPowerSettingCallback</b> from their <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a> callback function; otherwise, the power-setting callback routine might be called before the driver stack is completely built.
 
@@ -251,11 +251,11 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 ## -see-also
 
+<a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a>
+
+
+
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_init.md">EvtDeviceSelfManagedIoInit</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a>
 
 
 
@@ -267,7 +267,7 @@ The POWER_SETTING_CALLBACK function type is defined in the Wdm.h header file. To
 
 
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_self_managed_io_cleanup.md">EvtDeviceSelfManagedIoCleanup</a>
+<a href="..\wdm\nf-wdm-pounregisterpowersettingcallback.md">PoUnregisterPowerSettingCallback</a>
 
 
 

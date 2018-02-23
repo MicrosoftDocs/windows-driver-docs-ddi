@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c499c11f-1de5-4c7f-aa26-62d2221c35bd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlInitializeTunnelCache routine [Installable File System Drivers], ntifs/FsRtlInitializeTunnelCache, ifsk.fsrtlinitializetunnelcache, FsRtlInitializeTunnelCache, fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml
+ms.keywords: ntifs/FsRtlInitializeTunnelCache, FsRtlInitializeTunnelCache, fsrtlref_33e2bd32-4b53-4edc-8e61-7a0ffbab327a.xml, ifsk.fsrtlinitializetunnelcache, FsRtlInitializeTunnelCache routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

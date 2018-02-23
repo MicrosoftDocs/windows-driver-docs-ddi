@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 72fddd86-6e9f-4e75-af6a-e7f3e1064a8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: irb/LbaMode, irb/ChsMode, ATA_ADDRESS_TRANSLATION, ChsMode, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], Lba48BitMode, irb/UnknownMode, LbaMode, UnknownMode, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml, irb/Lba48BitMode, irb/ATA_ADDRESS_TRANSLATION, storage.ata_address_translation
+ms.keywords: storage.ata_address_translation, irb/Lba48BitMode, ChsMode, LbaMode, Lba48BitMode, structs-ATA_f2a24a19-e6fa-4457-afac-b307d9dcbc76.xml, ATA_ADDRESS_TRANSLATION, UnknownMode, irb/ChsMode, irb/LbaMode, irb/ATA_ADDRESS_TRANSLATION, ATA_ADDRESS_TRANSLATION enumeration [Storage Devices], irb/UnknownMode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,7 +7,7 @@ old-location: display\pfnd3dwddm2_0ddi_getresourcelayout.htm
 old-project: display
 ms.assetid: 0158F1B4-AA6E-41F9-BAEF-A3C688758205
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout callback function [Display Devices], pfnGetResourceLayout, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, d3d10umddi/pfnGetResourceLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	pfnGetResourceLayout
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3DWDDM2_0DDI_GETRESOURCELAYOUT callback
@@ -101,21 +101,6 @@ The subresource count.
 A pointer to a MIP level swizzle transition. 
 
 
-#### - Handle [out]
-
-A kernel handle.
-
-
-#### - SubresourceLayout [out, optional]
-
-A pointer to the subresource layout.
-
-
-#### - TextureLayout [out]
-
-A pointer to a texture layout.
-
-
 #### - hDevice
 
 A device handle.
@@ -124,6 +109,21 @@ A device handle.
 #### - hResource
 
 A resource handle. 
+
+
+#### - Handle [out]
+
+A kernel handle.
+
+
+#### - TextureLayout [out]
+
+A pointer to a texture layout.
+
+
+#### - SubresourceLayout [out, optional]
+
+A pointer to the subresource layout.
 
 
 ## -returns

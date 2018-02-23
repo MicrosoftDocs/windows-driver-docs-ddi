@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 UMDF-based drivers receive the <b>IWDFRemoteInterfaceInitialize</b> interface as input to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff556775">IPnpCallbackRemoteInterfaceNotification::OnRemoteInterfaceArrival</a> callback function.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRemoteInterfaceInitialize</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFRemoteInterfaceInitialize</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFRemoteInterfaceInitialize</b> interface has these methods.
@@ -81,9 +88,5 @@ The <a href="https://msdn.microsoft.com/e3203542-177c-440a-8d41-4d70d77f804d">Re
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/3c68d458-9b34-4e45-993a-67f915347637">GetInterfaceGuid</a> method retrieves the GUID that identifies a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>. 
-
-The <a href="https://msdn.microsoft.com/e3203542-177c-440a-8d41-4d70d77f804d">RetrieveSymbolicLink</a> method retrieves the symbolic link name that the operating system assigned to a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>. 
-
- 
+</table> 
 

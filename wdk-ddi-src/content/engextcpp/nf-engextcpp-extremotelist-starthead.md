@@ -4,11 +4,11 @@ title: ExtRemoteList::StartHead method
 author: windows-driver-content
 description: The StartHead method initializes the list for iterating forward starting at the head.
 old-location: debugger\extremotelist_starthead.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: d7d9163b-54bb-4753-96a3-f92eddbe25f5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.extremotelist_starthead, ExtRemoteList::StartHead, StartHead method [Windows Debugging], ExtRemoteList class, ExtRemoteList class [Windows Debugging], StartHead method, StartHead method [Windows Debugging], ExtRemoteList, StartHead, EngExtCpp_Ref_cb3b3efb-2dd6-4319-85e1-2048cfae9b7c.xml
+ms.date: 2/22/2018
+ms.keywords: ExtRemoteList class [Windows Debugging], StartHead method, ExtRemoteList, debugger.extremotelist_starthead, StartHead method [Windows Debugging], StartHead, ExtRemoteList::StartHead, EngExtCpp_Ref_cb3b3efb-2dd6-4319-85e1-2048cfae9b7c.xml, StartHead method [Windows Debugging], ExtRemoteList class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

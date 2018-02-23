@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1ed31af-97a7-472e-b834-577470950335
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWWAN_SET_CONTEXT_STATE, wwan/PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE, netvista.wwan_set_context_state, WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, wwan/WWAN_SET_CONTEXT_STATE
+ms.keywords: wwan/WWAN_SET_CONTEXT_STATE, WwanRef_a4c14223-1c16-4f87-8820-2a45f04bb62d.xml, netvista.wwan_set_context_state, WWAN_SET_CONTEXT_STATE, _WWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE structure pointer [Network Drivers Starting with Windows Vista], *PWWAN_SET_CONTEXT_STATE, WWAN_SET_CONTEXT_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_SET_CONTEXT_STATE, PWWAN_SET_CONTEXT_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -260,6 +260,10 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 ## -see-also
 
+<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
+
+
+
 <a href="..\wwan\ne-wwan-_wwan_activation_command.md">WWAN_ACTIVATION_COMMAND</a>
 
 
@@ -269,10 +273,6 @@ A value from the WWAN_IP_TYPE enumeration that specifies the type of IP.
 
 
 <a href="..\wwan\ne-wwan-_wwan_auth_protocol.md">WWAN_AUTH_PROTOCOL</a>
-
-
-
-<a href="..\wwan\ne-wwan-_wwan_compression.md">WWAN_COMPRESSION</a>
 
 
 

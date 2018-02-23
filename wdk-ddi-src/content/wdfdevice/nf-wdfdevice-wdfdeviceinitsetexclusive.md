@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4bbcf4d3-e1f9-4e13-ac56-92ffddea1f67
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml, WdfDeviceInitSetExclusive method, wdfdevice/WdfDeviceInitSetExclusive, wdf.wdfdeviceinitsetexclusive, kmdf.wdfdeviceinitsetexclusive, WdfDeviceInitSetExclusive
+ms.keywords: WdfDeviceInitSetExclusive, wdfdevice/WdfDeviceInitSetExclusive, kmdf.wdfdeviceinitsetexclusive, WdfDeviceInitSetExclusive method, wdf.wdfdeviceinitsetexclusive, DFDeviceObjectGeneralRef_fb2fbd3a-e78a-4632-b84f-b3e62a6efc94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ The following code example indicates that a device is an exclusive device.
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-
-
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
 
 
 

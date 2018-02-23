@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9048a568-3369-44eb-8fa8-361ce968a253
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfdriver_isversionavailable, wdf.iwdfdriver_isversionavailable, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, IWDFDriver::IsVersionAvailable, IsVersionAvailable method, IsVersionAvailable method, IWDFDriver interface, IWDFDriver interface, IsVersionAvailable method, IsVersionAvailable, IWDFDriver, wudfddi/IWDFDriver::IsVersionAvailable
+ms.keywords: IWDFDriver::IsVersionAvailable, IsVersionAvailable method, IWDFDriver interface, IWDFDriver interface, IsVersionAvailable method, wudfddi/IWDFDriver::IsVersionAvailable, wdf.iwdfdriver_isversionavailable, UMDFDriverObjectRef_6ad78413-a8c5-4a9f-953d-94bd4eaf3425.xml, umdf.iwdfdriver_isversionavailable, IsVersionAvailable method, IsVersionAvailable, IWDFDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -86,11 +86,11 @@ A pointer to a <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
-
-
 <a href="..\wudfddi_types\ns-wudfddi_types-umdf_version_data.md">UMDF_VERSION_DATA</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 

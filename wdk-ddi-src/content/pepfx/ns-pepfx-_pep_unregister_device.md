@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B6A0F80C-8AE2-4FFE-A3EE-F0260A8774D6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], _PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PPEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, *PPEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE
+ms.keywords: "_PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE, kernel.pep_unregister_device, PPEP_UNREGISTER_DEVICE, PPEP_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], *PPEP_UNREGISTER_DEVICE, pepfx/PPEP_UNREGISTER_DEVICE, pepfx/PEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_UNREGISTER_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_UNREGISTER_DEVICE, PEP_UNREGISTER_DEVICE"
+req.typenames: PEP_UNREGISTER_DEVICE, *PPEP_UNREGISTER_DEVICE
 ---
 
 # _PEP_UNREGISTER_DEVICE structure
@@ -83,11 +83,11 @@ This structure is used by the <a href="https://docs.microsoft.com/en-us/windows-
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_UNREGISTER_DEVICE</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-peps-for-acpi-services">PEP_DPM_UNREGISTER_DEVICE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a74d9740-8342-454e-8cbf-cf248e67d857
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PREG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information, wdm/REG_SET_VALUE_KEY_INFORMATION, _REG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, REG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION
+ms.keywords: wdm/REG_SET_VALUE_KEY_INFORMATION, kernel.reg_set_value_key_information, REG_SET_VALUE_KEY_INFORMATION, PREG_SET_VALUE_KEY_INFORMATION, wdm/PREG_SET_VALUE_KEY_INFORMATION, _REG_SET_VALUE_KEY_INFORMATION, kstruct_d_302658bd-6aaa-4878-9a67-a66c7307a4fa.xml, PREG_SET_VALUE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_SET_VALUE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_SET_VALUE_KEY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_SET_VALUE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_SET_VALUE_KEY_INFORMATION, REG_SET_VALUE_KEY_INFORMATION"
+req.typenames: REG_SET_VALUE_KEY_INFORMATION, *PREG_SET_VALUE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -138,11 +138,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 
 

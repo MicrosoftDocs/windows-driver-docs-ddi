@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e9fb6d5c-258c-46eb-ba3a-3f10008fdf68
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS, PSENDCMDOUTPARAMS, structs-IDE_d1a70016-0e77-465a-9368-665975369bdc.xml, _SENDCMDOUTPARAMS, storage.sendcmdoutparams, LPSENDCMDOUTPARAMS, SENDCMDOUTPARAMS structure [Storage Devices], PSENDCMDOUTPARAMS structure pointer [Storage Devices], LPSENDCMDOUTPARAMS structure pointer [Storage Devices], SENDCMDOUTPARAMS, ntdddisk/SENDCMDOUTPARAMS, ntdddisk/PSENDCMDOUTPARAMS, ntdddisk/LPSENDCMDOUTPARAMS"
+ms.keywords: storage.sendcmdoutparams, ntdddisk/PSENDCMDOUTPARAMS, LPSENDCMDOUTPARAMS structure pointer [Storage Devices], LPSENDCMDOUTPARAMS, PSENDCMDOUTPARAMS structure pointer [Storage Devices], SENDCMDOUTPARAMS, SENDCMDOUTPARAMS structure [Storage Devices], structs-IDE_d1a70016-0e77-465a-9368-665975369bdc.xml, *LPSENDCMDOUTPARAMS, ntdddisk/LPSENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, ntdddisk/SENDCMDOUTPARAMS, PSENDCMDOUTPARAMS, _SENDCMDOUTPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SENDCMDOUTPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPSENDCMDOUTPARAMS, SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS"
+req.typenames: SENDCMDOUTPARAMS, *PSENDCMDOUTPARAMS, *LPSENDCMDOUTPARAMS
 ---
 
 # _SENDCMDOUTPARAMS structure

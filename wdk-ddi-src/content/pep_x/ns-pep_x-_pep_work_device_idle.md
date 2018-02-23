@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 054D45D8-EDAA-41F2-9884-4301F08B67CB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_WORK_DEVICE_IDLE, kernel.pep_work_device_idle, pep_x/PPEP_WORK_DEVICE_IDLE, PPEP_WORK_DEVICE_IDLE structure pointer [Kernel-Mode Driver Architecture], PEP_WORK_DEVICE_IDLE structure [Kernel-Mode Driver Architecture], _PEP_WORK_DEVICE_IDLE, PPEP_WORK_DEVICE_IDLE, pep_x/PEP_WORK_DEVICE_IDLE, *PPEP_WORK_DEVICE_IDLE
+ms.keywords: PEP_WORK_DEVICE_IDLE structure [Kernel-Mode Driver Architecture], PEP_WORK_DEVICE_IDLE, kernel.pep_work_device_idle, pep_x/PPEP_WORK_DEVICE_IDLE, PPEP_WORK_DEVICE_IDLE structure pointer [Kernel-Mode Driver Architecture], pep_x/PEP_WORK_DEVICE_IDLE, *PPEP_WORK_DEVICE_IDLE, _PEP_WORK_DEVICE_IDLE, PPEP_WORK_DEVICE_IDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_DEVICE_IDLE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_DEVICE_IDLE, PEP_WORK_DEVICE_IDLE"
+req.typenames: PEP_WORK_DEVICE_IDLE, *PPEP_WORK_DEVICE_IDLE
 ---
 
 # _PEP_WORK_DEVICE_IDLE structure
@@ -82,22 +82,22 @@ Whether to ignore the idle time-out. Set to TRUE to tell the operating system to
 
 
 
-The <b>DeviceIdle</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_DEVICE_IDLE</b> structure.
+The <b>DeviceIdle</b> member of the <a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure is a <b>PEP_WORK_DEVICE_IDLE</b> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+<a href="..\wdm\nf-wdm-pofxsetdeviceidletimeout.md">PoFxSetDeviceIdleTimeout</a>
+
+
+
+<a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a>
 
 
 

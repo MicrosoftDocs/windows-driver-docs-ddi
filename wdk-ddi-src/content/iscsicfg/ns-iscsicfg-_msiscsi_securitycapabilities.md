@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a385283a-7b24-43aa-b291-541bfd6a91a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], iscsicfg/MSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, storage.msiscsi_securitycapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities structure [Storage Devices], MSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities, _MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
+ms.keywords: MSiSCSI_SecurityCapabilities structure [Storage Devices], PMSiSCSI_SecurityCapabilities structure pointer [Storage Devices], *PMSiSCSI_SecurityCapabilities, structs-iSCSI_0e8b2bb9-69df-4d36-8002-ac32177b724a.xml, _MSiSCSI_SecurityCapabilities, storage.msiscsi_securitycapabilities, iscsicfg/MSiSCSI_SecurityCapabilities, iscsicfg/PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities, PMSiSCSI_SecurityCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_SecurityCapabilities
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_SecurityCapabilities, MSiSCSI_SecurityCapabilities"
+req.typenames: MSiSCSI_SecurityCapabilities, *PMSiSCSI_SecurityCapabilities
 ---
 
 # _MSiSCSI_SecurityCapabilities structure

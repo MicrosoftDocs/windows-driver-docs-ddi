@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c5a1e12-b66f-4bcb-bb9d-739b883fe9c2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml, wdf.wdfrequestgetfileobject, kmdf.wdfrequestgetfileobject, WdfRequestGetFileObject, wdfrequest/WdfRequestGetFileObject, WdfRequestGetFileObject method
+ms.keywords: DFRequestObjectRef_cfa39375-4338-428c-aec5-52479b2a91ea.xml, wdf.wdfrequestgetfileobject, kmdf.wdfrequestgetfileobject, WdfRequestGetFileObject, WdfRequestGetFileObject method, wdfrequest/WdfRequestGetFileObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,11 +141,11 @@ MyEvtIoWrite(
 
 ## -see-also
 
-<a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetfileobjectconfig.md">WdfDeviceInitSetFileObjectConfig</a>
+
+
+
+<a href="..\wdfdevice\ne-wdfdevice-_wdf_fileobject_class.md">WDF_FILEOBJECT_CLASS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bcbb0c56-1500-45b2-bd20-03726ef7da77
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisfreereassemblednetbufferlist, NdisFreeReassembledNetBufferList, ndis/NdisFreeReassembledNetBufferList, NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml
+ms.keywords: NdisFreeReassembledNetBufferList function [Network Drivers Starting with Windows Vista], ndis/NdisFreeReassembledNetBufferList, NdisFreeReassembledNetBufferList, netvista.ndisfreereassemblednetbufferlist, ndis_netbuf_functions_ref_604900da-90fb-4986-880e-8fea63c240a0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFreeReassembledNetBufferList
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFreeReassembledNetBufferList function
@@ -119,12 +119,12 @@ None
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisallocatereassemblednetbufferlist.md">
    NdisAllocateReassembledNetBufferList</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 

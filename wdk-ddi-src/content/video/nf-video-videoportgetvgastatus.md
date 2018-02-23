@@ -7,8 +7,8 @@ old-location: display\videoportgetvgastatus.htm
 old-project: display
 ms.assetid: 5a2bb69c-b10a-41bb-a92a-de7add3ca2c5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPortGetVgaStatus function [Display Devices], display.videoportgetvgastatus, video/VideoPortGetVgaStatus, VideoPortGetVgaStatus, VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml
+ms.date: 2/22/2018
+ms.keywords: VideoPortGetVgaStatus, video/VideoPortGetVgaStatus, display.videoportgetvgastatus, VideoPort_Functions_f3e43fe4-2e50-48d4-b185-f44e2a2adb31.xml, VideoPortGetVgaStatus function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aba1638f-1ab0-4953-afe9-1f539e5bd967
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VPB structure [Installable File System Drivers], VPB_REMOVE_PENDING, *PVPB, ifsk.vpb, VPB_RAW_MOUNT, PVPB, VPB_LOCKED, VPB_PERSISTENT, VPB_DIRECT_WRITES_ALLOWED, _VPB, PVPB structure pointer [Installable File System Drivers], VPB, VPB_MOUNTED, wdm/VPB, wdm/PVPB
+ms.keywords: "_VPB, VPB_RAW_MOUNT, *PVPB, VPB_REMOVE_PENDING, wdm/VPB, PVPB structure pointer [Installable File System Drivers], ifsk.vpb, VPB, VPB_LOCKED, VPB_PERSISTENT, PVPB, wdm/PVPB, VPB_MOUNTED, VPB_DIRECT_WRITES_ALLOWED, VPB structure [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -223,7 +223,7 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
 
 
 
@@ -231,7 +231,7 @@ Drivers must call <a href="..\ntifs\nf-ntifs-ioacquirevpbspinlock.md">IoAcquireV
 
 
 
-<a href="..\ntifs\ns-ntifs-_file_objectid_information.md">FILE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 

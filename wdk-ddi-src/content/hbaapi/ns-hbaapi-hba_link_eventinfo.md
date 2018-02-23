@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: be682bc7-61cb-40bd-920d-bc2224d6e426
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_LINK_EVENTINFO, *PHBA_LINK_EVENTINFO, storage.hba_link_eventinfo, HBA_Link_EventInfo, hbaapi/HBA_Link_EventInfo, HBA_Link_EventInfo structure [Storage Devices], HBA_LINK_EVENTINFO structure [Storage Devices], PHBA_LINK_EVENTINFO, structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml, hbaapi/PHBA_LINK_EVENTINFO, PHBA_LINK_EVENTINFO structure pointer [Storage Devices]
+ms.keywords: HBA_Link_EventInfo structure [Storage Devices], HBA_Link_EventInfo, HBA_LINK_EVENTINFO structure [Storage Devices], PHBA_LINK_EVENTINFO structure pointer [Storage Devices], structs-Fibre_eb994375-ebac-41f5-af82-341f14400b1f.xml, hbaapi/PHBA_LINK_EVENTINFO, storage.hba_link_eventinfo, PHBA_LINK_EVENTINFO, *PHBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO, hbaapi/HBA_Link_EventInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_LINK_EVENTINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_LINK_EVENTINFO, HBA_LINK_EVENTINFO"
+req.typenames: HBA_LINK_EVENTINFO, *PHBA_LINK_EVENTINFO
 ---
 
 # HBA_Link_EventInfo structure

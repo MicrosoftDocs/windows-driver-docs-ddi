@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: BF7563F8-F1C5-4300-94A2-7D884DA7DFA2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlInsertElementGenericTableAvl, ifsk.rtlinsertelementgenerictableavl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], ntddk/RtlInsertElementGenericTableAvl
+ms.keywords: ifsk.rtlinsertelementgenerictableavl, RtlInsertElementGenericTableAvl routine [Installable File System Drivers], RtlInsertElementGenericTableAvl, ntddk/RtlInsertElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlInsertElementGenericTableAvl
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlInsertElementGenericTableAvl function
@@ -138,11 +138,11 @@ The caller-supplied <i>CompareRoutine</i> or <i>AllocateRoutine</i> contains pag
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtldeleteelementgenerictableavl.md">RtlDeleteElementGenericTableAvl</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlinitializegenerictableavl.md">RtlInitializeGenericTableAvl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: E056400C-A0FE-4740-945D-C529C8804DF3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hpmi/HPMI_HINT_BOOL, HpmiBoolFalse, hpmi/HpmiBoolMax, *PHPMI_HINT_BOOL, hpmi/HpmiBoolTrue, powermeter.hpmi_hint_bool, _HPMI_HINT_BOOL, HpmiBoolUnavailable, hpmi/HpmiBoolFalse, HpmiBoolTrue, HpmiBoolMax, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], hpmi/HpmiBoolUnavailable, HPMI_HINT_BOOL
+ms.keywords: hpmi/HpmiBoolFalse, powermeter.hpmi_hint_bool, *PHPMI_HINT_BOOL, HPMI_HINT_BOOL, _HPMI_HINT_BOOL, HpmiBoolTrue, hpmi/HPMI_HINT_BOOL, hpmi/HpmiBoolTrue, hpmi/HpmiBoolUnavailable, HpmiBoolMax, HpmiBoolUnavailable, HPMI_HINT_BOOL enumeration [Power Metering and Budgeting Devices], HpmiBoolFalse, hpmi/HpmiBoolMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	HPMI_HINT_BOOL
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL"
+req.typenames: HPMI_HINT_BOOL, *PHPMI_HINT_BOOL
 ---
 
 # _HPMI_HINT_BOOL enumeration
@@ -98,13 +98,11 @@ Value is not used.
 
 
 
+<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
+
 
 
 <a href="..\hpmi\ns-hpmi-_hpmi_battery_utilization_hint.md">HPMI_BATTERY_UTILIZATION_HINT</a>
-
-
-
-<a href="https://msdn.microsoft.com/35934D6C-3FB4-4AD4-AA50-BD3A7790269F">hpmi.h</a>
 
 
 

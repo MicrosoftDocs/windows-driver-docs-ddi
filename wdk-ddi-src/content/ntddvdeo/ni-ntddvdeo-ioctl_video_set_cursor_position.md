@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_cursor_position.htm
 old-project: display
 ms.assetid: 80346b99-49f5-4cbf-b524-1c5f40cf441f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.ioctl_video_set_cursor_position, IOCTL_VIDEO_SET_CURSOR_POSITION control code [Display Devices], IOCTL_VIDEO_SET_CURSOR_POSITION, ntddvdeo/IOCTL_VIDEO_SET_CURSOR_POSITION, Video_IOCTLs_f95d8cf3-a53e-4b67-867e-7af83e3b0d40.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

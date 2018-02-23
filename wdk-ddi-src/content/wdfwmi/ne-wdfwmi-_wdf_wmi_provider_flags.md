@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 85b1a4b4-53e0-4663-b813-18801f8b639b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfwmi/WdfWmiProviderValidFlags, kmdf.wdf_wmi_provider_flags, wdfwmi/WdfWmiProviderEventOnly, wdfwmi/WdfWmiProviderExpensive, WDF_WMI_PROVIDER_FLAGS enumeration, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WdfWmiProviderTracing, _WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderTracing, WdfWmiProviderEventOnly, wdfwmi/WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderValidFlags, wdf.wdf_wmi_provider_flags, WdfWmiProviderExpensive, WDF_WMI_PROVIDER_FLAGS
+ms.keywords: wdfwmi/WdfWmiProviderExpensive, wdfwmi/WdfWmiProviderValidFlags, kmdf.wdf_wmi_provider_flags, _WDF_WMI_PROVIDER_FLAGS, DFWMIRef_e093a379-bdc9-4b69-90e8-294b9d55eeea.xml, WdfWmiProviderValidFlags, wdfwmi/WdfWmiProviderTracing, WDF_WMI_PROVIDER_FLAGS, wdfwmi/WdfWmiProviderEventOnly, WdfWmiProviderExpensive, WDF_WMI_PROVIDER_FLAGS enumeration, wdf.wdf_wmi_provider_flags, wdfwmi/WDF_WMI_PROVIDER_FLAGS, WdfWmiProviderTracing, WdfWmiProviderEventOnly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -104,6 +104,18 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\
 
 ## -see-also
 
+<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
+
+
+
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
+
+
+
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancefireevent.md">WdfWmiInstanceFireEvent</a>
 
 
@@ -112,19 +124,7 @@ The <b>WDF_WMI_PROVIDER_FLAGS</b> enumeration is used in the <a href="..\wdfwmi\
 
 
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
-
-
-
-<a href="..\wdfwmi\ne-wdfwmi-_wdf_wmi_provider_control.md">WdfWmiInstanceControl</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidergettracinghandle.md">WdfWmiProviderGetTracingHandle</a>
-
-
-
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
 
 
 

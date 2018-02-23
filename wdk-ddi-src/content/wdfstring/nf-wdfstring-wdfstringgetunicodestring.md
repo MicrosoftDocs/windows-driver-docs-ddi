@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 39041953-11ef-4f31-9b7e-09ce40b6b930
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfstring/WdfStringGetUnicodeString, WdfStringGetUnicodeString method, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, kmdf.wdfstringgetunicodestring, wdf.wdfstringgetunicodestring, WdfStringGetUnicodeString
+ms.keywords: WdfStringGetUnicodeString, kmdf.wdfstringgetunicodestring, WdfStringGetUnicodeString method, wdf.wdfstringgetunicodestring, DFStringObjectRef_d02387c6-8b77-479e-a72a-2b0a323f83a9.xml, wdfstring/WdfStringGetUnicodeString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

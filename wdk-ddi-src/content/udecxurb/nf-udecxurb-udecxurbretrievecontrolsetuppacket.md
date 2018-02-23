@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 09D9AB68-12DB-442F-897B-6C6BD8B5F030
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUrbRetrieveControlSetupPacket function [Buses], buses.udecxurbretrievecontrolsetuppacket, udecxurb/UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket
+ms.keywords: buses.udecxurbretrievecontrolsetuppacket, UdecxUrbRetrieveControlSetupPacket, udecxurb/UdecxUrbRetrieveControlSetupPacket, UdecxUrbRetrieveControlSetupPacket function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

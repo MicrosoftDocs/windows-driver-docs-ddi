@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 91740445-e380-4798-a553-e7d502d2ce92
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestUnmarkCancelable, WdfRequestUnmarkCancelable method, wdfrequest/WdfRequestUnmarkCancelable, kmdf.wdfrequestunmarkcancelable, DFRequestObjectRef_a20d187a-e056-4cb9-8efb-4021be144597.xml, wdf.wdfrequestunmarkcancelable
+ms.keywords: WdfRequestUnmarkCancelable method, WdfRequestUnmarkCancelable, kmdf.wdfrequestunmarkcancelable, DFRequestObjectRef_a20d187a-e056-4cb9-8efb-4021be144597.xml, wdf.wdfrequestunmarkcancelable, wdfrequest/WdfRequestUnmarkCancelable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -266,7 +266,7 @@ VOID
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcomplete.md">WdfRequestComplete</a>
+<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_cancel.md">EvtRequestCancel</a>
 
 
 

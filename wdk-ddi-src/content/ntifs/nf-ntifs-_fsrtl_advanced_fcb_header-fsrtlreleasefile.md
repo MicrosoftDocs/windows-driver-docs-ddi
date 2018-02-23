@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dd3764ee-35bd-45c8-acfe-5c2acb9ea185
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlReleaseFile, ntifs/FsRtlReleaseFile, fsrtlref_301a078d-fbc5-4d2d-84f3-e0a1214731a9.xml, FsRtlReleaseFile function [Installable File System Drivers], ifsk.fsrtlreleasefile
+ms.keywords: ifsk.fsrtlreleasefile, FsRtlReleaseFile, FsRtlReleaseFile function [Installable File System Drivers], fsrtlref_301a078d-fbc5-4d2d-84f3-e0a1214731a9.xml, ntifs/FsRtlReleaseFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

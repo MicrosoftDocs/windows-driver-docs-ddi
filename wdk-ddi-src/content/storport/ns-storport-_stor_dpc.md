@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bb73217c-b159-4fd8-8cb3-334326a651ba
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml, storport/STOR_DPC, storage.stor_dpc, _STOR_DPC, STOR_DPC structure [Storage Devices], STOR_DPC, *PSTOR_DPC
+ms.keywords: storport/STOR_DPC, storage.stor_dpc, structs-general_e1bef2e1-9703-433c-b8a1-daf30db1aaf6.xml, STOR_DPC, *PSTOR_DPC, _STOR_DPC, STOR_DPC structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -58,11 +58,11 @@ The STOR_DPC structure is an opaque structure that represents a DPC object. Do n
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
-
-
-
 <a href="..\storport\nf-storport-storportissuedpc.md">StorPortIssueDpc</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializedpc.md">StorPortInitializeDpc</a>
 
 
 

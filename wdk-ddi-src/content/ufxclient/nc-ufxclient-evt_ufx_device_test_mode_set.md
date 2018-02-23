@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_DEVICE_TEST_MODE_SET
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -82,6 +82,11 @@ typedef EVT_UFX_DEVICE_TEST_MODE_SET PFN_UFX_DEVICE_TEST_MODE_SET;
 
 
 
+#### - UfxDevice [in]
+
+The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+
+
 #### - TestMode [in]
 
 Test mode selector value as defined by the USB 2.0 Specification.  These values are defined in usbfnbase.h
@@ -97,11 +102,6 @@ Test mode selector value as defined by the USB 2.0 Specification.  These values 
 <li>USB_TEST_MODE_TEST_FORCE_ENABLE   0x05
 </li>
 </ul>
-
-#### - UfxDevice [in]
-
-The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
-
 
 ## -returns
 
@@ -178,11 +178,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
 
 
 

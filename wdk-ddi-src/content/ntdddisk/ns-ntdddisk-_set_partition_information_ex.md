@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a30c10d4-5e85-4a59-b262-054a6fdc2fb8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntdddisk/PSET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], *PSET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX, structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml, storage.set_partition_information_ex, _SET_PARTITION_INFORMATION_EX, ntdddisk/SET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX structure [Storage Devices]
+ms.keywords: SET_PARTITION_INFORMATION_EX structure [Storage Devices], structs-disk_5eaa53e2-feaf-404f-a2a8-174ae77bfab5.xml, ntdddisk/SET_PARTITION_INFORMATION_EX, storage.set_partition_information_ex, *PSET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX, PSET_PARTITION_INFORMATION_EX structure pointer [Storage Devices], PSET_PARTITION_INFORMATION_EX, ntdddisk/PSET_PARTITION_INFORMATION_EX, _SET_PARTITION_INFORMATION_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_PARTITION_INFORMATION_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PSET_PARTITION_INFORMATION_EX, SET_PARTITION_INFORMATION_EX"
+req.typenames: SET_PARTITION_INFORMATION_EX, *PSET_PARTITION_INFORMATION_EX
 ---
 
 # _SET_PARTITION_INFORMATION_EX structure
@@ -108,11 +108,11 @@ In the case of GPT partitions, any value that can be retrieved from the partitio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info_ex.md">IOCTL_DISK_SET_PARTITION_INFO_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>
 
 
 

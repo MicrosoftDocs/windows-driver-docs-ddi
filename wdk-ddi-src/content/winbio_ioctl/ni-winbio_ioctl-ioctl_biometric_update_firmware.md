@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_UPDATE_FIRMWARE
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 

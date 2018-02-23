@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9a4d04de-2c44-4f13-ac6f-32e2fe879e4e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.getportattributesbywwn_out, *PGetPortAttributesByWWN_OUT, structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, GetPortAttributesByWWN_OUT structure [Storage Devices], GetPortAttributesByWWN_OUT, _GetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT, hbapiwmi/GetPortAttributesByWWN_OUT, hbapiwmi/PGetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices]
+ms.keywords: hbapiwmi/GetPortAttributesByWWN_OUT, structs-Fibre_bf13c322-2b55-4113-8e04-5cacfecbea8e.xml, GetPortAttributesByWWN_OUT structure [Storage Devices], hbapiwmi/PGetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT, storage.getportattributesbywwn_out, _GetPortAttributesByWWN_OUT, PGetPortAttributesByWWN_OUT structure pointer [Storage Devices], *PGetPortAttributesByWWN_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPortAttributesByWWN_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPortAttributesByWWN_OUT, GetPortAttributesByWWN_OUT"
+req.typenames: GetPortAttributesByWWN_OUT, *PGetPortAttributesByWWN_OUT
 ---
 
 # _GetPortAttributesByWWN_OUT structure

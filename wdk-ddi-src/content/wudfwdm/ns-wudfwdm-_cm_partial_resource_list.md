@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f16b26f5-1f32-4c2e-83ec-0a0f79a4be85
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/CM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], _CM_PARTIAL_RESOURCE_LIST, kstruct_a_26d7ed25-e580-41e2-ae9d-5e06eb263e3d.xml, PCM_PARTIAL_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture], *PCM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST, kernel.cm_partial_resource_list, CM_PARTIAL_RESOURCE_LIST, wdm/PCM_PARTIAL_RESOURCE_LIST
+ms.keywords: "_CM_PARTIAL_RESOURCE_LIST, PCM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST, CM_PARTIAL_RESOURCE_LIST structure [Kernel-Mode Driver Architecture], wdm/PCM_PARTIAL_RESOURCE_LIST, kernel.cm_partial_resource_list, wdm/CM_PARTIAL_RESOURCE_LIST, *PCM_PARTIAL_RESOURCE_LIST, kstruct_a_26d7ed25-e580-41e2-ae9d-5e06eb263e3d.xml, PCM_PARTIAL_RESOURCE_LIST structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

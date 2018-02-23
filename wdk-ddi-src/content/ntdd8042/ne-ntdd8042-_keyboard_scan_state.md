@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: fd6cba1d-e32c-4ee8-b827-826e5065ca8b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntdd8042/GotE0, ntdd8042/KEYBOARD_SCAN_STATE, PKEYBOARD_SCAN_STATE enumeration pointer [Human Input Devices], KEYBOARD_SCAN_STATE enumeration [Human Input Devices], i8042ref_c83b037a-9874-4ae3-b951-9d37a1df03be.xml, ntdd8042/GotE1, ntdd8042/Normal, PKEYBOARD_SCAN_STATE, Normal, *PKEYBOARD_SCAN_STATE, _KEYBOARD_SCAN_STATE, GotE1, GotE0, hid.keyboard_scan_state, KEYBOARD_SCAN_STATE, ntdd8042/PKEYBOARD_SCAN_STATE
+ms.keywords: "*PKEYBOARD_SCAN_STATE, ntdd8042/GotE0, i8042ref_c83b037a-9874-4ae3-b951-9d37a1df03be.xml, ntdd8042/GotE1, PKEYBOARD_SCAN_STATE enumeration pointer [Human Input Devices], hid.keyboard_scan_state, ntdd8042/PKEYBOARD_SCAN_STATE, KEYBOARD_SCAN_STATE enumeration [Human Input Devices], KEYBOARD_SCAN_STATE, GotE1, GotE0, ntdd8042/Normal, PKEYBOARD_SCAN_STATE, ntdd8042/KEYBOARD_SCAN_STATE, Normal, _KEYBOARD_SCAN_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	KEYBOARD_SCAN_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PKEYBOARD_SCAN_STATE, KEYBOARD_SCAN_STATE"
+req.typenames: KEYBOARD_SCAN_STATE, *PKEYBOARD_SCAN_STATE
 ---
 
 # _KEYBOARD_SCAN_STATE enumeration

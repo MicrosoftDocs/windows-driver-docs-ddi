@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 05771d81-d2e1-4787-a190-e7ef4d9ebcc9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfobject_releaselock, wudfddi/IWDFObject::ReleaseLock, ReleaseLock method, IWDFObject interface, ReleaseLock method, UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, ReleaseLock, IWDFObject interface, ReleaseLock method, wdf.iwdfobject_releaselock, IWDFObject::ReleaseLock, IWDFObject
+ms.keywords: UMDFBaseObjectRef_bdc7490f-170b-42bb-91af-435ee5dc3e5a.xml, ReleaseLock method, IWDFObject interface, IWDFObject, wudfddi/IWDFObject::ReleaseLock, wdf.iwdfobject_releaselock, IWDFObject interface, ReleaseLock method, umdf.iwdfobject_releaselock, ReleaseLock, ReleaseLock method, IWDFObject::ReleaseLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

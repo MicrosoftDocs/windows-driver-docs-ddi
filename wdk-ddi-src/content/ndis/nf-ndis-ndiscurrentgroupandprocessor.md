@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 056f7f4b-152b-426a-b59e-0f6663b386a8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisCurrentGroupAndProcessor, ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, netvista.ndiscurrentgroupandprocessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], NdisCurrentGroupAndProcessor
+ms.keywords: ndis_processor_group_ref_99937404-ee3c-49f9-b714-df04f98113f1.xml, netvista.ndiscurrentgroupandprocessor, NdisCurrentGroupAndProcessor function [Network Drivers Starting with Windows Vista], NdisCurrentGroupAndProcessor, ndis/NdisCurrentGroupAndProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCurrentGroupAndProcessor
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCurrentGroupAndProcessor function

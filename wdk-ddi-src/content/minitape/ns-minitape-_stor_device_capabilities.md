@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 62BE93C6-8E1C-4430-BB07-C25E8D4076B0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], *PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], storage.stor_device_capabilities, _STOR_DEVICE_CAPABILITIES, storport/STOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES
+ms.keywords: "*PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES structure pointer [Storage Devices], storport/PSTOR_DEVICE_CAPABILITIES, PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES structure [Storage Devices], storage.stor_device_capabilities, storport/STOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES, _STOR_DEVICE_CAPABILITIES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_DEVICE_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_DEVICE_CAPABILITIES, STOR_DEVICE_CAPABILITIES"
+req.typenames: STOR_DEVICE_CAPABILITIES, *PSTOR_DEVICE_CAPABILITIES
 ---
 
 # _STOR_DEVICE_CAPABILITIES structure
@@ -125,7 +125,7 @@ Specifies whether <b>Device Manager</b> should suppress all installation dialog 
 
 ### -field SurpriseRemovalOK
 
-Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with <b>StorRemoveDevice</b> as the <b>PnPAction</b> in the <a href="..\minitape\ns-minitape-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in. 
+Specifies whether the miniport driver for the device can handle the case where the device is removed before Storport can send SRB_FUNCTION_PNP with <b>StorRemoveDevice</b> as the <b>PnPAction</b> in the <a href="..\srb\ns-srb-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If <b>SurpriseRemovalOK</b> is set to <b>TRUE</b>, the device can be safely removed from its immediate parent regardless of the state that its driver is in. 
 
 
 ### -field NoDisplayInUI
@@ -149,26 +149,26 @@ Specifies whether the driver for the underlying bus can drive the device if ther
 
 
 
-When a miniport driver receives an SRB in its <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a <a href="..\minitape\ns-minitape-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If the <b>PnPAction</b> member of the SRB is <b>StorQueryCapabilities</b>, the miniport can return a <b>STOR_DEVICE_CAPABILITIES</b> structure in the <b>DataBuffer</b> member of the SRB.
+When a miniport driver receives an SRB in its <a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a> routine where the SRB function is SRB_FUNCTION_PNP, the SRB is formatted as a <a href="..\srb\ns-srb-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a> structure. If the <b>PnPAction</b> member of the SRB is <b>StorQueryCapabilities</b>, the miniport can return a <b>STOR_DEVICE_CAPABILITIES</b> structure in the <b>DataBuffer</b> member of the SRB.
 
 Storport sends this structure to the miniport with all members initialized to 0. On return, only the <b>Removable</b> field is used from this structure.
 
-Starting with Windows 8, miniports should use the <a href="..\minitape\ns-minitape-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a> structure to indicate support for additional capabilities.
+Starting with Windows 8, miniports should use the <a href="..\srb\ns-srb-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a> structure to indicate support for additional capabilities.
 
 
 
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
+
+
+
+<a href="..\srb\ns-srb-_scsi_pnp_request_block.md">SCSI_PNP_REQUEST_BLOCK</a>
 
 
 
 <a href="..\wdm\ns-wdm-_device_capabilities.md">DEVICE_CAPABILITIES</a>
-
-
-
-<a href="..\minitape\ns-minitape-_stor_device_capabilities_ex.md">STOR_DEVICE_CAPABILITIES_EX</a>
 
 
 

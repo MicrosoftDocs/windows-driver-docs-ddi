@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c4373f7b-cc88-45da-a140-ead1c6891c11
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwopensection, ZwOpenSection, wdm/ZwOpenSection, wdm/NtOpenSection, k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, NtOpenSection, ZwOpenSection routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/NtOpenSection, ZwOpenSection, k111_51851f81-8825-499b-9e7e-36faa8f53b23.xml, wdm/ZwOpenSection, kernel.zwopensection, NtOpenSection, ZwOpenSection routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,15 +114,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
@@ -130,11 +122,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatesection.md">ZwCreateSection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

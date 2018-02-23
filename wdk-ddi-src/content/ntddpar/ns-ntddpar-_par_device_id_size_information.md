@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: b48624cd-e8fb-4152-8e34-9cb1e542f62b
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddpar/PAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION structure [Parallel Ports], PAR_DEVICE_ID_SIZE_INFORMATION, _PAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION, ntddpar/PPAR_DEVICE_ID_SIZE_INFORMATION, PPAR_DEVICE_ID_SIZE_INFORMATION, parports.par_device_id_size_information, cisspd_388a088d-9dd7-4a6c-99ad-b1e725d91f72.xml, PPAR_DEVICE_ID_SIZE_INFORMATION structure pointer [Parallel Ports]
+ms.keywords: PPAR_DEVICE_ID_SIZE_INFORMATION structure pointer [Parallel Ports], ntddpar/PPAR_DEVICE_ID_SIZE_INFORMATION, _PAR_DEVICE_ID_SIZE_INFORMATION, cisspd_388a088d-9dd7-4a6c-99ad-b1e725d91f72.xml, parports.par_device_id_size_information, ntddpar/PAR_DEVICE_ID_SIZE_INFORMATION, *PPAR_DEVICE_ID_SIZE_INFORMATION, PAR_DEVICE_ID_SIZE_INFORMATION structure [Parallel Ports], PAR_DEVICE_ID_SIZE_INFORMATION, PPAR_DEVICE_ID_SIZE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

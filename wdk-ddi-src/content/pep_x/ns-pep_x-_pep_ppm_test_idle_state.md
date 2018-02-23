@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2B465848-6564-404F-8F5B-E761866278C5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_PPM_TEST_IDLE_STATE, PPEP_PPM_TEST_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_TEST_IDLE_STATE, _PEP_PPM_TEST_IDLE_STATE, PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE, kernel.pep_ppm_test_idle_state
+ms.keywords: "_PEP_PPM_TEST_IDLE_STATE, pepfx/PPEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_PPM_TEST_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_TEST_IDLE_STATE, PPEP_PPM_TEST_IDLE_STATE, pepfx/PEP_PPM_TEST_IDLE_STATE, kernel.pep_ppm_test_idle_state"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_TEST_IDLE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE"
+req.typenames: PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE, PEP_PPM_TEST_IDLE_STATE, *PPEP_PPM_TEST_IDLE_STATE
 ---
 
 # _PEP_PPM_TEST_IDLE_STATE structure
@@ -95,7 +95,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>
 
 
 
@@ -103,11 +103,11 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186826">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186831">PEP_NOTIFY_PPM_TEST_IDLE_STATE</a>
 
 
 

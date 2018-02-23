@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ST_PARAMETER_DATA structure [Storage Devices], PST_PARAMETER_DATA structure pointer [Storage Devices], storage.st_parameter_data, scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, PST_PARAMETER_DATA, *PST_PARAMETER_DATA, ST_PARAMETER_DATA
+ms.keywords: ST_PARAMETER_DATA structure [Storage Devices], storage.st_parameter_data, ST_PARAMETER_DATA, PST_PARAMETER_DATA structure pointer [Storage Devices], *PST_PARAMETER_DATA, PST_PARAMETER_DATA, scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ST_PARAMETER_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PST_PARAMETER_DATA, ST_PARAMETER_DATA"
+req.typenames: ST_PARAMETER_DATA, *PST_PARAMETER_DATA
 ---
 
 # ST_PARAMETER_DATA structure
@@ -89,7 +89,7 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-rt_parameter_data.md">RT_PARAMETER_DATA</a>
+<a href="..\storport\ns-storport-rt_parameter_data.md">RT_PARAMETER_DATA</a>
 
 
 

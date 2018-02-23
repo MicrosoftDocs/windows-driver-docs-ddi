@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4c1407e9-2e4d-41cc-8d50-017c8c2bf20f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWSK_TDI_MAP structure pointer [Network Drivers Starting with Windows Vista], wskref_7be2eb13-c9b8-4fc8-bc00-b3d168353ed0.xml, WSK_TDI_MAP structure [Network Drivers Starting with Windows Vista], WSK_TDI_MAP, wsk/PWSK_TDI_MAP, netvista.wsk_tdi_map, *PWSK_TDI_MAP, wsk/WSK_TDI_MAP, PWSK_TDI_MAP, _WSK_TDI_MAP
+ms.keywords: wsk/WSK_TDI_MAP, WSK_TDI_MAP structure [Network Drivers Starting with Windows Vista], wsk/PWSK_TDI_MAP, *PWSK_TDI_MAP, _WSK_TDI_MAP, WSK_TDI_MAP, PWSK_TDI_MAP, wskref_7be2eb13-c9b8-4fc8-bc00-b3d168353ed0.xml, PWSK_TDI_MAP structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_tdi_map
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

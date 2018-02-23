@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PHFP_BYPASS_CODEC_ID_V1, HFP_BYPASS_CODEC_ID_V1"
+req.typenames: HFP_BYPASS_CODEC_ID_V1, *PHFP_BYPASS_CODEC_ID_V1
 ---
 
 # IOCTL_BTH_SDP_SUBMIT_RECORD_WITH_INFO IOCTL
@@ -178,11 +178,11 @@ A member of the structure passed to the input buffer, or the stream passed to th
 
 ## -see-also
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_record.md">BTH_SDP_RECORD</a>
-
-
-
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_submit_record.md">IOCTL_BTH_SDP_SUBMIT_RECORD</a>
+
+
+
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_record.md">BTH_SDP_RECORD</a>
 
 
 

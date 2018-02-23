@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c3e209b5-9925-4911-8c42-0f15c1c710be
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, ifsk.fsrtlfastlock, ntifs/FsRtlFastLock, FsRtlFastLock, FsRtlFastLock function [Installable File System Drivers]
+ms.keywords: ntifs/FsRtlFastLock, ifsk.fsrtlfastlock, fsrtlref_c60db87b-ac5a-4c60-83f2-7381e0156806.xml, FsRtlFastLock function [Installable File System Drivers], FsRtlFastLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -136,26 +136,6 @@ TBD
 
 
 
-#### - AlreadySynchronized [in]
-
-This parameter is obsolete, but is retained for compatibility with legacy drivers.
-
-
-#### - Context [in]
-
-Optional pointer to a context to use when releasing the byte-range lock. 
-
-
-#### - ExclusiveLock [in]
-
-Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.
-
-
-#### - FailImmediately [in]
-
-Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. 
-
-
 #### - FileLock [in]
 
 Pointer to the FILE_LOCK structure for the file. This structure must have been initialized by a previous call to <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlallocatefilelock~r1.md">FsRtlAllocateFileLock</a> or <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializefilelock~r2.md">FsRtlInitializeFileLock</a>.
@@ -171,16 +151,6 @@ Pointer to the file object for the open file. The file object must have been cre
 Pointer to a variable that specifies the starting byte offset within the file of the range to be locked.
 
 
-#### - Iosb [out]
-
-Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. 
-
-
-#### - Key [in]
-
-The key to be assigned to the byte-range lock.
-
-
 #### - Length [in]
 
 Pointer to a variable that specifies the length in bytes of the range to be locked.
@@ -189,6 +159,36 @@ Pointer to a variable that specifies the length in bytes of the range to be lock
 #### - ProcessId [in]
 
 Pointer to the process ID for the process requesting the byte-range lock.
+
+
+#### - Key [in]
+
+The key to be assigned to the byte-range lock.
+
+
+#### - FailImmediately [in]
+
+Boolean value specifying whether the lock request should fail if the lock cannot be granted immediately. If the caller can be put into a wait state until the request is granted, set <i>FailImmediately</i> to <b>FALSE</b>. If it cannot, set <i>FailImmediately</i> to <b>TRUE</b>. 
+
+
+#### - ExclusiveLock [in]
+
+Set to <b>TRUE</b> if an exclusive lock is requested, <b>FALSE</b> if a shared lock is requested.
+
+
+#### - Iosb [out]
+
+Pointer to a caller-allocated IO_STATUS_BLOCK structure that receives status information about the lock request. 
+
+
+#### - Context [in]
+
+Optional pointer to a context to use when releasing the byte-range lock. 
+
+
+#### - AlreadySynchronized [in]
+
+This parameter is obsolete, but is retained for compatibility with legacy drivers.
 
 
 ## -remarks

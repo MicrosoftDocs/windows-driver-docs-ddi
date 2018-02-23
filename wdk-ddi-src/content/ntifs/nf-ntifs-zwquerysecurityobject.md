@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bc3c494d-890c-4699-a272-62cbcc234cdd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NtQuerySecurityObject, ntifs/NtQuerySecurityObject, ntifs/ZwQuerySecurityObject, k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, kernel.zwquerysecurityobject, ZwQuerySecurityObject, ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwQuerySecurityObject routine [Kernel-Mode Driver Architecture], kernel.zwquerysecurityobject, ZwQuerySecurityObject, k111_50bbb447-b993-4020-a8d7-e54f0b31e84e.xml, NtQuerySecurityObject, ntifs/NtQuerySecurityObject, ntifs/ZwQuerySecurityObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -231,11 +231,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltquerysecurityobject.md">FltQuerySecurityObject</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556635">SECURITY_INFORMATION</a>
 
 
 

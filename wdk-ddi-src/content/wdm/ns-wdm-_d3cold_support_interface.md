@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], D3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, *PD3COLD_SUPPORT_INTERFACE
+ms.keywords: D3COLD_SUPPORT_INTERFACE, wdm/D3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], *PD3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, PD3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3COLD_SUPPORT_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE"
+req.typenames: D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE
 req.product: Windows 10 or later.
 ---
 
@@ -94,12 +94,12 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field SetD3ColdSupport
@@ -133,30 +133,18 @@ A pointer to a <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetL
 
 A device driver that successfully queries for the GUID_D3COLD_SUPPORT_INTERFACE interface receives a pointer to a <b>D3COLD_SUPPORT_INTERFACE</b> structure in which the pointers to the routines in the interface are all non-NULL and valid.
 
-The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
+The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
-
-
-
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
-
-
-
 <a href="..\wdm\nc-wdm-set_d3cold_support.md">SetD3ColdSupport</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -164,11 +152,23 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 
-<a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 
-<a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetBusDriverD3ColdSupport</a>
+
+
+
+<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
 
 
 

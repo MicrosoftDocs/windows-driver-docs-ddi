@@ -7,8 +7,8 @@ old-location: stream\ksproperty_general.htm
 old-project: stream
 ms.assetid: 45D94211-4756-4D3C-8512-2AF7953CFADC
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, stream.ksproperty_general, KSPROPERTY_GENERAL_COMPONENTID, KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: stream.ksproperty_general, ks/KSPROPERTY_GENERAL_COMPONENTID, ks/KSPROPERTY_GENERAL, KSPROPERTY_GENERAL_COMPONENTID, KSPROPERTY_GENERAL, KSPROPERTY_GENERAL enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

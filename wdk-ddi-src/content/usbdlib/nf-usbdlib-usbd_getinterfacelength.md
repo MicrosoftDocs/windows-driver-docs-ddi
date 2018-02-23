@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: bcfc2b11-d89c-40f8-95ce-07a599e2a2bb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_GetInterfaceLength routine [Buses], USBD_GetInterfaceLength, usbdlib/USBD_GetInterfaceLength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml, buses.usbd_getinterfacelength
+ms.keywords: usbdlib/USBD_GetInterfaceLength, usbfunc_d462af93-f7ec-429f-9719-4b09af55236c.xml, USBD_GetInterfaceLength, USBD_GetInterfaceLength routine [Buses], buses.usbd_getinterfacelength
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

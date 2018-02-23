@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 05e889b1-4b18-4122-9332-69778017e15c
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PAR_SET_INFORMATION, ntddpar/PPAR_SET_INFORMATION, PPAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports], ntddpar/PAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], *PPAR_SET_INFORMATION, _PAR_SET_INFORMATION, cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, parports.par_set_information
+ms.keywords: ntddpar/PPAR_SET_INFORMATION, PPAR_SET_INFORMATION structure pointer [Parallel Ports], cisspd_8390a7d0-a4b2-4970-94f8-fd270f2d8256.xml, PPAR_SET_INFORMATION, PAR_SET_INFORMATION, PAR_SET_INFORMATION structure [Parallel Ports], parports.par_set_information, *PPAR_SET_INFORMATION, _PAR_SET_INFORMATION, ntddpar/PAR_SET_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PAR_SET_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
+req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 ---
 
 # _PAR_SET_INFORMATION structure
@@ -83,15 +83,15 @@ This structure is used with an <a href="..\ntddpar\ni-ntddpar-ioctl_par_set_info
 
 ## -see-also
 
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
+
+
+
 <a href="..\ntddpar\ns-ntddpar-_par_query_information.md">PAR_QUERY_INFORMATION</a>
 
 
 
 <a href="..\ntddpar\ni-ntddpar-ioctl_par_query_information.md">IOCTL_PAR_QUERY_INFORMATION</a>
-
-
-
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_set_information.md">IOCTL_PAR_SET_INFORMATION</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 1C6DDEAE-5E49-40AF-9667-3C185A82BDE8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxUsbEndpointInitSetEndpointAddress, UdecxUsbEndpointInitSetEndpointAddress function [Buses], udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress, buses.udecxusbendpointinitsetendpointaddress
+ms.keywords: UdecxUsbEndpointInitSetEndpointAddress function [Buses], UdecxUsbEndpointInitSetEndpointAddress, buses.udecxusbendpointinitsetendpointaddress, udecxusbendpoint/UdecxUsbEndpointInitSetEndpointAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,15 +91,15 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt595932">Architecture: USB Device Emulation (UDE)</a>
+
+
+
+<a href="..\udecxusbendpoint\nf-udecxusbendpoint-udecxusbendpointcreate.md">UdecxUsbEndpointCreate</a>
 
 
 

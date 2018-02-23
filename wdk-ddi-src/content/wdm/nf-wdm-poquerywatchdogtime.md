@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4833d4e2-295a-4d38-9ebf-8af68eeff948
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PoQueryWatchdogTime, kernel.poquerywatchdogtime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, PoQueryWatchdogTime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoQueryWatchdogTime, portn_1fe369ed-f8f0-4459-943f-a624764c279b.xml, wdm/PoQueryWatchdogTime, PoQueryWatchdogTime routine [Kernel-Mode Driver Architecture], kernel.poquerywatchdogtime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

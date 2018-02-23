@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ee066013-99fb-4a43-82f9-edbad7b5a8e9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltApiRef_a_to_d_0abdd89d-fe36-4546-a3bd-87d7d132f73e.xml, FltCurrentOplockH, ifsk.fltcurrentoplockh, fltkernel/FltCurrentOplockH, FltCurrentOplockH routine [Installable File System Drivers]
+ms.keywords: ifsk.fltcurrentoplockh, FltApiRef_a_to_d_0abdd89d-fe36-4546-a3bd-87d7d132f73e.xml, FltCurrentOplockH routine [Installable File System Drivers], FltCurrentOplockH, fltkernel/FltCurrentOplockH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,11 +95,11 @@ For more information about opportunistic locks, see the Microsoft Windows SDK do
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcurrentoplockh.md">FsRtlCurrentOplockH</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltinitializeoplock.md">FltInitializeOplock</a>
 
 
 

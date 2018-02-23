@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 41A8B278-3735-41CB-B8D1-45FBF04465AD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pofxregisterdevice, wdm/PoFxRegisterDevice, PoFxRegisterDevice, PoFxRegisterDevice routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoFxRegisterDevice routine [Kernel-Mode Driver Architecture], kernel.pofxregisterdevice, PoFxRegisterDevice, wdm/PoFxRegisterDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -165,6 +165,18 @@ For information about how the KMDF driver for a multiple-component device regist
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-pofxstartdevicepowermanagement.md">PoFxStartDevicePowerManagement</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
@@ -173,23 +185,11 @@ For information about how the KMDF driver for a multiple-component device regist
 
 
 
-<a href="..\wdm\nf-wdm-pofxstartdevicepowermanagement.md">PoFxStartDevicePowerManagement</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxactivatecomponent.md">PoFxActivateComponent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_post_po_fx_register_device.md">EvtDeviceWdmPostPoFxRegisterDevice</a>
+<a href="..\wdm\nf-wdm-pofxidlecomponent.md">PoFxIdleComponent</a>
 
 
 

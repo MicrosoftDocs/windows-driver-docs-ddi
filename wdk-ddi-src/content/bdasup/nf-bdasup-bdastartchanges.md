@@ -7,8 +7,8 @@ old-location: stream\bdastartchanges.htm
 old-project: stream
 ms.assetid: ee54b382-7b69-4d8d-8728-fe2bff7884cf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.bdastartchanges, BdaStartChanges function [Streaming Media Devices], bdasup/BdaStartChanges, BdaStartChanges, bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml
+ms.date: 2/22/2018
+ms.keywords: stream.bdastartchanges, BdaStartChanges function [Streaming Media Devices], BdaStartChanges, bdasup/BdaStartChanges, bdaref_16498957-566e-405d-b573-3a2eb75a6bcb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	BdaStartChanges
 product: Windows
 targetos: Windows
-req.typenames: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN"
+req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
 
 # BdaStartChanges function
@@ -102,18 +102,6 @@ Calling the <b>BdaStartChanges</b> function causes any previously requested topo
 
 ## -see-also
 
-<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
-
-
-
-<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556518">BDA_CHANGE_STATE</a>
 
 
@@ -122,9 +110,21 @@ Calling the <b>BdaStartChanges</b> function causes any previously requested topo
 
 
 
- 
+<a href="..\ks\nc-ks-pfnkshandler.md">KStrMethodHandler</a>
+
+
+
+<a href="..\bdasup\nf-bdasup-bdacommitchanges.md">BdaCommitChanges</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563418">KSMETHOD_BDA_START_CHANGES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaStartChanges function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaStartChanges function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

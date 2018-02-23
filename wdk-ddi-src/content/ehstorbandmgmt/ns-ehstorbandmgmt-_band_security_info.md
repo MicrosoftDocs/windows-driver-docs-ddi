@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 310F996F-F350-4F25-BC8A-386513908557
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: BAND_LOCATION_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, storage.band_security_info, BAND_SECURITY_INFO, BAND_LOCATION_INFO structure [Storage Devices], BAND_SECURITY_INFO structure [Storage Devices], PBAND_LOCATION_INFO, _BAND_SECURITY_INFO, PBAND_LOCATION_INFO structure pointer [Storage Devices], ehstorbandmgmt/BAND_SECURITY_INFO, *PBAND_SECURITY_INFO
+ms.keywords: PBAND_LOCATION_INFO structure pointer [Storage Devices], PBAND_LOCATION_INFO, ehstorbandmgmt/PBAND_LOCATION_INFO, _BAND_SECURITY_INFO, BAND_SECURITY_INFO structure [Storage Devices], *PBAND_SECURITY_INFO, BAND_SECURITY_INFO, BAND_LOCATION_INFO, storage.band_security_info, BAND_LOCATION_INFO structure [Storage Devices], ehstorbandmgmt/BAND_SECURITY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BAND_LOCATION_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PBAND_SECURITY_INFO, BAND_SECURITY_INFO"
+req.typenames: BAND_SECURITY_INFO, *PBAND_SECURITY_INFO
 ---
 
 # _BAND_SECURITY_INFO structure
@@ -218,15 +218,11 @@ When <b>BAND_SECURITY_INFO</b> is used in an input parameter set, <b>CryptoAlgoI
 
 
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
-
-
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_create_band.md">IOCTL_EHSTOR_BANDMGMT_CREATE_BAND</a>
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_enumerate_bands.md">IOCTL_EHSTOR_BANDMGMT_ENUMERATE_BANDS</a>
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_table_entry.md">BAND_TABLE_ENTRY</a>
 
 
 

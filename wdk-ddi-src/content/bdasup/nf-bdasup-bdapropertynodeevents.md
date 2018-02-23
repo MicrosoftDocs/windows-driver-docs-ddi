@@ -7,8 +7,8 @@ old-location: stream\bdapropertynodeevents.htm
 old-project: stream
 ms.assetid: 8e646426-00c8-4a8c-8256-13a27ecea158
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: BdaPropertyNodeEvents function [Streaming Media Devices], bdasup/BdaPropertyNodeEvents, stream.bdapropertynodeevents, bdaref_2c17ed4f-8a4c-41bc-b543-9b2e5b82834b.xml, BdaPropertyNodeEvents
+ms.date: 2/22/2018
+ms.keywords: stream.bdapropertynodeevents, BdaPropertyNodeEvents function [Streaming Media Devices], bdaref_2c17ed4f-8a4c-41bc-b543-9b2e5b82834b.xml, BdaPropertyNodeEvents, bdasup/BdaPropertyNodeEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	BdaPropertyNodeEvents
 product: Windows
 targetos: Windows
-req.typenames: "*PKSP_BDA_NODE_PIN, KSP_BDA_NODE_PIN"
+req.typenames: KSP_BDA_NODE_PIN, *PKSP_BDA_NODE_PIN
 ---
 
 # BdaPropertyNodeEvents function
@@ -77,7 +77,7 @@ TBD
 
 ### -param pKSProperty [in]
 
-Points to a <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property and request type of the property request.
+Points to a <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property and request type of the property request.
 
 
 ### -param pguidProperty [out, optional]
@@ -114,7 +114,7 @@ A BDA minidriver calls the <b>BdaPropertyNodeEvents</b> function to retrieve the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564326">KSPROPERTY_BDA_NODE_EVENTS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -126,5 +126,5 @@ A BDA minidriver calls the <b>BdaPropertyNodeEvents</b> function to retrieve the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaPropertyNodeEvents function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20BdaPropertyNodeEvents function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

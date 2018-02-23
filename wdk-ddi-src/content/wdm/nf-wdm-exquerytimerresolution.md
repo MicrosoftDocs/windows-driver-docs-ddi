@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2648AD10-B2D7-4F24-A508-239DA6AF551D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exquerytimerresolution, ExQueryTimerResolution, ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], wdm/ExQueryTimerResolution
+ms.keywords: ExQueryTimerResolution routine [Kernel-Mode Driver Architecture], ExQueryTimerResolution, kernel.exquerytimerresolution, wdm/ExQueryTimerResolution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -108,11 +108,11 @@ When your driver calls a routine such as <a href="..\wdm\nf-wdm-kesettimerex.md"
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exsettimerresolution.md">ExSetTimerResolution</a>
-
-
-
 <a href="..\wdm\nf-wdm-kesettimerex.md">KeSetTimerEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-exsettimerresolution.md">ExSetTimerResolution</a>
 
 
 

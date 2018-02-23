@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5781FE16-6CC8-425B-B14D-C78901D81A75
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbPacketSetCompletionRoutine, VmbPacketSetCompletionRoutine function [Network Drivers Starting with Windows Vista], VmbPacketSetCompletionRoutine, netvista.vmbpacketsetcompletionroutine
+ms.keywords: VmbPacketSetCompletionRoutine function [Network Drivers Starting with Windows Vista], VmbPacketSetCompletionRoutine, vmbuskernelmodeclientlibapi/VmbPacketSetCompletionRoutine, netvista.vmbpacketsetcompletionroutine
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,15 +98,15 @@ This function does not return a value.
 
 
 
-<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_packet_completion_routine.md">EvtVmbPacketCompletionRoutine</a>
 
 
 
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsendwithexternalpfns.md">VmbPacketSendWithExternalPfns</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbpacketsend.md">VmbPacketSend</a>
 
 
 

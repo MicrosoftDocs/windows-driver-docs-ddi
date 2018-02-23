@@ -7,8 +7,8 @@ old-location: stream\transportvideoparms.htm
 old-project: stream
 ms.assetid: 14bc6133-78f1-4f25-8638-9348245180fa
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: tagTRANSPORTVIDEOPARMS, PTRANSPORTVIDEOPARMS structure pointer [Streaming Media Devices], vidcapstruct_6438f7be-abd8-4d45-969d-6f80e7833216.xml, ksmedia/TRANSPORTVIDEOPARMS, PTRANSPORTVIDEOPARMS, stream.transportvideoparms, TRANSPORTVIDEOPARMS, *PTRANSPORTVIDEOPARMS, ksmedia/PTRANSPORTVIDEOPARMS, TRANSPORTVIDEOPARMS structure [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: PTRANSPORTVIDEOPARMS, TRANSPORTVIDEOPARMS structure [Streaming Media Devices], PTRANSPORTVIDEOPARMS structure pointer [Streaming Media Devices], ksmedia/PTRANSPORTVIDEOPARMS, vidcapstruct_6438f7be-abd8-4d45-969d-6f80e7833216.xml, tagTRANSPORTVIDEOPARMS, stream.transportvideoparms, *PTRANSPORTVIDEOPARMS, TRANSPORTVIDEOPARMS, ksmedia/TRANSPORTVIDEOPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

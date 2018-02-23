@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_set_property.htm
 old-project: pos
 ms.assetid: 8907a99f-37b0-4c09-b92a-ac720328020e
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.ioctl_point_of_service_set_property, IOCTL_POINT_OF_SERVICE_SET_PROPERTY control code, IOCTL_POINT_OF_SERVICE_SET_PROPERTY, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_SET_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

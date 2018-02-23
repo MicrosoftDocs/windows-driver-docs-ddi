@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a681b704-80cc-406a-b60f-31ef5f953164
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMFlushLog, netvista.ndismflushlog, NdisMFlushLog function [Network Drivers Starting with Windows Vista], ndis/NdisMFlushLog, miniport_logging_ref_9de3f5b8-80d8-4f98-82ac-c4b490a3c8a4.xml
+ms.keywords: ndis/NdisMFlushLog, NdisMFlushLog function [Network Drivers Starting with Windows Vista], netvista.ndismflushlog, NdisMFlushLog, miniport_logging_ref_9de3f5b8-80d8-4f98-82ac-c4b490a3c8a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMFlushLog
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMFlushLog function
@@ -101,11 +101,11 @@ The driver must release any spin lock it is holding before calling
 
 
 
-<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bdd76553-d551-4451-8a34-122bc0639665
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, *PFEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], PFEATURE_DATA_CDRW_CAV_WRITE, FEATURE_DATA_CDRW_CAV_WRITE, structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml, _FEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices]
+ms.keywords: ntddmmc/FEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE structure pointer [Storage Devices], *PFEATURE_DATA_CDRW_CAV_WRITE, ntddmmc/PFEATURE_DATA_CDRW_CAV_WRITE, storage.feature_data_cdrw_cav_write, FEATURE_DATA_CDRW_CAV_WRITE structure [Storage Devices], _FEATURE_DATA_CDRW_CAV_WRITE, PFEATURE_DATA_CDRW_CAV_WRITE, structs-CD-ROM_2ebe5ae8-15be-47a8-9bb8-d638f6033e6b.xml, FEATURE_DATA_CDRW_CAV_WRITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

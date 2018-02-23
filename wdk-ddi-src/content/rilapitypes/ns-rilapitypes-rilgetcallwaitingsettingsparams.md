@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 87d6c7a0-04ad-4a4e-89c2-7e5d581bd543
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILGETCALLWAITINGSETTINGSPARAMS, netvista.rilgetcallwaitingsettingsparams_2, *LPRILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETCALLWAITINGSETTINGSPARAMS
+ms.keywords: rilapitypes/RILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETCALLWAITINGSETTINGSPARAMS, *LPRILGETCALLWAITINGSETTINGSPARAMS, netvista.rilgetcallwaitingsettingsparams_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETCALLWAITINGSETTINGSPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGETCALLWAITINGSETTINGSPARAMS, RILGETCALLWAITINGSETTINGSPARAMS"
+req.typenames: RILGETCALLWAITINGSETTINGSPARAMS, *LPRILGETCALLWAITINGSETTINGSPARAMS
 req.product: Windows 10 or later.
 ---
 

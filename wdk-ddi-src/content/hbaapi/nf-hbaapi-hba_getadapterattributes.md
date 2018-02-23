@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a172f53c-9993-4d52-ae3f-35a8ab5745f6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fibreHBA_rtns_f7675f0c-2f71-428e-871b-90c51a1b5bc4.xml, storage.hba_getadapterattributes, HBA_GetAdapterAttributes routine [Storage Devices], HBA_GetAdapterAttributes, hbaapi/HBA_GetAdapterAttributes
+ms.keywords: storage.hba_getadapterattributes, hbaapi/HBA_GetAdapterAttributes, HBA_GetAdapterAttributes routine [Storage Devices], fibreHBA_rtns_f7675f0c-2f71-428e-871b-90c51a1b5bc4.xml, HBA_GetAdapterAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -80,14 +80,14 @@ TBD
 
 
 
-#### - HbaAdapterAttributes [out]
-
-Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a> that holds the HBA attributes. 
-
-
 #### - HbaHandle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the port is located.  
+
+
+#### - HbaAdapterAttributes [out]
+
+Contains, on return, a structure of type <a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a> that holds the HBA attributes. 
 
 
 ## -returns

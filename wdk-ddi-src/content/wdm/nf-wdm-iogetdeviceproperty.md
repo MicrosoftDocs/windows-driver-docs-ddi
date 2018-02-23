@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8c3b7f81-ea6e-47ae-a396-58826d097f1f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iogetdeviceproperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], IoGetDeviceProperty, wdm/IoGetDeviceProperty, k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml
+ms.keywords: k104_b6185e0d-5e39-4671-ab50-07fe5eda3606.xml, IoGetDeviceProperty, kernel.iogetdeviceproperty, IoGetDeviceProperty routine [Kernel-Mode Driver Architecture], wdm/IoGetDeviceProperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -288,7 +288,7 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wdm\ne-wdm-_device_removal_policy.md">DEVICE_REMOVAL_POLICY</a>
 
 
 
@@ -296,11 +296,7 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 
 
-<a href="..\miniport\ns-miniport-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
-
-
-
-<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
 
 
 
@@ -308,7 +304,11 @@ Function drivers that support devices on a legacy bus and a PnP bus can use the 
 
 
 
-<a href="..\wdm\ne-wdm-_interface_type.md">INTERFACE_TYPE</a>
+<a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 

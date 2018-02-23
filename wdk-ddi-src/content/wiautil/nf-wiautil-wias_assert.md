@@ -4,11 +4,11 @@ title: WIAS_ASSERT macro
 author: windows-driver-content
 description: The WIAS_ASSERT macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_assert.htm
-old-project: Image
+old-project: image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, image.wias_assert, wiamdef/WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], WIAS_ASSERT
+ms.date: 2/22/2018
+ms.keywords: image.wias_assert, IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], wiamdef/WIAS_ASSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -124,5 +124,5 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20WIAS_ASSERT macro%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ASSERT macro%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: e1f397f6-2f33-4352-9bbc-2b2a49dcd067
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/USBD_CreateConfigurationRequest, USBD_CreateConfigurationRequest, USBD_CreateConfigurationRequest routine [Buses], usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml, buses.usbd_createconfigurationrequest
+ms.keywords: usbdlib/USBD_CreateConfigurationRequest, buses.usbd_createconfigurationrequest, USBD_CreateConfigurationRequest, USBD_CreateConfigurationRequest routine [Buses], usbfunc_d2701cb6-8159-48e0-b668-bb3b02226a7d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,11 @@ Size of the <a href="..\usb\ns-usb-_urb.md">URB</a> structure.
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_createconfigurationrequestex.md">USBD_CreateConfigurationRequestEx</a>
 
 
 

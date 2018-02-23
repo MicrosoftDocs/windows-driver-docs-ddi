@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: BC2722A8-C09A-4C46-9EC3-45DCF4A6FD64
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WPP_TRIAGE_INFO, PWPP_TRIAGE_INFO structure pointer [Driver Development Tools], PWPP_TRIAGE_INFO, _WPP_TRIAGE_INFO, wpprecorder/PWPP_TRIAGE_INFO, devtest.wpp_triage_info, WPP_TRIAGE_INFO structure [Driver Development Tools], wpprecorder/WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
+ms.keywords: devtest.wpp_triage_info, PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO, WPP_TRIAGE_INFO structure [Driver Development Tools], _WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO, wpprecorder/PWPP_TRIAGE_INFO, wpprecorder/WPP_TRIAGE_INFO, PWPP_TRIAGE_INFO structure pointer [Driver Development Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WPP_TRIAGE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 

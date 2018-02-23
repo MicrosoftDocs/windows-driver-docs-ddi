@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ff032dbd-8c84-4442-bbd5-a27b61617d47
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml, FEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices], storage.feature_data_defect_management, ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT, _FEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT
+ms.keywords: "_FEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/PFEATURE_DATA_DEFECT_MANAGEMENT, PFEATURE_DATA_DEFECT_MANAGEMENT structure pointer [Storage Devices], FEATURE_DATA_DEFECT_MANAGEMENT, storage.feature_data_defect_management, FEATURE_DATA_DEFECT_MANAGEMENT structure [Storage Devices], *PFEATURE_DATA_DEFECT_MANAGEMENT, ntddmmc/FEATURE_DATA_DEFECT_MANAGEMENT, structs-CD-ROM_3c73a6a8-5a76-4a73-b3fa-cae137659fad.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_DEFECT_MANAGEMENT
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_DEFECT_MANAGEMENT, FEATURE_DATA_DEFECT_MANAGEMENT"
+req.typenames: FEATURE_DATA_DEFECT_MANAGEMENT, *PFEATURE_DATA_DEFECT_MANAGEMENT
 ---
 
 # _FEATURE_DATA_DEFECT_MANAGEMENT structure

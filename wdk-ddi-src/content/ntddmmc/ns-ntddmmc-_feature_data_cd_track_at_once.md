@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3ce42a6-0d94-46cb-9831-c29f92a677cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FEATURE_DATA_CD_TRACK_AT_ONCE, storage.feature_data_cd_track_at_once, FEATURE_DATA_CD_TRACK_AT_ONCE, *PFEATURE_DATA_CD_TRACK_AT_ONCE, PFEATURE_DATA_CD_TRACK_AT_ONCE structure pointer [Storage Devices], FEATURE_DATA_CD_TRACK_AT_ONCE structure [Storage Devices], structs-CD-ROM_d2648aa5-b3d5-49f2-98d1-01e90dd72332.xml, PFEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/PFEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE"
+ms.keywords: PFEATURE_DATA_CD_TRACK_AT_ONCE, PFEATURE_DATA_CD_TRACK_AT_ONCE structure pointer [Storage Devices], structs-CD-ROM_d2648aa5-b3d5-49f2-98d1-01e90dd72332.xml, FEATURE_DATA_CD_TRACK_AT_ONCE structure [Storage Devices], storage.feature_data_cd_track_at_once, _FEATURE_DATA_CD_TRACK_AT_ONCE, *PFEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/PFEATURE_DATA_CD_TRACK_AT_ONCE, ntddmmc/FEATURE_DATA_CD_TRACK_AT_ONCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_CD_TRACK_AT_ONCE
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_CD_TRACK_AT_ONCE, FEATURE_DATA_CD_TRACK_AT_ONCE"
+req.typenames: FEATURE_DATA_CD_TRACK_AT_ONCE, *PFEATURE_DATA_CD_TRACK_AT_ONCE
 ---
 
 # _FEATURE_DATA_CD_TRACK_AT_ONCE structure

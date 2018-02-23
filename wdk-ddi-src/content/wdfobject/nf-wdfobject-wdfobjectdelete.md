@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09eceeb4-8501-48c4-84f5-aa747914f9dd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfObjectDelete, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, wdfobject/WdfObjectDelete, kmdf.wdfobjectdelete, wdf.wdfobjectdelete, WdfObjectDelete method
+ms.keywords: wdfobject/WdfObjectDelete, WdfObjectDelete method, DFGenObjectRef_d054ae6b-e88d-46e8-ad62-2bfb23a76cd7.xml, kmdf.wdfobjectdelete, WdfObjectDelete, wdf.wdfobjectdelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,11 +178,11 @@ The following code example deletes a framework object and its child objects.
 
 ## -see-also
 
-<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectcreate.md">WdfObjectCreate</a>
+
+
+
+<a href="..\wdfcontrol\nf-wdfcontrol-wdfcontroldeviceinitallocate.md">WdfControlDeviceInitAllocate</a>
 
 
 

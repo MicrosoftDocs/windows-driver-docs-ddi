@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb2d56a0-37f4-48bc-8b56-e5250f0f7443
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rxpurgerelatedfobxs, RxPurgeRelatedFobxs function [Installable File System Drivers], scavengr/RxPurgeRelatedFobxs, rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, RxPurgeRelatedFobxs
+ms.keywords: RxPurgeRelatedFobxs function [Installable File System Drivers], rxref_56862045-c344-4392-9a25-b4e22c36379f.xml, ifsk.rxpurgerelatedfobxs, scavengr/RxPurgeRelatedFobxs, RxPurgeRelatedFobxs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,6 +143,10 @@ If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the sam
 
 ## -see-also
 
+<a href="..\rxprocs\nf-rxprocs-rxscavengeallfobxs.md">RxScavengeAllFobxs</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
 
 
@@ -151,11 +155,7 @@ If <i>PFCB</i> is not <b>NULL</b>, and this purging FCB strcuture is not the sam
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxpurgeallfobxs.md">RxPurgeAllFobxs</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxscavengeallfobxs.md">RxScavengeAllFobxs</a>
+<a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
 
 
 

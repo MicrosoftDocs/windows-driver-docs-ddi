@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e8845b15-4427-45ea-9192-352d82c89c6a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCeBuildAddress, rxce/RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers], ifsk.rxcebuildaddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml
+ms.keywords: rxce/RxCeBuildAddress, rxref_ee32329f-3111-4ee6-869f-2b8e21d6696c.xml, RxCeBuildAddress, RxCeBuildAddress function [Installable File System Drivers], ifsk.rxcebuildaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: ddfd38d9-a78e-4573-9bf3-24f2f69b5949
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryToAC method, SetSimulatedBatteryToAC method [Windows Device Testing Framework], SetSimulatedBatteryToAC, SetSimulatedBatteryToAC method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC
+ms.keywords: IWDTFSimulatedBatterySystemAction, SetSimulatedBatteryToAC method [Windows Device Testing Framework], SetSimulatedBatteryToAC method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], SetSimulatedBatteryToAC method, dtf.iwdtfsimulatedbatterysystemaction_setsimulatedbatterytoac, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::SetSimulatedBatteryToAC, SetSimulatedBatteryToAC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

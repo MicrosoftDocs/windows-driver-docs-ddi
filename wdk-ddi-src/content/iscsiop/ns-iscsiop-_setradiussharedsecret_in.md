@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 948475eb-0670-4fab-b831-2fdb3ec86032
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/SetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices], iscsiop/PSetRADIUSSharedSecret_IN, structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, SetRADIUSSharedSecret_IN structure [Storage Devices], *PSetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, _SetRADIUSSharedSecret_IN
+ms.keywords: structs-iSCSI_0459fa21-0565-414f-bb05-0a7e553e0aa0.xml, _SetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN structure [Storage Devices], PSetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN, iscsiop/SetRADIUSSharedSecret_IN, iscsiop/PSetRADIUSSharedSecret_IN, storage.setradiussharedsecret_in, PSetRADIUSSharedSecret_IN structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetRADIUSSharedSecret_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSetRADIUSSharedSecret_IN, SetRADIUSSharedSecret_IN"
+req.typenames: SetRADIUSSharedSecret_IN, *PSetRADIUSSharedSecret_IN
 ---
 
 # _SetRADIUSSharedSecret_IN structure

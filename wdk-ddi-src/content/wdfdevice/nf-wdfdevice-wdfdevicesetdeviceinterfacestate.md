@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 345003fc-fdc3-4529-bb15-c9e380e77bba
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceSetDeviceInterfaceState, kmdf.wdfdevicesetdeviceinterfacestate, WdfDeviceSetDeviceInterfaceState method, DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, wdf.wdfdevicesetdeviceinterfacestate, wdfdevice/WdfDeviceSetDeviceInterfaceState
+ms.keywords: WdfDeviceSetDeviceInterfaceState, wdfdevice/WdfDeviceSetDeviceInterfaceState, kmdf.wdfdevicesetdeviceinterfacestate, WdfDeviceSetDeviceInterfaceState method, DFDeviceObjectGeneralRef_bfed99aa-ad4c-4339-aeb9-f7d73039f0b9.xml, wdf.wdfdevicesetdeviceinterfacestate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

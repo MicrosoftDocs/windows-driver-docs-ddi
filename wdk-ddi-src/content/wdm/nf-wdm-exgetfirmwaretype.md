@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b8a420d5-7741-4676-9956-dcf996125c6d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExGetFirmwareType, wdm/ExGetFirmwareType, kernel.exgetfirmwaretype, ExGetFirmwareType function [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exgetfirmwaretype, ExGetFirmwareType function [Kernel-Mode Driver Architecture], wdm/ExGetFirmwareType, ExGetFirmwareType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: pos\linedisplaymarqueeformattype.htm
 old-project: pos
 ms.assetid: BB182083-58F2-4706-9D6B-B581325BDD48
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: PLineDisplayMarqueeFormatType, pointofservicecommontypes/PLineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType, _LineDisplayMarqueeFormatType, pointofservicecommontypes/LineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType enumeration, pos.linedisplaymarqueeformattype, PLineDisplayMarqueeFormatType enumeration pointer, pointofservicecommontypes/
+ms.date: 2/22/2018
+ms.keywords: pointofservicecommontypes/, pointofservicecommontypes/PLineDisplayMarqueeFormatType, _LineDisplayMarqueeFormatType, LineDisplayMarqueeFormatType enumeration, pointofservicecommontypes/LineDisplayMarqueeFormatType, pos.linedisplaymarqueeformattype, PLineDisplayMarqueeFormatType enumeration pointer, LineDisplayMarqueeFormatType, PLineDisplayMarqueeFormatType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

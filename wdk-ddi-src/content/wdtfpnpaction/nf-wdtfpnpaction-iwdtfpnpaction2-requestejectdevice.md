@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: e4782fd9-0c71-4460-892e-180be41ed3bb
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFPNPAction2 interface [Windows Device Testing Framework], RequestEjectDevice method, IWDTFPNPAction2::RequestEjectDevice, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice, Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, IWDTFPNPAction2, RequestEjectDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, RequestEjectDevice, RequestEjectDevice method [Windows Device Testing Framework], dtf.iwdtfpnpaction2_requestejectdevice
+ms.keywords: RequestEjectDevice method [Windows Device Testing Framework], IWDTFPNPAction2 interface, RequestEjectDevice, dtf.iwdtfpnpaction2_requestejectdevice, Microsoft.WDTF.IWDTFPNPAction2.RequestEjectDevice, wdtfpnpaction/IWDTFPNPAction2::RequestEjectDevice, IWDTFPNPAction2, IWDTFPNPAction2 interface [Windows Device Testing Framework], RequestEjectDevice method, RequestEjectDevice method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFPNPAction2::RequestEjectDevice, IWDTFPNPAction2::RequestEjectDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

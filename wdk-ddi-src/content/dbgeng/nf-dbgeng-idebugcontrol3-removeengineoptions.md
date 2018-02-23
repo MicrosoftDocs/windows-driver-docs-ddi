@@ -4,11 +4,11 @@ title: IDebugControl3::RemoveEngineOptions method
 author: windows-driver-content
 description: The RemoveEngineOptions method turns off some of the engine's options.
 old-location: debugger\removeengineoptions.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ec4cf252-88c4-47de-9015-bcbbd1fd5d1d
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], RemoveEngineOptions method, dbgeng/IDebugControl3::RemoveEngineOptions, IDebugControl2, IDebugControl, IDebugControl3, RemoveEngineOptions method [Windows Debugging], IDebugControl interface, RemoveEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, IDebugControl2 interface [Windows Debugging], RemoveEngineOptions method, debugger.removeengineoptions, RemoveEngineOptions method [Windows Debugging], IDebugControl3 interface, RemoveEngineOptions, IDebugControl::RemoveEngineOptions, dbgeng/IDebugControl2::RemoveEngineOptions, dbgeng/IDebugControl::RemoveEngineOptions, IDebugControl3::RemoveEngineOptions, IDebugControl2::RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], IDebugControl interface [Windows Debugging], RemoveEngineOptions method
+ms.date: 2/22/2018
+ms.keywords: RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], RemoveEngineOptions method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], RemoveEngineOptions method, IDebugControl2::RemoveEngineOptions, dbgeng/IDebugControl::RemoveEngineOptions, IDebugControl3, IDebugControl2 interface [Windows Debugging], RemoveEngineOptions method, RemoveEngineOptions method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], RemoveEngineOptions method, IDebugControl3::RemoveEngineOptions, dbgeng/IDebugControl3::RemoveEngineOptions, dbgeng/IDebugControl2::RemoveEngineOptions, RemoveEngineOptions method [Windows Debugging], IDebugControl3 interface, IDebugControl_b1af0528-4fc2-4ea3-90e8-c7d92b0632f4.xml, IDebugControl, IDebugControl2, debugger.removeengineoptions, IDebugControl::RemoveEngineOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,7 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556670">SetEngineOptions</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
 
 
 
@@ -129,11 +125,15 @@ After the engine options have been changed, the engine sends out notification to
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537884">AddEngineOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556670">SetEngineOptions</a>
 
 
 
@@ -141,5 +141,5 @@ After the engine options have been changed, the engine sends out notification to
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::RemoveEngineOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::RemoveEngineOptions method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4C936B29-1C88-432C-938B-A78BFDDC57E4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/STOR_CRYPTO_KEY_INFO, storport/PSTOR_CRYPTO_KEY_INFO, STOR_CRYPTO_KEY_INFO, storage.stor_crypto_key_info, STOR_CRYPTO_KEY_INFO structure [Storage Devices], _STOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO structure pointer [Storage Devices], *PSTOR_CRYPTO_KEY_INFO
+ms.keywords: "*PSTOR_CRYPTO_KEY_INFO, storport/STOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO, STOR_CRYPTO_KEY_INFO structure [Storage Devices], STOR_CRYPTO_KEY_INFO, PSTOR_CRYPTO_KEY_INFO structure pointer [Storage Devices], storport/PSTOR_CRYPTO_KEY_INFO, storage.stor_crypto_key_info, _STOR_CRYPTO_KEY_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

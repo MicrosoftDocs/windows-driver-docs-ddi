@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IQueueCallbackIoStop</b> interface contains a method that stops the processing of an I/O request from a queue.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IQueueCallbackIoStop</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IQueueCallbackIoStop</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IQueueCallbackIoStop</b> interface has these methods.
@@ -72,9 +79,7 @@ The <a href="https://msdn.microsoft.com/baa48d1b-b7da-4f89-b2e8-9a9ae2086527">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/baa48d1b-b7da-4f89-b2e8-9a9ae2086527">OnIoStop</a> callback function stops the processing of the specified I/O request from the specified queue. 
-
- 
+</table> 
 
 
 ## -remarks

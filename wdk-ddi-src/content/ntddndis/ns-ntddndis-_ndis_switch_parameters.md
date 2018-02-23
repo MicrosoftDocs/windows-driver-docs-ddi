@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 766e042a-3f21-4f57-a780-83f92bef0a6c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddndis/PNDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS, ntddndis/NDIS_SWITCH_PARAMETERS, netvista.ndis_switch_parameters, PNDIS_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PARAMETERS, PNDIS_SWITCH_PARAMETERS, _NDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_SWITCH_PARAMETERS, netvista.ndis_switch_parameters, ntddndis/PNDIS_SWITCH_PARAMETERS, _NDIS_SWITCH_PARAMETERS, PNDIS_SWITCH_PARAMETERS, *PNDIS_SWITCH_PARAMETERS, ntddndis/NDIS_SWITCH_PARAMETERS, NDIS_SWITCH_PARAMETERS structure [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,7 +115,7 @@ A UINT32 value that specifies the number of ports configured on the extensible s
 
 ### -field IsActive
 
-A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
+A BOOLEAN that if TRUE indicates that the Hyper-V extensible switch activation has finished and it is safe to query for other switch configuration such as enumerating ports, NICs, and properties. If FALSE, the extension must wait for the <a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NetEventSwitchActivate</a> PNP event to be issued before querying for switch configuration. 
 
 
 ## -remarks
@@ -156,19 +156,7 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -176,7 +164,15 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_restore_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_RESTORE_CALLBACK0</a>
+
+
+
+<a href="..\netpnp\ns-netpnp-_net_pnp_event.md">NetEventSwitchActivate</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_runtime_state_save_callback0.md">FWPS_VSWITCH_RUNTIME_STATE_SAVE_CALLBACK0</a>
 
 
 
@@ -188,11 +184,15 @@ This structure is also passed in the <i>vSwitch</i> parameter of the following c
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event.md">NetEventSwitchActivate</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_lifetime_event_callback0.md">FWPS_VSWITCH_LIFETIME_EVENT_CALLBACK0</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_interface_event_callback0.md">IF_COUNTEDFWPS_VSWITCH_INTERFACE_EVENT_CALLBACK0</a>
+
+
+
+<a href="..\fwpsk\nc-fwpsk-fwps_vswitch_port_event_callback0.md">FWPS_VSWITCH_PORT_EVENT_CALLBACK0</a>
 
 
 

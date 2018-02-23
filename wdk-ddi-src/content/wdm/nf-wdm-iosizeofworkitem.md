@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 389f0776-1010-4f3c-b5c5-b8807ff07130
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IoSizeofWorkItem, IoSizeofWorkItem, kernel.iosizeofworkitem, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml
+ms.keywords: kernel.iosizeofworkitem, k104_9f2b3349-cd46-48ec-bcff-10e91bd522b5.xml, IoSizeofWorkItem routine [Kernel-Mode Driver Architecture], IoSizeofWorkItem, wdm/IoSizeofWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

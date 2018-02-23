@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 14863379-0639-4D24-AFA4-AE2196328B87
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoSetFileObjectIgnoreSharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], ntddk/IoSetFileObjectIgnoreSharing, ifsk.iosetfileobjectignoresharing
+ms.keywords: ifsk.iosetfileobjectignoresharing, IoSetFileObjectIgnoreSharing routine [Installable File System Drivers], IoSetFileObjectIgnoreSharing, ntddk/IoSetFileObjectIgnoreSharing
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoSetFileObjectIgnoreSharing
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoSetFileObjectIgnoreSharing function

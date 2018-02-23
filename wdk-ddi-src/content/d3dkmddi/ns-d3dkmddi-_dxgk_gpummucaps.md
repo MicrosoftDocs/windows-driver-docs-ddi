@@ -7,8 +7,8 @@ old-location: display\dxgk_gpummucaps.htm
 old-project: display
 ms.assetid: 999820D0-FDEB-49FD-920A-75FD9886492A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS structure [Display Devices], d3dkmddi/DXGK_GPUMMUCAPS, display.dxgk_gpummucaps"
+ms.date: 2/22/2018
+ms.keywords: "_DXGK_GPUMMUCAPS, DXGK_GPUMMUCAPS, display.dxgk_gpummucaps, DXGK_GPUMMUCAPS structure [Display Devices], d3dkmddi/DXGK_GPUMMUCAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -4,11 +4,11 @@ title: IDebugRegisters2::SetPseudoValues method
 author: windows-driver-content
 description: The SetPseudoValues method sets the value of several pseudo-registers.
 old-location: debugger\setpseudovalues.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 89bfe36a-6674-43b7-a889-24fe15771aea
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugRegisters2, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, SetPseudoValues, IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues, dbgeng/IDebugRegisters2::SetPseudoValues, SetPseudoValues method [Windows Debugging]
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugRegisters2::SetPseudoValues, debugger.setpseudovalues, IDebugRegisters2 interface [Windows Debugging], SetPseudoValues method, SetPseudoValues method [Windows Debugging], IDebugRegisters_db4bc070-c017-479f-b9ca-4b2abe513d7f.xml, SetPseudoValues method [Windows Debugging], IDebugRegisters2 interface, SetPseudoValues, IDebugRegisters2, IDebugRegisters2::SetPseudoValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -189,5 +189,5 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugRegisters2::SetPseudoValues method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters2::SetPseudoValues method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

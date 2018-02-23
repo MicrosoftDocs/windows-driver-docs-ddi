@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 The <b>ITracer</b> interface enables individual instances of every WDTF interface to determine the specific tracing settings for a given implementation coclass. These settings are recorded in the registry.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ITracer</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>ITracer</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>ITracer</b> interface has these methods.
@@ -70,9 +77,7 @@ Retrieves the tracing bit mask for this coclass, given a specified trace-level.
 
 </td>
 </tr>
-</table>Retrieves the tracing bit mask for this coclass, given a specified trace-level.
-
- 
+</table> 
 
 
 ## -remarks
@@ -324,11 +329,11 @@ TraceLevel Path: HKCR\WDTF.Tracer.1\
 
 ## -see-also
 
-<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
-
-
-
 <a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 

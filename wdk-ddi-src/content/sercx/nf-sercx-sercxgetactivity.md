@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 804D53F2-0F92-4262-A4C8-D171A5E69BFC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCxGetActivity method [Serial Ports], SerCxGetActivity, serports.sercxgetactivity, 1/SerCxGetActivity
+ms.keywords: SerCxGetActivity, 1/SerCxGetActivity, SerCxGetActivity method [Serial Ports], serports.sercxgetactivity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCxGetActivity
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -105,15 +105,7 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxcompletewait.md">SerCxCompleteWait</a>
-
-
-
-<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
 
 
 
@@ -122,6 +114,14 @@ A lock protects the <b>SERCX_ACTIVITY</b> structure that is updated by the <b>Se
 
 
 <a href="..\sercx\nf-sercx-sercxprogresstransmit.md">SerCxProgressTransmit</a>
+
+
+
+<a href="..\sercx\ns-sercx-_sercx_activity.md">SERCX_ACTIVITY</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx_activity_init.md">SERCX_ACTIVITY_INIT</a>
 
 
 

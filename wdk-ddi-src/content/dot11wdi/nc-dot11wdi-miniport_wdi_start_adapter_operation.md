@@ -40,7 +40,7 @@ apiname:
 -	(*MINIPORT_WDI_START_OPERATION_HANDLER)
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_START_ADAPTER_OPERATION callback
@@ -120,10 +120,6 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 ## -see-also
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
 
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
 

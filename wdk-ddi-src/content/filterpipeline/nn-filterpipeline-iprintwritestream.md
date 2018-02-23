@@ -7,7 +7,7 @@ old-location: print\iprintwritestream.htm
 old-project: print
 ms.assetid: b76a58fb-fbd4-4afe-83dc-582242b53e05
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.iprintwritestream, IPrintWriteStream interface [Print Devices], IPrintWriteStream interface [Print Devices], described, IPrintWriteStream, filterpipeline/IPrintWriteStream, filterpipeline_edf6ac16-09e1-433a-8f41-50ba308dc7a7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,13 @@ req.typenames: EXpsFontRestriction
 Filters use the <code>IPrintWriteStream</code> interface to write data as a raw stream of bytes.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintWriteStream</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintWriteStream</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintWriteStream</b> interface has these methods.
@@ -78,9 +85,5 @@ The <code>WriteBytes</code> method writes a specified number of bytes to a strea
 
 </td>
 </tr>
-</table>The <code>Close</code> method closes a stream and ends the writing to that stream. This method is mandatory. You must call this method when the filter is done writing.
-
-The <code>WriteBytes</code> method writes a specified number of bytes to a stream.
-
- 
+</table> 
 

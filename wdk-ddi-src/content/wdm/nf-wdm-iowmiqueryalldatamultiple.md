@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 660ed1ad-3aad-44a9-9523-e167f84fe9d5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], IoWMIQueryAllDataMultiple, k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml, kernel.iowmiqueryalldatamultiple
+ms.keywords: IoWMIQueryAllDataMultiple routine [Kernel-Mode Driver Architecture], kernel.iowmiqueryalldatamultiple, wdm/IoWMIQueryAllDataMultiple, IoWMIQueryAllDataMultiple, k104_6431ed7a-35b6-4c48-8477-390c4c31220c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

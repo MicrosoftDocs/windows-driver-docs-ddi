@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: C360556B-5A28-4FC3-9304-6000061A1D69
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses], buses.ucm_connector_typec_attach_params_init
+ms.keywords: UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT function [Buses], buses.ucm_connector_typec_attach_params_init, UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT, ucmmanager/UCM_CONNECTOR_TYPEC_ATTACH_PARAMS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

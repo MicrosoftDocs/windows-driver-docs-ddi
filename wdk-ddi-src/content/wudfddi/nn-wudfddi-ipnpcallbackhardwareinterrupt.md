@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
   The <b>IPnpCallbackHardwareInterrupt</b> interface supports interrupt-related Plug and Play and power management callback methods.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackHardwareInterrupt</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPnpCallbackHardwareInterrupt</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPnpCallbackHardwareInterrupt</b> interface has these methods.
@@ -81,11 +88,7 @@ A driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439755
 
 </td>
 </tr>
-</table>A driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439750">OnD0EntryPostInterruptsEnabled</a> event callback function performs device-specific operations that are required when the driver enables the device's hardware interrupts.
-
-A driver's <a href="https://msdn.microsoft.com/library/windows/hardware/hh439755">OnD0ExitPreInterruptsDisabled</a> event callback function performs device-specific operations that are required before the driver disables the device's hardware interrupts.
-
- 
+</table> 
 
 
 ## -see-also

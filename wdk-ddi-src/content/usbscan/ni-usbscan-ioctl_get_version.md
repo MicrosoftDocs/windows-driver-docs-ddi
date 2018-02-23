@@ -4,10 +4,10 @@ title: IOCTL_GET_VERSION
 author: windows-driver-content
 description: Returns the version number of the driver.
 old-location: image\ioctl_get_version.htm
-old-project: Image
+old-project: image
 ms.assetid: 0521cd73-a3ae-4c7e-b244-4477b69ffc6f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.ioctl_get_version, IOCTL_GET_VERSION control code [Imaging Devices], IOCTL_GET_VERSION, usbscan/IOCTL_GET_VERSION, stifnc_9ed7f2fc-763d-4090-8f25-e9a154055169.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

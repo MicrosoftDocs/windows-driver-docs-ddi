@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 383f9dcb-68ba-4323-b25f-668169043f35
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml, NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], NdisFNetPnPEvent, ndis/NdisFNetPnPEvent, netvista.ndisfnetpnpevent
+ms.keywords: NdisFNetPnPEvent function [Network Drivers Starting with Windows Vista], ndis/NdisFNetPnPEvent, netvista.ndisfnetpnpevent, NdisFNetPnPEvent, filter_ndis_functions_ref_36921970-788b-4b5e-9cf0-c54f8dcdeef2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFNetPnPEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFNetPnPEvent function
@@ -158,7 +158,7 @@ Filter drivers can forward these notifications to overlying drivers. To forward 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
 
 
 
@@ -166,15 +166,11 @@ Filter drivers can forward these notifications to overlying drivers. To forward 
 
 
 
-<a href="..\ndis\nc-ndis-filter_net_pnp_event.md">FilterNetPnPEvent</a>
-
-
-
 <a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_pnp_event_notification.md">NET_PNP_EVENT_NOTIFICATION</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

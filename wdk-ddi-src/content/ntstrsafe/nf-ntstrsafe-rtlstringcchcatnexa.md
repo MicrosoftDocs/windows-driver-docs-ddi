@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a8919512-0e39-46f0-b421-776341c61fa2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlStringCchCatNExW, ntstrsafe/RtlStringCchCatNExA, STRSAFE_IGNORE_NULLS, kernel.rtlstringcchcatnex, RtlStringCchCatNExA, RtlStringCchCatNExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, RtlStringCchCatNExW function [Kernel-Mode Driver Architecture], safestrings_ff59619d-42b1-4d9f-80cf-8c6a331d1b3f.xml, STRSAFE_FILL_ON_FAILURE, RtlStringCchCatNEx, STRSAFE_NO_TRUNCATION
+ms.keywords: RtlStringCchCatNExA, RtlStringCchCatNExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCatNExW, STRSAFE_FILL_BEHIND_NULL, STRSAFE_FILL_ON_FAILURE, safestrings_ff59619d-42b1-4d9f-80cf-8c6a331d1b3f.xml, ntstrsafe/RtlStringCchCatNExA, STRSAFE_NULL_ON_FAILURE, STRSAFE_NO_TRUNCATION, kernel.rtlstringcchcatnex, RtlStringCchCatNEx, RtlStringCchCatNExW, STRSAFE_IGNORE_NULLS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchCatNExW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchCatNExA function
@@ -304,15 +304,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnw.md">RtlStringCchCatN</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatnexw.md">RtlStringCbCatNEx</a>
 
 
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatnw.md">RtlStringCchCatN</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
 
 
 

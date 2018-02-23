@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: DB49DF98-8A5B-4528-B312-63CE3DFABEF2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxControllerNotifyTransportCharacteristicsChange function [Buses], ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange, buses.ucxcontrollernotifytransportcharacteristicschange, UcxControllerNotifyTransportCharacteristicsChange
+ms.keywords: ucxcontroller/UcxControllerNotifyTransportCharacteristicsChange, buses.ucxcontrollernotifytransportcharacteristicschange, UcxControllerNotifyTransportCharacteristicsChange, UcxControllerNotifyTransportCharacteristicsChange function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

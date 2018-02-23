@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2500fa22-b3f9-419d-9e37-5060b83403fb
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UsbBuildInterruptOrBulkTransferRequest, usbdlib/UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml, UsbBuildInterruptOrBulkTransferRequest routine [Buses], buses.usbbuildinterruptorbulktransferrequest
+ms.keywords: UsbBuildInterruptOrBulkTransferRequest, usbfunc_ecc1d157-942d-4d0e-9c07-9fef00cd5faf.xml, UsbBuildInterruptOrBulkTransferRequest routine [Buses], usbdlib/UsbBuildInterruptOrBulkTransferRequest, buses.usbbuildinterruptorbulktransferrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -131,7 +131,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
 
 
 
@@ -139,7 +139,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+<a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 

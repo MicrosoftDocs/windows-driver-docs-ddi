@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d352785b-982f-4469-bee8-6274c0ce1cd6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSetCHAPSharedSecret_IN structure pointer [Storage Devices], iscsiop/SetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, *PSetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN structure [Storage Devices], _SetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN, iscsiop/PSetCHAPSharedSecret_IN, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml
+ms.keywords: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN, storage.setchapsharedsecret_in, SetCHAPSharedSecret_IN structure [Storage Devices], iscsiop/SetCHAPSharedSecret_IN, PSetCHAPSharedSecret_IN structure pointer [Storage Devices], PSetCHAPSharedSecret_IN, structs-iSCSI_e0aefea0-989e-4834-b812-ae02da2e6f34.xml, iscsiop/PSetCHAPSharedSecret_IN, _SetCHAPSharedSecret_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetCHAPSharedSecret_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSetCHAPSharedSecret_IN, SetCHAPSharedSecret_IN"
+req.typenames: SetCHAPSharedSecret_IN, *PSetCHAPSharedSecret_IN
 ---
 
 # _SetCHAPSharedSecret_IN structure

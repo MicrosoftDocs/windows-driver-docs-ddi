@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e7b7718b-0c03-4114-8402-9657c49230ad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortWritePortBufferUshort routine [Storage Devices], StorPortWritePortBufferUshort, storport/StorPortWritePortBufferUshort, storage.storportwriteportbufferushort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml
+ms.keywords: storport/StorPortWritePortBufferUshort, storprt_831acb6e-3529-4e20-897d-e2765b6f7f53.xml, StorPortWritePortBufferUshort routine [Storage Devices], storage.storportwriteportbufferushort, StorPortWritePortBufferUshort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer containing the data to be written. 
-
-
-#### - Count [in]
-
-Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,11 +106,21 @@ Pointer to the hardware device extension.
 Contains the address of the port to be written to. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer containing the data to be written. 
+
+
+#### - Count [in]
+
+Contains the number of data items of size <b>sizeof</b>(USHORT) to be written. 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>. 
+For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>. For a non-buffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportushort.md">StorPortWritePortUshort</a>. 
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\storport\nf-storport-scsiportwriteportbuff
 
 
 
-<a href="..\storport\nf-storport-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>
+<a href="..\srb\nf-srb-scsiportwriteportbufferushort.md">ScsiPortWritePortBufferUshort</a>
 
 
 

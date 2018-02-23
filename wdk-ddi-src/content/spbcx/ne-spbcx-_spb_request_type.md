@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: B3C2505E-A2B6-4D79-B8B7-9D1B53AA5B56
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SpbRequestTypeWrite, spbcx/SpbRequestTypeWrite, SpbRequestTypeOther, SPB.spb_request_type, SpbRequestTypeMax, SpbRequestTypeUnlockController, spbcx/SpbRequestTypeUndefined, SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE, spbcx/SpbRequestTypeRead, SPB_REQUEST_TYPE enumeration [Buses], SpbRequestTypeRead, SpbRequestTypeLockController, spbcx/SpbRequestTypeLockConnection, SpbRequestTypeUndefined, spbcx/SpbRequestTypeOther, _SPB_REQUEST_TYPE, spbcx/SpbRequestTypeSequence, spbcx/SpbRequestTypeMax, SpbRequestTypeSequence, spbcx/SpbRequestTypeUnlockController, spbcx/SPB_REQUEST_TYPE, SpbRequestTypeUnlockConnection, SpbRequestTypeLockConnection, spbcx/SpbRequestTypeUnlockConnection, spbcx/SpbRequestTypeLockController
+ms.keywords: SpbRequestTypeUnlockConnection, spbcx/SpbRequestTypeLockController, spbcx/SpbRequestTypeOther, SpbRequestTypeMax, SPB.spb_request_type, SPB_REQUEST_TYPE, SpbRequestTypeUndefined, spbcx/SpbRequestTypeRead, *PSPB_REQUEST_TYPE, spbcx/SpbRequestTypeMax, spbcx/SPB_REQUEST_TYPE, SpbRequestTypeLockController, SpbRequestTypeLockConnection, SpbRequestTypeOther, spbcx/SpbRequestTypeUnlockController, SpbRequestTypeUnlockController, SpbRequestTypeSequence, spbcx/SpbRequestTypeUndefined, spbcx/SpbRequestTypeUnlockConnection, SpbRequestTypeRead, spbcx/SpbRequestTypeSequence, spbcx/SpbRequestTypeLockConnection, SpbRequestTypeWrite, SPB_REQUEST_TYPE enumeration [Buses], _SPB_REQUEST_TYPE, spbcx/SpbRequestTypeWrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SPB_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -138,23 +138,11 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 ## -see-also
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj819324">IOCTL_SPB_LOCK_CONNECTION</a>
 
 
 
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
 
 
 
@@ -162,11 +150,15 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 
 
+<a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SPB_REQUEST_PARAMETERS</a>
+
+
+
 <a href="https://msdn.microsoft.com/4EB36115-2783-4FD5-9CEE-1F7C971C334D">EvtSpbControllerUnlock</a>
 
 
 
-<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
@@ -174,7 +166,15 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 
 
-<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
+<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
+
+
+
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
+
+
+<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
 
 
 

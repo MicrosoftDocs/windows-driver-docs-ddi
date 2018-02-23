@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5f2bb0ef-af54-48e7-a2f5-8c8877bedb4a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.mmunmapreservedmapping, wdm/MmUnmapReservedMapping, MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], MmUnmapReservedMapping, k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml
+ms.keywords: k106_48bc7719-e11c-4c70-a976-c7fbecbff464.xml, kernel.mmunmapreservedmapping, wdm/MmUnmapReservedMapping, MmUnmapReservedMapping routine [Kernel-Mode Driver Architecture], MmUnmapReservedMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ None
 
 
 
-<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
 
 
 

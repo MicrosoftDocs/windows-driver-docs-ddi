@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d5c4f28a-63c0-4b9e-9994-de4589ea96c9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.itracer_getbits_method, GetBits method [Windows Device Testing Framework], ITracer interface, ITracer::GetBits, ITracer_80af4d1b-1fed-4775-83c6-4b7bee53b4a0.xml, GetBits, wdtf/ITracer::GetBits, ITracer interface [Windows Device Testing Framework], GetBits method, GetBits method [Windows Device Testing Framework], ITracer
+ms.keywords: GetBits method [Windows Device Testing Framework], ITracer_80af4d1b-1fed-4775-83c6-4b7bee53b4a0.xml, GetBits method [Windows Device Testing Framework], ITracer interface, dtf.itracer_getbits_method, ITracer::GetBits, GetBits, ITracer, wdtf/ITracer::GetBits, ITracer interface [Windows Device Testing Framework], GetBits method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,15 +109,15 @@ If <b>GetBits</b> fails for any reason, the caller is expected to silently conti
 
 ## -see-also
 
+<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
+
+
+
 <a href="..\wdtf\nn-wdtf-itracer.md">ITracer</a>
 
 
 
 <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
-
-
-
-<a href="..\wdtf\ne-wdtf-__midl___midl_itf_wdtf_0000_0001_0001.md">TTraceLevel</a>
 
 
 

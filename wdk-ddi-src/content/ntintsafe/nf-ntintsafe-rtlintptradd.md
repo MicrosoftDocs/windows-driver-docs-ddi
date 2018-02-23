@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 97873113-7B0B-4121-B074-5B73D59489F4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlintptradd, ntintsafe/RtlIntPtrAdd, RtlIntPtrAdd, RtlIntPtrAdd function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlIntPtrAdd function [Kernel-Mode Driver Architecture], RtlIntPtrAdd, kernel.rtlintptradd, ntintsafe/RtlIntPtrAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

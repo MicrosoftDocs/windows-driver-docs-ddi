@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c96d1c81-429f-46de-b56c-6424734ccd7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IO_PAGING_PRIORITY, IoPagingPriorityNormal, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], IoPagingPriorityHigh, _IO_PAGING_PRIORITY, IoPagingPriorityInvalid, IoPagingPriorityReserved2, wdm/IoPagingPriorityInvalid, IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved2, wdm/IoPagingPriorityHigh, wdm/IoPagingPriorityReserved1, kernel.io_paging_priority, wdm/IO_PAGING_PRIORITY, wdm/IoPagingPriorityNormal, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml
+ms.keywords: IoPagingPriorityInvalid, IoPagingPriorityReserved2, kernel.io_paging_priority, wdm/IoPagingPriorityHigh, IO_PAGING_PRIORITY enumeration [Kernel-Mode Driver Architecture], wdm/IoPagingPriorityNormal, wdm/IoPagingPriorityReserved2, _IO_PAGING_PRIORITY, IO_PAGING_PRIORITY, IoPagingPriorityHigh, wdm/IoPagingPriorityInvalid, sysenum_8e021ebd-f26a-4749-8e76-c540af5dfae1.xml, IoPagingPriorityNormal, wdm/IO_PAGING_PRIORITY, IoPagingPriorityReserved1, wdm/IoPagingPriorityReserved1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4e94c9cc-eaa9-4de1-8f17-d24a5ed19507
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k111_bea1b1ab-2cfe-4d17-abd3-1a45652c70a5.xml, wdm/ZwEnumerateValueKey, kernel.zwenumeratevaluekey, wdm/NtEnumerateValueKey, ZwEnumerateValueKey, NtEnumerateValueKey, ZwEnumerateValueKey routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwEnumerateValueKey, ZwEnumerateValueKey routine [Kernel-Mode Driver Architecture], wdm/ZwEnumerateValueKey, k111_bea1b1ab-2cfe-4d17-abd3-1a45652c70a5.xml, wdm/NtEnumerateValueKey, NtEnumerateValueKey, kernel.zwenumeratevaluekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,27 +184,15 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
-
-
-
 <a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
+<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_value_basic_information.md">KEY_VALUE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
@@ -212,7 +200,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\ns-wdm-_key_value_partial_information.md">KEY_VALUE_PARTIAL_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_value_full_information.md">KEY_VALUE_FULL_INFORMATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryvaluekey.md">ZwQueryValueKey</a>
 
 
 

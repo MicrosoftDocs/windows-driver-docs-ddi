@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 608AD247-19C8-40E8-B2FF-D49818AE4AD7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/PDOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP, windot11/DOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_key_algo_bip, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista]
+ms.keywords: windot11/PDOT11_KEY_ALGO_BIP, PDOT11_KEY_ALGO_BIP structure pointer [Network Drivers Starting with Windows Vista], DOT11_KEY_ALGO_BIP, windot11/DOT11_KEY_ALGO_BIP, *PDOT11_KEY_ALGO_BIP, netvista.dot11_key_algo_bip, PDOT11_KEY_ALGO_BIP, DOT11_KEY_ALGO_BIP structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,12 +87,12 @@ The length, in bytes, of the BIP key material in <b>ucBIPKey</b> array.
 
 
 
-#### - ucBIPKey[1]
-
-The BIP key material.
-
-
 #### - ucIPN[6]
 
 The initial IGTK packet number (IPN) used for replay protection.
+
+
+#### - ucBIPKey[1]
+
+The BIP key material.
 

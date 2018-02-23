@@ -4,11 +4,11 @@ title: "_DEBUG_READ_USER_MINIDUMP_STREAM"
 author: windows-driver-content
 description: Describes a user minidump to read.
 old-location: debugger\debug_read_user_minidump_stream.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 07005D52-E851-4AE8-95D8-ED8E26C43DC6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM, PDEBUG_READ_USER_MINIDUMP_STREAM structure pointer [Windows Debugging], DEBUG_READ_USER_MINIDUMP_STREAM structure [Windows Debugging], PDEBUG_READ_USER_MINIDUMP_STREAM, _DEBUG_READ_USER_MINIDUMP_STREAM, debugger.debug_read_user_minidump_stream, dbgeng/PDEBUG_READ_USER_MINIDUMP_STREAM
+ms.date: 2/22/2018
+ms.keywords: PDEBUG_READ_USER_MINIDUMP_STREAM, debugger.debug_read_user_minidump_stream, DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/DEBUG_READ_USER_MINIDUMP_STREAM, dbgeng/PDEBUG_READ_USER_MINIDUMP_STREAM, PDEBUG_READ_USER_MINIDUMP_STREAM structure pointer [Windows Debugging], DEBUG_READ_USER_MINIDUMP_STREAM structure [Windows Debugging], _DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_READ_USER_MINIDUMP_STREAM
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_READ_USER_MINIDUMP_STREAM, DEBUG_READ_USER_MINIDUMP_STREAM"
+req.typenames: DEBUG_READ_USER_MINIDUMP_STREAM, *PDEBUG_READ_USER_MINIDUMP_STREAM
 ---
 
 # _DEBUG_READ_USER_MINIDUMP_STREAM structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 928be338-a588-4535-8395-229ec6f3ecb7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KbDumpIoHeader, wdm/KbDumpIoComplete, wdm/KBUGCHECK_DUMP_IO_TYPE, wdm/KbDumpIoBody, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, KbDumpIoBody, wdm/KbDumpIoSecondaryData, KbDumpIoInvalid, KbDumpIoHeader, wdm/KbDumpIoInvalid, KbDumpIoSecondaryData, _KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE, KbDumpIoComplete, kernel.kbugcheck_dump_io_type, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture]
+ms.keywords: KbDumpIoHeader, KbDumpIoSecondaryData, KbDumpIoInvalid, wdm/KbDumpIoComplete, wdm/KbDumpIoBody, wdm/KBUGCHECK_DUMP_IO_TYPE, _KBUGCHECK_DUMP_IO_TYPE, KBUGCHECK_DUMP_IO_TYPE, kernel.kbugcheck_dump_io_type, wdm/KbDumpIoInvalid, wdm/KbDumpIoSecondaryData, sysenum_e6f9d577-edd8-43f0-9cc5-33b88e5237aa.xml, KbDumpIoBody, wdm/KbDumpIoHeader, KBUGCHECK_DUMP_IO_TYPE enumeration [Kernel-Mode Driver Architecture], KbDumpIoComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -110,15 +110,15 @@ For more information about how this enumeration type is used, see <a href="https
 
 ## -see-also
 
+<a href="..\wdm\ns-wdm-_kbugcheck_dump_io.md">KBUGCHECK_DUMP_IO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540677">BugCheckDumpIoCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540679">BugCheckSecondaryDumpDataCallback</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4EA0AE24-E4B0-49E0-8C50-44F6890C5C52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO, WWAN_TDSCDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], wwan/WWAN_TDSCDMA_MRL_INFO, wwan/PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL_INFO, netvista.wwan_tdscdma_mrl_info, _WWAN_TDSCDMA_MRL_INFO"
+ms.keywords: wwan/PWWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO, _WWAN_TDSCDMA_MRL_INFO, PWWAN_TDSCDMA_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], WWAN_TDSCDMA_MRL_INFO, wwan/WWAN_TDSCDMA_MRL_INFO, WWAN_TDSCDMA_MRL_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_TDSCDMA_MRL_INFO, netvista.wwan_tdscdma_mrl_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -141,19 +141,19 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_tdscdma_mrl.md">WWAN_TDSCDMA_MRL</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_tdscdma_serving_cell_info.md">WWAN_TDSCDMA_SERVING_CELL_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
 
 
 

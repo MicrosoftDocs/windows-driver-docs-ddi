@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: fdf40535-4e0d-4db9-9e95-744029eb2bd5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExQueryDepthSList, k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, ExQueryDepthSList, kernel.exquerydepthslist, ExQueryDepthSList routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.exquerydepthslist, ExQueryDepthSList, ExQueryDepthSList routine [Kernel-Mode Driver Architecture], k102_14e2b5cb-bc6a-43f7-a0b2-1fcd8fd414a7.xml, wdm/ExQueryDepthSList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ For more information about using this routine to implement a sequenced singly li
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
+
+
+
+<a href="..\wdm\nf-wdm-initializeslisthead.md">ExInitializeSListHead</a>
 
 
 

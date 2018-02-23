@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 This interface exposes a work item object.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFWorkItem</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFWorkItem</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFWorkItem</b> interface has these methods.
@@ -92,15 +99,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463891">GetPa
 
 </td>
 </tr>
-</table>
-   The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463883">Enqueue</a> method adds this interface's framework work-item object to the system's work-item queue.
-  
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463886">Flush</a> method returns after this interface's work item has been serviced.
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh463891">GetParentObject</a> method returns the parent framework object of this interface's  work item.
-
- 
+</table> 
 
 
 ## -see-also

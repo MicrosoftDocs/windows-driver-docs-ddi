@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 65b64678-09dc-4bc2-8362-d15eba5a828a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWNODE_SINGLE_ITEM, tagWNODE_SINGLE_ITEM, kernel.wnode_single_item, wmistr/WNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], *PWNODE_SINGLE_ITEM, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml
+ms.keywords: "*PWNODE_SINGLE_ITEM, wmistr/WNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM structure pointer [Kernel-Mode Driver Architecture], WNODE_SINGLE_ITEM, PWNODE_SINGLE_ITEM, wmistr/PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM structure [Kernel-Mode Driver Architecture], tagWNODE_SINGLE_ITEM, kstruct_d_49c197d8-c13f-4ca7-b82f-e56282eac847.xml, kernel.wnode_single_item"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WNODE_SINGLE_ITEM
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_SINGLE_ITEM, WNODE_SINGLE_ITEM"
+req.typenames: WNODE_SINGLE_ITEM, *PWNODE_SINGLE_ITEM
 req.product: Windows 10 or later.
 ---
 
@@ -122,11 +122,11 @@ A driver builds a <b>WNODE_SINGLE_ITEM</b> to generate an event that consists of
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 

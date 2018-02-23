@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 87828768-BE97-4549-AC5B-7CB27D0A9720
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeTrunk, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeAccess, *PNDIS_SWITCH_PORT_VLAN_MODE, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_port_vlan_mode, NDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeUnknown, PNDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModePrivate, ntddndis/NdisSwitchPortVlanModeUnknown, NdisSwitchPortVlanModeAccess, NdisSwitchPortVlanModeMax, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModePrivate, ntddndis/NdisSwitchPortVlanModeTrunk, ntddndis/NdisSwitchPortVlanModeMax"
+ms.keywords: netvista.ndis_switch_port_vlan_mode, ntddndis/NdisSwitchPortVlanModeAccess, NdisSwitchPortVlanModeUnknown, NdisSwitchPortVlanModePrivate, *PNDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModePrivate, NdisSwitchPortVlanModeMax, NDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_VLAN_MODE, NdisSwitchPortVlanModeTrunk, PNDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeTrunk, NdisSwitchPortVlanModeAccess, PNDIS_SWITCH_PORT_VLAN_MODE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortVlanModeMax, _NDIS_SWITCH_PORT_VLAN_MODE, ntddndis/NdisSwitchPortVlanModeUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_VLAN_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_PORT_VLAN_MODE, NDIS_SWITCH_PORT_VLAN_MODE"
+req.typenames: NDIS_SWITCH_PORT_VLAN_MODE, *PNDIS_SWITCH_PORT_VLAN_MODE
 ---
 
 # _NDIS_SWITCH_PORT_VLAN_MODE enumeration
@@ -118,11 +118,11 @@ For more information about extensible switch port policies, see <a href="https:/
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
-
-
-
 <a href="..\ndis\ns-ndis-_ndis_switch_forwarding_destination_array.md">NDIS_SWITCH_FORWARDING_DESTINATION_ARRAY</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_vlan.md">NDIS_SWITCH_PORT_PROPERTY_VLAN</a>
 
 
 

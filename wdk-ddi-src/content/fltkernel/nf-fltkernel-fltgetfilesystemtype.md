@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e603d0f-74e7-4715-b3dc-4a9623f98dde
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltGetFileSystemType function [Installable File System Drivers], FltApiRef_e_to_o_00fe70b3-cc15-4272-a4df-653c05abfeb1.xml, fltkernel/FltGetFileSystemType, ifsk.fltgetfilesystemtype, FltGetFileSystemType
+ms.keywords: FltGetFileSystemType, ifsk.fltgetfilesystemtype, FltApiRef_e_to_o_00fe70b3-cc15-4272-a4df-653c05abfeb1.xml, fltkernel/FltGetFileSystemType, FltGetFileSystemType function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,27 +123,11 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinformation.md">FltGetVolumeInformation</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumename.md">FltGetVolumeName</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromfileobject.md">FltGetVolumeFromFileObject</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeproperties.md">FltGetVolumeProperties</a>
 
 
 
@@ -151,7 +135,23 @@ If STATUS_INVALID_PARAMETER is returned, the <i>FileSystemType</i> parameter is 
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromname.md">FltGetVolumeFromName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinformation.md">FltGetVolumeInformation</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltgetvolumefrominstance.md">FltGetVolumeFromInstance</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumefromfileobject.md">FltGetVolumeFromFileObject</a>
 
 
 

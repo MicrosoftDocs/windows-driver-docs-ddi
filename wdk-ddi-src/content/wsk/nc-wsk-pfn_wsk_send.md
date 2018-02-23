@@ -40,7 +40,7 @@ apiname:
 -	WskSend
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -237,12 +237,7 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
-   WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
 
 
 
@@ -254,11 +249,16 @@ The WSK subsystem does not perform any buffering of data when it sends data over
 
 
 
+<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_close_socket.md">WskCloseSocket</a>
+<a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
+   WSK_PROVIDER_CONNECTION_DISPATCH</a>
 
 
 

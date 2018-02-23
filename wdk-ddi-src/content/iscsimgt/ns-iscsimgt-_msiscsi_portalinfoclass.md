@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 400ff6fc-6eb7-4b3f-afec-7d0b69039ed1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.msiscsi_portalinfoclass, iscsimgt/MSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], MSiSCSI_PortalInfoClass structure [Storage Devices], MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml, _MSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, PMSiSCSI_PortalInfoClass
+ms.keywords: iscsimgt/MSiSCSI_PortalInfoClass, storage.msiscsi_portalinfoclass, PMSiSCSI_PortalInfoClass structure pointer [Storage Devices], MSiSCSI_PortalInfoClass, _MSiSCSI_PortalInfoClass, structs-iSCSI_dec2f67f-5b12-4432-8c64-eef6efeb7e6a.xml, MSiSCSI_PortalInfoClass structure [Storage Devices], PMSiSCSI_PortalInfoClass, iscsimgt/PMSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_PortalInfoClass
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_PortalInfoClass, MSiSCSI_PortalInfoClass"
+req.typenames: MSiSCSI_PortalInfoClass, *PMSiSCSI_PortalInfoClass
 ---
 
 # _MSiSCSI_PortalInfoClass structure

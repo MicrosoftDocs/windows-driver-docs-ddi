@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 37e96d41-3a8c-429a-a8fd-463f9be5555f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.get_iso_urb_size, GET_ISO_URB_SIZE macro [Buses], usbdlib/GET_ISO_URB_SIZE, GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml
+ms.keywords: GET_ISO_URB_SIZE macro [Buses], GET_ISO_URB_SIZE, usbfunc_949a4f14-4bc8-4ba1-821c-f81c6bcec0fa.xml, buses.get_iso_urb_size, usbdlib/GET_ISO_URB_SIZE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -84,19 +84,19 @@ Specifies the number of isochronous transfer packets that will be part of the tr
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
-
-
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows/iot-core/learn-about-hardware/hardwarecompatlist">Routines for USB Client Drivers</a>
+
+
+
 <a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
 
 
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
 
 

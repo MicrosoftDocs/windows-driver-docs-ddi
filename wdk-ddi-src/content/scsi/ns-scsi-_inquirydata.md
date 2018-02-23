@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2389fb1e-b16a-4d0a-b347-8b8a0f1cf061
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsi/INQUIRYDATA, storage.inquirydata, PINQUIRYDATA structure pointer [Storage Devices], structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml, INQUIRYDATA structure [Storage Devices], scsi/PINQUIRYDATA, _INQUIRYDATA, *PINQUIRYDATA, PINQUIRYDATA, INQUIRYDATA
+ms.keywords: storage.inquirydata, scsi/INQUIRYDATA, INQUIRYDATA structure [Storage Devices], scsi/PINQUIRYDATA, INQUIRYDATA, _INQUIRYDATA, PINQUIRYDATA structure pointer [Storage Devices], structs-tape_be59bcac-0d77-4186-99a6-97c34bb37793.xml, *PINQUIRYDATA, PINQUIRYDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INQUIRYDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PINQUIRYDATA, INQUIRYDATA"
+req.typenames: INQUIRYDATA, *PINQUIRYDATA, INQUIRYDATA, *PINQUIRYDATA
 req.product: Windows 10 or later.
 ---
 
@@ -287,9 +287,19 @@ Reserved.
 Indicates the ANSI version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
 
 
-#### - AckReqQ
+#### - ECMAVersion
 
-Indicates, when set to one, that the target supports a request and acknowledge data transfer handshake on the secondary bus. A value of zero indicates that the target does not support this function. 
+Indicates the ECMA version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+
+
+#### - ISOVersion
+
+Indicates the ISO version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+
+
+#### - TerminateTask
+
+Indicates, when set to one, that the target device supports the SCSI TERMINATE TASK task management function. A value of zero indicates that the target device does not support the TERMINATE TASK task management function. 
 
 
 #### - Addr16
@@ -302,19 +312,9 @@ Indicates, when set to one, that the target supports 16-bit wide SCSI addresses.
 Indicates, when set to one, that the target supports 32-bit wide SCSI addresses. A value of zero indicates that the device does not support 32-bit wide SCSI addresses. 
 
 
-#### - ECMAVersion
+#### - AckReqQ
 
-Indicates the ECMA version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
-
-
-#### - EnclosureServices
-
-Indicates, when set to one, that the device contains an embedded enclosure services component. A value of zero indicates that the device does not contain an embedded enclosure services component. 
-
-
-#### - ISOVersion
-
-Indicates the ISO version of the inquiry data standard that this data conforms to. For more information about the version values allowed in this field, see the <i>SCSI Primary Commands - 2 (SPC-2)</i> specification. 
+Indicates, when set to one, that the target supports a request and acknowledge data transfer handshake on the secondary bus. A value of zero indicates that the target does not support this function. 
 
 
 #### - MediumChanger
@@ -332,14 +332,14 @@ Indicates, when set to one, that the target device is a multiport (2 or more por
 Reserved. 
 
 
+#### - EnclosureServices
+
+Indicates, when set to one, that the device contains an embedded enclosure services component. A value of zero indicates that the device does not contain an embedded enclosure services component. 
+
+
 #### - ReservedBit3
 
 Reserved. 
-
-
-#### - TerminateTask
-
-Indicates, when set to one, that the target device supports the SCSI TERMINATE TASK task management function. A value of zero indicates that the target device does not support the TERMINATE TASK task management function. 
 
 
 #### - TransferDisable

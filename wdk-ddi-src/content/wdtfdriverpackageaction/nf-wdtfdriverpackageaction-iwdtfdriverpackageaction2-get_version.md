@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: be94306f-42b8-487f-9c0e-0efd3170c75c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfdriverpackageaction2_version, IWDTFDriverPackageAction2.Version, Microsoft::WDTF::IWDTFDriverPackageAction2::Version, IWDTFDriverPackageAction2::get_Version, Version property [Windows Device Testing Framework], wdtfdriverpackageaction/IWDTFDriverPackageAction2::Version, Microsoft.WDTF.IWDTFDriverPackageAction2.Version, get_Version, IWDTFDriverPackageAction2, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Version, Version property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Version property
+ms.keywords: Microsoft::WDTF::IWDTFDriverPackageAction2::Version, IWDTFDriverPackageAction2::get_Version, wdtfdriverpackageaction/IWDTFDriverPackageAction2::Version, IWDTFDriverPackageAction2, Microsoft.WDTF.IWDTFDriverPackageAction2.Version, IWDTFDriverPackageAction2.Version, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_Version, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], Version property, get_Version, Version property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, dtf.iwdtfdriverpackageaction2_version, Version property [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

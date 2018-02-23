@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E019CCED-3511-4B7B-B6C9-09FF31B0547A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: urstypes/URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci, URS_HOST_INTERFACE_TYPE enumeration [Buses], UrsHostInterfaceTypeXhci, urstypes/UrsHostInterfaceTypeOther, urstypes/UrsHostInterfaceTypeXhci, buses.urs_host_interface_type, _URS_HOST_INTERFACE_TYPE
+ms.keywords: UrsHostInterfaceTypeEhci, UrsHostInterfaceTypeOther, URS_HOST_INTERFACE_TYPE, UrsHostInterfaceTypeXhci, buses.urs_host_interface_type, urstypes/UrsHostInterfaceTypeXhci, _URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeOther, URS_HOST_INTERFACE_TYPE enumeration [Buses], urstypes/URS_HOST_INTERFACE_TYPE, urstypes/UrsHostInterfaceTypeEhci
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

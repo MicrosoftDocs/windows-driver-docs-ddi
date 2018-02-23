@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20677d16-136c-47d7-a19b-21731433298e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportquerysystemtime, storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml, storport/StorPortQuerySystemTime, StorPortQuerySystemTime routine [Storage Devices], StorPortQuerySystemTime
+ms.keywords: StorPortQuerySystemTime routine [Storage Devices], storprt_fcad0e23-f796-4cd9-935c-6db56a63d899.xml, storage.storportquerysystemtime, storport/StorPortQuerySystemTime, StorPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

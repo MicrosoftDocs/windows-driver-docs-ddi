@@ -7,8 +7,8 @@ old-location: print\iprintoemps2_getpdevadjustment.htm
 old-project: print
 ms.assetid: 8dc4252f-72d5-47ae-9f43-8006aa71c29d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, print.iprintoemps2_getpdevadjustment, prcomoem/IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment, GetPDEVAdjustment method [Print Devices], print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, IPrintOemPS2::GetPDEVAdjustment, IPrintOemPS2
+ms.date: 2/22/2018
+ms.keywords: GetPDEVAdjustment method [Print Devices], IPrintOemPS2, print_unidrv-pscript_rendering_eca8e6af-1563-4028-9d87-fd014e1e06ee.xml, prcomoem/IPrintOemPS2::GetPDEVAdjustment, IPrintOemPS2::GetPDEVAdjustment, GetPDEVAdjustment, print.iprintoemps2_getpdevadjustment, GetPDEVAdjustment method [Print Devices], IPrintOemPS2 interface, IPrintOemPS2 interface [Print Devices], GetPDEVAdjustment method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS2.GetPDEVAdjustment
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 
@@ -161,21 +161,21 @@ Currently, the Pscript5 driver calls <code>IPrintOemPS2::GetPDEVAdjustment</code
 
 
 
-<a href="..\printoem\ns-printoem-_pdev_hostfont_enabled.md">PDEV_HOSTFONT_ENABLED</a>
-
-
-
-<a href="https://msdn.microsoft.com/f2fb4176-c366-4cf9-bc17-59cc0c69a32b">IPrintOemPS2</a>
-
-
-
 <a href="..\printoem\ns-printoem-_pdev_use_true_color.md">PDEV_USE_TRUE_COLOR</a>
 
 
 
- 
+<a href="..\printoem\ns-printoem-_pdev_adjust_paper_margin.md">PDEV_ADJUST_PAPER_MARGIN</a>
+
+
+
+<a href="..\prcomoem\nn-prcomoem-iprintoemps2.md">IPrintOemPS2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPS2::GetPDEVAdjustment method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPS2::GetPDEVAdjustment method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

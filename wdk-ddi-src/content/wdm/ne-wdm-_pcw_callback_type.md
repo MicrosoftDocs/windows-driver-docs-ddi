@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 92f7a980-509a-44af-b480-fa8c212f4ac6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdm/PcwCallbackAddCounter, PcwCallbackCollectData, PcwCallbackRemoveCounter, PCW_CALLBACK_TYPE, devtest.pcw_callback_type, PcwCallbackEnumerateInstances, wdm/PcwCallbackEnumerateInstances, km_pcw_39199484-e1fb-4d3b-9bab-27d8d880a9bf.xml, wdm/PcwCallbackCollectData, PPCW_CALLBACK_TYPE, _PCW_CALLBACK_TYPE, PCW_CALLBACK_TYPE enumeration [Driver Development Tools], *PPCW_CALLBACK_TYPE, wdm/PcwCallbackRemoveCounter, PPCW_CALLBACK_TYPE enumeration pointer [Driver Development Tools], wdm/PPCW_CALLBACK_TYPE, PcwCallbackAddCounter, wdm/PCW_CALLBACK_TYPE
+ms.keywords: devtest.pcw_callback_type, wdm/PcwCallbackCollectData, wdm/PCW_CALLBACK_TYPE, PPCW_CALLBACK_TYPE enumeration pointer [Driver Development Tools], *PPCW_CALLBACK_TYPE, PCW_CALLBACK_TYPE enumeration [Driver Development Tools], PCW_CALLBACK_TYPE, PcwCallbackRemoveCounter, wdm/PcwCallbackAddCounter, wdm/PcwCallbackRemoveCounter, km_pcw_39199484-e1fb-4d3b-9bab-27d8d880a9bf.xml, PcwCallbackCollectData, _PCW_CALLBACK_TYPE, wdm/PPCW_CALLBACK_TYPE, wdm/PcwCallbackEnumerateInstances, PPCW_CALLBACK_TYPE, PcwCallbackEnumerateInstances, PcwCallbackAddCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

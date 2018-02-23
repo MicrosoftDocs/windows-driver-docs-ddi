@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 92DDF65E-4B5B-443A-9C90-3B1BB2DD3CAF
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], COMPOSITE_DEVICE_CAPABILITIES_INIT, buses.composite_driver_capabilities_init
+ms.keywords: COMPOSITE_DEVICE_CAPABILITIES_INIT routine [Buses], usbdlib/COMPOSITE_DEVICE_CAPABILITIES_INIT, COMPOSITE_DEVICE_CAPABILITIES_INIT, buses.composite_driver_capabilities_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -90,11 +90,11 @@ This routine does not return a value.
 
 
 
-<a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450897">How to Register a Composite Device</a>
+
+
+
+<a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
 
 
 

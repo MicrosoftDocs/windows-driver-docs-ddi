@@ -7,8 +7,8 @@ old-location: stream\ksallocateextradata.htm
 old-project: stream
 ms.assetid: dfeaca74-d34d-4128-bd76-3a1bf1b3f5d6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, KsAllocateExtraData function [Streaming Media Devices], KsAllocateExtraData, stream.ksallocateextradata, ks/KsAllocateExtraData
+ms.date: 2/22/2018
+ms.keywords: ks/KsAllocateExtraData, KsAllocateExtraData, ksfunc_a6f4b047-cec7-4c0d-850f-c3d3b1d1e33e.xml, stream.ksallocateextradata, KsAllocateExtraData function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

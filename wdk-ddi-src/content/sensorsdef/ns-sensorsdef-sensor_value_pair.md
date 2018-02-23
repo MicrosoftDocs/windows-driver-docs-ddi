@@ -7,8 +7,8 @@ old-location: sensors\sensor_value_pair.htm
 old-project: sensors
 ms.assetid: 0D0B06FE-BE88-4FB2-92FC-8B6D396CEFE8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR, sensorsdef/PSENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR structure [Sensor Devices], PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], sensors.sensor_value_pair, *PSENSOR_VALUE_PAIR
+ms.date: 2/22/2018
+ms.keywords: SENSOR_VALUE_PAIR structure [Sensor Devices], sensors.sensor_value_pair, PSENSOR_VALUE_PAIR structure pointer [Sensor Devices], SENSOR_VALUE_PAIR, PSENSOR_VALUE_PAIR, sensorsdef/SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR, sensorsdef/PSENSOR_VALUE_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

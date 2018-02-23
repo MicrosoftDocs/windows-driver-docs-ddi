@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9fff319e-0428-4185-a792-d3842ab9feb8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, PoSetPowerState, kernel.posetpowerstate, wdm/PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.posetpowerstate, PoSetPowerState, PoSetPowerState routine [Kernel-Mode Driver Architecture], portn_b6d6559d-e4c7-4fa8-b0f2-556b840391f9.xml, wdm/PoSetPowerState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -77,7 +77,7 @@ A pointer to the target <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT<
 
 ### -param Type [in]
 
-Indicates a <a href="..\ntpoapi\ne-ntpoapi-_power_state_type.md">POWER_STATE_TYPE</a> value. Drivers must specify <b>DevicePowerState</b>.
+Indicates a <a href="..\wdm\ne-wdm-_power_state_type.md">POWER_STATE_TYPE</a> value. Drivers must specify <b>DevicePowerState</b>.
 
 
 ### -param State [in]
@@ -102,7 +102,7 @@ On Windows 2000 and later versions of the operating system, <b>PoSetPowerState</
 
 <ul>
 <li>
-A driver calls this routine after receiving a device set-power request and before calling <a href="..\ntifs\nf-ntifs-postartnextpowerirp.md">PoStartNextPowerIrp</a>. When handling a PnP <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request, the driver should call <b>PoSetPowerState</b> to notify the power manager that the device is in the D0 state.
+A driver calls this routine after receiving a device set-power request and before calling <a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>. When handling a PnP <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a> request, the driver should call <b>PoSetPowerState</b> to notify the power manager that the device is in the D0 state.
 
 </li>
 <li>
@@ -123,11 +123,11 @@ Callers of <b>PoSetPowerState</b> must be running at IRQL &lt;= APC_LEVEL except
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-postartnextpowerirp.md">PoStartNextPowerIrp</a>
-
-
-
 <a href="..\wdm\nf-wdm-postartnextpowerirp.md">PoStartNextPowerIrp</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
 
 
 

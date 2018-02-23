@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7e337d7a-a408-4574-8da3-ea333fdbde8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wfp_ref_2_funct_3_fwps_D-H_2104bcba-b5f2-4476-9b9e-9783269618f0.xml, FwpsFreeNetBufferList0, fwpsk/FwpsFreeNetBufferList0, FwpsFreeNetBufferList0 function [Network Drivers Starting with Windows Vista], netvista.fwpsfreenetbufferlist0
+ms.keywords: netvista.fwpsfreenetbufferlist0, FwpsFreeNetBufferList0, fwpsk/FwpsFreeNetBufferList0, wfp_ref_2_funct_3_fwps_D-H_2104bcba-b5f2-4476-9b9e-9783269618f0.xml, FwpsFreeNetBufferList0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

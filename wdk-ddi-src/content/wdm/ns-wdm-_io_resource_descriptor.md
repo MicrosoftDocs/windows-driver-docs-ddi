@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 03e3a656-c691-4aff-bcc8-4e0bc8390fd7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_RESOURCE_INTERRUPT_MESSAGE, PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, kernel.io_resource_descriptor, CM_RESOURCE_INTERRUPT_LATCHED, CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, IO_RESOURCE_PREFERRED, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, IO_RESOURCE_ALTERNATIVE, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, _IO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DEFAULT, wdm/PIO_RESOURCE_DESCRIPTOR, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml, 0, *PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_SERIAL, IO_RESOURCE_DESCRIPTOR, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], wdm/IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_WAKE_HINT, IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture]
+ms.keywords: CM_RESOURCE_CONNECTION_TYPE_SERIAL_SPI, CM_RESOURCE_INTERRUPT_WAKE_HINT, CM_RESOURCE_CONNECTION_TYPE_SERIAL_UART, IO_RESOURCE_PREFERRED, CM_RESOURCE_INTERRUPT_SECONDARY_INTERRUPT, PIO_RESOURCE_DESCRIPTOR structure pointer [Kernel-Mode Driver Architecture], IO_RESOURCE_DESCRIPTOR structure [Kernel-Mode Driver Architecture], PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_CONNECTION_CLASS_GPIO, CM_RESOURCE_INTERRUPT_POLICY_INCLUDED, kernel.io_resource_descriptor, CM_RESOURCE_CONNECTION_CLASS_SERIAL, CM_RESOURCE_INTERRUPT_MESSAGE, _IO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_LEVEL_SENSITIVE, CM_RESOURCE_CONNECTION_TYPE_GPIO_IO, *PIO_RESOURCE_DESCRIPTOR, CM_RESOURCE_INTERRUPT_LATCHED, wdm/IO_RESOURCE_DESCRIPTOR, wdm/PIO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR, kstruct_b_6b096887-dd89-43b8-abb8-4f3582392573.xml, 0, CM_RESOURCE_CONNECTION_TYPE_SERIAL_I2C, IO_RESOURCE_DEFAULT, IO_RESOURCE_ALTERNATIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_RESOURCE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PIO_RESOURCE_DESCRIPTOR, IO_RESOURCE_DESCRIPTOR"
+req.typenames: IO_RESOURCE_DESCRIPTOR, *PIO_RESOURCE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>IO_RESOURCE_DESCRIPTOR</b> structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of <b>IO_RESOURCE_DESCRIPTOR</b> structures is contained within each <a href="..\miniport\ns-miniport-_io_resource_list.md">IO_RESOURCE_LIST</a> structure.
+The <b>IO_RESOURCE_DESCRIPTOR</b> structure describes a range of raw hardware resources, of one type, that can be used by a device. An array of <b>IO_RESOURCE_DESCRIPTOR</b> structures is contained within each <a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a> structure.
 
 
 ## -syntax
@@ -413,14 +413,14 @@ Specifies a processor group number. <b>Group</b> is a valid (but optional) membe
 
 ### -field u.Interrupt.AffinityPolicy
 
-Specifies an <a href="..\miniport\ne-miniport-_irq_device_policy.md">IRQ_DEVICE_POLICY</a> value that indicates how the system should distribute a device's interrupts between processors.
+Specifies an <a href="..\wdm\ne-wdm-_irq_device_policy.md">IRQ_DEVICE_POLICY</a> value that indicates how the system should distribute a device's interrupts between processors.
 
-Specifies an <a href="..\miniport\ne-miniport-_irq_device_policy.md">IRQ_DEVICE_POLICY</a> value that indicates how the system should distribute a device's interrupts between processors.
+Specifies an <a href="..\wdm\ne-wdm-_irq_device_policy.md">IRQ_DEVICE_POLICY</a> value that indicates how the system should distribute a device's interrupts between processors.
 
 
 ### -field u.Interrupt.PriorityPolicy
 
-Specifies an <a href="..\miniport\ne-miniport-_irq_priority.md">IRQ_PRIORITY</a> value that indicates the priority with which the system should dispatch the device's interrupts.
+Specifies an <a href="..\wdm\ne-wdm-_irq_priority.md">IRQ_PRIORITY</a> value that indicates the priority with which the system should dispatch the device's interrupts.
 
 
 ### -field u.Interrupt.TargetedProcessors
@@ -791,11 +791,7 @@ The maximum bus-relative I/O port address that can be assigned to the device.
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
-
-
-
-<a href="..\miniport\ns-miniport-_io_resource_list.md">IO_RESOURCE_LIST</a>
+<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
 
 
 
@@ -803,7 +799,11 @@ The maximum bus-relative I/O port address that can be assigned to the device.
 
 
 
-<a href="..\wdm\nf-wdm-ioconnectinterrupt.md">IoConnectInterrupt</a>
+<a href="..\wdm\ns-wdm-_io_resource_list.md">IO_RESOURCE_LIST</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a>
 
 
 

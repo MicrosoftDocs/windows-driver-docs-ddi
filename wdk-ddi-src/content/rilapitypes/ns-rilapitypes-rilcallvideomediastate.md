@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f4d72de5-4e42-4229-b33e-8a0391f2f6cf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilcallvideomediastate_2, rilapitypes/RILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.rilcallvideomediastate_2, RILCALLVIDEOMEDIASTATE, rilapitypes/RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLVIDEOMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCALLVIDEOMEDIASTATE, RILCALLVIDEOMEDIASTATE"
+req.typenames: RILCALLVIDEOMEDIASTATE, *LPRILCALLVIDEOMEDIASTATE
 req.product: Windows 10 or later.
 ---
 

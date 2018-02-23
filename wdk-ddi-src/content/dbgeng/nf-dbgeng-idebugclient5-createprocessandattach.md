@@ -4,11 +4,11 @@ title: IDebugClient5::CreateProcessAndAttach method
 author: windows-driver-content
 description: The CreateProcessAndAttach method creates a process from a specified command line, then attach to another user-mode process.
 old-location: debugger\createprocessandattach.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1a92a823-ec50-406f-942c-c64fc820f9af
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient4, CreateProcessAndAttach method [Windows Debugging], IDebugClient interface, IDebugClient4 interface [Windows Debugging], CreateProcessAndAttach method, IDebugClient5, IDebugClient3::CreateProcessAndAttach, dbgeng/IDebugClient5::CreateProcessAndAttach, IDebugClient2 interface [Windows Debugging], CreateProcessAndAttach method, IDebugClient4::CreateProcessAndAttach, CreateProcessAndAttach method [Windows Debugging], IDebugClient5 interface, CreateProcessAndAttach method [Windows Debugging], CreateProcessAndAttach method [Windows Debugging], IDebugClient2 interface, IDebugClient interface [Windows Debugging], CreateProcessAndAttach method, IDebugClient::CreateProcessAndAttach, IDebugClient, CreateProcessAndAttach, CreateProcessAndAttach method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient2::CreateProcessAndAttach, IDebugClient2::CreateProcessAndAttach, IDebugClient5::CreateProcessAndAttach, IDebugClient_5ff3afdf-164e-4f2f-a625-389f3da41d24.xml, IDebugClient2, dbgeng/IDebugClient4::CreateProcessAndAttach, debugger.createprocessandattach, dbgeng/IDebugClient::CreateProcessAndAttach, dbgeng/IDebugClient3::CreateProcessAndAttach, IDebugClient3, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach method, CreateProcessAndAttach method [Windows Debugging], IDebugClient4 interface, IDebugClient3 interface [Windows Debugging], CreateProcessAndAttach method
+ms.date: 2/22/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging], CreateProcessAndAttach method, CreateProcessAndAttach method [Windows Debugging], IDebugClient5 interface, IDebugClient_5ff3afdf-164e-4f2f-a625-389f3da41d24.xml, IDebugClient3::CreateProcessAndAttach, CreateProcessAndAttach method [Windows Debugging], IDebugClient2 interface, IDebugClient5 interface [Windows Debugging], CreateProcessAndAttach method, IDebugClient4, dbgeng/IDebugClient2::CreateProcessAndAttach, IDebugClient3, CreateProcessAndAttach method [Windows Debugging], IDebugClient3 interface, IDebugClient::CreateProcessAndAttach, CreateProcessAndAttach method [Windows Debugging], IDebugClient interface, debugger.createprocessandattach, IDebugClient3 interface [Windows Debugging], CreateProcessAndAttach method, IDebugClient2::CreateProcessAndAttach, CreateProcessAndAttach, dbgeng/IDebugClient3::CreateProcessAndAttach, IDebugClient2, IDebugClient5, IDebugClient5::CreateProcessAndAttach, dbgeng/IDebugClient4::CreateProcessAndAttach, dbgeng/IDebugClient5::CreateProcessAndAttach, IDebugClient interface [Windows Debugging], CreateProcessAndAttach method, IDebugClient, IDebugClient4::CreateProcessAndAttach, dbgeng/IDebugClient::CreateProcessAndAttach, CreateProcessAndAttach method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], CreateProcessAndAttach method, CreateProcessAndAttach method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -145,43 +145,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -189,11 +153,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558866">TerminateCurrentProcess</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
@@ -205,13 +169,49 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541846">DetachCurrentProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562280">.create (Create Process)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537786">AbandonCurrentProcess</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::CreateProcessAndAttach method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::CreateProcessAndAttach method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

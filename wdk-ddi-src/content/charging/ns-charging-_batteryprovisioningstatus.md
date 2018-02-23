@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: 4CDDBBC4-2462-41B3-B425-D635B4F1F0C4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: charging/BATTERY_INFORMATION, _BATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS structure [Battery Devices], BATTERYPROVISIONINGSTATUS, *PBATTERYPROVISIONINGSTATUS, battery.batteryprovisioningstatus
+ms.keywords: "_BATTERYPROVISIONINGSTATUS, battery.batteryprovisioningstatus, BATTERYPROVISIONINGSTATUS structure [Battery Devices], charging/BATTERY_INFORMATION, *PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PBATTERYPROVISIONINGSTATUS, BATTERYPROVISIONINGSTATUS"
+req.typenames: BATTERYPROVISIONINGSTATUS, *PBATTERYPROVISIONINGSTATUS
 ---
 
 # _BATTERYPROVISIONINGSTATUS structure

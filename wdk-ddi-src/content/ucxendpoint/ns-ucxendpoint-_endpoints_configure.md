@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: C24B7D85-AEA9-43B3-9BEE-262CAA255834
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._endpoints_configure, ucxendpoint/P_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], ENDPOINTS_CONFIGURE structure [Buses], _ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, ucxendpoint/_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE
+ms.keywords: P_ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE structure [Buses], ucxendpoint/P_ENDPOINTS_CONFIGURE, _ENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE, buses._endpoints_configure, ucxendpoint/_ENDPOINTS_CONFIGURE, P_ENDPOINTS_CONFIGURE structure pointer [Buses], *PENDPOINTS_CONFIGURE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ENDPOINTS_CONFIGURE
 product: Windows
 targetos: Windows
-req.typenames: "*PENDPOINTS_CONFIGURE, ENDPOINTS_CONFIGURE"
+req.typenames: ENDPOINTS_CONFIGURE, *PENDPOINTS_CONFIGURE
 req.product: Windows 10 or later.
 ---
 

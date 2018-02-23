@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96c128e1-c38a-412f-adeb-cde820e1af4e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST, storport/PRO_PARAMETER_LIST, storport/PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices], storage.pro_parameter_list, PPRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, PRO_PARAMETER_LIST structure [Storage Devices]"
+ms.keywords: PRO_PARAMETER_LIST structure [Storage Devices], storport/PRO_PARAMETER_LIST, *PPRO_PARAMETER_LIST, PRO_PARAMETER_LIST, structs-general_7481edb0-cc60-44b9-abcc-80bf0f79fbae.xml, storage.pro_parameter_list, PPRO_PARAMETER_LIST, storport/PPRO_PARAMETER_LIST, PPRO_PARAMETER_LIST structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c4fbe80-03f2-4ee0-b766-c1ccaa8e83c2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_SetRNIDMgmtInfo routine [Storage Devices], storage.hba_setrnidmgmtinfo, fibreHBA_rtns_ebe3859b-fe8c-42c6-a4a7-9d756489d818.xml, HBA_SetRNIDMgmtInfo, hbaapi/HBA_SetRNIDMgmtInfo
+ms.keywords: HBA_SetRNIDMgmtInfo routine [Storage Devices], hbaapi/HBA_SetRNIDMgmtInfo, HBA_SetRNIDMgmtInfo, fibreHBA_rtns_ebe3859b-fe8c-42c6-a4a7-9d756489d818.xml, storage.hba_setrnidmgmtinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

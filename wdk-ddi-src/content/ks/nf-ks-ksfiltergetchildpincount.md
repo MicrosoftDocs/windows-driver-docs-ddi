@@ -7,8 +7,8 @@ old-location: stream\ksfiltergetchildpincount.htm
 old-project: stream
 ms.assetid: 29e78bc3-0dc2-4e76-b683-c1e9a2d454d4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices], stream.ksfiltergetchildpincount, ks/KsFilterGetChildPinCount
+ms.date: 2/22/2018
+ms.keywords: ks/KsFilterGetChildPinCount, stream.ksfiltergetchildpincount, avfunc_cddbf6bc-da19-47a6-96d5-0d4151e70ff8.xml, KsFilterGetChildPinCount, KsFilterGetChildPinCount function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,15 +101,15 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
 ## -see-also
 
-<a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergetfirstchildpin.md">KsFilterGetFirstChildPin</a>
 
 
 
 <a href="..\ks\ns-ks-_ksfilter.md">KSFILTER</a>
+
+
+
+<a href="..\ks\nf-ks-kspingetnextsiblingpin.md">KsPinGetNextSiblingPin</a>
 
 
 
@@ -121,5 +121,5 @@ For more information, see <a href="https://msdn.microsoft.com/011edaaa-7449-41c3
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetChildPinCount function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsFilterGetChildPinCount function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

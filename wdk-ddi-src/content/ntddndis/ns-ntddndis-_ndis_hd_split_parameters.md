@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cc76765-871e-4cd0-b927-b0b4d3d746b4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml, NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_HD_SPLIT_PARAMETERS, NDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS, netvista.ndis_hd_split_parameters, ntddndis/PNDIS_HD_SPLIT_PARAMETERS"
+ms.keywords: NDIS_HD_SPLIT_PARAMETERS, *PNDIS_HD_SPLIT_PARAMETERS, netvista.ndis_hd_split_parameters, ntddndis/PNDIS_HD_SPLIT_PARAMETERS, _NDIS_HD_SPLIT_PARAMETERS, ntddndis/NDIS_HD_SPLIT_PARAMETERS, header_data_split_ref_f7f3a3c4-4259-44a5-abce-fa393922f97d.xml, PNDIS_HD_SPLIT_PARAMETERS, PNDIS_HD_SPLIT_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_HD_SPLIT_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -4,11 +4,11 @@ title: IDebugControl2::GetNearInstruction method
 author: windows-driver-content
 description: The GetNearInstruction method returns the location of a processor instruction relative to a given location.
 old-location: debugger\getnearinstruction.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 76387681-cac6-4c35-9095-28942a856c30
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetNearInstruction method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], GetNearInstruction method, IDebugControl_2c12e1fe-0f9b-45d6-9ff4-477bc42b2275.xml, IDebugControl3::GetNearInstruction, dbgeng/IDebugControl2::GetNearInstruction, dbgeng/IDebugControl3::GetNearInstruction, IDebugControl3 interface [Windows Debugging], GetNearInstruction method, IDebugControl, IDebugControl2::GetNearInstruction, IDebugControl2, IDebugControl::GetNearInstruction, GetNearInstruction method [Windows Debugging], IDebugControl3 interface, GetNearInstruction method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::GetNearInstruction, IDebugControl interface [Windows Debugging], GetNearInstruction method, debugger.getnearinstruction, GetNearInstruction method [Windows Debugging], GetNearInstruction
+ms.date: 2/22/2018
+ms.keywords: GetNearInstruction method [Windows Debugging], IDebugControl2 interface, GetNearInstruction, dbgeng/IDebugControl2::GetNearInstruction, IDebugControl interface [Windows Debugging], GetNearInstruction method, GetNearInstruction method [Windows Debugging], IDebugControl::GetNearInstruction, IDebugControl2::GetNearInstruction, debugger.getnearinstruction, IDebugControl3 interface [Windows Debugging], GetNearInstruction method, GetNearInstruction method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::GetNearInstruction, IDebugControl3::GetNearInstruction, dbgeng/IDebugControl3::GetNearInstruction, IDebugControl_2c12e1fe-0f9b-45d6-9ff4-477bc42b2275.xml, IDebugControl, IDebugControl2, GetNearInstruction method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], GetNearInstruction method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

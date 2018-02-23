@@ -7,8 +7,8 @@ old-location: print\exttextmetric.htm
 old-project: print
 ms.assetid: d3d2397c-71c3-4904-a1ad-96a94698e50c
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PEXTTEXTMETRIC, EXTTEXTMETRIC, prntfont/PEXTTEXTMETRIC, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, PEXTTEXTMETRIC structure pointer [Print Devices], prntfont/EXTTEXTMETRIC, *PEXTTEXTMETRIC, print.exttextmetric, EXTTEXTMETRIC structure [Print Devices], _EXTTEXTMETRIC
+ms.date: 2/22/2018
+ms.keywords: PEXTTEXTMETRIC, print_unidrv-pscript_fonts_8b9f67ef-9ab0-40e4-9474-c506de9c8824.xml, _EXTTEXTMETRIC, print.exttextmetric, PEXTTEXTMETRIC structure pointer [Print Devices], prntfont/EXTTEXTMETRIC, EXTTEXTMETRIC structure [Print Devices], prntfont/PEXTTEXTMETRIC, EXTTEXTMETRIC, *PEXTTEXTMETRIC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	EXTTEXTMETRIC
 product: Windows
 targetos: Windows
-req.typenames: "*PEXTTEXTMETRIC, EXTTEXTMETRIC"
+req.typenames: EXTTEXTMETRIC, *PEXTTEXTMETRIC
 req.product: Windows 10 or later.
 ---
 

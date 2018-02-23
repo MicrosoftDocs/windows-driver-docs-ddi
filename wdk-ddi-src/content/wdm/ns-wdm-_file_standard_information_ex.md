@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 460ADE5A-0302-4695-A9E4-43B309738BE7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], kernel.file_standard_information_ex, _FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], wdm/FILE_STANDARD_INFORMATION_EX
+ms.keywords: wdm/FILE_STANDARD_INFORMATION_EX, FILE_STANDARD_INFORMATION_EX structure [Kernel-Mode Driver Architecture], FILE_STANDARD_INFORMATION_EX, *PFILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX, wdm/PFILE_STANDARD_INFORMATION_EX, _FILE_STANDARD_INFORMATION_EX, PFILE_STANDARD_INFORMATION_EX structure pointer [Kernel-Mode Driver Architecture], kernel.file_standard_information_ex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,15 +120,15 @@ The metadata attribute status. <b>TRUE</b> indicates the file object represents 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
 
 
 
 <a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 

@@ -40,7 +40,7 @@ apiname:
 -	PFN_UFX_DEVICE_ADDRESSED
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -82,14 +82,14 @@ typedef EVT_UFX_DEVICE_ADDRESSED PFN_UFX_DEVICE_ADDRESSED;
 
 
 
-#### - DeviceAddress [in]
-
-New USB device address to assign. 
-
-
 #### - UfxDevice [in]
 
 The handle to a  USB device object that the client driver received in a previous call to  the <a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>.
+
+
+#### - DeviceAddress [in]
+
+New USB device address to assign. 
 
 
 ## -returns
@@ -166,11 +166,11 @@ Arguments:
 
 ## -see-also
 
-<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
-
-
-
 <a href="..\ufxclient\nf-ufxclient-ufxdeviceeventcomplete.md">UfxDeviceEventComplete</a>
+
+
+
+<a href="..\ufxclient\nf-ufxclient-ufxdevicecreate.md">UfxDeviceCreate</a>
 
 
 

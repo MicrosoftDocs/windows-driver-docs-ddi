@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CF1650C2-4141-4AD7-A3FC-A800B2281A8A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exrundowncompleted, wdm/ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], ExRundownCompleted
+ms.keywords: kernel.exrundowncompleted, ExRundownCompleted, ExRundownCompleted routine [Kernel-Mode Driver Architecture], wdm/ExRundownCompleted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinitializerundownprotection.md">ExInitializeRundownProtection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj569379">EX_RUNDOWN_REF</a>
 
 
 

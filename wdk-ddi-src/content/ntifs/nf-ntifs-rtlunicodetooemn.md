@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: bb9ec3d9-89cd-4c56-8020-f8f97c2ce69b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlUnicodeToOemN routine [Installable File System Drivers], RtlUnicodeToOemN, ifsk.rtlunicodetooemn, rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml, ntifs/RtlUnicodeToOemN
+ms.keywords: ifsk.rtlunicodetooemn, rtlref_f78dd2e1-13f7-4622-ac13-9207c040b782.xml, RtlUnicodeToOemN, ntifs/RtlUnicodeToOemN, RtlUnicodeToOemN routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

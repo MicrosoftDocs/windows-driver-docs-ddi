@@ -7,8 +7,8 @@ old-location: print\oemdevqueryprintex.htm
 old-project: print
 ms.assetid: 3d555be3-2a1b-40b4-adf4-b797bb4b09b7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: printoem/OEMDevQueryPrintEx, OEMDevQueryPrintEx, print.oemdevqueryprintex, OEMDevQueryPrintEx function [Print Devices], print_obsoletefunctions_c58c63fe-eeae-444d-a0e2-df17b61fa1ed.xml
+ms.date: 2/22/2018
+ms.keywords: print_obsoletefunctions_c58c63fe-eeae-444d-a0e2-df17b61fa1ed.xml, OEMDevQueryPrintEx function [Print Devices], printoem/OEMDevQueryPrintEx, print.oemdevqueryprintex, OEMDevQueryPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4289406f-dda0-4439-be6e-6e638bb46e1f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval, OnSurpriseRemoval method, IPnpCallback interface, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, wudfddi/IPnpCallback::OnSurpriseRemoval, IPnpCallback, IPnpCallback::OnSurpriseRemoval, IPnpCallback interface, OnSurpriseRemoval method, umdf.ipnpcallback_onsurpriseremoval, OnSurpriseRemoval method
+ms.keywords: IPnpCallback::OnSurpriseRemoval, OnSurpriseRemoval method, IPnpCallback interface, IPnpCallback, umdf.ipnpcallback_onsurpriseremoval, UMDFDeviceObjectRef_92f0661b-48a5-4d85-9bcf-f763c38b08ed.xml, OnSurpriseRemoval method, wudfddi/IPnpCallback::OnSurpriseRemoval, IPnpCallback interface, OnSurpriseRemoval method, OnSurpriseRemoval, wdf.ipnpcallback_onsurpriseremoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -99,15 +99,15 @@ For more information about when the framework calls this callback function, and 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallback.md">IPnpCallback</a>
 
 
 

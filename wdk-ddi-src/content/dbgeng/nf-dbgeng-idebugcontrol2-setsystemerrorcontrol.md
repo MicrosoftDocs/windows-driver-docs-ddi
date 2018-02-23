@@ -4,11 +4,11 @@ title: IDebugControl2::SetSystemErrorControl method
 author: windows-driver-content
 description: The SetSystemErrorControl method sets the control values for handling system errors.
 old-location: debugger\setsystemerrorcontrol.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0ff15743-29df-44dc-a18b-ba8f7e49058e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl, IDebugControl2, SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, IDebugControl2::SetSystemErrorControl, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, SetSystemErrorControl method [Windows Debugging], dbgeng/IDebugControl::SetSystemErrorControl, IDebugControl::SetSystemErrorControl, dbgeng/IDebugControl3::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::SetSystemErrorControl, IDebugControl3::SetSystemErrorControl, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method, debugger.setsystemerrorcontrol, SetSystemErrorControl
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugControl3::SetSystemErrorControl, IDebugControl2 interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl method [Windows Debugging], IDebugControl2 interface, debugger.setsystemerrorcontrol, IDebugControl3::SetSystemErrorControl, SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl2::SetSystemErrorControl, IDebugControl, IDebugControl2, IDebugControl interface [Windows Debugging], SetSystemErrorControl method, SetSystemErrorControl method [Windows Debugging], dbgeng/IDebugControl::SetSystemErrorControl, IDebugControl::SetSystemErrorControl, SetSystemErrorControl method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], SetSystemErrorControl method, IDebugControl_60e365d4-8645-469c-8973-9f2da168bba3.xml, IDebugControl2::SetSystemErrorControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,7 +125,7 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -133,17 +133,17 @@ When a system error occurs, the engine calls the <a href="https://msdn.microsoft
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549215">GetSystemErrorControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::SetSystemErrorControl method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSystemErrorControl method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

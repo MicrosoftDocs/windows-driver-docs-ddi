@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetModuleByModuleNameWide method
 author: windows-driver-content
 description: The GetModuleByModuleNameWide method searches through the target's modules for one with the specified name.
 old-location: debugger\getmodulebymodulenamewide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 66ec7c51-3d2c-4a25-a356-4df06ee1b1f5
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetModuleByModuleNameWide, IDebugSymbols3::GetModuleByModuleNameWide, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleNameWide method, GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, GetModuleByModuleNameWide method [Windows Debugging], debugger.getmodulebymodulenamewide, GetModuleByModuleNameWide
+ms.date: 2/22/2018
+ms.keywords: GetModuleByModuleNameWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getmodulebymodulenamewide, IDebugSymbols3, GetModuleByModuleNameWide method [Windows Debugging], GetModuleByModuleNameWide, dbgeng/IDebugSymbols3::GetModuleByModuleNameWide, IDebugSymbols3::GetModuleByModuleNameWide, IDebugSymbols3 interface [Windows Debugging], GetModuleByModuleNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -154,5 +154,5 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols3::GetModuleByModuleNameWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::GetModuleByModuleNameWide method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

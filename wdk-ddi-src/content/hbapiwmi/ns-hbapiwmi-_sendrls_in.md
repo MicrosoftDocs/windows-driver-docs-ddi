@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba78482f-243a-4f60-907e-8d5c4a702ef2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml, *PSendRLS_IN, SendRLS_IN, SendRLS_IN structure [Storage Devices], PSendRLS_IN structure pointer [Storage Devices], PSendRLS_IN, _SendRLS_IN, hbapiwmi/SendRLS_IN, storage.sendrls_in, hbapiwmi/PSendRLS_IN
+ms.keywords: SendRLS_IN, PSendRLS_IN, PSendRLS_IN structure pointer [Storage Devices], storage.sendrls_in, _SendRLS_IN, hbapiwmi/PSendRLS_IN, *PSendRLS_IN, hbapiwmi/SendRLS_IN, structs-Fibre_c78b38af-b1e5-4f98-a57c-9c4c81b4a5f3.xml, SendRLS_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

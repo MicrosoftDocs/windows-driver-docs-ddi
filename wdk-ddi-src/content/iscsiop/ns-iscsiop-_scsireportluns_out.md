@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6335705d-a900-456a-a882-f7f11bb485af
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_ScsiReportLuns_OUT, storage.scsireportluns_out, iscsiop/ScsiReportLuns_OUT, structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml, ScsiReportLuns_OUT, PScsiReportLuns_OUT, *PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], ScsiReportLuns_OUT structure [Storage Devices], iscsiop/PScsiReportLuns_OUT"
+ms.keywords: iscsiop/PScsiReportLuns_OUT, PScsiReportLuns_OUT structure pointer [Storage Devices], _ScsiReportLuns_OUT, iscsiop/ScsiReportLuns_OUT, storage.scsireportluns_out, PScsiReportLuns_OUT, *PScsiReportLuns_OUT, ScsiReportLuns_OUT, ScsiReportLuns_OUT structure [Storage Devices], structs-iSCSI_8f759a2a-f588-48c7-a777-1a0a7eb6604b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReportLuns_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiReportLuns_OUT, ScsiReportLuns_OUT"
+req.typenames: ScsiReportLuns_OUT, *PScsiReportLuns_OUT
 ---
 
 # _ScsiReportLuns_OUT structure
@@ -111,7 +111,11 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_scsireportluns_in.md">ScsiReportLuns_IN</a>
 
 
 
@@ -119,11 +123,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564918">ScsiReportLuns</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_scsireportluns_in.md">ScsiReportLuns_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 

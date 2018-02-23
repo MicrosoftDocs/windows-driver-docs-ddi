@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 34d954db-4220-4a3f-849c-f1164e6130f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DISK_PERFORMANCE structure [Storage Devices], storage.disk_performance, ntdddisk/PDISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, ntdddisk/DISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], DISK_PERFORMANCE, PDISK_PERFORMANCE, _DISK_PERFORMANCE, *PDISK_PERFORMANCE
+ms.keywords: "_DISK_PERFORMANCE, *PDISK_PERFORMANCE, storage.disk_performance, ntdddisk/PDISK_PERFORMANCE, PDISK_PERFORMANCE structure pointer [Storage Devices], PDISK_PERFORMANCE, DISK_PERFORMANCE, structs-disk_64493b27-dce7-4976-9519-c7324bd09b69.xml, ntdddisk/DISK_PERFORMANCE, DISK_PERFORMANCE structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DISK_PERFORMANCE
 product: Windows
 targetos: Windows
-req.typenames: "*PDISK_PERFORMANCE, DISK_PERFORMANCE"
+req.typenames: DISK_PERFORMANCE, *PDISK_PERFORMANCE
 ---
 
 # _DISK_PERFORMANCE structure

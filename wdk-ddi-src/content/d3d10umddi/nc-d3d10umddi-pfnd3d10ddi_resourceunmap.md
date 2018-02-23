@@ -7,7 +7,7 @@ old-location: display\resourceunmap.htm
 old-project: display
 ms.assetid: fb2b714e-232d-40b2-88ad-ee8dcd70a057
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.resourceunmap, ResourceUnmap callback function [Display Devices], ResourceUnmap, PFND3D10DDI_RESOURCEUNMAP, PFND3D10DDI_RESOURCEUNMAP, d3d10umddi/ResourceUnmap, UserModeDisplayDriverDx10_Functions_473ebdfc-f365-4194-9d52-6338e19ca0d5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	ResourceUnmap
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_RESOURCEUNMAP callback
@@ -87,11 +87,6 @@ VOID APIENTRY ResourceUnmap(
 
 
 
-#### - Subresource [in]
-
- An index that indicates the subresource to unmap. 
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
@@ -100,6 +95,11 @@ VOID APIENTRY ResourceUnmap(
 #### - hResource [in]
 
  A handle to the resource to unmap.
+
+
+#### - Subresource [in]
+
+ An index that indicates the subresource to unmap. 
 
 
 ## -returns
@@ -139,5 +139,5 @@ For Windows Display Driver Model (WDDM) 1.3 and later drivers, the Microsoft Dir
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_RESOURCEUNMAP callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_RESOURCEUNMAP callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

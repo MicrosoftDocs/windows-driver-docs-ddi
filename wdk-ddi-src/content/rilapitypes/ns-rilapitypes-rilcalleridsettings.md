@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 129fcbf9-8162-494a-a571-5c604849d387
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILCALLERIDSETTINGS, RILCALLERIDSETTINGS, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILCALLERIDSETTINGS, netvista.rilcalleridsettings_2
+ms.keywords: RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], RILCALLERIDSETTINGS, rilapitypes/RILCALLERIDSETTINGS, netvista.rilcalleridsettings_2, *LPRILCALLERIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

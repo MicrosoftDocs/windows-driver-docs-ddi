@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 600391ef-f4bb-479b-ad73-305e365ed70d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, WmiFireEvent, kernel.wmifireevent, WmiFireEvent routine [Kernel-Mode Driver Architecture], wmilib/WmiFireEvent
+ms.keywords: WmiFireEvent routine [Kernel-Mode Driver Architecture], wmilib/WmiFireEvent, k902_bae3b7d7-89d9-4ab9-8f26-2bd12e6b6caa.xml, kernel.wmifireevent, WmiFireEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,11 +128,11 @@ For more information about event tracing, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
-
-
-
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 491f1b10-342d-4edf-9b70-732f9d4755f2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: KdDisableDebugger routine [Driver Development Tools], devtest.kddisabledebugger, DebugFns_e280d38c-6f87-4540-a782-d7669815a0f5.xml, wdm/KdDisableDebugger, KdDisableDebugger
+ms.keywords: KdDisableDebugger routine [Driver Development Tools], devtest.kddisabledebugger, KdDisableDebugger, DebugFns_e280d38c-6f87-4540-a782-d7669815a0f5.xml, wdm/KdDisableDebugger
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1e598f83-01ad-4c3e-8044-a66041f6ad96
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfusbtargetdeviceisconnectedsynchronous, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous, WdfUsbTargetDeviceIsConnectedSynchronous, DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, WdfUsbTargetDeviceIsConnectedSynchronous method, wdf.wdfusbtargetdeviceisconnectedsynchronous
+ms.keywords: wdf.wdfusbtargetdeviceisconnectedsynchronous, kmdf.wdfusbtargetdeviceisconnectedsynchronous, WdfUsbTargetDeviceIsConnectedSynchronous, wdfusb/WdfUsbTargetDeviceIsConnectedSynchronous, DFUsbRef_52c60eb0-7e47-4064-9bb5-f2c7ba2e182a.xml, WdfUsbTargetDeviceIsConnectedSynchronous method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfUsbTargetDeviceIsConnectedSynchronous
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

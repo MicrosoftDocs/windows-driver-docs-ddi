@@ -7,8 +7,8 @@ old-location: print\getinfo_stdvar.htm
 old-project: print
 ms.assetid: 9f2ae88c-34a4-46b3-9571-5f2f023b7d6b
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: printoem/GETINFO_STDVAR, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, PGETINFO_STDVAR, PGETINFO_STDVAR structure pointer [Print Devices], GETINFO_STDVAR structure [Print Devices], print.getinfo_stdvar, printoem/PGETINFO_STDVAR, *PGETINFO_STDVAR, _GETINFO_STDVAR, GETINFO_STDVAR
+ms.date: 2/22/2018
+ms.keywords: "*PGETINFO_STDVAR, printoem/PGETINFO_STDVAR, printoem/GETINFO_STDVAR, GETINFO_STDVAR, PGETINFO_STDVAR, print_unidrv-pscript_rendering_3a08d48b-215f-4acc-89ef-849a2b826ce7.xml, PGETINFO_STDVAR structure pointer [Print Devices], GETINFO_STDVAR structure [Print Devices], print.getinfo_stdvar, _GETINFO_STDVAR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GETINFO_STDVAR
 product: Windows
 targetos: Windows
-req.typenames: "*PGETINFO_STDVAR, GETINFO_STDVAR"
+req.typenames: GETINFO_STDVAR, *PGETINFO_STDVAR
 req.product: Windows 10 or later.
 ---
 
@@ -269,5 +269,5 @@ For more information about <a href="https://msdn.microsoft.com/d3f85c0f-7387-430
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_STDVAR structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_STDVAR structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

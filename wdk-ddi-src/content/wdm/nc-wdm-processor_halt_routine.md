@@ -40,7 +40,7 @@ apiname:
 -	Halt
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ NTSTATUS Halt(
 
 ### -param Context [in, out, optional]
 
-A pointer to a PEP-defined processor-halt context. This pointer is the <i>Context</i> parameter value that the PEP previously passed to the <a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a> routine.
+A pointer to a PEP-defined processor-halt context. This pointer is the <i>Context</i> parameter value that the PEP previously passed to the <a href="..\pep_x\nc-pep_x-pofxcallbackprocessorhalt.md">ProcessorHalt</a> routine.
 
 
 ## -returns
@@ -89,7 +89,7 @@ A <i>Halt</i> callback routine may or may not return. If this routine does retur
 
 
 
-This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The <a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
+This routine is implemented by the platform extension plug-in (PEP) and is called by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The <a href="..\pep_x\nc-pep_x-pofxcallbackprocessorhalt.md">ProcessorHalt</a> routine accepts a pointer to a <i>Halt</i> callback routine as a parameter.
 
 The PEP's <i>Halt</i> routine is called at the same IRQL at which the PEP called <b>ProcessorHalt</b>.
 
@@ -98,11 +98,11 @@ The PEP's <i>Halt</i> routine is called at the same IRQL at which the PEP called
 
 ## -see-also
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
+<a href="..\pep_x\ns-pep_x-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
+<a href="..\pep_x\nc-pep_x-pofxcallbackprocessorhalt.md">ProcessorHalt</a>
 
 
 

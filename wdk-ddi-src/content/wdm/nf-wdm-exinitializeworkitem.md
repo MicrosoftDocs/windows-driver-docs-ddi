@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e26e7e68-0d0c-42fe-9342-ebbf2bb8f830
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ExInitializeWorkItem routine [Installable File System Drivers], ExInitializeWorkItem, wdm/ExInitializeWorkItem, ifsk.exinitializeworkitem
+ms.keywords: exref_815c9796-c2e5-4362-926a-2fb509f3a1ae.xml, ExInitializeWorkItem routine [Installable File System Drivers], ExInitializeWorkItem, ifsk.exinitializeworkitem, wdm/ExInitializeWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -72,7 +72,7 @@ VOID ExInitializeWorkItem(
 
 ### -param Item [in]
 
-Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This structure must be allocated from nonpaged pool. The callback routine specified in the <i>Routine</i> parameter is responsible for freeing this work item when it is no longer needed by calling <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>. 
+Pointer to a caller-allocated WORK_QUEUE_ITEM structure to be initialized. This structure must be allocated from nonpaged pool. The callback routine specified in the <i>Routine</i> parameter is responsible for freeing this work item when it is no longer needed by calling <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> or <a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>. 
 
 
 ### -param Routine [in]
@@ -123,7 +123,7 @@ None
 
 To add the work item to a system work queue, call <a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>. 
 
-Work items are a limited resource, and drivers should only allocate them as needed. For example, do not allocate a work item in <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> for the driver's dedicated use. 
+Work items are a limited resource, and drivers should only allocate them as needed. For example, do not allocate a work item in <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> for the driver's dedicated use. 
 
 <b>ExInitializeWorkItem</b>
       and 
@@ -140,15 +140,19 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exfreepoolwithtag.md">ExFreePoolWithTag</a>
-
-
-
 <a href="..\wdm\nf-wdm-iofreeworkitem.md">IoFreeWorkItem</a>
 
 
 
 <a href="..\wdm\nf-wdm-ioallocateworkitem.md">IoAllocateWorkItem</a>
+
+
+
+<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
@@ -160,11 +164,7 @@ Work items are a limited resource, and drivers should only allocate them as need
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-
-
-<a href="..\wdm\ns-wdm-_work_queue_item.md">WORK_QUEUE_ITEM</a>
+<a href="..\wdm\nf-wdm-exqueueworkitem.md">ExQueueWorkItem</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 4DA3FB63-D2D3-43E1-9420-29303176B837
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxEndpointNeedToCancelTransfers method [Buses], UcxEndpointNeedToCancelTransfers, buses._ucxendpointneedtocanceltransfers, ucxendpoint/UcxEndpointNeedToCancelTransfers
+ms.keywords: buses._ucxendpointneedtocanceltransfers, UcxEndpointNeedToCancelTransfers method [Buses], ucxendpoint/UcxEndpointNeedToCancelTransfers, UcxEndpointNeedToCancelTransfers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

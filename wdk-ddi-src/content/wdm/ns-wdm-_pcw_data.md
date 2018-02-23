@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: c2da567a-cea6-497a-b50f-848ecac20b30
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PPCW_DATA structure pointer [Driver Development Tools], km_pcw_69759b50-4312-4997-ba43-4ce30941d502.xml, wdm/PPCW_DATA, PPCW_DATA, *PPCW_DATA, _PCW_DATA, PCW_DATA, PCW_DATA structure [Driver Development Tools], devtest.pcw_data, wdm/PCW_DATA
+ms.keywords: PPCW_DATA, PCW_DATA, wdm/PPCW_DATA, PCW_DATA structure [Driver Development Tools], PPCW_DATA structure pointer [Driver Development Tools], km_pcw_69759b50-4312-4997-ba43-4ce30941d502.xml, _PCW_DATA, wdm/PCW_DATA, *PPCW_DATA, devtest.pcw_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCW_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PPCW_DATA, PCW_DATA"
+req.typenames: PCW_DATA, *PPCW_DATA
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: stream\avc_ext_plug_counts.htm
 old-project: stream
 ms.assetid: ffae774e-8ec9-49da-bdc6-b56beb45c4c0
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: AVC_EXT_PLUG_COUNTS structure [Streaming Media Devices], *PAVC_EXT_PLUG_COUNTS, avc/PAVC_EXT_PLUG_COUNTS, avc/AVC_EXT_PLUG_COUNTS, _AVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS structure pointer [Streaming Media Devices], stream.avc_ext_plug_counts, AVC_EXT_PLUG_COUNTS, avcref_171f4765-bb9f-4056-a238-d4822af50a3d.xml
+ms.date: 2/22/2018
+ms.keywords: avcref_171f4765-bb9f-4056-a238-d4822af50a3d.xml, _AVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS structure [Streaming Media Devices], avc/AVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS, PAVC_EXT_PLUG_COUNTS structure pointer [Streaming Media Devices], avc/PAVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS, stream.avc_ext_plug_counts, *PAVC_EXT_PLUG_COUNTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_EXT_PLUG_COUNTS
 product: Windows
 targetos: Windows
-req.typenames: "*PAVC_EXT_PLUG_COUNTS, AVC_EXT_PLUG_COUNTS"
+req.typenames: AVC_EXT_PLUG_COUNTS, *PAVC_EXT_PLUG_COUNTS
 ---
 
 # _AVC_EXT_PLUG_COUNTS structure
@@ -109,5 +109,5 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_EXT_PLUG_COUNTS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_EXT_PLUG_COUNTS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

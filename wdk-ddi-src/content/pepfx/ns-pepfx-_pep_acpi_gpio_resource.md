@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1B8AD1A9-9EB0-49A8-B791-0453C768A974
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_ACPI_GPIO_RESOURCE, pepfx/PPEP_ACPI_GPIO_RESOURCE, pepfx/PEP_ACPI_GPIO_RESOURCE, kernel.pep_acpi_gpio_resource, *PPEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_GPIO_RESOURCE
+ms.keywords: "*PPEP_ACPI_GPIO_RESOURCE, PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE structure [Kernel-Mode Driver Architecture], PPEP_ACPI_GPIO_RESOURCE structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_GPIO_RESOURCE, pepfx/PEP_ACPI_GPIO_RESOURCE, pepfx/PPEP_ACPI_GPIO_RESOURCE, kernel.pep_acpi_gpio_resource, PEP_ACPI_GPIO_RESOURCE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_GPIO_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_GPIO_RESOURCE, PEP_ACPI_GPIO_RESOURCE"
+req.typenames: PEP_ACPI_GPIO_RESOURCE, *PPEP_ACPI_GPIO_RESOURCE
 ---
 
 # _PEP_ACPI_GPIO_RESOURCE structure
@@ -82,32 +82,32 @@ typedef struct _PEP_ACPI_GPIO_RESOURCE {
 
 ### -field Type
 
-A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
+A <a href="..\pep_x\ne-pep_x-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value that identifies the resource type for this ACPI resource.
 
 
 ### -field Flags
 
-A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
+A <a href="..\pep_x\ns-pep_x-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure that describes the capabilities of this ACPI resource.
 
 
 ### -field InterruptType
 
-A <a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
+A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
 ### -field InterruptPolarity
 
-A <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
+A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
 
 ### -field PinConfig
 
-A <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
+A <a href="..\pep_x\ne-pep_x-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
 ### -field IoRestrictionType
 
-A <a href="..\pepfx\ne-pepfx-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a> enumeration value that identifies the type of IO that the pin supports.
+A <a href="..\pep_x\ne-pep_x-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a> enumeration value that identifies the type of IO that the pin supports.
 
 
 ### -field DriveStrength
@@ -152,27 +152,27 @@ The size of the <b>VendorData</b> buffer.
 
 ## -see-also
 
-<a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+<a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
+<a href="..\pep_x\ne-pep_x-_gpio_pin_iorestriction_type.md">GPIO_PIN_IORESTRICTION_TYPE</a>
 
 
 
-<a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
+<a href="..\pep_x\ne-pep_x-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a>
 
 
 
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
-<a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="..\pep_x\ne-pep_x-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 
 
 

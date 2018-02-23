@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f1304fb4-87c8-4a0f-a10f-6a2c5cbaed20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.offload_ipsec_delete_udpesp_sa, POFFLOAD_IPSEC_DELETE_UDPESP_SA, OFFLOAD_IPSEC_DELETE_UDPESP_SA, 216offload_7d48a18d-546e-4e72-baf6-5a9e8de5a615.xml, ntddndis/POFFLOAD_IPSEC_DELETE_UDPESP_SA, POFFLOAD_IPSEC_DELETE_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], *POFFLOAD_IPSEC_DELETE_UDPESP_SA, _OFFLOAD_IPSEC_DELETE_UDPESP_SA, ntddndis/OFFLOAD_IPSEC_DELETE_UDPESP_SA, OFFLOAD_IPSEC_DELETE_UDPESP_SA structure [Network Drivers Starting with Windows Vista]
+ms.keywords: OFFLOAD_IPSEC_DELETE_UDPESP_SA, OFFLOAD_IPSEC_DELETE_UDPESP_SA structure [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_DELETE_UDPESP_SA, ntddndis/OFFLOAD_IPSEC_DELETE_UDPESP_SA, POFFLOAD_IPSEC_DELETE_UDPESP_SA structure pointer [Network Drivers Starting with Windows Vista], 216offload_7d48a18d-546e-4e72-baf6-5a9e8de5a615.xml, ntddndis/POFFLOAD_IPSEC_DELETE_UDPESP_SA, POFFLOAD_IPSEC_DELETE_UDPESP_SA, *POFFLOAD_IPSEC_DELETE_UDPESP_SA, netvista.offload_ipsec_delete_udpesp_sa
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_IPSEC_DELETE_UDPESP_SA
 product: Windows
 targetos: Windows
-req.typenames: "*POFFLOAD_IPSEC_DELETE_UDPESP_SA, OFFLOAD_IPSEC_DELETE_UDPESP_SA"
+req.typenames: OFFLOAD_IPSEC_DELETE_UDPESP_SA, *POFFLOAD_IPSEC_DELETE_UDPESP_SA
 ---
 
 # _OFFLOAD_IPSEC_DELETE_UDPESP_SA structure

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1722e6f6-7509-4ae1-b394-3c69f4596e6d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoResourceListGetDescriptor method, DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, wdfresource/WdfIoResourceListGetDescriptor, wdf.wdfioresourcelistgetdescriptor, WdfIoResourceListGetDescriptor, kmdf.wdfioresourcelistgetdescriptor
+ms.keywords: WdfIoResourceListGetDescriptor method, wdfresource/WdfIoResourceListGetDescriptor, wdf.wdfioresourcelistgetdescriptor, WdfIoResourceListGetDescriptor, DFResourceObjectRef_6cb56ab5-abf5-4915-a48f-a3c91d657806.xml, kmdf.wdfioresourcelistgetdescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -86,7 +86,7 @@ A zero-based value that is used as an index into the logical configuration that 
 
 
 
-<b>WdfIoResourceListGetDescriptor</b> returns a pointer to the <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
+<b>WdfIoResourceListGetDescriptor</b> returns a pointer to the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that describes the hardware resource that the <i>Index</i> parameter identifies, if the index value is valid. Otherwise, the method returns <b>NULL</b>.
 
 A system bug check occurs if the driver supplies an invalid object handle.
 
@@ -99,7 +99,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-Your driver cannot modify the contents of the <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that <b>WdfIoResourceListGetDescriptor</b> retrieves. To modify a resource descriptor, the driver can call <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>.
+Your driver cannot modify the contents of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure that <b>WdfIoResourceListGetDescriptor</b> retrieves. To modify a resource descriptor, the driver can call <a href="..\wdfresource\nf-wdfresource-wdfioresourcelistupdatedescriptor.md">WdfIoResourceListUpdateDescriptor</a>.
 
 For more information about resource requirements lists and logical configurations, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
@@ -114,7 +114,7 @@ For a code example that uses <b>WdfIoResourceListGetDescriptor</b>, see <a href=
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 

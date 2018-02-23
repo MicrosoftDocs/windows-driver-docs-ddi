@@ -7,7 +7,7 @@ old-location: audio\iportclsruntimepower.htm
 old-project: audio
 ms.assetid: 8D03B2A0-6C8C-4EBE-86F4-70C8DE179947
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.iportclsruntimepower, IPortClsRuntimePower interface [Audio Devices], IPortClsRuntimePower interface [Audio Devices], described, IPortClsRuntimePower, portcls/IPortClsRuntimePower
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,13 @@ req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 IPortClsRuntimePower is the interface that the port class driver (PortCls)  uses for accessing the runtime power management capabilities of the audio adapter.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPortClsRuntimePower</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPortClsRuntimePower</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPortClsRuntimePower</b> interface has these methods.
@@ -87,11 +94,5 @@ The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</c
 
 </td>
 </tr>
-</table>The port class driver (PortCls) uses the <code>RegisterPowerControlCallback</code>  method to register a power control callback.
-
-The port class driver (PortCls) uses the <code>SendPowerControl</code>  method to send power control codes to the audio adapter.
-
-The port class driver (PortCls) uses the <code>UnregisterPowerControlCallback</code>  method to unregister a power control callback.
-
- 
+</table> 
 

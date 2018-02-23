@@ -53,6 +53,14 @@ req.product: Windows 10 or later.
 Defines properties and operations for the collection.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTargets2</b> interface inherits from <b>ITracing</b>. <b>IWDTFTargets2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFTargets2</b> interface has these methods.
@@ -135,27 +143,8 @@ Remove an item from the collection.
 
 </td>
 </tr>
-</table>Add a single item to the collection.
-
-Clears all items from the collection.
-
-Evaluates whether all items in the collection match an SDEL statement.
-
-Returns a collection of actions that support the interface - one <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> for each item
-that has one.
-
-Returns a collection of actions that support the interface - one <a href="..\wdtf\nn-wdtf-iwdtfaction2.md">IWDTFAction2</a> for each item
-that has one.
-
-Returns a subset of the items in the collection.
-
-Returns a single item from the collection.
-
-Remove an item from the collection.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTargets2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTargets2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -227,38 +216,5 @@ Gets the main WDTF aggregation object.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
-
-
-Read-only
-
-Gets a new iteration variable that the <b>For Each</b> 
-loop structure implicitly uses.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of items in this collection.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
-
-
-Read-only
-
-Gets an individual item in the collection.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
-
-
-Read-only
-
-Gets the main WDTF aggregation object.
-
- 
+</table> 
 

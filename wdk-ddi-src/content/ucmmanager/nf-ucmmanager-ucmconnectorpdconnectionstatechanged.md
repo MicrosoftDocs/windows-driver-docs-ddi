@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2DE78869-9AFC-423A-BCB0-B7BBAB0C06BC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ucmconnectorpdconnectionstatechanged, UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses], ucmmanager/UcmConnectorPdConnectionStateChanged
+ms.keywords: UcmConnectorPdConnectionStateChanged, buses.ucmconnectorpdconnectionstatechanged, ucmmanager/UcmConnectorPdConnectionStateChanged, UcmConnectorPdConnectionStateChanged method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

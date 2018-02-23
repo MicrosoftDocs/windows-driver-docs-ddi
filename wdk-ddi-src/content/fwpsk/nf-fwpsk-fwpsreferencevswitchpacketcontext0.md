@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: F4F5005F-2BDA-4E58-A06A-2A4F1D34776D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0, netvista.fwpsreferencevswitchpacketcontext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.fwpsreferencevswitchpacketcontext0, FwpsReferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], fwpsk/FwpsReferencevSwitchPacketContext0, FwpsReferencevSwitchPacketContext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ None.
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsdereferencevswitchpacketcontext0.md">FwpsDereferencevSwitchPacketContext0</a>
-
-
-
 <a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsdereferencevswitchpacketcontext0.md">FwpsDereferencevSwitchPacketContext0</a>
 
 
 

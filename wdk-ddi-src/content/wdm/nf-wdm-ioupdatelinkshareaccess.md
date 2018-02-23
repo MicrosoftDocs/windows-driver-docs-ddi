@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C92E53C8-3411-4E6E-B48E-B16F6B815488
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoUpdateLinkShareAccess, kernel.ioupdatelinkshareaccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], wdm/IoUpdateLinkShareAccess
+ms.keywords: IoUpdateLinkShareAccess, IoUpdateLinkShareAccess function [Kernel-Mode Driver Architecture], kernel.ioupdatelinkshareaccess, wdm/IoUpdateLinkShareAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ Before calling <b>IoUpdateLinkShareAccess</b>, the caller must successfully call
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
+<a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
 
 
 
@@ -115,7 +115,7 @@ Before calling <b>IoUpdateLinkShareAccess</b>, the caller must successfully call
 
 
 
-<a href="..\wdm\nf-wdm-ioremovelinkshareaccess.md">IoRemoveLinkShareAccess</a>
+<a href="..\wdm\nf-wdm-iochecklinkshareaccess.md">IoCheckLinkShareAccess</a>
 
 
 

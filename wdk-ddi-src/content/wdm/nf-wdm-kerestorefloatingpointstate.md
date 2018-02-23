@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9a9b3c9f-5371-4d70-b1f3-5038e4cabc83
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.kerestorefloatingpointstate, wdm/KeRestoreFloatingPointState, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], KeRestoreFloatingPointState, k105_94a36699-2129-4e69-ba6a-206452f0b723.xml
+ms.keywords: KeRestoreFloatingPointState, k105_94a36699-2129-4e69-ba6a-206452f0b723.xml, kernel.kerestorefloatingpointstate, KeRestoreFloatingPointState routine [Kernel-Mode Driver Architecture], wdm/KeRestoreFloatingPointState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

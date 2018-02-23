@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_cursor_attr.htm
 old-project: display
 ms.assetid: bb1f426e-6a3d-4644-ad3d-26e5a70b534d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.ioctl_video_set_cursor_attr, IOCTL_VIDEO_SET_CURSOR_ATTR control code [Display Devices], IOCTL_VIDEO_SET_CURSOR_ATTR, ntddvdeo/IOCTL_VIDEO_SET_CURSOR_ATTR, Video_IOCTLs_7f8f1646-ff57-47fd-afb7-f7ad7e953188.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

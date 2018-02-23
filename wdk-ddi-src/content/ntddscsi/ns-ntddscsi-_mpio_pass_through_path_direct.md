@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b4ddaee3-97af-46a6-982c-16b5f6966a08
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddscsi/PMPIO_PASS_THROUGH_PATH_DIRECT, PMPIO_PASS_THROUGH_PATH_DIRECT, PMPIO_PASS_THROUGH_PATH_DIRECT structure pointer [Storage Devices], structs-scsibus_54825e13-2114-46d8-ab0f-84feb86b8f5c.xml, MPIO_PASS_THROUGH_PATH_DIRECT structure [Storage Devices], storage.mpio_pass_through_path_direct, MPIO_PASS_THROUGH_PATH_DIRECT, *PMPIO_PASS_THROUGH_PATH_DIRECT, _MPIO_PASS_THROUGH_PATH_DIRECT, ntddscsi/MPIO_PASS_THROUGH_PATH_DIRECT
+ms.keywords: MPIO_PASS_THROUGH_PATH_DIRECT structure [Storage Devices], PMPIO_PASS_THROUGH_PATH_DIRECT, PMPIO_PASS_THROUGH_PATH_DIRECT structure pointer [Storage Devices], *PMPIO_PASS_THROUGH_PATH_DIRECT, MPIO_PASS_THROUGH_PATH_DIRECT, ntddscsi/MPIO_PASS_THROUGH_PATH_DIRECT, _MPIO_PASS_THROUGH_PATH_DIRECT, storage.mpio_pass_through_path_direct, ntddscsi/PMPIO_PASS_THROUGH_PATH_DIRECT, structs-scsibus_54825e13-2114-46d8-ab0f-84feb86b8f5c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -123,19 +123,19 @@ The <b>MPIO_PASS_THROUGH_PATH_DIRECT</b> structure is used for a single-buffered
 
 
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a>
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
 <a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through.md">SCSI_PASS_THROUGH</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
 
 
 

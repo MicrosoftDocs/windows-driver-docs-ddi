@@ -7,8 +7,8 @@ old-location: sensors\gnss_chipsetinfo.htm
 old-project: sensors
 ms.assetid: DE45805C-09E6-44B8-A4DA-BF73EC444AA9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PGNSS_CHIPSETINFO, sensors.gnss_chipsetinfo, PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], GNSS_CHIPSETINFO, gnssdriver/GNSS_CHIPSETINFO, gnssdriver/PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices]"
+ms.date: 2/22/2018
+ms.keywords: GNSS_CHIPSETINFO, GNSS_CHIPSETINFO structure [Sensor Devices], gnssdriver/PGNSS_CHIPSETINFO, gnssdriver/GNSS_CHIPSETINFO, PGNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO, PGNSS_CHIPSETINFO structure pointer [Sensor Devices], sensors.gnss_chipsetinfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_CHIPSETINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_CHIPSETINFO, GNSS_CHIPSETINFO"
+req.typenames: GNSS_CHIPSETINFO, *PGNSS_CHIPSETINFO
 ---
 
 # GNSS_CHIPSETINFO structure

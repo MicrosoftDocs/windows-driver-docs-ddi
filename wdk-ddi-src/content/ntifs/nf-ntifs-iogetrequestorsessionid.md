@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e13cf62-d71e-4878-becd-d34beb2f59b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/IoGetRequestorSessionId, IoGetRequestorSessionId, ifsk.iogetrequestorsessionid, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, IoGetRequestorSessionId routine [Installable File System Drivers]
+ms.keywords: IoGetRequestorSessionId routine [Installable File System Drivers], ntifs/IoGetRequestorSessionId, ifsk.iogetrequestorsessionid, ioref_fe60ee3b-1b5b-4d9c-a4f2-456e05575349.xml, IoGetRequestorSessionId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

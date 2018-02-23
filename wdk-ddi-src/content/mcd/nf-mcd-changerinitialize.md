@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7cb90d35-53e5-4c73-a1f5-9fc3f99cf1b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.changerinitialize, ChangerInitialize, mcd/ChangerInitialize, chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, ChangerInitialize function [Storage Devices]
+ms.keywords: mcd/ChangerInitialize, chgrmini_025ae048-8625-4039-82a2-29d99dcc4972.xml, storage.changerinitialize, ChangerInitialize function [Storage Devices], ChangerInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

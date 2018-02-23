@@ -7,8 +7,8 @@ old-location: display\iddcx_gammaramp_type.htm
 old-project: display
 ms.assetid: 40fa5169-e295-429c-a63d-3e4ab9c14672
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, IDDCX_GAMMARAMP_TYPE enumeration [Display Devices], iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, display.iddcx_gammaramp_type, IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE
+ms.date: 2/22/2018
+ms.keywords: iddcx/IDDCX_GAMMARAMP_TYPE_DEFAULT, IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, IDDCX_GAMMARAMP_TYPE_RGB256x3x16, iddcx/IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE enumeration [Display Devices], iddcx/IDDCX_GAMMARAMP_TYPE_UNINITIALIZED, iddcx/IDDCX_GAMMARAMP_TYPE_RGB256x3x16, IDDCX_GAMMARAMP_TYPE, IDDCX_GAMMARAMP_TYPE_DEFAULT, display.iddcx_gammaramp_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

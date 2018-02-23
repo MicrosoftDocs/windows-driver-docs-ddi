@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8cee85a3-b2e4-4378-a700-862d1b517f14
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: aux_klib/PAUX_MODULE_BASIC_INFO, aux_klib/AUX_MODULE_BASIC_INFO, _AUX_MODULE_BASIC_INFO, aux_klib_7c33c85c-d2d1-49ea-98e2-d25299a281b9.xml, AUX_MODULE_BASIC_INFO structure [Kernel-Mode Driver Architecture], AUX_MODULE_BASIC_INFO, PAUX_MODULE_BASIC_INFO, *PAUX_MODULE_BASIC_INFO, PAUX_MODULE_BASIC_INFO structure pointer [Kernel-Mode Driver Architecture], kernel.aux_module_basic_info
+ms.keywords: kernel.aux_module_basic_info, AUX_MODULE_BASIC_INFO, PAUX_MODULE_BASIC_INFO structure pointer [Kernel-Mode Driver Architecture], AUX_MODULE_BASIC_INFO structure [Kernel-Mode Driver Architecture], aux_klib/PAUX_MODULE_BASIC_INFO, _AUX_MODULE_BASIC_INFO, aux_klib/AUX_MODULE_BASIC_INFO, PAUX_MODULE_BASIC_INFO, aux_klib_7c33c85c-d2d1-49ea-98e2-d25299a281b9.xml, *PAUX_MODULE_BASIC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

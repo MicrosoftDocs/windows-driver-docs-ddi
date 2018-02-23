@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 45bda979-8f89-41cf-a0c9-3d8777cd5a56
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_WatchUiccFileChange, RIL_WatchUiccFileChange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista], netvista.ril_watchuiccfilechange
+ms.keywords: RIL_WatchUiccFileChange, rilapi/RIL_WatchUiccFileChange, netvista.ril_watchuiccfilechange, RIL_WatchUiccFileChange method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_WatchUiccFileChange
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

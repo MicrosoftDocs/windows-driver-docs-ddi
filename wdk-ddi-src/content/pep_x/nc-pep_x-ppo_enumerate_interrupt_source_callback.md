@@ -40,7 +40,7 @@ apiname:
 -	EnumerateInterruptSource
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE"
+req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
 
 # PPO_ENUMERATE_INTERRUPT_SOURCE_CALLBACK callback
@@ -73,12 +73,12 @@ BOOLEAN EnumerateInterruptSource(
 
 ### -param CallbackContext [in]
 
-A pointer to a callback context. The PEP specified this pointer value as a parameter in the <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a> call that initiated the enumeration of interrupt sources.
+A pointer to a callback context. The PEP specified this pointer value as a parameter in the <a href="..\pep_x\nc-pep_x-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a> call that initiated the enumeration of interrupt sources.
 
 
 ### -param InterruptInformation [in]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure that contains information about the interrupt source.
+A pointer to a <a href="..\pep_x\ns-pep_x-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure that contains information about the interrupt source.
 
 
 ## -returns
@@ -94,7 +94,7 @@ If the <i>EnumerateInterruptSource</i> callback routine returns TRUE, <b>Enumera
 
 
 
-This callback routine is implemented by a PEP, and is called by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The <i>Callback</i> parameter of the <a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a> routine is a pointer to an <i>EnumerateInterruptSource</i> callback routine.
+This callback routine is implemented by a PEP, and is called by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The <i>Callback</i> parameter of the <a href="..\pep_x\nc-pep_x-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a> routine is a pointer to an <i>EnumerateInterruptSource</i> callback routine.
 
 After a PEP calls <b>EnumerateUnmaskedInterrupts</b> to enumerate the unmasked interrupt sources, PoFx calls the PEP's <i>EnumerateInterruptSource</i> callback routine once for each unmasked interrupt source. <b>EnumerateUnmaskedInterrupts</b> returns only after the last call to the <i>EnumerateInterruptSource</i> callback routine completes.
 
@@ -105,11 +105,11 @@ An <i>EnumerateInterruptSource</i> callback routine is called at the same IRQL a
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
+<a href="..\pep_x\ns-pep_x-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
 
 
 
-<a href="..\pepfx\nc-pepfx-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
+<a href="..\pep_x\nc-pep_x-pofxcallbackenumerateunmaskedinterrupts.md">EnumerateUnmaskedInterrupts</a>
 
 
 

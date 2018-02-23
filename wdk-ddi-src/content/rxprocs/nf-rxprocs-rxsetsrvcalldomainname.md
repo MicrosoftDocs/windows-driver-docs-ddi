@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 876b3932-780f-4d00-8afc-40960f8fcaaf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxSetSrvCallDomainName, rxprocs/RxSetSrvCallDomainName, ifsk.rxsetsrvcalldomainname, rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml, RxSetSrvCallDomainName function [Installable File System Drivers]
+ms.keywords: ifsk.rxsetsrvcalldomainname, rxprocs/RxSetSrvCallDomainName, RxSetSrvCallDomainName, RxSetSrvCallDomainName function [Installable File System Drivers], rxref_f6d23374-7565-4922-8f1c-222886e3a90c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,11 +122,11 @@ If the <i>DomainName</i> parameter is not a <b>NULL</b> pointer, and the <i>Doma
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
-
-
-
 <a href="..\fcb\nf-fcb-rxfinalizesrvcall.md">RxFinalizeSrvCall</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
 
 
 

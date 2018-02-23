@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c12b66a4-fdb5-40d3-a767-c15477391179
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/PDEVICE_SEEK_PENALTY_DESCRIPTOR, _DEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Storage Devices], PDEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR, structs-general_9fb189fe-9d56-4460-8860-dc6fe6d2fceb.xml, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Storage Devices], storage.device_seek_penalty_descriptor, *PDEVICE_SEEK_PENALTY_DESCRIPTOR
+ms.keywords: structs-general_9fb189fe-9d56-4460-8860-dc6fe6d2fceb.xml, PDEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/PDEVICE_SEEK_PENALTY_DESCRIPTOR, DEVICE_SEEK_PENALTY_DESCRIPTOR structure [Storage Devices], DEVICE_SEEK_PENALTY_DESCRIPTOR, *PDEVICE_SEEK_PENALTY_DESCRIPTOR, storage.device_seek_penalty_descriptor, _DEVICE_SEEK_PENALTY_DESCRIPTOR, ntddstor/DEVICE_SEEK_PENALTY_DESCRIPTOR, PDEVICE_SEEK_PENALTY_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

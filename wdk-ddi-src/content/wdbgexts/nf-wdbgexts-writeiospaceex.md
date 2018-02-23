@@ -4,11 +4,11 @@ title: WriteIoSpaceEx function
 author: windows-driver-content
 description: The WriteIoSpaceEx function is an extended version of WriteIoSpace.
 old-location: debugger\writeiospaceex.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: fb0ae4bb-6d6b-4772-9dbd-ae43f7728313
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wdbgexts/WriteIoSpaceEx, WriteIoSpaceEx function [Windows Debugging], WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, debugger.writeiospaceex, WriteIoSpaceEx
+ms.date: 2/22/2018
+ms.keywords: debugger.writeiospaceex, wdbgexts/WriteIoSpaceEx, WriteIoSpaceEx, WdbgExts_Ref_53bdc758-08b1-4103-9732-5b7b72c80fdd.xml, WriteIoSpaceEx function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA2495F6-09E8-4AF9-9489-E745B759F999
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_perf_set, pepfx/PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET, _PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET, pepfx/PEP_PPM_PERF_SET, PPEP_PPM_PERF_SET
+ms.keywords: PPEP_PPM_PERF_SET, _PEP_PPM_PERF_SET, PEP_PPM_PERF_SET, *PPEP_PPM_PERF_SET, pepfx/PPEP_PPM_PERF_SET, PEP_PPM_PERF_SET structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_PERF_SET, PPEP_PPM_PERF_SET structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_perf_set
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

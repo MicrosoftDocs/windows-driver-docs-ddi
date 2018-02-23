@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a6ed2bb8-e62c-4566-9b61-6acac68e8309
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: srb/ScsiPortWriteRegisterUshort, storage.scsiportwriteregisterushort, ScsiPortWriteRegisterUshort, scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, ScsiPortWriteRegisterUshort routine [Storage Devices]
+ms.keywords: srb/ScsiPortWriteRegisterUshort, storage.scsiportwriteregisterushort, scsiprt_550ba014-1ffa-496f-8cea-009f234fa8e4.xml, ScsiPortWriteRegisterUshort, ScsiPortWriteRegisterUshort routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

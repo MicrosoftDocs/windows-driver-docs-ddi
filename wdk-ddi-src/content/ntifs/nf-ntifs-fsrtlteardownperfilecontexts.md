@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c124c5a4-5187-4474-8896-28c729bc7d07
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlteardownperfilecontexts, FsRtlTeardownPerFileContexts, fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], ntifs/FsRtlTeardownPerFileContexts
+ms.keywords: ifsk.fsrtlteardownperfilecontexts, fsrtlref_3bd1af9f-ebc1-4cf8-9c7d-415f4bc64eb4.xml, FsRtlTeardownPerFileContexts, FsRtlTeardownPerFileContexts routine [Installable File System Drivers], ntifs/FsRtlTeardownPerFileContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

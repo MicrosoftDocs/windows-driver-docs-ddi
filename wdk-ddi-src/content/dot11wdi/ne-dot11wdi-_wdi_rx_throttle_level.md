@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 637c0892-8d73-45b7-b679-ff3a0ba78a9c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wdi_rx_throttle_level, WDI_RX_THROTTLE_LEVEL, dot11wdi/WDI_RxThrottleLevelAggressive, dot11wdi/WDI_RxThrottleLevelMedium, WDI_RxThrottleLevelNone, _WDI_RX_THROTTLE_LEVEL, WDI_RxThrottleLevelMedium, dot11wdi/WDI_RX_THROTTLE_LEVEL, netvista.wifi_rx_throttle_level, dot11wdi/WDI_RxThrottleLevelNone, WDI_RX_THROTTLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], WDI_RxThrottleLevelAggressive
+ms.keywords: netvista.wdi_rx_throttle_level, WDI_RxThrottleLevelMedium, netvista.wifi_rx_throttle_level, dot11wdi/WDI_RxThrottleLevelNone, WDI_RX_THROTTLE_LEVEL, WDI_RxThrottleLevelAggressive, dot11wdi/WDI_RxThrottleLevelMedium, dot11wdi/WDI_RX_THROTTLE_LEVEL, _WDI_RX_THROTTLE_LEVEL, WDI_RxThrottleLevelNone, WDI_RX_THROTTLE_LEVEL enumeration [Network Drivers Starting with Windows Vista], dot11wdi/WDI_RxThrottleLevelAggressive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

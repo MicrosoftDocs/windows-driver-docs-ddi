@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 70635820-9912-4d27-87e2-e713ea33e819
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_disablenotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], rilapi/RIL_DisableNotifications, RIL_DisableNotifications
+ms.keywords: rilapi/RIL_DisableNotifications, netvista.ril_disablenotifications, RIL_DisableNotifications method [Network Drivers Starting with Windows Vista], RIL_DisableNotifications
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_DisableNotifications
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

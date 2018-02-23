@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5E870D10-A03B-4CD8-A2DD-54A6AB527DB2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfcmresourcelist_getdescriptor, GetDescriptor method, IWDFCmResourceList, GetDescriptor, IWDFCmResourceList interface, GetDescriptor method, wdf.iwdfcmresourcelist_getdescriptor, GetDescriptor method, IWDFCmResourceList interface, IWDFCmResourceList::GetDescriptor, wudfddi/IWDFCmResourceList::GetDescriptor
+ms.keywords: wdf.iwdfcmresourcelist_getdescriptor, wudfddi/IWDFCmResourceList::GetDescriptor, GetDescriptor method, IWDFCmResourceList, GetDescriptor method, IWDFCmResourceList interface, GetDescriptor, umdf.iwdfcmresourcelist_getdescriptor, IWDFCmResourceList interface, GetDescriptor method, IWDFCmResourceList::GetDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

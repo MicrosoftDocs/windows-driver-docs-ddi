@@ -54,6 +54,14 @@ Defines operations and properties for the SystemDepot - the object that represen
 local computer.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSystemDepot2</b> interface inherits from <b>ITracing</b>. <b>IWDTFSystemDepot2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFSystemDepot2</b> interface has these methods.
@@ -71,11 +79,8 @@ Returns a subset of the devices in the SystemDepot.
 
 </td>
 </tr>
-</table>Returns a subset of the devices in the SystemDepot.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSystemDepot2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSystemDepot2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -146,37 +151,5 @@ Gets the main WDTF aggregation object.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of devices that are currently provided by the SystemDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
-
-
-Read-only
-
-Gets an individual device in the SystemDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439354">ThisSystem</a>
-
-
-Read-only
-
-Gets an <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> value that represents the local computer.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
-
-
-Read-only
-
-Gets the main WDTF aggregation object.
-
- 
+</table> 
 

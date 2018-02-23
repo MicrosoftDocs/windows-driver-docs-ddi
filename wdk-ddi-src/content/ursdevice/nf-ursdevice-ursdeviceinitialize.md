@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 8A9C76C0-70F5-4F65-A460-CCFCD236A242
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UrsDeviceInitialize, UrsDeviceInitialize function [Buses], buses.ursdeviceinitialize, ursdevice/UrsDeviceInitialize
+ms.keywords: UrsDeviceInitialize function [Buses], ursdevice/UrsDeviceInitialize, UrsDeviceInitialize, buses.ursdeviceinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,11 +163,11 @@ EvtDriverDeviceAdd (
 
 ## -see-also
 
-<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
-
-
-
 <a href="..\ursdevice\nf-ursdevice-urs_config_init.md">URS_CONFIG_INIT</a>
+
+
+
+<a href="..\ursdevice\ns-ursdevice-_urs_config.md">URS_CONFIG</a>
 
 
 

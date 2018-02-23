@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b64ca88f-f67d-4c92-aa0c-46dbe4970834
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwWriteFile, k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, NtWriteFile, wdm/ZwWriteFile, ZwWriteFile routine [Kernel-Mode Driver Architecture], wdm/NtWriteFile, kernel.zwwritefile
+ms.keywords: wdm/ZwWriteFile, ZwWriteFile, k111_97437555-3cb5-497b-8ebb-c683771da9f4.xml, kernel.zwwritefile, ZwWriteFile routine [Kernel-Mode Driver Architecture], NtWriteFile, wdm/NtWriteFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -195,19 +195,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwreadfile.md">ZwReadFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 

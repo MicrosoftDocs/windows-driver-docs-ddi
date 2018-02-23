@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntdddisk/DISK_INT13_INFO, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, _DISK_INT13_INFO, DISK_INT13_INFO, PDISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], *PDISK_INT13_INFO, storage.disk_int13_info, ntdddisk/PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices]
+ms.keywords: "_DISK_INT13_INFO, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, ntdddisk/DISK_INT13_INFO, storage.disk_int13_info, DISK_INT13_INFO structure [Storage Devices], PDISK_INT13_INFO, *PDISK_INT13_INFO, ntdddisk/PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices], DISK_INT13_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: A385FBF9-2222-49E0-A708-1638C0D2FF7A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pep_unmasked_interrupt_flags, PEP_UNMASKED_INTERRUPT_FLAGS, PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], *PPEP_UNMASKED_INTERRUPT_FLAGS, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS, _PEP_UNMASKED_INTERRUPT_FLAGS
+ms.keywords: PEP_UNMASKED_INTERRUPT_FLAGS union [Kernel-Mode Driver Architecture], *PPEP_UNMASKED_INTERRUPT_FLAGS, kernel.pep_unmasked_interrupt_flags, PEP_UNMASKED_INTERRUPT_FLAGS, _PEP_UNMASKED_INTERRUPT_FLAGS, pepfx/PEP_UNMASKED_INTERRUPT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -97,14 +97,14 @@ Reserved for future use.
 
 
 
-The <b>Flags</b> member of the <a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure is a <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union.
+The <b>Flags</b> member of the <a href="..\pep_x\ns-pep_x-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a> structure is a <b>PEP_UNMASKED_INTERRUPT_FLAGS</b> union.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
+<a href="..\pep_x\ns-pep_x-_pep_unmasked_interrupt_information.md">PEP_UNMASKED_INTERRUPT_INFORMATION</a>
 
 
 

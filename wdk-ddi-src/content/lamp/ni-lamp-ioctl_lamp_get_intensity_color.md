@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_get_intensity_color.htm
 old-project: stream
 ms.assetid: 8BAAB861-677D-4945-92B7-BDBE7A29695E
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.ioctl_lamp_get_intensity_color, IOCTL_LAMP_GET_INTENSITY_COLOR control code [Streaming Media Devices], IOCTL_LAMP_GET_INTENSITY_COLOR, lamp/IOCTL_LAMP_GET_INTENSITY_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

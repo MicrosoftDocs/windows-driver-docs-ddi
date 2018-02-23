@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: fdd69121-2b3c-4394-b67e-c29f43daf113
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USB_HUB_NODE, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml, USB_HUB_NODE enumeration [Buses], usbioctl/UsbHub, buses.usb_hub_node, usbioctl/UsbMIParent, UsbMIParent, _USB_HUB_NODE, UsbHub, usbioctl/USB_HUB_NODE
+ms.keywords: USB_HUB_NODE, buses.usb_hub_node, usbstrct_9dadc1ba-6775-48d3-8ebf-fa42ad6992bf.xml, UsbMIParent, usbioctl/USB_HUB_NODE, usbioctl/UsbMIParent, UsbHub, USB_HUB_NODE enumeration [Buses], _USB_HUB_NODE, usbioctl/UsbHub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

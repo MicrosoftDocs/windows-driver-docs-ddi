@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c7863713-850f-4516-aec5-9e851c36cf52
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Purge method, Purge method, IWDFIoQueue interface, IWDFIoQueue::Purge, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, IWDFIoQueue, umdf.iwdfioqueue_purge, wudfddi/IWDFIoQueue::Purge, Purge, IWDFIoQueue interface, Purge method, wdf.iwdfioqueue_purge
+ms.keywords: Purge method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::Purge, Purge, Purge method, IWDFIoQueue interface, Purge method, wdf.iwdfioqueue_purge, umdf.iwdfioqueue_purge, UMDFQueueObjectRef_5d2113b9-d2e3-4a27-af75-60f4bf7bddbf.xml, IWDFIoQueue, IWDFIoQueue::Purge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -148,23 +148,23 @@ CUmdfHidFile::OnCleanupFile(
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
 
 
 

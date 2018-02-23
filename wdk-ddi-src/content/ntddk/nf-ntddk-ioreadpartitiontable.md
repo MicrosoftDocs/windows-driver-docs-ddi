@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f87c74c3-fcb1-4358-ade6-6c0afc0020e2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml, IoReadPartitionTable, storage.ioreadpartitiontable, ntddk/IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices]
+ms.keywords: ntddk/IoReadPartitionTable, IoReadPartitionTable, IoReadPartitionTable routine [Storage Devices], storage.ioreadpartitiontable, rtns-disk_9a43d91f-cbb5-4747-bfa9-66da170b0864.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoReadPartitionTable
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoReadPartitionTable function
@@ -124,15 +124,11 @@ Read each partition table and, for each and every entry, fill in a partition inf
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
-
-
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info.md">IOCTL_DISK_GET_PARTITION_INFO</a>
-
-
-
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_drive_layout.md">IOCTL_DISK_GET_DRIVE_LAYOUT</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
 
 
 
@@ -140,7 +136,11 @@ Read each partition table and, for each and every entry, fill in a partition inf
 
 
 
-<a href="..\ntddk\nf-ntddk-iowritepartitiontable.md">IoWritePartitionTable</a>
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_get_partition_info.md">IOCTL_DISK_GET_PARTITION_INFO</a>
 
 
 

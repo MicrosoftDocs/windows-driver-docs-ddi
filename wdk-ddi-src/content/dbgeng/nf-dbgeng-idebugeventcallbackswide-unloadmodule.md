@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::UnloadModule method
 author: windows-driver-content
 description: The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_unloadmodule.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 05f3fa93-389e-4ecc-b7c0-71f43691232f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, UnloadModule, debugger.idebugeventcallbackswide_unloadmodule, dbgeng/IDebugEventCallbacksWide::UnloadModule, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::UnloadModule
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugEventCallbacksWide::UnloadModule, IDebugEventCallbacksWide::UnloadModule, UnloadModule, UnloadModule method [Windows Debugging], debugger.idebugeventcallbackswide_unloadmodule, IDebugEventCallbacksWide, IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

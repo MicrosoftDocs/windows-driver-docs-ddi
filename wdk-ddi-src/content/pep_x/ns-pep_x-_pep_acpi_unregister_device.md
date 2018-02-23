@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: AA9D9AB3-B799-4D21-A418-D29360BBE605
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pep_acpi_unregister_device, PPEP_ACPI_UNREGISTER_DEVICE, _PEP_ACPI_UNREGISTER_DEVICE, *PPEP_ACPI_UNREGISTER_DEVICE, pepfx/PEP_ACPI_UNREGISTER_DEVICE, pepfx/PPEP_ACPI_UNREGISTER_DEVICE, PPEP_ACPI_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PEP_ACPI_UNREGISTER_DEVICE
+ms.keywords: PEP_ACPI_UNREGISTER_DEVICE structure [Kernel-Mode Driver Architecture], PEP_ACPI_UNREGISTER_DEVICE, pepfx/PPEP_ACPI_UNREGISTER_DEVICE, pepfx/PEP_ACPI_UNREGISTER_DEVICE, kernel.pep_acpi_unregister_device, PPEP_ACPI_UNREGISTER_DEVICE structure pointer [Kernel-Mode Driver Architecture], PPEP_ACPI_UNREGISTER_DEVICE, *PPEP_ACPI_UNREGISTER_DEVICE, _PEP_ACPI_UNREGISTER_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_UNREGISTER_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_UNREGISTER_DEVICE, PEP_ACPI_UNREGISTER_DEVICE"
+req.typenames: PEP_ACPI_UNREGISTER_DEVICE, *PPEP_ACPI_UNREGISTER_DEVICE, PEP_ACPI_UNREGISTER_DEVICE, *PPEP_ACPI_UNREGISTER_DEVICE
 ---
 
 # _PEP_ACPI_UNREGISTER_DEVICE structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c2d775b1-364a-4c50-bd5e-dab9d9e07b83
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ZwRollforwardTransactionManager, NtRollforwardTransactionManager, kernel.zwrollforwardtransactionmanager, wdm/NtRollforwardTransactionManager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], ZwRollforwardTransactionManager
+ms.keywords: wdm/ZwRollforwardTransactionManager, ZwRollforwardTransactionManager routine [Kernel-Mode Driver Architecture], ZwRollforwardTransactionManager, wdm/NtRollforwardTransactionManager, ktm_ref_79b2cde2-5fd0-431f-a776-f4cd6fda1e45.xml, NtRollforwardTransactionManager, kernel.zwrollforwardtransactionmanager
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,11 +187,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\wdm\nf-wdm-zwopentransactionmanager.md">ZwOpenTransactionManager</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwrecovertransactionmanager.md">ZwRecoverTransactionManager</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

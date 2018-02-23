@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 19e6bf4a-8951-44a6-ac04-f286d8979e40
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortFreeRegistryBuffer, storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml, StorPortFreeRegistryBuffer, storage.storportfreeregistrybuffer, StorPortFreeRegistryBuffer routine [Storage Devices]
+ms.keywords: storprt_a81ec7f6-e78c-4bf0-9289-2a833623664d.xml, StorPortFreeRegistryBuffer routine [Storage Devices], storage.storportfreeregistrybuffer, storport/StorPortFreeRegistryBuffer, StorPortFreeRegistryBuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

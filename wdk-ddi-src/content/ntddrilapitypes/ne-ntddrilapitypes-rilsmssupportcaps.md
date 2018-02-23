@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 723c6bf7-beb9-4ab8-8b84-ac22388022b9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILSMSSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, ntddrilapitypes/RILSMSSUPPORTCAPS, RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_ALL, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], netvista.rilsmssupportcaps, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_ALL
+ms.keywords: ntddrilapitypes/RIL_CAPS_SMSSUPPORT_ALL, netvista.rilsmssupportcaps, RILSMSSUPPORTCAPS, ntddrilapitypes/RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RIL_CAPS_SMSSUPPORT_16BITREFERENCENUMBER, RILSMSSUPPORTCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_SMSSUPPORT_ALL, ntddrilapitypes/RILSMSSUPPORTCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

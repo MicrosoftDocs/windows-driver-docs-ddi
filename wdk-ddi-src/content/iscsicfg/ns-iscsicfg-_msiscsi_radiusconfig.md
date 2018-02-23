@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f8be86e-2729-4aa9-982d-df323f05cf1c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsicfg/PMSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig, _MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], storage.msiscsi_radiusconfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml, iscsicfg/MSiSCSI_RADIUSConfig
+ms.keywords: iscsicfg/MSiSCSI_RADIUSConfig, PMSiSCSI_RADIUSConfig structure pointer [Storage Devices], PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig structure [Storage Devices], structs-iSCSI_9f8461c3-b370-4aed-a5a5-58f9dd276944.xml, iscsicfg/PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig, storage.msiscsi_radiusconfig, _MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_RADIUSConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_RADIUSConfig, MSiSCSI_RADIUSConfig"
+req.typenames: MSiSCSI_RADIUSConfig, *PMSiSCSI_RADIUSConfig
 ---
 
 # _MSiSCSI_RADIUSConfig structure

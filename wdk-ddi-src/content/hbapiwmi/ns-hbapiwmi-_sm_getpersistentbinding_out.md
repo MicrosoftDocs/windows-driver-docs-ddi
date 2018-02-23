@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: aa80e05c-e322-4350-80e7-28d53821c510
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SM_GetPersistentBinding_OUT structure [Storage Devices], *PSM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT, storage.sm_getpersistentbinding_out, hbapiwmi/SM_GetPersistentBinding_OUT, _SM_GetPersistentBinding_OUT, hbapiwmi/PSM_GetPersistentBinding_OUT, structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml, PSM_GetPersistentBinding_OUT structure pointer [Storage Devices]
+ms.keywords: "*PSM_GetPersistentBinding_OUT, hbapiwmi/PSM_GetPersistentBinding_OUT, storage.sm_getpersistentbinding_out, hbapiwmi/SM_GetPersistentBinding_OUT, structs-Fibre_51ba485a-c18a-4d45-a77a-859d55acc4c6.xml, PSM_GetPersistentBinding_OUT, _SM_GetPersistentBinding_OUT, SM_GetPersistentBinding_OUT structure [Storage Devices], SM_GetPersistentBinding_OUT, PSM_GetPersistentBinding_OUT structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 96a35574-87dc-4a2f-aaef-616096839f3f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcUnpinRepinnedBcb, CcUnpinRepinnedBcb routine [Installable File System Drivers], ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, ntifs/CcUnpinRepinnedBcb, ifsk.ccunpinrepinnedbcb
+ms.keywords: ccref_72300deb-bf8a-4f2a-b594-69ccb01cff56.xml, ntifs/CcUnpinRepinnedBcb, ifsk.ccunpinrepinnedbcb, CcUnpinRepinnedBcb, CcUnpinRepinnedBcb routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

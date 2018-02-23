@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ffe91b9a-3b74-4dd9-b23d-096f1992485e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfdevice2_assigns0idlesettings, AssignS0IdleSettings method, IWDFDevice2 interface, IWDFDevice2::AssignS0IdleSettings, umdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings, UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, AssignS0IdleSettings method, IWDFDevice2 interface, AssignS0IdleSettings method, IWDFDevice2, AssignS0IdleSettings
+ms.keywords: UMDFDeviceObjectRef_337ed405-40bd-4162-ad50-3ee59e4e6c73.xml, umdf.iwdfdevice2_assigns0idlesettings, wudfddi/IWDFDevice2::AssignS0IdleSettings, IWDFDevice2, IWDFDevice2::AssignS0IdleSettings, wdf.iwdfdevice2_assigns0idlesettings, IWDFDevice2 interface, AssignS0IdleSettings method, AssignS0IdleSettings method, AssignS0IdleSettings, AssignS0IdleSettings method, IWDFDevice2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -76,7 +76,7 @@ HRESULT AssignS0IdleSettings(
 
 ### -param IdleCaps [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator that identifies the device's ability to wake itself after it is set to a low-power state, while the system remains in its working (S0) state.
 
 
 ### -param DxState [in]
@@ -91,7 +91,7 @@ The amount of time, in milliseconds, that the device will remain idle before the
 
 ### -param UserControlOfIdleSettings [in]
 
-A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
+A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_user_control.md">WDF_POWER_POLICY_S0_IDLE_USER_CONTROL</a>-typed enumerator that indicates whether users have the ability to modify the device's idle settings.
 
 
 ### -param Enabled [in]
@@ -258,7 +258,7 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
 
 
 
@@ -266,7 +266,7 @@ The following code example is based on the UMDF version of the toaster sample. T
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556923">IWDFDevice2::AssignSxWakeSettings</a>
+<a href="https://msdn.microsoft.com/D020B8AA-7353-47E1-A111-82BFE6F5F03D">IWDFDevice3::AssignS0IdleSettingsEx</a>
 
 
 

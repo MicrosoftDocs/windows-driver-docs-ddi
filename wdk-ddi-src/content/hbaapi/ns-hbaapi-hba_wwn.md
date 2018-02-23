@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 84441fde-1d66-4f76-86b7-dccd792afd0f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_WWN, structs-Fibre_89c3be90-1992-4d06-9a26-c3067dc69db8.xml, hbaapi/HBA_wwn, HBA_wwn, storage.hba_wwn, HBA_wwn structure [Storage Devices], *PHBA_WWN, HBA_WWN structure [Storage Devices], hbaapi/PHBA_WWN, PHBA_WWN, PHBA_WWN structure pointer [Storage Devices]
+ms.keywords: HBA_wwn, PHBA_WWN structure pointer [Storage Devices], *PHBA_WWN, HBA_wwn structure [Storage Devices], PHBA_WWN, HBA_WWN, structs-Fibre_89c3be90-1992-4d06-9a26-c3067dc69db8.xml, storage.hba_wwn, HBA_WWN structure [Storage Devices], hbaapi/PHBA_WWN, hbaapi/HBA_wwn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_WWN
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_WWN, HBA_WWN"
+req.typenames: HBA_WWN, *PHBA_WWN
 ---
 
 # HBA_wwn structure
@@ -74,7 +74,7 @@ Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
+<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
 
 
 
@@ -82,7 +82,7 @@ Contains a 64 bit world-wide name (WWN) that uniquely identifies an HBA. .
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
+<a href="..\hbaapi\ns-hbaapi-hba_portattributes.md">HBA_PortAttributes</a>
 
 
 

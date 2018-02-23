@@ -7,8 +7,8 @@ old-location: display\d3dkmt-removesurfacefromswapchain.htm
 old-project: display
 ms.assetid: 249a2bfc-7326-480f-bcc0-8d5104a9c890
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMT_REMOVESURFACEFROMSWAPCHAIN, display.d3dkmt-removesurfacefromswapchain, d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, _D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices]
+ms.date: 2/22/2018
+ms.keywords: "_D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN structure [Display Devices], display.d3dkmt-removesurfacefromswapchain, d3dkmthk/D3DKMT_REMOVESURFACEFROMSWAPCHAIN, D3DKMT_REMOVESURFACEFROMSWAPCHAIN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

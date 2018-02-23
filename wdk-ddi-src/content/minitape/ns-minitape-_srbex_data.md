@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 15FB9877-6339-484B-83D5-6AD44EEE1D6E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SRBEX_DATA, storport/PSRBEX_DATA, SrbExDataTypeWmi, PSRBEX_DATA structure pointer [Storage Devices], storage.srbex_data, SrbExDataTypeScsiCdb16, SRBEX_DATA structure [Storage Devices], _SRBEX_DATA, SrbExDataTypeScsiCdb32, SrbExDataTypePower, SrbExDataTypeIoInfo, PSRBEX_DATA, SrbExDataTypePnp, SrbExDataTypeUnknown, SrbExDataTypeScsiCdbVar, *PSRBEX_DATA, storport/SRBEX_DATA, SrbExDataTypeBidirectional
+ms.keywords: PSRBEX_DATA, SrbExDataTypeIoInfo, *PSRBEX_DATA, SrbExDataTypeUnknown, SrbExDataTypeWmi, PSRBEX_DATA structure pointer [Storage Devices], SrbExDataTypeBidirectional, SRBEX_DATA structure [Storage Devices], storage.srbex_data, SrbExDataTypeScsiCdb32, SrbExDataTypePower, SrbExDataTypeScsiCdbVar, SrbExDataTypePnp, storport/SRBEX_DATA, SrbExDataTypeScsiCdb16, _SRBEX_DATA, storport/PSRBEX_DATA, SRBEX_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,7 +94,7 @@ The SRB extended data type is unknown.
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a> structure.
 
 </td>
 </tr>
@@ -104,7 +104,7 @@ The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a> structure.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a> structure.
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a> structure.
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_wmi.md">SRBEX_DATA_WMI</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_wmi.md">SRBEX_DATA_WMI</a> structure.
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_power.md">SRBEX_DATA_POWER</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_power.md">SRBEX_DATA_POWER</a> structure.
 
 </td>
 </tr>
@@ -154,7 +154,7 @@ The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_pnp.md">SRBEX_DATA_PNP</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_pnp.md">SRBEX_DATA_PNP</a> structure.
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex
 </dl>
 </td>
 <td width="60%">
-The SRB extended data is formatted as an <a href="..\minitape\ns-minitape-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a> structure.
+The SRB extended data is formatted as an <a href="..\srb\ns-srb-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a> structure.
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ The extended SRB data block contents.
 
 
 
-The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure contains valid offset locations.  A storage driver initially references a memory offset location contained in <b>SrbExDataOffset</b> as an <b>SRBEX_DATA</b> structure. A pointer to the data block is then cast to the appropriate structure type based on the data type value in the <b>Type</b> member.
+The SRB extended data is present when the <b>SrbExDataOffset</b> array in the <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure contains valid offset locations.  A storage driver initially references a memory offset location contained in <b>SrbExDataOffset</b> as an <b>SRBEX_DATA</b> structure. A pointer to the data block is then cast to the appropriate structure type based on the data type value in the <b>Type</b> member.
 
 The following example code fragment shows how to access the extended data for the an SRB function of SRB_FUNCTION_PNP.
 
@@ -269,35 +269,35 @@ The following example code fragment shows how to access the extended data for th
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_srbex_data_wmi.md">SRBEX_DATA_WMI</a>
+<a href="..\srb\ns-srb-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
+<a href="..\srb\ns-srb-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_pnp.md">SRBEX_DATA_PNP</a>
+<a href="..\srb\ns-srb-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\srb\ns-srb-_srbex_data_scsi_cdb_var.md">SRBEX_DATA_SCSI_CDB_VAR</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_bidirectional.md">SRBEX_DATA_BIDIRECTIONAL</a>
+<a href="..\srb\ns-srb-_srbex_data_power.md">SRBEX_DATA_POWER</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+<a href="..\srb\ns-srb-_srbex_data_pnp.md">SRBEX_DATA_PNP</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_power.md">SRBEX_DATA_POWER</a>
+<a href="..\srb\ns-srb-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_io_info.md">SRBEX_DATA_IO_INFO</a>
+<a href="..\srb\ns-srb-_srbex_data_wmi.md">SRBEX_DATA_WMI</a>
 
 
 

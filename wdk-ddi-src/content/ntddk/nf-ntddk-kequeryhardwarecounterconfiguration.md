@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5ac33177-38fc-4027-95c9-c2cf9ccdaa52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], kernel.kequeryhardwarecounterconfiguration, ntddk/KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration, k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml
+ms.keywords: k105_442c5acf-84a3-4078-b401-ca8cb8069c6e.xml, kernel.kequeryhardwarecounterconfiguration, KeQueryHardwareCounterConfiguration routine [Kernel-Mode Driver Architecture], ntddk/KeQueryHardwareCounterConfiguration, KeQueryHardwareCounterConfiguration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	KeQueryHardwareCounterConfiguration
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # KeQueryHardwareCounterConfiguration function

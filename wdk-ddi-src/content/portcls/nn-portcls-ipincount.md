@@ -7,7 +7,7 @@ old-location: audio\ipincount.htm
 old-project: audio
 ms.assetid: 9e02584a-4c65-4400-b06e-58ba095c8dd0
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.ipincount, IPinCount interface [Audio Devices], IPinCount interface [Audio Devices], described, IPinCount, portcls/IPinCount, audmp-routines_05698591-4c80-4f02-a420-a87afff949ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

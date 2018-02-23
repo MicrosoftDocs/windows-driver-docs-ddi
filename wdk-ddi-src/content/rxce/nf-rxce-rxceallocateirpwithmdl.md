@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ffc6332b-7daa-4b23-8cf4-6077f7d1d40a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCeAllocateIrpWithMDL, ifsk.rxceallocateirpwithmdl, rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml, RxCeAllocateIrpWithMDL function [Installable File System Drivers], rxce/RxCeAllocateIrpWithMDL
+ms.keywords: rxref_8cb4dfd0-5789-4359-ad9f-bd1a9d460eb3.xml, RxCeAllocateIrpWithMDL function [Installable File System Drivers], rxce/RxCeAllocateIrpWithMDL, ifsk.rxceallocateirpwithmdl, RxCeAllocateIrpWithMDL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,11 +109,11 @@ An IRP allocated with an associated memory descriptor list allocated with <b>RxC
 
 ## -see-also
 
-<a href="..\rxce\nf-rxce-rxcefreeirp.md">RxCeFreeIrp</a>
-
-
-
 <a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
+
+
+
+<a href="..\rxce\nf-rxce-rxcefreeirp.md">RxCeFreeIrp</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\ksreleaseirponcancelablequeue.htm
 old-project: stream
 ms.assetid: 797e0821-2354-4dd5-b2ee-428d654feb40
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KsReleaseIrpOnCancelableQueue, ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], stream.ksreleaseirponcancelablequeue, KsReleaseIrpOnCancelableQueue
+ms.date: 2/22/2018
+ms.keywords: ks/KsReleaseIrpOnCancelableQueue, KsReleaseIrpOnCancelableQueue, stream.ksreleaseirponcancelablequeue, KsReleaseIrpOnCancelableQueue function [Streaming Media Devices], ksfunc_90599c85-7874-4eca-9177-45dcacbeacc7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

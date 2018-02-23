@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 919f30b1-025d-4526-a1f6-2d14c482e474
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortDeviceBusy, storage.ataportdevicebusy, irb/AtaPortDeviceBusy, atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, AtaPortDeviceBusy routine [Storage Devices]
+ms.keywords: storage.ataportdevicebusy, irb/AtaPortDeviceBusy, AtaPortDeviceBusy routine [Storage Devices], atartns_22d36e2a-804e-4d24-910e-051e6dccdeaa.xml, AtaPortDeviceBusy
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,11 +114,11 @@ The miniport driver must not call <b>AtaPortDeviceBusy</b> from its <a href="htt
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558992">IdeHwInterrupt</a>
+
+
+
+<a href="..\irb\nf-irb-ataportdeviceready.md">AtaPortDeviceReady</a>
 
 
 

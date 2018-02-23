@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aefbf6d6-c107-4bf2-993d-d7ba8ea7ffcd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/KeCancelTimer, KeCancelTimer, kernel.kecanceltimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml
+ms.keywords: k105_89adf0ea-9f6b-4e21-be3a-7f75f1baec10.xml, wdm/KeCancelTimer, kernel.kecanceltimer, KeCancelTimer routine [Kernel-Mode Driver Architecture], KeCancelTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

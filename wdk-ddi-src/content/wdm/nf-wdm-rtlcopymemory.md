@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d204eeb4-e109-4a86-986f-0fccdda3f8f8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCopyMemory, RtlCopyBytes, kernel.rtlcopymemory, k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml, wdm/RtlCopyMemory, RtlCopyMemory routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlCopyMemory routine [Kernel-Mode Driver Architecture], kernel.rtlcopymemory, wdm/RtlCopyMemory, RtlCopyMemory, RtlCopyBytes, k109_f4bb1fef-aae6-4086-b95a-ae4dc220c04b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

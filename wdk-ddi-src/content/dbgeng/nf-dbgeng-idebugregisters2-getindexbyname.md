@@ -4,11 +4,11 @@ title: IDebugRegisters2::GetIndexByName method
 author: windows-driver-content
 description: The GetIndexByName method returns the index of the named register.
 old-location: debugger\getindexbyname.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: a012b235-ed50-4009-a7ee-01783f9e3597
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugRegisters interface [Windows Debugging], GetIndexByName method, GetIndexByName method [Windows Debugging], dbgeng/IDebugRegisters::GetIndexByName, IDebugRegisters2, dbgeng/IDebugRegisters2::GetIndexByName, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, GetIndexByName, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, IDebugRegisters::GetIndexByName, debugger.getindexbyname, IDebugRegisters, IDebugRegisters2::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters interface
+ms.date: 2/22/2018
+ms.keywords: IDebugRegisters, IDebugRegisters_5b85eaa4-3c90-47e0-9f7f-7f493617fa37.xml, debugger.getindexbyname, IDebugRegisters2 interface [Windows Debugging], GetIndexByName method, GetIndexByName, IDebugRegisters interface [Windows Debugging], GetIndexByName method, GetIndexByName method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters::GetIndexByName, GetIndexByName method [Windows Debugging], IDebugRegisters interface, dbgeng/IDebugRegisters2::GetIndexByName, IDebugRegisters2::GetIndexByName, IDebugRegisters2, GetIndexByName method [Windows Debugging], dbgeng/IDebugRegisters::GetIndexByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

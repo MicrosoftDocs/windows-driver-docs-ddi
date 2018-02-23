@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: B97E27A1-0D95-41AA-8FF6-A92F70FBAD28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbfnbase/UsbfnBusSpeedSuper, UsbfnBusSpeedHigh, *PUSBFN_BUS_SPEED, usbfnbase/USBFN_BUS_SPEED, USBFN_BUS_SPEED, usbfnbase/UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedMaximum, UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedHigh, _USBFN_BUS_SPEED, UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedFull, UsbfnBusSpeedSuper, UsbfnBusSpeedMaximum, buses.usbfn_bus_speed, USBFN_BUS_SPEED enumeration [Buses]
+ms.keywords: usbfnbase/UsbfnBusSpeedHigh, buses.usbfn_bus_speed, usbfnbase/UsbfnBusSpeedFull, usbfnbase/UsbfnBusSpeedSuper, USBFN_BUS_SPEED, _USBFN_BUS_SPEED, *PUSBFN_BUS_SPEED, UsbfnBusSpeedHigh, UsbfnBusSpeedSuper, UsbfnBusSpeedLow, usbfnbase/UsbfnBusSpeedLow, USBFN_BUS_SPEED enumeration [Buses], UsbfnBusSpeedFull, UsbfnBusSpeedMaximum, usbfnbase/UsbfnBusSpeedMaximum, usbfnbase/USBFN_BUS_SPEED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_BUS_SPEED
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_BUS_SPEED, USBFN_BUS_SPEED"
+req.typenames: USBFN_BUS_SPEED, *PUSBFN_BUS_SPEED
 req.product: Windows 10 or later.
 ---
 

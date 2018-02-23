@@ -7,8 +7,8 @@ old-location: display\status_block.htm
 old-project: display
 ms.assetid: 8e3126df-d081-4545-a5db-8637ee27f15b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: video/PSTATUS_BLOCK, PSTATUS_BLOCK, *PSTATUS_BLOCK, _STATUS_BLOCK, STATUS_BLOCK, Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, video/STATUS_BLOCK, PSTATUS_BLOCK structure pointer [Display Devices], STATUS_BLOCK structure [Display Devices], display.status_block
+ms.date: 2/22/2018
+ms.keywords: video/STATUS_BLOCK, *PSTATUS_BLOCK, STATUS_BLOCK structure [Display Devices], video/PSTATUS_BLOCK, STATUS_BLOCK, Video_Structs_90f8dc6a-a666-4976-bc71-edf43b31b6e4.xml, PSTATUS_BLOCK, _STATUS_BLOCK, display.status_block, PSTATUS_BLOCK structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STATUS_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PSTATUS_BLOCK, STATUS_BLOCK"
+req.typenames: STATUS_BLOCK, *PSTATUS_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -157,5 +157,5 @@ Should be ignored by the miniport driver. This member of the union exists to gua
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20STATUS_BLOCK structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20STATUS_BLOCK structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

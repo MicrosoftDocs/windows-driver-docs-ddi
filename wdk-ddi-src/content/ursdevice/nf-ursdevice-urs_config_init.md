@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 72229643-1177-4884-94A9-89920A5488A6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: URS_CONFIG_INIT function [Buses], ursdevice/URS_CONFIG_INIT, URS_CONFIG_INIT, buses.urs_config_init
+ms.keywords: buses.urs_config_init, ursdevice/URS_CONFIG_INIT, URS_CONFIG_INIT function [Buses], URS_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

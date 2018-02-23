@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 25ca2d81-72a5-47ae-bdfd-0ec63e1ca39a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddscsi/NVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, *PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], NVCACHE_REQUEST_BLOCK structure [Storage Devices], _NVCACHE_REQUEST_BLOCK, ntddscsi/PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml, NVCACHE_REQUEST_BLOCK
+ms.keywords: ntddscsi/NVCACHE_REQUEST_BLOCK, storage.nvcache_request_block, PNVCACHE_REQUEST_BLOCK, PNVCACHE_REQUEST_BLOCK structure pointer [Storage Devices], _NVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK, ntddscsi/PNVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK, structs-nvcache_1886905c-1d48-4cc9-b74c-3b52dc65b279.xml, NVCACHE_REQUEST_BLOCK structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NVCACHE_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PNVCACHE_REQUEST_BLOCK, NVCACHE_REQUEST_BLOCK"
+req.typenames: NVCACHE_REQUEST_BLOCK, *PNVCACHE_REQUEST_BLOCK
 ---
 
 # _NVCACHE_REQUEST_BLOCK structure
@@ -243,11 +243,11 @@ For more information on function behavior, see section 7.20 of the <a href="http
 
 ## -see-also
 
-<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
-
-
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport_nvcache.md">IOCTL_SCSI_MINIPORT_NVCACHE</a>
+
+
+
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_miniport.md">IOCTL_SCSI_MINIPORT</a>
 
 
 

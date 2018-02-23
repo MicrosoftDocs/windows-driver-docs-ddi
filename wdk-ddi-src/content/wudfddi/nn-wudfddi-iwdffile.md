@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <a href="..\wudfddi\nn-wudfddi-iwdffilehandletargetfactory.md">IWDFFile</a> interface exposes the file object that represents the HANDLE that is returned by the Microsoft Win32 <b>CreateFile</b> function. All further operations on this handle, such as calls to the Win32 <b>ReadFile</b> function and the <b>DeviceIoControl</b> function, are sent to this file object.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFFile</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfobject.md">IWDFObject</a>. <b>IWDFFile</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFFile</b> interface has these methods.
@@ -81,9 +88,5 @@ The <a href="https://msdn.microsoft.com/7858f3ba-e02a-4115-bf30-12e3a6a75965">Re
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451305">GetDevice</a> method returns the interface to the device object that a file object is associated with.
-
-The <a href="https://msdn.microsoft.com/7858f3ba-e02a-4115-bf30-12e3a6a75965">RetrieveFileName</a> method retrieves the full name of the file that is associated with the underlying kernel-mode device.
-
- 
+</table> 
 

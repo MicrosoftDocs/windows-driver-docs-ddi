@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 50d07154-a6d2-4b95-822f-33c0f37ece2f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/RtlValidSecurityDescriptor, RtlValidSecurityDescriptor, k109_59b52650-028b-4e7a-8a00-234f40e354f2.xml, RtlValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], kernel.rtlvalidsecuritydescriptor
+ms.keywords: wdm/RtlValidSecurityDescriptor, k109_59b52650-028b-4e7a-8a00-234f40e354f2.xml, kernel.rtlvalidsecuritydescriptor, RtlValidSecurityDescriptor routine [Kernel-Mode Driver Architecture], RtlValidSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,15 +93,15 @@ The routine checks the validity of an absolute-format security descriptor. To ch
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlvalidrelativesecuritydescriptor.md">RtlValidRelativeSecurityDescriptor</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlvalidrelativesecuritydescriptor.md">RtlValidRelativeSecurityDescriptor</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlcreatesecuritydescriptor.md">RtlCreateSecurityDescriptor</a>
 
 
 
@@ -109,7 +109,7 @@ The routine checks the validity of an absolute-format security descriptor. To ch
 
 
 
-<a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+<a href="..\wdm\nf-wdm-rtlvalidrelativesecuritydescriptor.md">RtlValidRelativeSecurityDescriptor</a>
 
 
 

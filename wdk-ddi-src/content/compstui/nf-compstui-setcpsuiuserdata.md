@@ -7,8 +7,8 @@ old-location: print\setcpsuiuserdata.htm
 old-project: print
 ms.assetid: 35119100-adf9-4376-bb1a-7317733fbcc5
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.setcpsuiuserdata, SetCPSUIUserData, compstui/SetCPSUIUserData, SetCPSUIUserData function [Print Devices], cpsuifnc_d2f38387-ece5-4894-86d5-0ef66f62a72c.xml
+ms.date: 2/22/2018
+ms.keywords: SetCPSUIUserData function [Print Devices], compstui/SetCPSUIUserData, SetCPSUIUserData, print.setcpsuiuserdata, cpsuifnc_d2f38387-ece5-4894-86d5-0ef66f62a72c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SetCPSUIUserData
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---
 
 # SetCPSUIUserData function

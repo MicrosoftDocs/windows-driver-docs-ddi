@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 5CE3F1B5-9C6D-4061-ADF4-B388C81C0674
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxDefaultEndpointInitSetEventCallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], buses._ucxdefaultendpointinitseteventcallbacks
+ms.keywords: buses._ucxdefaultendpointinitseteventcallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], UcxDefaultEndpointInitSetEventCallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

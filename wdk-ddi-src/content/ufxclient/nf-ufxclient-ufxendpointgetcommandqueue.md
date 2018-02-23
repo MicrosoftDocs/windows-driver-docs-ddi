@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BF84F0E4-3B0D-45B8-AC06-F6F761A37234
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ufxendpointgetcommandqueue, UfxEndpointGetCommandQueue, ufxclient/UfxEndpointGetCommandQueue, UfxEndpointGetCommandQueue method [Buses]
+ms.keywords: UfxEndpointGetCommandQueue method [Buses], buses.ufxendpointgetcommandqueue, UfxEndpointGetCommandQueue, ufxclient/UfxEndpointGetCommandQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxEndpointGetCommandQueue
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

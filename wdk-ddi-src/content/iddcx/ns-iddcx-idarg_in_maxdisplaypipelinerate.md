@@ -7,8 +7,8 @@ old-location: display\idarg_in_maxdisplaypipelinerate.htm
 old-project: display
 ms.assetid: 035c3d04-56e8-48ec-91d4-6d6a1a5037c4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.idarg_in_maxdisplaypipelinerate, IDARG_IN_MAXDISPLAYPIPELINERATE, iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE, IDARG_IN_MAXDISPLAYPIPELINERATE structure [Display Devices]
+ms.date: 2/22/2018
+ms.keywords: display.idarg_in_maxdisplaypipelinerate, IDARG_IN_MAXDISPLAYPIPELINERATE, IDARG_IN_MAXDISPLAYPIPELINERATE structure [Display Devices], iddcx/IDARG_IN_MAXDISPLAYPIPELINERATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

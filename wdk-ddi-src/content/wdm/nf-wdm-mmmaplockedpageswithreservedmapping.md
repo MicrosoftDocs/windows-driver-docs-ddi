@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3fc01bc5-05eb-482f-b625-67061d26915a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, wdm/MmMapLockedPagesWithReservedMapping, kernel.mmmaplockedpageswithreservedmapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], MmMapLockedPagesWithReservedMapping
+ms.keywords: MmMapLockedPagesWithReservedMapping, k106_32161803-dd44-4a5f-a5c0-da6b1a78982c.xml, kernel.mmmaplockedpageswithreservedmapping, MmMapLockedPagesWithReservedMapping routine [Kernel-Mode Driver Architecture], wdm/MmMapLockedPagesWithReservedMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,7 @@ A pointer to the MDL that is to be mapped. This MDL must describe physical pages
 
 ### -param CacheType [in]
 
-Specifies the <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
+Specifies the <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value to use to create the mapping.
 
 
 ## -returns
@@ -135,23 +135,15 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 
 
-<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
-
-
-
 <a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
 
 
 
-<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-mmallocatepagesformdl.md">MmAllocatePagesForMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
 
 
 
@@ -160,6 +152,14 @@ The routine uses the <i>CacheType</i> parameter only if the pages that are descr
 
 
 <a href="..\wdm\nf-wdm-mmfreemappingaddress.md">MmFreeMappingAddress</a>
+
+
+
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmallocatepagesformdlex.md">MmAllocatePagesForMdlEx</a>
 
 
 

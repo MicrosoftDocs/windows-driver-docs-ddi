@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 005B2A80-F6F8-42DA-86C3-277676B9168A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ucm_power_role, _UCM_POWER_ROLE, UcmPowerRoleSink, UcmPowerRoleSource, UCM_POWER_ROLE enumeration [Buses], UCM_POWER_ROLE, ucmtypes/UcmPowerRoleSink, ucmtypes/UcmPowerRoleInvalid, ucmtypes/UCM_POWER_ROLE, UcmPowerRoleInvalid, ucmtypes/UcmPowerRoleSource
+ms.keywords: buses.ucm_power_role, ucmtypes/UcmPowerRoleInvalid, UCM_POWER_ROLE, UcmPowerRoleSource, UCM_POWER_ROLE enumeration [Buses], ucmtypes/UcmPowerRoleSource, UcmPowerRoleSink, _UCM_POWER_ROLE, ucmtypes/UcmPowerRoleSink, ucmtypes/UCM_POWER_ROLE, UcmPowerRoleInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

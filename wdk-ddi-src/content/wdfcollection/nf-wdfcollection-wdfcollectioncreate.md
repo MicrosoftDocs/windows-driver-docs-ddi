@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b185b1ca-6fd9-4508-b001-d1853f2948c2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfCollectionCreate, wdf.wdfcollectioncreate, wdfcollection/WdfCollectionCreate, kmdf.wdfcollectioncreate, WdfCollectionCreate method, DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml
+ms.keywords: WdfCollectionCreate, wdfcollection/WdfCollectionCreate, DFCollectionObjectRef_0c567e7a-209b-4ac2-a721-0c2ee4122aaa.xml, wdf.wdfcollectioncreate, kmdf.wdfcollectioncreate, WdfCollectionCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,19 +146,19 @@ For a code example that uses <b>WdfCollectionCreate</b>, see <a href="..\wdfcoll
 
 ## -see-also
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
-
-
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionremove.md">WdfCollectionRemove</a>
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
 <a href="..\wdfcollection\nf-wdfcollection-wdfcollectionadd.md">WdfCollectionAdd</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

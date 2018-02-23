@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cecef33a-a192-41f4-8006-b5d8b8c73e8d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PReportDiscoveredTargets_OUT structure pointer [Storage Devices], PReportDiscoveredTargets_OUT, ReportDiscoveredTargets_OUT structure [Storage Devices], *PReportDiscoveredTargets_OUT, _ReportDiscoveredTargets_OUT, structs-iSCSI_77e4d614-2993-45b7-8716-cc6eea197e22.xml, iscsifnd/PReportDiscoveredTargets_OUT, storage.reportdiscoveredtargets_out, ReportDiscoveredTargets_OUT, iscsifnd/ReportDiscoveredTargets_OUT
+ms.keywords: iscsifnd/ReportDiscoveredTargets_OUT, structs-iSCSI_77e4d614-2993-45b7-8716-cc6eea197e22.xml, *PReportDiscoveredTargets_OUT, storage.reportdiscoveredtargets_out, ReportDiscoveredTargets_OUT, iscsifnd/PReportDiscoveredTargets_OUT, PReportDiscoveredTargets_OUT, PReportDiscoveredTargets_OUT structure pointer [Storage Devices], _ReportDiscoveredTargets_OUT, ReportDiscoveredTargets_OUT structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ReportDiscoveredTargets_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PReportDiscoveredTargets_OUT, ReportDiscoveredTargets_OUT"
+req.typenames: ReportDiscoveredTargets_OUT, *PReportDiscoveredTargets_OUT
 ---
 
 # _ReportDiscoveredTargets_OUT structure
@@ -95,19 +95,19 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564046">ReportDiscoveredTargets</a>
-
-
-
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
 
 
 
 <a href="..\iscsifnd\ns-iscsifnd-_reportdiscoveredtargets2_out.md">ReportDiscoveredTargets2_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564046">ReportDiscoveredTargets</a>
+
+
+
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f6c595f2-a493-453a-a744-7ce6577ae29e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortGetPhysicalAddress, atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml, storage.ataportgetphysicaladdress, irb/AtaPortGetPhysicalAddress, AtaPortGetPhysicalAddress routine [Storage Devices]
+ms.keywords: AtaPortGetPhysicalAddress, AtaPortGetPhysicalAddress routine [Storage Devices], storage.ataportgetphysicaladdress, irb/AtaPortGetPhysicalAddress, atartns_8067117e-f163-4fe9-a3f4-24b32b5bcf63.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

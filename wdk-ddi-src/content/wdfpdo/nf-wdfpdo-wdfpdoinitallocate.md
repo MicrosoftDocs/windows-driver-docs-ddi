@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, WdfPdoInitAllocate, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, wdfpdo/WdfPdoInitAllocate, wdf.wdfpdoinitallocate
+ms.keywords: WdfPdoInitAllocate method, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, kmdf.wdfpdoinitallocate, wdfpdo/WdfPdoInitAllocate, WdfPdoInitAllocate, wdf.wdfpdoinitallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitAllocate
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
+req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 

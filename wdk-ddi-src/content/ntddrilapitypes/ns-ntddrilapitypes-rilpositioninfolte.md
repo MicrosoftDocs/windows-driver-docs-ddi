@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 40f4dfca-7ee6-48d2-b0a4-8a563587b2ab
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], *LPRILPOSITIONINFOLTE, rilapitypes/RILPOSITIONINFOLTE, netvista.rilpositioninfolte
+ms.keywords: rilapitypes/RILPOSITIONINFOLTE, RILPOSITIONINFOLTE structure [Network Drivers Starting with Windows Vista], *LPRILPOSITIONINFOLTE, netvista.rilpositioninfolte, RILPOSITIONINFOLTE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPOSITIONINFOLTE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPOSITIONINFOLTE, RILPOSITIONINFOLTE"
+req.typenames: RILPOSITIONINFOLTE, *LPRILPOSITIONINFOLTE
 ---
 
 # RILPOSITIONINFOLTE structure
@@ -78,7 +78,7 @@ struct RILPOSITIONINFOLTE {
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilpositioninfolteparammask.md">RILPOSITIONINFOLTEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilpositioninfolteparammask.md">RILPOSITIONINFOLTEPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwMobileCountryCode

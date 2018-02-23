@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a06f6757-e125-4f80-9594-a60fa1fef6e4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbaapi/HBA_RegisterForTargetEvents, HBA_RegisterForTargetEvents routine [Storage Devices], fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, HBA_RegisterForTargetEvents, storage.hba_registerfortargetevents
+ms.keywords: storage.hba_registerfortargetevents, HBA_RegisterForTargetEvents routine [Storage Devices], fibreHBA_rtns_511fff45-f98b-4dbe-a74c-d577497f4e8c.xml, HBA_RegisterForTargetEvents, hbaapi/HBA_RegisterForTargetEvents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,19 +110,9 @@ TBD
 
 
 
-#### - allTargets
+#### - userData
 
-Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. 
-
-
-#### - callbackHandle
-
-Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
-
-
-#### - discoveredPortWWN
-
-Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. 
+Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
 
 
 #### - handle
@@ -135,9 +125,19 @@ Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openad
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the local HBA port from which the target was discovered. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
 
 
-#### - userData
+#### - discoveredPortWWN
 
-Pointer to a buffer that is passed to the callback routine with each event. This data correlates the event with the source of the event registration. 
+Contains a 64-bit WWN that uniquely identifies the remote HBA port from which target events are reported. 
+
+
+#### - callbackHandle
+
+Contains an opaque identifier that the user must pass to <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a> to de-register the callback routine.
+
+
+#### - allTargets
+
+Indicates, when nonzero, that the value in <i>discoveredPortWWN</i> will be ignored, and the callback will be called for events associated with all current and future discovered targets. If this member is 0, only events associated with the target specified by <i>discoveredPortWWN</i> will be reported. 
 
 
 ## -returns
@@ -205,15 +205,15 @@ To stop event delivery, call <b>HBA_RemoveCallback</b>.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557123">HBA_PORT_CALLBACK</a>
 
 
 
 <a href="..\hbaapi\nf-hbaapi-hba_removecallback.md">HBA_RemoveCallback</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
 
 
 

@@ -4,11 +4,11 @@ title: IDebugSymbols3::SetSourcePath method
 author: windows-driver-content
 description: The SetSourcePath method sets the source path.
 old-location: debugger\setsourcepath.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 00b5927e-4b95-4528-bc09-da90db8a7716
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.setsourcepath, IDebugSymbols_d592ec7c-56f9-46b2-9627-d79e8fdba5c4.xml, dbgeng/IDebugSymbols3::SetSourcePath, IDebugSymbols3::SetSourcePath, SetSourcePath, IDebugSymbols2 interface [Windows Debugging], SetSourcePath method, SetSourcePath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::SetSourcePath, SetSourcePath method [Windows Debugging], SetSourcePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols, IDebugSymbols3, SetSourcePath method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3 interface [Windows Debugging], SetSourcePath method, dbgeng/IDebugSymbols::SetSourcePath, IDebugSymbols2::SetSourcePath, IDebugSymbols2, IDebugSymbols interface [Windows Debugging], SetSourcePath method, IDebugSymbols::SetSourcePath
+ms.date: 2/22/2018
+ms.keywords: IDebugSymbols2::SetSourcePath, SetSourcePath method [Windows Debugging], dbgeng/IDebugSymbols::SetSourcePath, dbgeng/IDebugSymbols3::SetSourcePath, IDebugSymbols3, SetSourcePath method [Windows Debugging], IDebugSymbols interface, SetSourcePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], SetSourcePath method, IDebugSymbols2 interface [Windows Debugging], SetSourcePath method, IDebugSymbols interface [Windows Debugging], SetSourcePath method, debugger.setsourcepath, IDebugSymbols, IDebugSymbols3::SetSourcePath, IDebugSymbols_d592ec7c-56f9-46b2-9627-d79e8fdba5c4.xml, SetSourcePath, dbgeng/IDebugSymbols2::SetSourcePath, SetSourcePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols::SetSourcePath, IDebugSymbols2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,11 @@ For more information about manipulating the source path, see <a href="https://ms
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548358">GetSourcePath</a>
 
 
 
@@ -127,7 +127,7 @@ For more information about manipulating the source path, see <a href="https://ms
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538102">AppendSourcePath</a>
 
 
 
@@ -139,5 +139,5 @@ For more information about manipulating the source path, see <a href="https://ms
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::SetSourcePath method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::SetSourcePath method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

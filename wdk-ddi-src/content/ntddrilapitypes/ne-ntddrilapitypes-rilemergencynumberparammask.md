@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e8365373-130b-485c-9117-89be6153be52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_ENUM_ALL, RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_ALL, RIL_PARAM_ENUM_UICC, ntddrilapitypes/RIL_PARAM_ENUM_UICC, ntddrilapitypes/RIL_PARAM_ENUM_NUMBER, ntddrilapitypes/RILEMERGENCYNUMBERPARAMMASK, netvista.rilemergencynumberparammask, RIL_PARAM_ENUM_NUMBER, ntddrilapitypes/RIL_PARAM_ENUM_CATEGORY, RILEMERGENCYNUMBERPARAMMASK
+ms.keywords: ntddrilapitypes/RILEMERGENCYNUMBERPARAMMASK, RILEMERGENCYNUMBERPARAMMASK, ntddrilapitypes/RIL_PARAM_ENUM_UICC, RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_NUMBER, RIL_PARAM_ENUM_ALL, RILEMERGENCYNUMBERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilemergencynumberparammask, ntddrilapitypes/RIL_PARAM_ENUM_NUMBER, ntddrilapitypes/RIL_PARAM_ENUM_ALL, ntddrilapitypes/RIL_PARAM_ENUM_CATEGORY, RIL_PARAM_ENUM_UICC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

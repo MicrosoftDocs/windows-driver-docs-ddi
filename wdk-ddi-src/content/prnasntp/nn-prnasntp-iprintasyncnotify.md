@@ -7,7 +7,7 @@ old-location: print\iprintasyncnotify.htm
 old-project: print
 ms.assetid: 7C12C528-03B2-42B7-A73D-21DF3FEF1505
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.iprintasyncnotify, IPrintAsyncNotify interface [Print Devices], IPrintAsyncNotify interface [Print Devices], described, IPrintAsyncNotify, prnasntp/IPrintAsyncNotify
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPrintAsyncNotify</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPrintAsyncNotify</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPrintAsyncNotify</b> interface has these methods.
@@ -63,12 +70,6 @@ The <b>IPrintAsyncNotify</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/F5228B4C-B5CC-4F7F-91E6-B5BCED76BF7A">CancelAsyncCall</a>
-</td>
-<td align="left" width="63%"></td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/B86297A4-1234-46B1-A10B-BD9A6E5012F2">CreatePrintAsyncNotifyChannel</a>
 </td>
 <td align="left" width="63%"></td>
@@ -76,12 +77,6 @@ The <b>IPrintAsyncNotify</b> interface has these methods.
 <tr data="declared;">
 <td align="left" width="37%">
 <a href="https://msdn.microsoft.com/845FA810-0286-4FA9-9BD4-A160989C581A">CreatePrintAsyncNotifyRegistration</a>
-</td>
-<td align="left" width="63%"></td>
-</tr>
-<tr data="declared;">
-<td align="left" width="37%">
-<a href="https://msdn.microsoft.com/4E2D11E9-9399-48C5-8EA8-B17FBB6625FF">FinishAsyncCall</a>
 </td>
 <td align="left" width="63%"></td>
 </tr>

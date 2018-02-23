@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 389A4F90-9C81-4C03-A2F9-ACF0E597018C
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle, imp_WppRecorderGetCounterHandle function [Driver Development Tools], imp_WppRecorderGetCounterHandle, wpprecorder/imp_WppRecorderGetCounterHandle
+ms.keywords: imp_WppRecorderGetCounterHandle function [Driver Development Tools], imp_WppRecorderGetCounterHandle, wpprecorder/imp_WppRecorderGetCounterHandle, WppRecorderGetCounterHandle, devtest.wpprecordergetcounterhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	imp_WppRecorderGetCounterHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

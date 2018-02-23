@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 04b1521f-906f-493d-9ca6-6d97c6a80bdb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcCanIWrite, ntifs/CcCanIWrite, CcCanIWrite routine [Installable File System Drivers], ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, ifsk.cccaniwrite
+ms.keywords: ccref_b964dbf1-d1ad-4929-ab9c-21b1e6f69077.xml, CcCanIWrite routine [Installable File System Drivers], ntifs/CcCanIWrite, CcCanIWrite, ifsk.cccaniwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,11 +136,11 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
@@ -148,11 +148,11 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
+<a href="..\ntifs\nf-ntifs-ccdeferwrite.md">CcDeferWrite</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccsetdirtypagethreshold.md">CcSetDirtyPageThreshold</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 

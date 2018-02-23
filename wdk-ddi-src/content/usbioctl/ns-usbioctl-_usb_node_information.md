@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 56d30c25-00e7-4edf-af06-64519eb5f755
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbioctl/USB_NODE_INFORMATION, _USB_NODE_INFORMATION, PUSB_NODE_INFORMATION, buses.usb_node_information, USB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], PUSB_NODE_INFORMATION structure pointer [Buses], usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml, *PUSB_NODE_INFORMATION, usbioctl/PUSB_NODE_INFORMATION
+ms.keywords: "*PUSB_NODE_INFORMATION, USB_NODE_INFORMATION, PUSB_NODE_INFORMATION structure pointer [Buses], usbioctl/PUSB_NODE_INFORMATION, USB_NODE_INFORMATION structure [Buses], PUSB_NODE_INFORMATION, usbstrct_c3f807a8-2895-4a43-bfd3-84092fb4115e.xml, usbioctl/USB_NODE_INFORMATION, buses.usb_node_information, _USB_NODE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_NODE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_NODE_INFORMATION, USB_NODE_INFORMATION"
+req.typenames: USB_NODE_INFORMATION, *PUSB_NODE_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -105,23 +105,23 @@ A parent device can be either a hub or a composite device. The USB stack treats 
 
 ## -see-also
 
+<a href="..\usbioctl\ns-usbioctl-_usb_mi_parent_information.md">USB_MI_PARENT_INFORMATION</a>
+
+
+
+<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
+
+
+
+<a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
+
+
+
 <a href="..\usbioctl\ns-usbioctl-_usb_hub_information.md">USB_HUB_INFORMATION</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
-<a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
-
-
-
-<a href="..\usbioctl\ne-usbioctl-_usb_hub_node.md">USB_HUB_NODE</a>
-
-
-
-<a href="..\usbioctl\ni-usbioctl-ioctl_usb_get_node_information.md">IOCTL_USB_GET_NODE_INFORMATION</a>
 
 
 

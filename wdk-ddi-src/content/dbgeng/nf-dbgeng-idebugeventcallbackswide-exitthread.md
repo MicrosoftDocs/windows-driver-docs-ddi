@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::ExitThread method
 author: windows-driver-content
 description: The ExitThread callback method is called by the engine when an exit-threaddebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_exitthread.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 77933fa9-ff30-45cf-894d-83a425802e25
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide, ExitThread method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_exitthread, ExitThread method [Windows Debugging], IDebugEventCallbacksWide::ExitThread, IDebugEventCallbacksWide interface [Windows Debugging], ExitThread method, dbgeng/IDebugEventCallbacksWide::ExitThread, ExitThread
+ms.date: 2/22/2018
+ms.keywords: ExitThread method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::ExitThread, debugger.idebugeventcallbackswide_exitthread, IDebugEventCallbacksWide interface [Windows Debugging], ExitThread method, dbgeng/IDebugEventCallbacksWide::ExitThread, ExitThread method [Windows Debugging], ExitThread, IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

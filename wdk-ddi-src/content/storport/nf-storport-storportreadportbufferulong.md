@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0b7366db-e80f-41f0-9a51-d1c139e948d8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportreadportbufferulong, StorPortReadPortBufferUlong, storprt_175251c9-5c08-4f49-9b3d-a7376c04a0a7.xml, StorPortReadPortBufferUlong routine [Storage Devices], storport/StorPortReadPortBufferUlong
+ms.keywords: storport/StorPortReadPortBufferUlong, storage.storportreadportbufferulong, storprt_175251c9-5c08-4f49-9b3d-a7376c04a0a7.xml, StorPortReadPortBufferUlong routine [Storage Devices], StorPortReadPortBufferUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Specifies the number of data items to be read. Each data item has a size of sizeof(ULONG). 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,11 +106,21 @@ Pointer to the hardware device extension.
 Pointer to the address from which to read. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer that receives the data that is read.
+
+
+#### - Count [in]
+
+Specifies the number of data items to be read. Each data item has a size of sizeof(ULONG). 
+
+
 ## -remarks
 
 
 
-For more information, see the <a href="..\storport\nf-storport-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>.
+For more information, see the <a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportulong.md">StorPortReadPortUlong</a>.
 
 
 
@@ -131,7 +131,7 @@ For more information, see the <a href="..\storport\nf-storport-scsiportreadportb
 
 
 
-<a href="..\storport\nf-storport-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
+<a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 8383e9c8-0058-47bf-9a6e-ed05e61a58f1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdm/KdPrintEx, DebugFns_375418aa-5241-4b2c-9369-c930c3ca1ca6.xml, devtest.kdprintex, KdPrintEx, KdPrintEx function [Driver Development Tools]
+ms.keywords: KdPrintEx, devtest.kdprintex, KdPrintEx function [Driver Development Tools], DebugFns_375418aa-5241-4b2c-9369-c930c3ca1ca6.xml, wdm/KdPrintEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -149,15 +149,15 @@ This routine is defined in ntddk.h and ndis.h; component filter IDs are defined 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
-
-
-
 <a href="..\wdm\nf-wdm-kdprint.md">KdPrint</a>
 
 
 
 <a href="..\wdm\nf-wdm-dbgprint.md">DbgPrint</a>
+
+
+
+<a href="..\wdm\nf-wdm-dbgprintex.md">DbgPrintEx</a>
 
 
 

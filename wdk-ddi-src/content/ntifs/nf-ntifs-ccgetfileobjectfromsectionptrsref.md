@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8afbd8df-95fc-453f-a1d8-400a993c286a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ccref_e38ddec7-5501-40b4-a2a3-0a13c1c0fb4d.xml, ntifs/CcGetFileObjectFromSectionPtrsRef, CcGetFileObjectFromSectionPtrsRef routine [Installable File System Drivers], CcGetFileObjectFromSectionPtrsRef, ifsk.ccgetfileobjectfromsectionptrsref
+ms.keywords: ccref_e38ddec7-5501-40b4-a2a3-0a13c1c0fb4d.xml, CcGetFileObjectFromSectionPtrsRef, ntifs/CcGetFileObjectFromSectionPtrsRef, ifsk.ccgetfileobjectfromsectionptrsref, CcGetFileObjectFromSectionPtrsRef routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,15 +92,15 @@ The file object is returned with a reference.  The caller is responsible for cal
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrs.md">CcGetFileObjectFromSectionPtrs</a>
 
 
 
 <a href="..\wdm\ns-wdm-_section_object_pointers.md">SECTION_OBJECT_POINTERS</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 

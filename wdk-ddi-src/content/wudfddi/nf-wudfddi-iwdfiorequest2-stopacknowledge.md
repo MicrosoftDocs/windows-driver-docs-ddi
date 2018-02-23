@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest2, wdf.iwdfiorequest2_stopacknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, StopAcknowledge, StopAcknowledge method, IWDFIoRequest2 interface, IWDFIoRequest2::StopAcknowledge, StopAcknowledge method, IWDFIoRequest2 interface, StopAcknowledge method, wudfddi/IWDFIoRequest2::StopAcknowledge
+ms.keywords: StopAcknowledge method, wdf.iwdfiorequest2_stopacknowledge, wudfddi/IWDFIoRequest2::StopAcknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, IWDFIoRequest2::StopAcknowledge, StopAcknowledge, IWDFIoRequest2, IWDFIoRequest2 interface, StopAcknowledge method, StopAcknowledge method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_stopacknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

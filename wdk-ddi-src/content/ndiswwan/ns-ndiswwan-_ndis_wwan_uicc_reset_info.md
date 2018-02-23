@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9CBAFC44-187A-41ED-9405-1208167AC75D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_WWAN_UICC_RESET_INFO, NDIS_WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_UICC_RESET_INFO, _NDIS_WWAN_UICC_RESET_INFO, netvista.ndis_wwan_uicc_reset_info, ndiswwan/NDIS_WWAN_UICC_RESET_INFO, *PNDIS_WWAN_UICC_RESET_INFO, PNDIS_WWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_UICC_RESET_INFO
+ms.keywords: PNDIS_WWAN_UICC_RESET_INFO structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_UICC_RESET_INFO, _NDIS_WWAN_UICC_RESET_INFO, NDIS_WWAN_UICC_RESET_INFO, PNDIS_WWAN_UICC_RESET_INFO, *PNDIS_WWAN_UICC_RESET_INFO, NDIS_WWAN_UICC_RESET_INFO structure [Network Drivers Starting with Windows Vista], netvista.ndis_wwan_uicc_reset_info, ndiswwan/NDIS_WWAN_UICC_RESET_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -194,7 +194,7 @@ A formatted <a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_I
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_INFO</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/oid-wwan-uicc-reset">OID_WWAN_UICC_RESET</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: AE9110D8-FB13-43DA-8BAA-8DD88CA3492A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters, _NDIS_PD_QUEUE_PARAMETERS, ndis/NDIS_PD_QUEUE_PARAMETERS
+ms.keywords: ndis/NDIS_PD_QUEUE_PARAMETERS, _NDIS_PD_QUEUE_PARAMETERS, netvista.ndis_pd_queue_parameters, NDIS_PD_QUEUE_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_PD_QUEUE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

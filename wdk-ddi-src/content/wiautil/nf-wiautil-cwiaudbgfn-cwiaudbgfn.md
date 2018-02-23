@@ -4,11 +4,11 @@ title: CWiauDbgFn::CWiauDbgFn method
 author: windows-driver-content
 description: The CWiauDbgFn::CWiauDbgFn method is used for tracing when a function or method is entered.
 old-location: image\cwiaudbgfn_cwiaudbgfn.htm
-old-project: Image
+old-project: image
 ms.assetid: dbb367a7-d7e6-4081-9618-1c4e38cccd31
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: CWiauDbgFn, CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, CWiauDbgFn::CWiauDbgFn, image.cwiaudbgfn_cwiaudbgfn, wiautil/CWiauDbgFn::CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], CWiauDbgFn method, CWiauDbgFn method [Imaging Devices], wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml
+ms.date: 2/22/2018
+ms.keywords: image.cwiaudbgfn_cwiaudbgfn, CWiauDbgFn::CWiauDbgFn, CWiauDbgFn interface [Imaging Devices], CWiauDbgFn method, CWiauDbgFn, wiautil/CWiauDbgFn::CWiauDbgFn, wiauFncs_1dfa7486-9ad3-41b8-8724-29165ea0a45b.xml, CWiauDbgFn method [Imaging Devices], CWiauDbgFn interface, CWiauDbgFn method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,5 +96,5 @@ This method does not return a value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20CWiauDbgFn::CWiauDbgFn method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20CWiauDbgFn::CWiauDbgFn method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

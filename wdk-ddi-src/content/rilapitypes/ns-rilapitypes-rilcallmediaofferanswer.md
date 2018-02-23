@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1ba861f5-b790-4e5a-88fa-49e05239219c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], RILCALLMEDIAOFFERANSWER, netvista.rilcallmediaofferanswer_2, *LPRILCALLMEDIAOFFERANSWER, rilapitypes/RILCALLMEDIAOFFERANSWER
+ms.keywords: RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], *LPRILCALLMEDIAOFFERANSWER, rilapitypes/RILCALLMEDIAOFFERANSWER, netvista.rilcallmediaofferanswer_2, RILCALLMEDIAOFFERANSWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLMEDIAOFFERANSWER
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER"
+req.typenames: RILCALLMEDIAOFFERANSWER, *LPRILCALLMEDIAOFFERANSWER
 req.product: Windows 10 or later.
 ---
 

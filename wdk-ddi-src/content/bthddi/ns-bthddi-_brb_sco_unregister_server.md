@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: a0624d6e-d3e9-45b1-b704-4a05532926f9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: bthddi/_BRB_SCO_UNREGISTER_SERVER, _BRB_SCO_UNREGISTER_SERVER, bltooth._brb_sco_unregister_server, bth_structs_36fae461-b66e-42e0-8e66-a890e45abbbb.xml, _BRB_SCO_UNREGISTER_SERVER structure [Bluetooth Devices]
+ms.keywords: "_BRB_SCO_UNREGISTER_SERVER structure [Bluetooth Devices], bth_structs_36fae461-b66e-42e0-8e66-a890e45abbbb.xml, bltooth._brb_sco_unregister_server, _BRB_SCO_UNREGISTER_SERVER, bthddi/_BRB_SCO_UNREGISTER_SERVER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

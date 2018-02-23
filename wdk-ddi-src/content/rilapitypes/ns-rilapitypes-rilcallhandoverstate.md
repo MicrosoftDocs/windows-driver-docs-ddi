@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21558cd6-f200-4867-920f-8aaadc9839f8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista], netvista.rilcallhandoverstate_2, RILCALLHANDOVERSTATE, rilapitypes/RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE
+ms.keywords: netvista.rilcallhandoverstate_2, RILCALLHANDOVERSTATE, rilapitypes/RILCALLHANDOVERSTATE, *LPRILCALLHANDOVERSTATE, RILCALLHANDOVERSTATE structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: display\dxva_deinterlacebltex.htm
 old-project: display
 ms.assetid: dbc32410-119f-4172-8d2a-7d41e8b64ae4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dxva/DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices], dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml, _DXVA_DeinterlaceBltEx, display.dxva_deinterlacebltex, DXVA_DeinterlaceBltEx
+ms.date: 2/22/2018
+ms.keywords: "_DXVA_DeinterlaceBltEx, dxva/DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx, DXVA_DeinterlaceBltEx structure [Display Devices], dxvaref_4340e54b-79b9-44a1-9d29-37f6aae9fe94.xml, display.dxva_deinterlacebltex"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,7 +139,7 @@ When a single frame is being created from one field in a sample, as defined in t
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
+<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
 
 
 
@@ -147,7 +147,7 @@ When a single frame is being created from one field in a sample, as defined in t
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacecaps.md">DXVA_DeinterlaceCaps</a>
+<a href="..\dxva\ns-dxva-_dxva_videosample2.md">DXVA_VideoSample2</a>
 
 
 
@@ -155,5 +155,5 @@ When a single frame is being created from one field in a sample, as defined in t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceBltEx structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_DeinterlaceBltEx structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

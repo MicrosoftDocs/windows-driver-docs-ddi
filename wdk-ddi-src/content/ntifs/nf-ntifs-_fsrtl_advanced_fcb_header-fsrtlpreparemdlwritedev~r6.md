@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f425487d-c4cd-4fd0-93d3-d5ce15277c6d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_0d4bcdd2-9d31-41f1-aba3-ee9341d82b92.xml, ntifs/FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], ifsk.fsrtlpreparemdlwritedev, FsRtlPrepareMdlWriteDev
+ms.keywords: ifsk.fsrtlpreparemdlwritedev, ntifs/FsRtlPrepareMdlWriteDev, fsrtlref_0d4bcdd2-9d31-41f1-aba3-ee9341d82b92.xml, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], FsRtlPrepareMdlWriteDev
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,7 +130,7 @@ The pages that the MDLs point to are locked in memory, but are not mapped in sys
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlmdlwritecompletedev~r3.md">FsRtlMdlWriteCompleteDev</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554559">MmGetSystemAddressForMdlSafe</a>
 
 
 

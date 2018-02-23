@@ -7,8 +7,8 @@ old-location: audio\pcpin_descriptor.htm
 old-project: audio
 ms.assetid: 1eeee706-b7f4-4b4d-93c8-969eac7c56d9
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: portcls/PCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR structure [Audio Devices], audio.pcpin_descriptor, PPCPIN_DESCRIPTOR structure pointer [Audio Devices], *PPCPIN_DESCRIPTOR, portcls/PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR, audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml
+ms.date: 2/22/2018
+ms.keywords: PPCPIN_DESCRIPTOR structure pointer [Audio Devices], portcls/PCPIN_DESCRIPTOR, portcls/PPCPIN_DESCRIPTOR, PCPIN_DESCRIPTOR, PPCPIN_DESCRIPTOR, audpc-struct_475141ba-bf2e-4425-92ac-02649248e19f.xml, PCPIN_DESCRIPTOR structure [Audio Devices], *PPCPIN_DESCRIPTOR, audio.pcpin_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,6 +98,21 @@ typedef struct {
 
 
 
+#### - MaxGlobalInstanceCount
+
+Specifies the global maximum number of times that this pin type can be instantiated. The global maximum counts the number of pin instances that the adapter driver can support across all instances of the filter. The count can be set to zero to indicate that the pin cannot be instantiated. A value of ULONG(-1) indicates the pin can be instantiated any number of times. Any other value indicates a specific number of times that the pin can be instantiated.
+
+
+#### - MaxFilterInstanceCount
+
+Specifies the maximum number times that the pin can be instantiated on a single instance of the filter. The count can be set to zero to indicate that the pin cannot be instantiated. A value of ULONG(-1) indicates the pin can be instantiated any number of times. Any other value indicates a specific number of times that the pin can be instantiated.
+
+
+#### - MinFilterInstanceCount
+
+Specifies the minimum number of times that the pin needs to be instantiated on an instance of the filter. This member is a definite lower bound on the number of instances of a pin that must exist in order for a filter to be able to function.
+
+
 #### - AutomationTable
 
 Pointer to the automation table. This member is a pointer to a structure of type <a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>. The pointer can be <b>NULL</b> to indicate that no automation is supported. The automation table specifies the handlers for the properties and events belonging to the pin instance.
@@ -106,21 +121,6 @@ Pointer to the automation table. This member is a pointer to a structure of type
 #### - KsPinDescriptor
 
 Describes the pin factory. This member is a structure of type <a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>. A pin factory can have zero interfaces and zero mediums. The list of interfaces is ignored in all cases. The standard-medium list will default to a list containing only device I/O (KSMEDIUM_STANDARD_DEVIO).
-
-
-#### - MaxFilterInstanceCount
-
-Specifies the maximum number times that the pin can be instantiated on a single instance of the filter. The count can be set to zero to indicate that the pin cannot be instantiated. A value of ULONG(-1) indicates the pin can be instantiated any number of times. Any other value indicates a specific number of times that the pin can be instantiated.
-
-
-#### - MaxGlobalInstanceCount
-
-Specifies the global maximum number of times that this pin type can be instantiated. The global maximum counts the number of pin instances that the adapter driver can support across all instances of the filter. The count can be set to zero to indicate that the pin cannot be instantiated. A value of ULONG(-1) indicates the pin can be instantiated any number of times. Any other value indicates a specific number of times that the pin can be instantiated.
-
-
-#### - MinFilterInstanceCount
-
-Specifies the minimum number of times that the pin needs to be instantiated on an instance of the filter. This member is a definite lower bound on the number of instances of a pin that must exist in order for a filter to be able to function.
 
 
 ## -remarks
@@ -186,10 +186,6 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 
 
-<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_6.md">PCAUTOMATION_TABLE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565193">KSPROPERTY_PIN_CINSTANCES</a>
 
 
@@ -202,9 +198,13 @@ For more information, see <a href="https://msdn.microsoft.com/1399b8e1-bd73-4052
 
 
 
- 
+<a href="..\ks\ns-ks-kspin_descriptor.md">KSPIN_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCPIN_DESCRIPTOR structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCPIN_DESCRIPTOR structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

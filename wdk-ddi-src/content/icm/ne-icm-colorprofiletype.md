@@ -7,8 +7,8 @@ old-location: print\colorprofiletype.htm
 old-project: print
 ms.assetid: 756ba822-ace2-4893-a989-9d355434e57c
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: icm/CPT_DMP, print.colorprofiletype, icm/COLORPROFILETYPE, CPT_CAMP, COLORPROFILETYPE, COLORPROFILETYPE enumeration [Print Devices], colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, icm/CPT_CAMP, CPT_ICC, icm/CPT_GMMP, CPT_DMP, *PCOLORPROFILETYPE, icm/CPT_ICC, CPT_GMMP
+ms.date: 2/22/2018
+ms.keywords: CPT_ICC, CPT_CAMP, icm/CPT_DMP, icm/CPT_ICC, CPT_GMMP, icm/COLORPROFILETYPE, print.colorprofiletype, COLORPROFILETYPE enumeration [Print Devices], *PCOLORPROFILETYPE, CPT_DMP, icm/CPT_CAMP, colorfnc_409d0d83-91ea-408a-8970-4de6e9cf94eb.xml, COLORPROFILETYPE, icm/CPT_GMMP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -119,5 +119,5 @@ The PCOLORPROFILETYPE and LPCOLORPROFILETYPE data types are defined as pointers 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20COLORPROFILETYPE enumeration%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20COLORPROFILETYPE enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

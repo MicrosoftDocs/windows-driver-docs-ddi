@@ -7,8 +7,8 @@ old-location: sensors\evt_sensor_driver_enable_wake.htm
 old-project: sensors
 ms.assetid: 969E08D1-0D4A-4FED-9722-4EDA067C522C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.evt_sensor_driver_enable_wake, EVT_SENSOR_DRIVER_ENABLE_WAKE callback function [Sensor Devices], EVT_SENSOR_DRIVER_ENABLE_WAKE, sensorscx/EVT_SENSOR_DRIVER_ENABLE_WAKE
+ms.date: 2/22/2018
+ms.keywords: sensors.evt_sensor_driver_enable_wake, EVT_SENSOR_DRIVER_ENABLE_WAKE callback function [Sensor Devices], EVT_SENSOR_DRIVER_ENABLE_WAKE, EVT_SENSOR_DRIVER_ENABLE_WAKE, EVT_SENSOR_DRIVER_ENABLE_WAKE, sensorscx/EVT_SENSOR_DRIVER_ENABLE_WAKE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback

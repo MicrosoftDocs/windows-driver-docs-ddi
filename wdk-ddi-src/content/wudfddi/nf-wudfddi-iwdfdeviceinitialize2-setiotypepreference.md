@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7d79f34d-42aa-4ac7-a63d-2f17ee0dfcf0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDeviceInitialize2::SetIoTypePreference, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, IWDFDeviceInitialize2, SetIoTypePreference method, IWDFDeviceInitialize2 interface, SetIoTypePreference method, umdf.iwdfdeviceinitialize2_setiotypepreference, IWDFDeviceInitialize2 interface, SetIoTypePreference method, SetIoTypePreference, wdf.iwdfdeviceinitialize2_setiotypepreference, wudfddi/IWDFDeviceInitialize2::SetIoTypePreference
+ms.keywords: wudfddi/IWDFDeviceInitialize2::SetIoTypePreference, IWDFDeviceInitialize2::SetIoTypePreference, UMDFDeviceObjectRef_33317875-3e52-47fc-9d6b-0e886f802dde.xml, IWDFDeviceInitialize2 interface, SetIoTypePreference method, SetIoTypePreference method, SetIoTypePreference, SetIoTypePreference method, IWDFDeviceInitialize2 interface, umdf.iwdfdeviceinitialize2_setiotypepreference, wdf.iwdfdeviceinitialize2_setiotypepreference, IWDFDeviceInitialize2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -152,7 +152,7 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a>
 
 
 
@@ -160,19 +160,19 @@ The following code example shows a segment of a driver's <a href="https://msdn.m
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558994">IWDFIoRequest2::GetEffectiveIoType</a>
+
+
+
 <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE (UMDF)</a>
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdeviceinitialize2.md">IWDFDeviceInitialize2</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_buffer_retrieval.md">WDF_DEVICE_IO_BUFFER_RETRIEVAL</a>
 
 
 

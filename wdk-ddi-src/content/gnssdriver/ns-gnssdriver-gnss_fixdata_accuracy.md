@@ -7,8 +7,8 @@ old-location: sensors\gnss_fixdata_accuracy.htm
 old-project: sensors
 ms.assetid: 3C08FE5D-1385-4FE3-98C9-9FC530C6C755
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGNSS_FIXDATA_ACCURACY structure pointer [Sensor Devices], *PGNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY structure [Sensor Devices], GNSS_FIXDATA_ACCURACY, gnssdriver/GNSS_FIXDATA_ACCURACY, sensors.gnss_fixdata_accuracy, gnssdriver/PGNSS_FIXDATA_ACCURACY
+ms.date: 2/22/2018
+ms.keywords: gnssdriver/PGNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY structure pointer [Sensor Devices], gnssdriver/GNSS_FIXDATA_ACCURACY, PGNSS_FIXDATA_ACCURACY, *PGNSS_FIXDATA_ACCURACY, GNSS_FIXDATA_ACCURACY, sensors.gnss_fixdata_accuracy, GNSS_FIXDATA_ACCURACY structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

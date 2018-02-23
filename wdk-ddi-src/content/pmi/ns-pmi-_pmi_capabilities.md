@@ -8,7 +8,7 @@ old-project: powermeter
 ms.assetid: 7e564512-ff57-4bce-93c1-76e6034ec061
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PPMI_CAPABILITIES, PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, *PPMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], PMI_CAPABILITIES, pmi/PMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], powermeter.pmi_capabilities, _PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES
+ms.keywords: PowerMeterRef_14d27676-6523-4aca-8ce7-c6c3e8794171.xml, _PMI_CAPABILITIES, PPMI_CAPABILITIES structure pointer [Power Metering and Budgeting Devices], pmi/PMI_CAPABILITIES, PMI_CAPABILITIES structure [Power Metering and Budgeting Devices], powermeter.pmi_capabilities, *PPMI_CAPABILITIES, PMI_CAPABILITIES, pmi/PPMI_CAPABILITIES, PPMI_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,7 +152,7 @@ The <b>Capabilities</b> member contains data that is formatted as a <a href="..\
 
 
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
 
 
 

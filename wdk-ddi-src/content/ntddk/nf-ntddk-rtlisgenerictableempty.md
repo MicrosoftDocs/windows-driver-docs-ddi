@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9d032bd1-3ee7-4044-951f-c6730a28f3a1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/RtlIsGenericTableEmpty, rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml, RtlIsGenericTableEmpty, ifsk.rtlisgenerictableempty, RtlIsGenericTableEmpty routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlisgenerictableempty, RtlIsGenericTableEmpty, ntddk/RtlIsGenericTableEmpty, RtlIsGenericTableEmpty routine [Installable File System Drivers], rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlIsGenericTableEmpty
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlIsGenericTableEmpty function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4e8f01af-9279-483a-90f9-d0391122ba5b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILGETIMSPARAMS, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETIMSPARAMS, netvista.rilgetimsparams, ntddrilapitypes/RILGETIMSPARAMS
+ms.keywords: "*LPRILGETIMSPARAMS, ntddrilapitypes/RILGETIMSPARAMS, netvista.rilgetimsparams, RILGETIMSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETIMSPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

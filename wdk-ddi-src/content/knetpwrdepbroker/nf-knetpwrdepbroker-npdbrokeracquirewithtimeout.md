@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: D2067A72-0FF5-4D77-A1F6-0A6984A1735A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], netvista.npdbrokeracquirewithtimeout, knetpwrdepbroker/NpdBrokerAcquireWithTimeout, NpdBrokerAcquireWithTimeout
+ms.keywords: netvista.npdbrokeracquirewithtimeout, NpdBrokerAcquireWithTimeout function [Network Drivers Starting with Windows Vista], NpdBrokerAcquireWithTimeout, knetpwrdepbroker/NpdBrokerAcquireWithTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

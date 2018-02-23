@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IWDFIoRequestCompletionParams</b> interface exposes methods that drivers can use to obtain completion information about an I/O request. Drivers can call these methods after a synchronous or asynchronous I/O operation completes.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFIoRequestCompletionParams</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfrequestcompletionparams.md">IWDFRequestCompletionParams</a>. <b>IWDFIoRequestCompletionParams</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFIoRequestCompletionParams</b> interface has these methods.
@@ -90,11 +97,5 @@ The <a href="https://msdn.microsoft.com/7161ba67-d94a-4f05-bb8f-a97ef418e580">Ge
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/59e2cd27-ec10-46e9-aa0d-4a00e2684e76">GetIoctlParameters</a> method retrieves parameters that are associated with the completion of a device I/O control request.
-
-The <a href="https://msdn.microsoft.com/8f38616e-498b-485e-84c8-de62477b5871">GetReadParameters</a> method retrieves parameters that are associated with the completion of a read request.
-
-The <a href="https://msdn.microsoft.com/7161ba67-d94a-4f05-bb8f-a97ef418e580">GetWriteParameters</a> method retrieves parameters that are associated with the completion of a write request.
-
- 
+</table> 
 

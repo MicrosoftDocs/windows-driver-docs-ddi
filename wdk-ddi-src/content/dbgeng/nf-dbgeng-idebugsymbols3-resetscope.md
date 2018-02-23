@@ -4,11 +4,11 @@ title: IDebugSymbols3::ResetScope method
 author: windows-driver-content
 description: The ResetScope method resets the current scope to the default scope of the current thread.
 old-location: debugger\resetscope.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: de8b7c44-98a6-457d-8c04-05d4fc76be16
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.resetscope, IDebugSymbols3 interface [Windows Debugging], ResetScope method, IDebugSymbols::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols2 interface, ResetScope method [Windows Debugging], IDebugSymbols2, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, ResetScope, dbgeng/IDebugSymbols3::ResetScope, IDebugSymbols3, IDebugSymbols2::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols, IDebugSymbols interface [Windows Debugging], ResetScope method, IDebugSymbols3::ResetScope, dbgeng/IDebugSymbols::ResetScope, IDebugSymbols2 interface [Windows Debugging], ResetScope method
+ms.date: 2/22/2018
+ms.keywords: ResetScope method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::ResetScope, ResetScope method [Windows Debugging], dbgeng/IDebugSymbols::ResetScope, ResetScope method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3 interface [Windows Debugging], ResetScope method, IDebugSymbols3, ResetScope method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::ResetScope, IDebugSymbols2 interface [Windows Debugging], ResetScope method, IDebugSymbols3::ResetScope, IDebugSymbols, dbgeng/IDebugSymbols2::ResetScope, debugger.resetscope, ResetScope, IDebugSymbols_e3d0b307-57e7-4bc1-83f6-3352dd33a7aa.xml, IDebugSymbols2, IDebugSymbols interface [Windows Debugging], ResetScope method, IDebugSymbols2::ResetScope
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,19 +108,11 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -128,9 +120,17 @@ For more information about scopes, see <a href="https://msdn.microsoft.com/libra
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::ResetScope method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::ResetScope method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

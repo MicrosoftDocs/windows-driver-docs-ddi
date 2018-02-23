@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f1940737-4543-4e48-8a4a-90430b16890a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture], wdm/IoCopyCurrentIrpStackLocationToNext, IoCopyCurrentIrpStackLocationToNext, k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, kernel.iocopycurrentirpstacklocationtonext
+ms.keywords: kernel.iocopycurrentirpstacklocationtonext, IoCopyCurrentIrpStackLocationToNext, IoCopyCurrentIrpStackLocationToNext routine [Kernel-Mode Driver Architecture], k104_11dd3823-a387-4699-a4c4-db88f8961b37.xml, wdm/IoCopyCurrentIrpStackLocationToNext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,23 +97,23 @@ If your driver calls <b>IoSkipCurrentIrpStackLocation</b>, be careful not to mod
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
-
-
-
 <a href="..\wdm\nf-wdm-iomarkirppending.md">IoMarkIrpPending</a>
 
 
 
+<a href="..\wdm\nf-wdm-iocalldriver.md">IoCallDriver</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550355">IoSkipCurrentIrpStackLocation</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 

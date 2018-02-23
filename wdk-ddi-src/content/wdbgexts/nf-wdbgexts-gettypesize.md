@@ -4,11 +4,11 @@ title: GetTypeSize function
 author: windows-driver-content
 description: The GetTypeSize function returns the size in the target's memory of an instance of the specified type.
 old-location: debugger\gettypesize.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 5532799d-5c3b-41ba-ab62-dca9c9d9eb56
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, wdbgexts/GetTypeSize, GetTypeSize, GetTypeSize function [Windows Debugging], debugger.gettypesize
+ms.date: 2/22/2018
+ms.keywords: wdbgexts/GetTypeSize, debugger.gettypesize, GetTypeSize function [Windows Debugging], WdbgExts_Ref_f3c7edf8-5c3b-440f-ace7-2081f9923d6f.xml, GetTypeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: stream\ksdereferencebusobject.htm
 old-project: stream
 ms.assetid: 5520685c-c438-460b-aac5-791098e14044
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksdereferencebusobject, KsDereferenceBusObject function [Streaming Media Devices], KsDereferenceBusObject, ksfunc_e3b1ab42-bb78-44f7-bc34-64edcf843471.xml, ks/KsDereferenceBusObject
+ms.date: 2/22/2018
+ms.keywords: KsDereferenceBusObject function [Streaming Media Devices], KsDereferenceBusObject, ks/KsDereferenceBusObject, ksfunc_e3b1ab42-bb78-44f7-bc34-64edcf843471.xml, stream.ksdereferencebusobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

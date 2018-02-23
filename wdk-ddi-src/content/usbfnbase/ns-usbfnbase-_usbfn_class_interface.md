@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D7173157-D532-4E71-A4E5-55A3B9626DB8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbfnbase/USBFN_CLASS_INTERFACE, _USBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE structure [Buses], *PUSBFN_CLASS_INTERFACE, buses.usbfn_class_interface, USBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE structure pointer [Buses], PUSBFN_CLASS_INTERFACE, usbfnbase/PUSBFN_CLASS_INTERFACE
+ms.keywords: "_USBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE, USBFN_CLASS_INTERFACE, buses.usbfn_class_interface, USBFN_CLASS_INTERFACE structure [Buses], usbfnbase/PUSBFN_CLASS_INTERFACE, usbfnbase/USBFN_CLASS_INTERFACE, PUSBFN_CLASS_INTERFACE structure pointer [Buses], *PUSBFN_CLASS_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

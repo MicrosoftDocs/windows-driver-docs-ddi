@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 77a42d5e-92ff-4e64-9bd3-b713286d3db0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml, ntstrsafe/RtlStringCbCopyA, ntstrsafe/RtlStringCbCopyW, RtlStringCbCopy, RtlStringCbCopyW, RtlStringCbCopyW function [Kernel-Mode Driver Architecture], RtlStringCbCopyA, kernel.rtlstringcbcopy
+ms.keywords: kernel.rtlstringcbcopy, RtlStringCbCopyA, RtlStringCbCopy, RtlStringCbCopyW, ntstrsafe/RtlStringCbCopyW, safestrings_a9c53388-15ef-4140-8931-ca93d519a7d4.xml, RtlStringCbCopyW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCopyA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCopyW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbCopyA function
@@ -219,11 +219,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcopyexw.md">RtlStringCbCopyEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcopyw.md">RtlStringCchCopy</a>
 
 
 

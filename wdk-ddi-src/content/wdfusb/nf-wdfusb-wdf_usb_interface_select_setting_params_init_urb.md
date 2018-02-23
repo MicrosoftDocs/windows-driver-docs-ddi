@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c11941e-d0fc-4b0f-bf18-9920d371dd09
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, wdf.wdf_usb_interface_select_setting_params_init_urb, kmdf.wdf_usb_interface_select_setting_params_init_urb, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB
+ms.keywords: wdf.wdf_usb_interface_select_setting_params_init_urb, kmdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -158,15 +158,15 @@ Status = WdfUsbInterfaceSelectSetting(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
-
-
-
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
-
-
-
 <a href="..\usb\ns-usb-_urb.md">URB</a>
+
+
+
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
 
 
 

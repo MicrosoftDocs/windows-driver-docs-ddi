@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 74644211-7cf5-48d4-9025-7831cb449979
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlStringCbLengthW, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], RtlStringCbLength, RtlStringCbLengthW, RtlStringCbLengthA, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml, kernel.rtlstringcblength, ntstrsafe/RtlStringCbLengthA
+ms.keywords: RtlStringCbLengthA, RtlStringCbLength, kernel.rtlstringcblength, RtlStringCbLengthW function [Kernel-Mode Driver Architecture], RtlStringCbLengthW, safestrings_1453b6f9-2e9d-4864-96e8-e0245a1a7827.xml, ntstrsafe/RtlStringCbLengthW, ntstrsafe/RtlStringCbLengthA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbLengthW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbLengthW function

@@ -4,11 +4,11 @@ title: IStiUSD::Diagnostic method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::Diagnostic method runs diagnostic tests on a still image device.
 old-location: image\istiusd_diagnostic.htm
-old-project: Image
+old-project: image
 ms.assetid: bf99c34e-5a71-4f2b-8dca-bed87d18b352
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: Diagnostic, image.istiusd_diagnostic, IStiUSD, stiusd/IStiUSD::Diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, Diagnostic method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], Diagnostic method, Diagnostic method [Imaging Devices], IStiUSD::Diagnostic
+ms.date: 2/22/2018
+ms.keywords: image.istiusd_diagnostic, Diagnostic method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], Diagnostic method, stiusd/IStiUSD::Diagnostic, Diagnostic method [Imaging Devices], IStiUSD, Diagnostic, stifnc_07917e25-965a-4a7e-82af-1cfef09d6748.xml, IStiUSD::Diagnostic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,5 +101,5 @@ The <b>IStiUSD::Diagnostic</b> method is called when a user clicks on the Scanne
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::Diagnostic method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::Diagnostic method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

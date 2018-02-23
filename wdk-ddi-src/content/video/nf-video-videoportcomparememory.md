@@ -7,8 +7,8 @@ old-location: display\videoportcomparememory.htm
 old-project: display
 ms.assetid: 89528b31-4d81-4612-92d7-5f64bdca8108
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPort_Functions_87b1236e-d77b-4930-897f-d5b33b1130aa.xml, video/VideoPortCompareMemory, VideoPortCompareMemory, display.videoportcomparememory, VideoPortCompareMemory function [Display Devices]
+ms.date: 2/22/2018
+ms.keywords: VideoPortCompareMemory function [Display Devices], display.videoportcomparememory, video/VideoPortCompareMemory, VideoPort_Functions_87b1236e-d77b-4930-897f-d5b33b1130aa.xml, VideoPortCompareMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,15 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 ## -see-also
 
+<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
+
+
+
 <a href="..\video\nf-video-videoportscanrom.md">VideoPortScanRom</a>
+
+
+
+<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
 
 
 
@@ -119,17 +127,9 @@ Callers of <b>VideoPortCompareMemory</b> can be running at any IRQL if both bloc
 
 
 
-<a href="..\video\nf-video-videoportmovememory.md">VideoPortMoveMemory</a>
-
-
-
-<a href="..\video\nf-video-videoportgetdevicebase.md">VideoPortGetDeviceBase</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortCompareMemory function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortCompareMemory function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

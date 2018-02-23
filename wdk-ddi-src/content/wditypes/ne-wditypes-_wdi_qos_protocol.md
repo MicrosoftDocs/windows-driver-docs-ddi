@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 39466BF7-0517-4113-9C94-26D8691CCCC1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wifi_qos_protocol, _WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL_WMM, wditypes/WDI_QOS_PROTOCOL_NONE, netvista.wdi_qos_protocol, WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL_11E, wditypes/WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL enumeration [Device and Driver Installation], wditypes/WDI_QOS_PROTOCOL_WMM, wditypes/WDI_QOS_PROTOCOL_11E, WDI_QOS_PROTOCOL_NONE
+ms.keywords: wditypes/WDI_QOS_PROTOCOL_11E, WDI_QOS_PROTOCOL_WMM, wditypes/WDI_QOS_PROTOCOL_NONE, wditypes/WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL enumeration [Device and Driver Installation], netvista.wifi_qos_protocol, WDI_QOS_PROTOCOL_11E, WDI_QOS_PROTOCOL, _WDI_QOS_PROTOCOL, WDI_QOS_PROTOCOL_NONE, wditypes/WDI_QOS_PROTOCOL_WMM, netvista.wdi_qos_protocol
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

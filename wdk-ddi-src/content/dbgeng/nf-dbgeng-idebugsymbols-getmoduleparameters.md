@@ -4,11 +4,11 @@ title: IDebugSymbols::GetModuleParameters method
 author: windows-driver-content
 description: The GetModuleParameters method returns parameters for modules in the target.
 old-location: debugger\getmoduleparameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: f744cd2e-a4ec-43be-a5cc-9135a73bce80
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleParameters, IDebugSymbols2::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols3::GetModuleParameters, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, IDebugSymbols::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols::GetModuleParameters, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, debugger.getmoduleparameters, GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols, dbgeng/IDebugSymbols3::GetModuleParameters
+ms.date: 2/22/2018
+ms.keywords: IDebugSymbols2::GetModuleParameters, GetModuleParameters method [Windows Debugging], dbgeng/IDebugSymbols2::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols_0a78fd64-15b7-4032-83a8-9867037e5081.xml, IDebugSymbols2 interface [Windows Debugging], GetModuleParameters method, IDebugSymbols interface [Windows Debugging], GetModuleParameters method, GetModuleParameters method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, dbgeng/IDebugSymbols::GetModuleParameters, GetModuleParameters method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::GetModuleParameters, IDebugSymbols3::GetModuleParameters, debugger.getmoduleparameters, dbgeng/IDebugSymbols3::GetModuleParameters, GetModuleParameters, IDebugSymbols3 interface [Windows Debugging], GetModuleParameters method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -164,5 +164,5 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetModuleParameters method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetModuleParameters method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

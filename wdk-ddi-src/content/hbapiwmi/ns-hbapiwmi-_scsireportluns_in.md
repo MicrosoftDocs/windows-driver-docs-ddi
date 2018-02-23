@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6de38cf4-a543-4cc9-aa6f-1804fc858040
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PScsiReportLuns_IN structure pointer [Storage Devices], _ScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, storage.scsireportluns_in2, ScsiReportLuns_IN structure [Storage Devices], *PScsiReportLuns_IN, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml, PScsiReportLuns_IN, ScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN
+ms.keywords: PScsiReportLuns_IN, hbapiwmi/PScsiReportLuns_IN, PScsiReportLuns_IN structure pointer [Storage Devices], _ScsiReportLuns_IN, storage.scsireportluns_in2, ScsiReportLuns_IN structure [Storage Devices], ScsiReportLuns_IN, structs-Fibre_29218585-2d91-40f3-bbce-fb23df1e3df9.xml, *PScsiReportLuns_IN, hbapiwmi/ScsiReportLuns_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReportLuns_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiReportLuns_IN, ScsiReportLuns_IN"
+req.typenames: ScsiReportLuns_IN, *PScsiReportLuns_IN
 ---
 
 # _ScsiReportLuns_IN structure

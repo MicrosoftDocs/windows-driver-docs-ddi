@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2552db76-961c-49ce-8b58-90f525e97d29
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILSMSFORMAT, rilapitypes/RIL_SMSFORMAT_NONE, rilapitypes/RIL_SMSFORMAT_3GPP2, RIL_SMSFORMAT_MAX, RILSMSFORMAT, netvista.rilsmsformat, RILSMSFORMAT enumeration [Network Drivers Starting with Windows Vista], RIL_SMSFORMAT_3GPP, rilapitypes/RIL_SMSFORMAT_MAX, RIL_SMSFORMAT_NONE, RIL_SMSFORMAT_3GPP2, rilapitypes/RIL_SMSFORMAT_3GPP
+ms.keywords: rilapitypes/RIL_SMSFORMAT_NONE, rilapitypes/RIL_SMSFORMAT_3GPP2, rilapitypes/RIL_SMSFORMAT_3GPP, rilapitypes/RIL_SMSFORMAT_MAX, RIL_SMSFORMAT_MAX, RILSMSFORMAT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILSMSFORMAT, RIL_SMSFORMAT_3GPP2, RIL_SMSFORMAT_3GPP, RILSMSFORMAT, RIL_SMSFORMAT_NONE, netvista.rilsmsformat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

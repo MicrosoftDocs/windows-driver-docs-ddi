@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FCCFFE1-C341-4C8D-8EEC-E07C7ECFC317
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_SET_BAND_METADATA_PARAMETERS, storage.set_band_metadata_parameters, ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], SET_BAND_METADATA_PARAMETERS"
+ms.keywords: ehstorbandmgmt/SET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS structure [Storage Devices], storage.set_band_metadata_parameters, ehstorbandmgmt/PSET_BAND_METADATA_PARAMETERS, PSET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS, _SET_BAND_METADATA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_BAND_METADATA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PSET_BAND_METADATA_PARAMETERS, SET_BAND_METADATA_PARAMETERS"
+req.typenames: SET_BAND_METADATA_PARAMETERS, *PSET_BAND_METADATA_PARAMETERS
 ---
 
 # _SET_BAND_METADATA_PARAMETERS structure
@@ -155,7 +155,7 @@ The new metadata to set for the band is included in the system buffer for  the <
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_query_capabilities.md">IOCTL_EHSTOR_BANDMGMT_QUERY_CAPABILITIES</a>
 
 
 

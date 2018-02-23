@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 53c72dbb-cf8d-4683-a440-985669265a52
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_REGSTAT_ROAMING, RIL_REGSTAT_ATTEMPTING, RILREGSTAT, rilapitypes/RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_ROAMING_INTL, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, RIL_REGSTAT_DENIED, rilapitypes/RIL_REGSTAT_UNKNOWN, netvista.rilregstat, rilapitypes/RILREGSTAT, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ATTEMPTING, RIL_REGSTAT_HOME, RIL_REGSTAT_ROAMING_INTL, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_UNREGISTERED
+ms.keywords: netvista.rilregstat, RILREGSTAT enumeration [Network Drivers Starting with Windows Vista], RIL_REGSTAT_DENIED, rilapitypes/RILREGSTAT, RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_HOME, rilapitypes/RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_UNREGISTERED, rilapitypes/RIL_REGSTAT_ROAMING, RIL_REGSTAT_ROAMING_INTL, rilapitypes/RIL_REGSTAT_UNREGISTERED, RIL_REGSTAT_UNKNOWN, RIL_REGSTAT_ROAMING, rilapitypes/RIL_REGSTAT_DENIED, RIL_REGSTAT_ATTEMPTING, rilapitypes/RIL_REGSTAT_ROAMING_INTL, RILREGSTAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

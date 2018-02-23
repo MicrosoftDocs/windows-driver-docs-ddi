@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 61F5C316-5214-45A6-B4BA-DEE6A224E811
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSRBEX_DATA_POWER, SRBEX_DATA_POWER, SRBEX_DATA_POWER structure [Storage Devices], PSRBEX_DATA_POWER structure pointer [Storage Devices], storport/PSRBEX_DATA_POWER, storage.srbex_data_power, *PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER, _SRBEX_DATA_POWER
+ms.keywords: SRBEX_DATA_POWER structure [Storage Devices], PSRBEX_DATA_POWER, storport/SRBEX_DATA_POWER, SRBEX_DATA_POWER, storport/PSRBEX_DATA_POWER, storage.srbex_data_power, PSRBEX_DATA_POWER structure pointer [Storage Devices], _SRBEX_DATA_POWER, *PSRBEX_DATA_POWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_POWER
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_POWER, SRBEX_DATA_POWER"
+req.typenames: SRBEX_DATA_POWER, *PSRBEX_DATA_POWER
 req.product: Windows 10 or later.
 ---
 
@@ -85,7 +85,7 @@ Length of the data in this structure starting with the <b>SrbPowerFlags</b> memb
 
 ### -field SrbPowerFlags
 
-Indicates that the power request is for the adapter if SRB_POWER_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPowerFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the power request is for the adapter if SRB_POWER_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>SrbPowerFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved
@@ -95,25 +95,25 @@ This member is reserved. Set to 0.
 
 ### -field DevicePowerState
 
-An enumerator value of type <a href="..\minitape\ne-minitape-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device. 
+An enumerator value of type <a href="..\srb\ne-srb-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a> that specifies the requested power state of the device. 
 
 
 ### -field PowerAction
 
-An enumerator value of type <a href="..\minitape\ne-minitape-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member.
+An enumerator value of type <a href="..\srb\ne-srb-pstor_power_action.md">STOR_POWER_ACTION</a> that specifies the type of system shutdown that is about to occur. This value is meaningful only if the device is moving into the D1, D2, or D3 power state as indicated by the <b>DevicePowerState</b> member.
 
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-pstor_power_action.md">STOR_POWER_ACTION</a>
+<a href="..\srb\ne-srb-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a>
 
 
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
-<a href="..\minitape\ne-minitape-_stor_device_power_state.md">STOR_DEVICE_POWER_STATE</a>
+<a href="..\srb\ne-srb-pstor_power_action.md">STOR_POWER_ACTION</a>
 
 
 

@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_get_property.htm
 old-project: pos
 ms.assetid: 7d0231b3-4db7-47b3-8208-70d2cd337005
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.ioctl_point_of_service_get_property, IOCTL_POINT_OF_SERVICE_GET_PROPERTY control code, IOCTL_POINT_OF_SERVICE_GET_PROPERTY, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_GET_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices

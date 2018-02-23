@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3980ac7-b539-4a8f-9869-14d418ebe1e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PISCSI_RedirectSessionInfo structure pointer [Storage Devices], _ISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, iscsimgt/PISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo structure [Storage Devices], ISCSI_RedirectSessionInfo, structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, *PISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo
+ms.keywords: structs-iSCSI_41ab8376-0e0e-40af-8cab-1be2f63edeed.xml, iscsimgt/PISCSI_RedirectSessionInfo, storage.iscsi_redirectsessioninfo, ISCSI_RedirectSessionInfo structure [Storage Devices], PISCSI_RedirectSessionInfo, *PISCSI_RedirectSessionInfo, iscsimgt/ISCSI_RedirectSessionInfo, PISCSI_RedirectSessionInfo structure pointer [Storage Devices], _ISCSI_RedirectSessionInfo, ISCSI_RedirectSessionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

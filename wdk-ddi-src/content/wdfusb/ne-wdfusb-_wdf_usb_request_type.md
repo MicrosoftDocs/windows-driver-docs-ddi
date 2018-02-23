@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4d10cefb-1039-4c48-b9f7-c4a530a6514b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbRequestTypePipeWrite, WdfUsbRequestTypePipeRead, wdfusb/WdfUsbRequestTypePipeRead, wdf.wdf_usb_request_type, wdfusb/WdfUsbRequestTypePipeAbort, WDF_USB_REQUEST_TYPE, wdfusb/PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceControlTransfer, kmdf.wdf_usb_request_type, DFUsbRef_b3c4cd6e-66ac-40b3-b78b-c550f14c3e94.xml, *PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeReset, PWDF_USB_REQUEST_TYPE enumeration pointer, wdfusb/WdfUsbRequestTypePipeUrb, WdfUsbRequestTypeDeviceString, WdfUsbRequestTypeInvalid, WDF_USB_REQUEST_TYPE enumeration, wdfusb/WdfUsbRequestTypeDeviceControlTransfer, wdfusb/WdfUsbRequestTypeDeviceUrb, wdfusb/WdfUsbRequestTypePipeReset, wdfusb/WdfUsbRequestTypeNoFormat, _WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeNoFormat, wdfusb/WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceUrb, wdfusb/WdfUsbRequestTypeInvalid, wdfusb/WdfUsbRequestTypeDeviceString, wdfusb/WdfUsbRequestTypePipeWrite, WdfUsbRequestTypePipeAbort, WdfUsbRequestTypePipeUrb, PWDF_USB_REQUEST_TYPE
+ms.keywords: WdfUsbRequestTypePipeWrite, wdfusb/WDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeRead, WdfUsbRequestTypePipeUrb, wdf.wdf_usb_request_type, wdfusb/WdfUsbRequestTypePipeUrb, *PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE, PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeNoFormat, DFUsbRef_b3c4cd6e-66ac-40b3-b78b-c550f14c3e94.xml, PWDF_USB_REQUEST_TYPE enumeration pointer, wdfusb/PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeInvalid, wdfusb/WdfUsbRequestTypePipeReset, wdfusb/WdfUsbRequestTypePipeWrite, WdfUsbRequestTypeDeviceControlTransfer, wdfusb/WdfUsbRequestTypePipeRead, wdfusb/WdfUsbRequestTypePipeAbort, wdfusb/WdfUsbRequestTypeDeviceControlTransfer, wdfusb/WdfUsbRequestTypeInvalid, WdfUsbRequestTypePipeReset, WDF_USB_REQUEST_TYPE enumeration, kmdf.wdf_usb_request_type, WdfUsbRequestTypePipeAbort, wdfusb/WdfUsbRequestTypeDeviceUrb, _WDF_USB_REQUEST_TYPE, wdfusb/WdfUsbRequestTypeDeviceString, wdfusb/WdfUsbRequestTypeNoFormat, WdfUsbRequestTypeDeviceUrb, WdfUsbRequestTypeDeviceString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

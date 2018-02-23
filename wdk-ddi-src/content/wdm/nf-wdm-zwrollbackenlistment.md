@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 30989717-bbf4-44e6-9f1b-4818a8314714
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ktm_ref_6e57f040-d43e-4986-a756-e35e1abc8670.xml, NtRollbackEnlistment, ZwRollbackEnlistment, kernel.zwrollbackenlistment, wdm/ZwRollbackEnlistment, ZwRollbackEnlistment routine [Kernel-Mode Driver Architecture], wdm/NtRollbackEnlistment
+ms.keywords: ZwRollbackEnlistment, ktm_ref_6e57f040-d43e-4986-a756-e35e1abc8670.xml, kernel.zwrollbackenlistment, ZwRollbackEnlistment routine [Kernel-Mode Driver Architecture], wdm/ZwRollbackEnlistment, NtRollbackEnlistment, wdm/NtRollbackEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -164,7 +164,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-tmrollbackenlistment.md">TmRollbackEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 
@@ -172,11 +172,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+
+
+
+<a href="..\wdm\nf-wdm-tmrollbackenlistment.md">TmRollbackEnlistment</a>
 
 
 

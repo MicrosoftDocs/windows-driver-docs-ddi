@@ -7,7 +7,7 @@ old-location: display\pfncheckcounter.htm
 old-project: display
 ms.assetid: 3A8B040D-7B48-4CDB-985B-906AE1762E22
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfncheckcounter, D3DDDI_COUNTER_TYPE, pfnCheckCounter callback function [Display Devices], pfnCheckCounter, PFND3DDDI_CHECKCOUNTER, PFND3DDDI_CHECKCOUNTER, d3dumddi/pfnCheckCounter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -134,11 +134,6 @@ Here are limitations on the values of the <i>pDescriptionLength</i> and  <i>pszD
  A value of type <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a> that identifies the counter identifier that info is retrieved for.
 
 
-#### - pActiveCounters [out]
-
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
-
-
 #### - pType [out]
 
 A pointer to a variable that receives one of the following values from the <b>D3DDDI_COUNTER_TYPE</b> enumeration that identifies the data type that the counter outputs.
@@ -192,11 +187,9 @@ D3DDDI_COUNTER_TYPE_UINT64
  
 
 
-#### - pszDescription [out, optional]
+#### - pActiveCounters [out]
 
-An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the description of what the counter identifier measures.
-
-Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that the <i>Counter</i> parameter identifies.
 
 
 #### - pszName [out, optional]
@@ -211,6 +204,13 @@ Can be <b>NULL</b>, in which case the app doesn't need the name.
 An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the name of the units that the counter identifier measures.
 
 Can be <b>NULL</b>, in which case the app doesn't need the units info. See more info in the explanation of the <i>pUnitsLength</i> parameter.
+
+
+#### - pszDescription [out, optional]
+
+An optional pointer that the driver returns a <b>NULL</b>-terminated string to that contains the description of what the counter identifier measures.
+
+Can be <b>NULL</b>, in which case the app doesn't need the description info. See more info in the explanation of the <i>pDescriptionLength</i> parameter.
 
 
 ## -returns
@@ -261,17 +261,17 @@ If a counter ID can always be monitored (and it doesn't interfere with monitorin
 
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_createquery.md">D3DDDIQUERYTYPE</a>
 
 
 
- 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_checkcounter.md">CheckCounter</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CHECKCOUNTER callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3DDDI_CHECKCOUNTER callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

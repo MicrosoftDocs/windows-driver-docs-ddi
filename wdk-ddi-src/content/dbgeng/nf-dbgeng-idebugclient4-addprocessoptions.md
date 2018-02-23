@@ -4,11 +4,11 @@ title: IDebugClient4::AddProcessOptions method
 author: windows-driver-content
 description: The AddProcessOptions method adds the process options to those options that affect the current process.
 old-location: debugger\addprocessoptions.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: eb5f1d91-cfad-48e6-b578-64b64034222f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: AddProcessOptions method [Windows Debugging], IDebugClient3 interface, IDebugClient4, IDebugClient4::AddProcessOptions, IDebugClient2 interface [Windows Debugging], AddProcessOptions method, IDebugClient3::AddProcessOptions, AddProcessOptions method [Windows Debugging], IDebugClient5 interface, AddProcessOptions method [Windows Debugging], IDebugClient2 interface, AddProcessOptions, dbgeng/IDebugClient3::AddProcessOptions, debugger.addprocessoptions, IDebugClient3 interface [Windows Debugging], AddProcessOptions method, dbgeng/IDebugClient5::AddProcessOptions, IDebugClient interface [Windows Debugging], AddProcessOptions method, IDebugClient_995041c9-9380-4a66-b9f8-d74d68398a44.xml, AddProcessOptions method [Windows Debugging], IDebugClient5 interface [Windows Debugging], AddProcessOptions method, IDebugClient, IDebugClient5::AddProcessOptions, IDebugClient4 interface [Windows Debugging], AddProcessOptions method, IDebugClient::AddProcessOptions, dbgeng/IDebugClient4::AddProcessOptions, AddProcessOptions method [Windows Debugging], IDebugClient4 interface, IDebugClient2, dbgeng/IDebugClient2::AddProcessOptions, IDebugClient2::AddProcessOptions, IDebugClient3, AddProcessOptions method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient::AddProcessOptions
+ms.date: 2/22/2018
+ms.keywords: IDebugClient2 interface [Windows Debugging], AddProcessOptions method, IDebugClient4 interface [Windows Debugging], AddProcessOptions method, IDebugClient3::AddProcessOptions, AddProcessOptions method [Windows Debugging], IDebugClient interface, AddProcessOptions method [Windows Debugging], dbgeng/IDebugClient2::AddProcessOptions, dbgeng/IDebugClient4::AddProcessOptions, AddProcessOptions method [Windows Debugging], IDebugClient4 interface, IDebugClient4, AddProcessOptions, dbgeng/IDebugClient::AddProcessOptions, IDebugClient3, AddProcessOptions method [Windows Debugging], IDebugClient2 interface, debugger.addprocessoptions, IDebugClient::AddProcessOptions, IDebugClient5::AddProcessOptions, IDebugClient_995041c9-9380-4a66-b9f8-d74d68398a44.xml, IDebugClient3 interface [Windows Debugging], AddProcessOptions method, dbgeng/IDebugClient3::AddProcessOptions, IDebugClient2, IDebugClient4::AddProcessOptions, AddProcessOptions method [Windows Debugging], IDebugClient3 interface, IDebugClient, AddProcessOptions method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], AddProcessOptions method, IDebugClient interface [Windows Debugging], AddProcessOptions method, IDebugClient2::AddProcessOptions, dbgeng/IDebugClient5::AddProcessOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,19 +125,11 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556765">SetProcessOptions</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -145,7 +137,7 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554505">RemoveProcessOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541534">DEBUG_PROCESS_XXX</a>
 
 
 
@@ -153,7 +145,15 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556765">SetProcessOptions</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548163">GetProcessOptions</a>
 
 
 
@@ -161,5 +161,5 @@ For more information about creating and attaching to live user-mode targets, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::AddProcessOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::AddProcessOptions method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

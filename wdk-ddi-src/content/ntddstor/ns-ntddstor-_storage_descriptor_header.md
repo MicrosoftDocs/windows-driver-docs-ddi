@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 57d019b0-7914-42f6-a888-16042aa97444
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddstor/PSTORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], PSTORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml, _STORAGE_DESCRIPTOR_HEADER, ntddstor/STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], STORAGE_DESCRIPTOR_HEADER
+ms.keywords: STORAGE_DESCRIPTOR_HEADER structure [Storage Devices], STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER structure pointer [Storage Devices], ntddstor/PSTORAGE_DESCRIPTOR_HEADER, ntddstor/STORAGE_DESCRIPTOR_HEADER, structs-general_9ba3bf25-17dc-41e1-9b3e-971d2ddd4780.xml, _STORAGE_DESCRIPTOR_HEADER, storage.storage_descriptor_header, PSTORAGE_DESCRIPTOR_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_DESCRIPTOR_HEADER
 product: Windows
 targetos: Windows
-req.typenames: PSTORAGE_DESCRIPTOR_HEADER, STORAGE_DESCRIPTOR_HEADER
+req.typenames: STORAGE_DESCRIPTOR_HEADER, PSTORAGE_DESCRIPTOR_HEADER
 ---
 
 # _STORAGE_DESCRIPTOR_HEADER structure

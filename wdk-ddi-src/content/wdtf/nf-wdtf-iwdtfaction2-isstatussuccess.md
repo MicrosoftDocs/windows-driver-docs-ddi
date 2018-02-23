@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c4e6f54f-815d-4ce1-93e1-b18663aab1b1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2 interface, wdtf/IWDTFAction2::IsStatusSuccess, Microsoft::WDTF::IWDTFAction2::IsStatusSuccess, IsStatusSuccess, dtf.iwdtfaction2_isstatussuccess, IWDTFAction2 interface [Windows Device Testing Framework], IsStatusSuccess method, IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2, IWDTFAction2::IsStatusSuccess, Microsoft.WDTF.IWDTFAction2.IsStatusSuccess
+ms.keywords: Microsoft::WDTF::IWDTFAction2::IsStatusSuccess, IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2 interface, wdtf/IWDTFAction2::IsStatusSuccess, IWDTFAction2, IWDTFAction2 interface [Windows Device Testing Framework], IsStatusSuccess method, IsStatusSuccess, IsStatusSuccess method [Windows Device Testing Framework], IWDTFAction2::IsStatusSuccess, dtf.iwdtfaction2_isstatussuccess, Microsoft.WDTF.IWDTFAction2.IsStatusSuccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

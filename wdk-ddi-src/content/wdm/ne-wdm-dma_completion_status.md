@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 12F6E1F5-15F9-42BE-8C47-C9A561513717
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.dma_completion_status, DmaComplete, wdm/DmaError, DMA_COMPLETION_STATUS, DmaError, wdm/DmaComplete, wdm/DMA_COMPLETION_STATUS, DmaCancelled, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture], DmaAborted, wdm/DmaCancelled, wdm/DmaAborted
+ms.keywords: DMA_COMPLETION_STATUS, DmaComplete, DmaError, wdm/DmaError, wdm/DmaCancelled, wdm/DmaAborted, wdm/DMA_COMPLETION_STATUS, kernel.dma_completion_status, wdm/DmaComplete, DmaAborted, DmaCancelled, DMA_COMPLETION_STATUS enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

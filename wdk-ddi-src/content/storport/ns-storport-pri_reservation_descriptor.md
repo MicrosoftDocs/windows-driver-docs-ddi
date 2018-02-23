@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f03506f6-404e-4635-a9ad-f2f36164ff2f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/PRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], PRI_RESERVATION_DESCRIPTOR, storage.pri_reservation_descriptor, PPRI_RESERVATION_DESCRIPTOR, storport/PPRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR
+ms.keywords: "*PPRI_RESERVATION_DESCRIPTOR, structs-general_96e112cc-0cf3-442d-bb3a-7bcad8a95220.xml, PRI_RESERVATION_DESCRIPTOR, storport/PPRI_RESERVATION_DESCRIPTOR, PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR structure [Storage Devices], PPRI_RESERVATION_DESCRIPTOR structure pointer [Storage Devices], storage.pri_reservation_descriptor, storport/PRI_RESERVATION_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PRI_RESERVATION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PPRI_RESERVATION_DESCRIPTOR, PRI_RESERVATION_DESCRIPTOR"
+req.typenames: PRI_RESERVATION_DESCRIPTOR, *PPRI_RESERVATION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onclientconnect.htm
 old-project: sensors
 ms.assetid: 0f64288b-5100-4529-af2f-3e867375da39
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.isensordriver_onclientconnect, ISensorDriver::OnClientConnect, OnClientConnect, ISensorDriver, OnClientConnect method [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: OnClientConnect, ISensorDriver, ISensorDriver::OnClientConnect, sensors.isensordriver_onclientconnect, OnClientConnect method [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

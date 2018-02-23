@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a4ca55f9-0fbd-4969-8807-baa79099cff0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDpcWdmGetDpc method, wdfdpc/WdfDpcWdmGetDpc, kmdf.wdfdpcwdmgetdpc, WdfDpcWdmGetDpc, wdf.wdfdpcwdmgetdpc, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml
+ms.keywords: wdf.wdfdpcwdmgetdpc, kmdf.wdfdpcwdmgetdpc, WdfDpcWdmGetDpc method, wdfdpc/WdfDpcWdmGetDpc, WdfDpcWdmGetDpc, DFDpcObjectRef_26bd69e5-277b-4af4-a5b7-659670b39fbb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDpcWdmGetDpc
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -121,7 +121,7 @@ pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
 
 ## -see-also
 
-<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
+<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
 
 
 
@@ -129,11 +129,11 @@ pWdmDpc = WdfDpcWdmGetDpc(PDevExt-&gt;CompleteWriteDpc);</pre>
 
 
 
+<a href="..\wdfdpc\nf-wdfdpc-wdfdpccreate.md">WdfDpcCreate</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551882">KDPC</a>
-
-
-
-<a href="..\wdfdpc\ns-wdfdpc-_wdf_dpc_config.md">WDF_DPC_CONFIG</a>
 
 
 

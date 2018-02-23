@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b04ef64a-cf1f-4de5-acb3-e57687f64719
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortReadPortUlong, storage.storportreadportulong, StorPortReadPortUlong, StorPortReadPortUlong routine [Storage Devices], storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml
+ms.keywords: StorPortReadPortUlong, StorPortReadPortUlong routine [Storage Devices], storprt_3ef5c577-3d75-4797-b5ce-8f36e4080c47.xml, storage.storportreadportulong, storport/StorPortReadPortUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,7 +98,7 @@ Pointer to the address from which to read.
 
 
 
-For more information, see the <a href="..\storport\nf-storport-scsiportreadportulong.md">ScsiPortReadPortUlong</a> routine. For a buffered version of this routine see <a href="..\storport\nf-storport-storportreadportbufferulong.md">StorPortReadPortBufferUlong</a>.
+For more information, see the <a href="..\srb\nf-srb-scsiportreadportulong.md">ScsiPortReadPortUlong</a> routine. For a buffered version of this routine see <a href="..\storport\nf-storport-storportreadportbufferulong.md">StorPortReadPortBufferUlong</a>.
 
 
 
@@ -109,7 +109,7 @@ For more information, see the <a href="..\storport\nf-storport-scsiportreadportu
 
 
 
-<a href="..\storport\nf-storport-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
+<a href="..\srb\nf-srb-scsiportreadportbufferulong.md">ScsiPortReadPortBufferUlong</a>
 
 
 

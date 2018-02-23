@@ -7,8 +7,8 @@ old-location: audio\pcnewminiport.htm
 old-project: audio
 ms.assetid: 15046dc7-42ae-4ebe-acb9-2b0bbad1e833
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.pcnewminiport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, portcls/PcNewMiniport, PcNewMiniport function [Audio Devices], PcNewMiniport
+ms.date: 2/22/2018
+ms.keywords: audio.pcnewminiport, portcls/PcNewMiniport, PcNewMiniport, audpc-routines_d0b1d8e9-e4e0-44de-8854-a1b18eac9ff5.xml, PcNewMiniport function [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,14 +81,14 @@ TBD
 
 
 
-#### - ClassId [in]
-
-Specifies the miniport interface that is being requested. For more information, see the following Remarks section.
-
-
 #### - OutMiniport [out]
 
 Output pointer for the miniport-driver object created by this function. This parameter points to a caller-allocated pointer variable into which the function outputs a reference to the newly created <a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a> object. This object is an instance of the miniport driver that is specified by the <i>ClassId</i> parameter. Specify a valid, non-NULL pointer value for this parameter.
+
+
+#### - ClassId [in]
+
+Specifies the miniport interface that is being requested. For more information, see the following Remarks section.
 
 
 ## -returns
@@ -187,7 +187,7 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 ## -see-also
 
-<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+<a href="..\portcls\nn-portcls-iminiport.md">IMiniport</a>
 
 
 
@@ -199,17 +199,17 @@ The <i>OutMiniport</i> parameter follows the <a href="https://msdn.microsoft.com
 
 
 
+<a href="..\dmusicks\nn-dmusicks-iminiportdmus.md">IMiniportDMus</a>
+
+
+
 <a href="..\dmusicks\nn-dmusicks-iportdmus.md">IPortDMus</a>
 
 
 
-<a href="..\portcls\nn-portcls-iminiportmidi.md">IMiniportMidi</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewMiniport function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewMiniport function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

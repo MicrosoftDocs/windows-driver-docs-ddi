@@ -40,7 +40,7 @@ apiname:
 -	InterfaceDereference
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ VOID InterfaceDereference(
 
 ### -param Context [in]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure for the interface.
 
 
 ## -returns
@@ -89,7 +89,7 @@ None
 
 
 
-You can use the <a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a> routine to increment the reference count for the interface.
+You can use the <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine to increment the reference count for the interface.
 
 The driver that imports the interface is responsible for calling the <i>InterfaceDereference</i> routine to decrement the reference count after the driver is no longer using the interface.  For example, a driver that requests a pointer to the interface by sending an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> request calls <i>InterfaceDereference</i>. Also, a driver that receives a pointer to the interface to another driver must call <i>InterfaceDereference</i>.
 
@@ -98,15 +98,15 @@ The driver that imports the interface is responsible for calling the <i>Interfac
 
 ## -see-also
 
-<a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a>
-
-
-
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8ca0d683-318b-465c-95a7-dc2b5e29c9e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, ntifs/CcGetDirtyPages, CcGetDirtyPages routine [Installable File System Drivers], ifsk.ccgetdirtypages, CcGetDirtyPages
+ms.keywords: ccref_cbefaf71-3c21-445f-ac63-d96bbb47ec16.xml, CcGetDirtyPages routine [Installable File System Drivers], CcGetDirtyPages, ifsk.ccgetdirtypages, ntifs/CcGetDirtyPages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

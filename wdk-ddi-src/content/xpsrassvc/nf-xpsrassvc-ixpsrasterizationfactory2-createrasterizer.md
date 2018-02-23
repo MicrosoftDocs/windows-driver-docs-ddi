@@ -7,8 +7,8 @@ old-location: print\ixpsrasterizationfactory2_createrasterizer.htm
 old-project: print
 ms.assetid: C31681A0-17C6-4255-9068-7486A2101AB7
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, IXpsRasterizationFactory2, IXpsRasterizationFactory2::CreateRasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, CreateRasterizer, print.ixpsrasterizationfactory2_createrasterizer
+ms.date: 2/22/2018
+ms.keywords: xpsrassvc/IXpsRasterizationFactory2::CreateRasterizer, IXpsRasterizationFactory2 interface [Print Devices], CreateRasterizer method, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2, IXpsRasterizationFactory2::CreateRasterizer, CreateRasterizer method [Print Devices], IXpsRasterizationFactory2 interface, print.ixpsrasterizationfactory2_createrasterizer, CreateRasterizer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -164,12 +164,6 @@ The default background color is XPSRAS_BACKGROUND_COLOR_TRANSPARENT.
 
 
 
-#### - **ppIXpsRasterizer [out, optional]
-
-This parameter points to a location into which the method writes a pointer to the <a href="https://msdn.microsoft.com/1ef99120-2b3b-45aa-bcf7-16bcb9656089">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
-
-
-
 #### - *xpsPage [in, optional]
 
 Pointer to an <b>IXpsOMPage</b> object that represents the XPS fixed page to render. This object encapsulates a FixedPage section from an XPS document. 
@@ -183,6 +177,12 @@ Dots per inch which is applied to x dimension of the rasterized output bitmap. T
 #### - dpiY [in]
 
 Dots per inch which is applied to y dimension of the rasterized output bitmap.
+
+
+#### - **ppIXpsRasterizer [out, optional]
+
+This parameter points to a location into which the method writes a pointer to the <a href="..\xpsrassvc\nn-xpsrassvc-ixpsrasterizer.md">IXpsRasterizer</a> interface of the newly created XPS rasterizer object. If the method fails, it writes <b>NULL</b> to this location and returns an error code.
+
 
 
 ## -returns
@@ -204,5 +204,5 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizationFactory2::CreateRasterizer method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IXpsRasterizationFactory2::CreateRasterizer method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

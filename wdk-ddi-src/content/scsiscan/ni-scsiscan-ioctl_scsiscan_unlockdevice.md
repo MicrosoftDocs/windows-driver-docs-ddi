@@ -4,10 +4,10 @@ title: IOCTL_SCSISCAN_UNLOCKDEVICE
 author: windows-driver-content
 description: Reserved for use by Microsoft.
 old-location: image\ioctl_scsiscan_unlockdevice.htm
-old-project: Image
+old-project: image
 ms.assetid: 6dc380a9-b983-453e-949d-f49f85df4c7b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.ioctl_scsiscan_unlockdevice, IOCTL_SCSISCAN_UNLOCKDEVICE control code [Imaging Devices], IOCTL_SCSISCAN_UNLOCKDEVICE, scsiscan/IOCTL_SCSISCAN_UNLOCKDEVICE, stifnc_b3d77638-dbcf-41ae-90f9-50611e562590.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

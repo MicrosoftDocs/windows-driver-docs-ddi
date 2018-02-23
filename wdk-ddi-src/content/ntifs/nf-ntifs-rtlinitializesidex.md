@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 367D8BC1-07F4-474E-913A-5F825320A70C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/RtlInitializeSidEx, RtlInitializeSidEx routine [Installable File System Drivers], RtlInitializeSidEx, ifsk.rtlinitializesidex
+ms.keywords: RtlInitializeSidEx routine [Installable File System Drivers], RtlInitializeSidEx, ifsk.rtlinitializesidex, ntifs/RtlInitializeSidEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,15 +147,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

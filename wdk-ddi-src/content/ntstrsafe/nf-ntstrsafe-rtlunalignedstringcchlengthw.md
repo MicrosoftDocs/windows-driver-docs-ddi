@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7b9f38f5-7fc9-4670-975d-b7bfeefb2cb8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlUnalignedStringCchLength, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture], safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml, ntstrsafe/RtlUnalignedStringCchLengthW, RtlUnalignedStringCchLengthW, kernel.rtlunalignedstringcchlength
+ms.keywords: kernel.rtlunalignedstringcchlength, RtlUnalignedStringCchLength, RtlUnalignedStringCchLengthW, ntstrsafe/RtlUnalignedStringCchLengthW, safestrings_7bfc07f7-2096-4818-a0d5-31767b7342ea.xml, RtlUnalignedStringCchLengthW function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnalignedStringCchLengthW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlUnalignedStringCchLengthW function

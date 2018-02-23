@@ -7,7 +7,7 @@ old-location: audio\iminiportwavert.htm
 old-project: audio
 ms.assetid: 5b98802e-c1a8-4613-85fe-f734ecc4670a
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.iminiportwavert, IMiniportWaveRT interface [Audio Devices], IMiniportWaveRT interface [Audio Devices], described, IMiniportWaveRT, portcls/IMiniportWaveRT, audmp-routines_8d8d9bf9-09f1-4c1f-9113-c03e506e4edb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

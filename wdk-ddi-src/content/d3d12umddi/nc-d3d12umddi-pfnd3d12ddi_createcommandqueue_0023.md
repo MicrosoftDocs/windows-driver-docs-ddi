@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createcommandqueue_0023.htm
 old-project: display
 ms.assetid: 1DA52354-2338-4214-8489-B6BFCD6060FB
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3d12ddi_createcommandqueue_0023, pfnCreateCommandQueue callback function [Display Devices], pfnCreateCommandQueue, PFND3D12DDI_CREATECOMMANDQUEUE_0023, PFND3D12DDI_CREATECOMMANDQUEUE_0023, d3d12umddi/pfnCreateCommandQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -91,14 +91,14 @@ HRESULT APIENTRY* pfnCreateCommandQueue(
 
 
 
-#### - CreateCommandQueue [in]
-
-An argument used to create a command queue. 
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - CreateCommandQueue [in]
+
+An argument used to create a command queue. 
 
 
 #### - hDrvCommandQueue

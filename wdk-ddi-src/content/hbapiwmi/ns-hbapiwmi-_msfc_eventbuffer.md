@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7d41c092-251e-4f93-b5be-ff989b37196b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_MSFC_EventBuffer, hbapiwmi/PMSFC_EventBuffer, PMSFC_EventBuffer, *PMSFC_EventBuffer, hbapiwmi/MSFC_EventBuffer, PMSFC_EventBuffer structure pointer [Storage Devices], structs-Fibre_d89430e7-c05b-4314-946e-fd8e70d938ac.xml, storage.msfc_eventbuffer, MSFC_EventBuffer structure [Storage Devices], MSFC_EventBuffer"
+ms.keywords: PMSFC_EventBuffer, hbapiwmi/PMSFC_EventBuffer, hbapiwmi/MSFC_EventBuffer, _MSFC_EventBuffer, PMSFC_EventBuffer structure pointer [Storage Devices], structs-Fibre_d89430e7-c05b-4314-946e-fd8e70d938ac.xml, *PMSFC_EventBuffer, MSFC_EventBuffer, storage.msfc_eventbuffer, MSFC_EventBuffer structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_EventBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_EventBuffer, MSFC_EventBuffer"
+req.typenames: MSFC_EventBuffer, *PMSFC_EventBuffer
 ---
 
 # _MSFC_EventBuffer structure
@@ -91,11 +91,11 @@ The <a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a> structure i
 
 ## -see-also
 
-<a href="..\hbaapi\ns-hbaapi-hba_eventinfo.md">HBA_EventInfo</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553935">GetEventBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/528e5eaa-aaeb-4e5b-a4b2-0f518fcd79ee">EVENT_TYPE_QUALIFIERS</a>
 
 
 

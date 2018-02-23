@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4F79D820-29D4-4D38-A09C-8A5E968C1479
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSYSENV_VALUE structure pointer [Kernel-Mode Driver Architecture], *PSYSENV_VALUE, SYSENV_VALUE, SYSENV_VALUE structure [Kernel-Mode Driver Architecture], kernel.sysenv_value, PSYSENV_VALUE, ntddsysenv/PSYSENV_VALUE, _SYSENV_VALUE, ntddsysenv/SYSENV_VALUE
+ms.keywords: ntddsysenv/SYSENV_VALUE, SYSENV_VALUE structure [Kernel-Mode Driver Architecture], PSYSENV_VALUE, SYSENV_VALUE, PSYSENV_VALUE structure pointer [Kernel-Mode Driver Architecture], *PSYSENV_VALUE, kernel.sysenv_value, ntddsysenv/PSYSENV_VALUE, _SYSENV_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSENV_VALUE
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSENV_VALUE, SYSENV_VALUE"
+req.typenames: SYSENV_VALUE, *PSYSENV_VALUE
 ---
 
 # _SYSENV_VALUE structure

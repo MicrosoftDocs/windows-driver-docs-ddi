@@ -4,11 +4,11 @@ title: ExtRemoteList::StartTail method
 author: windows-driver-content
 description: The StartTail method initializes the list for iterating backward, starting at the head.
 old-location: debugger\extremotelist_starttail.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: fe9aec87-a464-4ea9-b9ca-3dbb91bb4e3e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: StartTail method [Windows Debugging], ExtRemoteList::StartTail, StartTail method [Windows Debugging], ExtRemoteList class, debugger.extremotelist_starttail, EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, ExtRemoteList, ExtRemoteList class [Windows Debugging], StartTail method, StartTail
+ms.date: 2/22/2018
+ms.keywords: ExtRemoteList class [Windows Debugging], StartTail method, ExtRemoteList, debugger.extremotelist_starttail, ExtRemoteList::StartTail, EngExtCpp_Ref_736ed502-a1e7-49cd-95f6-67201cb8dbb3.xml, StartTail method [Windows Debugging], StartTail method [Windows Debugging], ExtRemoteList class, StartTail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

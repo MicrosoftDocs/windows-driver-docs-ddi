@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c0cc4fba-01ba-4745-8dee-fc4c43f570cf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlmultibytetounicoden, RtlMultiByteToUnicodeN, ntifs/RtlMultiByteToUnicodeN, rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml, RtlMultiByteToUnicodeN routine [Installable File System Drivers]
+ms.keywords: rtlref_c9245403-e17c-479b-ac16-07deb29a56d1.xml, ntifs/RtlMultiByteToUnicodeN, RtlMultiByteToUnicodeN, ifsk.rtlmultibytetounicoden, RtlMultiByteToUnicodeN routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

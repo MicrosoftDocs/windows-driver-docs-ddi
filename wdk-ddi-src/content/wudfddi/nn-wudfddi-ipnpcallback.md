@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IPnpCallback</b> interface is a Plug and Play (PnP) and power management (PM) interface. 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPnpCallback</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPnpCallback</b> interface has these methods.
@@ -108,17 +115,7 @@ The <a href="https://msdn.microsoft.com/4289406f-dda0-4439-be6e-6e638bb46e1f">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/6efa3d8e-3e54-4ab1-82e0-08ba12bb1877">OnD0Entry</a> method notifies a driver when a device enters the D0 power state so that the driver can perform necessary operations, such as enabling the device. 
-
-The <a href="https://msdn.microsoft.com/39eedeca-269d-4966-be1f-7cc5c9228a5c">OnD0Exit</a> method notifies a driver when a device exits the D0 power state so that the driver can perform necessary operations,  such as disabling the device. 
-
-The <a href="https://msdn.microsoft.com/ae95a22d-7b5b-4854-b2f5-76b46cf268f9">OnQueryRemove</a> method notifies a driver before a device is removed from a computer. 
-
-The <a href="https://msdn.microsoft.com/e0cb14fa-82d0-4ce3-8672-801e7f04d522">OnQueryStop</a> method notifies a driver before a device is stopped. 
-
-The <a href="https://msdn.microsoft.com/4289406f-dda0-4439-be6e-6e638bb46e1f">OnSurpriseRemoval</a> method notifies a driver after a device is removed from a computer unexpectedly so that the driver can perform necessary operations.
-
- 
+</table> 
 
 
 ## -remarks

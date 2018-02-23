@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43089473-3255-4016-8d51-f5ad4261bd8d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoRequest interface, CompleteWithInformation method, CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, umdf.iwdfiorequest_completewithinformation, IWDFIoRequest::CompleteWithInformation, wudfddi/IWDFIoRequest::CompleteWithInformation, IWDFIoRequest, wdf.iwdfiorequest_completewithinformation, CompleteWithInformation method, CompleteWithInformation method, IWDFIoRequest interface
+ms.keywords: IWDFIoRequest interface, CompleteWithInformation method, wdf.iwdfiorequest_completewithinformation, CompleteWithInformation method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::CompleteWithInformation, umdf.iwdfiorequest_completewithinformation, CompleteWithInformation method, CompleteWithInformation, UMDFRequestObjectRef_c01f0d7b-3b4d-442c-8425-a99c064609ee.xml, IWDFIoRequest::CompleteWithInformation, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -105,15 +105,15 @@ For a code example of how to use the <b>CompleteWithInformation</b> method, see 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
 
 

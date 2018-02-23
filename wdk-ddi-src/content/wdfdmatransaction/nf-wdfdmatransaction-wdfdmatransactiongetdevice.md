@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fa4d523b-4af2-4a6e-aaa6-d84c829b567d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionGetDevice method, kmdf.wdfdmatransactiongetdevice, DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, wdf.wdfdmatransactiongetdevice, wdfdmatransaction/WdfDmaTransactionGetDevice, WdfDmaTransactionGetDevice
+ms.keywords: WdfDmaTransactionGetDevice method, DFDmaObjectRef_eb3ef52a-cba0-4754-8dad-d113b200f949.xml, wdfdmatransaction/WdfDmaTransactionGetDevice, wdf.wdfdmatransactiongetdevice, kmdf.wdfdmatransactiongetdevice, WdfDmaTransactionGetDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionGetDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 

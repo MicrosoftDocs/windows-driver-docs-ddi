@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: D8FF1E87-EB3E-491E-9649-076376C272B3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.wpprecorderlinkcounters, imp_WppRecorderLinkCounters, WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools], wpprecorder/imp_WppRecorderLinkCounters
+ms.keywords: devtest.wpprecorderlinkcounters, WppRecorderLinkCounters, imp_WppRecorderLinkCounters, wpprecorder/imp_WppRecorderLinkCounters, imp_WppRecorderLinkCounters function [Driver Development Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	imp_WppRecorderLinkCounters
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

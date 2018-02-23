@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BBE92635-5230-454E-A6CA-80198B5B2C57
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/PREGISTER_COMPOSITE_DEVICE, buses.register_composite_driver, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], REGISTER_COMPOSITE_DEVICE, _REGISTER_COMPOSITE_DEVICE, *PREGISTER_COMPOSITE_DEVICE, usbdlib/REGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE structure [Buses], PREGISTER_COMPOSITE_DEVICE
+ms.keywords: usbdlib/PREGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE, usbdlib/REGISTER_COMPOSITE_DEVICE, *PREGISTER_COMPOSITE_DEVICE, _REGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE, PREGISTER_COMPOSITE_DEVICE structure pointer [Buses], REGISTER_COMPOSITE_DEVICE structure [Buses], buses.register_composite_driver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REGISTER_COMPOSITE_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PREGISTER_COMPOSITE_DEVICE, REGISTER_COMPOSITE_DEVICE"
+req.typenames: REGISTER_COMPOSITE_DEVICE, *PREGISTER_COMPOSITE_DEVICE
 req.product: Windows 10 or later.
 ---
 
@@ -103,11 +103,11 @@ The number of functions supported by the composite device. The <b>FunctionCount<
 
 ## -see-also
 
+<a href="..\usbdlib\nf-usbdlib-usbd_buildregistercompositedevice.md">USBD_BuildRegisterCompositeDevice</a>
+
+
+
 <a href="..\usbdlib\ns-usbdlib-_composite_device_capabilities.md">COMPOSITE_DEVICE_CAPABILITIES</a>
-
-
-
-<a href="..\usbdlib\nf-usbdlib-composite_device_capabilities_init.md">COMPOSITE_DEVICE_CAPABILITIES_INIT</a>
 
 
 

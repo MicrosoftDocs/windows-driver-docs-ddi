@@ -7,8 +7,8 @@ old-location: print\oemstartbanding.htm
 old-project: print
 ms.assetid: dc9a1cf4-89d5-46d4-b914-1bc8368d3a42
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMStartBanding, print.oemstartbanding, OEMStartBanding function [Print Devices], printoem/OEMStartBanding, print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml
+ms.date: 2/22/2018
+ms.keywords: printoem/OEMStartBanding, print.oemstartbanding, OEMStartBanding function [Print Devices], print_unidrv-pscript_rendering_6738c42a-92b2-4360-ae4c-a4b474948667.xml, OEMStartBanding
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

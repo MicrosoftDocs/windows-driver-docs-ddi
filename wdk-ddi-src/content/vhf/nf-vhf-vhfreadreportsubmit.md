@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: DCC4EB4C-B9A0-4E25-B3BD-4CAB07022A7B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: VhfReadReportSubmit, vhf/VhfReadReportSubmit, hid.vhfreadreportsubmit, VhfReadReportSubmit method [Human Input Devices]
+ms.keywords: VhfReadReportSubmit, VhfReadReportSubmit method [Human Input Devices], vhf/VhfReadReportSubmit, hid.vhfreadreportsubmit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

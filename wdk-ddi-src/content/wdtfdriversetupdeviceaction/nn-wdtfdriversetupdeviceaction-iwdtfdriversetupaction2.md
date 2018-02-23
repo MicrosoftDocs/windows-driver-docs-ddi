@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 Defines operations that control the target device during driver setup.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverSetupAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFDriverSetupAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFDriverSetupAction2</b> interface has these methods.
@@ -79,9 +86,5 @@ Updates the target device with a driver from the driver package.
 
 </td>
 </tr>
-</table>Uninstalls the current driver for the target device.
-
-Updates the target device with a driver from the driver package.
-
- 
+</table> 
 

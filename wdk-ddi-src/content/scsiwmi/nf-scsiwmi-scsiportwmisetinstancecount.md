@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0de2c766-cd3c-46ff-bb78-f1e4c37af2c0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortWmiSetInstanceCount function [Storage Devices], scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, storage.scsiportwmisetinstancecount, ScsiPortWmiSetInstanceCount, scsiwmi/ScsiPortWmiSetInstanceCount
+ms.keywords: scsiwmi/ScsiPortWmiSetInstanceCount, scsiprt_9451dca5-cc2f-43fa-91c6-3c22f6377a13.xml, ScsiPortWmiSetInstanceCount function [Storage Devices], ScsiPortWmiSetInstanceCount, storage.scsiportwmisetinstancecount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,7 +119,7 @@ The memory allocated for the request context must remain valid until after the m
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
 
 

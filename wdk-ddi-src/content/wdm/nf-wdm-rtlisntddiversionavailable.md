@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54017f67-b01f-48bd-a5bb-598902672c4f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlIsNtDdiVersionAvailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml, wdm/RtlIsNtDdiVersionAvailable, kernel.rtlisntddiversionavailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/RtlIsNtDdiVersionAvailable, kernel.rtlisntddiversionavailable, RtlIsNtDdiVersionAvailable routine [Kernel-Mode Driver Architecture], RtlIsNtDdiVersionAvailable, k109_62b3efdd-6678-4e88-92cb-eaacff80bfab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

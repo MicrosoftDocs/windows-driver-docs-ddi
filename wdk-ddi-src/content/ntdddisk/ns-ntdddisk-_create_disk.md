@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20989831-5ff0-4457-9dae-ceaf34830a2e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PCREATE_DISK, storage.create_disk, *PCREATE_DISK, CREATE_DISK structure [Storage Devices], _CREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, CREATE_DISK, ntdddisk/PCREATE_DISK, ntdddisk/CREATE_DISK, PCREATE_DISK structure pointer [Storage Devices]
+ms.keywords: CREATE_DISK structure [Storage Devices], PCREATE_DISK structure pointer [Storage Devices], ntdddisk/CREATE_DISK, structs-disk_568deb80-fbd8-4c86-9646-a49355ab0d52.xml, _CREATE_DISK, storage.create_disk, ntdddisk/PCREATE_DISK, CREATE_DISK, *PCREATE_DISK, PCREATE_DISK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,10 +95,6 @@ Contains data used to initialize a GPT-style disk partition for the first time. 
 
 ## -see-also
 
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_create_disk_gpt.md">CREATE_DISK_GPT</a>
 
 
@@ -108,6 +104,10 @@ Contains data used to initialize a GPT-style disk partition for the first time. 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563773">PARTITION_STYLE</a>
+
+
+
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_create_disk.md">IOCTL_DISK_CREATE_DISK</a>
 
 
 

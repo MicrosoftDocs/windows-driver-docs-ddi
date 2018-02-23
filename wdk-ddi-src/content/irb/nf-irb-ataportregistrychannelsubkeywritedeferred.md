@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 332f6921-1ad2-42ae-9728-001f243b8cff
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], irb/AtaPortRegistryChannelSubkeyWriteDeferred, atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, AtaPortRegistryChannelSubkeyWriteDeferred, storage.ataportregistrychannelsubkeywritedeferred
+ms.keywords: irb/AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred, AtaPortRegistryChannelSubkeyWriteDeferred routine [Storage Devices], atartns_ddf14e05-c641-4382-88b4-18abb54e0f17.xml, storage.ataportregistrychannelsubkeywritedeferred
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

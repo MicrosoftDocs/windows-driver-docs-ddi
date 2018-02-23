@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: F41E7DD6-336C-477D-87AD-0151A523DD0A
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi_hwaccess/WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT, umdf.write_register_ushort, WRITE_REGISTER_USHORT function, wdf.write_register_ushort
+ms.keywords: WRITE_REGISTER_USHORT, wdf.write_register_ushort, wudfddi_hwaccess/WRITE_REGISTER_USHORT, WRITE_REGISTER_USHORT function, umdf.write_register_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 

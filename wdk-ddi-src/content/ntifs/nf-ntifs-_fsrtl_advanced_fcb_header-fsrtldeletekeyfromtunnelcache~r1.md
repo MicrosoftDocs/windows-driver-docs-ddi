@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 01f0d1ab-7c7f-4ee2-89f0-c48b257bafbb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlDeleteKeyFromTunnelCache, ntifs/FsRtlDeleteKeyFromTunnelCache, ifsk.fsrtldeletekeyfromtunnelcache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml
+ms.keywords: fsrtlref_cbb2d1c7-d4c5-4fe0-9e35-d09dac0e7eff.xml, ntifs/FsRtlDeleteKeyFromTunnelCache, ifsk.fsrtldeletekeyfromtunnelcache, FsRtlDeleteKeyFromTunnelCache routine [Installable File System Drivers], FsRtlDeleteKeyFromTunnelCache
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ For more information about file name tunneling, see <a href="http://go.microsoft
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtldeletetunnelcache.md">FsRtlDeleteTunnelCache</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlinitializetunnelcache.md">FsRtlInitializeTunnelCache</a>
 
 
 

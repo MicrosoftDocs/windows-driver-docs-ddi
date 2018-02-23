@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 8845f8f7-683e-487b-924b-596dbbfb98f2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT, UCMTCPCI_DEVICE_CONFIG_INIT, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], buses.ucmtcpci_device_config_init
+ms.keywords: UCMTCPCI_DEVICE_CONFIG_INIT, buses.ucmtcpci_device_config_init, UCMTCPCI_DEVICE_CONFIG_INIT method [Buses], ucmtcpcidevice/UCMTCPCI_DEVICE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UCMTCPCI_DEVICE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PUCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG"
+req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
 req.product: Windows 10 or later.
 ---
 

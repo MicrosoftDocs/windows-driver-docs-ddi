@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 646a073b-e0c5-4d41-b60c-3935c129fb39
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.halfreehardwarecounters, k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, HalFreeHardwareCounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], ntddk/HalFreeHardwareCounters
+ms.keywords: HalFreeHardwareCounters, kernel.halfreehardwarecounters, HalFreeHardwareCounters routine [Kernel-Mode Driver Architecture], k103_7516fb8d-7064-4f4a-bbef-a979809bf011.xml, ntddk/HalFreeHardwareCounters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HalFreeHardwareCounters
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # HalFreeHardwareCounters function

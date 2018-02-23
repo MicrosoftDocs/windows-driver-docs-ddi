@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4338e496-99e8-47d2-ba97-ce661c9cb025
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDSM_Load_Balance_Policy structure pointer [Storage Devices], *PDSM_Load_Balance_Policy, DSM_Load_Balance_Policy, mpiodisk/PDSM_Load_Balance_Policy, mpiodisk/DSM_Load_Balance_Policy, PDSM_Load_Balance_Policy, structs-scsibus_f6e03429-a591-41f0-9890-e513479f8896.xml, DSM_Load_Balance_Policy structure [Storage Devices], storage.dsm_load_balance_policy, _DSM_Load_Balance_Policy
+ms.keywords: mpiodisk/PDSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy, PDSM_Load_Balance_Policy structure pointer [Storage Devices], mpiodisk/DSM_Load_Balance_Policy, DSM_Load_Balance_Policy, PDSM_Load_Balance_Policy, structs-scsibus_f6e03429-a591-41f0-9890-e513479f8896.xml, storage.dsm_load_balance_policy, _DSM_Load_Balance_Policy, DSM_Load_Balance_Policy structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DSM_Load_Balance_Policy
 product: Windows
 targetos: Windows
-req.typenames: "*PDSM_Load_Balance_Policy, DSM_Load_Balance_Policy"
+req.typenames: DSM_Load_Balance_Policy, *PDSM_Load_Balance_Policy
 ---
 
 # _DSM_Load_Balance_Policy structure

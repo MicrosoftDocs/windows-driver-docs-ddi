@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: dddd631e-7ccf-4554-9236-b567c5108fe2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtftarget2_getinterface, IWDTFTarget2::GetInterface, GetInterface method [Windows Device Testing Framework], IWDTFTarget2 interface, Microsoft::WDTF::IWDTFTarget2::GetInterface, IWDTFTarget2 interface [Windows Device Testing Framework], GetInterface method, GetInterface, wdtf/IWDTFTarget2::GetInterface, GetInterface method [Windows Device Testing Framework], IWDTFTarget2, Microsoft.WDTF.IWDTFTarget2.GetInterface
+ms.keywords: GetInterface method [Windows Device Testing Framework], IWDTFTarget2::GetInterface, Microsoft::WDTF::IWDTFTarget2::GetInterface, dtf.iwdtftarget2_getinterface, Microsoft.WDTF.IWDTFTarget2.GetInterface, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetInterface method, wdtf/IWDTFTarget2::GetInterface, GetInterface, GetInterface method [Windows Device Testing Framework], IWDTFTarget2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -96,6 +96,11 @@ contains <b>VT_EMPTY</b>.
 The address of a variable that will receive the action.
 
 
+#### - ProgID [in]
+
+The WDTF ProgID of the requested interface.
+
+
 #### - MoreTargets [in, optional]
 
 Optional extra arguments that you can use to 
@@ -104,11 +109,6 @@ define additional targets to attach to the returned interface.
 This parameter is not 
 currently implemented. Set <i>MoreTargets</i> to a <b>VARIANT</b> 
 that contains <b>VT_EMPTY</b>.
-
-
-#### - ProgID [in]
-
-The WDTF ProgID of the requested interface.
 
 
 ## -returns

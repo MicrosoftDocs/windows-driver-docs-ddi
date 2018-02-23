@@ -72,7 +72,7 @@ BOOLEAN PowerOnDumpDeviceCallback(
 
 ### -param CrashdumpInformation [in]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
+A pointer to a <a href="..\pep_x\ns-pep_x-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
 
 
 ## -returns
@@ -99,11 +99,11 @@ The <i>PowerOnDumpDeviceCallback</i> routine is called at IRQL = HIGH_LEVEL with
 
 ## -see-also
 
+<a href="..\pep_x\ns-pep_x-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_CRASHDUMP_DEVICE</a>
-
-
-
-<a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
 
 
 

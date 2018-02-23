@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 68c04751-761c-4e32-927d-aad61813cd38
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsGetIoStatistics routine [Kernel-Mode Driver Architecture], wdm/ClfsGetIoStatistics, ClfsGetIoStatistics, kernel.clfsgetiostatistics, Clfs_af9b22c3-0845-4687-9a76-b6872d2b138d.xml
+ms.keywords: ClfsGetIoStatistics routine [Kernel-Mode Driver Architecture], wdm/ClfsGetIoStatistics, ClfsGetIoStatistics, Clfs_af9b22c3-0845-4687-9a76-b6872d2b138d.xml, kernel.clfsgetiostatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

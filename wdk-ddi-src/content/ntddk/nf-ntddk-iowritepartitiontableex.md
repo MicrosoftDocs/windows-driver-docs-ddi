@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b49ea2db-bb1e-4293-bfac-cbb3e62bca91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/IoWritePartitionTableEx, IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices], storage.iowritepartitiontableex, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml
+ms.keywords: storage.iowritepartitiontableex, rtns-disk_b84c8b07-5cdc-4e39-964f-a8f6b28e7346.xml, ntddk/IoWritePartitionTableEx, IoWritePartitionTableEx, IoWritePartitionTableEx routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoWritePartitionTableEx
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoWritePartitionTableEx function
@@ -156,7 +156,7 @@ In order tot create or delete partitions a full description of the system must b
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
@@ -164,7 +164,7 @@ In order tot create or delete partitions a full description of the system must b
 
 
 
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
 
 
 

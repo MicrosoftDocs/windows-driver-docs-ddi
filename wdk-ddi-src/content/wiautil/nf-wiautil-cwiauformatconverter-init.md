@@ -4,11 +4,11 @@ title: CWiauFormatConverter::Init method
 author: windows-driver-content
 description: The CWiauFormatConverter::Init method initializes the CWiauFormatConverter class and GDI+ for converting images. This method should be called only once.
 old-location: image\cwiauformatconverter_init.htm
-old-project: Image
+old-project: image
 ms.assetid: 342ea1ae-ff8c-429d-bee8-08559fe75b40
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wiautil/CWiauFormatConverter::Init, Init method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter interface [Imaging Devices], Init method, wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, Init method [Imaging Devices], Init, CWiauFormatConverter::Init, CWiauFormatConverter, image.cwiauformatconverter_init
+ms.date: 2/22/2018
+ms.keywords: wiauFncs_d762c597-47d1-446a-b76d-7993ba32f571.xml, image.cwiauformatconverter_init, Init, wiautil/CWiauFormatConverter::Init, CWiauFormatConverter, CWiauFormatConverter interface [Imaging Devices], Init method, Init method [Imaging Devices], CWiauFormatConverter interface, Init method [Imaging Devices], CWiauFormatConverter::Init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

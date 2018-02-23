@@ -40,7 +40,7 @@ apiname:
 -	InterfaceReference
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -73,7 +73,7 @@ VOID InterfaceReference(
 
 ### -param Context [in]
 
-A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure for the interface.
+A pointer to interface-specific context information. The caller passes the value that is passed as the <b>Context</b> member of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure for the interface.
 
 
 ## -returns
@@ -89,7 +89,7 @@ None
 
 
 
-You can use the <a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a> routine to decrement the reference count for the interface.
+You can use the <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine to decrement the reference count for the interface.
 
 The driver that exports the interface is responsible for calling <i>InterfaceReference</i> to increment the reference count before the driver exports the interface. For example, the driver that initially exported the interface in response to an <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a> request calls <i>InterfaceReference</i>. Also, a driver that passes a pointer to the interface to another driver must call <i>InterfaceReference</i>.
 
@@ -98,15 +98,15 @@ The driver that exports the interface is responsible for calling <i>InterfaceRef
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
-
-
-
-<a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+
+
+
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 94dc7a87-83a0-419d-914c-008d797fec87
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PRemovePersistentLogin_IN structure pointer [Storage Devices], RemovePersistentLogin_IN structure [Storage Devices], _RemovePersistentLogin_IN, structs-iSCSI_4972aa6c-a6a5-4409-a714-49693f679fa2.xml, PRemovePersistentLogin_IN, RemovePersistentLogin_IN, storage.removepersistentlogin_in, iscsiop/PRemovePersistentLogin_IN, iscsiop/RemovePersistentLogin_IN, *PRemovePersistentLogin_IN
+ms.keywords: "_RemovePersistentLogin_IN, PRemovePersistentLogin_IN, RemovePersistentLogin_IN structure [Storage Devices], iscsiop/PRemovePersistentLogin_IN, RemovePersistentLogin_IN, structs-iSCSI_4972aa6c-a6a5-4409-a714-49693f679fa2.xml, PRemovePersistentLogin_IN structure pointer [Storage Devices], *PRemovePersistentLogin_IN, storage.removepersistentlogin_in, iscsiop/RemovePersistentLogin_IN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetportal.md">ISCSI_TargetPortal</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
 
 
 
@@ -107,7 +107,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563995">RemovePersistentLogin</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 

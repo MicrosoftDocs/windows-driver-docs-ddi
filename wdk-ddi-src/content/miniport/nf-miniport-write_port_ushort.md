@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 60145cf3-62cb-4165-8536-f1546b9623dd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.write_port_ushort, WRITE_PORT_USHORT, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture], k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, wdm/WRITE_PORT_USHORT
+ms.keywords: WRITE_PORT_USHORT, kernel.write_port_ushort, k103_28fd826b-359f-4111-91d0-426fb2d2a62b.xml, WRITE_PORT_USHORT routine [Kernel-Mode Driver Architecture], wdm/WRITE_PORT_USHORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

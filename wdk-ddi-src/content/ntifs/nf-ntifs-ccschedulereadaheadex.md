@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8549DAA9-3BD3-4CED-AC2A-EFADF317EF5A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.ccschedulereadaheadex, CcScheduleReadAheadEx, CcScheduleReadAheadEx routine [Installable File System Drivers], ntifs/CcScheduleReadAheadEx
+ms.keywords: CcScheduleReadAheadEx, ifsk.ccschedulereadaheadex, CcScheduleReadAheadEx routine [Installable File System Drivers], ntifs/CcScheduleReadAheadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,11 @@ None
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
-<b>CcCopyReadEx</b>
 
 
 
@@ -124,11 +124,7 @@ None
 
 
 
-<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
 
 
 
@@ -136,7 +132,11 @@ None
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539159">CcMdlRead</a>
+<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
+
+
+
+<b>CcCopyReadEx</b>
 
 
 

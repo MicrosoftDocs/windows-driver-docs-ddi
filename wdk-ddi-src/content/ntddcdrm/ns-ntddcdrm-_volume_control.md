@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 47512360-60fe-43f2-8052-58ca78e36d86
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_VOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, PVOLUME_CONTROL, ntddcdrm/VOLUME_CONTROL, storage.volume_control, *PVOLUME_CONTROL, ntddcdrm/PVOLUME_CONTROL, VOLUME_CONTROL structure [Storage Devices], VOLUME_CONTROL"
+ms.keywords: PVOLUME_CONTROL, *PVOLUME_CONTROL, _VOLUME_CONTROL, storage.volume_control, ntddcdrm/PVOLUME_CONTROL, VOLUME_CONTROL, ntddcdrm/VOLUME_CONTROL, PVOLUME_CONTROL structure pointer [Storage Devices], structs-CD-ROM_d0d59b00-4eb3-4e98-b164-cb8f3e11de31.xml, VOLUME_CONTROL structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

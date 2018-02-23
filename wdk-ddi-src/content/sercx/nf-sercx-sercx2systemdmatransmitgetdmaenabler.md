@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 5B6893D4-51ED-483C-87F4-0404C48E100F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCx2SystemDmaTransmitGetDmaEnabler, 2/SerCx2SystemDmaTransmitGetDmaEnabler, serports.sercx2systemdmatransmitgetdmaenabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports]
+ms.keywords: serports.sercx2systemdmatransmitgetdmaenabler, 2/SerCx2SystemDmaTransmitGetDmaEnabler, SerCx2SystemDmaTransmitGetDmaEnabler method [Serial Ports], SerCx2SystemDmaTransmitGetDmaEnabler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2SystemDmaTransmitGetDmaEnabler
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -95,15 +95,15 @@ For more information about DMA enabler objects, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
-
-
-
 <a href="..\sercx\ns-sercx-_sercx2_system_dma_transmit_config.md">SERCX2_SYSTEM_DMA_TRANSMIT_CONFIG</a>
 
 
 
 <a href="..\sercx\nf-sercx-sercx2systemdmatransmitcreate.md">SerCx2SystemDmaTransmitCreate</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2SYSTEMDMATRANSMIT</a>
 
 
 

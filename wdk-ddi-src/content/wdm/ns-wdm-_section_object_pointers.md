@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ce867f4f-f091-4a85-96b8-7da6b528a6cc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PSECTION_OBJECT_POINTERS, PSECTION_OBJECT_POINTERS, _SECTION_OBJECT_POINTERS, wdm/SECTION_OBJECT_POINTERS, *PSECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS structure [Kernel-Mode Driver Architecture], kstruct_d_2b10d7da-97f5-43d6-8f46-0d8ee393ed84.xml, kernel.section_object_pointers, PSECTION_OBJECT_POINTERS structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PSECTION_OBJECT_POINTERS structure pointer [Kernel-Mode Driver Architecture], kernel.section_object_pointers, _SECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS structure [Kernel-Mode Driver Architecture], wdm/PSECTION_OBJECT_POINTERS, SECTION_OBJECT_POINTERS, PSECTION_OBJECT_POINTERS, wdm/SECTION_OBJECT_POINTERS, *PSECTION_OBJECT_POINTERS, kstruct_d_2b10d7da-97f5-43d6-8f46-0d8ee393ed84.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,22 +120,6 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
@@ -144,11 +128,27 @@ For <u>subsequent</u> open requests to the <u>same</u> file stream, the file sys
 
 
 
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-mmflushimagesection.md">MmFlushImageSection</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">FOBX</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 

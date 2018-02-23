@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6f714e13-a844-4afa-9002-52a5318a7659
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FEATURE_DATA_SECTOR_ERASABLE, FEATURE_DATA_SECTOR_ERASABLE structure [Storage Devices], *PFEATURE_DATA_SECTOR_ERASABLE, storage.feature_data_sector_erasable, FEATURE_DATA_SECTOR_ERASABLE, PFEATURE_DATA_SECTOR_ERASABLE, ntddmmc/PFEATURE_DATA_SECTOR_ERASABLE, structs-CD-ROM_e48f2e10-1b6d-4d5a-9e8d-b1fc45fd8509.xml, PFEATURE_DATA_SECTOR_ERASABLE structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_SECTOR_ERASABLE"
+ms.keywords: "_FEATURE_DATA_SECTOR_ERASABLE, storage.feature_data_sector_erasable, PFEATURE_DATA_SECTOR_ERASABLE structure pointer [Storage Devices], structs-CD-ROM_e48f2e10-1b6d-4d5a-9e8d-b1fc45fd8509.xml, FEATURE_DATA_SECTOR_ERASABLE structure [Storage Devices], *PFEATURE_DATA_SECTOR_ERASABLE, PFEATURE_DATA_SECTOR_ERASABLE, ntddmmc/PFEATURE_DATA_SECTOR_ERASABLE, ntddmmc/FEATURE_DATA_SECTOR_ERASABLE, FEATURE_DATA_SECTOR_ERASABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_SECTOR_ERASABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_SECTOR_ERASABLE, FEATURE_DATA_SECTOR_ERASABLE"
+req.typenames: FEATURE_DATA_SECTOR_ERASABLE, *PFEATURE_DATA_SECTOR_ERASABLE
 ---
 
 # _FEATURE_DATA_SECTOR_ERASABLE structure

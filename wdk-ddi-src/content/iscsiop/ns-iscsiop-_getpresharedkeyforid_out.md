@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 21d6378e-b93b-4e97-842a-a3157e081f31
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: GetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT structure pointer [Storage Devices], storage.getpresharedkeyforid_out, _GetPresharedKeyForId_OUT, iscsiop/GetPresharedKeyForId_OUT, GetPresharedKeyForId_OUT structure [Storage Devices], *PGetPresharedKeyForId_OUT, iscsiop/PGetPresharedKeyForId_OUT, structs-iSCSI_6807c82b-45b4-44c7-a1e0-a99607c1cd4f.xml, PGetPresharedKeyForId_OUT
+ms.keywords: GetPresharedKeyForId_OUT, iscsiop/PGetPresharedKeyForId_OUT, *PGetPresharedKeyForId_OUT, PGetPresharedKeyForId_OUT, storage.getpresharedkeyforid_out, GetPresharedKeyForId_OUT structure [Storage Devices], PGetPresharedKeyForId_OUT structure pointer [Storage Devices], structs-iSCSI_6807c82b-45b4-44c7-a1e0-a99607c1cd4f.xml, iscsiop/GetPresharedKeyForId_OUT, _GetPresharedKeyForId_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,11 @@ You must initiate this method if the initiator supports IKE.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554970">GetPresharedKeyForId</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565399">SECURITY_FLAG_QUALIFIERS</a>
-
-
-
-<a href="..\iscsiop\ns-iscsiop-_getpresharedkeyforid_in.md">GetPresharedKeyForId_IN</a>
 
 
 

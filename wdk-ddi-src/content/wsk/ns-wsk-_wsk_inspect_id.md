@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 54578dc5-a88f-4649-adbd-6a5e1e31e7b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wsk/PWSK_INSPECT_ID, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, _WSK_INSPECT_ID, wsk/WSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml, *PWSK_INSPECT_ID, PWSK_INSPECT_ID, netvista.wsk_inspect_id
+ms.keywords: PWSK_INSPECT_ID structure pointer [Network Drivers Starting with Windows Vista], PWSK_INSPECT_ID, wsk/WSK_INSPECT_ID, *PWSK_INSPECT_ID, netvista.wsk_inspect_id, WSK_INSPECT_ID structure [Network Drivers Starting with Windows Vista], WSK_INSPECT_ID, wskref_7e500c2a-23ce-4193-b8a5-fbf416a9659d.xml, wsk/PWSK_INSPECT_ID, _WSK_INSPECT_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,7 +118,7 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 ## -see-also
 
-<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
 
 
 
@@ -130,7 +130,7 @@ A WSK application can enable conditional accept mode on a listening socket by en
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_inspect_event.md">WskInspectEvent</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_abort_event.md">WskAbortEvent</a>
 
 
 

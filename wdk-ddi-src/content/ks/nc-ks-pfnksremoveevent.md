@@ -7,7 +7,7 @@ old-location: stream\avstrminiremoveevent.htm
 old-project: stream
 ms.assetid: dee4ce19-9dc8-4728-855b-eadb5bca0fc2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.avstrminiremoveevent, AVStrMiniRemoveEvent, AVStrMiniRemoveEvent routine [Streaming Media Devices], AVStrMiniRemoveEvent, PFNKSREMOVEEVENT, PFNKSREMOVEEVENT, ks/AVStrMiniRemoveEvent, avstclbk_04bc810f-666a-4b24-9bc9-e203ebbbbf29.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -127,13 +127,19 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
+
+
+
+<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
+
+
+
+<a href="..\ks\nf-ks-kspinaddevent.md">KsPinAddEvent</a>
+
+
+
 <a href="..\ks\nf-ks-kspingenerateevents.md">KsPinGenerateEvents</a>
-
-
-
-
-
-
 
 
 
@@ -145,26 +151,6 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 
 
-<a href="..\ks\nf-ks-ksfilteraddevent.md">KsFilterAddEvent</a>
-
-
-
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-
-
-
-
-<a href="..\ks\ns-ks-ksevent_item.md">KSEVENT_ITEM</a>
-
-
-
-
-
-<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
-
-
-
 <a href="..\ks\nf-ks-ksfiltergenerateevents.md">KsFilterGenerateEvents</a>
 
 
@@ -173,9 +159,13 @@ Otherwise, your <i>AVStrMiniRemoveEvent</i> should reverse the steps taken in th
 
 
 
- 
+<a href="..\ks\ns-ks-kseventdata.md">KSEVENTDATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSREMOVEEVENT routine%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20PFNKSREMOVEEVENT routine%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

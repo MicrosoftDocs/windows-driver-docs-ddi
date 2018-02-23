@@ -7,7 +7,7 @@ old-location: display\ioctl_video_query_display_brightness.htm
 old-project: display
 ms.assetid: 8dccc5bd-c678-4c94-9fa6-c5ac37ad6d0e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.ioctl_video_query_display_brightness, IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS control code [Display Devices], IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS, ntddvdeo/IOCTL_VIDEO_QUERY_DISPLAY_BRIGHTNESS, Video_IOCTLs_f55cce8d-9a8e-45ef-98e2-8cabc27cd9e6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

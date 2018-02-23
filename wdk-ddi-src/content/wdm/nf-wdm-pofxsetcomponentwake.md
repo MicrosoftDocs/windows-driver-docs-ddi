@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BE2E35B0-1C34-4740-ABED-4E96F8908174
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PoFxSetComponentWake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture], kernel.pofxsetcomponentwake, PoFxSetComponentWake
+ms.keywords: kernel.pofxsetcomponentwake, PoFxSetComponentWake routine [Kernel-Mode Driver Architecture], PoFxSetComponentWake, wdm/PoFxSetComponentWake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

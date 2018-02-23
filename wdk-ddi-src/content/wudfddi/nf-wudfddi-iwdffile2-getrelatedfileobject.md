@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0ac5c19a-b3ec-4f1e-a018-2c11cc18e58d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetRelatedFileObject, umdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject method, IWDFFile2 interface, GetRelatedFileObject method, wdf.iwdffile2_getrelatedfileobject, IWDFFile2 interface, GetRelatedFileObject method, IWDFFile2, wudfddi/IWDFFile2::GetRelatedFileObject, IWDFFile2::GetRelatedFileObject, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml
+ms.keywords: IWDFFile2 interface, GetRelatedFileObject method, UMDFFileObjectRef_f65433dc-ba63-456e-beff-ef7c9e2dffa8.xml, GetRelatedFileObject method, IWDFFile2 interface, IWDFFile2, IWDFFile2::GetRelatedFileObject, GetRelatedFileObject, wudfddi/IWDFFile2::GetRelatedFileObject, wdf.iwdffile2_getrelatedfileobject, GetRelatedFileObject method, umdf.iwdffile2_getrelatedfileobject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7886cee8-1142-42e6-8206-84667621ba77
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_SCSIWMILIB_CONTEXT, *PSCSI_WMILIB_CONTEXT, scsiwmi/PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], PSCSI_WMILIB_CONTEXT, structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml, SCSI_WMILIB_CONTEXT structure [Storage Devices], scsiwmi/SCSI_WMILIB_CONTEXT, storage.scsi_wmilib_context, SCSI_WMILIB_CONTEXT"
+ms.keywords: PSCSI_WMILIB_CONTEXT structure pointer [Storage Devices], SCSI_WMILIB_CONTEXT structure [Storage Devices], scsiwmi/SCSI_WMILIB_CONTEXT, _SCSIWMILIB_CONTEXT, SCSI_WMILIB_CONTEXT, *PSCSI_WMILIB_CONTEXT, storage.scsi_wmilib_context, scsiwmi/PSCSI_WMILIB_CONTEXT, PSCSI_WMILIB_CONTEXT, structs-scsibus_725dbb64-2d39-493d-b1bf-e056ca31244f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,7 +130,7 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 ## -see-also
 
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_set_datablock.md">HwScsiWmiSetDataBlock</a>
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_set_dataitem.md">HwScsiWmiSetDataItem</a>
 
 
 
@@ -138,11 +138,19 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 
 
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md">HwScsiWmiQueryDataBlock</a>
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_set_datablock.md">HwScsiWmiSetDataBlock</a>
 
 
 
 <a href="..\scsiwmi\ns-scsiwmi-scsiwmiguidreginfo.md">SCSIWMIGUIDREGINFO</a>
+
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_query_datablock.md">HwScsiWmiQueryDataBlock</a>
+
+
+
+<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_execute_method.md">HwScsiWmiExecuteMethod</a>
 
 
 
@@ -151,14 +159,6 @@ If the miniport driver does not implement an optional HwScsiWmiXxx routine, the 
 
 
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
-
-
-
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_set_dataitem.md">HwScsiWmiSetDataItem</a>
-
-
-
-<a href="..\scsiwmi\nc-scsiwmi-pscsiwmi_execute_method.md">HwScsiWmiExecuteMethod</a>
 
 
 

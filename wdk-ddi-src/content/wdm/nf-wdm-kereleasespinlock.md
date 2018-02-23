@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 300cdd3b-0c12-45e3-ae45-c26084f3ec12
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k105_68224d09-0ef9-4231-af5f-c6f8761889dd.xml, wdm/KeReleaseSpinLock, kernel.kereleasespinlock, KeReleaseSpinLock routine [Kernel-Mode Driver Architecture], KeReleaseSpinLock
+ms.keywords: wdm/KeReleaseSpinLock, k105_68224d09-0ef9-4231-af5f-c6f8761889dd.xml, KeReleaseSpinLock routine [Kernel-Mode Driver Architecture], KeReleaseSpinLock, kernel.kereleasespinlock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -84,14 +84,14 @@ TBD
 
 
 
-#### - NewIrql [in]
-
-Specifies the IRQL value saved from the preceding call to <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>.
-
-
 #### - SpinLock [in, out]
 
 Pointer to a spin lock for which the caller provides the storage.
+
+
+#### - NewIrql [in]
+
+Specifies the IRQL value saved from the preceding call to <a href="..\wdm\nf-wdm-keacquirespinlock.md">KeAcquireSpinLock</a>.
 
 
 ## -remarks

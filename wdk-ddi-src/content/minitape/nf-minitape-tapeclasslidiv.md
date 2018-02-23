@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 13c449c6-6e2b-434e-8948-62c8af237173
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TapeClassLiDiv routine [Storage Devices], tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml, TapeClassLiDiv, storage.tapeclasslidiv, minitape/TapeClassLiDiv
+ms.keywords: TapeClassLiDiv routine [Storage Devices], minitape/TapeClassLiDiv, storage.tapeclasslidiv, TapeClassLiDiv, tapeclas_8c5ecef8-fdd0-4889-8e3f-1bd80fe5b5c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	TapeClassLiDiv
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
+req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeClassLiDiv function

@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 9759ed77-d91a-466b-9678-4ed4fb4359e4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PVPCI_PNP_ID, PCI.vpci_pnp_id, pcivirt/VPCI_PNP_ID, _VPCI_PNP_ID, VPCI_PNP_ID, VPCI_PNP_ID structure [Buses]"
+ms.keywords: VPCI_PNP_ID structure [Buses], VPCI_PNP_ID, *PVPCI_PNP_ID, PCI.vpci_pnp_id, _VPCI_PNP_ID, pcivirt/VPCI_PNP_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

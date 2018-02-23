@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e1b31df0-d383-43a3-bf9f-8874689cbf58
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: SetPowerPolicy method, SetPowerPolicy method, IWDFUsbTargetDevice interface, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, umdf.iwdfusbtargetdevice_setpowerpolicy, IWDFUsbTargetDevice::SetPowerPolicy, IWDFUsbTargetDevice, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, IWDFUsbTargetDevice interface, SetPowerPolicy method, wdf.iwdfusbtargetdevice_setpowerpolicy
+ms.keywords: IWDFUsbTargetDevice, wudfusb/IWDFUsbTargetDevice::SetPowerPolicy, wdf.iwdfusbtargetdevice_setpowerpolicy, SetPowerPolicy method, IWDFUsbTargetDevice interface, UMDFUSBref_fb6e31cc-0db6-4733-baea-d73514fb5160.xml, umdf.iwdfusbtargetdevice_setpowerpolicy, IWDFUsbTargetDevice::SetPowerPolicy, SetPowerPolicy, SetPowerPolicy method, IWDFUsbTargetDevice interface, SetPowerPolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetDevice.SetPowerPolicy
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -156,15 +156,15 @@ The <b>SetPowerPolicy</b> method generates a UMDF request and synchronously send
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560379">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540309">WinUsb_SetPowerPolicy</a>
 
 
 
 <a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560379">IWDFUsbTargetDevice::RetrievePowerPolicy</a>
 
 
 

@@ -55,6 +55,13 @@ The <b>IAction</b> interfaces are plug-ins that can control an instance of the
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a> interface.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IAction</b> interface inherits from <a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>. <b>IAction</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IAction</b> interface has these methods.
@@ -71,10 +78,7 @@ the <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IW
 
 </td>
 </tr>
-</table>You should not directly call this method. <b>SetTarget</b> is used internally by 
-the <a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a> method to find the correct implementation as well as provide the targets for the implementation to use in whatever actions it performs.
-
- 
+</table> 
 
 
 ## -remarks
@@ -96,15 +100,15 @@ For a listing of all action interfaces included in WDTF, see <a href="https://ms
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
-
-
-
-<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
-
-
-
 <a href="..\wdtf\nn-wdtf-iwdtftarget2.md">IWDTFTarget2</a>
+
+
+
+<a href="https://msdn.microsoft.com/dddd631e-7ccf-4554-9236-b567c5108fe2">IWDTFTarget2::GetInterface</a>
+
+
+
+<a href="..\wdtf\nn-wdtf-itracing.md">ITracing</a>
 
 
 

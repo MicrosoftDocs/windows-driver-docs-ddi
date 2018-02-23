@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 4258f223-353a-4b6e-a93c-5742e5c1668b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWHEA_REVISION union pointer [WHEA Drivers and Applications], WHEA_REVISION, ntddk/WHEA_REVISION, ntddk/PWHEA_REVISION, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml, PWHEA_REVISION, _WHEA_REVISION, *PWHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], whea.whea_revision
+ms.keywords: "_WHEA_REVISION, whea.whea_revision, whearef_0572aecb-765a-4118-8df0-7b34922e79d9.xml, PWHEA_REVISION, ntddk/WHEA_REVISION, WHEA_REVISION union [WHEA Drivers and Applications], PWHEA_REVISION union pointer [WHEA Drivers and Applications], ntddk/PWHEA_REVISION, WHEA_REVISION, *PWHEA_REVISION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_REVISION
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_REVISION, WHEA_REVISION"
+req.typenames: WHEA_REVISION, *PWHEA_REVISION
 ---
 
 # _WHEA_REVISION structure
@@ -102,11 +102,11 @@ A WHEA_REVISION union is contained within the <a href="..\ntddk\ns-ntddk-_whea_e
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_record_header.md">WHEA_ERROR_RECORD_HEADER</a>
 
 
 

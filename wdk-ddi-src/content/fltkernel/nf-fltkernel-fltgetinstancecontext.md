@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 74bbffcd-27a9-4a9e-b625-64f9860f2c66
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fltkernel/FltGetInstanceContext, FltGetInstanceContext, FltGetInstanceContext routine [Installable File System Drivers], ifsk.fltgetinstancecontext, FltApiRef_e_to_o_8d05bb2a-ad52-454b-89d6-b15413c34e7f.xml
+ms.keywords: FltApiRef_e_to_o_8d05bb2a-ad52-454b-89d6-b15413c34e7f.xml, FltGetInstanceContext, ifsk.fltgetinstancecontext, FltGetInstanceContext routine [Installable File System Drivers], fltkernel/FltGetInstanceContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,11 +125,15 @@ To delete an instance context, call <a href="..\fltkernel\nf-fltkernel-fltdelete
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -138,10 +142,6 @@ To delete an instance context, call <a href="..\fltkernel\nf-fltkernel-fltdelete
 
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetinstancecontext.md">FltSetInstanceContext</a>
 
 
 

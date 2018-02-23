@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dac27df2-fabd-4402-8daf-9317888dd30b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ACL structure [Installable File System Drivers], wdm/ACL, _ACL, wdm/PACL, PACL structure pointer [Installable File System Drivers], ACL, ifsk.acl, *PACL, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, PACL
+ms.keywords: wdm/ACL, PACL, securitystructures_a41770ca-4016-400f-8626-e6c8dc92642e.xml, wdm/PACL, _ACL, ifsk.acl, ACL, PACL structure pointer [Installable File System Drivers], ACL structure [Installable File System Drivers], *PACL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -164,35 +164,7 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_access_allowed_ace.md">ACCESS_ALLOWED_ACE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
 
 
 
@@ -201,6 +173,34 @@ ACL and ACE structures must be aligned on 32-bit boundaries.
 
 
 <a href="..\wdm\nf-wdm-rtlsetdaclsecuritydescriptor.md">RtlSetDaclSecurityDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538844">ACE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlcreateacl.md">RtlCreateAcl</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_audit_ace.md">SYSTEM_AUDIT_ACE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_system_alarm_ace.md">SYSTEM_ALARM_ACE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtlgetace.md">RtlGetAce</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtladdaccessallowedace.md">RtlAddAccessAllowedAce</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_access_denied_ace.md">ACCESS_DENIED_ACE</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: print\oemcopybits.htm
 old-project: print
 ms.assetid: bd7a8fc6-0d68-4d80-b622-90cd981f9d13
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: OEMCopyBits function [Print Devices], print.oemcopybits, printoem/OEMCopyBits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, OEMCopyBits
+ms.date: 2/22/2018
+ms.keywords: printoem/OEMCopyBits, print.oemcopybits, print_unidrv-pscript_rendering_fbf15e40-01e8-4207-b130-b152a225025e.xml, OEMCopyBits function [Print Devices], OEMCopyBits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

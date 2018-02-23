@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CFB7E2EA-22D9-4181-B773-BC5691B28CFD
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/DriverManagedIdleTimeout, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, SystemManagedIdleTimeoutWithHint, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeoutWithHint, SystemManagedIdleTimeout, kmdf.wdf_power_policy_idle_timeout_type, wdf.wdf_power_policy_idle_timeout_type, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeout, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
+ms.keywords: wdf.wdf_power_policy_idle_timeout_type, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, kmdf.wdf_power_policy_idle_timeout_type, wdfdevice/WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/SystemManagedIdleTimeout, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration, wdfdevice/PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, DriverManagedIdleTimeout, wdfdevice/SystemManagedIdleTimeoutWithHint, SystemManagedIdleTimeoutWithHint, _WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, wdfdevice/DriverManagedIdleTimeout, PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE enumeration pointer, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, SystemManagedIdleTimeout
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE"
+req.typenames: WDF_POWER_POLICY_IDLE_TIMEOUT_TYPE, *PWDF_POWER_POLICY_IDLE_TIMEOUT_TYPE
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: display\dxgkarg_issupportedvidpn.htm
 old-project: display
 ms.assetid: 37f9f40d-6d32-4eeb-8161-282a84ee89dc
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_DXGKARG_ISSUPPORTEDVIDPN, DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], DXGKARG_ISSUPPORTEDVIDPN, *INOUT_PDXGKARG_ISSUPPORTEDVIDPN, display.dxgkarg_issupportedvidpn, d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN"
+ms.date: 2/22/2018
+ms.keywords: "*INOUT_PDXGKARG_ISSUPPORTEDVIDPN, _DXGKARG_ISSUPPORTEDVIDPN, display.dxgkarg_issupportedvidpn, DmStructs_03198868-50e6-47a1-9119-0fa3bff21ec0.xml, DXGKARG_ISSUPPORTEDVIDPN, DXGKARG_ISSUPPORTEDVIDPN structure [Display Devices], d3dkmddi/DXGKARG_ISSUPPORTEDVIDPN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -88,5 +88,5 @@ A Boolean variable that receives <b>TRUE</b> if the VidPN is supported and <b>FA
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_ISSUPPORTEDVIDPN structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_ISSUPPORTEDVIDPN structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

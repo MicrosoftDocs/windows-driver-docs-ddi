@@ -7,8 +7,8 @@ old-location: stream\kscamera_metadata_itemheader.htm
 old-project: stream
 ms.assetid: B4AC04D7-9F98-41F1-A38D-927F3F3A7699
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.kscamera_metadata_itemheader, *PKSCAMERA_METADATA_ITEMHEADER, ksmedia/KSCAMERA_METADATA_ITEMHEADER, KSCAMERA_METADATA_ITEMHEADER structure [Streaming Media Devices], PKSCAMERA_METADATA_ITEMHEADER, KSCAMERA_METADATA_ITEMHEADER, PKSCAMERA_METADATA_ITEMHEADER structure pointer [Streaming Media Devices], ksmedia/PKSCAMERA_METADATA_ITEMHEADER, tagKSCAMERA_METADATA_ITEMHEADER
+ms.date: 2/22/2018
+ms.keywords: KSCAMERA_METADATA_ITEMHEADER structure [Streaming Media Devices], KSCAMERA_METADATA_ITEMHEADER, tagKSCAMERA_METADATA_ITEMHEADER, PKSCAMERA_METADATA_ITEMHEADER structure pointer [Streaming Media Devices], PKSCAMERA_METADATA_ITEMHEADER, *PKSCAMERA_METADATA_ITEMHEADER, ksmedia/PKSCAMERA_METADATA_ITEMHEADER, stream.kscamera_metadata_itemheader, ksmedia/KSCAMERA_METADATA_ITEMHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

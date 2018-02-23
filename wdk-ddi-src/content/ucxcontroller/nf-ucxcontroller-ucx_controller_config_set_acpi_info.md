@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D060CE9D-B23A-4E6C-9CC3-1DDAB0583FF8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, buses._ucx_controller_config_set_acpi_info
+ms.keywords: UCX_CONTROLLER_CONFIG_SET_ACPI_INFO function [Buses], buses._ucx_controller_config_set_acpi_info, UCX_CONTROLLER_CONFIG_SET_ACPI_INFO, ucxcontroller/UCX_CONTROLLER_CONFIG_SET_ACPI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
+
+
+
+<a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
 
 
 

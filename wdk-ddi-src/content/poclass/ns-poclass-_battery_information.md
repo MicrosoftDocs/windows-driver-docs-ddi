@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: e9326d96-bd96-4493-a0b2-abe6b8f2401a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: battery.battery_information, poclass/BATTERY_INFORMATION, _BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, BATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], poclass/PBATTERY_INFORMATION, PBATTERY_INFORMATION, *PBATTERY_INFORMATION
+ms.keywords: poclass/PBATTERY_INFORMATION, PBATTERY_INFORMATION, PBATTERY_INFORMATION structure pointer [Battery Devices], poclass/BATTERY_INFORMATION, battery.battery_information, BATTERY_INFORMATION, BATTERY_INFORMATION structure [Battery Devices], bat-struct_c2f83d6c-44f6-4e41-8f15-874edfc17b7c.xml, *PBATTERY_INFORMATION, _BATTERY_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

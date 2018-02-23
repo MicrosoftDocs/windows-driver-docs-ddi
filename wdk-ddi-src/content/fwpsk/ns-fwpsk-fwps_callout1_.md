@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: d15c4cd4-b4f0-4363-988a-2bbb235b7b37
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWPS_CALLOUT1_, FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, wfp_ref_3_struct_3_fwps_A-E_dd7d51e7-3270-4480-8845-067c010e2fca.xml, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD, FWPS_CALLOUT1, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWPS_CALLOUT1 structure [Network Drivers Starting with Windows Vista], netvista.fwps_callout1, fwpsk/FWPS_CALLOUT1
+ms.keywords: FWPS_CALLOUT1, fwpsk/FWPS_CALLOUT1, netvista.fwps_callout1, FWP_CALLOUT_FLAG_ALLOW_RECLASSIFY, FWPS_CALLOUT1_, FWPS_CALLOUT1 structure [Network Drivers Starting with Windows Vista], FWP_CALLOUT_FLAG_CONDITIONAL_ON_FLOW, FWP_CALLOUT_FLAG_ALLOW_MID_STREAM_INSPECTION, wfp_ref_3_struct_3_fwps_A-E_dd7d51e7-3270-4480-8845-067c010e2fca.xml, FWP_CALLOUT_FLAG_ENABLE_COMMIT_ADD_NOTIFY, FWP_CALLOUT_FLAG_ALLOW_OFFLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -201,7 +201,7 @@ This structure is essentially identical to the previous version,
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
 
 
 
@@ -209,19 +209,15 @@ This structure is essentially identical to the previous version,
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_callout0_.md">FWPS_CALLOUT0</a>
-
-
-
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
 
 
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn1.md">classifyFn1</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_notify_fn1.md">notifyFn1</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_callout2_.md">FWPS_CALLOUT2</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: abe4b0fe-3918-4139-9c35-d9399287ce03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSiSCSI_LUNMappingInformation structure [Storage Devices], iscsiop/MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], PMSiSCSI_LUNMappingInformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml, iscsiop/PMSiSCSI_LUNMappingInformation, _MSiSCSI_LUNMappingInformation
+ms.keywords: iscsiop/PMSiSCSI_LUNMappingInformation, PMSiSCSI_LUNMappingInformation structure pointer [Storage Devices], *PMSiSCSI_LUNMappingInformation, iscsiop/MSiSCSI_LUNMappingInformation, storage.msiscsi_lunmappinginformation, MSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation structure [Storage Devices], _MSiSCSI_LUNMappingInformation, structs-iSCSI_390283b1-22d6-4012-834f-1b3ef3328da0.xml, PMSiSCSI_LUNMappingInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_LUNMappingInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_LUNMappingInformation, MSiSCSI_LUNMappingInformation"
+req.typenames: MSiSCSI_LUNMappingInformation, *PMSiSCSI_LUNMappingInformation
 ---
 
 # _MSiSCSI_LUNMappingInformation structure
@@ -107,11 +107,11 @@ You must implement this class.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
 <a href="..\iscsiop\ns-iscsiop-_msiscsi_targetmappings.md">MSiSCSI_TargetMappings</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
 
 
 
@@ -119,7 +119,7 @@ You must implement this class.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563067">MSiSCSI_LUNMappingInformation WMI Class</a>
 
 
 

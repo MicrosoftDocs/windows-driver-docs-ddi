@@ -100,7 +100,7 @@ Pointer to the driver-determined context with which its <i>IoTimer</i> routine w
 
 <b>IoInitializeTimer</b> should be called only once per device object.
 
-A driver's <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second after the driver enables the timer by calling <a href="..\ntifs\nf-ntifs-iostarttimer.md">IoStartTimer</a>. The driver can disable the timer by calling <a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a> and can reenable it again with <b>IoStartTimer</b>.
+A driver's <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a> routine is called once per second after the driver enables the timer by calling <a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>. The driver can disable the timer by calling <a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a> and can reenable it again with <b>IoStartTimer</b>.
 
 The driver's <i>IoTimer</i> routine is called at IRQL = DISPATCH_LEVEL and therefore must not contain pageable code.
 
@@ -111,10 +111,6 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iostoptimer.md">IoStopTimer</a>
-
-
-
 <a href="..\wdm\nc-wdm-io_timer_routine.md">IoTimer</a>
 
 
@@ -123,7 +119,11 @@ When the timer is running, the I/O manager calls the driver-supplied <i>IoTimer<
 
 
 
-<a href="..\ntifs\nf-ntifs-iostarttimer.md">IoStartTimer</a>
+<a href="..\wdm\nf-wdm-iostoptimer.md">IoStopTimer</a>
+
+
+
+<a href="..\wdm\nf-wdm-iostarttimer.md">IoStartTimer</a>
 
 
 

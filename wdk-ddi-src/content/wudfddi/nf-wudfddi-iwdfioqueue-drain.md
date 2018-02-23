@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0356e8a7-de44-4b0f-9067-ca3bb04260d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoQueue interface, Drain method, wudfddi/IWDFIoQueue::Drain, Drain method, IWDFIoQueue, IWDFIoQueue::Drain, wdf.iwdfioqueue_drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, umdf.iwdfioqueue_drain, Drain, Drain method, IWDFIoQueue interface
+ms.keywords: Drain method, Drain, wdf.iwdfioqueue_drain, umdf.iwdfioqueue_drain, Drain method, IWDFIoQueue interface, IWDFIoQueue::Drain, wudfddi/IWDFIoQueue::Drain, UMDFQueueObjectRef_cb7bdc3f-3280-4949-a60a-b78f13492da9.xml, IWDFIoQueue interface, Drain method, IWDFIoQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,7 +115,7 @@ For example, if the driver previously called <b>Drain</b>, it should wait for no
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558980">IWDFIoQueue::Stop</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
 
 
@@ -127,7 +127,7 @@ For example, if the driver previously called <b>Drain</b>, it should wait for no
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfioqueue.md">IWDFIoQueue</a>
 
 
 

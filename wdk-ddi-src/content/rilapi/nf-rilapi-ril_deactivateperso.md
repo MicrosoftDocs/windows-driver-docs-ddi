@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3116482a-aa56-4a1d-98ef-da06c5c1b789
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_deactivateperso, RIL_DeactivatePerso, rilapi/RIL_DeactivatePerso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_deactivateperso, rilapi/RIL_DeactivatePerso, RIL_DeactivatePerso method [Network Drivers Starting with Windows Vista], RIL_DeactivatePerso
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_DeactivatePerso
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

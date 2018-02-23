@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E3BFBF03-8130-4EFF-95F4-030107AF4D75
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_PO_FX_PERF_STATE_TYPE, wdm/PPO_FX_PERF_STATE_TYPE, kernel.po_fx_perf_state_type, wdm/PoFxPerfStateTypeMaximum, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PoFxPerfStateTypeRange, PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeMaximum, PoFxPerfStateTypeDiscrete, *PPO_FX_PERF_STATE_TYPE, wdm/PO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], PoFxPerfStateTypeRange, wdm/PoFxPerfStateTypeDiscrete"
+ms.keywords: wdm/PoFxPerfStateTypeMaximum, _PO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE, wdm/PO_FX_PERF_STATE_TYPE, wdm/PoFxPerfStateTypeRange, kernel.po_fx_perf_state_type, PoFxPerfStateTypeDiscrete, PPO_FX_PERF_STATE_TYPE enumeration pointer [Kernel-Mode Driver Architecture], PoFxPerfStateTypeRange, PO_FX_PERF_STATE_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/PPO_FX_PERF_STATE_TYPE, PPO_FX_PERF_STATE_TYPE, *PPO_FX_PERF_STATE_TYPE, PoFxPerfStateTypeMaximum, wdm/PoFxPerfStateTypeDiscrete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_PERF_STATE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_TYPE, PO_FX_PERF_STATE_TYPE"
+req.typenames: PO_FX_PERF_STATE_TYPE, *PPO_FX_PERF_STATE_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -96,11 +96,11 @@ The <b>Type</b> member of the <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_pe
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_perf_set.md">PO_FX_COMPONENT_PERF_SET</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxregistercomponentperfstates.md">PoFxRegisterComponentPerfStates</a>
 
 
 

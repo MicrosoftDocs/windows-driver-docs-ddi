@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6581a309-1a6d-4795-a55c-327215ea18ee
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdeviceindicatewakestatus, wdfdevice/WdfDeviceIndicateWakeStatus, wdf.wdfdeviceindicatewakestatus, WdfDeviceIndicateWakeStatus method, WdfDeviceIndicateWakeStatus, DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml
+ms.keywords: WdfDeviceIndicateWakeStatus, DFDeviceObjectGeneralRef_8b314bb3-74d4-4ef6-b1a0-f45fb498c468.xml, WdfDeviceIndicateWakeStatus method, kmdf.wdfdeviceindicatewakestatus, wdf.wdfdeviceindicatewakestatus, wdfdevice/WdfDeviceIndicateWakeStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

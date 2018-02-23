@@ -7,8 +7,8 @@ old-location: audio\drmforward.htm
 old-project: audio
 ms.assetid: 30e2e62a-3ae4-4efe-a6e9-6aece6bfbb46
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: DRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], PDRMFORWARD, DRMFORWARD structure [Audio Devices], drmk/PDRMFORWARD, audio.drmforward, aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, tagDRMFORWARD, *PDRMFORWARD, drmk/DRMFORWARD
+ms.date: 2/22/2018
+ms.keywords: aud-prop_491c772b-2e17-42c1-b0cd-68d2b0384163.xml, audio.drmforward, DRMFORWARD structure [Audio Devices], DRMFORWARD, drmk/DRMFORWARD, tagDRMFORWARD, drmk/PDRMFORWARD, PDRMFORWARD structure pointer [Audio Devices], PDRMFORWARD, *PDRMFORWARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -120,6 +120,18 @@ For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19
 
 ## -see-also
 
+<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
+
+
+
+<a href="..\drmk\ns-drmk-ksp_drmaudiostream_contentid.md">KSP_DRMAUDIOSTREAM_CONTENTID</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
 <a href="..\drmk\nf-drmk-drmforwardcontenttodeviceobject.md">DrmForwardContentToDeviceObject</a>
 
 
@@ -128,7 +140,7 @@ For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19
 
 
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 
@@ -136,21 +148,9 @@ For general information about DRM, see <a href="https://msdn.microsoft.com/7ce19
 
 
 
-<a href="..\portcls\nf-portcls-pcforwardcontenttodeviceobject.md">PcForwardContentToDeviceObject</a>
-
-
-
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537351">KSPROPERTY_DRMAUDIOSTREAM_CONTENTID</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DRMFORWARD structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DRMFORWARD structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: a87f747f-474d-401d-9757-0820680e5c8e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbioctl/USB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES structure [Buses], buses.usb_hub_capabilities, usbstrct_b82d8bad-3ed4-40d1-a6c1-7ac416ebf157.xml, _USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES, usbioctl/PUSB_HUB_CAPABILITIES, PUSB_HUB_CAPABILITIES structure pointer [Buses]
+ms.keywords: PUSB_HUB_CAPABILITIES structure pointer [Buses], usbioctl/USB_HUB_CAPABILITIES, usbioctl/PUSB_HUB_CAPABILITIES, buses.usb_hub_capabilities, usbstrct_b82d8bad-3ed4-40d1-a6c1-7ac416ebf157.xml, USB_HUB_CAPABILITIES, _USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES structure [Buses], PUSB_HUB_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_HUB_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_HUB_CAPABILITIES, USB_HUB_CAPABILITIES"
+req.typenames: USB_HUB_CAPABILITIES, *PUSB_HUB_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 
@@ -75,7 +75,7 @@ If <b>TRUE</b>, the hub is capable of running at high speed.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
 
 
 
@@ -83,7 +83,7 @@ If <b>TRUE</b>, the hub is capable of running at high speed.
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_hub_capabilities_ex.md">USB_HUB_CAPABILITIES_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

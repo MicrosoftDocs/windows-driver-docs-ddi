@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: A45231E0-0807-41AA-B20F-6335067BE99A
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdmatransactionsetdeviceaddressoffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, WdfDmaTransactionSetDeviceAddressOffset method, kmdf.wdfdmatransactionsetdeviceaddressoffset, WdfDmaTransactionSetDeviceAddressOffset
+ms.keywords: wdf.wdfdmatransactionsetdeviceaddressoffset, WdfDmaTransactionSetDeviceAddressOffset, wdfdmatransaction/WdfDmaTransactionSetDeviceAddressOffset, kmdf.wdfdmatransactionsetdeviceaddressoffset, WdfDmaTransactionSetDeviceAddressOffset method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionSetDeviceAddressOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 

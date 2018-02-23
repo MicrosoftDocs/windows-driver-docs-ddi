@@ -4,11 +4,11 @@ title: IDebugClient4::FlushCallbacks method
 author: windows-driver-content
 description: The FlushCallbacks method forces any remaining buffered output to be delivered to the IDebugOutputCallbacks object registered with this client.
 old-location: debugger\flushcallbacks.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 2ca4ea3b-befd-424d-a4a8-81436d0ffc1c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient4, IDebugClient2 interface [Windows Debugging], FlushCallbacks method, FlushCallbacks method [Windows Debugging], IDebugClient4 interface, FlushCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient2::FlushCallbacks, dbgeng/IDebugClient4::FlushCallbacks, IDebugClient::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient4 interface [Windows Debugging], FlushCallbacks method, dbgeng/IDebugClient2::FlushCallbacks, IDebugClient5 interface [Windows Debugging], FlushCallbacks method, FlushCallbacks method [Windows Debugging], IDebugClient interface, FlushCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient, FlushCallbacks, IDebugClient3::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_e808ca3a-5762-419b-96de-4c49984c1ccd.xml, debugger.flushcallbacks, IDebugClient3 interface [Windows Debugging], FlushCallbacks method, dbgeng/IDebugClient::FlushCallbacks, dbgeng/IDebugClient5::FlushCallbacks, IDebugClient interface [Windows Debugging], FlushCallbacks method, IDebugClient5::FlushCallbacks, IDebugClient2, dbgeng/IDebugClient3::FlushCallbacks, IDebugClient3, IDebugClient4::FlushCallbacks
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugClient4::FlushCallbacks, IDebugClient4, IDebugClient5::FlushCallbacks, IDebugClient3, IDebugClient4::FlushCallbacks, dbgeng/IDebugClient3::FlushCallbacks, IDebugClient5 interface [Windows Debugging], FlushCallbacks method, IDebugClient::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient5 interface, FlushCallbacks method [Windows Debugging], IDebugClient interface [Windows Debugging], FlushCallbacks method, dbgeng/IDebugClient::FlushCallbacks, IDebugClient2::FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient3::FlushCallbacks, IDebugClient4 interface [Windows Debugging], FlushCallbacks method, IDebugClient2, FlushCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient_e808ca3a-5762-419b-96de-4c49984c1ccd.xml, IDebugClient2 interface [Windows Debugging], FlushCallbacks method, debugger.flushcallbacks, FlushCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient, IDebugClient3 interface [Windows Debugging], FlushCallbacks method, dbgeng/IDebugClient2::FlushCallbacks, dbgeng/IDebugClient5::FlushCallbacks, FlushCallbacks, FlushCallbacks method [Windows Debugging], IDebugClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,15 +112,15 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550815">IDebugOutputCallbacks::Output</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -132,7 +132,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a>
 
 
 
@@ -140,15 +140,7 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550815">IDebugOutputCallbacks::Output</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -156,5 +148,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::FlushCallbacks method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::FlushCallbacks method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

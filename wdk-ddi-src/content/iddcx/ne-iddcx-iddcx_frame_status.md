@@ -7,8 +7,8 @@ old-location: display\iddcx_frame_status.htm
 old-project: display
 ms.assetid: 437050ae-d1b7-48ce-9955-98f1d1b2e15a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDDCX_FRAME_STATUS_DROPPED, IDDCX_FRAME_STATUS_ERROR, iddcx/IDDCX_FRAME_STATUS, iddcx/IDDCX_FRAME_STATUS_UNINITIALIZED, IDDCX_FRAME_STATUS, display.iddcx_frame_status, iddcx/IDDCX_FRAME_STATUS_DROPPED, iddcx/IDDCX_FRAME_STATUS_ERROR, IDDCX_FRAME_STATUS enumeration [Display Devices], IDDCX_FRAME_STATUS_UNINITIALIZED, iddcx/IDDCX_FRAME_STATUS_COMPLETED, IDDCX_FRAME_STATUS_COMPLETED
+ms.date: 2/22/2018
+ms.keywords: iddcx/IDDCX_FRAME_STATUS_COMPLETED, IDDCX_FRAME_STATUS_UNINITIALIZED, iddcx/IDDCX_FRAME_STATUS, iddcx/IDDCX_FRAME_STATUS_UNINITIALIZED, IDDCX_FRAME_STATUS_ERROR, display.iddcx_frame_status, IDDCX_FRAME_STATUS_COMPLETED, iddcx/IDDCX_FRAME_STATUS_ERROR, IDDCX_FRAME_STATUS_DROPPED, IDDCX_FRAME_STATUS, iddcx/IDDCX_FRAME_STATUS_DROPPED, IDDCX_FRAME_STATUS enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

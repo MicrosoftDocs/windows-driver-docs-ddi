@@ -40,7 +40,7 @@ apiname:
 -	InitializeInterface
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_DIAGNOSTIC_MP_REQUEST, STORAGE_DIAGNOSTIC_MP_REQUEST"
+req.typenames: STORAGE_DIAGNOSTIC_MP_REQUEST, *PSTORAGE_DIAGNOSTIC_MP_REQUEST
 ---
 
 # PSDBUS_INITIALIZE_INTERFACE_ROUTINE callback

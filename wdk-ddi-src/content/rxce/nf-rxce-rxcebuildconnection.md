@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 3d4c2e69-7cdc-4eee-b56c-b1485768e942
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCeBuildConnection function [Installable File System Drivers], rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml, rxce/RxCeBuildConnection, ifsk.rxcebuildconnection, RxCeBuildConnection
+ms.keywords: rxce/RxCeBuildConnection, rxref_cc87c9dd-c8e4-4283-96a8-bc2ec15be773.xml, RxCeBuildConnection, ifsk.rxcebuildconnection, RxCeBuildConnection function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -162,11 +162,11 @@ When <b>RxCeBuildConnection</b> is successful, the data members in the RXCE_CONN
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
-
-
-
 <a href="..\rxce\nf-rxce-rxceteardownconnection.md">RxCeTearDownConnection</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565085">TDI_CONNECTION_INFORMATION</a>
 
 
 

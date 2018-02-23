@@ -40,7 +40,7 @@ apiname:
 -	(*TAPE_EXTENSION_INIT_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_EXTENSION_INIT_ROUTINE callback
@@ -111,16 +111,15 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
-
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
 <a href="..\minitape\nc-minitape-tape_error_routine.md">TapeMiniTapeError</a>
+
+
+
+<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 
 
 
@@ -128,7 +127,7 @@ The tape class driver allocates the minitape extension and supplies it subsequen
 
 
 
-<a href="..\minitape\nf-minitape-tapeclassinitialize.md">TapeClassInitialize</a>
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

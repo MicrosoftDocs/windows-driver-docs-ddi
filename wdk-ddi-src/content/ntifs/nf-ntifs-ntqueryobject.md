@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 439658a5-d2db-4a31-a1eb-b8943c40cc96
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwQueryObject routine [Kernel-Mode Driver Architecture], ZwQueryObject, kernel.zwqueryobject, k111_54a1efe7-3cf8-46b3-bbb5-9e7520ba459d.xml, ntifs/NtQueryObject, NtQueryObject, ntifs/ZwQueryObject
+ms.keywords: NtQueryObject, ZwQueryObject routine [Kernel-Mode Driver Architecture], ntifs/NtQueryObject, kernel.zwqueryobject, k111_54a1efe7-3cf8-46b3-bbb5-9e7520ba459d.xml, ntifs/ZwQueryObject, ZwQueryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -160,11 +160,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
 
 
 
@@ -172,7 +168,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\ntifs\ns-ntifs-_public_object_basic_information.md">PUBLIC_OBJECT_BASIC_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-__public_object_type_information.md">PUBLIC_OBJECT_TYPE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
 
 
 

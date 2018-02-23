@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_process_input_stream.htm
 old-project: display
 ms.assetid: DB0AF7A5-8E90-45B8-AF9C-58BFF7CE066E
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 structure [Display Devices], display.d3d12ddi_video_process_input_stream, d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
+ms.date: 2/22/2018
+ms.keywords: D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020 structure [Display Devices], display.d3d12ddi_video_process_input_stream, D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020, d3d12umddi/D3D12DDI_VIDEO_PROCESS_INPUT_STREAM_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

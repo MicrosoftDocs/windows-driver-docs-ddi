@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c841d8fb-fa42-4ce5-aedb-c7c13bcc2ba7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsCreateMarshallingArea, kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml
+ms.keywords: Clfs_7b5e3208-8dfb-4fbf-b2a9-77ecc5765df6.xml, ClfsCreateMarshallingArea routine [Kernel-Mode Driver Architecture], kernel.clfscreatemarshallingarea, wdm/ClfsCreateMarshallingArea, ClfsCreateMarshallingArea
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -170,7 +170,7 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-clfsdeletemarshallingarea.md">ClfsDeleteMarshallingArea</a>
+<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
 
 
 
@@ -178,19 +178,19 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
-<a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
-
-
-
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfsaddlogcontainerset.md">ClfsAddLogContainerSet</a>
-
-
-
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsaddlogcontainer.md">ClfsAddLogContainer</a>
+
+
+
+<a href="..\wdm\nf-wdm-clfsdeletemarshallingarea.md">ClfsDeleteMarshallingArea</a>
 
 
 

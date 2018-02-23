@@ -7,8 +7,8 @@ old-location: display\idarg_out_adapter_init.htm
 old-project: display
 ms.assetid: 55e4c835-88c8-403f-883c-182915aa614d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDARG_OUT_ADAPTER_INIT, IDARG_OUT_ADAPTER_INIT structure [Display Devices], display.idarg_out_adapter_init, iddcx/IDARG_OUT_ADAPTER_INIT
+ms.date: 2/22/2018
+ms.keywords: IDARG_OUT_ADAPTER_INIT, iddcx/IDARG_OUT_ADAPTER_INIT, display.idarg_out_adapter_init, IDARG_OUT_ADAPTER_INIT structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

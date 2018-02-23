@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c545b0a6-bb36-47a7-b55c-ee7eed5ade3a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, wdfwmi/WdfWmiControlInvalid, wdfwmi/WdfWmiEventControl, WdfWmiEventControl, WDF_WMI_PROVIDER_CONTROL enumeration, wdfwmi/WDF_WMI_PROVIDER_CONTROL, wdf.wdf_wmi_provider_control, kmdf.wdf_wmi_provider_control, _WDF_WMI_PROVIDER_CONTROL, WdfWmiControlInvalid, WdfWmiInstanceControl, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WdfWmiInstanceControl
+ms.keywords: DFWMIRef_a78e583c-59b7-4af3-a07f-8b774916f664.xml, WdfWmiEventControl, WdfWmiControlInvalid, WDF_WMI_PROVIDER_CONTROL enumeration, wdfwmi/WdfWmiInstanceControl, kmdf.wdf_wmi_provider_control, _WDF_WMI_PROVIDER_CONTROL, wdf.wdf_wmi_provider_control, wdfwmi/WdfWmiEventControl, WDF_WMI_PROVIDER_CONTROL, wdfwmi/WDF_WMI_PROVIDER_CONTROL, WdfWmiInstanceControl, wdfwmi/WdfWmiControlInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,11 +98,11 @@ The <b>WDF_WMI_PROVIDER_CONTROL</b> enumeration is used as an input parameter to
 
 ## -see-also
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiproviderisenabled.md">WdfWmiProviderIsEnabled</a>
+
+
+
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_provider_function_control.md">EvtWmiProviderFunctionControl</a>
 
 
 

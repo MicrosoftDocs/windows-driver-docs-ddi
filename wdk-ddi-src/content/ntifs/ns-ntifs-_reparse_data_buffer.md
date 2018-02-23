@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e906a874-51f1-4623-8f0b-afdfd8169ab2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER structure pointer [Installable File System Drivers], ntifs/PREPARSE_DATA_BUFFER, REPARSE_DATA_BUFFER, *PREPARSE_DATA_BUFFER, REPARSE_DATA_BUFFER structure [Installable File System Drivers], ifsk.reparse_data_buffer, ntifs/REPARSE_DATA_BUFFER, fileinformationstructures_4f1b658e-1833-421f-a726-448b20b1c595.xml, _REPARSE_DATA_BUFFER
+ms.keywords: "*PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER, ntifs/PREPARSE_DATA_BUFFER, PREPARSE_DATA_BUFFER structure pointer [Installable File System Drivers], ifsk.reparse_data_buffer, fileinformationstructures_4f1b658e-1833-421f-a726-448b20b1c595.xml, REPARSE_DATA_BUFFER structure [Installable File System Drivers], ntifs/REPARSE_DATA_BUFFER, _REPARSE_DATA_BUFFER, REPARSE_DATA_BUFFER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REPARSE_DATA_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: "*PREPARSE_DATA_BUFFER, REPARSE_DATA_BUFFER"
+req.typenames: REPARSE_DATA_BUFFER, *PREPARSE_DATA_BUFFER
 ---
 
 # _REPARSE_DATA_BUFFER structure
@@ -294,23 +294,15 @@ For more information about absolute and relative symbolic links, see Creating Sy
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544836">FSCTL_GET_REPARSE_POINT</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltuntagfile.md">FltUntagFile</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwfscontrolfile.md">ZwFsControlFile</a>
 
 
 
@@ -318,7 +310,27 @@ For more information about absolute and relative symbolic links, see Creating Sy
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550751">IRP_MJ_FILE_SYSTEM_CONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544828">FSCTL_DELETE_REPARSE_POINT</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-flttagfile.md">FltTagFile</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
 
 
 
@@ -331,18 +343,6 @@ For more information about absolute and relative symbolic links, see Creating Sy
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544705">FLT_PARAMETERS for IRP_MJ_FILE_SYSTEM_CONTROL</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltfscontrolfile.md">FltFsControlFile</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_reparse_guid_data_buffer.md">REPARSE_GUID_DATA_BUFFER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545568">FSCTL_SET_REPARSE_POINT</a>
 
 
 

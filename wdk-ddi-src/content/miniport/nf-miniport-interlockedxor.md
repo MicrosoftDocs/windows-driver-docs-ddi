@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3ddf62f1-ce5d-4d55-9964-8d1786ac2997
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: InterlockedXor routine [Kernel-Mode Driver Architecture], kernel.interlockedxor, InterlockedXor, wdm/InterlockedXor, k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml
+ms.keywords: InterlockedXor, kernel.interlockedxor, k102_7b4b6df0-2179-4a6a-941d-5aaa95609cd8.xml, InterlockedXor routine [Kernel-Mode Driver Architecture], wdm/InterlockedXor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ Interlocked operations cannot be used on non-cached memory.
 
 ## -see-also
 
-<a href="..\miniport\nf-miniport-interlockedand.md">InterlockedAnd</a>
+<a href="..\wdm\nf-wdm-interlockedand.md">InterlockedAnd</a>
 
 
 
-<a href="..\miniport\nf-miniport-interlockedor.md">InterlockedOr</a>
+<a href="..\wdm\nf-wdm-interlockedor.md">InterlockedOr</a>
 
 
 

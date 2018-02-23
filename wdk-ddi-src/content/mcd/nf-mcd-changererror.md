@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e2196971-47ad-4ac4-a3e9-c8f7f6b05321
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml, ChangerError function [Storage Devices], mcd/ChangerError, ChangerError, storage.changererror
+ms.keywords: ChangerError, mcd/ChangerError, ChangerError function [Storage Devices], storage.changererror, chgrmini_5235b77f-51d1-4fa5-b68c-3e649aed829c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

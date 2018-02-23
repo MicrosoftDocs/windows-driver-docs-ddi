@@ -4,11 +4,11 @@ title: IDebugSymbols3::AddSymbolOptions method
 author: windows-driver-content
 description: The AddSymbolOptions method turns on some of the engine's global symbol options.
 old-location: debugger\addsymboloptions.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 952b4a7b-2713-4d7a-b70e-4fd1867bc096
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols::AddSymbolOptions, AddSymbolOptions, dbgeng/IDebugSymbols3::AddSymbolOptions, IDebugSymbols2::AddSymbolOptions, IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols3::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols, dbgeng/IDebugSymbols::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, debugger.addsymboloptions, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, IDebugSymbols2, dbgeng/IDebugSymbols2::AddSymbolOptions
+ms.date: 2/22/2018
+ms.keywords: debugger.addsymboloptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, AddSymbolOptions method [Windows Debugging], IDebugSymbols interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2 interface [Windows Debugging], AddSymbolOptions method, IDebugSymbols2::AddSymbolOptions, IDebugSymbols_a7ffc5ae-fc9e-4298-a351-95871b8fd12e.xml, IDebugSymbols, AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::AddSymbolOptions, IDebugSymbols::AddSymbolOptions, AddSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols3::AddSymbolOptions, IDebugSymbols3::AddSymbolOptions, IDebugSymbols3 interface [Windows Debugging], AddSymbolOptions method, dbgeng/IDebugSymbols::AddSymbolOptions, IDebugSymbols2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,7 +115,19 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556798">SetSymbolOptions</a>
 
 
 
@@ -127,21 +139,9 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::AddSymbolOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::AddSymbolOptions method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

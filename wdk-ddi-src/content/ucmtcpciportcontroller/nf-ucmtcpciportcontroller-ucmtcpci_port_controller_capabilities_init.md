@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: d6a30351-4d0f-462a-bbf7-672f4da75bf5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT method [Buses], UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, buses.ucmtcpci_port_controller_capabilities_init
+ms.keywords: UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT, buses.ucmtcpci_port_controller_capabilities_init, UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT method [Buses], ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_CAPABILITIES_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

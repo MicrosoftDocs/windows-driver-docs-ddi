@@ -4,11 +4,11 @@ title: IDebugSymbolGroup::GetNumberSymbols method
 author: windows-driver-content
 description: The GetNumberSymbols method returns the number of symbols that are contained in a symbol group.
 old-location: debugger\getnumbersymbols.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 5a202530-7146-472d-9560-580871cd56ec
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbolGroup, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup::GetNumberSymbols, dbgeng/IDebugSymbolGroup::GetNumberSymbols, GetNumberSymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, debugger.getnumbersymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetNumberSymbols, ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml
+ms.date: 2/22/2018
+ms.keywords: ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, IDebugSymbolGroup::GetNumberSymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetNumberSymbols, IDebugSymbolGroup, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup::GetNumberSymbols, IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, GetNumberSymbols method [Windows Debugging], debugger.getnumbersymbols, GetNumberSymbols
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

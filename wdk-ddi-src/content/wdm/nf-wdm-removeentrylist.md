@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 84c3937f-8042-4b15-b5bb-884d14a97a8c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RemoveEntryList, kernel.removeentrylist, k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml, RemoveEntryList routine [Kernel-Mode Driver Architecture], wdm/RemoveEntryList
+ms.keywords: kernel.removeentrylist, wdm/RemoveEntryList, RemoveEntryList, RemoveEntryList routine [Kernel-Mode Driver Architecture], k109_138ddf01-d13f-4e36-9b66-c2e58914c170.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,7 +105,7 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
+<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
 
 
 
@@ -113,7 +113,7 @@ Callers of <b>RemoveEntryList</b> can be running at any IRQL. If <b>RemoveEntryL
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-removeheadlist.md">RemoveHeadList</a>
+<a href="..\wudfwdm\nf-wudfwdm-islistempty.md">IsListEmpty</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 5e3f9a29-660e-46f1-bf25-5bad8b91e32c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.flt_operation_registration, fltkernel/PFLT_OPERATION_REGISTRATION, PFLT_OPERATION_REGISTRATION, PFLT_OPERATION_REGISTRATION structure pointer [Installable File System Drivers], FLT_OPERATION_REGISTRATION structure [Installable File System Drivers], *PFLT_OPERATION_REGISTRATION, fltkernel/FLT_OPERATION_REGISTRATION, FltSystemStructures_35ea4d15-ff73-4562-b150-d7c3e3d0823c.xml, _FLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION
+ms.keywords: fltkernel/PFLT_OPERATION_REGISTRATION, *PFLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION structure [Installable File System Drivers], FLT_OPERATION_REGISTRATION, ifsk.flt_operation_registration, PFLT_OPERATION_REGISTRATION structure pointer [Installable File System Drivers], FltSystemStructures_35ea4d15-ff73-4562-b150-d7c3e3d0823c.xml, PFLT_OPERATION_REGISTRATION, _FLT_OPERATION_REGISTRATION, fltkernel/FLT_OPERATION_REGISTRATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_OPERATION_REGISTRATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFLT_OPERATION_REGISTRATION, FLT_OPERATION_REGISTRATION"
+req.typenames: FLT_OPERATION_REGISTRATION, *PFLT_OPERATION_REGISTRATION
 ---
 
 # _FLT_OPERATION_REGISTRATION structure
@@ -147,11 +147,11 @@ A single preoperation or postoperation callback routine can be used to process m
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
-
-
-
 <a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 

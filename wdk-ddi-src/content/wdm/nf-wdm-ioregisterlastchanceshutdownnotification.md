@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9ee590ce-e822-4c15-bb01-6f726268f163
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoRegisterLastChanceShutdownNotification, kernel.ioregisterlastchanceshutdownnotification, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], wdm/IoRegisterLastChanceShutdownNotification, k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml
+ms.keywords: kernel.ioregisterlastchanceshutdownnotification, wdm/IoRegisterLastChanceShutdownNotification, k104_233a75d7-252b-45e3-a980-bda55edd3fdc.xml, IoRegisterLastChanceShutdownNotification routine [Kernel-Mode Driver Architecture], IoRegisterLastChanceShutdownNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,11 +121,11 @@ The registered <i>DispatchShutdown</i> routine is called before the power manage
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
-
-
-
 <a href="..\wdm\nf-wdm-iounregistershutdownnotification.md">IoUnregisterShutdownNotification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543405">DispatchShutdown</a>
 
 
 

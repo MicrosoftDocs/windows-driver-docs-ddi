@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: feeabcd2-659f-4a87-abdd-cfbf89589c48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILREADMSGPARAMS, netvista.rilreadmsgparams, ntddrilapitypes/RILREADMSGPARAMS, RILREADMSGPARAMS
+ms.keywords: RILREADMSGPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILREADMSGPARAMS, netvista.rilreadmsgparams, *LPRILREADMSGPARAMS, RILREADMSGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILREADMSGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILREADMSGPARAMS, RILREADMSGPARAMS"
+req.typenames: RILREADMSGPARAMS, *LPRILREADMSGPARAMS
 ---
 
 # RILREADMSGPARAMS structure

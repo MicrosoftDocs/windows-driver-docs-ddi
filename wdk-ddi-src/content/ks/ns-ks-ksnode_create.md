@@ -7,8 +7,8 @@ old-location: stream\ksnode_create.htm
 old-project: stream
 ms.assetid: db08cc72-3797-46e3-8e4d-d8469dc126ab
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKSNODE_CREATE, ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, *PKSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices], stream.ksnode_create, KSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], ks/PKSNODE_CREATE, ks/KSNODE_CREATE
+ms.date: 2/22/2018
+ms.keywords: ks-struct_2fb3dcb7-5945-4f8a-b1f1-945910ec8396.xml, PKSNODE_CREATE, ks/PKSNODE_CREATE, KSNODE_CREATE, *PKSNODE_CREATE, PKSNODE_CREATE structure pointer [Streaming Media Devices], stream.ksnode_create, ks/KSNODE_CREATE, KSNODE_CREATE structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSNODE_CREATE
 product: Windows
 targetos: Windows
-req.typenames: "*PKSNODE_CREATE, KSNODE_CREATE"
+req.typenames: KSNODE_CREATE, *PKSNODE_CREATE
 ---
 
 # KSNODE_CREATE structure
@@ -88,5 +88,5 @@ Indicates what node a handle should be created for. This refers to the node iden
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSNODE_CREATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSNODE_CREATE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

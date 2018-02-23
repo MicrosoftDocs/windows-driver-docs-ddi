@@ -4,11 +4,11 @@ title: IDebugClient5::AddDumpInformationFileWide method
 author: windows-driver-content
 description: The AddDumpInformationFileWide method registers additional files containing supporting information that will be used when opening a dump file. The ASCII version of this method is AddDumpInformationFile.
 old-location: debugger\adddumpinformationfilewide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0b6318de-4f8e-43e8-ad86-c1fc52097662
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, dbgeng/IDebugClient4::AddDumpInformationFileWide, IDebugClient4, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5, IDebugClient5::AddDumpInformationFileWide, AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, AddDumpInformationFileWide, debugger.adddumpinformationfilewide, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient5::AddDumpInformationFileWide, IDebugClient4::AddDumpInformationFileWide
+ms.date: 2/22/2018
+ms.keywords: AddDumpInformationFileWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::AddDumpInformationFileWide, debugger.adddumpinformationfilewide, AddDumpInformationFileWide method [Windows Debugging], AddDumpInformationFileWide, dbgeng/IDebugClient4::AddDumpInformationFileWide, IDebugClient4 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient5 interface [Windows Debugging], AddDumpInformationFileWide method, IDebugClient4::AddDumpInformationFileWide, IDebugClient5::AddDumpInformationFileWide, IDebugClient4, IDebugClient5, AddDumpInformationFileWide method [Windows Debugging], IDebugClient4 interface, IDebugClient_515044fe-647d-447a-bb74-5738d4d08d6d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,23 +126,27 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537865">AddDumpInformationFile</a>
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547887">GetNumberDumpFiles</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546586">GetDumpFile</a>
 
 
 
@@ -150,13 +154,9 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552322">OpenDumpFile</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient4::AddDumpInformationFileWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient4::AddDumpInformationFileWide method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

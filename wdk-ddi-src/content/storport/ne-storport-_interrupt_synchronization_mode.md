@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 964009ab-5f90-4f23-b22a-4c3e03d2449e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: INTERRUPT_SYNCHRONIZATION_MODE enumeration [Storage Devices], _INTERRUPT_SYNCHRONIZATION_MODE, storport/InterruptSynchronizePerMessage, storport/INTERRUPT_SYNCHRONIZATION_MODE, INTERRUPT_SYNCHRONIZATION_MODE, storport/InterruptSynchronizeAll, InterruptSynchronizePerMessage, InterruptSynchronizeAll, InterruptSupportNone, storage.interrupt_synchronization_mode, structs-storport_036aa424-5b04-4bf5-8418-8da008834c5b.xml, storport/InterruptSupportNone
+ms.keywords: structs-storport_036aa424-5b04-4bf5-8418-8da008834c5b.xml, storport/INTERRUPT_SYNCHRONIZATION_MODE, InterruptSynchronizePerMessage, INTERRUPT_SYNCHRONIZATION_MODE, INTERRUPT_SYNCHRONIZATION_MODE enumeration [Storage Devices], _INTERRUPT_SYNCHRONIZATION_MODE, InterruptSynchronizeAll, InterruptSupportNone, storage.interrupt_synchronization_mode, storport/InterruptSynchronizeAll, storport/InterruptSupportNone, storport/InterruptSynchronizePerMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -89,22 +89,22 @@ The miniport driver serializes message signaled interrupts on a per message basi
 
 
 
-Miniport drivers define the HBA's interrupt synchronization mode by assigning one of the INTERRUPT_SYNCHRONIZATION_MODE enumeration values to the <b>InterruptSynchronizationMode</b> member of the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure. 
+Miniport drivers define the HBA's interrupt synchronization mode by assigning one of the INTERRUPT_SYNCHRONIZATION_MODE enumeration values to the <b>InterruptSynchronizationMode</b> member of the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> structure. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_message_signaled_interrupt_routine.md">HwMSInterruptRoutine</a>
-
-
-
 <a href="..\storport\nf-storport-storportreleasemsispinlock.md">StorPortReleaseMSISpinLock</a>
 
 
 
 <a href="..\storport\nf-storport-storportacquiremsispinlock.md">StorPortAcquireMSISpinLock</a>
+
+
+
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 
 
 

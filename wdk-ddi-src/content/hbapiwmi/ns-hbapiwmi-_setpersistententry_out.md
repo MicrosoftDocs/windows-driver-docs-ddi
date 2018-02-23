@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c2089ae9-e872-4bbb-8e7b-fe11082d2b46
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PSetPersistentEntry_OUT, SetPersistentEntry_OUT structure [Storage Devices], structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml, hbapiwmi/SetPersistentEntry_OUT, storage.setpersistententry_out, PSetPersistentEntry_OUT structure pointer [Storage Devices], PSetPersistentEntry_OUT, _SetPersistentEntry_OUT, SetPersistentEntry_OUT, hbapiwmi/PSetPersistentEntry_OUT"
+ms.keywords: PSetPersistentEntry_OUT, storage.setpersistententry_out, SetPersistentEntry_OUT structure [Storage Devices], _SetPersistentEntry_OUT, *PSetPersistentEntry_OUT, hbapiwmi/PSetPersistentEntry_OUT, SetPersistentEntry_OUT, PSetPersistentEntry_OUT structure pointer [Storage Devices], hbapiwmi/SetPersistentEntry_OUT, structs-Fibre_3dbfc9dd-6c90-4908-bb5d-c331a2e0334c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetPersistentEntry_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSetPersistentEntry_OUT, SetPersistentEntry_OUT"
+req.typenames: SetPersistentEntry_OUT, *PSetPersistentEntry_OUT
 ---
 
 # _SetPersistentEntry_OUT structure

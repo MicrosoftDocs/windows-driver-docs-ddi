@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: da756f88-e2c6-4bff-8390-be48902fe130
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/CcGetFileObjectFromSectionPtrs, ifsk.ccgetfileobjectfromsectionptrs, CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml
+ms.keywords: ifsk.ccgetfileobjectfromsectionptrs, ntifs/CcGetFileObjectFromSectionPtrs, CcGetFileObjectFromSectionPtrs routine [Installable File System Drivers], CcGetFileObjectFromSectionPtrs, ccref_2e9f9f04-b5e3-47e5-beff-5e4d7181ca9d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ For more information about creating mapped sections and views of memory, see <a 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrsref.md">CcGetFileObjectFromSectionPtrsRef</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-ccpurgecachesection.md">CcPurgeCacheSection</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccgetfileobjectfromsectionptrsref.md">CcGetFileObjectFromSectionPtrsRef</a>
 
 
 

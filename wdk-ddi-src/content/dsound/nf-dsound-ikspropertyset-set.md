@@ -7,8 +7,8 @@ old-location: stream\ikspropertyset_set.htm
 old-project: stream
 ms.assetid: 959a78e2-b5c8-47b0-97b1-52d9565a6dab
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml, ksproxy/IKsPropertySet::Set, stream.ikspropertyset_set, IKsPropertySet::Set, Set, IKsPropertySet interface [Streaming Media Devices], Set method, Set method [Streaming Media Devices], IKsPropertySet interface, IKsPropertySet, Set method [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: IKsPropertySet interface [Streaming Media Devices], Set method, IKsPropertySet::Set, Set method [Streaming Media Devices], Set method [Streaming Media Devices], IKsPropertySet interface, ksproxy/IKsPropertySet::Set, IKsPropertySet, stream.ikspropertyset_set, Set, ksproxy_957cf2a5-1dc6-4e89-86c5-b2f01d913b66.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -104,9 +104,9 @@ HRESULT Set(
 
 
 
-#### - DataLength [in]
+#### - PropSet [in]
 
-Size, in bytes, of the buffer at <i>PropertyData</i>. 
+GUID that identifies the property set.
 
 
 #### - Id [in]
@@ -124,14 +124,14 @@ Pointer to instance data for the property.
 Size, in bytes, of the buffer at <i>InstanceData</i>. 
 
 
-#### - PropSet [in]
-
-GUID that identifies the property set.
-
-
 #### - PropertyData [in]
 
 Pointer to a buffer that contains the value of the property to set. 
+
+
+#### - DataLength [in]
+
+Size, in bytes, of the buffer at <i>PropertyData</i>. 
 
 
 ## -returns
@@ -170,5 +170,5 @@ If an application must include both <i>ksproxy.h</i> and <i>dsound.h</i>, whiche
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPropertySet::Set method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPropertySet::Set method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

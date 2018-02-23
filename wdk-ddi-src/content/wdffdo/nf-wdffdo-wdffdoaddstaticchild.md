@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3e1c4469-7ae2-4ac8-8dfe-ff8c4cae3d20
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdffdoaddstaticchild, kmdf.wdffdoaddstaticchild, WdfFdoAddStaticChild, DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, wdffdo/WdfFdoAddStaticChild, WdfFdoAddStaticChild method
+ms.keywords: WdfFdoAddStaticChild, WdfFdoAddStaticChild method, wdf.wdffdoaddstaticchild, DFDeviceObjectFdoPdoRef_8374594a-a113-43da-a442-bd51e65ca53a.xml, kmdf.wdffdoaddstaticchild, wdffdo/WdfFdoAddStaticChild
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -170,11 +170,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistaddorupdatechilddescriptionaspresent.md">WdfChildListAddOrUpdateChildDescriptionAsPresent</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicecreate.md">WdfDeviceCreate</a>
-
-
-
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitallocate.md">WdfPdoInitAllocate</a>
 
 
 

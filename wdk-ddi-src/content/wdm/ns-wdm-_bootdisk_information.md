@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd2a525d-fb9d-4fea-b9d7-64b1f498550c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.bootdisk_information, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION, BOOTDISK_INFORMATION, wdm/PBOOTDISK_INFORMATION, *PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture], PBOOTDISK_INFORMATION, wdm/BOOTDISK_INFORMATION, kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml
+ms.keywords: PBOOTDISK_INFORMATION, wdm/BOOTDISK_INFORMATION, *PBOOTDISK_INFORMATION, wdm/PBOOTDISK_INFORMATION, kstruct_a_61cd1024-0bb4-4601-a458-4bf52a2339d5.xml, BOOTDISK_INFORMATION, BOOTDISK_INFORMATION structure [Kernel-Mode Driver Architecture], _BOOTDISK_INFORMATION, PBOOTDISK_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.bootdisk_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BOOTDISK_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PBOOTDISK_INFORMATION, BOOTDISK_INFORMATION"
+req.typenames: BOOTDISK_INFORMATION, *PBOOTDISK_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -103,11 +103,11 @@ If the system disk is formatted with an MBR partition table, this specifies the 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a>
-
-
-
 <a href="..\wdm\ns-wdm-_bootdisk_information_ex.md">BOOTDISK_INFORMATION_EX</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetbootdiskinformation.md">IoGetBootDiskInformation</a>
 
 
 

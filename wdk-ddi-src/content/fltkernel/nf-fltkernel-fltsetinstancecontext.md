@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ddeeb49b-7c7d-4faa-b2ae-cdb09adebce0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltSetInstanceContext function [Installable File System Drivers], FltSetInstanceContext, FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml, ifsk.fltsetinstancecontext, fltkernel/FltSetInstanceContext
+ms.keywords: fltkernel/FltSetInstanceContext, FltSetInstanceContext function [Installable File System Drivers], FltSetInstanceContext, ifsk.fltsetinstancecontext, FltApiRef_p_to_z_a8984c00-54a9-427c-b33d-829b1db55149.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -203,19 +203,19 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeleteinstancecontext.md">FltDeleteInstanceContext</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetinstancecontext.md">FltGetInstanceContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 

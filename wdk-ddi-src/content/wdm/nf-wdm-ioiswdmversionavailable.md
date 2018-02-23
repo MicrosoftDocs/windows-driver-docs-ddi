@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 80b72de0-02a6-4891-b74a-c41cb14fa629
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioiswdmversionavailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, IoIsWdmVersionAvailable, wdm/IoIsWdmVersionAvailable
+ms.keywords: wdm/IoIsWdmVersionAvailable, kernel.ioiswdmversionavailable, IoIsWdmVersionAvailable routine [Kernel-Mode Driver Architecture], k104_775d6afa-6edd-4922-bdff-a8fe5d32bc3a.xml, IoIsWdmVersionAvailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

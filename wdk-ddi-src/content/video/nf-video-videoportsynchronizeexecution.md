@@ -7,8 +7,8 @@ old-location: display\videoportsynchronizeexecution.htm
 old-project: display
 ms.assetid: 93c9e4f4-7b36-4815-b762-3ac528ac96ba
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: VideoPortSynchronizeExecution, video/VideoPortSynchronizeExecution, VideoPortSynchronizeExecution function [Display Devices], display.videoportsynchronizeexecution, VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml
+ms.date: 2/22/2018
+ms.keywords: video/VideoPortSynchronizeExecution, display.videoportsynchronizeexecution, VideoPortSynchronizeExecution function [Display Devices], VideoPortSynchronizeExecution, VideoPort_Functions_675225d0-5e49-4ad5-bdaa-f7341b9a96db.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,5 +151,5 @@ Callers of <b>VideoPortSynchronizeExecution</b> must be running at IRQL
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortSynchronizeExecution function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortSynchronizeExecution function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

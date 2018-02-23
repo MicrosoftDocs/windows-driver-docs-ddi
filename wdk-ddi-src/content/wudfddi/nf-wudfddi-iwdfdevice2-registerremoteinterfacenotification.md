@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 48e1fc20-03e7-42ef-b57c-9246a56df4ef
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, umdf.iwdfdevice2_registerremoteinterfacenotification, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification, IWDFDevice2, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, IWDFDevice2::RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method, wdf.iwdfdevice2_registerremoteinterfacenotification
+ms.keywords: IWDFDevice2, RegisterRemoteInterfaceNotification method, IWDFDevice2 interface, IWDFDevice2::RegisterRemoteInterfaceNotification, IWDFDevice2 interface, RegisterRemoteInterfaceNotification method, wudfddi/IWDFDevice2::RegisterRemoteInterfaceNotification, wdf.iwdfdevice2_registerremoteinterfacenotification, UMDFDeviceObjectRef_2629392c-5f58-4e33-be77-3422267c6a4b.xml, umdf.iwdfdevice2_registerremoteinterfacenotification, RegisterRemoteInterfaceNotification, RegisterRemoteInterfaceNotification method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

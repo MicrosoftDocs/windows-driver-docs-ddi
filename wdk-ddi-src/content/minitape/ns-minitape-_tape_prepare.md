@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0bca5849-e0f9-42b2-82f8-aadea2aa01ae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TAPE_PREPARE structure [Storage Devices], PTAPE_PREPARE, storage.tape_prepare, PTAPE_PREPARE structure pointer [Storage Devices], TAPE_PREPARE, *PTAPE_PREPARE, structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml, ntddtape/PTAPE_PREPARE, _TAPE_PREPARE, ntddtape/TAPE_PREPARE
+ms.keywords: TAPE_PREPARE, TAPE_PREPARE structure [Storage Devices], storage.tape_prepare, ntddtape/PTAPE_PREPARE, structs-tape_b563ea19-797c-4df0-a384-7e9c579ee2e9.xml, PTAPE_PREPARE, *PTAPE_PREPARE, _TAPE_PREPARE, ntddtape/TAPE_PREPARE, PTAPE_PREPARE structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TAPE_PREPARE
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_PREPARE, TAPE_PREPARE"
+req.typenames: TAPE_PREPARE, *PTAPE_PREPARE
 ---
 
 # _TAPE_PREPARE structure
@@ -148,11 +148,11 @@ When set to <b>TRUE</b>, indicates that the target device should return status i
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
-
-
-
 <a href="..\ntddtape\ni-ntddtape-ioctl_tape_prepare.md">IOCTL_TAPE_PREPARE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567950">TapeMiniPrepare</a>
 
 
 

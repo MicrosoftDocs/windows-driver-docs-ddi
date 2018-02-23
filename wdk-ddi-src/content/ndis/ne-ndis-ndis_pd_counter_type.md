@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 36DA5A61-2DA4-4CD1-8BA5-74444DC002F0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_pd_counter_type, PDCounterTypeTransmitQueue, ndis/PDCounterTypeTransmitQueue, NDIS_PD_COUNTER_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis/PDCounterTypeReceiveQueue, PDCounterTypeReceiveFilter, ndis/PDCounterTypeMax, PDCounterTypeMax, PDCounterTypeUnknown, ndis/PDCounterTypeUnknown, ndis/NDIS_PD_COUNTER_TYPE, NDIS_PD_COUNTER_TYPE, PDCounterTypeReceiveQueue, ndis/PDCounterTypeReceiveFilter
+ms.keywords: netvista.ndis_pd_counter_type, PDCounterTypeReceiveQueue, ndis/PDCounterTypeUnknown, ndis/PDCounterTypeTransmitQueue, ndis/PDCounterTypeMax, ndis/NDIS_PD_COUNTER_TYPE, NDIS_PD_COUNTER_TYPE, ndis/PDCounterTypeReceiveQueue, ndis/PDCounterTypeReceiveFilter, PDCounterTypeTransmitQueue, PDCounterTypeReceiveFilter, PDCounterTypeMax, NDIS_PD_COUNTER_TYPE enumeration [Network Drivers Starting with Windows Vista], PDCounterTypeUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

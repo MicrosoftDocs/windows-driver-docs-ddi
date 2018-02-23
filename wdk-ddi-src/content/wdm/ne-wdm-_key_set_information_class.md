@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 95a8f683-642c-4f33-9536-08f497567f87
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeyWow64FlagsInformation, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KeySetVirtualizationInformation, KeyControlFlagsInformation, kernel.key_set_information_class, wdm/KeyControlFlagsInformation, wdm/KEY_SET_INFORMATION_CLASS, wdm/KeyWriteTimeInformation, wdm/KeyWow64FlagsInformation, KeyWriteTimeInformation, KeySetHandleTagsInformation, wdm/KeySetHandleTagsInformation, KeySetVirtualizationInformation, MaxKeySetInfoClass, KEY_SET_INFORMATION_CLASS, wdm/MaxKeySetInfoClass, _KEY_SET_INFORMATION_CLASS, KeySetDebugInformation, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/KeySetDebugInformation
+ms.keywords: wdm/KeySetVirtualizationInformation, KeyWriteTimeInformation, KeyWow64FlagsInformation, KeySetDebugInformation, wdm/KeyWriteTimeInformation, wdm/KEY_SET_INFORMATION_CLASS, KeySetHandleTagsInformation, KEY_SET_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], KEY_SET_INFORMATION_CLASS, wdm/KeyControlFlagsInformation, KeySetVirtualizationInformation, MaxKeySetInfoClass, KeyControlFlagsInformation, wdm/MaxKeySetInfoClass, kernel.key_set_information_class, sysenum_b2121228-e221-424c-8e84-cd213d91716b.xml, wdm/KeyWow64FlagsInformation, _KEY_SET_INFORMATION_CLASS, wdm/KeySetDebugInformation, wdm/KeySetHandleTagsInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -123,11 +123,11 @@ A <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">Registr
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_write_time_information.md">KEY_WRITE_TIME_INFORMATION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_write_time_information.md">KEY_WRITE_TIME_INFORMATION</a>
 
 
 

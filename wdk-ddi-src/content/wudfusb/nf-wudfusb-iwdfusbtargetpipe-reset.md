@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8d42dd60-a032-4486-87e0-2204e833035b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfusbtargetpipe_reset, wudfusb/IWDFUsbTargetPipe::Reset, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, Reset method, Reset method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_reset, Reset method, Reset, IWDFUsbTargetPipe::Reset, UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml
+ms.keywords: UMDFUSBref_510f6831-e75f-41b6-9637-7400fe89e4d3.xml, umdf.iwdfusbtargetpipe_reset, IWDFUsbTargetPipe, Reset method, Reset, wdf.iwdfusbtargetpipe_reset, Reset method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::Reset, IWDFUsbTargetPipe interface, Reset method, IWDFUsbTargetPipe::Reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.Reset
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -135,11 +135,11 @@ For more information about how <b>Reset</b> works, see the <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540300">WinUsb_ResetPipe</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 

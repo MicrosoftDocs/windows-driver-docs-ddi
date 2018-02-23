@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2texturestagestate.htm
 old-project: display
 ms.assetid: 32a671e9-6a31-483f-881d-1c7938dc9405
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_D3DHAL_DP2TEXTURESTAGESTATE, display.d3dhal_dp2texturestagestate, D3DHAL_DP2TEXTURESTAGESTATE, *LPD3DHAL_DP2TEXTURESTAGESTATE, d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE, d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices], D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices], d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE"
+ms.date: 2/22/2018
+ms.keywords: d3dhal/LPD3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE structure pointer [Display Devices], _D3DHAL_DP2TEXTURESTAGESTATE, d3dhal/D3DHAL_DP2TEXTURESTAGESTATE, display.d3dhal_dp2texturestagestate, d3dstrct_3cecbef0-387e-4ec1-aa67-2a6e84b7c78a.xml, *LPD3DHAL_DP2TEXTURESTAGESTATE, LPD3DHAL_DP2TEXTURESTAGESTATE, D3DHAL_DP2TEXTURESTAGESTATE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,10 +103,6 @@ The following figure shows a portion of a sample command buffer containing a D3D
 
 ## -see-also
 
-D3DDP2OP_TEXTURESTAGESTATE
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2command.md">D3DHAL_DP2COMMAND</a>
 
 
@@ -115,9 +111,13 @@ D3DDP2OP_TEXTURESTAGESTATE
 
 
 
- 
+D3DDP2OP_TEXTURESTAGESTATE
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TEXTURESTAGESTATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2TEXTURESTAGESTATE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

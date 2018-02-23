@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 81aa5707-b614-429b-bd8e-0204eec74e0f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.netdmaisr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml, NetDmaIsr, NetDmaIsr function [Network Drivers Starting with Windows Vista], netdma/NetDmaIsr
+ms.keywords: NetDmaIsr function [Network Drivers Starting with Windows Vista], NetDmaIsr, netvista.netdmaisr, netdma/NetDmaIsr, netdma_ref_5a9b1659-b106-4eed-931d-f2ad8b2476e9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

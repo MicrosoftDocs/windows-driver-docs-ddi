@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: CC199F5C-BF05-4F1F-BEE4-8693F9156D8A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, buses.udecxwdfdevicetryhandleuserioctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl
+ms.keywords: UdecxWdfDeviceTryHandleUserIoctl, UdecxWdfDeviceTryHandleUserIoctl function [Buses], udecxwdfdevice/UdecxWdfDeviceTryHandleUserIoctl, buses.udecxwdfdevicetryhandleuserioctl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

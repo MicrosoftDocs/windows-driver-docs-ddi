@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 199a3003-a7dd-48a3-aa76-550332be26f3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPREFETCH_OPEN_ECP_CONTEXT, PREFETCH_OPEN_ECP_CONTEXT, PPREFETCH_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], ECP_Structures_bd946e05-ef42-4fcc-93f8-bf96b6440817.xml, ifsk.prefetch_open_ecp_context, _PREFETCH_OPEN_ECP_CONTEXT, *PPREFETCH_OPEN_ECP_CONTEXT, ntifs/PREFETCH_OPEN_ECP_CONTEXT, PREFETCH_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ntifs/PPREFETCH_OPEN_ECP_CONTEXT
+ms.keywords: PREFETCH_OPEN_ECP_CONTEXT, ntifs/PREFETCH_OPEN_ECP_CONTEXT, PPREFETCH_OPEN_ECP_CONTEXT, PREFETCH_OPEN_ECP_CONTEXT structure [Installable File System Drivers], ECP_Structures_bd946e05-ef42-4fcc-93f8-bf96b6440817.xml, _PREFETCH_OPEN_ECP_CONTEXT, ifsk.prefetch_open_ecp_context, PPREFETCH_OPEN_ECP_CONTEXT structure pointer [Installable File System Drivers], *PPREFETCH_OPEN_ECP_CONTEXT, ntifs/PPREFETCH_OPEN_ECP_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

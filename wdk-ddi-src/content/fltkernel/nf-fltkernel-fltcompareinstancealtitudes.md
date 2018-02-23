@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aed86b34-4a9e-4c39-be0f-fa57829fa926
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltcompareinstancealtitudes, fltkernel/FltCompareInstanceAltitudes, FltCompareInstanceAltitudes function [Installable File System Drivers], FltApiRef_a_to_d_5f6cccb8-671c-495a-9c18-c262d4845105.xml, FltCompareInstanceAltitudes
+ms.keywords: ifsk.fltcompareinstancealtitudes, FltCompareInstanceAltitudes function [Installable File System Drivers], FltCompareInstanceAltitudes, fltkernel/FltCompareInstanceAltitudes, FltApiRef_a_to_d_5f6cccb8-671c-495a-9c18-c262d4845105.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,11 +154,11 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltattachvolumeataltitude.md">FltAttachVolumeAtAltitude</a>
 
 
 

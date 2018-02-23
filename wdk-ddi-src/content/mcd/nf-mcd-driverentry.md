@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f756e66b-7e66-4a27-9327-70608207d99b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DriverEntry, storage.driverentry, DriverEntry routine [Storage Devices], wdm/DriverEntry, atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml
+ms.keywords: wdm/DriverEntry, storage.driverentry, atartns_b300b119-8261-4daf-8155-c9da17cb519a.xml, DriverEntry, DriverEntry routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ The return values for this routine are recommended to mirror the return values o
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550140">AtaAdapterControl</a>
-
-
-
 <a href="..\irb\nf-irb-ataportinitializeex.md">AtaPortInitializeEx</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550140">AtaAdapterControl</a>
 
 
 

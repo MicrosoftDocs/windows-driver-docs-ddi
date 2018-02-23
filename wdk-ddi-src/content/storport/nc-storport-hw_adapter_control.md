@@ -561,7 +561,7 @@ The size of this structure.
 </dd>
 <dt><a id="IoResourceRequirementsList"></a><a id="ioresourcerequirementslist"></a><a id="IORESOURCEREQUIREMENTSLIST"></a><b>IoResourceRequirementsList</b></dt>
 <dd>
-The IO resource requirements list. For more information see the <a href="..\miniport\ns-miniport-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a> structure.
+The IO resource requirements list. For more information see the <a href="..\wdm\ns-wdm-_io_resource_requirements_list.md">IO_RESOURCE_REQUIREMENTS_LIST</a> structure.
 
 </dd>
 </dl>
@@ -1004,23 +1004,9 @@ The <b>HW_ADAPTER_CONTROL</b> function type is defined in the Storport.h header 
 
 
 
-To define an <b>HwStorAdapterControl</b> callback function, you must first provide a function declaration that identifies the type of callback function you’re defining. Windows provides a set of callback function types for drivers. Declaring a function using the callback function types helps <a href="https://msdn.microsoft.com/2F3549EF-B50F-455A-BDC7-1F67782B8DCA">Code Analysis for Drivers</a>, <a href="https://msdn.microsoft.com/74feeb16-387c-4796-987a-aff3fb79b556">Static Driver Verifier</a> (SDV), and other verification tools find errors, and it’s a requirement for writing drivers for the Windows operating system.
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-
-
-
-
+## -see-also
 
 <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a>
-
-
-
-<a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
-
-
-
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
 
 
 
@@ -1028,9 +1014,15 @@ To define an <b>HwStorAdapterControl</b> callback function, you must first provi
 
 
 
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
 
 
 <a href="..\storport\nf-storport-storportsetbusdatabyoffset.md">StorPortSetBusDataByOffset</a>
+
+
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 

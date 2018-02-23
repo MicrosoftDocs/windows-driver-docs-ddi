@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f715d45c-30e1-414f-907c-9ad1203ca604
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-Fibre_b19a2c46-204e-4500-a4ed-9e3949941093.xml, PHBA_FCPBINDING2 structure pointer [Storage Devices], HBA_FCPBinding2 structure [Storage Devices], HBA_FCPBINDING2 structure [Storage Devices], PHBA_FCPBINDING2, HBA_FCPBinding2, storage.hba_fcpbinding2, hbaapi/HBA_FCPBinding2, HBA_FCPBINDING2, *PHBA_FCPBINDING2, hbaapi/PHBA_FCPBINDING2
+ms.keywords: HBA_FCPBINDING2, PHBA_FCPBINDING2 structure pointer [Storage Devices], HBA_FCPBINDING2 structure [Storage Devices], structs-Fibre_b19a2c46-204e-4500-a4ed-9e3949941093.xml, *PHBA_FCPBINDING2, PHBA_FCPBINDING2, HBA_FCPBinding2, hbaapi/PHBA_FCPBINDING2, hbaapi/HBA_FCPBinding2, HBA_FCPBinding2 structure [Storage Devices], storage.hba_fcpbinding2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FCPBINDING2
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_FCPBINDING2, HBA_FCPBINDING2"
+req.typenames: HBA_FCPBINDING2, *PHBA_FCPBINDING2
 ---
 
 # HBA_FCPBinding2 structure

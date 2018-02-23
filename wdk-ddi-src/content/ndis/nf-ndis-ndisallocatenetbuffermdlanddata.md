@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cfac9061-a685-4e67-aaa2-ca43b7e36cfa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisAllocateNetBufferMdlAndData function [Network Drivers Starting with Windows Vista], netvista.ndisallocatenetbuffermdlanddata, ndis/NdisAllocateNetBufferMdlAndData, NdisAllocateNetBufferMdlAndData, ndis_netbuf_functions_ref_4f5d872d-11c1-4d75-889c-0c2157ce5f2e.xml
+ms.keywords: NdisAllocateNetBufferMdlAndData function [Network Drivers Starting with Windows Vista], ndis/NdisAllocateNetBufferMdlAndData, netvista.ndisallocatenetbuffermdlanddata, NdisAllocateNetBufferMdlAndData, ndis_netbuf_functions_ref_4f5d872d-11c1-4d75-889c-0c2157ce5f2e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisAllocateNetBufferMdlAndData
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisAllocateNetBufferMdlAndData function
@@ -113,15 +113,15 @@ To free the NET_BUFFER and associated information, call the
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisfreenetbuffer.md">NdisFreeNetBuffer</a>
 
 
 
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatenetbuffer.md">NdisAllocateNetBuffer</a>
 
 
 

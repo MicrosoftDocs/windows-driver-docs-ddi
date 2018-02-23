@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0b59056c-6e73-4078-b8b3-32ced29ff7b0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, KeInitializeEvent, wdm/KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture], kernel.keinitializeevent
+ms.keywords: kernel.keinitializeevent, k105_cc0b9273-d817-4853-b8ee-2337f53585f1.xml, wdm/KeInitializeEvent, KeInitializeEvent, KeInitializeEvent routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,15 +111,11 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+
+
+
 <a href="..\wdm\nf-wdm-kereadstateevent.md">KeReadStateEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 
@@ -131,7 +127,11 @@ For more information about event objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kesetevent.md">KeSetEvent</a>
+<a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-kewaitformultipleobjects.md">KeWaitForMultipleObjects</a>
 
 
 

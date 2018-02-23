@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 617450AB-6AC8-485A-BD88-377F903EEE15
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionFromDevice, SpbTransferDirectionNone, SpbTransferDirectionMax, spb/SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionToDevice, SpbTransferDirectionToDevice, spb/SpbTransferDirectionNone, SPB.spb_transfer_direction, SPB_TRANSFER_DIRECTION, spb/SpbTransferDirectionMax, spb/SpbTransferDirectionFromDevice, *PSPB_TRANSFER_DIRECTION
+ms.keywords: "*PSPB_TRANSFER_DIRECTION, SpbTransferDirectionNone, SPB_TRANSFER_DIRECTION enumeration [Buses], SpbTransferDirectionMax, spb/SpbTransferDirectionNone, SPB.spb_transfer_direction, spb/SpbTransferDirectionMax, spb/SpbTransferDirectionFromDevice, SpbTransferDirectionToDevice, SPB_TRANSFER_DIRECTION, spb/SPB_TRANSFER_DIRECTION, SpbTransferDirectionFromDevice, spb/SpbTransferDirectionToDevice"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -108,19 +108,7 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
 
 
 
@@ -128,19 +116,31 @@ A lock (<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">I
 
 
 
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406223">SPB_TRANSFER_LIST_ENTRY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450857">IOCTL_SPB_EXECUTE_SEQUENCE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450859">IOCTL_SPB_UNLOCK_CONTROLLER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450922">SpbRequestGetParameters</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450858">IOCTL_SPB_LOCK_CONTROLLER</a>
 
 
 

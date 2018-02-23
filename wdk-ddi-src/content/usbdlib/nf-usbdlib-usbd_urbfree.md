@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: DD80BAA0-EC01-4231-827A-962580D1E201
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_UrbFree routine [Buses], buses.usbd_urbfree, usbdlib/USBD_UrbFree, USBD_UrbFree
+ms.keywords: usbdlib/USBD_UrbFree, buses.usbd_urbfree, USBD_UrbFree, USBD_UrbFree routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,11 +105,11 @@ For a code example, see <a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_urballocate.md">USBD_UrbAllocate</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b0f4fc9-58fd-46ba-be17-2e1b36b16caa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoGetPagingIoPriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], wdm/IoGetPagingIoPriority, k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority
+ms.keywords: IoGetPagingIoPriority, k104_cde35790-d059-44bb-85c5-abde7cb36319.xml, kernel.iogetpagingiopriority, IoGetPagingIoPriority routine [Kernel-Mode Driver Architecture], wdm/IoGetPagingIoPriority
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoGetPagingIoPriority
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetPagingIoPriority function

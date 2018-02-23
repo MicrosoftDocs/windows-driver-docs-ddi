@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8AE36F8C-F7FA-4291-A244-3664CCBB8073
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtldecompressbufferex2, RtlDecompressBufferEx2 function [Installable File System Drivers], RtlDecompressBufferEx2, COMPRESSION_FORMAT_NONE, COMPRESSION_FORMAT_XPRESS_HUFF, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_DEFAULT, ntifs/RtlDecompressBufferEx2
+ms.keywords: COMPRESSION_FORMAT_XPRESS_HUFF, RtlDecompressBufferEx2 function [Installable File System Drivers], COMPRESSION_FORMAT_NONE, ntifs/RtlDecompressBufferEx2, ifsk.rtldecompressbufferex2, COMPRESSION_FORMAT_LZNT1, COMPRESSION_FORMAT_DEFAULT, RtlDecompressBufferEx2, COMPRESSION_FORMAT_XPRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -270,7 +270,7 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
 
 
 
@@ -278,7 +278,7 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex.md">RtlDecompressBufferEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
 
 
 
@@ -286,7 +286,7 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressfragment.md">RtlDecompressFragment</a>
 
 
 

@@ -4,11 +4,11 @@ title: IDebugSymbols::GetNumberModules method
 author: windows-driver-content
 description: The GetNumberModules method returns the number of modules in the current process's module list.
 old-location: debugger\getnumbermodules.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: e74a4e51-0e3b-4d16-b39c-379dfb3905ad
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbols3::GetNumberModules, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, GetNumberModules method [Windows Debugging], IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, dbgeng/IDebugSymbols::GetNumberModules, GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], GetNumberModules method, dbgeng/IDebugSymbols3::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetNumberModules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols, IDebugSymbols::GetNumberModules, debugger.getnumbermodules, dbgeng/IDebugSymbols2::GetNumberModules
+ms.date: 2/22/2018
+ms.keywords: IDebugSymbols3::GetNumberModules, IDebugSymbols interface [Windows Debugging], GetNumberModules method, GetNumberModules method [Windows Debugging], IDebugSymbols interface, IDebugSymbols2 interface [Windows Debugging], GetNumberModules method, IDebugSymbols3 interface [Windows Debugging], GetNumberModules method, dbgeng/IDebugSymbols::GetNumberModules, IDebugSymbols::GetNumberModules, IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols2::GetNumberModules, dbgeng/IDebugSymbols3::GetNumberModules, IDebugSymbols, IDebugSymbols_151a5c5e-ec01-4801-9ba2-86f26506410c.xml, GetNumberModules method [Windows Debugging], debugger.getnumbermodules, GetNumberModules method [Windows Debugging], IDebugSymbols3 interface, GetNumberModules method [Windows Debugging], IDebugSymbols2 interface, GetNumberModules
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -143,5 +143,5 @@ For more information about modules, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetNumberModules method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetNumberModules method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -115,19 +115,14 @@ Because of  status code propagation from other APIs, the <b>Status</b> field can
 
 
 
+#### -STATUS_SUCCESS
+
+The request completed successfully.
+
+
 #### -STATUS_INFO_LENGTH_MISMATCH
 
 The input buffer length is smaller than required.
-
-
-#### -STATUS_INVALID_DEVICE_REQUEST
-
-The requested streaming mode is not supported.
-
-
-#### -STATUS_INVALID_HANDLE
-
-Cannot find the file object context in the request.
 
 
 #### -STATUS_INVALID_PARAMETER
@@ -135,9 +130,14 @@ Cannot find the file object context in the request.
 The request type is not one of the four in types defined in the <b>STREAMING_CONTROL_REQUEST_TYPE</b> enumeration.
 
 
-#### -STATUS_SUCCESS
+#### -STATUS_INVALID_HANDLE
 
-The request completed successfully.
+Cannot find the file object context in the request.
+
+
+#### -STATUS_INVALID_DEVICE_REQUEST
+
+The requested streaming mode is not supported.
 
 
 ## -remarks
@@ -152,11 +152,11 @@ By default, streaming is disabled for all newly opened raw CDROM handles. A play
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
-
-
-
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_streaming_control.md">CDROM_STREAMING_CONTROL</a>
+
+
+
+<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
 
 
 

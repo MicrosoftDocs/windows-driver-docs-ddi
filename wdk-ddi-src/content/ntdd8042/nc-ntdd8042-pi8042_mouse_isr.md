@@ -40,7 +40,7 @@ apiname:
 -	MouseIsr
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_VirtualFibrePortAttributes, MSFC_VirtualFibrePortAttributes"
+req.typenames: MSFC_VirtualFibrePortAttributes, *PMSFC_VirtualFibrePortAttributes
 ---
 
 # PI8042_MOUSE_ISR callback
@@ -151,11 +151,11 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 
 
-<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
-
-
-
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+
+
+<a href="..\ntdd8042\ne-ntdd8042-_mouse_state.md">MOUSE_STATE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 838c2371-c1f3-4415-a624-fab1d8c15d0d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/ISCSI_LOGINTARGET_DATA, iscsiop/PLOGINSESSIONTYPE, storage.loginsessiontype, iscsiop/LOGINSESSIONTYPE, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml, LOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, *PLOGINSESSIONTYPE, ISCSI_LOGINTARGET_DATA, LOGINSESSIONTYPE enumeration [Storage Devices], PLOGINSESSIONTYPE enumeration pointer [Storage Devices], PLOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, ISCSI_LOGINTARGET_DISCOVERY, ISCSI_LOGINTARGET_INFORMATIONAL
+ms.keywords: iscsiop/PLOGINSESSIONTYPE, ISCSI_LOGINTARGET_DATA, ISCSI_LOGINTARGET_INFORMATIONAL, iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, ISCSI_LOGINTARGET_DISCOVERY, iscsiop/ISCSI_LOGINTARGET_DATA, *PLOGINSESSIONTYPE, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml, LOGINSESSIONTYPE, storage.loginsessiontype, PLOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, iscsiop/LOGINSESSIONTYPE, LOGINSESSIONTYPE enumeration [Storage Devices], PLOGINSESSIONTYPE enumeration pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	LOGINSESSIONTYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PLOGINSESSIONTYPE, LOGINSESSIONTYPE"
+req.typenames: LOGINSESSIONTYPE, *PLOGINSESSIONTYPE
 ---
 
 # *PLOGINSESSIONTYPE enumeration

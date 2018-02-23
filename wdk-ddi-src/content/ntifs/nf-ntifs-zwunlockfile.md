@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dca3023b-99d5-471a-a5a2-8453c367ce9b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwunlockfile, ZwUnlockFile, ntifs/NtUnlockFile, ntifs/ZwUnlockFile, k111_a77fe0ba-5252-4441-aaad-67d2bbae01cb.xml, NtUnlockFile, ZwUnlockFile routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwUnlockFile routine [Kernel-Mode Driver Architecture], ntifs/NtUnlockFile, kernel.zwunlockfile, NtUnlockFile, ntifs/ZwUnlockFile, ZwUnlockFile, k111_a77fe0ba-5252-4441-aaad-67d2bbae01cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,11 +142,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-zwlockfile.md">ZwLockFile</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-zwlockfile.md">ZwLockFile</a>
 
 
 

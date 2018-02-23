@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 1376CB84-05F6-4903-B245-A00CFA9B228E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ucmconnectorcreate, ucmmanager/UcmConnectorCreate, UcmConnectorCreate method [Buses], UcmConnectorCreate
+ms.keywords: ucmmanager/UcmConnectorCreate, buses.ucmconnectorcreate, UcmConnectorCreate method [Buses], UcmConnectorCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

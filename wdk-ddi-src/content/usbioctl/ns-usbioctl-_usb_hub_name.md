@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: c213d811-a690-41b4-bed1-ec9890e8be46
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUSB_HUB_NAME, PUSB_HUB_NAME structure pointer [Buses], USB_HUB_NAME structure [Buses], usbioctl/PUSB_HUB_NAME, usbstrct_d20b3e12-7b5c-408d-929e-2d781a765f56.xml, USB_HUB_NAME, *PUSB_HUB_NAME, _USB_HUB_NAME, usbioctl/USB_HUB_NAME, buses.usb_hub_name
+ms.keywords: USB_HUB_NAME structure [Buses], *PUSB_HUB_NAME, PUSB_HUB_NAME structure pointer [Buses], _USB_HUB_NAME, PUSB_HUB_NAME, buses.usb_hub_name, usbioctl/USB_HUB_NAME, usbstrct_d20b3e12-7b5c-408d-929e-2d781a765f56.xml, usbioctl/PUSB_HUB_NAME, USB_HUB_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

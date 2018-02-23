@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 284BAFE1-C632-428D-800C-60C538052C02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PPEP_PPM_IS_PROCESSOR_HALTED, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED, _PEP_PPM_IS_PROCESSOR_HALTED, pepfx/PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture], PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], kernel.pep_ppm_is_processor_halted, PEP_PPM_IS_PROCESSOR_HALTED"
+ms.keywords: PPEP_PPM_IS_PROCESSOR_HALTED structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_IS_PROCESSOR_HALTED structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_IS_PROCESSOR_HALTED, _PEP_PPM_IS_PROCESSOR_HALTED, PPEP_PPM_IS_PROCESSOR_HALTED, kernel.pep_ppm_is_processor_halted, PEP_PPM_IS_PROCESSOR_HALTED, pepfx/PEP_PPM_IS_PROCESSOR_HALTED, *PPEP_PPM_IS_PROCESSOR_HALTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_IS_PROCESSOR_HALTED
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_IS_PROCESSOR_HALTED, PEP_PPM_IS_PROCESSOR_HALTED"
+req.typenames: PEP_PPM_IS_PROCESSOR_HALTED, *PPEP_PPM_IS_PROCESSOR_HALTED
 ---
 
 # _PEP_PPM_IS_PROCESSOR_HALTED structure

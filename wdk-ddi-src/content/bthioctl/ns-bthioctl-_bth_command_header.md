@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: 2ed2196f-a966-4766-9acd-f0beca20ed26
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices], bltooth.bth_command_header, _BTH_COMMAND_HEADER, bthioctl/BTH_COMMAND_HEADER, PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER structure [Bluetooth Devices], *PBTH_COMMAND_HEADER, bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml
+ms.keywords: bth_ref_cfbf5d5d-0362-4b8d-9f64-c9f1ad20284b.xml, PBTH_COMMAND_HEADER structure pointer [Bluetooth Devices], BTH_COMMAND_HEADER, bthioctl/BTH_COMMAND_HEADER, bthioctl/PBTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER, bltooth.bth_command_header, _BTH_COMMAND_HEADER, BTH_COMMAND_HEADER structure [Bluetooth Devices], PBTH_COMMAND_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_COMMAND_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_COMMAND_HEADER, BTH_COMMAND_HEADER"
+req.typenames: BTH_COMMAND_HEADER, *PBTH_COMMAND_HEADER
 ---
 
 # _BTH_COMMAND_HEADER structure
@@ -97,11 +97,11 @@ The BTH_COMMAND_HEADER structure specifies header information in the
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
-
-
-
 <a href="..\bthioctl\ns-bthioctl-_bth_vendor_specific_command.md">BTH_VENDOR_SPECIFIC_COMMAND</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_hci_vendor_command.md">IOCTL_BTH_HCI_VENDOR_COMMAND</a>
 
 
 

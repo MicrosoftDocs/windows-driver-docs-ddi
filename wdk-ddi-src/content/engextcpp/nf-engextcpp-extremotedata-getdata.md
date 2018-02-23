@@ -4,11 +4,11 @@ title: ExtRemoteData::GetData method
 author: windows-driver-content
 description: The GetData method returns the contents of the target's memory, represented by the ExtRemoteData object.
 old-location: debugger\extremotedata_getdata.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: a68e528a-c456-4bf2-8e6b-fb5c060c58fb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetData, GetData method [Windows Debugging], ExtRemoteData class [Windows Debugging], GetData method, ExtRemoteData::GetData, ExtRemoteData, EngExtCpp_Ref_a440fb76-5d7c-4e77-9d1e-61c0b7002493.xml, debugger.extremotedata_getdata, GetData method [Windows Debugging], ExtRemoteData class
+ms.date: 2/22/2018
+ms.keywords: debugger.extremotedata_getdata, GetData method [Windows Debugging], ExtRemoteData class, GetData, ExtRemoteData, ExtRemoteData::GetData, GetData method [Windows Debugging], EngExtCpp_Ref_a440fb76-5d7c-4e77-9d1e-61c0b7002493.xml, ExtRemoteData class [Windows Debugging], GetData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,11 +94,11 @@ A number of convenience methods are available for various primitive types. These
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
+<a href="https://msdn.microsoft.com/f8645e92-659f-42b8-a850-49a434ec2a67">GetDouble</a>
 
 
 
-<a href="https://msdn.microsoft.com/f6a55181-7e1a-4af0-ac45-1991c42cdc87">GetStdBool</a>
+<a href="https://msdn.microsoft.com/1a3a870b-9f50-4430-b4f4-6d877d2fac3e">GetUlongPtr</a>
 
 
 
@@ -106,19 +106,11 @@ A number of convenience methods are available for various primitive types. These
 
 
 
+<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
+
+
+
 <a href="https://msdn.microsoft.com/5e364e83-76db-44b0-b5bc-15eed53bbbdf">GetShort</a>
-
-
-
-<a href="https://msdn.microsoft.com/f9778881-9b53-49c5-9fe8-80f9a866b9af">GetPtr</a>
-
-
-
-<a href="https://msdn.microsoft.com/bf916e7c-f03b-4d02-8260-bc90e8957cc9">GetChar</a>
-
-
-
-<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
 
 
 
@@ -126,11 +118,11 @@ A number of convenience methods are available for various primitive types. These
 
 
 
-<a href="https://msdn.microsoft.com/f2781f6b-cc3e-427c-8181-908639613270">GetFloat</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj983420">GetUlong</a>
 
 
 
-<a href="https://msdn.microsoft.com/7a580683-ae56-4566-95b4-b4d42ae0e1ab">GetBoolean</a>
+<a href="https://msdn.microsoft.com/064f50e7-bae8-4c29-9802-47efdb749652">GetLong</a>
 
 
 
@@ -142,15 +134,11 @@ A number of convenience methods are available for various primitive types. These
 
 
 
-<a href="https://msdn.microsoft.com/1a3a870b-9f50-4430-b4f4-6d877d2fac3e">GetUlongPtr</a>
+<a href="https://msdn.microsoft.com/bf916e7c-f03b-4d02-8260-bc90e8957cc9">GetChar</a>
 
 
 
-<a href="..\engextcpp\nl-engextcpp-extremotedata.md">ExtRemoteData</a>
-
-
-
-<a href="https://msdn.microsoft.com/a17812f5-4e20-4793-9352-3cabed25a6da">GetW32Bool</a>
+<a href="https://msdn.microsoft.com/f9778881-9b53-49c5-9fe8-80f9a866b9af">GetPtr</a>
 
 
 
@@ -162,11 +150,7 @@ A number of convenience methods are available for various primitive types. These
 
 
 
-<a href="https://msdn.microsoft.com/f8645e92-659f-42b8-a850-49a434ec2a67">GetDouble</a>
-
-
-
-<a href="https://msdn.microsoft.com/064f50e7-bae8-4c29-9802-47efdb749652">GetLong</a>
+<a href="https://msdn.microsoft.com/50b4bee4-3a8c-45a1-9a3f-b416aa8a19e5">ExtRemoteData::Set(Offset Bytes)</a>
 
 
 
@@ -174,9 +158,25 @@ A number of convenience methods are available for various primitive types. These
 
 
 
- 
+<a href="https://msdn.microsoft.com/f6a55181-7e1a-4af0-ac45-1991c42cdc87">GetStdBool</a>
+
+
+
+<a href="https://msdn.microsoft.com/7a580683-ae56-4566-95b4-b4d42ae0e1ab">GetBoolean</a>
+
+
+
+<a href="https://msdn.microsoft.com/f2781f6b-cc3e-427c-8181-908639613270">GetFloat</a>
+
+
+
+<a href="https://msdn.microsoft.com/a17812f5-4e20-4793-9352-3cabed25a6da">GetW32Bool</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20ExtRemoteData.GetData method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20ExtRemoteData.GetData method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

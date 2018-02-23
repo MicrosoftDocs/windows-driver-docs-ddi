@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9E9AB3E0-EBDC-4EC3-BFBF-C78EE56BD699
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxbase/USBFN_ACTION, ufxbase/UsbfnActionDetectProprietaryCharger, buses.usbfn_action, UsbfnActionNone, ufxbase/UsbfnActionNoCad, _USBFN_ACTION, ufxbase/UsbfnActionNone, USBFN_ACTION, UsbfnActionDetectProprietaryCharger, USBFN_ACTION enumeration [Buses], UsbfnActionNoCad, *PUSBFN_ACTION
+ms.keywords: "*PUSBFN_ACTION, UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNoCad, UsbfnActionNoCad, ufxbase/UsbfnActionDetectProprietaryCharger, ufxbase/UsbfnActionNone, UsbfnActionNone, buses.usbfn_action, USBFN_ACTION enumeration [Buses], _USBFN_ACTION, ufxbase/USBFN_ACTION, USBFN_ACTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

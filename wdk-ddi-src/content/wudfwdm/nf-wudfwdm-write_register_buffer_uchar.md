@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.write_register_buffer_uchar, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_REGISTER_BUFFER_UCHAR, wdm/WRITE_REGISTER_BUFFER_UCHAR, k103_29b68153-db95-4017-ab96-d05e6c984503.xml
+ms.keywords: WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], k103_29b68153-db95-4017-ab96-d05e6c984503.xml, kernel.write_register_buffer_uchar, wdm/WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WRITE_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 

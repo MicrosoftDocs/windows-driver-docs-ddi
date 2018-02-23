@@ -4,10 +4,10 @@ title: IDebugClient5
 author: windows-driver-content
 description: IDebugClient5 interface
 old-location: debugger\idebugclient5.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 4230fbc2-524a-44b1-a090-011e334629a7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: debugger.idebugclient5, IDebugClient5 interface [Windows Debugging], IDebugClient5 interface [Windows Debugging], described, IDebugClient5, dbgeng/IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,6 +59,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient5</b> interface inherits from <a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>. <b>IDebugClient5</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -311,65 +318,7 @@ Starts a debugging server.
 
 </td>
 </tr>
-</table>Connects the debugger engine to a kernel target.
-
-Connects to a process server.
-
-Executes the given command to create a new process. (ANSI version)
-
-Executes the given command to create a new process. (Unicode version)
-
-Creates a process from a specified command line, then attach to that process or another user-mode process. (ANSI version)
-
-Creates a process from a specified command line, then attach to that process or another user-mode process. (Unicode version)
-
-Returns the event callbacks object registered with this client.
-
-Returns a string describing the computer and user this client represents.
-
-Returns the connection options for the current kernel target.
-
-Returns the  number of event callbacks that are interested in the given events.
-
-Returns the number of input callbacks registered over all clients.
-
-Returns the number of output callbacks registered over all clients.
-
-Returns the output callbacks object registered with the client.
-
-
-
-
-
-
-
-Formats and outputs a string describing the computer and user this client represents.
-
-Lists the servers running on a given computer.
-
-
-
-
-
-
-
-Registers an event callbacks object with this client.
-
-Updates some of the connection options for a live kernel target.
-
-Registers an output callbacks object with this client.
-
-
-
-
-
-
-
-Starts a process server.
-
-Starts a debugging server.
-
- 
+</table> 
 
 
 ## -see-also
@@ -382,5 +331,5 @@ Starts a debugging server.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient5 interface%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5 interface%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

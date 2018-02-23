@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 29dcc5c0-0b07-49d7-b2ab-bdac7333baf7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILPHONEBOOKANSOPERATION, ntddrilapitypes/RIL_PHONEBOOK_MAX, RIL_PHONEBOOK_ANSDELETED, RILPHONEBOOKANSOPERATION, RIL_PHONEBOOK_MAX, RIL_PHONEBOOK_ANSMODIFIED, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, netvista.rilphonebookansoperation
+ms.keywords: ntddrilapitypes/RIL_PHONEBOOK_MAX, RIL_PHONEBOOK_MAX, RILPHONEBOOKANSOPERATION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PHONEBOOK_ANSMODIFIED, ntddrilapitypes/RIL_PHONEBOOK_ANSDELETED, ntddrilapitypes/RILPHONEBOOKANSOPERATION, RILPHONEBOOKANSOPERATION, RIL_PHONEBOOK_ANSDELETED, netvista.rilphonebookansoperation, RIL_PHONEBOOK_ANSMODIFIED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

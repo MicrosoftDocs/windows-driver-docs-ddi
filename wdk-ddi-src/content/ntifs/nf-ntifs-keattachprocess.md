@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 1261e65b-c862-4c99-89ed-c222b017272a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml, KeAttachProcess, ifsk.keattachprocess, ntifs/KeAttachProcess, KeAttachProcess function [Installable File System Drivers]
+ms.keywords: ifsk.keattachprocess, ntifs/KeAttachProcess, KeAttachProcess function [Installable File System Drivers], KeAttachProcess, keref_ee648ca5-3597-4caf-9a8c-5e6cc4543964.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

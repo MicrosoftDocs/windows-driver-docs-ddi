@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 24197846-9664-4fc6-8578-5bcaf0e4a71c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_DRIVER_CONFIG structure, WDF_DRIVER_CONFIG, DFDriverObjectRef_89306ddc-557c-4142-a26b-a120acdffed6.xml, kmdf.wdf_driver_config, _WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG, PWDF_DRIVER_CONFIG structure pointer, wdfdriver/PWDF_DRIVER_CONFIG, wdf.wdf_driver_config, wdfdriver/WDF_DRIVER_CONFIG, PWDF_DRIVER_CONFIG
+ms.keywords: wdf.wdf_driver_config, PWDF_DRIVER_CONFIG structure pointer, WDF_DRIVER_CONFIG structure, DFDriverObjectRef_89306ddc-557c-4142-a26b-a120acdffed6.xml, kmdf.wdf_driver_config, PWDF_DRIVER_CONFIG, _WDF_DRIVER_CONFIG, wdfdriver/PWDF_DRIVER_CONFIG, wdfdriver/WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG, WDF_DRIVER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DRIVER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_CONFIG, WDF_DRIVER_CONFIG"
+req.typenames: WDF_DRIVER_CONFIG, *PWDF_DRIVER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -118,19 +118,19 @@ To initialize a WDF_DRIVER_CONFIG structure, drivers must call <a href="..\wdfdr
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
 
 
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 
 <a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_unload.md">EvtDriverUnload</a>
+
+
+
+<a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
 
 
 

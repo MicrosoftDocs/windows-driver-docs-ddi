@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a46a9aff-9bc9-4328-85b2-90f8f80b2e65
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSFC_FC4STATISTICS structure [Storage Devices], MSFC_FC4STATISTICS, PMSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], hbapiwmi/PMSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS, structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml, _MSFC_FC4STATISTICS, storage.msfc_fc4statistics
+ms.keywords: "*PMSFC_FC4STATISTICS, _MSFC_FC4STATISTICS, hbapiwmi/MSFC_FC4STATISTICS, hbapiwmi/PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS, PMSFC_FC4STATISTICS structure pointer [Storage Devices], structs-Fibre_aad92cde-3922-49dd-8473-fefff79e5e2b.xml, storage.msfc_fc4statistics, PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS structure [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FC4STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_FC4STATISTICS, MSFC_FC4STATISTICS"
+req.typenames: MSFC_FC4STATISTICS, *PMSFC_FC4STATISTICS
 ---
 
 # _MSFC_FC4STATISTICS structure
@@ -109,15 +109,15 @@ If an HBA does not support a specific statistic, it shall return the value of -1
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
-
-
-
-<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
-
-
-
 <a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_in.md">GetFC4Statistics_IN</a>
+
+
+
+<a href="..\hbapiwmi\ns-hbapiwmi-_getfc4statistics_out.md">GetFC4Statistics_OUT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553949">GetFC4Statistics</a>
 
 
 

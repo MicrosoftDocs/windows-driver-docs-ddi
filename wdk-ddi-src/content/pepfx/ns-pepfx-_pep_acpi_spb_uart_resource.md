@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3E8C7E47-EFCD-4261-9258-61C6A262287A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PPEP_ACPI_SPB_UART_RESOURCE, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, PEP_ACPI_SPB_UART_RESOURCE, 7, pepfx/PEP_ACPI_SPB_UART_RESOURCE, kernel.pep_acpi_spb_uart_resource, PPEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], 1, 5, 6, _PEP_ACPI_SPB_UART_RESOURCE, 2, 0, 3, 4"
+ms.keywords: 4, 1, _PEP_ACPI_SPB_UART_RESOURCE, pepfx/PEP_ACPI_SPB_UART_RESOURCE, 3, PEP_ACPI_SPB_UART_RESOURCE, *PPEP_ACPI_SPB_UART_RESOURCE, PPEP_ACPI_SPB_UART_RESOURCE structure pointer [Kernel-Mode Driver Architecture], 2, PPEP_ACPI_SPB_UART_RESOURCE, 0, 7, pepfx/PPEP_ACPI_SPB_UART_RESOURCE, 6, 5, PEP_ACPI_SPB_UART_RESOURCE structure [Kernel-Mode Driver Architecture], kernel.pep_acpi_spb_uart_resource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,7 +74,7 @@ typedef struct _PEP_ACPI_SPB_UART_RESOURCE {
 
 ### -field SpbCommon
 
-A <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
+A <a href="..\pep_x\ns-pep_x-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
 
 
 ### -field BaudRate
@@ -255,7 +255,7 @@ Request to Send (RTS)
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
 
 
 

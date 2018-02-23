@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F13C7D8D-C134-432A-904B-7435894B07E5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UdecxEndpointsConfigureTypeDeviceInitialize, UdecxEndpointsConfigureTypeInterfaceSettingChange, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeDeviceConfigurationChange, PUDECX_ENDPOINTS_CONFIGURE_TYPE, PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses], _UDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeEndpointsReleasedOnly, *PUDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, buses.udecx_endpoints_configure_type, udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses]
+ms.keywords: udecxusbdevice/UDECX_ENDPOINTS_CONFIGURE_TYPE, buses.udecx_endpoints_configure_type, UdecxEndpointsConfigureTypeInterfaceSettingChange, UDECX_ENDPOINTS_CONFIGURE_TYPE enumeration [Buses], udecxusbdevice/UdecxEndpointsConfigureTypeDeviceInitialize, UdecxEndpointsConfigureTypeDeviceConfigurationChange, PUDECX_ENDPOINTS_CONFIGURE_TYPE, UdecxEndpointsConfigureTypeDeviceInitialize, udecxusbdevice/UdecxEndpointsConfigureTypeInterfaceSettingChange, *PUDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UdecxEndpointsConfigureTypeEndpointsReleasedOnly, PUDECX_ENDPOINTS_CONFIGURE_TYPE enumeration pointer [Buses], udecxusbdevice/PUDECX_ENDPOINTS_CONFIGURE_TYPE, udecxusbdevice/UdecxEndpointsConfigureTypeDeviceConfigurationChange, UdecxEndpointsConfigureTypeEndpointsReleasedOnly, UDECX_ENDPOINTS_CONFIGURE_TYPE, _UDECX_ENDPOINTS_CONFIGURE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	UDECX_ENDPOINTS_CONFIGURE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PUDECX_ENDPOINTS_CONFIGURE_TYPE, UDECX_ENDPOINTS_CONFIGURE_TYPE"
+req.typenames: UDECX_ENDPOINTS_CONFIGURE_TYPE, *PUDECX_ENDPOINTS_CONFIGURE_TYPE
 req.product: Windows 10 or later.
 ---
 

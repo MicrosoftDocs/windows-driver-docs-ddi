@@ -7,8 +7,8 @@ old-location: stream\ks_seeking_capabilities.htm
 old-project: stream
 ms.assetid: 345ADD1F-2002-4F9C-942C-212CADCF84E5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KS_SEEKING_CanGetCurrentPos, KS_SEEKING_CanPlayBackwards, ks/KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CanSeekForwards, ks/KS_SEEKING_CanGetDuration, KS_SEEKING_CanGetCurrentPos, KS_SEEKING_CanGetStopPos, stream.ks_seeking_capabilities, ks/KS_SEEKING_CAPABILITIES, KS_SEEKING_CanSeekBackwards, ks/KS_SEEKING_CanPlayBackwards, KS_SEEKING_CanGetDuration, KS_SEEKING_CanSeekAbsolute, ks/KS_SEEKING_CanSeekForwards, ks/KS_SEEKING_CanGetStopPos, KS_SEEKING_CAPABILITIES enumeration [Streaming Media Devices], KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanSeekBackwards
+ms.date: 2/22/2018
+ms.keywords: ks/KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CanSeekForwards, ks/KS_SEEKING_CanGetStopPos, ks/KS_SEEKING_CanSeekBackwards, KS_SEEKING_CanSeekBackwards, KS_SEEKING_CanSeekAbsolute, KS_SEEKING_CAPABILITIES enumeration [Streaming Media Devices], ks/KS_SEEKING_CAPABILITIES, ks/KS_SEEKING_CanSeekForwards, KS_SEEKING_CAPABILITIES, KS_SEEKING_CanGetDuration, ks/KS_SEEKING_CanGetDuration, KS_SEEKING_CanPlayBackwards, stream.ks_seeking_capabilities, KS_SEEKING_CanGetStopPos, ks/KS_SEEKING_CanPlayBackwards, KS_SEEKING_CanGetCurrentPos, ks/KS_SEEKING_CanGetCurrentPos
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

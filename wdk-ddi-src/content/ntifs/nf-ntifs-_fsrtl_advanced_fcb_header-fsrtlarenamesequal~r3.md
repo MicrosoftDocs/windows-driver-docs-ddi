@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 4125e210-c3c2-475c-b516-617fca5d3d0e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FsRtlAreNamesEqual, FsRtlAreNamesEqual routine [Installable File System Drivers], ntifs/FsRtlAreNamesEqual, fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, ifsk.fsrtlarenamesequal
+ms.keywords: FsRtlAreNamesEqual routine [Installable File System Drivers], FsRtlAreNamesEqual, fsrtlref_748ea4a2-40a9-47e7-8a7f-f67463082f81.xml, ntifs/FsRtlAreNamesEqual, ifsk.fsrtlarenamesequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

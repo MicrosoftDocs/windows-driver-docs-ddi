@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiCloseAdapter
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_CLOSE_ADAPTER callback
@@ -130,7 +130,7 @@ An appropriate NDIS_STATUS code in the case of a failure.
 
 
 
-<a href="..\dot11wdi\nc-dot11wdi-ndis_wdi_close_adapter_complete.md">CloseAdapterComplete</a>
+<a href="..\dot11wdi\ns-dot11wdi-_ndis_wdi_init_parameters.md">NDIS_WDI_INIT_PARAMETERS</a>
 
 
 

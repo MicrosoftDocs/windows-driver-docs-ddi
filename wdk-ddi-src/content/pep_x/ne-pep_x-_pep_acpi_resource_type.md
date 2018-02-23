@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C67FA5DF-D2E4-4F00-B22F-9218F0012708
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_PEP_ACPI_RESOURCE_TYPE, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture], PepAcpiExtendedIo, pepfx/PepAcpiExtendedIo, PepAcpiGpioInt, PepAcpiGpioIo, pepfx/PepAcpiInterrupt, pepfx/PepAcpiGpioInt, PepAcpiMemory, pepfx/PepAcpiSpbI2c, PepAcpiIoPort, PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiGpioIo, PepAcpiSpbUart, PepAcpiInterrupt, pepfx/PepAcpiSpbUart, PepAcpiSpbSpi, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiMemory, pepfx/PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiExtendedMemory, PepAcpiSpbI2c, PepAcpiExtendedMemory, kernel.pep_acpi_resource_type, pepfx/PepAcpiIoPort"
+ms.keywords: pepfx/PepAcpiIoPort, pepfx/PepAcpiExtendedIo, pepfx/PepAcpiSpbI2c, pepfx/PepAcpiMemory, pepfx/PEP_ACPI_RESOURCE_TYPE, PepAcpiGpioIo, PepAcpiGpioInt, kernel.pep_acpi_resource_type, PepAcpiInterrupt, PepAcpiExtendedMemory, PepAcpiMemory, PepAcpiSpbI2c, PepAcpiSpbSpi, PepAcpiSpbUart, PepAcpiIoPort, pepfx/PepAcpiSpbUart, PepAcpiExtendedIo, pepfx/PepAcpiExtendedMemory, pepfx/PepAcpiInterrupt, pepfx/PepAcpiSpbSpi, pepfx/PepAcpiGpioIo, PEP_ACPI_RESOURCE_TYPE, pepfx/PepAcpiGpioInt, _PEP_ACPI_RESOURCE_TYPE, PEP_ACPI_RESOURCE_TYPE enumeration [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_RESOURCE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: PEP_ACPI_RESOURCE_TYPE
+req.typenames: PEP_ACPI_RESOURCE_TYPE, PEP_ACPI_RESOURCE_TYPE
 ---
 
 # _PEP_ACPI_RESOURCE_TYPE enumeration
@@ -49,7 +49,7 @@ req.typenames: PEP_ACPI_RESOURCE_TYPE
 ## -description
 
 
-The <b>PEP_ACPI_RESOURCE_TYPE</b> enumeration is used to identify the type of ACPI resource that is contained in the <a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a> union. 
+The <b>PEP_ACPI_RESOURCE_TYPE</b> enumeration is used to identify the type of ACPI resource that is contained in the <a href="..\pep_x\ns-pep_x-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a> union. 
 
 
 ## -syntax
@@ -128,11 +128,11 @@ Indicates that the resource is an ACPI extended IO resource.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_request_convert_to_bios_resources.md">PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_resource.md">PEP_ACPI_RESOURCE</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_request_convert_to_bios_resources.md">PEP_ACPI_REQUEST_CONVERT_TO_BIOS_RESOURCES</a>
 
 
 

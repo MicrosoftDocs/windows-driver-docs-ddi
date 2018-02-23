@@ -4,11 +4,11 @@ title: IDebugDataSpaces3::ReadImageNtHeaders method
 author: windows-driver-content
 description: The ReadImageNtHeaders method returns the NT headers for the specified image loaded in the target.
 old-location: debugger\readimagentheaders.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 2735aabf-b8b0-4eb1-89a2-4733d0b346ed
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], ReadImageNtHeaders, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, debugger.readimagentheaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces4::ReadImageNtHeaders, debugger.readimagentheaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces3, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3::ReadImageNtHeaders
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiTxSendCompleteIndication
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_TX_SEND_COMPLETE_IND callback
@@ -126,7 +126,7 @@ A TX completion with a frame with <b>WDI_TxFrameStatus_SendPostponed</b> is iden
 
 ## -see-also
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a>
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_complete_data.md">WDI_TX_COMPLETE_DATA</a>
 
 
 
@@ -138,7 +138,7 @@ A TX completion with a frame with <b>WDI_TxFrameStatus_SendPostponed</b> is iden
 
 
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_tx_complete_data.md">WDI_TX_COMPLETE_DATA</a>
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_tx_frame_status.md">WDI_TX_FRAME_STATUS</a>
 
 
 

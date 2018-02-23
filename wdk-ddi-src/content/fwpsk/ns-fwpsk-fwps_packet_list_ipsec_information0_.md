@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: bd005dd9-887a-4323-9816-e4a3b96ca53d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FWPS_PACKET_LIST_IPSEC_INFORMATION0, wfp_ref_3_struct_3_fwps_P-Z_066086e3-4389-4449-b47a-ad9661eef344.xml, FWPS_PACKET_LIST_IPSEC_INFORMATION0, netvista.fwps_packet_list_ipsec_information0, FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_IPSEC_INFORMATION0_
+ms.keywords: FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure [Network Drivers Starting with Windows Vista], FWPS_PACKET_LIST_IPSEC_INFORMATION0_, wfp_ref_3_struct_3_fwps_P-Z_066086e3-4389-4449-b47a-ad9661eef344.xml, FWPS_PACKET_LIST_IPSEC_INFORMATION0, netvista.fwps_packet_list_ipsec_information0, fwpsk/FWPS_PACKET_LIST_IPSEC_INFORMATION0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -107,12 +107,12 @@ A FWPS_PACKET_LIST_IPSEC_INFORMATION0 structure is included as a member of the
 
 ## -see-also
 
-<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
-
-
-
 <a href="..\fwpsk\ns-fwpsk-fwps_packet_list_inbound_ipsec_information0_.md">
    FWPS_PACKET_LIST_INBOUND_IPSEC_INFORMATION0</a>
+
+
+
+<a href="..\fwpsk\ns-fwpsk-fwps_packet_list_information0_.md">FWPS_PACKET_LIST_INFORMATION0</a>
 
 
 

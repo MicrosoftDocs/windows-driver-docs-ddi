@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 Defines operations that control <b>WDTF</b> objects within a test script.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFCONFIG2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWDTFCONFIG2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFCONFIG2</b> interface has these methods.
@@ -97,15 +104,7 @@ Enables object logging for all objects.
 
 </td>
 </tr>
-</table>Disables object error logging for all objects.
-
-Disables object logging for all objects.
-
-Enables object error logging for all objects.
-
-Enables object logging for all objects.
-
- 
+</table> 
 
 
 ## -remarks

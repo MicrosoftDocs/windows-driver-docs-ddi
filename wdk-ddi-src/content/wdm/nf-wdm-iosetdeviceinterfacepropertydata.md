@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 346F6FEC-7E06-4DF0-A304-88BD830C591B
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iosetdeviceinterfacepropertydata, IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], wdm/IoSetDeviceInterfacePropertyData, IoSetDeviceInterfacePropertyData
+ms.keywords: IoSetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], IoSetDeviceInterfacePropertyData, wdm/IoSetDeviceInterfacePropertyData, kernel.iosetdeviceinterfacepropertydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

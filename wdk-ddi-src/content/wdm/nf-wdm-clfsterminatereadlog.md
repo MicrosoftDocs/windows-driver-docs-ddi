@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 47633903-0314-4d50-8dd5-ddb0eb934e09
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ClfsTerminateReadLog, kernel.clfsterminatereadlog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture], ClfsTerminateReadLog, Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml
+ms.keywords: ClfsTerminateReadLog, kernel.clfsterminatereadlog, Clfs_691e308a-56d7-498f-af11-8908cc13b1b7.xml, wdm/ClfsTerminateReadLog, ClfsTerminateReadLog routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

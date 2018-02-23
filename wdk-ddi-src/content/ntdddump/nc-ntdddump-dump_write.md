@@ -40,7 +40,7 @@ apiname:
 -	Dump_Write
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_WRITE callback
@@ -109,15 +109,15 @@ To safely modify the data for the dump write, a filter driver should allocate a 
 
 ## -see-also
 
-<a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
-
-
-
 <a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 
 <a href="..\ntdddump\nc-ntdddump-dump_read.md">Dump_Read</a>
+
+
+
+<a href="..\ntdddump\ns-ntdddump-_filter_initialization_data.md">FILTER_INITIALIZATION_DATA</a>
 
 
 

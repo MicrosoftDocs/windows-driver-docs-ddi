@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A89E9E65-937D-455F-A718-A6BC7611BB8F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxclient/UfxDeviceNotifyResume, UfxDeviceNotifyResume, buses.ufxdevicenotifyresume, UfxDeviceNotifyResume method [Buses]
+ms.keywords: buses.ufxdevicenotifyresume, UfxDeviceNotifyResume method [Buses], ufxclient/UfxDeviceNotifyResume, UfxDeviceNotifyResume
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceNotifyResume
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

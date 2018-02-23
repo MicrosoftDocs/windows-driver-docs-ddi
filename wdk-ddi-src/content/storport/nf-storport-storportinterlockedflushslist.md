@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: C686ABA7-BC44-45CE-A35B-63E76961A032
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortInterlockedFlushSList, StorPortInterlockedFlushSList routine [Storage Devices], storport/StorPortInterlockedFlushSList, storage.storportinterlockedflushslist
+ms.keywords: StorPortInterlockedFlushSList, storage.storportinterlockedflushslist, StorPortInterlockedFlushSList routine [Storage Devices], storport/StorPortInterlockedFlushSList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,15 +146,15 @@ The <b>StorPortInterlockedFlushSList</b> will also return <b>STATUS_SUCCESS</b> 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
-
-
-
 <a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
 
 
 
-<a href="..\storport\nf-storport-storportinterlockedpopentryslist.md">StorPortInterlockedPopEntrySList</a>
+<a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
+
+
+
+<a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
 
 
 

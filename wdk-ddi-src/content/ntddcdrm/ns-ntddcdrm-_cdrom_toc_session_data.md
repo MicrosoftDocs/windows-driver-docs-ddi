@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ba039a22-b1af-4ade-bd99-b7296be4dd42
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.cdrom_toc_session_data, CDROM_TOC_SESSION_DATA, PCDROM_TOC_SESSION_DATA, structs-CD-ROM_b3bb7380-ca50-4340-bf90-4b6e231bcdbc.xml, _CDROM_TOC_SESSION_DATA, ntddcdrm/PCDROM_TOC_SESSION_DATA, ntddcdrm/CDROM_TOC_SESSION_DATA, *PCDROM_TOC_SESSION_DATA, PCDROM_TOC_SESSION_DATA structure pointer [Storage Devices], CDROM_TOC_SESSION_DATA structure [Storage Devices]
+ms.keywords: storage.cdrom_toc_session_data, CDROM_TOC_SESSION_DATA structure [Storage Devices], ntddcdrm/CDROM_TOC_SESSION_DATA, PCDROM_TOC_SESSION_DATA structure pointer [Storage Devices], ntddcdrm/PCDROM_TOC_SESSION_DATA, PCDROM_TOC_SESSION_DATA, *PCDROM_TOC_SESSION_DATA, CDROM_TOC_SESSION_DATA, _CDROM_TOC_SESSION_DATA, structs-CD-ROM_b3bb7380-ca50-4340-bf90-4b6e231bcdbc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,7 +92,7 @@ Contains data for the first track of the last finished session. This data includ
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
 
 
 
@@ -100,7 +100,7 @@ Contains data for the first track of the last finished session. This data includ
 
 
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_toc_ex.md">IOCTL_CDROM_READ_TOC_EX</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_track_data.md">TRACK_DATA</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c7d73c86-0ac4-4e87-8f82-39be2329dafd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfdriverpackageaction2_getqueryfordeviceusingpackage, IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage, wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesUsingPackage, GetQueryForDeviceUsingPackage, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesUsingPackage method
+ms.keywords: IWDTFDriverPackageAction2::GetQueryForDeviceUsingPackage, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], GetQueryForDevicesUsingPackage method, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], wdtfdriverpackageaction/IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, IWDTFDriverPackageAction2, GetQueryForDeviceUsingPackage, dtf.iwdtfdriverpackageaction2_getqueryfordeviceusingpackage, IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, GetQueryForDevicesUsingPackage method [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft::WDTF::IWDTFDriverPackageAction2::GetQueryForDevicesUsingPackage, Microsoft.WDTF.IWDTFDriverPackageAction2.GetQueryForDevicesUsingPackage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: DF556961-D5BA-4A50-9E6A-DACE96D13B50
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntintsafe/RtlIntAdd, kernel.rtlintadd, RtlIntAdd function [Kernel-Mode Driver Architecture], RtlIntAdd
+ms.keywords: RtlIntAdd, ntintsafe/RtlIntAdd, RtlIntAdd function [Kernel-Mode Driver Architecture], kernel.rtlintadd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

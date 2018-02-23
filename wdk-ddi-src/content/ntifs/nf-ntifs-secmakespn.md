@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.secmakespn, SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN
+ms.keywords: ifsk.secmakespn, SecMakeSPN function [Installable File System Drivers], ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN, SecMakeSPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,14 +110,14 @@ A pointer to an optional Unicode string specifying the instance name for connect
 An optional variable specifying the instance port for connecting with the security service provider. 
 
 
-#### - Length [out]
-
-A pointer to an optional variable for storing the length of the security service provider name string created by this function.
-
-
 #### - Referrer [in]
 
 A pointer to an optional Unicode string specifying the referrer name for connecting with the security service provider. 
+
+
+#### - Length [out]
+
+A pointer to an optional variable for storing the length of the security service provider name string created by this function.
 
 
 ## -returns

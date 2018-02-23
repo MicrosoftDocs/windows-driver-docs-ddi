@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9c33fc12-5997-4a5c-bf74-63df880055e7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: OB_POST_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/POB_POST_CREATE_HANDLE_INFORMATION, *POB_POST_CREATE_HANDLE_INFORMATION, kstruct_c_465a5f93-d5e9-4640-b4ae-7fa17d2f9493.xml, OB_POST_CREATE_HANDLE_INFORMATION, wdm/OB_POST_CREATE_HANDLE_INFORMATION, kernel.ob_post_create_handle_information, _OB_POST_CREATE_HANDLE_INFORMATION, POB_POST_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], POB_POST_CREATE_HANDLE_INFORMATION
+ms.keywords: "_OB_POST_CREATE_HANDLE_INFORMATION, wdm/OB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.ob_post_create_handle_information, POB_POST_CREATE_HANDLE_INFORMATION, kstruct_c_465a5f93-d5e9-4640-b4ae-7fa17d2f9493.xml, *POB_POST_CREATE_HANDLE_INFORMATION, OB_POST_CREATE_HANDLE_INFORMATION, POB_POST_CREATE_HANDLE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/POB_POST_CREATE_HANDLE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,11 +75,11 @@ An <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+
+
+
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 
 

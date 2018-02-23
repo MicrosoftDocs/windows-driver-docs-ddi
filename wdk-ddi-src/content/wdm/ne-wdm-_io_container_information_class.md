@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 359ed0d2-91b1-46d1-a358-babe7cb993fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoSessionStateInformation, IoMaxContainerInformationClass, wdm/IoSessionStateInformation, _IO_CONTAINER_INFORMATION_CLASS, sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/IoMaxContainerInformationClass, kernel.io_container_information_class, wdm/IO_CONTAINER_INFORMATION_CLASS, IO_CONTAINER_INFORMATION_CLASS
+ms.keywords: wdm/IoSessionStateInformation, wdm/IoMaxContainerInformationClass, sysenum_f1533e86-b529-4ef0-b603-e57f4863b740.xml, IoSessionStateInformation, IoMaxContainerInformationClass, kernel.io_container_information_class, IO_CONTAINER_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], IO_CONTAINER_INFORMATION_CLASS, _IO_CONTAINER_INFORMATION_CLASS, wdm/IO_CONTAINER_INFORMATION_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

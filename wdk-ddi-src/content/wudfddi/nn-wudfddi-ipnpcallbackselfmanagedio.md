@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IPnpCallbackSelfManagedIo</b> interface is a Plug and Play (PnP) and power management (PM) interface. 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackSelfManagedIo</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPnpCallbackSelfManagedIo</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPnpCallbackSelfManagedIo</b> interface has these methods.
@@ -117,19 +124,7 @@ The <a href="https://msdn.microsoft.com/7ec30c51-5e07-496b-96af-8eafb564d98d">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/0890c352-8722-4108-9b76-60c81179b46b">OnSelfManagedIoCleanup</a> method releases memory for a device's self-managed I/O operations, after the device is removed.
-
-The <a href="https://msdn.microsoft.com/dee0e30b-ad03-43e4-8a0c-07d3782d7857">OnSelfManagedIoFlush</a> method flushes the device for a device's self-managed I/O operations.
-
-The <a href="https://msdn.microsoft.com/41b12fef-dbc7-4b91-a2d3-9fb1aafff237">OnSelfManagedIoInit</a> method initializes a device's self-managed I/O operations.
-
-The <a href="https://msdn.microsoft.com/dccc4be0-0724-44b6-8476-276b46acee6a">OnSelfManagedIoRestart</a> method restarts a device's self-managed I/O operations.
-
-The <a href="https://msdn.microsoft.com/490c95f5-ea93-4521-8fa5-4ca1f83ff19d">OnSelfManagedIoStop</a> method is not used in the current version of the UMDF.
-
-The <a href="https://msdn.microsoft.com/7ec30c51-5e07-496b-96af-8eafb564d98d">OnSelfManagedIoSuspend</a> method suspends a device's self-managed I/O operations.
-
- 
+</table> 
 
 
 ## -remarks

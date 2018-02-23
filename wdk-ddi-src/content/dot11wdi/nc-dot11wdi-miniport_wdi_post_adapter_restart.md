@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiPostAdapterRestart
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_POST_ADAPTER_RESTART callback
@@ -138,7 +138,7 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
 
 
@@ -146,11 +146,11 @@ The driver indicates <b>NDIS_STATUS_FAILURE</b> if none of the preceding values 
 
 
 
+<a href="..\ndis\nc-ndis-miniport_restart.md">MiniportRestart</a>
+
+
+
 <a href="..\dot11wdi\ns-dot11wdi-_ndis_miniport_driver_wdi_characteristics.md">NDIS_MINIPORT_DRIVER_WDI_CHARACTERISTICS</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_pause.md">MiniportPause</a>
 
 
 

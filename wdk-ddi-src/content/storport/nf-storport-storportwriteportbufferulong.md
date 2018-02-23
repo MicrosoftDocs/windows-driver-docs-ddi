@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24735e9a-d259-48d1-8efe-8ff1642b6a35
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortWritePortBufferUlong, storport/StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storage.storportwriteportbufferulong, storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
+ms.keywords: storport/StorPortWritePortBufferUlong, storage.storportwriteportbufferulong, StorPortWritePortBufferUlong, StorPortWritePortBufferUlong routine [Storage Devices], storprt_7ab33563-108d-4d20-8205-c3f5ac790f59.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer containing the data to be written. 
-
-
-#### - Count [in]
-
-Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,11 +106,21 @@ Pointer to the hardware device extension.
 Contains the address of the port to be written to. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer containing the data to be written. 
+
+
+#### - Count [in]
+
+Contains the number of data items of size <b>sizeof</b>(ULONG) to be written. 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
+For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportulong.md">StorPortWritePortUlong</a>. 
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\storport\nf-storport-scsiportwriteportbuff
 
 
 
-<a href="..\storport\nf-storport-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
+<a href="..\srb\nf-srb-scsiportwriteportbufferulong.md">ScsiPortWritePortBufferUlong</a>
 
 
 

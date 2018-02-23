@@ -7,8 +7,8 @@ old-location: display\dxva_procampcontrolcaps.htm
 old-project: display
 ms.assetid: 93de54dc-8826-4b1c-acf7-1861f337318a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.dxva_procampcontrolcaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], LPDXVA_ProcAmpControlCaps, dxva/DXVA_ProcAmpControlCaps, dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, _DXVA_ProcAmpControlCaps, dxva/LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps structure [Display Devices], DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
+ms.date: 2/22/2018
+ms.keywords: dxvaref_7641df03-ca9f-462a-b6b8-bddd7c8a14b7.xml, display.dxva_procampcontrolcaps, dxva/LPDXVA_ProcAmpControlCaps, _DXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps structure pointer [Display Devices], DXVA_ProcAmpControlCaps structure [Display Devices], dxva/DXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps, LPDXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_ProcAmpControlCaps
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_ProcAmpControlCaps, DXVA_ProcAmpControlCaps"
+req.typenames: DXVA_ProcAmpControlCaps, *LPDXVA_ProcAmpControlCaps
 ---
 
 # _DXVA_ProcAmpControlCaps structure
@@ -226,5 +226,5 @@ Indicates that the VMR will not perform a buffer copy when an alpha value is cha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ProcAmpControlCaps structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_ProcAmpControlCaps structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

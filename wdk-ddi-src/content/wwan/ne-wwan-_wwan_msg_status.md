@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 60eb0494-fcc6-4546-a13a-b6d1dcf165e6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wwan_msg_status, wwan/WwanMsgStatusOld, wwan/PWWAN_MSG_STATUS, wwan/WwanMsgStatusSent, WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, WwanMsgStatusOld, WwanMsgStatusMax, PWWAN_MSG_STATUS, WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista], WWAN_MSG_STATUS, WwanMsgStatusNew, WwanMsgStatusSent, wwan/WwanMsgStatusDraft, wwan/WwanMsgStatusMax, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], _WWAN_MSG_STATUS, wwan/WwanMsgStatusNew, wwan/WWAN_MSG_STATUS, WwanMsgStatusDraft, *PWWAN_MSG_STATUS
+ms.keywords: WwanRef_2cd2fe07-ee6c-4193-960e-434e31561f9e.xml, PWWAN_MSG_STATUS, WWAN_MSG_STATUS enumeration [Network Drivers Starting with Windows Vista], _WWAN_MSG_STATUS, *PWWAN_MSG_STATUS, wwan/PWWAN_MSG_STATUS, WWAN_MSG_STATUS, wwan/WwanMsgStatusOld, WwanMsgStatusDraft, wwan/WwanMsgStatusNew, netvista.wwan_msg_status, WwanMsgStatusSent, wwan/WwanMsgStatusSent, PWWAN_MSG_STATUS enumeration pointer [Network Drivers Starting with Windows Vista], WwanMsgStatusNew, wwan/WwanMsgStatusDraft, wwan/WwanMsgStatusMax, WwanMsgStatusOld, WwanMsgStatusMax, wwan/WWAN_MSG_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_MSG_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_MSG_STATUS, WWAN_MSG_STATUS"
+req.typenames: WWAN_MSG_STATUS, *PWWAN_MSG_STATUS
 req.product: Windows 10 or later.
 ---
 

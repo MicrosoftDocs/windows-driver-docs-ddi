@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d0afab5-4aba-4ebc-a864-85c83cf464d0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, _MPIO_DEVINSTANCE_HEALTH_CLASS, PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS, *PMPIO_DEVINSTANCE_HEALTH_CLASS, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml, storage.mpio_devinstance_health_class, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS
+ms.keywords: PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS structure [Storage Devices], MPIO_DEVINSTANCE_HEALTH_CLASS, storage.mpio_devinstance_health_class, mpiodisk/PMPIO_DEVINSTANCE_HEALTH_CLASS, structs-scsibus_aae91588-5920-42bb-8c74-13604bed0bfc.xml, mpiodisk/MPIO_DEVINSTANCE_HEALTH_CLASS, _MPIO_DEVINSTANCE_HEALTH_CLASS, PMPIO_DEVINSTANCE_HEALTH_CLASS structure pointer [Storage Devices], *PMPIO_DEVINSTANCE_HEALTH_CLASS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_DEVINSTANCE_HEALTH_CLASS
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_DEVINSTANCE_HEALTH_CLASS, MPIO_DEVINSTANCE_HEALTH_CLASS"
+req.typenames: MPIO_DEVINSTANCE_HEALTH_CLASS, *PMPIO_DEVINSTANCE_HEALTH_CLASS
 ---
 
 # _MPIO_DEVINSTANCE_HEALTH_CLASS structure

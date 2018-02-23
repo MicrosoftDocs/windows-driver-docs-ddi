@@ -7,8 +7,8 @@ old-location: stream\ksgetbusenumidentifier.htm
 old-project: stream
 ms.assetid: 50e14e01-5879-4a84-a8c2-f03c953dbeec
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: swenum/KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml, KsGetBusEnumIdentifier, stream.ksgetbusenumidentifier
+ms.date: 2/22/2018
+ms.keywords: KsGetBusEnumIdentifier, swenum/KsGetBusEnumIdentifier, KsGetBusEnumIdentifier function [Streaming Media Devices], stream.ksgetbusenumidentifier, ksfunc_c001aace-8c97-48cb-ae8b-9e7075d51960.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	KsGetBusEnumIdentifier
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_TIME_REFERENCE, STREAM_TIME_REFERENCE"
+req.typenames: STREAM_TIME_REFERENCE, *PSTREAM_TIME_REFERENCE
 req.product: Windows 10 or later.
 ---
 

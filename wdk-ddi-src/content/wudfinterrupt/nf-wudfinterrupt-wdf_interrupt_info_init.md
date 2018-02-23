@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CFFE19FB-289C-4002-AB07-AE342D855B20
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfinterrupt/WDF_INTERRUPT_INFO_INIT, wdf.wdf_interrupt_info_init_umdf, umdf.wdf_interrupt_info_init, WDF_INTERRUPT_INFO_INIT, WDF_INTERRUPT_INFO_INIT function
+ms.keywords: umdf.wdf_interrupt_info_init, wdf.wdf_interrupt_info_init_umdf, WDF_INTERRUPT_INFO_INIT function, WDF_INTERRUPT_INFO_INIT, wudfinterrupt/WDF_INTERRUPT_INFO_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,11 +111,11 @@ For a code example that uses <a href="..\wudfinterrupt\nf-wudfinterrupt-wdf_inte
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
-
-
-
 <a href="..\wudfinterrupt\ns-wudfinterrupt-_wdf_interrupt_info.md">WDF_INTERRUPT_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/744D0FFE-6D3C-4AED-8935-63EE9B0AFA0F">IWDFInterrupt::GetInfo</a>
 
 
 

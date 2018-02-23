@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f0cef78-3edc-434b-af70-39694776e8a7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OpenFileByName method, wdf.iwdfremotetarget_openfilebyname, umdf.iwdfremotetarget_openfilebyname, IWDFRemoteTarget interface, OpenFileByName method, OpenFileByName, IWDFRemoteTarget::OpenFileByName, OpenFileByName method, IWDFRemoteTarget interface, wudfddi/IWDFRemoteTarget::OpenFileByName, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, IWDFRemoteTarget
+ms.keywords: wdf.iwdfremotetarget_openfilebyname, IWDFRemoteTarget::OpenFileByName, umdf.iwdfremotetarget_openfilebyname, OpenFileByName method, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget::OpenFileByName, OpenFileByName method, IWDFRemoteTarget interface, IWDFRemoteTarget interface, OpenFileByName method, UMDFIoTargetObjectRef_909b78ee-2d3a-46b2-bfca-f72063ca62f8.xml, OpenFileByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -176,11 +176,11 @@ hr = fxTarget-&gt;OpenFileByName(FILE_PATH,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556928">IWDFDevice2::CreateRemoteTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 
 

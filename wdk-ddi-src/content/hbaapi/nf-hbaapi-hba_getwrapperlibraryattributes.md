@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c40b8f20-65e9-4e43-a402-14bd30f15975
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbaapi/HBA_GetWrapperLibraryAttributes, fibreHBA_rtns_98e62721-8cee-4799-b25f-bf01b52d966c.xml, HBA_GetWrapperLibraryAttributes routine [Storage Devices], storage.hba_getwrapperlibraryattributes, HBA_GetWrapperLibraryAttributes
+ms.keywords: storage.hba_getwrapperlibraryattributes, fibreHBA_rtns_98e62721-8cee-4799-b25f-bf01b52d966c.xml, HBA_GetWrapperLibraryAttributes routine [Storage Devices], HBA_GetWrapperLibraryAttributes, hbaapi/HBA_GetWrapperLibraryAttributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1d1f092c-e867-49f7-8f17-90fbf73733fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapi/RIL_StopModemLogs, netvista.ril_stopmodemlogs, RIL_StopModemLogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.ril_stopmodemlogs, RIL_StopModemLogs method [Network Drivers Starting with Windows Vista], RIL_StopModemLogs, rilapi/RIL_StopModemLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_StopModemLogs
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

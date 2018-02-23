@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: df5afc18-da83-46b4-b7ab-8cef4353b951
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmFreeMappingAddress, wdm/MmFreeMappingAddress, k106_fa09359d-0552-429a-b3af-048f03ea7a15.xml, MmFreeMappingAddress routine [Kernel-Mode Driver Architecture], kernel.mmfreemappingaddress
+ms.keywords: k106_fa09359d-0552-429a-b3af-048f03ea7a15.xml, wdm/MmFreeMappingAddress, MmFreeMappingAddress, kernel.mmfreemappingaddress, MmFreeMappingAddress routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ None
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmunmapreservedmapping.md">MmUnmapReservedMapping</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmallocatemappingaddress.md">MmAllocateMappingAddress</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmmaplockedpageswithreservedmapping.md">MmMapLockedPagesWithReservedMapping</a>
 
 
 

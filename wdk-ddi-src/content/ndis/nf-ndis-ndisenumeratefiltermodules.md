@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cab7609e-cf87-46f6-af23-891e19ef1b80
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml, ndis/NdisEnumerateFilterModules, NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules
+ms.keywords: NdisEnumerateFilterModules function [Network Drivers Starting with Windows Vista], ndis/NdisEnumerateFilterModules, NdisEnumerateFilterModules, netvista.ndisenumeratefiltermodules, filter_ndis_functions_ref_3caad0fd-b579-4787-bebb-b1a93726cbf0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisEnumerateFilterModules
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisEnumerateFilterModules function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7d0a5d28-175a-44a7-888f-d11dc3f55904
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.setokenisadmin, SeTokenIsAdmin, seref_e621b2f6-c7c3-4df0-90d4-87a42080e1bd.xml, ntifs/SeTokenIsAdmin, SeTokenIsAdmin routine [Installable File System Drivers]
+ms.keywords: ifsk.setokenisadmin, seref_e621b2f6-c7c3-4df0-90d4-87a42080e1bd.xml, SeTokenIsAdmin, SeTokenIsAdmin routine [Installable File System Drivers], ntifs/SeTokenIsAdmin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,6 +92,18 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
 
@@ -105,18 +117,6 @@ For more information about security and access control, see the documentation on
 
 
 <a href="..\ntifs\nf-ntifs-psdereferenceimpersonationtoken.md">PsDereferenceImpersonationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-setokenisadmin.md">SeTokenIsAdmin</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequerysubjectcontexttoken.md">SeQuerySubjectContextToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
 
 

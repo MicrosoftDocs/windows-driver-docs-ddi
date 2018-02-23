@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 168AC5F4-652B-405C-BE41-CD416A66FB74
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_SRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], storage.srbex_data_scsi_cdb16, SRBEX_DATA_SCSI_CDB16, storport/PSRBEX_DATA_SCSI_CDB16, storport/SRBEX_DATA_SCSI_CDB16, *PSRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], PSRBEX_DATA_SCSI_CDB16"
+ms.keywords: "_SRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16 structure pointer [Storage Devices], SRBEX_DATA_SCSI_CDB16, storport/SRBEX_DATA_SCSI_CDB16, storage.srbex_data_scsi_cdb16, *PSRBEX_DATA_SCSI_CDB16, SRBEX_DATA_SCSI_CDB16 structure [Storage Devices], storport/PSRBEX_DATA_SCSI_CDB16, PSRBEX_DATA_SCSI_CDB16"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,11 +132,11 @@ This structure is used to submit an extended SRB data for a CDB of 16 bytes or l
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
+<a href="..\srb\ns-srb-_srbex_data_scsi_cdb32.md">SRBEX_DATA_SCSI_CDB32</a>
 
 
 

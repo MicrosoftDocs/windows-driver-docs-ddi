@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 4204b849-8195-4a1b-9bb3-1e9cbeb12223
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, buses.ucmtcpci_port_controller_identification_init, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses], UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT
+ms.keywords: ucmtcpciportcontroller/UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, buses.ucmtcpci_port_controller_identification_init, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT, UCMTCPCI_PORT_CONTROLLER_IDENTIFICATION_INIT method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

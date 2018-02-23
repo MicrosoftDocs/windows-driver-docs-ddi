@@ -4,11 +4,11 @@ title: IDebugControl4::InputWide method
 author: windows-driver-content
 description: The InputWide method requests an input string from the debugger engine.
 old-location: debugger\inputwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 79997d8c-4641-4953-a1a2-e5bde88cbc3f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: InputWide method [Windows Debugging], IDebugControl4, debugger.inputwide, IDebugControl4 interface [Windows Debugging], InputWide method, InputWide, InputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::InputWide, dbgeng/IDebugControl4::InputWide
+ms.date: 2/22/2018
+ms.keywords: debugger.inputwide, InputWide method [Windows Debugging], IDebugControl4::InputWide, IDebugControl4 interface [Windows Debugging], InputWide method, IDebugControl4, InputWide, InputWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::InputWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

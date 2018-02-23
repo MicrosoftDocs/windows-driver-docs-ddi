@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a689889-b445-4fda-ae11-090d0d5870b8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture], HalAllocateHardwareCounters, kernel.halallocatehardwarecounters, k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml
+ms.keywords: ntddk/HalAllocateHardwareCounters, kernel.halallocatehardwarecounters, k103_06a6696a-0b51-414e-96ea-6c7d3b70acb5.xml, HalAllocateHardwareCounters, HalAllocateHardwareCounters routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HalAllocateHardwareCounters
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # HalAllocateHardwareCounters function
@@ -155,15 +155,15 @@ Virtualization software typically does not virtualize hardware performance count
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_group_affinity.md">GROUP_AFFINITY</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_physical_counter_resource_list.md">PHYSICAL_COUNTER_RESOURCE_LIST</a>
 
 
 
 <a href="..\ntddk\nf-ntddk-halfreehardwarecounters.md">HalFreeHardwareCounters</a>
+
+
+
+<a href="..\minitape\ns-minitape-_group_affinity.md">GROUP_AFFINITY</a>
 
 
 

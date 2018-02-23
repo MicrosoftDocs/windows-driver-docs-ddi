@@ -4,11 +4,11 @@ title: IDebugAdvanced3::GetSymbolInformation method
 author: windows-driver-content
 description: The GetSymbolInformation method returns specified information about a symbol.
 old-location: debugger\getsymbolinformation.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1866c6ad-57a2-4f3d-a2c8-f5748ecf42bc
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.getsymbolinformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced2, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformation, IDebugAdvanced3, GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced3::GetSymbolInformation
+ms.date: 2/22/2018
+ms.keywords: GetSymbolInformation method [Windows Debugging], IDebugAdvanced3 interface, GetSymbolInformation method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced2 interface [Windows Debugging], GetSymbolInformation method, IDebugAdvanced_353e07f5-e506-4d5f-8c64-d3f500ff283f.xml, IDebugAdvanced2, dbgeng/IDebugAdvanced3::GetSymbolInformation, IDebugAdvanced3 interface [Windows Debugging], GetSymbolInformation method, GetSymbolInformation, IDebugAdvanced3, debugger.getsymbolinformation, IDebugAdvanced2::GetSymbolInformation, dbgeng/IDebugAdvanced2::GetSymbolInformation, GetSymbolInformation method [Windows Debugging], IDebugAdvanced3::GetSymbolInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -223,34 +223,14 @@ Specifies the size, in characters, of the string buffer <i>StringBuffer</i>.
 Receives the size, in characters, of the string returned to <i>StringBuffer</i>.  If <i>StringSize</i> is <b>NULL</b>, this information is not returned.
 
 
-##### - Arg32.DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
-
-The engine breakpoint ID of the desired breakpoint.
-
-
-##### - Arg32.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
-
-The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
-
-
-##### - Arg32.DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
-
-The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
-
-
-##### - Arg32.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
-
-Set to zero.
-
-
 ##### - Arg64.DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
 
 Ignored.
 
 
-##### - Arg64.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+##### - Arg64.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
 
-Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
+The base address of the module whose description is being requested.
 
 
 ##### - Arg64.DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
@@ -258,9 +238,29 @@ Specifies the module whose symbols are requested.  <i>Arg64</i> is a location wi
 Specifies the address in the target's memory of the symbol whose name is being requested.
 
 
-##### - Arg64.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+##### - Arg64.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
 
-The base address of the module whose description is being requested.
+Specifies the module whose symbols are requested.  <i>Arg64</i> is a location within the memory allocation of the module.
+
+
+##### - Arg32.DEBUG_SYMINFO_BREAKPOINT_SOURCE_LINE
+
+The engine breakpoint ID of the desired breakpoint.
+
+
+##### - Arg32.DEBUG_SYMINFO_IMAGEHLP_MODULEW64
+
+Set to zero.
+
+
+##### - Arg32.DEBUG_SYMINFO_GET_SYMBOL_NAME_BY_OFFSET_AND_TAG_WIDE
+
+The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
+
+
+##### - Arg32.DEBUG_SYMINFO_GET_MODULE_SYMBOL_NAMES_AND_OFFSETS
+
+The PDB classification of the symbol.  <i>Arg32</i> must be one of the values in the <b>SymTagEnum</b> enumeration defined in Dbghelp.h.  For more information, see PDB documentation.
 
 
 ## -returns

@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_reset_statistics.htm
 old-project: pos
 ms.assetid: dfa6a460-ea80-4aa4-9948-2fd290f6616b
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.ioctl_point_of_service_reset_statistics, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS control code, IOCTL_POINT_OF_SERVICE_RESET_STATISTICS, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RESET_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices

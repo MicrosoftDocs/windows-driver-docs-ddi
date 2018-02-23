@@ -40,7 +40,7 @@ apiname:
 -	(*TAPE_PROCESS_COMMAND_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_PROCESS_COMMAND_ROUTINE callback
@@ -317,11 +317,7 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 ## -see-also
 
-<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\minitape\nf-minitape-tapeclassallocatesrbbuffer.md">TapeClassAllocateSrbBuffer</a>
 
 
 
@@ -329,9 +325,7 @@ The minidriver returns the WMI data in the buffer pointed to by the <b>DataBuffe
 
 
 
-<a href="..\minitape\nf-minitape-tapeclassallocatesrbbuffer.md">TapeClassAllocateSrbBuffer</a>
-
-
+<a href="..\minitape\nf-minitape-tapeclasszeromemory.md">TapeClassZeroMemory</a>
 
 
 

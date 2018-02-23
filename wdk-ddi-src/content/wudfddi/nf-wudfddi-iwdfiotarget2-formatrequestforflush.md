@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 28509e28-0e81-4531-947c-9ce452564682
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: FormatRequestForFlush method, FormatRequestForFlush method, IWDFIoTarget2 interface, IWDFIoTarget2::FormatRequestForFlush, wudfddi/IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, umdf.iwdfiotarget2_formatrequestforflush, FormatRequestForFlush, wdf.iwdfiotarget2_formatrequestforflush, IWDFIoTarget2 interface, FormatRequestForFlush method, IWDFIoTarget2
+ms.keywords: FormatRequestForFlush method, FormatRequestForFlush method, IWDFIoTarget2 interface, IWDFIoTarget2::FormatRequestForFlush, umdf.iwdfiotarget2_formatrequestforflush, wudfddi/IWDFIoTarget2::FormatRequestForFlush, UMDFIoTargetObjectRef_985162ca-fae2-408e-b4df-59add8e4a760.xml, wdf.iwdfiotarget2_formatrequestforflush, FormatRequestForFlush, IWDFIoTarget2 interface, FormatRequestForFlush method, IWDFIoTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -185,11 +185,11 @@ CMyQueue::OnDefaultIoHandler(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556847">IQueueCallbackDefaultIoHandler::OnDefaultIoHandler</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiotarget2.md">IWDFIoTarget2</a>
 
 
 

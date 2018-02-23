@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1a4b2708-efe2-47c0-b5b7-4e56f33e0266
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_device_power_capabilities_init, WDF_DEVICE_POWER_CAPABILITIES_INIT, WDF_DEVICE_POWER_CAPABILITIES_INIT function, DFDeviceObjectGeneralRef_888be612-b20f-427f-a098-e6b0f73f8704.xml, wdf.wdf_device_power_capabilities_init, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES_INIT
+ms.keywords: wdfdevice/WDF_DEVICE_POWER_CAPABILITIES_INIT, wdf.wdf_device_power_capabilities_init, kmdf.wdf_device_power_capabilities_init, WDF_DEVICE_POWER_CAPABILITIES_INIT function, WDF_DEVICE_POWER_CAPABILITIES_INIT, DFDeviceObjectGeneralRef_888be612-b20f-427f-a098-e6b0f73f8704.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

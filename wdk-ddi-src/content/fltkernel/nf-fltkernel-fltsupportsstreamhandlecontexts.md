@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8f4cf93f-eba7-4d6f-8b07-7c095e13f95e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltSupportsStreamHandleContexts function [Installable File System Drivers], fltkernel/FltSupportsStreamHandleContexts, FltApiRef_p_to_z_07134b31-8768-43bc-904e-9abd945a166b.xml, FltSupportsStreamHandleContexts, ifsk.fltsupportsstreamhandlecontexts
+ms.keywords: FltSupportsStreamHandleContexts function [Installable File System Drivers], FltApiRef_p_to_z_07134b31-8768-43bc-904e-9abd945a166b.xml, fltkernel/FltSupportsStreamHandleContexts, ifsk.fltsupportsstreamhandlecontexts, FltSupportsStreamHandleContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,7 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
 
 
 
@@ -114,7 +114,11 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
@@ -122,11 +126,7 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetstreamhandlecontext.md">FltGetStreamHandleContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsupportsstreamcontexts.md">FltSupportsStreamContexts</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
 
 
 

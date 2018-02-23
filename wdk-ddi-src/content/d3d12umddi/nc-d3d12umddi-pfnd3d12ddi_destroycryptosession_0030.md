@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_destroycryptosession_0030_.htm
 old-project: display
 ms.assetid: 1A16AE54-8A39-419E-B664-366287CF396D
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3d12ddi_destroycryptosession_0030_, PFND3D12DDI_DESTROYCRYPTOSESSION_0030 callback function [Display Devices], PFND3D12DDI_DESTROYCRYPTOSESSION_0030, d3d12umddi/PFND3D12DDI_DESTROYCRYPTOSESSION_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices

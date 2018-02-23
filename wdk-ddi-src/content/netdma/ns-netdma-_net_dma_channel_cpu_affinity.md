@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 660fb475-fa0a-4e04-9a91-e60422ff9292
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], PNET_DMA_CHANNEL_CPU_AFFINITY, _NET_DMA_CHANNEL_CPU_AFFINITY, netvista.net_dma_channel_cpu_affinity, netdma/NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY, netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml"
+ms.keywords: netdma_ref_49129d06-9557-4441-bad7-f86b3189a287.xml, PNET_DMA_CHANNEL_CPU_AFFINITY, _NET_DMA_CHANNEL_CPU_AFFINITY, netdma/NET_DMA_CHANNEL_CPU_AFFINITY, NET_DMA_CHANNEL_CPU_AFFINITY structure [Network Drivers Starting with Windows Vista], netdma/PNET_DMA_CHANNEL_CPU_AFFINITY, PNET_DMA_CHANNEL_CPU_AFFINITY structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_CHANNEL_CPU_AFFINITY, netvista.net_dma_channel_cpu_affinity, *PNET_DMA_CHANNEL_CPU_AFFINITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,17 +104,17 @@ The NetDMA interface calls
 
 ## -see-also
 
-<a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
-   ProviderSetDmaChannelCpuAffinity</a>
-
-
-
 <a href="..\netdma\nf-netdma-netdmaregisterprovider.md">NetDmaRegisterProvider</a>
 
 
 
 <a href="..\netdma\ns-netdma-_net_dma_provider_characteristics.md">
    NET_DMA_PROVIDER_CHARACTERISTICS</a>
+
+
+
+<a href="..\netdma\nc-netdma-dma_channels_cpu_affinity_handler.md">
+   ProviderSetDmaChannelCpuAffinity</a>
 
 
 

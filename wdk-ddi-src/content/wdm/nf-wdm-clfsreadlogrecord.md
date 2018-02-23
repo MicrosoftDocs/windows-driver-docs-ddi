@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9bc64d00-3590-4bc2-aa1f-0d50bb0e628d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture], Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, ClfsReadLogRecord, kernel.clfsreadlogrecord
+ms.keywords: kernel.clfsreadlogrecord, Clfs_e829153c-541e-463a-9ff3-85200929e3d2.xml, wdm/ClfsReadLogRecord, ClfsReadLogRecord, ClfsReadLogRecord routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

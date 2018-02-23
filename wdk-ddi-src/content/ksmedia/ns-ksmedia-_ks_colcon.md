@@ -7,8 +7,8 @@ old-location: stream\ks_colcon.htm
 old-project: stream
 ms.assetid: 8328c1b1-e72d-4e34-b69e-e02b3f5850bf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ks_colcon, PKS_COLCON structure pointer [Streaming Media Devices], KS_COLCON structure [Streaming Media Devices], ksmedia/KS_COLCON, _KS_COLCON, PKS_COLCON, ksmedia/PKS_COLCON, KS_COLCON, *PKS_COLCON, dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml
+ms.date: 2/22/2018
+ms.keywords: KS_COLCON, PKS_COLCON structure pointer [Streaming Media Devices], ksmedia/PKS_COLCON, _KS_COLCON, PKS_COLCON, ksmedia/KS_COLCON, *PKS_COLCON, KS_COLCON structure [Streaming Media Devices], stream.ks_colcon, dvdref_96e0b7a1-6131-445b-9a4f-9157997338aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_COLCON
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_COLCON, KS_COLCON"
+req.typenames: KS_COLCON, *PKS_COLCON
 ---
 
 # _KS_COLCON structure
@@ -133,5 +133,5 @@ The KS_COLCON structure is used by the <a href="..\ksmedia\ns-ksmedia-_kspropert
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_COLCON structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_COLCON structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

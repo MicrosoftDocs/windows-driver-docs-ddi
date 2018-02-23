@@ -7,8 +7,8 @@ old-location: display\dxva_sampleflags.htm
 old-project: display
 ms.assetid: 24f77f16-e043-4d58-87ef-6c834e61cb5d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dxva/DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlag_ColorData_Changed, display.dxva_sampleflags, dxva/DXVA_SampleFlagsMask, DXVA_SampleFlags, dxva/DXVA_SampleFlag_DstRect_Changed, dxva/DXVA_SampleFlag_Palette_Changed, dxva/DXVA_SampleFlag_ColorData_Changed, DXVA_SampleFlags enumeration [Display Devices], dxva/DXVA_SampleFlags, DXVA_SampleFlag_DstRect_Changed, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml, _DXVA_SampleFlags, DXVA_SampleFlag_SrcRect_Changed, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlagsMask
+ms.date: 2/22/2018
+ms.keywords: dxva/DXVA_SampleFlagsMask, DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlag_DstRect_Changed, dxvaref_b74a9819-950e-40cc-bf3c-eebb797862f7.xml, DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_Palette_Changed, DXVA_SampleFlagsMask, _DXVA_SampleFlags, dxva/DXVA_SampleFlag_ColorData_Changed, dxva/DXVA_SampleFlag_SrcRect_Changed, dxva/DXVA_SampleFlags, DXVA_SampleFlags enumeration [Display Devices], display.dxva_sampleflags, DXVA_SampleFlags, DXVA_SampleFlag_DstRect_Changed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -106,7 +106,7 @@ Indicates that the color data of the sample frame changed.
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_deinterlacebltex.md">DXVA_DeinterlaceBltEx</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563927">DXVA_DeinterlaceBobDeviceClass::DeinterlaceBltEx</a>
 
 
 
@@ -114,5 +114,5 @@ Indicates that the color data of the sample frame changed.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_SampleFlags enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_SampleFlags enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

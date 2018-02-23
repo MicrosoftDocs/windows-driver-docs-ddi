@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 041761dd-ce52-4018-a226-c5181858326c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.pcwaddinstance, PcwAddInstance, PcwAddInstance function [Driver Development Tools], km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance
+ms.keywords: PcwAddInstance, km_pcw_1819c4ec-a951-4069-a8ff-24cf11f1b68c.xml, wdm/PcwAddInstance, devtest.pcwaddinstance, PcwAddInstance function [Driver Development Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

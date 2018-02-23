@@ -40,7 +40,7 @@ apiname:
 -	GetLastTransitionStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -110,10 +110,6 @@ For more information, see <a href="..\wdm\ne-wdm-_d3cold_last_transition_status.
 
 
 ## -see-also
-
-<a href="..\wdm\ne-wdm-_d3cold_last_transition_status.md">D3COLD_LAST_TRANSITION_STATUS</a>
-
-
 
 <a href="..\wdm\ns-wdm-_d3cold_support_interface.md">D3COLD_SUPPORT_INTERFACE</a>
 

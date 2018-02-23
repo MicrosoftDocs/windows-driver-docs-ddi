@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5b46e7d9-fbb0-4e55-b1f5-d9d0f1dd1f2c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/PKEY_NAME_INFORMATION, PKEY_NAME_INFORMATION, KEY_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], KEY_NAME_INFORMATION, PKEY_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_1b3b2976-9298-4d7d-a3d7-b0c8d303d29a.xml, kernel.key_name_information, _KEY_NAME_INFORMATION, ntddk/KEY_NAME_INFORMATION, *PKEY_NAME_INFORMATION
+ms.keywords: "_KEY_NAME_INFORMATION, *PKEY_NAME_INFORMATION, ntddk/PKEY_NAME_INFORMATION, ntddk/KEY_NAME_INFORMATION, kstruct_c_1b3b2976-9298-4d7d-a3d7-b0c8d303d29a.xml, KEY_NAME_INFORMATION structure [Kernel-Mode Driver Architecture], PKEY_NAME_INFORMATION, kernel.key_name_information, KEY_NAME_INFORMATION, PKEY_NAME_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KEY_NAME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKEY_NAME_INFORMATION, KEY_NAME_INFORMATION"
+req.typenames: KEY_NAME_INFORMATION, *PKEY_NAME_INFORMATION
 ---
 
 # _KEY_NAME_INFORMATION structure
@@ -89,7 +89,7 @@ The <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routine uses the <b>KEY
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 
@@ -97,19 +97,19 @@ The <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a> routine uses the <b>KEY
 
 
 
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
-
-
-
 <a href="..\wdm\ne-wdm-_key_information_class.md">KEY_INFORMATION_CLASS</a>
 
 
 
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+
+
 <a href="..\ntddk\ns-ntddk-_key_cached_information.md">KEY_CACHED_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 

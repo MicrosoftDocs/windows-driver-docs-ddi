@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 10e7e097-ed84-4200-b7b6-6a838a058fd2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_VIRTUAL_HW_INITIALIZATION_DATA, storport/VIRTUAL_HW_INITIALIZATION_DATA, structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml, PVIRTUAL_HW_INITIALIZATION_DATA, storport/PVIRTUAL_HW_INITIALIZATION_DATA, storage.virtual_hw_initialization_data, PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], *PVIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA"
+ms.keywords: storage.virtual_hw_initialization_data, _VIRTUAL_HW_INITIALIZATION_DATA, storport/VIRTUAL_HW_INITIALIZATION_DATA, PVIRTUAL_HW_INITIALIZATION_DATA, *PVIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA structure [Storage Devices], PVIRTUAL_HW_INITIALIZATION_DATA structure pointer [Storage Devices], structs-virtual_afc3c543-a34f-4853-b67b-06d57d0350b6.xml, storport/PVIRTUAL_HW_INITIALIZATION_DATA, VIRTUAL_HW_INITIALIZATION_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -279,7 +279,7 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+<a href="..\storport\nc-storport-hw_adapter_control.md">HwStorAdapterControl</a>
 
 
 
@@ -287,23 +287,15 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557379">HwStorCompleteServiceIrp</a>
 
 
 
+<a href="..\storport\nc-storport-hw_startio.md">HwStorStartIo</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557372">HwStorCleanupTracing</a>
-
-
-
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
 
 
 
@@ -311,11 +303,19 @@ If a virtual miniport driver will execute only on Windows 8 or later, the drive
 
 
 
-<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568008">VirtualHwStorFindAdapter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557392">HwStorFreeAdapterResources</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557402">HwStorInitializeTracing</a>
+
+
+
+<a href="..\storport\nc-storport-hw_initialize.md">HwStorInitialize</a>
 
 
 

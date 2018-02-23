@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 34d3ce07-9048-4930-a384-4263a2a556e4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlUnicodeStringCatStringEx function [Kernel-Mode Driver Architecture], safestrings_7ca374c5-13a0-4fe6-ab53-7770bc8ef9c3.xml, kernel.rtlunicodestringcatstringex, RtlUnicodeStringCatStringEx, ntstrsafe/RtlUnicodeStringCatStringEx
+ms.keywords: safestrings_7ca374c5-13a0-4fe6-ab53-7770bc8ef9c3.xml, ntstrsafe/RtlUnicodeStringCatStringEx, kernel.rtlunicodestringcatstringex, RtlUnicodeStringCatStringEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringCatStringEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringCatStringEx
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlUnicodeStringCatStringEx function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ed39e714-38c5-45cf-b1f0-dd00b4d49895
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FEATURE_DATA_DISC_CONTROL_BLOCKS, PFEATURE_DATA_DISC_CONTROL_BLOCKS, PFEATURE_DATA_DISC_CONTROL_BLOCKS structure pointer [Storage Devices], ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS structure [Storage Devices], structs-CD-ROM_313fa292-b1c4-408d-94e9-491cb3d0aa0f.xml, *PFEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS, storage.feature_data_disc_control_blocks, ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS"
+ms.keywords: PFEATURE_DATA_DISC_CONTROL_BLOCKS structure pointer [Storage Devices], FEATURE_DATA_DISC_CONTROL_BLOCKS structure [Storage Devices], ntddmmc/FEATURE_DATA_DISC_CONTROL_BLOCKS, _FEATURE_DATA_DISC_CONTROL_BLOCKS, ntddmmc/PFEATURE_DATA_DISC_CONTROL_BLOCKS, FEATURE_DATA_DISC_CONTROL_BLOCKS, storage.feature_data_disc_control_blocks, PFEATURE_DATA_DISC_CONTROL_BLOCKS, structs-CD-ROM_313fa292-b1c4-408d-94e9-491cb3d0aa0f.xml, *PFEATURE_DATA_DISC_CONTROL_BLOCKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,11 +89,11 @@ This structure holds data for the feature named "Disc Control Blocks" by the <i>
 
 ## -see-also
 
-<a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks_ex.md">FEATURE_DATA_DISC_CONTROL_BLOCKS_EX</a>
-
-
-
 <a href="..\ntddmmc\ns-ntddmmc-_feature_header.md">FEATURE_HEADER</a>
+
+
+
+<a href="..\ntddmmc\ns-ntddmmc-_feature_data_disc_control_blocks_ex.md">FEATURE_DATA_DISC_CONTROL_BLOCKS_EX</a>
 
 
 

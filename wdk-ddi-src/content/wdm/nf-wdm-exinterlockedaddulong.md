@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c418538a-4041-4ea8-8a4c-1f4d35e434c7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], wdm/ExInterlockedAddUlong, kernel.exinterlockedaddulong, k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml, ExInterlockedAddUlong
+ms.keywords: ExInterlockedAddUlong routine [Kernel-Mode Driver Architecture], ExInterlockedAddUlong, wdm/ExInterlockedAddUlong, kernel.exinterlockedaddulong, k102_bec4a58e-ee68-4f9e-8fac-9ef0c193ef10.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,15 +119,15 @@ Callers of <b>ExInterlockedAddUlong</b> run at any IRQL. The storage for the <i>
 
 
 
+<a href="..\wdm\nf-wdm-interlockedincrement.md">InterlockedIncrement</a>
+
+
+
 <a href="..\wdm\nf-wdm-interlockeddecrement.md">InterlockedDecrement</a>
 
 
 
-<a href="..\miniport\nf-miniport-interlockeddecrement.md">InterlockedDecrement</a>
-
-
-
-<a href="..\miniport\nf-miniport-interlockedincrement.md">InterlockedIncrement</a>
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
 
 

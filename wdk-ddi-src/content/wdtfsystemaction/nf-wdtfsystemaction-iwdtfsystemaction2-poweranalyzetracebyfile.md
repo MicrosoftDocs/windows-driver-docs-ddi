@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: B8C422C0-7E42-4BE7-8919-A4ABF33E8D5E
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft::WDTF::IWDTFSystemAction2::PowerAnalyzeTraceByFile, IWDTFSystemAction2::PowerAnalyzeTraceByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerAnalyzeTraceByFile, wdtfsystemaction/IWDTFSystemAction2::PowerAnalyzeTraceByFile, IWDTFSystemAction2, dtf.iwdtfsystemaction2_poweranalyzetracebyfile, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2 interface, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerAnalyzeTraceByFile method, PowerAnalyzeTraceByFile
+ms.keywords: wdtfsystemaction/IWDTFSystemAction2::PowerAnalyzeTraceByFile, Microsoft::WDTF::IWDTFSystemAction2::PowerAnalyzeTraceByFile, Microsoft.WDTF.IWDTFSystemAction2.PowerAnalyzeTraceByFile, IWDTFSystemAction2, PowerAnalyzeTraceByFile, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_poweranalyzetracebyfile, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerAnalyzeTraceByFile method, PowerAnalyzeTraceByFile method [Windows Device Testing Framework], IWDTFSystemAction2::PowerAnalyzeTraceByFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

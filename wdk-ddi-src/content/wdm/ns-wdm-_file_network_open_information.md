@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 742fa221-70c8-410a-a582-aedf28872ada
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FILE_NETWORK_OPEN_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PFILE_NETWORK_OPEN_INFORMATION, *PFILE_NETWORK_OPEN_INFORMATION, _FILE_NETWORK_OPEN_INFORMATION, kstruct_b_761510b6-751c-457d-a516-cce0d9fa3027.xml, PFILE_NETWORK_OPEN_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/FILE_NETWORK_OPEN_INFORMATION, kernel.file_network_open_information, PFILE_NETWORK_OPEN_INFORMATION, FILE_NETWORK_OPEN_INFORMATION
+ms.keywords: wdm/FILE_NETWORK_OPEN_INFORMATION, *PFILE_NETWORK_OPEN_INFORMATION, kstruct_b_761510b6-751c-457d-a516-cce0d9fa3027.xml, _FILE_NETWORK_OPEN_INFORMATION, FILE_NETWORK_OPEN_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PFILE_NETWORK_OPEN_INFORMATION, PFILE_NETWORK_OPEN_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_NETWORK_OPEN_INFORMATION, kernel.file_network_open_information, PFILE_NETWORK_OPEN_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_NETWORK_OPEN_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_NETWORK_OPEN_INFORMATION, FILE_NETWORK_OPEN_INFORMATION"
+req.typenames: FILE_NETWORK_OPEN_INFORMATION, *PFILE_NETWORK_OPEN_INFORMATION
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 56a0e888-8048-4774-a46f-8a0beebfb9f2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FCP_FRAME structure [Buses], *PFCP_FRAME, PFCP_FRAME structure pointer [Buses], 61883/FCP_FRAME, 61883_structures_760d5112-e681-4c00-b178-66aadbe95b62.xml, IEEE.fcp_frame, FCP_FRAME, _FCP_FRAME, 61883/PFCP_FRAME, PFCP_FRAME
+ms.keywords: PFCP_FRAME structure pointer [Buses], 61883/FCP_FRAME, FCP_FRAME, IEEE.fcp_frame, _FCP_FRAME, FCP_FRAME structure [Buses], PFCP_FRAME, 61883_structures_760d5112-e681-4c00-b178-66aadbe95b62.xml, *PFCP_FRAME, 61883/PFCP_FRAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FCP_FRAME
 product: Windows
 targetos: Windows
-req.typenames: "*PFCP_FRAME, FCP_FRAME"
+req.typenames: FCP_FRAME, *PFCP_FRAME
 ---
 
 # _FCP_FRAME structure
@@ -86,7 +86,7 @@ The FCP request for this frame.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536974">Av61883_GetFcpRequest</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>
 
 
 
@@ -94,7 +94,7 @@ The FCP request for this frame.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536992">Av61883_SendFcpResponse</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536974">Av61883_GetFcpRequest</a>
 
 
 

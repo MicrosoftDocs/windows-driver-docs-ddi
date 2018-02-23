@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7dfa36be-ab05-478d-b47a-783e599545bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT structure pointer [Storage Devices], storage.sm_getbindingcapability_out, _SM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT structure [Storage Devices], hbapiwmi/PSM_GetBindingCapability_OUT, PSM_GetBindingCapability_OUT, hbapiwmi/SM_GetBindingCapability_OUT, *PSM_GetBindingCapability_OUT, structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml
+ms.keywords: PSM_GetBindingCapability_OUT structure pointer [Storage Devices], SM_GetBindingCapability_OUT structure [Storage Devices], hbapiwmi/PSM_GetBindingCapability_OUT, _SM_GetBindingCapability_OUT, hbapiwmi/SM_GetBindingCapability_OUT, storage.sm_getbindingcapability_out, *PSM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT, structs-Fibre_00260060-51c3-4d04-94a2-bad7903f0e6e.xml, PSM_GetBindingCapability_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_GetBindingCapability_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_GetBindingCapability_OUT, SM_GetBindingCapability_OUT"
+req.typenames: SM_GetBindingCapability_OUT, *PSM_GetBindingCapability_OUT
 ---
 
 # _SM_GetBindingCapability_OUT structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7f0c7d72-9fe6-4cc1-8028-fd64cdee5d85
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DEVICE_DESCRIPTION_VERSION1, DEVICE_DESCRIPTION, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, DEVICE_DESCRIPTION_VERSION2, *PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION3, PDEVICE_DESCRIPTION, _DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], wdm/DEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], kernel.device_description, wdm/PDEVICE_DESCRIPTION
+ms.keywords: DEVICE_DESCRIPTION_VERSION1, _DEVICE_DESCRIPTION, wdm/PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION2, DEVICE_DESCRIPTION, PDEVICE_DESCRIPTION structure pointer [Kernel-Mode Driver Architecture], DEVICE_DESCRIPTION_VERSION, kstruct_a_22341019-dd23-41b3-b7d9-73a22ba1e146.xml, PDEVICE_DESCRIPTION, DEVICE_DESCRIPTION_VERSION3, wdm/DEVICE_DESCRIPTION, DEVICE_DESCRIPTION structure [Kernel-Mode Driver Architecture], kernel.device_description, *PDEVICE_DESCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -278,19 +278,7 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 
@@ -299,6 +287,18 @@ A driver should specify <b>TypeF</b> as the <b>DmaSpeed</b> value only if the co
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551749">IRP_MN_START_DEVICE</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
 
 
 

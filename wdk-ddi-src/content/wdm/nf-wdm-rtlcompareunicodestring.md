@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 82567434-be54-4436-a26e-9a89a532addf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, kernel.rtlcompareunicodestring, RtlCompareUnicodeString, wdm/RtlCompareUnicodeString
+ms.keywords: k109_ddeef320-7510-446b-af6f-756c3999bec1.xml, RtlCompareUnicodeString routine [Kernel-Mode Driver Architecture], RtlCompareUnicodeString, wdm/RtlCompareUnicodeString, kernel.rtlcompareunicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

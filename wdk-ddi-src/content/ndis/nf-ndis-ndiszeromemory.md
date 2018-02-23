@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1cb829e1-bd4f-4d6b-a936-0e7cf8024381
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, netvista.ndiszeromemory, ndis/NdisZeroMemory, NdisZeroMemory, NdisZeroMemory macro [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis_memory_ref_06fa3e0b-cb08-41c7-8e09-debec8e323c0.xml, ndis/NdisZeroMemory, NdisZeroMemory, NdisZeroMemory macro [Network Drivers Starting with Windows Vista], netvista.ndiszeromemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisZeroMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisZeroMemory macro
@@ -96,12 +96,12 @@ As long as the given range was allocated from nonpaged pool, the caller can be r
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndiszeromappedmemory.md">NdisZeroMappedMemory</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
    NdisAllocateMemoryWithTagPriority</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiszeromappedmemory.md">NdisZeroMappedMemory</a>
 
 
 

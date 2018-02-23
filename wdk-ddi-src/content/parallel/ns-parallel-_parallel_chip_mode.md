@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: e9d78c80-e6cf-49af-89de-6df8ea871796
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PPARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE, parallel/PARALLEL_CHIP_MODE, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml, _PARALLEL_CHIP_MODE, *PPARALLEL_CHIP_MODE, parallel/PPARALLEL_CHIP_MODE, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], PARALLEL_CHIP_MODE structure [Parallel Ports], parports.parallel_chip_mode
+ms.keywords: PARALLEL_CHIP_MODE structure [Parallel Ports], parallel/PPARALLEL_CHIP_MODE, *PPARALLEL_CHIP_MODE, parports.parallel_chip_mode, PPARALLEL_CHIP_MODE structure pointer [Parallel Ports], PPARALLEL_CHIP_MODE, cisspd_1dbc3693-e551-46a3-9a41-725b06a2ee9a.xml, parallel/PARALLEL_CHIP_MODE, PARALLEL_CHIP_MODE, _PARALLEL_CHIP_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,11 +91,11 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
@@ -103,11 +103,11 @@ A client uses a PARALLEL_CHIP_MODE structure with internal device control reques
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parallel_connect_interrupt.md">IOCTL_INTERNAL_PARALLEL_CONNECT_INTERRUPT</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_parallel_set_chip_mode.md">IOCTL_INTERNAL_PARALLEL_SET_CHIP_MODE</a>
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+<a href="..\parallel\nc-parallel-pparallel_set_chip_mode.md">PPARALLEL_SET_CHIP_MODE</a>
 
 
 

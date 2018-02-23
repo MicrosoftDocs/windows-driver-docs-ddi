@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 1932a0f0-bf76-4a8e-8b2a-e2ba2c81dc2b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft::WDTF::IWDTFLOG2::EndTestCase, EndTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, IWDTFLOG2::EndTestCase, IWDTFLOG2 interface [Windows Device Testing Framework], EndTestCase method, dtf.iwdtflog2_endtestcase, IWDTFLOG2, wdtf/IWDTFLOG2::EndTestCase, EndTestCase, EndTestCase method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFLOG2.EndTestCase
+ms.keywords: Microsoft.WDTF.IWDTFLOG2.EndTestCase, IWDTFLOG2::EndTestCase, wdtf/IWDTFLOG2::EndTestCase, dtf.iwdtflog2_endtestcase, Microsoft::WDTF::IWDTFLOG2::EndTestCase, EndTestCase, IWDTFLOG2 interface [Windows Device Testing Framework], EndTestCase method, IWDTFLOG2, EndTestCase method [Windows Device Testing Framework], IWDTFLOG2 interface, EndTestCase method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

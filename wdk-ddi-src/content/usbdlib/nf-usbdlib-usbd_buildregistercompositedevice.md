@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6683C688-CCDD-498B-AA60-81430DC3BCA4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usbdlib/ USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice, buses.usbd_buildregistercompositedriver, USBD_BuildRegisterCompositeDevice routine [Buses]
+ms.keywords: buses.usbd_buildregistercompositedriver, USBD_BuildRegisterCompositeDevice routine [Buses], usbdlib/ USBD_BuildRegisterCompositeDevice, USBD_BuildRegisterCompositeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

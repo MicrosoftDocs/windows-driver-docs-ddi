@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6D705DA8-7F45-4C7A-813F-5AE4F5A1D8ED
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: STORAGE_DIAGNOSTIC_LEVEL, storage.storage_diagnostic_level, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], StorageDiagnosticLevelMax, StorageDiagnosticLevelDefault, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelMax, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], *PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault
+ms.keywords: StorageDiagnosticLevelMax, ntddstor/STORAGE_DIAGNOSTIC_LEVEL, StorageDiagnosticLevelDefault, PSTORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], *PSTORAGE_DIAGNOSTIC_LEVEL, STORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelDefault, STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], _STORAGE_DIAGNOSTIC_LEVEL, ntddstor/PSTORAGE_DIAGNOSTIC_LEVEL, ntddstor/StorageDiagnosticLevelMax, storage.storage_diagnostic_level, PSTORAGE_DIAGNOSTIC_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

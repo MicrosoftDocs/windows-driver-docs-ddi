@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 73e5e994-4133-4651-bb94-1d21386be1cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: STOR_SPINLOCK enumeration [Storage Devices], storport/DpcLock, StartIoLock, InterruptLock, STOR_SPINLOCK, storport/STOR_SPINLOCK, storport/StartIoLock, storage.stor_spinlock, storport/InterruptLock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml, DpcLock, _STOR_SPINLOCK
+ms.keywords: storport/STOR_SPINLOCK, StartIoLock, structs-general_53d45f74-68b2-4839-81c1-c93a2773f0d8.xml, STOR_SPINLOCK, _STOR_SPINLOCK, DpcLock, storport/InterruptLock, storport/DpcLock, storage.stor_spinlock, STOR_SPINLOCK enumeration [Storage Devices], storport/StartIoLock, InterruptLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

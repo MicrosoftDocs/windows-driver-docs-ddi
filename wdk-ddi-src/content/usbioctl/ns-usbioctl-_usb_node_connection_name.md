@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: f38248fb-b2aa-417a-9d9b-36ff069bf78f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USB_NODE_CONNECTION_NAME structure [Buses], _USB_NODE_CONNECTION_NAME, usbioctl/PUSB_NODE_CONNECTION_NAME, buses.usb_node_connection_name, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml, *PUSB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], PUSB_NODE_CONNECTION_NAME
+ms.keywords: usbioctl/PUSB_NODE_CONNECTION_NAME, USB_NODE_CONNECTION_NAME, usbioctl/USB_NODE_CONNECTION_NAME, usbstrct_51cb29d4-aac8-4138-bddd-908f9859bad3.xml, USB_NODE_CONNECTION_NAME structure [Buses], *PUSB_NODE_CONNECTION_NAME, _USB_NODE_CONNECTION_NAME, PUSB_NODE_CONNECTION_NAME structure pointer [Buses], buses.usb_node_connection_name, PUSB_NODE_CONNECTION_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

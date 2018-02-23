@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9e0b8d36-0191-4f78-91dd-874346a69072
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlConvertUlongToLargeInteger routine [Kernel-Mode Driver Architecture], k109_442eaa78-8765-4d40-a77d-8a511d18b754.xml, RtlConvertUlongToLargeInteger, kernel.rtlconvertulongtolargeinteger, wdm/RtlConvertUlongToLargeInteger
+ms.keywords: kernel.rtlconvertulongtolargeinteger, RtlConvertUlongToLargeInteger routine [Kernel-Mode Driver Architecture], RtlConvertUlongToLargeInteger, wdm/RtlConvertUlongToLargeInteger, k109_442eaa78-8765-4d40-a77d-8a511d18b754.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

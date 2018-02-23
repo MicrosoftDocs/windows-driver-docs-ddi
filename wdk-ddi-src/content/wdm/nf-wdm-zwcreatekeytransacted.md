@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c0cf38f4-2820-4177-93e6-2e20524d0353
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwCreateKeyTransacted routine [Kernel-Mode Driver Architecture], wdm/ZwCreateKeyTransacted, ZwCreateKeyTransacted, kernel.zwcreatekeytransacted, k111_7063495c-2357-4c51-b708-f72ed52bc166.xml
+ms.keywords: ZwCreateKeyTransacted routine [Kernel-Mode Driver Architecture], k111_7063495c-2357-4c51-b708-f72ed52bc166.xml, wdm/ZwCreateKeyTransacted, ZwCreateKeyTransacted, kernel.zwcreatekeytransacted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -304,11 +304,15 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
 
 
@@ -320,15 +324,19 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 
 
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-obopenobjectbypointer.md">ObOpenObjectByPointer</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwrollbacktransaction.md">ZwRollbackTransaction</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -336,15 +344,7 @@ For more information about how to work with registry keys in kernel mode, see <a
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcommittransaction.md">ZwCommitTransaction</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
 
 
 

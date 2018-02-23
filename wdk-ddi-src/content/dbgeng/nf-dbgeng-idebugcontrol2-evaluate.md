@@ -4,11 +4,11 @@ title: IDebugControl2::Evaluate method
 author: windows-driver-content
 description: The Evaluate method evaluates an expression, returning the result.
 old-location: debugger\evaluate.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 67b17847-6ab3-4712-9ffc-94f8016e3c34
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl, IDebugControl2, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, dbgeng/IDebugControl::Evaluate, dbgeng/IDebugControl3::Evaluate, IDebugControl3::Evaluate, IDebugControl::Evaluate, dbgeng/IDebugControl2::Evaluate, IDebugControl interface [Windows Debugging], Evaluate method, Evaluate method [Windows Debugging], debugger.evaluate, Evaluate method [Windows Debugging], IDebugControl2 interface, Evaluate, IDebugControl2 interface [Windows Debugging], Evaluate method, Evaluate method [Windows Debugging], IDebugControl interface, Evaluate method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], Evaluate method, IDebugControl2::Evaluate
+ms.date: 2/22/2018
+ms.keywords: IDebugControl3 interface [Windows Debugging], Evaluate method, dbgeng/IDebugControl3::Evaluate, IDebugControl_c985be86-1f8b-4b54-ae35-a7dec5980cec.xml, Evaluate method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], Evaluate method, IDebugControl3::Evaluate, Evaluate method [Windows Debugging], IDebugControl, Evaluate, IDebugControl2::Evaluate, IDebugControl2 interface [Windows Debugging], Evaluate method, debugger.evaluate, Evaluate method [Windows Debugging], IDebugControl interface, dbgeng/IDebugControl::Evaluate, Evaluate method [Windows Debugging], IDebugControl2 interface, IDebugControl2, dbgeng/IDebugControl2::Evaluate, IDebugControl::Evaluate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -146,11 +146,11 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556697">SetExpressionSyntaxByName</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -162,17 +162,17 @@ If an error occurs while evaluating the expression, returning E_FAIL, the <i>Rem
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556696">SetExpressionSyntax</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::Evaluate method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Evaluate method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

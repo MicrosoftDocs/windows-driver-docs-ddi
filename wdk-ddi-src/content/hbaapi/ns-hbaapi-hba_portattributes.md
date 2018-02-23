@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7628c68b-b851-4b41-a86b-aa54e7cd6ddf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PHBA_PORTATTRIBUTES structure pointer [Storage Devices], HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PORTATTRIBUTES, hbaapi/HBA_PortAttributes, structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml, *PHBA_PORTATTRIBUTES, HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES, storage.hba_portattributes, HBA_PortAttributes structure [Storage Devices]
+ms.keywords: HBA_PortAttributes, HBA_PORTATTRIBUTES, hbaapi/HBA_PortAttributes, hbaapi/PHBA_PORTATTRIBUTES, *PHBA_PORTATTRIBUTES, PHBA_PORTATTRIBUTES structure pointer [Storage Devices], PHBA_PORTATTRIBUTES, HBA_PORTATTRIBUTES structure [Storage Devices], HBA_PortAttributes structure [Storage Devices], storage.hba_portattributes, structs-Fibre_86dd88a9-06cc-4e24-a665-f4fa240795fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3b5e6de3-f1f4-4d7f-8c97-56a20a453ca3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/NtTerminateProcess, NtTerminateProcess, ntddk/ZwTerminateProcess, ZwTerminateProcess, k111_72c76674-5372-4662-9097-53d850d49afe.xml, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], kernel.zwterminateprocess
+ms.keywords: ntddk/ZwTerminateProcess, kernel.zwterminateprocess, ZwTerminateProcess routine [Kernel-Mode Driver Architecture], ZwTerminateProcess, k111_72c76674-5372-4662-9097-53d850d49afe.xml, NtTerminateProcess, ntddk/NtTerminateProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NtTerminateProcess
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # ZwTerminateProcess function

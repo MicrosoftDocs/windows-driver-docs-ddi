@@ -40,7 +40,7 @@ apiname:
 -	ObjectPostCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -110,11 +110,11 @@ This routine is called at PASSIVE_LEVEL in an arbitrary thread context with norm
 
 
 
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+
+
+
 <a href="..\wdm\ns-wdm-_ob_post_operation_information.md">OB_POST_OPERATION_INFORMATION</a>
-
-
-
-<a href="..\wdm\nf-wdm-obregistercallbacks.md">ObRegisterCallbacks</a>
 
 
 

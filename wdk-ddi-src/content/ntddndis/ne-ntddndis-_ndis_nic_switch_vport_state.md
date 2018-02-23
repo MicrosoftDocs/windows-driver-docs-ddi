@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 25999016-95a8-4d78-a4a3-111fc4e910ad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateMaximum, PNDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateActivated, ntddndis/NdisNicSwitchVPortStateUndefined, NdisNicSwitchVPortStateActivated, NdisNicSwitchVPortStateDeactivated, _NDIS_NIC_SWITCH_VPORT_STATE, netvista.ndis_nic_switch_vport_state, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateDeactivated, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], NdisNicSwitchVPortStateMaximum, ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateUndefined"
+ms.keywords: ntddndis/NDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisNicSwitchVPortStateUndefined, NdisNicSwitchVPortStateUndefined, PNDIS_NIC_SWITCH_VPORT_STATE, NDIS_NIC_SWITCH_VPORT_STATE, *PNDIS_NIC_SWITCH_VPORT_STATE, _NDIS_NIC_SWITCH_VPORT_STATE, ntddndis/NdisNicSwitchVPortStateActivated, netvista.ndis_nic_switch_vport_state, ntddndis/NdisNicSwitchVPortStateDeactivated, NdisNicSwitchVPortStateMaximum, ntddndis/PNDIS_NIC_SWITCH_VPORT_STATE, NdisNicSwitchVPortStateDeactivated, PNDIS_NIC_SWITCH_VPORT_STATE enumeration pointer [Network Drivers Starting with Windows Vista], NdisNicSwitchVPortStateActivated, ntddndis/NdisNicSwitchVPortStateMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -109,7 +109,7 @@ The <b>VPortState</b> member of the <a href="..\ntddndis\ns-ntddndis-_ndis_nic_s
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_info.md">NDIS_NIC_SWITCH_VPORT_INFO</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_nic_switch_vport_parameters.md">NDIS_NIC_SWITCH_VPORT_PARAMETERS</a>
 
 
 

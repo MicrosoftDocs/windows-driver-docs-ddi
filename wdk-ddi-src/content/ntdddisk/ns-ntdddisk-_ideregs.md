@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 20897336-e032-4aa7-be5f-47704c6d1d12
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntdddisk/LPIDEREGS, *LPIDEREGS, PIDEREGS, ntdddisk/PIDEREGS, LPIDEREGS, ntdddisk/IDEREGS, IDEREGS, *PIDEREGS, LPIDEREGS structure pointer [Storage Devices], structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, IDEREGS structure [Storage Devices], _IDEREGS, PIDEREGS structure pointer [Storage Devices], storage.ideregs
+ms.keywords: IDEREGS structure [Storage Devices], PIDEREGS structure pointer [Storage Devices], *LPIDEREGS, ntdddisk/PIDEREGS, LPIDEREGS, *PIDEREGS, ntdddisk/IDEREGS, structs-IDE_aeab294c-9363-4207-bbcb-d9d442ab5c92.xml, ntdddisk/LPIDEREGS, IDEREGS, LPIDEREGS structure pointer [Storage Devices], _IDEREGS, PIDEREGS, storage.ideregs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDEREGS
 product: Windows
 targetos: Windows
-req.typenames: "*LPIDEREGS, IDEREGS, *PIDEREGS"
+req.typenames: IDEREGS, *PIDEREGS, *LPIDEREGS
 ---
 
 # _IDEREGS structure

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 76a1294f-d098-4751-9b59-923993379c6e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista], netvista.ndisretreatnetbufferlistdatastart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, ndis/NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart
+ms.keywords: netvista.ndisretreatnetbufferlistdatastart, NdisRetreatNetBufferListDataStart, ndis_netbuf_functions_ref_9a59d1c8-f5b1-490b-b091-84c709b82605.xml, ndis/NdisRetreatNetBufferListDataStart, NdisRetreatNetBufferListDataStart function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisRetreatNetBufferListDataStart
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisRetreatNetBufferListDataStart function
@@ -194,7 +194,7 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -202,18 +202,13 @@ Call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
-   NdisAdvanceNetBufferDataStart</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisadvancenetbufferlistdatastart.md">
    NdisAdvanceNetBufferListDataStart</a>
 
 
 
-<a href="..\ndis\nf-ndis-ndisadvancenetbufferlistdatastart.md">
-   NdisAdvanceNetBufferListDataStart</a>
+<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
+   NdisRetreatNetBufferDataStart</a>
 
 
 
@@ -221,8 +216,12 @@ Call the
 
 
 
-<a href="..\ndis\nf-ndis-ndisretreatnetbufferdatastart.md">
-   NdisRetreatNetBufferDataStart</a>
+<a href="..\ndis\nc-ndis-net_buffer_allocate_mdl_handler.md">NetAllocateMdl</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisadvancenetbufferdatastart.md">
+   NdisAdvanceNetBufferDataStart</a>
 
 
 

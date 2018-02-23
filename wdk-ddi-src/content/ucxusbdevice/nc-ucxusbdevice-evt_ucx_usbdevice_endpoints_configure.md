@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_USBDEVICE_ENDPOINTS_CONFIGURE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTREAM_INFO, STREAM_INFO"
+req.typenames: STREAM_INFO, *PSTREAM_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -144,11 +144,11 @@ UsbDevice_EvtUcxUsbDeviceEndpointsConfigure(
 
 ## -see-also
 
-<a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a>
-
-
-
 <a href="..\ucxusbdevice\nf-ucxusbdevice-ucxusbdevicecreate.md">UcxUsbDeviceCreate</a>
+
+
+
+<a href="..\ucxendpoint\ns-ucxendpoint-_endpoints_configure.md">ENDPOINTS_CONFIGURE</a>
 
 
 

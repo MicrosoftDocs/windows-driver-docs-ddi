@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 7984308D-4C8E-4481-8770-2430552B00E8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxRootHubPortChanged, UcxRootHubPortChanged method [Buses], ucxroothub/UcxRootHubPortChanged, buses._ucxroothubportchanged
+ms.keywords: UcxRootHubPortChanged method [Buses], UcxRootHubPortChanged, buses._ucxroothubportchanged, ucxroothub/UcxRootHubPortChanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

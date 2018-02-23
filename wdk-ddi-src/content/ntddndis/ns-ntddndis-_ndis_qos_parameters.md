@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 83eb72a8-d35b-445d-a207-c14a3bedd308
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS, _NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS, netvista.ndis_qos_parameters
+ms.keywords: netvista.ndis_qos_parameters, PNDIS_QOS_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_QOS_PARAMETERS, ntddndis/PNDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_QOS_PARAMETERS, _NDIS_QOS_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_QOS_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: PNDIS_QOS_PARAMETERS, NDIS_QOS_PARAMETERS
+req.typenames: NDIS_QOS_PARAMETERS, PNDIS_QOS_PARAMETERS
 ---
 
 # _NDIS_QOS_PARAMETERS structure
@@ -307,11 +307,19 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451828">OID_QOS_HARDWARE_CAPABILITIES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
 
 
 
@@ -323,24 +331,16 @@ The <b>NDIS_QOS_PARAMETERS_<i>Xxx</i>_CHANGED</b> flags provide hints as to whet
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_hardware_assist_attributes.md">NDIS_MINIPORT_ADAPTER_HARDWARE_ASSIST_ATTRIBUTES</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh451827">OID_QOS_CURRENT_CAPABILITIES</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_qos_capabilities.md">NDIS_QOS_CAPABILITIES</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439810">NDIS_STATUS_QOS_OPERATIONAL_PARAMETERS_CHANGE</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">
     NdisMSetMiniportAttributes</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439812">NDIS_STATUS_QOS_REMOTE_PARAMETERS_CHANGE</a>
 
 
 

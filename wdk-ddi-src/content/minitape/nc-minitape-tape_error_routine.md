@@ -40,7 +40,7 @@ apiname:
 -	(*TAPE_ERROR_ROUTINE)
 product: Windows
 targetos: Windows
-req.typenames: "*PPROCESSOR_NUMBER, PROCESSOR_NUMBER"
+req.typenames: PROCESSOR_NUMBER, *PPROCESSOR_NUMBER
 ---
 
 # TAPE_ERROR_ROUTINE callback
@@ -113,16 +113,7 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 ## -see-also
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
-
-
-
-
-
-
-
-
-<a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
 
 
 
@@ -130,9 +121,7 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -140,7 +129,7 @@ A tape miniclass driver optionally specifies an entry point for its <i>TAPE_ERRO
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 

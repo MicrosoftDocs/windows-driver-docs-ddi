@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 96236605-36b0-48f5-85d6-512160692b5f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/PHBAFC3MgmtInfo, *PHBAFC3MgmtInfo, storage.hbafc3mgmtinfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], _HBAFC3MgmtInfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml, HBAFC3MgmtInfo structure [Storage Devices], HBAFC3MgmtInfo, PHBAFC3MgmtInfo, hbapiwmi/HBAFC3MgmtInfo
+ms.keywords: hbapiwmi/PHBAFC3MgmtInfo, PHBAFC3MgmtInfo, PHBAFC3MgmtInfo structure pointer [Storage Devices], hbapiwmi/HBAFC3MgmtInfo, storage.hbafc3mgmtinfo, _HBAFC3MgmtInfo, HBAFC3MgmtInfo, structs-Fibre_b128f553-eb08-4077-9dcb-7a7238ec220f.xml, *PHBAFC3MgmtInfo, HBAFC3MgmtInfo structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAFC3MgmtInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PHBAFC3MgmtInfo, HBAFC3MgmtInfo"
+req.typenames: HBAFC3MgmtInfo, *PHBAFC3MgmtInfo
 ---
 
 # _HBAFC3MgmtInfo structure

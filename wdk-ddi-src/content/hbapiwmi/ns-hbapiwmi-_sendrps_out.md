@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d243704-7424-4738-b122-6b9467eb5916
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SendRPS_OUT, storage.sendrps_out, _SendRPS_OUT, *PSendRPS_OUT, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml, SendRPS_OUT structure [Storage Devices], hbapiwmi/SendRPS_OUT
+ms.keywords: hbapiwmi/SendRPS_OUT, structs-Fibre_0c81817b-666f-4b2b-8ae2-2342894d7c46.xml, SendRPS_OUT, storage.sendrps_out, SendRPS_OUT structure [Storage Devices], _SendRPS_OUT, *PSendRPS_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

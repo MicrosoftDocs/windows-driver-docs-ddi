@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: F8FD0C10-115D-4ACF-8C7F-127D342EA9CD
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidP_GetCollectionDescription, hidpddi/HidP_GetCollectionDescription, hid.hidp_getcollectiondescription, HidP_GetCollectionDescription function [Human Input Devices]
+ms.keywords: hid.hidp_getcollectiondescription, HidP_GetCollectionDescription, HidP_GetCollectionDescription function [Human Input Devices], hidpddi/HidP_GetCollectionDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

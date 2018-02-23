@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0deccfee-34e3-47ee-b141-9758cffcd0c2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbInterface interface, GetConfiguredSettingIndex method, IWDFUsbInterface::GetConfiguredSettingIndex, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, IWDFUsbInterface, GetConfiguredSettingIndex method, IWDFUsbInterface interface, umdf.iwdfusbinterface_getconfiguredsettingindex, GetConfiguredSettingIndex method, wdf.iwdfusbinterface_getconfiguredsettingindex, GetConfiguredSettingIndex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex
+ms.keywords: GetConfiguredSettingIndex, wudfusb/IWDFUsbInterface::GetConfiguredSettingIndex, IWDFUsbInterface, GetConfiguredSettingIndex method, umdf.iwdfusbinterface_getconfiguredsettingindex, IWDFUsbInterface interface, GetConfiguredSettingIndex method, UMDFUSBref_5c2cdbd4-d660-4933-b1fb-a99852b5cba8.xml, GetConfiguredSettingIndex method, IWDFUsbInterface interface, wdf.iwdfusbinterface_getconfiguredsettingindex, IWDFUsbInterface::GetConfiguredSettingIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbInterface.GetConfiguredSettingIndex
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -90,11 +90,11 @@ The <b>GetConfiguredSettingIndex</b> method is provided for convenience because 
 
 ## -see-also
 
+<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+
+
+
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
 
 
 

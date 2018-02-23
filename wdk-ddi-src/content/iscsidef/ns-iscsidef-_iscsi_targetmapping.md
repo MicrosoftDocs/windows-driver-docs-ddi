@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9b8c5024-5d37-4f85-be00-1a60dd9ab323
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.iscsi_targetmapping, iscsidef/ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, PISCSI_TargetMapping, _ISCSI_TargetMapping, ISCSI_TargetMapping, ISCSI_TargetMapping structure [Storage Devices], structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, *PISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices]
+ms.keywords: structs-iSCSI_5512347c-9b89-4d14-9c84-4e7b9191dbfa.xml, *PISCSI_TargetMapping, _ISCSI_TargetMapping, iscsidef/PISCSI_TargetMapping, iscsidef/ISCSI_TargetMapping, PISCSI_TargetMapping structure pointer [Storage Devices], ISCSI_TargetMapping structure [Storage Devices], storage.iscsi_targetmapping, ISCSI_TargetMapping, PISCSI_TargetMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_TargetMapping
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_TargetMapping, ISCSI_TargetMapping"
+req.typenames: ISCSI_TargetMapping, *PISCSI_TargetMapping
 ---
 
 # _ISCSI_TargetMapping structure
@@ -127,19 +127,19 @@ Management applications can use the ISCSI_TargetMapping structure to specify a l
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
 <a href="..\iscsidef\ns-iscsidef-_iscsi_lunlist.md">ISCSI_LUNList</a>
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561573">ISCSI_TargetMapping WMI Class</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
 
 
 

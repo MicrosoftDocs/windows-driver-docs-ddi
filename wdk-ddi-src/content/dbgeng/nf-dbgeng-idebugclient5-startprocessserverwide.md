@@ -4,11 +4,11 @@ title: IDebugClient5::StartProcessServerWide method
 author: windows-driver-content
 description: The StartProcessServerWide method starts a process server.
 old-location: debugger\startprocessserverwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1e72578c-9359-4275-a4f2-2b5ae4dbf2b7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, StartProcessServerWide, IDebugClient5, IDebugClient5::StartProcessServerWide, dbgeng/IDebugClient5::StartProcessServerWide, StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, StartProcessServerWide method [Windows Debugging], debugger.startprocessserverwide
+ms.date: 2/22/2018
+ms.keywords: StartProcessServerWide, StartProcessServerWide method [Windows Debugging], IDebugClient5::StartProcessServerWide, dbgeng/IDebugClient5::StartProcessServerWide, IDebugClient5 interface [Windows Debugging], StartProcessServerWide method, StartProcessServerWide method [Windows Debugging], IDebugClient5 interface, debugger.startprocessserverwide, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -127,19 +127,19 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561230">WaitForProcessServerEnd</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542993">EndProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
 
 
 
@@ -151,5 +151,5 @@ For more information about process servers and remote debugging, see <a href="ht
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient5::StartProcessServerWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::StartProcessServerWide method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

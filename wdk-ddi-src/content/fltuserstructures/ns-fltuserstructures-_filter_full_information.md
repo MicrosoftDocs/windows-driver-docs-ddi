@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fb592350-76e2-4655-b6db-854fd48aa827
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PFILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION structure [Installable File System Drivers], FILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION, fltuserstructures/PFILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION structure pointer [Installable File System Drivers], FltSystemStructures_e72c2545-4938-4a3e-b3c8-95fd7f46239a.xml, ifsk.filter_full_information, fltuserstructures/FILTER_FULL_INFORMATION, _FILTER_FULL_INFORMATION"
+ms.keywords: ifsk.filter_full_information, FILTER_FULL_INFORMATION, FltSystemStructures_e72c2545-4938-4a3e-b3c8-95fd7f46239a.xml, *PFILTER_FULL_INFORMATION, _FILTER_FULL_INFORMATION, FILTER_FULL_INFORMATION structure [Installable File System Drivers], fltuserstructures/PFILTER_FULL_INFORMATION, fltuserstructures/FILTER_FULL_INFORMATION, PFILTER_FULL_INFORMATION structure pointer [Installable File System Drivers], PFILTER_FULL_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,11 +109,11 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
-
-
-
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_standard_information.md">FILTER_AGGREGATE_STANDARD_INFORMATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
 
 
 
@@ -121,11 +121,15 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540500">FilterGetInformation</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltgetfilterinformation.md">FltGetFilterInformation</a>
+
+
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 
 
@@ -133,11 +137,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540500">FilterGetInformation</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540481">FilterFindClose</a>
 
 
 

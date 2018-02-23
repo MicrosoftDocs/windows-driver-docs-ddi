@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee340d85-5a66-4773-b325-831257e9bfd8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeRaiseIrql, k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, KeRaiseIrql routine [Kernel-Mode Driver Architecture], kernel.keraiseirql, wdm/KeRaiseIrql
+ms.keywords: KeRaiseIrql routine [Kernel-Mode Driver Architecture], wdm/KeRaiseIrql, k105_66b09c47-8f95-41ee-8432-5784f306ad62.xml, kernel.keraiseirql, KeRaiseIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -109,11 +109,11 @@ A call to <b>KeLowerIrql</b> is valid if it specifies <i>NewIrql</i> &lt;= <i>Cu
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
-
-
-
 <a href="..\wdm\nf-wdm-kelowerirql.md">KeLowerIrql</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
 
 

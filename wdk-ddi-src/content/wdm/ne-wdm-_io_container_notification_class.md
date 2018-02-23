@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2ce023-ebb1-4a8e-a06a-e2f11a89d258
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.io_container_notification_class, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, wdm/IoSessionStateNotification, IO_CONTAINER_NOTIFICATION_CLASS, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/IO_CONTAINER_NOTIFICATION_CLASS, IoSessionStateNotification, wdm/IoMaxContainerNotificationClass, _IO_CONTAINER_NOTIFICATION_CLASS, IoMaxContainerNotificationClass
+ms.keywords: IO_CONTAINER_NOTIFICATION_CLASS, wdm/IO_CONTAINER_NOTIFICATION_CLASS, wdm/IoMaxContainerNotificationClass, wdm/IoSessionStateNotification, IO_CONTAINER_NOTIFICATION_CLASS enumeration [Kernel-Mode Driver Architecture], IoSessionStateNotification, _IO_CONTAINER_NOTIFICATION_CLASS, sysenum_c77c6805-11ce-4368-9c82-085ce99a2a97.xml, IoMaxContainerNotificationClass, kernel.io_container_notification_class
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

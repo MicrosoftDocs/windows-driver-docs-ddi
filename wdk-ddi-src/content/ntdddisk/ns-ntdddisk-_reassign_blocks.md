@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b79f15d8-b777-43dc-82b9-fcd1ba19aebd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntdddisk/PREASSIGN_BLOCKS, PREASSIGN_BLOCKS, structs-disk_dbe1fcc8-083e-41c4-8620-b216cdbecd34.xml, *PREASSIGN_BLOCKS, REASSIGN_BLOCKS, PREASSIGN_BLOCKS structure pointer [Storage Devices], ntdddisk/REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Storage Devices], storage.reassign_blocks, _REASSIGN_BLOCKS
+ms.keywords: storage.reassign_blocks, ntdddisk/PREASSIGN_BLOCKS, ntdddisk/REASSIGN_BLOCKS, PREASSIGN_BLOCKS, _REASSIGN_BLOCKS, *PREASSIGN_BLOCKS, PREASSIGN_BLOCKS structure pointer [Storage Devices], REASSIGN_BLOCKS, REASSIGN_BLOCKS structure [Storage Devices], structs-disk_dbe1fcc8-083e-41c4-8620-b216cdbecd34.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

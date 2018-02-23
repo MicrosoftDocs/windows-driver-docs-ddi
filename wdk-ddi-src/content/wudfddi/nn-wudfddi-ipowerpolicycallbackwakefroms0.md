@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 A driver's <b>IPowerPolicyCallbackWakeFromS0</b> interface provides callback functions that the framework calls to notify the driver about wake events. These events are related to a device's ability to wake from a low-power state while the system remains in the <a href="https://msdn.microsoft.com/93ab0943-a4cc-4ef0-a250-1c63b2c915d5">system working state</a> (S0).
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPowerPolicyCallbackWakeFromS0</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPowerPolicyCallbackWakeFromS0</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPowerPolicyCallbackWakeFromS0</b> interface has these methods.
@@ -90,13 +97,7 @@ A driver's <a href="https://msdn.microsoft.com/ebcd31f9-79cd-4c43-8cac-231ff97f2
 
 </td>
 </tr>
-</table>A driver's <a href="https://msdn.microsoft.com/4801a7c4-8bd4-4372-bcdd-49e5570d833e">OnArmWakeFromS0</a> callback function arms (that is, enables) a device so that it can trigger a wake signal while in a low-power device state, if the system remains in the <a href="https://msdn.microsoft.com/93ab0943-a4cc-4ef0-a250-1c63b2c915d5">system working state</a> (S0). 
-
-A driver's <a href="https://msdn.microsoft.com/04c1eecd-c87f-45c5-be7b-0fbd8e114594">OnDisarmWakeFromS0</a> event callback function disarms (that is, disables) a device's ability to trigger a wake signal while in a low-power device state, if the system remains in the <a href="https://msdn.microsoft.com/93ab0943-a4cc-4ef0-a250-1c63b2c915d5">system working state</a> (S0). 
-
-A driver's <a href="https://msdn.microsoft.com/ebcd31f9-79cd-4c43-8cac-231ff97f269e">OnWakeFromS0Triggered</a> event callback function informs the driver that its device, which had previously entered a low-power device state while the system power state remained at S0, might have triggered a wake signal.
-
- 
+</table> 
 
 
 ## -remarks

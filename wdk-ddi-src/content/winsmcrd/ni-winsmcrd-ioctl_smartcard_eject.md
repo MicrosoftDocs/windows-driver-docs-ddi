@@ -7,7 +7,7 @@ old-location: smartcrd\ioctl_smartcard_eject.htm
 old-project: smartcrd
 ms.assetid: 58bdd794-9061-4aae-a9a6-523db4e2e360
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: smartcrd.ioctl_smartcard_eject, IOCTL_SMARTCARD_EJECT control code [Smart Card Reader Devices], IOCTL_SMARTCARD_EJECT, winsmcrd/IOCTL_SMARTCARD_EJECT, scioctls_e12f239a-b997-4af6-bace-92e9c65c88b6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

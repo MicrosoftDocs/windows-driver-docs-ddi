@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3A9CF1BD-77F1-4F4C-AEB5-0E77B67C45D3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfio/WdfIoQueueStopAndPurge, wdf.wdfioqueuestopandpurge, kmdf.wdfioqueuestopandpurge, WdfIoQueueStopAndPurge, WdfIoQueueStopAndPurge method
+ms.keywords: kmdf.wdfioqueuestopandpurge, WdfIoQueueStopAndPurge method, WdfIoQueueStopAndPurge, wdf.wdfioqueuestopandpurge, wdfio/WdfIoQueueStopAndPurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,15 +150,15 @@ WdfIoQueueStopAndPurge(
 
 ## -see-also
 
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_state.md">EvtIoQueueState</a>
+
+
+
+<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md">EvtIoCanceledOnQueue</a>
+
+
+
 <a href="..\wdfio\nf-wdfio-wdfioqueuestopandpurgesynchronously.md">WdfIoQueueStopAndPurgeSynchronously</a>
-
-
-
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md">EvtIoCanceledOnQueue</a>
-
-
-
-<a href="..\wdfio\nc-wdfio-evt_wdf_io_queue_io_canceled_on_queue.md">EvtIoCanceledOnQueue</a>
 
 
 

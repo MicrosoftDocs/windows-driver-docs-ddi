@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 57519a7c-7710-4482-82f2-32067b1af22f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture], kernel.vpci_write_block_input, vpci/VPCI_WRITE_BLOCK_INPUT, vpci/PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], _VPCI_WRITE_BLOCK_INPUT, *PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT
+ms.keywords: "_VPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT, kernel.vpci_write_block_input, PVPCI_WRITE_BLOCK_INPUT structure pointer [Kernel-Mode Driver Architecture], *PVPCI_WRITE_BLOCK_INPUT, vpci/VPCI_WRITE_BLOCK_INPUT, vpci/PVPCI_WRITE_BLOCK_INPUT, PVPCI_WRITE_BLOCK_INPUT, VPCI_WRITE_BLOCK_INPUT structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

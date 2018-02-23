@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9C7E41E8-AFB4-4421-8773-EBDA5F779364
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PEP_PPM_QUERY_COORDINATED_STATES, PEP_PPM_QUERY_IDLE_STATES_V2, PEP_PPM_QUERY_COORDINATED_STATES structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_COORDINATED_STATES, pepfx/PPEP_PPM_QUERY_COORDINATED_STATES, *PPEP_PPM_QUERY_IDLE_STATES_V2, PEP_PPM_QUERY_COORDINATED_STATES, *PPEP_PPM_QUERY_COORDINATED_STATES, kernel.pep_ppm_query_coordinated_states, PPEP_PPM_QUERY_COORDINATED_STATES, PPEP_PPM_QUERY_COORDINATED_STATES structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: PEP_PPM_QUERY_COORDINATED_STATES, PPEP_PPM_QUERY_COORDINATED_STATES structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_COORDINATED_STATES, PPEP_PPM_QUERY_COORDINATED_STATES, kernel.pep_ppm_query_coordinated_states, *PPEP_PPM_QUERY_COORDINATED_STATES, PEP_PPM_QUERY_IDLE_STATES_V2, PEP_PPM_QUERY_COORDINATED_STATES structure [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_IDLE_STATES_V2, _PEP_PPM_QUERY_COORDINATED_STATES, pepfx/PEP_PPM_QUERY_COORDINATED_STATES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_QUERY_COORDINATED_STATES
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_QUERY_IDLE_STATES_V2, *PPEP_PPM_QUERY_COORDINATED_STATES, PEP_PPM_QUERY_IDLE_STATES_V2, PEP_PPM_QUERY_COORDINATED_STATES"
+req.typenames: PEP_PPM_QUERY_COORDINATED_STATES, *PPEP_PPM_QUERY_COORDINATED_STATES, PEP_PPM_QUERY_COORDINATED_STATES, *PPEP_PPM_QUERY_COORDINATED_STATES, PEP_PPM_QUERY_IDLE_STATES_V2, *PPEP_PPM_QUERY_IDLE_STATES_V2
 ---
 
 # _PEP_PPM_QUERY_COORDINATED_STATES structure
@@ -75,20 +75,20 @@ typedef struct _PEP_PPM_QUERY_COORDINATED_STATES {
 
 ### -field States
 
-[out] An array of <a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE</a> structures that contains information about each coordinated idle state that the PEP supports.
+[out] An array of <a href="..\pep_x\ns-pep_x-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE</a> structures that contains information about each coordinated idle state that the PEP supports.
 
 
 ## -see-also
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES notification</a>
+
+
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186776">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATES notification</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES notification</a>
+<a href="..\pep_x\ns-pep_x-_pep_coordinated_idle_state.md">PEP_COORDINATED_IDLE_STATE</a>
 
 
 

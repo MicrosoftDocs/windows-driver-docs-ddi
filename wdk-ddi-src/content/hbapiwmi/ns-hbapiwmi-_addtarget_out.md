@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1e0f19df-1705-4a70-a47c-0569907330a4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PAddTarget_OUT structure pointer [Storage Devices], PAddTarget_OUT, hbapiwmi/AddTarget_OUT, hbapiwmi/PAddTarget_OUT, storage.addtarget_out, *PAddTarget_OUT, AddTarget_OUT, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml, _AddTarget_OUT, AddTarget_OUT structure [Storage Devices]
+ms.keywords: AddTarget_OUT structure [Storage Devices], *PAddTarget_OUT, structs-Fibre_b3dd963b-2fd1-4fbe-bfe3-b363a95f1a51.xml, PAddTarget_OUT structure pointer [Storage Devices], hbapiwmi/AddTarget_OUT, _AddTarget_OUT, hbapiwmi/PAddTarget_OUT, PAddTarget_OUT, AddTarget_OUT, storage.addtarget_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

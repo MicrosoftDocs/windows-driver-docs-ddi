@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6B2B0A88-9F63-4A68-894B-38424FBE161E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], dot11wdi/NdisMDeregisterWdiMiniportDriver, NdisMDeregisterWdiMiniportDriver, netvista.ndismderegisterwdiminiportdriver
+ms.keywords: NdisMDeregisterWdiMiniportDriver function [Network Drivers Starting with Windows Vista], netvista.ndismderegisterwdiminiportdriver, dot11wdi/NdisMDeregisterWdiMiniportDriver, NdisMDeregisterWdiMiniportDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

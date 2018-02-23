@@ -4,11 +4,11 @@ title: IDebugSymbols2::StartSymbolMatch method
 author: windows-driver-content
 description: The StartSymbolMatch method initializes a search for symbols whose names match a given pattern.
 old-location: debugger\startsymbolmatch.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 465b13a7-59e0-47f8-9e33-82043a23f146
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, StartSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, debugger.startsymbolmatch, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols3::StartSymbolMatch, dbgeng/IDebugSymbols::StartSymbolMatch, IDebugSymbols2::StartSymbolMatch, dbgeng/IDebugSymbols2::StartSymbolMatch, IDebugSymbols::StartSymbolMatch, IDebugSymbols2 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, StartSymbolMatch, dbgeng/IDebugSymbols3::StartSymbolMatch, IDebugSymbols2, StartSymbolMatch method [Windows Debugging], IDebugSymbols interface, IDebugSymbols interface [Windows Debugging], StartSymbolMatch method, StartSymbolMatch method [Windows Debugging], IDebugSymbols
+ms.date: 2/22/2018
+ms.keywords: StartSymbolMatch method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::StartSymbolMatch, IDebugSymbols2 interface [Windows Debugging], StartSymbolMatch method, dbgeng/IDebugSymbols::StartSymbolMatch, IDebugSymbols interface [Windows Debugging], StartSymbolMatch method, StartSymbolMatch method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::StartSymbolMatch, StartSymbolMatch method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3::StartSymbolMatch, StartSymbolMatch method [Windows Debugging], dbgeng/IDebugSymbols3::StartSymbolMatch, IDebugSymbols3 interface [Windows Debugging], StartSymbolMatch method, IDebugSymbols_4b000f13-0dc1-4a2c-8de3-3bf5384172c3.xml, IDebugSymbols, debugger.startsymbolmatch, StartSymbolMatch, dbgeng/IDebugSymbols2::StartSymbolMatch, IDebugSymbols2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -132,19 +132,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547856">GetNextSymbolMatch</a>
 
 
 
@@ -152,9 +140,21 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::StartSymbolMatch method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::StartSymbolMatch method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 16e1b0cb-8543-4700-8f8c-d7301c6de622
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_memory_descriptor_init_buffer, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, wdf.wdf_memory_descriptor_init_buffer, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER
+ms.keywords: WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, wdf.wdf_memory_descriptor_init_buffer, wdfmemory/WDF_MEMORY_DESCRIPTOR_INIT_BUFFER, DFMemoryObjectRef_706a9ee6-c0f1-4cb4-a887-cbb535d94d17.xml, WDF_MEMORY_DESCRIPTOR_INIT_BUFFER function, kmdf.wdf_memory_descriptor_init_buffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

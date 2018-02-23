@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c445c016-2781-4a82-ac2d-4c6eaff3b4c8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, ntifs/MmIsRecursiveIoFault, MmIsRecursiveIoFault, MmIsRecursiveIoFault routine [Installable File System Drivers], ifsk.mmisrecursiveiofault
+ms.keywords: ifsk.mmisrecursiveiofault, mmref_2f97ee70-0e70-4607-841e-e9d5b3ae74c8.xml, MmIsRecursiveIoFault routine [Installable File System Drivers], MmIsRecursiveIoFault, ntifs/MmIsRecursiveIoFault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

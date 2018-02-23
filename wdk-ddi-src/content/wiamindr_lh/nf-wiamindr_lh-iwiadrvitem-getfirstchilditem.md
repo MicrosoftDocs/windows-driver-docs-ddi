@@ -4,11 +4,11 @@ title: IWiaDrvItem::GetFirstChildItem method
 author: windows-driver-content
 description: The IWiaDrvItem::GetFirstChildItem method gets the first child item in an IWiaDrvItem folder item.
 old-location: image\iwiadrvitem_getfirstchilditem.htm
-old-project: Image
+old-project: image
 ms.assetid: 2e580a57-03cb-4ff4-b3c6-0b5ef17b4ccb
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wiamindr_lh/IWiaDrvItem::GetFirstChildItem, DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, IWiaDrvItem::GetFirstChildItem, IWiaDrvItem interface [Imaging Devices], GetFirstChildItem method, GetFirstChildItem, image.iwiadrvitem_getfirstchilditem, IWiaDrvItem, GetFirstChildItem method [Imaging Devices], GetFirstChildItem method [Imaging Devices], IWiaDrvItem interface
+ms.date: 2/22/2018
+ms.keywords: GetFirstChildItem method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetFirstChildItem, image.iwiadrvitem_getfirstchilditem, IWiaDrvItem interface [Imaging Devices], GetFirstChildItem method, DrvItem_0ee76640-f07a-4b25-9955-230122a2a662.xml, GetFirstChildItem, IWiaDrvItem::GetFirstChildItem, GetFirstChildItem method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -100,7 +100,7 @@ Minidrivers typically use this method to retrieve the first child item in a driv
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543889">IWiaDrvItem::GetNextSiblingItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543892">IWiaDrvItem::GetParentItem</a>
 
 
 
@@ -116,5 +116,5 @@ Minidrivers typically use this method to retrieve the first child item in a driv
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaDrvItem::GetFirstChildItem method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetFirstChildItem method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

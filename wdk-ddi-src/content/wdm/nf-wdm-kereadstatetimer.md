@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0f7fc534-4a81-42e0-a3e6-8b91baa28b55
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeReadStateTimer routine [Kernel-Mode Driver Architecture], wdm/KeReadStateTimer, k105_8e101501-f419-40ff-91cd-a8aee0ffcbc8.xml, KeReadStateTimer, kernel.kereadstatetimer
+ms.keywords: KeReadStateTimer, kernel.kereadstatetimer, k105_8e101501-f419-40ff-91cd-a8aee0ffcbc8.xml, wdm/KeReadStateTimer, KeReadStateTimer routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,7 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
-
-
-
-<a href="..\wdm\nf-wdm-keinitializetimer.md">KeInitializeTimer</a>
+<a href="..\wdm\nf-wdm-kecanceltimer.md">KeCancelTimer</a>
 
 
 
@@ -112,6 +108,10 @@ For more information about timer objects, see <a href="https://msdn.microsoft.co
 
 
 <a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesettimer.md">KeSetTimer</a>
 
 
 

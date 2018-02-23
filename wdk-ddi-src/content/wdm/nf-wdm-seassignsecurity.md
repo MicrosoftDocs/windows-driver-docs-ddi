@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08f0b4c0-ba77-450d-8b93-73231bbf760c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, wdm/SeAssignSecurity, kernel.seassignsecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], SeAssignSecurity
+ms.keywords: k110_10d67a00-4643-4d40-b9a2-1a19e79dc755.xml, SeAssignSecurity, SeAssignSecurity routine [Kernel-Mode Driver Architecture], wdm/SeAssignSecurity, kernel.seassignsecurity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -248,7 +248,7 @@ If the passed security descriptor includes a group, it is assigned as the new ob
 
 
 
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+<a href="..\wdm\nf-wdm-sedeassignsecurity.md">SeDeassignSecurity</a>
 
 
 

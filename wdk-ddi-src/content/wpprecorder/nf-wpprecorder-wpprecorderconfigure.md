@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 995E4606-F987-46A7-8310-28E8E9C7682C
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: imp_WppRecorderConfigure, devtest.wpprecorderconfigure, WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], wpprecorder/imp_WppRecorderConfigure
+ms.keywords: devtest.wpprecorderconfigure, wpprecorder/imp_WppRecorderConfigure, imp_WppRecorderConfigure function [Driver Development Tools], imp_WppRecorderConfigure, WppRecorderConfigure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	imp_WppRecorderConfigure
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

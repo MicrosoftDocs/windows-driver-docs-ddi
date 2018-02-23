@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b19f85f7-fe51-4539-8c36-e3c6a299faad
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ChangerClassInitialize, storage.changerclassinitialize, chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, ChangerClassInitialize routine [Storage Devices], mcd/ChangerClassInitialize
+ms.keywords: storage.changerclassinitialize, chgrclas_f0aa8547-be16-44aa-bd15-a4828d7f57f5.xml, mcd/ChangerClassInitialize, ChangerClassInitialize routine [Storage Devices], ChangerClassInitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,7 +109,7 @@ Pointer to an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> struct
 
 Changer miniclass drivers call <b>ChangerClassInitialize</b> from within their <b>DriverEntry</b> routines to initialize the driver. <b>ChangerClassInitialize</b> performs many tasks formerly performed by the changer class driver's <b>DriverEntry</b> routine such as registering the miniclass driver's dispatch routines. It allocates a driver object extension and copies the data contained in <i>MCDInitData</i> into the driver object extension along with other initialization data such as the driver's registry path and pointers to certain changer class driver routines that are operating system-specific. 
 
-Changer miniclass drivers must allocate an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> structure, zero the structure by calling <a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>, and then assign values to the appropriate members, before passing the structure's address to <b>ChangerClassInitialize</b> by means of the <i>MCDInitData</i> parameter. 
+Changer miniclass drivers must allocate an <a href="..\mcd\ns-mcd-_mcd_init_data.md">MCD_INIT_DATA</a> structure, zero the structure by calling <a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>, and then assign values to the appropriate members, before passing the structure's address to <b>ChangerClassInitialize</b> by means of the <i>MCDInitData</i> parameter. 
 
 
 
@@ -120,7 +120,7 @@ Changer miniclass drivers must allocate an <a href="..\mcd\ns-mcd-_mcd_init_data
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

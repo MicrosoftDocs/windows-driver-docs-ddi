@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7627521D-4715-47D8-8268-6C9B218FFA6F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_PPM_INITIATE_WAKE structure [Kernel-Mode Driver Architecture], _PEP_PPM_INITIATE_WAKE, pepfx/PEP_PPM_INITIATE_WAKE, pepfx/PPEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_INITIATE_WAKE, kernel.pep_ppm_initiate_wake, PPEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE
+ms.keywords: PEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE structure [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_INITIATE_WAKE, pepfx/PPEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE, kernel.pep_ppm_initiate_wake
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_INITIATE_WAKE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE"
+req.typenames: PEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE
 ---
 
 # _PEP_PPM_INITIATE_WAKE structure

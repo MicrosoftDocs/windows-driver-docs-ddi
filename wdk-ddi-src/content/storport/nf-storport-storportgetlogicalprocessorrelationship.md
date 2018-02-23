@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 32b92771-7f23-492c-a3b0-b10032c9f80a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml, StorPortGetLogicalProcessorRelationship, storage.storportgetlogicalprocessorrelationship, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storport/StorPortGetLogicalProcessorRelationship
+ms.keywords: storprt_65b00469-41a4-446b-aaa5-fee877aaff3c.xml, StorPortGetLogicalProcessorRelationship routine [Storage Devices], storport/StorPortGetLogicalProcessorRelationship, storage.storportgetlogicalprocessorrelationship, StorPortGetLogicalProcessorRelationship
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

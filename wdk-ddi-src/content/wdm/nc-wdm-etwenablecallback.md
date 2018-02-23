@@ -40,7 +40,7 @@ apiname:
 -	EtwEnableCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -145,7 +145,15 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
+
+
+
 <a href="http://go.microsoft.com/fwlink/p/?linkid=103398">EnableTraceEx</a>
+
+
+
+<a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
 
 
 
@@ -153,19 +161,11 @@ Callers of <b>EtwEnableCallback</b> must be running at IRQL = PASSIVE_LEVEL in t
 
 
 
-<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
-
-
-
-<a href="..\wdm\nf-wdm-etweventenabled.md">EtwEventEnabled</a>
-
-
-
 <a href="..\wdm\nf-wdm-etwregister.md">EtwRegister</a>
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=103399">EnableTrace</a>
+<a href="..\wdm\nf-wdm-etwproviderenabled.md">EtwProviderEnabled</a>
 
 
 

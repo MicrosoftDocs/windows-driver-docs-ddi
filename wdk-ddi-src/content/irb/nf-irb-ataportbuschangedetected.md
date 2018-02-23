@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5a3d4dc-7446-49c1-985a-9d3a9d43dc15
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: irb/AtaPortBusChangeDetected, AtaPortBusChangeDetected, storage.ataportbuschangedetected, AtaPortBusChangeDetected routine [Storage Devices]
+ms.keywords: AtaPortBusChangeDetected routine [Storage Devices], AtaPortBusChangeDetected, storage.ataportbuschangedetected, irb/AtaPortBusChangeDetected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

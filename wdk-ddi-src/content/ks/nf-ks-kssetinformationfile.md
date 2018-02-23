@@ -7,8 +7,8 @@ old-location: stream\kssetinformationfile.htm
 old-project: stream
 ms.assetid: 878c6565-99f9-4f45-abba-ba4ece5b5743
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsSetInformationFile, ks/KsSetInformationFile, ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, stream.kssetinformationfile, KsSetInformationFile function [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: KsSetInformationFile function [Streaming Media Devices], ksfunc_338e56fe-b32d-4c9e-920f-9a5af1c5fdf3.xml, ks/KsSetInformationFile, KsSetInformationFile, stream.kssetinformationfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

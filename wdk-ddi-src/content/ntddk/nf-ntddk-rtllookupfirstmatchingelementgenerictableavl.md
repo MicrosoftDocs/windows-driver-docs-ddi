@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: ff9cea5d-a93f-4d3c-b034-d2bf85484df3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtllookupfirstmatchingelementgenerictableavl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml, ntddk/RtlLookupFirstMatchingElementGenericTableAvl, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], RtlLookupFirstMatchingElementGenericTableAvl
+ms.keywords: ifsk.rtllookupfirstmatchingelementgenerictableavl, RtlLookupFirstMatchingElementGenericTableAvl, rtlref_60dc0941-12da-4d46-8f6d-ffbd2e394ddf.xml, RtlLookupFirstMatchingElementGenericTableAvl routine [Installable File System Drivers], ntddk/RtlLookupFirstMatchingElementGenericTableAvl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlLookupFirstMatchingElementGenericTableAvl
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlLookupFirstMatchingElementGenericTableAvl function

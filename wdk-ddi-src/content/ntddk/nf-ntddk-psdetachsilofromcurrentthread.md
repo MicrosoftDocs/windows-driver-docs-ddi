@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E364130B-9709-4FD9-8654-9FBC52E29145
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsDetachSiloFromCurrentThread, kernel.psdetachsilofromcurrentthread, PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], ntddk/PsDetachSiloFromCurrentThread
+ms.keywords: PsDetachSiloFromCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psdetachsilofromcurrentthread, PsDetachSiloFromCurrentThread, ntddk/PsDetachSiloFromCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsDetachSiloFromCurrentThread
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsDetachSiloFromCurrentThread function

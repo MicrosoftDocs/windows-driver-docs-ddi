@@ -40,7 +40,7 @@ apiname:
 -	AcpiOpRegionHandler
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # ACPI_OP_REGION_HANDLER callback
@@ -212,11 +212,11 @@ For detailed information about constraints on operation regions, see the <a href
 
 ## -see-also
 
-<a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
-
-
-
 <a href="..\oprghdlr\nf-oprghdlr-deregisteropregionhandler.md">DeRegisterOpRegionHandler</a>
+
+
+
+<a href="..\oprghdlr\nf-oprghdlr-registeropregionhandler.md">RegisterOpRegionHandler</a>
 
 
 

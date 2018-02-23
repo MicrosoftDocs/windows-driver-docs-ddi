@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 09154884-130d-47aa-be00-08a3a4da6f22
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfPdoClearEjectionRelationsDevices, WdfPdoClearEjectionRelationsDevices method, DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, kmdf.wdfpdoclearejectionrelationsdevices, wdfpdo/WdfPdoClearEjectionRelationsDevices, wdf.wdfpdoclearejectionrelationsdevices
+ms.keywords: WdfPdoClearEjectionRelationsDevices method, kmdf.wdfpdoclearejectionrelationsdevices, DFDeviceObjectFdoPdoRef_ddbc7fa5-d0c0-4074-901e-bc7a8ea50fa4.xml, wdf.wdfpdoclearejectionrelationsdevices, WdfPdoClearEjectionRelationsDevices, wdfpdo/WdfPdoClearEjectionRelationsDevices
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoClearEjectionRelationsDevices
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
+req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -113,11 +113,11 @@ The following code example clears the specified device's list of ejection relati
 
 ## -see-also
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoaddejectionrelationsphysicaldevice.md">WdfPdoAddEjectionRelationsPhysicalDevice</a>
+
+
+
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoremoveejectionrelationsphysicaldevice.md">WdfPdoRemoveEjectionRelationsPhysicalDevice</a>
 
 
 

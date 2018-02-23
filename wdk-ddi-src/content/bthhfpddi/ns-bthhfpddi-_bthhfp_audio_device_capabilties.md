@@ -7,8 +7,8 @@ old-location: audio\bthhfp_audio_device_capabilties.htm
 old-project: audio
 ms.assetid: 56c2bbb9-8fcd-43d4-9202-c8925575e44d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES, *PBTHHFP_AUDIO_DEVICE_CAPABILTIES, _BTHHFP_AUDIO_DEVICE_CAPABILTIES, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES, BTHHFP_AUDIO_DEVICE_CAPABILTIES structure [Audio Devices], audio.bthhfp_audio_device_capabilties
+ms.date: 2/22/2018
+ms.keywords: BTHHFP_AUDIO_DEVICE_CAPABILTIES, bthhfpddi/BTHHFP_AUDIO_DEVICE_CAPABILTIES, *PBTHHFP_AUDIO_DEVICE_CAPABILTIES, _BTHHFP_AUDIO_DEVICE_CAPABILTIES, audio.bthhfp_audio_device_capabilties, BTHHFP_AUDIO_DEVICE_CAPABILTIES structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

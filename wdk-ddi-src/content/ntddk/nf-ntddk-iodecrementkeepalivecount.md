@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2A8BC777-291C-4EC4-8EF9-AA78C6295700
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoDecrementKeepAliveCount, ntddk/IoDecrementKeepAliveCount, kernel.iodecrementkeepalivecount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/IoDecrementKeepAliveCount, kernel.iodecrementkeepalivecount, IoDecrementKeepAliveCount, IoDecrementKeepAliveCount routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoDecrementKeepAliveCount
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoDecrementKeepAliveCount function

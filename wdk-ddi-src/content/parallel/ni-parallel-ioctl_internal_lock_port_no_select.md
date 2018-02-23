@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_LOCK_PORT_NO_SELECT
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_LOCK_PORT_NO_SELECT IOCTL

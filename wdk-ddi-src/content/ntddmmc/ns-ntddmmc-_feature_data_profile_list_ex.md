@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: c15f9be2-1f35-41cf-a1de-880e3662f2b4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], ntddmmc/FEATURE_DATA_PROFILE_LIST_EX, structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml, FEATURE_DATA_PROFILE_LIST_EX, storage.feature_data_profile_list_ex, ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, _FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices]
+ms.keywords: "_FEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX structure [Storage Devices], structs-CD-ROM_4834760d-aeb7-44eb-a8a7-4c961ff8aa4c.xml, *PFEATURE_DATA_PROFILE_LIST_EX, storage.feature_data_profile_list_ex, PFEATURE_DATA_PROFILE_LIST_EX structure pointer [Storage Devices], FEATURE_DATA_PROFILE_LIST_EX, PFEATURE_DATA_PROFILE_LIST_EX, ntddmmc/PFEATURE_DATA_PROFILE_LIST_EX, ntddmmc/FEATURE_DATA_PROFILE_LIST_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_PROFILE_LIST_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_PROFILE_LIST_EX, FEATURE_DATA_PROFILE_LIST_EX"
+req.typenames: FEATURE_DATA_PROFILE_LIST_EX, *PFEATURE_DATA_PROFILE_LIST_EX
 ---
 
 # _FEATURE_DATA_PROFILE_LIST_EX structure

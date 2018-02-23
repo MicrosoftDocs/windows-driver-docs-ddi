@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 76a0fc34-a3e9-4f97-9c60-e7d179b1e6c3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlTimeToSecondsSince1980, ntifs/RtlTimeToSecondsSince1980, ifsk.rtltimetosecondssince1980, RtlTimeToSecondsSince1980 routine [Installable File System Drivers], rtlref_14f6e0b0-4291-46ce-aadc-ee8dc169a8cf.xml
+ms.keywords: RtlTimeToSecondsSince1980, rtlref_14f6e0b0-4291-46ce-aadc-ee8dc169a8cf.xml, ntifs/RtlTimeToSecondsSince1980, ifsk.rtltimetosecondssince1980, RtlTimeToSecondsSince1980 routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,11 +100,11 @@ For more information about converting time values, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtltimetotimefields.md">RtlTimeToTimeFields</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtltimefieldstotime.md">RtlTimeFieldsToTime</a>
 
 
 

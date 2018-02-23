@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 173cf6f2-7c6c-41d5-bd30-e323b24a0db0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsystemaction2_critical, wdtfsystemaction/IWDTFSystemAction2::get_Critical, put_Critical, Critical property [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], Critical property, wdtfsystemaction/IWDTFSystemAction2::put_Critical, IWDTFSystemAction2::put_Critical, IWDTFSystemAction2.Critical, Critical property [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft::WDTF::IWDTFSystemAction2::Critical, IWDTFSystemAction2, IWDTFSystemAction2::get_Critical, get_Critical, wdtfsystemaction/IWDTFSystemAction2::Critical, Microsoft.WDTF.IWDTFSystemAction2.Critical
+ms.keywords: IWDTFSystemAction2::put_Critical, wdtfsystemaction/IWDTFSystemAction2::put_Critical, get_Critical, Critical property [Windows Device Testing Framework], IWDTFSystemAction2 interface, wdtfsystemaction/IWDTFSystemAction2::Critical, Microsoft.WDTF.IWDTFSystemAction2.Critical, IWDTFSystemAction2.Critical, IWDTFSystemAction2::get_Critical, IWDTFSystemAction2, dtf.iwdtfsystemaction2_critical, Critical property [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], Critical property, Microsoft::WDTF::IWDTFSystemAction2::Critical, wdtfsystemaction/IWDTFSystemAction2::get_Critical, put_Critical
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

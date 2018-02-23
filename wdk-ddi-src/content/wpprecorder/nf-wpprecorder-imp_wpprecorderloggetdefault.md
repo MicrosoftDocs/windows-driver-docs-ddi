@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 823E9AA6-F838-41B1-A502-A983B7F24661
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wpprecorder/imp_WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], imp_WppRecorderLogGetDefault, devtest.wpprecorderloggetdefault, WppRecorderLogGetDefault
+ms.keywords: WppRecorderLogGetDefault, imp_WppRecorderLogGetDefault function [Driver Development Tools], imp_WppRecorderLogGetDefault, devtest.wpprecorderloggetdefault, wpprecorder/imp_WppRecorderLogGetDefault
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	imp_WppRecorderLogGetDefault
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

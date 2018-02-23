@@ -7,8 +7,8 @@ old-location: stream\bda_signal_timeouts.htm
 old-project: stream
 ms.assetid: CFEF848D-8268-4FFC-A629-D122021D8411
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS, _BDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS structure [Streaming Media Devices], PBDA_SIGNAL_TIMEOUTS, stream.bda_signal_timeouts, PBDA_SIGNAL_TIMEOUTS structure pointer [Streaming Media Devices], bdatypes/PBDA_SIGNAL_TIMEOUTS, bdatypes/BDA_SIGNAL_TIMEOUTS
+ms.date: 2/22/2018
+ms.keywords: stream.bda_signal_timeouts, PBDA_SIGNAL_TIMEOUTS structure pointer [Streaming Media Devices], BDA_SIGNAL_TIMEOUTS, PBDA_SIGNAL_TIMEOUTS, _BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS, bdatypes/PBDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS structure [Streaming Media Devices], bdatypes/BDA_SIGNAL_TIMEOUTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BDA_SIGNAL_TIMEOUTS
 product: Windows
 targetos: Windows
-req.typenames: "*PBDA_SIGNAL_TIMEOUTS, BDA_SIGNAL_TIMEOUTS"
+req.typenames: BDA_SIGNAL_TIMEOUTS, *PBDA_SIGNAL_TIMEOUTS
 ---
 
 # _BDA_SIGNAL_TIMEOUTS structure

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d5aa608-9ee7-45a6-bd2f-13a5b8338437
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PScsiReadCapacity_IN, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml, PScsiReadCapacity_IN structure pointer [Storage Devices], *PScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], hbapiwmi/PScsiReadCapacity_IN, _ScsiReadCapacity_IN, storage.scsireadcapacity_in2, hbapiwmi/ScsiReadCapacity_IN, ScsiReadCapacity_IN
+ms.keywords: hbapiwmi/ScsiReadCapacity_IN, storage.scsireadcapacity_in2, structs-Fibre_235165a1-b938-461a-9e4d-f555eae34119.xml, ScsiReadCapacity_IN structure [Storage Devices], *PScsiReadCapacity_IN, ScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], _ScsiReadCapacity_IN, PScsiReadCapacity_IN, hbapiwmi/PScsiReadCapacity_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReadCapacity_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiReadCapacity_IN, ScsiReadCapacity_IN"
+req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 ---
 
 # _ScsiReadCapacity_IN structure

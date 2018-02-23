@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aecf5f5f-c0b7-487a-9db0-d01212aef094
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltloadfilter, FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml, FltLoadFilter routine [Installable File System Drivers], fltkernel/FltLoadFilter, FltLoadFilter
+ms.keywords: ifsk.fltloadfilter, fltkernel/FltLoadFilter, FltLoadFilter, FltLoadFilter routine [Installable File System Drivers], FltApiRef_e_to_o_3cdd26c1-dc25-4fa0-8ea1-a1458742cd45.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

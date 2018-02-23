@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 239d0c0a-e78e-40d5-b359-36910bdd9358
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG, PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, _PCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, kernel.pci_common_config, PPCI_COMMON_CONFIG
+ms.keywords: kernel.pci_common_config, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, wdm/PPCI_COMMON_CONFIG, kstruct_c_42f21057-e812-4a4d-96c5-f1177a03982b.xml, PCI_COMMON_CONFIG structure [Kernel-Mode Driver Architecture], PPCI_COMMON_CONFIG structure pointer [Kernel-Mode Driver Architecture], wdm/PCI_COMMON_CONFIG, PPCI_COMMON_CONFIG, _PCI_COMMON_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_COMMON_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
+req.typenames: PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG, PCI_COMMON_CONFIG, *PPCI_COMMON_CONFIG
 ---
 
 # _PCI_COMMON_CONFIG structure
@@ -273,10 +273,6 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
@@ -286,6 +282,10 @@ Other members are provisionally read-only: that is, the system initializes them 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546628">HalSetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 
 

@@ -4,10 +4,10 @@ title: IOCTL_WRITE_REGISTERS
 author: windows-driver-content
 description: Writes to USB device registers, using the control pipe.
 old-location: image\ioctl_write_registers.htm
-old-project: Image
+old-project: image
 ms.assetid: c7175b39-9db2-4903-bb50-bb0c97fda471
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.ioctl_write_registers, IOCTL_WRITE_REGISTERS control code [Imaging Devices], IOCTL_WRITE_REGISTERS, usbscan/IOCTL_WRITE_REGISTERS, stifnc_e994c3b6-35b9-4b5f-aaba-72fedeb9e08f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

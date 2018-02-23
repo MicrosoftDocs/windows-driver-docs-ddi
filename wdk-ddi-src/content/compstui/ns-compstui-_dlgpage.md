@@ -7,8 +7,8 @@ old-location: print\dlgpage.htm
 old-project: print
 ms.assetid: 61fb66b9-afd7-4ec4-bbbb-66a287398484
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: "_DLGPAGE, PDLGPAGE structure pointer [Print Devices], compstui/PDLGPAGE, compstui/DLGPAGE, cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, *PDLGPAGE, print.dlgpage, DLGPAGE structure [Print Devices], PDLGPAGE, DLGPAGE"
+ms.date: 2/22/2018
+ms.keywords: cpsuifnc_5054b61d-a4fc-4017-a491-4d753ce3e137.xml, compstui/DLGPAGE, print.dlgpage, compstui/PDLGPAGE, DLGPAGE, PDLGPAGE structure pointer [Print Devices], DLGPAGE structure [Print Devices], _DLGPAGE, *PDLGPAGE, PDLGPAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DLGPAGE
 product: Windows
 targetos: Windows
-req.typenames: "*PDLGPAGE, DLGPAGE"
+req.typenames: DLGPAGE, *PDLGPAGE
 ---
 
 # _DLGPAGE structure
@@ -49,7 +49,7 @@ req.typenames: "*PDLGPAGE, DLGPAGE"
 ## -description
 
 
-The DLGPAGE structure is used for specifying a property sheet page to CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function. The structure's address is included in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure, and all member values are supplied by the <b>ComPropSheet</b> caller.
+The DLGPAGE structure is used for specifying a property sheet page to CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function. The structure's address is included in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure, and all member values are supplied by the <b>ComPropSheet</b> caller.
 
 
 ## -syntax

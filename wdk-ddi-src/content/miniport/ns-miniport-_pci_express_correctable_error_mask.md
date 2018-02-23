@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: d666cdd3-a673-4105-b982-e7cc942131ee
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, wdm/PPCI_CORRECTABLE_ERROR_MASK, PCI.pci_express_correctable_error_mask, *PPCI_CORRECTABLE_ERROR_MASK"
+ms.keywords: PCI_EXPRESS_CORRECTABLE_ERROR_MASK union [Buses], wdm/PPCI_CORRECTABLE_ERROR_MASK, _PCI_EXPRESS_CORRECTABLE_ERROR_MASK, pci_struct_770185be-12f9-4519-8077-6d90e8344590.xml, PPCI_CORRECTABLE_ERROR_MASK, PCI_EXPRESS_CORRECTABLE_ERROR_MASK, PCI.pci_express_correctable_error_mask, *PPCI_CORRECTABLE_ERROR_MASK, PPCI_CORRECTABLE_ERROR_MASK union pointer [Buses], wdm/PCI_EXPRESS_CORRECTABLE_ERROR_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -146,11 +146,11 @@ A PCI_EXPRESS_CORRECTABLE_ERROR_MASK structure is contained in the <a href="http
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537472">PCI_EXPRESS_ROOTPORT_AER_CAPABILITY</a>
 
 
 

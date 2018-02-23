@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a2bcf1c0-a6c7-4bf3-bce6-9a661f2ab2e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards routine [Installable File System Drivers], fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, ifsk.fsrtldoesnamecontainwildcards, FsRtlDoesNameContainWildCards
+ms.keywords: ifsk.fsrtldoesnamecontainwildcards, ntifs/FsRtlDoesNameContainWildCards, fsrtlref_1b39ef0b-3ec3-4d4b-9ee6-abe674e359aa.xml, FsRtlDoesNameContainWildCards, FsRtlDoesNameContainWildCards routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

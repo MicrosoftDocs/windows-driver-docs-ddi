@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a38c089b-a5f4-4fd2-ab94-ead53228c5e9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_ReadMsg, rilapi/RIL_ReadMsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista], netvista.ril_readmsg
+ms.keywords: netvista.ril_readmsg, rilapi/RIL_ReadMsg, RIL_ReadMsg, RIL_ReadMsg method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_ReadMsg
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

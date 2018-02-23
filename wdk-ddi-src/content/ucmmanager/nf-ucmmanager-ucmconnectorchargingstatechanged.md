@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: A645BFE0-4B7F-416F-9096-596ADAA37951
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmConnectorChargingStateChanged, buses.ucmconnectorchargingstatechanged, UcmConnectorChargingStateChanged method [Buses], ucmmanager/UcmConnectorChargingStateChanged
+ms.keywords: UcmConnectorChargingStateChanged method [Buses], ucmmanager/UcmConnectorChargingStateChanged, UcmConnectorChargingStateChanged, buses.ucmconnectorchargingstatechanged
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

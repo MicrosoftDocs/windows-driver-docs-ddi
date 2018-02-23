@@ -7,7 +7,7 @@ old-location: display\ioctl_video_disable_cursor.htm
 old-project: display
 ms.assetid: bbc3564d-bed5-45fb-9ee3-ed98073b6eba
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.ioctl_video_disable_cursor, IOCTL_VIDEO_DISABLE_CURSOR control code [Display Devices], IOCTL_VIDEO_DISABLE_CURSOR, ntddvdeo/IOCTL_VIDEO_DISABLE_CURSOR, Video_IOCTLs_664ec9f1-497c-4890-b812-9691776b1988.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

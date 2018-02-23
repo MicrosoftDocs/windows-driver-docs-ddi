@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0c6b4b7c-548d-42c0-af9b-cf0d65bf2e45
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.report_zones_ext_data, _REPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA structure [Storage Devices], ata/PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA, PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], ata/REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
+ms.keywords: ata/REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA, _REPORT_ZONES_EXT_DATA, storage.report_zones_ext_data, REPORT_ZONES_EXT_DATA structure [Storage Devices], PREPORT_ZONES_EXT_DATA structure pointer [Storage Devices], PREPORT_ZONES_EXT_DATA, ata/PREPORT_ZONES_EXT_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REPORT_ZONES_EXT_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PREPORT_ZONES_EXT_DATA, REPORT_ZONES_EXT_DATA"
+req.typenames: REPORT_ZONES_EXT_DATA, *PREPORT_ZONES_EXT_DATA
 ---
 
 # _REPORT_ZONES_EXT_DATA structure

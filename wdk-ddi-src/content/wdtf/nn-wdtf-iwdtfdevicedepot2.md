@@ -53,6 +53,14 @@ req.product: Windows 10 or later.
 Defines properties and operations for the collection of devices on a computer.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDeviceDepot2</b> interface inherits from <b>ITracing</b>. <b>IWDTFDeviceDepot2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFDeviceDepot2</b> interface has these methods.
@@ -79,13 +87,8 @@ Returns a single target device from the DeviceDepot.
 
 </td>
 </tr>
-</table>Returns a subset of the devices in the DeviceDepot.
-
-Returns a single target device from the DeviceDepot.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDeviceDepot2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDeviceDepot2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -172,45 +175,5 @@ Gets the main WDTF aggregation object.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439300">_NewEnum</a>
-
-
-Read-only
-
-Gets the iteration enumerator for the collection of devices in the DeviceDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
-
-
-Read-only
-
-Gets the number of devices that are currently provided by the DeviceDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451057">Item</a>
-
-
-Read-only
-
-Gets an individual device in the DeviceDepot.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406413">RootDevice</a>
-
-
-Read-only
-
-Gets the root device.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
-
-
-Read-only
-
-Gets the main WDTF aggregation object.
-
- 
+</table> 
 

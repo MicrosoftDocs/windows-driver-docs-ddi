@@ -4,11 +4,11 @@ title: IWiaSegmentationFilter::DetectRegions method
 author: windows-driver-content
 description: The IWiaSegmentationFilter::DetectRegions method determines the subregions of an image laid out on the flatbed platen so that each subregion can be acquired into a separate image item.
 old-location: image\iwiasegmentationfilter_detectregions.htm
-old-project: Image
+old-project: image
 ms.assetid: 53ad769e-38b5-463d-9fa0-053c2215cc81
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wia_lh/IWiaSegmentationFilter::DetectRegions, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, DetectRegions, image.iwiasegmentationfilter_detectregions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter::DetectRegions, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, IWiaSegmentationFilter
+ms.date: 2/22/2018
+ms.keywords: wia_lh/IWiaSegmentationFilter::DetectRegions, IWiaSegmentationFilter, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], DetectRegions method, iwiasegmentationfilter_d819daf8-a36c-448c-a566-bb3c864cea40.xml, DetectRegions method [Imaging Devices], IWiaSegmentationFilter interface, image.iwiasegmentationfilter_detectregions, DetectRegions, IWiaSegmentationFilter::DetectRegions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaSegmentationFilter.DetectRegions
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 

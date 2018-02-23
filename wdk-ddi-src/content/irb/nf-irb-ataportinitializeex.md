@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 578992cf-63eb-4b8e-b0cb-9caee5c534e1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortInitializeEx routine [Storage Devices], atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, irb/AtaPortInitializeEx, AtaPortInitializeEx, storage.ataportinitializeex
+ms.keywords: AtaPortInitializeEx, storage.ataportinitializeex, irb/AtaPortInitializeEx, atartns_dab74a62-5788-4de9-91eb-e1eb7a7bcaf5.xml, AtaPortInitializeEx routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,7 +134,7 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 
 
-<a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
 
 
 
@@ -142,7 +142,7 @@ After the <a href="https://msdn.microsoft.com/library/windows/hardware/ff550142"
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550142">AtaControllerChannelEnabled</a>
+<a href="..\mcd\nf-mcd-driverentry.md">DriverEntry</a>
 
 
 

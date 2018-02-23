@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_vidpn_present_path_scaling.htm
 old-project: display
 ms.assetid: 4453534e-ce2b-4b0d-a93d-3d17185083fd
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMDT_VPPS_NOTSPECIFIED, D3DKMDT_VPPS_CUSTOM, D3DKMDT_VIDPN_PRESENT_PATH_SCALING, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING, d3dkmdt/D3DKMDT_VPPS_CENTERED, D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, DmEnums_a2e5faad-ade2-4a1d-b096-f221bf0bdf20.xml, D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration [Display Devices], D3DKMDT_VPPS_UNPINNED, d3dkmdt/D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_IDENTITY, d3dkmdt/D3DKMDT_VPPS_CUSTOM, d3dkmdt/D3DKMDT_VPPS_UNPINNED, d3dkmdt/D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, D3DKMDT_VPPS_CENTERED, d3dkmdt/D3DKMDT_VPPS_IDENTITY, display.d3dkmdt_vidpn_present_path_scaling, D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_RESERVED1, d3dkmdt/D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_NOTSPECIFIED, D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_UNINITIALIZED
+ms.date: 2/22/2018
+ms.keywords: d3dkmdt/D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, d3dkmdt/D3DKMDT_VIDPN_PRESENT_PATH_SCALING, _D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_IDENTITY, D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration [Display Devices], D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_CUSTOM, d3dkmdt/D3DKMDT_VPPS_NOTSPECIFIED, d3dkmdt/D3DKMDT_VPPS_IDENTITY, D3DKMDT_VPPS_UNINITIALIZED, D3DKMDT_VPPS_CENTERED, D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX, d3dkmdt/D3DKMDT_VPPS_UNINITIALIZED, d3dkmdt/D3DKMDT_VPPS_RESERVED1, D3DKMDT_VPPS_NOTSPECIFIED, D3DKMDT_VPPS_CUSTOM, d3dkmdt/D3DKMDT_VPPS_STRETCHED, d3dkmdt/D3DKMDT_VPPS_CENTERED, d3dkmdt/D3DKMDT_VPPS_UNPINNED, D3DKMDT_VIDPN_PRESENT_PATH_SCALING, D3DKMDT_VPPS_UNPINNED, DmEnums_a2e5faad-ade2-4a1d-b096-f221bf0bdf20.xml, display.d3dkmdt_vidpn_present_path_scaling
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -141,17 +141,17 @@ If D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX or D3DKMDT_VPPS_CUSTOM values are specifi
 
 ## -see-also
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
-
-
-
 <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vidpn_present_path_scaling_support.md">D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT</a>
 
 
 
- 
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_commitvidpn.md">DxgkDdiCommitVidPn</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_VIDPN_PRESENT_PATH_SCALING enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

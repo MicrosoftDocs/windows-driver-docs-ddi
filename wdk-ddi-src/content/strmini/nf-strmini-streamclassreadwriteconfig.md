@@ -7,8 +7,8 @@ old-location: stream\streamclassreadwriteconfig.htm
 old-project: stream
 ms.assetid: ae8c1478-b429-4af1-a36d-96145696a990
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: StreamClassReadWriteConfig routine [Streaming Media Devices], strmini/StreamClassReadWriteConfig, stream.streamclassreadwriteconfig, strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, StreamClassReadWriteConfig
+ms.date: 2/22/2018
+ms.keywords: strclass-routines_5bfa9287-1b6a-40d8-abdc-637fe88e6372.xml, stream.streamclassreadwriteconfig, strmini/StreamClassReadWriteConfig, StreamClassReadWriteConfig, StreamClassReadWriteConfig routine [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

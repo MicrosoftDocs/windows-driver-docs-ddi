@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d27678cb-8aad-4cbe-a65e-64828ff4944a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft.WDTF.IWDTFSystemAction2.PowerTracingEnd, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingEnd, IWDTFSystemAction2::PowerTracingEnd, wdtfsystemaction/IWDTFSystemAction2::PowerTracingEnd, IWDTFSystemAction2, PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_powertracingend, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerTracingEnd method, PowerTracingEnd method [Windows Device Testing Framework]
+ms.keywords: PowerTracingEnd, PowerTracingEnd method [Windows Device Testing Framework], IWDTFSystemAction2 interface, Microsoft::WDTF::IWDTFSystemAction2::PowerTracingEnd, Microsoft.WDTF.IWDTFSystemAction2.PowerTracingEnd, dtf.iwdtfsystemaction2_powertracingend, IWDTFSystemAction2, PowerTracingEnd method [Windows Device Testing Framework], IWDTFSystemAction2::PowerTracingEnd, IWDTFSystemAction2 interface [Windows Device Testing Framework], PowerTracingEnd method, wdtfsystemaction/IWDTFSystemAction2::PowerTracingEnd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

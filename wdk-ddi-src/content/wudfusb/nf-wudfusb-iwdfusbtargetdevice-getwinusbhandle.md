@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 458cbe27-be75-49f4-9849-969d881e0cd2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfusbtargetdevice_getwinusbhandle, IWDFUsbTargetDevice interface, GetWinUsbHandle method, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, GetWinUsbHandle method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice, GetWinUsbHandle, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle, GetWinUsbHandle method, umdf.iwdfusbtargetdevice_getwinusbhandle
+ms.keywords: wdf.iwdfusbtargetdevice_getwinusbhandle, IWDFUsbTargetDevice, umdf.iwdfusbtargetdevice_getwinusbhandle, GetWinUsbHandle, UMDFUSBref_7568c92e-e43d-4013-ab7c-1f4834cd5c14.xml, GetWinUsbHandle method, IWDFUsbTargetDevice interface, IWDFUsbTargetDevice interface, GetWinUsbHandle method, GetWinUsbHandle method, wudfusb/IWDFUsbTargetDevice::GetWinUsbHandle, IWDFUsbTargetDevice::GetWinUsbHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetDevice.GetWinUsbHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -98,7 +98,7 @@ The UMDF driver should not call the <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540277">WinUsb_Initialize</a>
 
 
 

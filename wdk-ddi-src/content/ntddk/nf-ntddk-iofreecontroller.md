@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a9b0ca27-dc46-4f9b-a3f9-51bbd759afc1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/IoFreeController, IoFreeController routine [Kernel-Mode Driver Architecture], IoFreeController, k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, kernel.iofreecontroller
+ms.keywords: ntddk/IoFreeController, kernel.iofreecontroller, k104_42ed98f0-34b1-45d9-981e-e3e62411ad70.xml, IoFreeController routine [Kernel-Mode Driver Architecture], IoFreeController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoFreeController
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoFreeController function

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CHANGER_GET_ELEMENT_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
 
 # IOCTL_CHANGER_GET_ELEMENT_STATUS IOCTL
@@ -114,10 +114,6 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status_ex.md">CHANGER_ELEMENT_STATUS_EX</a>
 
 
@@ -127,6 +123,10 @@ The <b>Information</b> field is set to the number of bytes returned. The <b>Stat
 
 
 <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
 
 
 

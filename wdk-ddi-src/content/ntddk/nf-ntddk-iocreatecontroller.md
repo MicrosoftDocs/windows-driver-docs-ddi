@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7db268a4-d1ef-4d23-9b5d-cd24612d547e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/IoCreateController, IoCreateController, k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, IoCreateController routine [Kernel-Mode Driver Architecture], kernel.iocreatecontroller
+ms.keywords: k104_a7ec4f8c-84d0-4fec-9f9e-40c5d57036f1.xml, ntddk/IoCreateController, kernel.iocreatecontroller, IoCreateController routine [Kernel-Mode Driver Architecture], IoCreateController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoCreateController
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoCreateController function

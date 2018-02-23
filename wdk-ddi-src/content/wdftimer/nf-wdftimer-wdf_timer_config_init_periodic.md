@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 44a5b4dd-c654-4af1-afd6-6e59d2cd1ff8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_timer_config_init_periodic, WDF_TIMER_CONFIG_INIT_PERIODIC, DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC function, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC, kmdf.wdf_timer_config_init_periodic
+ms.keywords: kmdf.wdf_timer_config_init_periodic, wdftimer/WDF_TIMER_CONFIG_INIT_PERIODIC, WDF_TIMER_CONFIG_INIT_PERIODIC function, DFTimerObjectRef_de3c1624-3004-46e3-b6b4-d47768cd8239.xml, WDF_TIMER_CONFIG_INIT_PERIODIC, wdf.wdf_timer_config_init_periodic
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

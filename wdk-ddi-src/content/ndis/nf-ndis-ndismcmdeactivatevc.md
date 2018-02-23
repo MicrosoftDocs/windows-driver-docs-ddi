@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e18f6326-621e-4bed-aa82-b326f3b1422d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisMCmDeactivateVc, condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, netvista.ndismcmdeactivatevc, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], NdisMCmDeactivateVc
+ms.keywords: netvista.ndismcmdeactivatevc, condis_mcm_ref_c1aa796e-7965-4a4b-849b-370ae7f95697.xml, NdisMCmDeactivateVc function [Network Drivers Starting with Windows Vista], NdisMCmDeactivateVc, ndis/NdisMCmDeactivateVc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMCmDeactivateVc
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmDeactivateVc function
@@ -170,15 +170,11 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndiscmdeactivatevc.md">NdisCmDeactivateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 
@@ -190,7 +186,11 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nc-ndis-miniport_co_deactivate_vc.md">MiniportCoDeactivateVc</a>
+<a href="..\ndis\nf-ndis-ndismcmdispatchincomingcall.md">NdisMCmDispatchIncomingCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_co_delete_vc.md">ProtocolCoDeleteVc</a>
 
 
 

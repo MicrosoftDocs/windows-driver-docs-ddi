@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7f5192ac-aea0-4e63-b2f9-1d51e00bbf03
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, DFDriverObjectRef_dea9dee4-b36b-4672-89cb-bbffe0a78f3b.xml, kmdf.wdf_driver_version_available_params, wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS structure pointer, wdfdriver/PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure, _WDF_DRIVER_VERSION_AVAILABLE_PARAMS, wdf.wdf_driver_version_available_params"
+ms.keywords: wdfdriver/WDF_DRIVER_VERSION_AVAILABLE_PARAMS, _WDF_DRIVER_VERSION_AVAILABLE_PARAMS, wdf.wdf_driver_version_available_params, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS structure pointer, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, kmdf.wdf_driver_version_available_params, WDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS structure, wdfdriver/PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, DFDriverObjectRef_dea9dee4-b36b-4672-89cb-bbffe0a78f3b.xml, PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

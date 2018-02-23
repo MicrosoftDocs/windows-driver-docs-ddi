@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E7F9549D-F222-42BF-B82B-B0DA0F6BC60F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryAuxiliaryCounterFrequency, wdm/KeQueryAuxiliaryCounterFrequency, kernel.kequeryauxiliarycounterfrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeQueryAuxiliaryCounterFrequency, KeQueryAuxiliaryCounterFrequency, kernel.kequeryauxiliarycounterfrequency, KeQueryAuxiliaryCounterFrequency routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

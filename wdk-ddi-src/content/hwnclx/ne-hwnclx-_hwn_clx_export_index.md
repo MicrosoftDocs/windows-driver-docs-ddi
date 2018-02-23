@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: fcbbd188-438a-4eaa-8034-67ca52d1fb56
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: AddDevicePostDeviceCreateIndex, UnregisterClientIndex, hwnclx/RegisterClientIndex, hwnclx/AddDevicePostDeviceCreateIndex, _HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX, hwnclx/UnregisterClientIndex, hwnclx/AddDevicePreDeviceCreateIndex, hwnclx/HwNExportLastExportIndex, HwNExportLastExportIndex, HWN_CLX_EXPORT_INDEX, RegisterClientIndex, AddDevicePreDeviceCreateIndex, HWN_CLX_EXPORT_INDEX enumeration, gpiobtn._hwn_clx_export_index, hwnclx/HWN_CLX_EXPORT_INDEX
+ms.keywords: HWN_CLX_EXPORT_INDEX enumeration, *PHWN_CLX_EXPORT_INDEX, hwnclx/AddDevicePreDeviceCreateIndex, HwNExportLastExportIndex, gpiobtn._hwn_clx_export_index, hwnclx/HWN_CLX_EXPORT_INDEX, RegisterClientIndex, hwnclx/HwNExportLastExportIndex, AddDevicePreDeviceCreateIndex, hwnclx/RegisterClientIndex, hwnclx/UnregisterClientIndex, HWN_CLX_EXPORT_INDEX, AddDevicePostDeviceCreateIndex, hwnclx/AddDevicePostDeviceCreateIndex, _HWN_CLX_EXPORT_INDEX, UnregisterClientIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	HWN_CLX_EXPORT_INDEX
 product: Windows
 targetos: Windows
-req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
+req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---
 
 # _HWN_CLX_EXPORT_INDEX enumeration

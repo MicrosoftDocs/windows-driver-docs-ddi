@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 73835623-fa35-46f0-90a2-62d6d596dc64
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeGetIoTarget, DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml, wdf.wdfusbtargetpipegetiotarget, kmdf.wdfusbtargetpipegetiotarget, WdfUsbTargetPipeGetIoTarget method, WdfUsbTargetPipeGetIoTarget
+ms.keywords: WdfUsbTargetPipeGetIoTarget, wdfusb/WdfUsbTargetPipeGetIoTarget, WdfUsbTargetPipeGetIoTarget method, DFUsbRef_87bfc4fc-266b-44ca-911f-fc5d73735a6a.xml, kmdf.wdfusbtargetpipegetiotarget, wdf.wdfusbtargetpipegetiotarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbTargetPipeGetIoTarget
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -131,11 +131,11 @@ MyEvtDeviceD0Entry(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicegetiotarget.md">WdfUsbTargetDeviceGetIoTarget</a>
 
 
 

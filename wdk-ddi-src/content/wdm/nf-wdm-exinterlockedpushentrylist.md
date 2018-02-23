@@ -109,7 +109,7 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
 
 
 
@@ -117,19 +117,19 @@ The <b>ExInterlockedPushEntryList</b> routine can be called at any IRQL. The sto
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-pushentrylist.md">PushEntryList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedpushentryslist.md">ExInterlockedPushEntrySList</a>
 
 
 
-<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedinserttaillist.md">ExInterlockedInsertTailList</a>
+
+
+
+<a href="..\wdm\nf-wdm-keinitializespinlock.md">KeInitializeSpinLock</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedpopentrylist.md">ExInterlockedPopEntryList</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: c5523dff-4957-4265-82ef-2fbc009e6bef
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMCmOidRequest function [Network Drivers Starting with Windows Vista], netvista.ndismcmoidrequest, condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, NdisMCmOidRequest, ndis/NdisMCmOidRequest
+ms.keywords: condis_request_ref_951cd477-8d0a-4882-921d-f394ac04f9cc.xml, NdisMCmOidRequest, netvista.ndismcmoidrequest, ndis/NdisMCmOidRequest, NdisMCmOidRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMCmOidRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmOidRequest function
@@ -289,15 +289,12 @@ For more information about the OIDs that are defined to use with
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+<a href="..\ndis\nc-ndis-protocol_co_oid_request_complete.md">
+   ProtocolCoOidRequestComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
 
 
 
@@ -305,15 +302,19 @@ For more information about the OIDs that are defined to use with
 
 
 
+<a href="..\ndis\nc-ndis-protocol_cm_add_party.md">ProtocolCmAddParty</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cm_open_af.md">ProtocolCmOpenAf</a>
 
 
 
+<a href="..\ndis\nc-ndis-protocol_co_oid_request.md">ProtocolCoOidRequest</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
 
 
 

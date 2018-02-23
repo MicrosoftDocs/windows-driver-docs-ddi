@@ -7,8 +7,8 @@ old-location: display\dxgk_connection_change.htm
 old-project: display
 ms.assetid: 0B0D640C-3E4B-4DE0-AA11-C751F210C77A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change, DXGK_CONNECTION_CHANGE structure [Display Devices], d3dkmddi/DXGK_CONNECTION_CHANGE, _DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices], d3dkmddi/PDXGK_CONNECTION_CHANGE
+ms.date: 2/22/2018
+ms.keywords: "_DXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE, display.dxgk_connection_change, d3dkmddi/DXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE structure [Display Devices], DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE, d3dkmddi/PDXGK_CONNECTION_CHANGE, PDXGK_CONNECTION_CHANGE structure pointer [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_CONNECTION_CHANGE
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_CONNECTION_CHANGE, DXGK_CONNECTION_CHANGE"
+req.typenames: DXGK_CONNECTION_CHANGE, *PDXGK_CONNECTION_CHANGE
 ---
 
 # _DXGK_CONNECTION_CHANGE structure

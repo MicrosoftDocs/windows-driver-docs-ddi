@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8f4931d7-6b5f-412f-ace9-32f20dfa7c90
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_USB_DEVICE_INFORMATION_INIT function, DFUsbRef_ffde7966-f00b-4614-9845-aaebe2e0488b.xml, wdfusb/WDF_USB_DEVICE_INFORMATION_INIT, kmdf.wdf_usb_device_information_init, WDF_USB_DEVICE_INFORMATION_INIT, wdf.wdf_usb_device_information_init
+ms.keywords: WDF_USB_DEVICE_INFORMATION_INIT, DFUsbRef_ffde7966-f00b-4614-9845-aaebe2e0488b.xml, wdfusb/WDF_USB_DEVICE_INFORMATION_INIT, kmdf.wdf_usb_device_information_init, wdf.wdf_usb_device_information_init, WDF_USB_DEVICE_INFORMATION_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_DEVICE_INFORMATION_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

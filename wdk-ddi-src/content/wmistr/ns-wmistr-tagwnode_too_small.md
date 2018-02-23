@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: eb3d8e2a-20f6-41fc-a220-de93eb83f359
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wmistr/WNODE_TOO_SMALL, WNODE_TOO_SMALL, *PWNODE_TOO_SMALL, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, PWNODE_TOO_SMALL, tagWNODE_TOO_SMALL, kernel.wnode_too_small, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], wmistr/PWNODE_TOO_SMALL
+ms.keywords: kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, WNODE_TOO_SMALL, *PWNODE_TOO_SMALL, tagWNODE_TOO_SMALL, wmistr/PWNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_too_small, PWNODE_TOO_SMALL, wmistr/WNODE_TOO_SMALL, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WNODE_TOO_SMALL
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_TOO_SMALL, WNODE_TOO_SMALL"
+req.typenames: WNODE_TOO_SMALL, *PWNODE_TOO_SMALL
 req.product: Windows 10 or later.
 ---
 

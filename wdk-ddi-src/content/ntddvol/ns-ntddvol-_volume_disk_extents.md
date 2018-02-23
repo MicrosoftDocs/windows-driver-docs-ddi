@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 227846c2-8794-4859-89af-c139ead32143
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_VOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS, storage.volume_disk_extents, VOLUME_DISK_EXTENTS structure [Storage Devices], PVOLUME_DISK_EXTENTS, ntddvol/PVOLUME_DISK_EXTENTS, ntddvol/VOLUME_DISK_EXTENTS, structs-volumemgr_148847d4-324c-4767-8247-7d286e496d42.xml, PVOLUME_DISK_EXTENTS structure pointer [Storage Devices], *PVOLUME_DISK_EXTENTS"
+ms.keywords: VOLUME_DISK_EXTENTS structure [Storage Devices], storage.volume_disk_extents, VOLUME_DISK_EXTENTS, PVOLUME_DISK_EXTENTS, _VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS, ntddvol/VOLUME_DISK_EXTENTS, ntddvol/PVOLUME_DISK_EXTENTS, structs-volumemgr_148847d4-324c-4767-8247-7d286e496d42.xml, PVOLUME_DISK_EXTENTS structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VOLUME_DISK_EXTENTS
 product: Windows
 targetos: Windows
-req.typenames: "*PVOLUME_DISK_EXTENTS, VOLUME_DISK_EXTENTS"
+req.typenames: VOLUME_DISK_EXTENTS, *PVOLUME_DISK_EXTENTS
 ---
 
 # _VOLUME_DISK_EXTENTS structure
@@ -88,7 +88,7 @@ disk extent
 
 
 
-disk extent
+<a href="..\ntddvol\ni-ntddvol-ioctl_volume_get_volume_disk_extents.md">IOCTL_VOLUME_GET_VOLUME_DISK_EXTENTS</a>
 
 
 

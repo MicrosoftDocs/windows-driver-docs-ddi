@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 864935c4-28b8-4738-ac83-e51e6988248b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlunicodestringvalidateex, ntstrsafe/RtlUnicodeStringValidateEx, RtlUnicodeStringValidateEx, safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture]
+ms.keywords: safestrings_dcb45919-f329-4637-b09b-f944ad034502.xml, kernel.rtlunicodestringvalidateex, RtlUnicodeStringValidateEx function [Kernel-Mode Driver Architecture], RtlUnicodeStringValidateEx, ntstrsafe/RtlUnicodeStringValidateEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringValidateEx
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlUnicodeStringValidateEx function

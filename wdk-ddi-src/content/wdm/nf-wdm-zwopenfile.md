@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7c07d250-6287-4dd3-96f9-f301bad8b6f3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, NtOpenFile, ZwOpenFile routine [Kernel-Mode Driver Architecture], wdm/NtOpenFile, kernel.zwopenfile, wdm/ZwOpenFile, ZwOpenFile
+ms.keywords: wdm/NtOpenFile, k111_efde7b0f-a00d-47c8-8a34-ae22fb909718.xml, ZwOpenFile routine [Kernel-Mode Driver Architecture], kernel.zwopenfile, wdm/ZwOpenFile, ZwOpenFile, NtOpenFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,7 +134,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -146,7 +146,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

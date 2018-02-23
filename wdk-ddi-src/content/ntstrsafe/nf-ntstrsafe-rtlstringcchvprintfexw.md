@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e28dd810-d86f-479f-b049-63a626ed432f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCchVPrintfExA, RtlStringCchVPrintfExW, STRSAFE_IGNORE_NULLS, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchVPrintfExW, ntstrsafe/RtlStringCchVPrintfExA, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchvprintfex, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml, RtlStringCchVPrintfEx, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION
+ms.keywords: STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, safestrings_e2c4ac8d-ac84-4a99-84b3-51b54a508a0a.xml, STRSAFE_NULL_ON_FAILURE, kernel.rtlstringcchvprintfex, ntstrsafe/RtlStringCchVPrintfExA, STRSAFE_NO_TRUNCATION, RtlStringCchVPrintfExW, ntstrsafe/RtlStringCchVPrintfExW, STRSAFE_IGNORE_NULLS, RtlStringCchVPrintfEx, RtlStringCchVPrintfExW function [Kernel-Mode Driver Architecture], RtlStringCchVPrintfExA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchVPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchVPrintfExW function
@@ -309,11 +309,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfw.md">RtlStringCchVPrintf</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchprintfexw.md">RtlStringCchPrintfEx</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: sensors\gnss_drivercommand_type.htm
 old-project: sensors
 ms.assetid: 61D7C52C-D8C9-4BBE-9DCA-B5E934A02FAE
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: gnssdriver/GNSS_SetNiTimeoutInterval, GNSS_SetLocationServiceEnabled, gnssdriver/GNSS_CustomCommand, GNSS_ForceSatelliteSystem, GNSS_SetNMEALogging, GNSS_DRIVERCOMMAND_TYPE, GNSS_ForceOperationMode, gnssdriver/GNSS_ResetGeofencesTracking, GNSS_SetUplServerAccessInterval, GNSS_SetNiTimeoutInterval, gnssdriver/GNSS_ForceOperationMode, GNSS_CustomCommand, gnssdriver/GNSS_ForceSatelliteSystem, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_SetLocationServiceEnabled, GNSS_SetSuplVersion, gnssdriver/GNSS_SetNMEALogging, GNSS_ResetEngine, gnssdriver/GNSS_ClearAgnssData, GNSS_SetLocationNIRequestAllowed, GNSS_ClearAgnssData, gnssdriver/GNSS_SetLocationNIRequestAllowed, GNSS_ResetGeofencesTracking, sensors.gnss_drivercommand_type, gnssdriver/GNSS_ResetEngine, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_DRIVERCOMMAND_TYPE
+ms.date: 2/22/2018
+ms.keywords: gnssdriver/GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_SetNMEALogging, GNSS_SetNMEALogging, gnssdriver/GNSS_ResetGeofencesTracking, gnssdriver/GNSS_DRIVERCOMMAND_TYPE, GNSS_SetSuplVersion, gnssdriver/GNSS_ForceOperationMode, GNSS_SetUplServerAccessInterval, gnssdriver/GNSS_CustomCommand, GNSS_ResetEngine, gnssdriver/GNSS_ResetEngine, GNSS_SetLocationServiceEnabled, GNSS_SetLocationNIRequestAllowed, GNSS_CustomCommand, GNSS_ClearAgnssData, gnssdriver/GNSS_SetLocationServiceEnabled, GNSS_ForceOperationMode, gnssdriver/GNSS_SetLocationNIRequestAllowed, GNSS_ForceSatelliteSystem, sensors.gnss_drivercommand_type, gnssdriver/GNSS_ForceSatelliteSystem, GNSS_SetNiTimeoutInterval, GNSS_DRIVERCOMMAND_TYPE, gnssdriver/GNSS_SetSuplVersion, gnssdriver/GNSS_ClearAgnssData, gnssdriver/GNSS_SetNiTimeoutInterval, GNSS_ResetGeofencesTracking, GNSS_DRIVERCOMMAND_TYPE enumeration [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

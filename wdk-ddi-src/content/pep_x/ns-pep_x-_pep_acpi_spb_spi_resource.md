@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 75CD5462-8382-4E83-ADC1-3E1B811A0D60
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE structure pointer [Kernel-Mode Driver Architecture], PEP_ACPI_SPB_SPI_RESOURCE structure [Kernel-Mode Driver Architecture], *PPEP_ACPI_SPB_SPI_RESOURCE, kernel.pep_acpi_spb_spi_resource, _PEP_ACPI_SPB_SPI_RESOURCE, pepfx/PPEP_ACPI_SPB_SPI_RESOURCE, pepfx/PEP_ACPI_SPB_SPI_RESOURCE
+ms.keywords: "_PEP_ACPI_SPB_SPI_RESOURCE, *PPEP_ACPI_SPB_SPI_RESOURCE, pepfx/PEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_SPB_SPI_RESOURCE, kernel.pep_acpi_spb_spi_resource, PEP_ACPI_SPB_SPI_RESOURCE, PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_SPB_SPI_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE"
+req.typenames: PEP_ACPI_SPB_SPI_RESOURCE, *PPEP_ACPI_SPB_SPI_RESOURCE, PEP_ACPI_SPB_SPI_RESOURCE, *PPEP_ACPI_SPB_SPI_RESOURCE
 ---
 
 # _PEP_ACPI_SPB_SPI_RESOURCE structure
@@ -74,7 +74,7 @@ typedef struct _PEP_ACPI_SPB_SPI_RESOURCE {
 
 ### -field SpbCommon
 
-A <a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
+A <a href="..\pep_x\ns-pep_x-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a> structure describing this resource.
 
 
 ### -field ConnectionSpeed
@@ -108,7 +108,7 @@ line, or other line selection mechanism.
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_spb_resource.md">PEP_ACPI_SPB_RESOURCE</a>
 
 
 

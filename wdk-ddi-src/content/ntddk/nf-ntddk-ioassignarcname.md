@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ef8a132a-f593-4a25-bb9e-b4ed57801db2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioassignarcname, IoAssignArcName routine [Kernel-Mode Driver Architecture], k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, IoAssignArcName, ntddk/IoAssignArcName
+ms.keywords: kernel.ioassignarcname, k104_ceeba02c-47cf-4c25-a339-d55ee9ebc216.xml, IoAssignArcName, ntddk/IoAssignArcName, IoAssignArcName routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	IoAssignArcName
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoAssignArcName macro

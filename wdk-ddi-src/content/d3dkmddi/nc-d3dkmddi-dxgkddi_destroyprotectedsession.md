@@ -7,7 +7,7 @@ old-location: display\dxgkddi_destroyprotectedsession.htm
 old-project: display
 ms.assetid: 42D4064A-1697-4772-8450-6D217C526347
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.dxgkddi_destroyprotectedsession, DXGKDDI_DESTROYPROTECTEDSESSION callback function [Display Devices], DXGKDDI_DESTROYPROTECTEDSESSION, d3dkmddi/DXGKDDI_DESTROYPROTECTEDSESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

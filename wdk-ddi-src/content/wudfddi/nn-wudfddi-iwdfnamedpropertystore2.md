@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 Drivers obtain the <b>IWDFNamedPropertyStore2</b> interface by calling <a href="https://msdn.microsoft.com/library/windows/hardware/ff560228">IWDFPropertyStoreFactory::RetrieveDevicePropertyStore</a>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFNamedPropertyStore2</b> interface inherits from <a href="..\wudfddi\nn-wudfddi-iwdfnamedpropertystore.md">IWDFNamedPropertyStore</a>. <b>IWDFNamedPropertyStore2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFNamedPropertyStore2</b> interface has these methods.
@@ -72,7 +79,5 @@ The <a href="https://msdn.microsoft.com/ce0953d3-054f-446b-9f69-58f4580740f3">De
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/ce0953d3-054f-446b-9f69-58f4580740f3">DeleteNamedValue</a> method deletes a value name from the registry.
-
- 
+</table> 
 

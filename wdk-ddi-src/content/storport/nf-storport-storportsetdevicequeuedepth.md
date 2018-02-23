@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e79b4294-5ba4-4fcc-97e2-69613b65f574
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml, StorPortSetDeviceQueueDepth, storport/StorPortSetDeviceQueueDepth, storage.storportsetdevicequeuedepth, StorPortSetDeviceQueueDepth routine [Storage Devices]
+ms.keywords: storport/StorPortSetDeviceQueueDepth, StorPortSetDeviceQueueDepth, StorPortSetDeviceQueueDepth routine [Storage Devices], storprt_1f3e0e5d-fa3e-4314-aa0a-4d8494c78fb2.xml, storage.storportsetdevicequeuedepth
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,10 +114,10 @@ Supplies the depth to which the queue is to be set. This value is always &gt; 0.
 Before the first call to <b>StorPortSetDeviceQueueDepth</b>, the device queue depth is set to the default value. The following conditional description determines the default queue depth.
 
 <b>InitialQueueDepth</b>
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 <b>InitialQueueDepth</b>
 <b>MaxIOsPerLun</b>
-<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
+<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>
 <b>MaxIOsPerLun</b>
 The <b>StorPortSetDeviceQueueDepth</b> routine should be called when the miniport driver receives the first SCSI Inquiry command for the specified LUN, or at any time thereafter (but not before), as long as the LUN is valid.
 

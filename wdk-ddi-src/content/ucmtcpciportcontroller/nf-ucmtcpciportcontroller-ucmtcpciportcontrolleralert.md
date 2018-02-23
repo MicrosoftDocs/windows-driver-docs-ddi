@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 38700667-d872-4c08-b846-236e94318dba
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcmTcpciPortControllerAlert, ucmtcpciportcontroller/UcmTcpciPortControllerAlert, buses.ucmtcpciportcontrolleralert, UcmTcpciPortControllerAlert method [Buses]
+ms.keywords: ucmtcpciportcontroller/UcmTcpciPortControllerAlert, UcmTcpciPortControllerAlert method [Buses], UcmTcpciPortControllerAlert, buses.ucmtcpciportcontrolleralert
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::SetCurrentSystemId method
 author: windows-driver-content
 description: The SetCurrentSystemId method makes the specified target the current target.
 old-location: debugger\setcurrentsystemid.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 95b761ff-ca78-4793-b5eb-a9ff35a963d3
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.setcurrentsystemid, IDebugSystemObjects3::SetCurrentSystemId, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], SetCurrentSystemId method, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects3 interface [Windows Debugging], SetCurrentSystemId method, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::SetCurrentSystemId, dbgeng/IDebugSystemObjects4::SetCurrentSystemId, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3, SetCurrentSystemId, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml
+ms.date: 2/22/2018
+ms.keywords: IDebugSystemObjects3::SetCurrentSystemId, debugger.setcurrentsystemid, dbgeng/IDebugSystemObjects3::SetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging], SetCurrentSystemId method, SetCurrentSystemId, IDebugSystemObjects3, SetCurrentSystemId method [Windows Debugging], dbgeng/IDebugSystemObjects4::SetCurrentSystemId, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, SetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_70a23767-a18b-4920-828a-34fe863fec4a.xml, IDebugSystemObjects3 interface [Windows Debugging], SetCurrentSystemId method, IDebugSystemObjects4::SetCurrentSystemId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,11 +125,7 @@ If the current target is changed, the callback <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
 
 
 
@@ -137,7 +133,11 @@ If the current target is changed, the callback <a href="https://msdn.microsoft.c
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541386">Debugging Session and Execution Model</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects3.md">IDebugSystemObjects3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsystemobjects4.md">IDebugSystemObjects4</a>
 
 
 
@@ -145,5 +145,5 @@ If the current target is changed, the callback <a href="https://msdn.microsoft.c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSystemObjects3::SetCurrentSystemId method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSystemObjects3::SetCurrentSystemId method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c9319f35-9745-47c4-a98d-4321e0d39f86
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wmilib/WMILIB_CONTEXT, WMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], kernel.wmilib_context, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], PWMILIB_CONTEXT, *PWMILIB_CONTEXT, wmilib/PWMILIB_CONTEXT, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, _WMILIB_CONTEXT
+ms.keywords: WMILIB_CONTEXT, PWMILIB_CONTEXT structure pointer [Kernel-Mode Driver Architecture], kernel.wmilib_context, *PWMILIB_CONTEXT, kstruct_d_b6452306-8092-4c47-aacf-c3ccd558d1f5.xml, _WMILIB_CONTEXT, wmilib/WMILIB_CONTEXT, wmilib/PWMILIB_CONTEXT, WMILIB_CONTEXT structure [Kernel-Mode Driver Architecture], PWMILIB_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WMILIB_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PWMILIB_CONTEXT, WMILIB_CONTEXT"
+req.typenames: WMILIB_CONTEXT, *PWMILIB_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -130,18 +130,6 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
-
-
-
 <a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
 
 
@@ -150,7 +138,15 @@ Memory for this structure can be allocated from paged pool.
 
 
 
+<a href="..\wmilib\nc-wmilib-wmi_execute_method_callback.md">DpWmiExecuteMethod</a>
+
+
+
 <a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+
+
+
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
 
 
 
@@ -158,7 +154,11 @@ Memory for this structure can be allocated from paged pool.
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmiguidreginfo.md">WMIGUIDREGINFO</a>
 
 
 

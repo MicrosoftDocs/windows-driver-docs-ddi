@@ -7,7 +7,7 @@ old-location: display\pdxgk_removal_notification.htm
 old-project: display
 ms.assetid: F9AA5859-8E8A-491D-B149-F42E418A64DC
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pdxgk_removal_notification, *PDXGK_REMOVAL_NOTIFICATION callback function [Display Devices], *PDXGK_REMOVAL_NOTIFICATION, d3dkmthk/*PDXGK_REMOVAL_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

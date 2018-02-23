@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 42e0a96b-2b0b-4d22-8c91-14457d02e9c7
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidD_GetInputReport, HidD_GetInputReport routine [Human Input Devices], hidsdi/HidD_GetInputReport, hid.hidd_getinputreport, hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml
+ms.keywords: HidD_GetInputReport routine [Human Input Devices], hidfunc_fdcd7a5b-6623-419f-abdf-de19370ee793.xml, HidD_GetInputReport, hid.hidd_getinputreport, hidsdi/HidD_GetInputReport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HidD_GetInputReport
 product: Windows
 targetos: Windows
-req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
+req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 ---
 
 # HidD_GetInputReport function
@@ -164,11 +164,15 @@ Only user-mode applications can call <b>HidD_GetInputReport</b>. Kernel-mode dri
 
 ## -see-also
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
-
-
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_input_report.md">IOCTL_HID_GET_INPUT_REPORT</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_feature.md">IOCTL_HID_SET_FEATURE</a>
 
 
 
@@ -180,15 +184,11 @@ Only user-mode applications can call <b>HidD_GetInputReport</b>. Kernel-mode dri
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
-
-
-
-<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
-
-
-
 <a href="..\hidsdi\nf-hidsdi-hidd_getfeature.md">HidD_GetFeature</a>
+
+
+
+<a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
 
 
 

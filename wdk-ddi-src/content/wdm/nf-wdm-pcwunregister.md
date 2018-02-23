@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: cf6aeb30-732b-494c-a714-caa6326c0375
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PcwUnregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml, devtest.pcwunregister, PcwUnregister function [Driver Development Tools], wdm/PcwUnregister
+ms.keywords: PcwUnregister function [Driver Development Tools], PcwUnregister, wdm/PcwUnregister, devtest.pcwunregister, km_pcw_842b91a3-a846-4d1c-adcd-7e1b3fdf4af5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

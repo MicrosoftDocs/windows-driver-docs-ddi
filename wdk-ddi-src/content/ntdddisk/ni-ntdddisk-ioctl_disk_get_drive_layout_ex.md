@@ -112,7 +112,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
+<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
 
 
 
@@ -120,7 +120,7 @@ The <b>Information</b> field is set to the size, in bytes, of the returned data.
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_drive_layout_information.md">DRIVE_LAYOUT_INFORMATION</a>
+<a href="..\ntdddisk\ns-ntdddisk-_partition_information.md">PARTITION_INFORMATION</a>
 
 
 

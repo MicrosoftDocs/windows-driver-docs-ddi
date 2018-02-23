@@ -7,8 +7,8 @@ old-location: sensors\gnss_supl_cert_config.htm
 old-project: sensors
 ms.assetid: F974D5E2-7230-4F85-9C1A-7CE7E240DBE1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], gnssdriver/PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices], sensors.gnss_supl_cert_config, *PGNSS_SUPL_CERT_CONFIG, gnssdriver/GNSS_SUPL_CERT_CONFIG
+ms.date: 2/22/2018
+ms.keywords: gnssdriver/GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG, sensors.gnss_supl_cert_config, gnssdriver/PGNSS_SUPL_CERT_CONFIG, PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG structure [Sensor Devices], PGNSS_SUPL_CERT_CONFIG structure pointer [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_SUPL_CERT_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_SUPL_CERT_CONFIG, GNSS_SUPL_CERT_CONFIG"
+req.typenames: GNSS_SUPL_CERT_CONFIG, *PGNSS_SUPL_CERT_CONFIG
 ---
 
 # GNSS_SUPL_CERT_CONFIG structure

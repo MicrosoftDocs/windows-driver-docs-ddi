@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3bbfd3f8-9530-4c9f-99e3-a1fcbb956b51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MOUNTMGR_DRIVE_LETTER_TARGET, structs-mntmgr_66751bbf-3c3a-407d-9faf-1ef190c9c7a2.xml, PMOUNTMGR_DRIVE_LETTER_TARGET structure pointer [Storage Devices], storage.mountmgr_drive_letter_target, *PMOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET structure [Storage Devices], _MOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/MOUNTMGR_DRIVE_LETTER_TARGET, PMOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/PMOUNTMGR_DRIVE_LETTER_TARGET
+ms.keywords: storage.mountmgr_drive_letter_target, PMOUNTMGR_DRIVE_LETTER_TARGET structure pointer [Storage Devices], mountmgr/PMOUNTMGR_DRIVE_LETTER_TARGET, mountmgr/MOUNTMGR_DRIVE_LETTER_TARGET, _MOUNTMGR_DRIVE_LETTER_TARGET, *PMOUNTMGR_DRIVE_LETTER_TARGET, structs-mntmgr_66751bbf-3c3a-407d-9faf-1ef190c9c7a2.xml, PMOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MOUNTMGR_DRIVE_LETTER_TARGET
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUNTMGR_DRIVE_LETTER_TARGET, MOUNTMGR_DRIVE_LETTER_TARGET"
+req.typenames: MOUNTMGR_DRIVE_LETTER_TARGET, *PMOUNTMGR_DRIVE_LETTER_TARGET
 ---
 
 # _MOUNTMGR_DRIVE_LETTER_TARGET structure

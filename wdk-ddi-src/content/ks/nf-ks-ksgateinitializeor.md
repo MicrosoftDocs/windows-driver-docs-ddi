@@ -7,8 +7,8 @@ old-location: stream\ksgateinitializeor.htm
 old-project: stream
 ms.assetid: a02a3b53-03fa-49d4-835c-88623c2f4d8b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksgateinitializeor, ks/KsGateInitializeOr, avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, KsGateInitializeOr function [Streaming Media Devices], KsGateInitializeOr
+ms.date: 2/22/2018
+ms.keywords: KsGateInitializeOr, stream.ksgateinitializeor, avfunc_6741b878-dfae-4d40-9040-ab78d32243e2.xml, ks/KsGateInitializeOr, KsGateInitializeOr function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,19 +100,15 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 ## -see-also
 
+<a href="..\ks\nf-ks-ksgateinitializeand.md">KsGateInitializeAnd</a>
+
+
+
+<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
+
+
+
 <a href="..\ks\nf-ks-ksgateterminateand.md">KsGateTerminateAnd</a>
-
-
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
-
-
-
-<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
-
-
-
-<a href="..\ks\ns-ks-_ksgate.md">KSGATE</a>
 
 
 
@@ -120,9 +116,13 @@ This function is an inline call to <b>KsGateInitialize</b>.
 
 
 
- 
+<a href="..\ks\nf-ks-ksgateinitialize.md">KsGateInitialize</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGateInitializeOr function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsGateInitializeOr function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

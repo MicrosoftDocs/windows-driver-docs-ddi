@@ -7,8 +7,8 @@ old-location: stream\avc_peer_do_list.htm
 old-project: stream
 ms.assetid: 5420df9b-35e7-49b4-97dc-a1d61623551c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: "_AVC_PEER_DO_LIST, AVC_PEER_DO_LIST, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], stream.avc_peer_do_list, avc/PAVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, AVC_PEER_DO_LIST structure [Streaming Media Devices], *PAVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, PAVC_PEER_DO_LIST"
+ms.date: 2/22/2018
+ms.keywords: stream.avc_peer_do_list, PAVC_PEER_DO_LIST structure pointer [Streaming Media Devices], _AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST, avc/AVC_PEER_DO_LIST, avcref_69feff07-d80c-4d5a-a5d8-fe942dfc5e26.xml, avc/PAVC_PEER_DO_LIST, PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST structure [Streaming Media Devices], AVC_PEER_DO_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AVC_PEER_DO_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PAVC_PEER_DO_LIST, AVC_PEER_DO_LIST"
+req.typenames: AVC_PEER_DO_LIST, *PAVC_PEER_DO_LIST
 ---
 
 # _AVC_PEER_DO_LIST structure
@@ -109,5 +109,5 @@ See <a href="https://msdn.microsoft.com/3b4ec139-ff01-40bd-8e29-92f554180585">Ho
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_PEER_DO_LIST structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_PEER_DO_LIST structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

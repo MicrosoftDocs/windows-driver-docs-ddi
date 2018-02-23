@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: DC54CC46-6ECC-4D1F-9C8C-5579EE759B6F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PUSBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE, buses._usbdevice_enable, ucxusbdevice/_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE, _USBDEVICE_ENABLE, USBDEVICE_ENABLE structure [Buses]"
+ms.keywords: ucxusbdevice/_USBDEVICE_ENABLE, _USBDEVICE_ENABLE, buses._usbdevice_enable, *PUSBDEVICE_ENABLE, USBDEVICE_ENABLE, ucxusbdevice/P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE, P_USBDEVICE_ENABLE structure pointer [Buses], USBDEVICE_ENABLE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBDEVICE_ENABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBDEVICE_ENABLE, USBDEVICE_ENABLE"
+req.typenames: USBDEVICE_ENABLE, *PUSBDEVICE_ENABLE
 req.product: Windows 10 or later.
 ---
 
@@ -91,11 +91,11 @@ The errors, if any, that occurred when attempting to enable the hub or device fo
 
 ## -see-also
 
-<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_disable.md">USBDEVICE_DISABLE</a>
-
-
-
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
+
+
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_disable.md">USBDEVICE_DISABLE</a>
 
 
 

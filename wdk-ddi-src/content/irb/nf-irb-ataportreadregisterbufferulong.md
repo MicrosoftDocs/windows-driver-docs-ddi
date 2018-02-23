@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 50baeaa1-5671-4f6d-83cd-f03cca18b18b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: irb/AtaPortReadRegisterBufferUlong, atartns_2e57cb04-ad9c-47fd-b4a5-9f9aa433c8ad.xml, AtaPortReadRegisterBufferUlong routine [Storage Devices], storage.ataportreadregisterbufferulong, AtaPortReadRegisterBufferUlong
+ms.keywords: storage.ataportreadregisterbufferulong, AtaPortReadRegisterBufferUlong routine [Storage Devices], irb/AtaPortReadRegisterBufferUlong, AtaPortReadRegisterBufferUlong, atartns_2e57cb04-ad9c-47fd-b4a5-9f9aa433c8ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,15 +98,15 @@ None
 
 ## -see-also
 
+<a href="..\irb\nf-irb-ataportreadregisterbufferuchar.md">AtaPortReadRegisterBufferUchar</a>
+
+
+
 <a href="..\irb\nf-irb-ataportreadregisterbufferushort.md">AtaPortReadRegisterBufferUshort</a>
 
 
 
 <a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
-
-
-
-<a href="..\irb\nf-irb-ataportreadregisterbufferuchar.md">AtaPortReadRegisterBufferUchar</a>
 
 
 

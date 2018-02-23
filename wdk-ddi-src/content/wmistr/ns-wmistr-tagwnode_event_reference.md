@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 9dfe75e5-301e-4378-a2ad-f43676d8c208
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WNODE_EVENT_REFERENCE structure [Kernel-Mode Driver Architecture], kstruct_d_cf8551b3-5506-4c02-b56a-a4836429d5e1.xml, tagWNODE_EVENT_REFERENCE, *PWNODE_EVENT_REFERENCE, wmistr/WNODE_EVENT_REFERENCE, wmistr/PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE, kernel.wnode_event_reference, WNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE structure pointer [Kernel-Mode Driver Architecture]
+ms.keywords: tagWNODE_EVENT_REFERENCE, kernel.wnode_event_reference, *PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE structure pointer [Kernel-Mode Driver Architecture], wmistr/WNODE_EVENT_REFERENCE, WNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE, wmistr/PWNODE_EVENT_REFERENCE, kstruct_d_cf8551b3-5506-4c02-b56a-a4836429d5e1.xml, WNODE_EVENT_REFERENCE structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WNODE_EVENT_REFERENCE
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_EVENT_REFERENCE, WNODE_EVENT_REFERENCE"
+req.typenames: WNODE_EVENT_REFERENCE, *PWNODE_EVENT_REFERENCE
 req.product: Windows 10 or later.
 ---
 
@@ -119,7 +119,7 @@ The <b>ProviderId</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.m
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
+<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
 
 
 
@@ -127,7 +127,7 @@ The <b>ProviderId</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.m
 
 
 
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
+<a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
 

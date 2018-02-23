@@ -40,7 +40,7 @@ apiname:
 -	QueryControllerType
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION"
+req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -96,9 +96,9 @@ Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-u
 Reserved. Do not use.
 
 
-#### - PciClass [out]
+#### - PciVendorId [out]
 
-Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
+Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
 
 
 #### - PciDeviceId [out]
@@ -106,14 +106,9 @@ Pointer to a UCHAR variable that receives the PCI class for the USB host control
 Pointer to a USHORT variable that  receives the PCI device ID for the USB host controller.
 
 
-#### - PciProgIf [out]
+#### - PciClass [out]
 
-Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
-
-
-#### - PciRevisionId [out]
-
-Pointer to a UCHAR variable that receives the PCI revision number for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI class for the USB host controller.
 
 
 #### - PciSubClass [out]
@@ -121,9 +116,14 @@ Pointer to a UCHAR variable that receives the PCI revision number for the USB ho
 Pointer to a UCHAR variable that receives the PCI subclass  for the USB host controller.
 
 
-#### - PciVendorId [out]
+#### - PciRevisionId [out]
 
-Pointer to a USHORT variable that  receives the PCI vendor ID for the USB host controller.
+Pointer to a UCHAR variable that receives the PCI revision number for the USB host controller.
+
+
+#### - PciProgIf [out]
+
+Pointer to a UCHAR variable that receives the PCI programming interface  for the USB host controller.
 
 
 ## -returns

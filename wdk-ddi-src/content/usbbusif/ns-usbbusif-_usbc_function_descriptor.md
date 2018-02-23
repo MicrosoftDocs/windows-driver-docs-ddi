@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 43ac738b-7837-4183-ad06-5c35a2af38ff
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBC_FUNCTION_DESCRIPTOR structure [Buses], buses.usbc_function_descriptor, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR, usbbusif/USBC_FUNCTION_DESCRIPTOR, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], PUSBC_FUNCTION_DESCRIPTOR, _USBC_FUNCTION_DESCRIPTOR, usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml
+ms.keywords: usbstrct_29623b3f-9def-4eb6-8735-eb695560ce27.xml, PUSBC_FUNCTION_DESCRIPTOR structure pointer [Buses], USBC_FUNCTION_DESCRIPTOR, usbbusif/PUSBC_FUNCTION_DESCRIPTOR, usbbusif/USBC_FUNCTION_DESCRIPTOR, _USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR, buses.usbc_function_descriptor, PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBC_FUNCTION_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBC_FUNCTION_DESCRIPTOR, USBC_FUNCTION_DESCRIPTOR"
+req.typenames: USBC_FUNCTION_DESCRIPTOR, *PUSBC_FUNCTION_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -126,11 +126,11 @@ For information on how to use user-defined callback routines to provide a custom
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

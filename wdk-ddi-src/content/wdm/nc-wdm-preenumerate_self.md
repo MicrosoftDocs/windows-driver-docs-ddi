@@ -40,7 +40,7 @@ apiname:
 -	ReenumerateSelf
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -110,7 +110,7 @@ If the bus driver can process the request at the time of the routine call, the b
 
 
 
-<a href="..\wdm\ns-wdm-_reenumerate_self_interface_standard.md">REENUMERATE_SELF_INTERFACE_STANDARD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551670">IRP_MN_QUERY_DEVICE_RELATIONS</a>
 
 
 

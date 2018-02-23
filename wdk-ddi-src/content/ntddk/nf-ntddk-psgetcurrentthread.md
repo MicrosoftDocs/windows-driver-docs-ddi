@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 132b30fe-21ef-48dc-8c69-02ccac563b87
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, ExGetCurrentResourceThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], kernel.psgetcurrentthread, PsGetCurrentThread, wdm/PsGetCurrentThread
+ms.keywords: k108_75fb6f47-8a13-4f2c-9b94-a8b7125bbcb6.xml, wdm/PsGetCurrentThread, PsGetCurrentThread routine [Kernel-Mode Driver Architecture], ExGetCurrentResourceThread, kernel.psgetcurrentthread, PsGetCurrentThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsGetCurrentThread
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsGetCurrentThread function
@@ -87,11 +87,7 @@ This macro
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
 
 
 
@@ -99,11 +95,15 @@ This macro
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-
-
-
 <a href="..\wdm\nf-wdm-pscreatesystemthread.md">PsCreateSystemThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-psissystemthread.md">PsIsSystemThread</a>
 
 
 

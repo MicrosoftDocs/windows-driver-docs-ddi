@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 Defines operations for a simple synchronous I/O functionality test.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOEx2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSimpleIOEx2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFSimpleIOEx2</b> interface has these methods.
@@ -88,13 +95,7 @@ Performs a small amount of simple I/O to the device.
 
 </td>
 </tr>
-</table>Closes the device.
-
-Opens the device.
-
-Performs a small amount of simple I/O to the device.
-
- 
+</table> 
 
 
 ## -remarks

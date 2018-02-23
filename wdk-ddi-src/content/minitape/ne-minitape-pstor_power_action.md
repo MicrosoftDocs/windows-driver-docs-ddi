@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ffc7c1ec-faec-4383-ab69-844cf68d054f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPowerActionNone, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, storage.stor_power_action, storport/STOR_POWER_ACTION, StorPowerActionHibernate, storport/StorPowerActionShutdown, StorPowerActionWarmEject, *PSTOR_POWER_ACTION, StorPowerActionSleep, StorPowerActionShutdownOff, storport/StorPowerActionShutdownOff, storport/StorPowerActionShutdownReset, StorPowerActionReserved, PSTOR_POWER_ACTION, storport/StorPowerActionWarmEject, STOR_POWER_ACTION, StorPowerActionShutdownReset, storport/PSTOR_POWER_ACTION, STOR_POWER_ACTION enumeration [Storage Devices], PSTOR_POWER_ACTION enumeration pointer [Storage Devices], storport/StorPowerActionReserved, StorPowerActionShutdown, storport/StorPowerActionSleep, StorPowerActionNone, storport/StorPowerActionHibernate
+ms.keywords: storport/StorPowerActionReserved, StorPowerActionHibernate, *PSTOR_POWER_ACTION, storport/PSTOR_POWER_ACTION, StorPowerActionShutdownOff, StorPowerActionShutdownReset, StorPowerActionWarmEject, PSTOR_POWER_ACTION, StorPowerActionShutdown, storport/StorPowerActionShutdownReset, StorPowerActionNone, STOR_POWER_ACTION enumeration [Storage Devices], storport/StorPowerActionShutdown, storport/StorPowerActionHibernate, storport/StorPowerActionShutdownOff, PSTOR_POWER_ACTION enumeration pointer [Storage Devices], StorPowerActionSleep, structs-storport_53754a67-bd34-4f06-92ba-2f45d7fa66a9.xml, storport/StorPowerActionNone, STOR_POWER_ACTION, storport/StorPowerActionSleep, storage.stor_power_action, storport/StorPowerActionWarmEject, StorPowerActionReserved, storport/STOR_POWER_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -116,7 +116,7 @@ The system is preparing for ejection.
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_scsi_power_request_block.md">SCSI_POWER_REQUEST_BLOCK</a>
 
 
 

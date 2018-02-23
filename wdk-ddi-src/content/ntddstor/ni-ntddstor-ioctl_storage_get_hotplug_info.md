@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_STORAGE_GET_HOTPLUG_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
+req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # IOCTL_STORAGE_GET_HOTPLUG_INFO IOCTL
@@ -110,11 +110,11 @@ The <b>Information</b> field is set to <b>sizeof</b>(STORAGE_HOTPLUG_INFO). The 
 
 ## -see-also
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_hotplug_info.md">STORAGE_HOTPLUG_INFO</a>
+
+
+
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_set_hotplug_info.md">IOCTL_STORAGE_SET_HOTPLUG_INFO</a>
 
 
 

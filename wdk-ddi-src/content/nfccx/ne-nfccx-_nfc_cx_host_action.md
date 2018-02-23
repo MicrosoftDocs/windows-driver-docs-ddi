@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: CE485A6F-8480-4535-9145-A8CBF78C804D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], nfpdrivers.nfc_cx_host_action, nfccx/HostActionStart, nfccx/HostActionRestart, *PNFC_CX_HOST_ACTION, nfccx/HostActionStop, HostActionUnload, HostActionStop, nfccx/HostActionUnload, NFC_CX_HOST_ACTION, HostActionStart, HostActionRestart, _NFC_CX_HOST_ACTION, nfccx/NFC_CX_HOST_ACTION
+ms.keywords: nfccx/HostActionStart, HostActionRestart, nfccx/HostActionRestart, HostActionUnload, HostActionStop, nfccx/NFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION enumeration [Near-Field Proximity Drivers], *PNFC_CX_HOST_ACTION, nfpdrivers.nfc_cx_host_action, nfccx/HostActionStop, HostActionStart, nfccx/HostActionUnload, NFC_CX_HOST_ACTION, _NFC_CX_HOST_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_HOST_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_HOST_ACTION, NFC_CX_HOST_ACTION"
+req.typenames: NFC_CX_HOST_ACTION, *PNFC_CX_HOST_ACTION
 ---
 
 # _NFC_CX_HOST_ACTION enumeration

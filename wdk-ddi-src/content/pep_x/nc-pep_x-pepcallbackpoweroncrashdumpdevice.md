@@ -40,7 +40,7 @@ apiname:
 -	PowerOnDumpDeviceCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_CORE_DEVICE, PO_FX_CORE_DEVICE"
+req.typenames: PO_FX_CORE_DEVICE, *PPO_FX_CORE_DEVICE
 ---
 
 # PEPCALLBACKPOWERONCRASHDUMPDEVICE callback
@@ -72,7 +72,7 @@ BOOLEAN PowerOnDumpDeviceCallback(
 
 ### -param CrashdumpInformation [in]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
+A pointer to a <a href="..\pep_x\ns-pep_x-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a> structure that contains information about the crash-dump device.
 
 
 ## -returns
@@ -99,7 +99,7 @@ The <i>PowerOnDumpDeviceCallback</i> routine is called at IRQL = HIGH_LEVEL with
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
+<a href="..\pep_x\ns-pep_x-_pep_crashdump_information.md">PEP_CRASHDUMP_INFORMATION</a>
 
 
 

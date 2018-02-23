@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 43294943-cc73-45d4-8e0b-e7d29420bb7e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRetrievePresentChildren, _WDF_RETRIEVE_CHILD_FLAGS, wdfchildlist/WdfRetrievePendingChildren, wdfchildlist/WdfRetrieveUnspecified, WdfRetrievePendingChildren, wdfchildlist/WdfRetrieveAllChildren, WdfRetrieveUnspecified, DFDeviceObjectChildListRef_f82096f7-f6f9-4e49-a3e3-2641f60f98d9.xml, kmdf.wdf_retrieve_child_flags, wdfchildlist/WdfRetrieveMissingChildren, WdfRetrieveAllChildren, WDF_RETRIEVE_CHILD_FLAGS, wdf.wdf_retrieve_child_flags, WdfRetrieveMissingChildren, wdfchildlist/WDF_RETRIEVE_CHILD_FLAGS, wdfchildlist/WdfRetrieveAddedChildren, WdfRetrieveAddedChildren, WDF_RETRIEVE_CHILD_FLAGS enumeration, wdfchildlist/WdfRetrievePresentChildren
+ms.keywords: wdfchildlist/WdfRetrievePresentChildren, WdfRetrieveAllChildren, WDF_RETRIEVE_CHILD_FLAGS, wdfchildlist/WdfRetrieveAllChildren, WdfRetrieveUnspecified, _WDF_RETRIEVE_CHILD_FLAGS, wdfchildlist/WdfRetrieveMissingChildren, wdf.wdf_retrieve_child_flags, WdfRetrieveMissingChildren, WdfRetrievePendingChildren, WdfRetrieveAddedChildren, WDF_RETRIEVE_CHILD_FLAGS enumeration, DFDeviceObjectChildListRef_f82096f7-f6f9-4e49-a3e3-2641f60f98d9.xml, wdfchildlist/WdfRetrieveAddedChildren, wdfchildlist/WdfRetrievePendingChildren, kmdf.wdf_retrieve_child_flags, wdfchildlist/WDF_RETRIEVE_CHILD_FLAGS, wdfchildlist/WdfRetrieveUnspecified, WdfRetrievePresentChildren
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -128,7 +128,7 @@ Before calling <a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiterati
 
 
 
-<a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdfchildlistbeginiteration.md">WdfChildListBeginIteration</a>
 
 
 

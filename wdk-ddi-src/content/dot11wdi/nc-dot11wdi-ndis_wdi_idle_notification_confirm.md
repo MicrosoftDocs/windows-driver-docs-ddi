@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiIdleNotificationConfirm
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_IDLE_NOTIFICATION_CONFIRM callback

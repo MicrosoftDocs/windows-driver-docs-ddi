@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9DA0A057-1472-4B42-9149-A961F7D84B2E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortInterlockedPopEntrySList routine [Storage Devices], StorPortInterlockedPopEntrySList, storport/StorPortInterlockedPopEntrySList, storage.storportinterlockedpopentryslist
+ms.keywords: StorPortInterlockedPopEntrySList, storage.storportinterlockedpopentryslist, StorPortInterlockedPopEntrySList routine [Storage Devices], storport/StorPortInterlockedPopEntrySList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,15 +150,15 @@ The <b>StorPortInterlockedPopEntrySList</b> will also return <b>STATUS_SUCCESS</
 
 ## -see-also
 
+<a href="..\storport\nf-storport-storportquerydepthslist.md">StorPortQueryDepthSList</a>
+
+
+
 <a href="..\storport\nf-storport-storportinterlockedpushentryslist.md">StorPortInterlockedPushEntrySList</a>
 
 
 
 <a href="..\storport\nf-storport-storportinitializeslisthead.md">StorPortInitializeSListHead</a>
-
-
-
-<a href="..\storport\nf-storport-storportinterlockedflushslist.md">StorPortInterlockedFlushSList</a>
 
 
 

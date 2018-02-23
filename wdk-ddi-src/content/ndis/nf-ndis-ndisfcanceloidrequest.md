@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 67dc0769-0d65-4048-84aa-1100883bde46
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, ndis/NdisFCancelOidRequest, netvista.ndisfcanceloidrequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisFCancelOidRequest, ndis_request_ref_17e19328-030e-4649-94c9-f7b0347e7ab2.xml, netvista.ndisfcanceloidrequest, NdisFCancelOidRequest, NdisFCancelOidRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFCancelOidRequest
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFCancelOidRequest function
@@ -117,7 +117,7 @@ The filter driver can call
 
 
 
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
 
 
 
@@ -125,7 +125,7 @@ The filter driver can call
 
 
 
-<a href="..\ndis\nf-ndis-ndisfoidrequest.md">NdisFOidRequest</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 

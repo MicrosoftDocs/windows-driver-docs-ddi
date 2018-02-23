@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 4cbf6d29-bccd-4629-b282-eb5314f9b4f4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: FormatUsingCurrentType method, IWDFIoRequest interface, wudfddi/IWDFIoRequest::FormatUsingCurrentType, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, FormatUsingCurrentType method, FormatUsingCurrentType, IWDFIoRequest, IWDFIoRequest::FormatUsingCurrentType, umdf.iwdfiorequest_formatusingcurrenttype, wdf.iwdfiorequest_formatusingcurrenttype, IWDFIoRequest interface, FormatUsingCurrentType method
+ms.keywords: umdf.iwdfiorequest_formatusingcurrenttype, FormatUsingCurrentType method, IWDFIoRequest interface, IWDFIoRequest::FormatUsingCurrentType, wudfddi/IWDFIoRequest::FormatUsingCurrentType, IWDFIoRequest interface, FormatUsingCurrentType method, FormatUsingCurrentType method, UMDFRequestObjectRef_e16e60fe-557d-413c-a483-6bbe602986dc.xml, wdf.iwdfiorequest_formatusingcurrenttype, FormatUsingCurrentType, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -106,11 +106,11 @@ For a code example of how to use the <b>FormatUsingCurrentType</b> method, see <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559149">IWDFIoRequest::Send</a>
 
 
 

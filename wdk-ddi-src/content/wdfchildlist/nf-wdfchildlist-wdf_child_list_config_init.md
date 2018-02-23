@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d222f2f3-554f-43d5-97c5-9a56fdb42ec3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_CHILD_LIST_CONFIG_INIT function, DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, wdf.wdf_child_list_config_init, wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT, kmdf.wdf_child_list_config_init, WDF_CHILD_LIST_CONFIG_INIT
+ms.keywords: WDF_CHILD_LIST_CONFIG_INIT, kmdf.wdf_child_list_config_init, DFDeviceObjectChildListRef_b5fea12e-3e5b-4ec7-8e9d-0e385047cbdc.xml, wdfchildlist/WDF_CHILD_LIST_CONFIG_INIT, WDF_CHILD_LIST_CONFIG_INIT function, wdf.wdf_child_list_config_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,11 +115,11 @@ For a code example that uses <b>WDF_CHILD_LIST_CONFIG_INIT</b>, see <a href="..\
 
 ## -see-also
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
-
-
-
 <a href="..\wdfchildlist\nc-wdfchildlist-evt_wdf_child_list_create_device.md">EvtChildListCreateDevice</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_config.md">WDF_CHILD_LIST_CONFIG</a>
 
 
 

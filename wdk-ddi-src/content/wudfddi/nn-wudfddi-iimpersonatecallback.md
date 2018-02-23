@@ -57,6 +57,13 @@ The <b>IImpersonateCallback</b> interface contains a method that handles imperso
 A driver registers the <b>IImpersonateCallback</b> interface when the driver calls the <a href="https://msdn.microsoft.com/library/windows/hardware/ff559136">IWDFIoRequest::Impersonate</a> method. 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IImpersonateCallback</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IImpersonateCallback</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IImpersonateCallback</b> interface has these methods.
@@ -74,7 +81,5 @@ The <a href="https://msdn.microsoft.com/6f06e89c-5298-4335-ab9a-ef69e635152c">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/6f06e89c-5298-4335-ab9a-ef69e635152c">OnImpersonate</a> method handles impersonation.
-
- 
+</table> 
 

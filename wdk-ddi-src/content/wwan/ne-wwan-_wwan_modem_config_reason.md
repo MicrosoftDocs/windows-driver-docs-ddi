@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2CF2C69B-A5DF-4A78-BC15-EB80FAC51831
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_WWAN_MODEM_CONFIG_REASON, WwanModemConfigReasonSIMRemoved, WWAN_MODEM_CONFIG_REASON, WWAN_MODEM_CONFIG_REASON enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigReasonConfigFileUpdate, wwan/WwanModemConfigReasonSIMDetected, wwan/PWWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonActivationFailure, WwanModemConfigReasonModemRecovery, wwan/WwanModemConfigReasonNone, wwan/WwanModemConfigReasonSIMRemoved, WwanModemConfigReasonNOSIM, PWWAN_MODEM_CONFIG_REASON enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigReasonNOSIM, WwanModemConfigReasonSIMDetected, WwanModemConfigReasonActivationFailure, wwan/WwanModemConfigReasonModemRecovery, wwan/WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonConfigFileUpdate, wwan/WwanModemConfigReasonMax, netvista.wwan_modem_config_reason, wwan/WwanModemConfigReasonIMSIReset, PWWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON, WwanModemConfigReasonIMSIReset, WwanModemConfigReasonNone, WwanModemConfigReasonMax, WwanModemConfigReasonModemReset, wwan/WwanModemConfigReasonModemReset"
+ms.keywords: netvista.wwan_modem_config_reason, wwan/WwanModemConfigReasonModemRecovery, WwanModemConfigReasonModemReset, WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonNone, WwanModemConfigReasonSIMDetected, WwanModemConfigReasonModemRecovery, wwan/WwanModemConfigReasonSIMRemoved, wwan/PWWAN_MODEM_CONFIG_REASON, WwanModemConfigReasonSIMRemoved, WWAN_MODEM_CONFIG_REASON enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigReasonMax, wwan/WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonIMSIReset, PWWAN_MODEM_CONFIG_REASON enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigReasonMax, WwanModemConfigReasonNone, WwanModemConfigReasonActivationFailure, PWWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonActivationFailure, WwanModemConfigReasonNOSIM, WwanModemConfigReasonIMSIReset, wwan/WwanModemConfigReasonSIMDetected, wwan/WwanModemConfigReasonConfigFileUpdate, wwan/WwanModemConfigReasonModemReset, WwanModemConfigReasonConfigFileUpdate, _WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonNOSIM, *PWWAN_MODEM_CONFIG_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_MODEM_CONFIG_REASON
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_MODEM_CONFIG_REASON, WWAN_MODEM_CONFIG_REASON"
+req.typenames: WWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON
 req.product: Windows 10 or later.
 ---
 

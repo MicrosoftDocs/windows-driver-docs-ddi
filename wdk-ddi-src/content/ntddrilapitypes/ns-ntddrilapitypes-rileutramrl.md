@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2dd695c4-ed3e-4278-b82e-6643aaded890
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RILEUTRAMRL, *LPRILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], RILEUTRAMRL, netvista.rileutramrl
+ms.keywords: rilapitypes/RILEUTRAMRL, RILEUTRAMRL, *LPRILEUTRAMRL, RILEUTRAMRL structure [Network Drivers Starting with Windows Vista], netvista.rileutramrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,7 +77,7 @@ struct RILEUTRAMRL {
 
 ### -field dwParams
 
-A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rileutramrlparammask.md">RILEUTRAMRLPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rileutramrlparammask.md">RILEUTRAMRLPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwMobileCountryCode

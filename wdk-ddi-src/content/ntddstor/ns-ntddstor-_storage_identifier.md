@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f2b0610a-dffa-48fb-bc5a-355fa9f05770
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_STORAGE_IDENTIFIER, PSTORAGE_IDENTIFIER, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml, PSTORAGE_IDENTIFIER structure pointer [Storage Devices], ntddstor/PSTORAGE_IDENTIFIER, storage.storage_identifier, *PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices]"
+ms.keywords: "*PSTORAGE_IDENTIFIER, ntddstor/STORAGE_IDENTIFIER, ntddstor/PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER, STORAGE_IDENTIFIER structure [Storage Devices], PSTORAGE_IDENTIFIER structure pointer [Storage Devices], PSTORAGE_IDENTIFIER, _STORAGE_IDENTIFIER, storage.storage_identifier, structs-general_29c666d7-3e61-44fe-a36e-979418dbb958.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_IDENTIFIER
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_IDENTIFIER, STORAGE_IDENTIFIER"
+req.typenames: STORAGE_IDENTIFIER, *PSTORAGE_IDENTIFIER
 ---
 
 # _STORAGE_IDENTIFIER structure

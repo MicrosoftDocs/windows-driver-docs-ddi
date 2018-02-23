@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: C8F42E83-2122-4871-972B-9FD06379C271
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, ntddk/IoGetSiloParameters, IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers]
+ms.keywords: PIO_FOEXT_SILO_PARAMETERS, ifsk.iogetsiloparameters, IoGetSiloParameters, ntddk/IoGetSiloParameters, IoGetSiloParameters function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoGetSiloParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoGetSiloParameters function

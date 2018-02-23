@@ -4,11 +4,11 @@ title: IDebugClient4::ConnectProcessServer method
 author: windows-driver-content
 description: The ConnectProcessServer methods connect to a process server.
 old-location: debugger\connectprocessserver.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: c5fd12eb-0779-400f-a271-84b7b379529f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient4, ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::ConnectProcessServer, IDebugClient4 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2::ConnectProcessServer, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, IDebugClient5 interface [Windows Debugging], ConnectProcessServer method, debugger.connectprocessserver, IDebugClient interface [Windows Debugging], ConnectProcessServer method, ConnectProcessServer method [Windows Debugging], ConnectProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient::ConnectProcessServer, IDebugClient, dbgeng/IDebugClient4::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], ConnectProcessServer method, IDebugClient4::ConnectProcessServer, dbgeng/IDebugClient::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient2 interface, ConnectProcessServer method [Windows Debugging], IDebugClient3 interface, IDebugClient2 interface [Windows Debugging], ConnectProcessServer method, IDebugClient5::ConnectProcessServer, IDebugClient2, dbgeng/IDebugClient5::ConnectProcessServer, IDebugClient3::ConnectProcessServer, IDebugClient3, dbgeng/IDebugClient2::ConnectProcessServer
+ms.date: 2/22/2018
+ms.keywords: ConnectProcessServer method [Windows Debugging], IDebugClient4 interface, IDebugClient_519f5e11-6f3b-4469-8352-e6cd7c1ed384.xml, ConnectProcessServer method [Windows Debugging], IDebugClient3 interface, ConnectProcessServer method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient4::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient2 interface, IDebugClient4, ConnectProcessServer method [Windows Debugging], dbgeng/IDebugClient2::ConnectProcessServer, IDebugClient3, debugger.connectprocessserver, IDebugClient4::ConnectProcessServer, ConnectProcessServer method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2::ConnectProcessServer, IDebugClient interface [Windows Debugging], ConnectProcessServer method, IDebugClient4 interface [Windows Debugging], ConnectProcessServer method, IDebugClient3::ConnectProcessServer, IDebugClient5::ConnectProcessServer, IDebugClient2 interface [Windows Debugging], ConnectProcessServer method, IDebugClient2, IDebugClient::ConnectProcessServer, dbgeng/IDebugClient3::ConnectProcessServer, IDebugClient5 interface [Windows Debugging], ConnectProcessServer method, IDebugClient, dbgeng/IDebugClient::ConnectProcessServer, dbgeng/IDebugClient5::ConnectProcessServer, ConnectProcessServer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,7 +121,11 @@ For more information about process servers and remote debugging, see <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
 
 
 
@@ -129,7 +133,39 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541969">DisconnectProcessServer</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548243">GetRunningProcessDescription</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
 
 
 
@@ -141,45 +177,9 @@ For more information about process servers and remote debugging, see <a href="ht
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539323">CreateProcess2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558810">StartProcessServer</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::ConnectProcessServer method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::ConnectProcessServer method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

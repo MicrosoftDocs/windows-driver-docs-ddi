@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: dd3a5f87-21a9-4186-bb74-a49e6751622e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlmapgenericmask, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], ntddk/RtlMapGenericMask, RtlMapGenericMask, k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml
+ms.keywords: k109_f0e498a8-0b75-4fb8-a9c6-3f1ce3eb71f3.xml, RtlMapGenericMask routine [Kernel-Mode Driver Architecture], ntddk/RtlMapGenericMask, kernel.rtlmapgenericmask, RtlMapGenericMask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlMapGenericMask
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlMapGenericMask function

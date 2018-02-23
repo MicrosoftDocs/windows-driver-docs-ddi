@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bb83318c-b14f-421a-9cd4-69e270b825c7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddk/SeSinglePrivilegeCheck, kernel.sesingleprivilegecheck, k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, SeSinglePrivilegeCheck, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.sesingleprivilegecheck, SeSinglePrivilegeCheck, k110_ee767278-7c5f-4dcd-b328-e9219b453a84.xml, SeSinglePrivilegeCheck routine [Kernel-Mode Driver Architecture], ntddk/SeSinglePrivilegeCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SeSinglePrivilegeCheck
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # SeSinglePrivilegeCheck function
@@ -107,11 +107,11 @@ If <i>PreviousMode</i> is <b>KernelMode</b>, the privilege check always succeeds
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
-
-
-
 <a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561842">RtlEqualLuid</a>
 
 
 

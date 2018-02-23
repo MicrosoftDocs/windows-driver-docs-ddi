@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 198ECC2A-1AC0-44FA-8E5C-84F1C8BEE246
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture], MmAllocateMdlForIoSpace, kernel.mmallocatemdlforiospace
+ms.keywords: wdm/MmAllocateMdlForIoSpace, kernel.mmallocatemdlforiospace, MmAllocateMdlForIoSpace, MmAllocateMdlForIoSpace routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -195,7 +195,11 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
+
+
+
+<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 
@@ -203,15 +207,11 @@ In this example, the starting physical address is specified by the <code>BasePhy
 
 
 
+<a href="..\wdm\nf-wdm-mmmaplockedpagesspecifycache.md">MmMapLockedPagesSpecifyCache</a>
+
+
+
 <a href="..\wdm\nf-wdm-iofreemdl.md">IoFreeMdl</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mm_physical_address_list.md">MM_PHYSICAL_ADDRESS_LIST</a>
-
-
-
-<a href="..\wdm\ns-wdm-_mdl.md">MDL</a>
 
 
 

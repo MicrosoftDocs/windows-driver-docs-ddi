@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 452377f1-a926-4f43-8168-bea11622902e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ChangerClassDebugPrint, storage.changerclassdebugprint, ChangerClassDebugPrint function [Storage Devices], mcd/ChangerClassDebugPrint, chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml
+ms.keywords: chgrclas_3372885c-482b-4dab-87ae-e59668e91950.xml, mcd/ChangerClassDebugPrint, ChangerClassDebugPrint function [Storage Devices], storage.changerclassdebugprint, ChangerClassDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

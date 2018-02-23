@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 38923308-0268-49b3-9f9d-0fa2b62f7533
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, NdisMWriteLogData, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteLogData, netvista.ndismwritelogdata
+ms.keywords: netvista.ndismwritelogdata, NdisMWriteLogData function [Network Drivers Starting with Windows Vista], ndis/NdisMWriteLogData, miniport_logging_ref_ca57cae5-4951-4c02-a745-d668bc8ec663.xml, NdisMWriteLogData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMWriteLogData
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMWriteLogData function
@@ -161,12 +161,7 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
-   NdisAllocateMemoryWithTagPriority</a>
+<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
 
 
 
@@ -175,15 +170,20 @@ Consequently, an application reading an NDIS log must collect retrieved data int
 
 
 
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismflushlog.md">NdisMFlushLog</a>
+<a href="..\ndis\nf-ndis-ndisreleasespinlock.md">NdisReleaseSpinLock</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismcloselog.md">NdisMCloseLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcreatelog.md">NdisMCreateLog</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisallocatememorywithtagpriority.md">
+   NdisAllocateMemoryWithTagPriority</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 48DD867C-1235-4955-A01E-FF46C850DA31
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wwan_device_slot_mappings, WWAN_DEVICE_SLOT_MAPPING_INFO, WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_DEVICE_SLOT_MAPPING_INFO, *PWWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SLOT_MAPPING_INFO, _WWAN_DEVICE_SLOT_MAPPING_INFO
+ms.keywords: WWAN_DEVICE_SLOT_MAPPING_INFO, netvista.wwan_device_slot_mappings, _WWAN_DEVICE_SLOT_MAPPING_INFO, WWAN_DEVICE_SLOT_MAPPING_INFO structure [Network Drivers Starting with Windows Vista], *PWWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO, PWWAN_DEVICE_SLOT_MAPPING_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_DEVICE_SLOT_MAPPING_INFO, wwan/PWWAN_DEVICE_SLOT_MAPPING_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,7 +89,7 @@ The number of mappings, which is always equal to the number of executors.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_device_slot_mapping_info.md">NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_slot_mapping_info.md">NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 
@@ -101,7 +101,7 @@ The number of mappings, which is always equal to the number of executors.
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_slot_mapping_info.md">NDIS_WWAN_DEVICE_SLOT_MAPPING_INFO</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_set_device_slot_mapping_info.md">NDIS_WWAN_SET_DEVICE_SLOT_MAPPING_INFO</a>
 
 
 

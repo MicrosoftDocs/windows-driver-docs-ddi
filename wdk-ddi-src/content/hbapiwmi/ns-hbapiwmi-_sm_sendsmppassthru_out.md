@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eb173171-3990-405e-b740-8c1a0c915165
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT, hbapiwmi/PSM_SendSMPPassThru_OUT, storage.sm_sendsmppassthru_out, PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], SM_SendSMPPassThru_OUT structure [Storage Devices], structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml, _SM_SendSMPPassThru_OUT
+ms.keywords: PSM_SendSMPPassThru_OUT structure pointer [Storage Devices], hbapiwmi/SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT, structs-Fibre_e311fd31-d9ee-4d41-a28a-65cc0153b788.xml, _SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT structure [Storage Devices], hbapiwmi/PSM_SendSMPPassThru_OUT, PSM_SendSMPPassThru_OUT, storage.sm_sendsmppassthru_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendSMPPassThru_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendSMPPassThru_OUT, SM_SendSMPPassThru_OUT"
+req.typenames: SM_SendSMPPassThru_OUT, *PSM_SendSMPPassThru_OUT
 ---
 
 # _SM_SendSMPPassThru_OUT structure

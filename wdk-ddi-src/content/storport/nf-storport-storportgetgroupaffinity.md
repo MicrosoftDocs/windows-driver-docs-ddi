@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eec0c985-fb59-4190-afb8-5eb62ac1edea
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml, storage.storportgetgroupaffinity, storport/StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], StorPortGetGroupAffinity
+ms.keywords: StorPortGetGroupAffinity, storprt_9fdfdc84-3e8f-4227-9799-4ccf08f802df.xml, storport/StorPortGetGroupAffinity, StorPortGetGroupAffinity routine [Storage Devices], storage.storportgetgroupaffinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

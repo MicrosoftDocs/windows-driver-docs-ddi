@@ -7,8 +7,8 @@ old-location: print\ifixeddocumentsequence_geturi.htm
 old-project: print
 ms.assetid: 45017249-2ea5-43f6-9712-787f52cb6e4b
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IFixedDocumentSequence, GetUri, print.ifixeddocumentsequence_geturi, GetUri method [Print Devices], IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices], GetUri method, GetUri method [Print Devices], filterpipeline/IFixedDocumentSequence::GetUri, filterpipeline_6d286919-21a8-40e8-8c6b-dd035ffe0ae1.xml, IFixedDocumentSequence::GetUri
+ms.date: 2/22/2018
+ms.keywords: IFixedDocumentSequence::GetUri, print.ifixeddocumentsequence_geturi, filterpipeline_6d286919-21a8-40e8-8c6b-dd035ffe0ae1.xml, GetUri method [Print Devices], GetUri method [Print Devices], IFixedDocumentSequence interface, IFixedDocumentSequence interface [Print Devices], GetUri method, GetUri, IFixedDocumentSequence, filterpipeline/IFixedDocumentSequence::GetUri
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

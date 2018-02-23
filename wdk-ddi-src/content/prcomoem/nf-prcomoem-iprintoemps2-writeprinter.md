@@ -7,8 +7,8 @@ old-location: print\iprintoemps2_writeprinter.htm
 old-project: print
 ms.assetid: 76037a86-757a-4b6a-b5ba-a742a18938c2
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: prcomoem/IPrintOemPS2::WritePrinter, WritePrinter method [Print Devices], IPrintOemPS2 interface, IPrintOemPS2 interface [Print Devices], WritePrinter method, IPrintOemPS2::WritePrinter, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml, WritePrinter, print.iprintoemps2_writeprinter, WritePrinter method [Print Devices], IPrintOemPS2
+ms.date: 2/22/2018
+ms.keywords: IPrintOemPS2 interface [Print Devices], WritePrinter method, print_unidrv-pscript_rendering_ea50360f-7f20-443b-9b10-a64f44238666.xml, IPrintOemPS2, prcomoem/IPrintOemPS2::WritePrinter, print.iprintoemps2_writeprinter, WritePrinter, WritePrinter method [Print Devices], IPrintOemPS2::WritePrinter, WritePrinter method [Print Devices], IPrintOemPS2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS2.WritePrinter
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

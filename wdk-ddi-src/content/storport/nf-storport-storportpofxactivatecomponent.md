@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 23872334-F9C3-4EB5-9B26-0BDB239D8F4E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortPoFxActivateComponent routine [Storage Devices], storport/StorPortPoFxActivateComponent, storage.storportpofxactivatecomponent, StorPortPoFxActivateComponent
+ms.keywords: StorPortPoFxActivateComponent routine [Storage Devices], StorPortPoFxActivateComponent, storage.storportpofxactivatecomponent, storport/StorPortPoFxActivateComponent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -203,7 +203,7 @@ Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequ
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 
@@ -211,7 +211,7 @@ Each call to <b>StorPortPoFxActivateComponent</b> must be matched with a subsequ
 
 
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 
 

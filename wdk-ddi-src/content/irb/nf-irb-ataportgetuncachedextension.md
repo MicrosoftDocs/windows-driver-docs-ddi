@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b81fc29-4906-4095-b197-6b63f5f01ac0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.ataportgetuncachedextension, irb/AtaPortGetUnCachedExtension, AtaPortGetUnCachedExtension routine [Storage Devices], atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml, AtaPortGetUnCachedExtension
+ms.keywords: storage.ataportgetuncachedextension, AtaPortGetUnCachedExtension, irb/AtaPortGetUnCachedExtension, AtaPortGetUnCachedExtension routine [Storage Devices], atartns_30b7c0f0-5636-4d81-b1de-13d8c413f4d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

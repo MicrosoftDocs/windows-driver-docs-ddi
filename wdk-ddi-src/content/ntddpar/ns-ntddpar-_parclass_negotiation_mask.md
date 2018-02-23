@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 6d246ec3-47f1-46da-8ac4-f073f91c0d44
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PARCLASS_NEGOTIATION_MASK, _PARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK structure [Parallel Ports], parports.parclass_negotiation_mask, ntddpar/PPARCLASS_NEGOTIATION_MASK, ntddpar/PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK structure pointer [Parallel Ports], cisspd_8afca893-6736-49a8-a2bd-efb3d97bb63d.xml
+ms.keywords: parports.parclass_negotiation_mask, cisspd_8afca893-6736-49a8-a2bd-efb3d97bb63d.xml, ntddpar/PPARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK structure [Parallel Ports], _PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK structure pointer [Parallel Ports], ntddpar/PARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARCLASS_NEGOTIATION_MASK
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK"
+req.typenames: PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK
 ---
 
 # _PARCLASS_NEGOTIATION_MASK structure
@@ -91,11 +91,7 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
-
-
-
-<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
 
 
 
@@ -103,11 +99,15 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_par_get_default_modes.md">IOCTL_PAR_GET_DEFAULT_MODES</a>
 
 
 
-<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
+
+
+
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
 
 
 

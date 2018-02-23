@@ -7,7 +7,7 @@ old-location: print\drvunidrivertextout.htm
 old-project: print
 ms.assetid: 72ba09b2-a889-439d-bbf2-ee6f9ebf5535
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.drvunidrivertextout, PFN_DrvUnidriverTextOut callback function [Print Devices], PFN_DrvUnidriverTextOut, printoem/PFN_DrvUnidriverTextOut, print_obsoletefunctions_eeb13110-561c-4c0f-912b-1a3a1cebd846.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 77ebca0f-3056-4f11-9d59-fbd166967ed3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdpcgetparentobject, wdf.wdfdpcgetparentobject, WdfDpcGetParentObject method, WdfDpcGetParentObject, DFDpcObjectRef_28be5a7f-4f65-4b9e-b9f4-80b754cc8ca3.xml, wdfdpc/WdfDpcGetParentObject
+ms.keywords: wdf.wdfdpcgetparentobject, kmdf.wdfdpcgetparentobject, wdfdpc/WdfDpcGetParentObject, WdfDpcGetParentObject, WdfDpcGetParentObject method, DFDpcObjectRef_28be5a7f-4f65-4b9e-b9f4-80b754cc8ca3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDpcGetParentObject
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 128fe592-8dc1-46cf-8aa6-0f3de0896cc5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlTimeToTimeFields, k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], wdm/RtlTimeToTimeFields, kernel.rtltimetotimefields
+ms.keywords: k109_574f7b2f-cbb5-447c-84d5-88179cbe4cb7.xml, wdm/RtlTimeToTimeFields, RtlTimeToTimeFields, RtlTimeToTimeFields routine [Kernel-Mode Driver Architecture], kernel.rtltimetotimefields
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,7 +104,7 @@ Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input b
 
 
 
-<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
+<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
 
 
 
@@ -112,7 +112,7 @@ Callers of <b>RtlTimeToTimeFields</b> can be running at any IRQL if both input b
 
 
 
-<a href="..\wdm\nf-wdm-exsystemtimetolocaltime.md">ExSystemTimeToLocalTime</a>
+<a href="..\wdm\nf-wdm-exlocaltimetosystemtime.md">ExLocalTimeToSystemTime</a>
 
 
 

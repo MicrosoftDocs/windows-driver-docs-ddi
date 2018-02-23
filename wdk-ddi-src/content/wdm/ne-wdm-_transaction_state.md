@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b97bedc5-6393-49bd-b803-e70e3a3d49df
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TransactionStateCommittedNotify, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], kernel.transaction_state, wdm/TransactionStateIndoubt, _TRANSACTION_STATE, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, TransactionStateIndoubt, wdm/TransactionStateCommittedNotify, TransactionStateNormal, wdm/TRANSACTION_STATE, wdm/TransactionStateNormal, TRANSACTION_STATE
+ms.keywords: wdm/TransactionStateNormal, ktm_ref_051131c5-e3a5-430e-afca-053fcb68f746.xml, TRANSACTION_STATE enumeration [Kernel-Mode Driver Architecture], _TRANSACTION_STATE, wdm/TransactionStateIndoubt, wdm/TRANSACTION_STATE, kernel.transaction_state, TRANSACTION_STATE, TransactionStateIndoubt, TransactionStateCommittedNotify, wdm/TransactionStateCommittedNotify, TransactionStateNormal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

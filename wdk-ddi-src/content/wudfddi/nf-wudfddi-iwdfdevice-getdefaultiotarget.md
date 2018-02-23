@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 27bc5f1b-128d-486b-ae09-0356b1164ae0
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfdevice_getdefaultiotarget, GetDefaultIoTarget, GetDefaultIoTarget method, IWDFDevice interface, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, umdf.iwdfdevice_getdefaultiotarget, GetDefaultIoTarget method, IWDFDevice::GetDefaultIoTarget, IWDFDevice, wudfddi/IWDFDevice::GetDefaultIoTarget, IWDFDevice interface, GetDefaultIoTarget method
+ms.keywords: IWDFDevice::GetDefaultIoTarget, GetDefaultIoTarget, IWDFDevice interface, GetDefaultIoTarget method, IWDFDevice, UMDFDeviceObjectRef_33807b94-79d4-4bb9-85a4-69de9d7c33dc.xml, GetDefaultIoTarget method, wdf.iwdfdevice_getdefaultiotarget, wudfddi/IWDFDevice::GetDefaultIoTarget, umdf.iwdfdevice_getdefaultiotarget, GetDefaultIoTarget method, IWDFDevice interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,11 +95,11 @@ For more information, see <a href="https://msdn.microsoft.com/cf1b39c3-4c82-411b
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiotarget.md">IWDFIoTarget</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 

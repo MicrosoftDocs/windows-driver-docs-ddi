@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7c6a7ca8-83aa-41fe-92f5-6598464d9803
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AddTarget_IN, storage.addtarget_in, hbapiwmi/PAddTarget_IN, hbapiwmi/AddTarget_IN, _AddTarget_IN, AddTarget_IN structure [Storage Devices], PAddTarget_IN, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, *PAddTarget_IN, PAddTarget_IN structure pointer [Storage Devices]
+ms.keywords: PAddTarget_IN structure pointer [Storage Devices], AddTarget_IN, AddTarget_IN structure [Storage Devices], _AddTarget_IN, structs-Fibre_7109b51c-872e-4e2e-affb-388fe21750d7.xml, *PAddTarget_IN, storage.addtarget_in, hbapiwmi/AddTarget_IN, PAddTarget_IN, hbapiwmi/PAddTarget_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PAddTarget_IN, AddTarget_IN"
+req.typenames: AddTarget_IN, *PAddTarget_IN
 ---
 
 # _AddTarget_IN structure

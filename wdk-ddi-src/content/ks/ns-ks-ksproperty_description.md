@@ -7,8 +7,8 @@ old-location: stream\ksproperty_description.htm
 old-project: stream
 ms.assetid: d3d59dca-7214-493c-bb70-4391696fe017
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION, ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], ks/PKSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], ks/KSPROPERTY_DESCRIPTION, stream.ksproperty_description
+ms.date: 2/22/2018
+ms.keywords: "*PKSPROPERTY_DESCRIPTION, ks/KSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION structure [Streaming Media Devices], ks/PKSPROPERTY_DESCRIPTION, PKSPROPERTY_DESCRIPTION structure pointer [Streaming Media Devices], ks-struct_37ee8090-f90e-40a9-8731-3521d1d3a157.xml, stream.ksproperty_description, PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_DESCRIPTION
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_DESCRIPTION, KSPROPERTY_DESCRIPTION"
+req.typenames: KSPROPERTY_DESCRIPTION, *PKSPROPERTY_DESCRIPTION
 ---
 
 # KSPROPERTY_DESCRIPTION structure
@@ -73,7 +73,7 @@ typedef struct {
 
 ### -field AccessFlags
 
-Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>.
+Specifies the access allowed to this property. A basic-support request sets this member to the bitwise OR of the flags for all the access types that the handler supports for this property. For a list of possible flag values, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>.
 
 
 ### -field DescriptionSize
@@ -113,6 +113,14 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 ## -see-also
 
+<a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
+
+
+
+<a href="..\ks\ns-ks-ksproperty_values.md">KSPROPERTY_VALUES</a>
+
+
+
 <a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
 
 
@@ -121,17 +129,9 @@ For more information, see <a href="https://msdn.microsoft.com/a385929e-1934-4d88
 
 
 
-<a href="..\ks\ns-ks-ksproperty_membersheader.md">KSPROPERTY_MEMBERSHEADER</a>
-
-
-
-<a href="..\ks\ns-ks-ksidentifier.md">KSIDENTIFIER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_DESCRIPTION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_DESCRIPTION structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

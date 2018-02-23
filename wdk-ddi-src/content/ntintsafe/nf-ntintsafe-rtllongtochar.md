@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4D326534-2DEB-419B-9E14-D88543071ECC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlLongToChar function [Kernel-Mode Driver Architecture], kernel.rtllongtochar, RtlLongToChar, ntintsafe/RtlLongToChar
+ms.keywords: ntintsafe/RtlLongToChar, RtlLongToChar function [Kernel-Mode Driver Architecture], RtlLongToChar, kernel.rtllongtochar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

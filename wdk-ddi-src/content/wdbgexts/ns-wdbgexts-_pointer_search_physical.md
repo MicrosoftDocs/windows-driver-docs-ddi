@@ -4,11 +4,11 @@ title: "_POINTER_SEARCH_PHYSICAL"
 author: windows-driver-content
 description: The IG_POINTER_SEARCH_PHYSICAL Ioctl operation searches the target's physical memory for pointers lying within a specified range.
 old-location: debugger\ig_pointer_search_physical.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: fdb8376b-fbda-4bee-895e-a306fd0f632a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: "*PPOINTER_SEARCH_PHYSICAL, _POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL, WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, debugger.ig_pointer_search_physical, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], wdbgexts/PPOINTER_SEARCH_PHYSICAL, wdbgexts/POINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging]"
+ms.date: 2/22/2018
+ms.keywords: POINTER_SEARCH_PHYSICAL, wdbgexts/PPOINTER_SEARCH_PHYSICAL, _POINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL structure [Windows Debugging], PPOINTER_SEARCH_PHYSICAL, debugger.ig_pointer_search_physical, WdbgExts_Ref_ce742570-c023-4e34-a8e2-aef530e61c04.xml, *PPOINTER_SEARCH_PHYSICAL, wdbgexts/POINTER_SEARCH_PHYSICAL, PPOINTER_SEARCH_PHYSICAL structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	POINTER_SEARCH_PHYSICAL
 product: Windows
 targetos: Windows
-req.typenames: "*PPOINTER_SEARCH_PHYSICAL, POINTER_SEARCH_PHYSICAL"
+req.typenames: POINTER_SEARCH_PHYSICAL, *PPOINTER_SEARCH_PHYSICAL
 req.product: Windows 10 or later.
 ---
 
@@ -182,5 +182,5 @@ The parameters for the IG_POINTER_SEARCH_PHYSICAL <a href="..\wdbgexts\nc-wdbgex
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20POINTER_SEARCH_PHYSICAL structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20POINTER_SEARCH_PHYSICAL structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

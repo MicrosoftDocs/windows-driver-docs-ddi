@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 37d9309d-b105-4e56-b236-530ed49ca116
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlstringcchlength, RtlStringCchLength, RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthA, safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml, RtlStringCchLengthW, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchLengthW
+ms.keywords: safestrings_530fb488-be05-467f-a8c5-22016fb49325.xml, kernel.rtlstringcchlength, RtlStringCchLengthA, ntstrsafe/RtlStringCchLengthW, RtlStringCchLength, ntstrsafe/RtlStringCchLengthA, RtlStringCchLengthW function [Kernel-Mode Driver Architecture], RtlStringCchLengthW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchLengthW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchLengthW function

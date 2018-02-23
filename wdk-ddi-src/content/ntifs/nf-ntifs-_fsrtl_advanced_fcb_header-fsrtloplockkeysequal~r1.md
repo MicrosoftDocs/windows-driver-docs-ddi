@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a4adc761-cf0c-466c-b20f-0af2da9ec447
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, FsRtlOplockKeysEqual routine [Installable File System Drivers], FsRtlOplockKeysEqual, ntifs/FsRtlOplockKeysEqual, ifsk.fsrtloplockkeysequal
+ms.keywords: FsRtlOplockKeysEqual routine [Installable File System Drivers], ntifs/FsRtlOplockKeysEqual, fsrtlref_ee1323ee-1f65-4323-8648-f613d1ac04c5.xml, FsRtlOplockKeysEqual, ifsk.fsrtloplockkeysequal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

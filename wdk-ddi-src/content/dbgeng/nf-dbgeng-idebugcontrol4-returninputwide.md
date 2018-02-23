@@ -4,11 +4,11 @@ title: IDebugControl4::ReturnInputWide method
 author: windows-driver-content
 description: The ReturnInputWide method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
 old-location: debugger\returninputwide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6e7f0995-14d0-4dd3-b598-2f988a2ec4fd
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl4::ReturnInputWide, IDebugControl4 interface [Windows Debugging], ReturnInputWide method, IDebugControl4, dbgeng/IDebugControl4::ReturnInputWide, ReturnInputWide, ReturnInputWide method [Windows Debugging], debugger.returninputwide, ReturnInputWide method [Windows Debugging], IDebugControl4 interface
+ms.date: 2/22/2018
+ms.keywords: IDebugControl4 interface [Windows Debugging], ReturnInputWide method, dbgeng/IDebugControl4::ReturnInputWide, ReturnInputWide method [Windows Debugging], IDebugControl4::ReturnInputWide, ReturnInputWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, ReturnInputWide, debugger.returninputwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6b20db9e-807d-40f5-844f-f9726e3a854f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml, kernel.obdereferenceobjectdeferdelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], ObDereferenceObjectDeferDelete, wdm/ObDereferenceObjectDeferDelete
+ms.keywords: wdm/ObDereferenceObjectDeferDelete, kernel.obdereferenceobjectdeferdelete, ObDereferenceObjectDeferDelete, ObDereferenceObjectDeferDelete routine [Kernel-Mode Driver Architecture], k107_d20a8bd1-feff-4c48-8c6f-ccf8a119281b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

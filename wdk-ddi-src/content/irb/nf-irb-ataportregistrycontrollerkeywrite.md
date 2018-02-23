@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dfe97cce-f349-49a1-9075-c3c3d1a60681
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: irb/AtaPortRegistryControllerKeyWrite, atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, AtaPortRegistryControllerKeyWrite, storage.ataportregistrycontrollerkeywrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices]
+ms.keywords: AtaPortRegistryControllerKeyWrite, irb/AtaPortRegistryControllerKeyWrite, atartns_c17cd629-759c-4469-a7f4-61125a791736.xml, storage.ataportregistrycontrollerkeywrite, AtaPortRegistryControllerKeyWrite routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,7 +169,7 @@ The miniport driver must call <b>AtaPortRegistryControllerKeyWrite</b> during th
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
 
 
 
@@ -177,7 +177,7 @@ The miniport driver must call <b>AtaPortRegistryControllerKeyWrite</b> during th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550141">AtaChannelInitRoutine</a>
+<a href="..\irb\nf-irb-ataportregistryallocatebuffer.md">AtaPortRegistryAllocateBuffer</a>
 
 
 

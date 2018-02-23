@@ -7,8 +7,8 @@ old-location: stream\ks_dataformat_mpeg2ts_avc.htm
 old-project: stream
 ms.assetid: 17768308-d92d-4033-aee8-2d52ce1e51fd
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KS_DATAFORMAT_MPEG2TS_AVC, avcsref_1c04182d-3d89-4db1-9b5f-7fdbc3e62c47.xml, avcstrm/KS_DATAFORMAT_MPEG2TS_AVC, PKS_DATAFORMAT_MPEG2TS_AVC structure pointer [Streaming Media Devices], tagKS_DATAFORMAT_MPEG2TS_AVC, PKS_DATAFORMAT_MPEG2TS_AVC, *PKS_DATAFORMAT_MPEG2TS_AVC, stream.ks_dataformat_mpeg2ts_avc, avcstrm/PKS_DATAFORMAT_MPEG2TS_AVC, KS_DATAFORMAT_MPEG2TS_AVC structure [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: avcstrm/KS_DATAFORMAT_MPEG2TS_AVC, KS_DATAFORMAT_MPEG2TS_AVC, avcstrm/PKS_DATAFORMAT_MPEG2TS_AVC, *PKS_DATAFORMAT_MPEG2TS_AVC, tagKS_DATAFORMAT_MPEG2TS_AVC, avcsref_1c04182d-3d89-4db1-9b5f-7fdbc3e62c47.xml, stream.ks_dataformat_mpeg2ts_avc, PKS_DATAFORMAT_MPEG2TS_AVC, PKS_DATAFORMAT_MPEG2TS_AVC structure pointer [Streaming Media Devices], KS_DATAFORMAT_MPEG2TS_AVC structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,17 +80,17 @@ Specifies the AV/C connection information.
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avcconnectinfo.md">AVCCONNECTINFO</a>
-
-
-
 <a href="..\ks\ns-ks-ksdataformat.md">KSDATAFORMAT</a>
 
 
 
- 
+<a href="..\avc\ns-avc-_avcconnectinfo.md">AVCCONNECTINFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATAFORMAT_MPEG2TS_AVC structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATAFORMAT_MPEG2TS_AVC structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 25a195ab-faf1-488d-a9b2-65ae88b57ebd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PFILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, PFILE_RENAME_INFORMATION, _FILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], *PFILE_RENAME_INFORMATION, ifsk.file_rename_information, ntifs/FILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], FILE_RENAME_INFORMATION
+ms.keywords: "*PFILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION structure pointer [Installable File System Drivers], ntifs/FILE_RENAME_INFORMATION, fileinformationstructures_d9a99263-5aec-400a-ab30-73949a81a4f6.xml, ntifs/PFILE_RENAME_INFORMATION, FILE_RENAME_INFORMATION structure [Installable File System Drivers], ifsk.file_rename_information, FILE_RENAME_INFORMATION, _FILE_RENAME_INFORMATION, PFILE_RENAME_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

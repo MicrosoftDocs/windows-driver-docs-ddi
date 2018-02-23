@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8C3C1A62-A838-436E-B8CC-ACE70FEAE8EA
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.file_completion_information, PFILE_COMPLETION_INFORMATION structure pointer [Installable File System Drivers], FILE_COMPLETION_INFORMATION structure [Installable File System Drivers], _FILE_COMPLETION_INFORMATION, *PFILE_COMPLETION_INFORMATION, ntifs/PFILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION, ntifs/FILE_COMPLETION_INFORMATION
+ms.keywords: ntifs/PFILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION, FILE_COMPLETION_INFORMATION structure [Installable File System Drivers], ifsk.file_completion_information, FILE_COMPLETION_INFORMATION, *PFILE_COMPLETION_INFORMATION, ntifs/FILE_COMPLETION_INFORMATION, PFILE_COMPLETION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPLETION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

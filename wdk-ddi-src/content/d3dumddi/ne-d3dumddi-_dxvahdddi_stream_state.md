@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_stream_state.htm
 old-project: display
 ms.assetid: b84e80a3-5d04-4f8d-b469-c56e27e0ad34
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_HUE, display.dxvahdddi_stream_state, DXVAHDDDI_STREAM_STATE_ALPHA, _DXVAHDDDI_STREAM_STATE, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_CONTRAST, DXVAHDDDI_STREAM_STATE_SOURCE_RECT, DXVAHDDDI_STREAM_STATE_FILTER_ANAMORPHIC_SCALING, DXVAHDDDI_STREAM_STATE, DXVAHDDDI_STREAM_STATE_FILTER_NOISE_REDUCTION, d3dumddi/DXVAHDDDI_STREAM_STATE_LUMA_KEY, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_EDGE_ENHANCEMENT, DXVAHDDDI_STREAM_STATE_FRAME_FORMAT, d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT, d3dumddi/DXVAHDDDI_STREAM_STATE, DXVA2_Structs_7202aa6b-cf67-4d88-aeca-a968e02bcfaf.xml, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT, DXVAHDDDI_STREAM_STATE_FILTER_BRIGHTNESS, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_NOISE_REDUCTION, DXVAHDDDI_STREAM_STATE_FILTER_SATURATION, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_BRIGHTNESS, DXVAHDDDI_STREAM_STATE enumeration [Display Devices], DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE, d3dumddi/DXVAHDDDI_STREAM_STATE_OUTPUT_RATE, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA, DXVAHDDDI_STREAM_STATE_PALETTE, d3dumddi/DXVAHDDDI_STREAM_STATE_SOURCE_RECT, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE, DXVAHDDDI_STREAM_STATE_ROTATION, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION, DXVAHDDDI_STREAM_STATE_FILTER_CONTRAST, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_ANAMORPHIC_SCALING, DXVAHDDDI_STREAM_STATE_FILTER_EDGE_ENHANCEMENT, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_SATURATION, DXVAHDDDI_STREAM_STATE_FILTER_HUE, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE, d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE, DXVAHDDDI_STREAM_STATE_PRIVATE, d3dumddi/DXVAHDDDI_STREAM_STATE_FRAME_FORMAT, d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO, d3dumddi/DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE, DXVAHDDDI_STREAM_STATE_LUMA_KEY
+ms.date: 2/22/2018
+ms.keywords: DXVAHDDDI_STREAM_STATE enumeration [Display Devices], d3dumddi/DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE, DXVAHDDDI_STREAM_STATE_FILTER_ANAMORPHIC_SCALING, _DXVAHDDDI_STREAM_STATE, d3dumddi/DXVAHDDDI_STREAM_STATE_OUTPUT_RATE, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_NOISE_REDUCTION, DXVAHDDDI_STREAM_STATE_FILTER_NOISE_REDUCTION, d3dumddi/DXVAHDDDI_STREAM_STATE_LUMA_KEY, DXVAHDDDI_STREAM_STATE_FILTER_EDGE_ENHANCEMENT, DXVA2_Structs_7202aa6b-cf67-4d88-aeca-a968e02bcfaf.xml, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_ANAMORPHIC_SCALING, d3dumddi/DXVAHDDDI_STREAM_STATE_ROTATION, d3dumddi/DXVAHDDDI_STREAM_STATE_ASPECT_RATIO, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_HUE, DXVAHDDDI_STREAM_STATE_LUMA_KEY, DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE, DXVAHDDDI_STREAM_STATE_FILTER_BRIGHTNESS, DXVAHDDDI_STREAM_STATE_PRIVATE, d3dumddi/DXVAHDDDI_STREAM_STATE_SOURCE_RECT, DXVAHDDDI_STREAM_STATE_PALETTE, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_SATURATION, d3dumddi/DXVAHDDDI_STREAM_STATE_PRIVATE, DXVAHDDDI_STREAM_STATE_SOURCE_RECT, DXVAHDDDI_STREAM_STATE_ASPECT_RATIO, DXVAHDDDI_STREAM_STATE_FILTER_HUE, d3dumddi/DXVAHDDDI_STREAM_STATE_ALPHA, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_BRIGHTNESS, display.dxvahdddi_stream_state, DXVAHDDDI_STREAM_STATE_FRAME_FORMAT, DXVAHDDDI_STREAM_STATE_FILTER_CONTRAST, d3dumddi/DXVAHDDDI_STREAM_STATE_PALETTE, DXVAHDDDI_STREAM_STATE_ROTATION, d3dumddi/DXVAHDDDI_STREAM_STATE_DESTINATION_RECT, DXVAHDDDI_STREAM_STATE_FILTER_SATURATION, DXVAHDDDI_STREAM_STATE_ALPHA, d3dumddi/DXVAHDDDI_STREAM_STATE, DXVAHDDDI_STREAM_STATE_OUTPUT_RATE, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_EDGE_ENHANCEMENT, DXVAHDDDI_STREAM_STATE, d3dumddi/DXVAHDDDI_STREAM_STATE_FRAME_FORMAT, d3dumddi/DXVAHDDDI_STREAM_STATE_FILTER_CONTRAST, DXVAHDDDI_STREAM_STATE_DESTINATION_RECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -187,14 +187,6 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_palette_data.md">DXVAHDDDI_STREAM_STATE_PALETTE_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_destination_rect_data.md">DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA</a>
-
-
-
 <a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
 
 
@@ -203,15 +195,11 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_rotation_data.md">DXVAHDDDI_STREAM_STATE_ROTATION_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_destination_rect_data.md">DXVAHDDDI_STREAM_STATE_DESTINATION_RECT_DATA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_frame_format_data.md">DXVAHDDDI_STREAM_STATE_FRAME_FORMAT_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_source_rect_data.md">DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA</a>
 
 
 
@@ -223,15 +211,11 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_aspect_ratio_data.md">DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA</a>
-
-
-
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_source_rect_data.md">DXVAHDDDI_STREAM_STATE_SOURCE_RECT_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_rotation_data.md">DXVAHDDDI_STREAM_STATE_ROTATION_DATA</a>
 
 
 
@@ -239,7 +223,23 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_output_rate_data.md">DXVAHDDDI_STREAM_STATE_OUTPUT_RATE_DATA</a>
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_palette_data.md">DXVAHDDDI_STREAM_STATE_PALETTE_DATA</a>
+
+
+
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_dxvahd_setvideoprocessstreamstate.md">SetVideoProcessStreamState</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_luma_key_data.md">DXVAHDDDI_STREAM_STATE_LUMA_KEY_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_input_color_space_data.md">DXVAHDDDI_STREAM_STATE_INPUT_COLOR_SPACE_DATA</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_dxvahdddi_stream_state_aspect_ratio_data.md">DXVAHDDDI_STREAM_STATE_ASPECT_RATIO_DATA</a>
 
 
 
@@ -247,5 +247,5 @@ A DXVAHDDDI_STREAM_STATE-typed value is specified in the <b>State</b> member of 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_STREAM_STATE enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

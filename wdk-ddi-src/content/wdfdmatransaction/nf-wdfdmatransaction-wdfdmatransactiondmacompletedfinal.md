@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: de16eaf4-11f0-428b-8833-1d1e6ef78853
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDmaTransactionDmaCompletedFinal method, WdfDmaTransactionDmaCompletedFinal, wdf.wdfdmatransactiondmacompletedfinal, kmdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal, DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml
+ms.keywords: WdfDmaTransactionDmaCompletedFinal, kmdf.wdfdmatransactiondmacompletedfinal, WdfDmaTransactionDmaCompletedFinal method, wdf.wdfdmatransactiondmacompletedfinal, wdfdmatransaction/WdfDmaTransactionDmaCompletedFinal, DFDmaObjectRef_ceac647e-264e-416b-947f-61cc95e6d4ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfDmaTransactionDmaCompletedFinal
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DMA_SYSTEM_PROFILE_CONFIG, WDF_DMA_SYSTEM_PROFILE_CONFIG"
+req.typenames: WDF_DMA_SYSTEM_PROFILE_CONFIG, *PWDF_DMA_SYSTEM_PROFILE_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -142,15 +142,15 @@ success = WdfDmaTransactionDmaCompletedFinal(
 
 ## -see-also
 
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
+
+
+
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompleted.md">WdfDmaTransactionDmaCompleted</a>
 
 
 
 <a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
-
-
-
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
 
 
 

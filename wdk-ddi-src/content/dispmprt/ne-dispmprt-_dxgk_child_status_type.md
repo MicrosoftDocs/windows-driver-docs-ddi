@@ -7,8 +7,8 @@ old-location: display\dxgk_child_status_type.htm
 old-project: display
 ms.assetid: 5fa4b7e2-8215-49d8-9d70-b45c972b39b4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, dispmprt/PDXGK_CHILD_STATUS_TYPE, _DXGK_CHILD_STATUS_TYPE, dispmprt/StatusUninitialized, StatusMiracast, *PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE, dispmprt/StatusRotation, dispmprt/DXGK_CHILD_STATUS_TYPE, display.dxgk_child_status_type, StatusRotation, dispmprt/StatusConnection, dispmprt/StatusMiracast, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], StatusUninitialized, StatusConnection
+ms.date: 2/22/2018
+ms.keywords: "_DXGK_CHILD_STATUS_TYPE, StatusRotation, dispmprt/StatusMiracast, dispmprt/StatusRotation, dispmprt/DXGK_CHILD_STATUS_TYPE, display.dxgk_child_status_type, DXGK_CHILD_STATUS_TYPE enumeration [Display Devices], dispmprt/StatusUninitialized, StatusUninitialized, PDXGK_CHILD_STATUS_TYPE enumeration pointer [Display Devices], *PDXGK_CHILD_STATUS_TYPE, DXGK_CHILD_STATUS_TYPE, dispmprt/StatusConnection, DmEnums_684c935e-6fd5-4743-a196-d6674b8f2e56.xml, StatusConnection, dispmprt/PDXGK_CHILD_STATUS_TYPE, StatusMiracast, PDXGK_CHILD_STATUS_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -110,17 +110,17 @@ The <b>Type</b> member of a <a href="..\dispmprt\ns-dispmprt-_dxgk_child_status.
 
 ## -see-also
 
-<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
-
-
-
 <a href="..\dispmprt\nc-dispmprt-dxgkddi_query_child_status.md">DxgkDdiQueryChildStatus</a>
 
 
 
- 
+<a href="..\dispmprt\nc-dispmprt-dxgkcb_indicate_child_status.md">DxgkCbIndicateChildStatus</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_STATUS_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CHILD_STATUS_TYPE enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

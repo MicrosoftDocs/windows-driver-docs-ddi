@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 30957475-D02B-434D-9FAB-BBCD5732DCA5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: NfcCxRegisterSequenceHandler, NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], nfpdrivers._nfccxregistersequencehandler, nfccx/NfcCxRegisterSequenceHandler
+ms.keywords: NfcCxRegisterSequenceHandler method [Near-Field Proximity Drivers], NfcCxRegisterSequenceHandler, nfpdrivers._nfccxregistersequencehandler, nfccx/NfcCxRegisterSequenceHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	NfcCxRegisterSequenceHandler
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_TRANSPORT_TYPE, NFC_CX_TRANSPORT_TYPE"
+req.typenames: NFC_CX_TRANSPORT_TYPE, *PNFC_CX_TRANSPORT_TYPE
 ---
 
 # NfcCxRegisterSequenceHandler function

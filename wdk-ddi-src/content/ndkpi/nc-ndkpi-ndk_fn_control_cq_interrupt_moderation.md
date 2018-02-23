@@ -191,7 +191,7 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
 
 
 
@@ -199,7 +199,7 @@ Providers that indicate support for interrupt moderation with the NDK_ADAPTER_FL
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq_dispatch.md">NDK_CQ_DISPATCH</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
 
 

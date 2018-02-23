@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e242b62a-7a4f-491b-b1a7-3388cf9c5a40
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfiotargetstatemanagement_start, IWDFIoTargetStateManagement interface, Start method, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, Start, Start method, wdf.iwdfiotargetstatemanagement_start, wudfddi/IWDFIoTargetStateManagement::Start, Start method, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement::Start, IWDFIoTargetStateManagement
+ms.keywords: Start method, IWDFIoTargetStateManagement interface, Start, IWDFIoTargetStateManagement interface, Start method, wdf.iwdfiotargetstatemanagement_start, UMDFIoTargetObjectRef_931a0267-704f-44f7-8f52-0344afb86f81.xml, Start method, IWDFIoTargetStateManagement::Start, wudfddi/IWDFIoTargetStateManagement::Start, umdf.iwdfiotargetstatemanagement_start, IWDFIoTargetStateManagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

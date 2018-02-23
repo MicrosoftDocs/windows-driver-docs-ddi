@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 44b57aa2-37ef-4491-8a88-9e7f880f5c1b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortWritePortBufferUchar, storage.storportwriteportbufferuchar, StorPortWritePortBufferUchar routine [Storage Devices], StorPortWritePortBufferUchar, storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml
+ms.keywords: storport/StorPortWritePortBufferUchar, storage.storportwriteportbufferuchar, StorPortWritePortBufferUchar routine [Storage Devices], storprt_5bdd38fc-5cb0-483e-a0aa-19179c7ad833.xml, StorPortWritePortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer containing the data to be written. 
-
-
-#### - Count [in]
-
-Contains the number of data items of size <b>sizeof</b>(UCHAR) to be written. 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,11 +106,21 @@ Pointer to the hardware device extension.
 Contains the address of the port to be written to. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer containing the data to be written. 
+
+
+#### - Count [in]
+
+Contains the number of data items of size <b>sizeof</b>(UCHAR) to be written. 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
+For more information, see <a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>. For a nonbuffered equivalent of this routine, see <a href="..\storport\nf-storport-storportwriteportuchar.md">StorPortWritePortUchar</a>. 
 
 
 
@@ -131,7 +131,7 @@ For more information, see <a href="..\storport\nf-storport-scsiportwriteportbuff
 
 
 
-<a href="..\storport\nf-storport-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
+<a href="..\srb\nf-srb-scsiportwriteportbufferuchar.md">ScsiPortWritePortBufferUchar</a>
 
 
 

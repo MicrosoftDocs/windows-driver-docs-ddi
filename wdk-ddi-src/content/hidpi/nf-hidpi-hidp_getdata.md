@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hid.hidp_getdata, hidpi/HidP_GetData, HidP_GetData routine [Human Input Devices], HidP_GetData
+ms.keywords: hid.hidp_getdata, hidpi/HidP_GetData, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, HidP_GetData, HidP_GetData routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -201,15 +201,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
 
 <a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
 
 
 

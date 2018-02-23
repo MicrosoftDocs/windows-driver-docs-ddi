@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bffa1bd2-143c-4d32-a886-0a2e82320dc8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.transactionmanager_basic_information, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION, ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml, wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION
+ms.keywords: PTRANSACTIONMANAGER_BASIC_INFORMATION, ktm_ref_0b404d6e-efa9-4f37-a14f-4e8fcdc2c6e5.xml, TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PTRANSACTIONMANAGER_BASIC_INFORMATION, kernel.transactionmanager_basic_information, wdm/TRANSACTIONMANAGER_BASIC_INFORMATION, PTRANSACTIONMANAGER_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], _TRANSACTIONMANAGER_BASIC_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSACTIONMANAGER_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PTRANSACTIONMANAGER_BASIC_INFORMATION, TRANSACTIONMANAGER_BASIC_INFORMATION"
+req.typenames: TRANSACTIONMANAGER_BASIC_INFORMATION, *PTRANSACTIONMANAGER_BASIC_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -90,11 +90,11 @@ The <b>TRANSACTIONMANAGER_BASIC_INFORMATION</b> structure is used with the <a hr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
-
-
-
 <a href="..\wdm\ne-wdm-_transactionmanager_information_class.md">TRANSACTIONMANAGER_INFORMATION_CLASS</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransactionmanager.md">ZwQueryInformationTransactionManager</a>
 
 
 

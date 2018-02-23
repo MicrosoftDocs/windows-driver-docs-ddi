@@ -7,8 +7,8 @@ old-location: sensors\gnss_agnss_injecttime.htm
 old-project: sensors
 ms.assetid: 05BCC40C-E542-4BE8-9FD7-F0D25C3B8C7C
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GNSS_AGNSS_INJECTTIME, gnssdriver/PGNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME structure [Sensor Devices], PGNSS_AGNSS_INJECTTIME, PGNSS_AGNSS_INJECTTIME structure pointer [Sensor Devices], gnssdriver/GNSS_AGNSS_INJECTTIME, sensors.gnss_agnss_injecttime, *PGNSS_AGNSS_INJECTTIME
+ms.date: 2/22/2018
+ms.keywords: PGNSS_AGNSS_INJECTTIME structure pointer [Sensor Devices], *PGNSS_AGNSS_INJECTTIME, gnssdriver/PGNSS_AGNSS_INJECTTIME, gnssdriver/GNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME structure [Sensor Devices], GNSS_AGNSS_INJECTTIME, sensors.gnss_agnss_injecttime, PGNSS_AGNSS_INJECTTIME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_AGNSS_INJECTTIME
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_AGNSS_INJECTTIME, GNSS_AGNSS_INJECTTIME"
+req.typenames: GNSS_AGNSS_INJECTTIME, *PGNSS_AGNSS_INJECTTIME
 ---
 
 # GNSS_AGNSS_INJECTTIME structure

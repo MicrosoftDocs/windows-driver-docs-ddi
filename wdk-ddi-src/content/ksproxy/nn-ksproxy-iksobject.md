@@ -7,7 +7,7 @@ old-location: stream\iksobject.htm
 old-project: stream
 ms.assetid: c4422564-3fc0-4087-b628-056488c723e6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.iksobject, IKsObject interface [Streaming Media Devices], IKsObject interface [Streaming Media Devices], described, IKsObject, ksproxy_6432effa-13f1-4b39-a158-c315a93108d4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,6 +53,13 @@ req.typenames: PIPE_STATE
 The <b>IKsObject</b> interface provides a method to retrieve the file handle of a KS object. 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsObject</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsObject</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IKsObject</b> interface has these methods.
@@ -70,9 +77,7 @@ Retrieves the file handle of a KS object.
 
 </td>
 </tr>
-</table>Retrieves the file handle of a KS object.
-
- 
+</table> 
 
 
 ## -remarks

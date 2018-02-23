@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b4ab0a7b-9c5a-4295-94fc-35310ca8e05b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDeviceObjectGeneralRef_8cdcec0f-02df-4e8d-83e2-ae1fdc11343d.xml, kmdf.wdfdeviceassignmofresourcename, WdfDeviceAssignMofResourceName method, wdf.wdfdeviceassignmofresourcename, wdfdevice/WdfDeviceAssignMofResourceName, WdfDeviceAssignMofResourceName
+ms.keywords: wdfdevice/WdfDeviceAssignMofResourceName, wdf.wdfdeviceassignmofresourcename, WdfDeviceAssignMofResourceName, kmdf.wdfdeviceassignmofresourcename, DFDeviceObjectGeneralRef_8cdcec0f-02df-4e8d-83e2-ae1fdc11343d.xml, WdfDeviceAssignMofResourceName method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

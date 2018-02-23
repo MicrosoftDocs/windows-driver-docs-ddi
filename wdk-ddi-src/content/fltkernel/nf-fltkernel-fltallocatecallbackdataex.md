@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f03851a4-e1e9-4fee-b264-c2f91c6e8180
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltAllocateCallbackDataEx routine [Installable File System Drivers], fltkernel/FltAllocateCallbackDataEx, FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml, ifsk.fltallocatecallbackdataex, FltAllocateCallbackDataEx
+ms.keywords: FltAllocateCallbackDataEx, FltAllocateCallbackDataEx routine [Installable File System Drivers], fltkernel/FltAllocateCallbackDataEx, ifsk.fltallocatecallbackdataex, FltApiRef_a_to_d_9ef78123-712f-465a-8c8a-efc3d64b7001.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,11 +121,11 @@ Set <i>FileObject</i> to <b>NULL</b> if this is a CREATE operation.
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-
-
 <a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
 
 
 

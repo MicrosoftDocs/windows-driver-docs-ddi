@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d5c6d7d2-fe14-49d5-9e81-3a425a4cf1b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCchCopyW, kernel.rtlstringcchcopy, RtlStringCchCopyA, ntstrsafe/RtlStringCchCopyW, safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml, RtlStringCchCopy, RtlStringCchCopyW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCopyA
+ms.keywords: RtlStringCchCopyW, RtlStringCchCopyA, ntstrsafe/RtlStringCchCopyA, RtlStringCchCopy, safestrings_75c329c3-0463-4c8f-a363-ac26ec15c923.xml, kernel.rtlstringcchcopy, RtlStringCchCopyW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCchCopyW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCchCopyW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCchCopyW function

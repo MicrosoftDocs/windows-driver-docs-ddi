@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8b365e7a-6d52-417f-8c0b-78feac24602f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics structure [Storage Devices], _MSFC_FibrePortHBAStatistics, hbapiwmi/MSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], *PMSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, hbapiwmi/PMSFC_FibrePortHBAStatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml
+ms.keywords: MSFC_FibrePortHBAStatistics, PMSFC_FibrePortHBAStatistics, storage.msfc_fibreporthbastatistics, hbapiwmi/PMSFC_FibrePortHBAStatistics, _MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics, structs-Fibre_d68738f2-ea37-420f-8356-51aa06362829.xml, MSFC_FibrePortHBAStatistics structure [Storage Devices], PMSFC_FibrePortHBAStatistics structure pointer [Storage Devices], hbapiwmi/MSFC_FibrePortHBAStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FibrePortHBAStatistics
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_FibrePortHBAStatistics, MSFC_FibrePortHBAStatistics"
+req.typenames: MSFC_FibrePortHBAStatistics, *PMSFC_FibrePortHBAStatistics
 ---
 
 # _MSFC_FibrePortHBAStatistics structure

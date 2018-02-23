@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4feb3bde-c243-493c-a6f9-4accd545955c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortFreeDeviceBase, storage.storportfreedevicebase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml, storport/StorPortFreeDeviceBase, StorPortFreeDeviceBase function [Storage Devices]
+ms.keywords: storage.storportfreedevicebase, StorPortFreeDeviceBase function [Storage Devices], StorPortFreeDeviceBase, storport/StorPortFreeDeviceBase, storprt_f8c3e4c6-8f38-4189-bdac-70c0c61e0f18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,11 +91,11 @@ None
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportfreedevicebase.md">ScsiPortFreeDeviceBase</a>
+
+
+
+<a href="..\storport\nf-storport-storportgetdevicebase.md">StorPortGetDeviceBase</a>
 
 
 

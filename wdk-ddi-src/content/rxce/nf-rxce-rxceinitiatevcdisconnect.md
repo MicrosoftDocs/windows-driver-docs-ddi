@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml, ifsk.rxceinitiatevcdisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], rxce/RxCeInitiateVCDisconnect
+ms.keywords: rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml, rxce/RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], ifsk.rxceinitiatevcdisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

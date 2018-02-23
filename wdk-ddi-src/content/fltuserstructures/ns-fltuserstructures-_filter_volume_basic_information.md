@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f6b5ccc2-81d6-47be-94dd-cf92842de51c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltSystemStructures_7bc0a3dc-37e1-4783-aecd-f4ef96e38a32.xml, PFILTER_VOLUME_BASIC_INFORMATION, _FILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION structure pointer [Installable File System Drivers], fltuserstructures/PFILTER_VOLUME_BASIC_INFORMATION, ifsk.filter_volume_basic_information, FILTER_VOLUME_BASIC_INFORMATION structure [Installable File System Drivers], fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION, *PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION
+ms.keywords: FILTER_VOLUME_BASIC_INFORMATION structure [Installable File System Drivers], fltuserstructures/PFILTER_VOLUME_BASIC_INFORMATION, ifsk.filter_volume_basic_information, FILTER_VOLUME_BASIC_INFORMATION, fltuserstructures/FILTER_VOLUME_BASIC_INFORMATION, *PFILTER_VOLUME_BASIC_INFORMATION, FltSystemStructures_7bc0a3dc-37e1-4783-aecd-f4ef96e38a32.xml, _FILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION, PFILTER_VOLUME_BASIC_INFORMATION structure pointer [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILTER_VOLUME_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILTER_VOLUME_BASIC_INFORMATION, FILTER_VOLUME_BASIC_INFORMATION"
+req.typenames: FILTER_VOLUME_BASIC_INFORMATION, *PFILTER_VOLUME_BASIC_INFORMATION
 ---
 
 # _FILTER_VOLUME_BASIC_INFORMATION structure
@@ -93,15 +93,15 @@ A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpa
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltenumeratevolumeinformation.md">FltEnumerateVolumeInformation</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541525">FilterVolumeFindFirst</a>
+
+
+
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
 
 
 
@@ -109,7 +109,7 @@ A FILTER_VOLUME_BASIC_INFORMATION structure can be allocated from paged or nonpa
 
 
 
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_volume_standard_information.md">FILTER_VOLUME_STANDARD_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541530">FilterVolumeFindNext</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a83220e8-496c-4b83-b774-88ab1f017e8d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.npi_provider_characteristics, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml, NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], PNPI_PROVIDER_CHARACTERISTICS, _NPI_PROVIDER_CHARACTERISTICS, NPI_PROVIDER_CHARACTERISTICS, netioddk/NPI_PROVIDER_CHARACTERISTICS, netioddk/PNPI_PROVIDER_CHARACTERISTICS
+ms.keywords: netioddk/NPI_PROVIDER_CHARACTERISTICS, netioddk/PNPI_PROVIDER_CHARACTERISTICS, NPI_PROVIDER_CHARACTERISTICS, nmrref_ceebed62-8102-41e3-af13-e663c1e8babb.xml, NPI_PROVIDER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], _NPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS, PNPI_PROVIDER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.npi_provider_characteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,21 +139,20 @@ A provider module must make sure that this structure remains valid and resident 
 
 
 
-<a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
-   ProviderCleanupBindingContext</a>
-
-
-
 <a href="..\netioddk\nf-netioddk-nmrregisterprovider.md">NmrRegisterProvider</a>
 
 
 
-<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
+<a href="..\netioddk\nc-netioddk-npi_provider_attach_client_fn.md">ProviderAttachClient</a>
 
 
 
 <a href="..\netioddk\nc-netioddk-npi_provider_cleanup_binding_context_fn.md">
    ProviderCleanupBindingContext</a>
+
+
+
+<a href="..\netioddk\ns-netioddk-_npi_registration_instance.md">NPI_REGISTRATION_INSTANCE</a>
 
 
 

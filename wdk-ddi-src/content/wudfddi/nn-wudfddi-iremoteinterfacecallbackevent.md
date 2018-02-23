@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IRemoteInterfaceCallbackEvent</b> interface provides a callback function that the framework calls to notify the driver about device events that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRemoteInterfaceCallbackEvent</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRemoteInterfaceCallbackEvent</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IRemoteInterfaceCallbackEvent</b> interface has these methods.
@@ -72,9 +79,7 @@ A UMDF-based driver's <a href="https://msdn.microsoft.com/6cee6662-2eef-4caf-ab7
 
 </td>
 </tr>
-</table>A UMDF-based driver's <a href="https://msdn.microsoft.com/6cee6662-2eef-4caf-ab70-780748521ba9">OnRemoteInterfaceEvent</a> event callback function handles device events that are associated with a <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/using-device-interfaces-in-umdf-drivers">device interface</a>.
-
- 
+</table> 
 
 
 ## -remarks

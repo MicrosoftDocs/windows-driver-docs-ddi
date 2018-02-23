@@ -4,11 +4,11 @@ title: IDebugAdvanced2::GetThreadContext method
 author: windows-driver-content
 description: The GetThreadContext method returns the current thread context.
 old-location: debugger\getthreadcontext.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6fe12f3b-b241-42e4-b35d-c8a485a5cfa8
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method, dbgeng/IDebugAdvanced::GetThreadContext, dbgeng/IDebugAdvanced2::GetThreadContext, IDebugAdvanced2, GetThreadContext method [Windows Debugging], IDebugAdvanced interface, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, IDebugAdvanced2::GetThreadContext, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, dbgeng/IDebugAdvanced3::GetThreadContext, IDebugAdvanced::GetThreadContext, GetThreadContext method [Windows Debugging], GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, IDebugAdvanced, IDebugAdvanced3::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, debugger.getthreadcontext, GetThreadContext
+ms.date: 2/22/2018
+ms.keywords: IDebugAdvanced, dbgeng/IDebugAdvanced3::GetThreadContext, IDebugAdvanced interface [Windows Debugging], GetThreadContext method, debugger.getthreadcontext, IDebugAdvanced2, IDebugAdvanced::GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced3 interface, GetThreadContext method [Windows Debugging], IDebugAdvanced interface, dbgeng/IDebugAdvanced::GetThreadContext, dbgeng/IDebugAdvanced2::GetThreadContext, GetThreadContext, GetThreadContext method [Windows Debugging], IDebugAdvanced2 interface, GetThreadContext method [Windows Debugging], IDebugAdvanced2::GetThreadContext, IDebugAdvanced_1a044a89-612f-4a3c-b3cd-0a715ae6af92.xml, IDebugAdvanced2 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced3 interface [Windows Debugging], GetThreadContext method, IDebugAdvanced3::GetThreadContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,14 +121,6 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced3.md">IDebugAdvanced3</a>
 
 
@@ -137,13 +129,21 @@ For more information about the thread context, see <a href="https://msdn.microso
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugadvanced2.md">IDebugAdvanced2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugadvanced.md">IDebugAdvanced</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugAdvanced::GetThreadContext method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugAdvanced::GetThreadContext method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

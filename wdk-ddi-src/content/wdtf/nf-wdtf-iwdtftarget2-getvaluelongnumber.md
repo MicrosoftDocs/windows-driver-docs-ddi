@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 9336d850-1d42-47e5-9a69-f15e1147a71f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetValueLongNumber, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumber, dtf.iwdtftarget2_getvaluelongnumber, wdtf/IWDTFTarget2::GetValueLongNumber, Microsoft.WDTF.IWDTFTarget2.GetValueLongNumber, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueLongNumber method, IWDTFTarget2::GetValueLongNumber, GetValueLongNumber method [Windows Device Testing Framework], IWDTFTarget2 interface, IWDTFTarget2, GetValueLongNumber method [Windows Device Testing Framework]
+ms.keywords: Microsoft.WDTF.IWDTFTarget2.GetValueLongNumber, GetValueLongNumber, IWDTFTarget2, IWDTFTarget2 interface [Windows Device Testing Framework], GetValueLongNumber method, Microsoft::WDTF::IWDTFTarget2::GetValueLongNumber, IWDTFTarget2::GetValueLongNumber, GetValueLongNumber method [Windows Device Testing Framework], IWDTFTarget2 interface, wdtf/IWDTFTarget2::GetValueLongNumber, GetValueLongNumber method [Windows Device Testing Framework], dtf.iwdtftarget2_getvaluelongnumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

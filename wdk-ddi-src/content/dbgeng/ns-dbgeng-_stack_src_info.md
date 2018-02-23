@@ -4,11 +4,11 @@ title: "_STACK_SRC_INFO"
 author: windows-driver-content
 description: Defines stack source information.
 old-location: debugger\stack_src_info.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: F19D5A5C-D9CF-40CC-B344-8F2D862FBF04
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.stack_src_info, STACK_SRC_INFO, *PSTACK_SRC_INFO, _STACK_SRC_INFO, PSTACK_SRC_INFO, dbgeng/STACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], dbgeng/PSTACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging]
+ms.date: 2/22/2018
+ms.keywords: debugger.stack_src_info, PSTACK_SRC_INFO, PSTACK_SRC_INFO structure pointer [Windows Debugging], *PSTACK_SRC_INFO, STACK_SRC_INFO structure [Windows Debugging], dbgeng/PSTACK_SRC_INFO, STACK_SRC_INFO, dbgeng/STACK_SRC_INFO, _STACK_SRC_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STACK_SRC_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSTACK_SRC_INFO, STACK_SRC_INFO"
+req.typenames: STACK_SRC_INFO, *PSTACK_SRC_INFO
 ---
 
 # _STACK_SRC_INFO structure

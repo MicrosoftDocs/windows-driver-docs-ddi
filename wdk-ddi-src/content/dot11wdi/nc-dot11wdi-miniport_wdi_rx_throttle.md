@@ -40,7 +40,7 @@ apiname:
 -	MiniportWdiRxThrottle
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_RX_THROTTLE callback
@@ -96,15 +96,15 @@ This callback function does not return a value.
 
 ## -see-also
 
+<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_throttle_level.md">WDI_RX_THROTTLE_LEVEL</a>
+
+
+
 <a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
 
 
 
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_throttle_level.md">WDI_RX_THROTTLE_LEVEL</a>
-
-
-
-<a href="..\dot11wdi\ne-dot11wdi-_wdi_rx_throttle_level.md">WDI_RX_THROTTLE_LEVEL</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt297625">TAL_TXRX_HANDLE</a>
 
 
 

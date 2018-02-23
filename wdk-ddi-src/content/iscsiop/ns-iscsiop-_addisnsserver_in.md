@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5d05eeeb-ab68-4770-88c1-483c56dbc116
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AddiSNSServer_IN structure [Storage Devices], iscsiop/AddiSNSServer_IN, storage.addisnsserver_in, PAddiSNSServer_IN, *PAddiSNSServer_IN, AddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, _AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN
+ms.keywords: structs-iSCSI_2c317c93-3fea-4749-98ef-fba28c0cc93f.xml, PAddiSNSServer_IN, AddiSNSServer_IN structure [Storage Devices], AddiSNSServer_IN, PAddiSNSServer_IN structure pointer [Storage Devices], iscsiop/AddiSNSServer_IN, iscsiop/PAddiSNSServer_IN, *PAddiSNSServer_IN, _AddiSNSServer_IN, storage.addisnsserver_in
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddiSNSServer_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PAddiSNSServer_IN, AddiSNSServer_IN"
+req.typenames: AddiSNSServer_IN, *PAddiSNSServer_IN
 ---
 
 # _AddiSNSServer_IN structure
@@ -83,11 +83,11 @@ It is optional that you implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
+
+
+
+<a href="..\iscsiop\ns-iscsiop-_addisnsserver_out.md">AddiSNSServer_OUT</a>
 
 
 

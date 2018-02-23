@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: fab3455a-c09f-4a08-a76d-4d80468accd2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILUICCPRLID, ntddrilapitypes/RILUICCPRLID, netvista.riluiccprlid, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista]
+ms.keywords: RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], netvista.riluiccprlid, ntddrilapitypes/RILUICCPRLID, RILUICCPRLID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

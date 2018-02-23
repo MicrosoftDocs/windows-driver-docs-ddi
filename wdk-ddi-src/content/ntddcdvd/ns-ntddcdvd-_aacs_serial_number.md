@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1436c8a5-9160-41d8-acc1-0af6acadfdba
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdvd/PAACS_SERIAL_NUMBER, _AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER structure pointer [Storage Devices], structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml, storage.aacs_serial_number, AACS_SERIAL_NUMBER structure [Storage Devices], *PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER, ntddcdvd/AACS_SERIAL_NUMBER
+ms.keywords: ntddcdvd/PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER structure pointer [Storage Devices], _AACS_SERIAL_NUMBER, ntddcdvd/AACS_SERIAL_NUMBER, PAACS_SERIAL_NUMBER, *PAACS_SERIAL_NUMBER, structs-DVD_baba43db-de96-4f55-9d26-46cc56dce390.xml, storage.aacs_serial_number, AACS_SERIAL_NUMBER structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AACS_SERIAL_NUMBER
 product: Windows
 targetos: Windows
-req.typenames: "*PAACS_SERIAL_NUMBER, AACS_SERIAL_NUMBER"
+req.typenames: AACS_SERIAL_NUMBER, *PAACS_SERIAL_NUMBER
 ---
 
 # _AACS_SERIAL_NUMBER structure

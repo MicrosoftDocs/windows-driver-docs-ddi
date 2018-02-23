@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: EE5A6D39-EC76-4D97-B2EC-4A43225C2FB5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortRequestTimer, storport/StorPortRequestTimer, storage.storportrequesttimer, StorPortRequestTimer routine [Storage Devices]
+ms.keywords: storage.storportrequesttimer, StorPortRequestTimer, StorPortRequestTimer routine [Storage Devices], storport/StorPortRequestTimer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -192,10 +192,6 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
-
-
-
 <a href="..\storport\nc-storport-hw_timer.md">HwStorTimer</a>
 
 
@@ -205,6 +201,10 @@ The <b>StorPortRequestTimer</b> routine is callable at any IRQL. However, if the
 
 
 <a href="..\storport\nf-storport-storportinitializetimer.md">StorPortInitializeTimer</a>
+
+
+
+<a href="..\storport\nf-storport-storportfreetimer.md">StorPortFreeTimer</a>
 
 
 

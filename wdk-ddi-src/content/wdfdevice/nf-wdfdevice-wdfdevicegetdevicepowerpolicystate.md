@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3a4aab60-6568-4017-acad-ca643cb4d661
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdevicegetdevicepowerpolicystate, WdfDeviceGetDevicePowerPolicyState, wdfdevice/WdfDeviceGetDevicePowerPolicyState, DFDeviceObjectGeneralRef_34dd5376-7889-4900-bcd9-65ad9ff732e2.xml, wdf.wdfdevicegetdevicepowerpolicystate, WdfDeviceGetDevicePowerPolicyState method
+ms.keywords: wdfdevice/WdfDeviceGetDevicePowerPolicyState, kmdf.wdfdevicegetdevicepowerpolicystate, WdfDeviceGetDevicePowerPolicyState, WdfDeviceGetDevicePowerPolicyState method, wdf.wdfdevicegetdevicepowerpolicystate, DFDeviceObjectGeneralRef_34dd5376-7889-4900-bcd9-65ad9ff732e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ devicePowerPolicyState = WdfDeviceGetDevicePowerPolicyState(Device);</pre>
 
 ## -see-also
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepnpstate.md">WdfDeviceGetDevicePnpState</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevstatenormalize.md">WdfDevStateNormalize</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicegetdevicepnpstate.md">WdfDeviceGetDevicePnpState</a>
 
 
 

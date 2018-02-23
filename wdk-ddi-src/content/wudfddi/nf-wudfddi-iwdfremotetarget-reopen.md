@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 904904e7-ca59-4dcb-92db-8c7f6a9cbff7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Reopen method, IWDFRemoteTarget interface, IWDFRemoteTarget::Reopen, Reopen method, Reopen, UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, wdf.iwdfremotetarget_reopen, IWDFRemoteTarget interface, Reopen method, umdf.iwdfremotetarget_reopen, wudfddi/IWDFRemoteTarget::Reopen, IWDFRemoteTarget
+ms.keywords: UMDFIoTargetObjectRef_13b81124-2d7f-4fed-b4f9-1a5cb647a811.xml, IWDFRemoteTarget, Reopen, IWDFRemoteTarget::Reopen, wudfddi/IWDFRemoteTarget::Reopen, Reopen method, IWDFRemoteTarget interface, umdf.iwdfremotetarget_reopen, IWDFRemoteTarget interface, Reopen method, Reopen method, wdf.iwdfremotetarget_reopen
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

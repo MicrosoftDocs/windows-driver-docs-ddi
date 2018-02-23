@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 67D61FBA-15E9-4157-9286-72D51DE18275
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlintptrtouchar, ntintsafe/RtlIntPtrToUChar, RtlIntPtrToUChar, RtlIntPtrToUChar function [Kernel-Mode Driver Architecture]
+ms.keywords: RtlIntPtrToUChar function [Kernel-Mode Driver Architecture], ntintsafe/RtlIntPtrToUChar, kernel.rtlintptrtouchar, RtlIntPtrToUChar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

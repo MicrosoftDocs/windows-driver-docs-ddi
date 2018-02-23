@@ -7,8 +7,8 @@ old-location: display\dxgk_multiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: E3F590EA-2B3B-464B-9D72-708B24CA3052
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, _DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps, DXGK_MULTIPLANEOVERLAYCAPS
+ms.date: 2/22/2018
+ms.keywords: DXGK_MULTIPLANEOVERLAYCAPS structure [Display Devices], d3dkmddi/DXGK_MULTIPLANEOVERLAYCAPS, display.dxgk_multiplaneoverlaycaps, _DXGK_MULTIPLANEOVERLAYCAPS, DXGK_MULTIPLANEOVERLAYCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

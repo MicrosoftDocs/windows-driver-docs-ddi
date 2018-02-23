@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8b0d3fd8-0952-4cfa-81e1-255145fd27dd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PKDPC_WATCHDOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PKDPC_WATCHDOG_INFORMATION, wdm/KDPC_WATCHDOG_INFORMATION, _KDPC_WATCHDOG_INFORMATION, wdm/PKDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION, kstruct_a_22042f11-ce6d-481a-949a-d6370ab442ad.xml, kernel.dpc_watchdog_information, PKDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.dpc_watchdog_information, wdm/KDPC_WATCHDOG_INFORMATION, wdm/PKDPC_WATCHDOG_INFORMATION, PKDPC_WATCHDOG_INFORMATION, kstruct_a_22042f11-ce6d-481a-949a-d6370ab442ad.xml, _KDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION structure [Kernel-Mode Driver Architecture], PKDPC_WATCHDOG_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PKDPC_WATCHDOG_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KDPC_WATCHDOG_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKDPC_WATCHDOG_INFORMATION, KDPC_WATCHDOG_INFORMATION"
+req.typenames: KDPC_WATCHDOG_INFORMATION, *PKDPC_WATCHDOG_INFORMATION
 req.product: Windows 10 or later.
 ---
 

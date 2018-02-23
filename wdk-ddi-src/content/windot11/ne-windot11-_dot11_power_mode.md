@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4f18f937-e749-414d-aa21-96c6ab02982b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/PDOT11_POWER_MODE, windot11/DOT11_POWER_MODE, _DOT11_POWER_MODE, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, windot11/dot11_power_mode_unknown, netvista.dot11_power_mode, dot11_power_mode_powersave, windot11/dot11_power_mode_powersave, windot11/dot11_power_mode_active, *PDOT11_POWER_MODE, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], PDOT11_POWER_MODE, dot11_power_mode_unknown, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], dot11_power_mode_active, DOT11_POWER_MODE
+ms.keywords: netvista.dot11_power_mode, PDOT11_POWER_MODE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_power_mode_powersave, dot11_power_mode_active, DOT11_POWER_MODE enumeration [Network Drivers Starting with Windows Vista], DOT11_POWER_MODE, _DOT11_POWER_MODE, windot11/dot11_power_mode_unknown, windot11/DOT11_POWER_MODE, dot11_power_mode_unknown, dot11_power_mode_powersave, windot11/dot11_power_mode_active, Native_802.11_data_types_0c9f7464-7651-46e6-910b-2794649d13d0.xml, windot11/PDOT11_POWER_MODE, PDOT11_POWER_MODE, *PDOT11_POWER_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_POWER_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_POWER_MODE, DOT11_POWER_MODE"
+req.typenames: DOT11_POWER_MODE, *PDOT11_POWER_MODE
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: print\cpsuidatablock.htm
 old-project: print
 ms.assetid: c5b488ac-dd8d-4484-81ca-b64fdf517100
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: CPSUIDATABLOCK, _CPSUIDATABLOCK, *PCPSUIDATABLOCK, PCPSUIDATABLOCK structure pointer [Print Devices], CPSUIDATABLOCK structure [Print Devices], compstui/PCPSUIDATABLOCK, PCPSUIDATABLOCK, print.cpsuidatablock, compstui/CPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml
+ms.date: 2/22/2018
+ms.keywords: CPSUIDATABLOCK structure [Print Devices], print.cpsuidatablock, PCPSUIDATABLOCK structure pointer [Print Devices], CPSUIDATABLOCK, _CPSUIDATABLOCK, cpsuifnc_c9e406f5-1d6a-403d-a286-89cf199a09d2.xml, PCPSUIDATABLOCK, *PCPSUIDATABLOCK, compstui/PCPSUIDATABLOCK, compstui/CPSUIDATABLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -49,7 +49,7 @@ req.typenames: CPSUIDATABLOCK, *PCPSUIDATABLOCK
 ## -description
 
 
-The CPSUIDATABLOCK structure is used as a parameter for the <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff547036">CPSFUNC_SET_DATABLOCK</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546425">CPSFUNC_QUERY_DATABLOCK</a>.
+The CPSUIDATABLOCK structure is used as a parameter for the <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function, if the function code is <a href="https://msdn.microsoft.com/library/windows/hardware/ff547036">CPSFUNC_SET_DATABLOCK</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff546425">CPSFUNC_QUERY_DATABLOCK</a>.
 
 
 ## -syntax

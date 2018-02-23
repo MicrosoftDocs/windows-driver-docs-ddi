@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-d3d12-options-data-0033.htm
 old-project: display
 ms.assetid: d2b90ec1-cc4c-4a2b-8f7e-d46cd39d553b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0033, D3D12DDI_D3D12_OPTIONS_DATA_0033 structure [Display Devices], D3D12DDI_D3D12_OPTIONS_DATA_0033, display.d3d12ddi-d3d12-options-data-0033
+ms.date: 2/22/2018
+ms.keywords: D3D12DDI_D3D12_OPTIONS_DATA_0033, display.d3d12ddi-d3d12-options-data-0033, D3D12DDI_D3D12_OPTIONS_DATA_0033 structure [Display Devices], d3d12umddi/D3D12DDI_D3D12_OPTIONS_DATA_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

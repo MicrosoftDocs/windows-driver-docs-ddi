@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ae6b9133-bb98-4858-bef5-1cbe0ae0dd4f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisClCloseAddressFamily function [Network Drivers Starting with Windows Vista], ndis/NdisClCloseAddressFamily, NdisClCloseAddressFamily, condis_client_ref_6aa6db12-2ebe-444a-a239-46542dd1be4a.xml, netvista.ndisclcloseaddressfamily
+ms.keywords: ndis/NdisClCloseAddressFamily, condis_client_ref_6aa6db12-2ebe-444a-a239-46542dd1be4a.xml, NdisClCloseAddressFamily, NdisClCloseAddressFamily function [Network Drivers Starting with Windows Vista], netvista.ndisclcloseaddressfamily
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisClCloseAddressFamily
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisClCloseAddressFamily function
@@ -168,10 +168,6 @@ Before a call to
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
 
 
@@ -188,11 +184,15 @@ Before a call to
 
 
 
-<a href="..\ndis\nf-ndis-ndisclopenaddressfamilyex.md">NdisClOpenAddressFamilyEx</a>
+<a href="..\ndis\nf-ndis-ndisclderegistersap.md">NdisClDeregisterSap</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cm_close_af.md">ProtocolCmCloseAf</a>
 
 
 

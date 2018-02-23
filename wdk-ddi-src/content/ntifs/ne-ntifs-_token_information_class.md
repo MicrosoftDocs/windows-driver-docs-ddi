@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dd2323fa-2c58-462e-905f-3b201ef0c343
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TokenVirtualizationAllowed, TokenUIAccess, TOKEN_INFORMATION_CLASS, ntifs/TokenOrigin, ntifs/TokenRestrictedSids, TokenAppContainerNumber, ntifs/TokenProcessTrustLevel, TokenImpersonationLevel, TokenIntegrityLevel, MaxTokenInfoClass, TokenUserClaimAttributes, ntifs/TokenLogonSid, TokenDeviceGroups, TokenSource, ntifs/TokenAuditPolicy, TokenUser, TokenSessionId, *PTOKEN_INFORMATION_CLASS, ntifs/TokenSource, ntifs/TOKEN_INFORMATION_CLASS, TokenOwner, ntifs/TokenSessionReference, _TOKEN_INFORMATION_CLASS, ntifs/TokenSandBoxInert, ntifs/TokenType, ntifs/TokenUser, TokenAccessInformation, TokenRestrictedDeviceGroups, TokenType, ntifs/TokenLinkedToken, TokenCapabilities, ntifs/TokenRestrictedDeviceClaimAttributes, PTOKEN_INFORMATION_CLASS, ntifs/TokenAppContainerSid, ntifs/TokenVirtualizationAllowed, TokenRestrictedUserClaimAttributes, ntifs/TokenHasRestrictions, TokenMandatoryPolicy, ntifs/TokenGroups, ntifs/TokenIsRestricted, ntifs/MaxTokenInfoClass, ntifs/TokenDefaultDacl, TokenVirtualizationEnabled, ifsk.token_information_class, TokenSessionReference, ntifs/TokenIntegrityLevel, ntifs/TokenUIAccess, ntifs/TokenVirtualizationEnabled, ntifs/TokenSessionId, ntifs/TokenElevation, TokenStatistics, TOKEN_INFORMATION_CLASS enumeration [Installable File System Drivers], TokenLinkedToken, ntifs/TokenPrivileges, TokenLogonSid, TokenProcessTrustLevel, ntifs/TokenUserClaimAttributes, securitystructures_525fb6c8-0030-40ea-927a-72fe89eff87e.xml, TokenDefaultDacl, ntifs/TokenStatistics, ntifs/TokenRestrictedDeviceGroups, PTOKEN_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], TokenRestrictedSids, TokenHasRestrictions, ntifs/TokenDeviceClaimAttributes, TokenElevation, TokenGroupsAndPrivileges, ntifs/TokenIsAppContainer, TokenIsAppContainer, TokenAppContainerSid, TokenSandBoxInert, ntifs/PTOKEN_INFORMATION_CLASS, ntifs/TokenSecurityAttributes, ntifs/TokenOwner, ntifs/TokenMandatoryPolicy, ntifs/TokenAppContainerNumber, ntifs/TokenDeviceGroups, TokenAuditPolicy, ntifs/TokenAccessInformation, TokenRestrictedDeviceClaimAttributes, TokenPrivileges, ntifs/TokenRestrictedUserClaimAttributes, TokenIsRestricted, ntifs/TokenPrimaryGroup, ntifs/TokenGroupsAndPrivileges, TokenOrigin, TokenDeviceClaimAttributes, TokenGroups, ntifs/TokenImpersonationLevel, ntifs/TokenCapabilities, TokenSecurityAttributes, TokenPrimaryGroup
+ms.keywords: TokenDefaultDacl, TokenStatistics, ntifs/TokenAppContainerNumber, TokenRestrictedUserClaimAttributes, TokenOwner, ntifs/TokenGroups, ntifs/TokenImpersonationLevel, TOKEN_INFORMATION_CLASS, ntifs/TokenSandBoxInert, TokenCapabilities, ntifs/TokenUserClaimAttributes, ntifs/TokenSessionReference, TokenSandBoxInert, TokenLinkedToken, ntifs/TokenStatistics, TokenVirtualizationAllowed, ntifs/TokenIntegrityLevel, ntifs/TokenRestrictedSids, ntifs/TokenAccessInformation, ntifs/TokenVirtualizationEnabled, ntifs/TokenMandatoryPolicy, TokenSessionId, ntifs/TOKEN_INFORMATION_CLASS, TokenSecurityAttributes, TokenSource, ntifs/TokenAuditPolicy, PTOKEN_INFORMATION_CLASS enumeration pointer [Installable File System Drivers], TokenGroups, TokenProcessTrustLevel, securitystructures_525fb6c8-0030-40ea-927a-72fe89eff87e.xml, ntifs/TokenCapabilities, ntifs/TokenDefaultDacl, TokenAppContainerNumber, ntifs/TokenRestrictedDeviceGroups, TokenPrimaryGroup, TokenMandatoryPolicy, _TOKEN_INFORMATION_CLASS, TokenRestrictedSids, ntifs/MaxTokenInfoClass, ntifs/TokenIsRestricted, ntifs/TokenSessionId, ntifs/TokenGroupsAndPrivileges, MaxTokenInfoClass, ntifs/TokenRestrictedDeviceClaimAttributes, ntifs/TokenSource, TokenAuditPolicy, ntifs/TokenIsAppContainer, TokenLogonSid, ntifs/TokenProcessTrustLevel, ntifs/TokenPrimaryGroup, TokenAccessInformation, TokenHasRestrictions, TokenType, ifsk.token_information_class, TokenImpersonationLevel, ntifs/PTOKEN_INFORMATION_CLASS, TokenGroupsAndPrivileges, ntifs/TokenOwner, ntifs/TokenLinkedToken, ntifs/TokenRestrictedUserClaimAttributes, TokenElevation, TokenIntegrityLevel, TokenDeviceGroups, ntifs/TokenDeviceGroups, ntifs/TokenOrigin, TokenRestrictedDeviceGroups, TokenVirtualizationEnabled, *PTOKEN_INFORMATION_CLASS, ntifs/TokenPrivileges, ntifs/TokenAppContainerSid, TokenUser, ntifs/TokenSecurityAttributes, ntifs/TokenLogonSid, ntifs/TokenElevation, ntifs/TokenUser, TokenUIAccess, TokenSessionReference, TokenDeviceClaimAttributes, ntifs/TokenType, ntifs/TokenUIAccess, TOKEN_INFORMATION_CLASS enumeration [Installable File System Drivers], TokenAppContainerSid, PTOKEN_INFORMATION_CLASS, TokenPrivileges, TokenOrigin, TokenIsRestricted, TokenIsAppContainer, TokenRestrictedDeviceClaimAttributes, ntifs/TokenHasRestrictions, TokenUserClaimAttributes, ntifs/TokenDeviceClaimAttributes, ntifs/TokenVirtualizationAllowed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	TOKEN_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: "*PTOKEN_INFORMATION_CLASS, TOKEN_INFORMATION_CLASS"
+req.typenames: TOKEN_INFORMATION_CLASS, *PTOKEN_INFORMATION_CLASS
 ---
 
 # _TOKEN_INFORMATION_CLASS enumeration
@@ -338,27 +338,7 @@ The maximum value for this enumeration.
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_token_default_dacl.md">TOKEN_DEFAULT_DACL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
 
 
 
@@ -366,19 +346,15 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
 
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\ntifs\ns-ntifs-_token_origin.md">TOKEN_ORIGIN</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 
@@ -386,11 +362,7 @@ The maximum value for this enumeration.
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\nf-ntifs-zwsetinformationtoken.md">ZwSetInformationToken</a>
 
 
 
@@ -402,11 +374,39 @@ The maximum value for this enumeration.
 
 
 
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sefiltertoken.md">SeFilterToken</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_source.md">TOKEN_SOURCE</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_token_owner.md">TOKEN_OWNER</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
+<a href="..\ntifs\ns-ntifs-_token_user.md">TOKEN_USER</a>
+
+
+
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 

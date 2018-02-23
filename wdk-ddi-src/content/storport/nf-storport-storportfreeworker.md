@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 90BD61C8-322B-48D5-83E0-7204E3DC4423
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortFreeWorker, storport/StorPortFreeWorker, storage.storportfreeworker, StorPortFreeWorker routine [Storage Devices]
+ms.keywords: storport/StorPortFreeWorker, StorPortFreeWorker, storage.storportfreeworker, StorPortFreeWorker routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

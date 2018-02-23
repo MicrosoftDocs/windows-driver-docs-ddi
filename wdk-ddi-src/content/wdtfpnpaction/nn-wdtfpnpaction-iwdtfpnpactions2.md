@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 Defines operations and properties for the collection of Plug and Play (PNP) device-related test interfaces.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFPNPActions2</b> interface inherits from <b>IWDTFActionsCustom2</b>. <b>IWDTFPNPActions2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFPNPActions2</b> interface has these methods.
@@ -180,33 +187,5 @@ Initiates a device restart.
 
 </td>
 </tr>
-</table>Disables the target device.
-
-Sends an IRP_MN_CANCEL_REMOVE_DEVICE event to the target device.
-
-Sends an IRP_MN_CANCEL_STOP_DEVICE event to the target device.
-
-Sends an IRP_MN_SURPRISE_REMOVAL event to the target device.
-
-Attempts to send an IRP_MN_STOP_DEVICE event to the target device.
-
-Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
-then fail the subsequent device restart.
-
-Attempts to send an IRP_MN_STOP_DEVICE event to the target device and 
-assign new resources to the target device.
-
-Enables the target device.
-
-Removes the device.
-
-Initiates a device eject.
-
-Rescans the target device.
-
-Rescans and re-enumerates the target device's parent device.
-
-Initiates a device restart.
-
- 
+</table> 
 

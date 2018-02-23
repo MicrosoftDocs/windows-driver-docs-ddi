@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79298332-2d34-4ef3-ad43-5d218e3f6612
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/PNET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, *PNET_DEVICE_PNP_EVENT, PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], ndis/NET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], NET_DEVICE_PNP_EVENT, netvista.net_device_pnp_event, PNET_DEVICE_PNP_EVENT, _NET_DEVICE_PNP_EVENT
+ms.keywords: PNET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT, NET_DEVICE_PNP_EVENT structure [Network Drivers Starting with Windows Vista], PNET_DEVICE_PNP_EVENT structure pointer [Network Drivers Starting with Windows Vista], ndis/PNET_DEVICE_PNP_EVENT, ndis/NET_DEVICE_PNP_EVENT, *PNET_DEVICE_PNP_EVENT, miniport_structures_ref_42938d80-a578-40a4-ba12-0285d7c258eb.xml, netvista.net_device_pnp_event, _NET_DEVICE_PNP_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -167,11 +167,12 @@ To provide a device PnP event notification, NDIS passes a pointer to a <b>NET_DE
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_device_pnp_event_notify.md">
+   MiniportDevicePnPEventNotify</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_device_pnp_event_notify.md">FilterDevicePnPEventNotify</a>
 
 
 

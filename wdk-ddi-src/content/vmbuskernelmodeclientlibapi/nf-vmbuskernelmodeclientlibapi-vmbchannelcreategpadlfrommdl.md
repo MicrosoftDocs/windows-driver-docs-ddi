@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6C63E250-1A11-45E8-B535-263806DA4A33
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VMBUS_CHANNEL_GPADL_READ_ONLY, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl, VmbChannelCreateGpadlFromMdl, netvista.vmbchannelcreategpadlfrommdl
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelCreateGpadlFromMdl, VmbChannelCreateGpadlFromMdl, netvista.vmbchannelcreategpadlfrommdl, VmbChannelCreateGpadlFromMdl function [Network Drivers Starting with Windows Vista], VMBUS_CHANNEL_GPADL_READ_ONLY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

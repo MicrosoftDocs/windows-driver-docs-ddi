@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 97a0f314-5813-4ff8-8a94-c675874cdc3b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CcZeroData, ntifs/CcZeroData, ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, CcZeroData routine [Installable File System Drivers], ifsk.cczerodata
+ms.keywords: CcZeroData routine [Installable File System Drivers], ntifs/CcZeroData, ifsk.cczerodata, ccref_af6df6fe-6fa3-41e9-b3af-2530ca6a2c85.xml, CcZeroData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

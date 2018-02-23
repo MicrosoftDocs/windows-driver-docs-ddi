@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8ff13908-57f2-404f-a8ea-70c798ee3d7d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTION_TIMEOUT, WDF_TASK_SEND_OPTIONS_FLAGS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_TIMEOUT, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTION_SYNCHRONOUS, WDF_TASK_SEND_OPTIONS_FLAGS enumeration, wdf.wdf_task_send_options_flags, wdfcompaniontarget/WDF_TASK_SEND_OPTION_SYNCHRONOUS"
+ms.keywords: "_WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTIONS_FLAGS, wdf.wdf_task_send_options_flags, wdfcompaniontarget/WDF_TASK_SEND_OPTION_SYNCHRONOUS, wdfcompaniontarget/WDF_TASK_SEND_OPTION_TIMEOUT, WDF_TASK_SEND_OPTIONS_FLAGS enumeration, WDF_TASK_SEND_OPTION_TIMEOUT, wdfcompaniontarget/WDF_TASK_SEND_OPTIONS_FLAGS, WDF_TASK_SEND_OPTION_SYNCHRONOUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

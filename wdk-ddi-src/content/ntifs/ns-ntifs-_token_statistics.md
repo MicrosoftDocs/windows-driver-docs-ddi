@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a7f651c0-fcd5-4271-9452-b6ac41cd33cc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.token_statistics, ntifs/TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], TOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], *PTOKEN_STATISTICS, _TOKEN_STATISTICS, PTOKEN_STATISTICS, ntifs/PTOKEN_STATISTICS
+ms.keywords: "_TOKEN_STATISTICS, PTOKEN_STATISTICS, ntifs/TOKEN_STATISTICS, PTOKEN_STATISTICS structure pointer [Installable File System Drivers], ntifs/PTOKEN_STATISTICS, TOKEN_STATISTICS, securitystructures_5934a44f-c54e-44fe-a1c8-50b656b2b1f5.xml, *PTOKEN_STATISTICS, TOKEN_STATISTICS structure [Installable File System Drivers], ifsk.token_statistics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TOKEN_STATISTICS
 product: Windows
 targetos: Windows
-req.typenames: "*PTOKEN_STATISTICS, TOKEN_STATISTICS"
+req.typenames: TOKEN_STATISTICS, *PTOKEN_STATISTICS
 ---
 
 # _TOKEN_STATISTICS structure
@@ -128,7 +128,7 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 ## -see-also
 
-<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
 
 
 
@@ -136,7 +136,11 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
 
 
 
@@ -148,23 +152,15 @@ Specifies an LUID that changes each time the token is modified. An application c
 
 
 
-<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
-
-
-
 <a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
 
 
 
-<a href="..\ntifs\ne-ntifs-_token_type.md">TOKEN_TYPE</a>
+<a href="..\ntifs\nf-ntifs-zwqueryinformationtoken.md">ZwQueryInformationToken</a>
 
 
 
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+<a href="..\wudfddi\ne-wudfddi-_security_impersonation_level.md">SECURITY_IMPERSONATION_LEVEL</a>
 
 
 

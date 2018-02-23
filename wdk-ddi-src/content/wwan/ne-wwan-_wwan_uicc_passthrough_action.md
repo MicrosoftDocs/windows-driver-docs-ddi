@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4C9293CB-D92D-4C31-929F-16C1B8918933
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanUiccPassThroughDisable, _WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughDisable, WwanUiccPassThroughActionMaximum, *PWWAN_UICC_PASSTHROUGH_ACTION, WwanUiccPassThroughEnable, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], netvista.wwan_uicc_passthrough_action, wwan/WwanUiccPassThroughActionMaximum, wwan/WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION, wwan/WwanUiccPassThroughEnable
+ms.keywords: wwan/WWAN_UICC_PASSTHROUGH_ACTION, netvista.wwan_uicc_passthrough_action, _WWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION, WwanUiccPassThroughEnable, wwan/WwanUiccPassThroughDisable, *PWWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanUiccPassThroughEnable, wwan/WwanUiccPassThroughActionMaximum, WwanUiccPassThroughActionMaximum, WwanUiccPassThroughDisable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_UICC_PASSTHROUGH_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_UICC_PASSTHROUGH_ACTION, WWAN_UICC_PASSTHROUGH_ACTION"
+req.typenames: WWAN_UICC_PASSTHROUGH_ACTION, *PWWAN_UICC_PASSTHROUGH_ACTION
 req.product: Windows 10 or later.
 ---
 

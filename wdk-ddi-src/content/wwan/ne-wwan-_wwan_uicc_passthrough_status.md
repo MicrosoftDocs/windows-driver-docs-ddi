@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 93D35A64-8394-41C2-BFB8-C8DE93619E75
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PWWAN_UICC_PASSTHROUGH_STATUS, WwanUiccPassThroughMaximum, wwan/WwanUiccPassThroughMaximum, WWAN_UICC_PASSTHROUGH_STATUS, _WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughEnabled, WwanUiccPassThroughEnabled, wwan/WWAN_UICC_PASSTHROUGH_STATUS, netvista.wwan_uicc_passthrough_status, WwanUiccPassThroughDisabled, wwan/WwanUiccPassThroughDisabled, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista]"
+ms.keywords: wwan/WWAN_UICC_PASSTHROUGH_STATUS, WwanUiccPassThroughDisabled, WWAN_UICC_PASSTHROUGH_STATUS enumeration [Network Drivers Starting with Windows Vista], WwanUiccPassThroughEnabled, wwan/WwanUiccPassThroughMaximum, *PWWAN_UICC_PASSTHROUGH_STATUS, _WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughEnabled, netvista.wwan_uicc_passthrough_status, WWAN_UICC_PASSTHROUGH_STATUS, wwan/WwanUiccPassThroughDisabled, WwanUiccPassThroughMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,11 +93,11 @@ The maximum value for this enumeration. This value might change in future versio
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_INFO</a>
-
-
-
 <a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-uicc-reset-operations">MB UICC reset operations</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_uicc_reset_info.md">WWAN_UICC_RESET_INFO</a>
 
 
 

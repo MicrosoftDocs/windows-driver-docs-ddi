@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2D25A276-A367-4E59-9CA0-4F480675DD77
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfusbtargetdevicecreateisochurb, WdfUsbTargetDeviceCreateIsochUrb method, WdfUsbTargetDeviceCreateIsochUrb, kmdf.wdfusbtargetdevicecreateisochurb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb
+ms.keywords: kmdf.wdfusbtargetdevicecreateisochurb, WdfUsbTargetDeviceCreateIsochUrb, wdfusb/WdfUsbTargetDeviceCreateIsochUrb, wdf.wdfusbtargetdevicecreateisochurb, WdfUsbTargetDeviceCreateIsochUrb method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfUsbTargetDeviceCreateIsochUrb
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -221,11 +221,11 @@ for (packetId = 0; packetId &lt; numberOfPackets; packetId++) {
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a>
-
-
-
 <a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
+
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreateurb.md">WdfUsbTargetDeviceCreateUrb</a>
 
 
 

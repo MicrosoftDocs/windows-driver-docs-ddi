@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a9d6f43-88f7-490e-9446-e707b6497a38
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PScsiReadCapacity_IN, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml, PScsiReadCapacity_IN structure pointer [Storage Devices], *PScsiReadCapacity_IN, ScsiReadCapacity_IN structure [Storage Devices], iscsiop/PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, _ScsiReadCapacity_IN, storage.scsireadcapacity_in, ScsiReadCapacity_IN
+ms.keywords: storage.scsireadcapacity_in, structs-iSCSI_6363c086-0475-4bd2-bc15-5e49091e710b.xml, ScsiReadCapacity_IN structure [Storage Devices], *PScsiReadCapacity_IN, iscsiop/ScsiReadCapacity_IN, ScsiReadCapacity_IN, PScsiReadCapacity_IN structure pointer [Storage Devices], _ScsiReadCapacity_IN, PScsiReadCapacity_IN, iscsiop/PScsiReadCapacity_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ScsiReadCapacity_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PScsiReadCapacity_IN, ScsiReadCapacity_IN"
+req.typenames: ScsiReadCapacity_IN, *PScsiReadCapacity_IN
 ---
 
 # _ScsiReadCapacity_IN structure
@@ -89,19 +89,19 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff564890">ScsiReadCapacity</a>
 
 
 
+<a href="..\hbapiwmi\ns-hbapiwmi-_scsireadcapacity_out.md">ScsiReadCapacity_OUT</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

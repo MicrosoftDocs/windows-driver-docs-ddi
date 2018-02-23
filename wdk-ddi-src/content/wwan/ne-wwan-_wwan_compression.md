@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a22bcf4e-f460-4f32-9e1e-4ae952fc87d0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WWAN_COMPRESSION, wwan/WwanCompressionNone, WwanCompressionEnable, wwan/WWAN_COMPRESSION, WwanCompressionNone, *PWWAN_COMPRESSION, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, wwan/WwanCompressionMax, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], PWWAN_COMPRESSION, netvista.wwan_compression, WwanCompressionMax, _WWAN_COMPRESSION, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], wwan/WwanCompressionEnable, wwan/PWWAN_COMPRESSION
+ms.keywords: wwan/PWWAN_COMPRESSION, WwanCompressionEnable, wwan/WwanCompressionNone, WWAN_COMPRESSION enumeration [Network Drivers Starting with Windows Vista], WwanCompressionNone, PWWAN_COMPRESSION, WwanCompressionMax, WwanRef_ee5377b4-3352-4daf-96a4-296ad130a6f5.xml, wwan/WwanCompressionEnable, wwan/WwanCompressionMax, _WWAN_COMPRESSION, wwan/WWAN_COMPRESSION, WWAN_COMPRESSION, netvista.wwan_compression, PWWAN_COMPRESSION enumeration pointer [Network Drivers Starting with Windows Vista], *PWWAN_COMPRESSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -98,11 +98,11 @@ This enumeration applies only to GSM devices. The MB Service specifies
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_context.md">WWAN_CONTEXT</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_set_context_state.md">WWAN_SET_CONTEXT_STATE</a>
 
 
 

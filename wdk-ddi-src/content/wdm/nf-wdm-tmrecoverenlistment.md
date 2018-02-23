@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2483ca0e-f9b5-4cd0-a5c5-29b48099d86f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TmRecoverEnlistment routine [Kernel-Mode Driver Architecture], wdm/TmRecoverEnlistment, ktm_ref_bcbfbdfe-017c-4d33-a0f5-dda597ee9166.xml, TmRecoverEnlistment, kernel.tmrecoverenlistment
+ms.keywords: wdm/TmRecoverEnlistment, TmRecoverEnlistment routine [Kernel-Mode Driver Architecture], kernel.tmrecoverenlistment, TmRecoverEnlistment, ktm_ref_bcbfbdfe-017c-4d33-a0f5-dda597ee9166.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -159,11 +159,11 @@ For more information about recovery operations, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwrecoverenlistment.md">ZwRecoverEnlistment</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 
@@ -171,15 +171,7 @@ For more information about recovery operations, see <a href="https://msdn.micros
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff564813">TRANSACTION_NOTIFICATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
-
-
-
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="..\wdm\nf-wdm-zwopenenlistment.md">ZwOpenEnlistment</a>
 
 
 
@@ -187,7 +179,15 @@ For more information about recovery operations, see <a href="https://msdn.micros
 
 
 
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwrecoverenlistment.md">ZwRecoverEnlistment</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561077">ResourceManagerNotification</a>
 
 
 

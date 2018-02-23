@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3138F5D7-CF7E-47B4-817C-AFF00C310AD5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pofxreportdevicepoweredon, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], PoFxReportDevicePoweredOn, wdm/PoFxReportDevicePoweredOn
+ms.keywords: wdm/PoFxReportDevicePoweredOn, PoFxReportDevicePoweredOn routine [Kernel-Mode Driver Architecture], PoFxReportDevicePoweredOn, kernel.pofxreportdevicepoweredon
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

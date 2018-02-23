@@ -7,8 +7,8 @@ old-location: stream\kspin_cinstances.htm
 old-project: stream
 ms.assetid: 90C861C3-26E0-43C0-A4CA-FD5491995DAB
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KSPIN_CINSTANCES structure [Streaming Media Devices], ks/KSPIN_CINSTANCES, *PKSPIN_CINSTANCES, KSPIN_CINSTANCES, ks/PKSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], stream.kspin_cinstances, PKSPIN_CINSTANCES
+ms.date: 2/22/2018
+ms.keywords: ks/KSPIN_CINSTANCES, *PKSPIN_CINSTANCES, PKSPIN_CINSTANCES, KSPIN_CINSTANCES structure [Streaming Media Devices], KSPIN_CINSTANCES, PKSPIN_CINSTANCES structure pointer [Streaming Media Devices], stream.kspin_cinstances, ks/PKSPIN_CINSTANCES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPIN_CINSTANCES
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPIN_CINSTANCES, KSPIN_CINSTANCES"
+req.typenames: KSPIN_CINSTANCES, *PKSPIN_CINSTANCES
 ---
 
 # KSPIN_CINSTANCES structure

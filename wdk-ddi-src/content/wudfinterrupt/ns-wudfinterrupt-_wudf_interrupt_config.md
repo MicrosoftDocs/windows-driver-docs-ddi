@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 7A849A10-2C47-42E2-8BEB-E1D979D3C893
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfinterrupt/PWUDF_INTERRUPT_CONFIG, umdf.wudf_interrupt_config, _WUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG structure, PWUDF_INTERRUPT_CONFIG structure pointer, WUDF_INTERRUPT_CONFIG, wudfinterrupt/WUDF_INTERRUPT_CONFIG, wdf.wudf_interrupt_config, *PWUDF_INTERRUPT_CONFIG
+ms.keywords: wudfinterrupt/WUDF_INTERRUPT_CONFIG, wdf.wudf_interrupt_config, *PWUDF_INTERRUPT_CONFIG, WUDF_INTERRUPT_CONFIG, _WUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG structure pointer, WUDF_INTERRUPT_CONFIG structure, umdf.wudf_interrupt_config, wudfinterrupt/PWUDF_INTERRUPT_CONFIG, PWUDF_INTERRUPT_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,11 +148,11 @@ UMDF supports edge-triggered, line-based interrupts and message-signaled interru
 
 
 
-<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556991">IWDFDeviceInitialize::SetLockingConstraint</a>
+
+
+
+<a href="https://msdn.microsoft.com/EE68BED8-5FDC-4590-8E95-B228F1DFD32D">IWDFDevice3::CreateInterrupt</a>
 
 
 

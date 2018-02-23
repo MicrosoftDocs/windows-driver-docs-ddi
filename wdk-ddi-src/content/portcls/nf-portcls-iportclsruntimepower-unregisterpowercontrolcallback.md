@@ -7,8 +7,8 @@ old-location: audio\iportclsruntimepower_unregisterpowercontrolcallback.htm
 old-project: audio
 ms.assetid: F7E83587-0499-4D56-8D34-5513454FFEE2
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method, UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, IPortClsRuntimePower, audio.iportclsruntimepower_unregisterpowercontrolcallback
+ms.date: 2/22/2018
+ms.keywords: portcls/IPortClsRuntimePower::UnregisterPowerControlCallback, UnregisterPowerControlCallback, IPortClsRuntimePower, UnregisterPowerControlCallback method [Audio Devices], IPortClsRuntimePower interface, UnregisterPowerControlCallback method [Audio Devices], audio.iportclsruntimepower_unregisterpowercontrolcallback, IPortClsRuntimePower::UnregisterPowerControlCallback, IPortClsRuntimePower interface [Audio Devices], UnregisterPowerControlCallback method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -91,5 +91,5 @@ The <code>UnregisterPowerControlCallback</code> method returns STATUS_SUCCESS, i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsRuntimePower::UnregisterPowerControlCallback method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IPortClsRuntimePower::UnregisterPowerControlCallback method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

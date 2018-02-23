@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 3b7814a7-828a-40eb-8494-0753d89a95f4
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidD_GetAttributes, HidD_GetAttributes routine [Human Input Devices], hid.hidd_getattributes, hidfunc_e4c243d5-b210-409f-b454-68a69c28057c.xml, hidsdi/HidD_GetAttributes
+ms.keywords: HidD_GetAttributes routine [Human Input Devices], hid.hidd_getattributes, HidD_GetAttributes, hidsdi/HidD_GetAttributes, hidfunc_e4c243d5-b210-409f-b454-68a69c28057c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HidD_GetAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
+req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 ---
 
 # HidD_GetAttributes function

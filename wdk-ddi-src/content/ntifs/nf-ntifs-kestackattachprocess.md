@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 52ac1410-8f8f-405a-9c81-a534c3cfbf51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeStackAttachProcess, ifsk.kestackattachprocess, ntifs/KeStackAttachProcess, keref_de4fc228-753f-4077-8372-e5330c96d317.xml, KeStackAttachProcess routine [Installable File System Drivers]
+ms.keywords: keref_de4fc228-753f-4077-8372-e5330c96d317.xml, KeStackAttachProcess routine [Installable File System Drivers], ntifs/KeStackAttachProcess, KeStackAttachProcess, ifsk.kestackattachprocess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -118,6 +118,26 @@ For more information about using system threads and managing synchronization wit
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
+
+
+
+<a href="..\wdm\nf-wdm-psgetcurrentthread.md">PsGetCurrentThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
+
+
+
+<a href="..\wdm\nf-wdm-kegetcurrentthread.md">KeGetCurrentThread</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-iogetrequestorprocess.md">IoGetRequestorProcess</a>
 
 
@@ -126,27 +146,7 @@ For more information about using system threads and managing synchronization wit
 
 
 
-<a href="..\ntifs\nf-ntifs-psgetcurrentthread.md">PsGetCurrentThread</a>
-
-
-
-<a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-keunstackdetachprocess.md">KeUnstackDetachProcess</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetcurrentprocess.md">IoGetCurrentProcess</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559933">PsGetCurrentProcess</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-iothreadtoprocess.md">IoThreadToProcess</a>
 
 
 

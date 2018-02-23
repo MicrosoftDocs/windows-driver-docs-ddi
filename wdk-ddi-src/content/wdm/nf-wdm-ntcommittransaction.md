@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 145646f3-ff90-41d6-bf76-947cdf93b489
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ktm_ref_bb49aa00-dbb3-4533-83c1-1cfc56073d8a.xml, ZwCommitTransaction, wdm/ZwCommitTransaction, NtCommitTransaction, ZwCommitTransaction routine [Kernel-Mode Driver Architecture], kernel.zwcommittransaction, wdm/NtCommitTransaction
+ms.keywords: wdm/NtCommitTransaction, ZwCommitTransaction, ktm_ref_bb49aa00-dbb3-4533-83c1-1cfc56073d8a.xml, wdm/ZwCommitTransaction, ZwCommitTransaction routine [Kernel-Mode Driver Architecture], NtCommitTransaction, kernel.zwcommittransaction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -204,6 +204,10 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-tmcommittransaction.md">TmCommitTransaction</a>
+
+
+
 <a href="..\wdm\nf-wdm-zwopentransaction.md">ZwOpenTransaction</a>
 
 
@@ -213,10 +217,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
-
-
-
-<a href="..\wdm\nf-wdm-tmcommittransaction.md">TmCommitTransaction</a>
 
 
 

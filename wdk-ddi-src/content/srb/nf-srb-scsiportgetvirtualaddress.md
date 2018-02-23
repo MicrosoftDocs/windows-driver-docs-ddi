@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8e9a247a-f906-4f0e-8249-b67a042aada5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortGetVirtualAddress, srb/ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], storage.scsiportgetvirtualaddress, scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml
+ms.keywords: ScsiPortGetVirtualAddress, scsiprt_4f474eed-75d3-47cd-9473-37d0d15310de.xml, srb/ScsiPortGetVirtualAddress, ScsiPortGetVirtualAddress routine [Storage Devices], storage.scsiportgetvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -115,11 +115,11 @@ The <b>SCSI_PHYSICAL_ADDRESS</b> type is an operating system-independent data ty
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 
 

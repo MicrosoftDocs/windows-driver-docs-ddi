@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5A52543B-F0EA-4318-A66F-F9FA60FF94F5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PO_FX_FLAG_PERF_PEP_OPTIONAL, wdm/PoFxRegisterComponentPerfStates, kernel.pofxregistercomponentperfstates, PO_FX_FLAG_PERF_QUERY_ON_ALL_IDLE_STATES, PO_FX_FLAG_PERF_QUERY_ON_F0, PoFxRegisterComponentPerfStates, PoFxRegisterComponentPerfStates routine [Kernel-Mode Driver Architecture]
+ms.keywords: PoFxRegisterComponentPerfStates routine [Kernel-Mode Driver Architecture], PO_FX_FLAG_PERF_PEP_OPTIONAL, PO_FX_FLAG_PERF_QUERY_ON_F0, kernel.pofxregistercomponentperfstates, PoFxRegisterComponentPerfStates, PO_FX_FLAG_PERF_QUERY_ON_ALL_IDLE_STATES, wdm/PoFxRegisterComponentPerfStates
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -216,11 +216,11 @@ If the driver requires the PEP to provide performance state information, the dri
 
 
 
-<a href="https://msdn.microsoft.com/D5341D6D-7C71-43CB-9C70-7E939B32C33F">Device Performance State Management</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn939353">ComponentPerfStateCallback</a>
 
 
 

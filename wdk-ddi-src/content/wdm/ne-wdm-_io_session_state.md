@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3e181b22-ae82-4287-8175-bc6043332d5a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PIO_SESSION_STATE, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], wdm/IoSessionStateLoggedOn, _IO_SESSION_STATE, IoSessionStateTerminated, IoSessionStateConnected, wdm/IO_SESSION_STATE, wdm/IoSessionStateConnected, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/IoSessionStateDisconnected, IoSessionStateLoggedOn, wdm/IoSessionStateTerminated, IO_SESSION_STATE, IoSessionStateDisconnected, IoSessionStateCreated, IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateMax, kernel.io_session_state, IoSessionStateMax, *PIO_SESSION_STATE, wdm/IoSessionStateLoggedOff, PIO_SESSION_STATE, IoSessionStateLoggedOff, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateCreated, wdm/IoSessionStateInitialized, IoSessionStateInitialized
+ms.keywords: wdm/IO_SESSION_STATE, _IO_SESSION_STATE, PIO_SESSION_STATE enumeration pointer [Kernel-Mode Driver Architecture], IoSessionStateDisconnectedLoggedOn, *PIO_SESSION_STATE, IoSessionStateMax, wdm/IoSessionStateLoggedOff, wdm/IoSessionStateCreated, IO_SESSION_STATE enumeration [Kernel-Mode Driver Architecture], IoSessionStateTerminated, IoSessionStateInitialized, IoSessionStateLoggedOff, IO_SESSION_STATE, wdm/IoSessionStateInitialized, sysenum_1a899498-22e4-4567-a88e-0773b3590b95.xml, wdm/IoSessionStateTerminated, wdm/IoSessionStateMax, wdm/IoSessionStateDisconnectedLoggedOn, wdm/IoSessionStateDisconnected, wdm/IoSessionStateConnected, PIO_SESSION_STATE, IoSessionStateCreated, IoSessionStateLoggedOn, IoSessionStateConnected, IoSessionStateDisconnected, wdm/PIO_SESSION_STATE, kernel.io_session_state, wdm/IoSessionStateLoggedOn
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -153,15 +153,15 @@ In the preceding table, the <i>from</i> and <i>to</i> states are represented by 
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
+
+
+
 <a href="..\wdm\ns-wdm-_io_session_state_information.md">IO_SESSION_STATE_INFORMATION</a>
 
 
 
 <a href="..\wdm\ne-wdm-_io_session_event.md">IO_SESSION_EVENT</a>
-
-
-
-<a href="..\wdm\nf-wdm-iogetcontainerinformation.md">IoGetContainerInformation</a>
 
 
 

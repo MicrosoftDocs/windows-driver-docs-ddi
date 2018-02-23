@@ -4,11 +4,11 @@ title: IStiDeviceControl::Release method
 author: windows-driver-content
 description: The IStiDeviceControl::Release method closes the instance of the COM object that was created when a minidriver client called IStiUSD::Initialize.
 old-location: image\istidevicecontrol_release.htm
-old-project: Image
+old-project: image
 ms.assetid: 56c2ddc0-9f25-4d4f-9f6e-d8c96c9acc91
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IStiDeviceControl::Release, Release, stiusd/IStiDeviceControl::Release, image.istidevicecontrol_release, Release method [Imaging Devices], stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, Release method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], Release method, IStiDeviceControl
+ms.date: 2/22/2018
+ms.keywords: Release, stifnc_c0e50ea5-46e3-4b30-92b4-be6906647671.xml, IStiDeviceControl::Release, IStiDeviceControl, Release method [Imaging Devices], Release method [Imaging Devices], IStiDeviceControl interface, IStiDeviceControl interface [Imaging Devices], Release method, stiusd/IStiDeviceControl::Release, image.istidevicecontrol_release
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -98,5 +98,5 @@ A still image minidriver receives an <b>IStiDeviceControl</b> interface pointer 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiDeviceControl::Release method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiDeviceControl::Release method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

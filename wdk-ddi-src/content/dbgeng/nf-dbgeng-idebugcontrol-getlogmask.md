@@ -4,11 +4,11 @@ title: IDebugControl::GetLogMask method
 author: windows-driver-content
 description: The GetLogMask method returns the output mask for the currently open log file.
 old-location: debugger\getlogmask.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 32d36b6d-9887-43ac-9314-fc682705131e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl, IDebugControl::GetLogMask, GetLogMask method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], GetLogMask method, dbgeng/IDebugControl2::GetLogMask, GetLogMask method [Windows Debugging], IDebugControl3 interface, GetLogMask method [Windows Debugging], dbgeng/IDebugControl3::GetLogMask, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, IDebugControl2 interface [Windows Debugging], GetLogMask method, GetLogMask, dbgeng/IDebugControl::GetLogMask, IDebugControl3::GetLogMask, IDebugControl2::GetLogMask, IDebugControl3 interface [Windows Debugging], GetLogMask method, debugger.getlogmask, GetLogMask method [Windows Debugging], IDebugControl interface
+ms.date: 2/22/2018
+ms.keywords: debugger.getlogmask, IDebugControl2::GetLogMask, IDebugControl2 interface [Windows Debugging], GetLogMask method, dbgeng/IDebugControl3::GetLogMask, dbgeng/IDebugControl2::GetLogMask, GetLogMask, GetLogMask method [Windows Debugging], IDebugControl3 interface, GetLogMask method [Windows Debugging], GetLogMask method [Windows Debugging], IDebugControl2 interface, IDebugControl, IDebugControl3 interface [Windows Debugging], GetLogMask method, IDebugControl_a3ef306a-5134-49c7-b589-65a4afaa90ac.xml, dbgeng/IDebugControl::GetLogMask, IDebugControl3::GetLogMask, IDebugControl::GetLogMask, IDebugControl interface [Windows Debugging], GetLogMask method, GetLogMask method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -113,7 +113,7 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -121,21 +121,21 @@ For more information about log files, see <a href="https://msdn.microsoft.com/li
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556734">SetLogMask</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553155">OpenLogFile2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetLogMask method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetLogMask method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d94189f-d6ab-40ad-85e5-f4efe8c30ed8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: irb/DeviceIsAtapi, irb/DeviceNotExist, IDE_DEVICE_TYPE enumeration [Storage Devices], DeviceIsAta, DeviceNotExist, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml, DeviceUnknown, IDE_DEVICE_TYPE, irb/DeviceUnknown, DeviceIsAtapi, storage.ide_device_type, irb/DeviceIsAta, irb/IDE_DEVICE_TYPE
+ms.keywords: DeviceUnknown, DeviceIsAtapi, IDE_DEVICE_TYPE enumeration [Storage Devices], irb/DeviceIsAta, structs-ATA_ebe5b232-fdb1-4be8-ada6-54e2dc3d09a8.xml, storage.ide_device_type, IDE_DEVICE_TYPE, irb/DeviceUnknown, irb/DeviceIsAtapi, irb/DeviceNotExist, DeviceIsAta, irb/IDE_DEVICE_TYPE, DeviceNotExist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,7 +7,7 @@ old-location: display\resourcecopyregion.htm
 old-project: display
 ms.assetid: e782dc8c-e34e-4f96-b6d9-c34d7843ed05
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.resourcecopyregion, ResourceCopyRegion callback function [Display Devices], ResourceCopyRegion, PFND3D10DDI_RESOURCECOPYREGION, PFND3D10DDI_RESOURCECOPYREGION, d3d10umddi/ResourceCopyRegion, UserModeDisplayDriverDx10_Functions_8b5cb003-4fa5-4d23-99c4-a8165253907c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	ResourceCopyRegion
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_RESOURCECOPYREGION callback
@@ -96,6 +96,16 @@ VOID APIENTRY ResourceCopyRegion(
 
 
 
+#### - hDevice [in]
+
+ A handle to the display device (graphics context).
+
+
+#### - hDstResource [in]
+
+ A handle to the destination resource to copy to.
+
+
 #### - DstSubresource [in]
 
  An index that indicates the destination subresource to copy to. 
@@ -116,24 +126,14 @@ VOID APIENTRY ResourceCopyRegion(
  The z-coordinate of the destination subresource. For one-dimensional (1-D) and two-dimensional (2-D) subresources, <i>DstZ</i> is set to zero.
 
 
-#### - SrcSubresource [in]
-
- An index that indicates the source subresource to copy from. 
-
-
-#### - hDevice [in]
-
- A handle to the display device (graphics context).
-
-
-#### - hDstResource [in]
-
- A handle to the destination resource to copy to.
-
-
 #### - hSrcResource [in]
 
  A handle to the source resource to copy from.
+
+
+#### - SrcSubresource [in]
+
+ An index that indicates the source subresource to copy from. 
 
 
 #### - pSrcBox [in, optional]
@@ -270,5 +270,5 @@ The source and destination resources must have the same number of samples and qu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_RESOURCECOPYREGION callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_RESOURCECOPYREGION callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

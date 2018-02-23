@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 56bb271f-d69c-4523-87cb-4922b405f808
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_DEVICE_POWER_CAPABILITIES structure, wdf.wdf_device_power_capabilities, _WDF_DEVICE_POWER_CAPABILITIES, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, kmdf.wdf_device_power_capabilities, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, *PWDF_DEVICE_POWER_CAPABILITIES, wdfdevice/WDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES
+ms.keywords: wdfdevice/WDF_DEVICE_POWER_CAPABILITIES, DFDeviceObjectGeneralRef_6678d7f5-5de1-473f-a2db-777405225add.xml, PWDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES structure, WDF_DEVICE_POWER_CAPABILITIES, wdf.wdf_device_power_capabilities, kmdf.wdf_device_power_capabilities, PWDF_DEVICE_POWER_CAPABILITIES structure pointer, _WDF_DEVICE_POWER_CAPABILITIES, wdfdevice/PWDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_POWER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DEVICE_POWER_CAPABILITIES, WDF_DEVICE_POWER_CAPABILITIES"
+req.typenames: WDF_DEVICE_POWER_CAPABILITIES, *PWDF_DEVICE_POWER_CAPABILITIES
 req.product: Windows 10 or later.
 ---
 

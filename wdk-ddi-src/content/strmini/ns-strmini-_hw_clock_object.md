@@ -7,8 +7,8 @@ old-location: stream\hw_clock_object.htm
 old-project: stream
 ms.assetid: d6afe946-90cb-4b17-94ed-2e7c508985a3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], strmini/HW_CLOCK_OBJECT, PHW_CLOCK_OBJECT, *PHW_CLOCK_OBJECT, stream.hw_clock_object, _HW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT, HW_CLOCK_OBJECT, HW_CLOCK_OBJECT structure [Streaming Media Devices], strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml
+ms.date: 2/22/2018
+ms.keywords: HW_CLOCK_OBJECT structure [Streaming Media Devices], strmini/HW_CLOCK_OBJECT, HW_CLOCK_OBJECT, PHW_CLOCK_OBJECT, _HW_CLOCK_OBJECT, *PHW_CLOCK_OBJECT, strmini/PHW_CLOCK_OBJECT, stream.hw_clock_object, PHW_CLOCK_OBJECT structure pointer [Streaming Media Devices], strclass-struct_95b6e9db-af87-415b-aad2-b3763c4dd0d9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,7 +72,7 @@ typedef struct _HW_CLOCK_OBJECT {
 
 ### -field HwClockFunction
 
-Pointer to the stream's <a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a> routine.
+Pointer to the stream's <a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a> routine.
 
 
 ### -field ClockSupportFlags
@@ -105,17 +105,17 @@ Reserved for system use. Do not use.
 
 
 
+<a href="..\strmini\nc-strmini-phw_query_clock_routine.md">StrMiniClock</a>
+
+
+
 <a href="..\strmini\ns-strmini-_hw_stream_object.md">HW_STREAM_OBJECT</a>
 
 
 
-<a href="..\strmini\ns-strmini-_hw_time_context.md">HW_TIME_CONTEXT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_CLOCK_OBJECT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_CLOCK_OBJECT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

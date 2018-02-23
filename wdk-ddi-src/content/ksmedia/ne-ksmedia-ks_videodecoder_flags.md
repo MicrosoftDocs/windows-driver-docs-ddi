@@ -7,8 +7,8 @@ old-location: stream\ks_videodecoder_flags.htm
 old-project: stream
 ms.assetid: 120d7714-8c32-4b83-adc2-c9a933e541e5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KS_VIDEODECODER_FLAGS, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, stream.ks_videodecoder_flags, ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml, ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, ksmedia/KS_VIDEODECODER_FLAGS
+ms.date: 2/22/2018
+ms.keywords: ksmedia/KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, ksmedia/KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, ksmedia/KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_INDICATE_LOCKED, vidcapstruct_061ba371-f4a8-44b0-8940-bc90b15dbfed.xml, KS_VIDEODECODER_FLAGS, KS_VIDEODECODER_FLAGS_CAN_DISABLE_OUTPUT, stream.ks_videodecoder_flags, KS_VIDEODECODER_FLAGS enumeration [Streaming Media Devices], KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING, ksmedia/KS_VIDEODECODER_FLAGS_CAN_USE_VCR_LOCKING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -94,5 +94,5 @@ The video decoder can distinguish whether it has locked to an incoming analog vi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEODECODER_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_VIDEODECODER_FLAGS enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

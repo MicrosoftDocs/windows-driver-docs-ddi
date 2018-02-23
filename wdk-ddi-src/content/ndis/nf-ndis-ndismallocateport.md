@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ca3a2a12-ea80-4f77-9742-b0440fb441f7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisMAllocatePort function [Network Drivers Starting with Windows Vista], NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport, ndis/NdisMAllocatePort
+ms.keywords: NdisMAllocatePort function [Network Drivers Starting with Windows Vista], ndis/NdisMAllocatePort, NdisMAllocatePort, ndis_ports_ref_c74ffd82-73c0-4e48-98da-d17ddf7976ae.xml, netvista.ndismallocateport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMAllocatePort
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMAllocatePort function
@@ -183,15 +183,11 @@ After a port is no longer required, the miniport driver should call the
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_port_characteristics.md">NDIS_PORT_CHARACTERISTICS</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -199,7 +195,11 @@ After a port is no longer required, the miniport driver should call the
 
 
 
-<a href="..\ndis\nf-ndis-ndismfreeport.md">NdisMFreePort</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569583">OID_GEN_ENUMERATE_PORTS</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

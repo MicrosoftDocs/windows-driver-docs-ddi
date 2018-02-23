@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: bde75364-387b-4f57-8942-1cf32652c02d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PSDP_TREE_ROOT_NODE, sdpnode/SDP_TREE_ROOT_NODE, bth_structs_b2bdb873-03b0-4c3a-910c-06277f6be663.xml, *PSDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE, bltooth.sdp_tree_root_node, _SDP_TREE_ROOT_NODE, sdpnode/PSDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE structure [Bluetooth Devices], PSDP_TREE_ROOT_NODE structure pointer [Bluetooth Devices]
+ms.keywords: "_SDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE structure pointer [Bluetooth Devices], *PSDP_TREE_ROOT_NODE, PSDP_TREE_ROOT_NODE, bth_structs_b2bdb873-03b0-4c3a-910c-06277f6be663.xml, SDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE structure [Bluetooth Devices], sdpnode/SDP_TREE_ROOT_NODE, sdpnode/PSDP_TREE_ROOT_NODE, bltooth.sdp_tree_root_node"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SDP_TREE_ROOT_NODE
 product: Windows
 targetos: Windows
-req.typenames: "*PSDP_TREE_ROOT_NODE, SDP_TREE_ROOT_NODE"
+req.typenames: SDP_TREE_ROOT_NODE, *PSDP_TREE_ROOT_NODE
 req.product: Windows 10 or later.
 ---
 
@@ -114,15 +114,11 @@ The
 
 ## -see-also
 
+<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+
+
+
 <a href="..\sdplib\nf-sdplib-sdpfindattributeintree.md">SdpFindAttributeInTree</a>
-
-
-
-<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
-
-
-
-<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
 
 
 
@@ -130,7 +126,11 @@ The
 
 
 
-<a href="..\sdpnode\ns-sdpnode-_sdp_node.md">SDP_NODE</a>
+<a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
+
+
+
+<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
 
 
 

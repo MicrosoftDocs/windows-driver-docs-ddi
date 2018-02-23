@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2585da94-babe-479f-8957-adaa9190451e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortWritePortUchar routine [Storage Devices], atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, irb/AtaPortWritePortUchar, storage.ataportwriteportuchar, AtaPortWritePortUchar
+ms.keywords: AtaPortWritePortUchar, AtaPortWritePortUchar routine [Storage Devices], atartns_25e284e4-0c1e-4172-b0d2-4435e23f7270.xml, storage.ataportwriteportuchar, irb/AtaPortWritePortUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,11 @@ None
 
 
 
-<a href="..\irb\nf-irb-ataportwriteportulong.md">AtaPortWritePortUlong</a>
-
-
-
 <a href="..\irb\nf-irb-ataportwriteportushort.md">AtaPortWritePortUshort</a>
+
+
+
+<a href="..\irb\nf-irb-ataportwriteportulong.md">AtaPortWritePortUlong</a>
 
 
 

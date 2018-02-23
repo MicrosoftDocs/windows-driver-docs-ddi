@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: cc864595-a0bb-4fd4-9d93-830e8fd6a346
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "_NewEnum property [Windows Device Testing Framework], Microsoft.WDTF.IWDTFDeviceDepot2._NewEnum, get__NewEnum, IWDTFDeviceDepot2._NewEnum, IWDTFDeviceDepot2::get__NewEnum, wdtf/IWDTFDeviceDepot2::get__NewEnum, dtf.iwdtfdevicedepot2__newenum, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], _NewEnum property, _NewEnum property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFActions2, wdtf/IWDTFDeviceDepot2::_NewEnum, Microsoft::WDTF::IWDTFDeviceDepot2::_NewEnum, IWDTFActions2::get__NewEnum"
+ms.keywords: wdtf/IWDTFDeviceDepot2::_NewEnum, get__NewEnum, IWDTFDeviceDepot2._NewEnum, IWDTFActions2, _NewEnum property [Windows Device Testing Framework], IWDTFActions2::get__NewEnum, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], _NewEnum property, dtf.iwdtfdevicedepot2__newenum, wdtf/IWDTFDeviceDepot2::get__NewEnum, Microsoft::WDTF::IWDTFDeviceDepot2::_NewEnum, _NewEnum property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, IWDTFDeviceDepot2::get__NewEnum, Microsoft.WDTF.IWDTFDeviceDepot2._NewEnum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 16f13973-c1c1-4123-8fa4-20187ec2c204
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml, StorPortRegistryRead routine [Storage Devices], storage.storportregistryread, StorPortRegistryRead, storport/StorPortRegistryRead
+ms.keywords: StorPortRegistryRead routine [Storage Devices], StorPortRegistryRead, storage.storportregistryread, storprt_6eafcbbc-b767-45b3-97d6-86e591a29a19.xml, storport/StorPortRegistryRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

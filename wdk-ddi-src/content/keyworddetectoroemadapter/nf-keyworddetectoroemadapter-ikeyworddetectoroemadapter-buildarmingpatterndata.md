@@ -7,8 +7,8 @@ old-location: audio\ikeyworddetectoroemadapter_buildarmingpatterndata.htm
 old-project: audio
 ms.assetid: F74DC3C3-C182-4BBA-93C8-95A73C58CFEF
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: audio.ikeyworddetectoroemadapter_buildarmingpatterndata, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData, IKeywordDetectorOemAdapter, IKeywordDetectorOemAdapter::BuildArmingPatternData, BuildArmingPatternData method [Audio Devices], BuildArmingPatternData, BuildArmingPatternData method [Audio Devices], IKeywordDetectorOemAdapter interface, IKeywordDetectorOemAdapter interface [Audio Devices], BuildArmingPatternData method
+ms.date: 2/22/2018
+ms.keywords: IKeywordDetectorOemAdapter interface [Audio Devices], BuildArmingPatternData method, audio.ikeyworddetectoroemadapter_buildarmingpatterndata, BuildArmingPatternData method [Audio Devices], IKeywordDetectorOemAdapter interface, BuildArmingPatternData, keyworddetectoroemadapter/IKeywordDetectorOemAdapter::BuildArmingPatternData, IKeywordDetectorOemAdapter::BuildArmingPatternData, IKeywordDetectorOemAdapter, BuildArmingPatternData method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -171,7 +171,7 @@ The operating system may call this method at any time. The operating system may 
 
 
 
-<a href="..\keyworddetectoroemadapter\nn-keyworddetectoroemadapter-ikeyworddetectoroemadapter.md">IKeywordDetectorOemAdapter</a>
+<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
 
 
 
@@ -179,7 +179,7 @@ The operating system may call this method at any time. The operating system may 
 
 
 
-<a href="https://msdn.microsoft.com/c4cb588d-9482-4f90-a92e-75b604540d5c">CoTaskMemAlloc</a>
+<a href="..\keyworddetectoroemadapter\ns-keyworddetectoroemadapter-__midl_ikeyworddetectoroemadapter_0003.md">KEYWORDSELECTOR</a>
 
 
 
@@ -187,5 +187,5 @@ The operating system may call this method at any time. The operating system may 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IKeywordDetectorOemAdapter::BuildArmingPatternData method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IKeywordDetectorOemAdapter::BuildArmingPatternData method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

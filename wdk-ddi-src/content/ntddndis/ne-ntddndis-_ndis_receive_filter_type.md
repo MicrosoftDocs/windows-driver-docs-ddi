@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2810be51-4b38-4462-9c16-67a9f28da5c9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisReceiveFilterTypeMaximum, NDIS_RECEIVE_FILTER_TYPE, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveFilterTypeVMQueue, PNDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_type, ntddndis/NdisReceiveFilterTypePacketCoalescing, _NDIS_RECEIVE_FILTER_TYPE, ntddndis/NdisReceiveFilterTypeUndefined, NdisReceiveFilterTypePacketCoalescing, ntddndis/NdisReceiveFilterTypeMaximum, NdisReceiveFilterTypeVMQueue, NdisReceiveFilterTypeUndefined, ntddndis/PNDIS_RECEIVE_FILTER_TYPE, ntddndis/NDIS_RECEIVE_FILTER_TYPE
+ms.keywords: ntddndis/NdisReceiveFilterTypeUndefined, PNDIS_RECEIVE_FILTER_TYPE, NdisReceiveFilterTypeUndefined, NDIS_RECEIVE_FILTER_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_FILTER_TYPE, ntddndis/PNDIS_RECEIVE_FILTER_TYPE, netvista.ndis_receive_filter_type, ntddndis/NdisReceiveFilterTypeVMQueue, NdisReceiveFilterTypePacketCoalescing, NdisReceiveFilterTypeVMQueue, ntddndis/NdisReceiveFilterTypeMaximum, virtual_machine_queue_ref_8965d6c0-b700-46cd-9386-0e2cdc5da4c9.xml, _NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE, PNDIS_RECEIVE_FILTER_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisReceiveFilterTypePacketCoalescing, NdisReceiveFilterTypeMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_FILTER_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_FILTER_TYPE, NDIS_RECEIVE_FILTER_TYPE"
+req.typenames: NDIS_RECEIVE_FILTER_TYPE, *PNDIS_RECEIVE_FILTER_TYPE
 ---
 
 # _NDIS_RECEIVE_FILTER_TYPE enumeration

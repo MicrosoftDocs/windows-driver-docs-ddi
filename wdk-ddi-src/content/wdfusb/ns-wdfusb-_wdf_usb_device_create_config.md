@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 717DFAE8-5F10-4443-AACA-07009060C23D
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdf_usbtarget_device_config, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG structure pointer, wdfusb/PWDF_USB_DEVICE_CREATE_CONFIG, _WDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG structure, WDF_USB_DEVICE_CREATE_CONFIG, *PWDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG, wdf.wdf_usb_device_create_config, kmdf.wdf_usb_device_create_config
+ms.keywords: "*PWDF_USB_DEVICE_CREATE_CONFIG, PWDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG, kmdf.wdf_usbtarget_device_config, _WDF_USB_DEVICE_CREATE_CONFIG, wdf.wdf_usb_device_create_config, kmdf.wdf_usb_device_create_config, PWDF_USB_DEVICE_CREATE_CONFIG structure pointer, wdfusb/WDF_USB_DEVICE_CREATE_CONFIG, wdfusb/PWDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG structure"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_DEVICE_CREATE_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_DEVICE_CREATE_CONFIG, WDF_USB_DEVICE_CREATE_CONFIG"
+req.typenames: WDF_USB_DEVICE_CREATE_CONFIG, *PWDF_USB_DEVICE_CREATE_CONFIG
 req.product: Windows 10 or later.
 ---
 

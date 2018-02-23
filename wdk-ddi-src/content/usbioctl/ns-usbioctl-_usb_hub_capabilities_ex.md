@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: deb8d710-6137-4f69-8fde-00d46cdb6f4f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUSB_HUB_CAPABILITIES_EX structure pointer [Buses], USB_HUB_CAPABILITIES_EX, usbioctl/PUSB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX, usbioctl/USB_HUB_CAPABILITIES_EX, buses.usb_hub_capabilities_ex, PUSB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX structure [Buses], _USB_HUB_CAPABILITIES_EX, usbstrct_42446556-393a-4d58-934e-f63d62fa3c07.xml
+ms.keywords: buses.usb_hub_capabilities_ex, USB_HUB_CAPABILITIES_EX structure [Buses], _USB_HUB_CAPABILITIES_EX, usbioctl/PUSB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX, usbioctl/USB_HUB_CAPABILITIES_EX, PUSB_HUB_CAPABILITIES_EX structure pointer [Buses], USB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX, usbstrct_42446556-393a-4d58-934e-f63d62fa3c07.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_HUB_CAPABILITIES_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_HUB_CAPABILITIES_EX, USB_HUB_CAPABILITIES_EX"
+req.typenames: USB_HUB_CAPABILITIES_EX, *PUSB_HUB_CAPABILITIES_EX
 req.product: Windows 10 or later.
 ---
 

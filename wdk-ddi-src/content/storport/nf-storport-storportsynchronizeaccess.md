@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: eece67ed-faff-4166-8fa0-d501df9c1363
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_25ee1679-940a-4758-9828-123a9ad24268.xml, StorPortSynchronizeAccess, StorPortSynchronizeAccess routine [Storage Devices], storage.storportsynchronizeaccess, storport/StorPortSynchronizeAccess
+ms.keywords: StorPortSynchronizeAccess, storport/StorPortSynchronizeAccess, storage.storportsynchronizeaccess, storprt_25ee1679-940a-4758-9828-123a9ad24268.xml, StorPortSynchronizeAccess routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

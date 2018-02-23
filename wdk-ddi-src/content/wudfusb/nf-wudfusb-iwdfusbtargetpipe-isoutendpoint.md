@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb6c5b25-ea21-44cb-8b67-c5266c8bc1e4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfusbtargetpipe_isoutendpoint, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml, IWDFUsbTargetPipe::IsOutEndPoint, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint, wdf.iwdfusbtargetpipe_isoutendpoint, IWDFUsbTargetPipe interface, IsOutEndPoint method, IWDFUsbTargetPipe, IsOutEndPoint method, IWDFUsbTargetPipe interface, IsOutEndPoint method
+ms.keywords: IWDFUsbTargetPipe::IsOutEndPoint, wdf.iwdfusbtargetpipe_isoutendpoint, umdf.iwdfusbtargetpipe_isoutendpoint, IsOutEndPoint method, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::IsOutEndPoint, IsOutEndPoint, IWDFUsbTargetPipe interface, IsOutEndPoint method, IsOutEndPoint method, IWDFUsbTargetPipe interface, UMDFUSBref_fc7a24f7-0bd6-4bb2-a9df-30d09e3b5e68.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.IsOutEndPoint
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -98,11 +98,11 @@ For a code example of how to use the <b>IsOutEndPoint</b> method, see <a href="h
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559236">IWDFIoTarget::FormatRequestForWrite</a>
+
+
+
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe.md">IWDFUsbTargetPipe</a>
 
 
 

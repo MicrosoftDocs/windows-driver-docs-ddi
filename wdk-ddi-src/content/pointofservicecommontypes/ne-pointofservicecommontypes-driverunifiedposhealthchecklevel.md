@@ -7,8 +7,8 @@ old-location: pos\unifiedposhealthchecklevel.htm
 old-project: pos
 ms.assetid: 101a74c8-a0c2-4820-b9a1-41e39ee4cf11
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/External, UnknownHealthCheckLevel, DriverUnifiedPosHealthCheckLevel enumeration, pointofservicecommontypes/UnknownHealthCheckLevel, Interactive, pointofservicecommontypes/Interactive, pos.unifiedposhealthchecklevel, pointofservicecommontypes/POSInternal, External, POSInternal, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel
+ms.date: 2/22/2018
+ms.keywords: pos.unifiedposhealthchecklevel, pointofservicecommontypes/UnknownHealthCheckLevel, pointofservicecommontypes/POSInternal, POSInternal, UnknownHealthCheckLevel, Interactive, External, DriverUnifiedPosHealthCheckLevel enumeration, pointofservicecommontypes/DriverUnifiedPosHealthCheckLevel, pointofservicecommontypes/Interactive, pointofservicecommontypes/External, DriverUnifiedPosHealthCheckLevel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

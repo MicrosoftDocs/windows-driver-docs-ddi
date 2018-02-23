@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 65fd2c27-7d9e-4dad-adef-8cb2bea9d9f2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFCoinstallerRef_7a993590-87f2-4613-93d4-ffbc76672d8e.xml, WDF_COINSTALLER_INSTALL_OPTIONS_INIT, wdf.wdf_coinstaller_install_options_init, WDF_COINSTALLER_INSTALL_OPTIONS_INIT function, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS_INIT, kmdf.wdf_coinstaller_install_options_init
+ms.keywords: DFCoinstallerRef_7a993590-87f2-4613-93d4-ffbc76672d8e.xml, wdfinstaller/WDF_COINSTALLER_INSTALL_OPTIONS_INIT, wdf.wdf_coinstaller_install_options_init, WDF_COINSTALLER_INSTALL_OPTIONS_INIT, kmdf.wdf_coinstaller_install_options_init, WDF_COINSTALLER_INSTALL_OPTIONS_INIT function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

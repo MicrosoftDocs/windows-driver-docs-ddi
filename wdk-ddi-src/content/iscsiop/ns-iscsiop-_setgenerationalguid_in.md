@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 24568c37-9641-4e3e-b788-f71db4f3f70f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSetGenerationalGuid_IN structure pointer [Storage Devices], _SetGenerationalGuid_IN, SetGenerationalGuid_IN, SetGenerationalGuid_IN structure [Storage Devices], storage.setgenerationalguid_in, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml, PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, *PSetGenerationalGuid_IN, iscsiop/PSetGenerationalGuid_IN
+ms.keywords: SetGenerationalGuid_IN structure [Storage Devices], PSetGenerationalGuid_IN, iscsiop/SetGenerationalGuid_IN, storage.setgenerationalguid_in, SetGenerationalGuid_IN, *PSetGenerationalGuid_IN, iscsiop/PSetGenerationalGuid_IN, PSetGenerationalGuid_IN structure pointer [Storage Devices], _SetGenerationalGuid_IN, structs-iSCSI_e40eec29-19af-4f5a-8c5f-11b40c76ae0c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

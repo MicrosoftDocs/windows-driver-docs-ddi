@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 3E85D9AE-F8D3-4763-B1A2-51F95D00422D
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE, buses._default_endpoint_update, _DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE, ucxendpoint/_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], DEFAULT_ENDPOINT_UPDATE structure [Buses]
+ms.keywords: "_DEFAULT_ENDPOINT_UPDATE, ucxendpoint/P_DEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE, *PDEFAULT_ENDPOINT_UPDATE, P_DEFAULT_ENDPOINT_UPDATE structure pointer [Buses], buses._default_endpoint_update, DEFAULT_ENDPOINT_UPDATE, ucxendpoint/_DEFAULT_ENDPOINT_UPDATE, DEFAULT_ENDPOINT_UPDATE structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

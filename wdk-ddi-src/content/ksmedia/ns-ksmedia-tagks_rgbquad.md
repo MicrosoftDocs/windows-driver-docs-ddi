@@ -7,8 +7,8 @@ old-location: stream\ks_rgbquad.htm
 old-project: stream
 ms.assetid: 49231293-286b-486d-b8f9-b44bdb845e7b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PKS_RGBQUAD structure pointer [Streaming Media Devices], stream.ks_rgbquad, *PKS_RGBQUAD, PKS_RGBQUAD, vidcapstruct_c081668e-9e81-4c30-89d1-b4c26dc9a300.xml, KS_RGBQUAD structure [Streaming Media Devices], ksmedia/PKS_RGBQUAD, tagKS_RGBQUAD, ksmedia/KS_RGBQUAD, KS_RGBQUAD
+ms.date: 2/22/2018
+ms.keywords: KS_RGBQUAD, ksmedia/KS_RGBQUAD, stream.ks_rgbquad, PKS_RGBQUAD, tagKS_RGBQUAD, vidcapstruct_c081668e-9e81-4c30-89d1-b4c26dc9a300.xml, PKS_RGBQUAD structure pointer [Streaming Media Devices], ksmedia/PKS_RGBQUAD, *PKS_RGBQUAD, KS_RGBQUAD structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_RGBQUAD
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_RGBQUAD, KS_RGBQUAD"
+req.typenames: KS_RGBQUAD, *PKS_RGBQUAD
 ---
 
 # tagKS_RGBQUAD structure

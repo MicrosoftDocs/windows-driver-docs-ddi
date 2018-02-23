@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 66F8DA69-F4AD-45BE-A211-184E87882908
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SerCx2PioReceiveInitializeTransactionComplete method [Serial Ports], 2/SerCx2PioReceiveInitializeTransactionComplete, serports.sercx2pioreceiveinitializetransactioncomplete, SerCx2PioReceiveInitializeTransactionComplete
+ms.keywords: SerCx2PioReceiveInitializeTransactionComplete, 2/SerCx2PioReceiveInitializeTransactionComplete, serports.sercx2pioreceiveinitializetransactioncomplete, SerCx2PioReceiveInitializeTransactionComplete method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2PioReceiveInitializeTransactionComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -107,11 +107,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_receive_initialize_transaction.md">EvtSerCx2PioReceiveInitializeTransaction</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2pioreceivecreate.md">SerCx2PioReceiveCreate</a>
 
 
 

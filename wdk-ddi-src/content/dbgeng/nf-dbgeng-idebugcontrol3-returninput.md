@@ -4,11 +4,11 @@ title: IDebugControl3::ReturnInput method
 author: windows-driver-content
 description: The ReturnInput method is used by IDebugInputCallbacks objects to send an input string to the engine following a request for input.
 old-location: debugger\returninput.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1f4c63da-8583-4382-a208-8279b4fe0906
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl::ReturnInput, ReturnInput method [Windows Debugging], IDebugControl interface, IDebugControl, ReturnInput method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::ReturnInput, debugger.returninput, ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], ReturnInput method, IDebugControl3::ReturnInput, IDebugControl2, IDebugControl3, IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, dbgeng/IDebugControl::ReturnInput, IDebugControl interface [Windows Debugging], ReturnInput method, IDebugControl2 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], dbgeng/IDebugControl3::ReturnInput, ReturnInput, IDebugControl2::ReturnInput
+ms.date: 2/22/2018
+ms.keywords: ReturnInput method [Windows Debugging], IDebugControl interface, IDebugControl3::ReturnInput, IDebugControl3 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl3 interface, IDebugControl3, dbgeng/IDebugControl::ReturnInput, IDebugControl, dbgeng/IDebugControl3::ReturnInput, debugger.returninput, IDebugControl interface [Windows Debugging], ReturnInput method, IDebugControl::ReturnInput, IDebugControl2 interface [Windows Debugging], ReturnInput method, ReturnInput method [Windows Debugging], IDebugControl2 interface, IDebugControl2::ReturnInput, ReturnInput, IDebugControl2, ReturnInput method [Windows Debugging], IDebugControl_e060c1a6-43cd-46a1-ba4c-e9aa69bcf205.xml, dbgeng/IDebugControl2::ReturnInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

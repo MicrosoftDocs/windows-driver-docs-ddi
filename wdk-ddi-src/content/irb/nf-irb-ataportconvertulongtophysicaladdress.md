@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f791f25d-d28e-45d3-b43c-9b87fda82d37
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AtaPortConvertUlongToPhysicalAddress routine [Storage Devices], AtaPortConvertUlongToPhysicalAddress, storage.ataportconvertulongtophysicaladdress, irb/AtaPortConvertUlongToPhysicalAddress, atartns_29b4ce0d-5dda-4203-a10b-66ccd7859d5d.xml
+ms.keywords: irb/AtaPortConvertUlongToPhysicalAddress, AtaPortConvertUlongToPhysicalAddress, atartns_29b4ce0d-5dda-4203-a10b-66ccd7859d5d.xml, storage.ataportconvertulongtophysicaladdress, AtaPortConvertUlongToPhysicalAddress routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: f100f872-6db2-4b6d-a9c0-abbbfee0a621
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml, RxDriverEntry routine [Installable File System Drivers], RxDriverEntry, rxprocs/RxDriverEntry, ifsk.rxdriverentry
+ms.keywords: RxDriverEntry, rxprocs/RxDriverEntry, RxDriverEntry routine [Installable File System Drivers], ifsk.rxdriverentry, rxref_a882d71c-b6c3-4454-a45b-37b312af2069.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -50,9 +50,9 @@ req.product: Windows 10 or later.
 ## -description
 
 
-<b>RxDriverEntry</b> is called by a monolithic network mini-redirector driver from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to initialize the RDBSS static library.
+<b>RxDriverEntry</b> is called by a monolithic network mini-redirector driver from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine to initialize the RDBSS static library.
 
-For non-monolithic drivers, this initialization routine is equivalent to the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine of the RDBSS.SYS device driver.
+For non-monolithic drivers, this initialization routine is equivalent to the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine of the RDBSS.SYS device driver.
 
 
 ## -syntax
@@ -73,7 +73,7 @@ NTSTATUS RxDriverEntry(
 
 ### -param DriverObject [in]
 
-A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
+A pointer to the driver object of the network mini-redirector driver. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. This driver object will be used to create the device object for the network mini-redirector driver. 
 
 
 ### -param RegistryPath [in]
@@ -115,9 +115,9 @@ The initialization of RDBSS was started, but an error occurred. This error code 
 
 
 
-A monolithic network mini-redirector driver which is linked statically with RDBSSLIB.LIB must call <b>RxDriverEntry</b> from its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine to initialize the copy of the RDBSSLIB library linked with the driver. <b>RxDriverEntry</b> must be called by a monolithic network mini-redirector driver before any other RDBSS routines are called. 
+A monolithic network mini-redirector driver which is linked statically with RDBSSLIB.LIB must call <b>RxDriverEntry</b> from its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine to initialize the copy of the RDBSSLIB library linked with the driver. <b>RxDriverEntry</b> must be called by a monolithic network mini-redirector driver before any other RDBSS routines are called. 
 
-After calling <b>RxDriverEntry</b> to initialize the copy of the RDBSS library near the start of its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine, the network mini-redirector driver would usually call <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a> later in its <i>DriverEntry</i> routine to register with RDBSS. 
+After calling <b>RxDriverEntry</b> to initialize the copy of the RDBSS library near the start of its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine, the network mini-redirector driver would usually call <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a> later in its <i>DriverEntry</i> routine to register with RDBSS. 
 
 If the <b>RxDriverEntry</b> call is successful, internal global RDBBS data structures are initialized. Various spinlocks and mutexes are created to protect these data structures. One of these data structures is the RDBSS_DATA structure which is the top structure in the RDBSS-memory data structure. The <i>DriverObject</i> parameter is stored in the <b>DriverObject</b> member of the RDBSS_DATA structure. <b>RxDriverEntry</b> also initializes tracing, logging, and debugging if this is enabled (a checked build, for example). 
 
@@ -182,38 +182,14 @@ On Windows Server 2003, a registry value to set ReadAheadGranularity is not expo
 
 <b>RxDriverEntry</b> then copies a pointer to the <a href="..\mrx\nf-mrx-rxfsddispatch.md">RxFsdDispatch</a> routine over all of the entries in the driver dispatch table. So if a monolithic network mini-redirector driver needs to receive specific IRPs for special processing before the RDBSS library, then a copy of its original driver dispatch table should be saved before calling <b>RxDriverEntry</b> and any routine pointers restored after the call to <b>RxDriverEntry</b> has returned. Note that RDBSS will also copy <b>RxFsdDispatch</b> to all the driver dispatch table entries when <a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMiniRdr</a> is called unless an option is set to prevent this behavior..
 
-For a non-monolithic network mini-redirector driver (the Microsoft SMB redirector), the RDBSS.SYS device driver is initialized in its own <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine when loaded which internally calls <b>RxDriverEntry</b>. On a monolithic driver, the <b>RxDriverEntry</b> routine is exported from the RDBSSLIB.LIB static library and must be called explicitly by the network mini-redirector. 
+For a non-monolithic network mini-redirector driver (the Microsoft SMB redirector), the RDBSS.SYS device driver is initialized in its own <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine when loaded which internally calls <b>RxDriverEntry</b>. On a monolithic driver, the <b>RxDriverEntry</b> routine is exported from the RDBSSLIB.LIB static library and must be called explicitly by the network mini-redirector. 
 
 
 
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
-
-
-
-<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
-
-
-
 <a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
 
 
 
@@ -221,7 +197,31 @@ For a non-monolithic network mini-redirector driver (the Microsoft SMB redirecto
 
 
 
+<a href="..\ntifs\nf-ntifs-ccsetreadaheadgranularity.md">CcSetReadAheadGranularity</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+
+
 <a href="..\rxstruc\nf-rxstruc-rxunregisterminirdr.md">RxUnregisterMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxsetdomainformailslotbroadcast.md">RxSetDomainForMailslotBroadcast</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMinirdr</a>
+
+
+
+<a href="..\mrx\nf-mrx-__rxfillandinstallfastiodispatch.md">__RxFillAndInstallFastIoDispatch</a>
+
+
+
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMinirdr</a>
 
 
 

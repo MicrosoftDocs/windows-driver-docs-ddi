@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ee1dbd20-5502-4448-b39a-4629ddc73d01
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeQueryPerformanceCounter, kernel.kequeryperformancecounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml, wdm/KeQueryPerformanceCounter
+ms.keywords: KeQueryPerformanceCounter, KeQueryPerformanceCounter routine [Kernel-Mode Driver Architecture], wdm/KeQueryPerformanceCounter, kernel.kequeryperformancecounter, k105_39f70923-56fe-42b1-bec3-fe23ae62904d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,19 +99,7 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-kequerytickcount.md">KeQueryTickCount</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
-
-
-
-<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
+<a href="..\wdm\nf-wdm-kequerytickcount.md">KeQueryTickCount</a>
 
 
 
@@ -120,6 +108,18 @@ For more info about this function and its usage, see <a href="https://msdn.micro
 
 
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
+
+
+
+<a href="https://msdn.microsoft.com/08169390-940b-4110-813a-249d107cc953">QueryPerformanceCounter</a>
+
+
+
+<a href="https://msdn.microsoft.com/f69367a4-0516-4033-81e3-90d4c5270a1e">QueryPerformanceFrequency</a>
+
+
+
+<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onclientdisconnect.htm
 old-project: sensors
 ms.assetid: 9484610b-4cbd-4c4e-9e60-ef052702325c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.isensordriver_onclientdisconnect, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, sensorsclassextension/ISensorDriver::OnClientDisconnect, ISensorDriver::OnClientDisconnect, OnClientDisconnect method [Sensor Devices], ISensorDriver interface, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml, OnClientDisconnect method [Sensor Devices], ISensorDriver, OnClientDisconnect
+ms.date: 2/22/2018
+ms.keywords: sensorsclassextension/ISensorDriver::OnClientDisconnect, OnClientDisconnect, ISensorDriver, OnClientDisconnect method [Sensor Devices], OnClientDisconnect method [Sensor Devices], ISensorDriver interface, sensors.isensordriver_onclientdisconnect, ISensorDriver interface [Sensor Devices], OnClientDisconnect method, ISensorDriver::OnClientDisconnect, Sensor_IFaces_f5f91a04-84b3-4302-9c26-845281651ed9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -197,5 +197,5 @@ The function definition follows.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20ISensorDriver::OnClientDisconnect method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20ISensorDriver::OnClientDisconnect method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

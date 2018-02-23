@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9107CC24-48FF-4A2C-AA27-1E9E316B7944
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._parent_hub_flags, PARENT_HUB_FLAGS union [Buses], ucxroothub/_PARENT_HUB_FLAGS, PARENT_HUB_FLAGS, _PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
+ms.keywords: "_PARENT_HUB_FLAGS, ucxroothub/_PARENT_HUB_FLAGS, buses._parent_hub_flags, *PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS, PARENT_HUB_FLAGS union [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARENT_HUB_FLAGS
 product: Windows
 targetos: Windows
-req.typenames: "*PPARENT_HUB_FLAGS, PARENT_HUB_FLAGS"
+req.typenames: PARENT_HUB_FLAGS, *PPARENT_HUB_FLAGS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 30497CA8-70B6-48F9-B5D5-45E606A3226E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR, storage.storage_miniport_descriptor, STORAGE_MINIPORT_DESCRIPTOR, ntddstor/STORAGE_MINIPORT_DESCRIPTOR, _STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], *PSTORAGE_MINIPORT_DESCRIPTOR
+ms.keywords: PSTORAGE_MINIPORT_DESCRIPTOR structure pointer [Storage Devices], ntddstor/PSTORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR, _STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR structure [Storage Devices], storage.storage_miniport_descriptor, ntddstor/STORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR, PSTORAGE_MINIPORT_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STORAGE_MINIPORT_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_MINIPORT_DESCRIPTOR, STORAGE_MINIPORT_DESCRIPTOR"
+req.typenames: STORAGE_MINIPORT_DESCRIPTOR, *PSTORAGE_MINIPORT_DESCRIPTOR
 ---
 
 # _STORAGE_MINIPORT_DESCRIPTOR structure

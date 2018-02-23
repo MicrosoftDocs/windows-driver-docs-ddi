@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_get_certificate.htm
 old-project: display
 ms.assetid: f1a3882e-7d45-4634-ae1d-fb8102716f36
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.evt_idd_cx_monitor_opm_get_certificate, EvtIddCxMonitorOpmGetCertificate callback function [Display Devices], EvtIddCxMonitorOpmGetCertificate, EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE, EVT_IDD_CX_MONITOR_OPM_GET_CERTIFICATE, iddcx/EvtIddCxMonitorOpmGetCertificate, PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_CERTIFICATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

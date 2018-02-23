@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ccc3934c-fed4-4f9d-ae2a-d5e96bdb1e46
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: WwanRef_f3030aa5-70d9-46d6-85e1-dc112a5889ce.xml, _WWAN_PIN_FORMAT, wwan/WwanPinFormatNumeric, *PWWAN_PIN_FORMAT, PWWAN_PIN_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanPinFormatMax, PWWAN_PIN_FORMAT, WwanPinFormatUnknown, wwan/PWWAN_PIN_FORMAT, wwan/WwanPinFormatUnknown, wwan/WWAN_PIN_FORMAT, WwanPinFormatMax, WwanPinFormatNumeric, WWAN_PIN_FORMAT, WWAN_PIN_FORMAT enumeration [Network Drivers Starting with Windows Vista], WwanPinFormatAlphaNumeric, netvista.wwan_pin_format, wwan/WwanPinFormatAlphaNumeric
+ms.keywords: WwanRef_f3030aa5-70d9-46d6-85e1-dc112a5889ce.xml, _WWAN_PIN_FORMAT, WwanPinFormatMax, PWWAN_PIN_FORMAT, wwan/PWWAN_PIN_FORMAT, netvista.wwan_pin_format, wwan/WwanPinFormatMax, WwanPinFormatAlphaNumeric, WwanPinFormatNumeric, *PWWAN_PIN_FORMAT, wwan/WwanPinFormatNumeric, wwan/WwanPinFormatAlphaNumeric, PWWAN_PIN_FORMAT enumeration pointer [Network Drivers Starting with Windows Vista], WwanPinFormatUnknown, wwan/WwanPinFormatUnknown, WWAN_PIN_FORMAT, WWAN_PIN_FORMAT enumeration [Network Drivers Starting with Windows Vista], wwan/WWAN_PIN_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_FORMAT
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_FORMAT, WWAN_PIN_FORMAT"
+req.typenames: WWAN_PIN_FORMAT, *PWWAN_PIN_FORMAT
 req.product: Windows 10 or later.
 ---
 

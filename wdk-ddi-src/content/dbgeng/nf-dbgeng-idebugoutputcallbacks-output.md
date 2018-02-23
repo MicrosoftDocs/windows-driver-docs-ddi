@@ -4,11 +4,11 @@ title: IDebugOutputCallbacks::Output method
 author: windows-driver-content
 description: The Output callback method is called by the engine to send output from the client to the IDebugOutputCallbacks object that is registered with the client.
 old-location: debugger\idebugoutputcallbacks_output.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 6d0352ae-0376-4992-89ef-90702591042e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: Output method [Windows Debugging], ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, dbgeng/IDebugOutputCallbacks::Output, IDebugOutputCallbacks interface [Windows Debugging], Output method, IDebugOutputCallbacks, Output method [Windows Debugging], IDebugOutputCallbacks interface, debugger.idebugoutputcallbacks_output, Output, IDebugOutputCallbacks::Output
+ms.date: 2/22/2018
+ms.keywords: Output method [Windows Debugging], IDebugOutputCallbacks interface, ComCallbacks_9b5e22d8-aa8d-498e-b3b5-ad6d73462db4.xml, IDebugOutputCallbacks, IDebugOutputCallbacks interface [Windows Debugging], Output method, dbgeng/IDebugOutputCallbacks::Output, Output, IDebugOutputCallbacks::Output, Output method [Windows Debugging], debugger.idebugoutputcallbacks_output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86b09f5c-6527-447e-b383-b97d45a57ce7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ProbeForRead, k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, ProbeForRead routine [Kernel-Mode Driver Architecture], kernel.probeforread, ProbeForRead
+ms.keywords: ProbeForRead, k102_a0260886-9f28-408e-91a1-fde07974ef9b.xml, wdm/ProbeForRead, kernel.probeforread, ProbeForRead routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

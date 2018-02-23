@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 4522a7d0-d297-4668-bb4e-e4ceae18f52a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: usb/UsbdPipeTypeBulk, UsbdPipeTypeBulk, USBD_PIPE_TYPE, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, UsbdPipeTypeControl, usb/USBD_PIPE_TYPE, _USBD_PIPE_TYPE, usb/UsbdPipeTypeIsochronous, usb/UsbdPipeTypeInterrupt, usb/UsbdPipeTypeControl, USBD_PIPE_TYPE enumeration [Buses], UsbdPipeTypeInterrupt, buses.usbd_pipe_type, UsbdPipeTypeIsochronous
+ms.keywords: usb/UsbdPipeTypeControl, UsbdPipeTypeInterrupt, usb/UsbdPipeTypeInterrupt, _USBD_PIPE_TYPE, USBD_PIPE_TYPE enumeration [Buses], usb/UsbdPipeTypeIsochronous, UsbdPipeTypeControl, UsbdPipeTypeBulk, buses.usbd_pipe_type, UsbdPipeTypeIsochronous, usbstrct_a1fda372-f509-4667-a615-b68936b0a42b.xml, usb/UsbdPipeTypeBulk, usb/USBD_PIPE_TYPE, USBD_PIPE_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

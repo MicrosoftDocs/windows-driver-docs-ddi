@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f0f21d34-21f2-48ac-994f-e050f4447745
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFRemoteTarget interface, Start method, wudfddi/IWDFRemoteTarget::Start, IWDFRemoteTarget::Start, wdf.iwdfremotetarget_start, Start method, IWDFRemoteTarget interface, Start method, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, umdf.iwdfremotetarget_start, Start, IWDFRemoteTarget
+ms.keywords: Start method, IWDFRemoteTarget interface, Start, IWDFRemoteTarget::Start, wudfddi/IWDFRemoteTarget::Start, IWDFRemoteTarget, Start method, UMDFIoTargetObjectRef_8e44c1ab-5ce6-4c4a-a7dc-e9de4b10ba12.xml, IWDFRemoteTarget interface, Start method, wdf.iwdfremotetarget_start, umdf.iwdfremotetarget_start
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -135,11 +135,11 @@ The following code example restarts a remote I/O target.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560289">IWDFRemoteTarget::Stop</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
 
 

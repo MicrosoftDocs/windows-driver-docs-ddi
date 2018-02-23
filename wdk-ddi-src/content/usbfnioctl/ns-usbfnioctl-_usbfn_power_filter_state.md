@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBFN_POWER_FILTER_STATE structure [Buses], PUSBFN_POWER_FILTER_STATE structure pointer [Buses], PUSBFN_POWER_FILTER_STATE, usbfnioctl/PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, *PUSBFN_POWER_FILTER_STATE, _USBFN_POWER_FILTER_STATE
+ms.keywords: USBFN_POWER_FILTER_STATE structure [Buses], PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE, usbfnioctl/PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE, PUSBFN_POWER_FILTER_STATE structure pointer [Buses], buses.usbfn_power_filter_state, _USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

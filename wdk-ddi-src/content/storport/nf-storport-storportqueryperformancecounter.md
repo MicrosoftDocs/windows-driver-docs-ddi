@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6502E3AE-5841-41C9-BEB7-B00620DBF02D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter routine [Storage Devices], storage.storportqueryperformancecounter, storport/StorPortQueryPerformanceCounter
+ms.keywords: storage.storportqueryperformancecounter, storport/StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter, StorPortQueryPerformanceCounter routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

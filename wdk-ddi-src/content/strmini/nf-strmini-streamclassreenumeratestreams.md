@@ -7,8 +7,8 @@ old-location: stream\streamclassreenumeratestreams.htm
 old-project: stream
 ms.assetid: 22196280-d097-45ac-a008-22b1ab0037e5
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: strclass-routines_cacff7f7-e8f3-4794-ae99-eab536cf83d2.xml, StreamClassReenumerateStreams, strmini/StreamClassReenumerateStreams, StreamClassReenumerateStreams function [Streaming Media Devices], stream.streamclassreenumeratestreams
+ms.date: 2/22/2018
+ms.keywords: StreamClassReenumerateStreams function [Streaming Media Devices], strmini/StreamClassReenumerateStreams, stream.streamclassreenumeratestreams, strclass-routines_cacff7f7-e8f3-4794-ae99-eab536cf83d2.xml, StreamClassReenumerateStreams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

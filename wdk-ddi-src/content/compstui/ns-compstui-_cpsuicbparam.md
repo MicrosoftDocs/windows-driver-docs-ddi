@@ -7,8 +7,8 @@ old-location: print\cpsuicbparam.htm
 old-project: print
 ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PCPSUICBPARAM, _CPSUICBPARAM, compstui/PCPSUICBPARAM, compstui/CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], *PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, print.cpsuicbparam, CPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices]
+ms.date: 2/22/2018
+ms.keywords: "*PCPSUICBPARAM, compstui/PCPSUICBPARAM, CPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, PCPSUICBPARAM, print.cpsuicbparam, PCPSUICBPARAM structure pointer [Print Devices], _CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], compstui/CPSUICBPARAM"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CPSUICBPARAM
 product: Windows
 targetos: Windows
-req.typenames: "*PCPSUICBPARAM, CPSUICBPARAM"
+req.typenames: CPSUICBPARAM, *PCPSUICBPARAM
 ---
 
 # _CPSUICBPARAM structure
@@ -218,7 +218,7 @@ CPSUI-supplied user data. This is the same value that the application previously
 
 ### -field Result
 
-Result value supplied by the <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function. By default, CPSUI sets this value to CPSUI_OK. After the callback function returns, CPSUI calls its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function with a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547087">CPSFUNC_SET_RESULT</a>, supplying the <b>Reason</b> member contents as the result value.
+Result value supplied by the <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function. By default, CPSUI sets this value to CPSUI_OK. After the callback function returns, CPSUI calls its <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function with a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547087">CPSFUNC_SET_RESULT</a>, supplying the <b>Reason</b> member contents as the result value.
 
 This member is used only if the <b>Reason</b> member is CPSUICB_REASON_APPLYNOW and the callback function does not return CPSUI_ACTION_NO_APPLY_EXIT.
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 53baa93a-bd71-4975-86cc-51eb31c2f430
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ntrenametransactionmanager, wdm/NtRenameTransactionManager, NtRenameTransactionManager routine [Kernel-Mode Driver Architecture], ntx_299b8860-3b7b-4bc7-8f33-c3805fd0a38f.xml, NtRenameTransactionManager
+ms.keywords: kernel.ntrenametransactionmanager, ntx_299b8860-3b7b-4bc7-8f33-c3805fd0a38f.xml, NtRenameTransactionManager, wdm/NtRenameTransactionManager, NtRenameTransactionManager routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

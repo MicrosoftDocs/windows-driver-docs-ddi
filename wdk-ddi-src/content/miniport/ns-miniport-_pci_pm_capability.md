@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 829d4df0-2dc2-4a1f-9606-3d5f25624252
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_PCI_PM_CAPABILITY, PPCI_PM_CAPABILITY, PCI.pci_pm_capability, PPCI_PM_CAPABILITY structure pointer [Buses], wdm/PPCI_PM_CAPABILITY, pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, *PPCI_PM_CAPABILITY, wdm/PCI_PM_CAPABILITY, PCI_PM_CAPABILITY, PCI_PM_CAPABILITY structure [Buses]"
+ms.keywords: "*PPCI_PM_CAPABILITY, PCI_PM_CAPABILITY structure [Buses], pci_struct_041a9702-7b1e-43dc-8b8c-0371bc0eac26.xml, _PCI_PM_CAPABILITY, PPCI_PM_CAPABILITY structure pointer [Buses], PPCI_PM_CAPABILITY, PCI_PM_CAPABILITY, PCI.pci_pm_capability, wdm/PPCI_PM_CAPABILITY, wdm/PCI_PM_CAPABILITY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,15 +137,15 @@ Holds the contents of an optional data register that the device uses to report s
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537587">PCI_PMCSR_BSE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537454">PCI_CAPABILITIES_HEADER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537583">PCI_PMCSR</a>
 
 
 

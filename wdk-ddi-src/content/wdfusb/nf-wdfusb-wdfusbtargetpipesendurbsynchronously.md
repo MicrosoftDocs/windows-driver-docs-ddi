@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2ce7a843-0053-4351-ba79-161d83e245ac
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously method, kmdf.wdfusbtargetpipesendurbsynchronously, wdf.wdfusbtargetpipesendurbsynchronously, DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, wdfusb/WdfUsbTargetPipeSendUrbSynchronously
+ms.keywords: kmdf.wdfusbtargetpipesendurbsynchronously, DFUsbRef_3e797ee4-f454-4520-b4a0-84565515622f.xml, wdf.wdfusbtargetpipesendurbsynchronously, WdfUsbTargetPipeSendUrbSynchronously method, wdfusb/WdfUsbTargetPipeSendUrbSynchronously, WdfUsbTargetPipeSendUrbSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfUsbTargetPipeSendUrbSynchronously
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -259,7 +259,7 @@ status = WdfUsbTargetPipeSendUrbSynchronously(
 
 
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbinterfacegetconfiguredpipe.md">WdfUsbInterfaceGetConfiguredPipe</a>
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_send_options.md">WDF_REQUEST_SEND_OPTIONS</a>
 
 
 

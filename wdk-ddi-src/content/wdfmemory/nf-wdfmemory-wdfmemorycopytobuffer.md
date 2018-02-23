@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: cb1fc590-3d3a-4b06-b467-28c3adb43706
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfMemoryCopyToBuffer, WdfMemoryCopyToBuffer method, kmdf.wdfmemorycopytobuffer, wdf.wdfmemorycopytobuffer, DFMemoryObjectRef_8668c3aa-f5f0-4a1a-9290-27cf78fbcd24.xml, wdfmemory/WdfMemoryCopyToBuffer
+ms.keywords: WdfMemoryCopyToBuffer, DFMemoryObjectRef_8668c3aa-f5f0-4a1a-9290-27cf78fbcd24.xml, WdfMemoryCopyToBuffer method, wdfmemory/WdfMemoryCopyToBuffer, wdf.wdfmemorycopytobuffer, kmdf.wdfmemorycopytobuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CE8160C5-8C64-4BA5-864E-EC634754E062
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], PGET_BAND_METADATA_PARAMETERS, PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], *PGET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS, _GET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS
+ms.keywords: "_GET_BAND_METADATA_PARAMETERS, PGET_BAND_METADATA_PARAMETERS, GET_BAND_METADATA_PARAMETERS structure [Storage Devices], ehstorbandmgmt/PGET_BAND_METADATA_PARAMETERS, ehstorbandmgmt/GET_BAND_METADATA_PARAMETERS, *PGET_BAND_METADATA_PARAMETERS, storage.get_band_metadata_parameters, PGET_BAND_METADATA_PARAMETERS structure pointer [Storage Devices], GET_BAND_METADATA_PARAMETERS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,11 +111,11 @@ If <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_m
 
 ## -see-also
 
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
-
-
-
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_get_band_metadata.md">IOCTL_EHSTOR_BANDMGMT_GET_BAND_METADATA</a>
+
+
+
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
 
 
 

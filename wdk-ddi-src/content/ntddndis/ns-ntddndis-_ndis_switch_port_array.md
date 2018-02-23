@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: f753694a-f31b-4bb5-8388-bc20d12cb423
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_SWITCH_PORT_ARRAY, *PNDIS_SWITCH_PORT_ARRAY, netvista.ndis_switch_port_array, ntddndis/PNDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_ARRAY, PNDIS_SWITCH_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_ARRAY
+ms.keywords: PNDIS_SWITCH_PORT_ARRAY structure pointer [Network Drivers Starting with Windows Vista], PNDIS_SWITCH_PORT_ARRAY, netvista.ndis_switch_port_array, NDIS_SWITCH_PORT_ARRAY structure [Network Drivers Starting with Windows Vista], _NDIS_SWITCH_PORT_ARRAY, ntddndis/NDIS_SWITCH_PORT_ARRAY, *PNDIS_SWITCH_PORT_ARRAY, ntddndis/PNDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_ARRAY
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_PORT_ARRAY, NDIS_SWITCH_PORT_ARRAY"
+req.typenames: NDIS_SWITCH_PORT_ARRAY, *PNDIS_SWITCH_PORT_ARRAY
 ---
 
 # _NDIS_SWITCH_PORT_ARRAY structure
@@ -127,11 +127,7 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -139,7 +135,11 @@ Extensible switch extensions can access individual <a href="..\ntddndis\ns-ntddn
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh598271">OID_SWITCH_PORT_ARRAY</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_parameters.md">NDIS_SWITCH_PORT_PARAMETERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh598223">NDIS_SWITCH_PORT_AT_ARRAY_INDEX</a>
 
 
 

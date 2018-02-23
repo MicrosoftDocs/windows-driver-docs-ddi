@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CCC429B7-88BB-4DC3-86BC-6A5FCD405A5D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityVeryLow, *PSTOR_REQUEST_INFO_V1, StorIoPriorityLow, StorIoPriorityNormal, PSTOR_REQUEST_INFO_V1, StorIoPriorityCritical, STOR_REQUEST_INFO_V1 structure [Storage Devices], REQUEST_INFO_TEMPORARY_FLAG, STOR_REQUEST_INFO_V1, REQUEST_INFO_PAGING_IO_FLAG, REQUEST_INFO_SEQUENTIAL_IO_FLAG, storage.stor_request_info, REQUEST_INFO_WRITE_THROUGH_FLAG, _STOR_REQUEST_INFO_V1, StorIoPriorityHigh, storport/PSTOR_REQUEST_INFO_V1, storport/_STOR_REQUEST_INFO_V1, REQUEST_INFO_NO_CACHE_FLAG, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices]"
+ms.keywords: REQUEST_INFO_NO_CACHE_FLAG, _STOR_REQUEST_INFO_V1, REQUEST_INFO_PAGING_IO_FLAG, StorIoPriorityNormal, storport/_STOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1, storport/PSTOR_REQUEST_INFO_V1, StorIoPriorityHigh, storage.stor_request_info, PSTOR_REQUEST_INFO_V1 structure pointer [Storage Devices], PSTOR_REQUEST_INFO_V1, REQUEST_INFO_SEQUENTIAL_IO_FLAG, *PSTOR_REQUEST_INFO_V1, STOR_REQUEST_INFO_V1 structure [Storage Devices], StorIoPriorityCritical, StorIoPriorityLow, REQUEST_INFO_TEMPORARY_FLAG, _STOR_REQUEST_INFO_V1 structure [Storage Devices], REQUEST_INFO_WRITE_THROUGH_FLAG, StorIoPriorityVeryLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

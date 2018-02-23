@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BBFB8DAD-C187-4EB9-8EB0-BE28284437E1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceInitFree, buses.udecxusbdeviceinitfree, UdecxUsbDeviceInitFree function [Buses], UdecxUsbDeviceInitFree
+ms.keywords: buses.udecxusbdeviceinitfree, UdecxUsbDeviceInitFree function [Buses], UdecxUsbDeviceInitFree, udecxusbdevice/UdecxUsbDeviceInitFree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceInitFree
 product: Windows
 targetos: Windows
-req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
+req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
 ---
 

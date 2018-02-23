@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ec6e75e8-f24a-4d76-b6e1-af35b5402f91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netioddk/NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], nmrref_bd063787-0438-49de-9816-e5a110528d54.xml, NmrWaitForProviderDeregisterComplete
+ms.keywords: NmrWaitForProviderDeregisterComplete function [Network Drivers Starting with Windows Vista], nmrref_bd063787-0438-49de-9816-e5a110528d54.xml, NmrWaitForProviderDeregisterComplete, netvista.nmrwaitforproviderderegistercomplete, netioddk/NmrWaitForProviderDeregisterComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NmrWaitForProviderDeregisterComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_PROVIDER_CHARACTERISTICS, NET_DMA_PROVIDER_CHARACTERISTICS"
+req.typenames: NET_DMA_PROVIDER_CHARACTERISTICS, *PNET_DMA_PROVIDER_CHARACTERISTICS
 ---
 
 # NmrWaitForProviderDeregisterComplete function

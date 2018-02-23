@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2e94cf01-6edf-40ca-b25e-ce7c125e4686
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.hub_device_config_info, HUB_DEVICE_CONFIG_INFO structure [Buses], PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], HUB_DEVICE_CONFIG_INFO, *PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO, _HUB_DEVICE_CONFIG_INFO_V1, usbioctl/PHUB_DEVICE_CONFIG_INFO, usbioctl/HUB_DEVICE_CONFIG_INFO
+ms.keywords: usbioctl/HUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO structure pointer [Buses], HUB_DEVICE_CONFIG_INFO, buses.hub_device_config_info, *PHUB_DEVICE_CONFIG_INFO, PHUB_DEVICE_CONFIG_INFO, _HUB_DEVICE_CONFIG_INFO_V1, usbioctl/PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HUB_DEVICE_CONFIG_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PHUB_DEVICE_CONFIG_INFO, HUB_DEVICE_CONFIG_INFO"
+req.typenames: HUB_DEVICE_CONFIG_INFO, *PHUB_DEVICE_CONFIG_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -128,7 +128,7 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbioctl\ns-usbioctl-_usb_id_string.md">USB_ID_STRING</a>
 
 
 
@@ -136,11 +136,11 @@ The caller is responsible for releasing this string buffer, which is allocated b
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usbioctl\ni-usbioctl-ioctl_internal_usb_get_device_config_info.md">IOCTL_INTERNAL_USB_GET_DEVICE_CONFIG_INFO</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

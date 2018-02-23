@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 8489dc63-8e92-45c9-b4a8-593b511743b0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisCmModifyCallQoSComplete, condis_call_manager_ref_471da783-5fb9-459e-98a1-209e8b11a3b5.xml, NdisCmModifyCallQoSComplete, netvista.ndiscmmodifycallqoscomplete, NdisCmModifyCallQoSComplete function [Network Drivers Starting with Windows Vista]
+ms.keywords: ndis/NdisCmModifyCallQoSComplete, netvista.ndiscmmodifycallqoscomplete, condis_call_manager_ref_471da783-5fb9-459e-98a1-209e8b11a3b5.xml, NdisCmModifyCallQoSComplete, NdisCmModifyCallQoSComplete function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmModifyCallQoSComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmModifyCallQoSComplete function
@@ -131,6 +131,15 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-protocol_cl_modify_call_qos_complete.md">
+   ProtocolClModifyCallQoSComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQosComplete</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff545384">CO_CALL_PARAMETERS</a>
 
 
@@ -140,14 +149,6 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 <a href="..\ndis\nf-ndis-ndisclmodifycallqos.md">NdisClModifyCallQoS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQosComplete</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmmodifycallqoscomplete.md">NdisMCmModifyCallQosComplete</a>
 
 
 

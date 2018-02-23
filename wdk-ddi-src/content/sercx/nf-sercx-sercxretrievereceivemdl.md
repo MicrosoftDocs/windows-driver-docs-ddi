@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 7BC76F62-CA51-4C3F-BBF0-0B192EE871E6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercxretrievereceivemdl, 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl method [Serial Ports], SerCxRetrieveReceiveMdl
+ms.keywords: SerCxRetrieveReceiveMdl method [Serial Ports], 1/SerCxRetrieveReceiveMdl, SerCxRetrieveReceiveMdl, serports.sercxretrievereceivemdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCxRetrieveReceiveMdl
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 

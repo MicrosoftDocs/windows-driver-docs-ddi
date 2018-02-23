@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BB50112E-6706-419C-9686-79F0F76926C3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PoFxRegisterPlugin, pepfx/PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin
+ms.keywords: pepfx/PoFxRegisterPlugin, PoFxRegisterPlugin routine [Kernel-Mode Driver Architecture], kernel.pofxregisterplugin, PoFxRegisterPlugin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PoFxRegisterPlugin
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE, PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PoFxRegisterPlugin function
@@ -71,12 +71,12 @@ NTSTATUS PoFxRegisterPlugin(
 
 ### -param PepInformation [in]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a> structure.
+A pointer to a <a href="..\pep_x\ns-pep_x-_pep_information.md">PEP_INFORMATION</a> structure.
 
 
 ### -param KernelInformation [in, out]
 
-A pointer to a <a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure.
+A pointer to a <a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a> structure.
 
 
 ## -returns
@@ -137,7 +137,7 @@ A PEP calls this routine to register itself with PoFx.
 
 A PEP cannot unregister, and cannot register twice. If the PEP must be serviced, the operating system must restart.
 
-The <a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routine is similar to <b>PoFxRegisterPlugin</b>, except that it takes an additional parameter, <i>Flags</i>.
+The <a href="..\pep_x\nf-pep_x-pofxregisterpluginex.md">PoFxRegisterPluginEx</a> routine is similar to <b>PoFxRegisterPlugin</b>, except that it takes an additional parameter, <i>Flags</i>.
 
 The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
@@ -146,15 +146,15 @@ The PEP must call <b>PoFxRegisterPlugin</b> at IRQL = PASSIVE_LEVEL.
 
 ## -see-also
 
-<a href="..\pepfx\nf-pepfx-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
+<a href="..\pep_x\ns-pep_x-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_information.md">PEP_INFORMATION</a>
+<a href="..\pep_x\ns-pep_x-_pep_information.md">PEP_INFORMATION</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_kernel_information_struct_v3.md">PEP_KERNEL_INFORMATION_STRUCT_V3</a>
+<a href="..\pep_x\nf-pep_x-pofxregisterpluginex.md">PoFxRegisterPluginEx</a>
 
 
 

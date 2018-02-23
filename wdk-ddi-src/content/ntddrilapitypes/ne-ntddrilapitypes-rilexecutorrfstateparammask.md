@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 58dae7ff-5e88-4ccd-85d9-8b0022e85d30
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilexecutorrfstateparammask, RIL_PARAM_GERFS_STATE, RIL_PARAM_GERFS_ALL, ntddrilapitypes/RIL_PARAM_GERFS_ALL, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_GERFS_STATE, ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK, RILEXECUTORRFSTATEPARAMMASK
+ms.keywords: RILEXECUTORRFSTATEPARAMMASK, ntddrilapitypes/RILEXECUTORRFSTATEPARAMMASK, RIL_PARAM_GERFS_STATE, RIL_PARAM_GERFS_ALL, netvista.rilexecutorrfstateparammask, ntddrilapitypes/RIL_PARAM_GERFS_STATE, ntddrilapitypes/RIL_PARAM_GERFS_ALL, RILEXECUTORRFSTATEPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

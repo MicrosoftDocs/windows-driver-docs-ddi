@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 11A98BBE-2609-4E55-8988-42620EB15281
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: VhfCreate, hid.vhfcreate, VhfCreate method [Human Input Devices], vhf/VhfCreate
+ms.keywords: VhfCreate method [Human Input Devices], VhfCreate, hid.vhfcreate, vhf/VhfCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

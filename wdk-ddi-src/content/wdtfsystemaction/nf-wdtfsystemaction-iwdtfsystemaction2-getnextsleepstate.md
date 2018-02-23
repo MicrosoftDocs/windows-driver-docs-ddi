@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: B90D7C3D-0370-48A1-90DC-FC14477DA835
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState, IWDTFSystemAction2, IWDTFSystemAction2::GetNextSleepState, Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, GetNextSleepState method [Windows Device Testing Framework], GetNextSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_getnextsleepstate, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetNextSleepState method, GetNextSleepState
+ms.keywords: Microsoft::WDTF::IWDTFSystemAction2::GetNextSleepState, IWDTFSystemAction2::GetNextSleepState, GetNextSleepState, IWDTFSystemAction2, GetNextSleepState method [Windows Device Testing Framework], IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_getnextsleepstate, wdtfsystemaction/IWDTFSystemAction2::GetNextSleepState, IWDTFSystemAction2 interface [Windows Device Testing Framework], GetNextSleepState method, Microsoft.WDTF.IWDTFSystemAction2.GetNextSleepState, GetNextSleepState method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

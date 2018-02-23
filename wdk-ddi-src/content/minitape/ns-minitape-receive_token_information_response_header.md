@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 54168476-1C55-4343-858C-7FBA863D35D0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.receive_token_information_response_header, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure pointer [Storage Devices], scsi/PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, scsi/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure [Storage Devices], *PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
+ms.keywords: scsi/RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure pointer [Storage Devices], scsi/PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, *PRECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER structure [Storage Devices], storage.receive_token_information_response_header, RECEIVE_TOKEN_INFORMATION_RESPONSE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -91,11 +91,11 @@ All multibyte values are in big endian format. Prior to evaluation, these values
 
 ## -see-also
 
-<a href="..\storport\ns-storport-receive_token_information_header.md">RECEIVE_TOKEN_INFORMATION_HEADER</a>
-
-
-
 <a href="..\storport\ns-storport-populate_token_header.md">POPULATE_TOKEN_HEADER</a>
+
+
+
+<a href="..\storport\ns-storport-receive_token_information_header.md">RECEIVE_TOKEN_INFORMATION_HEADER</a>
 
 
 

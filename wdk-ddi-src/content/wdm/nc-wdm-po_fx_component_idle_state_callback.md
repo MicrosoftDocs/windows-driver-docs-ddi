@@ -40,7 +40,7 @@ apiname:
 -	ComponentIdleStateCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -163,19 +163,15 @@ The PO_FX_COMPONENT_IDLE_STATE_CALLBACK function type is defined in the Wdm.h he
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxcompleteidlestate.md">PoFxCompleteIdleState</a>
-
-
-
-<a href="..\wdm\nf-wdm-pofxcompleteidlestate.md">PoFxCompleteIdleState</a>
-
-
-
 <a href="..\wdm\nf-wdm-pofxsetcomponentlatency.md">PoFxSetComponentLatency</a>
+
+
+
+<a href="..\wdm\nf-wdm-pofxcompleteidlestate.md">PoFxCompleteIdleState</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 

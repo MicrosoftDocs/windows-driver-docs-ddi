@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8872AA79-1D54-4952-A45E-A2DB97730CA7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: EXT_SET_PARAMETERS, kernel.ext_set_parameters, wdm/PEXT_SET_PARAMETERS, *PKT2_SET_PARAMETERS, PEXT_SET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], wdm/EXT_SET_PARAMETERS, _EXT_SET_PARAMETERS_V0, EXT_SET_PARAMETERS structure [Kernel-Mode Driver Architecture], KT2_SET_PARAMETERS, PEXT_SET_PARAMETERS, *PEXT_SET_PARAMETERS
+ms.keywords: wdm/EXT_SET_PARAMETERS, EXT_SET_PARAMETERS, *PKT2_SET_PARAMETERS, *PEXT_SET_PARAMETERS, PEXT_SET_PARAMETERS structure pointer [Kernel-Mode Driver Architecture], EXT_SET_PARAMETERS structure [Kernel-Mode Driver Architecture], wdm/PEXT_SET_PARAMETERS, KT2_SET_PARAMETERS, _EXT_SET_PARAMETERS_V0, PEXT_SET_PARAMETERS, kernel.ext_set_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	EXT_SET_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PEXT_SET_PARAMETERS, EXT_SET_PARAMETERS"
+req.typenames: EXT_SET_PARAMETERS, *PEXT_SET_PARAMETERS
 req.product: Windows 10 or later.
 ---
 

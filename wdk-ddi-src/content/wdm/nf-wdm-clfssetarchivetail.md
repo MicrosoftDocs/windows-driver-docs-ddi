@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 58c1d222-72c5-4b40-9ae5-f633bac599f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, wdm/ClfsSetArchiveTail, ClfsSetArchiveTail, kernel.clfssetarchivetail
+ms.keywords: wdm/ClfsSetArchiveTail, Clfs_f5685e7e-3098-461d-aff1-807011c36526.xml, ClfsSetArchiveTail routine [Kernel-Mode Driver Architecture], kernel.clfssetarchivetail, ClfsSetArchiveTail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,15 +102,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog </a>
+
+
+
 <a href="..\wdm\nf-wdm-clfsadvancelogbase.md">ClfsAdvanceLogBase</a>
 
 
 
 <a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-clfssetendoflog.md">ClfsSetEndOfLog </a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a52d5995-1fb7-4b73-9d3f-c945e7219a49
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/LogoutFromTarget_IN, *PLogoutFromTarget_IN, LogoutFromTarget_IN structure [Storage Devices], LogoutFromTarget_IN, PLogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, PLogoutFromTarget_IN structure pointer [Storage Devices], _LogoutFromTarget_IN, storage.logoutfromtarget_in
+ms.keywords: PLogoutFromTarget_IN structure pointer [Storage Devices], *PLogoutFromTarget_IN, iscsiop/PLogoutFromTarget_IN, _LogoutFromTarget_IN, iscsiop/LogoutFromTarget_IN, LogoutFromTarget_IN, PLogoutFromTarget_IN, structs-iSCSI_759c2265-5518-4f45-8737-5cdfa4d73170.xml, storage.logoutfromtarget_in, LogoutFromTarget_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LogoutFromTarget_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PLogoutFromTarget_IN, LogoutFromTarget_IN"
+req.typenames: LogoutFromTarget_IN, *PLogoutFromTarget_IN
 ---
 
 # _LogoutFromTarget_IN structure
@@ -83,10 +83,6 @@ You must implement this method.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
 <a href="..\iscsiop\ns-iscsiop-_logoutfromtarget_out.md">LogoutFromTarget_OUT</a>
 
 
@@ -96,6 +92,10 @@ You must implement this method.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

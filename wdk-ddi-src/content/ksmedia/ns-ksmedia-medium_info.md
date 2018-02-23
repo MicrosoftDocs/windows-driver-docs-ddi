@@ -7,8 +7,8 @@ old-location: stream\medium_info.htm
 old-project: stream
 ms.assetid: 1dd7415d-bfbc-4dea-bac9-bc5b8531a47f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.medium_info, PMEDIUM_INFO structure pointer [Streaming Media Devices], MEDIUM_INFO structure [Streaming Media Devices], ksmedia/PMEDIUM_INFO, ksmedia/MEDIUM_INFO, MEDIUM_INFO, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml, *PMEDIUM_INFO, PMEDIUM_INFO
+ms.date: 2/22/2018
+ms.keywords: MEDIUM_INFO structure [Streaming Media Devices], *PMEDIUM_INFO, stream.medium_info, ksmedia/PMEDIUM_INFO, ksmedia/MEDIUM_INFO, MEDIUM_INFO, vidcapstruct_f83c29e1-51a8-4784-a785-4e5dc9956634.xml, PMEDIUM_INFO structure pointer [Streaming Media Devices], PMEDIUM_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MEDIUM_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PMEDIUM_INFO, MEDIUM_INFO"
+req.typenames: MEDIUM_INFO, *PMEDIUM_INFO
 ---
 
 # MEDIUM_INFO structure

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1f6c6a37-9510-47bc-b507-b3fd7477b432
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FEATURE_DATA_FIRMWARE_DATE, ntddmmc/PFEATURE_DATA_FIRMWARE_DATE, ntddmmc/FEATURE_DATA_FIRMWARE_DATE, storage.feature_data_firmware_date, *PFEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE structure [Storage Devices], PFEATURE_DATA_FIRMWARE_DATE, PFEATURE_DATA_FIRMWARE_DATE structure pointer [Storage Devices], structs-CD-ROM_5e7edafb-823d-4e78-a601-a8f29c62ee4e.xml, FEATURE_DATA_FIRMWARE_DATE"
+ms.keywords: FEATURE_DATA_FIRMWARE_DATE, PFEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE structure [Storage Devices], structs-CD-ROM_5e7edafb-823d-4e78-a601-a8f29c62ee4e.xml, storage.feature_data_firmware_date, _FEATURE_DATA_FIRMWARE_DATE, ntddmmc/PFEATURE_DATA_FIRMWARE_DATE, PFEATURE_DATA_FIRMWARE_DATE structure pointer [Storage Devices], *PFEATURE_DATA_FIRMWARE_DATE, ntddmmc/FEATURE_DATA_FIRMWARE_DATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_FIRMWARE_DATE
 product: Windows
 targetos: Windows
-req.typenames: "*PFEATURE_DATA_FIRMWARE_DATE, FEATURE_DATA_FIRMWARE_DATE"
+req.typenames: FEATURE_DATA_FIRMWARE_DATE, *PFEATURE_DATA_FIRMWARE_DATE
 ---
 
 # _FEATURE_DATA_FIRMWARE_DATE structure

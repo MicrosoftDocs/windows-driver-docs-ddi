@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 721ce7c3-070d-4486-aba8-9a6874721015
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_SCP_PARAM3, ntddrilapitypes/RILUICCCMDPARAMETERSPARAMMASK, ntddrilapitypes/RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_ALL, ntddrilapitypes/RIL_PARAM_SCP_PARAM2, RILUICCCMDPARAMETERSPARAMMASK, RIL_PARAM_SCP_PARAM3, ntddrilapitypes/RIL_PARAM_SCP_PARAM1, RIL_PARAM_SCP_PARAM1, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_SCP_PARAM2, netvista.riluicccmdparametersparammask
+ms.keywords: netvista.riluicccmdparametersparammask, RILUICCCMDPARAMETERSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_SCP_ALL, RIL_PARAM_SCP_PARAM1, ntddrilapitypes/RIL_PARAM_SCP_PARAM3, RIL_PARAM_SCP_PARAM3, RILUICCCMDPARAMETERSPARAMMASK, RIL_PARAM_SCP_PARAM2, ntddrilapitypes/RIL_PARAM_SCP_PARAM2, RIL_PARAM_SCP_ALL, ntddrilapitypes/RILUICCCMDPARAMETERSPARAMMASK, ntddrilapitypes/RIL_PARAM_SCP_PARAM1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

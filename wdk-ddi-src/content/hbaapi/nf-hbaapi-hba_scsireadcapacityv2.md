@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8347e1ef-1285-43a9-bea7-a9a59ec0dfd0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_ScsiReadCapacityV2 routine [Storage Devices], hbaapi/HBA_ScsiReadCapacityV2, fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml, storage.hba_scsireadcapacityv2, HBA_ScsiReadCapacityV2
+ms.keywords: HBA_ScsiReadCapacityV2 routine [Storage Devices], HBA_ScsiReadCapacityV2, fibreHBA_rtns_8ac08e6d-79aa-4eee-a352-aa8ff51ec85f.xml, hbaapi/HBA_ScsiReadCapacityV2, storage.hba_scsireadcapacityv2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

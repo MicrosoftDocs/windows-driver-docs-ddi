@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43c55364-1f73-4413-99fb-27c85600d7a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hba_getvendorlibraryattributes, hbaapi/HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes routine [Storage Devices], fibreHBA_rtns_d690dcf4-4ef6-4aea-80dc-846649ed3142.xml
+ms.keywords: fibreHBA_rtns_d690dcf4-4ef6-4aea-80dc-846649ed3142.xml, HBA_GetVendorLibraryAttributes, HBA_GetVendorLibraryAttributes routine [Storage Devices], hbaapi/HBA_GetVendorLibraryAttributes, storage.hba_getvendorlibraryattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,11 +106,11 @@ Microsoft supplies both libraries, so currently they return the same information
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_getnumberofadapters.md">HBA_GetNumberOfAdapters</a>
-
-
-
 <a href="..\hbaapi\ns-hbaapi-hba_libraryattributes.md">HBA_LibraryAttributes</a>
+
+
+
+<a href="..\hbaapi\nf-hbaapi-hba_getnumberofadapters.md">HBA_GetNumberOfAdapters</a>
 
 
 

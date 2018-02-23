@@ -4,10 +4,10 @@ title: IOCTL_GET_DEVICE_DESCRIPTOR
 author: windows-driver-content
 description: Returns vendor and device identifiers.
 old-location: image\ioctl_get_device_descriptor.htm
-old-project: Image
+old-project: image
 ms.assetid: a6946dd4-db72-477f-bf2c-958c363340a0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.ioctl_get_device_descriptor, IOCTL_GET_DEVICE_DESCRIPTOR control code [Imaging Devices], IOCTL_GET_DEVICE_DESCRIPTOR, usbscan/IOCTL_GET_DEVICE_DESCRIPTOR, stifnc_b84c2743-6548-40c7-8b97-4952867740ad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

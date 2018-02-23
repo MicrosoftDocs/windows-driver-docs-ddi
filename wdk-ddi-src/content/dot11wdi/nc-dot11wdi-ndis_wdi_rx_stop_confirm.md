@@ -40,7 +40,7 @@ apiname:
 -	NdisWdiRxStopConfirm
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # NDIS_WDI_RX_STOP_CONFIRM callback
@@ -93,7 +93,7 @@ This callback function does not return a value.
 
 
 
-<a href="https://msdn.microsoft.com/EEEA7181-4A24-4F40-8A44-65EC38D1A867">WDI RX path</a>
+<a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_rx_stop.md">MiniportWdiRxStop</a>
 
 
 

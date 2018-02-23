@@ -4,11 +4,11 @@ title: IDebugControl3::OutputDisassembly method
 author: windows-driver-content
 description: The OutputDisassembly method disassembles a processor instruction and sends the disassembly to the output callbacks.
 old-location: debugger\outputdisassembly.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 2a9944a4-3885-4e83-b20e-040cffcbf85b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugControl2::OutputDisassembly, IDebugControl3, IDebugControl2, IDebugControl, IDebugControl3::OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl2 interface, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, OutputDisassembly method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], OutputDisassembly method, dbgeng/IDebugControl::OutputDisassembly, IDebugControl::OutputDisassembly, IDebugControl2 interface [Windows Debugging], OutputDisassembly method, debugger.outputdisassembly, OutputDisassembly method [Windows Debugging], dbgeng/IDebugControl3::OutputDisassembly, IDebugControl interface [Windows Debugging], OutputDisassembly method, OutputDisassembly, OutputDisassembly method [Windows Debugging], IDebugControl3 interface, IDebugControl2::OutputDisassembly
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugControl2::OutputDisassembly, debugger.outputdisassembly, IDebugControl3 interface [Windows Debugging], OutputDisassembly method, IDebugControl3::OutputDisassembly, dbgeng/IDebugControl3::OutputDisassembly, OutputDisassembly method [Windows Debugging], OutputDisassembly method [Windows Debugging], IDebugControl2 interface, OutputDisassembly method [Windows Debugging], IDebugControl3 interface, IDebugControl::OutputDisassembly, IDebugControl_9f2641b6-ca40-4f1f-85e6-911bb0ab82f8.xml, IDebugControl, IDebugControl3, IDebugControl2, OutputDisassembly method [Windows Debugging], IDebugControl interface, IDebugControl2::OutputDisassembly, IDebugControl interface [Windows Debugging], OutputDisassembly method, OutputDisassembly, dbgeng/IDebugControl::OutputDisassembly, IDebugControl2 interface [Windows Debugging], OutputDisassembly method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -181,11 +181,7 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553216">OutputDisassemblyLines</a>
 
 
 
@@ -197,6 +193,10 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
@@ -205,5 +205,5 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::OutputDisassembly method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::OutputDisassembly method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: print\ifixeddocumentsequence.htm
 old-project: print
 ms.assetid: 8919e2d1-0c39-46b6-b06e-83fe61f67751
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.ifixeddocumentsequence, IFixedDocumentSequence interface [Print Devices], IFixedDocumentSequence interface [Print Devices], described, IFixedDocumentSequence, filterpipeline/IFixedDocumentSequence, filterpipeline_ed0de3e6-e4c7-43e6-a6cf-c16d3a086838.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -52,6 +52,13 @@ req.typenames: EXpsFontRestriction
 The <b>IFixedDocumentSequence</b> interface represents the fixed document sequence for an XPS document.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IFixedDocumentSequence</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IFixedDocumentSequence</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IFixedDocumentSequence</b> interface has these methods.
@@ -87,11 +94,5 @@ The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document 
 
 </td>
 </tr>
-</table>The <b>GetPrintTicket</b> method gets the print ticket object for the fixed document sequence.
-
-The <b>GetUri</b> method gets the URI of the fixed document sequence.
-
-The <b>SetPrintTicket</b> method inserts a print ticket into the fixed document sequence.
-
- 
+</table> 
 

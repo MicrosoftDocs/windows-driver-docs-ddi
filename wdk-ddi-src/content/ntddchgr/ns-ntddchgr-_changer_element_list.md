@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6e85eaa7-d622-4b05-9efd-c1b6b7789c03
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddchgr/PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST structure pointer [Storage Devices], storage.changer_element_list, _CHANGER_ELEMENT_LIST, ntddchgr/CHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST structure [Storage Devices], PCHANGER_ELEMENT_LIST, structs-changer_e1782d96-458d-49a5-9885-c853d835ba0a.xml, *PCHANGER_ELEMENT_LIST
+ms.keywords: storage.changer_element_list, PCHANGER_ELEMENT_LIST structure pointer [Storage Devices], ntddchgr/CHANGER_ELEMENT_LIST, structs-changer_e1782d96-458d-49a5-9885-c853d835ba0a.xml, CHANGER_ELEMENT_LIST structure [Storage Devices], *PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST, PCHANGER_ELEMENT_LIST, _CHANGER_ELEMENT_LIST, ntddchgr/PCHANGER_ELEMENT_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANGER_ELEMENT_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANGER_ELEMENT_LIST, CHANGER_ELEMENT_LIST"
+req.typenames: CHANGER_ELEMENT_LIST, *PCHANGER_ELEMENT_LIST
 ---
 
 # _CHANGER_ELEMENT_LIST structure
@@ -89,7 +89,7 @@ A changer class driver uses CHANGER_ELEMENT_LIST to indicate a range of elements
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
 
 
 
@@ -97,7 +97,7 @@ A changer class driver uses CHANGER_ELEMENT_LIST to indicate a range of elements
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
 
 

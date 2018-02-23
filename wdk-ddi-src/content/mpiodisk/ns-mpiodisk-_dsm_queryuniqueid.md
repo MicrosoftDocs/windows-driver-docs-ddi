@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 023390a1-e878-4f1f-a5c2-1545a6786aaa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PDSM_QueryUniqueId, _DSM_QueryUniqueId, mpiodisk/PDSM_QueryUniqueId, structs-scsibus_eb6e8cc6-4b6a-468f-a14c-7a11c827ef30.xml, DSM_QueryUniqueId structure [Storage Devices], PDSM_QueryUniqueId structure pointer [Storage Devices], storage.dsm_queryuniqueid, PDSM_QueryUniqueId, mpiodisk/DSM_QueryUniqueId, DSM_QueryUniqueId"
+ms.keywords: structs-scsibus_eb6e8cc6-4b6a-468f-a14c-7a11c827ef30.xml, PDSM_QueryUniqueId, PDSM_QueryUniqueId structure pointer [Storage Devices], _DSM_QueryUniqueId, DSM_QueryUniqueId structure [Storage Devices], storage.dsm_queryuniqueid, mpiodisk/DSM_QueryUniqueId, *PDSM_QueryUniqueId, mpiodisk/PDSM_QueryUniqueId, DSM_QueryUniqueId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: BA1D5AD2-E3E5-42CB-8E77-627B23078F80
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NtPowerInformation, wdm/NtPowerInformation, ZwPowerInformation, wdm/ZwPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture], kernel.zwpowerinformation, PlatformInformation
+ms.keywords: ZwPowerInformation, PlatformInformation, kernel.zwpowerinformation, wdm/ZwPowerInformation, wdm/NtPowerInformation, NtPowerInformation, ZwPowerInformation routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NtPowerInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE, SYSTEM_POWER_STATE"
+req.typenames: SYSTEM_POWER_STATE, *PSYSTEM_POWER_STATE
 ---
 
 # NtPowerInformation function
@@ -107,12 +107,12 @@ Size, in bytes, of the buffer at <i>InputBuffer</i>. The parameter must be set t
 
 ### -param OutputBuffer [out, optional]
 
-A pointer to an output buffer. The data type of this buffer depends on the information level requested in the <i>InformationLevel</i> parameter. For the <b>PlatformInformation</b> level, the only currently supported value, the <i>OutputBuffer </i> parameter is required and should be of the <a href="..\ntpoapi\ns-ntpoapi-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a> type.
+A pointer to an output buffer. The data type of this buffer depends on the information level requested in the <i>InformationLevel</i> parameter. For the <b>PlatformInformation</b> level, the only currently supported value, the <i>OutputBuffer </i> parameter is required and should be of the <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a> type.
 
 
 ### -param OutputBufferLength [in]
 
-Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. <i>PlatformInformation</i>, the only currently supported value, requires a buffer that is the size of a <a href="..\ntpoapi\ns-ntpoapi-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a> structure.
+Size, in bytes, of the output buffer. Depending on the information level requested, the buffer may be variably sized. <i>PlatformInformation</i>, the only currently supported value, requires a buffer that is the size of a <a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a> structure.
 
 
 ## -returns
@@ -200,7 +200,7 @@ NTSTATUS Result = NtPowerInformation(PlatformInformation, NULL, 0, &amp;Platform
 
 
 
-<a href="..\ntpoapi\ns-ntpoapi-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
+<a href="..\wdm\ns-wdm-_power_platform_information.md">POWER_PLATFORM_INFORMATION</a>
 
 
 

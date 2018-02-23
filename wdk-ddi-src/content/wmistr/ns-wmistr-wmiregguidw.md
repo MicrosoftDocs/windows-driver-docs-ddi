@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9f240ea-5689-4d33-8da7-b1cb7e66bc5b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.wmiregguid, WMIREGGUIDW structure [Kernel-Mode Driver Architecture], PWMIREGGUID, WMIREGGUID, *PWMIREGGUIDW, wmistr/PWMIREGGUID, wmistr/WMIREGGUID, WMIREGGUIDW, WMIREGGUID structure [Kernel-Mode Driver Architecture], PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture], kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml
+ms.keywords: WMIREGGUIDW structure [Kernel-Mode Driver Architecture], *PWMIREGGUIDW, kernel.wmiregguid, kstruct_d_1e7b2ada-5e56-42ed-bd0a-ec9bf25796f2.xml, WMIREGGUIDW, PWMIREGGUID, wmistr/PWMIREGGUID, WMIREGGUID, wmistr/WMIREGGUID, WMIREGGUID structure [Kernel-Mode Driver Architecture], PWMIREGGUID structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -189,11 +189,11 @@ A driver can register or update a block with either static or dynamic instance n
 
 ## -see-also
 
-<a href="..\wmistr\ns-wmistr-wmireginfow.md">WMIREGINFO</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-wmireginfow.md">WMIREGINFO</a>
 
 
 

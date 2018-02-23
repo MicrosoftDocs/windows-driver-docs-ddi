@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B6F8663C-3A13-45DA-80FE-CC8B9194D083
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.wdmlibiodisconnectinterruptex, IoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], WdmlibIoDisconnectInterruptEx, iointex/WdmlibIoDisconnectInterruptEx, iointex/IoDisconnectInterruptEx
+ms.keywords: WdmlibIoDisconnectInterruptEx, WdmlibIoDisconnectInterruptEx function [Kernel-Mode Driver Architecture], iointex/WdmlibIoDisconnectInterruptEx, kernel.wdmlibiodisconnectinterruptex, IoDisconnectInterruptEx, iointex/IoDisconnectInterruptEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,11 +93,11 @@ The driver should configure the device to issue interrupts only when these inter
 
 ## -see-also
 
-<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
-
-
-
 <a href="..\wdm\ns-wdm-_io_disconnect_interrupt_parameters.md">IO_DISCONNECT_INTERRUPT_PARAMETERS</a>
+
+
+
+<a href="..\iointex\nf-iointex-wdmlibioconnectinterruptex.md">WdmlibIoConnectInterruptEx</a>
 
 
 

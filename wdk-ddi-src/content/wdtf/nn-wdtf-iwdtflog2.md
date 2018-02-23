@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 Defines operations that enable the test case author to add to the WDTF test log.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFLOG2</b> interface inherits from the <a href="ebbff4bc-36b2-4861-9efa-ffa45e013eb5">IDispatch</a> interface. <b>IWDTFLOG2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFLOG2</b> interface has these methods.
@@ -97,15 +104,7 @@ Marks the start of a test case.
 
 </td>
 </tr>
-</table>Marks the end of a test case.
-
-Writes an error entry to the test case log.
-
-Writes an informational entry to the test case log.
-
-Marks the start of a test case.
-
- 
+</table> 
 
 
 ## -remarks

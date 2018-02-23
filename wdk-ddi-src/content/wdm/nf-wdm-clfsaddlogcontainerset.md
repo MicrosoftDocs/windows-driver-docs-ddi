@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 252dc455-e2d9-40db-83ea-a53e5ff8eda0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsAddLogContainerSet, wdm/ClfsAddLogContainerSet, Clfs_f112becb-a913-4d1a-8e58-d7365468be18.xml, kernel.clfsaddlogcontainerset, ClfsAddLogContainerSet routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/ClfsAddLogContainerSet, Clfs_f112becb-a913-4d1a-8e58-d7365468be18.xml, kernel.clfsaddlogcontainerset, ClfsAddLogContainerSet routine [Kernel-Mode Driver Architecture], ClfsAddLogContainerSet
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

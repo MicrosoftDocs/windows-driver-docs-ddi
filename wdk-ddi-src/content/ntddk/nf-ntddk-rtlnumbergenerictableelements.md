@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7dea199f-ef98-4f7b-a3e4-de52fc23c8ef
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlnumbergenerictableelements, RtlNumberGenericTableElements routine [Installable File System Drivers], RtlNumberGenericTableElements, rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml, ntddk/RtlNumberGenericTableElements
+ms.keywords: rtlref_f12988ba-01c3-4a34-8967-aafaf5b605f8.xml, ntddk/RtlNumberGenericTableElements, RtlNumberGenericTableElements routine [Installable File System Drivers], RtlNumberGenericTableElements, ifsk.rtlnumbergenerictableelements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlNumberGenericTableElements
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlNumberGenericTableElements function

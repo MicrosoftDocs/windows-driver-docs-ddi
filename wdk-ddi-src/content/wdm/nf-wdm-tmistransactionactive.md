@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0c9bf43d-9342-4d60-86d2-7388a4a80160
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TmIsTransactionActive, wdm/TmIsTransactionActive, ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], kernel.tmistransactionactive
+ms.keywords: kernel.tmistransactionactive, TmIsTransactionActive routine [Kernel-Mode Driver Architecture], ktm_ref_f2dfbc14-24c0-494b-bf54-506c9d2c1af4.xml, TmIsTransactionActive, wdm/TmIsTransactionActive
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ For more information about <b>TmIsTransactionActive</b>, and for information abo
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreatetransaction.md">ZwCreateTransaction</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 

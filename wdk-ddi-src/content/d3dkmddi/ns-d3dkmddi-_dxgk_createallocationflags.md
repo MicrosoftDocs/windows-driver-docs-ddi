@@ -7,8 +7,8 @@ old-location: display\dxgk_createallocationflags.htm
 old-project: display
 ms.assetid: 3c6c5515-855a-4016-a327-958959981f0f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, _DXGK_CREATEALLOCATIONFLAGS, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags
+ms.date: 2/22/2018
+ms.keywords: DXGK_CREATEALLOCATIONFLAGS, display.dxgk_createallocationflags, DmStructs_320b15bf-5664-4fb9-9126-2c063ef75467.xml, DXGK_CREATEALLOCATIONFLAGS structure [Display Devices], d3dkmddi/DXGK_CREATEALLOCATIONFLAGS, _DXGK_CREATEALLOCATIONFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,5 +100,5 @@ A member in the union that DXGK_CREATEALLOCATIONFLAGS contains that can hold a 3
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CREATEALLOCATIONFLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_CREATEALLOCATIONFLAGS structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

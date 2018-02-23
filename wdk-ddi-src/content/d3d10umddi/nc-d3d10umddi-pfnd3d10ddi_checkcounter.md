@@ -7,7 +7,7 @@ old-location: display\checkcounter.htm
 old-project: display
 ms.assetid: 592a5146-a2fe-41d1-854b-df27a97bd513
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.checkcounter, CheckCounter callback function [Display Devices], CheckCounter, PFND3D10DDI_CHECKCOUNTER, PFND3D10DDI_CHECKCOUNTER, d3d10umddi/CheckCounter, UserModeDisplayDriverDx10_Functions_450a0976-fc56-4a5a-8a01-9c9d1041b628.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	CheckCounter
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # PFND3D10DDI_CHECKCOUNTER callback
@@ -106,19 +106,14 @@ A pointer to a variable that receives the size, in bytes, of the NULL-terminated
  A pointer to a variable that receives the size, in bytes, of the NULL-terminated string that the <i>pDescription</i> parameter specifies. 
 
 
-#### - Query [in]
-
- A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
-
-
 #### - hDevice [in]
 
  A handle to the display device (graphics context).
 
 
-#### - pActiveCounters [out]
+#### - Query [in]
 
-A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
+ A <a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>-typed value that identifies the counter identifier that information is retrieved for.
 
 
 #### - pCounterType [out]
@@ -174,9 +169,9 @@ D3D10DDI_COUNTER_TYPE_UINT64
  
 
 
-#### - pDescription [out]
+#### - pActiveCounters [out]
 
-A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
+A pointer to a variable that receives the number of simultaneously active counters that are allocated for the creation of the counter identifier that <i>Query</i> identifies. 
 
 
 #### - pName [out]
@@ -187,6 +182,11 @@ A pointer that the driver returns a NULL-terminated string to that contains the 
 #### - pUnits [out]
 
 A pointer that the driver returns a NULL-terminated string to that contains the name of the units that the counter identifier measures. 
+
+
+#### - pDescription [out]
+
+A pointer that the driver returns a NULL-terminated string to that contains the description of what the counter identifier measures. 
 
 
 ## -returns
@@ -219,7 +219,7 @@ The driver's <b>CheckCounter</b> function cannot call the <a href="..\d3d10umddi
 
 
 
-<a href="..\d3d10umddi\ne-d3d10umddi-d3d10ddi_query.md">D3D10DDI_QUERY</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddi_devicefuncs.md">D3D10DDI_DEVICEFUNCS</a>
 
 
 
@@ -231,5 +231,5 @@ The driver's <b>CheckCounter</b> function cannot call the <a href="..\d3d10umddi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_CHECKCOUNTER callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PFND3D10DDI_CHECKCOUNTER callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

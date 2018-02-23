@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e5007381-2436-4eb6-85cd-7145361ab793
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PIO_INTERRUPT_MESSAGE_INFO_ENTRY structure pointer [Kernel-Mode Driver Architecture], kernel.io_interrupt_message_info_entry, IO_INTERRUPT_MESSAGE_INFO_ENTRY, _IO_INTERRUPT_MESSAGE_INFO_ENTRY, *PIO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY structure [Kernel-Mode Driver Architecture], wdm/PIO_INTERRUPT_MESSAGE_INFO_ENTRY, wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY, kstruct_b_eb31dbfa-458d-47c4-b1df-96c315bd3ff6.xml
+ms.keywords: IO_INTERRUPT_MESSAGE_INFO_ENTRY, wdm/IO_INTERRUPT_MESSAGE_INFO_ENTRY, PIO_INTERRUPT_MESSAGE_INFO_ENTRY structure pointer [Kernel-Mode Driver Architecture], PIO_INTERRUPT_MESSAGE_INFO_ENTRY, kstruct_b_eb31dbfa-458d-47c4-b1df-96c315bd3ff6.xml, kernel.io_interrupt_message_info_entry, wdm/PIO_INTERRUPT_MESSAGE_INFO_ENTRY, _IO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY structure [Kernel-Mode Driver Architecture], *PIO_INTERRUPT_MESSAGE_INFO_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IO_INTERRUPT_MESSAGE_INFO_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PIO_INTERRUPT_MESSAGE_INFO_ENTRY, IO_INTERRUPT_MESSAGE_INFO_ENTRY"
+req.typenames: IO_INTERRUPT_MESSAGE_INFO_ENTRY, *PIO_INTERRUPT_MESSAGE_INFO_ENTRY
 req.product: Windows 10 or later.
 ---
 
@@ -107,12 +107,12 @@ Specifies the device IRQL (DIRQL) for the interrupt.
 
 ### -field Mode
 
-Specifies a <a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a> value that determines whether the interrupt is level-sensitive or latched. 
+Specifies a <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> value that determines whether the interrupt is level-sensitive or latched. 
 
 
 ### -field Polarity
 
-Specifies a <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> value that determines whether the interrupt is active-high or active-low. 
+Specifies a <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> value that determines whether the interrupt is active-high or active-low. 
 
 
 ## -see-also

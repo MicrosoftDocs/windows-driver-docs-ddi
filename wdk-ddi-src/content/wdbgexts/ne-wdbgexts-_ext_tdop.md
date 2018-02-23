@@ -4,11 +4,11 @@ title: "_EXT_TDOP"
 author: windows-driver-content
 description: The EXT_TDOP enumeration is used in the Operation member of the EXT_TYPED_DATA structure to specify which suboperation the DEBUG_REQUEST_EXT_TYPED_DATA_ANSI Request operation will perform.
 old-location: debugger\ext_tdop.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 1793aaff-b0ac-4858-8a15-56eace87a09a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wdbgexts/EXT_TDOP_GET_TYPE_NAME, wdbgexts/EXT_TDOP_RELEASE, wdbgexts/EXT_TDOP_COPY, wdbgexts/EXT_TDOP_EVALUATE, wdbgexts/EXT_TDOP_HAS_FIELD, EXT_TDOP_GET_TYPE_NAME, EXT_TDOP, wdbgexts/EXT_TDOP_GET_POINTER_TO, wdbgexts/EXT_TDOP_SET_FROM_TYPE_ID_AND_U64, EXT_TDOP_OUTPUT_FULL_VALUE, wdbgexts/EXT_TDOP_OUTPUT_SIMPLE_VALUE, wdbgexts/EXT_TDOP_GET_ARRAY_ELEMENT, wdbgexts/EXT_TDOP_OUTPUT_TYPE_NAME, wdbgexts/EXT_TDOP_GET_FIELD_OFFSET, EXT_TDOP_SET_FROM_EXPR, wdbgexts/EXT_TDOP_OUTPUT_TYPE_DEFINITION, EXT_TDOP_SET_PTR_FROM_TYPE_ID_AND_U64, EXT_TDOP_GET_TYPE_SIZE, EXT_TDOP_COPY, wdbgexts/EXT_TDOP_GET_FIELD, wdbgexts/EXT_TDOP_SET_FROM_EXPR, debugger.ext_tdop, wdbgexts/EXT_TDOP, EXT_TDOP_GET_ARRAY_ELEMENT, wdbgexts/EXT_TDOP_GET_TYPE_SIZE, wdbgexts/EXT_TDOP_SET_PTR_FROM_TYPE_ID_AND_U64, EXT_TDOP_OUTPUT_SIMPLE_VALUE, EXT_TDOP enumeration [Windows Debugging], EXT_TDOP_GET_FIELD, EXT_TDOP_HAS_FIELD, Structures_77246150-309c-4646-82b2-ba9c75d9a2d4.xml, wdbgexts/EXT_TDOP_COUNT, wdbgexts/EXT_TDOP_GET_DEREFERENCE, EXT_TDOP_SET_FROM_U64_EXPR, EXT_TDOP_OUTPUT_TYPE_NAME, _EXT_TDOP, EXT_TDOP_RELEASE, EXT_TDOP_EVALUATE, EXT_TDOP_GET_FIELD_OFFSET, EXT_TDOP_GET_POINTER_TO, wdbgexts/ EXT_TDOP_SET_FROM_U64_EXPR, EXT_TDOP_OUTPUT_TYPE_DEFINITION, EXT_TDOP_GET_DEREFERENCE, EXT_TDOP_COUNT, wdbgexts/EXT_TDOP_OUTPUT_FULL_VALUE, EXT_TDOP_SET_FROM_TYPE_ID_AND_U64
+ms.date: 2/22/2018
+ms.keywords: EXT_TDOP_GET_TYPE_SIZE, wdbgexts/EXT_TDOP_GET_TYPE_NAME, wdbgexts/EXT_TDOP_GET_ARRAY_ELEMENT, wdbgexts/EXT_TDOP_RELEASE, EXT_TDOP_GET_FIELD_OFFSET, EXT_TDOP_RELEASE, EXT_TDOP_COUNT, EXT_TDOP_GET_ARRAY_ELEMENT, EXT_TDOP_GET_TYPE_NAME, EXT_TDOP, EXT_TDOP_SET_PTR_FROM_TYPE_ID_AND_U64, EXT_TDOP_COPY, wdbgexts/ EXT_TDOP_SET_FROM_U64_EXPR, wdbgexts/EXT_TDOP_OUTPUT_TYPE_DEFINITION, EXT_TDOP_SET_FROM_EXPR, EXT_TDOP_SET_FROM_U64_EXPR, wdbgexts/EXT_TDOP_OUTPUT_FULL_VALUE, wdbgexts/EXT_TDOP_GET_TYPE_SIZE, Structures_77246150-309c-4646-82b2-ba9c75d9a2d4.xml, wdbgexts/EXT_TDOP_OUTPUT_TYPE_NAME, wdbgexts/EXT_TDOP_GET_FIELD_OFFSET, wdbgexts/EXT_TDOP_GET_FIELD, EXT_TDOP_EVALUATE, wdbgexts/EXT_TDOP, EXT_TDOP_SET_FROM_TYPE_ID_AND_U64, wdbgexts/EXT_TDOP_SET_FROM_TYPE_ID_AND_U64, EXT_TDOP_GET_DEREFERENCE, EXT_TDOP_OUTPUT_TYPE_DEFINITION, EXT_TDOP_HAS_FIELD, debugger.ext_tdop, EXT_TDOP_OUTPUT_SIMPLE_VALUE, wdbgexts/EXT_TDOP_HAS_FIELD, EXT_TDOP_OUTPUT_TYPE_NAME, _EXT_TDOP, wdbgexts/EXT_TDOP_GET_DEREFERENCE, EXT_TDOP enumeration [Windows Debugging], wdbgexts/EXT_TDOP_GET_POINTER_TO, EXT_TDOP_OUTPUT_FULL_VALUE, wdbgexts/EXT_TDOP_SET_PTR_FROM_TYPE_ID_AND_U64, wdbgexts/EXT_TDOP_SET_FROM_EXPR, EXT_TDOP_GET_POINTER_TO, wdbgexts/EXT_TDOP_COUNT, EXT_TDOP_GET_FIELD, wdbgexts/EXT_TDOP_EVALUATE, wdbgexts/EXT_TDOP_COPY, wdbgexts/EXT_TDOP_OUTPUT_SIMPLE_VALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -191,11 +191,11 @@ Does not specify an operation. Instead, it represents the number of suboperation
 
 ## -see-also
 
-<a href="..\wdbgexts\ns-wdbgexts-_ext_typed_data.md">EXT_TYPED_DATA</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+
+
+
+<a href="..\wdbgexts\ns-wdbgexts-_ext_typed_data.md">EXT_TYPED_DATA</a>
 
 
 
@@ -207,5 +207,5 @@ Does not specify an operation. Instead, it represents the number of suboperation
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20EXT_TDOP enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20EXT_TDOP enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

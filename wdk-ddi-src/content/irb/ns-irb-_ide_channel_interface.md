@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0a742dc2-fa1a-4b93-a136-52f4571bde22
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-ATA_8641c5e5-fe37-4576-a500-1f6a2cdbb23b.xml, *PIDE_CHANNEL_INTERFACE, storage.ide_channel_interface, irb/IDE_CHANNEL_INTERFACE, irb/PIDE_CHANNEL_INTERFACE, _IDE_CHANNEL_INTERFACE, IDE_CHANNEL_INTERFACE structure [Storage Devices], IDE_CHANNEL_INTERFACE, PIDE_CHANNEL_INTERFACE, PIDE_CHANNEL_INTERFACE structure pointer [Storage Devices]
+ms.keywords: irb/IDE_CHANNEL_INTERFACE, IDE_CHANNEL_INTERFACE structure [Storage Devices], storage.ide_channel_interface, IDE_CHANNEL_INTERFACE, irb/PIDE_CHANNEL_INTERFACE, PIDE_CHANNEL_INTERFACE structure pointer [Storage Devices], structs-ATA_8641c5e5-fe37-4576-a500-1f6a2cdbb23b.xml, PIDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE, _IDE_CHANNEL_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDE_CHANNEL_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PIDE_CHANNEL_INTERFACE, IDE_CHANNEL_INTERFACE"
+req.typenames: IDE_CHANNEL_INTERFACE, *PIDE_CHANNEL_INTERFACE
 ---
 
 # _IDE_CHANNEL_INTERFACE structure
@@ -118,7 +118,7 @@ Reserved for future use. The miniport driver must not use this field.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
 
 
 
@@ -134,7 +134,7 @@ Reserved for future use. The miniport driver must not use this field.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557462">IdeHwBuildIo</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
 
 
 

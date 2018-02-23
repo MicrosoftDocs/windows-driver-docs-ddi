@@ -7,7 +7,7 @@ old-location: audio\iportwavecyclic.htm
 old-project: audio
 ms.assetid: de241c4c-2012-4d57-b069-d169b1e0aec3
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.iportwavecyclic, IPortWaveCyclic interface [Audio Devices], IPortWaveCyclic interface [Audio Devices], described, IPortWaveCyclic, portcls/IPortWaveCyclic, audmp-routines_079bd398-d9f2-4a35-9ee0-6ced8fecdeb4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

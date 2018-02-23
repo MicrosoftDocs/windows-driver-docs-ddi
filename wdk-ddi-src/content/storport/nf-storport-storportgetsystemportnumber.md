@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: D1205C85-6F23-4D08-A146-2FA8C00FD6E9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortGetSystemPortNumber, StorPortGetSystemPortNumber, StorPortGetSystemPortNumber routine [Storage Devices], storage.storportgetsystemportnumber
+ms.keywords: StorPortGetSystemPortNumber, storport/StorPortGetSystemPortNumber, storage.storportgetsystemportnumber, StorPortGetSystemPortNumber routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ A pointer to the hardware device extension for the host bus adapter (HBA).
 
 ### -param Address [in, out]
 
-A pointer to a storage address structure formatted as <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. On return, the <b>Port</b> member of this structure will contain the port value assigned to the adapter.
+A pointer to a storage address structure formatted as <a href="..\minitape\ns-minitape-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. On return, the <b>Port</b> member of this structure will contain the port value assigned to the adapter.
 
 
 ## -returns
@@ -137,18 +137,18 @@ The <b>Type</b> member of <i>Address</i> is not <b>STOR_ADDRESS_TYPE_BTL8</b>.
 
 
 
-The address structure pointed to by <i>Address</i> is allocated and formatted as <a href="..\storport\ns-storport-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. The <b>Type</b> member of <i>Address</i> must be set to <b>STOR_ADDRESS_TYPE_BTL8</b> and the <b>Length</b> member <i>Address</i> must be greater than or equal to <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
+The address structure pointed to by <i>Address</i> is allocated and formatted as <a href="..\minitape\ns-minitape-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>. The <b>Type</b> member of <i>Address</i> must be set to <b>STOR_ADDRESS_TYPE_BTL8</b> and the <b>Length</b> member <i>Address</i> must be greater than or equal to <b>STOR_ADDR_BTL8_ADDRESS_LENGTH</b>.
 
 
 
 
 ## -see-also
 
-<a href="..\scsi\ns-scsi-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
+<a href="..\minitape\ns-minitape-_stor_address.md">STOR_ADDRESS</a>
 
 
 
-<a href="..\scsi\ns-scsi-_stor_address.md">STOR_ADDRESS</a>
+<a href="..\minitape\ns-minitape-_stor_addr_btl8.md">STOR_ADDR_BTL8</a>
 
 
 

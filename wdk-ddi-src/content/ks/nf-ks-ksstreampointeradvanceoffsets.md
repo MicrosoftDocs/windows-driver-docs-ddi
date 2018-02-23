@@ -7,8 +7,8 @@ old-location: stream\ksstreampointeradvanceoffsets.htm
 old-project: stream
 ms.assetid: 0377371b-b755-4473-a449-9a85e1ca456c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, KsStreamPointerAdvanceOffsets, stream.ksstreampointeradvanceoffsets, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], ks/KsStreamPointerAdvanceOffsets
+ms.date: 2/22/2018
+ms.keywords: avfunc_31a73e93-c2b5-4867-9bb1-40090d0ea07e.xml, KsStreamPointerAdvanceOffsets function [Streaming Media Devices], stream.ksstreampointeradvanceoffsets, KsStreamPointerAdvanceOffsets, ks/KsStreamPointerAdvanceOffsets
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -119,10 +119,6 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
-
-
-
 <a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
 
 
@@ -131,7 +127,11 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
 
 
-<a href="..\ks\nf-ks-ksstreampointerlock.md">KsStreamPointerLock</a>
+<a href="..\ks\nf-ks-ksstreampointeradvanceoffsetsandunlock.md">KsStreamPointerAdvanceOffsetsAndUnlock</a>
+
+
+
+<a href="..\ks\nf-ks-ksstreampointerunlock.md">KsStreamPointerUnlock</a>
 
 
 
@@ -139,5 +139,5 @@ Also see <a href="https://msdn.microsoft.com/4bac68a0-34d2-431a-9ed9-8a42751a736
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerAdvanceOffsets function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsStreamPointerAdvanceOffsets function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

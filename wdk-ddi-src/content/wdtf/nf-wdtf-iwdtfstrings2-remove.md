@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: cd32b54a-57e0-496c-b18c-84a6c75d8820
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdtf/IWDTFStrings2::Remove, IWDTFStrings2 interface [Windows Device Testing Framework], Remove method, IWDTFStrings2::Remove, dtf.iwdtfstrings2_remove, Remove method [Windows Device Testing Framework], IWDTFStrings2 interface, Microsoft::WDTF::IWDTFStrings2::Remove, Remove, Remove method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFStrings2.Remove, IWDTFStrings2
+ms.keywords: IWDTFStrings2 interface [Windows Device Testing Framework], Remove method, Microsoft::WDTF::IWDTFStrings2::Remove, wdtf/IWDTFStrings2::Remove, IWDTFStrings2::Remove, dtf.iwdtfstrings2_remove, Remove, Microsoft.WDTF.IWDTFStrings2.Remove, Remove method [Windows Device Testing Framework], IWDTFStrings2 interface, IWDTFStrings2, Remove method [Windows Device Testing Framework]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

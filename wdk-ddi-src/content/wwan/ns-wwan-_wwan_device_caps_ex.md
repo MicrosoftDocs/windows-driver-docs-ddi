@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 91F62BFF-C26A-422A-B138-1E8D9A5146B3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.wwan_device_caps_ex, _WWAN_DEVICE_CAPS_EX, *PWWAN_DEVICE_CAPS_EX, wwan/WWAN_DEVICE_CAPS_EX, WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_CAPS_EX, wwan/PWWAN_DEVICE_CAPS_EX, PWWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], WWAN_DEVICE_CAPS_EX
+ms.keywords: "_WWAN_DEVICE_CAPS_EX, netvista.wwan_device_caps_ex, WWAN_DEVICE_CAPS_EX, wwan/PWWAN_DEVICE_CAPS_EX, wwan/WWAN_DEVICE_CAPS_EX, WWAN_DEVICE_CAPS_EX structure [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_CAPS_EX structure pointer [Network Drivers Starting with Windows Vista], PWWAN_DEVICE_CAPS_EX, *PWWAN_DEVICE_CAPS_EX"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1126,7 +1126,7 @@ For CDMA-based devices, only CDMA-related data services must be specified. For e
 
 
 
-<a href="https://msdn.microsoft.com/BE664B41-3FE7-4E93-8739-12BD2F0AE5B8">OID_WWAN_DEVICE_CAPS_EX</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_caps_ex.md">NDIS_WWAN_DEVICE_CAPS_EX</a>
 
 
 

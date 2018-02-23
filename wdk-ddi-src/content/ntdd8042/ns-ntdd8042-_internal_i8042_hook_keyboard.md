@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 7a70f6e1-cf3b-4158-97f2-39f62a1d51ae
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PINTERNAL_I8042_HOOK_KEYBOARD structure pointer [Human Input Devices], INTERNAL_I8042_HOOK_KEYBOARD, PINTERNAL_I8042_HOOK_KEYBOARD, hid.internal_i8042_hook_keyboard, i8042ref_c61fafd5-75ed-484b-8f5a-9e5e526059af.xml, *PINTERNAL_I8042_HOOK_KEYBOARD, ntdd8042/PINTERNAL_I8042_HOOK_KEYBOARD, _INTERNAL_I8042_HOOK_KEYBOARD, INTERNAL_I8042_HOOK_KEYBOARD structure [Human Input Devices], ntdd8042/INTERNAL_I8042_HOOK_KEYBOARD
+ms.keywords: PINTERNAL_I8042_HOOK_KEYBOARD structure pointer [Human Input Devices], PINTERNAL_I8042_HOOK_KEYBOARD, *PINTERNAL_I8042_HOOK_KEYBOARD, INTERNAL_I8042_HOOK_KEYBOARD structure [Human Input Devices], INTERNAL_I8042_HOOK_KEYBOARD, i8042ref_c61fafd5-75ed-484b-8f5a-9e5e526059af.xml, ntdd8042/PINTERNAL_I8042_HOOK_KEYBOARD, _INTERNAL_I8042_HOOK_KEYBOARD, hid.internal_i8042_hook_keyboard, ntdd8042/INTERNAL_I8042_HOOK_KEYBOARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	INTERNAL_I8042_HOOK_KEYBOARD
 product: Windows
 targetos: Windows
-req.typenames: "*PINTERNAL_I8042_HOOK_KEYBOARD, INTERNAL_I8042_HOOK_KEYBOARD"
+req.typenames: INTERNAL_I8042_HOOK_KEYBOARD, *PINTERNAL_I8042_HOOK_KEYBOARD
 ---
 
 # _INTERNAL_I8042_HOOK_KEYBOARD structure
@@ -117,7 +117,7 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md">PI8042_ISR_WRITE_PORT</a>
+<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
 
 
 
@@ -125,11 +125,7 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
-
-
-
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
+<a href="https://msdn.microsoft.com/1ea0ce84-f3e3-48af-8015-66fc35c17129">KbFilter_InitializationRoutine</a>
 
 
 
@@ -137,7 +133,11 @@ This structure is only used with an <a href="..\ntdd8042\ni-ntdd8042-ioctl_inter
 
 
 
-<a href="..\ntdd8042\ni-ntdd8042-ioctl_internal_i8042_hook_keyboard.md">IOCTL_INTERNAL_I8042_HOOK_KEYBOARD</a>
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_isr_write_port.md">PI8042_ISR_WRITE_PORT</a>
+
+
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_keyboard_isr.md">PI8042_KEYBOARD_ISR</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: AEE10756-7301-4B55-82A5-27CA595854EA
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WppRecorderLogDelete, imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], devtest.wpprecorderlogdelete, wpprecorder/imp_WppRecorderLogDelete
+ms.keywords: wpprecorder/imp_WppRecorderLogDelete, imp_WppRecorderLogDelete function [Driver Development Tools], devtest.wpprecorderlogdelete, imp_WppRecorderLogDelete, WppRecorderLogDelete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	imp_WppRecorderLogDelete
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

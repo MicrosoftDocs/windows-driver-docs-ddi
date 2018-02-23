@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f7a08e0e-cbb1-4ec5-96c6-dade9d298d0a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SendSRL_OUT, PSendSRL_OUT, hbapiwmi/PSendSRL_OUT, SendSRL_OUT structure [Storage Devices], PSendSRL_OUT structure pointer [Storage Devices], structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml, *PSendSRL_OUT, hbapiwmi/SendSRL_OUT, _SendSRL_OUT, storage.sendsrl_out
+ms.keywords: "_SendSRL_OUT, SendSRL_OUT, *PSendSRL_OUT, SendSRL_OUT structure [Storage Devices], storage.sendsrl_out, hbapiwmi/SendSRL_OUT, hbapiwmi/PSendSRL_OUT, PSendSRL_OUT, PSendSRL_OUT structure pointer [Storage Devices], structs-Fibre_4cef4091-719d-457e-aeca-d3ab10b23344.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendSRL_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSendSRL_OUT, SendSRL_OUT"
+req.typenames: SendSRL_OUT, *PSendSRL_OUT
 ---
 
 # _SendSRL_OUT structure

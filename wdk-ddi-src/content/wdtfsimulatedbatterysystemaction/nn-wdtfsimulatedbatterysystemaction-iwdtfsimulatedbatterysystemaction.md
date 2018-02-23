@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 IWDTFSimulatedBatterySystemAction Interface
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimulatedBatterySystemAction</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFSimulatedBatterySystemAction</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFSimulatedBatterySystemAction</b> interface has these methods.
@@ -124,19 +131,5 @@ Sets the simulated battery status to DC power.
 
 </td>
 </tr>
-</table>Disables real batteries if they are present in the system.
-
-Disables the simulated battery.
-
-Enables real batteries if they are present in the system.
-
-Enables the simulated battery.
-
-Sets the charge percentage reported to the OS by the simulated battery.
-
-Sets the simulated battery status to AC power.
-
-Sets the simulated battery status to DC power.
-
- 
+</table> 
 

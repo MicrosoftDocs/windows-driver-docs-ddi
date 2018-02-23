@@ -7,8 +7,8 @@ old-location: display\dxgkarg_validateupdateallocproperty.htm
 old-project: display
 ms.assetid: EC9654B8-06AA-43C8-A159-F176BDE4E015
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], DXGKARG_VALIDATEUPDATEALLOCPROPERTY, display.dxgkarg_validateupdateallocproperty, _DXGKARG_VALIDATEUPDATEALLOCPROPERTY, d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY
+ms.date: 2/22/2018
+ms.keywords: "_DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY structure [Display Devices], display.dxgkarg_validateupdateallocproperty, d3dkmddi/DXGKARG_VALIDATEUPDATEALLOCPROPERTY, DXGKARG_VALIDATEUPDATEALLOCPROPERTY"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

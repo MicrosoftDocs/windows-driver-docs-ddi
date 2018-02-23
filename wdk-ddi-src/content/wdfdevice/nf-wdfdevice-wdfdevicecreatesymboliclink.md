@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c22035a2-8ceb-42e9-9d54-8997ce0dd8da
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceCreateSymbolicLink, wdfdevice/WdfDeviceCreateSymbolicLink, wdf.wdfdevicecreatesymboliclink, DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, WdfDeviceCreateSymbolicLink method, kmdf.wdfdevicecreatesymboliclink
+ms.keywords: WdfDeviceCreateSymbolicLink method, wdf.wdfdevicecreatesymboliclink, wdfdevice/WdfDeviceCreateSymbolicLink, DFDeviceObjectGeneralRef_f970bbdf-21d6-497c-abc1-84456c95dc79.xml, kmdf.wdfdevicecreatesymboliclink, WdfDeviceCreateSymbolicLink
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

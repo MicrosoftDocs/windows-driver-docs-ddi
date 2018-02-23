@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: D79FD160-1A03-43F0-B9AB-D74C6176565A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ExReleaseSpinLockShared, kernel.exreleasespinlockshared_, ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], ExReleaseSpinLockShared
+ms.keywords: ExReleaseSpinLockShared routine [Kernel-Mode Driver Architecture], kernel.exreleasespinlockshared_, wdm/ExReleaseSpinLockShared, ExReleaseSpinLockShared
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 26acd4ce-b5e8-405a-bc9f-b08627f4830f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: atartns_09e1e2b6-ad88-4af7-9623-f9e441e491cb.xml, AtaPortWriteRegisterUshort, irb/AtaPortWriteRegisterUshort, AtaPortWriteRegisterUshort routine [Storage Devices], storage.ataportwriteregisterushort
+ms.keywords: AtaPortWriteRegisterUshort, irb/AtaPortWriteRegisterUshort, AtaPortWriteRegisterUshort routine [Storage Devices], storage.ataportwriteregisterushort, atartns_09e1e2b6-ad88-4af7-9623-f9e441e491cb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,7 +92,7 @@ None
 
 ## -see-also
 
-<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
+<a href="..\irb\nf-irb-ataportwriteregisterulong.md">AtaPortWriteRegisterUlong</a>
 
 
 
@@ -100,7 +100,7 @@ None
 
 
 
-<a href="..\irb\nf-irb-ataportwriteregisterulong.md">AtaPortWriteRegisterUlong</a>
+<a href="..\irb\nf-irb-ataportgetdevicebase.md">AtaPortGetDeviceBase</a>
 
 
 

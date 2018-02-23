@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 524150d8-d4a7-4b61-89c4-0074c938559b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiwmi/PSCSIWMI_REQUEST_CONTEXT, storage.scsiwmi_request_context, scsiwmi/SCSIWMI_REQUEST_CONTEXT, PSCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT structure [Storage Devices], *PSCSIWMI_REQUEST_CONTEXT, structs-scsibus_3323f388-8dc7-4723-bc2c-7822ed622ccd.xml, PSCSIWMI_REQUEST_CONTEXT structure pointer [Storage Devices]
+ms.keywords: PSCSIWMI_REQUEST_CONTEXT structure pointer [Storage Devices], structs-scsibus_3323f388-8dc7-4723-bc2c-7822ed622ccd.xml, SCSIWMI_REQUEST_CONTEXT structure [Storage Devices], PSCSIWMI_REQUEST_CONTEXT, scsiwmi/SCSIWMI_REQUEST_CONTEXT, storage.scsiwmi_request_context, scsiwmi/PSCSIWMI_REQUEST_CONTEXT, *PSCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSIWMI_REQUEST_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: "*PSCSIWMI_REQUEST_CONTEXT, SCSIWMI_REQUEST_CONTEXT"
+req.typenames: SCSIWMI_REQUEST_CONTEXT, *PSCSIWMI_REQUEST_CONTEXT
 req.product: Windows 10 or later.
 ---
 
@@ -136,7 +136,7 @@ A request context must remain valid throughout the processing of an SRB. If the 
 
 
 
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmipostprocess.md">ScsiPortWmiPostProcess</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmidispatchfunction.md">ScsiPortWmiDispatchFunction</a>
 
 
 

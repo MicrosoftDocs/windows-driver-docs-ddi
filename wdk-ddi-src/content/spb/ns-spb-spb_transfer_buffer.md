@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: E9C5B866-1EB0-4043-B22F-DF2F4CFAE64C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SPB_TRANSFER_BUFFER structure [Buses], SPB.spb_transfer_buffer, spb/SPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], spb/PSPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
+ms.keywords: PSPB_TRANSFER_BUFFER, PSPB_TRANSFER_BUFFER structure pointer [Buses], spb/SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER, SPB.spb_transfer_buffer, SPB_TRANSFER_BUFFER structure [Buses], spb/PSPB_TRANSFER_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SPB_TRANSFER_BUFFER
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_BUFFER, SPB_TRANSFER_BUFFER"
+req.typenames: SPB_TRANSFER_BUFFER, *PSPB_TRANSFER_BUFFER
 req.product: Windows 10 or later.
 ---
 

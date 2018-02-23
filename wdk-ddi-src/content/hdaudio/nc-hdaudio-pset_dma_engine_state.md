@@ -7,7 +7,7 @@ old-location: audio\setdmaenginestate.htm
 old-project: audio
 ms.assetid: 05cfb827-e143-4d77-b378-e02dd381e429
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: audio.setdmaenginestate, SetDmaEngineState callback function [Audio Devices], SetDmaEngineState, PSET_DMA_ENGINE_STATE, PSET_DMA_ENGINE_STATE, hdaudio/SetDmaEngineState, aud-prop2_a1455dc1-3ed9-43c3-a5b6-af321c26eefe.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	SetDmaEngineState
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
+req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
 ---
 
 # PSET_DMA_ENGINE_STATE callback
@@ -95,16 +95,6 @@ Specifies the context value from the <b>Context</b> member of the <a href="..\hd
 
 
 
-#### - handles [in]
-
-Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
-
-
-#### - numberOfHandles [in]
-
-Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
-
-
 #### - streamState [in]
 
 Specifies the new stream state. Set this parameter to one of the following HDAUDIO_STREAM_STATE enumeration values:
@@ -128,6 +118,16 @@ Specifies the new stream state. Set this parameter to one of the following HDAUD
 </li>
 </ul>
 In the current implementation, <b>PauseState</b> and <b>StopState</b> represent the same hardware state.
+
+
+#### - numberOfHandles [in]
+
+Specifies the number of handles in the <i>handles</i> array. Set this parameter to a nonzero value.
+
+
+#### - handles [in]
+
+Pointer to an array of handles to DMA engines. Specify a non-<b>NULL</b> value for this parameter.
 
 
 ## -returns
@@ -219,19 +219,7 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 ## -see-also
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536720">IMiniportWaveCyclicStream::SetState</a>
+<a href="..\hdaudio\nc-hdaudio-pallocate_dma_buffer.md">AllocateDmaBuffer</a>
 
 
 
@@ -243,9 +231,21 @@ A WDM audio driver calls this routine during a call to its <b>SetState</b> metho
 
 
 
- 
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536720">IMiniportWaveCyclicStream::SetState</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface.md">HDAUDIO_BUS_INTERFACE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PSET_DMA_ENGINE_STATE callback function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PSET_DMA_ENGINE_STATE callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7b697241-6411-4fb0-b633-502233f2d155
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/PSetGenerationalGuid_OUT, SetGenerationalGuid_OUT, _SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT, PSetGenerationalGuid_OUT, structs-iSCSI_80d71c4a-f542-4b19-9bbe-b1e8e7cc21cd.xml, storage.setgenerationalguid_out, PSetGenerationalGuid_OUT structure pointer [Storage Devices], iscsiop/SetGenerationalGuid_OUT, SetGenerationalGuid_OUT structure [Storage Devices]
+ms.keywords: "*PSetGenerationalGuid_OUT, iscsiop/SetGenerationalGuid_OUT, structs-iSCSI_80d71c4a-f542-4b19-9bbe-b1e8e7cc21cd.xml, iscsiop/PSetGenerationalGuid_OUT, PSetGenerationalGuid_OUT, storage.setgenerationalguid_out, SetGenerationalGuid_OUT structure [Storage Devices], SetGenerationalGuid_OUT, PSetGenerationalGuid_OUT structure pointer [Storage Devices], _SetGenerationalGuid_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetGenerationalGuid_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSetGenerationalGuid_OUT, SetGenerationalGuid_OUT"
+req.typenames: SetGenerationalGuid_OUT, *PSetGenerationalGuid_OUT
 ---
 
 # _SetGenerationalGuid_OUT structure

@@ -7,8 +7,8 @@ old-location: stream\ksproperty_service.htm
 old-project: stream
 ms.assetid: 771027AA-E64D-4AC8-9C52-D1F96A761FAD
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksproperty_service, ksi/KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE enumeration [Streaming Media Devices], ksi/KSPROPERTY_SERVICE_MERIT, KSPROPERTY_SERVICE_MERIT, KSPROPERTY_SERVICE, ksi/KSPROPERTY_SERVICE, KSPROPERTY_SERVICE_BUILDCACHE
+ms.date: 2/22/2018
+ms.keywords: stream.ksproperty_service, ksi/KSPROPERTY_SERVICE, ksi/KSPROPERTY_SERVICE_MERIT, ksi/KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE enumeration [Streaming Media Devices], KSPROPERTY_SERVICE_MERIT, KSPROPERTY_SERVICE_BUILDCACHE, KSPROPERTY_SERVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_msr_deauthenticate_device.htm
 old-project: pos
 ms.assetid: 796ee8e7-693f-41dd-ad09-cb3c21779ab9
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.ioctl_point_of_service_msr_deauthenticate_device, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE control code, IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_DEAUTHENTICATE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

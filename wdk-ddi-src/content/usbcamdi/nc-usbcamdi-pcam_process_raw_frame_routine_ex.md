@@ -7,7 +7,7 @@ old-location: stream\camprocessrawvideoframeex.htm
 old-project: stream
 ms.assetid: 07b0d1ea-c099-474e-8dc8-cddec44836e2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.camprocessrawvideoframeex, CamProcessRawVideoFrameEx, CamProcessRawVideoFrameEx routine [Streaming Media Devices], CamProcessRawVideoFrameEx, PCAM_PROCESS_RAW_FRAME_ROUTINE_EX, PCAM_PROCESS_RAW_FRAME_ROUTINE_EX, usbcamdi/CamProcessRawVideoFrameEx, usbcmdpr_7ca6e89a-089c-4cf0-83e3-6324357a8566.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

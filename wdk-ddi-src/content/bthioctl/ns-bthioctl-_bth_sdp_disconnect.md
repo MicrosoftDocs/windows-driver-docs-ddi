@@ -8,7 +8,7 @@ old-project: bltooth
 ms.assetid: d0466569-7c9d-40d2-8794-b1d877a52458
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: BTH_SDP_DISCONNECT, bthioctl/PBTH_SDP_DISCONNECT, bthioctl/BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT structure [Bluetooth Devices], _BTH_SDP_DISCONNECT, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], PBTH_SDP_DISCONNECT, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, bltooth.bth_sdp_disconnect, *PBTH_SDP_DISCONNECT
+ms.keywords: bltooth.bth_sdp_disconnect, PBTH_SDP_DISCONNECT structure pointer [Bluetooth Devices], bthioctl/PBTH_SDP_DISCONNECT, bth_structs_049df802-3bad-49b0-b80e-f3b0a1579b72.xml, PBTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT, _BTH_SDP_DISCONNECT, bthioctl/BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_SDP_DISCONNECT
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_SDP_DISCONNECT, BTH_SDP_DISCONNECT"
+req.typenames: BTH_SDP_DISCONNECT, *PBTH_SDP_DISCONNECT
 ---
 
 # _BTH_SDP_DISCONNECT structure
@@ -88,11 +88,11 @@ A handle for the SDP connection on the remote server to terminate. This should b
 
 ## -see-also
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
-
-
-
 <a href="..\bthioctl\ns-bthioctl-_bth_sdp_connect.md">BTH_SDP_CONNECT</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_connect.md">IOCTL_BTH_SDP_CONNECT</a>
 
 
 

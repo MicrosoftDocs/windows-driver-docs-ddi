@@ -7,8 +7,8 @@ old-location: display\d3dwddm2_0ddi_devicefuncs.htm
 old-project: display
 ms.assetid: 9A41512A-91C4-4053-9C60-5B485E93D14B
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3dwddm2_0ddi_devicefuncs, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS
+ms.date: 2/22/2018
+ms.keywords: display.d3dwddm2_0ddi_devicefuncs, d3d10umddi/D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS structure [Display Devices], D3DWDDM2_0DDI_DEVICEFUNCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3DWDDM2_0DDI_DEVICEFUNCS
 product: Windows
 targetos: Windows
-req.typenames: D3DWDDM2_0DDI_DEVICEFUNCS
+req.typenames: D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS, D3DWDDM2_0DDI_DEVICEFUNCS
 ---
 
 # D3DWDDM2_0DDI_DEVICEFUNCS structure

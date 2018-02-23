@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: E95AC8E6-222A-4C88-8EBD-6BD7F22B9F18
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: UnmapIoSpace, UnmapIoSpace method, IWDFDevice3 interface, UnmapIoSpace method, IWDFDevice3, wdf.iwdfdevice3_unmapiospace, umdf.iwdfdevice3_unmapiospace, IWDFDevice3::UnmapIoSpace, wudfddi/IWDFDevice3::UnmapIoSpace, IWDFDevice3 interface, UnmapIoSpace method
+ms.keywords: wudfddi/IWDFDevice3::UnmapIoSpace, wdf.iwdfdevice3_unmapiospace, IWDFDevice3::UnmapIoSpace, UnmapIoSpace method, IWDFDevice3, UnmapIoSpace method, IWDFDevice3 interface, IWDFDevice3 interface, UnmapIoSpace method, umdf.iwdfdevice3_unmapiospace, UnmapIoSpace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

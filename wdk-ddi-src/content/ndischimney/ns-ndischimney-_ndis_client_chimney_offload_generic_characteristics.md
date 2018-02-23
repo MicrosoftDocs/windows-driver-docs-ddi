@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 66eb9528-e026-44cd-a775-c8d963036adc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_client_chimney_offload_generic_characteristics, *PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, tcp_chim_struct_5db55d5e-f540-4f60-9f3b-adcd24932b1d.xml
+ms.keywords: NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], *PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, netvista.ndis_client_chimney_offload_generic_characteristics, ndischimney/NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, ndischimney/PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, NDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, PNDIS_CLIENT_CHIMNEY_OFFLOAD_GENERIC_CHARACTERISTICS, tcp_chim_struct_5db55d5e-f540-4f60-9f3b-adcd24932b1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,27 +153,11 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
-   ProtocolQueryOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
-   ProtocolInitiateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-indicate_offload_event_handler.md">
-   ProtocolIndicateOffloadEvent</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
 <a href="..\ndis\nc-ndis-set_options.md">ProtocolSetOptions</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
-   ProtocolUpdateOffloadComplete</a>
 
 
 
@@ -182,7 +166,8 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
+   ProtocolInitiateOffloadComplete</a>
 
 
 
@@ -195,13 +180,18 @@ To register its generic chimney offload entry points, a protocol or intermediate
 
 
 
+<a href="..\ndischimney\nc-ndischimney-indicate_offload_event_handler.md">
+   ProtocolIndicateOffloadEvent</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-query_offload_complete_handler.md">
    ProtocolQueryOffloadComplete</a>
 
 
 
-<a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
-   ProtocolInitiateOffloadComplete</a>
+<a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
+   ProtocolUpdateOffloadComplete</a>
 
 
 

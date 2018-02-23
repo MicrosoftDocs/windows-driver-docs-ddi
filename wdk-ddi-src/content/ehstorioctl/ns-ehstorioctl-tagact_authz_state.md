@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 32bb774f-b1eb-4198-8e4c-febcac83153d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PACT_AUTHZ_STATE structure pointer [Storage Devices], storage.act_authz_state, ACT_AUTHZ_STATE structure [Storage Devices], structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, tagACT_AUTHZ_STATE, *PACT_AUTHZ_STATE, PACT_AUTHZ_STATE, ACT_AUTHZ_STATE, ehstorioctl/ACT_AUTHZ_STATE, ehstorioctl/PACT_AUTHZ_STATE
+ms.keywords: ACT_AUTHZ_STATE, ehstorioctl/PACT_AUTHZ_STATE, PACT_AUTHZ_STATE structure pointer [Storage Devices], ehstorioctl/ACT_AUTHZ_STATE, tagACT_AUTHZ_STATE, structs-silo_5a83edfd-d997-4f63-bbb9-58ec7cab438f.xml, *PACT_AUTHZ_STATE, PACT_AUTHZ_STATE, storage.act_authz_state, ACT_AUTHZ_STATE structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

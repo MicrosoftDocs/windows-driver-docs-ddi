@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: b9a5ca5c-2d1c-4974-bef8-6003a4d6e864
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml, SeSetAccessStateGenericMapping routine [Installable File System Drivers], ifsk.sesetaccessstategenericmapping, SeSetAccessStateGenericMapping, ntifs/SeSetAccessStateGenericMapping
+ms.keywords: SeSetAccessStateGenericMapping, seref_41bfccdf-c133-4587-9d9e-a328eedbd28b.xml, ifsk.sesetaccessstategenericmapping, SeSetAccessStateGenericMapping routine [Installable File System Drivers], ntifs/SeSetAccessStateGenericMapping
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
-
-
-
 <a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seappendprivileges.md">SeAppendPrivileges</a>
 
 
 

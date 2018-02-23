@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 24477865-fb89-4078-99cb-1bf24249c7e2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndismcmclosecallcomplete, ndis/NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], NdisMCmCloseCallComplete, condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml
+ms.keywords: condis_mcm_ref_78d6cea5-8d8c-49d4-ad57-c41eb63d3a4b.xml, NdisMCmCloseCallComplete, NdisMCmCloseCallComplete macro [Network Drivers Starting with Windows Vista], netvista.ndismcmclosecallcomplete, ndis/NdisMCmCloseCallComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisMCmCloseCallComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMCmCloseCallComplete macro
@@ -89,14 +89,10 @@ TBD
 
 
 
-#### - NdisPartyHandle [in, optional]
+#### - Status [in]
 
-Specifies either <b>NULL</b> if the 
-     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
-     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
-     <i>CallMgrPartyContext</i> passed as an input parameter to its 
-     <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">
-     ProtocolCmCloseCall</a> function.
+Specifies the final status of the client's request that the MCM driver close the connection,
+     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
 
 
 #### - NdisVcHandle [in]
@@ -108,10 +104,14 @@ Specifies the handle to the VC for the call. This handle was supplied by NDIS wh
      <a href="..\ndis\nc-ndis-protocol_co_create_vc.md">ProtocolCoCreateVc</a> function.
 
 
-#### - Status [in]
+#### - NdisPartyHandle [in, optional]
 
-Specifies the final status of the client's request that the MCM driver close the connection,
-     either NDIS_STATUS_SUCCESS or any caller-determined NDIS_STATUS_<i>XXX</i> except NDIS_STATUS_PENDING.
+Specifies either <b>NULL</b> if the 
+     <i>NdisVcHandle</i> represents a point-to-point VC or the handle to the last remaining party on a
+     multipoint connection, which the MCM driver obtained from its per-party state designated by the 
+     <i>CallMgrPartyContext</i> passed as an input parameter to its 
+     <a href="..\ndis\nc-ndis-protocol_cm_close_call.md">
+     ProtocolCmCloseCall</a> function.
 
 
 ## -remarks
@@ -148,11 +148,19 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
+<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
 
 
 
 <a href="..\ndis\nc-ndis-protocol_cl_close_call_complete.md">ProtocolClCloseCallComplete</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmdeactivatevc.md">NdisMCmDeactivateVc</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismcmcreatevc.md">NdisMCmCreateVc</a>
 
 
 
@@ -164,15 +172,7 @@ Only connection-oriented miniport drivers that provide integrated call-managemen
 
 
 
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclclosecall.md">NdisClCloseCall</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismcmdeletevc.md">NdisMCmDeleteVc</a>
 
 
 

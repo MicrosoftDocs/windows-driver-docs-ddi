@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0627065b-62c2-4df8-973c-b4fb5811296e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/SCSI_PNP_REQUEST_BLOCK, PSCSI_PNP_REQUEST_BLOCK, StorSupriseRemoval, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], StorRemoveDevice, SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK, storage.scsi_pnp_request_block, StorStopDevice, StorStartDevice, StorQueryResourceRequirements, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorQueryCapabilities, structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, storport/PSCSI_PNP_REQUEST_BLOCK, StorFilterResourceRequirements, _SCSI_PNP_REQUEST_BLOCK
+ms.keywords: structs-storport_d08ea849-f1d6-4584-b6a4-df7127f6873d.xml, SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK, storport/PSCSI_PNP_REQUEST_BLOCK, storport/SCSI_PNP_REQUEST_BLOCK, StorStopDevice, StorQueryCapabilities, SCSI_PNP_REQUEST_BLOCK structure [Storage Devices], StorQueryResourceRequirements, storage.scsi_pnp_request_block, PSCSI_PNP_REQUEST_BLOCK, StorStartDevice, StorFilterResourceRequirements, StorRemoveDevice, StorSupriseRemoval, PSCSI_PNP_REQUEST_BLOCK structure pointer [Storage Devices], _SCSI_PNP_REQUEST_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SCSI_PNP_REQUEST_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PSCSI_PNP_REQUEST_BLOCK, SCSI_PNP_REQUEST_BLOCK"
+req.typenames: SCSI_PNP_REQUEST_BLOCK, *PSCSI_PNP_REQUEST_BLOCK
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The<b>SCSI_PNP_REQUEST_BLOCK</b> structure is a special version of a <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for plug and play (PNP) requests.
+The<b>SCSI_PNP_REQUEST_BLOCK</b> structure is a special version of a <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a> that is used for plug and play (PNP) requests.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -100,7 +100,7 @@ The operation to perform. For the <b>SCSI_PNP_REQUEST_BLOCK</b> structure, this 
 
 ### -field SrbStatus
 
-The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> routine with a notification type of <b>RequestComplete</b>. For a list of possible status values, see <a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>.  
+The status of the completed request. The miniport driver should set this value before notifying the Storport driver that the request has completed. A miniport driver notifies the Storport driver that the request has completed by calling the <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a> routine with a notification type of <b>RequestComplete</b>. For a list of possible status values, see <a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>.  
 
 
 ### -field PnPSubFunction
@@ -290,11 +290,11 @@ The Storport driver calls <a href="..\storport\nc-storport-hw_buildio.md">HwStor
 
 
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\storport\nf-storport-storportnotification.md">StorPortNotification</a>
+
+
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

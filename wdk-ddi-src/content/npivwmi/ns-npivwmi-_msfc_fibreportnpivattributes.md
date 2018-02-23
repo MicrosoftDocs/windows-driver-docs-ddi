@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1641C3A0-E6D9-4E30-9E3C-3C09A14F591F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes, _MSFC_FibrePortNPIVAttributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], *PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], npivwmi/PMSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes
+ms.keywords: "_MSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes structure [Storage Devices], npivwmi/PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes, npivwmi/MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes, storage.msfc_fibreportnpivattributes, PMSFC_FibrePortNPIVAttributes structure pointer [Storage Devices], PMSFC_FibrePortNPIVAttributes"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_FibrePortNPIVAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_FibrePortNPIVAttributes, MSFC_FibrePortNPIVAttributes"
+req.typenames: MSFC_FibrePortNPIVAttributes, *PMSFC_FibrePortNPIVAttributes
 ---
 
 # _MSFC_FibrePortNPIVAttributes structure

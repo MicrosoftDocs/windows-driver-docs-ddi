@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ed96b2ec-95ea-47a6-a3b0-f4d018e0c8e2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlrunoncebegininitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], RtlRunOnceBeginInitialize, ntddk/RtlRunOnceBeginInitialize, k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml
+ms.keywords: RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], kernel.rtlrunoncebegininitialize, ntddk/RtlRunOnceBeginInitialize, RtlRunOnceBeginInitialize, k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlRunOnceBeginInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlRunOnceBeginInitialize function
@@ -152,11 +152,11 @@ Drivers can alternatively perform one-time initialization by calling <a href="..
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563635">RunOnceInitialization</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
 
 
 
@@ -164,7 +164,7 @@ Drivers can alternatively perform one-time initialization by calling <a href="..
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563626">RTL_RUN_ONCE</a>
+<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, pepfx/PEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_COMPLETE
+ms.keywords: PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, _PEP_POWER_CONTROL_COMPLETE, pepfx/PEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], pepfx/PPEP_POWER_CONTROL_COMPLETE, PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], *PPEP_POWER_CONTROL_COMPLETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_POWER_CONTROL_COMPLETE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE"
+req.typenames: PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE
 ---
 
 # _PEP_POWER_CONTROL_COMPLETE structure
@@ -83,7 +83,7 @@ typedef struct _PEP_POWER_CONTROL_COMPLETE {
 
 ### -field RequestContext
 
-[in] A pointer to the request context that was sent by the PEP in the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
+[in] A pointer to the request context that was sent by the PEP in the <a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure that the PEP supplied in the original work request. Typically, this member points to a structure that contains a pointer to an output buffer to contain the results of the power control operation that was requested by the PEP.
 
 
 ### -field BytesReturned

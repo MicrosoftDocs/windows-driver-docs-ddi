@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 48806050-403b-4375-8b19-e867f905b761
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiwmi/ScsiPortWmiDispatchFunction, ScsiPortWmiDispatchFunction, storage.scsiportwmidispatchfunction, scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, ScsiPortWmiDispatchFunction routine [Storage Devices]
+ms.keywords: ScsiPortWmiDispatchFunction, ScsiPortWmiDispatchFunction routine [Storage Devices], storage.scsiportwmidispatchfunction, scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, scsiwmi/ScsiPortWmiDispatchFunction
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,7 +147,7 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
 ## -see-also
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
 
 
 
@@ -155,15 +155,15 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
 
 
+<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+
+
+
 <a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
-
-
-<a href="..\scsiwmi\ns-scsiwmi-scsiwmi_request_context.md">SCSIWMI_REQUEST_CONTEXT</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 

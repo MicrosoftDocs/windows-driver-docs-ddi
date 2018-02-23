@@ -7,8 +7,8 @@ old-location: stream\avcconnectinfo.htm
 old-project: stream
 ms.assetid: ed6e01f0-fa30-4a42-8271-70afb2fde8c9
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.avcconnectinfo, avc/AVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], AVCCONNECTINFO, avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, _AVCCONNECTINFO, *PAVCCONNECTINFO, avc/PAVCCONNECTINFO, PAVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: AVCCONNECTINFO, stream.avcconnectinfo, avc/AVCCONNECTINFO, avc/PAVCCONNECTINFO, PAVCCONNECTINFO structure pointer [Streaming Media Devices], avcref_41c8705a-5735-4ab2-87f0-02b55b128c23.xml, PAVCCONNECTINFO, _AVCCONNECTINFO, AVCCONNECTINFO structure [Streaming Media Devices], *PAVCCONNECTINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -121,5 +121,5 @@ This structure is used only as member inside the <a href="..\avc\ns-avc-_avc_set
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCCONNECTINFO structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCCONNECTINFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

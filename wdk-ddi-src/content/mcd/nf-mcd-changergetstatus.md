@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f5719dfa-e48a-4f81-8344-31b349fadb48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: mcd/ChangerGetStatus, ChangerGetStatus, chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, ChangerGetStatus function [Storage Devices], storage.changergetstatus
+ms.keywords: storage.changergetstatus, ChangerGetStatus, chgrmini_8975ca0f-d42c-40d0-a16c-a2ec5d2a2f66.xml, ChangerGetStatus function [Storage Devices], mcd/ChangerGetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ This routine is required.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
-
-
-
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_get_status.md">IOCTL_CHANGER_GET_STATUS</a>
+
+
+
+<a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 

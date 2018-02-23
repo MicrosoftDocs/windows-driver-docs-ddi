@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e288b050-0875-4c9b-aa72-47845861755a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: OB_CALLBACK_REGISTRATION, wdm/OB_CALLBACK_REGISTRATION, kernel.ob_callback_registration, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], POB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, *POB_CALLBACK_REGISTRATION, wdm/POB_CALLBACK_REGISTRATION
+ms.keywords: wdm/POB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION, _OB_CALLBACK_REGISTRATION, POB_CALLBACK_REGISTRATION structure pointer [Kernel-Mode Driver Architecture], kstruct_c_8357a6f5-881d-4840-a530-454383ba3ddd.xml, OB_CALLBACK_REGISTRATION structure [Kernel-Mode Driver Architecture], wdm/OB_CALLBACK_REGISTRATION, OB_CALLBACK_REGISTRATION, *POB_CALLBACK_REGISTRATION, kernel.ob_callback_registration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,7 +108,7 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 ## -see-also
 
-<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
 
 
 
@@ -120,7 +120,7 @@ This structure is used by the <a href="..\wdm\nf-wdm-obregistercallbacks.md">ObR
 
 
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+<a href="..\wdm\nc-wdm-pob_pre_operation_callback.md">ObjectPreCallback</a>
 
 
 

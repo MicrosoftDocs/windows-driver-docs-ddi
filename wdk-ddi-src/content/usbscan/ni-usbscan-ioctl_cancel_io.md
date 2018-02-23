@@ -4,10 +4,10 @@ title: IOCTL_CANCEL_IO
 author: windows-driver-content
 description: Cancels activity on the specified USB transfer pipe that is associated with the specified device handle.
 old-location: image\ioctl_cancel_io.htm
-old-project: Image
+old-project: image
 ms.assetid: 5748e949-3edb-405a-ab2f-05c929cf5aa6
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.ioctl_cancel_io, IOCTL_CANCEL_IO control code [Imaging Devices], IOCTL_CANCEL_IO, usbscan/IOCTL_CANCEL_IO, stifnc_df576f5d-a45a-4aa8-91c6-e288f9d99c14.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

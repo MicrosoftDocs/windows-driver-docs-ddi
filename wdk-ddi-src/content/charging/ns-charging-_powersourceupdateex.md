@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: FAA39A82-E27E-41BD-9830-03EAE7CFF64F
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: battery.powersourceupdateex, charging/BATTERY_INFORMATION, _POWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX structure [Battery Devices], POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
+ms.keywords: POWERSOURCEUPDATEEX structure [Battery Devices], charging/BATTERY_INFORMATION, *PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX, battery.powersourceupdateex, _POWERSOURCEUPDATEEX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---
 
 # _POWERSOURCEUPDATEEX structure

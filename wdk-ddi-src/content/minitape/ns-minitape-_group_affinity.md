@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: GROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], *PGROUP_AFFINITY, miniport/GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], miniport/PGROUP_AFFINITY, PGROUP_AFFINITY, _GROUP_AFFINITY, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, kernel.group_affinity
+ms.keywords: kernel.group_affinity, *PGROUP_AFFINITY, miniport/GROUP_AFFINITY, GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, _GROUP_AFFINITY, miniport/PGROUP_AFFINITY, PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,19 +99,19 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
-
-
-
-<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetdevicenumanode.md">IoGetDeviceNumaNode</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
+
+
+
+<a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
 
 

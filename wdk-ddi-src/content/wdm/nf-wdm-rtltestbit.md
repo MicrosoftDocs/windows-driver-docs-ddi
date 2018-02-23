@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 52f892a8-e82d-465d-aef5-630f5e971e8f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtltestbit, k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, RtlTestBit, wdm/RtlTestBit, RtlTestBit routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/RtlTestBit, RtlTestBit routine [Kernel-Mode Driver Architecture], k109_552764bc-c69d-4039-8284-8cc8f41dc16a.xml, kernel.rtltestbit, RtlTestBit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

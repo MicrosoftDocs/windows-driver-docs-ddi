@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 909e0645-3824-40ff-bec9-128a9939eb1e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddchgr/PELEMENT_TYPE, ELEMENT_TYPE, ChangerIEPort, ntddchgr/ChangerDrive, storage.element_type, ntddchgr/ChangerMaxElement, AllElements, PELEMENT_TYPE enumeration pointer [Storage Devices], ChangerMaxElement, ntddchgr/ChangerSlot, ELEMENT_TYPE enumeration [Storage Devices], ntddchgr/ChangerKeypad, ChangerTransport, ntddchgr/ELEMENT_TYPE, ChangerSlot, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ChangerDoor, *PELEMENT_TYPE, PELEMENT_TYPE, _ELEMENT_TYPE, ntddchgr/ChangerIEPort, ntddchgr/AllElements, ChangerKeypad, ntddchgr/ChangerTransport, ChangerDrive, ntddchgr/ChangerDoor
+ms.keywords: ChangerIEPort, ntddchgr/ChangerTransport, ChangerDoor, _ELEMENT_TYPE, ChangerSlot, PELEMENT_TYPE enumeration pointer [Storage Devices], ntddchgr/AllElements, PELEMENT_TYPE, ntddchgr/ChangerSlot, ntddchgr/ChangerDoor, storage.element_type, ELEMENT_TYPE enumeration [Storage Devices], ntddchgr/ChangerMaxElement, ChangerDrive, ChangerTransport, ntddchgr/ChangerKeypad, ChangerKeypad, ntddchgr/ELEMENT_TYPE, structs-changer_e97997e8-4dc3-46e9-897e-3ded47adf8b8.xml, ChangerMaxElement, ELEMENT_TYPE, *PELEMENT_TYPE, ntddchgr/ChangerDrive, ntddchgr/ChangerIEPort, ntddchgr/PELEMENT_TYPE, AllElements
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	ELEMENT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
+req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
 ---
 
 # _ELEMENT_TYPE enumeration
@@ -116,7 +116,7 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
 
 
 
@@ -124,7 +124,7 @@ Indicates the upper limit of the enumerators in this enumeration.
 
 
 
-<a href="..\mcd\nf-mcd-changersetaccess.md">ChangerSetAccess</a>
+<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
 
 

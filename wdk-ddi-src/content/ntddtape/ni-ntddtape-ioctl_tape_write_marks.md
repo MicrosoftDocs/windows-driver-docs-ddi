@@ -112,7 +112,7 @@ The <b>Information</b> field is set to the number of bytes written. The <b>Statu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
+<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
 
 
 
@@ -120,7 +120,7 @@ The <b>Information</b> field is set to the number of bytes written. The <b>Statu
 
 
 
-<a href="..\minitape\ne-minitape-_tape_status.md">TAPE_STATUS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567958">TapeMiniWriteMarks</a>
 
 
 

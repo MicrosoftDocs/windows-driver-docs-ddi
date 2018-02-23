@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 89a3ca92-7c8a-40e3-a818-0127af6f2e91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_8a3ac592-7ade-48fc-9536-d8a6c84fb033.xml, wdm/RtlStringFromGUID, RtlStringFromGUID routine [Kernel-Mode Driver Architecture], kernel.rtlstringfromguid, RtlStringFromGUID
+ms.keywords: RtlStringFromGUID, k109_8a3ac592-7ade-48fc-9536-d8a6c84fb033.xml, RtlStringFromGUID routine [Kernel-Mode Driver Architecture], wdm/RtlStringFromGUID, kernel.rtlstringfromguid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

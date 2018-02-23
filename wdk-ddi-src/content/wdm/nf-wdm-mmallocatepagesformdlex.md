@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f860c230-01ca-4c7f-8b67-5d92a80ff906
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MM_ALLOCATE_PREFER_CONTIGUOUS, wdm/MmAllocatePagesForMdlEx, MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, MM_ALLOCATE_NO_WAIT, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, MM_DONT_ZERO_ALLOCATION, MM_ALLOCATE_FULLY_REQUIRED, MmAllocatePagesForMdlEx, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture], kernel.mmallocatepagesformdlex
+ms.keywords: MM_ALLOCATE_FROM_LOCAL_NODE_ONLY, wdm/MmAllocatePagesForMdlEx, MmAllocatePagesForMdlEx, k106_df4d4bea-4360-4755-841c-f39849228e9b.xml, MM_ALLOCATE_FULLY_REQUIRED, MM_DONT_ZERO_ALLOCATION, MM_ALLOCATE_PREFER_CONTIGUOUS, MM_ALLOCATE_NO_WAIT, kernel.mmallocatepagesformdlex, MM_ALLOCATE_REQUIRE_CONTIGUOUS_CHUNKS, MmAllocatePagesForMdlEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -95,7 +95,7 @@ Specifies the total number of bytes to allocate for the MDL.
 
 ### -param CacheType [in]
 
-Specifies a <a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
+Specifies a <a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a> value, which indicates the type of caching that is allowed for the requested memory.
 
 
 ### -param Flags [in]
@@ -228,7 +228,7 @@ By default, the physical memory pages that <b>MmAllocatePagesForMdlEx</b> return
 
 Depending on how much physical memory is currently available in the requested ranges, <b>MmAllocatePagesForMdlEx</b> might return an MDL that describes less memory than was requested. The routine also might return <b>NULL</b> if no memory was allocated. The caller should check the amount of memory that is actually allocated to the MDL.
 
-The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure.
+The caller must use <a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a> to release the memory pages that are described by an MDL that was created by <b>MmAllocatePagesForMdlEx</b>. After calling <b>MmFreePagesFromMdl</b>, the caller must also call <a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a> to release the memory that is allocated for the MDL structure.
 
 By default, <b>MmAllocatePagesForMdlEx</b> fills the pages that it allocates with zeros. The caller can specify the MM_DONT_ZERO_ALLOCATION flag to override this default and to possibly improve performance.
 
@@ -243,7 +243,7 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 ## -see-also
 
-<a href="..\wudfwdm\ne-wudfwdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
 
 
 
@@ -251,15 +251,15 @@ The maximum amount of memory that <b>MmAllocatePagesForMdlEx</b> can allocate in
 
 
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
+<a href="..\wdm\ne-wdm-_memory_caching_type.md">MEMORY_CACHING_TYPE</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+<a href="..\wdm\nf-wdm-mmfreepagesfrommdl.md">MmFreePagesFromMdl</a>
 
 
 

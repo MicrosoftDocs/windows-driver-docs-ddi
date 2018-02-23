@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1e33f284-6cb9-426f-a900-76b827341927
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Requeue method, IWDFIoRequest2 interface, Requeue, wudfddi/IWDFIoRequest2::Requeue, IWDFIoRequest2, Requeue method, wdf.iwdfiorequest2_requeue, IWDFIoRequest2 interface, Requeue method, umdf.iwdfiorequest2_requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, IWDFIoRequest2::Requeue
+ms.keywords: Requeue method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, Requeue method, Requeue method, wdf.iwdfiorequest2_requeue, UMDFRequestObjectRef_e86bd6e8-ed4b-42e8-a32f-29c4415e1384.xml, IWDFIoRequest2, wudfddi/IWDFIoRequest2::Requeue, IWDFIoRequest2::Requeue, Requeue, umdf.iwdfiorequest2_requeue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -178,11 +178,11 @@ CMyQueue::OnStateChange(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558967">IWDFIoQueue::RetrieveNextRequest</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 

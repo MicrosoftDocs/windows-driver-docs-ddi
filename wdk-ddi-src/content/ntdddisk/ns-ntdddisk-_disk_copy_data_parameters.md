@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 17d75b0e-2521-441f-99ea-75d2ea1d52b3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PDISK_COPY_DATA_PARAMETERS, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml, DISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], ntdddisk/DISK_COPY_DATA_PARAMETERS, _DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS, ntdddisk/PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices]
+ms.keywords: PDISK_COPY_DATA_PARAMETERS structure pointer [Storage Devices], ntdddisk/PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS, PDISK_COPY_DATA_PARAMETERS, structs-disk_3b1d751a-57a0-47a6-accd-f895fdb9bb61.xml, *PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS structure [Storage Devices], _DISK_COPY_DATA_PARAMETERS, storage.disk_copy_data_parameters, ntdddisk/DISK_COPY_DATA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DISK_COPY_DATA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PDISK_COPY_DATA_PARAMETERS, DISK_COPY_DATA_PARAMETERS"
+req.typenames: DISK_COPY_DATA_PARAMETERS, *PDISK_COPY_DATA_PARAMETERS
 ---
 
 # _DISK_COPY_DATA_PARAMETERS structure

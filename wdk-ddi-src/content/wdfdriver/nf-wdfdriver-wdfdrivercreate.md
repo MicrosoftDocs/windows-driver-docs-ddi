@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2b8cea0f-bca0-4ffa-834b-d7c079cf93d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdrivercreate, DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, WdfDriverCreate, WdfDriverCreate method, kmdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
+ms.keywords: WdfDriverCreate, WdfDriverCreate method, DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, wdfdriver/WdfDriverCreate, kmdf.wdfdrivercreate, wdf.wdfdrivercreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,6 +209,14 @@ DriverEntry(
 
 ## -see-also
 
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
@@ -225,15 +233,7 @@ DriverEntry(
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
 
 
 

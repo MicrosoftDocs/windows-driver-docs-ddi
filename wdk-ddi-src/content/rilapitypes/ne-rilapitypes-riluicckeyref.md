@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7812008b-867f-4b17-b715-7a1f10c38368
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_UICCKEYREF_PIN2, rilapitypes/RIL_UICCKEYREF_UPIN, rilapitypes/RIL_UICCKEYREF_PIN1, RIL_UICCKEYREF_UPIN, rilapitypes/RIL_UICCKEYREF_ALW, RIL_UICCKEYREF_PIN1, RILUICCKEYREF enumeration [Network Drivers Starting with Windows Vista], RIL_UICCKEYREF_PIN2, netvista.riluicckeyref, RIL_UICCKEYREF_ALW, rilapitypes/RILUICCKEYREF, RIL_UICCKEYREF_NEV, RILUICCKEYREF, rilapitypes/RIL_UICCKEYREF_NEV
+ms.keywords: RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_PIN1, netvista.riluicckeyref, rilapitypes/RIL_UICCKEYREF_ALW, RIL_UICCKEYREF_UPIN, rilapitypes/RIL_UICCKEYREF_PIN2, RILUICCKEYREF, RILUICCKEYREF enumeration [Network Drivers Starting with Windows Vista], RIL_UICCKEYREF_ALW, rilapitypes/RILUICCKEYREF, rilapitypes/RIL_UICCKEYREF_NEV, rilapitypes/RIL_UICCKEYREF_UPIN, RIL_UICCKEYREF_PIN2, RIL_UICCKEYREF_PIN1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

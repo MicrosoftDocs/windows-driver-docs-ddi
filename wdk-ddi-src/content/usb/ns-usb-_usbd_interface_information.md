@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: dde09937-14fb-423b-8905-8a398a9c5902
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbd_interface_information, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml, _USBD_INTERFACE_INFORMATION, usb/PUSBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION structure [Buses]
+ms.keywords: "*PUSBD_INTERFACE_INFORMATION, usb/USBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION, PUSBD_INTERFACE_INFORMATION structure pointer [Buses], USBD_INTERFACE_INFORMATION structure [Buses], USBD_INTERFACE_INFORMATION, buses.usbd_interface_information, usbstrct_1d2a2627-f530-4ccb-8473-0f028ab44acc.xml, usb/PUSBD_INTERFACE_INFORMATION, _USBD_INTERFACE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBD_INTERFACE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_INTERFACE_INFORMATION, USBD_INTERFACE_INFORMATION"
+req.typenames: USBD_INTERFACE_INFORMATION, *PUSBD_INTERFACE_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -140,11 +140,11 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usb\ns-usb-_usbd_pipe_information.md">USBD_PIPE_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

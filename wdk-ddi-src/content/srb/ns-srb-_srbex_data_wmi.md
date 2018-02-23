@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FFBF258-50C3-4D2D-AFC8-184D2FF85EE4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/PSRBEX_DATA_WMI, *PSRBEX_DATA_WMI, SRBEX_DATA_WMI structure [Storage Devices], storport/SRBEX_DATA_WMI, storage.srbex_data_wmi, PSRBEX_DATA_WMI, SRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], _SRBEX_DATA_WMI
+ms.keywords: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI, _SRBEX_DATA_WMI, PSRBEX_DATA_WMI structure pointer [Storage Devices], storport/PSRBEX_DATA_WMI, storage.srbex_data_wmi, PSRBEX_DATA_WMI, storport/SRBEX_DATA_WMI, SRBEX_DATA_WMI structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_WMI
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_WMI, SRBEX_DATA_WMI"
+req.typenames: SRBEX_DATA_WMI, *PSRBEX_DATA_WMI
 req.product: Windows 10 or later.
 ---
 
@@ -91,7 +91,7 @@ Indicates the WMI action to be performed. The subfunction value corresponds to t
 
 ### -field WMIFlags
 
-Indicates that the WMI request is for the adapter if SRB_WMI_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>WMIFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
+Indicates that the WMI request is for the adapter if SRB_WMI_FLAGS_ADAPTER_REQUEST is set and that storage device address is reserved. Otherwise, <i>WMIFlags</i> will be <b>NULL</b>, indicating that the request is for the storage device specified by an address at <b>AddressOffset</b> in the <a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a> structure.
 
 
 ### -field Reserved
@@ -111,7 +111,7 @@ Specifies the WMI data path for this request.
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

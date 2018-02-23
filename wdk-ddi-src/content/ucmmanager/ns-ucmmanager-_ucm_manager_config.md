@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2B9539D7-6125-4912-9572-13FA7CA671D9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUCM_MANAGER_CONFIG structure pointer [Buses], UCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG structure [Buses], *PUCM_MANAGER_CONFIG, ucmmanager/UCM_MANAGER_CONFIG, _UCM_MANAGER_CONFIG, ucmmanager/PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG, buses.ucm_manager_config
+ms.keywords: UCM_MANAGER_CONFIG, ucmmanager/PUCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG, ucmmanager/UCM_MANAGER_CONFIG, PUCM_MANAGER_CONFIG structure pointer [Buses], *PUCM_MANAGER_CONFIG, buses.ucm_manager_config, UCM_MANAGER_CONFIG structure [Buses], _UCM_MANAGER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCM_MANAGER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PUCM_MANAGER_CONFIG, UCM_MANAGER_CONFIG"
+req.typenames: UCM_MANAGER_CONFIG, *PUCM_MANAGER_CONFIG
 req.product: Windows 10 or later.
 ---
 

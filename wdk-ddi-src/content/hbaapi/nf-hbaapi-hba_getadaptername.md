@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ec17efca-2cb9-4ab4-b98f-7319f6145e4e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hba_getadaptername, hbaapi/HBA_GetAdapterName, fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml, HBA_GetAdapterName, HBA_GetAdapterName routine [Storage Devices]
+ms.keywords: HBA_GetAdapterName routine [Storage Devices], HBA_GetAdapterName, storage.hba_getadaptername, hbaapi/HBA_GetAdapterName, fibreHBA_rtns_f483472a-9b5e-4120-b0bf-e3c5253a3f03.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ The <b>HBA_GetAdapterName</b> routine returns a value of type <a href="https://m
 
 
 
-<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff557233">HBA_STATUS</a>
+
+
+
+<a href="..\hbaapi\ns-hbaapi-hba_adapterattributes.md">HBA_AdapterAttributes</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 58c80d37-a40d-4839-b516-a78720860cbc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_HW_INITIALIZATION_DATA structure [Storage Devices], srb/HW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, structs-scsiport_4d9f09a8-742b-4c72-8fc5-dd968bd990d6.xml, _HW_INITIALIZATION_DATA, PHW_INITIALIZATION_DATA structure pointer [Storage Devices], storage.hw_initialization_data__scsi_, srb/PHW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA structure [Storage Devices]"
+ms.keywords: "_HW_INITIALIZATION_DATA, structs-scsiport_4d9f09a8-742b-4c72-8fc5-dd968bd990d6.xml, PHW_INITIALIZATION_DATA, srb/HW_INITIALIZATION_DATA, srb/PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA, storage.hw_initialization_data__scsi_, _HW_INITIALIZATION_DATA structure [Storage Devices], HW_INITIALIZATION_DATA structure [Storage Devices], PHW_INITIALIZATION_DATA structure pointer [Storage Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HW_INITIALIZATION_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PHW_INITIALIZATION_DATA, HW_INITIALIZATION_DATA"
+req.typenames: HW_INITIALIZATION_DATA, *PHW_INITIALIZATION_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-Each SCSI miniport driver's <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.
+Each SCSI miniport driver's <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine must initialize with zeros and, then, fill in the relevant HW_INITIALIZATION_DATA (SCSI) information for the OS-specific port driver.
 <div class="alert"><b>Note</b>  The SCSI port driver and SCSI miniport driver models may be altered or unavailable in the future. Instead, we recommend using the <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-driver">Storport driver</a> and <a href="https://msdn.microsoft.com/en-us/windows/hardware/drivers/storage/storport-miniport-drivers">Storport miniport</a> driver models.</div><div> </div>
 
 ## -syntax
@@ -244,19 +244,19 @@ Both HW_INITIALIZATION_DATA and PORT_CONFIGURATION_INFORMATION have a pair of me
 
 ## -see-also
 
-<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
-
-
-
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportinitialize.md">ScsiPortInitialize</a>
 
 
 
+<a href="..\srb\nc-srb-phw_initialize.md">HwScsiInitialize</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+
+
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 12ed5f88-26af-43a4-82c7-5f36d9388cc8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortWriteRegisterUlong, StorPortWriteRegisterUlong routine [Storage Devices], storage.storportwriteregisterulong, storprt_64890de0-32e7-4e07-bcbc-35a11acd6896.xml, storport/StorPortWriteRegisterUlong
+ms.keywords: StorPortWriteRegisterUlong, storage.storportwriteregisterulong, StorPortWriteRegisterUlong routine [Storage Devices], storprt_64890de0-32e7-4e07-bcbc-35a11acd6896.xml, storport/StorPortWriteRegisterUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -107,7 +107,7 @@ Specifies the ULONG value to be written to the HBA's register.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportwriteregisterulong.md">ScsiPortWriteRegisterUlong</a>
+<a href="..\srb\nf-srb-scsiportwriteregisterulong.md">ScsiPortWriteRegisterUlong</a>
 
 
 

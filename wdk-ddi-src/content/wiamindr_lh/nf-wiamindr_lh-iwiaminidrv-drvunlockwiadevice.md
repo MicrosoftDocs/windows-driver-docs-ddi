@@ -4,11 +4,11 @@ title: IWiaMiniDrv::drvUnLockWiaDevice method
 author: windows-driver-content
 description: The IWiaMiniDrv::drvUnLockWiaDevice method unlocks the WIA hardware device so that any minidriver can access it.
 old-location: image\iwiaminidrv_drvunlockwiadevice.htm
-old-project: Image
+old-project: image
 ms.assetid: 134d224a-d472-4d74-be3e-069dbb46a65c
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, image.iwiaminidrv_drvunlockwiadevice, IWiaMiniDrv::drvUnLockWiaDevice, IWiaMiniDrv, drvUnLockWiaDevice, drvUnLockWiaDevice method [Imaging Devices]
+ms.date: 2/22/2018
+ms.keywords: drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvUnLockWiaDevice method, image.iwiaminidrv_drvunlockwiadevice, drvUnLockWiaDevice method [Imaging Devices], IWiaMiniDrv, wiamindr_lh/IWiaMiniDrv::drvUnLockWiaDevice, drvUnLockWiaDevice, MiniDrv_596d3499-1e4a-4147-838f-db4f56f30716.xml, IWiaMiniDrv::drvUnLockWiaDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,14 +87,14 @@ HRESULT drvUnLockWiaDevice(
 
 
 
-#### - lFlags [in]
-
-Is currently unused. 
-
-
 #### - pWiasContext [in]
 
 Pointer to a WIA item context.
+
+
+#### - lFlags [in]
+
+Is currently unused. 
 
 
 #### - plDevErrVal [out]
@@ -126,6 +126,10 @@ The minidriver's implementation of the <b>IWiaMiniDrv::drvUnLockWiaDevice</b> me
 
 ## -see-also
 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 
@@ -134,13 +138,9 @@ The minidriver's implementation of the <b>IWiaMiniDrv::drvUnLockWiaDevice</b> me
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrv.md">IWiaMiniDrv</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaMiniDrv::drvUnLockWiaDevice method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvUnLockWiaDevice method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

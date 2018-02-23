@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/WdfPowerDeviceMaximum, WdfPowerDeviceD0, wdfdevice/WDF_POWER_DEVICE_STATE, WdfPowerDeviceD1, WdfPowerDeviceD2, PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceInvalid, WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, WdfPowerDeviceMaximum, WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD0, wdf.wdf_power_device_state, PWDF_POWER_DEVICE_STATE enumeration pointer, kmdf.wdf_power_device_state, *PWDF_POWER_DEVICE_STATE, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD2, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, WdfPowerDeviceInvalid, wdfdevice/WdfPowerDevicePrepareForHibernation
+ms.keywords: WdfPowerDeviceD3Final, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDevicePrepareForHibernation, wdfdevice/WDF_POWER_DEVICE_STATE, WdfPowerDeviceD2, WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceD3, WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD1, WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceMaximum, WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDevicePrepareForHibernation, wdf.wdf_power_device_state, kmdf.wdf_power_device_state, WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WdfPowerDeviceD3Final, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, PWDF_POWER_DEVICE_STATE, PWDF_POWER_DEVICE_STATE enumeration pointer, WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceD2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -119,11 +119,11 @@ The maximum enumerator value for this enumeration.
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
-
-
-
 <a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_entry.md">EvtDeviceD0Entry</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_d0_exit.md">EvtDeviceD0Exit</a>
 
 
 

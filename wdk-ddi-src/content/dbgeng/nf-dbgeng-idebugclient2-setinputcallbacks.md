@@ -4,11 +4,11 @@ title: IDebugClient2::SetInputCallbacks method
 author: windows-driver-content
 description: The SetInputCallbacks method registers an input callbacks object with the client.
 old-location: debugger\setinputcallbacks.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 4fd7ba5f-c400-4f44-bebb-b52e9a579f99
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient5::SetInputCallbacks, IDebugClient4::SetInputCallbacks, IDebugClient3::SetInputCallbacks, SetInputCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient_fea0d021-69b2-462f-965f-455305fd5971.xml, SetInputCallbacks method [Windows Debugging], SetInputCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], SetInputCallbacks method, debugger.setinputcallbacks, IDebugClient::SetInputCallbacks, IDebugClient, SetInputCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient interface [Windows Debugging], SetInputCallbacks method, IDebugClient5 interface [Windows Debugging], SetInputCallbacks method, dbgeng/IDebugClient2::SetInputCallbacks, IDebugClient4 interface [Windows Debugging], SetInputCallbacks method, SetInputCallbacks method [Windows Debugging], IDebugClient5 interface, SetInputCallbacks, IDebugClient2::SetInputCallbacks, IDebugClient2 interface [Windows Debugging], SetInputCallbacks method, dbgeng/IDebugClient5::SetInputCallbacks, dbgeng/IDebugClient4::SetInputCallbacks, dbgeng/IDebugClient3::SetInputCallbacks, IDebugClient2, dbgeng/IDebugClient::SetInputCallbacks, SetInputCallbacks method [Windows Debugging], IDebugClient3 interface
+ms.date: 2/22/2018
+ms.keywords: IDebugClient3::SetInputCallbacks, dbgeng/IDebugClient::SetInputCallbacks, SetInputCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient_fea0d021-69b2-462f-965f-455305fd5971.xml, IDebugClient::SetInputCallbacks, IDebugClient5 interface [Windows Debugging], SetInputCallbacks method, SetInputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient2 interface [Windows Debugging], SetInputCallbacks method, dbgeng/IDebugClient4::SetInputCallbacks, SetInputCallbacks, IDebugClient3 interface [Windows Debugging], SetInputCallbacks method, IDebugClient2::SetInputCallbacks, dbgeng/IDebugClient2::SetInputCallbacks, dbgeng/IDebugClient3::SetInputCallbacks, IDebugClient interface [Windows Debugging], SetInputCallbacks method, SetInputCallbacks method [Windows Debugging], IDebugClient2 interface, debugger.setinputcallbacks, SetInputCallbacks method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient5::SetInputCallbacks, IDebugClient2, SetInputCallbacks method [Windows Debugging], IDebugClient, IDebugClient5::SetInputCallbacks, SetInputCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient4::SetInputCallbacks, IDebugClient4 interface [Windows Debugging], SetInputCallbacks method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,11 +117,11 @@ The <b>IDebugInputCallbacks</b> interface extends the COM interface <b>IUnknown<
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
 
 
 
@@ -133,15 +133,15 @@ The <b>IDebugInputCallbacks</b> interface extends the COM interface <b>IUnknown<
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+<a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -149,5 +149,5 @@ The <b>IDebugInputCallbacks</b> interface extends the COM interface <b>IUnknown<
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::SetInputCallbacks method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetInputCallbacks method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

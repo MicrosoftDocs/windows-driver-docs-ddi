@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b033cfe-9649-4993-b348-6c9af2d0f4bc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortStallExecution routine [Storage Devices], srb/ScsiPortStallExecution, storage.scsiportstallexecution, scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, ScsiPortStallExecution
+ms.keywords: ScsiPortStallExecution, ScsiPortStallExecution routine [Storage Devices], scsiprt_563a19de-adda-4461-9eb2-4c97a2c4f179.xml, srb/ScsiPortStallExecution, storage.scsiportstallexecution
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,15 +100,7 @@ A miniport driver-supplied <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a> 
 
 ## -see-also
 
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
-
-
-
 <a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
-
-
-<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiDisableInterruptsCallback</a>
 
 
 
@@ -117,6 +109,14 @@ A miniport driver-supplied <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a> 
 
 
 <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a>
+
+
+
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiDisableInterruptsCallback</a>
+
+
+
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a>
 
 
 

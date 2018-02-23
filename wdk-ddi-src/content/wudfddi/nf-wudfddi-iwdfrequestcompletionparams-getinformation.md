@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 6dd47575-0da3-4038-81aa-ac955c00f08d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetInformation method, wdf.iwdfrequestcompletionparams_getinformation, IWDFRequestCompletionParams, GetInformation, wudfddi/IWDFRequestCompletionParams::GetInformation, umdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, IWDFRequestCompletionParams::GetInformation, IWDFRequestCompletionParams interface, GetInformation method, GetInformation method, IWDFRequestCompletionParams interface
+ms.keywords: IWDFRequestCompletionParams, GetInformation method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface, GetInformation method, IWDFRequestCompletionParams::GetInformation, umdf.iwdfrequestcompletionparams_getinformation, UMDFRequestObjectRef_f014a31c-ac37-419d-a318-31d910c646b1.xml, GetInformation method, GetInformation, wudfddi/IWDFRequestCompletionParams::GetInformation, wdf.iwdfrequestcompletionparams_getinformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

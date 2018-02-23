@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 9e225f00-f830-488f-8bf0-666290dc40b0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlGetEcpListFromIrp, fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml, FsRtlGetEcpListFromIrp routine [Installable File System Drivers], ifsk.fsrtlgetecplistfromirp, FsRtlGetEcpListFromIrp
+ms.keywords: ntifs/FsRtlGetEcpListFromIrp, fsrtlref_85b1fc72-e8ce-4909-a0d4-1eab35b3a0cb.xml, FsRtlGetEcpListFromIrp, ifsk.fsrtlgetecplistfromirp, FsRtlGetEcpListFromIrp routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

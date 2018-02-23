@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 63D3B055-A3B0-4A76-B53C-C5E87C40A52C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_ip_address_state, WWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, _WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_IP_ADDRESS_STATE"
+ms.keywords: netvista.wwan_ip_address_state, _WWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE structure [Network Drivers Starting with Windows Vista], *PWWAN_IP_ADDRESS_STATE, wwan/WWAN_IP_ADDRESS_STATE, wwan/PWWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE, WWAN_IP_ADDRESS_STATE, PWWAN_IP_ADDRESS_STATE structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -129,11 +129,11 @@ The number of entries in the <b>DnsTable</b> array.
 
 ## -see-also
 
-<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_ipaddress_entry.md">WWAN_IPADDRESS_ENTRY</a>
+
+
+
+<a href="..\wwan\ns-wwan-wwan_ip_configuration_flags.md">WWAN_IP_CONFIGURATION_FLAGS</a>
 
 
 

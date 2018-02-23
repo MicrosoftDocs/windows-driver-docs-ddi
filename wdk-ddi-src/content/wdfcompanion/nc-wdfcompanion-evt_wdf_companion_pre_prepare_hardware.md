@@ -40,7 +40,7 @@ apiname:
 -	EVT_WDF_COMPANION_PRE_PREPARE_HARDWARE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_COMMON_BUFFER_CONFIG, WDF_COMMON_BUFFER_CONFIG"
+req.typenames: WDF_COMMON_BUFFER_CONFIG, *PWDF_COMMON_BUFFER_CONFIG
 req.product: Windows 10 or later.
 ---
 

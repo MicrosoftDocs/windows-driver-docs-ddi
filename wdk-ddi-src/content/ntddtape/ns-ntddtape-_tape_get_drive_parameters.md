@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2b1b196f-f012-4136-983e-8c8192bdbd2f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml, _TAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], TAPE_GET_DRIVE_PARAMETERS, storage.tape_get_drive_parameters, ntddtape/TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS, ntddtape/PTAPE_GET_DRIVE_PARAMETERS
+ms.keywords: ntddtape/PTAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS, *PTAPE_GET_DRIVE_PARAMETERS, TAPE_GET_DRIVE_PARAMETERS structure [Storage Devices], structs-tape_aa0e95ac-ea8b-4c88-abc0-7809cd538e26.xml, PTAPE_GET_DRIVE_PARAMETERS structure pointer [Storage Devices], ntddtape/TAPE_GET_DRIVE_PARAMETERS, storage.tape_get_drive_parameters, _TAPE_GET_DRIVE_PARAMETERS, PTAPE_GET_DRIVE_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -710,11 +710,11 @@ Indicates the size in bytes of the early warning zone toward the end of the tape
 
 ## -see-also
 
-<a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567936">TapeMiniGetDriveParameters</a>
+
+
+
+<a href="..\ntddtape\ni-ntddtape-ioctl_tape_get_drive_params.md">IOCTL_TAPE_GET_DRIVE_PARAMS</a>
 
 
 

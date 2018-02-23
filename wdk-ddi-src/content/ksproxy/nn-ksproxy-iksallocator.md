@@ -7,7 +7,7 @@ old-location: stream\iksallocator.htm
 old-project: stream
 ms.assetid: 0d6db041-e5ea-4394-9d88-b4b5b377fe1d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.iksallocator, IKsAllocator interface [Streaming Media Devices], IKsAllocator interface [Streaming Media Devices], described, IKsAllocator, ksproxy/IKsAllocator, ksproxy_f3288ae8-cea3-4892-9b5b-f03e2c5ec8c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -53,6 +53,13 @@ req.typenames: PIPE_STATE
 The<b>IKsAllocator</b> interface provides methods that control and query an allocator.  <b>IKsAllocator</b>  is for proxy use and not recommended for application use.  
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IKsAllocator</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IKsAllocator</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IKsAllocator</b> interface has these methods.
@@ -97,15 +104,7 @@ Sets the mode in which an allocator allocates memory.
 
 </td>
 </tr>
-</table>Retrieves a file handle to an allocator.
-
-Returns the mode in which an allocator allocates memory.
-
-Retrieves the status of an allocator.
-
-Sets the mode in which an allocator allocates memory.
-
- 
+</table> 
 
 
 ## -remarks

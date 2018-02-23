@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 80AE8211-EA8F-4967-A496-39053CD578D1
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ursioresourcelistappenddescriptor, UrsIoResourceListAppendDescriptor function [Buses], UrsIoResourceListAppendDescriptor, ursdevice/UrsIoResourceListAppendDescriptor
+ms.keywords: buses.ursioresourcelistappenddescriptor, UrsIoResourceListAppendDescriptor function [Buses], ursdevice/UrsIoResourceListAppendDescriptor, UrsIoResourceListAppendDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: eede44f8-0e14-4256-9893-cbdb5ef4ef9b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WHEA_MEMORY_ERROR_SECTION, _WHEA_MEMORY_ERROR_SECTION, whea.whea_memory_error_section, WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], ntddk/PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR, PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], ntddk/WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml
+ms.keywords: WHEA_MEMORY_ERROR_SECTION structure [WHEA Drivers and Applications], PWHEA_MEMORY_ERROR_SECTION structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_MEMORY_ERROR_SECTION, whearef_63417420-4e27-4268-b50f-6d8dc2cdbd58.xml, WHEA_MEMORY_ERROR, whea.whea_memory_error_section, _WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR, *PWHEA_MEMORY_ERROR_SECTION, PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION, ntddk/WHEA_MEMORY_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_MEMORY_ERROR_SECTION
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_MEMORY_ERROR_SECTION, WHEA_MEMORY_ERROR_SECTION"
+req.typenames: WHEA_MEMORY_ERROR_SECTION, *PWHEA_MEMORY_ERROR_SECTION
 ---
 
 # _WHEA_MEMORY_ERROR_SECTION structure
@@ -287,15 +287,15 @@ The WHEA_MEMORY_ERROR_SECTION structure describes the error data that is contain
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_memory_error_section_validbits.md">WHEA_MEMORY_ERROR_SECTION_VALIDBITS</a>
 
 
 

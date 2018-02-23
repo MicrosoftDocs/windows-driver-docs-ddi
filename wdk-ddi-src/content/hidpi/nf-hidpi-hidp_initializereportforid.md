@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 9d56a07e-8898-4bd6-93ae-752ff7d3b215
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidP_InitializeReportForID, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hid.hidp_initializereportforid, hidpi/HidP_InitializeReportForID, HidP_InitializeReportForID routine [Human Input Devices]
+ms.keywords: HidP_InitializeReportForID routine [Human Input Devices], HidP_InitializeReportForID, hidpi/HidP_InitializeReportForID, hidfunc_b02350cf-7d33-4a71-9afb-4b3c07e52650.xml, hid.hidp_initializereportforid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,11 +194,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
+<a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
 
 
 
@@ -206,7 +206,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\ne-hidpi-_hidp_report_type.md">HIDP_REPORT_TYPE</a>
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
 
 
 

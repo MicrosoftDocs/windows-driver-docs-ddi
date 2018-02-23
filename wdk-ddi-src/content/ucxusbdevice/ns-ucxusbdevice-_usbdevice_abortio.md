@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 69720940-4D3E-43E6-B587-427ED2049FCC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._usbdevice_abortio, *PUSBDEVICE_ABORTIO, USBDEVICE_ABORTIO, _USBDEVICE_ABORTIO, ucxusbdevice/P_USBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], USBDEVICE_ABORTIO structure [Buses], P_USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO
+ms.keywords: USBDEVICE_ABORTIO structure [Buses], _USBDEVICE_ABORTIO, ucxusbdevice/_USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO, P_USBDEVICE_ABORTIO structure pointer [Buses], P_USBDEVICE_ABORTIO, ucxusbdevice/P_USBDEVICE_ABORTIO, buses._usbdevice_abortio, USBDEVICE_ABORTIO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBDEVICE_ABORTIO
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBDEVICE_ABORTIO, USBDEVICE_ABORTIO"
+req.typenames: USBDEVICE_ABORTIO, *PUSBDEVICE_ABORTIO
 req.product: Windows 10 or later.
 ---
 
@@ -79,15 +79,15 @@ A <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_mgmt_header.md">USBDEVICE_
 
 ## -see-also
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+
+
+
 <a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_purgeio.md">USBDEVICE_PURGEIO</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
+<a href="..\ucxusbdevice\ns-ucxusbdevice-_usbdevice_startio.md">USBDEVICE_STARTIO</a>
 
 
 

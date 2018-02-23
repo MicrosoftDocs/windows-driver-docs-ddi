@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_destroyprotectedresourcesession_0030.htm
 old-project: display
 ms.assetid: B247AB7B-D133-43FE-A208-CF5E3C7F7DBE
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3d12ddi_destroyprotectedresourcesession_0030, PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030, d3d12umddi/PFND3D12DDI_DESTROYPROTECTEDRESOURCESESSION_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices

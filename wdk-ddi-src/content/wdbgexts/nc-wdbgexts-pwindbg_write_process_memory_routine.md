@@ -4,10 +4,10 @@ title: PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE
 author: windows-driver-content
 description: The PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE (WriteMemory) function works like the Win32 WriteProcessMemory routine. It writes memory to the process being debugged. The entire area to be written must be accessible, or the operation fails.
 old-location: debugger\writememory.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 9e734d5d-736b-48cb-9635-f27006dd00e0
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: debugger.writememory, WriteMemory, WriteMemory callback function [Windows Debugging], WriteMemory, PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE, PWINDBG_WRITE_PROCESS_MEMORY_ROUTINE, wdbgexts/WriteMemory, WdbgExts_Ref_72933b84-f8ce-432e-b89c-09c2668aa90e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

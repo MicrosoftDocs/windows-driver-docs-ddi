@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 7D146DDF-58A5-40C2-BF21-AF785DC7DB18
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucmtypes/UcmPdConnStateNotSupported, ucmtypes/UcmPdConnStateNegotiationFailed, UcmPdConnStateNegotiationSucceeded, UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationSucceeded, UcmPdConnStateNotSupported, UCM_PD_CONN_STATE enumeration [Buses], UcmPdConnStateNegotiationFailed, ucmtypes/UCM_PD_CONN_STATE, buses.ucm_pd_conn_state, ucmtypes/UcmPdConnStateInvalid, UCM_PD_CONN_STATE, _UCM_PD_CONN_STATE
+ms.keywords: ucmtypes/UcmPdConnStateNotSupported, UcmPdConnStateInvalid, ucmtypes/UCM_PD_CONN_STATE, UcmPdConnStateNegotiationFailed, UCM_PD_CONN_STATE, _UCM_PD_CONN_STATE, UCM_PD_CONN_STATE enumeration [Buses], ucmtypes/UcmPdConnStateInvalid, ucmtypes/UcmPdConnStateNegotiationFailed, ucmtypes/UcmPdConnStateNegotiationSucceeded, UcmPdConnStateNotSupported, buses.ucm_pd_conn_state, UcmPdConnStateNegotiationSucceeded
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PUSBFN_USB_STRING, buses.usbfn_usb_string, PUSBFN_USB_STRING, USBFN_USB_STRING structure [Buses], USBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, usbfnbase/PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], _USBFN_USB_STRING"
+ms.keywords: PUSBFN_USB_STRING structure pointer [Buses], PUSBFN_USB_STRING, _USBFN_USB_STRING, USBFN_USB_STRING, buses.usbfn_usb_string, USBFN_USB_STRING structure [Buses], usbfnbase/PUSBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, *PUSBFN_USB_STRING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

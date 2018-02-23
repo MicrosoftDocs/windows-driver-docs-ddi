@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1946245d-d661-41c9-8f5a-37534bf71890
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: AddPort_OUT, hbapiwmi/PAddPort_OUT, PAddPort_OUT structure pointer [Storage Devices], hbapiwmi/AddPort_OUT, PAddPort_OUT, structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml, _AddPort_OUT, *PAddPort_OUT, AddPort_OUT structure [Storage Devices], storage.addport_out
+ms.keywords: hbapiwmi/PAddPort_OUT, storage.addport_out, PAddPort_OUT, structs-Fibre_2a5eecfb-36b6-4358-98d0-0c119b7697f0.xml, *PAddPort_OUT, AddPort_OUT, AddPort_OUT structure [Storage Devices], PAddPort_OUT structure pointer [Storage Devices], hbapiwmi/AddPort_OUT, _AddPort_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AddPort_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PAddPort_OUT, AddPort_OUT"
+req.typenames: AddPort_OUT, *PAddPort_OUT
 ---
 
 # _AddPort_OUT structure

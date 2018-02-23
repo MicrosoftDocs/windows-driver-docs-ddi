@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_I8042_HOOK_MOUSE
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
+req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # IOCTL_INTERNAL_I8042_HOOK_MOUSE IOCTL
@@ -146,14 +146,14 @@ The <b>Status</b> member is set to one of the following values:
 
 
 
-#### -STATUS_INVALID_PARAMETER
-
-<b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of an INTERNAL_I8042_HOOK_MOUSE structure.
-
-
 #### -STATUS_SUCCESS
 
 The request completed successfully.
+
+
+#### -STATUS_INVALID_PARAMETER
+
+<b>Parameters.DeviceIoControl.InputBufferLength</b> is less than the size, in bytes, of an INTERNAL_I8042_HOOK_MOUSE structure.
 
 
 ## -see-also

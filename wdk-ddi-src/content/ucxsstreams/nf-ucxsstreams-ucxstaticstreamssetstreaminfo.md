@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 40AE9327-ABB7-4A63-AC90-494E2BC26C08
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxStaticStreamsSetStreamInfo, buses._ucxstaticstreamssetstreaminfo, UcxStaticStreamsSetStreamInfo method [Buses]
+ms.keywords: UcxStaticStreamsSetStreamInfo method [Buses], UcxStaticStreamsSetStreamInfo, buses._ucxstaticstreamssetstreaminfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UcxStaticStreamsSetStreamInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PUCX_ROOTHUB_CONFIG, UCX_ROOTHUB_CONFIG"
+req.typenames: UCX_ROOTHUB_CONFIG, *PUCX_ROOTHUB_CONFIG
 req.product: Windows 10 or later.
 ---
 

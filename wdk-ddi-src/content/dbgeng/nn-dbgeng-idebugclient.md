@@ -4,10 +4,10 @@ title: IDebugClient
 author: windows-driver-content
 description: IDebugClient interface
 old-location: debugger\idebugclient.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 2e47f7ae-2017-4f05-9a06-6c09bb401e21
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: debugger.idebugclient, IDebugClient interface [Windows Debugging], IDebugClient interface [Windows Debugging], described, IDebugClient, dbgeng/IDebugClient, IDebugClient_3f5f6372-0e7d-4050-b09a-b7776ff8bf7c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -54,6 +54,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugClient</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugClient</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -482,128 +489,16 @@ Creates a user-mode or kernel-mode crash dump file.
 
 </td>
 </tr>
-</table>Adds the process options to those options that affect the current process.
-
-
-Connects the debugger engine to a kernel target.
-
-
-Connects the debugger engine to a user-mode process.
-
-Connects to a process server.
-
-Joins the client to an existing debugger session.
-
-Creates a new client object for the current thread.
-
-Creates a process from the specified command line.
-
-
- Create a process from a specified command line, then attaches to another user-mode process.
-
-Detaches the debugger engine from all processes in all targets, resuming all their threads.
-
-
-Disconnects the debugger engine from a process server.
-
-Enables the debugger engine to use the current thread for callbacks.
-
-
-Ends the current debugger session.
-
-Causes the <a href="https://msdn.microsoft.com/library/windows/hardware/ff541970">DispatchCallbacks</a> method to return.
-
- Forces any remaining buffered output to be delivered to the <a href="..\dbgeng\nn-dbgeng-idebugoutputcallbacks.md">IDebugOutputCallbacks</a> object registered with this client.
-
-Returns the event callbacks object registered with this client.
-
-
-Returns the exit code of the current process if that process has already run through to completion.
-
-
-Returns a string describing the computer and user this client represents.
-
-
-Returns the input callbacks object registered with this client.
-
-Returns the connection options for the current kernel target.
-
-
-Returns the output mask for another client.
-
-
-Returns the output callbacks object registered with the client.
-
-
-
-
-Returns the output mask currently set for the client.
-
-
-
-Retrieves the process options affecting the current process.
-
-
-Returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
-
- Searches for a process with a given executable file name and return its process ID.
-
-
- Returns the process IDs for each running process.
-
-Opens a dump file as a debugger target.
-
-
- Formats and outputs a string describing the computer and user this client represents.
-
-
-Lists the servers running on a given computer.
-
-
-Removes process options from those options that affect the current process.
-
-
-Registers an event callbacks object with this client.
-
-
-Registers an input callbacks object with the client.
-
-Updates some of the connection options for a live kernel target.
-
-
-Sets the output mask for another client.
-
-
-Registers an output callbacks object with this client.
-
-
-
-Sets the output mask for the client.
-
-
-
-Sets the process options affecting the current process.
-
-Starts a process server.
-
- Starts a debugging server.
-
-
-Attempts to terminate all processes in all targets.
-
-Creates a user-mode or kernel-mode crash dump file.
-
-
- 
+</table> 
 
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
 
 
 
@@ -619,5 +514,5 @@ Creates a user-mode or kernel-mode crash dump file.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient interface%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient interface%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,10 +4,10 @@ title: IDebugPlmClient3
 author: windows-driver-content
 description: This interface supports Process Lifecycle Management (PLM) for the debug client.
 old-location: debugger\idebugplmclient3.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 5B0580FF-0829-406A-B511-C0CD91A08D5F
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: debugger.idebugplmclient3, IDebugPlmClient3 interface [Windows Debugging], IDebugPlmClient3 interface [Windows Debugging], described, IDebugPlmClient3, dbgeng/IDebugPlmClient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -51,6 +51,13 @@ req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 
 This interface supports Process Lifecycle Management (PLM) for the debug client.
 
+
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDebugPlmClient3</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDebugPlmClient3</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
 
 ## -members
 
@@ -141,23 +148,5 @@ Ends a Process Lifecycle Management (PLM) package.
 
 </td>
 </tr>
-</table>    Launches and attaches to a Process Lifecycle Management (PLM) background task.
-
-Disables a Process Lifecycle Management (PLM) package debug.
-
-Enables a Process Lifecycle Management (PLM) package debug.
-
-    Launches and attaches to a Process Lifecycle Management (PLM) application. 
-
-Query a Process Lifecycle Management (PLM) package list.
-
-Query a Process Lifecycle Management (PLM) package.
-
-Resumes a Process Lifecycle Management (PLM) package.
-
-Suspends a Process Lifecycle Management (PLM) package.
-
-Ends a Process Lifecycle Management (PLM) package.
-
- 
+</table> 
 

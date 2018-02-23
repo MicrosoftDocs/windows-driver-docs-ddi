@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_msr_update_key.htm
 old-project: pos
 ms.assetid: 7ac830d3-6a75-4d82-9123-cd7ad9c2cdea
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.ioctl_point_of_service_msr_update_key, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY control code, IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_MSR_UPDATE_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 1977828d-61bb-4649-bfa6-e5e82775258e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFRequestCompletionParams::GetCompletedRequestType, wdf.iwdfrequestcompletionparams_getcompletedrequesttype, umdf.iwdfrequestcompletionparams_getcompletedrequesttype, UMDFRequestObjectRef_97c61d1b-059f-44d7-9d3a-7c031099d669.xml, IWDFRequestCompletionParams, GetCompletedRequestType, GetCompletedRequestType method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams::GetCompletedRequestType, IWDFRequestCompletionParams interface, GetCompletedRequestType method, GetCompletedRequestType method
+ms.keywords: IWDFRequestCompletionParams, UMDFRequestObjectRef_97c61d1b-059f-44d7-9d3a-7c031099d669.xml, GetCompletedRequestType method, IWDFRequestCompletionParams interface, IWDFRequestCompletionParams interface, GetCompletedRequestType method, IWDFRequestCompletionParams::GetCompletedRequestType, wudfddi/IWDFRequestCompletionParams::GetCompletedRequestType, GetCompletedRequestType method, umdf.iwdfrequestcompletionparams_getcompletedrequesttype, wdf.iwdfrequestcompletionparams_getcompletedrequesttype, GetCompletedRequestType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 447D225C-4B73-4567-81E3-950EBC802F84
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_CDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, *PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], PCDROM_OPC_INFO_TYPE, ntddcdrm/PCDROM_OPC_INFO_TYPE, SimpleOpcInfo, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], ntddcdrm/CDROM_OPC_INFO_TYPE, storage.cdrom_opc_info_type"
+ms.keywords: storage.cdrom_opc_info_type, PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE enumeration [Storage Devices], *PCDROM_OPC_INFO_TYPE, ntddcdrm/SimpleOpcInfo, CDROM_OPC_INFO_TYPE, ntddcdrm/CDROM_OPC_INFO_TYPE, _CDROM_OPC_INFO_TYPE, PCDROM_OPC_INFO_TYPE enumeration pointer [Storage Devices], SimpleOpcInfo, ntddcdrm/PCDROM_OPC_INFO_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	CDROM_OPC_INFO_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PCDROM_OPC_INFO_TYPE, CDROM_OPC_INFO_TYPE"
+req.typenames: CDROM_OPC_INFO_TYPE, *PCDROM_OPC_INFO_TYPE
 ---
 
 # _CDROM_OPC_INFO_TYPE enumeration

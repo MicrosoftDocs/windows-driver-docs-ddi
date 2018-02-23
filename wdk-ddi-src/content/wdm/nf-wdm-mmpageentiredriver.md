@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 467a8e64-c4ed-4bd0-81f8-b792367d33bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MmPageEntireDriver, wdm/MmPageEntireDriver, k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml, kernel.mmpageentiredriver, MmPageEntireDriver routine [Kernel-Mode Driver Architecture]
+ms.keywords: MmPageEntireDriver, k106_2e2de4d8-8b4f-4f8b-9451-f4f1ea8a5325.xml, MmPageEntireDriver routine [Kernel-Mode Driver Architecture], wdm/MmPageEntireDriver, kernel.mmpageentiredriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ PVOID MmPageEntireDriver(
 
 ### -param AddressWithinSection [in]
 
-Pointer to a virtual address within the driver (for example, the address of the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine).
+Pointer to a virtual address within the driver (for example, the address of the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine).
 
 
 ## -returns
@@ -97,15 +97,11 @@ If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
+<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 
 
 <a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
 
 
 
@@ -113,7 +109,11 @@ If the driver is already completely pageable, calling <b>MmPageEntireDriver</b> 
 
 
 
-<a href="..\wdm\nf-wdm-mmresetdriverpaging.md">MmResetDriverPaging</a>
+<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
 
 
 

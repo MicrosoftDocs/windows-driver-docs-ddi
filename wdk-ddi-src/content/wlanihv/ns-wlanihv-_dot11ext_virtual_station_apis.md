@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5487375a-7d50-4ddd-a666-8727f45b85dc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11EXT_VIRTUAL_STATION_APIS structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_0b2dadd3-7d60-4836-9171-c2c11b56010d.xml, wlanihv/DOT11EXT_VIRTUAL_STATION_APIS, wlanihv/PDOT11EXT_VIRTUAL_STATION_APIS, DOT11EXT_VIRTUAL_STATION_APIS, *PDOT11EXT_VIRTUAL_STATION_APIS, netvista.dot11ext_virtual_station_apis, PDOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS structure pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_VIRTUAL_STATION_APIS
+ms.keywords: wlanihv/PDOT11EXT_VIRTUAL_STATION_APIS, DOT11EXT_VIRTUAL_STATION_APIS structure [Network Drivers Starting with Windows Vista], wlanihv/DOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS, PDOT11EXT_VIRTUAL_STATION_APIS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11EXT_VIRTUAL_STATION_APIS, Native_802.11_data_types_0b2dadd3-7d60-4836-9171-c2c11b56010d.xml, _DOT11EXT_VIRTUAL_STATION_APIS, netvista.dot11ext_virtual_station_apis, DOT11EXT_VIRTUAL_STATION_APIS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,6 +124,16 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 ## -see-also
 
+<a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
+   Dot11ExtReleaseVirtualStation</a>
+
+
+
+<a href="..\wlanihv\nc-wlanihv-dot11ext_request_virtual_station.md">
+   Dot11ExtRequestVirtualStation</a>
+
+
+
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_virtual_station.md">
    Dot11ExtIhvInitVirtualStation</a>
 
@@ -134,18 +144,8 @@ All of the function pointers are required and must not be set to <b>NULL</b>.
 
 
 
-<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_virtual_station.md">
-   Dot11ExtIhvInitVirtualStation</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_release_virtual_station.md">
-   Dot11ExtReleaseVirtualStation</a>
-
-
-
-<a href="..\wlanihv\nc-wlanihv-dot11ext_request_virtual_station.md">
-   Dot11ExtRequestVirtualStation</a>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_set_virtual_station_ap_properties.md">
+   Dot11ExtSetVirtualStationAPProperties</a>
 
 
 

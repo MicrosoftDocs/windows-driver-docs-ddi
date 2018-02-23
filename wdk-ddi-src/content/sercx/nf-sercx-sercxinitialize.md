@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 2837C3BE-71EB-4949-AB46-5333CF4575A8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: serports.sercxinitialize, SerCxInitialize method [Serial Ports], 1/SerCxInitialize, SerCxInitialize
+ms.keywords: 1/SerCxInitialize, serports.sercxinitialize, SerCxInitialize, SerCxInitialize method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCxInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
+req.typenames: SERCX_STATUS, *PSERCX_STATUS
 req.product: Windows 10 or later.
 ---
 
@@ -135,7 +135,7 @@ This routine must be called before committing the device (returning from <a href
 
 ## -see-also
 
-<a href="..\sercx\ns-sercx-_sercx_config.md">SERCX_CONFIG</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1f5dc4e-8069-4e3e-94a0-a9a7c359bdb4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.hba_getadapterportattributes, fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml, hbaapi/HBA_GetAdapterPortAttributes, HBA_GetAdapterPortAttributes routine [Storage Devices], HBA_GetAdapterPortAttributes
+ms.keywords: hbaapi/HBA_GetAdapterPortAttributes, storage.hba_getadapterportattributes, HBA_GetAdapterPortAttributes, HBA_GetAdapterPortAttributes routine [Storage Devices], fibreHBA_rtns_c49b4806-e5cf-40fa-a166-8f2ab58259ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

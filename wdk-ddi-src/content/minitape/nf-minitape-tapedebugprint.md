@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d06e4308-f1a9-4acd-bc25-b3fd53129064
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.tapedebugprint, TapeDebugPrint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml, TapeDebugPrint routine [Storage Devices], minitape/TapeDebugPrint
+ms.keywords: minitape/TapeDebugPrint, tapeclas_cc0c28ed-17e9-40cf-bf04-e906aa4f74f0.xml, TapeDebugPrint routine [Storage Devices], TapeDebugPrint, storage.tapedebugprint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	TapeDebugPrint
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
+req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeDebugPrint function

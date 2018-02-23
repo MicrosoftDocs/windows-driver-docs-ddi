@@ -7,7 +7,7 @@ old-location: stream\kstrallocator.htm
 old-project: stream
 ms.assetid: 4af5ac92-824c-42bf-8fb7-5418ae5d793c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.kstrallocator, KStrAllocator routine [Streaming Media Devices], KStrAllocator, PFNKSALLOCATOR, PFNKSALLOCATOR, ks/KStrAllocator, ksfunc_abd9491e-0ad2-4c28-bd96-90ecd6a6af3c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 29359aa3-2429-45fc-bc19-b58df60c4e89
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbVPrintfExA, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml, STRSAFE_IGNORE_NULLS, ntstrsafe/RtlStringCbVPrintfExW, kernel.rtlstringcbvprintfex, RtlStringCbVPrintfEx, STRSAFE_FILL_BEHIND_NULL, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCbVPrintfExA, RtlStringCbVPrintfExW, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION
+ms.keywords: ntstrsafe/RtlStringCbVPrintfExA, RtlStringCbVPrintfExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbVPrintfExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCbVPrintfExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_NULL_ON_FAILURE, safestrings_95156244-d97b-452b-bd09-3e68d3c25392.xml, kernel.rtlstringcbvprintfex, STRSAFE_NO_TRUNCATION, STRSAFE_IGNORE_NULLS, RtlStringCbVPrintfEx, RtlStringCbVPrintfExW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbVPrintfExW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbVPrintfExA function
@@ -315,15 +315,15 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
+
+
+
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbprintfexw.md">RtlStringCbPrintfEx</a>
 
 
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchvprintfexw.md">RtlStringCchVPrintfEx</a>
-
-
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbvprintfw.md">RtlStringCbVPrintf</a>
 
 
 

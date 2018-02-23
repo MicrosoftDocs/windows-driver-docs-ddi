@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9A4249B6-BFC2-42B4-BBA6-094BD78C98DE
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG, *PUCX_CONTROLLER_CONFIG, ucxcontroller/_UCX_CONTROLLER_CONFIG, buses._ucx_controller_config, P_UCX_CONTROLLER_CONFIG structure pointer [Buses], P_UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG structure [Buses], ucxcontroller/P_UCX_CONTROLLER_CONFIG"
+ms.keywords: UCX_CONTROLLER_CONFIG structure [Buses], buses._ucx_controller_config, ucxcontroller/_UCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG, P_UCX_CONTROLLER_CONFIG structure pointer [Buses], P_UCX_CONTROLLER_CONFIG, ucxcontroller/P_UCX_CONTROLLER_CONFIG, _UCX_CONTROLLER_CONFIG, *PUCX_CONTROLLER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCX_CONTROLLER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PUCX_CONTROLLER_CONFIG, UCX_CONTROLLER_CONFIG"
+req.typenames: UCX_CONTROLLER_CONFIG, *PUCX_CONTROLLER_CONFIG
 req.product: Windows 10 or later.
 ---
 

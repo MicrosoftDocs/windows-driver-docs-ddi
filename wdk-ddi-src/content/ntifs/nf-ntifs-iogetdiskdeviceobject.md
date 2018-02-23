@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: c4f27011-f198-474e-8d2c-8bf35c3c8c66
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.iogetdiskdeviceobject, ntifs/IoGetDiskDeviceObject, ioref_b3532bdd-87b6-4e6b-91a0-093b8ed5aa6c.xml, IoGetDiskDeviceObject routine [Installable File System Drivers], IoGetDiskDeviceObject
+ms.keywords: ifsk.iogetdiskdeviceobject, IoGetDiskDeviceObject, ioref_b3532bdd-87b6-4e6b-91a0-093b8ed5aa6c.xml, IoGetDiskDeviceObject routine [Installable File System Drivers], ntifs/IoGetDiskDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,15 +144,15 @@ File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a fil
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
+<a href="..\ntifs\nf-ntifs-iogetattacheddevice.md">IoGetAttachedDevice</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioenumeratedeviceobjectlist.md">IoEnumerateDeviceObjectList</a>
 
 
 
@@ -160,7 +160,7 @@ File system filter drivers typically call <b>IoGetDiskDeviceObject</b> for a fil
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\wdm\nf-wdm-iogetattacheddevicereference.md">IoGetAttachedDeviceReference</a>
 
 
 

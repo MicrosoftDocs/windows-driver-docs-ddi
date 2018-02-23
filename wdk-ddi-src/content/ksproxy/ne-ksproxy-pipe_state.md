@@ -7,8 +7,8 @@ old-location: stream\pipe_state.htm
 old-project: stream
 ms.assetid: A3053A39-5DB6-4DB8-89ED-63ABDB1CD16F
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksproxy/PipeState_DontCare, PipeState_RangeNotFixed, ksproxy/PipeState_Finalized, PipeState_DontCare, PipeState_CompressionUnknown, ksproxy/PIPE_STATE, ksproxy/PipeState_RangeFixed, ksproxy/PipeState_CompressionUnknown, PipeState_Finalized, PIPE_STATE, ksproxy/PipeState_RangeNotFixed, PIPE_STATE enumeration [Streaming Media Devices], stream.pipe_state, PipeState_RangeFixed
+ms.date: 2/22/2018
+ms.keywords: PipeState_DontCare, ksproxy/PipeState_RangeFixed, ksproxy/PipeState_RangeNotFixed, PIPE_STATE, stream.pipe_state, ksproxy/PipeState_DontCare, PipeState_RangeFixed, ksproxy/PipeState_Finalized, ksproxy/PipeState_CompressionUnknown, PipeState_CompressionUnknown, PIPE_STATE enumeration [Streaming Media Devices], PipeState_RangeNotFixed, ksproxy/PIPE_STATE, PipeState_Finalized
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

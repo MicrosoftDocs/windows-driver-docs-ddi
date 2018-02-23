@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: F57FA113-F664-4B10-8457-DF6D266264E9
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE, buses.alternate_interface, PALTERNATE_INTERFACE, usbfnbase/ALTERNATE_INTERFACE, _ALTERNATE_INTERFACE, PALTERNATE_INTERFACE structure pointer [Buses], usbfnbase/PALTERNATE_INTERFACE, ALTERNATE_INTERFACE structure [Buses]
+ms.keywords: ALTERNATE_INTERFACE structure [Buses], PALTERNATE_INTERFACE structure pointer [Buses], buses.alternate_interface, PALTERNATE_INTERFACE, usbfnbase/ALTERNATE_INTERFACE, *PALTERNATE_INTERFACE, ALTERNATE_INTERFACE, _ALTERNATE_INTERFACE, usbfnbase/PALTERNATE_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

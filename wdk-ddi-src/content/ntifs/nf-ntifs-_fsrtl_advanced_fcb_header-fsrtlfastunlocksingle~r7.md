@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 8fd7aeea-f8b2-4f53-b4b6-65240ff0c7b6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlfastunlocksingle, FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers], ntifs/FsRtlFastUnlockSingle, fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml
+ms.keywords: FsRtlFastUnlockSingle, ifsk.fsrtlfastunlocksingle, fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, ntifs/FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

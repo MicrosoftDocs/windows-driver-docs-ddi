@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aeafa20c-e4be-4b6d-88b7-22b84ef4cedd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfmemorycreatefromlookaside, wdf.wdfmemorycreatefromlookaside, WdfMemoryCreateFromLookaside method, WdfMemoryCreateFromLookaside, wdfmemory/WdfMemoryCreateFromLookaside, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml
+ms.keywords: WdfMemoryCreateFromLookaside method, WdfMemoryCreateFromLookaside, wdf.wdfmemorycreatefromlookaside, kmdf.wdfmemorycreatefromlookaside, wdfmemory/WdfMemoryCreateFromLookaside, DFMemoryObjectRef_0eabcdc7-a75d-49bf-9fe4-775748fca8bf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -178,15 +178,15 @@ status = WdfMemoryCreateFromLookaside(
 
 ## -see-also
 
-<a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>
-
-
-
 <a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
 
 
 
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
+
+
+
+<a href="..\wdfmemory\nf-wdfmemory-wdflookasidelistcreate.md">WdfLookasideListCreate</a>
 
 
 

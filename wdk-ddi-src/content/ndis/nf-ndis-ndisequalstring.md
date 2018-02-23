@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: cc5da07d-fcd2-40f9-8ba9-d7ddf35e7b7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndisequalstring, NdisEqualString macro [Network Drivers Starting with Windows Vista], ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, NdisEqualString, ndis/NdisEqualString
+ms.keywords: ndis_string_ref_31191521-4693-40f9-a6e7-0c9b09bc6298.xml, netvista.ndisequalstring, NdisEqualString macro [Network Drivers Starting with Windows Vista], NdisEqualString, ndis/NdisEqualString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -41,7 +41,7 @@ apiname:
 -	NdisEqualString
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisEqualString macro
@@ -109,11 +109,7 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
@@ -121,7 +117,11 @@ Starting with Windows 2000, a string of type NDIS_STRING is a counted, null-term
 
 
 
-<a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
+<a href="..\wdm\nf-wdm-rtlinitstring.md">RtlInitString</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

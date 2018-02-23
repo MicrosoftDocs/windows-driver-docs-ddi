@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 816baec4-3dd0-4025-ba34-035bf6f241d3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], ntddcdrm/PSUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, _SUB_Q_CURRENT_POSITION, ntddcdrm/SUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION structure [Storage Devices], structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml, *PSUB_Q_CURRENT_POSITION
+ms.keywords: SUB_Q_CURRENT_POSITION structure [Storage Devices], ntddcdrm/SUB_Q_CURRENT_POSITION, PSUB_Q_CURRENT_POSITION, structs-CD-ROM_f9833ad0-bb9c-418e-8e98-2c2f790a0e7e.xml, _SUB_Q_CURRENT_POSITION, storage.sub_q_current_position, PSUB_Q_CURRENT_POSITION structure pointer [Storage Devices], ntddcdrm/PSUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SUB_Q_CURRENT_POSITION
 product: Windows
 targetos: Windows
-req.typenames: "*PSUB_Q_CURRENT_POSITION, SUB_Q_CURRENT_POSITION"
+req.typenames: SUB_Q_CURRENT_POSITION, *PSUB_Q_CURRENT_POSITION
 ---
 
 # _SUB_Q_CURRENT_POSITION structure
@@ -116,7 +116,7 @@ Gives the current location relative to the logical beginning of the current trac
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
 
 
@@ -124,11 +124,11 @@ Gives the current location relative to the logical beginning of the current trac
 
 
 
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
 
 

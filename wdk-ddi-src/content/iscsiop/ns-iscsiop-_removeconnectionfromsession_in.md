@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd5fd1f2-7040-40ee-bf9c-42e77c9738da
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PRemoveConnectionFromSession_IN, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml, RemoveConnectionFromSession_IN structure [Storage Devices], iscsiop/PRemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], _RemoveConnectionFromSession_IN, iscsiop/RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN
+ms.keywords: iscsiop/RemoveConnectionFromSession_IN, *PRemoveConnectionFromSession_IN, _RemoveConnectionFromSession_IN, structs-iSCSI_7dca8bd4-ebf8-4ccc-996a-852fabba5df3.xml, iscsiop/PRemoveConnectionFromSession_IN, RemoveConnectionFromSession_IN, PRemoveConnectionFromSession_IN, storage.removeconnectionfromsession_in, PRemoveConnectionFromSession_IN structure pointer [Storage Devices], RemoveConnectionFromSession_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,11 +93,11 @@ You must implement this class.
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563973">RemoveConnectionFromSession</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 

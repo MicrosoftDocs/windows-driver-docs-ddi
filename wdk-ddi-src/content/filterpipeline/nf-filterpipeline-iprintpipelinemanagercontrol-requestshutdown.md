@@ -7,8 +7,8 @@ old-location: print\iprintpipelinemanagercontrol_requestshutdown.htm
 old-project: print
 ms.assetid: dfb0d7d1-4e82-4471-814b-4b8c4929c709
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: filterpipeline/IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], print.iprintpipelinemanagercontrol_requestshutdown, IPrintPipelineManagerControl, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, RequestShutdown, RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, IPrintPipelineManagerControl::RequestShutdown
+ms.date: 2/22/2018
+ms.keywords: RequestShutdown, filterpipeline_b16337ab-92e1-4e5e-be84-bddf89bff0a1.xml, IPrintPipelineManagerControl, filterpipeline/IPrintPipelineManagerControl::RequestShutdown, IPrintPipelineManagerControl interface [Print Devices], RequestShutdown method, print.iprintpipelinemanagercontrol_requestshutdown, IPrintPipelineManagerControl::RequestShutdown, RequestShutdown method [Print Devices], IPrintPipelineManagerControl interface, RequestShutdown method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

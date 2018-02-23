@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cc2394ce-128e-46a2-8688-a71851af06cf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], wdm/RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource, kernel.rtlcmdecodememioresource, k109_da737a74-2fce-4731-b24d-9014272991f1.xml
+ms.keywords: k109_da737a74-2fce-4731-b24d-9014272991f1.xml, RtlCmDecodeMemIoResource, RtlCmDecodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtlcmdecodememioresource, wdm/RtlCmDecodeMemIoResource
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -99,11 +99,11 @@ The <b>Type</b> member of the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure mu
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlcmencodememioresource.md">RtlCmEncodeMemIoResource</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 

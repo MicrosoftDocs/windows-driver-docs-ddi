@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9c17a5e2-dcf2-493a-9851-11d47adbfc82
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfDeviceInitAssignWdmIrpPreprocessCallback method, DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml, WdfDeviceInitAssignWdmIrpPreprocessCallback, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback, wdf.wdfdeviceinitassignwdmirppreprocesscallback, kmdf.wdfdeviceinitassignwdmirppreprocesscallback
+ms.keywords: WdfDeviceInitAssignWdmIrpPreprocessCallback method, wdf.wdfdeviceinitassignwdmirppreprocesscallback, kmdf.wdfdeviceinitassignwdmirppreprocesscallback, wdfdevice/WdfDeviceInitAssignWdmIrpPreprocessCallback, WdfDeviceInitAssignWdmIrpPreprocessCallback, DFDeviceObjectGeneralRef_ff2869f4-a557-4d3a-bd4d-67b8e1720ba9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

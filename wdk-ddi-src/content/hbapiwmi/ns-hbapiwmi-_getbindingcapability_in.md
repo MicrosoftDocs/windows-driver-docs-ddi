@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd4046db-f9f5-4c9e-8886-29504c727f67
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PGetBindingCapability_IN structure pointer [Storage Devices], structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml, storage.getbindingcapability_in, hbapiwmi/PGetBindingCapability_IN, PGetBindingCapability_IN, *PGetBindingCapability_IN, GetBindingCapability_IN structure [Storage Devices], _GetBindingCapability_IN, GetBindingCapability_IN, hbapiwmi/GetBindingCapability_IN
+ms.keywords: structs-Fibre_11549945-ce24-45b2-b547-724bfa1b2380.xml, hbapiwmi/GetBindingCapability_IN, PGetBindingCapability_IN, _GetBindingCapability_IN, GetBindingCapability_IN, storage.getbindingcapability_in, hbapiwmi/PGetBindingCapability_IN, *PGetBindingCapability_IN, PGetBindingCapability_IN structure pointer [Storage Devices], GetBindingCapability_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetBindingCapability_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PGetBindingCapability_IN, GetBindingCapability_IN"
+req.typenames: GetBindingCapability_IN, *PGetBindingCapability_IN
 ---
 
 # _GetBindingCapability_IN structure

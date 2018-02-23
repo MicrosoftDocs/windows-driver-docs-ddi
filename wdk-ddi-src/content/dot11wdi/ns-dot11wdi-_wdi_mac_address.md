@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e170b797-f8bb-4d3c-a3ee-5fd1a817a500
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWDI_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista], dot11wdi/PWDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS, dot11wdi/WDI_MAC_ADDRESS, WDI_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], netvista.wifi_mac_address, _WDI_MAC_ADDRESS, netvista.wdi_mac_address, PWDI_MAC_ADDRESS, WDI_MAC_ADDRESS
+ms.keywords: "_WDI_MAC_ADDRESS, *PWDI_MAC_ADDRESS, dot11wdi/PWDI_MAC_ADDRESS, WDI_MAC_ADDRESS, netvista.wifi_mac_address, WDI_MAC_ADDRESS structure [Network Drivers Starting with Windows Vista], PWDI_MAC_ADDRESS, dot11wdi/WDI_MAC_ADDRESS, netvista.wdi_mac_address, PWDI_MAC_ADDRESS structure pointer [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

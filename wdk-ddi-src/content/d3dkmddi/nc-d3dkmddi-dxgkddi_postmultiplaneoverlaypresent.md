@@ -7,7 +7,7 @@ old-location: display\dxgkddi_postmultiplaneoverlaypresent.htm
 old-project: display
 ms.assetid: C420DDE8-73D4-4D43-861C-A7B31B4C7DEC
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.dxgkddi_postmultiplaneoverlaypresent, DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT callback function [Display Devices], DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT, d3dkmddi/DXGKDDI_POSTMULTIPLANEOVERLAYPRESENT
 ms.prod: windows-hardware
 ms.technology: windows-devices

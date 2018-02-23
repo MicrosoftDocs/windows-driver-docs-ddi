@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: 3B84B227-7155-4FA2-A224-1317D103F5C3
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], NFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], nfccx/PNFCCX_DRIVER_GLOBALS, nfpdrivers.nfccx_driver_globals"
+ms.keywords: nfpdrivers.nfccx_driver_globals, _NFCCX_DRIVER_GLOBALS, PNFCCX_DRIVER_GLOBALS structure pointer [Near-Field Proximity Drivers], nfccx/PNFCCX_DRIVER_GLOBALS, *PNFCCX_DRIVER_GLOBALS, nfccx/NFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS structure [Near-Field Proximity Drivers], PNFCCX_DRIVER_GLOBALS, NFCCX_DRIVER_GLOBALS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

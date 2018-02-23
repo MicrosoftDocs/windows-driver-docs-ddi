@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 62cd5dd1-8775-4b60-9aa2-3f8e0a3a4b26
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rilapitypes/RIL_DCSALPHABET_UCS2, RILMSGDCSALPHABET, RIL_DCSALPHABET_8BIT, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], netvista.rilmsgdcsalphabet_2, rilapitypes/RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_MAX, RIL_DCSALPHABET_UCS2, rilapitypes/RIL_DCSALPHABET_MAX, rilapitypes/RILMSGDCSALPHABET
+ms.keywords: RIL_DCSALPHABET_MAX, RILMSGDCSALPHABET enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILMSGDCSALPHABET, rilapitypes/RIL_DCSALPHABET_UCS2, netvista.rilmsgdcsalphabet_2, RIL_DCSALPHABET_UCS2, rilapitypes/RIL_DCSALPHABET_8BIT, RIL_DCSALPHABET_8BIT, rilapitypes/RIL_DCSALPHABET_MAX, RILMSGDCSALPHABET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

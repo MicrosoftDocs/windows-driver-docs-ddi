@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 A driver implements the <b>IRequestCallbackRequestCompletion</b> interface to complete a request object. 
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IRequestCallbackRequestCompletion</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IRequestCallbackRequestCompletion</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IRequestCallbackRequestCompletion</b> interface has these methods.
@@ -72,9 +79,7 @@ The <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/1a4787da-2813-4a7a-820a-5c078175aba5">OnCompletion</a> method completes the specified request. 
-
- 
+</table> 
 
 
 ## -remarks

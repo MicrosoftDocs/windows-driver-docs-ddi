@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: BEE9581A-5FC4-4C5B-B428-B782E59720C3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbChannelGetInterfaceInstance function [Network Drivers Starting with Windows Vista], VmbChannelGetInterfaceInstance, netvista.vmbchannelgetinterfaceinstance, vmbuskernelmodeclientlibapi/VmbChannelGetInterfaceInstance
+ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelGetInterfaceInstance, netvista.vmbchannelgetinterfaceinstance, VmbChannelGetInterfaceInstance, VmbChannelGetInterfaceInstance function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

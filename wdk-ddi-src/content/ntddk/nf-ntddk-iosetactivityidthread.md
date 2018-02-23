@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4C7884AB-C763-4FAF-8799-E0113B3F3AE0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iosetactivityidthread, ntddk/IoSetActivityIdThread, IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], IoSetActivityIdThread
+ms.keywords: IoSetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iosetactivityidthread, IoSetActivityIdThread, ntddk/IoSetActivityIdThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoSetActivityIdThread
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoSetActivityIdThread function

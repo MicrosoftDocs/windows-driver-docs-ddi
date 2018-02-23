@@ -7,8 +7,8 @@ old-location: stream\streamclassgetnextevent.htm
 old-project: stream
 ms.assetid: a2f83163-4529-4627-8959-2b4cd6b88828
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: StreamClassGetNextEvent routine [Streaming Media Devices], stream.streamclassgetnextevent, strmini/StreamClassGetNextEvent, StreamClassGetNextEvent, strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml
+ms.date: 2/22/2018
+ms.keywords: strmini/StreamClassGetNextEvent, strclass-routines_5a606366-379b-400b-b039-8722f084e3c6.xml, stream.streamclassgetnextevent, StreamClassGetNextEvent routine [Streaming Media Devices], StreamClassGetNextEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

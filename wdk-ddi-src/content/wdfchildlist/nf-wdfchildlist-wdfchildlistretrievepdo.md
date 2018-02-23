@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfChildListRetrievePdo, WdfChildListRetrievePdo method, wdfchildlist/WdfChildListRetrievePdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, kmdf.wdfchildlistretrievepdo, wdf.wdfchildlistretrievepdo
+ms.keywords: wdfchildlist/WdfChildListRetrievePdo, wdf.wdfchildlistretrievepdo, kmdf.wdfchildlistretrievepdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo, WdfChildListRetrievePdo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,7 +147,7 @@ hChild = WdfChildListRetrievePdo(
 
 
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md">WDF_CHILD_RETRIEVE_INFO_INIT</a>
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
 
 
 

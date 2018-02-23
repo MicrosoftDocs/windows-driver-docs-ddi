@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 12684719-f263-4909-bcb7-b75381cc7e43
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RIL_PARAM_SA_ALL, ntddrilapitypes/RIL_PARAM_SA_SUBADDRESS, RIL_PARAM_SA_SUBADDRESS, RIL_PARAM_SA_ALL, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILSUBADDRESSPARAMMASK, netvista.rilsubaddressparammask, ntddrilapitypes/RILSUBADDRESSPARAMMASK
+ms.keywords: ntddrilapitypes/RIL_PARAM_SA_ALL, RILSUBADDRESSPARAMMASK, netvista.rilsubaddressparammask, ntddrilapitypes/RIL_PARAM_SA_SUBADDRESS, RIL_PARAM_SA_SUBADDRESS, RIL_PARAM_SA_ALL, RILSUBADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSUBADDRESSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

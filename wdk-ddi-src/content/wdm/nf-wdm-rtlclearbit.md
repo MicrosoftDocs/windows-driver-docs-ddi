@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: bfc75a17-a0de-436e-aebf-902fd841871a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlClearBit routine [Kernel-Mode Driver Architecture], k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml, kernel.rtlclearbit, RtlClearBit, wdm/RtlClearBit
+ms.keywords: kernel.rtlclearbit, wdm/RtlClearBit, RtlClearBit routine [Kernel-Mode Driver Architecture], RtlClearBit, k109_f785121e-f076-4f31-90ab-4bec446e3cc9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

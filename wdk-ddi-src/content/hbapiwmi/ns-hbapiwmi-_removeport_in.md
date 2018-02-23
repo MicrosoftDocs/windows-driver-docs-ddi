@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2f32e44a-e4a6-4745-9749-fc611119cc0e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PRemovePort_IN structure pointer [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml, PRemovePort_IN, RemovePort_IN structure [Storage Devices], *PRemovePort_IN, hbapiwmi/RemovePort_IN, RemovePort_IN, storage.removeport_in
+ms.keywords: hbapiwmi/RemovePort_IN, structs-Fibre_f60e236f-5ed1-4cc2-b685-6ee40895736e.xml, *PRemovePort_IN, PRemovePort_IN structure pointer [Storage Devices], PRemovePort_IN, RemovePort_IN, storage.removeport_in, RemovePort_IN structure [Storage Devices], _RemovePort_IN, hbapiwmi/PRemovePort_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RemovePort_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PRemovePort_IN, RemovePort_IN"
+req.typenames: RemovePort_IN, *PRemovePort_IN
 ---
 
 # _RemovePort_IN structure

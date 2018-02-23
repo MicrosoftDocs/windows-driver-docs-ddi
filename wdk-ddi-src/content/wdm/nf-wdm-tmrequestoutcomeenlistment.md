@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1e58be94-7a10-4708-a658-9de28e26a465
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.tmrequestoutcomeenlistment, wdm/TmRequestOutcomeEnlistment, TmRequestOutcomeEnlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/TmRequestOutcomeEnlistment, kernel.tmrequestoutcomeenlistment, TmRequestOutcomeEnlistment, ktm_ref_9be6bea7-eae4-4621-8155-f8a06285bb97.xml, TmRequestOutcomeEnlistment routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,10 +126,6 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
@@ -138,7 +134,11 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 
 
-<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -146,11 +146,11 @@ For more information about <b>TmCreateEnlistment</b>, see <a href="https://msdn.
 
 
 
+<a href="..\wdm\nf-wdm-zwpreparecomplete.md">ZwPrepareComplete</a>
+
+
+
 <a href="..\wdm\nf-wdm-tmpreparecomplete.md">TmPrepareComplete</a>
-
-
-
-<a href="..\wdm\nf-wdm-tmcreateenlistment.md">TmCreateEnlistment</a>
 
 
 

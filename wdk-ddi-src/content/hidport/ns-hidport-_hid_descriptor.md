@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 80a6a5d8-b13a-418d-a4bd-941d3a913c1e
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PHID_DESCRIPTOR structure pointer [Human Input Devices], hidport/PHID_DESCRIPTOR, PHID_DESCRIPTOR, hidport/HID_DEVICE_ATTRIBUTES, _HID_DESCRIPTOR, HID_DESCRIPTOR structure [Human Input Devices], HID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, *PHID_DESCRIPTOR, hid.hid_descriptor
+ms.keywords: PHID_DESCRIPTOR, PHID_DESCRIPTOR structure pointer [Human Input Devices], hid.hid_descriptor, hidport/PHID_DESCRIPTOR, *PHID_DESCRIPTOR, hidstrct_07b2c0af-449d-484e-8aa8-9d7e3909d113.xml, hidport/HID_DEVICE_ATTRIBUTES, HID_DESCRIPTOR, _HID_DESCRIPTOR, HID_DESCRIPTOR structure [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HID_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PHID_DESCRIPTOR, HID_DESCRIPTOR"
+req.typenames: HID_DESCRIPTOR, *PHID_DESCRIPTOR
 ---
 
 # _HID_DESCRIPTOR structure

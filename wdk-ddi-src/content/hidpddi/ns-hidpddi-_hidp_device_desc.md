@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: C51D645B-5DF2-4F23-904B-AB56F97520CB
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hidpddi/HIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], hid.hidp_device_desc, _HIDP_DEVICE_DESC, hidpddi/PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC, PHIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC, PHIDP_DEVICE_DESC structure pointer [Human Input Devices]
+ms.keywords: HIDP_DEVICE_DESC, hidpddi/HIDP_DEVICE_DESC, HIDP_DEVICE_DESC structure [Human Input Devices], hidpddi/PHIDP_DEVICE_DESC, PHIDP_DEVICE_DESC, PHIDP_DEVICE_DESC structure pointer [Human Input Devices], hid.hidp_device_desc, *PHIDP_DEVICE_DESC, _HIDP_DEVICE_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HIDP_DEVICE_DESC
 product: Windows
 targetos: Windows
-req.typenames: "*PHIDP_DEVICE_DESC, HIDP_DEVICE_DESC"
+req.typenames: HIDP_DEVICE_DESC, *PHIDP_DEVICE_DESC
 ---
 
 # _HIDP_DEVICE_DESC structure

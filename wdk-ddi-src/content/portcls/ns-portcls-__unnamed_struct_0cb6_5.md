@@ -7,8 +7,8 @@ old-location: audio\pcevent_item.htm
 old-project: audio
 ms.assetid: b91a7582-e146-4ded-a6b7-cb77850bfd2c
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PCEVENT_ITEM structure [Audio Devices], PPCEVENT_ITEM, PCEVENT_ITEM, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, portcls/PPCEVENT_ITEM, *PPCEVENT_ITEM, PPCEVENT_ITEM structure pointer [Audio Devices], portcls/PCEVENT_ITEM, audio.pcevent_item
+ms.date: 2/22/2018
+ms.keywords: PPCEVENT_ITEM structure pointer [Audio Devices], portcls/PCEVENT_ITEM, PCEVENT_ITEM, audio.pcevent_item, portcls/PPCEVENT_ITEM, PPCEVENT_ITEM, audpc-struct_54e5d50f-6902-47d3-8170-3ee459b8dfb8.xml, PCEVENT_ITEM structure [Audio Devices], *PPCEVENT_ITEM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,6 +92,16 @@ typedef struct {
 
 
 
+#### - Set
+
+Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536195">Audio Drivers Event Sets</a>.
+
+
+#### - Id
+
+Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
+
+
 #### - Flags
 
 Specifies the type of event. This member is set to one of the following values:
@@ -137,16 +147,6 @@ Pointer to the miniport driver's event-handler routine. This member is a functio
 When calling the <b>Handler</b> routine, the caller passes in a single call parameter, which is a pointer to a caller-allocated <a href="..\portcls\ns-portcls-_pcevent_request.md">PCEVENT_REQUEST</a> structure.
 
 
-#### - Id
-
-Specifies the event ID. This member identifies an event item within the event set. If the event set contains N items, valid event IDs are integers in the range 0 to N-1.
-
-
-#### - Set
-
-Specifies the event set. This member is a pointer to a GUID that uniquely identifies the event set. See the list of event-set GUIDs in <a href="https://msdn.microsoft.com/library/windows/hardware/ff536195">Audio Drivers Event Sets</a>.
-
-
 ## -remarks
 
 
@@ -172,5 +172,5 @@ In WDM audio, the target for an event request is either a pin instance or a node
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCEVENT_ITEM structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCEVENT_ITEM structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

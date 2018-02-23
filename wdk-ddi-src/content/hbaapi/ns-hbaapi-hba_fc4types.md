@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: ef043a97-3ef4-4fd3-93a6-ac1621503713
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PHBA_FC4TYPES structure pointer [Storage Devices], HBA_FC4TYPES structure [Storage Devices], HBA_fc4types, structs-Fibre_603d3c1f-1d3c-44e5-86f0-803dda272723.xml, storage.hba_fc4types, *PHBA_FC4TYPES, hbaapi/PHBA_FC4TYPES, PHBA_FC4TYPES, HBA_fc4types structure [Storage Devices], HBA_FC4TYPES, hbaapi/HBA_fc4types
+ms.keywords: structs-Fibre_603d3c1f-1d3c-44e5-86f0-803dda272723.xml, HBA_fc4types, hbaapi/PHBA_FC4TYPES, HBA_fc4types structure [Storage Devices], HBA_FC4TYPES, hbaapi/HBA_fc4types, storage.hba_fc4types, PHBA_FC4TYPES structure pointer [Storage Devices], HBA_FC4TYPES structure [Storage Devices], PHBA_FC4TYPES, *PHBA_FC4TYPES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBA_FC4TYPES
 product: Windows
 targetos: Windows
-req.typenames: "*PHBA_FC4TYPES, HBA_FC4TYPES"
+req.typenames: HBA_FC4TYPES, *PHBA_FC4TYPES
 ---
 
 # HBA_fc4types structure

@@ -4,11 +4,11 @@ title: IDebugBreakpoint::SetDataParameters method
 author: windows-driver-content
 description: The SetDataParameters method sets the parameters for a processor breakpoint.
 old-location: debugger\setdataparameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 66878652-be29-479f-8e00-a9d8ab1b0db7
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.setdataparameters, SetDataParameters, SetDataParameters method [Windows Debugging], ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint, dbgeng/IDebugBreakpoint::SetDataParameters, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::SetDataParameters, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method
+ms.date: 2/22/2018
+ms.keywords: SetDataParameters method [Windows Debugging], dbgeng/IDebugBreakpoint2::SetDataParameters, IDebugBreakpoint interface [Windows Debugging], SetDataParameters method, SetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2 interface [Windows Debugging], SetDataParameters method, IDebugBreakpoint, SetDataParameters method [Windows Debugging], IDebugBreakpoint interface, ComOther_250724e6-5ae3-4755-87de-3804e4e6f4ed.xml, SetDataParameters, IDebugBreakpoint2::SetDataParameters, debugger.setdataparameters, dbgeng/IDebugBreakpoint::SetDataParameters, IDebugBreakpoint::SetDataParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

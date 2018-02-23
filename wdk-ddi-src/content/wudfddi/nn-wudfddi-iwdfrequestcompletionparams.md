@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IWDFRequestCompletionParams</b> interface exposes methods that drivers can use to obtain completion information about an I/O request. Drivers can call these methods after a synchronous or an asynchronous I/O operation completes.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDFRequestCompletionParams</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IWDFRequestCompletionParams</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDFRequestCompletionParams</b> interface has these methods.
@@ -90,11 +97,5 @@ The <a href="https://msdn.microsoft.com/6dd47575-0da3-4038-81aa-ac955c00f08d">Ge
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/1977828d-61bb-4649-bfa6-e5e82775258e">GetCompletedRequestType</a> method retrieves the type of operation that the request to be completed contains.
-
-The <a href="https://msdn.microsoft.com/8959fc25-2477-485a-aa40-10d6228cb476">GetCompletionStatus</a> method retrieves the completion status of an I/O request.
-
-The <a href="https://msdn.microsoft.com/6dd47575-0da3-4038-81aa-ac955c00f08d">GetInformation</a> method retrieves information that is associated with the completion of an I/O request.
-
- 
+</table> 
 

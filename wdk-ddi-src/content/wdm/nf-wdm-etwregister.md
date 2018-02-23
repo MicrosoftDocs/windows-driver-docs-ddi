@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 89a37edb-0f58-45c2-9045-b31eec5a4281
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: EtwRegister, EtwRegister function [Driver Development Tools], wdm/EtwRegister, etw_km_45f383e4-ef13-4662-b80e-2fc48b6755ed.xml, devtest.etwregister
+ms.keywords: devtest.etwregister, EtwRegister, etw_km_45f383e4-ef13-4662-b80e-2fc48b6755ed.xml, wdm/EtwRegister, EtwRegister function [Driver Development Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

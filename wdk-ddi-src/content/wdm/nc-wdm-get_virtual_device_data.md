@@ -40,7 +40,7 @@ apiname:
 -	GetVirtualFunctionData
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TYPE_PMK_NAME, WDI_TYPE_PMK_NAME"
+req.typenames: WDI_TYPE_PMK_NAME, *PWDI_TYPE_PMK_NAME
 req.product: Windows 10 or later.
 ---
 
@@ -129,19 +129,11 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh451137">GetVi
 
 
 
-<a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406642">PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451143">GUID_PCI_VIRTUALIZATION_INTERFACE</a>
 
 
 

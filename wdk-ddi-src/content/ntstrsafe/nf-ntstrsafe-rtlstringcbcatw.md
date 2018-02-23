@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1034384f-6295-42ca-bf78-47c383417500
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatW, RtlStringCbCat, RtlStringCbCatA, kernel.rtlstringcbcat, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml, ntstrsafe/RtlStringCbCatA
+ms.keywords: RtlStringCbCatW, RtlStringCbCatW function [Kernel-Mode Driver Architecture], RtlStringCbCat, safestrings_31bee145-512e-4daa-87c3-98abc5e88b2b.xml, kernel.rtlstringcbcat, RtlStringCbCatA, ntstrsafe/RtlStringCbCatA, ntstrsafe/RtlStringCbCatW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCatW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbCatW function
@@ -221,11 +221,11 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatexw.md">RtlStringCbCatEx</a>
-
-
-
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+
+
+
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatexw.md">RtlStringCbCatEx</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7bb8ed1d-fc6c-4475-9770-603be930be7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: irb/AtaPortReadPortBufferUchar, storage.ataportreadportbufferuchar, atartns_1c072aa8-585a-4f8c-be16-be8c1dbc6258.xml, AtaPortReadPortBufferUchar routine [Storage Devices], AtaPortReadPortBufferUchar
+ms.keywords: atartns_1c072aa8-585a-4f8c-be16-be8c1dbc6258.xml, AtaPortReadPortBufferUchar, AtaPortReadPortBufferUchar routine [Storage Devices], irb/AtaPortReadPortBufferUchar, storage.ataportreadportbufferuchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,11 +102,11 @@ None
 
 
 
-<a href="..\irb\nf-irb-ataportreadportbufferulong.md">AtaPortReadPortBufferUlong</a>
-
-
-
 <a href="..\irb\nf-irb-ataportreadportbufferushort.md">AtaPortReadPortBufferUshort</a>
+
+
+
+<a href="..\irb\nf-irb-ataportreadportbufferulong.md">AtaPortReadPortBufferUlong</a>
 
 
 

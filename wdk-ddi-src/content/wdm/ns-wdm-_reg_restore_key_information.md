@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: df9180d8-37aa-4b75-a8c6-a786901bd8a6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: REG_RESTORE_KEY_INFORMATION, kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, PREG_RESTORE_KEY_INFORMATION, *PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PREG_RESTORE_KEY_INFORMATION, wdm/REG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, _REG_RESTORE_KEY_INFORMATION
+ms.keywords: kstruct_d_493707cd-b5e8-4f28-b080-b3639060b5e9.xml, PREG_RESTORE_KEY_INFORMATION, kernel.reg_restore_key_information, wdm/PREG_RESTORE_KEY_INFORMATION, PREG_RESTORE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_RESTORE_KEY_INFORMATION, wdm/REG_RESTORE_KEY_INFORMATION, _REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION, REG_RESTORE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -134,11 +134,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 
 

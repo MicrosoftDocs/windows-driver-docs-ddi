@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2937d9f1-f838-4ec4-972d-21ff43097590
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfdeviceinitsetcharacteristics, WdfDeviceInitSetCharacteristics method, wdf.wdfdeviceinitsetcharacteristics, DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml, WdfDeviceInitSetCharacteristics, wdfdevice/WdfDeviceInitSetCharacteristics
+ms.keywords: wdf.wdfdeviceinitsetcharacteristics, kmdf.wdfdeviceinitsetcharacteristics, WdfDeviceInitSetCharacteristics, wdfdevice/WdfDeviceInitSetCharacteristics, WdfDeviceInitSetCharacteristics method, DFDeviceObjectGeneralRef_7dd76de2-8621-45ed-a309-c958ac1c365d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

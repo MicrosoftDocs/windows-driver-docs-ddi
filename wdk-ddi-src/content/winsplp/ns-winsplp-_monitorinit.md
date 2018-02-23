@@ -7,8 +7,8 @@ old-location: print\monitorinit.htm
 old-project: print
 ms.assetid: 3445997f-a607-4071-b05e-c1a8d01892b2
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: print.monitorinit, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, _MONITORINIT, PMONITORINIT, MONITORINIT, PMONITORINIT structure pointer [Print Devices], winsplp/MONITORINIT, *PMONITORINIT, winsplp/PMONITORINIT, MONITORINIT structure [Print Devices]
+ms.date: 2/22/2018
+ms.keywords: print.monitorinit, MONITORINIT structure [Print Devices], *PMONITORINIT, MONITORINIT, PMONITORINIT, _MONITORINIT, spoolfnc_321f67a1-b279-4909-af99-d3e564bf3555.xml, PMONITORINIT structure pointer [Print Devices], winsplp/PMONITORINIT, winsplp/MONITORINIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MONITORINIT
 product: Windows
 targetos: Windows
-req.typenames: "*PMONITORINIT, MONITORINIT"
+req.typenames: MONITORINIT, *PMONITORINIT
 req.product: Windows 10 or later.
 ---
 
@@ -117,5 +117,5 @@ Caller-supplied pointer to a string representing a server name.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITORINIT structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20MONITORINIT structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

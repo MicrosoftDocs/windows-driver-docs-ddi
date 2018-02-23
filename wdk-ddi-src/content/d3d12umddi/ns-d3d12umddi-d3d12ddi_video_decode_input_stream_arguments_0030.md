@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-decode-input-stream-arguments-0030.htm
 old-project: display
 ms.assetid: 186115c0-14ed-4ca0-9f47-fdcf8f0b586c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030 structure [Display Devices], display.d3d12ddi-video-decode-input-stream-arguments-0030
+ms.date: 2/22/2018
+ms.keywords: D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030, d3d12umddi/D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030, display.d3d12ddi-video-decode-input-stream-arguments-0030, D3D12DDI_VIDEO_DECODE_INPUT_STREAM_ARGUMENTS_0030 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

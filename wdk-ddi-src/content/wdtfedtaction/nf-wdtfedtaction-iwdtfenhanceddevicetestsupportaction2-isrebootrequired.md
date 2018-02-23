@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 598c4e54-74e1-4e95-bdf9-23bc70f4b530
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IsRebootRequired method, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, IsRebootRequired, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, dtf.iwdtfenhanceddevicetestsupportaction2_isrebootrequired, IWDTFEnhancedDeviceTestSupportAction2, IsRebootRequired method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IsRebootRequired method [Windows Device Testing Framework]
+ms.keywords: dtf.iwdtfenhanceddevicetestsupportaction2_isrebootrequired, IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, IsRebootRequired method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2 interface, IsRebootRequired method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportAction2, Microsoft::WDTF::IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired, IWDTFEnhancedDeviceTestSupportAction2 interface [Windows Device Testing Framework], IsRebootRequired method, Microsoft.WDTF.IWDTFEnhancedDeviceTestSupportAction2.IsRebootRequired, IsRebootRequired, wdtfedtaction/IWDTFEnhancedDeviceTestSupportAction2::IsRebootRequired
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

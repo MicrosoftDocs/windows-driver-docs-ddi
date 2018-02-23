@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ba50fcac-acb1-43de-aacc-b47845f19f44
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, kernel.rtlequalunicodestring, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture], wdm/RtlEqualUnicodeString, RtlEqualUnicodeString
+ms.keywords: kernel.rtlequalunicodestring, wdm/RtlEqualUnicodeString, k109_59d7c507-968a-4cf5-b1f0-91c8cd7ccb64.xml, RtlEqualUnicodeString, RtlEqualUnicodeString routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlEqualUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 

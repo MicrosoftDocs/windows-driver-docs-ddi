@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e06a377a-e68a-4773-9f7f-b1c47010029c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_child_list_iterator_init, WDF_CHILD_LIST_ITERATOR_INIT, kmdf.wdf_child_list_iterator_init, WDF_CHILD_LIST_ITERATOR_INIT function, wdfchildlist/WDF_CHILD_LIST_ITERATOR_INIT, DFDeviceObjectChildListRef_5040aac1-503f-4559-ad77-0304bfb67e3d.xml
+ms.keywords: wdfchildlist/WDF_CHILD_LIST_ITERATOR_INIT, WDF_CHILD_LIST_ITERATOR_INIT, kmdf.wdf_child_list_iterator_init, wdf.wdf_child_list_iterator_init, WDF_CHILD_LIST_ITERATOR_INIT function, DFDeviceObjectChildListRef_5040aac1-503f-4559-ad77-0304bfb67e3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,11 @@ None
 
 ## -see-also
 
-<a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>
-
-
-
 <a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_list_iterator.md">WDF_CHILD_LIST_ITERATOR</a>
+
+
+
+<a href="..\wdfchildlist\ne-wdfchildlist-_wdf_retrieve_child_flags.md">WDF_RETRIEVE_CHILD_FLAGS</a>
 
 
 

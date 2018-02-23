@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1039D4CB-11BA-4131-8CCE-7DCEE4B849D3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CDROM_PERFORMANCE_TYPE, PCDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], ntddcdrm/PCDROM_PERFORMANCE_TYPE, ntddcdrm/CDROM_PERFORMANCE_TYPE, CdromWritePerformance, CdromReadPerformance, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], storage.cdrom_performance_type, ntddcdrm/CdromReadPerformance, _CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE
+ms.keywords: ntddcdrm/CDROM_PERFORMANCE_TYPE, *PCDROM_PERFORMANCE_TYPE, CDROM_PERFORMANCE_TYPE enumeration [Storage Devices], CdromWritePerformance, _CDROM_PERFORMANCE_TYPE, ntddcdrm/CdromReadPerformance, CDROM_PERFORMANCE_TYPE, ntddcdrm/ CdromWritePerformance, CdromReadPerformance, PCDROM_PERFORMANCE_TYPE enumeration pointer [Storage Devices], PCDROM_PERFORMANCE_TYPE, ntddcdrm/PCDROM_PERFORMANCE_TYPE, storage.cdrom_performance_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -80,11 +80,11 @@ Requests streaming write performance data.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
-
-
-
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_get_performance.md">IOCTL_CDROM_GET_PERFORMANCE</a>
+
+
+
+<a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_performance_request.md">CDROM_PERFORMANCE_REQUEST</a>
 
 
 

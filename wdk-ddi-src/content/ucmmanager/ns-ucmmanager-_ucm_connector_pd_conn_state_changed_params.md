@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 9D8A2B47-1677-4660-B006-CA0D5741FC05
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.ucm_connector_pd_conn_state_changed_params, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, *PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure pointer [Buses], UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure [Buses], UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, ucmmanager/PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
+ms.keywords: PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure [Buses], buses.ucm_connector_pd_conn_state_changed_params, _UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS structure pointer [Buses], UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, ucmmanager/UCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, ucmmanager/PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS, *PUCM_CONNECTOR_PD_CONN_STATE_CHANGED_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,11 +102,11 @@ Initialize this structure by calling <a href="..\ucmmanager\nf-ucmmanager-ucm_co
 
 ## -see-also
 
-<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
-
-
-
 <a href="..\ucmmanager\nf-ucmmanager-ucmconnectortypecattach.md">UcmConnectorTypeCAttach</a>
+
+
+
+<a href="..\ucmmanager\nf-ucmmanager-ucmconnectorpdconnectionstatechanged.md">UcmConnectorPdConnectionStateChanged</a>
 
 
 

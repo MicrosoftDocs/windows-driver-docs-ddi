@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: ce20ed09-2f4d-4cc0-9185-a3a72dd73165
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml, GetCompletedUsbRequestType method, GetCompletedUsbRequestType, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method, GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams interface, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType
+ms.keywords: wudfusb/IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, UMDFRequestObjectRef_9b863f1d-1684-4d87-a7a0-41747dba6aff.xml, GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams interface, umdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, IWDFUsbRequestCompletionParams, GetCompletedUsbRequestType, IWDFUsbRequestCompletionParams interface, GetCompletedUsbRequestType method, IWDFUsbRequestCompletionParams::GetCompletedUsbRequestType, wdf.iwdfusbrequestcompletionparams_getcompletedusbrequesttype, GetCompletedUsbRequestType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbRequestCompletionParams.GetCompletedUsbRequestType
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -81,11 +81,11 @@ WDF_USB_REQUEST_TYPE  GetCompletedUsbRequestType();
 
 ## -see-also
 
-<a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>
-
-
-
 <a href="..\wudfusb\nn-wudfusb-iwdfusbrequestcompletionparams.md">IWDFUsbRequestCompletionParams</a>
+
+
+
+<a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>
 
 
 

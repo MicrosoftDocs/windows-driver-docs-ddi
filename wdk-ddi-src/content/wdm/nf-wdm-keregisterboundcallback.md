@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 0985589E-074A-45C8-9F8A-384DC42EC884
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: KeRegisterBoundCallback, kernel.keregisterboundcallback, wdm/KeRegisterBoundCallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/KeRegisterBoundCallback, KeRegisterBoundCallback, kernel.keregisterboundcallback, KeRegisterBoundCallback routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

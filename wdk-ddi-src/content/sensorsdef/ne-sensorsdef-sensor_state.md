@@ -7,8 +7,8 @@ old-location: sensors\sensor_state.htm
 old-project: sensors
 ms.assetid: F1E869AE-2FAF-402F-9C50-58D81E0EFF69
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SensorState_Active, sensorsdef/SensorState_Error, SensorState_Error, SENSOR_STATE, sensorsdef/SENSOR_STATE, SensorState_Idle, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Initializing, SensorState_Initializing, sensors.sensor_state, sensorsdef/SensorState_Active, SENSOR_STATE enumeration [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: SENSOR_STATE, SensorState_Initializing, SENSOR_STATE enumeration [Sensor Devices], sensorsdef/SensorState_Active, sensorsdef/SensorState_Initializing, sensorsdef/SensorState_Idle, sensorsdef/SensorState_Error, sensorsdef/SENSOR_STATE, sensors.sensor_state, SensorState_Idle, SensorState_Active, SensorState_Error
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

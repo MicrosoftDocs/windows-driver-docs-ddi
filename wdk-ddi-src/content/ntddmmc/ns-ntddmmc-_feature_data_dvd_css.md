@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8266f17d-65d6-49a0-a8ea-fee71dff4db0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.feature_data_dvd_css, ntddmmc/PFEATURE_DATA_DVD_CSS, ntddmmc/FEATURE_DATA_DVD_CSS, PFEATURE_DATA_DVD_CSS structure pointer [Storage Devices], FEATURE_DATA_DVD_CSS structure [Storage Devices], _FEATURE_DATA_DVD_CSS, FEATURE_DATA_DVD_CSS, *PFEATURE_DATA_DVD_CSS, structs-CD-ROM_1508ce84-fa86-423e-a6c1-4059bf0cb54c.xml, PFEATURE_DATA_DVD_CSS
+ms.keywords: PFEATURE_DATA_DVD_CSS, ntddmmc/PFEATURE_DATA_DVD_CSS, _FEATURE_DATA_DVD_CSS, FEATURE_DATA_DVD_CSS structure [Storage Devices], FEATURE_DATA_DVD_CSS, *PFEATURE_DATA_DVD_CSS, ntddmmc/FEATURE_DATA_DVD_CSS, structs-CD-ROM_1508ce84-fa86-423e-a6c1-4059bf0cb54c.xml, PFEATURE_DATA_DVD_CSS structure pointer [Storage Devices], storage.feature_data_dvd_css
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

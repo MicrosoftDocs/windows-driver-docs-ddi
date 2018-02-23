@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D7EF9B82-5156-4F27-AA52-94C113C81D3A
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.udecxusbdeviceinitsetspeed, UdecxUsbDeviceInitSetSpeed function [Buses], UdecxUsbDeviceInitSetSpeed, udecxusbdevice/UdecxUsbDeviceInitSetSpeed
+ms.keywords: buses.udecxusbdeviceinitsetspeed, UdecxUsbDeviceInitSetSpeed function [Buses], udecxusbdevice/UdecxUsbDeviceInitSetSpeed, UdecxUsbDeviceInitSetSpeed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceInitSetSpeed
 product: Windows
 targetos: Windows
-req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
+req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: stream\ksrate.htm
 old-project: stream
 ms.assetid: dc8f23d5-14bb-43be-807a-041ca9c30a76
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ks/KSRATE, KSRATE structure [Streaming Media Devices], stream.ksrate, *PKSRATE, ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, PKSRATE structure pointer [Streaming Media Devices], KSRATE, ks/PKSRATE, PKSRATE
+ms.date: 2/22/2018
+ms.keywords: ks/KSRATE, *PKSRATE, stream.ksrate, ks/PKSRATE, KSRATE, PKSRATE, ks-struct_a47aa4cc-ff36-4a02-bd68-63c7ed450279.xml, KSRATE structure [Streaming Media Devices], PKSRATE structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,7 +83,7 @@ Specifies the duration of the rate in presentation time units.
 
 ### -field Interface
 
-A structure of type <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> that specifies either the interface used in the connection this rate request is being sent to, or the interface of a related connection. This allows the time units to be interpreted by the pin.
+A structure of type <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> that specifies either the interface used in the connection this rate request is being sent to, or the interface of a related connection. This allows the time units to be interpreted by the pin.
 
 
 ### -field Rate
@@ -134,5 +134,5 @@ Specifies that there is no valid duration in this rate change request or query.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSRATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSRATE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 85363a0b-0e62-499e-bcdb-4b86c4a0c3a0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, ntifs/FsRtlIsPagingFile, FsRtlIsPagingFile routine [Installable File System Drivers], ifsk.fsrtlispagingfile, FsRtlIsPagingFile
+ms.keywords: FsRtlIsPagingFile routine [Installable File System Drivers], fsrtlref_80254cb1-bb65-4b1b-8fe4-c975b0f00c63.xml, ntifs/FsRtlIsPagingFile, FsRtlIsPagingFile, ifsk.fsrtlispagingfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

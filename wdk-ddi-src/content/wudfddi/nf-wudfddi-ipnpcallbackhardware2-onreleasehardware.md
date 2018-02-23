@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 652B92C2-EF04-482A-BB57-9F64F947EE4F
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OnReleaseHardware, wdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2::OnReleaseHardware, IPnpCallbackHardware2 interface, OnReleaseHardware method, IPnpCallbackHardware2, OnReleaseHardware method, IPnpCallbackHardware2 interface, umdf.ipnpcallbackhardware2_onreleasehardware, wudfddi/IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware method
+ms.keywords: wudfddi/IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware, umdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2 interface, OnReleaseHardware method, IPnpCallbackHardware2::OnReleaseHardware, OnReleaseHardware method, IPnpCallbackHardware2 interface, OnReleaseHardware method, wdf.ipnpcallbackhardware2_onreleasehardware, IPnpCallbackHardware2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,11 +115,11 @@ See example code in <a href="https://msdn.microsoft.com/243C7299-7C74-408A-8FB9-
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware2.md">IPnpCallbackHardware2</a>
 
 
 

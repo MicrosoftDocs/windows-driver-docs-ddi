@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 1890052A-EE98-4749-ACF9-8321148F3828
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], UCX_ENDPOINT_EVENT_CALLBACKS_INIT, buses._ucx_endpoint_event_callbacks_init, ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT
+ms.keywords: UCX_ENDPOINT_EVENT_CALLBACKS_INIT, buses._ucx_endpoint_event_callbacks_init, UCX_ENDPOINT_EVENT_CALLBACKS_INIT function [Buses], ucxendpoint/UCX_ENDPOINT_EVENT_CALLBACKS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

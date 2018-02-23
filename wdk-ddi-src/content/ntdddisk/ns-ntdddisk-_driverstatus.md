@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: de97322f-a756-49a8-a6e6-dab42f278388
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DRIVERSTATUS, LPDRIVERSTATUS, PDRIVERSTATUS, *PDRIVERSTATUS, ntdddisk/PDRIVERSTATUS, storage.driverstatus, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, ntdddisk/LPDRIVERSTATUS, DRIVERSTATUS structure [Storage Devices], ntdddisk/DRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], _DRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], *LPDRIVERSTATUS
+ms.keywords: ntdddisk/DRIVERSTATUS, LPDRIVERSTATUS structure pointer [Storage Devices], *LPDRIVERSTATUS, PDRIVERSTATUS structure pointer [Storage Devices], LPDRIVERSTATUS, *PDRIVERSTATUS, structs-IDE_e49310ff-1d3c-44d5-a997-08b8f500ed13.xml, PDRIVERSTATUS, DRIVERSTATUS, storage.driverstatus, ntdddisk/LPDRIVERSTATUS, _DRIVERSTATUS, ntdddisk/PDRIVERSTATUS, DRIVERSTATUS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,11 +92,11 @@ Reserved.
 
 ## -see-also
 
-<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566206">SMART_SEND_DRIVE_COMMAND</a>
+
+
+
+<a href="..\ntdddisk\ns-ntdddisk-_sendcmdoutparams.md">SENDCMDOUTPARAMS</a>
 
 
 

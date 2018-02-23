@@ -7,8 +7,8 @@ old-location: print\widthrun.htm
 old-project: print
 ms.assetid: 18cc608e-b94d-4588-98e9-c22a7949a3b6
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: WIDTHRUN, WIDTHRUN structure [Print Devices], prntfont/WIDTHRUN, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, PWIDTHRUN structure pointer [Print Devices], *PWIDTHRUN, _WIDTHRUN, PWIDTHRUN, print.widthrun, prntfont/PWIDTHRUN
+ms.date: 2/22/2018
+ms.keywords: "_WIDTHRUN, WIDTHRUN structure [Print Devices], PWIDTHRUN, prntfont/PWIDTHRUN, print.widthrun, print_unidrv-pscript_fonts_68b08066-7503-4496-bfab-001aba659926.xml, WIDTHRUN, *PWIDTHRUN, PWIDTHRUN structure pointer [Print Devices], prntfont/WIDTHRUN"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -126,17 +126,17 @@ For East Asian device fonts, the <b>fwdAveCharWidth</b> and <b>fwdMaxCharInc</b>
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_widthtable.md">WIDTHTABLE</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567418">IFIMETRICS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WIDTHRUN structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20WIDTHRUN structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

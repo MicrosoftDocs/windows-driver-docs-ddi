@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 3a120831-deac-4075-9aa7-8ae39ac29363
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlupperstring, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, RtlUpperString, ntddk/RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture]
+ms.keywords: ntddk/RtlUpperString, RtlUpperString routine [Kernel-Mode Driver Architecture], kernel.rtlupperstring, k109_07df2cdb-0d52-4094-bcdf-62977c15e098.xml, RtlUpperString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlUpperString
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlUpperString function

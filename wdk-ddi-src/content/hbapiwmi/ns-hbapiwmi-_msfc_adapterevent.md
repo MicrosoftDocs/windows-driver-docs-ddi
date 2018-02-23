@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 235300a1-3941-4f9c-8327-4ce174493f3e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSFC_AdapterEvent, PMSFC_AdapterEvent, *PMSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], storage.msfc_adapterevent, hbapiwmi/MSFC_AdapterEvent, _MSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], hbapiwmi/PMSFC_AdapterEvent, structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml
+ms.keywords: "_MSFC_AdapterEvent, hbapiwmi/PMSFC_AdapterEvent, storage.msfc_adapterevent, MSFC_AdapterEvent, PMSFC_AdapterEvent, hbapiwmi/MSFC_AdapterEvent, MSFC_AdapterEvent structure [Storage Devices], *PMSFC_AdapterEvent, PMSFC_AdapterEvent structure pointer [Storage Devices], structs-Fibre_b76954f6-f00c-429d-8428-5cf1997cb40d.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_AdapterEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_AdapterEvent, MSFC_AdapterEvent"
+req.typenames: MSFC_AdapterEvent, *PMSFC_AdapterEvent
 ---
 
 # _MSFC_AdapterEvent structure

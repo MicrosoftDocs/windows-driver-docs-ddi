@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6A9BBBAD-F6D1-49A4-9FBA-7F263C1793F0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fsrtlpreparemdlwriteex, FsRtlPrepareMdlWriteEx, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], ntifs/FsRtlPrepareMdlWriteEx
+ms.keywords: ifsk.fsrtlpreparemdlwriteex, FsRtlPrepareMdlWriteEx routine [Installable File System Drivers], FsRtlPrepareMdlWriteEx, ntifs/FsRtlPrepareMdlWriteEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -151,7 +151,7 @@ Each call to <b>FsRtlPrepareMdlWriteEx</b> must be followed by a call to <a href
 
 
 
-<a href="..\ntifs\nf-ntifs-ccpreparemdlwrite.md">CcPrepareMdlWrite</a>
+<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
 
 
 

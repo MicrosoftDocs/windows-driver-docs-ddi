@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 890C7451-D9BF-4019-ABBE-D97446728E6B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UfxDeviceNotifyDetach method [Buses], ufxclient/UfxDeviceNotifyDetach, UfxDeviceNotifyDetach, buses.ufxdevicenotifydetach
+ms.keywords: ufxclient/UfxDeviceNotifyDetach, UfxDeviceNotifyDetach, buses.ufxdevicenotifydetach, UfxDeviceNotifyDetach method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceNotifyDetach
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0c551de0-970a-4733-b904-27c40cf7b42f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfChildListRetrieveAddressDescription, WdfChildListRetrieveAddressDescription method, wdfchildlist/WdfChildListRetrieveAddressDescription, kmdf.wdfchildlistretrieveaddressdescription, DFDeviceObjectChildListRef_bd30cd1e-b7ac-40cd-b96f-4071d08bafc1.xml, wdf.wdfchildlistretrieveaddressdescription
+ms.keywords: WdfChildListRetrieveAddressDescription method, wdfchildlist/WdfChildListRetrieveAddressDescription, DFDeviceObjectChildListRef_bd30cd1e-b7ac-40cd-b96f-4071d08bafc1.xml, WdfChildListRetrieveAddressDescription, kmdf.wdfchildlistretrieveaddressdescription, wdf.wdfchildlistretrieveaddressdescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -195,11 +195,11 @@ if (!NT_SUCCESS(status) {
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
-
-
-
 <a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_address_description_header_init.md">WDF_CHILD_ADDRESS_DESCRIPTION_HEADER_INIT</a>
+
+
+
+<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_identification_description_header.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-content-protection-system-support-data-0030
 old-project: display
 ms.assetid: 82096e3b-574d-44f6-85a9-b560749f6472
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, display.d3d12ddi-video-content-protection-system-support-data-0030
+ms.date: 2/22/2018
+ms.keywords: display.d3d12ddi-video-content-protection-system-support-data-0030, D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030 structure [Display Devices], D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030, d3d12umddi/D3D12DDI_VIDEO_CONTENT_PROTECTION_SYSTEM_SUPPORT_DATA_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

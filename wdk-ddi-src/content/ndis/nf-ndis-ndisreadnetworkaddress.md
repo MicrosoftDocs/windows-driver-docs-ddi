@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 42519c60-6dc6-4c20-a2e8-954d9610a982
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisReadNetworkAddress, ndis/NdisReadNetworkAddress, netvista.ndisreadnetworkaddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista], ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml
+ms.keywords: ndis_configuration_ref_459fbfae-4235-4f60-9b10-02c60defc236.xml, NdisReadNetworkAddress, netvista.ndisreadnetworkaddress, ndis/NdisReadNetworkAddress, NdisReadNetworkAddress function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisReadNetworkAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisReadNetworkAddress function

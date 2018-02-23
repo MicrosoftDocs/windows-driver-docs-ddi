@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6d974c56-5925-4ad5-a3c0-0c17e8488431
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFillMemory, ndis/NdisFillMemory, ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml, NdisFillMemory macro [Network Drivers Starting with Windows Vista], netvista.ndisfillmemory
+ms.keywords: NdisFillMemory macro [Network Drivers Starting with Windows Vista], ndis/NdisFillMemory, netvista.ndisfillmemory, NdisFillMemory, ndis_memory_ref_c1411624-0e7b-40e2-9812-4426b2a9f2bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	NdisFillMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFillMemory macro
@@ -99,11 +99,11 @@ Callers of
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtlequalmemory.md">RtlEqualMemory</a>
+
+
+
+<a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

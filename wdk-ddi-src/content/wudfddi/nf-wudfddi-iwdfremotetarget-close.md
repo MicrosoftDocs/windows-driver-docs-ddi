@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c24082c4-0c79-4956-8035-79198cb2b7ee
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFRemoteTarget::Close, wdf.iwdfremotetarget_close, Close method, umdf.iwdfremotetarget_close, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, Close, IWDFRemoteTarget interface, Close method, Close method, IWDFRemoteTarget interface, IWDFRemoteTarget::Close, IWDFRemoteTarget
+ms.keywords: Close method, IWDFRemoteTarget interface, IWDFRemoteTarget::Close, wudfddi/IWDFRemoteTarget::Close, Close method, UMDFIoTargetObjectRef_1e5aba5f-fd82-4d59-abb6-915e8a49ad22.xml, wdf.iwdfremotetarget_close, IWDFRemoteTarget, Close, umdf.iwdfremotetarget_close, IWDFRemoteTarget interface, Close method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -126,11 +126,11 @@ CMyRemoteTarget::OnRemoteTargetRemoveComplete(
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560259">IWDFRemoteTarget::CloseForQueryRemove</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
 
 

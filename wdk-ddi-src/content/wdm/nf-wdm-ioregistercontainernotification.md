@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5cfef8cc-b6b8-4b97-b8da-bf579e26f64d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, wdm/IoRegisterContainerNotification, kernel.ioregistercontainernotification, IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoRegisterContainerNotification, IoRegisterContainerNotification routine [Kernel-Mode Driver Architecture], kernel.ioregistercontainernotification, k104_f99c2826-04ed-4aa6-9f19-6f97953eda31.xml, IoRegisterContainerNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -204,15 +204,7 @@ The caller should cast the callback function pointer to this type to match the <
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
-
-
-
 <a href="..\wdm\nc-wdm-io_session_notification_function.md">IO_SESSION_NOTIFICATION_FUNCTION</a>
-
-
-
-<a href="..\wdm\nf-wdm-iounregistercontainernotification.md">IoUnregisterContainerNotification</a>
 
 
 
@@ -221,6 +213,14 @@ The caller should cast the callback function pointer to this type to match the <
 
 
 <a href="..\wdm\nf-wdm-iounregistercontainernotification.md">IoUnregisterContainerNotification</a>
+
+
+
+<a href="..\wdm\ne-wdm-_io_container_notification_class.md">IO_CONTAINER_NOTIFICATION_CLASS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_session_state_notification.md">IO_SESSION_STATE_NOTIFICATION</a>
 
 
 

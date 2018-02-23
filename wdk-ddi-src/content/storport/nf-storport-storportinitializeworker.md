@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 4472A092-B2F4-4220-9685-6BE4FF0A83DB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportinitializeworker, StorPortInitializeWorker routine [Storage Devices], StorPortInitializeWorker, storport/StorPortInitializeWorker
+ms.keywords: StorPortInitializeWorker routine [Storage Devices], storport/StorPortInitializeWorker, storage.storportinitializeworker, StorPortInitializeWorker
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

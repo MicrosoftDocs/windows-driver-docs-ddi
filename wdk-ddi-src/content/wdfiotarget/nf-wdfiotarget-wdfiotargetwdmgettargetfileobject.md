@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3131dde-95fc-447c-9451-5c8af074ed24
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfIoTargetWdmGetTargetFileObject, kmdf.wdfiotargetwdmgettargetfileobject, DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml, wdf.wdfiotargetwdmgettargetfileobject, WdfIoTargetWdmGetTargetFileObject method, wdfiotarget/WdfIoTargetWdmGetTargetFileObject
+ms.keywords: wdfiotarget/WdfIoTargetWdmGetTargetFileObject, kmdf.wdfiotargetwdmgettargetfileobject, DFIOTargetRef_b6639c60-55f2-40be-a678-c7cf56a8e28f.xml, wdf.wdfiotargetwdmgettargetfileobject, WdfIoTargetWdmGetTargetFileObject, WdfIoTargetWdmGetTargetFileObject method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,15 +127,15 @@ pfileObject = WdfIoTargetWdmGetTargetFileObject(IoTarget);</pre>
 
 
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
+
+
+
 <a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetwdmgettargetdeviceobject.md">WdfIoTargetWdmGetTargetDeviceObject</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 

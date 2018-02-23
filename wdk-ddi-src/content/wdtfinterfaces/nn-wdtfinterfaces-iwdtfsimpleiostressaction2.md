@@ -53,6 +53,13 @@ req.product: Windows 10 or later.
 Defines operations for a simple asynchronous I/O functionality test.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFSimpleIOStressAction2</b> interface inherits from <b>IWDTFActionWithCustomActions2</b>. <b>IWDTFSimpleIOStressAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFSimpleIOStressAction2</b> interface has these methods.
@@ -133,21 +140,5 @@ Waits for the completion of any of the asynchronous events.
 
 </td>
 </tr>
-</table>Continues the I/O.
-
-Asynchronously signals the I/O to continue.
-
-Pauses the I/O.
-
-Opens the device.
-
-Asynchronously signals a start event to occur.
-
-Stops the device.
-
-Asynchronously signals the stop event to occur.
-
-Waits for the completion of any of the asynchronous events.
-
- 
+</table> 
 

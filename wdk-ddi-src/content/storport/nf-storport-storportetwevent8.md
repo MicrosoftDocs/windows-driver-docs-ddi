@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: FC0E8267-5AA6-47D6-9F98-B6B19CA3F260
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeExtension, StorportEtwLevelCritical, StorPortEtwEvent8 routine [Storage Devices], STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeInfo, StorportEtwLevelWarning, StorportEtwLevelInformational, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwEventOpcodeDC_Stop, storport/StorPortEtwEvent8, StorPortEtwEvent8, StorportEtwLevelError, StorportEtwEventOpcodeStart, StorportEtwLevelVerbose, StorportEtwEventOpcodeReceive, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStop, storage.storportetwevent8, StorportEtwLevelLogAlways
+ms.keywords: StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeReceive, StorportEtwEventOpcodeStop, StorportEtwLevelLogAlways, StorPortEtwEvent8, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeInfo, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, storage.storportetwevent8, StorportEtwEventOpcodeDC_Stop, StorPortEtwEvent8 routine [Storage Devices], StorportEtwEventOpcodeResume, StorportEtwEventOpcodeReply, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwEventOpcodeDC_Start, StorportEtwLevelVerbose, StorportEtwEventOpcodeExtension, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwLevelCritical, StorportEtwLevelError, storport/StorPortEtwEvent8, StorportEtwLevelWarning, StorportEtwLevelInformational
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

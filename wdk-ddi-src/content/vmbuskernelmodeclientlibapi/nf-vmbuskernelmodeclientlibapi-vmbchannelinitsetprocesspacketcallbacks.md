@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 437DC9C5-CE73-45E8-AC4A-CFF9249809AD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista], VmbChannelInitSetProcessPacketCallbacks, netvista.vmbchannelinitsetprocesspacketcallbacks
+ms.keywords: VmbChannelInitSetProcessPacketCallbacks, vmbuskernelmodeclientlibapi/VmbChannelInitSetProcessPacketCallbacks, VmbChannelInitSetProcessPacketCallbacks function [Network Drivers Starting with Windows Vista], netvista.vmbchannelinitsetprocesspacketcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,11 +145,11 @@ after the last invocation of <b>ProcessPacketCallback</b> in a single batch.
 
 ## -see-also
 
-<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete.md">EvtVmbChannelProcessingComplete</a>
-
-
-
 <a href="..\vmbuskernelmodeclientlibapi\nf-vmbuskernelmodeclientlibapi-vmbchannelinitsetprocesspacketcallbacks.md">ProcessPacketCallback</a>
+
+
+
+<a href="..\vmbuskernelmodeclientlibapi\nc-vmbuskernelmodeclientlibapi-evt_vmb_channel_processing_complete.md">EvtVmbChannelProcessingComplete</a>
 
 
 

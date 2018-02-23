@@ -7,8 +7,8 @@ old-location: audio\iregistrykey_querykey.htm
 old-project: audio
 ms.assetid: 1b2642da-1b04-49a8-942e-6eb93afd12f2
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IRegistryKey interface [Audio Devices], QueryKey method, IRegistryKey, IRegistryKey::QueryKey, audio.iregistrykey_querykey, QueryKey method [Audio Devices], IRegistryKey interface, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, portcls/IRegistryKey::QueryKey, QueryKey method [Audio Devices], QueryKey
+ms.date: 2/22/2018
+ms.keywords: IRegistryKey, IRegistryKey::QueryKey, QueryKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], QueryKey method, QueryKey method [Audio Devices], audio.iregistrykey_querykey, audmp-routines_88fe19d0-095e-4f70-b8aa-a0c908600296.xml, QueryKey, portcls/IRegistryKey::QueryKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -143,11 +143,7 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
 
 
 
@@ -155,17 +151,21 @@ If the <i>KeyInformation</i> buffer is too small to hold the requested informati
 
 
 
+<a href="..\wdm\ns-wdm-_key_node_information.md">KEY_NODE_INFORMATION</a>
+
+
+
+<a href="..\wdm\ns-wdm-_key_basic_information.md">KEY_BASIC_INFORMATION</a>
+
+
+
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::QueryKey method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::QueryKey method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

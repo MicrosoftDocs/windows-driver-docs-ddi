@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 92a22ad9-f450-4156-a5e9-c765f94c2dbf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlStringCbCopyExA, RtlStringCbCopyExW, ntstrsafe/RtlStringCbCopyExA, ntstrsafe/RtlStringCbCopyExW, STRSAFE_IGNORE_NULLS, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml, RtlStringCbCopyEx, STRSAFE_FILL_BEHIND_NULL, kernel.rtlstringcbcopyex, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], STRSAFE_NULL_ON_FAILURE, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION
+ms.keywords: STRSAFE_FILL_ON_FAILURE, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCbCopyExW, STRSAFE_NO_TRUNCATION, RtlStringCbCopyEx, RtlStringCbCopyExW, ntstrsafe/RtlStringCbCopyExA, safestrings_f0187c41-23b0-491b-9154-ff8778b06418.xml, STRSAFE_IGNORE_NULLS, RtlStringCbCopyExA, RtlStringCbCopyExW function [Kernel-Mode Driver Architecture], kernel.rtlstringcbcopyex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCopyExW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbCopyExW function

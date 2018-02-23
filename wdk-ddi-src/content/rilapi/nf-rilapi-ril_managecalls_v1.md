@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 98a9dd7a-fef0-4d2f-9302-86c9c5b790e0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_managecalls_v1, RIL_ManageCalls_V1 method [Network Drivers Starting with Windows Vista], RIL_ManageCalls_V1, rilapi/RIL_ManageCalls_V1
+ms.keywords: RIL_ManageCalls_V1 method [Network Drivers Starting with Windows Vista], netvista.ril_managecalls_v1, rilapi/RIL_ManageCalls_V1, RIL_ManageCalls_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_ManageCalls_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

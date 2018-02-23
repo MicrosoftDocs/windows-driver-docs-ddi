@@ -40,7 +40,7 @@ apiname:
 -	ModifyMemoryWindow
 product: Windows
 targetos: Windows
-req.typenames: "*PPAR_SET_INFORMATION, PAR_SET_INFORMATION"
+req.typenames: PAR_SET_INFORMATION, *PPAR_SET_INFORMATION
 ---
 
 # PCMCIA_MODIFY_MEMORY_WINDOW callback
@@ -156,11 +156,11 @@ Callers of this routine must be running at IRQL &lt;= DISPATCH_LEVEL. To maintai
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537611">PCMCIA_SET_VPP</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537609">PCMCIA_IS_WRITE_PROTECTED</a>
 
 
 

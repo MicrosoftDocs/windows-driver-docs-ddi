@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5635b99d-c58d-4a17-bb51-2dc38e51421a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, WdfDriverIsVersionAvailable method, wdf.wdfdriverisversionavailable, wdfdriver/WdfDriverIsVersionAvailable, kmdf.wdfdriverisversionavailable
+ms.keywords: WdfDriverIsVersionAvailable, wdf.wdfdriverisversionavailable, WdfDriverIsVersionAvailable method, wdfdriver/WdfDriverIsVersionAvailable, kmdf.wdfdriverisversionavailable, DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,7 +137,7 @@ if (!WdfDriverIsVersionAvailable(
 
 
 
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
 
 
 
@@ -145,7 +145,7 @@ if (!WdfDriverIsVersionAvailable(
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfdriverretrieveversionstring.md">WdfDriverRetrieveVersionString</a>
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e6823b9c-9717-49ab-8e67-c1d522774826
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortAllocatePool routine [Storage Devices], storport/StorPortAllocatePool, storage.storportallocatepool, StorPortAllocatePool, storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml
+ms.keywords: storport/StorPortAllocatePool, storage.storportallocatepool, StorPortAllocatePool routine [Storage Devices], storprt_4ede181d-6ccf-47af-974d-b0daaa6e723a.xml, StorPortAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

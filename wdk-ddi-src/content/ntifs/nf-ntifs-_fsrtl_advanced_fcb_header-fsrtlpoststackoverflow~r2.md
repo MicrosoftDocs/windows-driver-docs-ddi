@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbd6f3b5-ecf7-438e-8e28-a06eaa141fc3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/FsRtlPostStackOverflow, FsRtlPostStackOverflow routine [Installable File System Drivers], FsRtlPostStackOverflow, fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml, ifsk.fsrtlpoststackoverflow
+ms.keywords: FsRtlPostStackOverflow routine [Installable File System Drivers], ntifs/FsRtlPostStackOverflow, ifsk.fsrtlpoststackoverflow, FsRtlPostStackOverflow, fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,15 +112,15 @@ If a pool allocation failure occurs, <b>FsRtlPostStackOverflow</b> raises a STAT
 
 
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-
-
-
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlpostpagingfilestackoverflow~r2.md">FsRtlPostPagingFileStackOverflow</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 

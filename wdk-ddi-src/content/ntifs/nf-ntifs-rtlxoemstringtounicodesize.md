@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 933c46fe-f760-4782-8ab4-7d1d0431df9f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.rtlxoemstringtounicodesize, rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml, ntifs/RtlxOemStringToUnicodeSize, RtlxOemStringToUnicodeSize, RtlxOemStringToUnicodeSize function [Installable File System Drivers]
+ms.keywords: RtlxOemStringToUnicodeSize function [Installable File System Drivers], RtlxOemStringToUnicodeSize, rtlref_87da05b9-0bd7-415d-b6fd-aa7a6f77cbfb.xml, ifsk.rtlxoemstringtounicodesize, ntifs/RtlxOemStringToUnicodeSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

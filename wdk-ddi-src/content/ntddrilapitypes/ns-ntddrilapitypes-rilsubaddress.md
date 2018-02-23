@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0a1f9e89-df17-4802-9685-06a2eedbc0e5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddrilapitypes/RILSUBADDRESS, netvista.rilsubaddress, *LPRILSUBADDRESS, RILSUBADDRESS, RILSUBADDRESS structure [Network Drivers Starting with Windows Vista]
+ms.keywords: RILSUBADDRESS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSUBADDRESS, RILSUBADDRESS, netvista.rilsubaddress, *LPRILSUBADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSUBADDRESS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSUBADDRESS, RILSUBADDRESS"
+req.typenames: RILSUBADDRESS, *LPRILSUBADDRESS
 ---
 
 # RILSUBADDRESS structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: EF8E3D1D-9C87-4083-A022-FD888D370B20
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, kernel.pep_acpi_initialize_gpio_int_resource, PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
+ms.keywords: PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function [Kernel-Mode Driver Architecture], PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE, kernel.pep_acpi_initialize_gpio_int_resource, pepfx/PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE function
@@ -49,7 +49,7 @@ req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
 ## -description
 
 
-The <b>PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a> structure.
+The <b>PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE</b> function initializes a platform extension plug-in's (PEP) <a href="..\pep_x\ns-pep_x-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a> structure.
 
 
 ## -syntax
@@ -82,12 +82,12 @@ FORCEINLINE VOID PEP_ACPI_INITIALIZE_GPIO_INT_RESOURCE(
 
 ### -param InterruptType [in]
 
-A <a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
+A <a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value that identifies the interrupt type.
 
 
 ### -param LevelType [in]
 
-A <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
+A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value that identifies how a device signals an interrupt request on an interrupt line.
 
 
 ### -param Shareable [in]
@@ -102,7 +102,7 @@ Indicates if the device can be woken from a low-power state.
 
 ### -param PinConfig [in]
 
-A <a href="..\pepfx\ne-pepfx-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
+A <a href="..\pep_x\ne-pep_x-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a> enumeration value that identifies the GPIO pin configuration type.
 
 
 ### -param DebounceTimeout [in]
@@ -147,7 +147,7 @@ The number of pins described by the <i>PinTable</i> parameter.
 
 ### -param Resource [out]
 
-A pointer to the resource. The structure behind the pointer is of type <a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>. 
+A pointer to the resource. The structure behind the pointer is of type <a href="..\pep_x\ns-pep_x-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>. 
 
 
 ## -returns
@@ -161,11 +161,11 @@ This function does not return a value.
 
 ## -see-also
 
-<a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="..\wudfwdm\ne-wudfwdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
-<a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
 
 
 
@@ -173,7 +173,7 @@ This function does not return a value.
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_gpio_resource.md">PEP_ACPI_GPIO_RESOURCE</a>
+<a href="..\pep_x\ne-pep_x-_gpio_pin_config_type.md">GPIO_PIN_CONFIG_TYPE</a>
 
 
 

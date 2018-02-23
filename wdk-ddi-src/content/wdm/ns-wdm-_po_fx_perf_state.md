@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 06A41593-A052-43A7-B3A7-02185B557FA3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE, _PO_FX_PERF_STATE, PO_FX_PERF_STATE, PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], PPO_FX_PERF_STATE, *PPO_FX_PERF_STATE, kernel.po_fx_perf_state
+ms.keywords: PPO_FX_PERF_STATE, kernel.po_fx_perf_state, _PO_FX_PERF_STATE, wdm/PPO_FX_PERF_STATE, PPO_FX_PERF_STATE structure pointer [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE structure [Kernel-Mode Driver Architecture], PO_FX_PERF_STATE, wdm/PO_FX_PERF_STATE, *PPO_FX_PERF_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_PERF_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE, PO_FX_PERF_STATE"
+req.typenames: PO_FX_PERF_STATE, *PPO_FX_PERF_STATE
 req.product: Windows 10 or later.
 ---
 

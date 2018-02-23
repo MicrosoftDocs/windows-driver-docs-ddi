@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 26F11BC8-0F43-4E52-B2E1-2C3C6B327CF0
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PUSBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], PUSBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO structure [Buses], _USBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO"
+ms.keywords: "_USBFN_BUS_CONFIGURATION_INFO, PUSBFN_BUS_CONFIGURATION_INFO structure pointer [Buses], USBFN_BUS_CONFIGURATION_INFO structure [Buses], PUSBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO, *PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/PUSBFN_BUS_CONFIGURATION_INFO, usbfnbase/USBFN_BUS_CONFIGURATION_INFO, buses.usbfn_bus_configuration_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_BUS_CONFIGURATION_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_BUS_CONFIGURATION_INFO, USBFN_BUS_CONFIGURATION_INFO"
+req.typenames: USBFN_BUS_CONFIGURATION_INFO, *PUSBFN_BUS_CONFIGURATION_INFO
 req.product: Windows 10 or later.
 ---
 

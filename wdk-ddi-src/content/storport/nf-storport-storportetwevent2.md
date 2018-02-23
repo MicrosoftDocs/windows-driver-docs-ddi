@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: A390D684-C675-4140-8E8E-8330FB3192E4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeDC_Start, StorportEtwEventOpcodeExtension, StorportEtwLevelCritical, STORPORT_ETW_EVENT_KEYWORD_IO, storage.storportetwevent2, StorportEtwEventOpcodeSuspend, StorPortEtwEvent2 routine [Storage Devices], StorportEtwEventOpcodeInfo, StorportEtwLevelWarning, StorportEtwLevelInformational, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwEventOpcodeDC_Stop, StorportEtwLevelError, StorportEtwEventOpcodeStart, StorportEtwLevelVerbose, StorPortEtwEvent2, StorportEtwEventOpcodeReceive, STORPORT_ETW_EVENT_KEYWORD_POWER, storport/StorPortEtwEvent2, StorportEtwEventOpcodeReply, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeStop, StorportEtwLevelLogAlways
+ms.keywords: StorportEtwEventOpcodeSuspend, StorportEtwEventOpcodeStart, StorportEtwEventOpcodeReceive, storage.storportetwevent2, StorportEtwEventOpcodeStop, StorportEtwLevelLogAlways, STORPORT_ETW_EVENT_KEYWORD_PERFORMANCE, StorportEtwEventOpcodeInfo, storport/StorPortEtwEvent2, STORPORT_ETW_EVENT_KEYWORD_ENUMERATION, StorportEtwEventOpcodeDC_Stop, StorportEtwEventOpcodeResume, StorportEtwEventOpcodeReply, STORPORT_ETW_EVENT_KEYWORD_IO, StorportEtwEventOpcodeDC_Start, StorportEtwLevelVerbose, StorportEtwEventOpcodeExtension, STORPORT_ETW_EVENT_KEYWORD_POWER, StorportEtwLevelCritical, StorportEtwLevelError, StorPortEtwEvent2 routine [Storage Devices], StorportEtwLevelWarning, StorportEtwLevelInformational, StorPortEtwEvent2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -438,11 +438,11 @@ Events generated from StorPort miniport drivers are published to the "Microsoft-
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
-
-
-
 <a href="..\storport\nf-storport-storportetwevent8.md">StorPortEtwEvent8</a>
+
+
+
+<a href="..\storport\nf-storport-storportetwevent4.md">StorPortEtwEvent4</a>
 
 
 

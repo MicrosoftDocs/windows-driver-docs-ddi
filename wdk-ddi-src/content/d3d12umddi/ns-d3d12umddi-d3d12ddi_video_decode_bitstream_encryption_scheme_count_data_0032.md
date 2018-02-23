@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-decode-bitstream-encryption-scheme-count-da
 old-project: display
 ms.assetid: 0aba733b-a69a-4a8a-a8bc-e934fbbbacbf
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3d12ddi-video-decode-bitstream-encryption-scheme-count-data-0032, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032, d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032 structure [Display Devices]
+ms.date: 2/22/2018
+ms.keywords: display.d3d12ddi-video-decode-bitstream-encryption-scheme-count-data-0032, d3d12umddi/D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032, D3D12DDI_VIDEO_DECODE_BITSTREAM_ENCRYPTION_SCHEME_COUNT_DATA_0032 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

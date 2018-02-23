@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f9e08a57-c9dd-4703-b29d-c169ba77f194
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCreateSecurityDescriptor, wdm/RtlCreateSecurityDescriptor, k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, kernel.rtlcreatesecuritydescriptor, RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture]
+ms.keywords: RtlCreateSecurityDescriptor routine [Kernel-Mode Driver Architecture], RtlCreateSecurityDescriptor, k109_3e7817b3-76e0-4acb-b8a3-af78219ffb85.xml, kernel.rtlcreatesecuritydescriptor, wdm/RtlCreateSecurityDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -134,11 +134,11 @@ A successful call to this routine initializes a security descriptor. The fields 
 
 
 
-<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
-
-
-
 <a href="..\wdm\nf-wdm-rtllengthsecuritydescriptor.md">RtlLengthSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlvalidsecuritydescriptor.md">RtlValidSecurityDescriptor</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_enablepdev.htm
 old-project: print
 ms.assetid: 93028b21-7995-42cd-af14-97e74ae75092
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: IPrintOemUni::EnablePDEV, print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, EnablePDEV, EnablePDEV method [Print Devices], IPrintOemUni, EnablePDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni interface [Print Devices], EnablePDEV method, prcomoem/IPrintOemUni::EnablePDEV, print.iprintoemuni_enablepdev
+ms.date: 2/22/2018
+ms.keywords: print_unidrv-pscript_rendering_ec7d7a16-5eae-4d4e-8596-7463d967120e.xml, IPrintOemUni interface [Print Devices], EnablePDEV method, prcomoem/IPrintOemUni::EnablePDEV, EnablePDEV method [Print Devices], IPrintOemUni interface, IPrintOemUni::EnablePDEV, EnablePDEV, print.iprintoemuni_enablepdev, EnablePDEV method [Print Devices], IPrintOemUni
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.EnablePDEV
 product: Windows
 targetos: Windows
-req.typenames: "*POEMPTOPTS, OEMPTOPTS"
+req.typenames: OEMPTOPTS, *POEMPTOPTS
 req.product: Windows 10 or later.
 ---
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IDEREGISTERS structure [Storage Devices], irb/IDEREGISTERS, IDEREGISTERS, irb/PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], PIDEREGISTERS, _IDEREGISTERS, storage.ideregisters, *PIDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml
+ms.keywords: structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, storage.ideregisters, irb/PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], PIDEREGISTERS, *PIDEREGISTERS, _IDEREGISTERS, irb/IDEREGISTERS, IDEREGISTERS structure [Storage Devices], IDEREGISTERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	IDEREGISTERS
 product: Windows
 targetos: Windows
-req.typenames: "*PIDEREGISTERS, IDEREGISTERS"
+req.typenames: IDEREGISTERS, *PIDEREGISTERS
 ---
 
 # _IDEREGISTERS structure

@@ -7,8 +7,8 @@ old-location: display\eng_event.htm
 old-project: display
 ms.assetid: 8c785e23-5b80-4518-8a90-3f46e8ad9b1d
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ENG_EVENT structure [Display Devices], ENG_EVENT, *PENG_EVENT, PENG_EVENT, PENG_EVENT structure pointer [Display Devices], _ENG_EVENT, ntddvdeo/ENG_EVENT, *PEVENT, display.eng_event, Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, ntddvdeo/PENG_EVENT
+ms.date: 2/22/2018
+ms.keywords: display.eng_event, *PENG_EVENT, PENG_EVENT, PENG_EVENT structure pointer [Display Devices], ENG_EVENT, Video_Structs_a4ad3c78-3ef4-42b2-9640-ef253a74637b.xml, *PEVENT, ntddvdeo/PENG_EVENT, _ENG_EVENT, ENG_EVENT structure [Display Devices], ntddvdeo/ENG_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ENG_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PENG_EVENT, *PEVENT, ENG_EVENT"
+req.typenames: "*PEVENT, ENG_EVENT, *PENG_EVENT"
 ---
 
 # _ENG_EVENT structure

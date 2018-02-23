@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 830460f8-4cd6-4a52-ac32-004dc4a204e3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisHypervisorPartitionMsHvChild, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeUnknown, *PNDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionTypeMax, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml, ntddndis/NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeUnknown, _NDIS_HYPERVISOR_PARTITION_TYPE, netvista.ndis_hypervisor_partition_type, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NDIS_HYPERVISOR_PARTITION_TYPE, NdisHypervisorPartitionTypeMsHvParent, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionMsHvChild, PNDIS_HYPERVISOR_PARTITION_TYPE
+ms.keywords: netvista.ndis_hypervisor_partition_type, NDIS_HYPERVISOR_PARTITION_TYPE enumeration [Network Drivers Starting with Windows Vista], _NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeMax, NdisHypervisorPartitionTypeMsHvParent, ntddndis/NdisHypervisorPartitionTypeMsHvParent, NdisHypervisorPartitionTypeUnknown, ntddndis/NdisHypervisorPartitionMsHvChild, PNDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/NdisHypervisorPartitionTypeUnknown, PNDIS_HYPERVISOR_PARTITION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisHypervisorPartitionMsHvChild, NDIS_HYPERVISOR_PARTITION_TYPE, ntddndis/PNDIS_HYPERVISOR_PARTITION_TYPE, virtual_machine_queue_ref_582bebe7-e184-4460-8437-b81bcd6dbf8b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_HYPERVISOR_PARTITION_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_HYPERVISOR_PARTITION_TYPE, NDIS_HYPERVISOR_PARTITION_TYPE"
+req.typenames: NDIS_HYPERVISOR_PARTITION_TYPE, *PNDIS_HYPERVISOR_PARTITION_TYPE
 ---
 
 # _NDIS_HYPERVISOR_PARTITION_TYPE enumeration

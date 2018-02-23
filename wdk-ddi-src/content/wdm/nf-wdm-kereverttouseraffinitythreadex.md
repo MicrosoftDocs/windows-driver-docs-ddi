@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: effda249-3ba0-40e9-914b-4dd33126518c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, KeRevertToUserAffinityThreadEx, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], wdm/KeRevertToUserAffinityThreadEx, kernel.kereverttouseraffinitythreadex
+ms.keywords: kernel.kereverttouseraffinitythreadex, KeRevertToUserAffinityThreadEx routine [Kernel-Mode Driver Architecture], KeRevertToUserAffinityThreadEx, k105_88dc65fe-5379-4b7c-bfa0-6f2bb943b7cc.xml, wdm/KeRevertToUserAffinityThreadEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -117,11 +117,11 @@ If <b>KeRevertToUserAffinityThreadEx</b> is called at IRQL &lt;= APC_LEVEL and t
 
 
 
-<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff551830">KAFFINITY</a>
+
+
+
+<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
 
 
 

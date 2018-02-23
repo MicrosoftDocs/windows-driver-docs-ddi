@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76f97976-f48b-4ead-88d6-a9e1fdb21f08
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, kernel.clfsscanlogcontainers, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], wdm/ClfsScanLogContainers, ClfsScanLogContainers
+ms.keywords: Clfs_eec877a8-028a-49f8-91ff-b8363e124011.xml, ClfsScanLogContainers routine [Kernel-Mode Driver Architecture], kernel.clfsscanlogcontainers, ClfsScanLogContainers, wdm/ClfsScanLogContainers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

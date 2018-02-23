@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-size-range-0032.htm
 old-project: display
 ms.assetid: a4781fea-4efc-442d-8503-12be17afa9b1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3d12ddi-video-size-range-0032, d3d12umddi/D3D12DDI_VIDEO_SIZE_RANGE_0032, D3D12DDI_VIDEO_SIZE_RANGE_0032 structure [Display Devices], D3D12DDI_VIDEO_SIZE_RANGE_0032
+ms.date: 2/22/2018
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_SIZE_RANGE_0032, display.d3d12ddi-video-size-range-0032, D3D12DDI_VIDEO_SIZE_RANGE_0032 structure [Display Devices], D3D12DDI_VIDEO_SIZE_RANGE_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

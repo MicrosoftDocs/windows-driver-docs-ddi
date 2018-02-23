@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 053b9f14-7319-4599-886e-3c03c717b348
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsimgt/ISCSI_Supported_LB_Policies, _ISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies structure pointer [Storage Devices], *PISCSI_Supported_LB_Policies, PISCSI_Supported_LB_Policies, structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml, ISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], storage.iscsi_supported_lb_policies, iscsimgt/PISCSI_Supported_LB_Policies
+ms.keywords: structs-iSCSI_4ea7817e-3ec1-46cf-a492-ac327f5d3912.xml, *PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies structure [Storage Devices], PISCSI_Supported_LB_Policies structure pointer [Storage Devices], storage.iscsi_supported_lb_policies, PISCSI_Supported_LB_Policies, iscsimgt/ISCSI_Supported_LB_Policies, iscsimgt/PISCSI_Supported_LB_Policies, ISCSI_Supported_LB_Policies, _ISCSI_Supported_LB_Policies
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

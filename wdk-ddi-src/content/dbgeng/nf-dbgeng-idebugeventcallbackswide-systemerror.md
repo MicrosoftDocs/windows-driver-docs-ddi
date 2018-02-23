@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::SystemError method
 author: windows-driver-content
 description: The SystemError callback method is called by the engine when a system error occurs in the target.
 old-location: debugger\idebugeventcallbackswide_systemerror.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 938eacb5-7939-43ed-a854-046708fc9c79
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: SystemError, dbgeng/IDebugEventCallbacksWide::SystemError, debugger.idebugeventcallbackswide_systemerror, IDebugEventCallbacksWide, SystemError method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], SystemError method, SystemError method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::SystemError
+ms.date: 2/22/2018
+ms.keywords: SystemError method [Windows Debugging], SystemError method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::SystemError, SystemError, IDebugEventCallbacksWide interface [Windows Debugging], SystemError method, IDebugEventCallbacksWide::SystemError, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_systemerror
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

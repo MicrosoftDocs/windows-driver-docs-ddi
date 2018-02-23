@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: badb7e91-1d5f-42c3-973b-c7d756d24a01
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsConstructIpHeaderForTransportPacket0, netvista.fwpsconstructipheaderfortransportpacket0, FwpsConstructIpHeaderForTransportPacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: FwpsConstructIpHeaderForTransportPacket0, fwpsk/FwpsConstructIpHeaderForTransportPacket0, wfp_ref_2_funct_3_fwps_C_6c1cec4b-8792-49b0-bd89-eb3614b71567.xml, FwpsConstructIpHeaderForTransportPacket0 function [Network Drivers Starting with Windows Vista], netvista.fwpsconstructipheaderfortransportpacket0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -341,7 +341,16 @@ Call
 
 ## -see-also
 
+<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
+   FWPS_INCOMING_METADATA_VALUES0</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544964">CMSGHDR</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -354,20 +363,11 @@ Call
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\fwpsk\ns-fwpsk-fwps_incoming_metadata_values0_.md">
-   FWPS_INCOMING_METADATA_VALUES0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff543746">AF_INET6</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543744">AF_INET</a>
 
 
 

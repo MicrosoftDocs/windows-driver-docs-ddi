@@ -8,7 +8,7 @@ old-project: gpiobtn
 ms.assetid: 907cdeac-e2f0-48fa-bbf0-082c0fce6401
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HwNProcessAddDevicePostDeviceCreate function, HwNProcessAddDevicePostDeviceCreate, hwnclx/HwNProcessAddDevicePostDeviceCreate, gpiobtn.hwnprocessadddevicepostdevicecreate
+ms.keywords: hwnclx/HwNProcessAddDevicePostDeviceCreate, HwNProcessAddDevicePostDeviceCreate function, gpiobtn.hwnprocessadddevicepostdevicecreate, HwNProcessAddDevicePostDeviceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	HwNProcessAddDevicePostDeviceCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PHWN_CLX_EXPORT_INDEX, HWN_CLX_EXPORT_INDEX"
+req.typenames: HWN_CLX_EXPORT_INDEX, *PHWN_CLX_EXPORT_INDEX
 ---
 
 # HwNProcessAddDevicePostDeviceCreate function

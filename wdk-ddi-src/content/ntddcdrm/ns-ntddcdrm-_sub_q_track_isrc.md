@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0439bd46-b009-435d-aab7-efca48a17cb7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSUB_Q_TRACK_ISRC structure pointer [Storage Devices], structs-CD-ROM_372ebccd-64cd-4f5d-a59c-de75c5ffe112.xml, ntddcdrm/SUB_Q_TRACK_ISRC, ntddcdrm/PSUB_Q_TRACK_ISRC, *PSUB_Q_TRACK_ISRC, storage.sub_q_track_isrc, SUB_Q_TRACK_ISRC structure [Storage Devices], _SUB_Q_TRACK_ISRC, SUB_Q_TRACK_ISRC, PSUB_Q_TRACK_ISRC
+ms.keywords: PSUB_Q_TRACK_ISRC structure pointer [Storage Devices], ntddcdrm/PSUB_Q_TRACK_ISRC, ntddcdrm/SUB_Q_TRACK_ISRC, *PSUB_Q_TRACK_ISRC, _SUB_Q_TRACK_ISRC, storage.sub_q_track_isrc, SUB_Q_TRACK_ISRC structure [Storage Devices], SUB_Q_TRACK_ISRC, structs-CD-ROM_372ebccd-64cd-4f5d-a59c-de75c5ffe112.xml, PSUB_Q_TRACK_ISRC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SUB_Q_TRACK_ISRC
 product: Windows
 targetos: Windows
-req.typenames: "*PSUB_Q_TRACK_ISRC, SUB_Q_TRACK_ISRC"
+req.typenames: SUB_Q_TRACK_ISRC, *PSUB_Q_TRACK_ISRC
 ---
 
 # _SUB_Q_TRACK_ISRC structure
@@ -116,7 +116,7 @@ Contains an array that holds the tracking ISRC data.
 
 ## -see-also
 
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
 
 
@@ -124,11 +124,11 @@ Contains an array that holds the tracking ISRC data.
 
 
 
+<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_read_q_channel.md">IOCTL_CDROM_READ_Q_CHANNEL</a>
+
+
+
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_sub_q_data_format.md">CDROM_SUB_Q_DATA_FORMAT</a>
-
-
-
-<a href="..\ntddcdrm\ns-ntddcdrm-_sub_q_channel_data.md">SUB_Q_CHANNEL_DATA</a>
 
 
 

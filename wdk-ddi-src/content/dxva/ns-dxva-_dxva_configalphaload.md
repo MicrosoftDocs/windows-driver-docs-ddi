@@ -7,8 +7,8 @@ old-location: display\dxva_configalphaload.htm
 old-project: display
 ms.assetid: 0754c362-57b8-40e8-a050-c9dded5180c1
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], DXVA_ConfigAlphaLoad, display.dxva_configalphaload, dxva/LPDXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml, LPDXVA_ConfigAlphaLoad, dxva/DXVA_ConfigAlphaLoad, _DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices]
+ms.date: 2/22/2018
+ms.keywords: DXVA_ConfigAlphaLoad, dxva/LPDXVA_ConfigAlphaLoad, dxvaref_c813af12-264d-44c6-bebb-1b93f20c545d.xml, _DXVA_ConfigAlphaLoad, dxva/DXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad structure [Display Devices], *LPDXVA_ConfigAlphaLoad, LPDXVA_ConfigAlphaLoad structure pointer [Display Devices], display.dxva_configalphaload, LPDXVA_ConfigAlphaLoad
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_ConfigAlphaLoad
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_ConfigAlphaLoad, DXVA_ConfigAlphaLoad"
+req.typenames: DXVA_ConfigAlphaLoad, *LPDXVA_ConfigAlphaLoad
 ---
 
 # _DXVA_ConfigAlphaLoad structure

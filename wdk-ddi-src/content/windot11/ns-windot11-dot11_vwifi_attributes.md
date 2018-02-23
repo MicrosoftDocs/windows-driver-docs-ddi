@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 46eee6ea-8259-4036-b1c4-f0eef6587879
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: DOT11_VWIFI_ATTRIBUTES, netvista.dot11_vwifi_attributes, windot11/PDOT11_VWIFI_ATTRIBUTES, Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_ATTRIBUTES, windot11/DOT11_VWIFI_ATTRIBUTES, *PDOT11_VWIFI_ATTRIBUTES
+ms.keywords: windot11/PDOT11_VWIFI_ATTRIBUTES, DOT11_VWIFI_ATTRIBUTES, PDOT11_VWIFI_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], PDOT11_VWIFI_ATTRIBUTES, netvista.dot11_vwifi_attributes, windot11/DOT11_VWIFI_ATTRIBUTES, Native_802.11_data_types_fdecf787-d328-4546-a4fc-ac7205851ebf.xml, DOT11_VWIFI_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], *PDOT11_VWIFI_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

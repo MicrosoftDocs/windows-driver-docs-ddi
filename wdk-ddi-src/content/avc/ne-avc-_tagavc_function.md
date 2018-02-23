@@ -7,8 +7,8 @@ old-location: stream\avc_function.htm
 old-project: stream
 ms.assetid: 31451163-bc60-4c84-88a7-e11edea97436
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: AVC_FUNCTION_COMMAND, AVC_FUNCTION_GET_REQUEST, avc/AVC_FUNCTION_PEER_DO_LIST, AVC_FUNCTION, AVC_FUNCTION_GET_CONNECTINFO, avc/AVC_FUNCTION_SET_CONNECTINFO, AVC_FUNCTION_GET_SUBUNIT_INFO, avc/AVC_FUNCTION_GET_CONNECTINFO, AVC_FUNCTION_RELEASE, _tagAVC_FUNCTION, avcref_aa8add30-67c7-469c-ab3d-9173e7b4b91e.xml, avc/AVC_FUNCTION_GET_PIN_DESCRIPTOR, AVC_FUNCTION_SEND_RESPONSE, avc/AVC_FUNCTION_ACQUIRE, AVC_FUNCTION_SET_CONNECTINFO, avc/AVC_FUNCTION_GET_UNIQUE_ID, AVC_FUNCTION_ACQUIRE, AVC_FUNCTION_CLR_CONNECTINFO, AVC_FUNCTION_GET_UNIQUE_ID, avc/AVC_FUNCTION_GET_REQUEST, avc/AVC_FUNCTION_FIND_PEER_DO, avc/AVC_FUNCTION_GET_EXT_PLUG_COUNTS, avc/AVC_FUNCTION_GET_SUBUNIT_INFO, avc/AVC_FUNCTION_GET_PIN_COUNT, avc/AVC_FUNCTION_SEND_RESPONSE, AVC_FUNCTION_FIND_PEER_DO, avc/AVC_FUNCTION_CLR_CONNECTINFO, avc/AVC_FUNCTION_RELEASE, AVC_FUNCTION enumeration [Streaming Media Devices], avc/AVC_FUNCTION_COMMAND, avc/AVC_FUNCTION, AVC_FUNCTION_PEER_DO_LIST, stream.avc_function, AVC_FUNCTION_GET_PIN_COUNT, AVC_FUNCTION_GET_EXT_PLUG_COUNTS, AVC_FUNCTION_GET_PIN_DESCRIPTOR
+ms.date: 2/22/2018
+ms.keywords: avc/AVC_FUNCTION_GET_CONNECTINFO, avc/AVC_FUNCTION_GET_EXT_PLUG_COUNTS, AVC_FUNCTION_GET_PIN_COUNT, avc/AVC_FUNCTION_COMMAND, avc/AVC_FUNCTION_RELEASE, avc/AVC_FUNCTION_SEND_RESPONSE, avc/AVC_FUNCTION_PEER_DO_LIST, avc/AVC_FUNCTION_ACQUIRE, AVC_FUNCTION_GET_EXT_PLUG_COUNTS, AVC_FUNCTION_GET_SUBUNIT_INFO, AVC_FUNCTION, AVC_FUNCTION_SEND_RESPONSE, avc/AVC_FUNCTION_GET_PIN_DESCRIPTOR, _tagAVC_FUNCTION, avc/AVC_FUNCTION_CLR_CONNECTINFO, AVC_FUNCTION enumeration [Streaming Media Devices], AVC_FUNCTION_GET_REQUEST, AVC_FUNCTION_GET_PIN_DESCRIPTOR, AVC_FUNCTION_GET_UNIQUE_ID, AVC_FUNCTION_COMMAND, avc/AVC_FUNCTION_GET_UNIQUE_ID, avc/AVC_FUNCTION_GET_REQUEST, AVC_FUNCTION_RELEASE, avcref_aa8add30-67c7-469c-ab3d-9173e7b4b91e.xml, AVC_FUNCTION_GET_CONNECTINFO, AVC_FUNCTION_ACQUIRE, AVC_FUNCTION_PEER_DO_LIST, avc/AVC_FUNCTION_GET_PIN_COUNT, AVC_FUNCTION_CLR_CONNECTINFO, avc/AVC_FUNCTION_FIND_PEER_DO, AVC_FUNCTION_FIND_PEER_DO, avc/AVC_FUNCTION_GET_SUBUNIT_INFO, avc/AVC_FUNCTION, avc/AVC_FUNCTION_SET_CONNECTINFO, AVC_FUNCTION_SET_CONNECTINFO, stream.avc_function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -186,35 +186,7 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 ## -see-also
 
-<a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_unique_id.md">AVC_UNIQUE_ID</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
-
-
-
-<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
+<a href="..\avc\ns-avc-_avc_irb.md">AVC_IRB</a>
 
 
 
@@ -226,7 +198,15 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
+<a href="..\avc\ns-avc-_avc_pin_id.md">AVC_PIN_ID</a>
+
+
+
 <a href="..\avc\ns-avc-_avc_pin_descriptor.md">AVC_PIN_DESCRIPTOR</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_subunit_info_block.md">AVC_SUBUNIT_INFO_BLOCK</a>
 
 
 
@@ -234,9 +214,29 @@ This function code is available to both peer and virtual instances of <i>avc.sys
 
 
 
- 
+<a href="..\avc\ns-avc-_avc_pin_count.md">AVC_PIN_COUNT</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_preconnect_info.md">AVC_PRECONNECT_INFO</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_unique_id.md">AVC_UNIQUE_ID</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_command_irb.md">AVC_COMMAND_IRB</a>
+
+
+
+<a href="..\avc\ns-avc-_avc_setconnect_info.md">AVC_SETCONNECT_INFO</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_FUNCTION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVC_FUNCTION enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

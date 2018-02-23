@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 61376532-c78f-4a22-b8b7-ee55ddcb4b57
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rxce/RxCeTearDownTransport, ifsk.rxceteardowntransport, RxCeTearDownTransport function [Installable File System Drivers], rxref_12c54611-8bbf-46bf-9ee9-35072b9322c1.xml, RxCeTearDownTransport
+ms.keywords: ifsk.rxceteardowntransport, rxref_12c54611-8bbf-46bf-9ee9-35072b9322c1.xml, rxce/RxCeTearDownTransport, RxCeTearDownTransport function [Installable File System Drivers], RxCeTearDownTransport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 025046e2-ffa1-4210-b4aa-ab3d6b211066
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfdeviceadddependentusagedeviceobject, WdfDeviceAddDependentUsageDeviceObject, DFDeviceObjectGeneralRef_b31f8226-abd2-49a0-af66-ace2d05a6f17.xml, kmdf.wdfdeviceadddependentusagedeviceobject, WdfDeviceAddDependentUsageDeviceObject method, wdfdevice/WdfDeviceAddDependentUsageDeviceObject
+ms.keywords: WdfDeviceAddDependentUsageDeviceObject, DFDeviceObjectGeneralRef_b31f8226-abd2-49a0-af66-ace2d05a6f17.xml, wdf.wdfdeviceadddependentusagedeviceobject, kmdf.wdfdeviceadddependentusagedeviceobject, WdfDeviceAddDependentUsageDeviceObject method, wdfdevice/WdfDeviceAddDependentUsageDeviceObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

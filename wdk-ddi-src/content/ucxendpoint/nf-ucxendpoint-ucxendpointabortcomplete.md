@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 754BCC74-1EC2-429E-A711-E8958665A5A8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UcxEndpointAbortComplete method [Buses], UcxEndpointAbortComplete, ucxendpoint/UcxEndpointAbortComplete, buses._ucxendpointabortcomplete
+ms.keywords: ucxendpoint/UcxEndpointAbortComplete, buses._ucxendpointabortcomplete, UcxEndpointAbortComplete method [Buses], UcxEndpointAbortComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 883a7a56-ecb9-428f-a15a-ba428a626bed
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PGetPersistentBinding2_OUT structure pointer [Storage Devices], hbapiwmi/PGetPersistentBinding2_OUT, hbapiwmi/GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT, structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, storage.getpersistentbinding2_out, GetPersistentBinding2_OUT structure [Storage Devices], _GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT
+ms.keywords: structs-Fibre_e6ffe5e2-f1e2-4b40-836c-954eb31301de.xml, PGetPersistentBinding2_OUT structure pointer [Storage Devices], GetPersistentBinding2_OUT, _GetPersistentBinding2_OUT, PGetPersistentBinding2_OUT, storage.getpersistentbinding2_out, hbapiwmi/GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT structure [Storage Devices], hbapiwmi/PGetPersistentBinding2_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPersistentBinding2_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPersistentBinding2_OUT, GetPersistentBinding2_OUT"
+req.typenames: GetPersistentBinding2_OUT, *PGetPersistentBinding2_OUT
 ---
 
 # _GetPersistentBinding2_OUT structure

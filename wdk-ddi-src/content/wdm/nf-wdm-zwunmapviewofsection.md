@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: ebc67162-4e36-4af8-bc3b-764633dcda5d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/ZwUnmapViewOfSection, wdm/NtUnmapViewOfSection, k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, ZwUnmapViewOfSection, kernel.zwunmapviewofsection, NtUnmapViewOfSection, ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwUnmapViewOfSection routine [Kernel-Mode Driver Architecture], wdm/ZwUnmapViewOfSection, kernel.zwunmapviewofsection, k111_4353325c-d2a1-47b3-b58a-b62929c417f9.xml, wdm/NtUnmapViewOfSection, NtUnmapViewOfSection, ZwUnmapViewOfSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,7 +140,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwmapviewofsection.md">ZwMapViewOfSection</a>
 
 
 

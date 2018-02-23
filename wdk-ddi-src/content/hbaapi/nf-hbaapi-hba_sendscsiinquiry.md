@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6239f9b5-99e9-4ed7-b2a8-863c1784692b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbaapi/HBA_SendScsiInquiry, HBA_SendScsiInquiry, storage.hba_sendscsiinquiry, fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml, HBA_SendScsiInquiry routine [Storage Devices]
+ms.keywords: HBA_SendScsiInquiry, fibreHBA_rtns_7a60c4a4-d9d4-408f-b5c9-6cb593f510fb.xml, HBA_SendScsiInquiry routine [Storage Devices], storage.hba_sendscsiinquiry, hbaapi/HBA_SendScsiInquiry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -120,24 +120,24 @@ Pointer to a buffer that receives the SCSI sense data.
 On input, indicates the size, in bytes, of the buffer at <i>pSenseBuffer</i>. On output, this member indicates the number of bytes of sense data returned. 
 
 
-#### - fcLUN [in]
-
-Indicates the fibre channel logical unit number of the logical unit to which the SCSI inquiry command is sent. 
-
-
 #### - handle [in]
 
 Contains a value returned by the routine <a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a> that identifies the HBA on which the target port is located.
 
 
-#### - pRespBufferSize [in]
-
-Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.
-
-
 #### - portWWN [in]
 
 Contains a 64-bit worldwide name (WWN) that uniquely identifies the remote target port to which the SCSI inquiry command is sent. For a discussion of worldwide names, see the T11 committee's <i>Fibre Channel HBA API</i> specification. 
+
+
+#### - fcLUN [in]
+
+Indicates the fibre channel logical unit number of the logical unit to which the SCSI inquiry command is sent. 
+
+
+#### - pRespBufferSize [in]
+
+Indicates the size, in bytes, of the buffer at <i>pRspBuffer</i>.
 
 
 ## -returns

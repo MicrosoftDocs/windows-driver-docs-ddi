@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: C91A4DD7-3DDA-4BD9-BA84-233253B72EC7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RECORDER_LOG_CREATE_PARAMS_INIT, devtest.recorder_log_create_params_init, RECORDER_LOG_CREATE_PARAMS_INIT function [Driver Development Tools], wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT
+ms.keywords: RECORDER_LOG_CREATE_PARAMS_INIT function [Driver Development Tools], devtest.recorder_log_create_params_init, wpprecorder/RECORDER_LOG_CREATE_PARAMS_INIT, RECORDER_LOG_CREATE_PARAMS_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RECORDER_LOG_CREATE_PARAMS_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

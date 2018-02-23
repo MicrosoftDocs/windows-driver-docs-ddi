@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6137ab93-7128-4e71-ba4f-604c7e025c91
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kstruct_d_9069d571-f056-490e-b263-7849fd26b041.xml, wdm/REG_DELETE_KEY_INFORMATION, kernel.reg_delete_key_information, REG_DELETE_KEY_INFORMATION, REG_DELETE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_FLUSH_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_DELETE_KEY_INFORMATION, REG_FLUSH_KEY_INFORMATION, wdm/PREG_DELETE_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION, _REG_DELETE_KEY_INFORMATION
+ms.keywords: "*PREG_FLUSH_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_DELETE_KEY_INFORMATION, _REG_DELETE_KEY_INFORMATION, kernel.reg_delete_key_information, REG_DELETE_KEY_INFORMATION, PREG_DELETE_KEY_INFORMATION, *PREG_DELETE_KEY_INFORMATION, REG_DELETE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_9069d571-f056-490e-b263-7849fd26b041.xml, wdm/REG_DELETE_KEY_INFORMATION, REG_FLUSH_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_DELETE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_DELETE_KEY_INFORMATION, REG_FLUSH_KEY_INFORMATION, REG_DELETE_KEY_INFORMATION, *PREG_FLUSH_KEY_INFORMATION"
+req.typenames: REG_DELETE_KEY_INFORMATION, *PREG_DELETE_KEY_INFORMATION, REG_FLUSH_KEY_INFORMATION, *PREG_FLUSH_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -104,7 +104,7 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
 
 
 
@@ -112,7 +112,7 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 
 

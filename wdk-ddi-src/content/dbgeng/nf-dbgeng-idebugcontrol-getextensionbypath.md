@@ -4,11 +4,11 @@ title: IDebugControl::GetExtensionByPath method
 author: windows-driver-content
 description: The GetExtensionByPath method returns the handle for an already loaded extension library.
 old-location: debugger\getextensionbypath.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 32755878-3f52-4e52-b093-1678c8b8bb42
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetExtensionByPath method, IDebugControl, IDebugControl::GetExtensionByPath, debugger.getextensionbypath, dbgeng/IDebugControl::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetExtensionByPath method, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, GetExtensionByPath, IDebugControl2 interface [Windows Debugging], GetExtensionByPath method, GetExtensionByPath method [Windows Debugging], IDebugControl3 interface, GetExtensionByPath method [Windows Debugging], IDebugControl interface, IDebugControl3::GetExtensionByPath, dbgeng/IDebugControl2::GetExtensionByPath, IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl3::GetExtensionByPath, GetExtensionByPath method [Windows Debugging]
+ms.date: 2/22/2018
+ms.keywords: IDebugControl3 interface [Windows Debugging], GetExtensionByPath method, IDebugControl3::GetExtensionByPath, IDebugControl2::GetExtensionByPath, dbgeng/IDebugControl::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], IDebugControl interface, debugger.getextensionbypath, GetExtensionByPath method [Windows Debugging], IDebugControl2 interface, IDebugControl_821ee348-ddb2-4464-93cd-b6a58e267795.xml, IDebugControl interface [Windows Debugging], GetExtensionByPath method, dbgeng/IDebugControl3::GetExtensionByPath, GetExtensionByPath method [Windows Debugging], IDebugControl3 interface, IDebugControl, GetExtensionByPath, IDebugControl::GetExtensionByPath, IDebugControl2 interface [Windows Debugging], GetExtensionByPath method, dbgeng/IDebugControl2::GetExtensionByPath, GetExtensionByPath method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,21 +125,21 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetExtensionByPath method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetExtensionByPath method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: E6875195-D6C4-4CEB-8381-8CBA732223A5
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_UCXUSBDEVICE_INFO, ucxusbdevice/P_UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO structure [Buses], buses._ucxusbdevice_info, ucxusbdevice/_UCXUSBDEVICE_INFO, *PUCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO structure pointer [Buses], UCXUSBDEVICE_INFO, P_UCXUSBDEVICE_INFO"
+ms.keywords: UCXUSBDEVICE_INFO, buses._ucxusbdevice_info, P_UCXUSBDEVICE_INFO structure pointer [Buses], P_UCXUSBDEVICE_INFO, ucxusbdevice/P_UCXUSBDEVICE_INFO, UCXUSBDEVICE_INFO structure [Buses], *PUCXUSBDEVICE_INFO, ucxusbdevice/_UCXUSBDEVICE_INFO, _UCXUSBDEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

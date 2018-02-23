@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 08cd5b10-725e-4a36-b70d-42a831b79372
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/DMA_ADAPTER, kernel.dma_adapter, *PDMA_ADAPTER, *PADAPTER_OBJECT, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], DMA_ADAPTER, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml, wdm/PDMA_ADAPTER, _DMA_ADAPTER, PDMA_ADAPTER
+ms.keywords: PDMA_ADAPTER, DMA_ADAPTER, wdm/PDMA_ADAPTER, *PADAPTER_OBJECT, kernel.dma_adapter, *PDMA_ADAPTER, DMA_ADAPTER structure [Kernel-Mode Driver Architecture], _DMA_ADAPTER, PDMA_ADAPTER structure pointer [Kernel-Mode Driver Architecture], wdm/DMA_ADAPTER, kstruct_a_030ef4da-75e2-4427-baf6-cb9a5eb194cf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DMA_ADAPTER
 product: Windows
 targetos: Windows
-req.typenames: "*PDMA_ADAPTER, DMA_ADAPTER, *PADAPTER_OBJECT"
+req.typenames: "*PADAPTER_OBJECT, *PADAPTER_OBJECT, DMA_ADAPTER, *PDMA_ADAPTER"
 req.product: Windows 10 or later.
 ---
 
@@ -98,7 +98,7 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
@@ -106,7 +106,7 @@ Drivers for devices that use DMA to transfer data use this structure to obtain t
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_dma_operations.md">DMA_OPERATIONS</a>
 
 
 

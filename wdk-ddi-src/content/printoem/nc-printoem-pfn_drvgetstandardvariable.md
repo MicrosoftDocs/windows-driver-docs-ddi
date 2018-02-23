@@ -7,7 +7,7 @@ old-location: print\drvgetstandardvariable.htm
 old-project: print
 ms.assetid: 743d8e3c-3115-4c2d-b7f3-6f99ba684693
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
+ms.date: 2/22/2018
 ms.keywords: print.drvgetstandardvariable, DrvGetStandardVariable, DrvGetStandardVariable callback function [Print Devices], DrvGetStandardVariable, PFN_DrvGetStandardVariable, PFN_DrvGetStandardVariable, printoem/DrvGetStandardVariable, print_obsoletefunctions_143de6bb-bea1-4292-8ac4-e34c2610a8ab.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

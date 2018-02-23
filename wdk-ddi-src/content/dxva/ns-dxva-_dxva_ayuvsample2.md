@@ -7,8 +7,8 @@ old-location: display\dxva_ayuvsample2.htm
 old-project: display
 ms.assetid: 33e92f7d-2a01-4be2-a6b3-d0bd63db1eeb
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dxva/LPDXVA_AYUVsample2, _DXVA_AYUVsample2, dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, LPDXVA_AYUVsample2 structure pointer [Display Devices], DXVA_AYUVsample2, dxva/DXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices], LPDXVA_AYUVsample2, *LPDXVA_AYUVsample2, display.dxva_ayuvsample2
+ms.date: 2/22/2018
+ms.keywords: "_DXVA_AYUVsample2, dxvaref_15019e0c-708c-4d68-972b-d47b7e2b6514.xml, DXVA_AYUVsample2, LPDXVA_AYUVsample2 structure pointer [Display Devices], *LPDXVA_AYUVsample2, dxva/LPDXVA_AYUVsample2, display.dxva_ayuvsample2, LPDXVA_AYUVsample2, dxva/DXVA_AYUVsample2, DXVA_AYUVsample2 structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -125,5 +125,5 @@ The <b>DXVA_AYUVsample2</b> structure is used for each sample in a DirectX VA AY
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_AYUVsample2 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_AYUVsample2 structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

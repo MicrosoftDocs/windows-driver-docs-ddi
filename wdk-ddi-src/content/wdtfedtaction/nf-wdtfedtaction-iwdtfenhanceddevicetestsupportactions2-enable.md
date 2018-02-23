@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: f28d5220-1f02-4984-a4d1-d4c45ea16aa7
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Enable, Enable, Enable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], Enable method, IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2::Enable, dtf.iwdtfenhanceddevicetestsupportactions2_enable, Enable method [Windows Device Testing Framework]
+ms.keywords: Enable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2::Enable, wdtfedtaction/IWDTFEnhancedDeviceTestSupportActions2::Enable, Enable method [Windows Device Testing Framework], IWDTFEnhancedDeviceTestSupportActions2 interface, IWDTFEnhancedDeviceTestSupportActions2, IWDTFEnhancedDeviceTestSupportActions2 interface [Windows Device Testing Framework], Enable method, dtf.iwdtfenhanceddevicetestsupportactions2_enable, Enable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

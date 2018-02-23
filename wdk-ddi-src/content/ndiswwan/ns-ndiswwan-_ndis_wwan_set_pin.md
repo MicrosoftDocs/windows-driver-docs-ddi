@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 96c85e4d-d31d-4e89-9822-2c9068533b9a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wwan_set_pin, NDIS_WWAN_SET_PIN, ndiswwan/NDIS_WWAN_SET_PIN, _NDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN, ndiswwan/PNDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista], WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml, *PNDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_WWAN_SET_PIN structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN, WwanRef_565f6200-b5cd-4845-a606-bfb098eda610.xml, ndiswwan/NDIS_WWAN_SET_PIN, PNDIS_WWAN_SET_PIN, netvista.ndis_wwan_set_pin
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_SET_PIN
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_SET_PIN, NDIS_WWAN_SET_PIN"
+req.typenames: NDIS_WWAN_SET_PIN, *PNDIS_WWAN_SET_PIN
 ---
 
 # _NDIS_WWAN_SET_PIN structure

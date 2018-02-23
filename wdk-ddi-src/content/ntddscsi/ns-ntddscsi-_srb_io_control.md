@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 754d2a4c-6a22-4c25-87e2-e30e87b9c1ba
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddscsi/PSRB_IO_CONTROL, ntddscsi/SRB_IO_CONTROL, storage.srb_io_control, PSRB_IO_CONTROL, *PSRB_IO_CONTROL, SRB_IO_CONTROL structure [Storage Devices], PSRB_IO_CONTROL structure pointer [Storage Devices], structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml, _SRB_IO_CONTROL, SRB_IO_CONTROL
+ms.keywords: ntddscsi/PSRB_IO_CONTROL, PSRB_IO_CONTROL, PSRB_IO_CONTROL structure pointer [Storage Devices], storage.srb_io_control, SRB_IO_CONTROL structure [Storage Devices], SRB_IO_CONTROL, _SRB_IO_CONTROL, structs-scsibus_d7cd0432-d4be-4609-a3f9-91ef842caf7e.xml, ntddscsi/SRB_IO_CONTROL, *PSRB_IO_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRB_IO_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: "*PSRB_IO_CONTROL, SRB_IO_CONTROL"
+req.typenames: SRB_IO_CONTROL, *PSRB_IO_CONTROL
 ---
 
 # _SRB_IO_CONTROL structure
@@ -112,11 +112,11 @@ This structure is used by applications to send requests directly to an applicati
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
-
-
-
 SCSI Port I/O Control Codes
+
+
+
+<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 

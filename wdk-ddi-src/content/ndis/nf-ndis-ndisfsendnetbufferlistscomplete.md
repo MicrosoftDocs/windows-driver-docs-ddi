@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 5a9008eb-86ad-4e3c-85a2-c8fd1b8fb4cb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisFSendNetBufferListsComplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, netvista.ndisfsendnetbufferlistscomplete, NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], ndis/NdisFSendNetBufferListsComplete
+ms.keywords: NdisFSendNetBufferListsComplete function [Network Drivers Starting with Windows Vista], netvista.ndisfsendnetbufferlistscomplete, ndis/NdisFSendNetBufferListsComplete, filter_ndis_functions_ref_376e31a2-453d-490e-83bb-b91b728f701f.xml, NdisFSendNetBufferListsComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisFSendNetBufferListsComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisFSendNetBufferListsComplete function
@@ -158,11 +158,7 @@ The filter driver can complete send requests in any order. For example, the filt
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
-
-
-
-<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
@@ -170,7 +166,11 @@ The filter driver can complete send requests in any order. For example, the filt
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
+
+
+
+<a href="..\ndis\nc-ndis-filter_send_net_buffer_lists.md">FilterSendNetBufferLists</a>
 
 
 

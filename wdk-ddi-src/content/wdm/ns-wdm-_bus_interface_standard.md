@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cebe5b45-2a7a-4e33-aacb-5cc3ee112808
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: drvr_interface_fbfd342b-15f3-485b-98e4-513beb7db0f5.xml, PBUS_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], kernel.bus_interface_standard, _BUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], wdm/PBUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD, PBUS_INTERFACE_STANDARD, *PBUS_INTERFACE_STANDARD, wdm/BUS_INTERFACE_STANDARD
+ms.keywords: drvr_interface_fbfd342b-15f3-485b-98e4-513beb7db0f5.xml, kernel.bus_interface_standard, PBUS_INTERFACE_STANDARD, _BUS_INTERFACE_STANDARD, PBUS_INTERFACE_STANDARD structure pointer [Kernel-Mode Driver Architecture], BUS_INTERFACE_STANDARD structure [Kernel-Mode Driver Architecture], *PBUS_INTERFACE_STANDARD, wdm/BUS_INTERFACE_STANDARD, wdm/PBUS_INTERFACE_STANDARD, BUS_INTERFACE_STANDARD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,12 +93,12 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field TranslateBusAddress
@@ -125,7 +125,7 @@ A pointer to a <a href="..\wdm\nc-wdm-get_set_device_data.md">GetBusData</a> rou
 
 
 
-The <b>BUS_INTERFACE_STANDARD</b> structure is an extension of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
+The <b>BUS_INTERFACE_STANDARD</b> structure is an extension of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
 
 Some operations on a device are reserved for the device's parent bus driver. These operations might include accessing the device-specific configuration space of a bus or programming a DMA controller.
 
@@ -156,31 +156,11 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
-
-
-
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
-
-
-
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
-
-
-
-<a href="..\wdm\ns-wdm-_device_description.md">DEVICE_DESCRIPTION</a>
-
-
-
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wdm\nc-wdm-get_set_device_data.md">SetBusData</a>
 
 
 
@@ -188,19 +168,23 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a>
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="..\wdm\nc-wdm-get_dma_adapter.md">GetDmaAdapter</a>
 
 
 
-<a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wdm\nc-wdm-translate_bus_address.md">TranslateBusAddress</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
+<a href="https://msdn.microsoft.com/d57c30b8-83bd-41c9-906d-b8c95f8ca54e">IRP_MN_WRITE_CONFIG </a>
+
+
+
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 
@@ -208,7 +192,23 @@ However, if a driver must obtain an adapter object while running at IRQL &gt;= D
 
 
 
-<a href="..\wdm\nc-wdm-get_dma_adapter.md">GetDmaAdapter</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551727">IRP_MN_READ_CONFIG</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546561">GUID_BUS_INTERFACE_STANDARD</a>
+
+
+
+<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/gg604850">GetBusData</a>
 
 
 

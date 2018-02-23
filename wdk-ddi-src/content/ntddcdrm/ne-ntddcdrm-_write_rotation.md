@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e3569e38-cb56-4e33-baba-c479fc4368da
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/CdromCAVRotation, PWRITE_ROTATION, PWRITE_ROTATION enumeration pointer [Storage Devices], *PWRITE_ROTATION, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml, ntddcdrm/PWRITE_ROTATION, ntddcdrm/WRITE_ROTATION, CdromDefaultRotation, WRITE_ROTATION enumeration [Storage Devices], ntddcdrm/CdromDefaultRotation, _WRITE_ROTATION, WRITE_ROTATION, CdromCAVRotation, storage.write_rotation
+ms.keywords: PWRITE_ROTATION, CdromCAVRotation, CdromDefaultRotation, WRITE_ROTATION, ntddcdrm/WRITE_ROTATION, ntddcdrm/CdromDefaultRotation, WRITE_ROTATION enumeration [Storage Devices], ntddcdrm/PWRITE_ROTATION, _WRITE_ROTATION, ntddcdrm/CdromCAVRotation, PWRITE_ROTATION enumeration pointer [Storage Devices], *PWRITE_ROTATION, structs-CD-ROM_1fcb9104-97bd-48bf-8f08-66b292cd9045.xml, storage.write_rotation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

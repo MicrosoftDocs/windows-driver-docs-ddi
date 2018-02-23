@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: aa8b64a7-eae9-444c-892f-841ca5a610cf
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: "*PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, wdf.wdf_io_queue_config, PWDF_IO_QUEUE_CONFIG structure pointer, wdfio/WDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG structure, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, wdfio/PWDF_IO_QUEUE_CONFIG, WDF_IO_QUEUE_CONFIG, _WDF_IO_QUEUE_CONFIG"
+ms.keywords: "*PWDF_IO_QUEUE_CONFIG, kmdf.wdf_io_queue_config, WDF_IO_QUEUE_CONFIG structure, wdfio/PWDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG structure pointer, WDF_IO_QUEUE_CONFIG, wdf.wdf_io_queue_config, DFQueueObjectRef_5fda62f6-b76d-4691-9354-e091af8a5567.xml, wdfio/WDF_IO_QUEUE_CONFIG, PWDF_IO_QUEUE_CONFIG, _WDF_IO_QUEUE_CONFIG"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -200,7 +200,7 @@ For parallel queues,
 
 
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
+<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
 
 
 
@@ -208,7 +208,7 @@ For parallel queues,
 
 
 
-<a href="..\wdfio\nf-wdfio-wdfioqueuecreate.md">WdfIoQueueCreate</a>
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_queue_dispatch_type.md">WDF_IO_QUEUE_DISPATCH_TYPE</a>
 
 
 

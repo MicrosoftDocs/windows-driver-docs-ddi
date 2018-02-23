@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/NtSetValueKey, wdm/ZwSetValueKey, ZwSetValueKey, kernel.zwsetvaluekey, NtSetValueKey, k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, ZwSetValueKey routine [Kernel-Mode Driver Architecture]
+ms.keywords: ZwSetValueKey routine [Kernel-Mode Driver Architecture], wdm/NtSetValueKey, kernel.zwsetvaluekey, wdm/ZwSetValueKey, k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, ZwSetValueKey, NtSetValueKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -262,10 +262,6 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
 
 
@@ -274,15 +270,19 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 
 
@@ -290,7 +290,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
 
 
 

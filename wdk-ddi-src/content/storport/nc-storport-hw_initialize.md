@@ -166,14 +166,6 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 
 ## -see-also
 
-<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
-
-
-
-<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
-
-
-
 <a href="..\storport\nc-storport-hw_interrupt.md">HwStorInterrupt</a>
 
 
@@ -181,6 +173,12 @@ The <b>HW_INITIALIZE</b> function type is defined in the Storport.h header file.
 <a href="..\storport\nc-storport-hw_dpc_routine.md">HwStorDpcRoutine</a>
 
 
+
+<a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a>
+
+
+
+<a href="..\storport\nc-storport-hw_passive_initialize_routine.md">HwStorPassiveInitializeRoutine</a>
 
 
 

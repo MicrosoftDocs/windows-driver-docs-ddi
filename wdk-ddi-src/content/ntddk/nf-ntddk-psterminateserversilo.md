@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: C19190A3-57F9-4482-A550-045805734909
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], PsTerminateServerSilo, kernel.psterminateserversilo, ntddk/PsTerminateServerSilo
+ms.keywords: PsTerminateServerSilo, ntddk/PsTerminateServerSilo, PsTerminateServerSilo routine [Kernel-Mode Driver Architecture], kernel.psterminateserversilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	PsTerminateServerSilo
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # PsTerminateServerSilo function

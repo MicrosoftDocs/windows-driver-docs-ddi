@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d278cde-3ebe-4fee-86fd-1ec4e79bd837
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OpenRemoteInterface method, IWDFRemoteTarget interface, OpenRemoteInterface method, umdf.iwdfremotetarget_openremoteinterface, IWDFRemoteTarget, OpenRemoteInterface method, IWDFRemoteTarget interface, IWDFRemoteTarget::OpenRemoteInterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, OpenRemoteInterface, wdf.iwdfremotetarget_openremoteinterface
+ms.keywords: IWDFRemoteTarget::OpenRemoteInterface, wudfddi/IWDFRemoteTarget::OpenRemoteInterface, IWDFRemoteTarget interface, OpenRemoteInterface method, OpenRemoteInterface method, IWDFRemoteTarget interface, IWDFRemoteTarget, umdf.iwdfremotetarget_openremoteinterface, wdf.iwdfremotetarget_openremoteinterface, UMDFIoTargetObjectRef_e8287a4e-9f63-40e6-9a85-fb881a27d292.xml, OpenRemoteInterface method, OpenRemoteInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -181,11 +181,11 @@ Error:
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560273">IWDFRemoteTarget::OpenFileByName</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
 
 

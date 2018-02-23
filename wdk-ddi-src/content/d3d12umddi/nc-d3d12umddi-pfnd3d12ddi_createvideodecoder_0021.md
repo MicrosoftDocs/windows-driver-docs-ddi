@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createvideodecoder.htm
 old-project: display
 ms.assetid: 5E0B6A5A-FA6E-4722-B442-FE74437224B3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3d12ddi_createvideodecoder, pfnCreateVideoDecoder callback function [Display Devices], pfnCreateVideoDecoder, PFND3D12DDI_CREATEVIDEODECODER_0021, PFND3D12DDI_CREATEVIDEODECODER_0021, d3d12umddi/pfnCreateVideoDecoder
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,14 @@ HRESULT APIENTRY* pfnCreateVideoDecoder(
 The handle of a driver video decoder.
 
 
-#### - CreateVideoDecoder [in]
-
-The arguments used to create a video decoder.
-
-
 #### - hDevice
 
 The handle of the device.
+
+
+#### - CreateVideoDecoder [in]
+
+The arguments used to create a video decoder.
 
 
 ## -returns

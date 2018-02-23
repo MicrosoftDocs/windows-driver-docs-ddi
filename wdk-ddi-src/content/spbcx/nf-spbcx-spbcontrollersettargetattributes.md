@@ -8,7 +8,7 @@ old-project: SPB
 ms.assetid: 8EC415AA-F578-42BF-B785-52613B20A2AC
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SpbControllerSetTargetAttributes method [Buses], spbcx/SpbControllerSetTargetAttributes, SpbControllerSetTargetAttributes, SPB.spbcontrollersettargetattributes
+ms.keywords: SpbControllerSetTargetAttributes, spbcx/SpbControllerSetTargetAttributes, SpbControllerSetTargetAttributes method [Buses], SPB.spbcontrollersettargetattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	SpbControllerSetTargetAttributes
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_REQUEST_TYPE, SPB_REQUEST_TYPE"
+req.typenames: SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -120,7 +120,7 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 

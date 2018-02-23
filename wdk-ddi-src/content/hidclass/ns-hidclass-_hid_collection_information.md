@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 47490858-3fe0-4a94-adae-6589cad6a842
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml, HID_COLLECTION_INFORMATION, *PHID_COLLECTION_INFORMATION, hidclass/HID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], hidclass/PHID_COLLECTION_INFORMATION, hid.hid_collection_information, PHID_COLLECTION_INFORMATION, _HID_COLLECTION_INFORMATION
+ms.keywords: HID_COLLECTION_INFORMATION, hid.hid_collection_information, PHID_COLLECTION_INFORMATION structure pointer [Human Input Devices], PHID_COLLECTION_INFORMATION, *PHID_COLLECTION_INFORMATION, _HID_COLLECTION_INFORMATION, HID_COLLECTION_INFORMATION structure [Human Input Devices], hidclass/HID_COLLECTION_INFORMATION, hidstrct_d61a583e-66c7-4851-ba75-3e5973a95c70.xml, hidclass/PHID_COLLECTION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,11 +117,11 @@ Kernel-mode drivers can use an <a href="..\hidclass\ni-hidclass-ioctl_hid_get_co
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_descriptor.md">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
-
-
-
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_information.md">IOCTL_HID_GET_COLLECTION_INFORMATION</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_descriptor.md">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
 
 
 

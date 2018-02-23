@@ -7,8 +7,8 @@ old-location: print\getinfo_glyphstring.htm
 old-project: print
 ms.assetid: ebcc1ada-af6f-46c3-a025-97079eb08816
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: printoem/PGETINFO_GLYPHSTRING, printoem/GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING structure [Print Devices], print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, *PGETINFO_GLYPHSTRING, _GETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING, print.getinfo_glyphstring, PGETINFO_GLYPHSTRING, PGETINFO_GLYPHSTRING structure pointer [Print Devices]
+ms.date: 2/22/2018
+ms.keywords: "_GETINFO_GLYPHSTRING, printoem/GETINFO_GLYPHSTRING, print_unidrv-pscript_rendering_5b2786d4-2633-4abe-8eaf-23e7100f7ba3.xml, GETINFO_GLYPHSTRING structure [Print Devices], PGETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING, PGETINFO_GLYPHSTRING structure pointer [Print Devices], *PGETINFO_GLYPHSTRING, printoem/PGETINFO_GLYPHSTRING, print.getinfo_glyphstring"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GETINFO_GLYPHSTRING
 product: Windows
 targetos: Windows
-req.typenames: "*PGETINFO_GLYPHSTRING, GETINFO_GLYPHSTRING"
+req.typenames: GETINFO_GLYPHSTRING, *PGETINFO_GLYPHSTRING
 req.product: Windows 10 or later.
 ---
 
@@ -218,5 +218,5 @@ The values that a rendering plug-in specifies for the <b>dwTypeIn </b>and <b>pGl
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_GLYPHSTRING structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GETINFO_GLYPHSTRING structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

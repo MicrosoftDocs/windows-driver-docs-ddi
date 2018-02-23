@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: E03A617F-BC5E-41D6-B22F-CFE9FE11D7E1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdtfsystemaction/IWDTFSystemAction2::RebootRestart, dtf.iwdtfsystemaction2_rebootrestart, RebootRestart method [Windows Device Testing Framework], IWDTFSystemAction2 interface, RebootRestart, IWDTFSystemAction2::RebootRestart, Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, Microsoft.WDTF.IWDTFSystemAction2.RebootRestart, IWDTFSystemAction2, RebootRestart method [Windows Device Testing Framework], IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestart method
+ms.keywords: Microsoft::WDTF::IWDTFSystemAction2::RebootRestart, RebootRestart method [Windows Device Testing Framework], IWDTFSystemAction2 interface, wdtfsystemaction/IWDTFSystemAction2::RebootRestart, RebootRestart method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFSystemAction2.RebootRestart, IWDTFSystemAction2::RebootRestart, IWDTFSystemAction2, IWDTFSystemAction2 interface [Windows Device Testing Framework], RebootRestart method, dtf.iwdtfsystemaction2_rebootrestart, RebootRestart
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

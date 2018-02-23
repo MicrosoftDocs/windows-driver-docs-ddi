@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BTHX_SET_VERSION
 product: Windows
 targetos: Windows
-req.typenames: "*PBTHX_SCO_SUPPORT, BTHX_SCO_SUPPORT"
+req.typenames: BTHX_SCO_SUPPORT, *PBTHX_SCO_SUPPORT
 ---
 
 # IOCTL_BTHX_SET_VERSION IOCTL

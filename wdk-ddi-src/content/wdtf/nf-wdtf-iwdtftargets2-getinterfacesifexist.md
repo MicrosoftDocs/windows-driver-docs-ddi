@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 5ec2e981-87ee-4ebe-ae60-c5acae2c073e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfacesIfExist method, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, GetInterfacesIfExist, IWDTFTargets2::GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], IWDTFTargets2 interface, GetInterfacesIfExist method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, wdtf/IWDTFTargets2::GetInterfacesIfExist, IWDTFTargets2, dtf.iwdtftargets2_getinterfacesifexist
+ms.keywords: IWDTFTargets2::GetInterfacesIfExist, Microsoft::WDTF::IWDTFTargets2::GetInterfacesIfExist, IWDTFTargets2 interface [Windows Device Testing Framework], GetInterfacesIfExist method, IWDTFTargets2, Microsoft.WDTF.IWDTFTargets2.GetInterfacesIfExist, dtf.iwdtftargets2_getinterfacesifexist, GetInterfacesIfExist, GetInterfacesIfExist method [Windows Device Testing Framework], GetInterfacesIfExist method [Windows Device Testing Framework], IWDTFTargets2 interface, wdtf/IWDTFTargets2::GetInterfacesIfExist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

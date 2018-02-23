@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 75cf8262-8cb4-428e-b18e-b80121c6390e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoReleaseRemoveLock, k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], wdm/IoReleaseRemoveLock, kernel.ioreleaseremovelock
+ms.keywords: IoReleaseRemoveLock routine [Kernel-Mode Driver Architecture], k104_7ac4aba4-0219-4ad2-81bf-028ec989e1f2.xml, kernel.ioreleaseremovelock, IoReleaseRemoveLock, wdm/IoReleaseRemoveLock
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

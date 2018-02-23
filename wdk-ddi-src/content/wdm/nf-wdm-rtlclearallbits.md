@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8271b13a-a64e-4d5e-b319-283255b8127f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.rtlclearallbits, wdm/RtlClearAllBits, RtlClearAllBits routine [Kernel-Mode Driver Architecture], RtlClearAllBits, k109_6fb17a55-6839-411c-9289-720657ba4983.xml
+ms.keywords: RtlClearAllBits routine [Kernel-Mode Driver Architecture], kernel.rtlclearallbits, RtlClearAllBits, wdm/RtlClearAllBits, k109_6fb17a55-6839-411c-9289-720657ba4983.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,19 +94,7 @@ Callers of <b>RtlClearAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
+<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
 
 
 
@@ -114,7 +102,11 @@ Callers of <b>RtlClearAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 
 
-<a href="..\wdm\nf-wdm-rtlfindsetbitsandclear.md">RtlFindSetBitsAndClear</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
 
 
 
@@ -122,7 +114,15 @@ Callers of <b>RtlClearAllBits</b> must be running at IRQL &lt;= APC_LEVEL if the
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
+
+<a href="..\wdm\nf-wdm-rtlclearbits.md">RtlClearBits</a>
 
 
 

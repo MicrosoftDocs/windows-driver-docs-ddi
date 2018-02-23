@@ -4,11 +4,11 @@ title: IDebugClient5::WriteDumpFile2 method
 author: windows-driver-content
 description: The WriteDumpFile2 method creates a user-mode or kernel-modecrash dump file.
 old-location: debugger\writedumpfile2.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: a6cdefc2-8670-485d-979a-8a270dad1c0b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WriteDumpFile2 method [Windows Debugging], IDebugClient2 interface, IDebugClient4, WriteDumpFile2 method [Windows Debugging], IDebugClient3 interface, IDebugClient5, dbgeng/IDebugClient3::WriteDumpFile2, IDebugClient4 interface [Windows Debugging], WriteDumpFile2 method, WriteDumpFile2, WriteDumpFile2 method [Windows Debugging], IDebugClient2 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient4::WriteDumpFile2, dbgeng/IDebugClient2::WriteDumpFile2, WriteDumpFile2 method [Windows Debugging], IDebugClient5 interface, IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, debugger.writedumpfile2, dbgeng/IDebugClient4::WriteDumpFile2, IDebugClient5 interface [Windows Debugging], WriteDumpFile2 method, dbgeng/IDebugClient5::WriteDumpFile2, IDebugClient5::WriteDumpFile2, IDebugClient2::WriteDumpFile2, IDebugClient3 interface [Windows Debugging], WriteDumpFile2 method, WriteDumpFile2 method [Windows Debugging], IDebugClient4 interface, IDebugClient2, IDebugClient3, IDebugClient3::WriteDumpFile2
+ms.date: 2/22/2018
+ms.keywords: IDebugClient_6ce4aeba-f7a6-4872-9ff2-baf3b3165471.xml, IDebugClient3 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient5::WriteDumpFile2, WriteDumpFile2 method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient4, WriteDumpFile2 method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], WriteDumpFile2 method, IDebugClient3, IDebugClient3::WriteDumpFile2, IDebugClient4::WriteDumpFile2, IDebugClient2::WriteDumpFile2, dbgeng/IDebugClient3::WriteDumpFile2, dbgeng/IDebugClient5::WriteDumpFile2, dbgeng/IDebugClient2::WriteDumpFile2, debugger.writedumpfile2, IDebugClient2, WriteDumpFile2 method [Windows Debugging], IDebugClient2 interface, WriteDumpFile2 method [Windows Debugging], IDebugClient3 interface, IDebugClient2 interface [Windows Debugging], WriteDumpFile2 method, WriteDumpFile2 method [Windows Debugging], dbgeng/IDebugClient4::WriteDumpFile2, WriteDumpFile2, IDebugClient5
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -327,22 +327,6 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
@@ -355,9 +339,21 @@ For more information about crash dump files, see <a href="https://msdn.microsoft
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff562428">.dump (Create Dump File)</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561389">WriteDumpFileWide</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient2::WriteDumpFile2 method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::WriteDumpFile2 method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

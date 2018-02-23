@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 77ac37eb-9750-4c56-8e1c-41b8a1f50a61
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fsrtlref_25aa9ff1-4921-4f96-98dc-04230d450e98.xml, FsRtlInsertExtraCreateParameter routine [Installable File System Drivers], ntifs/FsRtlInsertExtraCreateParameter, FsRtlInsertExtraCreateParameter, ifsk.fsrtlinsertextracreateparameter
+ms.keywords: ntifs/FsRtlInsertExtraCreateParameter, fsrtlref_25aa9ff1-4921-4f96-98dc-04230d450e98.xml, ifsk.fsrtlinsertextracreateparameter, FsRtlInsertExtraCreateParameter routine [Installable File System Drivers], FsRtlInsertExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,7 +130,11 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
 
 
 
@@ -142,14 +146,6 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltremoveextracreateparameter.md">FltRemoveExtraCreateParameter</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
 
 
@@ -158,11 +154,15 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 
 

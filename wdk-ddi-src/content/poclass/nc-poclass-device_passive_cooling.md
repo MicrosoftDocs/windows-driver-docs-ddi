@@ -40,7 +40,7 @@ apiname:
 -	PassiveCooling
 product: Windows
 targetos: Windows
-req.typenames: "*PPMI_THRESHOLD_CONFIGURATION, PMI_THRESHOLD_CONFIGURATION"
+req.typenames: PMI_THRESHOLD_CONFIGURATION, *PPMI_THRESHOLD_CONFIGURATION
 ---
 
 # DEVICE_PASSIVE_COOLING callback

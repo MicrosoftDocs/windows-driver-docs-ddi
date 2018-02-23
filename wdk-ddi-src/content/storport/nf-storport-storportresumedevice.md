@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 81b979a8-87bb-48f3-b44a-bac9286648fa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml, StorPortResumeDevice, StorPortResumeDevice routine [Storage Devices], storage.storportresumedevice, storport/StorPortResumeDevice
+ms.keywords: storprt_62696d8f-cfb1-43fd-8b23-b14f1ac0d429.xml, StorPortResumeDevice routine [Storage Devices], storage.storportresumedevice, storport/StorPortResumeDevice, StorPortResumeDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

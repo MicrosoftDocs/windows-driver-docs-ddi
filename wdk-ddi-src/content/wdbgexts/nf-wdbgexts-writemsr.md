@@ -4,11 +4,11 @@ title: WriteMsr function
 author: windows-driver-content
 description: The WriteMsr function writes to a Model-Specific Register (MSR).
 old-location: debugger\writemsr.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: a88c2c74-ab9a-4d9a-aeb7-d08bfe497da4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WriteMsr function [Windows Debugging], WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, debugger.writemsr, WriteMsr, dbgeng/WriteMsr
+ms.date: 2/22/2018
+ms.keywords: WriteMsr function [Windows Debugging], debugger.writemsr, dbgeng/WriteMsr, WdbgExts_Ref_faeb78e1-24a2-4210-94f9-4e468ba69181.xml, WriteMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

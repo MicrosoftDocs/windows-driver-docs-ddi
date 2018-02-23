@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: B61247DC-8AC3-4A96-985B-A4CAC232555E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.srbex_data_bidirectional, storport/PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], *PSRBEX_DATA_BIDIRECTIONAL, storport/SRBEX_DATA_BIDIRECTIONAL, _SRBEX_DATA_BIDIRECTIONAL
+ms.keywords: SRBEX_DATA_BIDIRECTIONAL structure [Storage Devices], PSRBEX_DATA_BIDIRECTIONAL structure pointer [Storage Devices], PSRBEX_DATA_BIDIRECTIONAL, storport/SRBEX_DATA_BIDIRECTIONAL, storage.srbex_data_bidirectional, storport/PSRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL, _SRBEX_DATA_BIDIRECTIONAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_BIDIRECTIONAL
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_BIDIRECTIONAL, SRBEX_DATA_BIDIRECTIONAL"
+req.typenames: SRBEX_DATA_BIDIRECTIONAL, *PSRBEX_DATA_BIDIRECTIONAL
 req.product: Windows 10 or later.
 ---
 
@@ -99,7 +99,7 @@ A pointer to the buffer that contains the data sent from the device.
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: db3b9173-f0fe-4d51-a17e-a7b55839cbb6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILPHONEBOOKMAILADDRESSPARAMMASK, RILPHONEBOOKMAILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_PBEA_ALL, ntddrilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK, RIL_PARAM_PBEA_ALL, netvista.rilphonebookmailaddressparammask
+ms.keywords: ntddrilapitypes/RIL_PARAM_PBEA_ALL, RILPHONEBOOKMAILADDRESSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILPHONEBOOKMAILADDRESSPARAMMASK, RIL_PARAM_PBEA_ALL, netvista.rilphonebookmailaddressparammask, ntddrilapitypes/RILPHONEBOOKMAILADDRESSPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

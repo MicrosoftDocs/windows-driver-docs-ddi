@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 9366029e-4f8b-4121-ad99-01a5116a7f46
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: OnDeinitialize method, IDriverEntry interface, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, wudfddi/IDriverEntry::OnDeinitialize, wdf.idriverentry_ondeinitialize, IDriverEntry interface, OnDeinitialize method, OnDeinitialize method, IDriverEntry::OnDeinitialize, umdf.idriverentry_ondeinitialize, IDriverEntry, OnDeinitialize
+ms.keywords: IDriverEntry::OnDeinitialize, wudfddi/IDriverEntry::OnDeinitialize, umdf.idriverentry_ondeinitialize, UMDFDriverObjectRef_0dc59f06-5979-4077-8945-b0568d8980ba.xml, OnDeinitialize, IDriverEntry interface, OnDeinitialize method, OnDeinitialize method, IDriverEntry interface, IDriverEntry, wdf.idriverentry_ondeinitialize, OnDeinitialize method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,11 +95,11 @@ The framework creates a new driver object for each driver that is loaded in the 
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-idriverentry.md">IDriverEntry</a>
 
 
 

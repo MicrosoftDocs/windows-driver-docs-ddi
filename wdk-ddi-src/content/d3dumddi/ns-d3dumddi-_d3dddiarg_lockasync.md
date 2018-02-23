@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_lockasync.htm
 old-project: display
 ms.assetid: dfe2ab95-e494-430d-81c7-8f209a37024f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, display.d3dddiarg_lockasync, _D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices], d3dumddi/D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC
+ms.date: 2/22/2018
+ms.keywords: "_D3DDDIARG_LOCKASYNC, D3DDDIARG_LOCKASYNC structure [Display Devices], D3DDDIARG_LOCKASYNC, UMDisplayDriver_param_Structs_24593944-e4ac-4650-82d5-c5fc26a6a770.xml, display.d3dddiarg_lockasync, d3dumddi/D3DDDIARG_LOCKASYNC"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -177,5 +177,5 @@ Only one of the <b>RangeValid</b>, <b>AreaValid</b>, and <b>BoxValid</b> bit-fie
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_LOCKASYNC structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_LOCKASYNC structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

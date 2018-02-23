@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::ExitProcess method
 author: windows-driver-content
 description: The ExitProcess callback method is called by the engine when an exit-processdebugging event occurs in the target.
 old-location: debugger\idebugeventcallbacks_exitprocess.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 050b747e-5570-4e25-81e4-eccdde4f6995
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ExitProcess, IDebugEventCallbacks::ExitProcess, debugger.idebugeventcallbacks_exitprocess, ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, IDebugEventCallbacks interface [Windows Debugging], ExitProcess method, ExitProcess method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks, ExitProcess method [Windows Debugging], dbgeng/IDebugEventCallbacks::ExitProcess
+ms.date: 2/22/2018
+ms.keywords: IDebugEventCallbacks interface [Windows Debugging], ExitProcess method, ComCallbacks_bcacc47e-294c-4dfa-a38e-2b57f534d415.xml, debugger.idebugeventcallbacks_exitprocess, ExitProcess, dbgeng/IDebugEventCallbacks::ExitProcess, IDebugEventCallbacks, ExitProcess method [Windows Debugging], IDebugEventCallbacks::ExitProcess, ExitProcess method [Windows Debugging], IDebugEventCallbacks interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

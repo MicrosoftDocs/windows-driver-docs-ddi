@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55eca513-030c-47f8-9ce9-ab36183cbaf2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoUnregisterPlugPlayNotification, wdm/IoUnregisterPlugPlayNotification, kernel.iounregisterplugplaynotification, k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoUnregisterPlugPlayNotification routine [Kernel-Mode Driver Architecture], IoUnregisterPlugPlayNotification, wdm/IoUnregisterPlugPlayNotification, k104_7235d17c-b6f8-406a-b896-36478354ca73.xml, kernel.iounregisterplugplaynotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,11 @@ A driver cannot be unloaded until it removes all of its PnP notification registr
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
-
-
-
 <a href="..\wdm\nf-wdm-iounregisterplugplaynotificationex.md">IoUnregisterPlugPlayNotificationEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-ioregisterplugplaynotification.md">IoRegisterPlugPlayNotification</a>
 
 
 

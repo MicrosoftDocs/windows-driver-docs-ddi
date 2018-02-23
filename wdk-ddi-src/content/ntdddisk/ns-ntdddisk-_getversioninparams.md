@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dcbfa8d2-c2ea-43ae-9d77-ce95a430a514
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntdddisk/LPGETVERSIONINPARAMS, GETVERSIONINPARAMS structure [Storage Devices], GETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, PGETVERSIONINPARAMS structure pointer [Storage Devices], LPGETVERSIONINPARAMS, *LPGETVERSIONINPARAMS, *PGETVERSIONINPARAMS, _GETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml, storage.getversioninparams, ntdddisk/GETVERSIONINPARAMS, PGETVERSIONINPARAMS
+ms.keywords: "*LPGETVERSIONINPARAMS, ntdddisk/PGETVERSIONINPARAMS, structs-IDE_5426037d-a75f-4b92-a935-e467d02ec8c7.xml, PGETVERSIONINPARAMS structure pointer [Storage Devices], *PGETVERSIONINPARAMS, GETVERSIONINPARAMS, ntdddisk/GETVERSIONINPARAMS, PGETVERSIONINPARAMS, LPGETVERSIONINPARAMS, storage.getversioninparams, _GETVERSIONINPARAMS, LPGETVERSIONINPARAMS structure pointer [Storage Devices], GETVERSIONINPARAMS structure [Storage Devices], ntdddisk/LPGETVERSIONINPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

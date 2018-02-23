@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: a3758f32-daa9-4795-9a79-694b02da43cd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/RtlFillMemoryUlong, ifsk.rtlfillmemoryulong, RtlFillMemoryUlong, RtlFillMemoryUlong routine [Installable File System Drivers], rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml
+ms.keywords: rtlref_11aa35b5-f5b5-459c-9996-e7dcb7741dd8.xml, ntifs/RtlFillMemoryUlong, ifsk.rtlfillmemoryulong, RtlFillMemoryUlong routine [Installable File System Drivers], RtlFillMemoryUlong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,7 +106,7 @@ For more information about managing buffered data and initializing driver-alloca
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\ntifs\nf-ntifs-rtlfillmemoryulonglong.md">RtlFillMemoryUlonglong</a>
 
 
 
@@ -114,7 +114,7 @@ For more information about managing buffered data and initializing driver-alloca
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\minitape\nf-minitape-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c5250b7d-a996-4591-b289-cfb1af00e7da
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], NtFlushKey, kernel.zwflushkey, wdm/NtFlushKey, wdm/ZwFlushKey, k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml
+ms.keywords: kernel.zwflushkey, ZwFlushKey, wdm/NtFlushKey, k111_2831bd9f-93c1-4377-9f0e-26d4ef20e095.xml, wdm/ZwFlushKey, ZwFlushKey routine [Kernel-Mode Driver Architecture], NtFlushKey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
@@ -114,7 +114,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\ikspin_ksgetcurrentcommunication.htm
 old-project: stream
 ms.assetid: 3fca9bf5-5430-4877-846e-e796e54991a2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface, ksproxy/IKsPin::KsGetCurrentCommunication, stream.ikspin_ksgetcurrentcommunication, KsGetCurrentCommunication, IKsPin::KsGetCurrentCommunication, ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, IKsPin, IKsPin interface [Streaming Media Devices], KsGetCurrentCommunication method, KsGetCurrentCommunication method [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: stream.ikspin_ksgetcurrentcommunication, IKsPin, ksproxy/IKsPin::KsGetCurrentCommunication, IKsPin::KsGetCurrentCommunication, KsGetCurrentCommunication, KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface [Streaming Media Devices], KsGetCurrentCommunication method, ksproxy_2619bbb1-bc7d-4a69-99fb-2e35a36c4f02.xml, KsGetCurrentCommunication method [Streaming Media Devices], IKsPin interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -134,12 +134,12 @@ The pin cannot connect to other pins, but instances may be created on it to rece
 
 ### -param Interface [out, optional]
 
-Pointer to a variable that receives a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a> structure that describes the current interface for a pin. 
+Pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a> structure that describes the current interface for a pin. 
 
 
 ### -param Medium [out, optional]
 
-Pointer to a variable that receives a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structure that describes the current medium for a pin. 
+Pointer to a variable that receives a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a> structure that describes the current medium for a pin. 
 
 
 ## -returns
@@ -164,7 +164,11 @@ The current communication direction, interface, and medium of a pin are a subset
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563537">KSPIN_INTERFACE</a>
 
 
 
@@ -172,13 +176,9 @@ The current communication direction, interface, and medium of a pin are a subset
 
 
 
-<a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin::KsGetCurrentCommunication method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsPin::KsGetCurrentCommunication method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

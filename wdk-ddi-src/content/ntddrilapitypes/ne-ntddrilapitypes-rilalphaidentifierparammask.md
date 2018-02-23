@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 33f51fb2-3308-4e24-925a-b17e117b18b6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RIL_PARAM_AI_REASON, RIL_PARAM_AI_ALL, RILALPHAIDENTIFIERPARAMMASK, RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], netvista.rilalphaidentifierparammask, ntddrilapitypes/RIL_PARAM_AI_REASON, ntddrilapitypes/RIL_PARAM_AI_ALL, ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK
+ms.keywords: RILALPHAIDENTIFIERPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILALPHAIDENTIFIERPARAMMASK, netvista.rilalphaidentifierparammask, RILALPHAIDENTIFIERPARAMMASK, RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_ALL, ntddrilapitypes/RIL_PARAM_AI_REASON, RIL_PARAM_AI_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

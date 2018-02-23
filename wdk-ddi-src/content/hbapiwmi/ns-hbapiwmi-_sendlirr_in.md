@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 774acafb-c929-483a-82b0-2a358054dc7f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSendLIRR_IN, hbapiwmi/SendLIRR_IN, _SendLIRR_IN, hbapiwmi/PSendLIRR_IN, SendLIRR_IN structure [Storage Devices], structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, storage.sendlirr_in, *PSendLIRR_IN, SendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices]
+ms.keywords: PSendLIRR_IN, hbapiwmi/SendLIRR_IN, PSendLIRR_IN structure pointer [Storage Devices], structs-Fibre_6f0fd3c1-9eb5-4042-b12e-8dd225d966b1.xml, hbapiwmi/PSendLIRR_IN, _SendLIRR_IN, *PSendLIRR_IN, SendLIRR_IN structure [Storage Devices], storage.sendlirr_in, SendLIRR_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SendLIRR_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSendLIRR_IN, SendLIRR_IN"
+req.typenames: SendLIRR_IN, *PSendLIRR_IN
 ---
 
 # _SendLIRR_IN structure

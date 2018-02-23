@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d211bab9-4932-41c5-9b6f-528a75bb2ae4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.changerclassallocatepool, chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, mcd/ChangerClassAllocatePool, ChangerClassAllocatePool, ChangerClassAllocatePool function [Storage Devices]
+ms.keywords: storage.changerclassallocatepool, ChangerClassAllocatePool function [Storage Devices], chgrclas_e1b15ece-f3e4-446f-adc4-39301fc0346f.xml, ChangerClassAllocatePool, mcd/ChangerClassAllocatePool
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

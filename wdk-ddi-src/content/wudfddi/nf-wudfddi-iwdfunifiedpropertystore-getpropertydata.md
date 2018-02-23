@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0AAEB2F1-0449-4F0E-807A-1D2420CF6858
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfunifiedpropertystore_getpropertydata, GetPropertyData method, IWDFUnifiedPropertyStore interface, GetPropertyData, GetPropertyData method, IWDFUnifiedPropertyStore::GetPropertyData, IWDFUnifiedPropertyStore, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData, IWDFUnifiedPropertyStore interface, GetPropertyData method
+ms.keywords: umdf.iwdfunifiedpropertystore_getpropertydata, GetPropertyData, GetPropertyData method, IWDFUnifiedPropertyStore interface, IWDFUnifiedPropertyStore interface, GetPropertyData method, IWDFUnifiedPropertyStore, wdf.iwdfunifiedpropertystore_getpropertydata, wudfddi/IWDFUnifiedPropertyStore::GetPropertyData, IWDFUnifiedPropertyStore::GetPropertyData, GetPropertyData method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -304,6 +304,10 @@ exit:
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
+
+
+
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystore.md">IWDFUnifiedPropertyStore</a>
 
 
@@ -313,10 +317,6 @@ exit:
 
 
 <a href="..\wudfddi\nn-wudfddi-iwdfunifiedpropertystorefactory.md">IWDFUnifiedPropertyStoreFactory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh451406">RetrieveUnifiedDevicePropertyStore</a>
 
 
 

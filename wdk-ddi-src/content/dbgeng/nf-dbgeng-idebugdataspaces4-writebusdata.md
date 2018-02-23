@@ -4,11 +4,11 @@ title: IDebugDataSpaces4::WriteBusData method
 author: windows-driver-content
 description: The WriteBusData method writes data to a system bus.
 old-location: debugger\writebusdata.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: bd4e762d-b3d5-4a4c-bdeb-998cd72783b4
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WriteBusData method [Windows Debugging], IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, IDebugDataSpaces interface [Windows Debugging], WriteBusData method, dbgeng/IDebugDataSpaces4::WriteBusData, IDebugDataSpaces4::WriteBusData, dbgeng/IDebugDataSpaces2::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces3::WriteBusData, WriteBusData, IDebugDataSpaces3, IDebugDataSpaces2::WriteBusData, debugger.writebusdata, dbgeng/IDebugDataSpaces::WriteBusData, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces, IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces3::WriteBusData, IDebugDataSpaces4, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface
+ms.date: 2/22/2018
+ms.keywords: WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface, WriteBusData method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces_a1fb8543-dee8-475d-b42c-17077d72b06e.xml, IDebugDataSpaces4, IDebugDataSpaces interface [Windows Debugging], WriteBusData method, IDebugDataSpaces3 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces3, IDebugDataSpaces, WriteBusData, IDebugDataSpaces3::WriteBusData, dbgeng/IDebugDataSpaces::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces4::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces2 interface [Windows Debugging], WriteBusData method, IDebugDataSpaces2::WriteBusData, IDebugDataSpaces::WriteBusData, dbgeng/IDebugDataSpaces2::WriteBusData, dbgeng/IDebugDataSpaces3::WriteBusData, WriteBusData method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2, dbgeng/IDebugDataSpaces4::WriteBusData, debugger.writebusdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

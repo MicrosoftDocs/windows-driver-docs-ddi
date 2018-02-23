@@ -7,8 +7,8 @@ old-location: stream\kssetmajorfunctionhandler.htm
 old-project: stream
 ms.assetid: 22c1957d-089a-4504-b92c-9268a37ac265
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.kssetmajorfunctionhandler, KsSetMajorFunctionHandler function [Streaming Media Devices], ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, ks/KsSetMajorFunctionHandler, KsSetMajorFunctionHandler
+ms.date: 2/22/2018
+ms.keywords: KsSetMajorFunctionHandler, ksfunc_e8761f66-4ca5-4465-bf7b-f6d2ab1d2355.xml, KsSetMajorFunctionHandler function [Streaming Media Devices], stream.kssetmajorfunctionhandler, ks/KsSetMajorFunctionHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

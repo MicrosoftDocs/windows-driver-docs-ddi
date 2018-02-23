@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 6ebb27ae-50ef-4644-869f-9755e65eada9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: StartAsync method [Windows Device Testing Framework], Microsoft.WDTF.IWDTFSimpleIOStressAction2.StartAsync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StartAsync, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], StartAsync method, IWDTFSimpleIOStressAction2, StartAsync, dtf.iwdtfsimpleiostressaction2_startasync, IWDTFSimpleIOStressAction2::StartAsync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StartAsync, StartAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface
+ms.keywords: StartAsync, wdtfinterfaces/IWDTFSimpleIOStressAction2::StartAsync, IWDTFSimpleIOStressAction2::StartAsync, Microsoft.WDTF.IWDTFSimpleIOStressAction2.StartAsync, StartAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], StartAsync method, StartAsync method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_startasync, Microsoft::WDTF::IWDTFSimpleIOStressAction2::StartAsync
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

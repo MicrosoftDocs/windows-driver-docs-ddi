@@ -4,10 +4,10 @@ title: IOCTL_GET_PIPE_CONFIGURATION
 author: windows-driver-content
 description: Returns a description of every transfer pipe supported for a device.
 old-location: image\ioctl_get_pipe_configuration.htm
-old-project: Image
+old-project: image
 ms.assetid: 60d320d2-24ca-4c7a-bdcf-ed3322a02f00
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.ioctl_get_pipe_configuration, IOCTL_GET_PIPE_CONFIGURATION control code [Imaging Devices], IOCTL_GET_PIPE_CONFIGURATION, usbscan/IOCTL_GET_PIPE_CONFIGURATION, stifnc_d8b8d478-b15d-402e-b449-052a25ff38fc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

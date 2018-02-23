@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 895b49e5-181b-4312-ab1c-7f67c102b32f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI.pci_express_device_capabilities_register, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
+ms.keywords: "_PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union pointer [Buses], PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER union [Buses], ntddk/PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, ntddk/PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI.pci_express_device_capabilities_register, pci_struct_6643c57c-39dd-483b-9611-b0bf96cacbd8.xml, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER"
+req.typenames: PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER, *PPCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER
 ---
 
 # _PCI_EXPRESS_DEVICE_CAPABILITIES_REGISTER structure
@@ -194,29 +194,24 @@ The two most significant bits in the function number are used for phantom functi
 All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
 
 
-##### - L0sAcceptableLatency.L0s_256ns_512ns
+##### - PhantomFunctionsSupported.0
 
-512 nanoseconds
-
-
-##### - L0sAcceptableLatency.L0s_2us_4us
-
-4 microseconds
+No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
 
 
-##### - L0sAcceptableLatency.L0s_512ns_1us
+##### - PhantomFunctionsSupported.1
 
-1 microsecond
-
-
-##### - L0sAcceptableLatency.L0s_64ns_128ns
-
-128 nanoseconds
+The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
 
 
-##### - L0sAcceptableLatency.L0s_Above4us
+##### - PhantomFunctionsSupported.2
 
-No limit
+The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
+
+
+##### - PhantomFunctionsSupported.3
+
+All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
 
 
 #### - ExtendedTagSupported
@@ -284,37 +279,37 @@ No limit
 64 nanoseconds
 
 
-##### - L1AcceptableLatency.L1_16us_32us
+##### - L0sAcceptableLatency.L0s_64ns_128ns
 
-32 microseconds
+128 nanoseconds
 
 
-##### - L1AcceptableLatency.L1_1us_2us
+##### - L0sAcceptableLatency.L0s_128ns_256ns
+
+256 nanoseconds
+
+
+##### - L0sAcceptableLatency.L0s_256ns_512ns
+
+512 nanoseconds
+
+
+##### - L0sAcceptableLatency.L0s_512ns_1us
+
+1 microsecond
+
+
+##### - L0sAcceptableLatency.L0s_1us_2us
 
 2 microseconds
 
 
-##### - L1AcceptableLatency.L1_2us_4us
+##### - L0sAcceptableLatency.L0s_2us_4us
 
 4 microseconds
 
 
-##### - L1AcceptableLatency.L1_32us_64us
-
-64 microseconds
-
-
-##### - L1AcceptableLatency.L1_4us_8us
-
-8 microseconds
-
-
-##### - L1AcceptableLatency.L1_8us_16us
-
-16 microseconds
-
-
-##### - L1AcceptableLatency.L1_Above64us
+##### - L0sAcceptableLatency.L0s_Above4us
 
 No limit
 
@@ -379,34 +374,39 @@ No limit
 1 microsecond
 
 
-##### - MaxPayloadSizeSupported.MaxPayload1024Bytes
+##### - L1AcceptableLatency.L1_1us_2us
 
-1024 byte maximum payload size
-
-
-##### - MaxPayloadSizeSupported.MaxPayload128Bytes
-
-128 byte maximum payload size
+2 microseconds
 
 
-##### - MaxPayloadSizeSupported.MaxPayload2048Bytes
+##### - L1AcceptableLatency.L1_2us_4us
 
-2048 byte maximum payload size
-
-
-##### - MaxPayloadSizeSupported.MaxPayload256Bytes
-
-256 byte maximum payload size
+4 microseconds
 
 
-##### - MaxPayloadSizeSupported.MaxPayload4096Bytes
+##### - L1AcceptableLatency.L1_4us_8us
 
-4096 byte maximum payload size
+8 microseconds
 
 
-##### - MaxPayloadSizeSupported.MaxPayload512Bytes
+##### - L1AcceptableLatency.L1_8us_16us
 
-512 byte maximum payload size
+16 microseconds
+
+
+##### - L1AcceptableLatency.L1_16us_32us
+
+32 microseconds
+
+
+##### - L1AcceptableLatency.L1_32us_64us
+
+64 microseconds
+
+
+##### - L1AcceptableLatency.L1_Above64us
+
+No limit
 
 
 #### - Undefined
@@ -462,22 +462,22 @@ Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
 
 ##### - CapturedSlotPowerLimitScale.0
 
-No function number bits are used for phantom functions. The device can implement functions for all eight function numbers.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 1.0.
 
 
-##### - PhantomFunctionsSupported.1
+##### - CapturedSlotPowerLimitScale.1
 
-The most significant bit in the function number is used for phantom functions. The device can implement functions for function numbers 0 to 3.
-
-
-##### - PhantomFunctionsSupported.2
-
-The two most significant bits in the function number are used for phantom functions. The device can implement functions for function numbers 0 and 1.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.1.
 
 
-##### - PhantomFunctionsSupported.3
+##### - CapturedSlotPowerLimitScale.2
 
-All three bits in the function number are used for phantom functions. The device implements only a single function for function number 0.
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.01.
+
+
+##### - CapturedSlotPowerLimitScale.3
+
+Multiply the value in the <b>CapturedSlotPowerLimit</b> member by 0.001.
 
 
 #### - Rsvd2

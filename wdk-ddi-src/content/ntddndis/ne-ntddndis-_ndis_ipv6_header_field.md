@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 753BBA25-B0D5-4EBC-BA47-07ABEBCBA47D
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PNDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldUndefined, PNDIS_IPV6_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldUndefined, NdisIPv6HeaderFieldMaximum, *PNDIS_IPV6_HEADER_FIELD, ntddndis/NDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldProtocol, netvista.ndis_ipv6_header_field, ntddndis/NdisIPv6HeaderFieldMaximum, ntddndis/NdisIPv6HeaderFieldProtocol
+ms.keywords: ntddndis/PNDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldMaximum, *PNDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD, NDIS_IPV6_HEADER_FIELD enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_IPV6_HEADER_FIELD, ntddndis/NdisIPv6HeaderFieldProtocol, PNDIS_IPV6_HEADER_FIELD enumeration pointer [Network Drivers Starting with Windows Vista], _NDIS_IPV6_HEADER_FIELD, netvista.ndis_ipv6_header_field, PNDIS_IPV6_HEADER_FIELD, NdisIPv6HeaderFieldUndefined, NdisIPv6HeaderFieldProtocol, ntddndis/NdisIPv6HeaderFieldMaximum, ntddndis/NdisIPv6HeaderFieldUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netdma/PNET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR, netvista.net_dma_descriptor, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_SOURCE_NO_SNOOP, NET_DMA_RESERVED_MASK, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_INTERRUPT_ON_COMPLETION, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_NULL_TRANSFER, NET_DMA_SOURCE_PAGE_BREAK, _NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_OP_TYPE_MASK, PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_OP_TYPE_CONTEXT_CHANGE, netdma/NET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION
+ms.keywords: netvista.net_dma_descriptor, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_OP_TYPE_MASK, NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_DESTINATION_NO_SNOOP, netdma/NET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_OP_TYPE_CONTEXT_CHANGE, netdma/PNET_DMA_DESCRIPTOR, NET_DMA_NULL_TRANSFER, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_DESCRIPTOR, PNET_DMA_DESCRIPTOR, NET_DMA_SOURCE_NO_SNOOP, _NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_RESERVED_MASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NET_DMA_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PNET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR"
+req.typenames: NET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR
 ---
 
 # _NET_DMA_DESCRIPTOR structure
@@ -467,7 +467,7 @@ The NetDMA interface calls a DMA provider driver's
 
 
 
-<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
+<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
 
 
 

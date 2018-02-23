@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: cfdfae5e-4669-4e88-82d2-35fb2bca3012
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], ExAllocatePoolWithQuota, wdm/ExAllocatePoolWithQuota, kernel.exallocatepoolwithquota, k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml
+ms.keywords: ExAllocatePoolWithQuota, wdm/ExAllocatePoolWithQuota, k102_6f0151af-8673-4fde-a4ab-744cb25d660f.xml, ExAllocatePoolWithQuota routine [Kernel-Mode Driver Architecture], kernel.exallocatepoolwithquota
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -40,7 +40,7 @@ apiname:
 -	ExAllocatePoolWithQuota
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEUPDATEEX, POWERSOURCEUPDATEEX"
+req.typenames: POWERSOURCEUPDATEEX, *PPOWERSOURCEUPDATEEX
 ---
 
 # ExAllocatePoolWithQuota macro
@@ -119,15 +119,15 @@ Callers of <b>ExAllocatePoolWithQuota</b> must be executing at IRQL &lt;= DISPAT
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-exfreepool.md">ExFreePool</a>
-
-
-
 <a href="..\wdm\nf-wdm-exallocatepoolwithtag.md">ExAllocatePoolWithTag</a>
 
 
 
 <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
+
+
+
+<a href="..\wdm\nf-wdm-exfreepool.md">ExFreePool</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: stream\avcstrm_function.htm
 old-project: stream
 ms.assetid: 0dacc4b0-003f-4c73-8705-1c1e86ce357c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: AVCSTRM_CLOSE, avcstrm/AVCSTRM_GET_STATE, avcstrm/AVCSTRM_SET_PROPERTY, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, avcstrm/AVCSTRM_FUNCTION, AVCSTRM_SET_STATE, AVCSTRM_FUNCTION, avcstrm/AVCSTRM_SET_STATE, avcstrm/AVCSTRM_ABORT_STREAMING, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], stream.avcstrm_function, avcstrm/AVCSTRM_WRITE, avcstrm/AVCSTRM_GET_PROPERTY, AVCSTRM_OPEN, avcstrm/AVCSTRM_OPEN, AVCSTRM_ABORT_STREAMING, AVCSTRM_GET_PROPERTY, AVCSTRM_GET_STATE, avcstrm/AVCSTRM_CLOSE, AVCSTRM_SET_PROPERTY, AVCSTRM_WRITE, _AVCSTRM_FUNCTION, avcstrm/AVCSTRM_READ, AVCSTRM_READ
+ms.date: 2/22/2018
+ms.keywords: AVCSTRM_SET_STATE, AVCSTRM_FUNCTION, AVCSTRM_OPEN, avcstrm/AVCSTRM_SET_STATE, avcstrm/AVCSTRM_OPEN, AVCSTRM_READ, avcstrm/AVCSTRM_CLOSE, AVCSTRM_FUNCTION enumeration [Streaming Media Devices], avcstrm/AVCSTRM_GET_STATE, AVCSTRM_WRITE, avcstrm/AVCSTRM_FUNCTION, avcstrm/AVCSTRM_SET_PROPERTY, AVCSTRM_SET_PROPERTY, avcstrm/AVCSTRM_WRITE, AVCSTRM_CLOSE, AVCSTRM_ABORT_STREAMING, avcstrm/AVCSTRM_GET_PROPERTY, stream.avcstrm_function, avcstrm/AVCSTRM_READ, avcsref_19b1714d-e3a3-40b8-8dd8-fb17ecb2e777.xml, avcstrm/AVCSTRM_ABORT_STREAMING, AVCSTRM_GET_PROPERTY, AVCSTRM_GET_STATE, _AVCSTRM_FUNCTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -122,15 +122,7 @@ Set stream property. This function is not implemented.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
 
 
 
@@ -138,11 +130,7 @@ Set stream property. This function is not implemented.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554132">AVCSTRM_SET_PROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554124">AVCSTRM_GET_STATE</a>
 
 
 
@@ -158,9 +146,21 @@ Set stream property. This function is not implemented.
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554121">AVCSTRM_GET_PROPERTY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554134">AVCSTRM_SET_STATE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554130">AVCSTRM_READ</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCSTRM_FUNCTION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20AVCSTRM_FUNCTION enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

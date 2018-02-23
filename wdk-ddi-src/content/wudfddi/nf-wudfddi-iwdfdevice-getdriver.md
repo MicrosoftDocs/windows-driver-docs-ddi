@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d17d970-56b7-494a-aa7b-d60065ff06d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice interface, GetDriver method, IWDFDevice, GetDriver method, IWDFDevice interface, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, wudfddi/IWDFDevice::GetDriver, GetDriver, umdf.iwdfdevice_getdriver, IWDFDevice::GetDriver, GetDriver method, wdf.iwdfdevice_getdriver
+ms.keywords: umdf.iwdfdevice_getdriver, GetDriver method, IWDFDevice interface, GetDriver method, wudfddi/IWDFDevice::GetDriver, wdf.iwdfdevice_getdriver, IWDFDevice::GetDriver, UMDFDeviceObjectRef_6c0cfbb6-1ee7-4c7b-b4ec-0b957630e094.xml, IWDFDevice interface, GetDriver method, GetDriver, IWDFDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -95,11 +95,11 @@ For a code example of how to use the GetDriver method, see <a href="https://msdn
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdriver.md">IWDFDriver</a>
 
 
 

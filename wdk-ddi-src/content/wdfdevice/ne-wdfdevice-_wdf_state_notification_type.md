@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: fc44c970-482c-4fbf-a149-e6b732f6c9d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdevice/WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationAllStates, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, StateNotificationInvalid, StateNotificationEnterState, wdfdevice/StateNotificationInvalid, StateNotificationAllStates, StateNotificationPostProcessState, WDF_STATE_NOTIFICATION_TYPE enumeration, wdfdevice/StateNotificationLeaveState, wdf.wdf_state_notification_type, StateNotificationLeaveState, wdfdevice/StateNotificationEnterState, _WDF_STATE_NOTIFICATION_TYPE, wdfdevice/StateNotificationPostProcessState, WDF_STATE_NOTIFICATION_TYPE, kmdf.wdf_state_notification_type
+ms.keywords: "_WDF_STATE_NOTIFICATION_TYPE, StateNotificationEnterState, WDF_STATE_NOTIFICATION_TYPE enumeration, wdfdevice/StateNotificationAllStates, DFDeviceObjectGeneralRef_c1bdabfc-dd89-4eeb-b5ba-9f03a65414c5.xml, StateNotificationPostProcessState, StateNotificationLeaveState, wdfdevice/WDF_STATE_NOTIFICATION_TYPE, StateNotificationInvalid, wdfdevice/StateNotificationInvalid, wdfdevice/StateNotificationEnterState, wdf.wdf_state_notification_type, kmdf.wdf_state_notification_type, wdfdevice/StateNotificationPostProcessState, wdfdevice/StateNotificationLeaveState, StateNotificationAllStates, WDF_STATE_NOTIFICATION_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -150,15 +150,15 @@ To register for notification of a change in state, the driver can call the follo
 
 ## -see-also
 
+<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_policy_notification_data.md">WDF_DEVICE_POWER_POLICY_NOTIFICATION_DATA</a>
+
+
+
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
 
 
 
 <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_pnp_notification_data.md">WDF_DEVICE_PNP_NOTIFICATION_DATA</a>
-
-
-
-<a href="..\wdfdevice\ns-wdfdevice-_wdf_device_power_notification_data.md">WDF_DEVICE_POWER_NOTIFICATION_DATA</a>
 
 
 

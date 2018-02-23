@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 1e85357d-9fe2-406b-bc1a-69e4357a0f8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisUpdateOffload function [Network Drivers Starting with Windows Vista], NdisUpdateOffload, netvista.ndisupdateoffload, ndischimney/NdisUpdateOffload, tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml
+ms.keywords: tcp_chim_ndis_func_e33474cc-f963-48b8-8122-14f78bceb38f.xml, NdisUpdateOffload, netvista.ndisupdateoffload, ndischimney/NdisUpdateOffload, NdisUpdateOffload function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,7 +125,8 @@ From the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
+   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
 
 
 
@@ -138,12 +139,12 @@ From the
 
 
 
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
+
+
+
 <a href="..\ndischimney\nc-ndischimney-update_offload_complete_handler.md">
    ProtocolUpdateOffloadComplete</a>
-
-
-
-<a href="..\ndischimney\nf-ndischimney-ndismupdateoffloadcomplete.md">NdisMUpdateOffloadComplete</a>
 
 
 

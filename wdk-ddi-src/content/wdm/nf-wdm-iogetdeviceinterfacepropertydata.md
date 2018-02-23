@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 01113C73-2C79-40F2-9B13-B864148D2C9A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iogetdeviceinterfacepropertydata, wdm/IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], IoGetDeviceInterfacePropertyData
+ms.keywords: wdm/IoGetDeviceInterfacePropertyData, IoGetDeviceInterfacePropertyData routine [Kernel-Mode Driver Architecture], IoGetDeviceInterfacePropertyData, kernel.iogetdeviceinterfacepropertydata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -184,11 +184,11 @@ Callers of <b>IoGetDeviceInterfacePropertyData</b> must be running at IRQL = PAS
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/dn315031">DEVPROPKEY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543546">DEVPROPTYPE</a>
 
 
 

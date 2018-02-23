@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-protected-resource-session-support-data-0030.htm
 old-project: display
 ms.assetid: 7e8b824b-b6a6-486a-abb7-545d5156a94a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030 structure [Display Devices], display.d3d12ddi-protected-resource-session-support-data-0030, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030
+ms.date: 2/22/2018
+ms.keywords: D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030, d3d12umddi/D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030, display.d3d12ddi-protected-resource-session-support-data-0030, D3D12DDI_PROTECTED_RESOURCE_SESSION_SUPPORT_DATA_0030 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

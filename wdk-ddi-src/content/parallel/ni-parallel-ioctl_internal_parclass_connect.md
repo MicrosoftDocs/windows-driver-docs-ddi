@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_PARCLASS_CONNECT
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_PARCLASS_CONNECT IOCTL
@@ -118,11 +118,11 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_parclass_disconnect.md">IOCTL_INTERNAL_PARCLASS_DISCONNECT</a>
-
-
-
 <a href="..\parallel\ns-parallel-_parclass_information.md">PARCLASS_INFORMATION</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_parclass_disconnect.md">IOCTL_INTERNAL_PARCLASS_DISCONNECT</a>
 
 
 

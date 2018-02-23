@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7453EEB1-F974-4AEB-93C4-A75A79E1FE19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltPropagateActivityIdToThread routine [Installable File System Drivers], FltPropagateActivityIdToThread, ifsk.fltpropagateactivityidtothread, fltkernel/FltPropagateActivityIdToThread
+ms.keywords: fltkernel/FltPropagateActivityIdToThread, FltPropagateActivityIdToThread routine [Installable File System Drivers], ifsk.fltpropagateactivityidtothread, FltPropagateActivityIdToThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

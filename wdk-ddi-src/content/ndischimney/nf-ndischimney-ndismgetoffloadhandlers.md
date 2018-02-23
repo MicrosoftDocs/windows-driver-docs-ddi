@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a78acf5d-07ec-487c-97bd-daca8d08863c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndischimney/NdisMGetOffloadHandlers, tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], netvista.ndismgetoffloadhandlers, NdisMGetOffloadHandlers
+ms.keywords: NdisMGetOffloadHandlers, NdisMGetOffloadHandlers function [Network Drivers Starting with Windows Vista], ndischimney/NdisMGetOffloadHandlers, tcp_chim_ndis_func_6cfee4fb-432c-4f03-b28d-947dbc95ae48.xml, netvista.ndismgetoffloadhandlers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -239,6 +239,10 @@ The offload target copies the entry points from the chimney-specific structure i
 
 ## -see-also
 
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
@@ -249,10 +253,6 @@ The offload target copies the entry points from the chimney-specific structure i
 
 
 <a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 

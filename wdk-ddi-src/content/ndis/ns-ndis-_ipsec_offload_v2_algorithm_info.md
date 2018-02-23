@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 787e5a98-ba77-42d4-8624-abcc02fccf53
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_IPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, netvista.ipsec_offload_v2_algorithm_info, ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml, ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO"
+ms.keywords: ndis/IPSEC_OFFLOAD_V2_ALGORITHM_INFO, _IPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, PIPSEC_OFFLOAD_V2_ALGORITHM_INFO structure pointer [Network Drivers Starting with Windows Vista], ndis/PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, IPSEC_OFFLOAD_V2_ALGORITHM_INFO structure [Network Drivers Starting with Windows Vista], IPSEC_OFFLOAD_V2_ALGORITHM_INFO, *PIPSEC_OFFLOAD_V2_ALGORITHM_INFO, task_offload_IPsecv2_ref_72dc6155-8044-4b56-b7c7-0587bf82889d.xml, netvista.ipsec_offload_v2_algorithm_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 76509992-E5A7-4C2F-84D3-B3FD06ACEFE1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PullNone, pepfx/GPIO_PIN_CONFIG_TYPE, PullDefault, GPIO_PIN_CONFIG_TYPE, pepfx/PullDefault, pepfx/PullUp, kernel.gpio_pin_config_type, PullNone, pepfx/PullDown, PullUp, _GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullDown
+ms.keywords: GPIO_PIN_CONFIG_TYPE, PullDown, pepfx/PullUp, PullDefault, pepfx/PullDefault, pepfx/PullDown, pepfx/PullNone, kernel.gpio_pin_config_type, pepfx/GPIO_PIN_CONFIG_TYPE, PullUp, _GPIO_PIN_CONFIG_TYPE, GPIO_PIN_CONFIG_TYPE enumeration [Kernel-Mode Driver Architecture], PullNone
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

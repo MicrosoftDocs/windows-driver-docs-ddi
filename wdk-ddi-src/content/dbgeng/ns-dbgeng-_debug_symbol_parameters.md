@@ -4,11 +4,11 @@ title: "_DEBUG_SYMBOL_PARAMETERS"
 author: windows-driver-content
 description: The DEBUG_SYMBOL_PARAMETERS structure describes a symbol in a symbol group.
 old-location: debugger\debug_symbol_parameters.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: c73ea2b0-e87a-4fb1-9164-ff14d43f1426
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/DEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS, *PDEBUG_SYMBOL_PARAMETERS, dbgeng/PDEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS, DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], debugger.debug_symbol_parameters, _DEBUG_SYMBOL_PARAMETERS, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging], Structures_d79dd552-1acf-4023-99e0-418639a54782.xml
+ms.date: 2/22/2018
+ms.keywords: DEBUG_SYMBOL_PARAMETERS, Structures_d79dd552-1acf-4023-99e0-418639a54782.xml, DEBUG_SYMBOL_PARAMETERS structure [Windows Debugging], PDEBUG_SYMBOL_PARAMETERS, dbgeng/PDEBUG_SYMBOL_PARAMETERS, *PDEBUG_SYMBOL_PARAMETERS, dbgeng/DEBUG_SYMBOL_PARAMETERS, _DEBUG_SYMBOL_PARAMETERS, debugger.debug_symbol_parameters, PDEBUG_SYMBOL_PARAMETERS structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

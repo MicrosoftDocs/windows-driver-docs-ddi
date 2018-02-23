@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c06cb000-837d-4ee9-baa1-0217ad8b14cb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoAllocateMdl, kernel.ioallocatemdl, wdm/IoAllocateMdl, k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, IoAllocateMdl routine [Kernel-Mode Driver Architecture]
+ms.keywords: k104_8f4336cd-03b0-4ca2-9538-182970594ba3.xml, wdm/IoAllocateMdl, kernel.ioallocatemdl, IoAllocateMdl routine [Kernel-Mode Driver Architecture], IoAllocateMdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

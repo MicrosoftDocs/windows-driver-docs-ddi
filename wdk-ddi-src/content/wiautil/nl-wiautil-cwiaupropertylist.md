@@ -4,10 +4,10 @@ title: CWiauPropertyList
 author: windows-driver-content
 description: The CWiauPropertyList class can be used to create and maintain a list of properties for a device.
 old-location: image\cwiaupropertylist_class.htm
-old-project: Image
+old-project: image
 ms.assetid: 4f11bec0-8ff4-4fa0-824c-71ce9774d5d1
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: image.cwiaupropertylist_class, CWiauPropertyList class [Imaging Devices], CWiauPropertyList class [Imaging Devices], described, CWiauPropertyList, wiautil/CWiauPropertyList, wiauFncs_b6021ff9-9843-4f31-b2c1-aff36af0cbc6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

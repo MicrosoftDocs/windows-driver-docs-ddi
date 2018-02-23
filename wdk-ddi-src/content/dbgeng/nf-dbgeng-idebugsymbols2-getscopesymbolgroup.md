@@ -4,11 +4,11 @@ title: IDebugSymbols2::GetScopeSymbolGroup method
 author: windows-driver-content
 description: The GetScopeSymbolGroup method returns a symbol group containing the symbols in the current target's scope.
 old-location: debugger\getscopesymbolgroup.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 002af3f1-4879-40e9-a5c6-bf62a3b26e02
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: dbgeng/IDebugSymbols3::GetScopeSymbolGroup, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, IDebugSymbols3::GetScopeSymbolGroup, GetScopeSymbolGroup, IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2, debugger.getscopesymbolgroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols, IDebugSymbols2::GetScopeSymbolGroup, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method
+ms.date: 2/22/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging], GetScopeSymbolGroup method, debugger.getscopesymbolgroup, IDebugSymbols2 interface [Windows Debugging], GetScopeSymbolGroup method, dbgeng/IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols3::GetScopeSymbolGroup, IDebugSymbols2, IDebugSymbols::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols interface, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::GetScopeSymbolGroup, dbgeng/IDebugSymbols::GetScopeSymbolGroup, IDebugSymbols_a51f6be3-09dc-48a4-ae45-149fea6bfb1b.xml, GetScopeSymbolGroup, IDebugSymbols3 interface [Windows Debugging], GetScopeSymbolGroup method, dbgeng/IDebugSymbols2::GetScopeSymbolGroup, GetScopeSymbolGroup method [Windows Debugging], IDebugSymbols3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -156,6 +156,10 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
@@ -164,21 +168,17 @@ For more information about scopes and symbol groups, see <a href="https://msdn.m
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff548270">GetScope</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetScopeSymbolGroup method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetScopeSymbolGroup method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a714dffd-ca88-40cf-95ef-cf15384e0c02
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.iwdfioqueue_purgesynchronously, IWDFIoQueue interface, PurgeSynchronously method, PurgeSynchronously method, IWDFIoQueue interface, IWDFIoQueue, PurgeSynchronously, IWDFIoQueue::PurgeSynchronously, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, PurgeSynchronously method, umdf.iwdfioqueue_purgesynchronously, wudfddi/IWDFIoQueue::PurgeSynchronously
+ms.keywords: wudfddi/IWDFIoQueue::PurgeSynchronously, IWDFIoQueue::PurgeSynchronously, PurgeSynchronously method, UMDFQueueObjectRef_c146c969-5b34-4aa0-af8e-9edec10f4c46.xml, wdf.iwdfioqueue_purgesynchronously, PurgeSynchronously method, IWDFIoQueue interface, IWDFIoQueue interface, PurgeSynchronously method, IWDFIoQueue, umdf.iwdfioqueue_purgesynchronously, PurgeSynchronously
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,7 +92,7 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
 
 
 
@@ -100,7 +100,7 @@ The <b>PurgeSynchronously</b> method is a synchronous version of the <a href="ht
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558962">IWDFIoQueue::Purge</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556903">IRequestCallbackCancel::OnCancel</a>
 
 
 

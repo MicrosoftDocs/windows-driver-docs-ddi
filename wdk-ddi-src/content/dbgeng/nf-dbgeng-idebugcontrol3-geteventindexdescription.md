@@ -4,11 +4,11 @@ title: IDebugControl3::GetEventIndexDescription method
 author: windows-driver-content
 description: The GetEventIndexDescription method describes the specified event in a static list of events for the current target.
 old-location: debugger\geteventindexdescription.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 75aace9d-3f1e-4002-82e6-d581903da4f9
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl3, GetEventIndexDescription, dbgeng/IDebugControl3::GetEventIndexDescription, IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method, IDebugControl3::GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, debugger.geteventindexdescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, GetEventIndexDescription method [Windows Debugging]
+ms.date: 2/22/2018
+ms.keywords: GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetEventIndexDescription method, IDebugControl3, dbgeng/IDebugControl3::GetEventIndexDescription, GetEventIndexDescription method [Windows Debugging], IDebugControl3 interface, debugger.geteventindexdescription, IDebugControl3::GetEventIndexDescription, IDebugControl_53afcbab-2b43-4b99-9b87-050fce6d495b.xml, GetEventIndexDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -135,10 +135,6 @@ The amount of descriptive information available for a particular target varies d
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547906">GetNumberEvents</a>
 
 
@@ -147,9 +143,13 @@ The amount of descriptive information available for a particular target varies d
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545755">GetCurrentEventIndex</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl3::GetEventIndexDescription method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl3::GetEventIndexDescription method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

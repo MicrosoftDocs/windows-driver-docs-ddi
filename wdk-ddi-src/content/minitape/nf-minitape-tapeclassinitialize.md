@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c70ca5-2caf-4758-99bb-221af0a79211
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.tapeclassinitialize, TapeClassInitialize, minitape/TapeClassInitialize, TapeClassInitialize routine [Storage Devices], tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml
+ms.keywords: storage.tapeclassinitialize, minitape/TapeClassInitialize, TapeClassInitialize routine [Storage Devices], TapeClassInitialize, tapeclas_92bf66d9-2a7b-4853-ad25-b6f854533a4e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	TapeClassInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
+req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # TapeClassInitialize function
@@ -109,11 +109,11 @@ A tape miniclass driver allocates a TAPE_INIT_DATA_EX structure on the stack, cl
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff552656">DriverEntry of Tape Miniclass Driver</a>
+
+
+
+<a href="..\minitape\ns-minitape-_tape_init_data_ex.md">TAPE_INIT_DATA_EX</a>
 
 
 

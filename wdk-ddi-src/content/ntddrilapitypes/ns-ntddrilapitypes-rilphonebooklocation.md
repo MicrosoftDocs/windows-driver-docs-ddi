@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a4d47312-87e2-4147-94f6-ff9c9d452211
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilphonebooklocation, ntddrilapitypes/RILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION structure [Network Drivers Starting with Windows Vista], RILPHONEBOOKLOCATION, *LPRILPHONEBOOKLOCATION
+ms.keywords: ntddrilapitypes/RILPHONEBOOKLOCATION, netvista.rilphonebooklocation, *LPRILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION, RILPHONEBOOKLOCATION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

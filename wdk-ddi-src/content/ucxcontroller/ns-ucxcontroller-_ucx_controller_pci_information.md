@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 178C9423-D7C9-43FD-BC80-A675383BDE9B
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION, _UCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses], P_UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
+ms.keywords: UCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION structure [Buses], P_UCX_CONTROLLER_PCI_INFORMATION structure pointer [Buses], _UCX_CONTROLLER_PCI_INFORMATION, ucxcontroller/P_UCX_CONTROLLER_PCI_INFORMATION, P_UCX_CONTROLLER_PCI_INFORMATION, buses._ucx_controller_pci_information, ucxcontroller/_UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UCX_CONTROLLER_PCI_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUCX_CONTROLLER_PCI_INFORMATION, UCX_CONTROLLER_PCI_INFORMATION"
+req.typenames: UCX_CONTROLLER_PCI_INFORMATION, *PUCX_CONTROLLER_PCI_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -105,15 +105,15 @@ Specifies the specific function on the device that is located in the logical PCI
 
 ## -see-also
 
+<a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_pci_info.md">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
+
+
+
 <a href="..\ucxcontroller\ne-ucxcontroller-_ucx_controller_parent_bus_type.md">UCX_CONTROLLER_PARENT_BUS_TYPE</a>
 
 
 
 <a href="..\ucxcontroller\ns-ucxcontroller-_ucx_controller_config.md">UCX_CONTROLLER_CONFIG</a>
-
-
-
-<a href="..\ucxcontroller\nf-ucxcontroller-ucx_controller_config_set_pci_info.md">UCX_CONTROLLER_CONFIG_SET_PCI_INFO</a>
 
 
 

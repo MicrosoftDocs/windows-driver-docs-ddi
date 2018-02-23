@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 654892eb-96eb-49e4-be1e-d5144b146903
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_HBAScsiID, HBAScsiID structure [Storage Devices], hbapiwmi/PHBAScsiID, HBAScsiID, PHBAScsiID, hbapiwmi/HBAScsiID, storage.hbascsiid, structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml, *PHBAScsiID, PHBAScsiID structure pointer [Storage Devices]"
+ms.keywords: storage.hbascsiid, HBAScsiID structure [Storage Devices], _HBAScsiID, PHBAScsiID structure pointer [Storage Devices], HBAScsiID, hbapiwmi/HBAScsiID, PHBAScsiID, *PHBAScsiID, hbapiwmi/PHBAScsiID, structs-Fibre_11630d2e-f0a6-451d-a0e6-9f3986c0a3f7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAScsiID
 product: Windows
 targetos: Windows
-req.typenames: "*PHBAScsiID, HBAScsiID"
+req.typenames: HBAScsiID, *PHBAScsiID
 ---
 
 # _HBAScsiID structure

@@ -7,8 +7,8 @@ old-location: display\dxva_encryptprotocolheader.htm
 old-project: display
 ms.assetid: 924da940-f609-4302-b454-87243200808e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: LPDXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml, display.dxva_encryptprotocolheader, DXVA_EncryptProtocolHeader, _DXVA_EncryptProtocolHeader, dxva/DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], dxva/LPDXVA_EncryptProtocolHeader
+ms.date: 2/22/2018
+ms.keywords: LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader, dxva/LPDXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader, _DXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader structure [Display Devices], dxva/DXVA_EncryptProtocolHeader, display.dxva_encryptprotocolheader, LPDXVA_EncryptProtocolHeader structure pointer [Display Devices], dxvaref_19bd4a66-c03f-44c3-98b6-875da968fa50.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_EncryptProtocolHeader
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_EncryptProtocolHeader, DXVA_EncryptProtocolHeader"
+req.typenames: DXVA_EncryptProtocolHeader, *LPDXVA_EncryptProtocolHeader
 ---
 
 # _DXVA_EncryptProtocolHeader structure

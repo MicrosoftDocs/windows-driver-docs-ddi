@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7a9cdc0d-0275-4ef9-a570-8788f77099af
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.mountmgr_target_name, mountmgr/PMOUNTMGR_TARGET_NAME, MOUNTMGR_TARGET_NAME structure [Storage Devices], PMOUNTMGR_TARGET_NAME, structs-mntmgr_abcf0a10-ecbb-433e-9848-c2d5065ca1ac.xml, _MOUNTMGR_TARGET_NAME, mountmgr/MOUNTMGR_TARGET_NAME, *PMOUNTMGR_TARGET_NAME, PMOUNTMGR_TARGET_NAME structure pointer [Storage Devices], MOUNTMGR_TARGET_NAME
+ms.keywords: MOUNTMGR_TARGET_NAME, PMOUNTMGR_TARGET_NAME structure pointer [Storage Devices], MOUNTMGR_TARGET_NAME structure [Storage Devices], mountmgr/PMOUNTMGR_TARGET_NAME, mountmgr/MOUNTMGR_TARGET_NAME, PMOUNTMGR_TARGET_NAME, structs-mntmgr_abcf0a10-ecbb-433e-9848-c2d5065ca1ac.xml, _MOUNTMGR_TARGET_NAME, storage.mountmgr_target_name, *PMOUNTMGR_TARGET_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

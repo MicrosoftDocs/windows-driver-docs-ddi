@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: e3ffbf18-151b-42da-8fc1-ae07c152738c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], kernel.clfsreserveandappendlog, ClfsReserveAndAppendLog, wdm/ClfsReserveAndAppendLog, Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml
+ms.keywords: Clfs_4378f8c9-0765-48af-9309-2bc0a1af1da5.xml, ClfsReserveAndAppendLog, wdm/ClfsReserveAndAppendLog, ClfsReserveAndAppendLog routine [Kernel-Mode Driver Architecture], kernel.clfsreserveandappendlog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -270,15 +270,15 @@ For an explanation of CLFS concepts and terminology, see <a href="https://msdn.m
 
 
 
+<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
+
+
+
 <a href="..\wdm\nf-wdm-clfscreatemarshallingarea.md">ClfsCreateMarshallingArea</a>
 
 
 
 <a href="..\wdm\nf-wdm-clfsreserveandappendlogaligned.md">ClfsReserveAndAppendLogAligned</a>
-
-
-
-<a href="..\wdm\ns-wdm-_cls_lsn.md">CLFS_LSN</a>
 
 
 

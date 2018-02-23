@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe5e1f75-ebd0-4856-bb77-14efb52fbce0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSetGroupPresharedKey_IN, SetGroupPresharedKey_IN structure [Storage Devices], *PSetGroupPresharedKey_IN, SetGroupPresharedKey_IN, iscsiop/PSetGroupPresharedKey_IN, iscsiop/SetGroupPresharedKey_IN, _SetGroupPresharedKey_IN, PSetGroupPresharedKey_IN structure pointer [Storage Devices], storage.setgrouppresharedkey_in, structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml
+ms.keywords: PSetGroupPresharedKey_IN structure pointer [Storage Devices], *PSetGroupPresharedKey_IN, SetGroupPresharedKey_IN, storage.setgrouppresharedkey_in, _SetGroupPresharedKey_IN, structs-iSCSI_0109dfff-f30e-4f15-ab25-4a290b2fc2f4.xml, SetGroupPresharedKey_IN structure [Storage Devices], PSetGroupPresharedKey_IN, iscsiop/PSetGroupPresharedKey_IN, iscsiop/SetGroupPresharedKey_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetGroupPresharedKey_IN
 product: Windows
 targetos: Windows
-req.typenames: "*PSetGroupPresharedKey_IN, SetGroupPresharedKey_IN"
+req.typenames: SetGroupPresharedKey_IN, *PSetGroupPresharedKey_IN
 ---
 
 # _SetGroupPresharedKey_IN structure

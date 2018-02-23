@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 72567e37-f37f-43f6-8a3a-3d184cb8de13
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.rilumtsmrl, *LPRILUMTSMRL, RILUMTSMRL structure [Network Drivers Starting with Windows Vista], RILUMTSMRL, rilapitypes/RILUMTSMRL
+ms.keywords: RILUMTSMRL structure [Network Drivers Starting with Windows Vista], *LPRILUMTSMRL, RILUMTSMRL, rilapitypes/RILUMTSMRL, netvista.rilumtsmrl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -78,7 +78,7 @@ struct RILUMTSMRL {
 
 ### -field dwParams
 
- A bitwise combination of <a href="..\ntddrilapitypes\ne-ntddrilapitypes-rilumtsmrlparammask.md">RILUMTSMRLPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
+ A bitwise combination of <a href="..\rilapitypes\ne-rilapitypes-rilumtsmrlparammask.md">RILUMTSMRLPARAMMASK</a> enumeration values that indicates which members of the structure contain valid data. A member of the structure is valid if the corresponding bit flag is set.
 
 
 ### -field dwMobileCountryCode

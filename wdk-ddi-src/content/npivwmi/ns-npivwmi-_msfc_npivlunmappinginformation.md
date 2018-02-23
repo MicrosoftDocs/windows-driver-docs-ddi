@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5E8A2338-AF1E-41BE-870B-E1F1877DDEDD
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.msfc_npivlunmappinginformation, _MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation structure [Storage Devices], PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], npivwmi/PMSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation, npivwmi/MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation
+ms.keywords: PMSFC_NPIVLUNMappingInformation, *PMSFC_NPIVLUNMappingInformation, npivwmi/MSFC_NPIVLUNMappingInformation, MSFC_NPIVLUNMappingInformation, PMSFC_NPIVLUNMappingInformation structure pointer [Storage Devices], MSFC_NPIVLUNMappingInformation structure [Storage Devices], _MSFC_NPIVLUNMappingInformation, storage.msfc_npivlunmappinginformation, npivwmi/PMSFC_NPIVLUNMappingInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

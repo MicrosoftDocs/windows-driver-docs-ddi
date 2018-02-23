@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: dd981cc1-ab82-49de-8cf1-ba2b7451c7ef
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, ntddcdvd/PDVD_LAYER_DESCRIPTOR, storage.dvd_layer_descriptor, PDVD_LAYER_DESCRIPTOR, *PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices], ntddcdvd/DVD_LAYER_DESCRIPTOR, _DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices]
+ms.keywords: ntddcdvd/PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR, DVD_LAYER_DESCRIPTOR structure [Storage Devices], ntddcdvd/DVD_LAYER_DESCRIPTOR, _DVD_LAYER_DESCRIPTOR, structs-DVD_94f08da1-fe98-47cd-989a-b3f574874d6b.xml, storage.dvd_layer_descriptor, *PDVD_LAYER_DESCRIPTOR, PDVD_LAYER_DESCRIPTOR structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cdea67aa-14fa-45c1-8af0-8db48042b1b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml, storage.storportbuildscattergatherlist, StorPortBuildScatterGatherList routine [Storage Devices], storport/StorPortBuildScatterGatherList
+ms.keywords: storage.storportbuildscattergatherlist, StorPortBuildScatterGatherList, StorPortBuildScatterGatherList routine [Storage Devices], storport/StorPortBuildScatterGatherList, storprt_ed0a920c-d8f4-44f2-a262-5a74470ec67a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -271,11 +271,11 @@ The miniport driver must call <a href="..\storport\nf-storport-storportputscatte
 
 
 
-<a href="..\storport\ns-storport-_stor_scatter_gather_list.md">STOR_SCATTER_GATHER_LIST</a>
-
-
-
 <a href="..\storport\nf-storport-storportallocatepool.md">StorPortAllocatePool</a>
+
+
+
+<a href="..\storport\nf-storport-storportputscattergatherlist.md">StorPortPutScatterGatherList</a>
 
 
 

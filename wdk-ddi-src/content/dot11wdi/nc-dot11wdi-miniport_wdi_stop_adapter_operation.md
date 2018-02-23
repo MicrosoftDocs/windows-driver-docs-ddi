@@ -40,7 +40,7 @@ apiname:
 -	(*MINIPORT_WDI_STOP_OPERATION_HANDLER)
 product: Windows
 targetos: Windows
-req.typenames: "*PSYNTH_STATS, SYNTH_STATS"
+req.typenames: SYNTH_STATS, *PSYNTH_STATS
 ---
 
 # MINIPORT_WDI_STOP_ADAPTER_OPERATION callback
@@ -96,8 +96,6 @@ This callback function does not return a value.
 
 
 <a href="..\dot11wdi\nc-dot11wdi-miniport_wdi_start_adapter_operation.md">MiniportWdiStartOperation</a>
-
-
 
 
 

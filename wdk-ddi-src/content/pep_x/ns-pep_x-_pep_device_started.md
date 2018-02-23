@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 02A30A9F-A27D-492E-8FB3-D8CB34D51D5A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_PEP_DEVICE_STARTED, pepfx/PPEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED structure [Kernel-Mode Driver Architecture], pepfx/PEP_DEVICE_STARTED, kernel.pep_device_started, PPEP_DEVICE_STARTED structure pointer [Kernel-Mode Driver Architecture], PEP_DEVICE_STARTED, PPEP_DEVICE_STARTED"
+ms.keywords: PPEP_DEVICE_STARTED structure pointer [Kernel-Mode Driver Architecture], kernel.pep_device_started, pepfx/PPEP_DEVICE_STARTED, _PEP_DEVICE_STARTED, pepfx/PEP_DEVICE_STARTED, PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, PEP_DEVICE_STARTED structure [Kernel-Mode Driver Architecture], *PPEP_DEVICE_STARTED
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_DEVICE_STARTED
 product: Windows
 targetos: Windows
-req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED
+req.typenames: PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED, PEP_DEVICE_STARTED, *PPEP_DEVICE_STARTED
 ---
 
 # _PEP_DEVICE_STARTED structure

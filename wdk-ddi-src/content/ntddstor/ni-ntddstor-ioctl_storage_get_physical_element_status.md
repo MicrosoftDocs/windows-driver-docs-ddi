@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PSTORAGE_ZONE_CONDITION, STORAGE_ZONE_CONDITION"
+req.typenames: STORAGE_ZONE_CONDITION, *PSTORAGE_ZONE_CONDITION
 ---
 
 # IOCTL_STORAGE_GET_PHYSICAL_ELEMENT_STATUS IOCTL
@@ -159,7 +159,7 @@ To perform this operation, call the <a href="https://msdn.microsoft.com/1d35c087
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/1d35c087-6672-4fc6-baa1-a886dd9d3878">DeviceIoControl</a>
+<a href="https://msdn.microsoft.com/A0876712-4D9B-4A97-8E94-AA570A71C53D">PHYSICAL_ELEMENT_STATUS_REQUEST</a>
 
 
 

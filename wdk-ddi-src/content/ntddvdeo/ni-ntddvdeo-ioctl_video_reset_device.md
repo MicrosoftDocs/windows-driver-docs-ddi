@@ -7,7 +7,7 @@ old-location: display\ioctl_video_reset_device.htm
 old-project: display
 ms.assetid: 98746cae-aed1-4cf4-86d2-eb7cc91e45fc
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.ioctl_video_reset_device, IOCTL_VIDEO_RESET_DEVICE control code [Display Devices], IOCTL_VIDEO_RESET_DEVICE, ntddvdeo/IOCTL_VIDEO_RESET_DEVICE, Video_IOCTLs_18bd8312-fd29-4e9c-bd8b-83c5f0e84fbf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d3c068dd-d09c-4b3a-be96-c1c55b3ebfe4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfPdoInitSetDefaultLocale method, DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, kmdf.wdfpdoinitsetdefaultlocale, wdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale, WdfPdoInitSetDefaultLocale
+ms.keywords: wdf.wdfpdoinitsetdefaultlocale, DFDeviceObjectFdoPdoRef_12f9db03-8d4b-4ce4-9cde-0081884c6b9c.xml, WdfPdoInitSetDefaultLocale method, WdfPdoInitSetDefaultLocale, kmdf.wdfpdoinitsetdefaultlocale, wdfpdo/WdfPdoInitSetDefaultLocale
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfPdoInitSetDefaultLocale
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_OBJECT_CONTEXT_TYPE_INFO, WDF_OBJECT_CONTEXT_TYPE_INFO"
+req.typenames: WDF_OBJECT_CONTEXT_TYPE_INFO, *PWDF_OBJECT_CONTEXT_TYPE_INFO
 req.product: Windows 10 or later.
 ---
 

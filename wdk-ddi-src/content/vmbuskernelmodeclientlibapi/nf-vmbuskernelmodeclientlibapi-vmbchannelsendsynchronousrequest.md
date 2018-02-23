@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 312DED8E-570E-4DEC-B084-36894970F49F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest, netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest
+ms.keywords: netvista.vmbchannelsendsynchronousrequest, VmbChannelSendSynchronousRequest, vmbuskernelmodeclientlibapi/VmbChannelSendSynchronousRequest, VmbChannelSendSynchronousRequest function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

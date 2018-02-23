@@ -7,8 +7,8 @@ old-location: stream\tuner_analog_caps_s.htm
 old-project: stream
 ms.assetid: 350ec4b2-a96a-420a-bb52-d09cc8c5029e
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], ksmedia/PTUNER_ANALOG_CAPS_S, vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml, stream.tuner_analog_caps_s, PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], TUNER_ANALOG_CAPS_S, ksmedia/TUNER_ANALOG_CAPS_S, *PTUNER_ANALOG_CAPS_S, PTUNER_ANALOG_CAPS_S
+ms.date: 2/22/2018
+ms.keywords: TUNER_ANALOG_CAPS_S, ksmedia/PTUNER_ANALOG_CAPS_S, ksmedia/TUNER_ANALOG_CAPS_S, stream.tuner_analog_caps_s, TUNER_ANALOG_CAPS_S structure [Streaming Media Devices], PTUNER_ANALOG_CAPS_S structure pointer [Streaming Media Devices], PTUNER_ANALOG_CAPS_S, *PTUNER_ANALOG_CAPS_S, vidcapstruct_47de7e8b-b88a-4ae7-87eb-ed9fa008eccb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -176,18 +176,6 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_status_s.md">KSPROPERTY_TUNER_SCAN_STATUS_S</a>
-
-
-
 <a href="..\ksmedia\ne-ksmedia-ks_analogvideostandard.md">KS_AnalogVideoStandard</a>
 
 
@@ -196,9 +184,21 @@ The range that the tuning device provides and that the tuner filter uses to dete
 
 
 
- 
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_status_s.md">KSPROPERTY_TUNER_SCAN_STATUS_S</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565893">KSPROPERTY_TUNER_SCAN_STATUS</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_scan_caps_s.md">KSPROPERTY_TUNER_SCAN_CAPS_S</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20TUNER_ANALOG_CAPS_S structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20TUNER_ANALOG_CAPS_S structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

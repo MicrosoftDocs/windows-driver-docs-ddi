@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 1F2C2B8E-6535-40F1-A5D3-46DAD43E923E
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: CMP_CONNECT_VER3 structure [Buses], *PCMP_CONNECT_VER3, PCMP_CONNECT_VER3 structure pointer [Buses], *PCMP_CONNECT, IEEE.cmp_connect_ver3, 61883/PCMP_CONNECT_VER3, CMP_CONNECT_VER3, PCMP_CONNECT_VER3, _CMP_CONNECT_VER3, 61883/CMP_CONNECT_VER3, CMP_CONNECT
+ms.keywords: "_CMP_CONNECT_VER3, CMP_CONNECT_VER3, 61883/CMP_CONNECT_VER3, CMP_CONNECT_VER3 structure [Buses], IEEE.cmp_connect_ver3, PCMP_CONNECT_VER3, *PCMP_CONNECT, 61883/PCMP_CONNECT_VER3, CMP_CONNECT, PCMP_CONNECT_VER3 structure pointer [Buses], *PCMP_CONNECT_VER3"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CMP_CONNECT_VER3
 product: Windows
 targetos: Windows
-req.typenames: "*PCMP_CONNECT_VER3, CMP_CONNECT_VER3"
+req.typenames: CMP_CONNECT_VER3, *PCMP_CONNECT_VER3
 ---
 
 # _CMP_CONNECT_VER3 structure

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: eba881f8-e946-44a8-9624-37f63471fb65
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml, netvista.ndisiffreenetluidindex
+ms.keywords: NdisIfFreeNetLuidIndex, ndis/NdisIfFreeNetLuidIndex, netvista.ndisiffreenetluidindex, NdisIfFreeNetLuidIndex function [Network Drivers Starting with Windows Vista], net_if_functions_ref_040908da-c299-4265-9639-f2e65776f26b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIfFreeNetLuidIndex
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfFreeNetLuidIndex function

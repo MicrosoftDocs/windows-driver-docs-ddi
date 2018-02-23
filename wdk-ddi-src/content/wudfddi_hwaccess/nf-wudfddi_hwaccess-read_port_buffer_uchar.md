@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: CDA0A86B-94E7-4825-9826-0E12ECF42B57
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR, wdf.read_port_buffer_uchar, umdf.read_port_buffer_uchar, READ_PORT_BUFFER_UCHAR function, READ_PORT_BUFFER_UCHAR
+ms.keywords: READ_PORT_BUFFER_UCHAR function, wudfddi_hwaccess/READ_PORT_BUFFER_UCHAR, wdf.read_port_buffer_uchar, READ_PORT_BUFFER_UCHAR, umdf.read_port_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_PORT_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: "*PUMDF_IO_TARGET_OPEN_PARAMS, UMDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: UMDF_IO_TARGET_OPEN_PARAMS, *PUMDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 

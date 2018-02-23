@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: adcc5f64-b49c-47ca-8ef9-276537a0d7c6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfPnpCapMaximum, wudfddi_types/WdfPnpCapRemovable, WDF_PNP_CAPABILITY, wudfddi_types/WdfPnpCapEjectSupported, WdfPnpCapNoDisplayInUI, WdfPnpCapEjectSupported, WdfPnpCapRemovable, wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WDF_PNP_CAPABILITY, wdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapLockSupported, WdfPnpCapDockDevice, WDF_PNP_CAPABILITY enumeration, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapMaximum, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, WdfPnpCapInvalid, _WDF_PNP_CAPABILITY, umdf.wdf_pnp_capability, wudfddi_types/WdfPnpCapSurpriseRemovalOk, WdfPnpCapLockSupported, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapInvalid
+ms.keywords: wudfddi_types/WdfPnpCapSurpriseRemovalOk, WDF_PNP_CAPABILITY enumeration, wudfddi_types/WdfPnpCapEjectSupported, wudfddi_types/WdfPnpCapNoDisplayInUI, wudfddi_types/WdfPnpCapMaximum, wdf.wdf_pnp_capability, WdfPnpCapNoDisplayInUI, WdfPnpCapEjectSupported, WdfPnpCapMaximum, wudfddi_types/WdfPnpCapLockSupported, wudfddi_types/WdfPnpCapInvalid, WdfPnpCapDockDevice, WDF_PNP_CAPABILITY, WdfPnpCapSurpriseRemovalOk, wudfddi_types/WdfPnpCapDockDevice, wudfddi_types/WdfPnpCapRemovable, WdfPnpCapRemovable, umdf.wdf_pnp_capability, wudfddi_types/WDF_PNP_CAPABILITY, umdfstructs_365aedf9-fb60-49db-8925-bc6cf0d9a9d6.xml, _WDF_PNP_CAPABILITY, WdfPnpCapLockSupported, WdfPnpCapInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -128,11 +128,11 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_CAPABILITY</b> to the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556974">IWDFDeviceInitialize::GetPnpCapability</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556993">IWDFDeviceInitialize::SetPnpCapability</a>
 
 
 

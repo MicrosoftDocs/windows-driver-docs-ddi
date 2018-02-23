@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: aaa10cb2-16cb-40a8-ad72-9715da311957
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits, IoGetStackLimits, wdm/IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture]
+ms.keywords: wdm/IoGetStackLimits, IoGetStackLimits, IoGetStackLimits routine [Kernel-Mode Driver Architecture], k104_2688546a-d427-4d20-bc67-278b0fc20f45.xml, kernel.iogetstacklimits
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,11 +101,11 @@ In Windows Server 2003 Service Pack 1 (SP1) and later versions of Windows, calle
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-
-
-
 <a href="..\wdm\nf-wdm-iogetinitialstack.md">IoGetInitialStack</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
 
 
 

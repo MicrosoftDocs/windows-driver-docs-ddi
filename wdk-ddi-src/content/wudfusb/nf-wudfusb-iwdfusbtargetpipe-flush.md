@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: d8e5cbf7-62c7-458d-a527-2508a8a5d066
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Flush, wudfusb/IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, IWDFUsbTargetPipe interface, Flush method, Flush method, umdf.iwdfusbtargetpipe_flush, IWDFUsbTargetPipe, Flush method, IWDFUsbTargetPipe interface, wdf.iwdfusbtargetpipe_flush, IWDFUsbTargetPipe::Flush
+ms.keywords: IWDFUsbTargetPipe::Flush, umdf.iwdfusbtargetpipe_flush, IWDFUsbTargetPipe, Flush method, Flush method, IWDFUsbTargetPipe interface, wudfusb/IWDFUsbTargetPipe::Flush, UMDFUSBref_5a569ab8-ccbd-47cc-93a6-8e61f366e6ee.xml, wdf.iwdfusbtargetpipe_flush, Flush, IWDFUsbTargetPipe interface, Flush method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.Flush
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

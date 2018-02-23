@@ -8,7 +8,7 @@ old-project: nfpdrivers
 ms.assetid: FC7566C0-95FD-450C-897E-C57870386512
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "_NFC_CX_HARDWARE_EVENT, nfccx/NFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], *PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], NFC_CX_HARDWARE_EVENT, nfccx/PNFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT, nfpdrivers.nfc_cx_hardware_event"
+ms.keywords: PNFC_CX_HARDWARE_EVENT structure pointer [Near-Field Proximity Drivers], NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT, nfpdrivers.nfc_cx_hardware_event, nfccx/NFC_CX_HARDWARE_EVENT, PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT structure [Near-Field Proximity Drivers], _NFC_CX_HARDWARE_EVENT, nfccx/PNFC_CX_HARDWARE_EVENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NFC_CX_HARDWARE_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PNFC_CX_HARDWARE_EVENT, NFC_CX_HARDWARE_EVENT"
+req.typenames: NFC_CX_HARDWARE_EVENT, *PNFC_CX_HARDWARE_EVENT
 ---
 
 # _NFC_CX_HARDWARE_EVENT structure

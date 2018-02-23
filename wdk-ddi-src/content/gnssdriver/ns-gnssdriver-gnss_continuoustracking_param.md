@@ -7,8 +7,8 @@ old-location: sensors\gnss_continuoustracking_param.htm
 old-project: sensors
 ms.assetid: D69D317C-5B42-4709-87AF-4323DF2EBE2D
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: PGNSS_CONTINUOUSTRACKING_PARAM structure pointer [Sensor Devices], gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM structure [Sensor Devices], PGNSS_CONTINUOUSTRACKING_PARAM, sensors.gnss_continuoustracking_param, gnssdriver/PGNSS_CONTINUOUSTRACKING_PARAM
+ms.date: 2/22/2018
+ms.keywords: PGNSS_CONTINUOUSTRACKING_PARAM structure pointer [Sensor Devices], *PGNSS_CONTINUOUSTRACKING_PARAM, gnssdriver/PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM structure [Sensor Devices], gnssdriver/GNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM, sensors.gnss_continuoustracking_param, PGNSS_CONTINUOUSTRACKING_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_CONTINUOUSTRACKING_PARAM
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_CONTINUOUSTRACKING_PARAM, GNSS_CONTINUOUSTRACKING_PARAM"
+req.typenames: GNSS_CONTINUOUSTRACKING_PARAM, *PGNSS_CONTINUOUSTRACKING_PARAM
 ---
 
 # GNSS_CONTINUOUSTRACKING_PARAM structure

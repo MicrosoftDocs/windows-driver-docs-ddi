@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 319d1d6e-a4a2-4c2c-9c30-948c5f03a2be
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlUnicodeStringInit, RtlUnicodeStringInit, RtlUnicodeStringInit function [Kernel-Mode Driver Architecture], kernel.rtlunicodestringinit, safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml
+ms.keywords: safestrings_7540072b-061a-46be-a2ea-72c4da1790dd.xml, RtlUnicodeStringInit function [Kernel-Mode Driver Architecture], RtlUnicodeStringInit, ntstrsafe/RtlUnicodeStringInit, kernel.rtlunicodestringinit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlUnicodeStringInit
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlUnicodeStringInit function

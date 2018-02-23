@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b7091dea-8a29-4ad3-a478-29bc28fd57ef
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml, StorPortGetVirtualAddress, storage.storportgetvirtualaddress, StorPortGetVirtualAddress routine [Storage Devices], storport/StorPortGetVirtualAddress
+ms.keywords: StorPortGetVirtualAddress routine [Storage Devices], storport/StorPortGetVirtualAddress, StorPortGetVirtualAddress, storprt_5245f704-dce0-4683-8510-064ccbb4158c.xml, storage.storportgetvirtualaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

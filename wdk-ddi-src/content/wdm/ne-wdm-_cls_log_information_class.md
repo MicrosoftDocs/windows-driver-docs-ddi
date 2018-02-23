@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: afffe6c3-a6d1-4e43-ba2b-f64269c44ec0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CLS_LOG_INFORMATION_CLASS, ClfsLogBasicInformationPhysical, wdm/PPCLS_LOG_INFORMATION_CLASS, wdm/ClfsLogStreamIdentifierInformation, wdm/ClfsLogBasicInformationPhysical, PPCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], PPCLFS_LOG_INFORMATION_CLASS, PCLS_LOG_INFORMATION_CLASS, wdm/PPCLFS_LOG_INFORMATION_CLASS, PPCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], CLFS_LOG_INFORMATION_CLASS, ClfsLogPhysicalLsnInformation, _CLS_LOG_INFORMATION_CLASS, ClfsLogPhysicalNameInformation, *PCLFS_LOG_INFORMATION_CLASS, ClfsLogStreamIdentifierInformation, wdm/ClfsLogPhysicalNameInformation, PCLFS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/PCLS_LOG_INFORMATION_CLASS, wdm/ClfsLogSystemMarkingInformation, wdm/CLS_LOG_INFORMATION_CLASS, ClfsLogBasicInformation, wdm/PCLFS_LOG_INFORMATION_CLASS, kernel.clfs_log_information_class, PCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], wdm/ClfsLogBasicInformation, CLS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], *PCLS_LOG_INFORMATION_CLASS, ClfsLogSystemMarkingInformation, wdm/ClfsLogPhysicalLsnInformation, PCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], sysenum_b63b4055-ea69-4955-8684-b42b148a3b7c.xml, wdm/CLFS_LOG_INFORMATION_CLASS
+ms.keywords: wdm/ClfsLogBasicInformation, PCLS_LOG_INFORMATION_CLASS, PCLFS_LOG_INFORMATION_CLASS, *PCLS_LOG_INFORMATION_CLASS, sysenum_b63b4055-ea69-4955-8684-b42b148a3b7c.xml, ClfsLogStreamIdentifierInformation, wdm/ClfsLogStreamIdentifierInformation, ClfsLogPhysicalNameInformation, CLS_LOG_INFORMATION_CLASS, wdm/ClfsLogBasicInformationPhysical, wdm/PCLS_LOG_INFORMATION_CLASS, wdm/CLFS_LOG_INFORMATION_CLASS, kernel.clfs_log_information_class, PCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], _CLS_LOG_INFORMATION_CLASS, *PCLFS_LOG_INFORMATION_CLASS, wdm/PPCLFS_LOG_INFORMATION_CLASS, ClfsLogBasicInformation, CLFS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/CLS_LOG_INFORMATION_CLASS, wdm/PCLFS_LOG_INFORMATION_CLASS, wdm/PPCLS_LOG_INFORMATION_CLASS, CLFS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], CLS_LOG_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/ClfsLogPhysicalLsnInformation, wdm/ClfsLogPhysicalNameInformation, ClfsLogSystemMarkingInformation, PPCLS_LOG_INFORMATION_CLASS, PPCLFS_LOG_INFORMATION_CLASS, ClfsLogPhysicalLsnInformation, PCLS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], ClfsLogBasicInformationPhysical, PPCLFS_LOG_INFORMATION_CLASS enumeration pointer [Kernel-Mode Driver Architecture], wdm/ClfsLogSystemMarkingInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	CLS_LOG_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: CLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS, *PCLS_LOG_INFORMATION_CLASS
+req.typenames: CLS_LOG_INFORMATION_CLASS, *PCLS_LOG_INFORMATION_CLASS, PPCLS_LOG_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

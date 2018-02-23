@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: DC23B286-8A52-4642-B345-D76802C83C55
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._ucxendpointsetwdfioqueue, UcxEndpointSetWdfIoQueue method [Buses], UcxEndpointSetWdfIoQueue
+ms.keywords: buses._ucxendpointsetwdfioqueue, UcxEndpointSetWdfIoQueue, UcxEndpointSetWdfIoQueue method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

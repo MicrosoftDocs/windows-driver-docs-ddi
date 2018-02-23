@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 6FE2962A-90A3-44C6-9A2E-CCEBCE8C1417
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses._usbdevice_startio, USBDEVICE_STARTIO, ucxusbdevice/P_USBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], P_USBDEVICE_STARTIO structure pointer [Buses], *PUSBDEVICE_STARTIO, _USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO, P_USBDEVICE_STARTIO
+ms.keywords: ucxusbdevice/P_USBDEVICE_STARTIO, USBDEVICE_STARTIO structure [Buses], P_USBDEVICE_STARTIO, buses._usbdevice_startio, _USBDEVICE_STARTIO, ucxusbdevice/_USBDEVICE_STARTIO, USBDEVICE_STARTIO, *PUSBDEVICE_STARTIO, P_USBDEVICE_STARTIO structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

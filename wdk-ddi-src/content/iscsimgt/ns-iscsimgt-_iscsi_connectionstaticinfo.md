@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 14d4464e-d4e8-446c-8822-0b16c984313c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml, *PISCSI_ConnectionStaticInfo, iscsimgt/ISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], storage.iscsi_connectionstaticinfo, ISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, _ISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], PISCSI_ConnectionStaticInfo
+ms.keywords: structs-iSCSI_ef0dc102-31e4-466e-b094-d4a6b6a01ce6.xml, ISCSI_ConnectionStaticInfo, PISCSI_ConnectionStaticInfo structure pointer [Storage Devices], *PISCSI_ConnectionStaticInfo, iscsimgt/PISCSI_ConnectionStaticInfo, _ISCSI_ConnectionStaticInfo, storage.iscsi_connectionstaticinfo, ISCSI_ConnectionStaticInfo structure [Storage Devices], PISCSI_ConnectionStaticInfo, iscsimgt/ISCSI_ConnectionStaticInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_ConnectionStaticInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_ConnectionStaticInfo, ISCSI_ConnectionStaticInfo"
+req.typenames: ISCSI_ConnectionStaticInfo, *PISCSI_ConnectionStaticInfo
 ---
 
 # _ISCSI_ConnectionStaticInfo structure
@@ -252,7 +252,7 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
+<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
 
 
 
@@ -260,15 +260,15 @@ The maximum size, in bytes, of the datagram that the transport supports.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
-
-
-
-<a href="..\iscsidef\ne-iscsidef-piscsi_auth_types.md">ISCSI_AUTH_TYPES</a>
+<a href="..\iscsidef\ns-iscsidef-_iscsi_ip_address.md">ISCSI_IP_Address</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff561490">ISCSI_ConnectionStaticInfo WMI Class</a>
 
 
 

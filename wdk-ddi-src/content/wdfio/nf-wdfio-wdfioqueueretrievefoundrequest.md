@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 34447879-1a2e-45de-b754-121a5956330a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfioqueueretrievefoundrequest, wdfio/WdfIoQueueRetrieveFoundRequest, DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest method, wdf.wdfioqueueretrievefoundrequest, WdfIoQueueRetrieveFoundRequest
+ms.keywords: WdfIoQueueRetrieveFoundRequest, wdfio/WdfIoQueueRetrieveFoundRequest, kmdf.wdfioqueueretrievefoundrequest, DFQueueObjectRef_17174143-5657-4500-bd07-bf9487e8048e.xml, WdfIoQueueRetrieveFoundRequest method, wdf.wdfioqueueretrievefoundrequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -171,15 +171,15 @@ For a code example that uses <b>WdfIoQueueRetrieveFoundRequest</b>, see <a href=
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdfioqueuefindrequest.md">WdfIoQueueFindRequest</a>
 
 
 
 <a href="..\wdfio\nf-wdfio-wdfioqueueretrievenextrequest.md">WdfIoQueueRetrieveNextRequest</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdfioqueueretrieverequestbyfileobject.md">WdfIoQueueRetrieveRequestByFileObject</a>
 
 
 

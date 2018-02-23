@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4b6d6791-6c13-49ee-a588-a0ed514279b2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwRollbackComplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, NtRollbackComplete, ZwRollbackComplete routine [Kernel-Mode Driver Architecture], wdm/ZwRollbackComplete, wdm/NtRollbackComplete, kernel.zwrollbackcomplete
+ms.keywords: ZwRollbackComplete routine [Kernel-Mode Driver Architecture], wdm/NtRollbackComplete, ktm_ref_0e759f02-d2c1-4759-a5bc-3c3ceca8186c.xml, wdm/ZwRollbackComplete, ZwRollbackComplete, NtRollbackComplete, kernel.zwrollbackcomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -168,15 +168,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
-
-
-
 <a href="..\wdm\nf-wdm-tmrollbackcomplete.md">TmRollbackComplete</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 

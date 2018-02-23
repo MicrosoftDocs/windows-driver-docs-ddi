@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: e29f6710-0ca1-4420-b0e7-957ba020254b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO, netvista.riladditionalcallerinfo_2, RILADDITIONALCALLERINFO
+ms.keywords: RILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO, netvista.riladditionalcallerinfo_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILADDITIONALCALLERINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILADDITIONALCALLERINFO, RILADDITIONALCALLERINFO"
+req.typenames: RILADDITIONALCALLERINFO, *LPRILADDITIONALCALLERINFO
 req.product: Windows 10 or later.
 ---
 

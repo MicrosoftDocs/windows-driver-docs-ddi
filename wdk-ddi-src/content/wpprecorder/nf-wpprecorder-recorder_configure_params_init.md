@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 840716D6-505E-4654-A54D-ABAF3A553E5E
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: RECORDER_CONFIGURE_PARAMS_INIT, RECORDER_CONFIGURE_PARAMS_INIT function [Driver Development Tools], wpprecorder/RECORDER_CONFIGURE_PARAMS_INIT, devtest.recorder_configure_params_init
+ms.keywords: RECORDER_CONFIGURE_PARAMS_INIT, wpprecorder/RECORDER_CONFIGURE_PARAMS_INIT, devtest.recorder_configure_params_init, RECORDER_CONFIGURE_PARAMS_INIT function [Driver Development Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RECORDER_CONFIGURE_PARAMS_INIT
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

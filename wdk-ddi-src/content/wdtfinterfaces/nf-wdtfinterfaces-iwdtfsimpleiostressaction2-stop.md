@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: d813b9f4-95f7-49cd-97c0-08a04dbd362e
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: Stop method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, dtf.iwdtfsimpleiostressaction2_stop, IWDTFSimpleIOStressAction2, Stop method [Windows Device Testing Framework], wdtfinterfaces/IWDTFSimpleIOStressAction2::Stop, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Stop method, IWDTFSimpleIOStressAction2::Stop, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Stop, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Stop, Stop
+ms.keywords: Stop method [Windows Device Testing Framework], Stop, Stop method [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface, Microsoft::WDTF::IWDTFSimpleIOStressAction2::Stop, wdtfinterfaces/IWDTFSimpleIOStressAction2::Stop, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], Stop method, dtf.iwdtfsimpleiostressaction2_stop, IWDTFSimpleIOStressAction2, Microsoft.WDTF.IWDTFSimpleIOStressAction2.Stop, IWDTFSimpleIOStressAction2::Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

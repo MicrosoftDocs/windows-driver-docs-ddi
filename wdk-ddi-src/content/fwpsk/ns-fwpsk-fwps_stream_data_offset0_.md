@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: a6b60fa1-23ed-44dd-8300-c66d5f907993
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_stream_data_offset0, FWPS_STREAM_DATA_OFFSET0, wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml, FWPS_STREAM_DATA_OFFSET0_
+ms.keywords: wfp_ref_3_struct_3_fwps_P-Z_dc4b9bc1-f92b-4318-9cf4-466047be22f2.xml, fwpsk/FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0_, FWPS_STREAM_DATA_OFFSET0, FWPS_STREAM_DATA_OFFSET0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_stream_data_offset0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

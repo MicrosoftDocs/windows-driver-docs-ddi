@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: d829b203-8b7f-4504-a9ac-da1f91b3bbd6
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: HidP_GetLinkCollectionNodes routine [Human Input Devices], hidfunc_cbcd531f-dc4d-4a27-96bd-bfa3589af9a7.xml, hid.hidp_getlinkcollectionnodes, HidP_GetLinkCollectionNodes, hidpi/HidP_GetLinkCollectionNodes
+ms.keywords: HidP_GetLinkCollectionNodes routine [Human Input Devices], HidP_GetLinkCollectionNodes, hidfunc_cbcd531f-dc4d-4a27-96bd-bfa3589af9a7.xml, hidpi/HidP_GetLinkCollectionNodes, hid.hidp_getlinkcollectionnodes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,10 +139,6 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
@@ -151,7 +147,11 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\ns-hidpi-_hidp_caps.md">HIDP_CAPS</a>
+<a href="..\hidpi\nf-hidpi-hidp_getcaps.md">HidP_GetCaps</a>
+
+
+
+<a href="..\hidpi\ns-hidpi-_hidp_link_collection_node.md">HIDP_LINK_COLLECTION_NODE</a>
 
 
 

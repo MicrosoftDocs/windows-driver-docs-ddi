@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f3c9d851-d30d-4757-82a3-225ee67528c1
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PPORT_CONFIGURATION_INFORMATION, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml, srb/_PORT_CONFIGURATION_INFORMATION, srb/PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PPORT_CONFIGURATION_INFORMATION, PORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], _PORT_CONFIGURATION_INFORMATION"
+ms.keywords: PORT_CONFIGURATION_INFORMATION structure [Storage Devices], PORT_CONFIGURATION_INFORMATION, srb/PPORT_CONFIGURATION_INFORMATION, PPORT_CONFIGURATION_INFORMATION structure pointer [Storage Devices], PPORT_CONFIGURATION_INFORMATION, structs-scsiport_1a472219-5839-443c-a3a1-26c9708b3b18.xml, _PORT_CONFIGURATION_INFORMATION structure [Storage Devices], srb/_PORT_CONFIGURATION_INFORMATION, *PPORT_CONFIGURATION_INFORMATION, storage.port_configuration_information__scsi_, _PORT_CONFIGURATION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -459,7 +459,7 @@ Indicates when <b>TRUE</b> that the miniport driver responds to Windows Manageme
 
 #### - (*AccessRanges)
 
-Pointer to an array of <a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>-type elements. The given <b>NumberOfAccessRanges</b> determines how many elements must be configured with bus-relative range values. The <b>AccessRanges</b> pointer must be <b>NULL</b> if <b>NumberOfAccessRanges</b> is zero. If possible, the OS-specific port driver initializes this member's elements, possibly from the registry or possibly by interrogating an I/O bus, for an HBA it found by using the miniport driver's specified <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>. Otherwise, the port driver initializes all values within array elements to zero.
+Pointer to an array of <a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>-type elements. The given <b>NumberOfAccessRanges</b> determines how many elements must be configured with bus-relative range values. The <b>AccessRanges</b> pointer must be <b>NULL</b> if <b>NumberOfAccessRanges</b> is zero. If possible, the OS-specific port driver initializes this member's elements, possibly from the registry or possibly by interrogating an I/O bus, for an HBA it found by using the miniport driver's specified <a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>. Otherwise, the port driver initializes all values within array elements to zero.
 
 If any access range element is set to nonzero values on entry to the miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine, the miniport driver <i>must</i> map the supplied addresses with <a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a> and use the corresponding logical addresses to verify whether that HBA is one it supports. If the input <b>AccessRanges</b> have nonzero values supplied, a miniport driver <i>should neverattempt</i> to scan the I/O bus for HBAs it supports using a set of driver-devised port/memory addresses that its HBA(s) might use.
 
@@ -489,15 +489,19 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+
+
+
+<a href="..\srb\ns-srb-_access_range.md">ACCESS_RANGE</a>
+
+
+
 <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
-
-
-
-<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
+<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
 
 
 
@@ -509,15 +513,11 @@ This means that if the miniport driver needs additional space in either the LUN 
 
 
 
-<a href="..\strmini\ns-strmini-_access_range.md">ACCESS_RANGE</a>
+<a href="..\srb\nf-srb-scsiportvalidaterange.md">ScsiPortValidateRange</a>
 
 
 
-<a href="..\srb\nf-srb-scsiportgetdevicebase.md">ScsiPortGetDeviceBase</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="..\srb\nf-srb-scsiportgetuncachedextension.md">ScsiPortGetUncachedExtension</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 54ca9dc8-8095-4b62-9ebc-f297abb429ca
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IoCreateDevice, k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml, IoCreateDevice routine [Kernel-Mode Driver Architecture], kernel.iocreatedevice, IoCreateDevice
+ms.keywords: IoCreateDevice routine [Kernel-Mode Driver Architecture], IoCreateDevice, wdm/IoCreateDevice, kernel.iocreatedevice, k104_1e38a631-7e65-4b4b-8d51-3150a8073511.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -76,7 +76,7 @@ NTSTATUS IoCreateDevice(
 
 ### -param DriverObject [in]
 
-Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
+Pointer to the driver object for the caller. Each driver receives a pointer to its driver object in a parameter to its <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine. WDM function and filter drivers also receive a driver object pointer in their <a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a> routines.
 
 
 ### -param DeviceExtensionSize [in]
@@ -142,7 +142,7 @@ If a driver's call to <b>IoCreateDevice</b> returns an error, the driver should 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>
+<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
 
 
 
@@ -150,11 +150,11 @@ If a driver's call to <b>IoCreateDevice</b> returns an error, the driver should 
 
 
 
-<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548407">IoCreateDeviceSecure</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlregisteruncprovider~r2.md">FsRtlRegisterUncProvider</a>
+<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
 
 
 
@@ -162,7 +162,7 @@ If a driver's call to <b>IoCreateDevice</b> returns an error, the driver should 
 
 
 
-<a href="..\wdm\nf-wdm-ioattachdevice.md">IoAttachDevice</a>
+<a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 
 

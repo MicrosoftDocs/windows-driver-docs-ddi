@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 150773a3-a3a9-41a7-9985-4387bba5a766
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: GetFCPStatistics_OUT, storage.getfcpstatistics_out, *PGetFCPStatistics_OUT, _GetFCPStatistics_OUT, PGetFCPStatistics_OUT structure pointer [Storage Devices], PGetFCPStatistics_OUT, structs-Fibre_cb7a0157-9213-4c4f-adbe-5855d8cca225.xml, hbapiwmi/GetFCPStatistics_OUT, hbapiwmi/PGetFCPStatistics_OUT, GetFCPStatistics_OUT structure [Storage Devices]
+ms.keywords: "*PGetFCPStatistics_OUT, hbapiwmi/PGetFCPStatistics_OUT, PGetFCPStatistics_OUT, storage.getfcpstatistics_out, GetFCPStatistics_OUT, GetFCPStatistics_OUT structure [Storage Devices], _GetFCPStatistics_OUT, structs-Fibre_cb7a0157-9213-4c4f-adbe-5855d8cca225.xml, PGetFCPStatistics_OUT structure pointer [Storage Devices], hbapiwmi/GetFCPStatistics_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

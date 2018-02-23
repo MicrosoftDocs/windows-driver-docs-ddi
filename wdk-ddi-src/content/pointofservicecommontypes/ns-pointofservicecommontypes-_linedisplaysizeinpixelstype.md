@@ -7,8 +7,8 @@ old-location: pos\linedisplaysizeinpixelstype.htm
 old-project: pos
 ms.assetid: BB6B3AC2-C184-4383-B5D8-1D854BD433FA
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
-ms.keywords: LineDisplaySizeInPixelsType structure, pos.linedisplaysizeinpixelstype, pointofservicecommontypes/PLineDisplaySizeInPixelsType, _LineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, pointofservicecommontypes/LineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType
+ms.date: 2/22/2018
+ms.keywords: pointofservicecommontypes/PLineDisplaySizeInPixelsType, LineDisplaySizeInPixelsType structure, pos.linedisplaysizeinpixelstype, LineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType structure pointer, _LineDisplaySizeInPixelsType, pointofservicecommontypes/LineDisplaySizeInPixelsType, PLineDisplaySizeInPixelsType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

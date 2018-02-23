@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d3166685-2aec-4874-a5a9-8cc293a96a2c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PowerDeviceUnspecified, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PDEVICE_POWER_STATE, *PDEVICE_POWER_STATE, PowerDeviceD0, wdm/PowerDeviceD0, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], PowerDeviceUnspecified, PowerDeviceD1, wdm/PowerDeviceD1, wdm/PowerDeviceD2, wdm/PowerDeviceD3, wdm/DEVICE_POWER_STATE, PowerDeviceD3, _DEVICE_POWER_STATE, sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, PowerDeviceMaximum, DEVICE_POWER_STATE, wdm/PowerDeviceMaximum, kernel.device_power_state, PowerDeviceD2, PDEVICE_POWER_STATE
+ms.keywords: sysenum_4f65cc59-f3a2-42ef-a8bb-7a2d178a6be7.xml, wdm/PowerDeviceMaximum, PowerDeviceD3, *PDEVICE_POWER_STATE, wdm/PDEVICE_POWER_STATE, PowerDeviceMaximum, wdm/PowerDeviceD0, wdm/DEVICE_POWER_STATE, kernel.device_power_state, PDEVICE_POWER_STATE enumeration pointer [Kernel-Mode Driver Architecture], wdm/PowerDeviceD3, PDEVICE_POWER_STATE, PowerDeviceD0, wdm/PowerDeviceD1, wdm/PowerDeviceUnspecified, wdm/PowerDeviceD2, DEVICE_POWER_STATE, DEVICE_POWER_STATE enumeration [Kernel-Mode Driver Architecture], _DEVICE_POWER_STATE, PowerDeviceUnspecified, PowerDeviceD2, PowerDeviceD1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -107,7 +107,7 @@ The number of device power state values for this enumeration type that represent
 
 
 
-A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <b>DEVICE_POWER_STATE</b> enumeration type.
+A power state indicates the level of power consumption—and thus the extent of computing activity—by the system or by a single device. The power manager sets the power state of the system as a whole, where the system power state is indicated by one of the values of the <a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a> enumeration type. Device drivers set the power state of their individual devices, where the device power state is indicated by one of the values of the <b>DEVICE_POWER_STATE</b> enumeration type.
 
 For more information about system power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff546941">Handling System Power State Requests</a>. For more information about device power states, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff554397">Managing Power for Individual Devices</a>. For more information about power management in general, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548108">Introduction to Power Management</a>. 
 
@@ -116,7 +116,7 @@ For more information about system power states, see <a href="https://msdn.micros
 
 ## -see-also
 
-<a href="..\ntpoapi\ne-ntpoapi-_system_power_state.md">SYSTEM_POWER_STATE</a>
+<a href="..\wdm\ne-wdm-_system_power_state.md">SYSTEM_POWER_STATE</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 0419bbf5-02aa-482f-9e2c-a435302751c4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisCmRegisterSapComplete, NdisCmRegisterSapComplete, condis_call_manager_ref_1f862b68-070b-40d3-8edd-3830195af73c.xml, NdisCmRegisterSapComplete function [Network Drivers Starting with Windows Vista], netvista.ndiscmregistersapcomplete
+ms.keywords: NdisCmRegisterSapComplete, netvista.ndiscmregistersapcomplete, condis_call_manager_ref_1f862b68-070b-40d3-8edd-3830195af73c.xml, NdisCmRegisterSapComplete function [Network Drivers Starting with Windows Vista], ndis/NdisCmRegisterSapComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCmRegisterSapComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCmRegisterSapComplete function
@@ -133,11 +133,6 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisallocatefromnpagedlookasidelist.md">
-   NdisAllocateFromNPagedLookasideList</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
 
 
@@ -147,12 +142,16 @@ Only stand-alone call managers, which register themselves with NDIS as protocol 
 
 
 
+<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_cl_register_sap_complete.md">
    ProtocolClRegisterSapComplete</a>
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cm_reg_sap.md">ProtocolCmRegisterSap</a>
+<a href="..\ndis\nf-ndis-ndismcmregistersapcomplete.md">NdisMCmRegisterSapComplete</a>
 
 
 

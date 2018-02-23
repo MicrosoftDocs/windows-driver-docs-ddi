@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: CD7388DD-84CD-4158-91F3-9DB0559DFC2F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], ehstorbandmgmt/ERASE_BAND_PARAMETERS, storage.erase_band_parameters, ERASEBAND_AUTHKEY_CACHING_ENABLED, ERASE_BAND_PARAMETERS structure [Storage Devices], _ERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS
+ms.keywords: PERASE_BAND_PARAMETERS, ERASEBAND_AUTHKEY_CACHING_ENABLED, ERASE_BAND_PARAMETERS structure [Storage Devices], _ERASE_BAND_PARAMETERS, PERASE_BAND_PARAMETERS structure pointer [Storage Devices], *PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS, ehstorbandmgmt/ERASE_BAND_PARAMETERS, ehstorbandmgmt/PERASE_BAND_PARAMETERS, storage.erase_band_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ERASE_BAND_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PERASE_BAND_PARAMETERS, ERASE_BAND_PARAMETERS"
+req.typenames: ERASE_BAND_PARAMETERS, *PERASE_BAND_PARAMETERS
 ---
 
 # _ERASE_BAND_PARAMETERS structure
@@ -167,11 +167,11 @@ To specify a default authentication key to the band, set   <b>NewAuthKeyOffset</
 
 
 
-<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
-
-
-
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
+
+
+
+<a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_erase_band.md">IOCTL_EHSTOR_BANDMGMT_ERASE_BAND</a>
 
 
 

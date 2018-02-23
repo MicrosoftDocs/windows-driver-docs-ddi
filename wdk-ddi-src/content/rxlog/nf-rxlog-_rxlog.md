@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 00f6c2d9-7521-46c8-b37e-2be304d8a045
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_RxLog function [Installable File System Drivers], _RxLog, rxlog/_RxLog, ifsk._rxlog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml"
+ms.keywords: "_RxLog, rxref_2c140100-e24e-4fe0-935a-81fa6840db24.xml, rxlog/_RxLog, _RxLog function [Installable File System Drivers], ifsk._rxlog"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,15 +123,15 @@ It is recommended that the <b>RxLog</b> macro be used to call this routine. On c
 
 ## -see-also
 
+<a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
+
+
+
 <a href="..\rxprocs\nf-rxprocs-rxlogeventwithannotation.md">RxLogEventWithAnnotation</a>
 
 
 
 <a href="..\rxprocs\nf-rxprocs-rxlogeventdirect.md">RxLogEventDirect</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxlogeventwithbufferdirect.md">RxLogEventWithBufferDirect</a>
 
 
 

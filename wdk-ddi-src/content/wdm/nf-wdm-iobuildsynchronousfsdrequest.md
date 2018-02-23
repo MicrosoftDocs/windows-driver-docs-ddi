@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: b6d257cb-5384-44fe-bcff-67c67439ad08
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], IoBuildSynchronousFsdRequest, kernel.iobuildsynchronousfsdrequest, k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, wdm/IoBuildSynchronousFsdRequest
+ms.keywords: IoBuildSynchronousFsdRequest, IoBuildSynchronousFsdRequest routine [Kernel-Mode Driver Architecture], k104_94704d64-ce8d-4a4d-82e3-974cda66dd54.xml, kernel.iobuildsynchronousfsdrequest, wdm/IoBuildSynchronousFsdRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,15 +139,7 @@ IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed b
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
 
 
 
@@ -155,7 +147,7 @@ IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed b
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
@@ -163,7 +155,7 @@ IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed b
 
 
 
-<a href="..\wdm\nf-wdm-kewaitforsingleobject.md">KeWaitForSingleObject</a>
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
 
 
 
@@ -171,7 +163,11 @@ IRPs that are created by <b>IoBuildSynchronousFsdRequest</b> must be completed b
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
 
 
 

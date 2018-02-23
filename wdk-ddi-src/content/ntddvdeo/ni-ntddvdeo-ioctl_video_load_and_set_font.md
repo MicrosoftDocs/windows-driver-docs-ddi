@@ -7,7 +7,7 @@ old-location: display\ioctl_video_load_and_set_font.htm
 old-project: display
 ms.assetid: 13771df5-f66c-4dd9-b2d3-4477fda82f8f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.ioctl_video_load_and_set_font, IOCTL_VIDEO_LOAD_AND_SET_FONT control code [Display Devices], IOCTL_VIDEO_LOAD_AND_SET_FONT, ntddvdeo/IOCTL_VIDEO_LOAD_AND_SET_FONT, Video_IOCTLs_f68527dd-7070-4a47-91e2-9e64610508b7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 2c8cb6bb-eb6b-4a2f-8d00-efb309273536
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: HBA_SendRPL routine [Storage Devices], fibreHBA_rtns_1b67cd99-3e8b-4667-a795-a3391b73e62c.xml, HBA_SendRPL, storage.hba_sendrpl, hbaapi/HBA_SendRPL
+ms.keywords: hbaapi/HBA_SendRPL, HBA_SendRPL routine [Storage Devices], storage.hba_sendrpl, HBA_SendRPL, fibreHBA_rtns_1b67cd99-3e8b-4667-a795-a3391b73e62c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,14 +110,14 @@ TBD
 
 
 
-#### - AgentDomain [in]
-
-Contains the domain number for the domain controller to query for a list of ports of type FC_Port. If <i>AgentWwn </i>is non-<b>NULL</b>, this member is ignored.  
-
-
 #### - AgentWwn [in]
 
 Contains, when non-<b>NULL</b>, a 64-bit WWN that uniquely identifies the port to query for a list of ports of type FC_Port. If this member is <b>NULL</b>, it is ignored. For a definition of FC_Port, see the T11 committee's <i>Fibre Channel HBA API </i>specification. 
+
+
+#### - AgentDomain [in]
+
+Contains the domain number for the domain controller to query for a list of ports of type FC_Port. If <i>AgentWwn </i>is non-<b>NULL</b>, this member is ignored.  
 
 
 #### - RspBufferSize [in, out]

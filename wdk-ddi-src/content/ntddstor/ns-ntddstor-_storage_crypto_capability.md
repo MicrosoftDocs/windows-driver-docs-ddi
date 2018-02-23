@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9DFAB3C6-F833-487D-87FC-292B3AFAD767
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PSTORAGE_CRYPTO_CAPABILITY, ntddstor/STORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY structure [Storage Devices], _STORAGE_CRYPTO_CAPABILITY, storage.storage_crypto_capability, ntddstor/PSTORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY structure pointer [Storage Devices]"
+ms.keywords: ntddstor/STORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY structure pointer [Storage Devices], storage.storage_crypto_capability, *PSTORAGE_CRYPTO_CAPABILITY, PSTORAGE_CRYPTO_CAPABILITY, ntddstor/PSTORAGE_CRYPTO_CAPABILITY, STORAGE_CRYPTO_CAPABILITY structure [Storage Devices], STORAGE_CRYPTO_CAPABILITY, _STORAGE_CRYPTO_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

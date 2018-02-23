@@ -7,8 +7,8 @@ old-location: audio\iregistrykey_deletekey.htm
 old-project: audio
 ms.assetid: 2930b049-7572-4ee5-bef1-fd4485e5f644
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: portcls/IRegistryKey::DeleteKey, IRegistryKey interface [Audio Devices], DeleteKey method, DeleteKey, IRegistryKey, DeleteKey method [Audio Devices], IRegistryKey::DeleteKey, audio.iregistrykey_deletekey, DeleteKey method [Audio Devices], IRegistryKey interface, audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml
+ms.date: 2/22/2018
+ms.keywords: IRegistryKey, audio.iregistrykey_deletekey, IRegistryKey::DeleteKey, audmp-routines_b5556b44-0bf4-47d2-8bbd-65d12c393341.xml, DeleteKey, IRegistryKey interface [Audio Devices], DeleteKey method, portcls/IRegistryKey::DeleteKey, DeleteKey method [Audio Devices], DeleteKey method [Audio Devices], IRegistryKey interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -92,6 +92,22 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
+
+
+
+<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536970">IRegistryKey::NewSubKey</a>
 
 
@@ -100,29 +116,13 @@ A caller deletes an <b>IRegistryKey</b> object's registry key by calling the <co
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536945">IPort::NewRegistryKey</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwdeletekey.md">ZwDeleteKey</a>
-
-
-
 <a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
-<a href="..\portcls\nf-portcls-pcnewregistrykey.md">PcNewRegistryKey</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::DeleteKey method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::DeleteKey method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

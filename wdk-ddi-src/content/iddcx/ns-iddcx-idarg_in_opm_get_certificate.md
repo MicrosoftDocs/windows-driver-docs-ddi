@@ -7,8 +7,8 @@ old-location: display\idarg_in_opm_get_certificate.htm
 old-project: display
 ms.assetid: 0f6ce53f-f755-44f7-b579-ce3526e44c41
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.idarg_in_opm_get_certificate, IDARG_IN_OPM_GET_CERTIFICATE structure [Display Devices], IDARG_IN_OPM_GET_CERTIFICATE, iddcx/IDARG_IN_OPM_GET_CERTIFICATE
+ms.date: 2/22/2018
+ms.keywords: display.idarg_in_opm_get_certificate, IDARG_IN_OPM_GET_CERTIFICATE, iddcx/IDARG_IN_OPM_GET_CERTIFICATE, IDARG_IN_OPM_GET_CERTIFICATE structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

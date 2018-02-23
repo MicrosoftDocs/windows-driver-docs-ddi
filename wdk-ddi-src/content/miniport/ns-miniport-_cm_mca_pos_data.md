@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 2b14eef2-dac4-48c8-b2a2-96bf085171aa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PCM_MCA_POS_DATA structure pointer [Kernel-Mode Driver Architecture], CM_MCA_POS_DATA, wdm/CM_MCA_POS_DATA, CM_MCA_POS_DATA structure [Kernel-Mode Driver Architecture], kernel.cm_mca_pos_data, *PCM_MCA_POS_DATA, _CM_MCA_POS_DATA, kstruct_a_a0edcef2-abf9-4660-8f40-76a2f8ff1193.xml, PCM_MCA_POS_DATA, wdm/PCM_MCA_POS_DATA
+ms.keywords: PCM_MCA_POS_DATA, *PCM_MCA_POS_DATA, wdm/CM_MCA_POS_DATA, _CM_MCA_POS_DATA, PCM_MCA_POS_DATA structure pointer [Kernel-Mode Driver Architecture], CM_MCA_POS_DATA structure [Kernel-Mode Driver Architecture], wdm/PCM_MCA_POS_DATA, CM_MCA_POS_DATA, kstruct_a_a0edcef2-abf9-4660-8f40-76a2f8ff1193.xml, kernel.cm_mca_pos_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CM_MCA_POS_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PCM_MCA_POS_DATA, CM_MCA_POS_DATA"
+req.typenames: CM_MCA_POS_DATA, *PCM_MCA_POS_DATA
 ---
 
 # _CM_MCA_POS_DATA structure
@@ -97,11 +97,11 @@ This structure is used by the obsolete <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546599">HalGetBusData</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546606">HalGetBusDataByOffset</a>
 
 
 

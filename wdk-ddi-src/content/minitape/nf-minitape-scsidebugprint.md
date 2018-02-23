@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: bbf3ea14-1802-4433-9043-73bfc0c447bf
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.scsidebugprint, scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, srb/ScsiDebugPrint, ScsiDebugPrint routine [Storage Devices], ScsiDebugPrint
+ms.keywords: scsiprt_ef011e55-85be-4ec8-8ba3-3838417bcd15.xml, ScsiDebugPrint routine [Storage Devices], srb/ScsiDebugPrint, storage.scsidebugprint, ScsiDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiDebugPrint
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_STATUS, TAPE_STATUS"
+req.typenames: TAPE_STATUS, *PTAPE_STATUS
 ---
 
 # ScsiDebugPrint function

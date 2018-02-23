@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: D5F65152-54CD-45FA-99CE-F5B4DF444BB8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UfxDevicePortDetectComplete method [Buses], ufxclient/UfxDevicePortDetectComplete, UfxDevicePortDetectComplete, buses.ufxdeviceportdetectcomplete
+ms.keywords: buses.ufxdeviceportdetectcomplete, UfxDevicePortDetectComplete method [Buses], ufxclient/UfxDevicePortDetectComplete, UfxDevicePortDetectComplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDevicePortDetectComplete
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

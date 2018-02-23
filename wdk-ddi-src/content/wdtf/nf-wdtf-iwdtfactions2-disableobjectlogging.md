@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: aadc9fa0-fba0-4caa-bf45-42c74c85c4e6
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDTFActions2 interface [Windows Device Testing Framework], DisableObjectLogging method, DisableObjectLogging, IWDTFActions2, DisableObjectLogging method [Windows Device Testing Framework], wdtf/IWDTFActions2::DisableObjectLogging, DisableObjectLogging method [Windows Device Testing Framework], IWDTFActions2 interface, dtf.iwdtfactions2_disableobjectlogging, IWDTFActions2::DisableObjectLogging
+ms.keywords: IWDTFActions2, dtf.iwdtfactions2_disableobjectlogging, DisableObjectLogging, DisableObjectLogging method [Windows Device Testing Framework], wdtf/IWDTFActions2::DisableObjectLogging, IWDTFActions2 interface [Windows Device Testing Framework], DisableObjectLogging method, DisableObjectLogging method [Windows Device Testing Framework], IWDTFActions2 interface, IWDTFActions2::DisableObjectLogging
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 3FA48004-E96A-4ED7-935F-B7F58A74FB1F
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.storportgetdatainbuffersystemaddress, storport/StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress routine [Storage Devices], StorPortGetDataInBufferSystemAddress
+ms.keywords: StorPortGetDataInBufferSystemAddress routine [Storage Devices], storport/StorPortGetDataInBufferSystemAddress, StorPortGetDataInBufferSystemAddress, storage.storportgetdatainbuffersystemaddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -149,11 +149,11 @@ A system address can not be assigned.
 
 ## -see-also
 
-<a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
-
-
-
 <a href="..\storport\nf-storport-storportgetdatainbuffermdl.md">StorPortGetDataInBufferMdl</a>
+
+
+
+<a href="..\storport\nf-storport-storportgetdatainbufferscattergatherlist.md">StorPortGetDataInBufferScatterGatherList</a>
 
 
 

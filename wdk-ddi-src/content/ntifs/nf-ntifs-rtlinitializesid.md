@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6b87483f-8d5e-4e1d-839d-2271990dcbaa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/RtlInitializeSid, ifsk.rtlinitializesid, RtlInitializeSid, RtlInitializeSid routine [Installable File System Drivers], rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml
+ms.keywords: RtlInitializeSid, RtlInitializeSid routine [Installable File System Drivers], ifsk.rtlinitializesid, rtlref_fbcc1ed7-4929-415f-9644-b8d9521a5c1a.xml, ntifs/RtlInitializeSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,15 +137,15 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
 <a href="..\ntifs\ns-ntifs-_sid_identifier_authority.md">SID_IDENTIFIER_AUTHORITY</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-rtlsubauthoritysid.md">RtlSubAuthoritySid</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 

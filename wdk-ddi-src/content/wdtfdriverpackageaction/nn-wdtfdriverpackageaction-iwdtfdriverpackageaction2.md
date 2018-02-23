@@ -54,6 +54,14 @@ Defines operations and properties that represent a driver package for imported a
 driver packages.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverPackageAction2</b> interface inherits from <b>IWDTFAction2</b>. <b>IWDTFDriverPackageAction2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFDriverPackageAction2</b> interface has these methods.
@@ -98,17 +106,8 @@ Sets the pre-imported driver package path.
 
 </td>
 </tr>
-</table>Compares two driver packages.
-
-Returns an SDEL statement that queries for all devices that can use the driver package.
-
-Returns an SDEL statement that queries for all devices that use the driver package.
-
-Sets the pre-imported driver package path.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverPackageAction2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFDriverPackageAction2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -291,93 +290,5 @@ Gets the driver package version.
 
 </td>
 </tr>
-</table>
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406430">CatalogFile</a>
-
-
-Read-only
-
-Gets the catalog file name.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406432">ClassGuid</a>
-
-
-Read-only
-
-Gets the class GUID.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406434">ClassName</a>
-
-
-Read-only
-
-Gets the class name.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406437">Date</a>
-
-
-Read-only
-
-Gets the driver package date.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406440">DigitalSigner</a>
-
-
-Read-only
-
-Gets the digital signer.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406447">HasCatalog</a>
-
-
-Read-only
-
-Gets a value that indicates whether the driver package has a catalog.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406449">InfFileName</a>
-
-
-Read-only
-
-Gets the INF file name.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406451">IsDigitalSigned</a>
-
-
-Read-only
-
-Gets a value that indicates whether the driver package is signed.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406453">IsImported</a>
-
-
-Read-only
-
-Gets a value that indicates whether the driver package is imported.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406455">Provider</a>
-
-
-Read-only
-
-Gets the driver package provider.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn973197">Version</a>
-
-
-Read-only
-
-Gets the driver package version.
-
- 
+</table> 
 

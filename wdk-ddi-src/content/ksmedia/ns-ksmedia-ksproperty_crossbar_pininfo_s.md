@@ -7,8 +7,8 @@ old-location: stream\ksproperty_crossbar_pininfo_s.htm
 old-project: stream
 ms.assetid: 7ddef9cf-aa2f-4383-b37f-8c2f3e9c99d6
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksmedia/PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S, *PKSPROPERTY_CROSSBAR_PININFO_S, PKSPROPERTY_CROSSBAR_PININFO_S structure pointer [Streaming Media Devices], stream.ksproperty_crossbar_pininfo_s, PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_CROSSBAR_PININFO_S, vidcapstruct_a8532e73-5b8e-4ed1-a27e-e151642fff2a.xml
+ms.date: 2/22/2018
+ms.keywords: KSPROPERTY_CROSSBAR_PININFO_S structure [Streaming Media Devices], ksmedia/KSPROPERTY_CROSSBAR_PININFO_S, vidcapstruct_a8532e73-5b8e-4ed1-a27e-e151642fff2a.xml, PKSPROPERTY_CROSSBAR_PININFO_S, ksmedia/PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S, PKSPROPERTY_CROSSBAR_PININFO_S structure pointer [Streaming Media Devices], *PKSPROPERTY_CROSSBAR_PININFO_S, stream.ksproperty_crossbar_pininfo_s
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPROPERTY_CROSSBAR_PININFO_S
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPROPERTY_CROSSBAR_PININFO_S, KSPROPERTY_CROSSBAR_PININFO_S"
+req.typenames: KSPROPERTY_CROSSBAR_PININFO_S, *PKSPROPERTY_CROSSBAR_PININFO_S
 ---
 
 # KSPROPERTY_CROSSBAR_PININFO_S structure
@@ -74,7 +74,7 @@ typedef struct {
 
 ### -field Property
 
-Specifies an initialized <a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
+Specifies an initialized <a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a> structure that describes the property set, property ID, and request type.
 
 
 ### -field Direction
@@ -147,7 +147,7 @@ Specifies the optional pin index of a pin that is related to the pin specified i
 
 ### -field Medium
 
-Specifies a <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_MEDIUM</a> structure that represents the hardware connection for the pin. This information is returned by the minidriver.
+Specifies a <a href="https://msdn.microsoft.com/library/windows/hardware/ff563538">KSPIN_MEDIUM</a> structure that represents the hardware connection for the pin. This information is returned by the minidriver.
 
 
 ## -remarks
@@ -161,7 +161,7 @@ All index values are zero-based, and input pins are counted separately from outp
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565121">KSPROPERTY_CROSSBAR_PININFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567804">PROPSETID_VIDCAP_CROSSBAR</a>
 
 
 
@@ -169,7 +169,7 @@ All index values are zero-based, and input pins are counted separately from outp
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564262">KSPROPERTY</a>
 
 
 
@@ -177,5 +177,5 @@ All index values are zero-based, and input pins are counted separately from outp
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_CROSSBAR_PININFO_S structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSPROPERTY_CROSSBAR_PININFO_S structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

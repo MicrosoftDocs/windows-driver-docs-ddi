@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 381A59EE-BA1C-4810-842B-1D3E4D964486
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/IoRestrictionOutputOnly, IoRestrictionNoneAndPreserve, pepfx/IoRestrictionNoneAndPreserve, pepfx/IoRestrictionNone, pepfx/IoRestrictionInputOnly, IoRestrictionOutputOnly, kernel.gpio_pin_iorestriction_type, IoRestrictionNone, _GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/GPIO_PIN_IORESTRICTION_TYPE, IoRestrictionInputOnly
+ms.keywords: "_GPIO_PIN_IORESTRICTION_TYPE, pepfx/IoRestrictionNone, IoRestrictionInputOnly, pepfx/IoRestrictionInputOnly, pepfx/IoRestrictionNoneAndPreserve, IoRestrictionOutputOnly, kernel.gpio_pin_iorestriction_type, IoRestrictionNone, pepfx/GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/IoRestrictionOutputOnly, IoRestrictionNoneAndPreserve"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	GPIO_PIN_IORESTRICTION_TYPE
 product: Windows
 targetos: Windows
-req.typenames: GPIO_PIN_IORESTRICTION_TYPE
+req.typenames: GPIO_PIN_IORESTRICTION_TYPE, GPIO_PIN_IORESTRICTION_TYPE
 ---
 
 # _GPIO_PIN_IORESTRICTION_TYPE enumeration

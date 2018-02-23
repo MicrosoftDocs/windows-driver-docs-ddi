@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C1129291-D0E7-48F6-B317-1A0BCB6D25DC
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_WWAN_UMTS_MRL_INFO, netvista.wwan_umts_mrl_info, *PWWAN_UMTS_MRL_INFO, WWAN_UMTS_MRL_INFO, WWAN_UMTS_MRL_INFO structure [Network Drivers Starting with Windows Vista], PWWAN_UMTS_MRL_INFO, wwan/PWWAN_UMTS_MRL_INFO, PWWAN_UMTS_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_UMTS_MRL_INFO"
+ms.keywords: "_WWAN_UMTS_MRL_INFO, WWAN_UMTS_MRL_INFO, *PWWAN_UMTS_MRL_INFO, wwan/WWAN_UMTS_MRL_INFO, PWWAN_UMTS_MRL_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_UMTS_MRL_INFO, PWWAN_UMTS_MRL_INFO, netvista.wwan_umts_mrl_info, WWAN_UMTS_MRL_INFO structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -136,19 +136,19 @@ The data buffer containing <i>ProviderId</i>.
 
 ## -see-also
 
+<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
+
+
+
 <a href="..\wwan\ns-wwan-_wwan_umts_serving_cell_info.md">WWAN_UMTS_SERVING_CELL_INFO</a>
 
 
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
-
-
-<a href="https://docs.microsoft.com/windows-hardware/drivers/network/mb-base-stations-information-query-support">MB base stations information query support</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_base_stations_info.md">WWAN_BASE_STATIONS_INFO</a>
+<a href="..\wwan\ns-wwan-_wwan_umts_mrl.md">WWAN_UMTS_MRL</a>
 
 
 

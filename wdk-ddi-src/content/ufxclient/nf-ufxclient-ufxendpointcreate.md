@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 060CADB7-AAC9-401A-9198-FC306CE74A34
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ufxclient/UfxEndpointCreate, buses.ufxendpointcreate, UfxEndpointCreate method [Buses], UfxEndpointCreate
+ms.keywords: UfxEndpointCreate, buses.ufxendpointcreate, UfxEndpointCreate method [Buses], ufxclient/UfxEndpointCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxEndpointCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
+req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
 req.product: Windows 10 or later.
 ---
 

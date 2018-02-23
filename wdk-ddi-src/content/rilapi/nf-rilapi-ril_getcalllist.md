@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7b2e0c82-c204-4d57-a2d2-066b8772ce13
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ril_getcalllist, RIL_GetCallList method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetCallList, RIL_GetCallList
+ms.keywords: RIL_GetCallList method [Network Drivers Starting with Windows Vista], netvista.ril_getcalllist, rilapi/RIL_GetCallList, RIL_GetCallList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetCallList
 product: Windows
 targetos: Windows
-req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
+req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
 req.product: Windows 10 or later.
 ---
 

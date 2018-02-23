@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 7fe392d1-75e4-43b1-a09b-6f47981bef7e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/PCLS_INFORMATION, _CLS_INFORMATION, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLS_INFORMATION, *PPCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLS_INFORMATION, wdm/CLS_INFORMATION, kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, wdm/PPCLFS_INFORMATION, *PCLS_INFORMATION, PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], CLS_INFORMATION, wdm/CLFS_INFORMATION, *PCLFS_INFORMATION, CLFS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], PCLFS_INFORMATION, wdm/PPCLS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, kernel.clfs_information
+ms.keywords: "*PCLS_INFORMATION, PPCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION, wdm/CLS_INFORMATION, _CLS_INFORMATION, CLFS_INFORMATION structure [Kernel-Mode Driver Architecture], *PCLFS_INFORMATION, wdm/PCLFS_INFORMATION, PCLS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kstruct_a_6935868e-7d3d-458e-a556-0c92ed99bdbf.xml, CLS_INFORMATION, kernel.clfs_information, PCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PCLFS_INFORMATION, wdm/CLFS_INFORMATION, CLFS_INFORMATION, PCLS_INFORMATION, wdm/PPCLS_INFORMATION, PPCLS_INFORMATION, wdm/PPCLFS_INFORMATION, *PPCLS_INFORMATION, wdm/PCLS_INFORMATION, CLS_INFORMATION structure [Kernel-Mode Driver Architecture], PPCLFS_INFORMATION structure pointer [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CLS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PCLS_INFORMATION, *PPCLS_INFORMATION, CLS_INFORMATION"
+req.typenames: CLS_INFORMATION, *PCLS_INFORMATION, *PPCLS_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -210,13 +210,11 @@ If <i>eInformationClass</i> parameter is equal to <b>ClfsLogBasicInformation</b>
 
 
 
-
-
 <a href="..\wdm\nf-wdm-clfssetlogfileinformation.md">ClfsSetLogFileInformation</a>
 
 
 
-<a href="..\wdm\nf-wdm-clfscreatelogfile.md">ClfsCreateLogFile</a>
+<a href="..\wdm\nf-wdm-clfsquerylogfileinformation.md">ClfsQueryLogFileInformation</a>
 
 
 

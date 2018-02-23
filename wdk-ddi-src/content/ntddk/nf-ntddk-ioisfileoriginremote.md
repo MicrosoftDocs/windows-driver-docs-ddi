@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 46655cbe-0483-4897-bd12-ce108af326c6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ifsk.ioisfileoriginremote, IoIsFileOriginRemote routine [Installable File System Drivers], IoIsFileOriginRemote, ntddk/IoIsFileOriginRemote
+ms.keywords: ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ifsk.ioisfileoriginremote, ntddk/IoIsFileOriginRemote, IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoIsFileOriginRemote
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoIsFileOriginRemote function

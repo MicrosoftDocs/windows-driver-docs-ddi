@@ -4,11 +4,11 @@ title: IDebugControl::OutputCurrentState method
 author: windows-driver-content
 description: The OutputCurrentState method prints the current state of the current target to the debugger console.
 old-location: debugger\outputcurrentstate.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 3d176438-5551-48a4-b757-81c14d84c075
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl, IDebugControl::OutputCurrentState, dbgeng/IDebugControl3::OutputCurrentState, OutputCurrentState method [Windows Debugging], OutputCurrentState method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::OutputCurrentState, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, dbgeng/IDebugControl::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl2::OutputCurrentState, IDebugControl3::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl interface, OutputCurrentState, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, debugger.outputcurrentstate
+ms.date: 2/22/2018
+ms.keywords: OutputCurrentState method [Windows Debugging], IDebugControl2 interface, OutputCurrentState method [Windows Debugging], IDebugControl interface, IDebugControl2 interface [Windows Debugging], OutputCurrentState method, OutputCurrentState, dbgeng/IDebugControl3::OutputCurrentState, debugger.outputcurrentstate, IDebugControl interface [Windows Debugging], OutputCurrentState method, IDebugControl::OutputCurrentState, dbgeng/IDebugControl2::OutputCurrentState, IDebugControl3 interface [Windows Debugging], OutputCurrentState method, IDebugControl, OutputCurrentState method [Windows Debugging], dbgeng/IDebugControl::OutputCurrentState, OutputCurrentState method [Windows Debugging], IDebugControl3 interface, IDebugControl_1a038e3b-1bf3-47d0-8e40-b2ebc3506308.xml, IDebugControl2::OutputCurrentState, IDebugControl3::OutputCurrentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

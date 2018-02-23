@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 069defee-6295-4492-b0bb-135c476c79aa
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, storage.storportreadregisterbufferulong, StorPortReadRegisterBufferUlong routine [Storage Devices], storport/StorPortReadRegisterBufferUlong, StorPortReadRegisterBufferUlong
+ms.keywords: storport/StorPortReadRegisterBufferUlong, storprt_18f8816c-5e0f-4139-829d-d9de65d63529.xml, StorPortReadRegisterBufferUlong, storage.storportreadregisterbufferulong, StorPortReadRegisterBufferUlong routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Specifies the number of data items to be read. Each data item has a size of <b>sizeof</b>(ULONG). 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,22 +106,32 @@ Pointer to the hardware device extension.
 Pointer to the register where the data is to be read. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer that receives the data that is read.
+
+
+#### - Count [in]
+
+Specifies the number of data items to be read. Each data item has a size of <b>sizeof</b>(ULONG). 
+
+
 ## -remarks
 
 
 
-For more information, see <a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
+For more information, see <a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
-
-
-
 <a href="..\storport\nf-storport-storportreadregisterulong.md">StorPortReadRegisterUlong</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportreadregisterbufferulong.md">ScsiPortReadRegisterBufferUlong</a>
 
 
 

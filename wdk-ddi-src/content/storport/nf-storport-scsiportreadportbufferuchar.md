@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9444670d-5b9f-4d77-b867-ac5608c24e02
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: scsiprt_db25989e-3b44-4f45-b768-b1b11c2ed25a.xml, ScsiPortReadPortBufferUchar routine [Storage Devices], storage.scsiportreadportbufferuchar, ScsiPortReadPortBufferUchar, srb/ScsiPortReadPortBufferUchar
+ms.keywords: storage.scsiportreadportbufferuchar, scsiprt_db25989e-3b44-4f45-b768-b1b11c2ed25a.xml, ScsiPortReadPortBufferUchar routine [Storage Devices], ScsiPortReadPortBufferUchar, srb/ScsiPortReadPortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

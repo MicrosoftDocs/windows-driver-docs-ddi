@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 492bdc23-7e55-4e6d-9d7c-189a94934049
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_abs_timeout_in_sec, WDF_ABS_TIMEOUT_IN_SEC function, WDF_ABS_TIMEOUT_IN_SEC, wdfcore/WDF_ABS_TIMEOUT_IN_SEC, DFTimerObjectRef_681839d3-3160-4f57-beeb-b5fe66dad3fe.xml, kmdf.wdf_abs_timeout_in_sec
+ms.keywords: wdfcore/WDF_ABS_TIMEOUT_IN_SEC, WDF_ABS_TIMEOUT_IN_SEC function, wdf.wdf_abs_timeout_in_sec, WDF_ABS_TIMEOUT_IN_SEC, DFTimerObjectRef_681839d3-3160-4f57-beeb-b5fe66dad3fe.xml, kmdf.wdf_abs_timeout_in_sec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

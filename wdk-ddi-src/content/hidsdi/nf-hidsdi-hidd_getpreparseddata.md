@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: e5c550f0-a466-4d0b-ac6f-bcdce600245f
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: hid.hidd_getpreparseddata, HidD_GetPreparsedData routine [Human Input Devices], hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, HidD_GetPreparsedData, hidsdi/HidD_GetPreparsedData
+ms.keywords: hidfunc_e728f2ff-69e2-46d0-8266-7ff011fb8bd5.xml, HidD_GetPreparsedData routine [Human Input Devices], hid.hidd_getpreparseddata, hidsdi/HidD_GetPreparsedData, HidD_GetPreparsedData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	HidD_GetPreparsedData
 product: Windows
 targetos: Windows
-req.typenames: "*PHID_MINIDRIVER_REGISTRATION, HID_MINIDRIVER_REGISTRATION"
+req.typenames: HID_MINIDRIVER_REGISTRATION, *PHID_MINIDRIVER_REGISTRATION
 ---
 
 # HidD_GetPreparsedData function
@@ -102,15 +102,15 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+
+
+
 <a href="..\hidsdi\nf-hidsdi-hidd_freepreparseddata.md">HidD_FreePreparsedData</a>
 
 
 
 <a href="..\hidclass\ni-hidclass-ioctl_hid_get_collection_descriptor.md">IOCTL_HID_GET_COLLECTION_DESCRIPTOR</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: audio\pcevent_request.htm
 old-project: audio
 ms.assetid: b28bd1c2-9fbe-4427-a4ba-5b79a338e913
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: PPCEVENT_REQUEST structure pointer [Audio Devices], portcls/PPCEVENT_REQUEST, portcls/PCEVENT_REQUEST, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, *PPCEVENT_REQUEST, PPCEVENT_REQUEST, _PCEVENT_REQUEST, PCEVENT_REQUEST, PCEVENT_REQUEST structure [Audio Devices], audio.pcevent_request
+ms.date: 2/22/2018
+ms.keywords: PCEVENT_REQUEST, audpc-struct_d60c4cf4-11e2-44b7-842a-65d965c8c422.xml, portcls/PPCEVENT_REQUEST, _PCEVENT_REQUEST, *PPCEVENT_REQUEST, audio.pcevent_request, PPCEVENT_REQUEST, portcls/PCEVENT_REQUEST, PPCEVENT_REQUEST structure pointer [Audio Devices], PCEVENT_REQUEST structure [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCEVENT_REQUEST
 product: Windows
 targetos: Windows
-req.typenames: PCEVENT_REQUEST, *PPCEVENT_REQUEST
+req.typenames: PCEVENT_REQUEST, *PPCEVENT_REQUEST, PCEVENT_REQUEST, *PPCEVENT_REQUEST
 ---
 
 # _PCEVENT_REQUEST structure
@@ -185,7 +185,7 @@ The handler can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636
 
 ## -see-also
 
-<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
 
 
 
@@ -193,11 +193,11 @@ The handler can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636
 
 
 
-<a href="..\portcls\nc-portcls-pcpfnevent_handler.md">EventHandler</a>
-
-
-
 <a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536886">IPortEvents::AddEventToEventList</a>
 
 
 
@@ -209,5 +209,5 @@ The handler can call <a href="https://msdn.microsoft.com/54d5ff80-18db-43f2-b636
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCEVENT_REQUEST structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCEVENT_REQUEST structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

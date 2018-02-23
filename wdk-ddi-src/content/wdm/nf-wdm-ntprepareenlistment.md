@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1597f27d-8d1e-445e-bc68-b7c151fd19d5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ZwPrepareEnlistment, wdm/NtPrepareEnlistment, ZwPrepareEnlistment routine [Kernel-Mode Driver Architecture], ktm_ref_2da2ab5a-1353-4598-9413-35f6bfc8ee31.xml, wdm/ZwPrepareEnlistment, kernel.zwprepareenlistment, NtPrepareEnlistment
+ms.keywords: ZwPrepareEnlistment routine [Kernel-Mode Driver Architecture], kernel.zwprepareenlistment, NtPrepareEnlistment, wdm/ZwPrepareEnlistment, ktm_ref_2da2ab5a-1353-4598-9413-35f6bfc8ee31.xml, wdm/NtPrepareEnlistment, ZwPrepareEnlistment
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,7 +190,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
+<a href="..\wdm\nf-wdm-tmprepareenlistment.md">TmPrepareEnlistment</a>
 
 
 
@@ -198,7 +198,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-tmprepareenlistment.md">TmPrepareEnlistment</a>
+<a href="..\wdm\nf-wdm-zwcreateenlistment.md">ZwCreateEnlistment</a>
 
 
 

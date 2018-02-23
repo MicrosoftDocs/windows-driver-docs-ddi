@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_KEYBOARD_DISCONNECT
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_SessionStatistics, MSiSCSI_SessionStatistics"
+req.typenames: MSiSCSI_SessionStatistics, *PMSiSCSI_SessionStatistics
 ---
 
 # IOCTL_INTERNAL_KEYBOARD_DISCONNECT IOCTL

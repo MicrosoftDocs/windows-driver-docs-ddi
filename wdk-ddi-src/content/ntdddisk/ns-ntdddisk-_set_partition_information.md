@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 882aedda-5ed5-43e0-a370-59a7c7e4c802
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION, _SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Storage Devices], storage.set_partition_information, structs-disk_b8b3121b-0001-4c1d-ac4d-1eeb1ce79dd3.xml, PSET_PARTITION_INFORMATION structure pointer [Storage Devices], ntdddisk/SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION_MBR, ntdddisk/PSET_PARTITION_INFORMATION
+ms.keywords: SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Storage Devices], structs-disk_b8b3121b-0001-4c1d-ac4d-1eeb1ce79dd3.xml, ntdddisk/SET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION structure pointer [Storage Devices], _SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION_MBR, ntdddisk/PSET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION, storage.set_partition_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,15 +83,11 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>
+<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info.md">IOCTL_DISK_SET_PARTITION_INFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
-
-
-
-<a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info.md">IOCTL_DISK_SET_PARTITION_INFO</a>
 
 
 
@@ -100,6 +96,10 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 
 <a href="..\ntdddisk\ns-ntdddisk-_set_partition_information_ex.md">SET_PARTITION_INFORMATION_EX</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>
 
 
 

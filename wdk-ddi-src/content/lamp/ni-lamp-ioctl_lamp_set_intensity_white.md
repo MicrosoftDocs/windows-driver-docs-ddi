@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_set_intensity_white.htm
 old-project: stream
 ms.assetid: 78541C4C-AA0E-4C1F-A7B5-E2A39DF5E2CE
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: stream.ioctl_lamp_set_intensity_white, IOCTL_LAMP_SET_INTENSITY_WHITE control code [Streaming Media Devices], IOCTL_LAMP_SET_INTENSITY_WHITE, lamp/IOCTL_LAMP_SET_INTENSITY_WHITE
 ms.prod: windows-hardware
 ms.technology: windows-devices

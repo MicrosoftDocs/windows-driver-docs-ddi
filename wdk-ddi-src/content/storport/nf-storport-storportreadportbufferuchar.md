@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8602efbf-8e90-43d3-992f-4d2ecbcc7043
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml, StorPortReadPortBufferUchar routine [Storage Devices], storage.storportreadportbufferuchar, storport/StorPortReadPortBufferUchar, StorPortReadPortBufferUchar
+ms.keywords: storport/StorPortReadPortBufferUchar, storage.storportreadportbufferuchar, storprt_e7304977-c32a-44c2-88ea-a08767ea5399.xml, StorPortReadPortBufferUchar routine [Storage Devices], StorPortReadPortBufferUchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -96,16 +96,6 @@ TBD
 
 
 
-#### - Buffer [in]
-
-Pointer to the buffer that receives the data that is read.
-
-
-#### - Count [in]
-
-Number of unsigned characters to be read. 
-
-
 #### - HwDeviceExtension [in]
 
 Pointer to the hardware device extension.
@@ -116,22 +106,32 @@ Pointer to the hardware device extension.
 Pointer to the address from which to read. 
 
 
+#### - Buffer [in]
+
+Pointer to the buffer that receives the data that is read.
+
+
+#### - Count [in]
+
+Number of unsigned characters to be read. 
+
+
 ## -remarks
 
 
 
-For more information, see the <a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>. 
+For more information, see the <a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a> routine. For a nonbuffered version of this routine, see <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>. 
 
 
 
 
 ## -see-also
 
-<a href="..\storport\nf-storport-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
-
-
-
 <a href="..\storport\nf-storport-storportreadportuchar.md">StorPortReadPortUchar</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportreadportbufferuchar.md">ScsiPortReadPortBufferUchar</a>
 
 
 

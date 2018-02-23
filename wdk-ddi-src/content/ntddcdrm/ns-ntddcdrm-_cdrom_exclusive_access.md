@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 95248a4a-1fc1-4985-baff-2fe77532d398
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddcdrm/CDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], *PCDROM_EXCLUSIVE_ACCESS, ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], storage.cdrom_exclusive_access, PCDROM_EXCLUSIVE_ACCESS
+ms.keywords: ntddcdrm/PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS structure [Storage Devices], ntddcdrm/CDROM_EXCLUSIVE_ACCESS, PCDROM_EXCLUSIVE_ACCESS, _CDROM_EXCLUSIVE_ACCESS, structs-CD-ROM_f9104134-3d0a-44fd-9a2d-9dd4e8a3636d.xml, PCDROM_EXCLUSIVE_ACCESS structure pointer [Storage Devices], *PCDROM_EXCLUSIVE_ACCESS, CDROM_EXCLUSIVE_ACCESS, storage.cdrom_exclusive_access
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

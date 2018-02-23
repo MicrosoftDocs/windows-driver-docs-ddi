@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 11d774b1-2af9-453e-b53e-c232d84bcbee
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdtfsystemaction/IWDTFSystemAction2::ConnectedStandby, Microsoft.WDTF.IWDTFSystemAction2.ConnectedStandby, ConnectedStandby, Microsoft::WDTF::IWDTFSystemAction2::ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], IWDTFSystemAction2, dtf.iwdtfsystemaction2_connectedstandby, IWDTFSystemAction2::ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], IWDTFSystemAction2 interface, IWDTFSystemAction2 interface [Windows Device Testing Framework], ConnectedStandby method
+ms.keywords: Microsoft::WDTF::IWDTFSystemAction2::ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], IWDTFSystemAction2 interface, dtf.iwdtfsystemaction2_connectedstandby, ConnectedStandby, IWDTFSystemAction2, wdtfsystemaction/IWDTFSystemAction2::ConnectedStandby, Microsoft.WDTF.IWDTFSystemAction2.ConnectedStandby, ConnectedStandby method [Windows Device Testing Framework], IWDTFSystemAction2::ConnectedStandby, IWDTFSystemAction2 interface [Windows Device Testing Framework], ConnectedStandby method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

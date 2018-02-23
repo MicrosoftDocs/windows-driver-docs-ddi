@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
   The <b>IPnpCallbackHardware2</b>  interface exposes callback methods related to hardware.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IPnpCallbackHardware2</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IPnpCallbackHardware2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IPnpCallbackHardware2</b> interface has these methods.
@@ -83,13 +90,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnRel
 
 </td>
 </tr>
-</table>
-   The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439734">OnPrepareHardware</a> method performs any operations that are needed to make a device accessible to the driver.
-  
-
-The <a href="https://msdn.microsoft.com/library/windows/hardware/hh439739">OnReleaseHardware</a> method performs operations that are needed when a device is no longer accessible.
-
- 
+</table> 
 
 
 ## -see-also

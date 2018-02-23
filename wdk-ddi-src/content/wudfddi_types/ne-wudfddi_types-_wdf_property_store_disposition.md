@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 107b55f5-0c06-45cc-9cbb-ba9e2fbca1e4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdf_property_store_disposition, WDF_PROPERTY_STORE_DISPOSITION enumeration, CreatedNewStore, wudfddi_types/WDF_PROPERTY_STORE_DISPOSITION, umdfstructs_a25f5c08-88c9-41c0-9bab-023ea91d0a22.xml, OpenedExistingStore, _WDF_PROPERTY_STORE_DISPOSITION, wudfddi_types/OpenedExistingStore, umdf.wdf_property_store_disposition, wudfddi_types/CreatedNewStore, WDF_PROPERTY_STORE_DISPOSITION
+ms.keywords: umdf.wdf_property_store_disposition, umdfstructs_a25f5c08-88c9-41c0-9bab-023ea91d0a22.xml, wudfddi_types/WDF_PROPERTY_STORE_DISPOSITION, wudfddi_types/OpenedExistingStore, CreatedNewStore, wudfddi_types/CreatedNewStore, wdf.wdf_property_store_disposition, WDF_PROPERTY_STORE_DISPOSITION enumeration, WDF_PROPERTY_STORE_DISPOSITION, OpenedExistingStore, _WDF_PROPERTY_STORE_DISPOSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -92,7 +92,7 @@ The <b>WDF_PROPERTY_STORE_DISPOSITION</b> enumeration is used as output from the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
 
 
 

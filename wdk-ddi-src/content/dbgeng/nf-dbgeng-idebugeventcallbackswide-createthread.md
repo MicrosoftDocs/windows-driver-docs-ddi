@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::CreateThread method
 author: windows-driver-content
 description: The CreateThread callback method is called by the engine when a create-threaddebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_createthread.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: d845777c-1bc9-4ab3-9bfc-211f2231971e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide interface [Windows Debugging], CreateThread method, CreateThread method [Windows Debugging], IDebugEventCallbacksWide, CreateThread, dbgeng/IDebugEventCallbacksWide::CreateThread, debugger.idebugeventcallbackswide_createthread, IDebugEventCallbacksWide::CreateThread, CreateThread method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.date: 2/22/2018
+ms.keywords: CreateThread, debugger.idebugeventcallbackswide_createthread, CreateThread method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::CreateThread, IDebugEventCallbacksWide interface [Windows Debugging], CreateThread method, CreateThread method [Windows Debugging], IDebugEventCallbacksWide::CreateThread, IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

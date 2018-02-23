@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfreq
 old-project: display
 ms.assetid: b5490af8-ef25-4d5c-9154-08660e3d8780
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.dxgk_monitorfrequencyrangeset_interface_pfnacquirenextfrequencyrangein, (*pfnAcquireNextFrequencyRangeInfo) callback function [Display Devices], (*pfnAcquireNextFrequencyRangeInfo), DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIRENEXTFREQUENCYRANGEINFO, d3dkmddi/(*pfnAcquireNextFrequencyRangeInfo), VidPnFunctions_13c43302-1e13-4844-8c04-3755f89af477.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

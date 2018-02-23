@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 86e04896-2921-4f77-9bee-283ceb9a66bc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, ntifs/ZwFlushVirtualMemory, kernel.zwflushvirtualmemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], NtFlushVirtualMemory, ZwFlushVirtualMemory, ntifs/NtFlushVirtualMemory
+ms.keywords: ntifs/NtFlushVirtualMemory, ZwFlushVirtualMemory routine [Kernel-Mode Driver Architecture], ZwFlushVirtualMemory, NtFlushVirtualMemory, k111_536d2679-dc41-490f-be7b-171e0208a1fd.xml, kernel.zwflushvirtualmemory, ntifs/ZwFlushVirtualMemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

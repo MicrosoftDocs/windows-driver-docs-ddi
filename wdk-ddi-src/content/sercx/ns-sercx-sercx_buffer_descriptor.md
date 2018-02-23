@@ -8,7 +8,7 @@ old-project: serports
 ms.assetid: 0F13A5B2-CD35-4127-B2E3-F4027D098CB2
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: SERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], 1/PSERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR, serports.sercx_buffer_descriptor, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], PSERCX_BUFFER_DESCRIPTOR, 1/SERCX_BUFFER_DESCRIPTOR
+ms.keywords: "*PSERCX_BUFFER_DESCRIPTOR, PSERCX_BUFFER_DESCRIPTOR structure pointer [Serial Ports], PSERCX_BUFFER_DESCRIPTOR, serports.sercx_buffer_descriptor, 1/SERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR structure [Serial Ports], 1/PSERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_BUFFER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PSERCX_BUFFER_DESCRIPTOR, SERCX_BUFFER_DESCRIPTOR"
+req.typenames: SERCX_BUFFER_DESCRIPTOR, *PSERCX_BUFFER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -102,11 +102,11 @@ The controller driver must call the <a href="..\sercx\nf-sercx-sercx_buffer_desc
 
 ## -see-also
 
-<a href="..\sercx\nf-sercx-sercx_buffer_descriptor_init.md">SERCX_BUFFER_DESCRIPTOR_INIT</a>
-
-
-
 <a href="..\sercx\nf-sercx-sercxretrievereceivebuffer.md">SerCxRetrieveReceiveBuffer</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercxretrievetransmitbuffer.md">SerCxRetrieveTransmitBuffer</a>
 
 
 

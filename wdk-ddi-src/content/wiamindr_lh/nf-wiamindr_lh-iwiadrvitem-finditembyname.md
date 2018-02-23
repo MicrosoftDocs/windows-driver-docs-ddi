@@ -4,11 +4,11 @@ title: IWiaDrvItem::FindItemByName method
 author: windows-driver-content
 description: The IWiaDrvItem::FindItemByName method locates an item in a driver item tree by the item's full name.
 old-location: image\iwiadrvitem_finditembyname.htm
-old-project: Image
+old-project: image
 ms.assetid: 59a77753-1f34-4224-af11-c6bbfa847619
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: FindItemByName method [Imaging Devices], wiamindr_lh/IWiaDrvItem::FindItemByName, FindItemByName, DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, IWiaDrvItem, FindItemByName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem interface [Imaging Devices], FindItemByName method, IWiaDrvItem::FindItemByName, image.iwiadrvitem_finditembyname
+ms.date: 2/22/2018
+ms.keywords: FindItemByName, FindItemByName method [Imaging Devices], image.iwiadrvitem_finditembyname, FindItemByName method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], FindItemByName method, wiamindr_lh/IWiaDrvItem::FindItemByName, DrvItem_d3717889-b428-4dbc-8ef9-c501a52f3328.xml, IWiaDrvItem::FindItemByName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -87,14 +87,14 @@ HRESULT FindItemByName(
 
 
 
-#### - bstrFullItemName [in]
-
-Specifies the full name of the item to find.
-
-
 #### - lFlags [in]
 
 Reserved. Set to zero. 
+
+
+#### - bstrFullItemName [in]
+
+Specifies the full name of the item to find.
 
 
 #### - ppItem [out, optional]
@@ -124,6 +124,10 @@ This method starts the search for the specified item at the root item in the dri
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
+
+
+
 <a href="..\wiamindr_lh\nn-wiamindr_lh-iwiadrvitem.md">IWiaDrvItem</a>
 
 
@@ -132,13 +136,9 @@ This method starts the search for the specified item at the root item in the dri
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543881">IWiaDrvItem::GetFullItemName</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaDrvItem::FindItemByName method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::FindItemByName method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

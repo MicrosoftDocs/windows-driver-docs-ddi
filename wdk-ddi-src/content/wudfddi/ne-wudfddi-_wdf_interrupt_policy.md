@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 88f8f10d-bf1e-49bc-99c7-95a5e69c17e1
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: PWDF_INTERRUPT_POLICY, WdfIrqPolicyOneCloseProcessor, WdfIrqPolicySpreadMessagesAcrossAllProcessors, wdfinterrupt/PWDF_INTERRUPT_POLICY, _WDF_INTERRUPT_POLICY, WdfIrqPolicySpecifiedProcessors, PWDF_INTERRUPT_POLICY enumeration pointer, DFInterruptObjectRef_e8b207c7-1a4a-4537-9aba-070ddcc426c1.xml, WdfIrqPolicyAllProcessorsInMachine, kmdf.wdf_interrupt_policy, WdfIrqPolicyMachineDefault, WDF_INTERRUPT_POLICY enumeration, wdfinterrupt/WdfIrqPolicySpecifiedProcessors, WdfIrqPolicyAllCloseProcessors, wdfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, *PWDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyAllCloseProcessors, wdfinterrupt/WdfIrqPolicyAllProcessorsInMachine, wdfinterrupt/WdfIrqPolicyOneCloseProcessor, WDF_INTERRUPT_POLICY, wdfinterrupt/WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyMachineDefault, wdf.wdf_interrupt_policy
+ms.keywords: kmdf.wdf_interrupt_policy, wdfinterrupt/PWDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyAllCloseProcessors, WDF_INTERRUPT_POLICY enumeration, WdfIrqPolicySpreadMessagesAcrossAllProcessors, PWDF_INTERRUPT_POLICY, WdfIrqPolicyAllProcessorsInMachine, WdfIrqPolicyMachineDefault, wdfinterrupt/WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicySpecifiedProcessors, wdf.wdf_interrupt_policy, WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicyMachineDefault, _WDF_INTERRUPT_POLICY, wdfinterrupt/WdfIrqPolicySpreadMessagesAcrossAllProcessors, wdfinterrupt/WdfIrqPolicyAllProcessorsInMachine, PWDF_INTERRUPT_POLICY enumeration pointer, WdfIrqPolicySpecifiedProcessors, WdfIrqPolicyOneCloseProcessor, DFInterruptObjectRef_e8b207c7-1a4a-4537-9aba-070ddcc426c1.xml, wdfinterrupt/WdfIrqPolicyOneCloseProcessor, WdfIrqPolicyAllCloseProcessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_INTERRUPT_POLICY
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_INTERRUPT_POLICY, WDF_INTERRUPT_POLICY"
+req.typenames: WDF_INTERRUPT_POLICY, *PWDF_INTERRUPT_POLICY
 req.product: Windows 10 or later.
 ---
 

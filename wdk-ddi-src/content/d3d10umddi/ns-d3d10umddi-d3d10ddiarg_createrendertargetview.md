@@ -7,8 +7,8 @@ old-location: display\d3d10ddiarg_createrendertargetview.htm
 old-project: display
 ms.assetid: 2d21aacb-3b2b-4c33-ac35-9f15c1fa8171
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: UMDisplayDriver_Dx10param_Structs_615cce2f-8ea4-4adc-9d7a-907414217ffc.xml, D3D10DDIARG_CREATERENDERTARGETVIEW, display.d3d10ddiarg_createrendertargetview, D3D10DDIARG_CREATERENDERTARGETVIEW structure [Display Devices], d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW
+ms.date: 2/22/2018
+ms.keywords: D3D10DDIARG_CREATERENDERTARGETVIEW structure [Display Devices], display.d3d10ddiarg_createrendertargetview, UMDisplayDriver_Dx10param_Structs_615cce2f-8ea4-4adc-9d7a-907414217ffc.xml, D3D10DDIARG_CREATERENDERTARGETVIEW, d3d10umddi/D3D10DDIARG_CREATERENDERTARGETVIEW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,15 +118,11 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 ## -see-also
 
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createrendertargetview.md">CreateRenderTargetView</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
 
 
 
@@ -134,19 +130,23 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
 
 
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_rendertargetview.md">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a>
+
+
+
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_calcprivaterendertargetviewsize.md">CalcPrivateRenderTargetViewSize</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff541810">D3D10DDIRESOURCE_TYPE</a>
+
+
+
 <a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_buffer_rendertargetview.md">D3D10DDIARG_BUFFER_RENDERTARGETVIEW</a>
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_rendertargetview.md">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex1d_rendertargetview.md">D3D10DDIARG_TEX1D_RENDERTARGETVIEW</a>
-
-
-
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_tex2d_rendertargetview.md">D3D10DDIARG_TEX2D_RENDERTARGETVIEW</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_texcube_rendertargetview.md">D3D10DDIARG_TEXCUBE_RENDERTARGETVIEW</a>
 
 
 
@@ -154,5 +154,5 @@ typedef struct D3D10DDIARG_CREATERENDERTARGETVIEW {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10DDIARG_CREATERENDERTARGETVIEW structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D10DDIARG_CREATERENDERTARGETVIEW structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

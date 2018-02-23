@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 99F65058-8718-4D2A-9C7F-D442BA8DA527
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ENDPOINT_RESET, P_ENDPOINT_RESET structure pointer [Buses], *PENDPOINT_RESET, ENDPOINT_RESET structure [Buses], P_ENDPOINT_RESET, ucxendpoint/P_ENDPOINT_RESET, buses._endpoint_reset, ucxendpoint/_ENDPOINT_RESET, _ENDPOINT_RESET
+ms.keywords: "*PENDPOINT_RESET, buses._endpoint_reset, ucxendpoint/_ENDPOINT_RESET, ucxendpoint/P_ENDPOINT_RESET, _ENDPOINT_RESET, ENDPOINT_RESET structure [Buses], P_ENDPOINT_RESET structure pointer [Buses], P_ENDPOINT_RESET, ENDPOINT_RESET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

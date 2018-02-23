@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 4ACCA041-C638-4124-AFC1-3F34671C9EF8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPO_FX_COMPONENT_V2, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], PO_FX_COMPONENT, PO_FX_COMPONENT_V1, *PPO_FX_COMPONENT, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], wdm/PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2, kernel.po_fx_component, *PPO_FX_COMPONENT_V1, _PO_FX_COMPONENT_V1, wdm/PPO_FX_COMPONENT_V2, wdm/PO_FX_COMPONENT
+ms.keywords: "_PO_FX_COMPONENT_V1, kernel.po_fx_component, PPO_FX_COMPONENT_V2, wdm/PPO_FX_COMPONENT_V2, PO_FX_COMPONENT_V1, PO_FX_COMPONENT structure [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT, PO_FX_COMPONENT, wdm/PO_FX_COMPONENT, PO_FX_COMPONENT_V2, wdm/PO_FX_COMPONENT_V2, PO_FX_COMPONENT_V2 structure [Kernel-Mode Driver Architecture], PPO_FX_COMPONENT_V2 structure pointer [Kernel-Mode Driver Architecture], *PPO_FX_COMPONENT_V1"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PO_FX_COMPONENT_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_COMPONENT_V1, PO_FX_COMPONENT_V1"
+req.typenames: PO_FX_COMPONENT_V1, *PPO_FX_COMPONENT_V1
 req.product: Windows 10 or later.
 ---
 
@@ -142,10 +142,6 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_idle_state.md">PO_FX_COMPONENT_IDLE_STATE</a>
 
 
@@ -154,9 +150,7 @@ When the component transitions to the idle state, PoFx first makes the dependent
 
 
 
-
-
-<a href="..\wdm\ns-wdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_device_v1.md">PO_FX_DEVICE</a>
 
 
 

@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
+req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---
 
 # IOCTL_CAD_POWER_SOURCE_UPDATE_EX IOCTL

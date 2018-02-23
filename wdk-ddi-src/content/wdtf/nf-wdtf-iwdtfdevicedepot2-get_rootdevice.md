@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: c0d055fb-16d0-41d4-a4d7-af7505f3f7d8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdtf/IWDTFDeviceDepot2::get_RootDevice, Microsoft.WDTF.IWDTFDeviceDepot2.RootDevice, RootDevice property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface, Microsoft::WDTF::IWDTFDeviceDepot2::RootDevice, get_RootDevice, dtf.iwdtfdevicedepot2_rootdevice, RootDevice property [Windows Device Testing Framework], wdtf/IWDTFDeviceDepot2::RootDevice, IWDTFDeviceDepot2, IWDTFDeviceDepot2.RootDevice, IWDTFDeviceDepot2::get_RootDevice, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], RootDevice property
+ms.keywords: wdtf/IWDTFDeviceDepot2::get_RootDevice, IWDTFDeviceDepot2, dtf.iwdtfdevicedepot2_rootdevice, Microsoft::WDTF::IWDTFDeviceDepot2::RootDevice, IWDTFDeviceDepot2::get_RootDevice, get_RootDevice, Microsoft.WDTF.IWDTFDeviceDepot2.RootDevice, IWDTFDeviceDepot2 interface [Windows Device Testing Framework], RootDevice property, IWDTFDeviceDepot2.RootDevice, RootDevice property [Windows Device Testing Framework], wdtf/IWDTFDeviceDepot2::RootDevice, RootDevice property [Windows Device Testing Framework], IWDTFDeviceDepot2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

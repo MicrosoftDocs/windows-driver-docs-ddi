@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 75a0e9ef-0791-4465-b671-36c86dc9116a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals, *PUCMTCPCI_DRIVER_GLOBALS, _UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses]
+ms.keywords: ucmtcpciglobals/UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS, UCMTCPCI_DRIVER_GLOBALS structure [Buses], _UCMTCPCI_DRIVER_GLOBALS, buses.ucmtcpci_driver_globals, *PUCMTCPCI_DRIVER_GLOBALS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

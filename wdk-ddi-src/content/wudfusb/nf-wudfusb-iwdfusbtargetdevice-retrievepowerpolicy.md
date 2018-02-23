@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e15561e3-ba3d-4c65-bb6e-d90f3fab22af
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, RetrievePowerPolicy method, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy, umdf.iwdfusbtargetdevice_retrievepowerpolicy, IWDFUsbTargetDevice, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml
+ms.keywords: IWDFUsbTargetDevice, IWDFUsbTargetDevice interface, RetrievePowerPolicy method, wudfusb/IWDFUsbTargetDevice::RetrievePowerPolicy, UMDFUSBref_50da7595-0735-475b-863e-33a689f4fc2b.xml, RetrievePowerPolicy, IWDFUsbTargetDevice::RetrievePowerPolicy, RetrievePowerPolicy method, IWDFUsbTargetDevice interface, umdf.iwdfusbtargetdevice_retrievepowerpolicy, wdf.iwdfusbtargetdevice_retrievepowerpolicy, RetrievePowerPolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetDevice.RetrievePowerPolicy
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -160,7 +160,7 @@ The <b>RetrievePowerPolicy</b> method generates a UMDF request and synchronously
 
 
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetdevice.md">IWDFUsbTargetDevice</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540275">WinUsb_GetPowerPolicy</a>
 
 
 

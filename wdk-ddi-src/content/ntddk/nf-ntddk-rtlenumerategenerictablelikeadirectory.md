@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 206c8b70-575d-47e2-a03d-4c88e0d92fe0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml, ifsk.rtlenumerategenerictablelikeadirectory, ntddk/RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers]
+ms.keywords: ifsk.rtlenumerategenerictablelikeadirectory, RtlEnumerateGenericTableLikeADirectory routine [Installable File System Drivers], RtlEnumerateGenericTableLikeADirectory, ntddk/RtlEnumerateGenericTableLikeADirectory, rtlref_7a5f2110-e171-4273-9928-9a8471f4e933.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RtlEnumerateGenericTableLikeADirectory
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlEnumerateGenericTableLikeADirectory function

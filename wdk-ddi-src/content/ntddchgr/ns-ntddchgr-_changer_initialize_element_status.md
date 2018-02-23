@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fd26a97d-cbea-4ab4-b54e-1831d6e3a8ed
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CHANGER_INITIALIZE_ELEMENT_STATUS, storage.changer_initialize_element_status, _CHANGER_INITIALIZE_ELEMENT_STATUS, *PCHANGER_INITIALIZE_ELEMENT_STATUS, structs-changer_94235bd7-09e6-47a1-b30c-0d5d12ca7917.xml, CHANGER_INITIALIZE_ELEMENT_STATUS structure [Storage Devices], ntddchgr/CHANGER_INITIALIZE_ELEMENT_STATUS, ntddchgr/PCHANGER_INITIALIZE_ELEMENT_STATUS, PCHANGER_INITIALIZE_ELEMENT_STATUS structure pointer [Storage Devices], PCHANGER_INITIALIZE_ELEMENT_STATUS
+ms.keywords: ntddchgr/CHANGER_INITIALIZE_ELEMENT_STATUS, ntddchgr/PCHANGER_INITIALIZE_ELEMENT_STATUS, *PCHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS, structs-changer_94235bd7-09e6-47a1-b30c-0d5d12ca7917.xml, CHANGER_INITIALIZE_ELEMENT_STATUS structure [Storage Devices], _CHANGER_INITIALIZE_ELEMENT_STATUS, PCHANGER_INITIALIZE_ELEMENT_STATUS, PCHANGER_INITIALIZE_ELEMENT_STATUS structure pointer [Storage Devices], storage.changer_initialize_element_status
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANGER_INITIALIZE_ELEMENT_STATUS
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANGER_INITIALIZE_ELEMENT_STATUS, CHANGER_INITIALIZE_ELEMENT_STATUS"
+req.typenames: CHANGER_INITIALIZE_ELEMENT_STATUS, *PCHANGER_INITIALIZE_ELEMENT_STATUS
 ---
 
 # _CHANGER_INITIALIZE_ELEMENT_STATUS structure
@@ -80,7 +80,11 @@ Instructs the changer driver, when <b>TRUE</b>, to initialize elements by scanni
 
 ## -see-also
 
-<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
 
 
 
@@ -88,11 +92,7 @@ Instructs the changer driver, when <b>TRUE</b>, to initialize elements by scanni
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_initialize_element_status.md">IOCTL_CHANGER_INITIALIZE_ELEMENT_STATUS</a>
+<a href="..\mcd\nf-mcd-changerinitializeelementstatus.md">ChangerInitializeElementStatus</a>
 
 
 

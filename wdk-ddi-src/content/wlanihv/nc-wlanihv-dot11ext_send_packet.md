@@ -40,7 +40,7 @@ apiname:
 -	Dot11ExtSendPacket
 product: Windows
 targetos: Windows
-req.typenames: "*LPDRIVER_INFO_8W, DRIVER_INFO_8W, *PDRIVER_INFO_8W"
+req.typenames: DRIVER_INFO_8W, *PDRIVER_INFO_8W, *LPDRIVER_INFO_8W
 req.product: Windows 10 or later.
 ---
 
@@ -174,8 +174,6 @@ This packet data is passed to the miniport driver.
 
 ## -see-also
 
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/native-802-11-ihv-handler-functions">Native 802.11 IHV Handler
    Functions</a>
 
@@ -185,12 +183,12 @@ This packet data is passed to the miniport driver.
 
 
 
-<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
-
-
-
 <a href="..\wlanihv\nc-wlanihv-dot11extihv_send_packet_completion.md">
    Dot11ExtIhvSendPacketCompletion</a>
+
+
+
+<a href="https://technet.microsoft.com/en-us/library/cc757419">802.11 MAC Header Management</a>
 
 
 

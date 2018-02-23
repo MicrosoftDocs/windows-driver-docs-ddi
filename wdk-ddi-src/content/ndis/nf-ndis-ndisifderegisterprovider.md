@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 90e921e3-b384-495b-8cb6-74596d060ec0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisIfDeregisterProvider, netvista.ndisifderegisterprovider, ndis/NdisIfDeregisterProvider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml, NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista]
+ms.keywords: NdisIfDeregisterProvider function [Network Drivers Starting with Windows Vista], netvista.ndisifderegisterprovider, ndis/NdisIfDeregisterProvider, NdisIfDeregisterProvider, net_if_functions_ref_7e9c9d72-3b55-4001-9848-c79608608c82.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisIfDeregisterProvider
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisIfDeregisterProvider function
@@ -111,11 +111,11 @@ The provider must not use the provider handle that it passed at the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisifregisterprovider.md">NdisIfRegisterProvider</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisifderegisterinterface.md">NdisIfDeregisterInterface</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: f65789b6-b2d1-4e5d-92b3-10730e76661a
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usb_hub_information, USB_HUB_INFORMATION structure [Buses], _USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml, PUSB_HUB_INFORMATION structure pointer [Buses], *PUSB_HUB_INFORMATION, usbioctl/PUSB_HUB_INFORMATION, usbioctl/USB_HUB_INFORMATION, USB_HUB_INFORMATION, PUSB_HUB_INFORMATION
+ms.keywords: "*PUSB_HUB_INFORMATION, USB_HUB_INFORMATION, usbstrct_3997108b-7c0b-419e-80e8-fadab455a2f5.xml, _USB_HUB_INFORMATION, usbioctl/PUSB_HUB_INFORMATION, PUSB_HUB_INFORMATION, usbioctl/USB_HUB_INFORMATION, USB_HUB_INFORMATION structure [Buses], PUSB_HUB_INFORMATION structure pointer [Buses], buses.usb_hub_information"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_HUB_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_HUB_INFORMATION, USB_HUB_INFORMATION"
+req.typenames: USB_HUB_INFORMATION, *PUSB_HUB_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -81,7 +81,7 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
 
 
 
@@ -89,7 +89,7 @@ A Boolean value that indicates whether the hub is bus-powered. <b>TRUE</b>, the 
 
 
 
-<a href="..\usbioctl\ns-usbioctl-_usb_node_information.md">USB_NODE_INFORMATION</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 

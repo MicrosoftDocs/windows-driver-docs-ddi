@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 8bad169a-3a89-460d-9e6e-e8c1994970a8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetRequestorProcessId, IWDFIoRequest interface, GetRequestorProcessId method, UMDFRequestObjectRef_9464f328-c7a7-4126-896c-69bc4ab0b5ba.xml, IWDFIoRequest::GetRequestorProcessId, wudfddi/IWDFIoRequest::GetRequestorProcessId, IWDFIoRequest, GetRequestorProcessId method, umdf.iwdfiorequest_getrequestorprocessid, GetRequestorProcessId method, IWDFIoRequest interface, wdf.iwdfiorequest_getrequestorprocessid
+ms.keywords: wdf.iwdfiorequest_getrequestorprocessid, GetRequestorProcessId method, IWDFIoRequest interface, GetRequestorProcessId, umdf.iwdfiorequest_getrequestorprocessid, wudfddi/IWDFIoRequest::GetRequestorProcessId, UMDFRequestObjectRef_9464f328-c7a7-4126-896c-69bc4ab0b5ba.xml, IWDFIoRequest interface, GetRequestorProcessId method, IWDFIoRequest::GetRequestorProcessId, GetRequestorProcessId method, IWDFIoRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

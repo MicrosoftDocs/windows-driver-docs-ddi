@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9A315227-7305-4068-81DE-BD25F733E650
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: fwpsk/FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0, netvista.fwpsdereferencevswitchpacketcontext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.fwpsdereferencevswitchpacketcontext0, fwpsk/FwpsDereferencevSwitchPacketContext0, FwpsDereferencevSwitchPacketContext0 function [Network Drivers Starting with Windows Vista], FwpsDereferencevSwitchPacketContext0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

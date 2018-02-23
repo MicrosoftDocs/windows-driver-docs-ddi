@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 045c45fe-c971-4d41-a43d-415c2a4d464b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/WmiTraceMessage, WmiTraceMessage routine [Kernel-Mode Driver Architecture], k902_114717ae-d439-4ddd-b939-913795610dee.xml, WmiTraceMessage, kernel.wmitracemessage
+ms.keywords: wdm/WmiTraceMessage, k902_114717ae-d439-4ddd-b939-913795610dee.xml, WmiTraceMessage routine [Kernel-Mode Driver Architecture], kernel.wmitracemessage, WmiTraceMessage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -250,11 +250,7 @@ All message buffers allocated to software tracing session are full.
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
-
-
-
-<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 
 
@@ -262,11 +258,15 @@ All message buffers allocated to software tracing session are full.
 
 
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
+<a href="..\wdm\nf-wdm-wmiquerytraceinformation.md">WmiQueryTraceInformation</a>
 
 
 
 <a href="..\wdm\nf-wdm-wmitracemessageva.md">WmiTraceMessageVa</a>
+
+
+
+<a href="..\wdm\ne-wdm-_trace_information_class.md">TRACE_INFORMATION_CLASS</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 89cc86aa-8ab0-4614-b92d-a1c627490d8d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, ZwDuplicateToken function [Kernel-Mode Driver Architecture], NtDuplicateToken, ZwDuplicateToken, kernel.zwduplicatetoken, ntifs/ZwDuplicateToken, ntifs/NtDuplicateToken
+ms.keywords: ZwDuplicateToken function [Kernel-Mode Driver Architecture], ZwDuplicateToken, k111_5c46bc83-ec51-45f5-a3fc-e199f91d58ce.xml, NtDuplicateToken, kernel.zwduplicatetoken, ntifs/ZwDuplicateToken, ntifs/NtDuplicateToken
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -495,7 +495,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -503,7 +503,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

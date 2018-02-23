@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e3305a9c-8107-4631-974b-fe85779ec8dc
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, PWDF_INTERRUPT_PRIORITY enumeration pointer, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, WDF_INTERRUPT_PRIORITY enumeration, wdfinterrupt/WdfIrqPriorityHigh, _WDF_INTERRUPT_PRIORITY, wdf.wdf_interrupt_priority, WDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityLow, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, kmdf.wdf_interrupt_priority, wdfinterrupt/WdfIrqPriorityUndefined, wdfinterrupt/WdfIrqPriorityNormal, *PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityLow, wdfinterrupt/WDF_INTERRUPT_PRIORITY
+ms.keywords: WdfIrqPriorityUndefined, WDF_INTERRUPT_PRIORITY enumeration, WdfIrqPriorityHigh, _WDF_INTERRUPT_PRIORITY, wdfinterrupt/WDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityLow, wdfinterrupt/PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityNormal, wdfinterrupt/WdfIrqPriorityUndefined, wdfinterrupt/WdfIrqPriorityNormal, WDF_INTERRUPT_PRIORITY, PWDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY, wdfinterrupt/WdfIrqPriorityHigh, wdf.wdf_interrupt_priority, DFInterruptObjectRef_924e187c-58f4-4616-a505-6d1c03779f02.xml, kmdf.wdf_interrupt_priority, PWDF_INTERRUPT_PRIORITY enumeration pointer, WdfIrqPriorityLow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

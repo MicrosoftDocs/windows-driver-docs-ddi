@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b66652b7-2e02-49f5-a7e3-60ff35363a19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisCancelTimerObject, NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], netvista.ndiscanceltimerobject, ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, NdisCancelTimerObject
+ms.keywords: NdisCancelTimerObject function [Network Drivers Starting with Windows Vista], ndis_timer_ref_39b68ae4-4fd7-4609-aebc-e2be21bead04.xml, ndis/NdisCancelTimerObject, netvista.ndiscanceltimerobject, NdisCancelTimerObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisCancelTimerObject
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisCancelTimerObject function
@@ -128,15 +128,15 @@ For more information, see <a href="https://docs.microsoft.com/en-us/windows-hard
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
+
 <a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 

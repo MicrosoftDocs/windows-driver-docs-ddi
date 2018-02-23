@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyMachineDefault, IrqPolicySpecifiedProcessors, wdm/IrqPolicySpecifiedProcessors, IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyAllCloseProcessors, _IRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], *PIRQ_DEVICE_POLICY, IrqPolicyOneCloseProcessor, wdm/PIRQ_DEVICE_POLICY, kernel.irq_device_policy, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyMachineDefault, PIRQ_DEVICE_POLICY, IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyOneCloseProcessor, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, IrqPolicyAllCloseProcessors
+ms.keywords: wdm/PIRQ_DEVICE_POLICY, IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyAllProcessorsInMachine, IrqPolicySpecifiedProcessors, wdm/IrqPolicySpecifiedProcessors, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], PIRQ_DEVICE_POLICY, IrqPolicyAllProcessorsInMachine, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IRQ_DEVICE_POLICY, wdm/IrqPolicyMachineDefault, *PIRQ_DEVICE_POLICY, IrqPolicyOneCloseProcessor, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, _IRQ_DEVICE_POLICY, wdm/IrqPolicyAllCloseProcessors, IRQ_DEVICE_POLICY, IrqPolicyMachineDefault, wdm/IrqPolicyOneCloseProcessor, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], kernel.irq_device_policy, IrqPolicyAllCloseProcessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	IRQ_DEVICE_POLICY
 product: Windows
 targetos: Windows
-req.typenames: "*PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY"
+req.typenames: IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY
 req.product: Windows 10 or later.
 ---
 
@@ -112,14 +112,14 @@ The operating system should assign different message-signaled interrupts to diff
 
 
 
-The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
+The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
 
 
 
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 

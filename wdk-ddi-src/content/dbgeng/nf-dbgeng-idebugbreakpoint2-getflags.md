@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::GetFlags method
 author: windows-driver-content
 description: The GetFlags method returns the flags for a breakpoint.
 old-location: debugger\getflags.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 0137a872-63e9-4630-86fa-accfaa9b6d6b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint::GetFlags, ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, GetFlags method [Windows Debugging], debugger.getflags, GetFlags, IDebugBreakpoint2, dbgeng/IDebugBreakpoint::GetFlags, IDebugBreakpoint interface [Windows Debugging], GetFlags method, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint, IDebugBreakpoint2::GetFlags, dbgeng/IDebugBreakpoint2::GetFlags, IDebugBreakpoint2 interface [Windows Debugging], GetFlags method
+ms.date: 2/22/2018
+ms.keywords: GetFlags method [Windows Debugging], IDebugBreakpoint interface, IDebugBreakpoint2, ComOther_5898a703-87fb-4d47-9d06-026783243e10.xml, IDebugBreakpoint2::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint2::GetFlags, IDebugBreakpoint, GetFlags, debugger.getflags, IDebugBreakpoint::GetFlags, IDebugBreakpoint interface [Windows Debugging], GetFlags method, dbgeng/IDebugBreakpoint::GetFlags, GetFlags method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetFlags method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

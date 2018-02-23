@@ -4,10 +4,10 @@ title: PWINDBG_SET_THREAD_CONTEXT_ROUTINE
 author: windows-driver-content
 description: The PWINDBG_SET_THREAD_CONTEXT_ROUTINE (SetContext) function is similar to the Win32 SetThreadContext routine. It sets the context of the process being debugged.
 old-location: debugger\setcontext.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ca40f869-2b6e-4317-b568-09c5962b629a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
+ms.date: 2/22/2018
 ms.keywords: debugger.setcontext, SetContext, SetContext callback function [Windows Debugging], SetContext, PWINDBG_SET_THREAD_CONTEXT_ROUTINE, PWINDBG_SET_THREAD_CONTEXT_ROUTINE, wdbgexts/SetContext, WdbgExts_Ref_1a94f80d-7df9-45d1-9bca-19a18a2efb22.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

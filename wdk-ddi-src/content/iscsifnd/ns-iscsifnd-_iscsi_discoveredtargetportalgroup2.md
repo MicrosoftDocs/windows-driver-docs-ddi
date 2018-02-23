@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d852f062-3090-4a7a-bdb8-9dde93257a90
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_ISCSI_DiscoveredTargetPortalGroup2, PISCSI_DiscoveredTargetPortalGroup2 structure pointer [Storage Devices], iscsifnd/ISCSI_DiscoveredTargetPortalGroup2, PISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2 structure [Storage Devices], iscsifnd/PISCSI_DiscoveredTargetPortalGroup2, structs-iSCSI_2135fea1-a4b9-401e-a7b3-9a1b1896fe28.xml, *PISCSI_DiscoveredTargetPortalGroup2, storage.iscsi_discoveredtargetportalgroup2"
+ms.keywords: "_ISCSI_DiscoveredTargetPortalGroup2, storage.iscsi_discoveredtargetportalgroup2, ISCSI_DiscoveredTargetPortalGroup2 structure [Storage Devices], *PISCSI_DiscoveredTargetPortalGroup2, PISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2, iscsifnd/ISCSI_DiscoveredTargetPortalGroup2, iscsifnd/PISCSI_DiscoveredTargetPortalGroup2, PISCSI_DiscoveredTargetPortalGroup2 structure pointer [Storage Devices], structs-iSCSI_2135fea1-a4b9-401e-a7b3-9a1b1896fe28.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_DiscoveredTargetPortalGroup2
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_DiscoveredTargetPortalGroup2, ISCSI_DiscoveredTargetPortalGroup2"
+req.typenames: ISCSI_DiscoveredTargetPortalGroup2, *PISCSI_DiscoveredTargetPortalGroup2
 ---
 
 # _ISCSI_DiscoveredTargetPortalGroup2 structure
@@ -103,7 +103,7 @@ The WMI tool suite automatically generates a declaration of the ISCSI_Discovered
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff561520">ISCSI_DiscoveredTargetPortalGroup2 WMI Class</a>
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
 
 
 

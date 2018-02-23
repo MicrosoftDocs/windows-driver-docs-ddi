@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 9CF6C8FC-869A-4667-9859-845BFF093549
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: SeEtwWriteKMCveEvent function [Display Devices], SeEtwWriteKMCveEvent, wdm/SeEtwWriteKMCveEvent, devtest.seetwwritekmcveevent
+ms.keywords: devtest.seetwwritekmcveevent, wdm/SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent, SeEtwWriteKMCveEvent function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

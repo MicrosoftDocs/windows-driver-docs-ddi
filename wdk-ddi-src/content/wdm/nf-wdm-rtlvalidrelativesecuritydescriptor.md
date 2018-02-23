@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1fb993f0-4289-4406-8a56-47b12c73f4e6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture], RtlValidRelativeSecurityDescriptor, wdm/RtlValidRelativeSecurityDescriptor, kernel.rtlvalidrelativesecuritydescriptor, k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml
+ms.keywords: kernel.rtlvalidrelativesecuritydescriptor, RtlValidRelativeSecurityDescriptor, wdm/RtlValidRelativeSecurityDescriptor, k109_b261fb47-147f-4e39-81fb-bdbc31d53681.xml, RtlValidRelativeSecurityDescriptor routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

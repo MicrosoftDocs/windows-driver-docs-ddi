@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 6E0E9BC9-9C84-4511-A28E-2BB2D6367F74
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: windot11/PDOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO, _DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO, netvista._dot11_wfd_device_info, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/ DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista]
+ms.keywords: windot11/ DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO, netvista._dot11_wfd_device_info, _DOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_DEVICE_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6d25f2fb-be77-480f-b07c-294ab8a4272e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: StorPortGetDeviceBase, storport/StorPortGetDeviceBase, storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml, storage.storportgetdevicebase, StorPortGetDeviceBase routine [Storage Devices]
+ms.keywords: StorPortGetDeviceBase, storprt_8be3e3d9-dae5-49cb-aa44-31d3be745045.xml, storage.storportgetdevicebase, StorPortGetDeviceBase routine [Storage Devices], storport/StorPortGetDeviceBase
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -81,17 +81,17 @@ A pointer to the hardware device extension. This is a per HBA storage area that 
 
 ### -param BusType [in]
 
-Specifies the interface type of the I/O bus on which the HBA is connected. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from the <b>AdapterInterfaceType</b> member of the input <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
+Specifies the interface type of the I/O bus on which the HBA is connected. The miniport driver's <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from the <b>AdapterInterfaceType</b> member of the input <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
 
 
 ### -param SystemIoBusNumber [in]
 
-Specifies the system-assigned number of the I/O bus on which the HBA is connected. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from the <b>SystemIoBusNumber</b> member of the input <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
+Specifies the system-assigned number of the I/O bus on which the HBA is connected. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from the <b>SystemIoBusNumber</b> member of the input <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a>.
 
 
 ### -param IoAddress [in]
 
-Specifies the bus-relative base address of a range used by the HBA. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from one of the <b>AccessRanges</b> elements in the <a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> if the port driver supplies range-configuration information. Otherwise, this address can be a value returned by <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a> or a miniport driver-supplied default value. Avoid using a base address of zero because its successful return status can conflict with the error status (<b>NULL</b>).
+Specifies the bus-relative base address of a range used by the HBA. The <a href="..\storport\nc-storport-hw_find_adapter.md">HwStorFindAdapter</a> routine obtains the value for this parameter from one of the <b>AccessRanges</b> elements in the <a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION</a> if the port driver supplies range-configuration information. Otherwise, this address can be a value returned by <a href="..\storport\nf-storport-storportgetbusdata.md">StorPortGetBusData</a> or a miniport driver-supplied default value. Avoid using a base address of zero because its successful return status can conflict with the error status (<b>NULL</b>).
 
 
 ### -param NumberOfBytes [in]

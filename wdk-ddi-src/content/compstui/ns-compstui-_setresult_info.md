@@ -7,8 +7,8 @@ old-location: print\setresult_info.htm
 old-project: print
 ms.assetid: 54701f88-1145-4a50-bf5a-36be1d88355d
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: compstui/PSETRESULT_INFO, *PSETRESULT_INFO, SETRESULT_INFO structure [Print Devices], compstui/SETRESULT_INFO, print.setresult_info, _SETRESULT_INFO, SETRESULT_INFO, PSETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, PSETRESULT_INFO structure pointer [Print Devices]
+ms.date: 2/22/2018
+ms.keywords: compstui/SETRESULT_INFO, *PSETRESULT_INFO, PSETRESULT_INFO structure pointer [Print Devices], compstui/PSETRESULT_INFO, SETRESULT_INFO structure [Print Devices], SETRESULT_INFO, cpsuifnc_df5b07fc-1a38-4ae2-a994-2862d9791b10.xml, PSETRESULT_INFO, print.setresult_info, _SETRESULT_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SETRESULT_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PSETRESULT_INFO, SETRESULT_INFO"
+req.typenames: SETRESULT_INFO, *PSETRESULT_INFO
 ---
 
 # _SETRESULT_INFO structure
@@ -94,7 +94,7 @@ CPSUI-supplied handle to an added property sheet page, obtained from the applica
 
 
 
-When an application calls CPSUI's <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function, specifying a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547087">CPSFUNC_SET_RESULT</a>, CPSUI calls all registered <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a SETRESULT_INFO structure.
+When an application calls CPSUI's <a href="..\compstui\nc-compstui-pfncompropsheet.md">ComPropSheet</a> function, specifying a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547087">CPSFUNC_SET_RESULT</a>, CPSUI calls all registered <a href="..\compstui\nc-compstui-pfnpropsheetui.md">PFNPROPSHEETUI</a>-typed functions, specifying a reason of PROPSHEETUI_REASON_SET_RESULT. When specifying this reason, CPSUI also supplies a SETRESULT_INFO structure.
 
 The values contained in the structure's <b>hSetResult</b> and <b>Result</b> members are the <i>lParam1</i> and <i>lParam2</i> values, respectively, that were supplied to CPSUI's <b>ComPropSheet</b> function.
 

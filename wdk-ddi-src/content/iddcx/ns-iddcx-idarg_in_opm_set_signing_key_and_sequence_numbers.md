@@ -7,8 +7,8 @@ old-location: display\idarg_in_opm_set_signing_key_and_sequence_numbers.htm
 old-project: display
 ms.assetid: 84b3f624-98bb-44b5-8050-8a12288cb827
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS structure [Display Devices], iddcx/IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, display.idarg_in_opm_set_signing_key_and_sequence_numbers
+ms.date: 2/22/2018
+ms.keywords: IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS structure [Display Devices], IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS, display.idarg_in_opm_set_signing_key_and_sequence_numbers, iddcx/IDARG_IN_OPM_SET_SIGNING_KEY_AND_SEQUENCE_NUMBERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

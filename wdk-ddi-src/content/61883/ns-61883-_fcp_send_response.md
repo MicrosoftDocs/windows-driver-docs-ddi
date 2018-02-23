@@ -8,7 +8,7 @@ old-project: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, _FCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], PFCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], IEEE.fcp_send_response
+ms.keywords: PFCP_SEND_RESPONSE structure pointer [Buses], _FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], *PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, IEEE.fcp_send_response
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FCP_SEND_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: "*PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE"
+req.typenames: FCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE
 ---
 
 # _FCP_SEND_RESPONSE structure

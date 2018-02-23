@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetConstantNameWide method
 author: windows-driver-content
 description: The GetConstantNameWide method returns the name of the specified constant.
 old-location: debugger\getconstantnamewide.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 743d2f83-905b-4bc9-8e23-b330c3ca7629
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3::GetConstantNameWide, dbgeng/IDebugSymbols3::GetConstantNameWide, IDebugSymbols3, GetConstantNameWide, GetConstantNameWide method [Windows Debugging], GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, debugger.getconstantnamewide
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugSymbols3::GetConstantNameWide, IDebugSymbols3::GetConstantNameWide, IDebugSymbols3 interface [Windows Debugging], GetConstantNameWide method, IDebugSymbols3, debugger.getconstantnamewide, GetConstantNameWide, GetConstantNameWide method [Windows Debugging], IDebugSymbols3 interface, GetConstantNameWide method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

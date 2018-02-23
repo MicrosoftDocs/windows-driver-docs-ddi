@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: 8118589c-00ef-4986-b523-b812160a547d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfsimulatedbatterysystemaction_disablerealbatteries, DisableRealBatteries method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], DisableRealBatteries method, DisableRealBatteries method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, IWDTFSimulatedBatterySystemAction, IWDTFSimulatedBatterySystemAction::DisableRealBatteries, DisableRealBatteries, wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableRealBatteries
+ms.keywords: IWDTFSimulatedBatterySystemAction::DisableRealBatteries, IWDTFSimulatedBatterySystemAction, DisableRealBatteries method [Windows Device Testing Framework], IWDTFSimulatedBatterySystemAction interface, DisableRealBatteries, IWDTFSimulatedBatterySystemAction interface [Windows Device Testing Framework], DisableRealBatteries method, dtf.iwdtfsimulatedbatterysystemaction_disablerealbatteries, DisableRealBatteries method [Windows Device Testing Framework], wdtfsimulatedbatterysystemaction/IWDTFSimulatedBatterySystemAction::DisableRealBatteries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

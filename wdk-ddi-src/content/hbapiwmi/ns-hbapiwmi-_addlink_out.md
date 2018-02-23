@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe088ec7-2577-488d-a1c7-a7e2a1f86f6a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: hbapiwmi/PAddLink_OUT, *PAddLink_OUT, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml, AddLink_OUT structure [Storage Devices], PAddLink_OUT structure pointer [Storage Devices], _AddLink_OUT, PAddLink_OUT, storage.addlink_out, hbapiwmi/AddLink_OUT, AddLink_OUT
+ms.keywords: storage.addlink_out, PAddLink_OUT structure pointer [Storage Devices], PAddLink_OUT, _AddLink_OUT, structs-Fibre_5f49a86f-a59f-4572-bfa2-5bb78dfe599b.xml, hbapiwmi/PAddLink_OUT, AddLink_OUT structure [Storage Devices], *PAddLink_OUT, AddLink_OUT, hbapiwmi/AddLink_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

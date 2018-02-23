@@ -4,11 +4,11 @@ title: "_WIA_PROPERTY_INFO"
 author: windows-driver-content
 description: The WIA_PROPERTY_INFO structure is used to store default access and valid value information for an item property of arbitrary type.
 old-location: image\wia_property_info.htm
-old-project: Image
+old-project: image
 ms.assetid: 9ab9edb8-aa37-4c28-81c9-3e41751f14ed
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: WIA_PROPERTY_INFO, wiamindr_lh/PWIA_PROPERTY_INFO, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml, image.wia_property_info, wiamindr_lh/WIA_PROPERTY_INFO, _WIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], *PWIA_PROPERTY_INFO, WIA_PROPERTY_INFO structure [Imaging Devices], PWIA_PROPERTY_INFO
+ms.date: 2/22/2018
+ms.keywords: wiamindr_lh/PWIA_PROPERTY_INFO, PWIA_PROPERTY_INFO structure pointer [Imaging Devices], WIA_PROPERTY_INFO, _WIA_PROPERTY_INFO, wiamindr_lh/WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO, image.wia_property_info, wiastrct_6e0091b3-43a3-473b-88e4-ec41533a5b0e.xml, WIA_PROPERTY_INFO structure [Imaging Devices], PWIA_PROPERTY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WIA_PROPERTY_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWIA_PROPERTY_INFO, WIA_PROPERTY_INFO"
+req.typenames: WIA_PROPERTY_INFO, *PWIA_PROPERTY_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -414,5 +414,5 @@ At run time, changing the value with <b>wiasWriteMultiple</b> might look like th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20WIA_PROPERTY_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIA_PROPERTY_INFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

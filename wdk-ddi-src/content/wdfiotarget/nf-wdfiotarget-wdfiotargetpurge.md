@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: C79492C5-3872-4ED9-9AD7-ABE5C5732D41
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfiotargetpurge, wdfiotarget/WdfIoTargetPurge, WdfIoTargetPurge method, WdfIoTargetPurge, kmdf.wdfiotargetpurge
+ms.keywords: wdfiotarget/WdfIoTargetPurge, kmdf.wdfiotargetpurge, wdf.wdfiotargetpurge, WdfIoTargetPurge, WdfIoTargetPurge method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,15 +163,11 @@ MyEvtDeviceD0Exit(
 
 ## -see-also
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
 
 
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetgetstate.md">WdfIoTargetGetState</a>
 
 
 
@@ -179,7 +175,11 @@ MyEvtDeviceD0Exit(
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetgetstate.md">WdfIoTargetGetState</a>
 
 
 

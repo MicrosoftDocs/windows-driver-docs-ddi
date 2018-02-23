@@ -8,7 +8,7 @@ old-project: dtf
 ms.assetid: ab544760-7539-4e16-b1c3-457629ce78aa
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: dtf.iwdtfdriverpackageaction2_digitalsigner, DigitalSigner property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2.DigitalSigner, wdtfdriverpackageaction/IWDTFDriverPackageAction2::DigitalSigner, IWDTFDriverPackageAction2::get_DigitalSigner, Microsoft::WDTF::IWDTFDriverPackageAction2::DigitalSigner, DigitalSigner property [Windows Device Testing Framework], Microsoft.WDTF.IWDTFDriverPackageAction2.DigitalSigner, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], DigitalSigner property, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_DigitalSigner, get_DigitalSigner
+ms.keywords: DigitalSigner property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2.DigitalSigner, wdtfdriverpackageaction/IWDTFDriverPackageAction2::DigitalSigner, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_DigitalSigner, DigitalSigner property [Windows Device Testing Framework], IWDTFDriverPackageAction2::get_DigitalSigner, IWDTFDriverPackageAction2, get_DigitalSigner, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], DigitalSigner property, Microsoft.WDTF.IWDTFDriverPackageAction2.DigitalSigner, dtf.iwdtfdriverpackageaction2_digitalsigner, Microsoft::WDTF::IWDTFDriverPackageAction2::DigitalSigner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

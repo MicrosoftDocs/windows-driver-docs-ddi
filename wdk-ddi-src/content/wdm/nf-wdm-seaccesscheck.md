@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 90726c66-738f-416f-993a-84cbf2eb67d2
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: SeAccessCheck routine [Kernel-Mode Driver Architecture], kernel.seaccesscheck, SeAccessCheck, wdm/SeAccessCheck, k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml
+ms.keywords: SeAccessCheck routine [Kernel-Mode Driver Architecture], kernel.seaccesscheck, k110_7d3f1afa-5728-4ade-8915-aeb77dc3edd3.xml, wdm/SeAccessCheck, SeAccessCheck
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,11 +152,7 @@ If this routine returns <b>FALSE</b>, the caller should use the returned <i>Acce
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
 
 
 
@@ -164,7 +160,11 @@ If this routine returns <b>FALSE</b>, the caller should use the returned <i>Acce
 
 
 
-<a href="..\wdm\ns-wdm-_generic_mapping.md">GENERIC_MAPPING</a>
+<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
+
+
+
+<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
 
 
 
@@ -172,11 +172,11 @@ If this routine returns <b>FALSE</b>, the caller should use the returned <i>Acce
 
 
 
-<a href="..\wdm\nf-wdm-sevalidsecuritydescriptor.md">SeValidSecurityDescriptor</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 

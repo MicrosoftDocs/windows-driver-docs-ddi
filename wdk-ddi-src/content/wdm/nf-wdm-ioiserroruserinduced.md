@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6f5e54e8-c127-44d9-b1a6-e6f7ac3b3b51
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.ioiserroruserinduced, IoIsErrorUserInduced, k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, wdm/IoIsErrorUserInduced, IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture]
+ms.keywords: IoIsErrorUserInduced routine [Kernel-Mode Driver Architecture], kernel.ioiserroruserinduced, IoIsErrorUserInduced, k104_860a6f10-e6c0-44cd-9386-c09e356f3472.xml, wdm/IoIsErrorUserInduced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -100,15 +100,15 @@ If <b>IoIsErrorUserInduced</b> returns <b>TRUE</b>, the removable-media driver m
 
 ## -see-also
 
+<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+
+
+
 <a href="..\wdm\nf-wdm-ioallocateerrorlogentry.md">IoAllocateErrorLogEntry</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iosetharderrororverifydevice.md">IoSetHardErrorOrVerifyDevice</a>
+<a href="..\wdm\nf-wdm-iowriteerrorlogentry.md">IoWriteErrorLogEntry</a>
 
 
 

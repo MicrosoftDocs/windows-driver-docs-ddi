@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 545a5014-aa07-49ee-92b7-2ae95f4ce785
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NdisGroupMaxProcessorCount, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], NdisGroupMaxProcessorCount, netvista.ndisgroupmaxprocessorcount, ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml
+ms.keywords: netvista.ndisgroupmaxprocessorcount, ndis/NdisGroupMaxProcessorCount, NdisGroupMaxProcessorCount, NdisGroupMaxProcessorCount function [Network Drivers Starting with Windows Vista], ndis_processor_group_ref_6bee6183-d82f-4512-a05d-134a95e898ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisGroupMaxProcessorCount
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisGroupMaxProcessorCount function

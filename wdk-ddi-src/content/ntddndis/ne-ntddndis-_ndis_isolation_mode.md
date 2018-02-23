@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: DA4765CD-808C-438A-9CA6-5ADC27A70EC8
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "*PNDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, ntddndis/NdisIsolationModeNone, ntddndis/NdisIsolationModeVlan, _NDIS_ISOLATION_MODE, NdisIsolationModeVlan, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NdisIsolationModeExternalVirtualSubnet, NdisIsolationModeNone, netvista.ndis_isolation_mode, ntddndis/NDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE, NdisIsolationModeExternalVirtualSubnet"
+ms.keywords: NdisIsolationModeExternalVirtualSubnet, ntddndis/NDIS_ISOLATION_MODE, NdisIsolationModeNone, ntddndis/NdisIsolationModeNone, _NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeNativeVirtualSubnet, NdisIsolationModeNativeVirtualSubnet, NDIS_ISOLATION_MODE, ntddndis/NdisIsolationModeExternalVirtualSubnet, NDIS_ISOLATION_MODE enumeration [Network Drivers Starting with Windows Vista], NdisIsolationModeVlan, ntddndis/NdisIsolationModeVlan, netvista.ndis_isolation_mode
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_ISOLATION_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_ISOLATION_MODE, NDIS_ISOLATION_MODE"
+req.typenames: NDIS_ISOLATION_MODE, *PNDIS_ISOLATION_MODE
 ---
 
 # _NDIS_ISOLATION_MODE enumeration
@@ -101,11 +101,11 @@ Virtual local area network (VLAN)-based isolation.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_isolation_parameters.md">NDIS_ISOLATION_PARAMETERS</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_switch_port_property_isolation.md">NDIS_SWITCH_PORT_PROPERTY_ISOLATION</a>
 
 
 

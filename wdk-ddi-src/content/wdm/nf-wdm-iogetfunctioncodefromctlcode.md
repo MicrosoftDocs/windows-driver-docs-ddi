@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bbde78d-49f4-4181-9d92-312010322a7a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iogetfunctioncodefromctlcode, wdm/IoGetFunctionCodeFromCtlCode, k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, IoGetFunctionCodeFromCtlCode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture]
+ms.keywords: k104_211d730a-0df4-45f4-af58-25d2609c7696.xml, wdm/IoGetFunctionCodeFromCtlCode, kernel.iogetfunctioncodefromctlcode, IoGetFunctionCodeFromCtlCode, IoGetFunctionCodeFromCtlCode function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

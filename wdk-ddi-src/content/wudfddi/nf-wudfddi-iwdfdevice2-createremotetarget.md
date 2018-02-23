@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 0b11d913-f488-4237-85e3-4469eefc0b91
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi/IWDFDevice2::CreateRemoteTarget, IWDFDevice2::CreateRemoteTarget, IWDFDevice2 interface, CreateRemoteTarget method, umdf.iwdfdevice2_createremotetarget, CreateRemoteTarget method, CreateRemoteTarget, CreateRemoteTarget method, IWDFDevice2 interface, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, wdf.iwdfdevice2_createremotetarget, IWDFDevice2
+ms.keywords: CreateRemoteTarget method, CreateRemoteTarget method, IWDFDevice2 interface, IWDFDevice2::CreateRemoteTarget, IWDFDevice2 interface, CreateRemoteTarget method, UMDFDeviceObjectRef_877f2d10-92a7-4e04-b07e-683b728c691a.xml, IWDFDevice2, wdf.iwdfdevice2_createremotetarget, umdf.iwdfdevice2_createremotetarget, wudfddi/IWDFDevice2::CreateRemoteTarget, CreateRemoteTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -149,11 +149,11 @@ For code examples that use <b>CreateRemoteTarget</b>, see the code examples at <
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice2.md">IWDFDevice2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560276">IWDFRemoteTarget::OpenRemoteInterface</a>
 
 
 

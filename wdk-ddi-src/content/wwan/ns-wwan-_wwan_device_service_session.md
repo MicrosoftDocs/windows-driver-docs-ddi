@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 29EEB068-EFFB-42BF-8D92-D56D010DE46A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wwan/WWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_DEVICE_SERVICE_SESSION, PWWAN_DEVICE_SERVICE_SESSION, _WWAN_DEVICE_SERVICE_SESSION, *PWWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista], WWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session
+ms.keywords: PWWAN_DEVICE_SERVICE_SESSION structure pointer [Network Drivers Starting with Windows Vista], _WWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION, netvista.wwan_device_service_session, PWWAN_DEVICE_SERVICE_SESSION, wwan/WWAN_DEVICE_SERVICE_SESSION, wwan/PWWAN_DEVICE_SERVICE_SESSION, *PWWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_DEVICE_SERVICE_SESSION
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_DEVICE_SERVICE_SESSION, WWAN_DEVICE_SERVICE_SESSION"
+req.typenames: WWAN_DEVICE_SERVICE_SESSION, *PWWAN_DEVICE_SERVICE_SESSION
 req.product: Windows 10 or later.
 ---
 
@@ -91,11 +91,11 @@ The session ID for the device service session.
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_set_service_session.md">NDIS_WWAN_SET_DEVICE_SERVICE_SESSION</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_device_service_session_state.md">WWAN_DEVICE_SERVICE_SESSION_STATE</a>
+
+
+
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_device_set_service_session.md">NDIS_WWAN_SET_DEVICE_SERVICE_SESSION</a>
 
 
 

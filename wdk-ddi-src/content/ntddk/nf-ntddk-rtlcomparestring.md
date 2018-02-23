@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 59d023d4-a2b4-4183-9572-cb48621c76fb
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RtlCompareString, kernel.rtlcomparestring, k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, RtlCompareString routine [Kernel-Mode Driver Architecture], ntddk/RtlCompareString
+ms.keywords: k109_a794007b-a40a-4081-8302-f7426c4ceaef.xml, RtlCompareString routine [Kernel-Mode Driver Architecture], ntddk/RtlCompareString, RtlCompareString, kernel.rtlcomparestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlCompareString
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlCompareString function
@@ -137,11 +137,11 @@ If <b>TRUE</b>, case should be ignored when doing the comparison.
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlequalstring.md">RtlEqualString</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlcompareunicodestring.md">RtlCompareUnicodeString</a>
 
 
 

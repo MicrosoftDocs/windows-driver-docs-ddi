@@ -7,8 +7,8 @@ old-location: stream\kscamera_perframesetting_header.htm
 old-project: stream
 ms.assetid: 2D8A9E54-5551-4DDF-A123-077BA73AE06D
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: ksmedia/PKSCAMERA_PERFRAMESETTING_HEADER, ksmedia/KSCAMERA_PERFRAMESETTING_HEADER, stream.kscamera_perframesetting_header, KSCAMERA_PERFRAMESETTING_HEADER, *PKSCAMERA_PERFRAMESETTING_HEADER, PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER structure [Streaming Media Devices], PKSCAMERA_PERFRAMESETTING_HEADER structure pointer [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER structure [Streaming Media Devices], *PKSCAMERA_PERFRAMESETTING_HEADER, stream.kscamera_perframesetting_header, ksmedia/PKSCAMERA_PERFRAMESETTING_HEADER, ksmedia/KSCAMERA_PERFRAMESETTING_HEADER, PKSCAMERA_PERFRAMESETTING_HEADER structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_PERFRAMESETTING_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PKSCAMERA_PERFRAMESETTING_HEADER, KSCAMERA_PERFRAMESETTING_HEADER"
+req.typenames: KSCAMERA_PERFRAMESETTING_HEADER, *PKSCAMERA_PERFRAMESETTING_HEADER
 ---
 
 # KSCAMERA_PERFRAMESETTING_HEADER structure

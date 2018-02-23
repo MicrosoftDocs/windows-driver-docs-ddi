@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 04447D92-EB9E-400B-A018-E70B186EA3DB
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], ExSetFirmwareEnvironmentVariable, wdm/ExSetFirmwareEnvironmentVariable, kernel.exsetfirmwareenvironmentvariable
+ms.keywords: kernel.exsetfirmwareenvironmentvariable, ExSetFirmwareEnvironmentVariable routine [Kernel-Mode Driver Architecture], ExSetFirmwareEnvironmentVariable, wdm/ExSetFirmwareEnvironmentVariable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,11 +175,11 @@ If you create a backup datastore, you can use the  <a href="..\wdm\nf-wdm-exgetf
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
 <a href="..\wdm\nf-wdm-exgetfirmwareenvironmentvariable.md">ExGetFirmwareEnvironmentVariable</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

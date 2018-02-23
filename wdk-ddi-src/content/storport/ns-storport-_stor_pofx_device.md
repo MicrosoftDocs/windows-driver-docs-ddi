@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5453CF25-D753-4FED-85E3-D990FAB46626
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storage.stor_pofx_device, STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE structure [Storage Devices], STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE_FLAG_NO_D3, storport/STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE, PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, storport/PSTOR_POFX_DEVICE, *PSTOR_POFX_DEVICE, PSTOR_POFX_DEVICE structure pointer [Storage Devices], _STOR_POFX_DEVICE
+ms.keywords: storport/STOR_POFX_DEVICE, _STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_DISABLE_INTERRUPTS_ON_D3, STOR_POFX_DEVICE structure [Storage Devices], PSTOR_POFX_DEVICE structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D0, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, *PSTOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_NO_D3, storage.stor_pofx_device, STOR_POFX_DEVICE, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, PSTOR_POFX_DEVICE, storport/PSTOR_POFX_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POFX_DEVICE
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_POFX_DEVICE, STOR_POFX_DEVICE"
+req.typenames: STOR_POFX_DEVICE, *PSTOR_POFX_DEVICE
 req.product: Windows 10 or later.
 ---
 
@@ -181,7 +181,7 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 
-<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
+<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
 
 
 
@@ -189,7 +189,7 @@ The component for the storage device identified by its <b>Components</b> array i
 
 
 
-<a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+<a href="..\storport\nf-storport-storportpofxactivatecomponent.md">StorPortPoFxActivateComponent</a>
 
 
 

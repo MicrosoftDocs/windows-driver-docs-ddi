@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6b98861c-b108-4b07-b494-e3647d03de4c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.iowmiwriteevent, k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], IoWMIWriteEvent, wdm/IoWMIWriteEvent
+ms.keywords: IoWMIWriteEvent, k104_ec484b7e-1653-4054-8a54-021a94303ec4.xml, wdm/IoWMIWriteEvent, IoWMIWriteEvent routine [Kernel-Mode Driver Architecture], kernel.iowmiwriteevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d958004f-1730-412d-be75-e51628e6fcdc
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.mmprobeandlockpages, MmProbeAndLockPages, k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], wdm/MmProbeAndLockPages
+ms.keywords: wdm/MmProbeAndLockPages, k106_ccfec34d-c0f9-4826-81e3-ee967da40677.xml, MmProbeAndLockPages routine [Kernel-Mode Driver Architecture], MmProbeAndLockPages, kernel.mmprobeandlockpages
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -141,11 +141,11 @@ This routine does not provide any guarantees about the virtual address that desc
 
 
 
-<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
-
-
-
 <a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmbuildmdlfornonpagedpool.md">MmBuildMdlForNonPagedPool</a>
 
 
 

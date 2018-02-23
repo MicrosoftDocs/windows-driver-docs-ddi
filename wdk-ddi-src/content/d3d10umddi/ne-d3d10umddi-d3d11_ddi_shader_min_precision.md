@@ -7,8 +7,8 @@ old-location: display\d3d11_ddi_shader_min_precision.htm
 old-project: display
 ms.assetid: cf77d6c7-8f42-470a-9e3a-85d95398470b
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3d11_ddi_shader_min_precision, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION enumeration [Display Devices], D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, D3D11_DDI_SHADER_MIN_PRECISION_10_BIT
+ms.date: 2/22/2018
+ms.keywords: d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, D3D11_DDI_SHADER_MIN_PRECISION_16_BIT, d3d10umddi/D3D11_DDI_SHADER_MIN_PRECISION_10_BIT, display.d3d11_ddi_shader_min_precision, D3D11_DDI_SHADER_MIN_PRECISION, D3D11_DDI_SHADER_MIN_PRECISION enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

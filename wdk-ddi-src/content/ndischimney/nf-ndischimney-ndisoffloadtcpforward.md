@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: ca4e26c5-5fea-42ab-aee6-3ecf4cce3798
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NdisOffloadTcpForward function [Network Drivers Starting with Windows Vista], netvista.ndisoffloadtcpforward, ndischimney/NdisOffloadTcpForward, tcp_chim_ndis_func_9def62ce-e860-4f98-a609-8e96e6381c66.xml, NdisOffloadTcpForward
+ms.keywords: ndischimney/NdisOffloadTcpForward, netvista.ndisoffloadtcpforward, tcp_chim_ndis_func_9def62ce-e860-4f98-a609-8e96e6381c66.xml, NdisOffloadTcpForward function [Network Drivers Starting with Windows Vista], NdisOffloadTcpForward
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,7 +152,11 @@ When the underlying driver or offload target subsequently completes the forward 
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
 
 
 
@@ -161,16 +165,11 @@ When the underlying driver or offload target subsequently completes the forward 
 
 
 
-<a href="..\ndischimney\nc-ndischimney-w_tcp_offload_forward_handler.md">MiniportTcpOffloadForward</a>
-
-
-
-<a href="..\ndischimney\nc-ndischimney-tcp_offload_forward_complete_handler.md">
-   ProtocolTcpOffloadForwardComplete</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_ndis_offload_handle.md">NDIS_OFFLOAD_HANDLE</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 

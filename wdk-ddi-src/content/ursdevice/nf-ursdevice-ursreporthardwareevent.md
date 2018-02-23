@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 2BC80D99-5265-4D0C-A447-5CC2112F53F8
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UrsReportHardwareEvent, UrsReportHardwareEvent function [Buses], ursdevice/UrsReportHardwareEvent, buses.ursreporthardwareevent
+ms.keywords: UrsReportHardwareEvent function [Buses], UrsReportHardwareEvent, ursdevice/UrsReportHardwareEvent, buses.ursreporthardwareevent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: display\d3dkmt-destroyprotectedsession.htm
 old-project: display
 ms.assetid: 371e0353-3e4d-4688-95cf-d5f24b2ed7b3
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION, display.d3dkmt-destroyprotectedsession, D3DKMT_DESTROYPROTECTEDSESSION, _D3DKMT_DESTROYPROTECTEDSESSION, D3DKMT_DESTROYPROTECTEDSESSION structure [Display Devices]
+ms.date: 2/22/2018
+ms.keywords: D3DKMT_DESTROYPROTECTEDSESSION, d3dkmthk/D3DKMT_DESTROYPROTECTEDSESSION, D3DKMT_DESTROYPROTECTEDSESSION structure [Display Devices], _D3DKMT_DESTROYPROTECTEDSESSION, display.d3dkmt-destroyprotectedsession
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

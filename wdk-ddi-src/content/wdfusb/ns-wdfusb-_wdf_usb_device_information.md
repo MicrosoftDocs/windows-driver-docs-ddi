@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 5d212a29-22b9-408d-9562-b232fc91cc9f
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfusb/PWDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION structure pointer, wdfusb/WDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION structure, wdf.wdf_usb_device_information, *PWDF_USB_DEVICE_INFORMATION, _WDF_USB_DEVICE_INFORMATION, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml, kmdf.wdf_usb_device_information
+ms.keywords: wdf.wdf_usb_device_information, DFUsbRef_eb36dfae-7210-4949-acbf-7d0b0edf4061.xml, _WDF_USB_DEVICE_INFORMATION, wdfusb/PWDF_USB_DEVICE_INFORMATION, PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION, kmdf.wdf_usb_device_information, PWDF_USB_DEVICE_INFORMATION structure pointer, *PWDF_USB_DEVICE_INFORMATION, wdfusb/WDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION structure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_DEVICE_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_DEVICE_INFORMATION, WDF_USB_DEVICE_INFORMATION"
+req.typenames: WDF_USB_DEVICE_INFORMATION, *PWDF_USB_DEVICE_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -104,7 +104,7 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md">WDF_USB_DEVICE_INFORMATION_INIT</a>
+<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
 
 
 
@@ -112,7 +112,7 @@ The <b>WDF_USB_DEVICE_INFORMATION</b> structure is filled in by the <a href="..\
 
 
 
-<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_device_information_init.md">WDF_USB_DEVICE_INFORMATION_INIT</a>
 
 
 

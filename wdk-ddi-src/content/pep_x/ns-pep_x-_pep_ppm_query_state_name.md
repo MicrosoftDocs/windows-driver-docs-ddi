@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: CE0C4DAA-0B14-4CC3-B75A-66329A5830E7
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PPEP_PPM_QUERY_STATE_NAME structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_STATE_NAME, PPEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME structure [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME, _PEP_PPM_QUERY_STATE_NAME, pepfx/PEP_PPM_QUERY_STATE_NAME, kernel.pep_ppm_query_state_name
+ms.keywords: PEP_PPM_QUERY_STATE_NAME, kernel.pep_ppm_query_state_name, PEP_PPM_QUERY_STATE_NAME structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_STATE_NAME, PPEP_PPM_QUERY_STATE_NAME structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_QUERY_STATE_NAME, pepfx/PEP_PPM_QUERY_STATE_NAME, _PEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_QUERY_STATE_NAME
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME"
+req.typenames: PEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME, PEP_PPM_QUERY_STATE_NAME, *PPEP_PPM_QUERY_STATE_NAME
 ---
 
 # _PEP_PPM_QUERY_STATE_NAME structure
@@ -88,11 +88,11 @@ If <b>Name</b> is not <b>NULL</b>, supplies the size of the <b>Name</b> buffer, 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186786">PEP_NOTIFY_PPM_QUERY_PROCESSOR_STATE_NAME notification</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/mt186778">PEP_NOTIFY_PPM_QUERY_COORDINATED_STATE_NAME notification</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt186786">PEP_NOTIFY_PPM_QUERY_PROCESSOR_STATE_NAME notification</a>
 
 
 

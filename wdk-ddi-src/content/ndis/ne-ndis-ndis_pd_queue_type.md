@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4536B3AB-6170-4819-975A-47D9A6223EAE
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/NDIS_PD_QUEUE_TYPE, netvista.ndis_pd_queue_type, NDIS_PD_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis/PDQueueTypeUnknown, PDQueueTypeUnknown, PDQueueTypeReceive, ndis/PDQueueTypeTransmit, ndis/PDQueueTypeMax, PDQueueTypeMax, PDQueueTypeTransmit, NDIS_PD_QUEUE_TYPE, ndis/PDQueueTypeReceive
+ms.keywords: ndis/PDQueueTypeUnknown, PDQueueTypeMax, NDIS_PD_QUEUE_TYPE enumeration [Network Drivers Starting with Windows Vista], ndis/NDIS_PD_QUEUE_TYPE, PDQueueTypeReceive, ndis/PDQueueTypeMax, PDQueueTypeTransmit, ndis/PDQueueTypeTransmit, netvista.ndis_pd_queue_type, NDIS_PD_QUEUE_TYPE, ndis/PDQueueTypeReceive, PDQueueTypeUnknown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -53,6 +53,14 @@ req.product: Windows 10 or later.
 Defines operations and properties for a testable item.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTarget2</b> interface inherits from <b>ITracing</b>. <b>IWDTFTarget2</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="https://docs.microsoft.com/">Properties</a></li>
+</ul>
+
 ## -members
 
 The <b>IWDTFTarget2</b> interface has these methods.
@@ -178,35 +186,8 @@ Determines whether the target supports a given interface.
 
 </td>
 </tr>
-</table>Evaluates whether this target matches an SDEL statement.
-
-Returns an action for the target.
-
-Returns a collection of related targets.
-
-Returns a value from the target that is associated with a specified attribute.
-
-Returns a boolean value from the target that is associated with a specified attribute.
-
-Returns a long number value from the target that is associated with a specified attribute.
-
-Returns a collection of long number values from the target that are associated with a specified attribute.
-
-Returns a number value from the target that is associated with a specified attribute.
-
-Returns a collection of number values from the target that are associated with a specified attribute.
-
-Returns a string value from the target that is associated with a specified attribute.
-
-Returns a collection of string values from the target that are associated with a specified attribute.
-
-Determines whether a given context exists for the target.
-
-Determines whether the target supports a given interface.
-
- 
-
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTarget2</b> interface has these properties.
+</table> 
+<h3><a id="properties"></a>Properties</h3>The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IWDTFTarget2</b> interface has these properties.
 <table class="members" id="memberListProperties">
 <tr>
 <th align="left" width="27%">Property</th>
@@ -261,31 +242,7 @@ Gets the main WDTF aggregation object.
 
 </td>
 </tr>
-</table>
-<a href="..\ntddk\ns-ntddk-_context.md">Context</a>
-
-
-Read/write
-
-Gets and sets a name-value pair that represents user data for the target.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh439450">Type</a>
-
-
-Read-only
-
-Gets a value that identifies the depot that the target comes from.
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406421">WDTF</a>
-
-
-Read-only
-
-Gets the main WDTF aggregation object.
-
- 
+</table> 
 
 
 ## -remarks

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 311A5977-C3F5-4287-B030-00F4BB9C8629
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PSYSENV_VARIABLE, _SYSENV_VARIABLE, SYSENV_VARIABLE structure [Kernel-Mode Driver Architecture], kernel.sysenv_variable, ntddsysenv/PSYSENV_VARIABLE, SYSENV_VARIABLE, *PSYSENV_VARIABLE, PSYSENV_VARIABLE structure pointer [Kernel-Mode Driver Architecture], ntddsysenv/SYSENV_VARIABLE
+ms.keywords: "*PSYSENV_VARIABLE, ntddsysenv/SYSENV_VARIABLE, ntddsysenv/PSYSENV_VARIABLE, kernel.sysenv_variable, SYSENV_VARIABLE structure [Kernel-Mode Driver Architecture], PSYSENV_VARIABLE structure pointer [Kernel-Mode Driver Architecture], SYSENV_VARIABLE, PSYSENV_VARIABLE, _SYSENV_VARIABLE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SYSENV_VARIABLE
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSENV_VARIABLE, SYSENV_VARIABLE"
+req.typenames: SYSENV_VARIABLE, *PSYSENV_VARIABLE
 ---
 
 # _SYSENV_VARIABLE structure

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5AED6B9E-5DB8-44AF-925C-4B587D100040
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: pepfx/PepWorkCompletePerfState, pepfx/PepWorkDevicePower, PepWorkAcpiNotify, pepfx/PepWorkRequestPowerControl, PEP_WORK_TYPE enumeration [Kernel-Mode Driver Architecture], pepfx/PepWorkMax, PepWorkRequestPowerControl, pepfx/PepWorkCompleteIdleState, PepWorkAcpiEvaluateControlMethodComplete, pepfx/PepWorkRequestIdleState, pepfx/PEP_WORK_TYPE, pepfx/PepWorkAcpiEvaluateControlMethodComplete, PepWorkCompleteIdleState, pepfx/PepWorkAcpiNotify, *PPEP_WORK_TYPE, PepWorkRequestIdleState, PepWorkDevicePower, pepfx/PepWorkActiveComplete, PEP_WORK_TYPE, PepWorkCompletePerfState, PepWorkActiveComplete, _PEP_WORK_TYPE, pepfx/PepWorkDeviceIdle, PepWorkDeviceIdle, kernel.pep_work_type, PepWorkMax
+ms.keywords: "*PPEP_WORK_TYPE, PepWorkDeviceIdle, pepfx/PepWorkActiveComplete, pepfx/PepWorkMax, PepWorkCompletePerfState, PEP_WORK_TYPE, pepfx/PepWorkDevicePower, PepWorkAcpiNotify, PepWorkDevicePower, pepfx/PepWorkRequestIdleState, pepfx/PepWorkAcpiNotify, PepWorkCompleteIdleState, _PEP_WORK_TYPE, pepfx/PEP_WORK_TYPE, pepfx/PepWorkCompletePerfState, PepWorkRequestIdleState, kernel.pep_work_type, pepfx/PepWorkDeviceIdle, PEP_WORK_TYPE enumeration [Kernel-Mode Driver Architecture], PepWorkAcpiEvaluateControlMethodComplete, pepfx/PepWorkCompleteIdleState, pepfx/PepWorkRequestPowerControl, PepWorkActiveComplete, pepfx/PepWorkAcpiEvaluateControlMethodComplete, PepWorkMax, PepWorkRequestPowerControl"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_TYPE, PEP_WORK_TYPE"
+req.typenames: PEP_WORK_TYPE, *PPEP_WORK_TYPE, PEP_WORK_TYPE, *PPEP_WORK_TYPE
 ---
 
 # _PEP_WORK_TYPE enumeration
@@ -130,18 +130,14 @@ A request for the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C
 
 
 
-This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure to describe the type of work item that the PEP is requesting.
+This enumeration is used by the <a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a> structure to describe the type of work item that the PEP is requesting.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186659">PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD</a>
 
 
 
@@ -153,7 +149,11 @@ This enumeration is used by the <a href="..\pepfx\ns-pepfx-_pep_work_information
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186659">PEP_NOTIFY_ACPI_EVALUATE_CONTROL_METHOD</a>
+<a href="..\pep_x\ns-pep_x-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186852">PEP_DPM_REQUEST_COMPONENT_PERF_STATE</a>
 
 
 

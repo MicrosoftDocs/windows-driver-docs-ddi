@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 7532c8b5-e77b-4fd0-bac2-78254f6eb9f6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ChangerMoveMedium function [Storage Devices], mcd/ChangerMoveMedium, ChangerMoveMedium, storage.changermovemedium, chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml
+ms.keywords: chgrmini_a74d85d9-1b7c-45bc-a826-e60257192a09.xml, mcd/ChangerMoveMedium, ChangerMoveMedium function [Storage Devices], ChangerMoveMedium, storage.changermovemedium
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,7 +121,7 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 ## -see-also
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
 
 
 
@@ -129,11 +129,11 @@ The changer class driver checks the input buffer length in the I/O stack locatio
 
 
 
-<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
-
-
-
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element.md">CHANGER_ELEMENT</a>
+
+
+
+<a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_move_medium.md">,</a>
 
 
 

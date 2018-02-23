@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 192a525e-6a42-4bd0-9c50-d13741469a48
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortReadRegisterUshort routine [Storage Devices], storage.scsiportreadregisterushort, scsiprt_342c6cc3-090e-4bea-be54-1a52f50d8276.xml, srb/ScsiPortReadRegisterUshort, ScsiPortReadRegisterUshort
+ms.keywords: ScsiPortReadRegisterUshort, scsiprt_342c6cc3-090e-4bea-be54-1a52f50d8276.xml, ScsiPortReadRegisterUshort routine [Storage Devices], srb/ScsiPortReadRegisterUshort, storage.scsiportreadregisterushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

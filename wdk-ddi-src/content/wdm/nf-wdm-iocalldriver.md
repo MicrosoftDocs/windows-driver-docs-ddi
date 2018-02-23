@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5d1fff23-f1e8-41a5-9cd6-a20bd4a7883e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoCallDriver, kernel.iocalldriver, k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, wdm/IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.iocalldriver, k104_8579a946-2f96-455f-825c-c3f86caba99c.xml, IoCallDriver, wdm/IoCallDriver, IoCallDriver routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -103,12 +103,20 @@ Before calling <b>IoCallDriver</b>, the calling driver must set up the I/O stack
 
 An IRP passed in a call to <b>IoCallDriver</b> becomes inaccessible to the higher-level driver, unless the higher-level driver has called <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a> to set up an <a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a> routine for the IRP. If it has, the IRP input to the <i>IoCompletion</i> routine has its I/O status block set by the lower drivers, and all lower-level drivers' I/O stack locations are filled with zeros.
 
-Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="..\ntifs\nf-ntifs-pocalldriver.md">PoCallDriver</a> rather than <b>IoCallDriver</b> to pass power IRPs (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>). For more information, see <a href="https://msdn.microsoft.com/a47e2310-e89b-4552-bbe3-d4984ae8b564">Calling IoCallDriver vs. Calling PoCallDriver</a>. 
+Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="..\wdm\nf-wdm-pocalldriver.md">PoCallDriver</a> rather than <b>IoCallDriver</b> to pass power IRPs (<a href="https://msdn.microsoft.com/library/windows/hardware/ff550784">IRP_MJ_POWER</a>). For more information, see <a href="https://msdn.microsoft.com/a47e2310-e89b-4552-bbe3-d4984ae8b564">Calling IoCallDriver vs. Calling PoCallDriver</a>. 
 
 
 
 
 ## -see-also
+
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
+
+
 
 <a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
@@ -118,23 +126,11 @@ Drivers for Windows Server 2003, Windows XP, and Windows 2000 must use <a href="
 
 
 
+<a href="..\wdm\nf-wdm-pocalldriver.md">PoCallDriver</a>
+
+
+
 <a href="..\wdm\nf-wdm-iobuilddeviceiocontrolrequest.md">IoBuildDeviceIoControlRequest</a>
-
-
-
-<a href="..\wdm\nf-wdm-iobuildasynchronousfsdrequest.md">IoBuildAsynchronousFsdRequest</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-pocalldriver.md">PoCallDriver</a>
-
-
-
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
-
-
-
-<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 

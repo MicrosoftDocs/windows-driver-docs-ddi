@@ -8,7 +8,7 @@ old-project: PCI
 ms.assetid: 4755f4c3-305e-41a5-afdf-eda8e8e81b74
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml, PPCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER, _PCI_EXPRESS_SLOT_CONTROL_REGISTER, PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], *PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI.pci_express_slot_control_register
+ms.keywords: PPCI_EXPRESS_SLOT_CONTROL_REGISTER union pointer [Buses], _PCI_EXPRESS_SLOT_CONTROL_REGISTER, pci_struct_d554e74d-130d-4d6d-8801-c65ea66653cb.xml, ntddk/PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER union [Buses], PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER, ntddk/PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI.pci_express_slot_control_register
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_SLOT_CONTROL_REGISTER
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_SLOT_CONTROL_REGISTER, PCI_EXPRESS_SLOT_CONTROL_REGISTER"
+req.typenames: PCI_EXPRESS_SLOT_CONTROL_REGISTER, *PPCI_EXPRESS_SLOT_CONTROL_REGISTER
 ---
 
 # _PCI_EXPRESS_SLOT_CONTROL_REGISTER structure
@@ -186,19 +186,9 @@ The indicator is blinking.
 The indicator is off.
 
 
-##### - AttentionIndicatorControl.IndicatorOn
+##### - PowerIndicatorControl.IndicatorOn
 
 The indicator is on.
-
-
-##### - PowerControllerControl.PowerOff
-
-The power is off.
-
-
-##### - PowerControllerControl.PowerOn
-
-The power is on.
 
 
 ##### - PowerIndicatorControl.IndicatorBlink
@@ -237,7 +227,7 @@ The power is on.
 
 ##### - PowerControllerControl.PowerOff
 
-The indicator is on.
+The power is off.
 
 
 #### - ElectromechanicalLockControl

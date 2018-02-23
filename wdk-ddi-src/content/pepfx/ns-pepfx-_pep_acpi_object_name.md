@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 55D8A977-DA91-4CB5-8549-E1CB1731256C
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pep_acpi_object_name, pepfx/PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture], *PPEP_ACPI_OBJECT_NAME, _PEP_ACPI_OBJECT_NAME
+ms.keywords: "*PPEP_ACPI_OBJECT_NAME, _PEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME, pepfx/PEP_ACPI_OBJECT_NAME, kernel.pep_acpi_object_name, PEP_ACPI_OBJECT_NAME union [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_OBJECT_NAME
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_OBJECT_NAME, PEP_ACPI_OBJECT_NAME"
+req.typenames: PEP_ACPI_OBJECT_NAME, *PPEP_ACPI_OBJECT_NAME
 ---
 
 # _PEP_ACPI_OBJECT_NAME structure
@@ -94,18 +94,18 @@ The object name stored as a single 32-bit unsigned integer value.
 
 
 
-The <i>Name</i> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union. Also, the <i>Name</i> member of the <a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union.
+The <i>Name</i> member of the <a href="..\pep_x\ns-pep_x-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union. Also, the <i>Name</i> member of the <a href="..\pep_x\ns-pep_x-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a> structure is a <b>PEP_ACPI_OBJECT_NAME</b> union.
 
 
 
 
 ## -see-also
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_object_name_with_type.md">PEP_ACPI_OBJECT_NAME_WITH_TYPE</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
+<a href="..\pep_x\ns-pep_x-_pep_acpi_query_object_information.md">PEP_ACPI_QUERY_OBJECT_INFORMATION</a>
 
 
 

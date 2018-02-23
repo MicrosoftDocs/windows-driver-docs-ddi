@@ -4,11 +4,11 @@ title: IWiaLog::InitializeLog method
 author: windows-driver-content
 description: Note that the IWiaLog interface is obsolete for Microsoft Windows XP and later, and is no longer supported. Instead, use the Diagnostic Log Macros.The IWiaLog::InitializeLog method initializes the lWiaLog interface.
 old-location: image\iwialog_initializelog.htm
-old-project: Image
+old-project: image
 ms.assetid: ef637329-a291-445b-8ac7-6e55d5d7931e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IWiaLog interface [Imaging Devices], InitializeLog method, InitializeLog, InitializeLog method [Imaging Devices], IWiaLog interface, IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, image.iwialog_initializelog, InitializeLog method [Imaging Devices], IWiaLog::InitializeLog, wia_lh/IWiaLog::InitializeLog, IWiaLog
+ms.date: 2/22/2018
+ms.keywords: IWiaLog_17cc24cb-d8dd-4f7c-b5d4-6720621b6534.xml, InitializeLog method [Imaging Devices], IWiaLog interface [Imaging Devices], InitializeLog method, wia_lh/IWiaLog::InitializeLog, IWiaLog::InitializeLog, image.iwialog_initializelog, InitializeLog, InitializeLog method [Imaging Devices], IWiaLog interface, IWiaLog
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWiaLog.InitializeLog
 product: Windows
 targetos: Windows
-req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
+req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
 req.product: Windows 10 or later.
 ---
 

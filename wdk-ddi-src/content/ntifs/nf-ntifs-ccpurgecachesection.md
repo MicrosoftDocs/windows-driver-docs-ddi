@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 7f9cff3b-0780-4fc4-8b1a-b0af0506712a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.ccpurgecachesection, CcPurgeCacheSection routine [Installable File System Drivers], CcPurgeCacheSection, ntifs/CcPurgeCacheSection, ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml
+ms.keywords: ifsk.ccpurgecachesection, CcPurgeCacheSection routine [Installable File System Drivers], CcPurgeCacheSection, ccref_587b0f92-f80a-42f2-b3bb-dae27208b796.xml, ntifs/CcPurgeCacheSection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -125,15 +125,7 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
 
 
 
@@ -141,7 +133,15 @@ Before calling <b>CcPurgeCacheSection</b>, the caller must acquire the file excl
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539143">CcIsFileCached</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccuninitializecachemap.md">CcUninitializeCacheMap</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccflushcache.md">CcFlushCache</a>
 
 
 

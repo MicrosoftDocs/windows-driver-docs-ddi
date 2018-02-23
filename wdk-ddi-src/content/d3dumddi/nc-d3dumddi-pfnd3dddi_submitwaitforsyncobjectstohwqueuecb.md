@@ -7,7 +7,7 @@ old-location: display\pfnd3dddi_submitwaitforsyncobjectstohwqueuecb.htm
 old-project: display
 ms.assetid: 4FD92529-0F47-46FC-9567-D8C0A5D76728
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3dddi_submitwaitforsyncobjectstohwqueuecb, PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB callback function [Display Devices], PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB, d3dumddi/PFND3DDDI_SUBMITWAITFORSYNCOBJECTSTOHWQUEUECB
 ms.prod: windows-hardware
 ms.technology: windows-devices

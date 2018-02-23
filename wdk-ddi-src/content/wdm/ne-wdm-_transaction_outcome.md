@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 1612e8d8-996b-45d2-93cc-df5b388596d4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TRANSACTION_OUTCOME, wdm/TransactionOutcomeUndetermined, TransactionOutcomeCommitted, wdm/TransactionOutcomeAborted, kernel.transaction_outcome, wdm/TransactionOutcomeCommitted, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml, wdm/TRANSACTION_OUTCOME, TransactionOutcomeAborted, TransactionOutcomeUndetermined, _TRANSACTION_OUTCOME
+ms.keywords: wdm/TransactionOutcomeAborted, TransactionOutcomeAborted, wdm/TRANSACTION_OUTCOME, TRANSACTION_OUTCOME enumeration [Kernel-Mode Driver Architecture], kernel.transaction_outcome, TRANSACTION_OUTCOME, wdm/TransactionOutcomeUndetermined, TransactionOutcomeCommitted, TransactionOutcomeUndetermined, wdm/TransactionOutcomeCommitted, _TRANSACTION_OUTCOME, ktm_ref_e1c01db3-bc06-43d4-a046-f94af84782e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

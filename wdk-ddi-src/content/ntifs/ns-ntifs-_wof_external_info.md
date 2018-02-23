@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 2522CDC6-C23A-4D9C-83BA-389B7D909619
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], WOF_EXTERNAL_INFO, _WOF_EXTERNAL_INFO, ntifs/PWOF_EXTERNAL_INFO, ntifs/WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], ifsk.wof_external_info, PWOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO
+ms.keywords: ntifs/WOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO structure [Installable File System Drivers], ntifs/PWOF_EXTERNAL_INFO, ifsk.wof_external_info, PWOF_EXTERNAL_INFO structure pointer [Installable File System Drivers], PWOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO, _WOF_EXTERNAL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WOF_EXTERNAL_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWOF_EXTERNAL_INFO, WOF_EXTERNAL_INFO"
+req.typenames: WOF_EXTERNAL_INFO, *PWOF_EXTERNAL_INFO
 ---
 
 # _WOF_EXTERNAL_INFO structure

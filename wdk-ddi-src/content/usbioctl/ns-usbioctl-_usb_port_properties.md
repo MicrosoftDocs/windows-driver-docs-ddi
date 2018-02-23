@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: BCADC907-3770-4FBE-AEB3-96F93502E899
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: PUSB_PORT_PROPERTIES union pointer [Buses], *PUSB_PORT_PROPERTIES, _USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], usbioctl/PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES, buses.usb_port_properties, usbioctl/USB_PORT_PROPERTIES
+ms.keywords: buses.usb_port_properties, USB_PORT_PROPERTIES, usbioctl/PUSB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES, usbioctl/USB_PORT_PROPERTIES, USB_PORT_PROPERTIES union [Buses], PUSB_PORT_PROPERTIES, PUSB_PORT_PROPERTIES union pointer [Buses], _USB_PORT_PROPERTIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_PORT_PROPERTIES
 product: Windows
 targetos: Windows
-req.typenames: "*PUSB_PORT_PROPERTIES, USB_PORT_PROPERTIES"
+req.typenames: USB_PORT_PROPERTIES, *PUSB_PORT_PROPERTIES
 req.product: Windows 10 or later.
 ---
 

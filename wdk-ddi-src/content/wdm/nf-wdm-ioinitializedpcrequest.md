@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d4685c23-7461-4539-9f7c-80f9760bf706
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k104_6b13de62-4cbe-4902-8c60-67d873873047.xml, wdm/IoInitializeDpcRequest, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture], kernel.ioinitializedpcrequest, IoInitializeDpcRequest
+ms.keywords: wdm/IoInitializeDpcRequest, IoInitializeDpcRequest routine [Kernel-Mode Driver Architecture], kernel.ioinitializedpcrequest, IoInitializeDpcRequest, k104_6b13de62-4cbe-4902-8c60-67d873873047.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
 
 
 
@@ -115,15 +111,19 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544079">DpcForIsr</a>
+
+
+
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540521">AddDevice</a>
-
-
-
 <a href="..\wdm\nf-wdm-iorequestdpc.md">IoRequestDpc</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547958">InterruptService</a>
 
 
 

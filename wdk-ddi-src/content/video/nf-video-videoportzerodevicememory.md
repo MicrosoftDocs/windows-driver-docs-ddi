@@ -7,8 +7,8 @@ old-location: display\videoportzerodevicememory.htm
 old-project: display
 ms.assetid: 1f59ae13-022b-426c-9eef-9a8e5f5a85f2
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.videoportzerodevicememory, VideoPortZeroDeviceMemory function [Display Devices], video/VideoPortZeroDeviceMemory, VideoPortZeroDeviceMemory, VideoPort_Functions_42829075-dd6d-49fd-a4d6-3ee19152335d.xml
+ms.date: 2/22/2018
+ms.keywords: VideoPortZeroDeviceMemory, video/VideoPortZeroDeviceMemory, VideoPort_Functions_42829075-dd6d-49fd-a4d6-3ee19152335d.xml, VideoPortZeroDeviceMemory function [Display Devices], display.videoportzerodevicememory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -103,11 +103,11 @@ Callers of <b>VideoPortZeroDeviceMemory</b> can be running at any IRQL if the me
 
 ## -see-also
 
+<a href="..\video\nc-video-pminiport_synchronize_routine.md">HwVidSynchronizeExecutionCallback</a>
+
+
+
 <a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
-
-
-
-<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
@@ -115,7 +115,7 @@ Callers of <b>VideoPortZeroDeviceMemory</b> can be running at any IRQL if the me
 
 
 
-<a href="..\video\nc-video-pvideo_hw_interrupt.md">HwVidInterrupt</a>
+<a href="..\video\nf-video-videoportzeromemory.md">VideoPortZeroMemory</a>
 
 
 
@@ -123,5 +123,5 @@ Callers of <b>VideoPortZeroDeviceMemory</b> can be running at any IRQL if the me
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortZeroDeviceMemory function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VideoPortZeroDeviceMemory function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

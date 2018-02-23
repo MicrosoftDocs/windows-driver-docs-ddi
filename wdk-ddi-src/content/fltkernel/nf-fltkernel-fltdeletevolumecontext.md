@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: dfb376af-9910-4708-9248-1104dfc4bdec
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: FltApiRef_a_to_d_261f2efb-7c2e-4f85-a75c-b5cf55236271.xml, fltkernel/FltDeleteVolumeContext, ifsk.fltdeletevolumecontext, FltDeleteVolumeContext, FltDeleteVolumeContext function [Installable File System Drivers]
+ms.keywords: FltApiRef_a_to_d_261f2efb-7c2e-4f85-a75c-b5cf55236271.xml, fltkernel/FltDeleteVolumeContext, ifsk.fltdeletevolumecontext, FltDeleteVolumeContext function [Installable File System Drivers], FltDeleteVolumeContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,7 +143,7 @@ To set a volume context, call <a href="..\fltkernel\nf-fltkernel-fltsetvolumecon
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -159,7 +159,7 @@ To set a volume context, call <a href="..\fltkernel\nf-fltkernel-fltsetvolumecon
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumecontext.md">FltGetVolumeContext</a>
 
 
 

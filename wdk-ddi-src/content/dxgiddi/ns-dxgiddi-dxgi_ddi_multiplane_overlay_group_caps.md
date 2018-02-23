@@ -7,8 +7,8 @@ old-location: display\dxgi_ddi_multiplane_overlay_group_caps.htm
 old-project: display
 ms.assetid: A8BAD8D4-1009-43D0-B82F-8252062A029C
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, display.dxgi_ddi_multiplane_overlay_group_caps, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS
+ms.date: 2/22/2018
+ms.keywords: DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, dxgiddi/DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS, DXGI_DDI_MULTIPLANE_OVERLAY_GROUP_CAPS structure [Display Devices], display.dxgi_ddi_multiplane_overlay_group_caps
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

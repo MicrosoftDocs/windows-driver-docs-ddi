@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 8BE53883-2FD0-4CAB-928E-532587DA80C3
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], *PSRBEX_DATA_SCSI_CDB32, storage.srbex_data_scsi_cdb32, SRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], storport/PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32
+ms.keywords: storport/SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, storage.srbex_data_scsi_cdb32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], storport/PSRBEX_DATA_SCSI_CDB32, *PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], SRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_SCSI_CDB32
 product: Windows
 targetos: Windows
-req.typenames: "*PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32"
+req.typenames: SRBEX_DATA_SCSI_CDB32, *PSRBEX_DATA_SCSI_CDB32
 req.product: Windows 10 or later.
 ---
 
@@ -132,11 +132,11 @@ This structure is used to submit an extended SRB data for a CDB of 32 bytes or l
 
 ## -see-also
 
-<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+<a href="..\srb\ns-srb-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
 
 
 
-<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\srb\ns-srb-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 

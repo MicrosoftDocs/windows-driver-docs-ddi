@@ -55,6 +55,13 @@ req.product: Windows 10 or later.
 The <b>IDriverEntry</b> interface exposes the user-mode driver's main entry and exit points.
 
 
+## -inheritance
+
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IDriverEntry</b> interface inherits from the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bda378332">IUnknown</a> interface. <b>IDriverEntry</b> also has these types of members:
+<ul>
+<li><a href="https://docs.microsoft.com/">Methods</a></li>
+</ul>
+
 ## -members
 
 The <b>IDriverEntry</b> interface has these methods.
@@ -90,11 +97,5 @@ The <a href="https://msdn.microsoft.com/c676588e-348b-4840-9873-6b1bb2454987">On
 
 </td>
 </tr>
-</table>The <a href="https://msdn.microsoft.com/9366029e-4f8b-4121-ad99-01a5116a7f46">OnDeinitialize</a> method performs any operations that are necessary before a system unloads a driver.
-
-The <a href="https://msdn.microsoft.com/f2953b0d-6745-4804-bcda-47c7ddfb901f">OnDeviceAdd</a> method adds a new device to a system.
-
-The <a href="https://msdn.microsoft.com/c676588e-348b-4840-9873-6b1bb2454987">OnInitialize</a> method performs any operations that are necessary to initialize a driver.
-
- 
+</table> 
 

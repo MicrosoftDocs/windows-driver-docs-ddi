@@ -40,7 +40,7 @@ apiname:
 -	RtlLeftChild
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # RtlLeftChild macro
@@ -87,14 +87,6 @@ Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if t
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrightchild.md">RtlRightChild</a>
 
 
@@ -103,7 +95,11 @@ Callers of <b>RtlLeftChild</b> must be running at IRQL &lt;= DISPATCH_LEVEL if t
 
 
 
-<a href="..\ntddk\nf-ntddk-rtlinsertasleftchild.md">RtlInsertAsLeftChild</a>
+<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlparent.md">RtlParent</a>
 
 
 

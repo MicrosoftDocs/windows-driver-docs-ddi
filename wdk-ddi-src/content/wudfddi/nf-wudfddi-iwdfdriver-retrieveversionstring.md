@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 2fa320df-bafd-42f4-a0a1-14151c39d68a
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDriver interface, RetrieveVersionString method, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, umdf.iwdfdriver_retrieveversionstring, IWDFDriver, wdf.iwdfdriver_retrieveversionstring, RetrieveVersionString method, IWDFDriver interface, wudfddi/IWDFDriver::RetrieveVersionString, RetrieveVersionString, IWDFDriver::RetrieveVersionString, RetrieveVersionString method
+ms.keywords: RetrieveVersionString, umdf.iwdfdriver_retrieveversionstring, IWDFDriver::RetrieveVersionString, IWDFDriver interface, RetrieveVersionString method, wudfddi/IWDFDriver::RetrieveVersionString, IWDFDriver, UMDFDriverObjectRef_fea0fb04-a861-44b6-8552-150454f9933d.xml, RetrieveVersionString method, IWDFDriver interface, wdf.iwdfdriver_retrieveversionstring, RetrieveVersionString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

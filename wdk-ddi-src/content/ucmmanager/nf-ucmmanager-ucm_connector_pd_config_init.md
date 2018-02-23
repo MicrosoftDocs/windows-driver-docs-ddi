@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 59663F6C-5C8E-4403-8097-7E6D9A075A60
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: UCM_CONNECTOR_PD_CONFIG_INIT, ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT, buses.ucm_connector_pd_config_init, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses]
+ms.keywords: buses.ucm_connector_pd_config_init, ucmmanager/UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT, UCM_CONNECTOR_PD_CONFIG_INIT function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

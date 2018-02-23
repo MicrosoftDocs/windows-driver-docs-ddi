@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 4E8AD6FA-BB89-4CB0-A06E-7B4917390311
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_ndk_capabilities, PNDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_NDK_CAPABILITIES, ntddndis/NDIS_NDK_CAPABILITIES, _NDIS_NDK_CAPABILITIES, ntddndis/PNDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_NDK_CAPABILITIES structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_NDK_CAPABILITIES, *PNDIS_NDK_CAPABILITIES, netvista.ndis_ndk_capabilities, PNDIS_NDK_CAPABILITIES structure pointer [Network Drivers Starting with Windows Vista], _NDIS_NDK_CAPABILITIES, NDIS_NDK_CAPABILITIES, PNDIS_NDK_CAPABILITIES, ntddndis/NDIS_NDK_CAPABILITIES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -166,15 +166,15 @@ The <b>NDIS_NDK_CAPABILITIES</b> structure is used in the <a href="..\ndis\ns-nd
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_ndk_attributes.md">NDIS_MINIPORT_ADAPTER_NDK_ATTRIBUTES</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_ndk_performance_counters.md">NDIS_NDK_PERFORMANCE_COUNTERS</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh439851">NDK_ADAPTER_INFO</a>
 
 
 

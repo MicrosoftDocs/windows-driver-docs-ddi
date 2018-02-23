@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: f17a6d52-5f68-470c-9f45-6a175e0fbf01
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateInvalid, WdfPnpStateResourcesChanged, wudfddi_types/WdfPnpStateResourcesChanged, WdfPnpStateFailed, umdf.wdf_pnp_state, wudfddi_types/WdfPnpStateDontDisplayInUI, WdfPnpStateDontDisplayInUI, wdf.wdf_pnp_state, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, wudfddi_types/WdfPnpStateDisabled, WdfPnpStateMaximum, WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateFailed, wudfddi_types/WdfPnpStateMaximum, WDF_PNP_STATE, _WDF_PNP_STATE, WdfPnpStateDisabled, WdfPnpStateRemoved, wudfddi_types/WDF_PNP_STATE, WdfPnpStateInvalid, wudfddi_types/WdfPnpStateRemoved, WDF_PNP_STATE enumeration
+ms.keywords: umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, WDF_PNP_STATE enumeration, WdfPnpStateResourcesChanged, WdfPnpStateRemoved, WdfPnpStateInvalid, wudfddi_types/WdfPnpStateResourcesChanged, wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateInvalid, WdfPnpStateNotDisableable, wudfddi_types/WDF_PNP_STATE, umdf.wdf_pnp_state, WdfPnpStateDisabled, WdfPnpStateMaximum, wudfddi_types/WdfPnpStateDontDisplayInUI, WdfPnpStateFailed, wudfddi_types/WdfPnpStateFailed, wudfddi_types/WdfPnpStateMaximum, _WDF_PNP_STATE, WDF_PNP_STATE, wdf.wdf_pnp_state, WdfPnpStateDontDisplayInUI, wudfddi_types/WdfPnpStateRemoved, wudfddi_types/WdfPnpStateDisabled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -128,11 +128,11 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_STATE</b> to the <a href=
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff558892">IWDFDevice::SetPnpState</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558834">IWDFDevice::GetPnpState</a>
 
 
 

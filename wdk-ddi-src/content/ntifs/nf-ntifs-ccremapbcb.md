@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: e8855baf-ce75-4a4c-bbbe-d1a7e5a65907
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ccref_64bd8036-ecdd-48bd-8894-fea7f28cc3be.xml, CcRemapBcb, ifsk.ccremapbcb, ntifs/CcRemapBcb, CcRemapBcb routine [Installable File System Drivers]
+ms.keywords: ccref_64bd8036-ecdd-48bd-8894-fea7f28cc3be.xml, ntifs/CcRemapBcb, ifsk.ccremapbcb, CcRemapBcb, CcRemapBcb routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,11 +92,15 @@ Like <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>, <b>CcRemapBcb</b> m
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-ccpinread.md">CcPinRead</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>
+<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 
 
@@ -105,10 +109,6 @@ Like <a href="..\ntifs\nf-ntifs-ccmapdata.md">CcMapData</a>, <b>CcRemapBcb</b> m
 
 
 <a href="..\ntifs\nf-ntifs-ccpreparepinwrite.md">CcPreparePinWrite</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccpinmappeddata.md">CcPinMappedData</a>
 
 
 

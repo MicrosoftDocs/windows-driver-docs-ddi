@@ -7,8 +7,8 @@ old-location: stream\ksdevice_thermal_dispatch.htm
 old-project: stream
 ms.assetid: 6E4ADD86-EFC4-4369-83A1-1D2824235310
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: stream.ksdevice_thermal_dispatch, ks/KSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], Engaged, ks/PKSDEVICE_THERMAL_DISPATCH, _KSDEVICE_THERMAL_DISPATCH, DeviceThermalState, *PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH, KsDevice, Percentage, KSDEVICE_THERMAL_DISPATCH
+ms.date: 2/22/2018
+ms.keywords: "_KSDEVICE_THERMAL_DISPATCH, ks/KSDEVICE_THERMAL_DISPATCH, *PKSDEVICE_THERMAL_DISPATCH, KsDevice, KSDEVICE_THERMAL_DISPATCH structure [Streaming Media Devices], Percentage, PKSDEVICE_THERMAL_DISPATCH, PKSDEVICE_THERMAL_DISPATCH structure pointer [Streaming Media Devices], KSDEVICE_THERMAL_DISPATCH, stream.ksdevice_thermal_dispatch, DeviceThermalState, ks/PKSDEVICE_THERMAL_DISPATCH, Engaged"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

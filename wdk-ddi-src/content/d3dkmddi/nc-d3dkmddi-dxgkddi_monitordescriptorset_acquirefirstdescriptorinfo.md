@@ -7,7 +7,7 @@ old-location: display\dxgk_monitordescriptorset_interface_pfnacquirefirstdescrip
 old-project: display
 ms.assetid: 228f6947-a7e5-4b76-8224-fac6889fc77a
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.dxgk_monitordescriptorset_interface_pfnacquirefirstdescriptorinfo, pfnAcquireFirstDescriptorInfo callback function [Display Devices], pfnAcquireFirstDescriptorInfo, DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO, DXGKDDI_MONITORDESCRIPTORSET_ACQUIREFIRSTDESCRIPTORINFO, d3dkmddi/pfnAcquireFirstDescriptorInfo, VidPnFunctions_fae7b938-60d5-41c0-92a8-9381e67aa411.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

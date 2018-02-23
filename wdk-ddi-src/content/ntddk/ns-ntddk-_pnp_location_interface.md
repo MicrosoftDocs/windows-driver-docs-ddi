@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 5189ffad-e5dc-4f5a-a7e3-481d36332c81
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_PNP_LOCATION_INTERFACE, drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml, PPNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], kernel.pnp_location_interface, *PPNP_LOCATION_INTERFACE, ntddk/PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture], ntddk/PNP_LOCATION_INTERFACE"
+ms.keywords: "*PPNP_LOCATION_INTERFACE, _PNP_LOCATION_INTERFACE, kernel.pnp_location_interface, PNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE structure pointer [Kernel-Mode Driver Architecture], drvr_interface_06c9b5c0-359b-4b14-9ade-8f88f04ee534.xml, ntddk/PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE structure [Kernel-Mode Driver Architecture], ntddk/PNP_LOCATION_INTERFACE, PPNP_LOCATION_INTERFACE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PNP_LOCATION_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PPNP_LOCATION_INTERFACE, PNP_LOCATION_INTERFACE"
+req.typenames: PNP_LOCATION_INTERFACE, *PPNP_LOCATION_INTERFACE
 ---
 
 # _PNP_LOCATION_INTERFACE structure
@@ -89,12 +89,12 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a> routine that increments the reference count for the interface. The PINTERFACE_REFERENCE function pointer type is defined in the Wdm.h header file.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a> routine that increments the reference count for the interface. The PINTERFACE_REFERENCE function pointer type is defined in the Wdm.h header file.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the reference count for the interface. The PINTERFACE_DEREFERENCE function pointer type is defined in the Wdm.h header file.
+A pointer to an <a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the reference count for the interface. The PINTERFACE_DEREFERENCE function pointer type is defined in the Wdm.h header file.
 
 
 ### -field GetLocationString
@@ -113,7 +113,7 @@ A driver obtains a pointer to the <b>PNP_LOCATION_INTERFACE</b> structure by sen
 
 ## -see-also
 
-<a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
 
 
 
@@ -121,11 +121,11 @@ A driver obtains a pointer to the <b>PNP_LOCATION_INTERFACE</b> structure by sen
 
 
 
-<a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_reference.md">InterfaceReference</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551687">IRP_MN_QUERY_INTERFACE</a>
+<a href="..\wudfwdm\nc-wudfwdm-pinterface_dereference.md">InterfaceDereference</a>
 
 
 

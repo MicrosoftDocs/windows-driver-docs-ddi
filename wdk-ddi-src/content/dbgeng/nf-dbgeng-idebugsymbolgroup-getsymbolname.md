@@ -4,11 +4,11 @@ title: IDebugSymbolGroup::GetSymbolName method
 author: windows-driver-content
 description: The GetSymbolName method returns the name of a symbol in a symbol group.
 old-location: debugger\getsymbolname.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: a594e436-3b37-4bba-ba9d-65159fdfb7ac
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: GetSymbolName, GetSymbolName method [Windows Debugging], dbgeng/IDebugSymbolGroup::GetSymbolName, dbgeng/IDebugSymbolGroup2::GetSymbolName, GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup::GetSymbolName, GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup, debugger.getsymbolname, ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method
+ms.date: 2/22/2018
+ms.keywords: dbgeng/IDebugSymbolGroup::GetSymbolName, IDebugSymbolGroup interface [Windows Debugging], GetSymbolName method, dbgeng/IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolName method, IDebugSymbolGroup, debugger.getsymbolname, GetSymbolName, ComOther_e12d7aee-985e-4770-8567-7c3748a79905.xml, IDebugSymbolGroup2::GetSymbolName, IDebugSymbolGroup::GetSymbolName, GetSymbolName method [Windows Debugging], GetSymbolName method [Windows Debugging], IDebugSymbolGroup2 interface, GetSymbolName method [Windows Debugging], IDebugSymbolGroup interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -141,11 +141,11 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbolgroup2.md">IDebugSymbolGroup2</a>
 
 
 
@@ -157,5 +157,5 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup::GetSymbolName method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup::GetSymbolName method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

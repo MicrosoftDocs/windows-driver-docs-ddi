@@ -7,7 +7,7 @@ old-location: display\dxgk_monitordescriptorset_interface_pfngetnumdescriptors.h
 old-project: display
 ms.assetid: 7bfcef0b-1371-4e3b-b5dc-c4c548625c8f
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.dxgk_monitordescriptorset_interface_pfngetnumdescriptors, pfnGetNumDescriptors callback function [Display Devices], pfnGetNumDescriptors, DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, DXGKDDI_MONITORDESCRIPTORSET_GETNUMDESCRIPTORS, d3dkmddi/pfnGetNumDescriptors, VidPnFunctions_c2c4ad34-be07-4bd8-8576-e91b4549ca95.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

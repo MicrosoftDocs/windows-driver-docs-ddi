@@ -8,7 +8,7 @@ old-project: hid
 ms.assetid: 6d2af5a8-f12a-4d22-945c-8cba32b3f277
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: ntdd8042/MOUSE_STATE, ZMovement, YMovement, hid.mouse_state, _MOUSE_STATE, MOUSE_STATE, XMovement, ntdd8042/MouseResetting, MouseIdle, ntdd8042/MouseIdle, ntdd8042/XMovement, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, MouseExpectingACK, PMOUSE_STATE, PMOUSE_STATE enumeration pointer [Human Input Devices], ntdd8042/YMovement, *PMOUSE_STATE, ntdd8042/ZMovement, ntdd8042/MouseExpectingACK, ntdd8042/PMOUSE_STATE, MouseResetting, MOUSE_STATE enumeration [Human Input Devices]
+ms.keywords: MOUSE_STATE enumeration [Human Input Devices], MOUSE_STATE, ntdd8042/ZMovement, hid.mouse_state, *PMOUSE_STATE, ntdd8042/PMOUSE_STATE, i8042ref_80f54e52-c6ff-4346-ba46-708cce3af17c.xml, XMovement, ntdd8042/MouseResetting, PMOUSE_STATE, PMOUSE_STATE enumeration pointer [Human Input Devices], _MOUSE_STATE, ntdd8042/XMovement, ntdd8042/MOUSE_STATE, YMovement, ntdd8042/MouseExpectingACK, ntdd8042/MouseIdle, ZMovement, MouseExpectingACK, ntdd8042/YMovement, MouseResetting, MouseIdle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	MOUSE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUSE_STATE, MOUSE_STATE"
+req.typenames: MOUSE_STATE, *PMOUSE_STATE
 ---
 
 # _MOUSE_STATE enumeration
@@ -113,11 +113,11 @@ The MOUSE_STATE enumerator is used as input to a <a href="..\ntdd8042\nc-ntdd804
 
 ## -see-also
 
-<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
-
-
-
 <a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+
+
+
+<a href="..\ntdd8042\nc-ntdd8042-pi8042_mouse_isr.md">PI8042_MOUSE_ISR</a>
 
 
 

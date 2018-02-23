@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: E8F9A1B0-5E87-4CB0-8C9E-5C2494F07C39
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntintsafe/RtlULongPtrSub, RtlULongPtrSub, RtlULongPtrSub function [Kernel-Mode Driver Architecture], kernel.rtlulongptrsub
+ms.keywords: ntintsafe/RtlULongPtrSub, kernel.rtlulongptrsub, RtlULongPtrSub function [Kernel-Mode Driver Architecture], RtlULongPtrSub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

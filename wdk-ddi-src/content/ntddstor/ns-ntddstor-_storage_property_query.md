@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 5f8e4fbd-706c-4694-bcba-927474a66e86
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddstor/PSTORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Storage Devices], STORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY, *PSTORAGE_PROPERTY_QUERY, _STORAGE_PROPERTY_QUERY, structs-general_3b25ee3b-72f2-4f41-8c76-a1764bea86af.xml, STORAGE_PROPERTY_QUERY structure [Storage Devices], ntddstor/STORAGE_PROPERTY_QUERY, storage.storage_property_query
+ms.keywords: structs-general_3b25ee3b-72f2-4f41-8c76-a1764bea86af.xml, STORAGE_PROPERTY_QUERY structure [Storage Devices], PSTORAGE_PROPERTY_QUERY, _STORAGE_PROPERTY_QUERY, storage.storage_property_query, *PSTORAGE_PROPERTY_QUERY, STORAGE_PROPERTY_QUERY, ntddstor/STORAGE_PROPERTY_QUERY, PSTORAGE_PROPERTY_QUERY structure pointer [Storage Devices], ntddstor/PSTORAGE_PROPERTY_QUERY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,15 +101,11 @@ If the
 
 ## -see-also
 
-<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
-
-
-
 <a href="..\ntddstor\ns-ntddstor-_storage_adapter_descriptor.md">STORAGE_ADAPTER_DESCRIPTOR</a>
 
 
 
-<a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>
+<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
 
 
 
@@ -121,7 +117,11 @@ If the
 
 
 
-<a href="..\ntddstor\ni-ntddstor-ioctl_storage_query_property.md">IOCTL_STORAGE_QUERY_PROPERTY</a>
+<a href="..\ntddstor\ne-ntddstor-_storage_query_type.md">STORAGE_QUERY_TYPE</a>
+
+
+
+<a href="..\ntddstor\ns-ntddstor-_storage_descriptor_header.md">STORAGE_DESCRIPTOR_HEADER</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 79DEDC5B-2A9B-4493-9CB3-7290BEBBD291
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdmsec/WdmlibRtlInitUnicodeStringEx, RtlInitUnicodeString, wdmsec/RtlInitUnicodeString, kernel.wdmlibrtlinitunicodestringex, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture], WdmlibRtlInitUnicodeStringEx
+ms.keywords: wdmsec/RtlInitUnicodeString, WdmlibRtlInitUnicodeStringEx, RtlInitUnicodeString, kernel.wdmlibrtlinitunicodestringex, wdmsec/WdmlibRtlInitUnicodeStringEx, WdmlibRtlInitUnicodeStringEx function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	RtlInitUnicodeString
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: WORK_QUEUE_ITEM, *PWORK_QUEUE_ITEM
 req.product: Windows 10 or later.
 ---
 
@@ -97,15 +97,15 @@ Callers of <b>WdmlibRtlInitUnicodeStringEx</b> can be running at IRQL &lt;= DISP
 
 ## -see-also
 
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
+
+
+
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
 <a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinitex.md">RtlUnicodeStringInitEx</a>
-
-
-
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlunicodestringinit.md">RtlUnicodeStringInit</a>
 
 
 

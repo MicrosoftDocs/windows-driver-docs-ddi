@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 43F60B45-A587-49FE-BB59-DC1215A46F04
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, _SET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], storage.set_band_location_parameters, PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], PSET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS
+ms.keywords: SET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/PSET_BAND_LOCATION_PARAMETERS, *PSET_BAND_LOCATION_PARAMETERS, PSET_BAND_LOCATION_PARAMETERS, ehstorbandmgmt/SET_BAND_LOCATION_PARAMETERS, SET_BAND_LOCATION_PARAMETERS structure [Storage Devices], PSET_BAND_LOCATION_PARAMETERS structure pointer [Storage Devices], storage.set_band_location_parameters, _SET_BAND_LOCATION_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -139,15 +139,15 @@ If <b>BandID</b> and <b>BandStart </b> are both set to –1,  then the <a href="
 
 ## -see-also
 
+<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
+
+
+
 <a href="..\ehstorbandmgmt\ni-ehstorbandmgmt-ioctl_ehstor_bandmgmt_set_band_location.md">IOCTL_EHSTOR_BANDMGMT_SET_BAND_LOCATION</a>
 
 
 
 <a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_management_capabilities.md">BAND_MANAGEMENT_CAPABILITIES</a>
-
-
-
-<a href="..\ehstorbandmgmt\ns-ehstorbandmgmt-_band_location_info.md">BAND_LOCATION_INFO</a>
 
 
 

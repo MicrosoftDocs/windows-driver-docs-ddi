@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 42dc9bbe-b00d-4187-ab07-0c268a061298
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetState method, umdf.iwdfioqueue_getstate, IWDFIoQueue, wdf.iwdfioqueue_getstate, IWDFIoQueue interface, GetState method, IWDFIoQueue::GetState, wudfddi/IWDFIoQueue::GetState, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, GetState method, IWDFIoQueue interface, GetState
+ms.keywords: IWDFIoQueue interface, GetState method, wudfddi/IWDFIoQueue::GetState, wdf.iwdfioqueue_getstate, GetState, GetState method, IWDFIoQueue interface, IWDFIoQueue::GetState, GetState method, UMDFQueueObjectRef_81051128-228b-476a-b27f-5c542558d8a8.xml, IWDFIoQueue, umdf.iwdfioqueue_getstate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3e7d8dd5-4336-472e-a71f-8abb946af8be
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFIoQueue::Start, IWDFIoQueue, Start method, IWDFIoQueue interface, IWDFIoQueue interface, Start method, wdf.iwdfioqueue_start, Start method, umdf.iwdfioqueue_start, Start, UMDFQueueObjectRef_d53b70a8-b022-4e2c-aa3d-d29aac4695ad.xml, wudfddi/IWDFIoQueue::Start
+ms.keywords: UMDFQueueObjectRef_d53b70a8-b022-4e2c-aa3d-d29aac4695ad.xml, IWDFIoQueue::Start, Start, wdf.iwdfioqueue_start, umdf.iwdfioqueue_start, wudfddi/IWDFIoQueue::Start, Start method, Start method, IWDFIoQueue interface, IWDFIoQueue, IWDFIoQueue interface, Start method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

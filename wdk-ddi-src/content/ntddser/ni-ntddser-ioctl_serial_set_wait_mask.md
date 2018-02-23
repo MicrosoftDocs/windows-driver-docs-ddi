@@ -252,11 +252,7 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 
 
-<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
-
-
-
-<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
 
 
 
@@ -264,7 +260,11 @@ For more information about SerCx2, SerCx, and Serial.sys, see <a href="https://m
 
 
 
-<a href="..\ntddser\ni-ntddser-ioctl_serial_set_chars.md">IOCTL_SERIAL_SET_CHARS</a>
+<a href="..\ntddser\ns-ntddser-_serial_chars.md">SERIAL_CHARS</a>
+
+
+
+<a href="..\ntddser\ni-ntddser-ioctl_serial_get_chars.md">IOCTL_SERIAL_GET_CHARS</a>
 
 
 

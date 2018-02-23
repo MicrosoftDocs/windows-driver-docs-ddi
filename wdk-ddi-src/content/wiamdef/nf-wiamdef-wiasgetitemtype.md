@@ -4,11 +4,11 @@ title: wiasGetItemType function
 author: windows-driver-content
 description: The wiasGetItemType function indicates the item type.
 old-location: image\wiasgetitemtype.htm
-old-project: Image
+old-project: image
 ms.assetid: 9659d669-ccf3-423a-9c81-12232a978d07
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, image.wiasgetitemtype, wiasGetItemType, wiasGetItemType function [Imaging Devices], wiamdef/wiasGetItemType
+ms.date: 2/22/2018
+ms.keywords: wiasFncs_634f945c-e60b-4668-b1a7-19b398a86e7c.xml, wiasGetItemType, wiamdef/wiasGetItemType, image.wiasgetitemtype, wiasGetItemType function [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetItemType
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
+req.typenames: DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2
 req.product: Windows 10 or later.
 ---
 

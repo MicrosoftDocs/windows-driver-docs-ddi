@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::Breakpoint method
 author: windows-driver-content
 description: The Breakpoint callback method is called by the engine when the target issues a breakpointexception.
 old-location: debugger\idebugeventcallbackswide_breakpoint.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: ee9b9b6c-c76e-4979-9f23-c411fe1b002a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_breakpoint, IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, dbgeng/IDebugEventCallbacksWide::Breakpoint, Breakpoint, IDebugEventCallbacksWide::Breakpoint, Breakpoint method [Windows Debugging], Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.date: 2/22/2018
+ms.keywords: Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], Breakpoint method, debugger.idebugeventcallbackswide_breakpoint, IDebugEventCallbacksWide::Breakpoint, IDebugEventCallbacksWide, Breakpoint method [Windows Debugging], IDebugEventCallbacksWide interface, dbgeng/IDebugEventCallbacksWide::Breakpoint, Breakpoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

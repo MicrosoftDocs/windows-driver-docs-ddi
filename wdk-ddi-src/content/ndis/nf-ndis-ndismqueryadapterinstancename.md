@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 7af6ee73-814b-49f8-8641-d3e8dc672ee5
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml, netvista.ndismqueryadapterinstancename, NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], NdisMQueryAdapterInstanceName, ndis/NdisMQueryAdapterInstanceName
+ms.keywords: NdisMQueryAdapterInstanceName function [Network Drivers Starting with Windows Vista], NdisMQueryAdapterInstanceName, ndis/NdisMQueryAdapterInstanceName, netvista.ndismqueryadapterinstancename, miniport_ndis_functions_ref_5e04ebd4-3db8-4cb2-a75c-ce67d938804c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	NdisMQueryAdapterInstanceName
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SHARED_MEMORY_USAGE, NDIS_SHARED_MEMORY_USAGE"
+req.typenames: NDIS_SHARED_MEMORY_USAGE, *PNDIS_SHARED_MEMORY_USAGE
 ---
 
 # NdisMQueryAdapterInstanceName function
@@ -134,7 +134,7 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 ## -see-also
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -142,7 +142,7 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 

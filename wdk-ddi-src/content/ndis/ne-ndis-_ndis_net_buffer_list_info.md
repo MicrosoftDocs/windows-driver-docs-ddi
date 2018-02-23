@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 79327b2b-e97b-42dc-8d15-9d774c424cae
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/TcpSendOffloadsSupplementalNetBufferListInfo, TcpIpChecksumNetBufferListInfo, ndis/TcpReceiveBytesTransferred, ndis/NDIS_NET_BUFFER_LIST_INFO, ndis/IPsecOffloadV2HeaderNetBufferListInfo, ndis_netbuf_enums_ref_c6cf9a86-d578-449f-bce0-850f8bbf04f3.xml, TcpReceiveNoPush, IPsecOffloadV2TunnelNetBufferListInfo, NblReAuthWfpFlowContext, PNDIS_NET_BUFFER_LIST_INFO, MediaSpecificInformation, ndis/MediaSpecificInformation, NDIS_NET_BUFFER_LIST_INFO, ndis/MediaSpecificInformationEx, PNDIS_NET_BUFFER_LIST_INFO enumeration pointer [Network Drivers Starting with Windows Vista], IPsecOffloadV2NetBufferListInfo, IMReserved, TcpSendOffloadsSupplementalNetBufferListInfo, ndis/IPsecOffloadV2TunnelNetBufferListInfo, RscTcpTimestampDelta, ndis/NetBufferListInfoReserved2, ClassificationHandleNetBufferListInfo, NDIS_NET_BUFFER_LIST_INFO enumeration [Network Drivers Starting with Windows Vista], NblOriginalInterfaceIfIndex, SwitchForwardingReserved, ndis/TcpRecvSegCoalesceInfo, TcpOffloadBytesTransferred, NetBufferListHashInfo, TcpLargeSendNetBufferListInfo, NetBufferListFrameType, ndis/Ieee8021QNetBufferListInfo, netvista.ndis_net_buffer_list_info, ndis/NblReAuthWfpFlowContext, ndis/SwitchForwardingDetail, NetBufferListHashValue, IPsecOffloadV1NetBufferListInfo, NetBufferListCancelId, ndis/IMReserved, ndis/NetBufferListCancelId, ndis/IPsecOffloadV2NetBufferListInfo, ndis/NetBufferListCorrelationId, NetBufferListProtocolId, MediaSpecificInformationEx, ndis/NetBufferListFrameType, ndis/SwitchForwardingReserved, VirtualSubnetInfo, ndis/NblOriginalInterfaceIfIndex, ndis/RscTcpTimestampDelta, ndis/MaxNetBufferListInfo, TcpRecvSegCoalesceInfo, MaxNetBufferListInfo, Ieee8021QNetBufferListInfo, ndis/NetBufferListHashValue, ndis/NetBufferListProtocolId, ndis/NetBufferListInfoReserved1, ndis/TcpOffloadBytesTransferred, *PNDIS_NET_BUFFER_LIST_INFO, NetBufferListInfoReserved2, NetBufferListCorrelationId, ndis/TcpIpChecksumNetBufferListInfo, ndis/TcpLargeSendNetBufferListInfo, ndis/ClassificationHandleNetBufferListInfo, WfpNetBufferListInfo, ndis/IPsecOffloadV1NetBufferListInfo, IPsecOffloadV2HeaderNetBufferListInfo, ndis/NetBufferListHashInfo, NetBufferListFilteringInfo, ndis/VirtualSubnetInfo, SwitchForwardingDetail, NetBufferListInfoReserved1, ndis/TcpReceiveNoPush, ndis/PNDIS_NET_BUFFER_LIST_INFO, ndis/WfpNetBufferListInfo, _NDIS_NET_BUFFER_LIST_INFO, TcpReceiveBytesTransferred, ndis/NetBufferListFilteringInfo
+ms.keywords: ndis/TcpReceiveNoPush, TcpOffloadBytesTransferred, ndis/IPsecOffloadV1NetBufferListInfo, NDIS_NET_BUFFER_LIST_INFO, IMReserved, ndis_netbuf_enums_ref_c6cf9a86-d578-449f-bce0-850f8bbf04f3.xml, TcpReceiveNoPush, NblReAuthWfpFlowContext, ndis/NetBufferListInfoReserved2, PNDIS_NET_BUFFER_LIST_INFO, TcpSendOffloadsSupplementalNetBufferListInfo, NetBufferListCancelId, TcpIpChecksumNetBufferListInfo, VirtualSubnetInfo, NetBufferListInfoReserved1, Ieee8021QNetBufferListInfo, IPsecOffloadV1NetBufferListInfo, ndis/VirtualSubnetInfo, *PNDIS_NET_BUFFER_LIST_INFO, ndis/MaxNetBufferListInfo, ndis/TcpOffloadBytesTransferred, ndis/NetBufferListInfoReserved1, ndis/NetBufferListFilteringInfo, ndis/NetBufferListCancelId, IPsecOffloadV2TunnelNetBufferListInfo, SwitchForwardingDetail, ndis/IPsecOffloadV2HeaderNetBufferListInfo, ndis/ClassificationHandleNetBufferListInfo, RscTcpTimestampDelta, ndis/TcpIpChecksumNetBufferListInfo, MediaSpecificInformation, ndis/NDIS_NET_BUFFER_LIST_INFO, ndis/NblOriginalInterfaceIfIndex, _NDIS_NET_BUFFER_LIST_INFO, ndis/TcpLargeSendNetBufferListInfo, PNDIS_NET_BUFFER_LIST_INFO enumeration pointer [Network Drivers Starting with Windows Vista], ClassificationHandleNetBufferListInfo, NetBufferListInfoReserved2, NetBufferListFilteringInfo, ndis/Ieee8021QNetBufferListInfo, NetBufferListHashInfo, ndis/TcpRecvSegCoalesceInfo, NDIS_NET_BUFFER_LIST_INFO enumeration [Network Drivers Starting with Windows Vista], ndis/MediaSpecificInformation, ndis/NetBufferListHashValue, ndis/NblReAuthWfpFlowContext, TcpRecvSegCoalesceInfo, ndis/TcpSendOffloadsSupplementalNetBufferListInfo, ndis/WfpNetBufferListInfo, ndis/IMReserved, ndis/PNDIS_NET_BUFFER_LIST_INFO, ndis/TcpReceiveBytesTransferred, NetBufferListProtocolId, TcpLargeSendNetBufferListInfo, ndis/NetBufferListProtocolId, TcpReceiveBytesTransferred, ndis/SwitchForwardingReserved, WfpNetBufferListInfo, NetBufferListCorrelationId, ndis/MediaSpecificInformationEx, SwitchForwardingReserved, NblOriginalInterfaceIfIndex, MaxNetBufferListInfo, netvista.ndis_net_buffer_list_info, ndis/IPsecOffloadV2TunnelNetBufferListInfo, ndis/SwitchForwardingDetail, ndis/NetBufferListFrameType, IPsecOffloadV2HeaderNetBufferListInfo, ndis/RscTcpTimestampDelta, NetBufferListHashValue, ndis/NetBufferListHashInfo, NetBufferListFrameType, ndis/IPsecOffloadV2NetBufferListInfo, IPsecOffloadV2NetBufferListInfo, ndis/NetBufferListCorrelationId, MediaSpecificInformationEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_NET_BUFFER_LIST_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_NET_BUFFER_LIST_INFO, NDIS_NET_BUFFER_LIST_INFO"
+req.typenames: NDIS_NET_BUFFER_LIST_INFO, *PNDIS_NET_BUFFER_LIST_INFO
 ---
 
 # _NDIS_NET_BUFFER_LIST_INFO enumeration
@@ -438,63 +438,7 @@ Use these enumeration values with the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_filtering_info.md">
-   NDIS_NET_BUFFER_LIST_FILTERING_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_header_net_buffer_list_info.md">
-   NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
-   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">
-   NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_nbl_media_specific_information_ex.md">
-   NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md">
-   NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md">
-   NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_8021q_info.md">
-   NDIS_NET_BUFFER_LIST_8021Q_INFO</a>
-
-
-
-<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_virtual_subnet_info.md">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a>
+<a href="..\ndis\nf-ndis-ndisgeneratepartialcancelid.md">NdisGeneratePartialCancelId</a>
 
 
 
@@ -503,12 +447,67 @@ Use these enumeration values with the
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_header_net_buffer_list_info.md">
+   NDIS_IPSEC_OFFLOAD_V2_HEADER_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v2_net_buffer_list_info.md">
+   NDIS_IPSEC_OFFLOAD_V2_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_filtering_info.md">
+   NDIS_NET_BUFFER_LIST_FILTERING_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_tcp_ip_checksum_net_buffer_list_info.md">
+   NDIS_TCP_IP_CHECKSUM_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_virtual_subnet_info.md">NDIS_NET_BUFFER_LIST_VIRTUAL_SUBNET_INFO</a>
+
+
+
 <a href="..\ndis\ns-ndis-_ndis_tcp_large_send_offload_net_buffer_list_info.md">
    NDIS_TCP_LARGE_SEND_OFFLOAD_NET_BUFFER_LIST_INFO</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
+<a href="..\ndis\ns-ndis-_ndis_ipsec_offload_v1_net_buffer_list_info.md">
+   NDIS_IPSEC_OFFLOAD_V1_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568401">NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_net_buffer_list_8021q_info.md">
+   NDIS_NET_BUFFER_LIST_8021Q_INFO</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndiscancelsendnetbufferlists.md">NdisCancelSendNetBufferLists</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_switch_forwarding_detail_net_buffer_list_info.md">NDIS_SWITCH_FORWARDING_DETAIL_NET_BUFFER_LIST_INFO</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_nbl_media_specific_information_ex.md">
+   NDIS_NBL_MEDIA_SPECIFIC_INFORMATION_EX</a>
 
 
 

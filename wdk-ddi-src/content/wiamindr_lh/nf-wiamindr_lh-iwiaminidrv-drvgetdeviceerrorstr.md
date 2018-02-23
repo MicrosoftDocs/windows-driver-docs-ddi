@@ -4,11 +4,11 @@ title: IWiaMiniDrv::drvGetDeviceErrorStr method
 author: windows-driver-content
 description: The IWiaMiniDrv::drvGetDeviceErrorStr method maps an error code to a Unicode string that describes the error.
 old-location: image\iwiaminidrv_drvgetdeviceerrorstr.htm
-old-project: Image
+old-project: image
 ms.assetid: c34a6834-8875-400c-9634-6c2b9b68164f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr, IWiaMiniDrv, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, image.iwiaminidrv_drvgetdeviceerrorstr
+ms.date: 2/22/2018
+ms.keywords: drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, IWiaMiniDrv::drvGetDeviceErrorStr, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, IWiaMiniDrv, image.iwiaminidrv_drvgetdeviceerrorstr, drvGetDeviceErrorStr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -93,24 +93,24 @@ HRESULT drvGetDeviceErrorStr(
 
 
 
-#### - lDevErrVal [in]
-
-Specifies the device error value to be mapped to a string. A value of zero indicates that no error occurred.
-
-
 #### - lFlags [in]
 
 Is currently unused. 
 
 
-#### - plDevErr [out]
+#### - lDevErrVal [in]
 
-Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
+Specifies the device error value to be mapped to a string. A value of zero indicates that no error occurred.
 
 
 #### - ppszDevErrStr [out, optional]
 
 Points to a memory location that will receive the address of a string describing the error. 
+
+
+#### - plDevErr [out]
+
+Points to a memory location that will receive a status code for this method. If this method returns S_OK, the value stored will be zero. Otherwise, a minidriver-specific error code will be stored at the location pointed to by this parameter.
 
 
 ## -returns

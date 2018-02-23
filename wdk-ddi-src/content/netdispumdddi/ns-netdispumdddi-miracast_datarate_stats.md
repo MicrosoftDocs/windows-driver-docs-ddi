@@ -7,8 +7,8 @@ old-location: display\miracast_datarate_stats.htm
 old-project: display
 ms.assetid: d4249b81-0ee7-49dd-9886-cdc5842f02d8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: MIRACAST_DATARATE_STATS structure [Display Devices], MIRACAST_DATARATE_STATS, netdispumdddi/MIRACAST_DATARATE_STATS, display.miracast_datarate_stats
+ms.date: 2/22/2018
+ms.keywords: netdispumdddi/MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS, MIRACAST_DATARATE_STATS structure [Display Devices], display.miracast_datarate_stats
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

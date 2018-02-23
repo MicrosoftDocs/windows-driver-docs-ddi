@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: dbc929a9-696b-42e1-9888-9e8c0b1e01c9
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdf.wdfusbinterfacegetnumconfiguredpipes, WdfUsbInterfaceGetNumConfiguredPipes method, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes, DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, kmdf.wdfusbinterfacegetnumconfiguredpipes, WdfUsbInterfaceGetNumConfiguredPipes
+ms.keywords: DFUsbRef_4273baba-c0e8-4bda-b6da-c9c9f00cabf9.xml, wdf.wdfusbinterfacegetnumconfiguredpipes, kmdf.wdfusbinterfacegetnumconfiguredpipes, WdfUsbInterfaceGetNumConfiguredPipes method, wdfusb/WdfUsbInterfaceGetNumConfiguredPipes, WdfUsbInterfaceGetNumConfiguredPipes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbInterfaceGetNumConfiguredPipes
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

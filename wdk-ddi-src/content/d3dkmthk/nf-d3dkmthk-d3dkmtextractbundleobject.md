@@ -7,8 +7,8 @@ old-location: display\d3dkmtextractbundleobject.htm
 old-project: display
 ms.assetid: f3193d5b-084f-4df1-9688-26ba5a964cca
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3DKMTExtractBundleObject method [Display Devices], D3DKMTExtractBundleObject, d3dkmthk/D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject
+ms.date: 2/22/2018
+ms.keywords: D3DKMTExtractBundleObject method [Display Devices], D3DKMTExtractBundleObject, display.d3dkmtextractbundleobject, d3dkmthk/D3DKMTExtractBundleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

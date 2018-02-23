@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: a98d7e74-8311-46bf-a0b9-a160f5675c3d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WdfRequestForwardToIoQueue method, wdfrequest/WdfRequestForwardToIoQueue, wdf.wdfrequestforwardtoioqueue, kmdf.wdfrequestforwardtoioqueue, WdfRequestForwardToIoQueue, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml
+ms.keywords: wdf.wdfrequestforwardtoioqueue, DFRequestObjectRef_91c731d6-de15-4ae6-a0d0-ae449a5a47b6.xml, WdfRequestForwardToIoQueue, wdfrequest/WdfRequestForwardToIoQueue, WdfRequestForwardToIoQueue method, kmdf.wdfrequestforwardtoioqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -272,15 +272,15 @@ PciDrvEvtIoDeviceControl(
 
 
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelableex.md">WdfRequestMarkCancelableEx</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestmarkcancelable.md">WdfRequestMarkCancelable</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestrequeue.md">WdfRequestRequeue</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestunmarkcancelable.md">WdfRequestUnmarkCancelable</a>
 
 
 

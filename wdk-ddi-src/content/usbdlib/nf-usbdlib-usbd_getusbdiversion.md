@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 47e6da4a-fa81-40ee-9bf5-80526dc0b865
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbd_getusbdiversion, usbdlib/USBD_GetUSBDIVersion, usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml, USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses]
+ms.keywords: USBD_GetUSBDIVersion, usbdlib/USBD_GetUSBDIVersion, USBD_GetUSBDIVersion routine [Buses], usbfunc_567ca75b-8d65-412c-aa28-284a01cff650.xml, buses.usbd_getusbdiversion
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,11 +94,11 @@ Callers of this routine can be running at IRQL &lt;= DISPATCH_LEVEL if the memor
 
 ## -see-also
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_isinterfaceversionsupported.md">USBD_IsInterfaceVersionSupported</a>
 
 
 

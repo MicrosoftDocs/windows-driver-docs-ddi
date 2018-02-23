@@ -8,7 +8,7 @@ old-project: battery
 ms.assetid: AC6E3447-2E7E-41EC-AC04-CAB46F826095
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: "*PPOWERSOURCEID, _POWERSOURCEID, charging/, POWERSOURCEID, battery.powersourceid, enumeration [Battery Devices]"
+ms.keywords: battery.powersourceid, charging/, enumeration [Battery Devices], POWERSOURCEID, *PPOWERSOURCEID, _POWERSOURCEID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	POWERSOURCEID
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
+req.typenames: POWERSOURCEID, *PPOWERSOURCEID
 ---
 
 # _POWERSOURCEID enumeration

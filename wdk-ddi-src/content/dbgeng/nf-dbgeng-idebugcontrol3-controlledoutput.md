@@ -4,11 +4,11 @@ title: IDebugControl3::ControlledOutput method
 author: windows-driver-content
 description: The ControlledOutput method formats a string and sends the result to output callbacks that were registered with some of the engine's clients.
 old-location: debugger\controlledoutput.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: d1a4aba3-9567-4d8e-980c-f6a85f54870e
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: debugger.controlledoutput, IDebugControl2::ControlledOutput, IDebugControl, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, ControlledOutput method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], ControlledOutput method, IDebugControl3 interface [Windows Debugging], ControlledOutput method, ControlledOutput method [Windows Debugging], IDebugControl2 interface, IDebugControl2, IDebugControl3, ControlledOutput method [Windows Debugging], dbgeng/IDebugControl2::ControlledOutput, dbgeng/IDebugControl3::ControlledOutput, IDebugControl3::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl interface, ControlledOutput, IDebugControl2 interface [Windows Debugging], ControlledOutput method, dbgeng/IDebugControl::ControlledOutput, IDebugControl::ControlledOutput
+ms.date: 2/22/2018
+ms.keywords: IDebugControl::ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], ControlledOutput method, ControlledOutput, ControlledOutput method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl::ControlledOutput, IDebugControl_b35fb81f-3425-4a39-8c80-b6e8a161ba71.xml, ControlledOutput method [Windows Debugging], IDebugControl3, IDebugControl, ControlledOutput method [Windows Debugging], IDebugControl2 interface, IDebugControl2, IDebugControl2 interface [Windows Debugging], ControlledOutput method, IDebugControl3 interface [Windows Debugging], ControlledOutput method, dbgeng/IDebugControl3::ControlledOutput, IDebugControl2::ControlledOutput, dbgeng/IDebugControl2::ControlledOutput, debugger.controlledoutput, IDebugControl3::ControlledOutput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -480,19 +480,19 @@ When generating very large output strings, it is possible to reach the limits of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff553183">Output</a>
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539252">ControlledOutputVaList</a>
 
 
 
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff564716">.printf</a>
 
 
 
@@ -500,17 +500,17 @@ When generating very large output strings, it is possible to reach the limits of
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
 
- 
+<a href="..\wdbgexts\nc-wdbgexts-pwindbg_output_routine.md">dprintf</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::ControlledOutput method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::ControlledOutput method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

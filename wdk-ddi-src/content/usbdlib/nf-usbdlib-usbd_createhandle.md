@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: 97757CBA-8291-40A3-B247-D41E7FEB1D7C
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: USBD_CreateHandle, usbdlib/USBD_CreateHandle, buses.usbd_register, USBD_CreateHandle routine [Buses]
+ms.keywords: USBD_CreateHandle, buses.usbd_register, usbdlib/USBD_CreateHandle, USBD_CreateHandle routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -281,11 +281,11 @@ NTSTATUS MyAddDevice( __in PDRIVER_OBJECT  DriverObject,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406258">Best Practices: Using URBs</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
+
+
+
+<a href="..\usbdlib\nf-usbdlib-usbd_closehandle.md">USBD_CloseHandle</a>
 
 
 

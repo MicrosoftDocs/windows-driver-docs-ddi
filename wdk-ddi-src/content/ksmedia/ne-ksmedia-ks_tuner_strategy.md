@@ -7,8 +7,8 @@ old-location: stream\ks_tuner_strategy.htm
 old-project: stream
 ms.assetid: 333b1b11-cc6e-4546-9638-e5dcb4c2607c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: KS_TUNER_STRATEGY, KS_TUNER_STRATEGY enumeration [Streaming Media Devices], ksmedia/KS_TUNER_STRATEGY_PLL, stream.ks_tuner_strategy, KS_TUNER_STRATEGY_PLL, ksmedia/KS_TUNER_STRATEGY_DRIVER_TUNES, vidcapstruct_99c03903-7b57-44ea-8c11-a3017931dfca.xml, ksmedia/KS_TUNER_STRATEGY_SIGNAL_STRENGTH, KS_TUNER_STRATEGY_SIGNAL_STRENGTH, ksmedia/KS_TUNER_STRATEGY, KS_TUNER_STRATEGY_DRIVER_TUNES
+ms.date: 2/22/2018
+ms.keywords: KS_TUNER_STRATEGY_PLL, KS_TUNER_STRATEGY enumeration [Streaming Media Devices], ksmedia/KS_TUNER_STRATEGY, stream.ks_tuner_strategy, vidcapstruct_99c03903-7b57-44ea-8c11-a3017931dfca.xml, KS_TUNER_STRATEGY, ksmedia/KS_TUNER_STRATEGY_PLL, ksmedia/KS_TUNER_STRATEGY_DRIVER_TUNES, ksmedia/KS_TUNER_STRATEGY_SIGNAL_STRENGTH, KS_TUNER_STRATEGY_DRIVER_TUNES, KS_TUNER_STRATEGY_SIGNAL_STRENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -94,5 +94,5 @@ The minidriver has total control over the fine tuning process. No fine tuning is
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_TUNER_STRATEGY enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_TUNER_STRATEGY enumeration%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

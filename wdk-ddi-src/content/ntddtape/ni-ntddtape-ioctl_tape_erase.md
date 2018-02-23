@@ -116,11 +116,11 @@ The <b>Information</b> field is set to the number of bytes transferred. The <b>S
 
 
 
-<a href="..\ntddtape\ns-ntddtape-_tape_erase.md">TAPE_ERASE</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff567933">TapeMiniErase</a>
+
+
+
+<a href="..\ntddtape\ns-ntddtape-_tape_erase.md">TAPE_ERASE</a>
 
 
 

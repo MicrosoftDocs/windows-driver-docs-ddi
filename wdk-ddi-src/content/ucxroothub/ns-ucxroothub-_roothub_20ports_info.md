@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: FBFDF368-8DB9-4ACE-851D-6A178FB3E019
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: P_ROOTHUB_20PORTS_INFO structure pointer [Buses], P_ROOTHUB_20PORTS_INFO, ROOTHUB_20PORTS_INFO structure [Buses], ucxroothub/_ROOTHUB_20PORTS_INFO, *PROOTHUB_20PORTS_INFO, ucxroothub/P_ROOTHUB_20PORTS_INFO, buses._roothub_20ports_info, ROOTHUB_20PORTS_INFO, _ROOTHUB_20PORTS_INFO
+ms.keywords: "_ROOTHUB_20PORTS_INFO, *PROOTHUB_20PORTS_INFO, buses._roothub_20ports_info, ucxroothub/_ROOTHUB_20PORTS_INFO, P_ROOTHUB_20PORTS_INFO, ROOTHUB_20PORTS_INFO structure [Buses], P_ROOTHUB_20PORTS_INFO structure pointer [Buses], ucxroothub/P_ROOTHUB_20PORTS_INFO, ROOTHUB_20PORTS_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

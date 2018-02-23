@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 3c8f5c4a-a1a3-41a9-ae55-f83048aab0ec
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfusbtargetpipe_setpipepolicy, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, IWDFUsbTargetPipe::SetPipePolicy, wdf.iwdfusbtargetpipe_setpipepolicy, SetPipePolicy, SetPipePolicy method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe, IWDFUsbTargetPipe interface, SetPipePolicy method, wudfusb/IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method
+ms.keywords: wudfusb/IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy, IWDFUsbTargetPipe, UMDFUSBref_ab486cfe-19aa-440c-a017-e956aa4d2bb1.xml, wdf.iwdfusbtargetpipe_setpipepolicy, IWDFUsbTargetPipe::SetPipePolicy, SetPipePolicy method, SetPipePolicy method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_setpipepolicy, IWDFUsbTargetPipe interface, SetPipePolicy method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.SetPipePolicy
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -217,11 +217,11 @@ CMyDevice::ConfigureUsbIoTargets(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560418">IWDFUsbTargetPipe::RetrievePipePolicy</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540304">WinUsb_SetPipePolicy</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560418">IWDFUsbTargetPipe::RetrievePipePolicy</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: F05D67A0-6583-4C3E-B9AA-B99381A18047
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.pep_component_perf_info, pepfx/PEP_COMPONENT_PERF_INFO, _PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], pepfx/PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], PEP_COMPONENT_PERF_INFO
+ms.keywords: PEP_COMPONENT_PERF_INFO structure [Kernel-Mode Driver Architecture], pepfx/PEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO, pepfx/PPEP_COMPONENT_PERF_INFO, PPEP_COMPONENT_PERF_INFO structure pointer [Kernel-Mode Driver Architecture], kernel.pep_component_perf_info, _PEP_COMPONENT_PERF_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_COMPONENT_PERF_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_COMPONENT_PERF_INFO, PEP_COMPONENT_PERF_INFO"
+req.typenames: PEP_COMPONENT_PERF_INFO, *PPEP_COMPONENT_PERF_INFO
 ---
 
 # _PEP_COMPONENT_PERF_INFO structure
@@ -75,14 +75,14 @@ The number of elements in the <b>PerfStateSets</b> array.
 
 ### -field PerfStateSets
 
-The first element in an array of <a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structures. Each array element describes a P-state of the component. If the array contains more than one element, the additional elements immediately follow the end of the <b>PEP_COMPONENT_PERF_INFO</b> structure.
+The first element in an array of <a href="..\pep_x\ns-pep_x-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a> structures. Each array element describes a P-state of the component. If the array contains more than one element, the additional elements immediately follow the end of the <b>PEP_COMPONENT_PERF_INFO</b> structure.
 
 
 ## -remarks
 
 
 
-This structure is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a> notification. The <b>PerfStateSets</b> member of the <a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a> structure is a <b>PEP_COMPONENT_PERF_INFO</b> structure.
+This structure is used in conjunction with the <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186848">PEP_DPM_REGISTER_COMPONENT_PERF_STATES</a> notification. The <b>PerfStateSets</b> member of the <a href="..\pep_x\ns-pep_x-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a> structure is a <b>PEP_COMPONENT_PERF_INFO</b> structure.
 
 The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supplied by the Windows <a href="https://msdn.microsoft.com/B08F8ABF-FD43-434C-A345-337FBB799D9B">power management framework</a> (PoFx). The platform extension plug-in (PEP) must not write to this structure.
 
@@ -95,15 +95,15 @@ The <b>PEP_COMPONENT_PERF_INFO</b> structure contains input values that are supp
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
+<a href="..\pep_x\ns-pep_x-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
+<a href="..\pep_x\ns-pep_x-_pep_register_component_perf_states.md">PEP_REGISTER_COMPONENT_PERF_STATES</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_component_perf_info.md">PEP_COMPONENT_PERF_INFO</a>
+<a href="..\pep_x\ns-pep_x-_pep_component_perf_set.md">PEP_COMPONENT_PERF_SET</a>
 
 
 

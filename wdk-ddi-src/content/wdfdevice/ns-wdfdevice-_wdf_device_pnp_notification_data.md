@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: b49431bf-4b44-4d7b-b3a6-c3d7416bcb53
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: WDF_DEVICE_PNP_NOTIFICATION_DATA structure, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA, wdf.wdf_device_pnp_notification_data, _WDF_DEVICE_PNP_NOTIFICATION_DATA, kmdf.wdf_device_pnp_notification_data, WDF_DEVICE_PNP_NOTIFICATION_DATA, DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml
+ms.keywords: WDF_DEVICE_PNP_NOTIFICATION_DATA, WDF_DEVICE_PNP_NOTIFICATION_DATA structure, _WDF_DEVICE_PNP_NOTIFICATION_DATA, wdf.wdf_device_pnp_notification_data, wdfdevice/WDF_DEVICE_PNP_NOTIFICATION_DATA, kmdf.wdf_device_pnp_notification_data, DFDeviceObjectGeneralRef_92c66935-afca-4567-bc55-cb3e3822201e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

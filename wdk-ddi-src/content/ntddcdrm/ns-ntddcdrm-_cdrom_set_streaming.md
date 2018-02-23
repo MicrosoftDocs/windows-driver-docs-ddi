@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: e5c2d421-5994-4f1d-9022-718500eef1a9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: CDROM_SET_STREAMING, _CDROM_SET_STREAMING, *PCDROM_SET_STREAMING, CDROM_SET_STREAMING structure [Storage Devices], PCDROM_SET_STREAMING structure pointer [Storage Devices], storage.cdrom_set_streaming, PCDROM_SET_STREAMING, ntddcdrm/PCDROM_SET_STREAMING, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml, ntddcdrm/CDROM_SET_STREAMING
+ms.keywords: ntddcdrm/CDROM_SET_STREAMING, PCDROM_SET_STREAMING structure pointer [Storage Devices], _CDROM_SET_STREAMING, structs-CD-ROM_5157906e-31d2-42c7-8e90-cc673ed02510.xml, ntddcdrm/PCDROM_SET_STREAMING, CDROM_SET_STREAMING, storage.cdrom_set_streaming, PCDROM_SET_STREAMING, CDROM_SET_STREAMING structure [Storage Devices], *PCDROM_SET_STREAMING
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -140,15 +140,15 @@ A BOOLEAN value that, when <b>TRUE</b>, instructs the CD-ROM class driver to con
 
 ## -see-also
 
+<a href="..\ntddcdrm\ne-ntddcdrm-_write_rotation.md">WRITE_ROTATION</a>
+
+
+
 <a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
 
 <a href="..\ntddcdrm\ns-ntddcdrm-_cdrom_set_speed.md">CDROM_SET_SPEED</a>
-
-
-
-<a href="..\ntddcdrm\ni-ntddcdrm-ioctl_cdrom_set_speed.md">IOCTL_CDROM_SET_SPEED</a>
 
 
 

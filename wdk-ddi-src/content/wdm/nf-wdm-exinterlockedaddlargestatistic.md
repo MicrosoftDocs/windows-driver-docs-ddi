@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f044a344-4768-499b-85b4-714062111b2c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ExInterlockedAddLargeStatistic routine [Kernel-Mode Driver Architecture], k102_232887d0-d6f0-4664-bcff-221f371bfe6a.xml, wdm/ExInterlockedAddLargeStatistic, ExInterlockedAddLargeStatistic, kernel.exinterlockedaddlargestatistic
+ms.keywords: wdm/ExInterlockedAddLargeStatistic, k102_232887d0-d6f0-4664-bcff-221f371bfe6a.xml, kernel.exinterlockedaddlargestatistic, ExInterlockedAddLargeStatistic, ExInterlockedAddLargeStatistic routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -94,11 +94,11 @@ Support routines that do interlocked operations must not cause a page fault. Nei
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
-
-
-
 <a href="..\wdm\nf-wdm-exinterlockedaddulong.md">ExInterlockedAddUlong</a>
+
+
+
+<a href="..\wdm\nf-wdm-exinterlockedaddlargeinteger.md">ExInterlockedAddLargeInteger</a>
 
 
 

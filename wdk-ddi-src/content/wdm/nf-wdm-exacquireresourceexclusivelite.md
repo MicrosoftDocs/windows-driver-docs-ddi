@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: c7f8a6c5-15d5-4a24-a351-4fa5d6c72fbd
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.exacquireresourceexclusivelite, wdm/ExAcquireResourceExclusiveLite, k102_894dbc3c-af92-4916-8205-539062946dbe.xml, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], ExAcquireResourceExclusiveLite
+ms.keywords: kernel.exacquireresourceexclusivelite, k102_894dbc3c-af92-4916-8205-539062946dbe.xml, ExAcquireResourceExclusiveLite routine [Kernel-Mode Driver Architecture], ExAcquireResourceExclusiveLite, wdm/ExAcquireResourceExclusiveLite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,7 +116,7 @@ If the resource is currently owned as exclusive by another thread, or if the cal
 <div> </div>
 The caller can release the resource by calling either <a href="https://msdn.microsoft.com/library/windows/hardware/ff545597">ExReleaseResourceLite</a> or <a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>.
 
-Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="..\ntddk\nf-ntddk-keleavecriticalregion.md">KeLeaveCriticalRegion</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543219">Disabling APCs</a>.
+Normal kernel APC delivery must be disabled before calling this routine. Disable normal kernel APC delivery by calling <a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>. Delivery must remain disabled until the resource is released, at which point it can be reenabled by calling <a href="..\wdm\nf-wdm-keleavecriticalregion.md">KeLeaveCriticalRegion</a>. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff543219">Disabling APCs</a>.
 
 
 
@@ -127,15 +127,15 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 
+<a href="..\wdm\nf-wdm-keentercriticalregion.md">KeEnterCriticalRegion</a>
+
+
+
+<a href="..\wdm\nf-wdm-exgetsharedwaitercount.md">ExGetSharedWaiterCount</a>
+
+
+
 <a href="..\wdm\nf-wdm-exreleaseresourceforthreadlite.md">ExReleaseResourceForThreadLite</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-keentercriticalregion.md">KeEnterCriticalRegion</a>
-
-
-
-<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
 
 
 
@@ -147,11 +147,11 @@ Normal kernel APC delivery must be disabled before calling this routine. Disable
 
 
 
+<a href="..\wdm\nf-wdm-exisresourceacquiredexclusivelite.md">ExIsResourceAcquiredExclusiveLite</a>
+
+
+
 <a href="..\wdm\nf-wdm-exgetexclusivewaitercount.md">ExGetExclusiveWaiterCount</a>
-
-
-
-<a href="..\wdm\nf-wdm-exgetsharedwaitercount.md">ExGetSharedWaiterCount</a>
 
 
 

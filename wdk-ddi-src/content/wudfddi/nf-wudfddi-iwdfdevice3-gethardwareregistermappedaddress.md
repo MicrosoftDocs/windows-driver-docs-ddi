@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 94852404-301F-4C09-81D2-CEDEECFCD6BD
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice3 interface, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, umdf.iwdfdevice3_gethardwareregistermappedaddress, GetHardwareRegisterMappedAddress, wdf.iwdfdevice3_gethardwareregistermappedaddress, IWDFDevice3, IWDFDevice3::GetHardwareRegisterMappedAddress, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress
+ms.keywords: IWDFDevice3 interface, GetHardwareRegisterMappedAddress method, IWDFDevice3::GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, wdf.iwdfdevice3_gethardwareregistermappedaddress, GetHardwareRegisterMappedAddress method, umdf.iwdfdevice3_gethardwareregistermappedaddress, IWDFDevice3, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress, GetHardwareRegisterMappedAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

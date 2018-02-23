@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: BB05D543-7B99-481E-8CDB-AE350CBCCA2A
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntddscsi/MP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/PMP_STORAGE_DIAGNOSTIC_LEVEL, StorageDiagnosticLevelMax, StorageDiagnosticLevelDefault, PMP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL, _MP_STORAGE_DIAGNOSTIC_LEVEL, storage.mp_storage_diagnostic_level, ntddscsi/StorageDiagnosticLevelDefault, ntddscsi/StorageDiagnosticLevelMax, MP_STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], PMP_STORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], MP_STORAGE_DIAGNOSTIC_LEVEL
+ms.keywords: ntddscsi/StorageDiagnosticLevelMax, PMP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL, PMP_STORAGE_DIAGNOSTIC_LEVEL enumeration pointer [Storage Devices], StorageDiagnosticLevelMax, StorageDiagnosticLevelDefault, ntddscsi/PMP_STORAGE_DIAGNOSTIC_LEVEL, storage.mp_storage_diagnostic_level, _MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL, ntddscsi/StorageDiagnosticLevelDefault, MP_STORAGE_DIAGNOSTIC_LEVEL enumeration [Storage Devices], ntddscsi/MP_STORAGE_DIAGNOSTIC_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	MP_STORAGE_DIAGNOSTIC_LEVEL
 product: Windows
 targetos: Windows
-req.typenames: "*PMP_STORAGE_DIAGNOSTIC_LEVEL, MP_STORAGE_DIAGNOSTIC_LEVEL"
+req.typenames: MP_STORAGE_DIAGNOSTIC_LEVEL, *PMP_STORAGE_DIAGNOSTIC_LEVEL
 ---
 
 # _MP_STORAGE_DIAGNOSTIC_LEVEL enumeration

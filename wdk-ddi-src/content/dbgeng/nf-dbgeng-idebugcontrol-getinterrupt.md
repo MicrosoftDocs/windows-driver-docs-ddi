@@ -4,11 +4,11 @@ title: IDebugControl::GetInterrupt method
 author: windows-driver-content
 description: The GetInterrupt method checks whether a user interrupt was issued.
 old-location: debugger\getinterrupt.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 597bff1e-0bc1-4c18-9156-661a46cf8e7a
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], GetInterrupt method, debugger.getinterrupt, IDebugControl3::GetInterrupt, IDebugControl, IDebugControl interface [Windows Debugging], GetInterrupt method, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, IDebugControl::GetInterrupt, dbgeng/IDebugControl::GetInterrupt, dbgeng/IDebugControl2::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetInterrupt method, GetInterrupt, IDebugControl2::GetInterrupt, dbgeng/IDebugControl3::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl interface, GetInterrupt method [Windows Debugging], IDebugControl2 interface, GetInterrupt method [Windows Debugging], IDebugControl3 interface
+ms.date: 2/22/2018
+ms.keywords: IDebugControl interface [Windows Debugging], GetInterrupt method, IDebugControl3::GetInterrupt, IDebugControl_059bd637-c75b-4b52-a382-c645cb4b25b9.xml, GetInterrupt, IDebugControl3 interface [Windows Debugging], GetInterrupt method, dbgeng/IDebugControl2::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::GetInterrupt, IDebugControl2::GetInterrupt, GetInterrupt method [Windows Debugging], IDebugControl3 interface, IDebugControl, debugger.getinterrupt, IDebugControl::GetInterrupt, GetInterrupt method [Windows Debugging], dbgeng/IDebugControl3::GetInterrupt, IDebugControl2 interface [Windows Debugging], GetInterrupt method, GetInterrupt method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -125,6 +125,14 @@ This method can be called at any time and from any thread.
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
@@ -133,17 +141,9 @@ This method can be called at any time and from any thread.
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetInterrupt method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetInterrupt method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

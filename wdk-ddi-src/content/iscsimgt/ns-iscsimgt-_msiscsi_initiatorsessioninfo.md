@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 0406efa5-26ad-4a3d-829b-d9b03b7c3b26
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo, storage.msiscsi_initiatorsessioninfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml, _MSiSCSI_InitiatorSessionInfo, PMSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices], PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], iscsimgt/MSiSCSI_InitiatorSessionInfo
+ms.keywords: "_MSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo, iscsimgt/MSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml, PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], storage.msiscsi_initiatorsessioninfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices], PMSiSCSI_InitiatorSessionInfo"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_InitiatorSessionInfo
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo"
+req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
 ---
 
 # _MSiSCSI_InitiatorSessionInfo structure
@@ -99,11 +99,11 @@ You must implement this class.
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff563057">MSiSCSI_InitiatorSessionInfo WMI Class</a>
+
+
+
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
 

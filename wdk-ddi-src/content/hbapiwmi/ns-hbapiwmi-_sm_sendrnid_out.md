@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 177ffc7d-697d-47c5-9692-19cba6734077
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-Fibre_9e6a1fff-df92-4d26-af84-b99b9feecbef.xml, hbapiwmi/PSM_SendRNID_OUT, storage.sm_sendrnid_out, hbapiwmi/SM_SendRNID_OUT, SM_SendRNID_OUT, _SM_SendRNID_OUT, *PSM_SendRNID_OUT, SM_SendRNID_OUT structure [Storage Devices], PSM_SendRNID_OUT structure pointer [Storage Devices], PSM_SendRNID_OUT
+ms.keywords: SM_SendRNID_OUT structure [Storage Devices], structs-Fibre_9e6a1fff-df92-4d26-af84-b99b9feecbef.xml, *PSM_SendRNID_OUT, PSM_SendRNID_OUT, PSM_SendRNID_OUT structure pointer [Storage Devices], _SM_SendRNID_OUT, storage.sm_sendrnid_out, hbapiwmi/SM_SendRNID_OUT, SM_SendRNID_OUT, hbapiwmi/PSM_SendRNID_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_SendRNID_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_SendRNID_OUT, SM_SendRNID_OUT"
+req.typenames: SM_SendRNID_OUT, *PSM_SendRNID_OUT
 ---
 
 # _SM_SendRNID_OUT structure

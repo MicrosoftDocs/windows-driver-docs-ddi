@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: fe2f4a93-3fdd-422b-afce-8def3ed6688e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], MSiSCSI_DiscoveryConfig, structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, PMSiSCSI_DiscoveryConfig, iscsicfg/PMSiSCSI_DiscoveryConfig, iscsicfg/MSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], *PMSiSCSI_DiscoveryConfig"
+ms.keywords: "_MSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig, PMSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig, storage.msiscsi_discoveryconfig, iscsicfg/PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig structure [Storage Devices], structs-iSCSI_b27b8a7d-40bd-40a7-b9d8-3e49bbc8497f.xml, PMSiSCSI_DiscoveryConfig structure pointer [Storage Devices], iscsicfg/MSiSCSI_DiscoveryConfig"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_DiscoveryConfig
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_DiscoveryConfig, MSiSCSI_DiscoveryConfig"
+req.typenames: MSiSCSI_DiscoveryConfig, *PMSiSCSI_DiscoveryConfig
 ---
 
 # _MSiSCSI_DiscoveryConfig structure

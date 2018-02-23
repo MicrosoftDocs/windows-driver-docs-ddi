@@ -4,11 +4,11 @@ title: IStiUSD::RawReadData method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::RawReadData method reads data from a still image device.
 old-location: image\istiusd_rawreaddata.htm
-old-project: Image
+old-project: image
 ms.assetid: 6ae64309-da53-420b-bf87-e8924e902dba
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: RawReadData method [Imaging Devices], image.istiusd_rawreaddata, IStiUSD, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, RawReadData, stiusd/IStiUSD::RawReadData, IStiUSD::RawReadData, IStiUSD interface [Imaging Devices], RawReadData method, RawReadData method [Imaging Devices], IStiUSD interface
+ms.date: 2/22/2018
+ms.keywords: IStiUSD::RawReadData, stifnc_29a3d9c4-92a8-47cd-b12c-0280003c43b7.xml, RawReadData method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::RawReadData, image.istiusd_rawreaddata, IStiUSD, RawReadData, IStiUSD interface [Imaging Devices], RawReadData method, RawReadData method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -115,5 +115,5 @@ For USB devices, better performance can be achieved if read requests are aligned
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::RawReadData method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::RawReadData method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

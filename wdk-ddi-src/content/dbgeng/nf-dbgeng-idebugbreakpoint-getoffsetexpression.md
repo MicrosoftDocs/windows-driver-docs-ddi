@@ -4,11 +4,11 @@ title: IDebugBreakpoint::GetOffsetExpression method
 author: windows-driver-content
 description: The GetOffsetExpression methods return the expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\getoffsetexpression.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 9fbdfa42-7231-4281-ba19-a33e854cd801
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugBreakpoint::GetOffsetExpression, dbgeng/IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression method [Windows Debugging], ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression, dbgeng/IDebugBreakpoint::GetOffsetExpression, IDebugBreakpoint2::GetOffsetExpression, IDebugBreakpoint, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, debugger.getoffsetexpression
+ms.date: 2/22/2018
+ms.keywords: GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint interface [Windows Debugging], GetOffsetExpression method, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint interface, GetOffsetExpression method [Windows Debugging], IDebugBreakpoint2 interface [Windows Debugging], GetOffsetExpression method, dbgeng/IDebugBreakpoint::GetOffsetExpression, IDebugBreakpoint, dbgeng/IDebugBreakpoint2::GetOffsetExpression, GetOffsetExpression, debugger.getoffsetexpression, IDebugBreakpoint2::GetOffsetExpression, ComOther_08bb15b2-f37d-4bd2-b19a-899ab9293f4a.xml, IDebugBreakpoint::GetOffsetExpression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

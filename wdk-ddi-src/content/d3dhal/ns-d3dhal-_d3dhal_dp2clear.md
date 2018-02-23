@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2clear.htm
 old-project: display
 ms.assetid: 8cd81cae-8d6b-48d8-afdc-87e3a81653f4
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: d3dhal/LPD3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, d3dhal/D3DHAL_DP2CLEAR, _D3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR structure [Display Devices], LPD3DHAL_DP2CLEAR, D3DHAL_DP2CLEAR, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], *LPD3DHAL_DP2CLEAR, display.d3dhal_dp2clear
+ms.date: 2/22/2018
+ms.keywords: D3DHAL_DP2CLEAR, d3dhal/D3DHAL_DP2CLEAR, display.d3dhal_dp2clear, LPD3DHAL_DP2CLEAR structure pointer [Display Devices], LPD3DHAL_DP2CLEAR, *LPD3DHAL_DP2CLEAR, _D3DHAL_DP2CLEAR, d3dstrct_2caf8fa1-61b4-4659-af20-a72d6b36173a.xml, D3DHAL_DP2CLEAR structure [Display Devices], d3dhal/LPD3DHAL_DP2CLEAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -161,10 +161,6 @@ Display drivers must convert input color values for the ARGB and YUV classes of 
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
-
-
-
 D3DDP2OP_CLEAR
 
 
@@ -173,9 +169,13 @@ D3DDP2OP_CLEAR
 
 
 
- 
+<a href="..\ksmedia\ns-ksmedia-_ddpixelformat.md">DDPIXELFORMAT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2CLEAR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2CLEAR structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

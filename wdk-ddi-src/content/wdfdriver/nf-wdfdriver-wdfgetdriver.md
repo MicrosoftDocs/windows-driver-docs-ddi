@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 423d4407-9e30-4625-bbe8-5465af29cfaa
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: wdfdriver/WdfGetDriver, WdfGetDriver method, kmdf.wdfgetdriver, DFDriverObjectRef_7419a365-e5ee-49cd-8d85-4db65cd27645.xml, wdf.wdfgetdriver, WdfGetDriver
+ms.keywords: kmdf.wdfgetdriver, WdfGetDriver method, wdfdriver/WdfGetDriver, wdf.wdfgetdriver, DFDriverObjectRef_7419a365-e5ee-49cd-8d85-4db65cd27645.xml, WdfGetDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

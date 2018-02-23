@@ -7,8 +7,8 @@ old-location: print\unidrvinfo.htm
 old-project: print
 ms.assetid: f57514ed-33b2-4895-aaba-5866b6fc01d2
 ms.author: windowsdriverdev
-ms.date: 2/21/2018
-ms.keywords: prntfont/UNIDRVINFO, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, UNIDRVINFO structure [Print Devices], _UNIDRVINFO, PUNIDRVINFO structure pointer [Print Devices], UNIDRVINFO, prntfont/PUNIDRVINFO, print.unidrvinfo, PUNIDRVINFO, *PUNIDRVINFO
+ms.date: 2/22/2018
+ms.keywords: prntfont/PUNIDRVINFO, PUNIDRVINFO, print.unidrvinfo, print_unidrv-pscript_fonts_b956aa02-1966-47c6-aec1-8ef8b98f4e57.xml, _UNIDRVINFO, UNIDRVINFO structure [Print Devices], PUNIDRVINFO structure pointer [Print Devices], *PUNIDRVINFO, prntfont/UNIDRVINFO, UNIDRVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UNIDRVINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIDRVINFO, UNIDRVINFO"
+req.typenames: UNIDRVINFO, *PUNIDRVINFO
 req.product: Windows 10 or later.
 ---
 
@@ -350,5 +350,5 @@ A .ufm (Unidrv Font Metrics) file's UNIDRVINFO structure is accessed by a pointe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIDRVINFO structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIDRVINFO structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 406508b2-7509-4d2b-ac22-63644eedcec0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: IoWritePartitionTable routine [Storage Devices], IoWritePartitionTable, storage.iowritepartitiontable, rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, ntddk/IoWritePartitionTable
+ms.keywords: ntddk/IoWritePartitionTable, rtns-disk_9358ac66-e3ba-43c0-856f-0f8b4c0ee832.xml, storage.iowritepartitiontable, IoWritePartitionTable routine [Storage Devices], IoWritePartitionTable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	IoWritePartitionTable
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # IoWritePartitionTable function
@@ -167,15 +167,15 @@ Applications that create and delete partitions and require full descriptions of 
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-ioreadpartitiontable.md">IoReadPartitionTable</a>
 
 
 
 <a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-iosetpartitioninformation.md">IoSetPartitionInformation</a>
 
 
 

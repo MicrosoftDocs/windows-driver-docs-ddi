@@ -8,7 +8,7 @@ old-project: whea
 ms.assetid: 0d2ec4e5-193d-45bf-8588-6afc1a9fb68c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: whea.whea_pcixdevice_error_section, whearef_79293b09-c49f-499f-9423-319265088a26.xml, ntddk/WHEA_PCIXDEVICE_ERROR_SECTION, *PWHEA_PCIXDEVICE_ERROR, *PWHEA_PCIXDEVICE_ERROR_SECTION, WHEA_PCIXDEVICE_ERROR_SECTION structure [WHEA Drivers and Applications], _WHEA_PCIXDEVICE_ERROR_SECTION, WHEA_PCIXDEVICE_ERROR_SECTION, PWHEA_PCIXDEVICE_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIXDEVICE_ERROR, ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION, PWHEA_PCIXDEVICE_ERROR_SECTION
+ms.keywords: "*PWHEA_PCIXDEVICE_ERROR, whea.whea_pcixdevice_error_section, WHEA_PCIXDEVICE_ERROR, PWHEA_PCIXDEVICE_ERROR_SECTION structure pointer [WHEA Drivers and Applications], ntddk/PWHEA_PCIXDEVICE_ERROR_SECTION, whearef_79293b09-c49f-499f-9423-319265088a26.xml, WHEA_PCIXDEVICE_ERROR_SECTION structure [WHEA Drivers and Applications], ntddk/WHEA_PCIXDEVICE_ERROR_SECTION, _WHEA_PCIXDEVICE_ERROR_SECTION, *PWHEA_PCIXDEVICE_ERROR_SECTION, WHEA_PCIXDEVICE_ERROR_SECTION, PWHEA_PCIXDEVICE_ERROR_SECTION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -226,11 +226,7 @@ The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is con
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section_validbits.md">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
 
 
 
@@ -239,6 +235,10 @@ The WHEA_PCIXDEVICE_ERROR_SECTION structure describes the error data that is con
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_whea_pcixdevice_error_section_validbits.md">WHEA_PCIXDEVICE_ERROR_SECTION_VALIDBITS</a>
 
 
 

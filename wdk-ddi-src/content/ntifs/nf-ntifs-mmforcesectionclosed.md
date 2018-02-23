@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: aa598c4b-e840-41cb-81a3-719a5b1ee48b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.mmforcesectionclosed, ntifs/MmForceSectionClosed, MmForceSectionClosed, MmForceSectionClosed routine [Installable File System Drivers], mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml
+ms.keywords: MmForceSectionClosed, ntifs/MmForceSectionClosed, mmref_d2466446-15b8-4152-a7ff-3ebe1f05cd68.xml, ifsk.mmforcesectionclosed, MmForceSectionClosed routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

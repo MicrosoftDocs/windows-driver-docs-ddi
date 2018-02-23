@@ -7,8 +7,8 @@ old-location: sensors\sensorscxdevicegetsensorlist.htm
 old-project: sensors
 ms.assetid: C1CA7DE4-A54A-478F-9F83-585B528EF345
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: Syntax, SensorsCxDeviceGetSensorList, sensorscx/Syntax, sensors.sensorscxdevicegetsensorlist, Syntax function [Sensor Devices]
+ms.date: 2/22/2018
+ms.keywords: Syntax, sensors.sensorscxdevicegetsensorlist, Syntax function [Sensor Devices], sensorscx/Syntax, SensorsCxDeviceGetSensorList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

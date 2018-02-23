@@ -4,11 +4,11 @@ title: IDebugClient::CreateClient method
 author: windows-driver-content
 description: The CreateClient method creates a new client object for the current thread.
 old-location: debugger\createclient.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 61733b3e-87e9-4bb1-bed0-44efeffd7e4f
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: IDebugClient4 interface [Windows Debugging], CreateClient method, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, IDebugClient2::CreateClient, IDebugClient::CreateClient, CreateClient method [Windows Debugging], IDebugClient2 interface, IDebugClient interface [Windows Debugging], CreateClient method, IDebugClient3::CreateClient, CreateClient method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient2::CreateClient, debugger.createclient, dbgeng/IDebugClient::CreateClient, dbgeng/IDebugClient4::CreateClient, CreateClient method [Windows Debugging], IDebugClient3 interface, IDebugClient, IDebugClient5::CreateClient, IDebugClient3 interface [Windows Debugging], CreateClient method, CreateClient method [Windows Debugging], CreateClient method [Windows Debugging], IDebugClient interface, IDebugClient4::CreateClient, IDebugClient2 interface [Windows Debugging], CreateClient method, CreateClient, CreateClient method [Windows Debugging], IDebugClient5 interface, IDebugClient5 interface [Windows Debugging], CreateClient method, dbgeng/IDebugClient5::CreateClient, dbgeng/IDebugClient3::CreateClient
+ms.date: 2/22/2018
+ms.keywords: CreateClient method [Windows Debugging], IDebugClient interface, debugger.createclient, IDebugClient3 interface [Windows Debugging], CreateClient method, CreateClient method [Windows Debugging], IDebugClient5 interface, IDebugClient5::CreateClient, CreateClient method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient5::CreateClient, CreateClient method [Windows Debugging], IDebugClient4 interface, IDebugClient4 interface [Windows Debugging], CreateClient method, dbgeng/IDebugClient4::CreateClient, IDebugClient interface [Windows Debugging], CreateClient method, CreateClient method [Windows Debugging], IDebugClient::CreateClient, dbgeng/IDebugClient2::CreateClient, IDebugClient4::CreateClient, CreateClient, IDebugClient3::CreateClient, IDebugClient2::CreateClient, IDebugClient5 interface [Windows Debugging], CreateClient method, IDebugClient2 interface [Windows Debugging], CreateClient method, dbgeng/IDebugClient3::CreateClient, IDebugClient, dbgeng/IDebugClient::CreateClient, IDebugClient_baa33ba0-bc95-4bfb-b8bf-b91598833599.xml, CreateClient method [Windows Debugging], IDebugClient2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -121,23 +121,7 @@ For more information about client objects and how they are used in the debugger 
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
-
-
-
-<a href="..\dbgeng\nf-dbgeng-debugcreate.md">DebugCreate</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -149,9 +133,21 @@ For more information about client objects and how they are used in the debugger 
 
 
 
- 
+<a href="..\dbgeng\nf-dbgeng-debugcreate.md">DebugCreate</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::CreateClient method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::CreateClient method%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

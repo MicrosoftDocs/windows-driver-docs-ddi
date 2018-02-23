@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_HPMI_QUERY_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PHPMI_HINT_BOOL, HPMI_HINT_BOOL"
+req.typenames: HPMI_HINT_BOOL, *PHPMI_HINT_BOOL
 ---
 
 # IOCTL_HPMI_QUERY_CAPABILITIES IOCTL
@@ -117,15 +117,7 @@ subsequent IOCTL calls.
 
 ## -see-also
 
-
-
-
-
-
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -134,6 +126,14 @@ subsequent IOCTL calls.
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 21833980-0098-43c2-822c-9d8292f7120a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: dot11wdi/PWDI_TX_METADATA, WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista], PWDI_TX_METADATA, _WDI_TX_METADATA, netvista.wifi_tx_metadata, *PWDI_TX_METADATA, WDI_TX_METADATA, netvista.wdi_tx_metadata, dot11wdi/WDI_TX_METADATA
+ms.keywords: dot11wdi/WDI_TX_METADATA, netvista.wifi_tx_metadata, netvista.wdi_tx_metadata, dot11wdi/PWDI_TX_METADATA, PWDI_TX_METADATA, WDI_TX_METADATA structure [Network Drivers Starting with Windows Vista], _WDI_TX_METADATA, WDI_TX_METADATA, PWDI_TX_METADATA structure pointer [Network Drivers Starting with Windows Vista], *PWDI_TX_METADATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDI_TX_METADATA
 product: Windows
 targetos: Windows
-req.typenames: "*PWDI_TX_METADATA, WDI_TX_METADATA"
+req.typenames: WDI_TX_METADATA, *PWDI_TX_METADATA
 ---
 
 # _WDI_TX_METADATA structure
@@ -159,11 +159,11 @@ Reserved.
 
 ## -see-also
 
-<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
-
-
-
 <a href="..\dot11wdi\ne-dot11wdi-_wdi_exemption_action_type.md">WDI_EXEMPTION_ACTION_TYPE</a>
+
+
+
+<a href="..\dot11wdi\ns-dot11wdi-_wdi_txrx_target_capabilities.md">WDI_TXRX_CAPABILITIES</a>
 
 
 

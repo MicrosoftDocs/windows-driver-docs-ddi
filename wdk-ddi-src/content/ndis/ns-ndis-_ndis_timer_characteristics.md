@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 9a62e94c-f635-4ab7-b439-b98c60ba2854
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ndis/PNDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis_timer_ref_af673f64-aa72-4767-81a0-5df465a52c81.xml, *PNDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS, ndis/NDIS_TIMER_CHARACTERISTICS, _NDIS_TIMER_CHARACTERISTICS, netvista.ndis_timer_characteristics, PNDIS_TIMER_CHARACTERISTICS, PNDIS_TIMER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista]
+ms.keywords: NDIS_TIMER_CHARACTERISTICS, NDIS_TIMER_CHARACTERISTICS structure [Network Drivers Starting with Windows Vista], ndis/PNDIS_TIMER_CHARACTERISTICS, _NDIS_TIMER_CHARACTERISTICS, PNDIS_TIMER_CHARACTERISTICS structure pointer [Network Drivers Starting with Windows Vista], ndis_timer_ref_af673f64-aa72-4767-81a0-5df465a52c81.xml, *PNDIS_TIMER_CHARACTERISTICS, netvista.ndis_timer_characteristics, PNDIS_TIMER_CHARACTERISTICS, ndis/NDIS_TIMER_CHARACTERISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -116,7 +116,11 @@ To allocate and initialize a timer object, NDIS drivers call the
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_timer_function.md">NetTimerCallback</a>
 
 
 
@@ -125,10 +129,6 @@ To allocate and initialize a timer object, NDIS drivers call the
 
 
 <a href="..\ndis\nf-ndis-ndissettimerobject.md">NdisSetTimerObject</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisallocatetimerobject.md">NdisAllocateTimerObject</a>
 
 
 

@@ -7,8 +7,8 @@ old-location: sensors\gnss_breadcrumbing_param.htm
 old-project: sensors
 ms.assetid: 1EAD5B17-B662-4D97-B045-ED09E4AF6E99
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: sensors.gnss_breadcrumbing_param, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_BREADCRUMBING_PARAM, gnssdriver/GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM
+ms.date: 2/22/2018
+ms.keywords: gnssdriver/PGNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM structure pointer [Sensor Devices], sensors.gnss_breadcrumbing_param, GNSS_BREADCRUMBING_PARAM structure [Sensor Devices], gnssdriver/GNSS_BREADCRUMBING_PARAM, PGNSS_BREADCRUMBING_PARAM, GNSS_BREADCRUMBING_PARAM, *PGNSS_BREADCRUMBING_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

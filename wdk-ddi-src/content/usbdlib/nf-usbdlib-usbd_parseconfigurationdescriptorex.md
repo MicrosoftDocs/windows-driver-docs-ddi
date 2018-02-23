@@ -8,7 +8,7 @@ old-project: UsbRef
 ms.assetid: c14b3cde-b501-4d07-96ae-f0e0e6320966
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: buses.usbd_parseconfigurationdescriptorex, usbdlib/USBD_ParseConfigurationDescriptorEx, USBD_ParseConfigurationDescriptorEx, usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml, USBD_ParseConfigurationDescriptorEx routine [Buses]
+ms.keywords: USBD_ParseConfigurationDescriptorEx routine [Buses], usbfunc_c493d121-9821-4381-b756-fa417c8f5f93.xml, usbdlib/USBD_ParseConfigurationDescriptorEx, buses.usbd_parseconfigurationdescriptorex, USBD_ParseConfigurationDescriptorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -132,11 +132,11 @@ When this routine parses the configuration descriptor looking for the interface 
 
 ## -see-also
 
-<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540134">USB device driver programming reference</a>
+
+
+
+<a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 

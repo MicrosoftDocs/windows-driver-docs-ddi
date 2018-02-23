@@ -7,8 +7,8 @@ old-location: display\d3d12ddi-video-crypto-session-support-data-0030.htm
 old-project: display
 ms.assetid: 6a1a2c3e-a120-4b5e-bd25-02cb3ab11e9c
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030 structure [Display Devices], d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-support-data-0030, D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030
+ms.date: 2/22/2018
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030, display.d3d12ddi-video-crypto-session-support-data-0030, D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030 structure [Display Devices], D3D12DDI_VIDEO_CRYPTO_SESSION_SUPPORT_DATA_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

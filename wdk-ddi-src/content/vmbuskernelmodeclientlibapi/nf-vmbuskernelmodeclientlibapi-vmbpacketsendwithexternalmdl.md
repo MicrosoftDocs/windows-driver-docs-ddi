@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: C1B3FA0C-65B8-4CE1-B8F5-650DF54C9E1E
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.vmbpacketsendwithexternalmdl, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH, VmbPacketSendWithExternalMdl, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista]
+ms.keywords: netvista.vmbpacketsendwithexternalmdl, VMBUS_CHANNEL_FORMAT_FLAG_PAGED_BUFFER, VmbPacketSendWithExternalMdl function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbPacketSendWithExternalMdl, VmbPacketSendWithExternalMdl, VMBUS_CHANNEL_FORMAT_FLAG_WAIT_FOR_COMPLETION, VMBUS_CHANNEL_FORMAT_FLAG_FORCE_MDL_LENGTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

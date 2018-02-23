@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: bc39e3ae-6899-423d-be1d-b3322efface8
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: DFUsbRef_035fbae3-67d4-4df6-8718-30851a0d60ca.xml, WdfUsbInterfaceGetInterfaceNumber method, wdf.wdfusbinterfacegetinterfacenumber, WdfUsbInterfaceGetInterfaceNumber, kmdf.wdfusbinterfacegetinterfacenumber, wdfusb/WdfUsbInterfaceGetInterfaceNumber
+ms.keywords: wdfusb/WdfUsbInterfaceGetInterfaceNumber, WdfUsbInterfaceGetInterfaceNumber method, DFUsbRef_035fbae3-67d4-4df6-8718-30851a0d60ca.xml, wdf.wdfusbinterfacegetinterfacenumber, WdfUsbInterfaceGetInterfaceNumber, kmdf.wdfusbinterfacegetinterfacenumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfUsbInterfaceGetInterfaceNumber
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

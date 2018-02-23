@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 3e38880f-b242-400a-babf-531c8daf7a19
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: netvista.ndis_wwan_registration_state, NDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE, ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, _NDIS_WWAN_REGISTRATION_STATE
+ms.keywords: NDIS_WWAN_REGISTRATION_STATE, _NDIS_WWAN_REGISTRATION_STATE, netvista.ndis_wwan_registration_state, WwanRef_7f854298-d100-4b4c-8748-a7eb07c9ac38.xml, NDIS_WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE, PNDIS_WWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/NDIS_WWAN_REGISTRATION_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_REGISTRATION_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_REGISTRATION_STATE, NDIS_WWAN_REGISTRATION_STATE"
+req.typenames: NDIS_WWAN_REGISTRATION_STATE, *PNDIS_WWAN_REGISTRATION_STATE
 ---
 
 # _NDIS_WWAN_REGISTRATION_STATE structure
@@ -276,11 +276,11 @@ A formatted
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\wwan\ns-wwan-_wwan_registration_state.md">WWAN_REGISTRATION_STATE</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 

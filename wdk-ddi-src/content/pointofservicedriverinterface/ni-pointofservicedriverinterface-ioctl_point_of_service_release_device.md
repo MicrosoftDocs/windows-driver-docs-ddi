@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_release_device.htm
 old-project: pos
 ms.assetid: 623feb2b-8c49-41e8-9de5-d5955843c6f7
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.ioctl_point_of_service_release_device, IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE control code, IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RELEASE_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

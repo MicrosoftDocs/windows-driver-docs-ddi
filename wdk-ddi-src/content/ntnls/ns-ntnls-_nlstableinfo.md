@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: B9E64163-B338-49C9-8167-C36B110AB710
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: NLSTABLEINFO structure [Kernel-Mode Driver Architecture], *PNLSTABLEINFO, ntnls/PNLSTABLEINFO, _NLSTABLEINFO, PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], PNLSTABLEINFO, NLSTABLEINFO, kernel.nlstableinfo, ntnls/NLSTABLEINFO
+ms.keywords: PNLSTABLEINFO structure pointer [Kernel-Mode Driver Architecture], NLSTABLEINFO, NLSTABLEINFO structure [Kernel-Mode Driver Architecture], _NLSTABLEINFO, *PNLSTABLEINFO, ntnls/PNLSTABLEINFO, kernel.nlstableinfo, PNLSTABLEINFO, ntnls/NLSTABLEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NLSTABLEINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNLSTABLEINFO, NLSTABLEINFO"
+req.typenames: NLSTABLEINFO, *PNLSTABLEINFO
 ---
 
 # _NLSTABLEINFO structure

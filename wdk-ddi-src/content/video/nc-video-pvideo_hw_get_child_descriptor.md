@@ -7,7 +7,7 @@ old-location: display\hwvidgetvideochilddescriptor.htm
 old-project: display
 ms.assetid: 175030c1-95d9-4a3b-976c-16e04852cb91
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.hwvidgetvideochilddescriptor, HwVidGetVideoChildDescriptor callback function [Display Devices], HwVidGetVideoChildDescriptor, PVIDEO_HW_GET_CHILD_DESCRIPTOR, PVIDEO_HW_GET_CHILD_DESCRIPTOR, video/HwVidGetVideoChildDescriptor, VideoMiniport_Functions_15898023-8b0d-4cda-8970-4aeb0a7fc444.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -245,11 +245,7 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 
-<a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
-
-
-
-<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+<a href="..\video\nf-video-videoportddcmonitorhelper.md">VideoPortDDCMonitorHelper</a>
 
 
 
@@ -257,6 +253,10 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
 
 
+<a href="..\video\nc-video-pvideo_hw_power_set.md">HwVidSetPowerState</a>
+
+
+
 <a href="..\video\ns-video-_video_child_enum_info.md">VIDEO_CHILD_ENUM_INFO</a>
 
 
@@ -265,5 +265,5 @@ Write a 32-bit value in <i>UId</i> that uniquely identifies the child device bei
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PVIDEO_HW_GET_CHILD_DESCRIPTOR callback function%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

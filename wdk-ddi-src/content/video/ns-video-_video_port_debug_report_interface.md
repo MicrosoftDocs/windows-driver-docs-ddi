@@ -7,8 +7,8 @@ old-location: display\video_port_debug_report_interface.htm
 old-project: display
 ms.assetid: 11536f1e-523c-4796-a973-e53291c756a8
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], _VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml
+ms.date: 2/22/2018
+ms.keywords: video/PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE, video/VIDEO_PORT_DEBUG_REPORT_INTERFACE, _VIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE structure [Display Devices], VIDEO_PORT_DEBUG_REPORT_INTERFACE, display.video_port_debug_report_interface, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE, PVIDEO_PORT_DEBUG_REPORT_INTERFACE structure pointer [Display Devices], Video_Structs_4db5be2e-169d-4487-b979-e75cd1b2cb18.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_PORT_DEBUG_REPORT_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_PORT_DEBUG_REPORT_INTERFACE, VIDEO_PORT_DEBUG_REPORT_INTERFACE"
+req.typenames: VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE
 req.product: Windows 10 or later.
 ---
 
@@ -63,18 +63,9 @@ typedef struct _VIDEO_PORT_DEBUG_REPORT_INTERFACE {
   PVOID                  Context;
   PINTERFACE_REFERENCE   InterfaceReference;
   PINTERFACE_DEREFERENCE InterfaceDereference;
-  PVIDEO_DEBUG_REPORT    (*DbgReportCreate)(
-      _In_ PVOID HwDeviceExtension, 
-      _In_ ULONG ulCode, 
-      _In_ ULONG_PTR ulpArg1, 
-      _In_ ULONG_PTR ulpArg2, 
-      _In_ ULONG_PTR ulpArg3, 
-      _In_ ULONG_PTR ulpArg4);
-  BOOLEAN                (*DbgReportSecondaryData)(
-      _In_ PVIDEO_DEBUG_REPORT pReport, 
-      _In_ PVOID pvData, 
-      _In_ ULONG ulDataSize);
-  VOID                   (*DbgReportComplete)(_Inout_opt_ PVIDEO_DEBUG_REPORT pReport);
+  void                   (*DbgReportCreate)();
+  void                   (*DbgReportSecondaryData)();
+  void                   (*DbgReportComplete)();
 } VIDEO_PORT_DEBUG_REPORT_INTERFACE, *PVIDEO_PORT_DEBUG_REPORT_INTERFACE;
 ````
 
@@ -109,24 +100,213 @@ Pointer to an interface reference function that is implemented by the video port
 Pointer to an interface dereference function that is implemented by the video port driver.
 
 
-#### - DbgReportComplete
-
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a> function. 
-
-
 #### - DbgReportCreate
 
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> function. 
+The DbgReportCreate function creates an initial error report.
 
 
 #### - DbgReportSecondaryData
 
-Pointer to the video port driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff549099">DbgReportSecondaryData</a> function. 
+The DbgReportSecondaryData function appends data to an initial error report that was previously created by DbgReportCreate.
+
+
+#### - DbgReportComplete
+
+The DbgReportComplete function closes an error report and frees any resources associated with the report.
 
 
 ## -remarks
 
 
+
+The following table describes the callback function in more detail.
+
+<table>
+<tr>
+<td>Name</td>
+<td>Prototye</td>
+<td>Details</td>
+</tr>
+<tr>
+<td>DbgReportComplete</td>
+<td>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>VOID DbgReportComplete(
+   IN OUT DXGK_DEBUG_REPORT_HANDLE hReport
+);
+</pre>
+</td>
+</tr>
+</table></span></div>
+</td>
+<td>
+Parameters:
+
+<ul>
+<li><i>hReport 
+</i>A handle to the error report that is to be closed. The display miniport driver previously obtained this handle by calling DbgReportCreate.
+
+</li>
+</ul>
+This function is available in Windows Vista and later operating systems. 
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a> creates an entry in the system event log and displays a dialog box that informs the user of the failure and presents the opportunity to upload an error report to Microsoft.
+
+The error report is saved in a file and scheduled to be sent to Microsoft when the computer is rebooted. The error report contains an error code and four arguments. The error code and the first three arguments are provided by the caller of <a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>. The fourth argument in the report is provided by the operating system and indicates the number of reports generated since the computer was started. For example, if the value of the fourth argument is 5, this means that four previous error reports were generated by the display miniport driver since the computer was last started. Only the fifth report is saved because each report overwrites the previous one.
+
+</td>
+</tr>
+<tr>
+<td>DbgReportCreate</td>
+<td>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>DXGK_DEBUG_REPORT_HANDLE (*DbgReportCreate)(
+  _In_ HANDLE    DeviceHandle,
+  _In_ ULONG     ulCode,
+  _In_ ULONG_PTR ulpArg1,
+  _In_ ULONG_PTR ulpArg2,
+  _In_ ULONG_PTR ulpArg3,
+  _In_ ULONG_PTR ulpArg4
+);
+</pre>
+</td>
+</tr>
+</table></span></div>
+</td>
+<td>
+Parameters:
+
+<ul>
+<li><i>DeviceHandle [in]</i> 
+A handle to a context block associated with a display adapter. The display miniport driver created this handle in its DxgkDdiAddDevice function. This parameter can be NULL.
+
+</li>
+<li><i>ulCode [in]</i>A code for the error report. The following codes are supported:
+
+THREAD_STUCK_IN_DEVICE_DRIVER,
+
+VIDEO_DRIVER_DEBUG_REPORT_REQUEST
+
+, VIDEO_TDR_FATAL_ERROR,
+
+and  VIDEO_TDR_SUCCESS.
+
+
+
+</li>
+<li><i>ulpArg1 [in]</i>The first argument to be added to the report. The developer of the display miniport driver determines the value and meaning of ulpArg1.
+
+
+
+</li>
+<li><i>ulpArg2 [in]</i>The second argument to be added to the report. The developer of the display miniport driver determines the value and meaning of ulpArg2.
+
+</li>
+<li><i> 
+
+
+ulpArg3 [in]</i>The third argument to be added to the report. The developer of the display miniport driver determines the value and meaning of ulpArg3.
+
+</li>
+<li><i> 
+
+
+ulpArg4 [in]</i>Reserved
+
+</li>
+</ul>
+This function is available in Windows Vista and later operating systems.
+
+If your display miniport driver detects a failure and then recovers from it, you can create an error report that can later be used for debugging. First, call DbgReportCreateto create an initial report. Then add data to the report by making one or more calls to DbgReportSecondaryData. When you have finished adding data to the report, call DbgReportComplete.
+
+</td>
+</tr>
+<tr>
+<td>DbgReportSecondaryData</td>
+<td>
+<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
+<tr>
+<th>C++</th>
+</tr>
+<tr>
+<td>
+<pre>BOOLEAN (*DbgReportSecondaryData)(
+  _Inout_ DXGK_DEBUG_REPORT_HANDLE hReport,
+  _In_    PVOID                    pvData,
+  _In_    ULONG                    ulDataSize
+);
+</pre>
+</td>
+</tr>
+</table></span></div>
+</td>
+<td>
+Parameters:
+
+<ul>
+<li><i>hReport [in, out]</i>A handle to the error report to which data will be appended. The display miniport driver previously obtained this handle by calling DbgReportCreate.
+
+</li>
+<li><i>pvData [in]</i> 
+A pointer to a buffer that holds the data to be added to the report.
+
+</li>
+<li><i>ulDataSize [in]</i>The size, in bytes, of the data to be added to the report. The value of this parameter must be less than or equal to DXGK_DEBUG_REPORT_MAX_SIZE.
+
+
+</li>
+</ul>
+If DbgReportSecondaryData succeeds, it returns <b>TRUE</b>. Otherwise, it returns <b>FALSE</b>.
+
+This function is available in Windows Vista and later operating systems.
+
+Call DbgReportSecondaryData to add data to an initial report that was created by a previous call to DbgReportCreate. You can call DbgReportSecondaryData several times, but with each call, the data written to the report overwrites the data written by the previous call. The following steps give a good strategy for incrementally adding data to the report.
+
+<ol>
+<li>
+Obtain the data that is safest to collect. 
+
+</li>
+<li>
+Call DbgReportSecondaryData to write that data to the report. 
+
+</li>
+<li>
+Obtain data that is more risky to collect. 
+
+</li>
+<li>
+Call DbgReportSecondaryData to write the original safe data along with the newly collected risky data to the report. You must include both the safe and the risky data in this call because the data written by this call overwrites the data written by the first call to DbgReportSecondaryData. 
+
+</li>
+<li>
+Continue calling DbgReportSecondaryData, enhancing the data each time, until you have no more data to add. 
+
+</li>
+<li>
+When you have finished adding data to the report, close the report by calling DbgReportComplete. The report is stored in a file and sent to Microsoft when the computer is rebooted.
+
+</li>
+<li>
+If the computer stops responding before you call DbgReportComplete, the data added to the report by the most recent successful call to DbgReportSecondaryData is saved and then sent to Microsoft when the computer is rebooted.
+
+</li>
+</ol>
+</td>
+</tr>
+</table>
+ 
 
 This structure is available in the following operating systems:
 
@@ -147,7 +327,7 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>
+<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
 
 
 
@@ -155,7 +335,7 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 
 
-<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549080">DbgReportComplete</a>
 
 
 
@@ -163,7 +343,7 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
 
 
-<a href="..\video\nf-video-videoportqueryservices.md">VideoPortQueryServices</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549088">DbgReportCreate</a>
 
 
 
@@ -171,5 +351,5 @@ The video miniport driver supplies the <b>Size</b> and <b>Version</b> members of
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_DEBUG_REPORT_INTERFACE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_PORT_DEBUG_REPORT_INTERFACE structure%20 RELEASE:%20(2/22/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

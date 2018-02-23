@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 21716141-487B-4950-A55D-C9EE3B8C8612
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON, pepfx/PEP_PPM_QUERY_VETO_REASON, kernel.pep_ppm_query_veto_reason, *PPEP_PPM_QUERY_VETO_REASON, pepfx/PPEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture]
+ms.keywords: kernel.pep_ppm_query_veto_reason, pepfx/PEP_PPM_QUERY_VETO_REASON, pepfx/PPEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON structure [Kernel-Mode Driver Architecture], _PEP_PPM_QUERY_VETO_REASON, PPEP_PPM_QUERY_VETO_REASON structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_VETO_REASON
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_QUERY_VETO_REASON
 product: Windows
 targetos: Windows
-req.typenames: PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON
+req.typenames: PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON, PEP_PPM_QUERY_VETO_REASON, *PPEP_PPM_QUERY_VETO_REASON
 ---
 
 # _PEP_PPM_QUERY_VETO_REASON structure

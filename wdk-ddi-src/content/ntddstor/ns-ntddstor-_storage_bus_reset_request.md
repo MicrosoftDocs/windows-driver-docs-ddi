@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d2f2d2cc-e96b-475c-96eb-d58244a05788
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: STORAGE_BUS_RESET_REQUEST structure [Storage Devices], storage.storage_bus_reset_request, ntddstor/STORAGE_BUS_RESET_REQUEST, ntddstor/PSTORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST, *PSTORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST structure pointer [Storage Devices], _STORAGE_BUS_RESET_REQUEST, structs-general_ffea4f36-cf98-4961-be14-d8a4cde94fad.xml
+ms.keywords: "*PSTORAGE_BUS_RESET_REQUEST, _STORAGE_BUS_RESET_REQUEST, storage.storage_bus_reset_request, PSTORAGE_BUS_RESET_REQUEST structure pointer [Storage Devices], STORAGE_BUS_RESET_REQUEST, PSTORAGE_BUS_RESET_REQUEST, STORAGE_BUS_RESET_REQUEST structure [Storage Devices], structs-general_ffea4f36-cf98-4961-be14-d8a4cde94fad.xml, ntddstor/PSTORAGE_BUS_RESET_REQUEST, ntddstor/STORAGE_BUS_RESET_REQUEST"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

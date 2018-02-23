@@ -8,7 +8,7 @@ old-project: parports
 ms.assetid: 9288fc11-e19b-46dd-95e4-6de8c7cdc61d
 ms.author: windowsdriverdev
 ms.date: 2/15/2018
-ms.keywords: parports.parallel_pnp_information, parallel/PPARALLEL_PNP_INFORMATION, PPARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION structure [Parallel Ports], cisspd_71ac405c-ab56-434c-a945-9afee36c0972.xml, *PPARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION, PPARALLEL_PNP_INFORMATION structure pointer [Parallel Ports], _PARALLEL_PNP_INFORMATION, parallel/PARALLEL_PNP_INFORMATION
+ms.keywords: cisspd_71ac405c-ab56-434c-a945-9afee36c0972.xml, PPARALLEL_PNP_INFORMATION structure pointer [Parallel Ports], *PPARALLEL_PNP_INFORMATION, _PARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION, parallel/PARALLEL_PNP_INFORMATION, parallel/PPARALLEL_PNP_INFORMATION, parports.parallel_pnp_information, PARALLEL_PNP_INFORMATION structure [Parallel Ports], PPARALLEL_PNP_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARALLEL_PNP_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPARALLEL_PNP_INFORMATION, PARALLEL_PNP_INFORMATION"
+req.typenames: PARALLEL_PNP_INFORMATION, *PPARALLEL_PNP_INFORMATION
 ---
 
 # _PARALLEL_PNP_INFORMATION structure
@@ -205,23 +205,19 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 ## -see-also
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
-
-
-
-<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
-
-
-
 <a href="..\parallel\nc-parallel-pparallel_try_select_routine.md">PPARALLEL_TRY_SELECT_ROUTINE</a>
 
 
 
 <a href="..\parallel\nc-parallel-pparallel_clear_chip_mode.md">PPARALLEL_CLEAR_CHIP_MODE</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+
+
+<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
 
 
 
@@ -233,11 +229,15 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
 
 
 
 <a href="..\parallel\ns-parallel-_more_parallel_port_information.md">MORE_PARALLEL_PORT_INFORMATION</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
 
 
 

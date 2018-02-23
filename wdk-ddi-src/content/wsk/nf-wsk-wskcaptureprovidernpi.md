@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b5c6667e-33b4-4482-8817-c01d9d314c3a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, WskCaptureProviderNPI, netvista.wskcaptureprovidernpi, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista]
+ms.keywords: wsk/WskCaptureProviderNPI, wskref_571be642-7c1c-471d-bf35-73bd6b271cbe.xml, netvista.wskcaptureprovidernpi, WskCaptureProviderNPI function [Network Drivers Starting with Windows Vista], WskCaptureProviderNPI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskCaptureProviderNPI
 product: Windows
 targetos: Windows
-req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
+req.typenames: WPP_TRIAGE_INFO, *PWPP_TRIAGE_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -214,11 +214,11 @@ Callers of the
 
 
 
-<a href="..\wsk\nf-wsk-wskreleaseprovidernpi.md">WskReleaseProviderNPI</a>
-
-
-
 <a href="..\wsk\nf-wsk-wskderegister.md">WskDeregister</a>
+
+
+
+<a href="..\wsk\nf-wsk-wskregister.md">WskRegister</a>
 
 
 

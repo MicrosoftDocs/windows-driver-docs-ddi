@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 6d1d1f0d-d6da-488d-a120-713b77da86a9
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml, MmResetDriverPaging, kernel.mmresetdriverpaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], wdm/MmResetDriverPaging
+ms.keywords: wdm/MmResetDriverPaging, kernel.mmresetdriverpaging, MmResetDriverPaging, MmResetDriverPaging routine [Kernel-Mode Driver Architecture], k106_4b691510-4e1f-4da2-bfba-d008a83ef43e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -70,7 +70,7 @@ VOID MmResetDriverPaging(
 
 ### -param AddressWithinSection [in]
 
-A pointer to a virtual address in the driver (for example, the address of the <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a> routine).
+A pointer to a virtual address in the driver (for example, the address of the <a href="..\wudfwdm\nc-wudfwdm-driver_initialize.md">DriverEntry</a> routine).
 
 
 ## -returns
@@ -99,19 +99,19 @@ For more information about paging an entire driver, see <a href="https://msdn.mi
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmlockpagablecodesection.md">MmLockPagableCodeSection</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-mmlockpagablesectionbyhandle.md">MmLockPagableSectionByHandle</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmlockpagabledatasection.md">MmLockPagableDataSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmunlockpagableimagesection.md">MmUnlockPagableImageSection</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmpageentiredriver.md">MmPageEntireDriver</a>
 
 
 

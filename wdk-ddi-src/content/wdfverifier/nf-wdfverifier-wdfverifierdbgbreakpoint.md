@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 55b8a6de-f20b-4d2d-8235-4837bc4a0d7d
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: kmdf.wdfverifierdbgbreakpoint, WdfVerifierDbgBreakPoint function, DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, wdfverifier/WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint, wdf.wdfverifierdbgbreakpoint
+ms.keywords: wdf.wdfverifierdbgbreakpoint, WdfVerifierDbgBreakPoint function, kmdf.wdfverifierdbgbreakpoint, DFDebugRef_e59a7661-75d0-49ac-bac3-a5845cb78226.xml, wdfverifier/WdfVerifierDbgBreakPoint, WdfVerifierDbgBreakPoint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

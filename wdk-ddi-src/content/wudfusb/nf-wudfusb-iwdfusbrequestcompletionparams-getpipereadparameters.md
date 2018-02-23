@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: e5e3dfa0-49cc-4c2d-828e-fa5c95d3db8c
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, IWDFUsbRequestCompletionParams, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, IWDFUsbRequestCompletionParams::GetPipeReadParameters
+ms.keywords: GetPipeReadParameters method, GetPipeReadParameters, umdf.iwdfusbrequestcompletionparams_getpipereadparameters, wdf.iwdfusbrequestcompletionparams_getpipereadparameters, UMDFRequestObjectRef_d98f8b7f-c264-4044-aaef-893c717be50a.xml, IWDFUsbRequestCompletionParams, IWDFUsbRequestCompletionParams interface, GetPipeReadParameters method, GetPipeReadParameters method, IWDFUsbRequestCompletionParams interface, IWDFUsbRequestCompletionParams::GetPipeReadParameters, wudfusb/IWDFUsbRequestCompletionParams::GetPipeReadParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbRequestCompletionParams.GetPipeReadParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

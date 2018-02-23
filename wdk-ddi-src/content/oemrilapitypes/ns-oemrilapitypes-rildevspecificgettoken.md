@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: b0a534e0-1527-4ef3-a53f-c18cacbb5445
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: oemrilapitypes/RILDEVSPECIFICGETTOKEN, netvista.rildevspecificgettoken, RILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN, oemrilapitypes/LPRILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN structure [Network Drivers Starting with Windows Vista], LPRILDEVSPECIFICGETTOKEN structure pointer [Network Drivers Starting with Windows Vista], *LPRILDEVSPECIFICGETTOKEN
+ms.keywords: LPRILDEVSPECIFICGETTOKEN structure pointer [Network Drivers Starting with Windows Vista], netvista.rildevspecificgettoken, *LPRILDEVSPECIFICGETTOKEN, LPRILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN structure [Network Drivers Starting with Windows Vista], oemrilapitypes/LPRILDEVSPECIFICGETTOKEN, oemrilapitypes/RILDEVSPECIFICGETTOKEN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDEVSPECIFICGETTOKEN
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILDEVSPECIFICGETTOKEN, RILDEVSPECIFICGETTOKEN"
+req.typenames: RILDEVSPECIFICGETTOKEN, *LPRILDEVSPECIFICGETTOKEN
 ---
 
 # RILDEVSPECIFICGETTOKEN structure

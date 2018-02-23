@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 45e4a08d-9615-410a-8f78-a8157802813f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.zwcreatedirectoryobject, wdm/ZwCreateDirectoryObject, ZwCreateDirectoryObject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture], k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, wdm/NtCreateDirectoryObject, NtCreateDirectoryObject
+ms.keywords: wdm/ZwCreateDirectoryObject, k111_b1b0f371-6699-42f6-b86d-a0fb57983d9f.xml, ZwCreateDirectoryObject, kernel.zwcreatedirectoryobject, ZwCreateDirectoryObject routine [Kernel-Mode Driver Architecture], NtCreateDirectoryObject, wdm/NtCreateDirectoryObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -174,7 +174,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
@@ -182,11 +182,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 

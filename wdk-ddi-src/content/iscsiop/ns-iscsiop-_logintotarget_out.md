@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 569816dc-3b92-45da-a1b8-ce4b504b6592
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PLoginToTarget_OUT structure pointer [Storage Devices], storage.logintotarget_out, PLoginToTarget_OUT, iscsiop/PLoginToTarget_OUT, *PLoginToTarget_OUT, LoginToTarget_OUT, LoginToTarget_OUT structure [Storage Devices], iscsiop/LoginToTarget_OUT, _LoginToTarget_OUT, structs-iSCSI_8fefca89-dd27-4a01-90a1-76ed16e79568.xml
+ms.keywords: "*PLoginToTarget_OUT, PLoginToTarget_OUT structure pointer [Storage Devices], iscsiop/PLoginToTarget_OUT, structs-iSCSI_8fefca89-dd27-4a01-90a1-76ed16e79568.xml, iscsiop/LoginToTarget_OUT, storage.logintotarget_out, _LoginToTarget_OUT, PLoginToTarget_OUT, LoginToTarget_OUT structure [Storage Devices], LoginToTarget_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LoginToTarget_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PLoginToTarget_OUT, LoginToTarget_OUT"
+req.typenames: LoginToTarget_OUT, *PLoginToTarget_OUT
 ---
 
 # _LoginToTarget_OUT structure
@@ -99,19 +99,19 @@ You must implement this method.
 
 
 
-<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561599">LoginToTarget</a>
 
 
 
+<a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561568">ISCSI_STATUS_QUALIFIERS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 

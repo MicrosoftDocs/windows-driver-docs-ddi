@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 132951ef-7bb3-417e-a7b7-eb21f08aa846
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/IoRegisterFsRegistrationChange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml, IoRegisterFsRegistrationChange, IoRegisterFsRegistrationChange routine [Installable File System Drivers], ifsk.ioregisterfsregistrationchange
+ms.keywords: ifsk.ioregisterfsregistrationchange, ioref_6b4dc0bd-0821-4016-8eb7-c448c0247785.xml, ntifs/IoRegisterFsRegistrationChange, IoRegisterFsRegistrationChange routine [Installable File System Drivers], IoRegisterFsRegistrationChange
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,19 +140,19 @@ In Update Rollup for Windows 2000 SP4, file system filter drivers can call <a hr
 
 ## -see-also
 
+<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ioregisterfilesystem.md">IoRegisterFileSystem</a>
+
+
+
 <a href="..\ntifs\nf-ntifs-iounregisterfilesystem.md">IoUnregisterFileSystem</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-iounregisterfsregistrationchange.md">IoUnregisterFsRegistrationChange</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ioregisterfsregistrationchangeex.md">IoRegisterFsRegistrationChangeEx</a>
 
 
 

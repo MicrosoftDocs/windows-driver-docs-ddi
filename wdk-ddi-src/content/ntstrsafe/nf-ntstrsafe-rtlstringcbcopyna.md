@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: d64fb3e6-fba1-4383-bdb0-a63dc7c16033
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntstrsafe/RtlStringCbCopyNA, kernel.rtlstringcbcopyn, RtlStringCbCopyNW, ntstrsafe/RtlStringCbCopyNW, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], RtlStringCbCopyN, safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, RtlStringCbCopyNA
+ms.keywords: safestrings_a3f7f7a8-b4a1-4c7c-b384-2243b3c97a4e.xml, RtlStringCbCopyNW function [Kernel-Mode Driver Architecture], RtlStringCbCopyNA, kernel.rtlstringcbcopyn, ntstrsafe/RtlStringCbCopyNW, ntstrsafe/RtlStringCbCopyNA, RtlStringCbCopyNW, RtlStringCbCopyN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCopyNW
 product: Windows
 targetos: Windows
-req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
+req.typenames: SYSTEM_POWER_STATE_CONTEXT, *PSYSTEM_POWER_STATE_CONTEXT
 ---
 
 # RtlStringCbCopyNA function

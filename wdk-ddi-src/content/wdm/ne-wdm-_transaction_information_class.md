@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: f3211114-8924-4e57-85a3-12471585652b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: wdm/TransactionBasicInformation, _TRANSACTION_INFORMATION_CLASS, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionEnlistmentInformation, TransactionPropertiesInformation, wdm/TRANSACTION_INFORMATION_CLASS, TransactionBasicInformation, kernel.transaction_information_class, TRANSACTION_INFORMATION_CLASS, wdm/TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation, wdm/TransactionEnlistmentInformation, TransactionSuperiorEnlistmentInformation
+ms.keywords: wdm/TRANSACTION_INFORMATION_CLASS, wdm/TransactionPropertiesInformation, TRANSACTION_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], TransactionBasicInformation, TransactionPropertiesInformation, wdm/TransactionSuperiorEnlistmentInformation, ktm_ref_b02f7265-fb29-402a-b0d3-79427735f354.xml, _TRANSACTION_INFORMATION_CLASS, wdm/TransactionEnlistmentInformation, TransactionSuperiorEnlistmentInformation, TRANSACTION_INFORMATION_CLASS, kernel.transaction_information_class, wdm/TransactionBasicInformation, TransactionEnlistmentInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -93,11 +93,11 @@ Information about a transaction manager object is stored in a <b>TRANSACTION_SUP
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwsetinformationtransaction.md">ZwSetInformationTransaction</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationtransaction.md">ZwQueryInformationTransaction</a>
 
 
 

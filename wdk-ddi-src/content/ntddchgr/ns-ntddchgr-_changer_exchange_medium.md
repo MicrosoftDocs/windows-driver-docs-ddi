@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: b0f03d83-61d3-4aa1-ae4e-a8bdc9f13a9f
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PCHANGER_EXCHANGE_MEDIUM, _CHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], ntddchgr/CHANGER_EXCHANGE_MEDIUM, *PCHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, storage.changer_exchange_medium, PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], CHANGER_EXCHANGE_MEDIUM, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml
+ms.keywords: PCHANGER_EXCHANGE_MEDIUM structure pointer [Storage Devices], PCHANGER_EXCHANGE_MEDIUM, storage.changer_exchange_medium, structs-changer_4af39195-5fe7-42e2-b8bd-3247391fea3f.xml, CHANGER_EXCHANGE_MEDIUM structure [Storage Devices], ntddchgr/CHANGER_EXCHANGE_MEDIUM, ntddchgr/PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM, *PCHANGER_EXCHANGE_MEDIUM, _CHANGER_EXCHANGE_MEDIUM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	CHANGER_EXCHANGE_MEDIUM
 product: Windows
 targetos: Windows
-req.typenames: "*PCHANGER_EXCHANGE_MEDIUM, CHANGER_EXCHANGE_MEDIUM"
+req.typenames: CHANGER_EXCHANGE_MEDIUM, *PCHANGER_EXCHANGE_MEDIUM
 ---
 
 # _CHANGER_EXCHANGE_MEDIUM structure
@@ -104,15 +104,15 @@ Indicates, when <b>TRUE</b>, that the medium moved to <b>Destination2</b> should
 
 ## -see-also
 
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
+
+
+
+<a href="..\mcd\nf-mcd-changerexchangemedium.md">ChangerExchangeMedium</a>
+
+
+
 <a href="..\ntddchgr\ni-ntddchgr-ioctl_changer_exchange_medium.md">IOCTL_CHANGER_EXCHANGE_MEDIUM</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">GET_CHANGER_PARAMETERS</a>
 
 
 

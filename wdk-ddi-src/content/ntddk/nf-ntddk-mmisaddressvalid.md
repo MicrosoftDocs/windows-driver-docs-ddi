@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 328f9ffe-67ae-4ba5-98e4-b3b00068eb0e
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, ntddk/MmIsAddressValid, MmIsAddressValid routine [Kernel-Mode Driver Architecture], MmIsAddressValid, kernel.mmisaddressvalid
+ms.keywords: MmIsAddressValid, kernel.mmisaddressvalid, ntddk/MmIsAddressValid, k106_5f0349a5-5fdb-4263-b91a-d00667729901.xml, MmIsAddressValid routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	MmIsAddressValid
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # MmIsAddressValid function

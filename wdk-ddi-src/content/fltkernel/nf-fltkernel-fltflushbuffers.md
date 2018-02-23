@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 269be3a9-7dd8-45e2-8687-99f8ca8f9b8b
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ifsk.fltflushbuffers, FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, fltkernel/FltFlushBuffers, FltFlushBuffers routine [Installable File System Drivers], FltFlushBuffers
+ms.keywords: fltkernel/FltFlushBuffers, FltApiRef_e_to_o_cd194ce5-6afd-49f2-84c5-aa93ede9309a.xml, FltFlushBuffers routine [Installable File System Drivers], ifsk.fltflushbuffers, FltFlushBuffers
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

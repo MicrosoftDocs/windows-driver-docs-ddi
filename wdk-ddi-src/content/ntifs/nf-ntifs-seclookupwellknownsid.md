@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: fbf06a28-d6f8-424c-95e0-ce24653cac64
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, SecLookupWellKnownSid, ntifs/SecLookupWellKnownSid, ifsk.seclookupwellknownsid, SecLookupWellKnownSid function [Installable File System Drivers]
+ms.keywords: ksecddref_4c0053b3-cdaa-4cdc-a4d3-6329ccf64f98.xml, ifsk.seclookupwellknownsid, SecLookupWellKnownSid function [Installable File System Drivers], ntifs/SecLookupWellKnownSid, SecLookupWellKnownSid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

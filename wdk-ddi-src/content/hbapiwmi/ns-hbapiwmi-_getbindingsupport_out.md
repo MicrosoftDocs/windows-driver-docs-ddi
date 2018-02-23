@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: cd67b301-a94a-41dd-9c06-e6c674ea9173
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: PGetBindingSupport_OUT, PGetBindingSupport_OUT structure pointer [Storage Devices], _GetBindingSupport_OUT, GetBindingSupport_OUT structure [Storage Devices], GetBindingSupport_OUT, hbapiwmi/GetBindingSupport_OUT, structs-Fibre_1db0b747-ead3-461f-a7ab-c8150f92623a.xml, storage.getbindingsupport_out, hbapiwmi/PGetBindingSupport_OUT, *PGetBindingSupport_OUT
+ms.keywords: structs-Fibre_1db0b747-ead3-461f-a7ab-c8150f92623a.xml, storage.getbindingsupport_out, _GetBindingSupport_OUT, hbapiwmi/PGetBindingSupport_OUT, PGetBindingSupport_OUT, GetBindingSupport_OUT, hbapiwmi/GetBindingSupport_OUT, GetBindingSupport_OUT structure [Storage Devices], PGetBindingSupport_OUT structure pointer [Storage Devices], *PGetBindingSupport_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

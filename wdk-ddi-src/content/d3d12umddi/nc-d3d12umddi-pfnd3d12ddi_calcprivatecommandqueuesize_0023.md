@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calcprivatecommandqueuesize_0023.htm
 old-project: display
 ms.assetid: 70A81285-97CD-4526-8EB0-F00908B2D331
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
+ms.date: 2/22/2018
 ms.keywords: display.pfnd3d12ddi_calcprivatecommandqueuesize_0023, pfnCalcPrivateCommandQueueSize callback function [Display Devices], pfnCalcPrivateCommandQueueSize, PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023, PFND3D12DDI_CALCPRIVATECOMMANDQUEUESIZE_0023, d3d12umddi/pfnCalcPrivateCommandQueueSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -83,14 +83,14 @@ SIZE_T APIENTRY* pfnCalcPrivateCommandQueueSize(
 
 
 
-#### - CreateCommandQueue [in]
-
-An argument used to create a command queue. 
-
-
 #### - hDevice
 
 The handle of a device.
+
+
+#### - CreateCommandQueue [in]
+
+An argument used to create a command queue. 
 
 
 ## -returns

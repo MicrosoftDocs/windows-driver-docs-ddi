@@ -40,7 +40,7 @@ apiname:
 -	GetUSBDIVersion
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBD_VERSION_INFORMATION, USBD_VERSION_INFORMATION"
+req.typenames: USBD_VERSION_INFORMATION, *PUSBD_VERSION_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -86,14 +86,14 @@ VOID GetUSBDIVersion(
 Handle returned in the <b>BusContext</b> member of the <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a> structure by an IRP_MN_QUERY_INTERFACE request. 
 
 
-#### - HcdCapabilities [out, optional]
-
-Returns the host capability flags. Currently, no host capability flags are reported.
-
-
 #### - VersionInformation [out, optional]
 
 Returns a pointer to a <a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a> structure that contains the USB interface version number and the USB specification version number. 
+
+
+#### - HcdCapabilities [out, optional]
+
+Returns the host capability flags. Currently, no host capability flags are reported.
 
 
 ## -returns
@@ -124,15 +124,15 @@ The function definition that is provided on this reference page is an example fu
 
 ## -see-also
 
+<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
+
+
+
 <a href="..\usbdlib\nf-usbdlib-usbd_getusbdiversion.md">USBD_GetUSBDIVersion</a>
 
 
 
 <a href="..\usbbusif\ns-usbbusif-_usb_bus_interface_usbdi_v0.md">USB_BUS_INTERFACE_USBDI_V0</a>
-
-
-
-<a href="..\usb\ns-usb-_usbd_version_information.md">USBD_VERSION_INFORMATION</a>
 
 
 

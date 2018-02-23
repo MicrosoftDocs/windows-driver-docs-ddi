@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: 20b10edb-3294-4cc7-91bc-07df565a9cf2
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: umdf.iwdfiorequest2_getstatus, GetStatus method, IWDFIoRequest2 interface, IWDFIoRequest2, wudfddi/IWDFIoRequest2::GetStatus, GetStatus method, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml, IWDFIoRequest2::GetStatus, IWDFIoRequest2 interface, GetStatus method, wdf.iwdfiorequest2_getstatus, GetStatus
+ms.keywords: GetStatus method, IWDFIoRequest2 interface, GetStatus method, GetStatus method, IWDFIoRequest2 interface, wdf.iwdfiorequest2_getstatus, IWDFIoRequest2::GetStatus, IWDFIoRequest2, wudfddi/IWDFIoRequest2::GetStatus, GetStatus, UMDFRequestObjectRef_c2efd103-5295-494f-8938-95cf0d76fc3e.xml, umdf.iwdfiorequest2_getstatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -136,7 +136,7 @@ if (SUCCEEDED(hrSend))
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
 
 
 
@@ -144,7 +144,7 @@ if (SUCCEEDED(hrSend))
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559074">IWDFIoRequest::CompleteWithInformation</a>
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
@@ -152,7 +152,7 @@ if (SUCCEEDED(hrSend))
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559084">IWDFIoRequest::GetCompletionParams</a>
 
 
 

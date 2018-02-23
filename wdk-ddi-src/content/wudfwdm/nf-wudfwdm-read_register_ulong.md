@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: a462734c-cac6-4de0-95c1-810766ef1644
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.read_register_ulong, k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml, READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], wdm/READ_REGISTER_ULONG, READ_REGISTER_ULONG
+ms.keywords: READ_REGISTER_ULONG routine [Kernel-Mode Driver Architecture], READ_REGISTER_ULONG, wdm/READ_REGISTER_ULONG, kernel.read_register_ulong, k103_c2da9866-18ac-438b-aa32-991d1bda139f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	READ_REGISTER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.typenames: PO_FX_PERF_STATE_UNIT, *PPO_FX_PERF_STATE_UNIT
 req.product: Windows 10 or later.
 ---
 

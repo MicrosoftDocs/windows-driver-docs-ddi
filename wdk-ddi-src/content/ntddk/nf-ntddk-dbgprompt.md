@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: 4bb44aab-7032-4cc7-89e3-6ac3bee233d3
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: devtest.dbgprompt, DbgPrompt, DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, DbgPrompt routine [Driver Development Tools], ntddk/DbgPrompt
+ms.keywords: DbgPrompt, devtest.dbgprompt, ntddk/DbgPrompt, DebugFns_bf0bb6f5-3664-4f8d-811e-5d55fbb94081.xml, DbgPrompt routine [Driver Development Tools]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	DbgPrompt
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_RAW_DATA_FORMAT, WHEA_RAW_DATA_FORMAT"
+req.typenames: WHEA_RAW_DATA_FORMAT, *PWHEA_RAW_DATA_FORMAT
 ---
 
 # DbgPrompt function

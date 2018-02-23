@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 46845a10-c44b-4d11-b82e-986bfc066b97
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml, storport/StorPortDebugPrint, StorPortDebugPrint, storage.storportdebugprint, StorPortDebugPrint routine [Storage Devices]
+ms.keywords: storprt_4c594dd0-20a0-456f-acdb-3c08198dc8b5.xml, StorPortDebugPrint routine [Storage Devices], storage.storportdebugprint, StorPortDebugPrint, storport/StorPortDebugPrint
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -8,7 +8,7 @@ old-project: ifsk
 ms.assetid: 6950B71D-B396-494E-A23C-EE37B439FD05
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ntifs/PSE_SID, PSE_SID union pointer [Installable File System Drivers], _SE_SID, PSE_SID, *PSE_SID, SE_SID union [Installable File System Drivers], ifsk.se_sid, ntifs/SE_SID, SE_SID
+ms.keywords: PSE_SID union pointer [Installable File System Drivers], *PSE_SID, ntifs/PSE_SID, ntifs/SE_SID, _SE_SID, SE_SID, ifsk.se_sid, PSE_SID, SE_SID union [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SE_SID
 product: Windows
 targetos: Windows
-req.typenames: "*PSE_SID, SE_SID"
+req.typenames: SE_SID, *PSE_SID
 ---
 
 # _SE_SID structure

@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 9c92e010-35d7-40ff-8025-51e945861b9c
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: "_FORMAT_PARAMETERS, PFORMAT_PARAMETERS, structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, PFORMAT_PARAMETERS structure pointer [Storage Devices], ntdddisk/PFORMAT_PARAMETERS, FORMAT_PARAMETERS, storage.format_parameters, *PFORMAT_PARAMETERS, ntdddisk/FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices]"
+ms.keywords: PFORMAT_PARAMETERS structure pointer [Storage Devices], ntdddisk/FORMAT_PARAMETERS, FORMAT_PARAMETERS, FORMAT_PARAMETERS structure [Storage Devices], structs-disk_063eb997-3411-4101-9cde-4417647eb53f.xml, *PFORMAT_PARAMETERS, PFORMAT_PARAMETERS, ntdddisk/PFORMAT_PARAMETERS, storage.format_parameters, _FORMAT_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

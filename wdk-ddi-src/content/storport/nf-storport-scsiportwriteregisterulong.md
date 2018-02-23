@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: d6e05c62-da0c-43a5-b51e-4c73f650b77d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: ScsiPortWriteRegisterUlong, storage.scsiportwriteregisterulong, ScsiPortWriteRegisterUlong routine [Storage Devices], srb/ScsiPortWriteRegisterUlong, scsiprt_8a175f68-d47c-4db0-bc22-bde418a56503.xml
+ms.keywords: srb/ScsiPortWriteRegisterUlong, scsiprt_8a175f68-d47c-4db0-bc22-bde418a56503.xml, ScsiPortWriteRegisterUlong, ScsiPortWriteRegisterUlong routine [Storage Devices], storage.scsiportwriteregisterulong
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

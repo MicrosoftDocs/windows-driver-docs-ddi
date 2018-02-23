@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 1EBEBD5D-E0E5-48A3-8CDA-C336575E53C6
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: storport/StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], StorPortPoFxPowerControl, storage.storportpofxpowercontrol
+ms.keywords: storage.storportpofxpowercontrol, storport/StorPortPoFxPowerControl, StorPortPoFxPowerControl routine [Storage Devices], StorPortPoFxPowerControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

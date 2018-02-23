@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_retrieve_statistics.htm
 old-project: pos
 ms.assetid: 8c63ef41-e4dd-4b34-a897-c9bec13f4211
 ms.author: windowsdriverdev
-ms.date: 2/19/2018
+ms.date: 2/22/2018
 ms.keywords: pos.ioctl_point_of_service_retrieve_statistics, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS control code, IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETRIEVE_STATISTICS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -109,14 +109,14 @@ To get extended error information, call <a href="http://go.microsoft.com/fwlink/
 
 
 
-#### -STATUS_BUFFER_OVERFLOW
-
-The output buffer is not large enough to hold the statistics.
-
-
 #### -STATUS_NOT_SUPPORTED
 
 Statistic reporting is not supported.
+
+
+#### -STATUS_BUFFER_OVERFLOW
+
+The output buffer is not large enough to hold the statistics.
 
 
 ## -remarks

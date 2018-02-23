@@ -7,8 +7,8 @@ old-location: display\d3dddi_updateallocproperty.htm
 old-project: display
 ms.assetid: 4A8EBF10-23A3-4D91-BCF7-8FD4D0708949
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: display.d3dddi_updateallocproperty, D3DDDI_UPDATEALLOCPROPERTY, D3DDDI_UPDATEALLOCPROPERTY structure [Display Devices], d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY
+ms.date: 2/22/2018
+ms.keywords: D3DDDI_UPDATEALLOCPROPERTY, d3dukmdt/D3DDDI_UPDATEALLOCPROPERTY, D3DDDI_UPDATEALLOCPROPERTY structure [Display Devices], display.d3dddi_updateallocproperty
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: E2687B3C-2BCF-4764-99E0-4495296F14C4
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: imp_WppRecorderLogSetIdentifier, wpprecorder/imp_WppRecorderLogSetIdentifier, devtest.wpprecorderlogsetidentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], WppRecorderLogSetIdentifier
+ms.keywords: imp_WppRecorderLogSetIdentifier, wpprecorder/imp_WppRecorderLogSetIdentifier, WppRecorderLogSetIdentifier, imp_WppRecorderLogSetIdentifier function [Driver Development Tools], devtest.wpprecorderlogsetidentifier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	imp_WppRecorderLogSetIdentifier
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: WNODE_HEADER, *PWNODE_HEADER
 req.product: Windows 10 or later.
 ---
 

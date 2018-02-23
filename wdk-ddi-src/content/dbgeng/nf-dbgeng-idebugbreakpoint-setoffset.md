@@ -4,11 +4,11 @@ title: IDebugBreakpoint::SetOffset method
 author: windows-driver-content
 description: The SetOffset method sets the location that triggers a breakpoint.
 old-location: debugger\setoffset.htm
-old-project: Debugger
+old-project: debugger
 ms.assetid: 25898500-f16e-4838-854f-5eb299727e2b
 ms.author: windowsdriverdev
-ms.date: 2/15/2018
-ms.keywords: ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, IDebugBreakpoint::SetOffset, dbgeng/IDebugBreakpoint2::SetOffset, dbgeng/IDebugBreakpoint::SetOffset, IDebugBreakpoint2::SetOffset, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint, SetOffset method [Windows Debugging], IDebugBreakpoint interface, SetOffset method [Windows Debugging], SetOffset, IDebugBreakpoint interface [Windows Debugging], SetOffset method, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, debugger.setoffset
+ms.date: 2/22/2018
+ms.keywords: IDebugBreakpoint interface [Windows Debugging], SetOffset method, dbgeng/IDebugBreakpoint::SetOffset, debugger.setoffset, IDebugBreakpoint::SetOffset, SetOffset method [Windows Debugging], IDebugBreakpoint2::SetOffset, ComOther_bb0d9a70-c4b5-4883-9dab-37bf04848d8c.xml, dbgeng/IDebugBreakpoint2::SetOffset, IDebugBreakpoint2 interface [Windows Debugging], SetOffset method, IDebugBreakpoint, SetOffset, SetOffset method [Windows Debugging], IDebugBreakpoint2 interface, SetOffset method [Windows Debugging], IDebugBreakpoint interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

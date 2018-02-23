@@ -8,7 +8,7 @@ old-project: kernel
 ms.assetid: 8bf36e54-5caa-4dc6-b659-ea0c1ac450f0
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: kernel.wmiguidreginfo, PWMIGUIDREGINFO, *PWMIGUIDREGINFO, _WMIGUIDREGINFO, wmilib/WMIGUIDREGINFO, WMIGUIDREGINFO, kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture], wmilib/PWMIGUIDREGINFO
+ms.keywords: "*PWMIGUIDREGINFO, wmilib/WMIGUIDREGINFO, wmilib/PWMIGUIDREGINFO, WMIGUIDREGINFO, PWMIGUIDREGINFO, _WMIGUIDREGINFO, PWMIGUIDREGINFO structure pointer [Kernel-Mode Driver Architecture], kstruct_d_aeedb315-3e08-4af9-9a37-afd06166a662.xml, kernel.wmiguidreginfo, WMIGUIDREGINFO structure [Kernel-Mode Driver Architecture]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -130,11 +130,11 @@ Memory for this structure can be allocated from paged pool.
 
 ## -see-also
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
+<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551734">IRP_MN_REGINFO_EX</a>
 
 
 
@@ -142,19 +142,19 @@ Memory for this structure can be allocated from paged pool.
 
 
 
-<a href="..\wmilib\nf-wmilib-wmifireevent.md">WmiFireEvent</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff550857">IRP_MN_ENABLE_COLLECTION</a>
 
 
 
-<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
-
-
-
 <a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551731">IRP_MN_REGINFO</a>
+
+
+
+<a href="..\wmilib\ns-wmilib-_wmilib_context.md">WMILIB_CONTEXT</a>
 
 
 

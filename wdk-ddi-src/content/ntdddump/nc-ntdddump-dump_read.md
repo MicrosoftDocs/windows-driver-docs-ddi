@@ -40,7 +40,7 @@ apiname:
 -	Dump_Read
 product: Windows
 targetos: Windows
-req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
+req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
 ---
 
 # DUMP_READ callback
@@ -109,11 +109,11 @@ Filter drivers can modify the contents of the data buffer contained in <b>Mdl</b
 
 ## -see-also
 
-<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
-
-
-
 <a href="..\ntdddump\nc-ntdddump-dump_write.md">Dump_Write</a>
+
+
+
+<a href="..\ntdddump\ns-ntdddump-_filter_extension.md">FILTER_EXTENSION</a>
 
 
 

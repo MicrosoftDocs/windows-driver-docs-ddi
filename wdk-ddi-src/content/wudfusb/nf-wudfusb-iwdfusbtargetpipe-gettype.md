@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: c8d76d5b-f388-4e22-ba57-d299ab3dee80
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: GetType method, GetType, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::GetType, IWDFUsbTargetPipe interface, GetType method, wdf.iwdfusbtargetpipe_gettype, IWDFUsbTargetPipe::GetType, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, umdf.iwdfusbtargetpipe_gettype, GetType method, IWDFUsbTargetPipe interface
+ms.keywords: IWDFUsbTargetPipe interface, GetType method, wudfusb/IWDFUsbTargetPipe::GetType, wdf.iwdfusbtargetpipe_gettype, GetType method, IWDFUsbTargetPipe, IWDFUsbTargetPipe::GetType, GetType method, IWDFUsbTargetPipe interface, umdf.iwdfusbtargetpipe_gettype, UMDFUSBref_792b0720-a0c3-45da-b5e8-7b2f3a0c3770.xml, GetType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFUsbTargetPipe.GetType
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE"
+req.typenames: WDF_USB_REQUEST_TYPE, *PWDF_USB_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 

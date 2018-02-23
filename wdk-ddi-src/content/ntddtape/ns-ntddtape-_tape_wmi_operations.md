@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 430d982e-4740-46ad-8391-aba5813a833a
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: TAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], ntddtape/TAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS, ntddtape/PTAPE_WMI_OPERATIONS, storage.tape_wmi_operations, TAPE_WMI_OPERATIONS structure [Storage Devices], _TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml
+ms.keywords: TAPE_WMI_OPERATIONS, PTAPE_WMI_OPERATIONS structure pointer [Storage Devices], ntddtape/TAPE_WMI_OPERATIONS, structs-tape_93f1d9af-45b2-4121-9b4c-70ed7eaf1782.xml, PTAPE_WMI_OPERATIONS, storage.tape_wmi_operations, _TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS, ntddtape/PTAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TAPE_WMI_OPERATIONS
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_WMI_OPERATIONS, TAPE_WMI_OPERATIONS"
+req.typenames: TAPE_WMI_OPERATIONS, *PTAPE_WMI_OPERATIONS
 ---
 
 # _TAPE_WMI_OPERATIONS structure

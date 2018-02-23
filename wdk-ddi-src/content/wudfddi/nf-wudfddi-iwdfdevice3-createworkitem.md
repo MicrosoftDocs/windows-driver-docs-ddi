@@ -8,7 +8,7 @@ old-project: wdf
 ms.assetid: B34EABF4-C659-4DB4-AEC6-94F544D79221
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: IWDFDevice3 interface, CreateWorkItem method, umdf.iwdfdevice3_createworkitem, CreateWorkItem method, CreateWorkItem, wdf.iwdfdevice3_createworkitem, IWDFDevice3::CreateWorkItem, wudfddi/IWDFDevice3::CreateWorkItem, IWDFDevice3, CreateWorkItem method, IWDFDevice3 interface
+ms.keywords: IWDFDevice3 interface, CreateWorkItem method, wdf.iwdfdevice3_createworkitem, IWDFDevice3::CreateWorkItem, CreateWorkItem method, IWDFDevice3 interface, umdf.iwdfdevice3_createworkitem, CreateWorkItem, wudfddi/IWDFDevice3::CreateWorkItem, IWDFDevice3, CreateWorkItem method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -132,11 +132,11 @@ hr = m_IWdfDevice3-&gt;CreateWorkItem(&amp;config,
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfworkitem.md">IWDFWorkItem</a>
-
-
-
 <a href="..\wudfworkitem\nf-wudfworkitem-wudf_workitem_config_init.md">WUDF_WORKITEM_CONFIG_INIT</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a>
 
 
 

@@ -8,7 +8,7 @@ old-project: netvista
 ms.assetid: 2f7e8df5-31ae-4e1a-8dbb-89bfe8fc422d
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: RILALPHAIDENTIFIER, *LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILALPHAIDENTIFIER, netvista.rilalphaidentifier
+ms.keywords: ntddrilapitypes/RILALPHAIDENTIFIER, *LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER, netvista.rilalphaidentifier, RILALPHAIDENTIFIER structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILALPHAIDENTIFIER
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILALPHAIDENTIFIER, RILALPHAIDENTIFIER"
+req.typenames: RILALPHAIDENTIFIER, *LPRILALPHAIDENTIFIER
 ---
 
 # RILALPHAIDENTIFIER structure

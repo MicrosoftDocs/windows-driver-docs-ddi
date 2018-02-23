@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_INIT_1284_3_BUS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILGBATOKEN, RILGBATOKEN"
+req.typenames: RILGBATOKEN, *LPRILGBATOKEN
 ---
 
 # IOCTL_INTERNAL_INIT_1284_3_BUS IOCTL

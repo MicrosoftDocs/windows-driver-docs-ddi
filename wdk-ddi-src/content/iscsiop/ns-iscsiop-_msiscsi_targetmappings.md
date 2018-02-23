@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: iscsiop/MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, storage.msiscsi_targetmappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], PMSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], _MSiSCSI_TargetMappings
+ms.keywords: storage.msiscsi_targetmappings, MSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, PMSiSCSI_TargetMappings structure pointer [Storage Devices], MSiSCSI_TargetMappings structure [Storage Devices], PMSiSCSI_TargetMappings, iscsiop/MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, _MSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_TargetMappings
 product: Windows
 targetos: Windows
-req.typenames: "*PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings"
+req.typenames: MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings
 ---
 
 # _MSiSCSI_TargetMappings structure
@@ -101,11 +101,11 @@ You must implement this class.
 
 ## -see-also
 
-<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
-
-
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
+
+
+
+<a href="..\iscsidef\ns-iscsidef-_iscsi_targetmapping.md">ISCSI_TargetMapping</a>
 
 
 

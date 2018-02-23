@@ -8,7 +8,7 @@ old-project: devtest
 ms.assetid: bd7acc4e-9941-45a1-ad90-996e80c1937b
 ms.author: windowsdriverdev
 ms.date: 2/20/2018
-ms.keywords: vDbgPrintExWithPrefix, wdm/vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], devtest.vdbgprintexwithprefix, DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml
+ms.keywords: wdm/vDbgPrintExWithPrefix, vDbgPrintExWithPrefix routine [Driver Development Tools], vDbgPrintExWithPrefix, DebugFns_483dc845-dd53-48a5-b879-cf69158016aa.xml, devtest.vdbgprintexwithprefix
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

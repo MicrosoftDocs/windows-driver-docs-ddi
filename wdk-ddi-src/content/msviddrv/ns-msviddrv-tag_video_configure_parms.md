@@ -7,8 +7,8 @@ old-location: stream\videoconfigparms.htm
 old-project: stream
 ms.assetid: 58FE3B56-AFC6-46DE-BBE1-CCFA8FF1390A
 ms.author: windowsdriverdev
-ms.date: 2/20/2018
-ms.keywords: msviddrv/LPVIDEOCONFIGPARMS, VIDEOCONFIGPARMS structure [Streaming Media Devices], VIDEOCONFIGPARMS, tag_video_configure_parms, stream.videoconfigparms, LPVIDEOCONFIGPARMS, msviddrv/VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices]
+ms.date: 2/22/2018
+ms.keywords: msviddrv/VIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS structure pointer [Streaming Media Devices], msviddrv/LPVIDEOCONFIGPARMS, tag_video_configure_parms, VIDEOCONFIGPARMS structure [Streaming Media Devices], VIDEOCONFIGPARMS, LPVIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS, stream.videoconfigparms
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEOCONFIGPARMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEOCONFIGPARMS, VIDEOCONFIGPARMS"
+req.typenames: VIDEOCONFIGPARMS, *LPVIDEOCONFIGPARMS
 ---
 
 # tag_video_configure_parms structure

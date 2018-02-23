@@ -8,7 +8,7 @@ old-project: storage
 ms.assetid: f1c02d19-9e96-4fd6-b950-ae02b6f3bba4
 ms.author: windowsdriverdev
 ms.date: 2/16/2018
-ms.keywords: structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml, PAddiSNSServer_OUT structure pointer [Storage Devices], iscsiop/AddiSNSServer_OUT, storage.addisnsserver_out, AddiSNSServer_OUT, AddiSNSServer_OUT structure [Storage Devices], PAddiSNSServer_OUT, iscsiop/PAddiSNSServer_OUT, _AddiSNSServer_OUT, *PAddiSNSServer_OUT
+ms.keywords: PAddiSNSServer_OUT, AddiSNSServer_OUT structure [Storage Devices], AddiSNSServer_OUT, _AddiSNSServer_OUT, *PAddiSNSServer_OUT, storage.addisnsserver_out, PAddiSNSServer_OUT structure pointer [Storage Devices], iscsiop/AddiSNSServer_OUT, structs-iSCSI_d1d3f4d6-6c48-4f6d-bc5e-9449a4b87d2b.xml, iscsiop/PAddiSNSServer_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,11 +87,11 @@ It is optional that you implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
-
-
-
 <a href="..\iscsiop\ns-iscsiop-_addisnsserver_in.md">AddiSNSServer_IN</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563091">MSiSCSI_Operations WMI Class</a>
 
 
 
