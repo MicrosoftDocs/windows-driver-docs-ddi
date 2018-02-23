@@ -7,8 +7,8 @@ old-location: sensors\gnss_v2upl_config.htm
 old-project: sensors
 ms.assetid: A1DCC547-8CAA-46B9-A855-5F591C69A3B0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PGNSS_V2UPL_CONFIG, gnssdriver/GNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], sensors.gnss_v2upl_config, gnssdriver/PGNSS_V2UPL_CONFIG"
+ms.date: 2/15/2018
+ms.keywords: gnssdriver/GNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG structure [Sensor Devices], sensors.gnss_v2upl_config, gnssdriver/PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG, PGNSS_V2UPL_CONFIG structure pointer [Sensor Devices], *PGNSS_V2UPL_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_V2UPL_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_V2UPL_CONFIG, GNSS_V2UPL_CONFIG"
+req.typenames: GNSS_V2UPL_CONFIG, *PGNSS_V2UPL_CONFIG
 ---
 
 # GNSS_V2UPL_CONFIG structure
@@ -99,6 +99,7 @@ Application type indicator for any mobile originated location request to the MPC
 ### -field Unused
 
  
+
 
 
 

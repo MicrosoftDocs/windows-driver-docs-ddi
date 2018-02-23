@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_io_type.htm
 old-project: wdf
 ms.assetid: 0ad08e4f-7a9b-4052-888e-ae01c9c105c8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDeviceIoUndefined, wdf.wdf_device_io_type, WdfDeviceIoNeither, WdfDeviceIoDirect, kmdf.wdf_device_io_type, wdfdevice/WdfDeviceIoNeither, wdfdevice/WdfDeviceIoDirect, wdfdevice/WdfDeviceIoUndefined, PWDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, WDF_DEVICE_IO_TYPE, wdfdevice/PWDF_DEVICE_IO_TYPE, WdfDeviceIoBuffered, *PWDF_DEVICE_IO_TYPE, WdfDeviceIoBufferedOrDirect, wdfdevice/WDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE enumeration, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, _WDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBufferedOrDirect, PWDF_DEVICE_IO_TYPE enumeration pointer
+ms.date: 2/20/2018
+ms.keywords: "_WDF_DEVICE_IO_TYPE, wdfdevice/WdfDeviceIoBuffered, WdfDeviceIoBuffered, kmdf.wdf_device_io_type, wdfdevice/WdfDeviceIoBufferedOrDirect, wdfdevice/PWDF_DEVICE_IO_TYPE, DFDeviceObjectGeneralRef_72f77b23-a975-4ab4-bc28-312ed9682738.xml, wdfdevice/WdfDeviceIoDirect, wdfdevice/WdfDeviceIoNeither, WDF_DEVICE_IO_TYPE enumeration, wdfdevice/WdfDeviceIoUndefined, WdfDeviceIoUndefined, WdfDeviceIoDirect, PWDF_DEVICE_IO_TYPE enumeration pointer, WDF_DEVICE_IO_TYPE, wdf.wdf_device_io_type, WdfDeviceIoBufferedOrDirect, wdfdevice/WDF_DEVICE_IO_TYPE, WdfDeviceIoNeither, PWDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_IO_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DEVICE_IO_TYPE, WDF_DEVICE_IO_TYPE"
+req.typenames: WDF_DEVICE_IO_TYPE, *PWDF_DEVICE_IO_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -121,6 +121,10 @@ The <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFI
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotype.md">WdfDeviceInitSetIoType</a>
 
 
@@ -129,13 +133,9 @@ The <a href="..\wdfdevice\ns-wdfdevice-_wdf_io_type_config.md">WDF_IO_TYPE_CONFI
 
 
 
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

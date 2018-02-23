@@ -7,8 +7,8 @@ old-location: storage\iscsi_targetportal.htm
 old-project: storage
 ms.assetid: 1adb1dbf-3ec4-4e32-bfe8-cfcf992f67ca
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.iscsi_targetportal, ISCSI_TargetPortal structure [Storage Devices], iscsidef/ISCSI_TargetPortal, *PISCSI_TargetPortal, iscsidef/PISCSI_TargetPortal, PISCSI_TargetPortal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml, ISCSI_TargetPortal, PISCSI_TargetPortal structure pointer [Storage Devices], _ISCSI_TargetPortal
+ms.date: 2/16/2018
+ms.keywords: iscsidef/PISCSI_TargetPortal, structs-iSCSI_fcbc99fd-e52d-45f4-b525-03c2d925f382.xml, PISCSI_TargetPortal structure pointer [Storage Devices], PISCSI_TargetPortal, storage.iscsi_targetportal, *PISCSI_TargetPortal, iscsidef/ISCSI_TargetPortal, ISCSI_TargetPortal, ISCSI_TargetPortal structure [Storage Devices], _ISCSI_TargetPortal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ISCSI_TargetPortal
 product: Windows
 targetos: Windows
-req.typenames: "*PISCSI_TargetPortal, ISCSI_TargetPortal"
+req.typenames: ISCSI_TargetPortal, *PISCSI_TargetPortal
 ---
 
 # _ISCSI_TargetPortal structure
@@ -98,5 +98,5 @@ Socket number associated with the target.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_TargetPortal structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_TargetPortal structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

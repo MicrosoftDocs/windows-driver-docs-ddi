@@ -7,8 +7,8 @@ old-location: wdf\wdf_read_register_ulong.htm
 old-project: wdf
 ms.assetid: 75EBA58B-4EE9-4D7D-A653-93E5E35569BB
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_READ_REGISTER_ULONG function, wdf.wdf_read_register_ulong, wdfhwaccess/WDF_READ_REGISTER_ULONG, WDF_READ_REGISTER_ULONG
+ms.date: 2/20/2018
+ms.keywords: WDF_READ_REGISTER_ULONG function, wdf.wdf_read_register_ulong, WDF_READ_REGISTER_ULONG, wdfhwaccess/WDF_READ_REGISTER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_REGISTER_ULONG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

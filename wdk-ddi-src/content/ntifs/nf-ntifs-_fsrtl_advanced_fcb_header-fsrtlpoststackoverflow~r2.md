@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlpoststackoverflow.htm
 old-project: ifsk
 ms.assetid: fbd6f3b5-ecf7-438e-8e28-a06eaa141fc3
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fsrtlpoststackoverflow, FsRtlPostStackOverflow routine [Installable File System Drivers], FsRtlPostStackOverflow, ntifs/FsRtlPostStackOverflow, fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml
+ms.date: 2/16/2018
+ms.keywords: ntifs/FsRtlPostStackOverflow, FsRtlPostStackOverflow routine [Installable File System Drivers], FsRtlPostStackOverflow, fsrtlref_c2a888d0-ecfc-4b50-b6f0-753ef43375de.xml, ifsk.fsrtlpoststackoverflow
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,6 +112,10 @@ If a pool allocation failure occurs, <b>FsRtlPostStackOverflow</b> raises a STAT
 
 
 
+<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
+
+
+
 <a href="..\wdm\nf-wdm-keinitializeevent.md">KeInitializeEvent</a>
 
 
@@ -120,13 +124,9 @@ If a pool allocation failure occurs, <b>FsRtlPostStackOverflow</b> raises a STAT
 
 
 
-<a href="..\wdm\nf-wdm-iogetremainingstacksize.md">IoGetRemainingStackSize</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlPostStackOverflow routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlPostStackOverflow routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\ufs_device_descriptor.htm
 old-project: storage
 ms.assetid: CD1F59DA-3D84-422B-A862-8F4C5E1AA515
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], PUFS_DEVICE_DESCRIPTOR, ufs/UFS_DEVICE_DESCRIPTOR, ufs/PUFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR structure [Storage Devices], storage.ufs_device_descriptor
+ms.date: 2/16/2018
+ms.keywords: UFS_DEVICE_DESCRIPTOR structure [Storage Devices], ufs/UFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR structure pointer [Storage Devices], *PUFS_DEVICE_DESCRIPTOR, PUFS_DEVICE_DESCRIPTOR, storage.ufs_device_descriptor, UFS_DEVICE_DESCRIPTOR, ufs/PUFS_DEVICE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFS_DEVICE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PUFS_DEVICE_DESCRIPTOR, UFS_DEVICE_DESCRIPTOR"
+req.typenames: UFS_DEVICE_DESCRIPTOR, *PUFS_DEVICE_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -546,11 +546,11 @@ If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if t
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
 
 
 
@@ -562,15 +562,7 @@ If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if t
 
 
 
-<a href="..\ufs\ns-ufs-ufs_unit_descriptor.md">UFS_UNIT_DESCRIPTOR</a>
-
-
-
-<a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
-
-
-
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-_ufs_string_descriptor.md">UFS_STRING_DESCRIPTOR</a>
 
 
 
@@ -578,7 +570,15 @@ If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if t
 
 
 
-<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
 
 
 
@@ -586,5 +586,5 @@ If <b>bBootEnable</b> in the <b>UFS_DEVICE_DESCRIPTOR</b> is set to zero or if t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_DEVICE_DESCRIPTOR structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

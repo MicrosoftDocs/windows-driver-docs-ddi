@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_rotation.htm
 old-project: display
 ms.assetid: 667f1c5e-c342-40b2-b215-2538669288cc
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_ROTATION_180, DXVAHDDDI_ROTATION_90, DXVAHDDDI_ROTATION_270, DXVAHDDDI_ROTATION enumeration [Display Devices], DXVAHDDDI_ROTATION_IDENTITY, d3dumddi/DXVAHDDDI_ROTATION_IDENTITY, d3dumddi/DXVAHDDDI_ROTATION, display.dxvahdddi_rotation, d3dumddi/DXVAHDDDI_ROTATION_180, DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION_90, d3dumddi/DXVAHDDDI_ROTATION_270, _DXVAHDDDI_ROTATION
+ms.date: 2/20/2018
+ms.keywords: d3dumddi/DXVAHDDDI_ROTATION_270, d3dumddi/DXVAHDDDI_ROTATION_IDENTITY, DXVAHDDDI_ROTATION_180, DXVAHDDDI_ROTATION_270, _DXVAHDDDI_ROTATION, DXVAHDDDI_ROTATION_IDENTITY, DXVAHDDDI_ROTATION, display.dxvahdddi_rotation, d3dumddi/DXVAHDDDI_ROTATION_180, d3dumddi/DXVAHDDDI_ROTATION, d3dumddi/DXVAHDDDI_ROTATION_90, DXVAHDDDI_ROTATION_90, DXVAHDDDI_ROTATION enumeration [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

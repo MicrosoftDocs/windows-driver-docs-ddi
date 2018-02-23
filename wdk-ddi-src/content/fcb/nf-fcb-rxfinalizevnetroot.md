@@ -7,8 +7,8 @@ old-location: ifsk\rxfinalizevnetroot.htm
 old-project: ifsk
 ms.assetid: 7a24d8b4-cd07-453c-9813-d794b75b039e
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.rxfinalizevnetroot, fcb/RxFinalizeVNetRoot, rxref_1c20872c-4783-4c7d-a1fa-44ca6170ab00.xml, RxFinalizeVNetRoot, RxFinalizeVNetRoot function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: fcb/RxFinalizeVNetRoot, RxFinalizeVNetRoot, RxFinalizeVNetRoot function [Installable File System Drivers], rxref_1c20872c-4783-4c7d-a1fa-44ca6170ab00.xml, ifsk.rxfinalizevnetroot
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxFinalizeVNetRoot
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # RxFinalizeVNetRoot function
@@ -116,23 +116,11 @@ If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinaliz
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
+<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFcb</a>
-
-
-
-<a href="https://msdn.microsoft.com/866eba91-13b6-4b15-93de-4f627a635c92">The V_NET_ROOT Structure</a>
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
 
 
 
@@ -140,23 +128,11 @@ If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinaliz
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550663">MRxFinalizeVNetRoot</a>
-
-
-
 <a href="..\fcb\nf-fcb-rxfinalizesrvopen.md">RxFinalizeSrvOpen</a>
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinishfcbinitialization.md">RxFinishFcbInitialization</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
+<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
 
 
 
@@ -168,15 +144,7 @@ If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinaliz
 
 
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
 
 
 
@@ -184,11 +152,7 @@ If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinaliz
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 
 
@@ -196,7 +160,43 @@ If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinaliz
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
+<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+
+
+
+<a href="https://msdn.microsoft.com/866eba91-13b6-4b15-93de-4f627a635c92">The V_NET_ROOT Structure</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFcb</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinishfcbinitialization.md">RxFinishFcbInitialization</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_finalize_v_net_root_calldown.md">MRxFinalizeVNetRoot</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
 
 
 
@@ -204,5 +204,5 @@ If the <b>UpperFinalization</b> member of the V_NET_ROOT is 0, then <b>RxFinaliz
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxFinalizeVNetRoot function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxFinalizeVNetRoot function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugSystemObjects4::GetCurrentProcessExecutableNameWide method
 author: windows-driver-content
 description: The GetCurrentProcessExecutableNameWide method returns the name of executable file loaded in the current process.
 old-location: debugger\getcurrentprocessexecutablenamewide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 4b87adca-e838-471b-a600-1327253ee45d
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentprocessexecutablenamewide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, GetCurrentProcessExecutableNameWide, IDebugSystemObjects4
+ms.date: 2/15/2018
+ms.keywords: GetCurrentProcessExecutableNameWide, debugger.getcurrentprocessexecutablenamewide, GetCurrentProcessExecutableNameWide method [Windows Debugging], GetCurrentProcessExecutableNameWide method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, IDebugSystemObjects4, IDebugSystemObjects4::GetCurrentProcessExecutableNameWide, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentProcessExecutableNameWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSystemObjects4.GetCurrentProcessExecutableNameWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects4::GetCurrentProcessExecutableNameWide method

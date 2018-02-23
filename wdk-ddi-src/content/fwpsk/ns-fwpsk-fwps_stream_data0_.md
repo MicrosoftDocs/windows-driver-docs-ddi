@@ -7,8 +7,8 @@ old-location: netvista\fwps_stream_data0.htm
 old-project: netvista
 ms.assetid: 7e9daf20-12d6-42dc-99fb-9e9efe5a9900
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FWPS_STREAM_DATA0_, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista], netvista.fwps_stream_data0, fwpsk/FWPS_STREAM_DATA0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, FWPS_STREAM_DATA0
+ms.date: 2/16/2018
+ms.keywords: fwpsk/FWPS_STREAM_DATA0, wfp_ref_3_struct_3_fwps_P-Z_d8d6e633-542c-4273-9341-935281133be4.xml, FWPS_STREAM_DATA0_, FWPS_STREAM_DATA0, netvista.fwps_stream_data0, FWPS_STREAM_DATA0 structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -195,7 +195,7 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
 
 
 
@@ -208,7 +208,8 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
 
 
-<a href="..\fwpsk\ns-fwpsk-fwps_stream_data_offset0_.md">FWPS_STREAM_DATA_OFFSET0</a>
+<a href="..\fwpsk\ns-fwpsk-fwps_stream_callout_io_packet0_.md">
+   FWPS_STREAM_CALLOUT_IO_PACKET0</a>
 
 
 
@@ -216,5 +217,5 @@ The filter engine uses the FWPS_STREAM_DATA0 structure to describe the portion o
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_STREAM_DATA0 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_STREAM_DATA0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

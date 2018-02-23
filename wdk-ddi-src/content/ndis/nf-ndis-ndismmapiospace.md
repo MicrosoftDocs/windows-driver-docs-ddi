@@ -7,8 +7,8 @@ old-location: netvista\ndismmapiospace.htm
 old-project: netvista
 ms.assetid: 16c62146-ed8d-4bf7-9d5e-0c5dbbf3c9c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMMapIoSpace function [Network Drivers Starting with Windows Vista], miniport_memory_mapped_ref_b346fbc3-62d5-447e-82af-329afbafdb73.xml, NdisMMapIoSpace, netvista.ndismmapiospace, ndis/NdisMMapIoSpace
+ms.date: 2/16/2018
+ms.keywords: ndis/NdisMMapIoSpace, miniport_memory_mapped_ref_b346fbc3-62d5-447e-82af-329afbafdb73.xml, NdisMMapIoSpace, NdisMMapIoSpace function [Network Drivers Starting with Windows Vista], netvista.ndismmapiospace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -194,6 +194,18 @@ A miniport driver must call the reciprocal
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+
+
+
 <a href="..\ndis\nf-ndis-ndismunmapiospace.md">NdisMUnmapIoSpace</a>
 
 
@@ -202,19 +214,7 @@ A miniport driver must call the reciprocal
 
 
 
-<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisreadregisteruchar.md">NdisReadRegisterUchar</a>
 
 
 
@@ -226,7 +226,7 @@ A miniport driver must call the reciprocal
 
 
 
-<a href="..\ndis\nc-ndis-miniport_halt.md">MiniportHaltEx</a>
+<a href="..\ndis\nf-ndis-ndiswriteregisterulong.md">NdisWriteRegisterUlong</a>
 
 
 
@@ -234,7 +234,7 @@ A miniport driver must call the reciprocal
 
 
 
-<a href="..\ndis\nf-ndis-ndisopenconfigurationex.md">NdisOpenConfigurationEx</a>
+<a href="..\ndis\nf-ndis-ndisreadregisterulong.md">NdisReadRegisterUlong</a>
 
 
 
@@ -242,5 +242,5 @@ A miniport driver must call the reciprocal
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMMapIoSpace function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMMapIoSpace function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\dot11_peer_info.htm
 old-project: netvista
 ms.assetid: f1d5bbd9-45e3-4802-ab9b-77ff6bdcd6ec
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_DOT11_PEER_INFO, *PDOT11_PEER_INFO, PDOT11_PEER_INFO, DOT11_PEER_INFO, PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_peer_info, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml, windot11/DOT11_PEER_INFO, windot11/PDOT11_PEER_INFO"
+ms.date: 2/16/2018
+ms.keywords: PDOT11_PEER_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_peer_info, DOT11_PEER_INFO structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_PEER_INFO, *PDOT11_PEER_INFO, DOT11_PEER_INFO, PDOT11_PEER_INFO, _DOT11_PEER_INFO, windot11/DOT11_PEER_INFO, Native_802.11_data_types_411bca70-e6de-4dc0-8326-76f5eb5c6a86.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PEER_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_PEER_INFO, DOT11_PEER_INFO"
+req.typenames: DOT11_PEER_INFO, *PDOT11_PEER_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -215,11 +215,7 @@ This member has a value of zero if the peer is not associated.
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
-<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
+<a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>
 
 
 
@@ -231,7 +227,7 @@ This member has a value of zero if the peer is not associated.
 
 
 
-<a href="..\windot11\ne-windot11-_dot11_power_mode.md">DOT11_POWER_MODE</a>
+<a href="..\windot11\ne-windot11-_dot11_association_state.md">DOT11_ASSOCIATION_STATE</a>
 
 
 
@@ -239,9 +235,13 @@ This member has a value of zero if the peer is not associated.
 
 
 
- 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PEER_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PEER_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

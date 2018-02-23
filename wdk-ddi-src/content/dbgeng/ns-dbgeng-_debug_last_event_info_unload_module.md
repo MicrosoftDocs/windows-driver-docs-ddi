@@ -4,11 +4,11 @@ title: "_DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE"
 author: windows-driver-content
 description: Describes the unload module of the last event.
 old-location: debugger\debug_last_event_info_unload_module.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: D569C1DD-0ACB-41AA-8589-BD4332006CA2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging], dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, debugger.debug_last_event_info_unload_module, dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging], DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
+ms.date: 2/15/2018
+ms.keywords: "_DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, dbgeng/PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure [Windows Debugging], PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure pointer [Windows Debugging], debugger.debug_last_event_info_unload_module"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
 product: Windows
 targetos: Windows
-req.typenames: "*PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE"
+req.typenames: DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE, *PDEBUG_LAST_EVENT_INFO_UNLOAD_MODULE
 ---
 
 # _DEBUG_LAST_EVENT_INFO_UNLOAD_MODULE structure

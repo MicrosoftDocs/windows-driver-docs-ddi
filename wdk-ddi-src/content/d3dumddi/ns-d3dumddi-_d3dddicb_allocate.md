@@ -7,8 +7,8 @@ old-location: display\d3dddicb_allocate.htm
 old-project: display
 ms.assetid: 76ebc960-ff63-40eb-842b-acdb549ecdaa
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, d3dumddi/D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE structure [Display Devices], display.d3dddicb_allocate, _D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE
+ms.date: 2/20/2018
+ms.keywords: display.d3dddicb_allocate, D3D_param_Structs_6fe53e00-df9e-4e4b-b5e8-2cb3a1571868.xml, d3dumddi/D3DDDICB_ALLOCATE, _D3DDDICB_ALLOCATE, D3DDDICB_ALLOCATE structure [Display Devices], D3DDDICB_ALLOCATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -111,13 +111,6 @@ The Direct3D runtime generates a unique handle and passes it back to the user-mo
 [in] The number of elements in the array at <b>pAllocationInfo</b>, which represents the number of allocations to allocate.
 
 
-### -field pAllocationInfo2
-
-[in] This member is reserved and should be set to zero.
-
-This member is available beginning with Windows 7.
-
-
 ### -field pAllocationInfo
 
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structures that describe the allocations to allocate.
@@ -125,9 +118,16 @@ This member is available beginning with Windows 7.
 [in] An array of <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a> structures that describe the allocations to allocate.
 
 
+#### - pAllocationInfo2
+
+[in] This member is reserved and should be set to zero.
+
+This member is available beginning with Windows 7.
+
+
 ## -see-also
 
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
 
 
 
@@ -143,11 +143,7 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
-
-
-
-<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d10ddi_createresource.md">CreateResource(D3D10)</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
 
 
 
@@ -155,7 +151,11 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="..\d3d10umddi\ns-d3d10umddi-d3d10ddiarg_createresource.md">D3D10DDIARG_CREATERESOURCE</a>
+<a href="..\d3d10umddi\nc-d3d10umddi-pfnd3d11ddi_createresource.md">CreateResource(D3D11)</a>
+
+
+
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_allocationinfo.md">D3DDDI_ALLOCATIONINFO</a>
 
 
 
@@ -163,5 +163,5 @@ This member is available beginning with Windows 7.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_ALLOCATE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_ALLOCATE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

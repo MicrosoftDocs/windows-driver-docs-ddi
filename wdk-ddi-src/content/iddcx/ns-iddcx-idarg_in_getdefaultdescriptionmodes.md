@@ -7,8 +7,8 @@ old-location: display\idarg_in_getdefaultdescriptionmodes.htm
 old-project: display
 ms.assetid: 4d0a1f81-efc0-40aa-9dde-b9cac64afb8b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.idarg_in_getdefaultdescriptionmodes, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], IDARG_IN_GETDEFAULTDESCRIPTIONMODES, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES
+ms.date: 2/20/2018
+ms.keywords: display.idarg_in_getdefaultdescriptionmodes, iddcx/IDARG_IN_GETDEFAULTDESCRIPTIONMODES, IDARG_IN_GETDEFAULTDESCRIPTIONMODES structure [Display Devices], IDARG_IN_GETDEFAULTDESCRIPTIONMODES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

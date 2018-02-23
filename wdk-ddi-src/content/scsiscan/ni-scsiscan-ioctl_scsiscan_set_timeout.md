@@ -4,10 +4,10 @@ title: IOCTL_SCSISCAN_SET_TIMEOUT
 author: windows-driver-content
 description: The IOCTL_SCSISCAN_SET_TIMEOUT control code modifies the time-out value used by the kernel-mode still image driver for SCSI buses when it accesses a device.
 old-location: image\ioctl_scsiscan_set_timeout.htm
-old-project: image
+old-project: Image
 ms.assetid: 987816b3-ea5f-4689-b81f-f6d3328516c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/15/2018
 ms.keywords: image.ioctl_scsiscan_set_timeout, IOCTL_SCSISCAN_SET_TIMEOUT control code [Imaging Devices], IOCTL_SCSISCAN_SET_TIMEOUT, scsiscan/IOCTL_SCSISCAN_SET_TIMEOUT, stifnc_2b449c8c-c9b5-4f5a-be93-7efc1d8610bc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -150,7 +150,7 @@ fRet = DeviceIoControl( m_DeviceDataHandle,
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
 
 
 
@@ -158,5 +158,5 @@ fRet = DeviceIoControl( m_DeviceDataHandle,
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IOCTL_SCSISCAN_SET_TIMEOUT control code%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IOCTL_SCSISCAN_SET_TIMEOUT control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmtopenkeyedmutex2.htm
 old-project: display
 ms.assetid: 33140445-e312-4495-990a-033a87598fa1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMTOpenKeyedMutex2, display.d3dkmtopenkeyedmutex2, D3DKMTOpenKeyedMutex2, D3DKMTOpenKeyedMutex2 function [Display Devices], PFND3DKMT_OPENKEYEDMUTEX2
+ms.date: 2/20/2018
+ms.keywords: display.d3dkmtopenkeyedmutex2, d3dkmthk/D3DKMTOpenKeyedMutex2, PFND3DKMT_OPENKEYEDMUTEX2, D3DKMTOpenKeyedMutex2 function [Display Devices], D3DKMTOpenKeyedMutex2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,17 +152,17 @@ This function might also return other NTSTATUS values.
 
 ## -see-also
 
-<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
-
-
-
 <a href="..\d3dkmthk\ns-d3dkmthk-_d3dkmt_openkeyedmutex2.md">D3DKMT_OPENKEYEDMUTEX2</a>
 
 
 
- 
+<a href="..\d3dkmthk\nf-d3dkmthk-d3dkmtopenkeyedmutex.md">D3DKMTOpenKeyedMutex</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOpenKeyedMutex2 function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTOpenKeyedMutex2 function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

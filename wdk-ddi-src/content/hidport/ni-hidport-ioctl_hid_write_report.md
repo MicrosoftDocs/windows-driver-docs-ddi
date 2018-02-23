@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_write_report.htm
 old-project: hid
 ms.assetid: 30b56c97-f135-4603-a5f0-3ed2105aae59
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.ioctl_hid_write_report, IOCTL_HID_WRITE_REPORT control code [Human Input Devices], IOCTL_HID_WRITE_REPORT, hidport/IOCTL_HID_WRITE_REPORT, hidioreq_0b1eb214-55b0-4659-bdf7-866cf03a7be6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_HID_WRITE_REPORT
 product: Windows
 targetos: Windows
-req.typenames: "*PUSAGE_AND_PAGE, USAGE_AND_PAGE"
+req.typenames: USAGE_AND_PAGE, *PUSAGE_AND_PAGE
 ---
 
 # IOCTL_HID_WRITE_REPORT IOCTL
@@ -155,11 +155,7 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 
 
-<a href="..\hidclass\ni-hidclass-ioctl_hid_get_feature.md">IOCTL_HID_GET_FEATURE</a>
-
-
-
-<a href="..\hidport\ni-hidport-ioctl_hid_read_report.md">IOCTL_HID_READ_REPORT</a>
+<a href="..\hidclass\ns-hidclass-_hid_xfer_packet.md">HID_XFER_PACKET</a>
 
 
 
@@ -167,7 +163,11 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
 
 
-<a href="..\hidsdi\nf-hidsdi-hidd_getinputreport.md">HidD_GetInputReport</a>
+<a href="..\hidsdi\nf-hidsdi-hidd_setoutputreport.md">HidD_SetOutputReport</a>
+
+
+
+<a href="..\hidclass\ni-hidclass-ioctl_hid_set_output_report.md">IOCTL_HID_SET_OUTPUT_REPORT</a>
 
 
 
@@ -183,5 +183,5 @@ HID minidrivers that call other drivers with this IOCTL to carry out the I/O to 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_WRITE_REPORT control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20IOCTL_HID_WRITE_REPORT control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

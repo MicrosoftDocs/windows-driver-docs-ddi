@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbinterface_getinterfacedescriptor.htm
 old-project: wdf
 ms.assetid: ae4cffc8-65db-452c-9b85-19752c32c421
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFUsbInterface::GetInterfaceDescriptor, IWDFUsbInterface interface, GetInterfaceDescriptor method, GetInterfaceDescriptor, GetInterfaceDescriptor method, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor, wdf.iwdfusbinterface_getinterfacedescriptor, GetInterfaceDescriptor method, IWDFUsbInterface interface, umdf.iwdfusbinterface_getinterfacedescriptor, IWDFUsbInterface, UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbInterface::GetInterfaceDescriptor, IWDFUsbInterface interface, GetInterfaceDescriptor method, umdf.iwdfusbinterface_getinterfacedescriptor, GetInterfaceDescriptor, UMDFUSBref_2d9877fd-47c4-4629-8656-d5d513260b2d.xml, GetInterfaceDescriptor method, IWDFUsbInterface, GetInterfaceDescriptor method, IWDFUsbInterface interface, wudfusb/IWDFUsbInterface::GetInterfaceDescriptor, wdf.iwdfusbinterface_getinterfacedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -109,5 +109,5 @@ For a code example of how to use the <b>GetInterfaceDescriptor</b> method, see <
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetInterfaceDescriptor method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetInterfaceDescriptor method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

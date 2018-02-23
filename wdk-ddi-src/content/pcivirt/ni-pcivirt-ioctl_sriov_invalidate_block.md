@@ -7,7 +7,7 @@ old-location: pci\ioctl-sriov-invalidate-block.htm
 old-project: PCI
 ms.assetid: b6f0e65f-c8e4-418f-a4b2-a7037368d5a3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.ioctl-sriov-invalidate-block, IOCTL_SRIOV_INVALIDATE_BLOCK control code [Buses], IOCTL_SRIOV_INVALIDATE_BLOCK, pcivirt/IOCTL_SRIOV_INVALIDATE_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SRIOV_INVALIDATE_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PSRIOV_PF_EVENT, SRIOV_PF_EVENT"
+req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_INVALIDATE_BLOCK IOCTL

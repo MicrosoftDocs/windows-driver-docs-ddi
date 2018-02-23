@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_target_open_params.htm
 old-project: wdf
 ms.assetid: 9539868c-127b-4781-9a73-b56fbfda3233
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_io_target_open_params, PWDF_IO_TARGET_OPEN_PARAMS structure pointer, PWDF_IO_TARGET_OPEN_PARAMS, wdfiotarget/PWDF_IO_TARGET_OPEN_PARAMS, WDF_IO_TARGET_OPEN_PARAMS structure, *PWDF_IO_TARGET_OPEN_PARAMS, DFIOTargetRef_6363f7be-6768-4c90-88c4-88c5fdea0019.xml, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS, WDF_IO_TARGET_OPEN_PARAMS, _WDF_IO_TARGET_OPEN_PARAMS, wdf.wdf_io_target_open_params
+ms.date: 2/20/2018
+ms.keywords: PWDF_IO_TARGET_OPEN_PARAMS, DFIOTargetRef_6363f7be-6768-4c90-88c4-88c5fdea0019.xml, WDF_IO_TARGET_OPEN_PARAMS structure, PWDF_IO_TARGET_OPEN_PARAMS structure pointer, kmdf.wdf_io_target_open_params, wdfiotarget/PWDF_IO_TARGET_OPEN_PARAMS, wdfiotarget/WDF_IO_TARGET_OPEN_PARAMS, wdf.wdf_io_target_open_params, *PWDF_IO_TARGET_OPEN_PARAMS, _WDF_IO_TARGET_OPEN_PARAMS, WDF_IO_TARGET_OPEN_PARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_IO_TARGET_OPEN_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_IO_TARGET_OPEN_PARAMS, WDF_IO_TARGET_OPEN_PARAMS"
+req.typenames: WDF_IO_TARGET_OPEN_PARAMS, *PWDF_IO_TARGET_OPEN_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -303,23 +303,7 @@ Drivers should initialize the <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure by call
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md">WDF_IO_TARGET_OPEN_TYPE</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
 
 
 
@@ -331,6 +315,22 @@ Drivers should initialize the <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure by call
 
 
 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetfileobject.md">WdfRequestGetFileObject</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+
+
+
 <a href="..\wdfiotarget\nc-wdfiotarget-evt_wdf_io_target_query_remove.md">EvtIoTargetQueryRemove</a>
 
 
@@ -339,7 +339,7 @@ Drivers should initialize the <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure by call
 
 
 
-<a href="..\wdm\ns-wdm-_file_object.md">FILE_OBJECT</a>
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_open_type.md">WDF_IO_TARGET_OPEN_TYPE</a>
 
 
 
@@ -347,5 +347,5 @@ Drivers should initialize the <b>WDF_IO_TARGET_OPEN_PARAMS</b> structure by call
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_OPEN_PARAMS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_OPEN_PARAMS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

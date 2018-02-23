@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::GetDataParameters method
 author: windows-driver-content
 description: The GetDataParameters method returns the parameters for a processor breakpoint.
 old-location: debugger\getdataparameters.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: e281c67a-df97-464e-9996-b15c18172dc4
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], GetDataParameters method, GetDataParameters method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint::GetDataParameters, IDebugBreakpoint, IDebugBreakpoint2::GetDataParameters, IDebugBreakpoint::GetDataParameters, dbgeng/IDebugBreakpoint2::GetDataParameters, GetDataParameters method [Windows Debugging], GetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2, debugger.getdataparameters, ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, IDebugBreakpoint interface [Windows Debugging], GetDataParameters method, GetDataParameters
+ms.date: 2/15/2018
+ms.keywords: GetDataParameters method [Windows Debugging], IDebugBreakpoint2 interface, dbgeng/IDebugBreakpoint::GetDataParameters, GetDataParameters method [Windows Debugging], ComOther_297fe316-4a1a-476b-a804-056bb56b6e77.xml, debugger.getdataparameters, IDebugBreakpoint::GetDataParameters, IDebugBreakpoint interface [Windows Debugging], GetDataParameters method, GetDataParameters method [Windows Debugging], IDebugBreakpoint interface, dbgeng/IDebugBreakpoint2::GetDataParameters, IDebugBreakpoint2, IDebugBreakpoint, GetDataParameters, IDebugBreakpoint2 interface [Windows Debugging], GetDataParameters method, IDebugBreakpoint2::GetDataParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugBreakpoint2.GetDataParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::GetDataParameters method

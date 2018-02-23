@@ -4,11 +4,11 @@ title: IDebugControl::SetSpecificFilterParameters method
 author: windows-driver-content
 description: The SetSpecificFilterParameters method changes the break status and handling status for some specific event filters.
 old-location: debugger\setspecificfilterparameters.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 97eb6db8-3c0a-44b4-8fb4-9e42ee9f9856
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::SetSpecificFilterParameters, dbgeng/IDebugControl::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, IDebugControl2::SetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml, IDebugControl::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, debugger.setspecificfilterparameters, dbgeng/IDebugControl2::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl, IDebugControl3::SetSpecificFilterParameters, IDebugControl interface [Windows Debugging], SetSpecificFilterParameters method
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugControl::SetSpecificFilterParameters, IDebugControl::SetSpecificFilterParameters, IDebugControl2 interface [Windows Debugging], SetSpecificFilterParameters method, SetSpecificFilterParameters method [Windows Debugging], IDebugControl interface, IDebugControl2::SetSpecificFilterParameters, dbgeng/IDebugControl3::SetSpecificFilterParameters, IDebugControl, SetSpecificFilterParameters method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl2::SetSpecificFilterParameters, IDebugControl3 interface [Windows Debugging], SetSpecificFilterParameters method, IDebugControl3::SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], SetSpecificFilterParameters method, SetSpecificFilterParameters, SetSpecificFilterParameters method [Windows Debugging], debugger.setspecificfilterparameters, IDebugControl_9bf01d08-9fc1-4ddf-b8dd-c6db0b568f83.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.SetSpecificFilterParameters
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl::SetSpecificFilterParameters method
@@ -125,11 +125,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
 
 
 
@@ -137,11 +133,7 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
-<a href="https://msdn.microsoft.com/fdb5059f-e7d9-4e14-aa3d-030e72c30732">sx, sxd, sxe, sxi, sxn (Set Exceptions)</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556683">SetExceptionFilterParameters</a>
 
 
 
@@ -149,9 +141,17 @@ For more information about <a href="https://msdn.microsoft.com/library/windows/h
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::SetSpecificFilterParameters method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::SetSpecificFilterParameters method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

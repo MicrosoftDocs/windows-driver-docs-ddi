@@ -4,11 +4,11 @@ title: IDebugOutputCallbacksWide::Output method
 author: windows-driver-content
 description: The Output callback method is called by the engine to send output from the client to the IDebugOutputCallbacksWide object that is registered with the client.
 old-location: debugger\idebugoutputcallbackswide_output.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: b57661c3-a18f-45ed-b7fc-f6471753566e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Output method [Windows Debugging], Output, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, dbgeng/IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide, IDebugOutputCallbacksWide::Output, Output method [Windows Debugging], IDebugOutputCallbacksWide interface, debugger.idebugoutputcallbackswide_output
+ms.date: 2/15/2018
+ms.keywords: Output method [Windows Debugging], dbgeng/IDebugOutputCallbacksWide::Output, Output method [Windows Debugging], IDebugOutputCallbacksWide interface, debugger.idebugoutputcallbackswide_output, IDebugOutputCallbacksWide, IDebugOutputCallbacksWide::Output, IDebugOutputCallbacksWide interface [Windows Debugging], Output method, Output
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugOutputCallbacksWide.Output
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugOutputCallbacksWide::Output method

@@ -7,8 +7,8 @@ old-location: bltooth\indication_code.htm
 old-project: bltooth
 ms.assetid: 7fc374e3-ca5b-476d-bc44-afb28ecf9920
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/IndicationUnpairDevice, bthddi/IndicationPairDevice, bthddi/INDICATION_CODE, IndicationRemoteDisconnect, _INDICATION_CODE, bthddi/IndicationReleaseReference, bthddi/IndicationAddReference, bthddi/IndicationRemoteDisconnect, IndicationUnpairDevice, bthddi/IndicationRemoteConnect, bthddi/IndicationRecvPacket, bthddi/IndicationRemoteConfigResponse, bthddi/IndicationRemoteConfigRequest, IndicationRemoteConfigResponse, IndicationPairDevice, IndicationRemoteConfigRequest, INDICATION_CODE enumeration [Bluetooth Devices], IndicationRemoteConnectLE, IndicationRemoteConnect, bthddi/IndicationFreeExtraOptions, bltooth.indication_code, PINDICATION_CODE, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, bthddi/PINDICATION_CODE, IndicationAddReference, IndicationReleaseReference, bthddi/IndicationUnpersonalizeDevice, IndicationRecvPacket, IndicationUnpersonalizeDevice, bthddi/IndicationRemoteConnectLE, INDICATION_CODE, PINDICATION_CODE enumeration pointer [Bluetooth Devices], *PINDICATION_CODE, IndicationFreeExtraOptions
+ms.date: 2/15/2018
+ms.keywords: IndicationUnpairDevice, IndicationPairDevice, IndicationRemoteConfigRequest, bthddi/IndicationReleaseReference, bthddi/IndicationAddReference, INDICATION_CODE, IndicationRemoteConnectLE, bthddi/IndicationRemoteConfigRequest, bthddi/IndicationRemoteConfigResponse, *PINDICATION_CODE, bltooth.indication_code, bthddi/INDICATION_CODE, PINDICATION_CODE, bthddi/IndicationUnpersonalizeDevice, IndicationRemoteConnect, IndicationRemoteDisconnect, IndicationAddReference, _INDICATION_CODE, IndicationReleaseReference, IndicationRemoteConfigResponse, bthddi/IndicationUnpairDevice, bthddi/IndicationRecvPacket, bthddi/IndicationRemoteDisconnect, INDICATION_CODE enumeration [Bluetooth Devices], PINDICATION_CODE enumeration pointer [Bluetooth Devices], bthddi/IndicationRemoteConnectLE, bth_enums_89c3fcea-8183-4227-b3fb-4e18c3612326.xml, IndicationRecvPacket, bthddi/IndicationRemoteConnect, bthddi/IndicationPairDevice, IndicationUnpersonalizeDevice, bthddi/PINDICATION_CODE, bthddi/IndicationFreeExtraOptions, IndicationFreeExtraOptions
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -193,7 +193,7 @@ A value from this enumeration is passed to a profile driver's
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
+<a href="..\bthddi\nc-bthddi-pfnbthport_indication_callback.md">L2CAP Callback Function</a>
 
 
 
@@ -201,7 +201,7 @@ A value from this enumeration is passed to a profile driver's
 
 
 
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff536618">BRB_L2CA_REGISTER_SERVER</a>
 
 
 
@@ -209,5 +209,5 @@ A value from this enumeration is passed to a profile driver's
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20INDICATION_CODE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20INDICATION_CODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

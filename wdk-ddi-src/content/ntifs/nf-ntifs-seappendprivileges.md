@@ -7,8 +7,8 @@ old-location: ifsk\seappendprivileges.htm
 old-project: ifsk
 ms.assetid: b7a9142a-b6db-4a64-a5e3-d03d39ac3d09
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: seref_c48fbff8-669f-4138-8f55-84bc083d9af5.xml, ntifs/SeAppendPrivileges, SeAppendPrivileges, SeAppendPrivileges routine [Installable File System Drivers], ifsk.seappendprivileges
+ms.date: 2/16/2018
+ms.keywords: ntifs/SeAppendPrivileges, SeAppendPrivileges, seref_c48fbff8-669f-4138-8f55-84bc083d9af5.xml, ifsk.seappendprivileges, SeAppendPrivileges routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,15 +128,7 @@ For more information about security and access control, see the documentation on
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-sesetaccessstategenericmapping.md">SeSetAccessStateGenericMapping</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
 
 
 
@@ -144,7 +136,15 @@ For more information about security and access control, see the documentation on
 
 
 
-<a href="..\wdm\ns-wdm-_privilege_set.md">PRIVILEGE_SET</a>
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seprivilegecheck.md">SePrivilegeCheck</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-sefreeprivileges.md">SeFreePrivileges</a>
 
 
 
@@ -156,5 +156,5 @@ For more information about security and access control, see the documentation on
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeAppendPrivileges routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeAppendPrivileges routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

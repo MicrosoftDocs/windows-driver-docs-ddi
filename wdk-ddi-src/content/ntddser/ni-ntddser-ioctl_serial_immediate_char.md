@@ -7,7 +7,7 @@ old-location: serports\ioctl_serial_immediate_char.htm
 old-project: serports
 ms.assetid: 1bbae06c-1279-41da-82d8-ccbfe13cde9a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serial_immediate_char, IOCTL_SERIAL_IMMEDIATE_CHAR control code [Serial Ports], IOCTL_SERIAL_IMMEDIATE_CHAR, ntddser/IOCTL_SERIAL_IMMEDIATE_CHAR, serref_f0a61fcc-3e61-4344-940b-ef9aeabec64b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

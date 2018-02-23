@@ -7,8 +7,8 @@ old-location: spb\spbcontrollersetioothercallback.htm
 old-project: SPB
 ms.assetid: 605E2353-8C82-4005-BB72-4CB44146A253
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SpbControllerSetIoOtherCallback method [Buses], SpbControllerSetIoOtherCallback, SPB.spbcontrollersetioothercallback, spbcx/SpbControllerSetIoOtherCallback
+ms.date: 2/15/2018
+ms.keywords: SpbControllerSetIoOtherCallback, SpbControllerSetIoOtherCallback method [Buses], spbcx/SpbControllerSetIoOtherCallback, SPB.spbcontrollersetioothercallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,10 +116,6 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
-
-
-
 <a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
 
 
@@ -128,9 +124,13 @@ The SPB controller driver must call this method before it <i>commits</i> the dev
 
 
 
- 
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_io_in_caller_context.md">EvtIoInCallerContext</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbControllerSetIoOtherCallback method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SpbControllerSetIoOtherCallback method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

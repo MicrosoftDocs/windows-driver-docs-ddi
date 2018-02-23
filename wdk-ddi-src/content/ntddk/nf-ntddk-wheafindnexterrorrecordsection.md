@@ -7,8 +7,8 @@ old-location: whea\wheafindnexterrorrecordsection.htm
 old-project: whea
 ms.assetid: 36a0ca45-2601-4b7f-9f2b-35e2a7047520
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: whea.wheafindnexterrorrecordsection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml, ntddk/WheaFindNextErrorRecordSection, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], WheaFindNextErrorRecordSection
+ms.date: 2/20/2018
+ms.keywords: WheaFindNextErrorRecordSection, whearef2_9beb5b85-6c25-49e5-9abc-bcb8e343c8c9.xml, WheaFindNextErrorRecordSection function [WHEA Drivers and Applications], ntddk/WheaFindNextErrorRecordSection, whea.wheafindnexterrorrecordsection
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -167,7 +167,7 @@ The format of the hardware error data depends upon the <b>SectionType </b>member
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
 
 
 
@@ -187,5 +187,5 @@ The format of the hardware error data depends upon the <b>SectionType </b>member
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WheaFindNextErrorRecordSection function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WheaFindNextErrorRecordSection function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

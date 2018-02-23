@@ -4,11 +4,11 @@ title: wiasGetChildrenContexts function
 author: windows-driver-content
 description: The wiasGetChildrenContexts function retrieves an array of item contexts belonging to the current item's children.
 old-location: image\wiasgetchildrencontexts.htm
-old-project: image
+old-project: Image
 ms.assetid: a69216f4-1272-488f-8d06-8dc3b6a88452
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.wiasgetchildrencontexts, wiasGetChildrenContexts, wiamdef/wiasGetChildrenContexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiasGetChildrenContexts function [Imaging Devices]
+ms.date: 2/15/2018
+ms.keywords: wiasGetChildrenContexts function [Imaging Devices], image.wiasgetchildrencontexts, wiasFncs_fff487b8-2797-4df4-ae22-f25c08f21dfc.xml, wiamdef/wiasGetChildrenContexts, wiasGetChildrenContexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasGetChildrenContexts
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

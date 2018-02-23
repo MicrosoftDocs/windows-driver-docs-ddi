@@ -7,8 +7,8 @@ old-location: netvista\rilvoicedomain.htm
 old-project: netvista
 ms.assetid: a7154c32-bca6-482d-b1f9-7c090a7ce432
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILVOICEDOMAIN, ntddrilapitypes/RIL_VOICE_DOMAIN_MAX, RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_3GPP, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP, RIL_VOICE_DOMAIN_3GPP2, ntddrilapitypes/RIL_VOICE_DOMAIN_IMS, RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_MAX, RILVOICEDOMAIN, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP2, netvista.rilvoicedomain
+ms.date: 2/16/2018
+ms.keywords: RIL_VOICE_DOMAIN_3GPP, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP2, RILVOICEDOMAIN enumeration [Network Drivers Starting with Windows Vista], RIL_VOICE_DOMAIN_3GPP2, ntddrilapitypes/RIL_VOICE_DOMAIN_3GPP, RIL_VOICE_DOMAIN_IMS, RIL_VOICE_DOMAIN_MAX, RILVOICEDOMAIN, ntddrilapitypes/RILVOICEDOMAIN, netvista.rilvoicedomain, ntddrilapitypes/RIL_VOICE_DOMAIN_MAX, ntddrilapitypes/RIL_VOICE_DOMAIN_IMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

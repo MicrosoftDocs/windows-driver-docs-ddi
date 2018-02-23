@@ -4,11 +4,11 @@ title: wiasFormatArgs function
 author: windows-driver-content
 description: The wiasFormatArgs function formats an argument list into a packaged string for logging.
 old-location: image\wiasformatargs.htm
-old-project: image
+old-project: Image
 ms.assetid: 409c4ff6-3a0e-408a-879d-2875ac245fb8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.wiasformatargs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiasFormatArgs, wiamdef/wiasFormatArgs, wiasFormatArgs function [Imaging Devices]
+ms.date: 2/15/2018
+ms.keywords: wiasFormatArgs function [Imaging Devices], image.wiasformatargs, wiasFncs_c4e9a1bd-3760-47fb-b828-1f0c521717c5.xml, wiamdef/wiasFormatArgs, wiasFormatArgs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasFormatArgs
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 

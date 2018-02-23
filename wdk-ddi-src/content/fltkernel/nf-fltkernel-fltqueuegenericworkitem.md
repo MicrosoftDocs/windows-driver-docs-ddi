@@ -7,8 +7,8 @@ old-location: ifsk\fltqueuegenericworkitem.htm
 old-project: ifsk
 ms.assetid: 30179fe1-e218-46cd-96a9-816ebab112bf
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltqueuegenericworkitem, FltQueueGenericWorkItem function [Installable File System Drivers], FltQueueGenericWorkItem, fltkernel/FltQueueGenericWorkItem, FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltqueuegenericworkitem, FltQueueGenericWorkItem function [Installable File System Drivers], FltQueueGenericWorkItem, FltApiRef_p_to_z_221f809d-f028-4e0f-b7b3-1341c1ed8782.xml, fltkernel/FltQueueGenericWorkItem
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -216,5 +216,5 @@ To free the work item when it is no longer needed, call <a href="..\fltkernel\nf
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueueGenericWorkItem function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueueGenericWorkItem function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

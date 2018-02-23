@@ -7,8 +7,8 @@ old-location: netvista\tcp_offload_state_cached.htm
 old-project: netvista
 ms.assetid: 953154eb-e6f3-4013-a68f-1a358953c7ad
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndischimney/PTCP_OFFLOAD_STATE_CACHED, *PTCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], ndischimney/TCP_OFFLOAD_STATE_CACHED, netvista.tcp_offload_state_cached, _TCP_OFFLOAD_STATE_CACHED
+ms.date: 2/16/2018
+ms.keywords: PTCP_OFFLOAD_STATE_CACHED structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATE_CACHED, PTCP_OFFLOAD_STATE_CACHED, *PTCP_OFFLOAD_STATE_CACHED, netvista.tcp_offload_state_cached, _TCP_OFFLOAD_STATE_CACHED, ndischimney/TCP_OFFLOAD_STATE_CACHED, ndischimney/PTCP_OFFLOAD_STATE_CACHED, tcp_chim_struct_43b44d70-521b-483d-800f-ed9528499ca3.xml, TCP_OFFLOAD_STATE_CACHED structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -287,7 +287,7 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associ
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
 
 
 
@@ -295,11 +295,11 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associ
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_delegated.md">TCP_OFFLOAD_STATE_DELEGATED</a>
-
-
-
 <a href="..\ndischimney\ns-ndischimney-_offload_state_header.md">OFFLOAD_STATE_HEADER</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -307,7 +307,7 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associ
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
+<a href="..\ndischimney\nc-ndischimney-w_update_offload_handler.md">MiniportUpdateOffload</a>
 
 
 
@@ -315,5 +315,5 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_CACHED structure is associ
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_CACHED structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_CACHED structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

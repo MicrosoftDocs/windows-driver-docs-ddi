@@ -7,8 +7,8 @@ old-location: kernel\rtllongadd.htm
 old-project: kernel
 ms.assetid: E8CF5E74-2EDA-4B27-A9C0-053930FF741D
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlLongAdd, kernel.rtllongadd, RtlLongAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongAdd
+ms.date: 2/16/2018
+ms.keywords: kernel.rtllongadd, RtlLongAdd function [Kernel-Mode Driver Architecture], RtlLongAdd, ntintsafe/RtlLongAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

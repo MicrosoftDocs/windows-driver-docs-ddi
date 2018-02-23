@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_translatedlist.htm
 old-project: audio
 ms.assetid: 6bc4f939-dbc8-4d9a-95f9-b5ec97a47a8a
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, TranslatedList method [Audio Devices], IResourceList interface, audio.iresourcelist_translatedlist, portcls/IResourceList::TranslatedList, TranslatedList method [Audio Devices], IResourceList, TranslatedList, IResourceList::TranslatedList, IResourceList interface [Audio Devices], TranslatedList method
+ms.date: 2/21/2018
+ms.keywords: IResourceList interface [Audio Devices], TranslatedList method, TranslatedList method [Audio Devices], TranslatedList method [Audio Devices], IResourceList interface, IResourceList::TranslatedList, IResourceList, audio.iresourcelist_translatedlist, audmp-routines_d74c0767-97d9-4488-82f1-51cde4dc8259.xml, portcls/IResourceList::TranslatedList, TranslatedList
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.TranslatedList
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IResourceList::TranslatedList method
@@ -76,14 +76,14 @@ PCM_RESOURCE_LIST TranslatedList(
 
 
 
-<code>TranslatedList</code> returns a pointer to a <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
+<code>TranslatedList</code> returns a pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that specifies all of the system hardware resources that are assigned to the device. This pointer remains valid until the resource list object is deleted.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
@@ -95,5 +95,5 @@ PCM_RESOURCE_LIST TranslatedList(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::TranslatedList method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::TranslatedList method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

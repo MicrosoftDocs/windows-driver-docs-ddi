@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_vpdevcaps.htm
 old-project: display
 ms.assetid: 25b15c20-e23a-438f-a02e-aedc26498828
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_VPDEVCAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_VPDEVCAPS structure [Display Devices], display.dxvahdddi_vpdevcaps, _DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_FEATURE_CAPS, DXVAHDDDI_DEVICE_CAPS, DXVAHDDDI_FILTER_CAPS, DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_INPUT_FORMAT_CAPS
+ms.date: 2/20/2018
+ms.keywords: DXVAHDDDI_VPDEVCAPS structure [Display Devices], DXVAHDDDI_FEATURE_CAPS, d3dumddi/DXVAHDDDI_VPDEVCAPS, _DXVAHDDDI_VPDEVCAPS, display.dxvahdddi_vpdevcaps, DXVAHDDDI_VPDEVCAPS, DXVAHDDDI_FILTER_CAPS, DXVAHDDDI_DEVICE_CAPS, DXVA2_Structs_263db2a4-3026-44e3-a2b7-82cbf773bfa5.xml, DXVAHDDDI_INPUT_FORMAT_CAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -291,11 +291,15 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAP
 
 ## -see-also
 
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+
+
+
 <a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_getcaps.md">GetCaps</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddiarg_getcaps.md">D3DDDIARG_GETCAPS</a>
+<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
 
 
 
@@ -307,13 +311,9 @@ The user-mode display driver returns a pointer to a populated DXVAHDDDI_VPDEVCAP
 
 
 
-<a href="..\d3dukmdt\ne-d3dukmdt-_d3dddiformat.md">D3DDDIFORMAT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_VPDEVCAPS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_VPDEVCAPS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

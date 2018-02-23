@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlfastunlocksingle.htm
 old-project: ifsk
 ms.assetid: 8fd7aeea-f8b2-4f53-b4b6-65240ff0c7b6
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlFastUnlockSingle routine [Installable File System Drivers], fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml, FsRtlFastUnlockSingle, ifsk.fsrtlfastunlocksingle, ntifs/FsRtlFastUnlockSingle
+ms.date: 2/16/2018
+ms.keywords: ifsk.fsrtlfastunlocksingle, FsRtlFastUnlockSingle, FsRtlFastUnlockSingle routine [Installable File System Drivers], ntifs/FsRtlFastUnlockSingle, fsrtlref_22b539f2-395b-4ecc-b182-36a1b8333290.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,5 +137,5 @@ The <b>FsRtlFastUnlockSingle</b> routine returns STATUS_SUCCESS or an error stat
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlFastUnlockSingle routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlFastUnlockSingle routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

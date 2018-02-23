@@ -7,8 +7,8 @@ old-location: serports\sercx2piotransmitcreate.htm
 old-project: serports
 ms.assetid: 550A26D0-18A5-47F9-B769-B76FA2EB1734
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.sercx2piotransmitcreate, SerCx2PioTransmitCreate method [Serial Ports], 2/SerCx2PioTransmitCreate, SerCx2PioTransmitCreate
+ms.date: 2/15/2018
+ms.keywords: 2/SerCx2PioTransmitCreate, serports.sercx2piotransmitcreate, SerCx2PioTransmitCreate, SerCx2PioTransmitCreate method [Serial Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2PioTransmitCreate
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -175,11 +175,7 @@ For more information about creating PIO-transmit objects, see <a href="https://d
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\sercx\nf-sercx-sercx2_pio_transmit_config_init.md">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a>
+<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
 
 
 
@@ -187,19 +183,11 @@ For more information about creating PIO-transmit objects, see <a href="https://d
 
 
 
+<a href="..\sercx\nf-sercx-sercx2_pio_transmit_config_init.md">SERCX2_PIO_TRANSMIT_CONFIG_INIT</a>
+
+
+
 <a href="..\sercx\ns-sercx-_sercx2_pio_transmit_config.md">SERCX2_PIO_TRANSMIT_CONFIG</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdf_object_attributes_init.md">WDF_OBJECT_ATTRIBUTES_INIT</a>
-
-
-
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -207,9 +195,21 @@ For more information about creating PIO-transmit objects, see <a href="https://d
 
 
 
- 
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/sercx2-object-handles">SERCX2PIOTRANSMIT</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCx2PioTransmitCreate method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCx2PioTransmitCreate method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

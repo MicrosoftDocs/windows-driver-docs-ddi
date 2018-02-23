@@ -7,8 +7,8 @@ old-location: print\ixpspartiterator_next.htm
 old-project: print
 ms.assetid: ac54ac59-4144-4449-a732-b9da16338ddf
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: Next, filterpipeline/IXpsPartIterator::Next, Next method [Print Devices], IXpsPartIterator interface, IXpsPartIterator interface [Print Devices], Next method, Next method [Print Devices], filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml, IXpsPartIterator::Next, IXpsPartIterator, print.ixpspartiterator_next
+ms.date: 2/21/2018
+ms.keywords: IXpsPartIterator, print.ixpspartiterator_next, Next, IXpsPartIterator::Next, Next method [Print Devices], filterpipeline/IXpsPartIterator::Next, Next method [Print Devices], IXpsPartIterator interface, IXpsPartIterator interface [Print Devices], Next method, filterpipeline_1e70f932-105f-4d9f-ace3-78f687f446c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

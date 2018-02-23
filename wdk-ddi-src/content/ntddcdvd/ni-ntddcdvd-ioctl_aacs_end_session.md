@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_end_session.htm
 old-project: storage
 ms.assetid: 5a86c871-ed6e-4c96-bc12-03b3a900953d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_aacs_end_session, IOCTL_AACS_END_SESSION control code [Storage Devices], IOCTL_AACS_END_SESSION, ntddcdvd/IOCTL_AACS_END_SESSION, k307_608ddec6-9661-433b-8b82-22ce3b06267d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_AACS_END_SESSION
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_END_SESSION IOCTL

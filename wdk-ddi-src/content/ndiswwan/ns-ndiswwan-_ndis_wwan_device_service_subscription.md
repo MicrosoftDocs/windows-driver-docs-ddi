@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_device_service_subscription.htm
 old-project: netvista
 ms.assetid: 65B9739B-98C6-441E-B15A-67C32A5FB232
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, netvista.ndis_wwan_device_service_subscription, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, *PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, ndiswwan/NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, *PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, netvista.ndis_wwan_device_service_subscription, ndiswwan/PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure [Network Drivers Starting with Windows Vista], PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure pointer [Network Drivers Starting with Windows Vista], NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION"
+req.typenames: NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION, *PNDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION
 ---
 
 # _NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure
@@ -148,5 +148,5 @@ This member points to the list of the GUIDs by using the WWAN_LIST_HEADER struct
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_DEVICE_SERVICE_SUBSCRIPTION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugControl5::GetContextStackTraceEx method
 author: windows-driver-content
 description: The GetContextStackTraceEx method returns the frames at the top of the call stack, starting with an arbitrary register context and returning the reconstructed register context for each stack frame.
 old-location: debugger\idebugcontrol5_getcontextstacktraceex.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 26B191ED-A38B-412D-93C3-E9A55216F91E
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl5, debugger.idebugcontrol5_getcontextstacktraceex, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, GetContextStackTraceEx, IDebugControl5::GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], dbgeng/IDebugControl5::GetContextStackTraceEx
+ms.date: 2/15/2018
+ms.keywords: IDebugControl5 interface [Windows Debugging], GetContextStackTraceEx method, GetContextStackTraceEx, IDebugControl5, GetContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::GetContextStackTraceEx, GetContextStackTraceEx method [Windows Debugging], IDebugControl5::GetContextStackTraceEx, debugger.idebugcontrol5_getcontextstacktraceex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl5.GetContextStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl5::GetContextStackTraceEx method
@@ -155,7 +155,7 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol5.md">IDebugControl5</a>
 
 
 
@@ -163,7 +163,7 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/dn818566">OutputContextStackTraceEx</a>
 
 
 
@@ -175,5 +175,5 @@ It is common for stack unwinds to restore only a subset of the registers.  For e
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl5::GetContextStackTraceEx method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl5::GetContextStackTraceEx method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\storportwriteregisterbufferushort.htm
 old-project: storage
 ms.assetid: 13da18b3-682f-485a-9d74-0bbff4254862
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortWriteRegisterBufferUshort, storport/StorPortWriteRegisterBufferUshort, storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml, StorPortWriteRegisterBufferUshort routine [Storage Devices], storage.storportwriteregisterbufferushort
+ms.date: 2/16/2018
+ms.keywords: storage.storportwriteregisterbufferushort, StorPortWriteRegisterBufferUshort, storport/StorPortWriteRegisterBufferUshort, StorPortWriteRegisterBufferUshort routine [Storage Devices], storprt_8b227304-10e5-46fc-93e1-41b1c91068b1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -118,7 +118,7 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory sp
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
+<a href="..\storport\nf-storport-scsiportwriteregisterbufferushort.md">ScsiPortWriteRegisterBufferUshort</a>
 
 
 
@@ -126,5 +126,5 @@ Pointer to the register. The given <i>Register</i> must be in a mapped memory sp
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortWriteRegisterBufferUshort routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortWriteRegisterBufferUshort routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

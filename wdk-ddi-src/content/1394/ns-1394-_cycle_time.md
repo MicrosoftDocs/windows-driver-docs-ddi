@@ -7,8 +7,8 @@ old-location: ieee\cycle_time.htm
 old-project: IEEE
 ms.assetid: dcb19338-3848-4f90-876c-357f92fb2637
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PCYCLE_TIME structure pointer [Buses], _CYCLE_TIME, 1394/PCYCLE_TIME, CYCLE_TIME, PCYCLE_TIME, *PCYCLE_TIME, 1394stct_c6b1a6fa-b259-488d-a4a9-e4dace0fcf3d.xml, CYCLE_TIME structure [Buses], 1394/CYCLE_TIME, IEEE.cycle_time
+ms.date: 2/15/2018
+ms.keywords: PCYCLE_TIME structure pointer [Buses], CYCLE_TIME, 1394/PCYCLE_TIME, PCYCLE_TIME, IEEE.cycle_time, 1394stct_c6b1a6fa-b259-488d-a4a9-e4dace0fcf3d.xml, 1394/CYCLE_TIME, *PCYCLE_TIME, _CYCLE_TIME, CYCLE_TIME structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537656">REQUEST_ISOCH_QUERY_CYCLE_TIME</a>
 
 
 
@@ -107,11 +107,11 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537656">REQUEST_ISOCH_QUERY_CYCLE_TIME</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537655">REQUEST_ISOCH_LISTEN</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537660">REQUEST_ISOCH_TALK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
 
 
 
@@ -119,5 +119,5 @@ The layout of this structure matches that of the CYCLE_TIME register in the <i>I
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CYCLE_TIME structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CYCLE_TIME structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

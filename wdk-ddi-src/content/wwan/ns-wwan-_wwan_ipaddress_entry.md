@@ -7,8 +7,8 @@ old-location: netvista\wwan_ipaddress_entry.htm
 old-project: netvista
 ms.assetid: 85615799-5AA0-4D83-9246-73F3C7ABFFF6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WWAN_IPADDRESS_ENTRY, _WWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], netvista.wwan_ipaddress_entry, WWAN_IPADDRESS_ENTRY structure [Network Drivers Starting with Windows Vista], wwan/WWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY, wwan/PWWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY
+ms.date: 2/16/2018
+ms.keywords: WWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY, WWAN_IPADDRESS_ENTRY structure [Network Drivers Starting with Windows Vista], _WWAN_IPADDRESS_ENTRY, PWWAN_IPADDRESS_ENTRY structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_IPADDRESS_ENTRY, netvista.wwan_ipaddress_entry, wwan/PWWAN_IPADDRESS_ENTRY, *PWWAN_IPADDRESS_ENTRY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -79,16 +79,6 @@ typedef struct _WWAN_IPADDRESS_ENTRY {
 
 
 ### -field IsReported
-
- 
-
-
-### -field Ipv4
-
- 
-
-
-### -field Ipv6
 
  
 

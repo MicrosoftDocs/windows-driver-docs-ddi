@@ -7,8 +7,8 @@ old-location: wdf\ipowerpolicycallbackwakefroms0_onarmwakefroms0.htm
 old-project: wdf
 ms.assetid: 4801a7c4-8bd4-4372-bcdd-49e5570d833e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, wdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, umdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0 method, OnArmWakeFromS0, IPowerPolicyCallbackWakeFromS0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, UMDFDeviceObjectRef_7b2a2ca8-d8d4-4da2-ae51-15aabf150973.xml, OnArmWakeFromS0 method
+ms.date: 2/20/2018
+ms.keywords: wdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0 method, UMDFDeviceObjectRef_7b2a2ca8-d8d4-4da2-ae51-15aabf150973.xml, umdf.ipowerpolicycallbackwakefroms0_onarmwakefroms0, IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, IPowerPolicyCallbackWakeFromS0, wudfddi/IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0, OnArmWakeFromS0 method, IPowerPolicyCallbackWakeFromS0 interface, OnArmWakeFromS0, OnArmWakeFromS0 method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPowerPolicyCallbackWakeFromS0.OnArmWakeFromS0
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -143,11 +143,11 @@ For more information about this callback function, see <a href="https://docs.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556822">IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556819">IPowerPolicyCallbackWakeFromS0::OnDisarmWakeFromS0</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556822">IPowerPolicyCallbackWakeFromS0::OnWakeFromS0Triggered</a>
 
 
 
@@ -159,5 +159,5 @@ For more information about this callback function, see <a href="https://docs.mic
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0 method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPowerPolicyCallbackWakeFromS0::OnArmWakeFromS0 method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndis_wmi_set_header.htm
 old-project: netvista
 ms.assetid: ea6f37e0-a46f-41d9-84f2-624f5727863a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_WMI_SET_HEADER, netvista.ndis_wmi_set_header, *PNDIS_WMI_SET_HEADER, ntddndis/PNDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER, PNDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER structure [Network Drivers Starting with Windows Vista], PNDIS_WMI_SET_HEADER structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WMI_SET_HEADER, ndis_wmi_ref_c7789da2-ca0f-48e3-8000-8abff7fe866e.xml
+ms.date: 2/16/2018
+ms.keywords: PNDIS_WMI_SET_HEADER, ndis_wmi_ref_c7789da2-ca0f-48e3-8000-8abff7fe866e.xml, PNDIS_WMI_SET_HEADER structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_WMI_SET_HEADER, ntddndis/PNDIS_WMI_SET_HEADER, _NDIS_WMI_SET_HEADER, *PNDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER structure [Network Drivers Starting with Windows Vista], NDIS_WMI_SET_HEADER, netvista.ndis_wmi_set_header
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WMI_SET_HEADER
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WMI_SET_HEADER, NDIS_WMI_SET_HEADER"
+req.typenames: NDIS_WMI_SET_HEADER, *PNDIS_WMI_SET_HEADER
 ---
 
 # _NDIS_WMI_SET_HEADER structure
@@ -152,17 +152,17 @@ WMI GUID set requests that are specific to NDIS 6.0 and later versions include a
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552619">GUID_NDIS_GEN_ENUMERATE_PORTS</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff552617">GUID_NDIS_ENUMERATE_ADAPTERS_EX</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WMI_SET_HEADER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WMI_SET_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

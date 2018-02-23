@@ -7,8 +7,8 @@ old-location: kernel\psregistersilomonitor.htm
 old-project: kernel
 ms.assetid: C04F29FF-972C-44CC-8557-28C23827ADF0
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/PsRegisterSiloMonitor, PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture], kernel.psregistersilomonitor
+ms.date: 2/16/2018
+ms.keywords: ntddk/PsRegisterSiloMonitor, kernel.psregistersilomonitor, PsRegisterSiloMonitor, PsRegisterSiloMonitor routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

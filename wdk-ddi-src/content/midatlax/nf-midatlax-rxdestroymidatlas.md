@@ -7,8 +7,8 @@ old-location: ifsk\rxdestroymidatlas.htm
 old-project: ifsk
 ms.assetid: 9d5c08c8-8306-46e3-b10b-eeefe473d340
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.rxdestroymidatlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml, RxDestroyMidAtlas, midatlax/RxDestroyMidAtlas, RxDestroyMidAtlas function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: RxDestroyMidAtlas function [Installable File System Drivers], ifsk.rxdestroymidatlas, midatlax/RxDestroyMidAtlas, rxref_3a954108-5744-4b47-87b7-7553d64ec038.xml, RxDestroyMidAtlas
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -112,11 +112,7 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-
-
-
-<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
+<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
 
 
 
@@ -124,7 +120,11 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
 
 
-<a href="..\midatlax\nf-midatlax-rxcreatemidatlas.md">RxCreateMidAtlas</a>
+<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxassociatecontextwithmid.md">RxAssociateContextWithMid</a>
 
 
 
@@ -136,5 +136,5 @@ RDBSS defines a Multiplex ID (MID), a 16-bit value, that can be used by both the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxDestroyMidAtlas function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxDestroyMidAtlas function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

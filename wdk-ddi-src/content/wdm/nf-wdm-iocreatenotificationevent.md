@@ -7,8 +7,8 @@ old-location: kernel\iocreatenotificationevent.htm
 old-project: kernel
 ms.assetid: 44be034e-0c82-4980-a246-132d1b50dee1
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], kernel.iocreatenotificationevent, IoCreateNotificationEvent, wdm/IoCreateNotificationEvent
+ms.date: 2/16/2018
+ms.keywords: IoCreateNotificationEvent, wdm/IoCreateNotificationEvent, kernel.iocreatenotificationevent, IoCreateNotificationEvent routine [Kernel-Mode Driver Architecture], k104_2b3bf223-0427-40e2-9f95-da5aa12c5da2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -133,11 +133,23 @@ For more information about events, see <a href="https://msdn.microsoft.com/libra
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
 <a href="..\wdm\nf-wdm-keclearevent.md">KeClearEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
+
+
+
+<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
 
 
 
@@ -149,21 +161,9 @@ For more information about events, see <a href="https://msdn.microsoft.com/libra
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
-
-
-
-<a href="..\wdm\nf-wdm-keresetevent.md">KeResetEvent</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatesynchronizationevent.md">IoCreateSynchronizationEvent</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateNotificationEvent routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoCreateNotificationEvent routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

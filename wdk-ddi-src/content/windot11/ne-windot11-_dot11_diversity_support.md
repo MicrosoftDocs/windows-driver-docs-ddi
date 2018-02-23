@@ -7,8 +7,8 @@ old-location: netvista\dot11_diversity_support.htm
 old-project: netvista
 ms.assetid: 64eeb1bf-c18a-4dfa-b6ea-438d9e10fe4a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista], windot11/PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_fixedlist, PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, *PDOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_dynamic, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, dot11_diversity_support_notsupported, windot11/dot11_diversity_support_unknown, dot11_diversity_support_fixedlist, windot11/dot11_diversity_support_notsupported, windot11/DOT11_DIVERSITY_SUPPORT, netvista.dot11_diversity_support, DOT11_DIVERSITY_SUPPORT, _DOT11_DIVERSITY_SUPPORT
+ms.date: 2/16/2018
+ms.keywords: dot11_diversity_support_unknown, netvista.dot11_diversity_support, windot11/dot11_diversity_support_notsupported, PDOT11_DIVERSITY_SUPPORT enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_diversity_support_unknown, PDOT11_DIVERSITY_SUPPORT, _DOT11_DIVERSITY_SUPPORT, windot11/dot11_diversity_support_fixedlist, windot11/dot11_diversity_support_dynamic, dot11_diversity_support_notsupported, DOT11_DIVERSITY_SUPPORT, dot11_diversity_support_fixedlist, windot11/DOT11_DIVERSITY_SUPPORT, windot11/PDOT11_DIVERSITY_SUPPORT, dot11_diversity_support_dynamic, *PDOT11_DIVERSITY_SUPPORT, Native_802.11_data_types_29b0e3d8-450c-4d41-817b-ba83cc912168.xml, DOT11_DIVERSITY_SUPPORT enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -109,5 +109,5 @@ The PHY supports antenna diversity and the dynamic control of diversity. The PHY
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIVERSITY_SUPPORT enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DIVERSITY_SUPPORT enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

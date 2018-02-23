@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::GetProcessIdsByIndex method
 author: windows-driver-content
 description: The GetProcessIdsByIndex method returns the engine process ID and system process ID for the specified processes in the current target.
 old-location: debugger\getprocessidsbyindex.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2ae042c5-9c2a-4de4-817c-c9b97f979684
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects2::GetProcessIdsByIndex, IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects_45309dcc-89bd-44a1-bafa-baabd10d54b0.xml, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdsByIndex method, GetProcessIdsByIndex method [Windows Debugging], GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdsByIndex method, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], GetProcessIdsByIndex method, dbgeng/IDebugSystemObjects2::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects4::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, debugger.getprocessidsbyindex, IDebugSystemObjects4::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects2, IDebugSystemObjects3, GetProcessIdsByIndex
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSystemObjects4::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::GetProcessIdsByIndex, dbgeng/IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects2::GetProcessIdsByIndex, IDebugSystemObjects, GetProcessIdsByIndex method [Windows Debugging], dbgeng/IDebugSystemObjects2::GetProcessIdsByIndex, debugger.getprocessidsbyindex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects_45309dcc-89bd-44a1-bafa-baabd10d54b0.xml, IDebugSystemObjects3::GetProcessIdsByIndex, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdsByIndex method, GetProcessIdsByIndex method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects3::GetProcessIdsByIndex, IDebugSystemObjects2, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects interface [Windows Debugging], GetProcessIdsByIndex method, IDebugSystemObjects::GetProcessIdsByIndex, IDebugSystemObjects3, GetProcessIdsByIndex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetProcessIdsByIndex
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects3::GetProcessIdsByIndex method

@@ -7,8 +7,8 @@ old-location: netvista\ndisclderegistersap.htm
 old-project: netvista
 ms.assetid: ee3eb668-04f5-4731-b0bd-5cc8a9d4407f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndisclderegistersap, ndis/NdisClDeregisterSap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], NdisClDeregisterSap, condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml
+ms.date: 2/16/2018
+ms.keywords: condis_client_ref_44c25719-9fbb-496b-97f6-f897cfe2b346.xml, ndis/NdisClDeregisterSap, netvista.ndisclderegistersap, NdisClDeregisterSap function [Network Drivers Starting with Windows Vista], NdisClDeregisterSap
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,16 +142,16 @@ The client should consider the given
 
 
 
-<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
-   ProtocolClDeregisterSapComplete</a>
-
-
-
-<a href="..\ndis\nc-ndis-protocol_cm_deregister_sap.md">ProtocolCmDeregisterSap</a>
+<a href="..\ndis\nc-ndis-protocol_unbind_adapter_ex.md">ProtocolUnbindAdapterEx</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisclregistersap.md">NdisClRegisterSap</a>
+
+
+
+<a href="..\ndis\nc-ndis-protocol_cl_deregister_sap_complete.md">
+   ProtocolClDeregisterSapComplete</a>
 
 
 
@@ -163,5 +163,5 @@ The client should consider the given
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClDeregisterSap function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisClDeregisterSap function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

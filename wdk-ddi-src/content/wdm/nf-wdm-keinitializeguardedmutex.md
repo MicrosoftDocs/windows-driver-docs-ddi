@@ -7,8 +7,8 @@ old-location: kernel\keinitializeguardedmutex.htm
 old-project: kernel
 ms.assetid: 28d45b36-c20d-40a5-bdf9-5fb754e36e74
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, wdm/KeInitializeGuardedMutex, kernel.keinitializeguardedmutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], KeInitializeGuardedMutex
+ms.date: 2/16/2018
+ms.keywords: wdm/KeInitializeGuardedMutex, KeInitializeGuardedMutex routine [Kernel-Mode Driver Architecture], k105_e9686411-583c-43bb-b7e6-b5248bed72f8.xml, kernel.keinitializeguardedmutex, KeInitializeGuardedMutex
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,5 +107,5 @@ For more information about guarded mutexes, see <a href="https://msdn.microsoft.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeInitializeGuardedMutex routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeInitializeGuardedMutex routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: audio\allocatedmabuffer.htm
 old-project: audio
 ms.assetid: 44fd988a-24b3-4587-88d9-30585800ffbf
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.allocatedmabuffer, AllocateDmaBuffer callback function [Audio Devices], AllocateDmaBuffer, PALLOCATE_DMA_BUFFER, PALLOCATE_DMA_BUFFER, hdaudio/AllocateDmaBuffer, aud-prop2_b3e6fc6b-f01f-4ca9-999a-3f9c6e196003.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	AllocateDmaBuffer
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
 ---
 
 # PALLOCATE_DMA_BUFFER callback
@@ -261,19 +261,7 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
-
-
-
 <a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
-<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 
@@ -281,7 +269,7 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
+<a href="..\hdaudio\nc-hdaudio-pset_dma_engine_state.md">SetDmaEngineState</a>
 
 
 
@@ -289,11 +277,23 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536735">IMiniportWavePci::NewStream</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-pallocate_capture_dma_engine.md">AllocateCaptureDmaEngine</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
 
 
 
-<a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536732">IMiniportWavePciStream::SetFormat</a>
+
+
+
+<a href="..\hdaudio\nc-hdaudio-psetup_dma_engine_with_bdl.md">SetupDmaEngineWithBdl</a>
 
 
 
@@ -301,5 +301,5 @@ In Windows Server 2003, Windows XP, Windows 2000, and Windows Me/98, a WDM audio
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PALLOCATE_DMA_BUFFER callback function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

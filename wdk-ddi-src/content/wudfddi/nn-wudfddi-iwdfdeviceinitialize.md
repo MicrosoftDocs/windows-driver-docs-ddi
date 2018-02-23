@@ -7,7 +7,7 @@ old-location: wdf\iwdfdeviceinitialize.htm
 old-project: wdf
 ms.assetid: a776069c-0cbb-4ae9-bf6b-1d300dbcec34
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfdeviceinitialize, IWDFDeviceInitialize interface, IWDFDeviceInitialize interface, described, IWDFDeviceInitialize, wudfddi/IWDFDeviceInitialize, UMDFDeviceObjectRef_b63038ef-0e6e-4417-96de-0c3f5ec1866e.xml, umdf.iwdfdeviceinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDeviceInitialize
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

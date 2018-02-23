@@ -7,8 +7,8 @@ old-location: ifsk\secmakespn.htm
 old-project: ifsk
 ms.assetid: e294832a-f0f2-49ab-b215-7c0e67e5ec13
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, SecMakeSPN function [Installable File System Drivers], SecMakeSPN, ntifs/SecMakeSPN, ifsk.secmakespn
+ms.date: 2/16/2018
+ms.keywords: ifsk.secmakespn, SecMakeSPN, SecMakeSPN function [Installable File System Drivers], ksecddref_0225b4c1-8cfd-49cc-a69a-85da507c401e.xml, ntifs/SecMakeSPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -188,5 +188,5 @@ The <i>Allocate</i> parameter was set to true, but the memory allocation request
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecMakeSPN function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SecMakeSPN function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

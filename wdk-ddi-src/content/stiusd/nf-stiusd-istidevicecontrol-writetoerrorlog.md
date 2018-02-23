@@ -4,11 +4,11 @@ title: IStiDeviceControl::WriteToErrorLog method
 author: windows-driver-content
 description: The IStiDeviceControl::WriteToErrorLog method allows a user-mode still image minidriver to write a message into the still image error log.
 old-location: image\istidevicecontrol_writetoerrorlog.htm
-old-project: image
+old-project: Image
 ms.assetid: 22f9688e-1e61-46a6-a9f6-0244d7dd47ce
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, IStiDeviceControl, IStiDeviceControl::WriteToErrorLog, WriteToErrorLog, WriteToErrorLog method [Imaging Devices], image.istidevicecontrol_writetoerrorlog, stiusd/IStiDeviceControl::WriteToErrorLog, stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface
+ms.date: 2/15/2018
+ms.keywords: IStiDeviceControl interface [Imaging Devices], WriteToErrorLog method, WriteToErrorLog method [Imaging Devices], stifnc_62f132a6-f597-4f46-9242-736a4e591942.xml, stiusd/IStiDeviceControl::WriteToErrorLog, IStiDeviceControl::WriteToErrorLog, image.istidevicecontrol_writetoerrorlog, WriteToErrorLog, IStiDeviceControl, WriteToErrorLog method [Imaging Devices], IStiDeviceControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiDeviceControl.WriteToErrorLog
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 

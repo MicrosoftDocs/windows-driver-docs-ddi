@@ -7,8 +7,8 @@ old-location: display\dxgk_page_table_level_desc.htm
 old-project: display
 ms.assetid: 45BC190C-8985-4F8A-AC84-4ACBBCE9EB67
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.dxgk_page_table_level_desc, DXGK_PAGE_TABLE_LEVEL_DESC, _DXGK_PAGE_TABLE_LEVEL_DESC, d3dkmddi/DXGK_PAGE_TABLE_LEVEL_DESC, DXGK_PAGE_TABLE_LEVEL_DESC structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: DXGK_PAGE_TABLE_LEVEL_DESC, d3dkmddi/DXGK_PAGE_TABLE_LEVEL_DESC, display.dxgk_page_table_level_desc, DXGK_PAGE_TABLE_LEVEL_DESC structure [Display Devices], _DXGK_PAGE_TABLE_LEVEL_DESC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: kernel\io_session_state_information.htm
 old-project: kernel
 ms.assetid: ef56da02-52ae-4f85-8820-fc310638bb89
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PIO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, wdm/IO_SESSION_STATE_INFORMATION, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PIO_SESSION_STATE_INFORMATION, _IO_SESSION_STATE_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: "*PIO_SESSION_STATE_INFORMATION, _IO_SESSION_STATE_INFORMATION, PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PIO_SESSION_STATE_INFORMATION, IO_SESSION_STATE_INFORMATION, kernel.io_session_state_information, PIO_SESSION_STATE_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/IO_SESSION_STATE_INFORMATION, kstruct_b_1021e6f4-b82d-4f1d-8664-dbef116240d1.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,5 +124,5 @@ To obtain information about a user session, a driver calls the <b>IoGetContainer
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_STATE_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

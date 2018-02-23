@@ -7,8 +7,8 @@ old-location: netvista\ndisinitiateoffload.htm
 old-project: netvista
 ms.assetid: a1979227-a447-4dd3-8a5d-7986362020cd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisInitiateOffload function [Network Drivers Starting with Windows Vista], netvista.ndisinitiateoffload, tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml, NdisInitiateOffload, ndischimney/NdisInitiateOffload
+ms.date: 2/16/2018
+ms.keywords: netvista.ndisinitiateoffload, NdisInitiateOffload, tcp_chim_ndis_func_c93e8055-91b1-42d4-a227-6b21086c6e7b.xml, ndischimney/NdisInitiateOffload, NdisInitiateOffload function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,12 +123,12 @@ From the
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
 <a href="..\ndischimney\nc-ndischimney-initiate_offload_complete_handler.md">
    ProtocolInitiateOffloadComplete</a>
+
+
+
+<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
 
 
 
@@ -137,7 +137,12 @@ From the
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisminitiateoffloadcomplete.md">NdisMInitiateOffloadComplete</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -145,14 +150,9 @@ From the
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitiateOffload function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisInitiateOffload function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

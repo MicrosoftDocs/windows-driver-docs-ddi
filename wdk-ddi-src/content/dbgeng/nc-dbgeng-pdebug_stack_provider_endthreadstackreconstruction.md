@@ -4,10 +4,10 @@ title: PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION
 author: windows-driver-content
 description: The EndThreadStackReconstruction callback function may be called after stack reconstruction to clean up state.
 old-location: debugger\endthreadstackreconstruction.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 76984F28-7AC9-44FD-9D8B-CC184484C73E
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.endthreadstackreconstruction, EndThreadStackReconstruction, EndThreadStackReconstruction callback function [Windows Debugging], EndThreadStackReconstruction, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION, dbgeng/EndThreadStackReconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EndThreadStackReconstruction
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_STACK_PROVIDER_ENDTHREADSTACKRECONSTRUCTION callback

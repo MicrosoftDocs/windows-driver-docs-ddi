@@ -7,8 +7,8 @@ old-location: kernel\transaction_enlistment_pair.htm
 old-project: kernel
 ms.assetid: f8d49d61-f15e-4972-bcd2-d20f1be5786c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PTRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENT_PAIR, kernel.transaction_enlistment_pair, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, wdm/PTRANSACTION_ENLISTMENT_PAIR, wdm/TRANSACTION_ENLISTMENT_PAIR, *PTRANSACTION_ENLISTMENT_PAIR, TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], _TRANSACTION_ENLISTMENT_PAIR
+ms.date: 2/16/2018
+ms.keywords: kernel.transaction_enlistment_pair, PTRANSACTION_ENLISTMENT_PAIR structure pointer [Kernel-Mode Driver Architecture], TRANSACTION_ENLISTMENT_PAIR structure [Kernel-Mode Driver Architecture], *PTRANSACTION_ENLISTMENT_PAIR, wdm/TRANSACTION_ENLISTMENT_PAIR, _TRANSACTION_ENLISTMENT_PAIR, ktm_ref_5f4d1426-1829-4c3d-836f-8655b41d9c0c.xml, TRANSACTION_ENLISTMENT_PAIR, PTRANSACTION_ENLISTMENT_PAIR, wdm/PTRANSACTION_ENLISTMENT_PAIR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -102,5 +102,5 @@ The <b>TRANSACTION_ENLISTMENT_PAIR</b> structure is used as a member of the <a h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRANSACTION_ENLISTMENT_PAIR structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20TRANSACTION_ENLISTMENT_PAIR structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

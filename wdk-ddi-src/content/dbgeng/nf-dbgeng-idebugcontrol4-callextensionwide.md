@@ -4,11 +4,11 @@ title: IDebugControl4::CallExtensionWide method
 author: windows-driver-content
 description: The CallExtensionWide method calls a debugger extension.
 old-location: debugger\callextensionwide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: a46d7ba9-24fc-4e06-9655-3fc6531d6891
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: CallExtensionWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::CallExtensionWide, debugger.callextensionwide, IDebugControl4 interface [Windows Debugging], CallExtensionWide method, IDebugControl4::CallExtensionWide, IDebugControl4, CallExtensionWide method [Windows Debugging], CallExtensionWide
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugControl4::CallExtensionWide, IDebugControl4, CallExtensionWide method [Windows Debugging], debugger.callextensionwide, IDebugControl4::CallExtensionWide, CallExtensionWide method [Windows Debugging], IDebugControl4 interface, CallExtensionWide, IDebugControl4 interface [Windows Debugging], CallExtensionWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.CallExtensionWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::CallExtensionWide method
@@ -125,11 +125,11 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537892">AddExtension</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546717">GetExtensionByPath</a>
 
 
 
@@ -145,5 +145,5 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::CallExtensionWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl4::CallExtensionWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: sensors\ioctl_gnss_get_chipsetinfo.htm
 old-project: sensors
 ms.assetid: 9E57757B-65BA-40FF-98F9-F771C48EFF9E
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: sensors.ioctl_gnss_get_chipsetinfo, IOCTL_GNSS_GET_CHIPSETINFO control code [Sensor Devices], IOCTL_GNSS_GET_CHIPSETINFO, gnssdriver/IOCTL_GNSS_GET_CHIPSETINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -86,14 +86,18 @@ Set to sizeof(GNSS_CHIPSETINFO).
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -105,24 +109,37 @@ Set to sizeof(GNSS_CHIPSETINFO).
 ## -remarks
 
 
-<h3><a id="GNSS_test_application_notes"></a><a id="gnss_test_application_notes"></a><a id="GNSS_TEST_APPLICATION_NOTES"></a>GNSS test application notes</h3>The GNSS test application must wait for the response from the GNSS driver and be resilient to the GNSS driver not responding.
-<h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>The GNSS driver must respond with the information about the GNSS chipset.
+
+<h3><a id="GNSS_test_application_notes"></a><a id="gnss_test_application_notes"></a><a id="GNSS_TEST_APPLICATION_NOTES"></a>GNSS test application notes</h3>
+The GNSS test application must wait for the response from the GNSS driver and be resilient to the GNSS driver not responding.
+
+<h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>
+The GNSS driver must respond with the information about the GNSS chipset.
+
 
 
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_GET_CHIPSETINFO control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_GET_CHIPSETINFO control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

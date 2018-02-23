@@ -4,11 +4,11 @@ title: IDebugSymbolGroup::OutputAsType method
 author: windows-driver-content
 description: The OutputAsType method changes the type of a symbol in a symbol group. The symbol's entry is updated to represent the new type.
 old-location: debugger\outputastype.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: ab8c19c8-73c0-4c70-9a5d-9cf9d182157d
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, dbgeng/IDebugSymbolGroup::OutputAsType, IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, IDebugSymbolGroup, ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, debugger.outputastype, OutputAsType, OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, OutputAsType method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbolGroup, IDebugSymbolGroup2::OutputAsType, IDebugSymbolGroup::OutputAsType, OutputAsType method [Windows Debugging], IDebugSymbolGroup interface, OutputAsType method [Windows Debugging], OutputAsType method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::OutputAsType, dbgeng/IDebugSymbolGroup::OutputAsType, debugger.outputastype, IDebugSymbolGroup2 interface [Windows Debugging], OutputAsType method, ComOther_6805cc12-0d46-4114-a40d-54c7e32b3c7c.xml, OutputAsType, IDebugSymbolGroup interface [Windows Debugging], OutputAsType method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.OutputAsType
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup::OutputAsType method
@@ -122,7 +122,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
 
 
 
@@ -130,7 +130,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543271">ExpandSymbol</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
 
 
 
@@ -142,5 +142,5 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup::OutputAsType method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup::OutputAsType method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

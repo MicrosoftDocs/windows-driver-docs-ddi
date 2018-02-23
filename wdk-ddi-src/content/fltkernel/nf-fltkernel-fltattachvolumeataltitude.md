@@ -7,7 +7,7 @@ old-location: ifsk\fltattachvolumeataltitude.htm
 old-project: ifsk
 ms.assetid: d6e6f66a-77ed-4c1c-92d5-97a806cfbd68
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
+ms.date: 2/16/2018
 ms.keywords: ifsk.fltattachvolumeataltitude, FltAttachVolumeAtAltitude routine [Installable File System Drivers], fltkernel/FltAttachVolumeAtAltitude, FltApiRef_a_to_d_5a0e9e03-7d81-4894-9430-fed1c32181b6.xml, FltAttachVolumeAtAltitude
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -209,30 +209,6 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltdetachvolume.md">FltDetachVolume</a>
 
 
@@ -241,9 +217,33 @@ To detach a minifilter driver instance from a volume, call <a href="..\fltkernel
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltcompareinstancealtitudes.md">FltCompareInstanceAltitudes</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltstartfiltering.md">FltStartFiltering</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltobjectdereference.md">FltObjectDereference</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetvolumeinstancefromname.md">FltGetVolumeInstanceFromName</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540448">FilterAttachAtAltitude</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolumeAtAltitude routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltAttachVolumeAtAltitude routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

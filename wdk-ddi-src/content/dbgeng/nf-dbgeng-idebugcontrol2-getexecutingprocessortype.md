@@ -4,11 +4,11 @@ title: IDebugControl2::GetExecutingProcessorType method
 author: windows-driver-content
 description: The GetExecutingProcessorType method returns the executing processor type for the processor for which the last event occurred.
 old-location: debugger\getexecutingprocessortype.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 62d0397b-da20-414e-accf-656749a771f6
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetExecutingProcessorType method [Windows Debugging], IDebugControl interface, IDebugControl3 interface [Windows Debugging], GetExecutingProcessorType method, dbgeng/IDebugControl2::GetExecutingProcessorType, IDebugControl2::GetExecutingProcessorType, IDebugControl2 interface [Windows Debugging], GetExecutingProcessorType method, dbgeng/IDebugControl3::GetExecutingProcessorType, IDebugControl::GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], dbgeng/IDebugControl::GetExecutingProcessorType, IDebugControl interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl2, IDebugControl_b2aad495-5a68-4888-bedb-da76edbfbe7a.xml, debugger.getexecutingprocessortype, IDebugControl, GetExecutingProcessorType method [Windows Debugging], IDebugControl2 interface, GetExecutingProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl3::GetExecutingProcessorType, GetExecutingProcessorType
+ms.date: 2/15/2018
+ms.keywords: GetExecutingProcessorType method [Windows Debugging], IDebugControl interface, IDebugControl, GetExecutingProcessorType method [Windows Debugging], IDebugControl3 interface, IDebugControl2 interface [Windows Debugging], GetExecutingProcessorType method, IDebugControl2, debugger.getexecutingprocessortype, IDebugControl3::GetExecutingProcessorType, IDebugControl::GetExecutingProcessorType, dbgeng/IDebugControl::GetExecutingProcessorType, GetExecutingProcessorType method [Windows Debugging], IDebugControl interface [Windows Debugging], GetExecutingProcessorType method, GetExecutingProcessorType method [Windows Debugging], IDebugControl2 interface, IDebugControl3 interface [Windows Debugging], GetExecutingProcessorType method, dbgeng/IDebugControl3::GetExecutingProcessorType, IDebugControl_b2aad495-5a68-4888-bedb-da76edbfbe7a.xml, GetExecutingProcessorType, dbgeng/IDebugControl2::GetExecutingProcessorType, IDebugControl2::GetExecutingProcessorType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetExecutingProcessorType
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl2::GetExecutingProcessorType method
@@ -113,7 +113,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -121,17 +121,17 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetExecutingProcessorType method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetExecutingProcessorType method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

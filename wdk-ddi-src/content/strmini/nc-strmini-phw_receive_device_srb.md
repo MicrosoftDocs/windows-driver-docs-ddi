@@ -7,7 +7,7 @@ old-location: stream\strminireceivestreamdatapacket.htm
 old-project: stream
 ms.assetid: 4b354e7d-01b9-43b5-8d22-6e15a4ae4958
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.strminireceivestreamdatapacket, StrMiniReceiveStreamDataPacket, StrMiniReceiveStreamDataPacket routine [Streaming Media Devices], StrMiniReceiveStreamDataPacket, PHW_RECEIVE_DEVICE_SRB, PHW_RECEIVE_DEVICE_SRB, strmini/StrMiniReceiveStreamDataPacket, strmini-routines_4e6dca6e-df0a-478e-9655-0b2221621c2e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

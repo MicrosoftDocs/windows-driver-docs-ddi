@@ -7,13 +7,13 @@ old-location: kernel\pep_acpi_translated_device_control_resources.htm
 old-project: kernel
 ms.assetid: 1274EF11-6A0D-4464-992D-4E27C981971F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "*PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture], PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, kernel.pep_acpi_translated_device_control_resources"
+ms.date: 2/16/2018
+ms.keywords: kernel.pep_acpi_translated_device_control_resources, _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, *PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, pepfx/PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES"
+req.typenames: PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES, *PPEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES
 ---
 
 # _PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure
@@ -93,7 +93,7 @@ struct PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES {
 
 ### -field TranslatedResources
 
-[in] A <a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that serves as the header for the resource list. The remainder of the resource list immediately follows this header.
+[in] A <a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a> structure that serves as the header for the resource list. The remainder of the resource list immediately follows this header.
 
 
 #### - ResourceBufferSize
@@ -112,7 +112,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_resource_list.md">CM_RESOURCE_LIST</a>
 
 
 
@@ -128,5 +128,5 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_ACPI_TRANSLATED_DEVICE_CONTROL_RESOURCES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

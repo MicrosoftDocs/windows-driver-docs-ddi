@@ -7,8 +7,8 @@ old-location: display\video_pointer_capabilities.htm
 old-project: display
 ms.assetid: bc5f98da-1e2e-421b-9c76-97359e51b526
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PVIDEO_POINTER_CAPABILITIES, _VIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], VIDEO_POINTER_CAPABILITIES structure [Display Devices], Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml, VIDEO_POINTER_CAPABILITIES, ntddvdeo/PVIDEO_POINTER_CAPABILITIES
+ms.date: 2/20/2018
+ms.keywords: ntddvdeo/PVIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES structure [Display Devices], PVIDEO_POINTER_CAPABILITIES structure pointer [Display Devices], _VIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES, display.video_pointer_capabilities, PVIDEO_POINTER_CAPABILITIES, ntddvdeo/VIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES, Video_Structs_03a35602-adfd-4485-a155-866b578fa807.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	VIDEO_POINTER_CAPABILITIES
 product: Windows
 targetos: Windows
-req.typenames: "*PVIDEO_POINTER_CAPABILITIES, VIDEO_POINTER_CAPABILITIES"
+req.typenames: VIDEO_POINTER_CAPABILITIES, *PVIDEO_POINTER_CAPABILITIES
 ---
 
 # _VIDEO_POINTER_CAPABILITIES structure

@@ -7,8 +7,8 @@ old-location: storage\msiscsi_initiatorsessioninfo.htm
 old-project: storage
 ms.assetid: 0406efa5-26ad-4a3d-829b-d9b03b7c3b26
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], PMSiSCSI_InitiatorSessionInfo, iscsimgt/MSiSCSI_InitiatorSessionInfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml, MSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices], *PMSiSCSI_InitiatorSessionInfo, storage.msiscsi_initiatorsessioninfo, _MSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo
+ms.date: 2/16/2018
+ms.keywords: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo, storage.msiscsi_initiatorsessioninfo, structs-iSCSI_a3ebb8e8-47ff-4482-b896-7b310216bdf1.xml, _MSiSCSI_InitiatorSessionInfo, PMSiSCSI_InitiatorSessionInfo, iscsimgt/PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo structure [Storage Devices], PMSiSCSI_InitiatorSessionInfo structure pointer [Storage Devices], iscsimgt/MSiSCSI_InitiatorSessionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_InitiatorSessionInfo
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_InitiatorSessionInfo, *PMSiSCSI_InitiatorSessionInfo
+req.typenames: "*PMSiSCSI_InitiatorSessionInfo, MSiSCSI_InitiatorSessionInfo"
 ---
 
 # _MSiSCSI_InitiatorSessionInfo structure
@@ -111,5 +111,5 @@ You must implement this class.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_InitiatorSessionInfo structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_InitiatorSessionInfo structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndis_receive_filter_clear_parameters.htm
 old-project: netvista
 ms.assetid: 101f9fea-cfc2-4ea5-82ee-a260d10b5a96
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, virtual_machine_queue_ref_c0ec4d22-f248-4fe1-855e-99cfe6b2cd1f.xml, PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, netvista.ndis_receive_filter_clear_parameters, PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, ntddndis/PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, *PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_receive_filter_clear_parameters, virtual_machine_queue_ref_c0ec4d22-f248-4fe1-855e-99cfe6b2cd1f.xml, PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS"
+req.typenames: NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS, *PNDIS_RECEIVE_FILTER_CLEAR_PARAMETERS
 ---
 
 # _NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure
@@ -151,11 +151,11 @@ The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID reque
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-set-filter">OID_RECEIVE_FILTER_SET_FILTER</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569785">OID_RECEIVE_FILTER_CLEAR_FILTER</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -167,5 +167,5 @@ The <b>NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS</b> structure is used with OID reque
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_FILTER_CLEAR_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

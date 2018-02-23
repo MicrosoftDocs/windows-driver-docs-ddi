@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::GetCurrentSystemId method
 author: windows-driver-content
 description: The GetCurrentSystemId method returns the engine target ID for the current process.
 old-location: debugger\getcurrentsystemid.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2ff5091b-7cf8-4972-b87b-b18d25bb23e9
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetCurrentSystemId method [Windows Debugging], dbgeng/IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects3, GetCurrentSystemId, debugger.getcurrentsystemid, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method, IDebugSystemObjects3::GetCurrentSystemId
+ms.date: 2/15/2018
+ms.keywords: GetCurrentSystemId method [Windows Debugging], GetCurrentSystemId, debugger.getcurrentsystemid, IDebugSystemObjects4::GetCurrentSystemId, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects_02c8ff30-b552-465a-9be3-4e0526e1d6e1.xml, IDebugSystemObjects3::GetCurrentSystemId, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentSystemId method, dbgeng/IDebugSystemObjects4::GetCurrentSystemId, IDebugSystemObjects3, dbgeng/IDebugSystemObjects3::GetCurrentSystemId, GetCurrentSystemId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentSystemId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSystemObjects4.GetCurrentSystemId
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects3::GetCurrentSystemId method
@@ -119,5 +119,5 @@ The method was successful.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSystemObjects3::GetCurrentSystemId method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSystemObjects3::GetCurrentSystemId method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

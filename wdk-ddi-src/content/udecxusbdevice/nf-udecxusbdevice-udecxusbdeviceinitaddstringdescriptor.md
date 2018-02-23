@@ -4,11 +4,11 @@ title: UdecxUsbDeviceInitAddStringDescriptor function
 author: windows-driver-content
 description: Adds a USB string descriptor to the initialization parameters used to create a virtual USB device.
 old-location: buses\udecxusbdeviceinitaddstringdescriptor.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 05971A19-4B66-41F6-9043-DA9C81FA92E5
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor, buses.udecxusbdeviceinitaddstringdescriptor, UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses]
+ms.date: 2/15/2018
+ms.keywords: buses.udecxusbdeviceinitaddstringdescriptor, udecxusbdevice/UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor, UdecxUsbDeviceInitAddStringDescriptor function [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	UdecxUsbDeviceInitAddStringDescriptor
 product: Windows
 targetos: Windows
-req.typenames: UDECX_USB_DEVICE_WAKE_SETTING, *PUDECX_USB_DEVICE_WAKE_SETTING
+req.typenames: "*PUDECX_USB_DEVICE_WAKE_SETTING, UDECX_USB_DEVICE_WAKE_SETTING"
 req.product: Windows 10 or later.
 ---
 
@@ -106,7 +106,7 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt595939">Write a UDE client driver</a>
+<a href="..\udecxusbdevice\nf-udecxusbdevice-udecxusbdeviceinitallocate.md">UdecxUsbDeviceInitAllocate</a>
 
 
 
@@ -126,5 +126,5 @@ The method returns STATUS_SUCCESS if the operation succeeds. Otherwise, this met
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UdecxUsbDeviceInitAddStringDescriptor function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UdecxUsbDeviceInitAddStringDescriptor function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

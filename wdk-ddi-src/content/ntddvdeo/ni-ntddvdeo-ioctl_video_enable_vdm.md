@@ -7,7 +7,7 @@ old-location: display\ioctl_video_enable_vdm.htm
 old-project: display
 ms.assetid: 45a5ab64-1b34-4f48-bbe3-285016e9c16e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.ioctl_video_enable_vdm, IOCTL_VIDEO_ENABLE_VDM control code [Display Devices], IOCTL_VIDEO_ENABLE_VDM, ntddvdeo/IOCTL_VIDEO_ENABLE_VDM, Video_IOCTLs_d0e75fac-0604-49f5-9293-3455659ab821.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

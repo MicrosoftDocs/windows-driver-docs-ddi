@@ -7,8 +7,8 @@ old-location: wdf\wdf_execution_level.htm
 old-project: wdf
 ms.assetid: 82b1fe8e-054c-4710-9a32-d620a62a070e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_EXECUTION_LEVEL enumeration, wdf.wdf_execution_level, WdfExecutionLevelInheritFromParent, kmdf.wdf_execution_level, wdfobject/WdfExecutionLevelInvalid, DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, wdfobject/WdfExecutionLevelDispatch, WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelPassive, _WDF_EXECUTION_LEVEL, WdfExecutionLevelPassive, wdfobject/WdfExecutionLevelInheritFromParent, wdfobject/WDF_EXECUTION_LEVEL, WdfExecutionLevelDispatch, WDF_EXECUTION_LEVEL
+ms.date: 2/20/2018
+ms.keywords: DFGenObjectRef_f9a9ae20-9dba-4c23-910b-04c60e1f9539.xml, wdf.wdf_execution_level, kmdf.wdf_execution_level, WdfExecutionLevelDispatch, WDF_EXECUTION_LEVEL enumeration, wdfobject/WdfExecutionLevelInheritFromParent, WdfExecutionLevelPassive, wdfobject/WdfExecutionLevelPassive, wdfobject/WdfExecutionLevelInvalid, wdfobject/WdfExecutionLevelDispatch, wdfobject/WDF_EXECUTION_LEVEL, WdfExecutionLevelInheritFromParent, WdfExecutionLevelInvalid, WDF_EXECUTION_LEVEL, _WDF_EXECUTION_LEVEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -148,5 +148,5 @@ For more information about execution levels for event callback functions, see <a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_EXECUTION_LEVEL enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_EXECUTION_LEVEL enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

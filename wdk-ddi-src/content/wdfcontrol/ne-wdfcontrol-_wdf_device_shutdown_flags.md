@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_shutdown_flags.htm
 old-project: wdf
 ms.assetid: e394f8de-7257-4baa-9057-bd4bad34212d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: "_WDF_DEVICE_SHUTDOWN_FLAGS, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, kmdf.wdf_device_shutdown_flags, wdfcontrol/WdfDeviceLastChanceShutdown, WdfDeviceShutdown, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, WdfDeviceLastChanceShutdown, wdf.wdf_device_shutdown_flags, wdfcontrol/WdfDeviceShutdown, WDF_DEVICE_SHUTDOWN_FLAGS, DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml"
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdf_device_shutdown_flags, WdfDeviceLastChanceShutdown, wdfcontrol/WdfDeviceShutdown, wdfcontrol/WdfDeviceLastChanceShutdown, WDF_DEVICE_SHUTDOWN_FLAGS enumeration, DFDeviceObjectControllerDevObjRef_67312956-1032-4272-9b69-ed1674b5e951.xml, _WDF_DEVICE_SHUTDOWN_FLAGS, wdf.wdf_device_shutdown_flags, WDF_DEVICE_SHUTDOWN_FLAGS, wdfcontrol/WDF_DEVICE_SHUTDOWN_FLAGS, WdfDeviceShutdown
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -100,5 +100,5 @@ The <b>WDF_DEVICE_SHUTDOWN_FLAGS</b> enumeration is used as an input parameter t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_SHUTDOWN_FLAGS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_SHUTDOWN_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

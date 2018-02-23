@@ -7,8 +7,8 @@ old-location: stream\ksremovespecificirpfromcancelablequeue.htm
 old-project: stream
 ms.assetid: 2d3550c3-4a06-410e-9ec9-fed8b2786092
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsRemoveSpecificIrpFromCancelableQueue, stream.ksremovespecificirpfromcancelablequeue, KsRemoveSpecificIrpFromCancelableQueue function [Streaming Media Devices], KsRemoveSpecificIrpFromCancelableQueue, ksfunc_db7aeb28-a39d-4ab6-9df5-6eef83453c85.xml
+ms.date: 2/20/2018
+ms.keywords: KsRemoveSpecificIrpFromCancelableQueue, ks/KsRemoveSpecificIrpFromCancelableQueue, stream.ksremovespecificirpfromcancelablequeue, ksfunc_db7aeb28-a39d-4ab6-9df5-6eef83453c85.xml, KsRemoveSpecificIrpFromCancelableQueue function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

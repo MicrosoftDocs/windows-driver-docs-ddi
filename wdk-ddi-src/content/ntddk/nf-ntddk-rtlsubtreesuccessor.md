@@ -7,8 +7,8 @@ old-location: ifsk\rtlsubtreesuccessor.htm
 old-project: ifsk
 ms.assetid: de592c2a-6f52-48ef-b2ee-253d83cafa80
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml, ntddk/RtlSubtreeSuccessor, RtlSubtreeSuccessor, ifsk.rtlsubtreesuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ntddk/RtlSubtreeSuccessor, rtlref_65e50284-427f-47d9-92c7-719b8bc1bab5.xml, RtlSubtreeSuccessor, ifsk.rtlsubtreesuccessor, RtlSubtreeSuccessor routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,11 +96,7 @@ Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEV
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlinitializesplaylinks.md">RtlInitializeSplayLinks</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-rtlrealsuccessor.md">RtlRealSuccessor</a>
+<a href="..\ntddk\nf-ntddk-rtlsplay.md">RtlSplay</a>
 
 
 
@@ -112,9 +108,13 @@ Callers of <b>RtlSubtreeSuccessor</b> must be running at IRQL &lt;= DISPATCH_LEV
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-rtlsubtreepredecessor.md">RtlSubtreePredecessor</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlSubtreeSuccessor routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlSubtreeSuccessor routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\iqueuecallbackdeviceiocontrol.htm
 old-project: wdf
 ms.assetid: efb33bc5-2a9b-40c7-9584-c762daf016f6
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iqueuecallbackdeviceiocontrol, IQueueCallbackDeviceIoControl interface, IQueueCallbackDeviceIoControl interface, described, IQueueCallbackDeviceIoControl, wudfddi/IQueueCallbackDeviceIoControl, UMDFQueueObjectRef_43ec96af-39ec-4d9c-89bd-c8d08bec3999.xml, umdf.iqueuecallbackdeviceiocontrol
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackDeviceIoControl
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

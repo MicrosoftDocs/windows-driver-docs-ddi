@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetTypeSize method
 author: windows-driver-content
 description: The GetTypeSize method returns the number of bytes of memory an instance of the specified type requires.
 old-location: debugger\gettypesize2.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: b6f03eb5-e386-4e88-a729-db08f1fa460c
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::GetTypeSize, IDebugSymbols_d1c65bea-0479-4ca8-bdfa-6c7a7376792a.xml, dbgeng/IDebugSymbols2::GetTypeSize, IDebugSymbols3 interface [Windows Debugging], GetTypeSize method, IDebugSymbols3::GetTypeSize, GetTypeSize method [Windows Debugging], IDebugSymbols interface, GetTypeSize method [Windows Debugging], dbgeng/IDebugSymbols3::GetTypeSize, GetTypeSize, IDebugSymbols3, IDebugSymbols2, IDebugSymbols::GetTypeSize, debugger.gettypesize2, IDebugSymbols2 interface [Windows Debugging], GetTypeSize method, GetTypeSize method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols, GetTypeSize method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols::GetTypeSize, IDebugSymbols interface [Windows Debugging], GetTypeSize method
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols interface [Windows Debugging], GetTypeSize method, IDebugSymbols2::GetTypeSize, GetTypeSize method [Windows Debugging], IDebugSymbols3 interface, GetTypeSize method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3::GetTypeSize, GetTypeSize, IDebugSymbols2 interface [Windows Debugging], GetTypeSize method, IDebugSymbols, IDebugSymbols_d1c65bea-0479-4ca8-bdfa-6c7a7376792a.xml, GetTypeSize method [Windows Debugging], IDebugSymbols3 interface [Windows Debugging], GetTypeSize method, IDebugSymbols2, IDebugSymbols3, dbgeng/IDebugSymbols2::GetTypeSize, IDebugSymbols::GetTypeSize, dbgeng/IDebugSymbols3::GetTypeSize, debugger.gettypesize2, dbgeng/IDebugSymbols::GetTypeSize, GetTypeSize method [Windows Debugging], IDebugSymbols2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetTypeSize
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetTypeSize method
@@ -129,7 +129,11 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549408">GetTypeName</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -137,13 +141,9 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549408">GetTypeName</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::GetTypeSize method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::GetTypeSize method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

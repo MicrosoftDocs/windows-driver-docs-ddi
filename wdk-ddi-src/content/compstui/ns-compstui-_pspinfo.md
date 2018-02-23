@@ -7,8 +7,8 @@ old-location: print\pspinfo.htm
 old-project: print
 ms.assetid: 80a15ee4-e160-49fc-9c61-a14b14d19751
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, _PSPINFO, print.pspinfo, compstui/PSPINFO, PSPINFO structure [Print Devices], PPSPINFO structure pointer [Print Devices], PPSPINFO, *PPSPINFO, PSPINFO, compstui/PPSPINFO
+ms.date: 2/21/2018
+ms.keywords: PSPINFO structure [Print Devices], *PPSPINFO, PSPINFO, compstui/PPSPINFO, PPSPINFO structure pointer [Print Devices], cpsuifnc_0e5bb634-1f21-4e4d-aee9-c45ff0dc1c26.xml, compstui/PSPINFO, PPSPINFO, print.pspinfo, _PSPINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PSPINFO
 product: Windows
 targetos: Windows
-req.typenames: "*PPSPINFO, PSPINFO"
+req.typenames: PSPINFO, *PPSPINFO
 ---
 
 # _PSPINFO structure

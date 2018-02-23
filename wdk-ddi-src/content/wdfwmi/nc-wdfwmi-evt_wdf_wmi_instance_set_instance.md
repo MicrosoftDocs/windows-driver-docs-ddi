@@ -7,7 +7,7 @@ old-location: wdf\evtwmiinstancesetinstance.htm
 old-project: wdf
 ms.assetid: defd33c5-90ae-40c9-9123-7c3de2c77f35
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtwmiinstancesetinstance, EvtWmiInstanceSetInstance callback function, EvtWmiInstanceSetInstance, EVT_WDF_WMI_INSTANCE_SET_INSTANCE, EVT_WDF_WMI_INSTANCE_SET_INSTANCE, wdfwmi/EvtWmiInstanceSetInstance, DFWMIRef_28837d36-7a7e-4468-adbc-826bf4c75ef0.xml, kmdf.evtwmiinstancesetinstance
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EvtWmiInstanceSetInstance
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
+req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -158,14 +158,6 @@ The <b>EVT_WDF_WMI_INSTANCE_SET_INSTANCE</b> function type is defined in the Wdf
 
 
 
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
-
-
-
-<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_query_instance.md">EvtWmiInstanceQueryInstance</a>
-
-
-
 <a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
@@ -174,13 +166,21 @@ The <b>EVT_WDF_WMI_INSTANCE_SET_INSTANCE</b> function type is defined in the Wdf
 
 
 
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+
+
+
 <a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_execute_method.md">EvtWmiInstanceExecuteMethod</a>
 
 
 
- 
+<a href="..\wdfwmi\nc-wdfwmi-evt_wdf_wmi_instance_set_item.md">EvtWmiInstanceSetItem</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_WMI_INSTANCE_SET_INSTANCE callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

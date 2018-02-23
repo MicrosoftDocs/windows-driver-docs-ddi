@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetpipe2_configurecontinuousreader.htm
 old-project: wdf
 ms.assetid: accb2690-0ab7-4623-8493-545e6e722a7a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method, umdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader method, IWDFUsbTargetPipe2, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, IWDFUsbTargetPipe2::ConfigureContinuousReader, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface
+ms.date: 2/20/2018
+ms.keywords: IWDFUsbTargetPipe2, umdf.iwdfusbtargetpipe2_configurecontinuousreader, wudfusb/IWDFUsbTargetPipe2::ConfigureContinuousReader, ConfigureContinuousReader method, IWDFUsbTargetPipe2::ConfigureContinuousReader, UMDFUSBref_fbf1e16d-97a6-43c4-b667-a4715769009b.xml, ConfigureContinuousReader, wdf.iwdfusbtargetpipe2_configurecontinuousreader, ConfigureContinuousReader method, IWDFUsbTargetPipe2 interface, IWDFUsbTargetPipe2 interface, ConfigureContinuousReader method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -261,7 +261,7 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
 
 
 
@@ -269,11 +269,7 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
-
-
-
-<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556915">IUsbTargetPipeContinuousReaderCallbackReadersFailed::OnReaderFailure</a>
 
 
 
@@ -285,11 +281,15 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559217">IWDFIoTargetStateManagement::Stop</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559213">IWDFIoTargetStateManagement::Start</a>
+<a href="..\wudfusb\nn-wudfusb-iwdfusbtargetpipe2.md">IWDFUsbTargetPipe2</a>
 
 
 
@@ -297,5 +297,5 @@ hr = pIUsbInterruptPipe2-&gt;ConfigureContinuousReader(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe2::ConfigureContinuousReader method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe2::ConfigureContinuousReader method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

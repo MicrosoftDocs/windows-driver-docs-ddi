@@ -7,8 +7,8 @@ old-location: ifsk\iogettransactionparameterblock.htm
 old-project: ifsk
 ms.assetid: f07919f8-644f-43a4-98d7-d0f1a91d405d
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: IoGetTransactionParameterBlock, ntddk/IoGetTransactionParameterBlock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml, IoGetTransactionParameterBlock routine [Installable File System Drivers], ifsk.iogettransactionparameterblock
+ms.date: 2/16/2018
+ms.keywords: ntddk/IoGetTransactionParameterBlock, IoGetTransactionParameterBlock, IoGetTransactionParameterBlock routine [Installable File System Drivers], ifsk.iogettransactionparameterblock, ioref_4bce32be-89e0-4b69-9e44-a4b619588c79.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -91,5 +91,5 @@ The <b>IoGetTransactionParameterBlock</b> routine returns a pointer to the <a hr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoGetTransactionParameterBlock routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoGetTransactionParameterBlock routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

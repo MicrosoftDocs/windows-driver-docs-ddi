@@ -7,8 +7,8 @@ old-location: wdf\iwdfdriver_createdevice.htm
 old-project: wdf
 ms.assetid: df921271-b708-43bf-a250-048b7f638cac
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfdriver_createdevice, CreateDevice, CreateDevice method, IWDFDriver interface, wdf.iwdfdriver_createdevice, IWDFDriver::CreateDevice, wudfddi/IWDFDriver::CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, IWDFDriver, CreateDevice method, IWDFDriver interface, CreateDevice method
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfdriver_createdevice, wudfddi/IWDFDriver::CreateDevice, IWDFDriver::CreateDevice, CreateDevice, UMDFDriverObjectRef_9afa4fd4-210b-4055-855a-1f922eb0fc9c.xml, CreateDevice method, wdf.iwdfdriver_createdevice, IWDFDriver, CreateDevice method, IWDFDriver interface, IWDFDriver interface, CreateDevice method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDriver.CreateDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -245,19 +245,7 @@ CDriver::OnDeviceAdd(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
-
-
-
-<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
 
 
 
@@ -265,7 +253,7 @@ CDriver::OnDeviceAdd(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackhardware.md">IPnpCallbackHardware</a>
+<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
 
 
 
@@ -273,7 +261,19 @@ CDriver::OnDeviceAdd(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
+<a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554896">IDriverEntry::OnDeviceAdd</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
+
+
+
+<a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
 
 
 
@@ -281,11 +281,11 @@ CDriver::OnDeviceAdd(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
+<a href="..\wudfddi\nn-wudfddi-ifilecallbackclose.md">IFileCallbackClose</a>
 
 
 
-<a href="..\wudfddi\nn-wudfddi-ifilecallbackcleanup.md">IFileCallbackCleanup</a>
+<a href="..\wudfddi\nn-wudfddi-iobjectcleanup.md">IObjectCleanup</a>
 
 
 
@@ -293,5 +293,5 @@ CDriver::OnDeviceAdd(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDriver::CreateDevice method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDriver::CreateDevice method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

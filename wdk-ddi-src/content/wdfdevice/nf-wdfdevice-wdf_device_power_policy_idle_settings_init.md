@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_power_policy_idle_settings_init.htm
 old-project: wdf
 ms.assetid: e5a80021-1d9d-42f4-9344-9dd8d9524d0b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_device_power_policy_idle_settings_init, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, wdf.wdf_device_power_policy_idle_settings_init
+ms.date: 2/20/2018
+ms.keywords: WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function, wdfdevice/WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT, wdf.wdf_device_power_policy_idle_settings_init, kmdf.wdf_device_power_policy_idle_settings_init, DFDeviceObjectGeneralRef_1aaae0d7-3b13-43f6-b7e4-7c105b2e41b2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -78,7 +78,7 @@ A pointer to a driver-allocated <a href="..\wdfdevice\ns-wdfdevice-_wdf_device_p
 
 ### -param IdleCaps [in]
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator.
+A <a href="..\wdfdevice\ne-wdfdevice-_wdf_power_policy_s0_idle_capabilities.md">WDF_POWER_POLICY_S0_IDLE_CAPABILITIES</a>-typed enumerator.
 
 
 ## -returns
@@ -125,5 +125,5 @@ For a code example that uses <b>WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT</b>, 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_POWER_POLICY_IDLE_SETTINGS_INIT function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

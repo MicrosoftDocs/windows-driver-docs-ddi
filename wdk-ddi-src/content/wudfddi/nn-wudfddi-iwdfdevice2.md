@@ -7,7 +7,7 @@ old-location: wdf\iwdfdevice2.htm
 old-project: wdf
 ms.assetid: f4d3d2cf-8877-4071-8e75-f971803beca4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfdevice2, IWDFDevice2 interface, IWDFDevice2 interface, described, IWDFDevice2, wudfddi/IWDFDevice2, UMDFDeviceObjectRef_0b02d642-234d-4f98-b6d1-5557aa74eb14.xml, umdf.iwdfdevice2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice2
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

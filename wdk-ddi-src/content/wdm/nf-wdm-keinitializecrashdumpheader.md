@@ -7,13 +7,13 @@ old-location: kernel\keinitializecrashdumpheader.htm
 old-project: kernel
 ms.assetid: 6fa0cf86-35f4-4e5d-bced-ebd2ec499b64
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml, KeInitializeCrashDumpHeader, wdm/KeInitializeCrashDumpHeader, kernel.keinitializecrashdumpheader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: kernel.keinitializecrashdumpheader, wdm/KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader, KeInitializeCrashDumpHeader routine [Kernel-Mode Driver Architecture], k105_c15cf29a-9b95-4bec-9f9d-8664ac5e3cd3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: 
+req.include-header: Ntddk.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows Server 2003 with SP1.
 req.target-min-winversvr: 

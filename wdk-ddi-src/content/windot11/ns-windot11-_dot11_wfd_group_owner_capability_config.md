@@ -7,8 +7,8 @@ old-location: netvista\_dot11_wfd_group_owner_capability_config.htm
 old-project: netvista
 ms.assetid: 6114799B-D0AC-421A-9F02-EED9A4391C03
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista], DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, netvista._dot11_wfd_group_owner_capability_config, PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, *PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, windot11/DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
+ms.date: 2/16/2018
+ms.keywords: PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure pointer [Network Drivers Starting with Windows Vista], windot11/DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, windot11/PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, netvista._dot11_wfd_group_owner_capability_config, _DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure [Network Drivers Starting with Windows Vista], *PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, *PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG
+req.typenames: "*PDOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG, DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG"
 req.product: Windows 10 or later.
 ---
 
@@ -139,5 +139,5 @@ Maximum number of P2P Clients the GO should allow. Once this limit is reached, t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20 DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20 DOT11_WFD_GROUP_OWNER_CAPABILITY_CONFIG structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

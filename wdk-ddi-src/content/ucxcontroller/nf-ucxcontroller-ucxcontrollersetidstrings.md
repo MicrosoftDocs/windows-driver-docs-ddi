@@ -4,11 +4,11 @@ title: UcxControllerSetIdStrings function
 author: windows-driver-content
 description: Updates the identifier strings of a controller after the controller has been initialized.
 old-location: buses\ucxcontrollersetidstrings.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: FC0F6C02-C53A-4F7E-B718-70788FA807F3
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ucxcontroller/UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], buses.ucxcontrollersetidstrings, UcxControllerSetIdStrings
+ms.date: 2/15/2018
+ms.keywords: UcxControllerSetIdStrings, UcxControllerSetIdStrings function [Buses], ucxcontroller/UcxControllerSetIdStrings, buses.ucxcontrollersetidstrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

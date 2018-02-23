@@ -7,7 +7,7 @@ old-location: audio\idrmport2.htm
 old-project: audio
 ms.assetid: c0fa64cf-bfc7-415c-a30d-50bf6182cc3d
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.idrmport2, IDrmPort2 interface [Audio Devices], IDrmPort2 interface [Audio Devices], described, IDrmPort2, portcls/IDrmPort2, audmp-routines_93a46344-36f2-49ea-9091-93b4e810f195.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDrmPort2
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IDrmPort2 interface
@@ -49,7 +49,7 @@ req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
 ## -description
 
 
-The <code>IDrmPort2</code> interface is used by a WaveCyclic or WavePci miniport driver to manage DRM-protected content (see <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management</a>). The port driver implements this interface and exposes it to the miniport driver. The WaveCyclic and WavePci port drivers support this interface. To determine whether a port driver supports the <code>IDrmPort2</code> interface, a miniport driver calls the port (<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a> or <a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>) object's <b>QueryInterface</b> method with REFIID <b>IID_IDrmPort2</b>. <code>IDrmPort2</code> inherits from the <a href="..\portcls\nn-portcls-idrmport.md">IDrmPort</a> interface.
+The <code>IDrmPort2</code> interface is used by a WaveCyclic or WavePci miniport driver to manage DRM-protected content (see <a href="https://msdn.microsoft.com/7ce19196-5180-421f-b6be-ac4a235a8c16">Digital Rights Management</a>). The port driver implements this interface and exposes it to the miniport driver. The WaveCyclic and WavePci port drivers support this interface. To determine whether a port driver supports the <code>IDrmPort2</code> interface, a miniport driver calls the port (<a href="..\portcls\nn-portcls-iportwavecyclic.md">IPortWaveCyclic</a> or <a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>) object's <b>QueryInterface</b> method with REFIID <b>IID_IDrmPort2</b>. <code>IDrmPort2</code> inherits from the <a href="..\portcls\nn-portcls-idrmport.md">IDrmPort</a> interface.
 
 The methods in this interface serve as alternate entry points to the <a href="https://msdn.microsoft.com/library/windows/hardware/ff536356">DRM functions</a> in the <a href="https://msdn.microsoft.com/827997e2-6f07-4635-ac35-4ad026b82eae">DRMK system driver</a>, drmk.sys.
 

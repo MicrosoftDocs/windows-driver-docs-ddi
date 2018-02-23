@@ -4,11 +4,11 @@ title: IStiUSD::Escape method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::Escape method performs a vendor-specific I/O operation on a still image device.
 old-location: image\istiusd_escape.htm
-old-project: image
+old-project: Image
 ms.assetid: 9129e776-b5d0-4f53-b2be-67e593369c6c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.istiusd_escape, IStiUSD::Escape, Escape method [Imaging Devices], IStiUSD interface, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, Escape method [Imaging Devices], IStiUSD, stiusd/IStiUSD::Escape, IStiUSD interface [Imaging Devices], Escape method, Escape
+ms.date: 2/15/2018
+ms.keywords: IStiUSD::Escape, image.istiusd_escape, stifnc_74a53282-ebd8-4c87-97b1-58195b40a1af.xml, IStiUSD interface [Imaging Devices], Escape method, Escape method [Imaging Devices], IStiUSD, Escape, stiusd/IStiUSD::Escape, Escape method [Imaging Devices], IStiUSD interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.Escape
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -136,5 +136,5 @@ A still image minidriver only needs to implement <b>IStiUSD::Escape</b> if I/O o
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::Escape method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::Escape method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

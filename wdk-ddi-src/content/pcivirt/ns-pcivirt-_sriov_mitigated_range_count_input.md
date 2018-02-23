@@ -7,8 +7,8 @@ old-location: pci\sriov_mitigated_range_count_input.htm
 old-project: PCI
 ms.assetid: 7de35a35-2b90-421d-bbde-4c5cb760070a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], _SRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input, pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT
+ms.date: 2/15/2018
+ms.keywords: pcivirt/SRIOV_MITIGATED_RANGE_COUNT_INPUT, _SRIOV_MITIGATED_RANGE_COUNT_INPUT, PCI.sriov_mitigated_range_count_input, SRIOV_MITIGATED_RANGE_COUNT_INPUT structure [Buses], SRIOV_MITIGATED_RANGE_COUNT_INPUT, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SRIOV_MITIGATED_RANGE_COUNT_INPUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSRIOV_MITIGATED_RANGE_COUNT_INPUT, SRIOV_MITIGATED_RANGE_COUNT_INPUT"
+req.typenames: SRIOV_MITIGATED_RANGE_COUNT_INPUT, *PSRIOV_MITIGATED_RANGE_COUNT_INPUT
 ---
 
 # _SRIOV_MITIGATED_RANGE_COUNT_INPUT structure
@@ -82,5 +82,5 @@ Zero-based index of the virtual function from the first virtual function exposed
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20SRIOV_MITIGATED_RANGE_COUNT_INPUT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20SRIOV_MITIGATED_RANGE_COUNT_INPUT structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

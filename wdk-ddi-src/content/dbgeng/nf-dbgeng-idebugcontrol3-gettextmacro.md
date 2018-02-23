@@ -4,11 +4,11 @@ title: IDebugControl3::GetTextMacro method
 author: windows-driver-content
 description: The GetTextMacro method returns the value of a fixed-name alias.
 old-location: debugger\gettextmacro.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 980bcf7b-8e4a-4516-ab71-af60a1d8e99c
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl3::GetTextMacro, dbgeng/IDebugControl2::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl3 interface, IDebugControl3, GetTextMacro, dbgeng/IDebugControl::GetTextMacro, IDebugControl interface [Windows Debugging], GetTextMacro method, IDebugControl2::GetTextMacro, IDebugControl3::GetTextMacro, debugger.gettextmacro, IDebugControl2 interface [Windows Debugging], GetTextMacro method, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, IDebugControl2, GetTextMacro method [Windows Debugging], IDebugControl2 interface, IDebugControl, IDebugControl3 interface [Windows Debugging], GetTextMacro method, GetTextMacro method [Windows Debugging], IDebugControl interface, IDebugControl::GetTextMacro, GetTextMacro method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: IDebugControl2::GetTextMacro, IDebugControl3, IDebugControl2, IDebugControl, IDebugControl3 interface [Windows Debugging], GetTextMacro method, IDebugControl_b6408c67-fb45-4a11-94b4-24099f406a8a.xml, GetTextMacro method [Windows Debugging], GetTextMacro method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl2::GetTextMacro, GetTextMacro, dbgeng/IDebugControl3::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl3 interface, debugger.gettextmacro, IDebugControl::GetTextMacro, IDebugControl interface [Windows Debugging], GetTextMacro method, dbgeng/IDebugControl::GetTextMacro, IDebugControl2 interface [Windows Debugging], GetTextMacro method, IDebugControl3::GetTextMacro, GetTextMacro method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetTextMacro
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetTextMacro method
@@ -133,7 +133,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554663">r (Registers)</a>
 
 
 
@@ -141,7 +141,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
 
 
 
@@ -149,11 +149,7 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547988">GetNumberTextReplacements</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556809">SetTextMacro</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -161,9 +157,13 @@ For an overview of aliases used by the <a href="https://msdn.microsoft.com/fa52a
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549280">GetTextReplacement</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetTextMacro method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetTextMacro method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

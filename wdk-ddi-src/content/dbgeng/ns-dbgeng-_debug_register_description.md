@@ -4,11 +4,11 @@ title: "_DEBUG_REGISTER_DESCRIPTION"
 author: windows-driver-content
 description: The DEBUG_REGISTER_DESCRIPTION structure is returned by GetDescription to describe a processor's register.
 old-location: debugger\debug_register_description.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 92e7800d-4de6-498c-87f8-8690d7e8fc51
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.debug_register_description, Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, *PDEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, dbgeng/DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], dbgeng/PDEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging], _DEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION
+ms.date: 2/15/2018
+ms.keywords: DEBUG_REGISTER_DESCRIPTION structure [Windows Debugging], dbgeng/DEBUG_REGISTER_DESCRIPTION, DEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION, _DEBUG_REGISTER_DESCRIPTION, Structures_a7dd005e-3383-4c58-8b01-fe2127d6bc20.xml, debugger.debug_register_description, dbgeng/PDEBUG_REGISTER_DESCRIPTION, *PDEBUG_REGISTER_DESCRIPTION, PDEBUG_REGISTER_DESCRIPTION structure pointer [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

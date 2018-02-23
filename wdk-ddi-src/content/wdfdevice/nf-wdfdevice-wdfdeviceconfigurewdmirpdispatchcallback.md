@@ -7,8 +7,8 @@ old-location: wdf\wdfdeviceconfigurewdmirpdispatchcallback.htm
 old-project: wdf
 ms.assetid: 594E0FF1-A965-4CE4-A2EA-C9098685FCED
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFDEVICECONFIGUREWDMIRPDISPATCHCALLBACK, WdfDeviceConfigureWdmIrpDispatchCallback method, WdfDeviceConfigureWdmIrpDispatchCallback, kmdf.wdfdeviceconfigurewdmirpdispatchcallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback
+ms.date: 2/20/2018
+ms.keywords: WdfDeviceConfigureWdmIrpDispatchCallback, wdf.wdfdeviceconfigurewdmirpdispatchcallback, WdfDeviceConfigureWdmIrpDispatchCallback method, wdfdevice/WdfDeviceConfigureWdmIrpDispatchCallback, kmdf.wdfdeviceconfigurewdmirpdispatchcallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -169,11 +169,11 @@ A driver might call the <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method f
 
 ## -see-also
 
+<a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirp.md">WdfDeviceWdmDispatchIrp</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdfdevicewdmdispatchirptoioqueue.md">WdfDeviceWdmDispatchIrpToIoQueue</a>
-
-
-
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdfdevice_wdm_irp_dispatch.md">EvtDeviceWdmIrpDispatch</a>
 
 
 
@@ -185,5 +185,5 @@ A driver might call the <b>WdfDeviceConfigureWdmIrpDispatchCallback</b> method f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceConfigureWdmIrpDispatchCallback method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceConfigureWdmIrpDispatchCallback method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

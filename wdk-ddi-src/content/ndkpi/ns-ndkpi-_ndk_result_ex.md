@@ -7,8 +7,8 @@ old-location: netvista\ndk_result_ex.htm
 old-project: netvista
 ms.assetid: C79BF9FC-4836-48AD-8E9F-41278BB01E11
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, ndkpi/PNDK_RESULT_EX, ndkpi/NDK_RESULT_EX, NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], netvista.ndk_result_ex, PNDK_RESULT_EX
+ms.date: 2/16/2018
+ms.keywords: NDK_RESULT_EX structure [Network Drivers Starting with Windows Vista], _NDK_RESULT_EX, NDK_RESULT_EX, netvista.ndk_result_ex, ndkpi/NDK_RESULT_EX, PNDK_RESULT_EX structure pointer [Network Drivers Starting with Windows Vista], ndkpi/PNDK_RESULT_EX, PNDK_RESULT_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -104,7 +104,7 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 ## -see-also
 
-<a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
 
 
@@ -112,7 +112,11 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
+<a href="..\ndkpi\ne-ndkpi-_ndk_operation_type.md">NDK_OPERATION_TYPE</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_result.md">NDK_RESULT</a>
 
 
 
@@ -124,5 +128,5 @@ The type-specific completion output, if any. If the  <b>Type</b> member is <b>Nd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_RESULT_EX structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_RESULT_EX structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

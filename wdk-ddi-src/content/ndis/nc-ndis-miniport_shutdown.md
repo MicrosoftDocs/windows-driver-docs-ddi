@@ -7,7 +7,7 @@ old-location: netvista\miniportshutdownex.htm
 old-project: netvista
 ms.assetid: 7c88ff02-e791-4642-ad40-78f2ef2cba7d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.miniportshutdownex, MiniportShutdownEx callback function [Network Drivers Starting with Windows Vista], MiniportShutdownEx, MINIPORT_SHUTDOWN, MINIPORT_SHUTDOWN, ndis/MiniportShutdownEx, miniport_functions_ref_1ef84db9-b4af-4e59-9bb8-6f467a0866d5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	MiniportShutdownEx
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # MINIPORT_SHUTDOWN callback
@@ -198,11 +198,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/57d964f1-03c7-4b54-9d04-1d187c96e052">Miniport Adapter Shutdown</a>
-
-
-
-<a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
+<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
 
 
 
@@ -210,7 +206,11 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="..\ndis\nf-ndis-ndismregisterminiportdriver.md">NdisMRegisterMiniportDriver</a>
+<a href="https://msdn.microsoft.com/b47e2cbe-9da3-4600-9afe-b082e60b87fb">Miniport Adapter States and Operations</a>
+
+
+
+<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
 
 
 
@@ -222,7 +222,7 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
 
 
-<a href="https://msdn.microsoft.com/3ca03511-a912-4ee3-bd9f-1bd8e6996c48">Adapter States of a Miniport Driver</a>
+<a href="..\ndis\nf-ndis-ndismsetbusdata.md">NdisMSetBusData</a>
 
 
 
@@ -230,5 +230,5 @@ For information about  _Use_decl_annotations_, see <a href="http://go.microsoft.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_SHUTDOWN callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20MINIPORT_SHUTDOWN callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

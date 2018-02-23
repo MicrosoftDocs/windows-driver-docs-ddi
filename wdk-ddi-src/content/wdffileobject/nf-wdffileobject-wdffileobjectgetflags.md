@@ -7,8 +7,8 @@ old-location: wdf\wdffileobjectgetflags.htm
 old-project: wdf
 ms.assetid: f2f30acb-cab7-444a-8b86-6001a8a325b9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, PFN_WDFFILEOBJECTGETFLAGS, wdffileobject/WdfFileObjectGetFlags, WdfFileObjectGetFlags method, wdf.wdffileobjectgetflags, WdfFileObjectGetFlags, kmdf.wdffileobjectgetflags
+ms.date: 2/20/2018
+ms.keywords: WdfFileObjectGetFlags, WdfFileObjectGetFlags method, DFFileObjectRef_5f2f8f12-9a16-4fb5-88ae-ee726a278cc5.xml, wdffileobject/WdfFileObjectGetFlags, kmdf.wdffileobjectgetflags, wdf.wdffileobjectgetflags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfFileObjectGetFlags
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

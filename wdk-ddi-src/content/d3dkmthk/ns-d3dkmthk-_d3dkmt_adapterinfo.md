@@ -7,8 +7,8 @@ old-location: display\d3dkmt_adapterinfo.htm
 old-project: display
 ms.assetid: 4b780fb7-f6d4-4248-882c-d0cc96106724
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_ADAPTERINFO structure [Display Devices], D3DKMT_ADAPTERINFO, _D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, display.d3dkmt_adapterinfo
+ms.date: 2/20/2018
+ms.keywords: display.d3dkmt_adapterinfo, D3DKMT_ADAPTERINFO, d3dkmthk/D3DKMT_ADAPTERINFO, _D3DKMT_ADAPTERINFO, D3DKMT_ADAPTERINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

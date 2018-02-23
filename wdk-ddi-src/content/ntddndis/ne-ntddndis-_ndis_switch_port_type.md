@@ -7,8 +7,8 @@ old-location: netvista\ndis_switch_port_type.htm
 old-project: netvista
 ms.assetid: 4FCE88BC-6FA1-44D0-9BC1-3065A5EEE1A0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndis_switch_port_type, ntddndis/NdisSwitchPortTypeGeneric, PNDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeEmulated, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeInternal, ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeInternal, ntddndis/NdisSwitchPortTypeSynthetic, NdisSwitchPortTypeGeneric, NdisSwitchPortTypeSynthetic, NdisSwitchPortTypeExternal, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], NdisSwitchPortTypeEmulated, ntddndis/PNDIS_SWITCH_PORT_TYPE, _NDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE
+ms.date: 2/16/2018
+ms.keywords: NdisSwitchPortTypeInternal, NDIS_SWITCH_PORT_TYPE enumeration [Network Drivers Starting with Windows Vista], ntddndis/NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeInternal, NdisSwitchPortTypeEmulated, ntddndis/PNDIS_SWITCH_PORT_TYPE, NDIS_SWITCH_PORT_TYPE, ntddndis/NdisSwitchPortTypeGeneric, NdisSwitchPortTypeSynthetic, NdisSwitchPortTypeGeneric, ntddndis/NdisSwitchPortTypeSynthetic, NdisSwitchPortTypeExternal, ntddndis/NdisSwitchPortTypeEmulated, _NDIS_SWITCH_PORT_TYPE, netvista.ndis_switch_port_type, PNDIS_SWITCH_PORT_TYPE, PNDIS_SWITCH_PORT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisSwitchPortTypeExternal
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -140,5 +140,5 @@ For more information on the extensible switch ports, see <a href="https://msdn.m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

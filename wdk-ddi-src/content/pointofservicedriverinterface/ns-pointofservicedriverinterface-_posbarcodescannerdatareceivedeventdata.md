@@ -7,8 +7,8 @@ old-location: pos\posbarcodescannerdatareceivedeventdata.htm
 old-project: pos
 ms.assetid: 220713c4-ecfe-43a2-aebf-f1b00b75e49b
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.posbarcodescannerdatareceivedeventdata, PosBarcodeScannerDataReceivedEventData structure, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData, _PosBarcodeScannerDataReceivedEventData
+ms.date: 2/19/2018
+ms.keywords: "_PosBarcodeScannerDataReceivedEventData, PosBarcodeScannerDataReceivedEventData structure, PosBarcodeScannerDataReceivedEventData, pointofservicedriverinterface/PosBarcodeScannerDataReceivedEventData, pos.posbarcodescannerdatareceivedeventdata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

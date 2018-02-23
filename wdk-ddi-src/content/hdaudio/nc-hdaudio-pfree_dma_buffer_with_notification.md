@@ -7,7 +7,7 @@ old-location: audio\freedmabufferwithnotification.htm
 old-project: audio
 ms.assetid: 98fc6201-d9b4-4c85-b624-011f360df068
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.freedmabufferwithnotification, FreeDmaBufferWithNotification callback function [Audio Devices], FreeDmaBufferWithNotification, PFREE_DMA_BUFFER_WITH_NOTIFICATION, PFREE_DMA_BUFFER_WITH_NOTIFICATION, hdaudio/FreeDmaBufferWithNotification, aud-prop2_065b7aad-f695-4076-9450-3311083ac17b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	FreeDmaBufferWithNotification
 product: Windows
 targetos: Windows
-req.typenames: SM_SetRNIDMgmtInfo_OUT, *PSM_SetRNIDMgmtInfo_OUT
+req.typenames: "*PSM_SetRNIDMgmtInfo_OUT, SM_SetRNIDMgmtInfo_OUT"
 ---
 
 # PFREE_DMA_BUFFER_WITH_NOTIFICATION callback
@@ -177,11 +177,11 @@ Callers of FreeDmaBufferWithNotification must be running at IRQL PASSIVE_LEVEL.
 
 
 
-<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
-
-
-
 <a href="..\hdaudio\nc-hdaudio-pallocate_render_dma_engine.md">AllocateRenderDmaEngine</a>
+
+
+
+<a href="..\hdaudio\ns-hdaudio-_hdaudio_bus_interface_v2.md">HDAUDIO_BUS_INTERFACE_V2</a>
 
 
 
@@ -193,5 +193,5 @@ Callers of FreeDmaBufferWithNotification must be running at IRQL PASSIVE_LEVEL.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PFREE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PFREE_DMA_BUFFER_WITH_NOTIFICATION callback function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

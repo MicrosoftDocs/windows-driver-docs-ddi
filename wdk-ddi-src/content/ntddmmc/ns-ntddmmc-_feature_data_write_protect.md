@@ -7,8 +7,8 @@ old-location: storage\feature_data_write_protect.htm
 old-project: storage
 ms.assetid: 16582fce-179a-4a99-9e4c-6f7ca1d3ddef
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], storage.feature_data_write_protect, PFEATURE_DATA_WRITE_PROTECT, _FEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT, ntddmmc/PFEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT, structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml, ntddmmc/FEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: structs-CD-ROM_67c6f24f-271e-4452-8b5f-fc6719c1d291.xml, ntddmmc/FEATURE_DATA_WRITE_PROTECT, storage.feature_data_write_protect, FEATURE_DATA_WRITE_PROTECT structure [Storage Devices], FEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT structure pointer [Storage Devices], _FEATURE_DATA_WRITE_PROTECT, PFEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT, ntddmmc/PFEATURE_DATA_WRITE_PROTECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FEATURE_DATA_WRITE_PROTECT
 product: Windows
 targetos: Windows
-req.typenames: FEATURE_DATA_WRITE_PROTECT, *PFEATURE_DATA_WRITE_PROTECT
+req.typenames: "*PFEATURE_DATA_WRITE_PROTECT, FEATURE_DATA_WRITE_PROTECT"
 ---
 
 # _FEATURE_DATA_WRITE_PROTECT structure
@@ -125,5 +125,5 @@ This structure holds data for the feature named "Write Protect" by the <i>MMC-3 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_WRITE_PROTECT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_WRITE_PROTECT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

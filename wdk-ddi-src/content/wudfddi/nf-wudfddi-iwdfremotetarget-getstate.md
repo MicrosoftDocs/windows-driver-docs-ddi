@@ -7,8 +7,8 @@ old-location: wdf\iwdfremotetarget_getstate.htm
 old-project: wdf
 ms.assetid: 3918d764-c5bb-42b6-8b06-a2d544511a96
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, wudfddi/IWDFRemoteTarget::GetState, GetState method, IWDFRemoteTarget interface, IWDFRemoteTarget, IWDFRemoteTarget::GetState, umdf.iwdfremotetarget_getstate, IWDFRemoteTarget interface, GetState method, GetState, wdf.iwdfremotetarget_getstate, GetState method
+ms.date: 2/20/2018
+ms.keywords: GetState method, IWDFRemoteTarget::GetState, IWDFRemoteTarget interface, GetState method, GetState method, IWDFRemoteTarget interface, wudfddi/IWDFRemoteTarget::GetState, umdf.iwdfremotetarget_getstate, UMDFIoTargetObjectRef_34bf0f92-927a-4733-9897-5aa146998136.xml, GetState, wdf.iwdfremotetarget_getstate, IWDFRemoteTarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteTarget.GetState
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -108,17 +108,17 @@ The following code example determines whether a remote I/O target is closed.
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfremotetarget.md">IWDFRemoteTarget</a>
 
 
 
- 
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_state.md">WDF_IO_TARGET_STATE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::GetState method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFRemoteTarget::GetState method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

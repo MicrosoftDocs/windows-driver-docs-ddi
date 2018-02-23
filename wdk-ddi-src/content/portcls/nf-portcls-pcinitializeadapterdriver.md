@@ -7,8 +7,8 @@ old-location: audio\pcinitializeadapterdriver.htm
 old-project: audio
 ms.assetid: c9d019da-a05b-4c60-99e9-06b8537fa78e
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: portcls/PcInitializeAdapterDriver, PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml, audio.pcinitializeadapterdriver
+ms.date: 2/21/2018
+ms.keywords: PcInitializeAdapterDriver, portcls/PcInitializeAdapterDriver, PcInitializeAdapterDriver function [Audio Devices], audio.pcinitializeadapterdriver, audpc-routines_57c7e54d-ab27-4752-b13b-9d7de107322c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcInitializeAdapterDriver
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcInitializeAdapterDriver function
@@ -179,11 +179,11 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
 
 
+<a href="..\portcls\nf-portcls-pcaddadapterdevice.md">PcAddAdapterDevice</a>
+
+
+
 <a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
-
-
-
-<a href="..\portcls\nf-portcls-pcdispatchirp.md">PcDispatchIrp</a>
 
 
 
@@ -195,5 +195,5 @@ An adapter driver that overwrites one or more of the pointers above with a point
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcInitializeAdapterDriver function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcInitializeAdapterDriver function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

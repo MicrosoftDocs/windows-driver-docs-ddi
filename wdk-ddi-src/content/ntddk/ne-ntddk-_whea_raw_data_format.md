@@ -7,8 +7,8 @@ old-location: whea\whea_raw_data_format.htm
 old-project: whea
 ms.assetid: 809f2d72-e769-48c1-9ecf-6fa9020f6cdb
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: WheaRawDataFormatIPFSalRecord, ntddk/WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatAMD64MCA, WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatMemory, WheaRawDataFormatIntel64MCA, ntddk/WheaRawDataFormatIPFSalRecord, ntddk/WheaRawDataFormatNMIPort, *PWHEA_RAW_DATA_FORMAT, WheaRawDataFormatAMD64MCA, WheaRawDataFormatPCIXBus, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml, WheaRawDataFormatMax, ntddk/WheaRawDataFormatIA32MCA, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], WHEA_RAW_DATA_FORMAT, WheaRawDataFormatNMIPort, WheaRawDataFormatPCIExpress, WheaRawDataFormatMemory, _WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatPCIXDevice, WheaRawDataFormatIA32MCA, WheaRawDataFormatPCIXDevice, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], ntddk/WheaRawDataFormatPCIExpress, ntddk/WheaRawDataFormatMax, ntddk/WheaRawDataFormatPCIXBus, PWHEA_RAW_DATA_FORMAT, ntddk/PWHEA_RAW_DATA_FORMAT, whea.whea_raw_data_format, ntddk/WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIntel64MCA
+ms.date: 2/20/2018
+ms.keywords: ntddk/WheaRawDataFormatMax, ntddk/WheaRawDataFormatIA32MCA, ntddk/WheaRawDataFormatPCIXBus, WheaRawDataFormatIntel64MCA, ntddk/WheaRawDataFormatIntel64MCA, WheaRawDataFormatAMD64MCA, ntddk/WheaRawDataFormatMemory, whea.whea_raw_data_format, WheaRawDataFormatMemory, ntddk/PWHEA_RAW_DATA_FORMAT, ntddk/WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatNMIPort, WheaRawDataFormatPCIXBus, WheaRawDataFormatPCIExpress, *PWHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatPCIXDevice, WHEA_RAW_DATA_FORMAT enumeration [WHEA Drivers and Applications], WheaRawDataFormatIPFSalRecord, ntddk/WheaRawDataFormatAMD64MCA, whearef_9ecb0580-4372-40f3-93da-4f866ee6211f.xml, WheaRawDataFormatMax, WHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatGeneric, WheaRawDataFormatIA32MCA, PWHEA_RAW_DATA_FORMAT enumeration pointer [WHEA Drivers and Applications], _WHEA_RAW_DATA_FORMAT, PWHEA_RAW_DATA_FORMAT, ntddk/WheaRawDataFormatPCIExpress, WheaRawDataFormatNMIPort, WheaRawDataFormatGeneric, ntddk/WheaRawDataFormatIPFSalRecord, WheaRawDataFormatPCIXDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -143,7 +143,7 @@ The <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540659">HalQuerySystemInformation</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537457">PCI_EXPRESS_AER_CAPABILITY</a>
 
 
 
@@ -163,5 +163,5 @@ The <a href="..\ntddk\ns-ntddk-_whea_error_packet_v1.md">WHEA_ERROR_PACKET_V1</a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_RAW_DATA_FORMAT enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_RAW_DATA_FORMAT enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

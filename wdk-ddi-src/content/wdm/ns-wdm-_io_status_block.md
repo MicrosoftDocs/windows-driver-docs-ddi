@@ -7,13 +7,13 @@ old-location: kernel\io_status_block.htm
 old-project: kernel
 ms.assetid: 1ce2b1d0-a8b2-4a05-8895-e13802690a7b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PIO_STATUS_BLOCK, kernel.io_status_block, wdm/IO_STATUS_BLOCK, *PIO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture], _IO_STATUS_BLOCK, IO_STATUS_BLOCK, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], wdm/PIO_STATUS_BLOCK
+ms.date: 2/16/2018
+ms.keywords: PIO_STATUS_BLOCK, _IO_STATUS_BLOCK, IO_STATUS_BLOCK, kernel.io_status_block, *PIO_STATUS_BLOCK, PIO_STATUS_BLOCK structure pointer [Kernel-Mode Driver Architecture], wdm/IO_STATUS_BLOCK, kstruct_b_f0869bcd-fcf0-427a-9bda-fc925c0bf0f8.xml, wdm/PIO_STATUS_BLOCK, IO_STATUS_BLOCK structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Wudfwdm.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -77,19 +77,19 @@ typedef struct _IO_STATUS_BLOCK {
  
 
 
-### -field DUMMYUNIONNAME.Status
+### -field Information
+
+This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
+
+
+#### - Status
 
 This is the completion status, either STATUS_SUCCESS if the requested operation was completed successfully or an informational, warning, or error STATUS_<i>XXX</i> value. For more information, see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>.
 
 
-### -field DUMMYUNIONNAME.Pointer
+#### - Pointer
 
 Reserved. For internal use only.
-
-
-### -field Information
-
-This is set to a request-dependent value. For example, on successful completion of a transfer request, this is set to the number of bytes transferred. If a transfer request is completed with another STATUS_<i>XXX</i>, this member is set to zero. 
 
 
 ## -remarks
@@ -109,7 +109,7 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
@@ -117,17 +117,17 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
-
-
-
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
- 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_STATUS_BLOCK structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_STATUS_BLOCK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

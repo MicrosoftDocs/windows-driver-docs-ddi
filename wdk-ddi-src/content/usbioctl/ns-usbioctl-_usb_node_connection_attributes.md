@@ -4,11 +4,11 @@ title: "_USB_NODE_CONNECTION_ATTRIBUTES"
 author: windows-driver-content
 description: The USB_NODE_CONNECTION_ATTRIBUTES structure is used with the IOCTL_USB_GET_NODE_CONNECTION_ATTRIBUTES I/O control request to retrieve the attributes of a connection.
 old-location: buses\usb_node_connection_attributes.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 893dc1f2-785e-434e-88c7-9bbf2f1c4ad6
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], USB_NODE_CONNECTION_ATTRIBUTES, *PUSB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES, _USB_NODE_CONNECTION_ATTRIBUTES, buses.usb_node_connection_attributes, usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: "*PUSB_NODE_CONNECTION_ATTRIBUTES, usbstrct_20423110-ee37-4637-8202-e712bb13d43b.xml, _USB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES structure pointer [Buses], USB_NODE_CONNECTION_ATTRIBUTES structure [Buses], USB_NODE_CONNECTION_ATTRIBUTES, usbioctl/PUSB_NODE_CONNECTION_ATTRIBUTES, buses.usb_node_connection_attributes, usbioctl/USB_NODE_CONNECTION_ATTRIBUTES, PUSB_NODE_CONNECTION_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USB_NODE_CONNECTION_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: USB_NODE_CONNECTION_ATTRIBUTES, *PUSB_NODE_CONNECTION_ATTRIBUTES
+req.typenames: "*PUSB_NODE_CONNECTION_ATTRIBUTES, USB_NODE_CONNECTION_ATTRIBUTES"
 req.product: Windows 10 or later.
 ---
 
@@ -93,6 +93,10 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
+
 <a href="..\usbioctl\ne-usbioctl-_usb_connection_status.md">USB_CONNECTION_STATUS</a>
 
 
@@ -101,13 +105,9 @@ For Windows XP and Windows Server 2003, <b>PortAttributes</b> value might be s
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USB_NODE_CONNECTION_ATTRIBUTES structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USB_NODE_CONNECTION_ATTRIBUTES structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

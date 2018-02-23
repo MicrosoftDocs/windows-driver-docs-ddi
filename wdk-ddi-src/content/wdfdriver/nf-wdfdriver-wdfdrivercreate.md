@@ -7,8 +7,8 @@ old-location: wdf\wdfdrivercreate.htm
 old-project: wdf
 ms.assetid: 2b8cea0f-bca0-4ffa-834b-d7c079cf93d8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDriverCreate, PFN_WDFDRIVERCREATE, wdf.wdfdrivercreate, WdfDriverCreate method, DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, kmdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfdrivercreate, DFDriverObjectRef_10e33793-b3e1-4938-9b82-439451aceb86.xml, WdfDriverCreate, WdfDriverCreate method, kmdf.wdfdrivercreate, wdfdriver/WdfDriverCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,11 +209,7 @@ DriverEntry(
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
-<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -221,15 +217,7 @@ DriverEntry(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552644">DriverEntry</a>
-
-
-
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+<a href="..\wdfdriver\nf-wdfdriver-wdf_driver_config_init.md">WDF_DRIVER_CONFIG_INIT</a>
 
 
 
@@ -237,9 +225,21 @@ DriverEntry(
 
 
 
- 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+
+
+
+<a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_config.md">WDF_DRIVER_CONFIG</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDriverCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDriverCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

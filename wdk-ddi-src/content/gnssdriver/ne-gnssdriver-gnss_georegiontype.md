@@ -7,8 +7,8 @@ old-location: sensors\gnss_georegiontype.htm
 old-project: sensors
 ms.assetid: 736A1D63-A96E-4E29-ADFD-F441AC4757C6
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: sensors.gnss_georegiontype, GNSS_GEOREGIONTYPE, GNSS_GeoRegion_Circle, gnssdriver/GNSS_GEOREGIONTYPE, GNSS_GEOREGIONTYPE enumeration [Sensor Devices], gnssdriver/GNSS_GeoRegion_Circle
+ms.date: 2/15/2018
+ms.keywords: gnssdriver/GNSS_GeoRegion_Circle, gnssdriver/GNSS_GEOREGIONTYPE, GNSS_GEOREGIONTYPE, sensors.gnss_georegiontype, GNSS_GeoRegion_Circle, GNSS_GEOREGIONTYPE enumeration [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

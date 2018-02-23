@@ -7,7 +7,7 @@ old-location: battery\ioctl_cad_get_battery_provisioning_status.htm
 old-project: battery
 ms.assetid: 4E92A629-C080-4C32-8768-D0615F35B161
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: battery.ioctl_cad_get_battery_provisioning_status, IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS control code [Battery Devices], IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS, charging/IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS
 product: Windows
 targetos: Windows
-req.typenames: POWERSOURCEID, *PPOWERSOURCEID
+req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
 ---
 
 # IOCTL_CAD_GET_BATTERY_PROVISIONING_STATUS IOCTL

@@ -7,8 +7,8 @@ old-location: print\gdistartpageemf.htm
 old-project: print
 ms.assetid: 963c809f-da89-4f27-ba8b-3de8cdcec179
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, winppi/GdiStartPageEMF, GdiStartPageEMF function [Print Devices], GdiStartPageEMF, print.gdistartpageemf
+ms.date: 2/21/2018
+ms.keywords: GdiStartPageEMF function [Print Devices], gdifnc_fbb09921-04b5-49e2-b8a7-fe23657a0f4f.xml, print.gdistartpageemf, GdiStartPageEMF, winppi/GdiStartPageEMF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,5 +107,5 @@ For additional information, see <a href="https://msdn.microsoft.com/2ad62308-ab4
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GdiStartPageEMF function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20GdiStartPageEMF function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

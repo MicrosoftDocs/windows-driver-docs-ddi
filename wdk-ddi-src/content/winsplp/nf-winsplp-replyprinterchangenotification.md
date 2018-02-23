@@ -7,8 +7,8 @@ old-location: print\replyprinterchangenotification.htm
 old-project: print
 ms.assetid: 0b5378fa-ab1d-453f-b976-f6cd0d4247de
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: winsplp/ReplyPrinterChangeNotification, spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, ReplyPrinterChangeNotification function [Print Devices], print.replyprinterchangenotification, ReplyPrinterChangeNotification
+ms.date: 2/21/2018
+ms.keywords: spoolfnc_524073df-9320-46d6-b4fe-6d3b73ccbe5b.xml, ReplyPrinterChangeNotification function [Print Devices], ReplyPrinterChangeNotification, print.replyprinterchangenotification, winsplp/ReplyPrinterChangeNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -93,7 +93,7 @@ Optional. Caller-supplieid address of a PRINTER_NOTIFY_INFO structure (described
 
 #### - fdwFlags
 
-One or more caller-supplied PRINTER_CHANGE_-prefixed flags, listed in the Microsoft Windows SDK documentation's description of <b>FindNextPrinterChangeNotification</b>.
+Caller-supplied handle. This handle must have been previously received as the <i>hNotify</i> input to the print provider's <a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a> function.
 
 
 #### - hNotify [in]
@@ -114,7 +114,7 @@ If the operation succeeds, the function returns <b>TRUE</b>. Otherwise the funct
 
 
 
-Print providers that do not support polling (see <a href="..\winspool\nf-winspool-findfirstprinterchangenotification.md">FindFirstPrinterChangeNotification</a>) must notify the spooler of the occurrence of any events represented by the PRINTER_CHANGE_-prefixed flags received by the provider's <b>FindFirstPrinterChangeNotification</b> function. When an event occurs, the print provider can call <code>ReplyPrinterChangeNotification</code> to inform the spooler of the event and to supply information associated with the event. The spooler keeps track of this event information, for each notification handle, and delivers the information to an application when the application calls <b>FindNextPrinterChangeNotification</b> (described in the Windows SDK documentation).
+Print providers that do not support polling (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a>) must notify the spooler of the occurrence of any events represented by the PRINTER_CHANGE_-prefixed flags received by the provider's <b>FindFirstPrinterChangeNotification</b> function. When an event occurs, the print provider can call <code>ReplyPrinterChangeNotification</code> to inform the spooler of the event and to supply information associated with the event. The spooler keeps track of this event information, for each notification handle, and delivers the information to an application when the application calls <b>FindNextPrinterChangeNotification</b> (described in the Windows SDK documentation).
 
 When a print provider calls <code>ReplyPrinterChangeNotification</code>, it must identify the event that has occurred by setting a PRINTER_CHANGE_-prefixed flag in <i>fwdFlags</i> or by using <i>pPrinterNotifyInfo</i> to return a PRINTER_NOTIFY_INFO structure. (Use the flags listed in the Windows SDK documentation's description of <b>FindNextPrinterChangeNotification</b>--not the flags listed in the Windows SDK documentation's description of <b>FindFirstPrinterChangeNotification</b>.)
 
@@ -127,7 +127,7 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
 ## -see-also
 
-<a href="..\winsplp\nf-winsplp-partialreplyprinterchangenotification.md">PartialReplyPrinterChangeNotification</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548837">FindFirstPrinterChangeNotification</a>
 
 
 
@@ -139,5 +139,5 @@ For additional information, see <a href="https://msdn.microsoft.com/e75c6f89-9ce
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ReplyPrinterChangeNotification function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ReplyPrinterChangeNotification function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

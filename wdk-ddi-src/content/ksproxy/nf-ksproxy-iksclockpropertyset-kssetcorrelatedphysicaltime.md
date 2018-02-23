@@ -7,8 +7,8 @@ old-location: stream\iksclockpropertyset_kssetcorrelatedphysicaltime.htm
 old-project: stream
 ms.assetid: 208fecc5-f01f-41f3-80d3-d811b3f4173a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, stream.iksclockpropertyset_kssetcorrelatedphysicaltime, IKsClockPropertySet::KsSetCorrelatedPhysicalTime, ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, IKsClockPropertySet, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], KsSetCorrelatedPhysicalTime
+ms.date: 2/20/2018
+ms.keywords: IKsClockPropertySet interface [Streaming Media Devices], KsSetCorrelatedPhysicalTime method, ksproxy/IKsClockPropertySet::KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet interface, stream.iksclockpropertyset_kssetcorrelatedphysicaltime, IKsClockPropertySet, ksproxy_253f05af-d07c-4f27-bfad-0006c94b8b48.xml, KsSetCorrelatedPhysicalTime, KsSetCorrelatedPhysicalTime method [Streaming Media Devices], IKsClockPropertySet::KsSetCorrelatedPhysicalTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -108,5 +108,5 @@ The proxy uses the <a href="https://msdn.microsoft.com/library/windows/hardware/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsClockPropertySet::KsSetCorrelatedPhysicalTime method%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsClockPropertySet::KsSetCorrelatedPhysicalTime method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

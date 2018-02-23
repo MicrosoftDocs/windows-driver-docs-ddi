@@ -7,8 +7,8 @@ old-location: storage\mpio_get_descriptor.htm
 old-project: storage
 ms.assetid: cabd2a6d-20d0-4499-8494-7ad746f2d915
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PMPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR, storage.mpio_get_descriptor, structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml, mpiodisk/MPIO_GET_DESCRIPTOR, _MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR structure [Storage Devices], mpiodisk/PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices]"
+ms.date: 2/16/2018
+ms.keywords: PMPIO_GET_DESCRIPTOR, mpiodisk/PMPIO_GET_DESCRIPTOR, structs-scsibus_4d648295-24f6-44c1-a0a9-8a46aeada604.xml, mpiodisk/MPIO_GET_DESCRIPTOR, PMPIO_GET_DESCRIPTOR structure pointer [Storage Devices], _MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR structure [Storage Devices], storage.mpio_get_descriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_GET_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_GET_DESCRIPTOR, MPIO_GET_DESCRIPTOR"
+req.typenames: MPIO_GET_DESCRIPTOR, *PMPIO_GET_DESCRIPTOR
 ---
 
 # _MPIO_GET_DESCRIPTOR structure

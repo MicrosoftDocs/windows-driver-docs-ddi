@@ -7,8 +7,8 @@ old-location: netvista\rilcdmaavoidancerequestype_2.htm
 old-project: netvista
 ms.assetid: e234a3bf-599b-4ccc-961e-a395b0453658
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_AVOID_SYS_CLR_LIST, rilapitypes/RILCDMAAVOIDANCEREQUESTYPE, netvista.rilcdmaavoidancerequestype_2, RIL_AVOID_SYS_CLR_LIST, RILCDMAAVOIDANCEREQUESTYPE
+ms.date: 2/16/2018
+ms.keywords: RILCDMAAVOIDANCEREQUESTYPE enumeration [Network Drivers Starting with Windows Vista], RILCDMAAVOIDANCEREQUESTYPE, rilapitypes/RILCDMAAVOIDANCEREQUESTYPE, RIL_AVOID_SYS_CLR_LIST, netvista.rilcdmaavoidancerequestype_2, rilapitypes/RIL_AVOID_SYS_CLR_LIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

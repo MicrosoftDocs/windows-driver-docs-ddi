@@ -7,8 +7,8 @@ old-location: netvista\ndisallocatenetbufferlistpool.htm
 old-project: netvista
 ms.assetid: b117b472-0c26-41a9-b364-3d0cfbd26cc9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndis/NdisAllocateNetBufferListPool, ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml, NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], NdisAllocateNetBufferListPool, netvista.ndisallocatenetbufferlistpool
+ms.date: 2/16/2018
+ms.keywords: NdisAllocateNetBufferListPool function [Network Drivers Starting with Windows Vista], netvista.ndisallocatenetbufferlistpool, ndis/NdisAllocateNetBufferListPool, NdisAllocateNetBufferListPool, ndis_netbuf_functions_ref_763044cb-dfaf-4cb5-959c-7895e3e49fb0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -140,14 +140,6 @@ Call the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
-
-
-
 <a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
    NdisAllocateNetBufferAndNetBufferList</a>
 
@@ -157,11 +149,8 @@ Call the
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\nf-ndis-ndisallocatenetbufferandnetbufferlist.md">
+   NdisAllocateNetBufferAndNetBufferList</a>
 
 
 
@@ -169,13 +158,25 @@ Call the
 
 
 
+<a href="..\ndis\ns-ndis-_net_buffer_list_context.md">NET_BUFFER_LIST_CONTEXT</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisfreenetbufferlist.md">NdisFreeNetBufferList</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_buffer.md">NET_BUFFER</a>
 
 
 
- 
+<a href="..\ndis\ns-ndis-_net_buffer_list_pool_parameters.md">NET_BUFFER_LIST_POOL_PARAMETERS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateNetBufferListPool function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisAllocateNetBufferListPool function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

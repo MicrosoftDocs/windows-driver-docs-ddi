@@ -7,8 +7,8 @@ old-location: audio\pcregisteriotimeout.htm
 old-project: audio
 ms.assetid: 9cd7c366-1745-45b0-b9e9-87a259110621
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PcRegisterIoTimeout function [Audio Devices], audio.pcregisteriotimeout, PcRegisterIoTimeout, portcls/PcRegisterIoTimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml
+ms.date: 2/21/2018
+ms.keywords: PcRegisterIoTimeout function [Audio Devices], audio.pcregisteriotimeout, portcls/PcRegisterIoTimeout, PcRegisterIoTimeout, audpc-routines_1a63a1fa-c80a-4fe4-87d6-95543e6e2f1d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcRegisterIoTimeout
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcRegisterIoTimeout function
@@ -163,17 +163,17 @@ The <i>DeviceObject</i> and <i>Context</i> parameters are the same values that t
 
 ## -see-also
 
-<a href="..\portcls\nf-portcls-pcunregisteriotimeout.md">PcUnregisterIoTimeout</a>
-
-
-
 <a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
- 
+<a href="..\portcls\nf-portcls-pcunregisteriotimeout.md">PcUnregisterIoTimeout</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcRegisterIoTimeout function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcRegisterIoTimeout function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

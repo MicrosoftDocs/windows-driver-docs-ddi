@@ -7,8 +7,8 @@ old-location: wdf\wdf_kprocessor_mode.htm
 old-project: wdf
 ms.assetid: b50be4c2-4575-42b9-953d-9ddb3c3e696c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeMaximum, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wudfddi_types/PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, WdfKernelMode, PWDF_KPROCESSOR_MODE, umdf.wdf_kprocessor_mode, WdfUserMode, _WDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE, wudfddi_types/WdfKernelMode, WdfKProcessorModeMaximum, WDF_KPROCESSOR_MODE enumeration, wudfddi_types/WdfUserMode, PWDF_KPROCESSOR_MODE enumeration pointer, wdf.wdf_kprocessor_mode, WdfKProcessorModeInvalid
+ms.date: 2/20/2018
+ms.keywords: WdfKProcessorModeMaximum, wudfddi_types/WDF_KPROCESSOR_MODE, wudfddi_types/WdfKProcessorModeInvalid, WdfUserMode, umdf.wdf_kprocessor_mode, wudfddi_types/WdfKProcessorModeMaximum, WDF_KPROCESSOR_MODE enumeration, PWDF_KPROCESSOR_MODE enumeration pointer, _WDF_KPROCESSOR_MODE, wudfddi_types/WdfUserMode, WDF_KPROCESSOR_MODE, PWDF_KPROCESSOR_MODE, wudfddi_types/WdfKernelMode, umdfstructs_581a9b17-c059-4dc8-9784-8dce0d6a4e7d.xml, wudfddi_types/PWDF_KPROCESSOR_MODE, WdfKernelMode, *PWDF_KPROCESSOR_MODE, wdf.wdf_kprocessor_mode, WdfKProcessorModeInvalid
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_KPROCESSOR_MODE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_KPROCESSOR_MODE, WDF_KPROCESSOR_MODE"
+req.typenames: WDF_KPROCESSOR_MODE, *PWDF_KPROCESSOR_MODE
 req.product: Windows 10 or later.
 ---
 
@@ -112,5 +112,5 @@ The <b>WDF_KPROCESSOR_MODE</b> enumeration type is return type for <a href="http
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_KPROCESSOR_MODE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_KPROCESSOR_MODE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

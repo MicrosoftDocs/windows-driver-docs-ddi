@@ -4,11 +4,11 @@ title: IDebugSymbolGroup2::GetSymbolTypeName method
 author: windows-driver-content
 description: The GetSymbolTypeName methods return the name of the specified symbol's type.
 old-location: debugger\getsymboltypename.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: e15b418e-bf4a-49c0-bdb3-24973513e654
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, IDebugSymbolGroup2::GetSymbolTypeName, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, debugger.getsymboltypename
+ms.date: 2/15/2018
+ms.keywords: GetSymbolTypeName method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolTypeName method, IDebugSymbolGroup2, IDebugSymbolGroup2::GetSymbolTypeName, GetSymbolTypeName method [Windows Debugging], dbgeng/IDebugSymbolGroup2::GetSymbolTypeName, ComOther_27d4a23e-4566-4b37-a692-2b82310ae8e9.xml, GetSymbolTypeName, debugger.getsymboltypename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbolGroup2.GetSymbolTypeName
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::GetSymbolTypeName method
@@ -140,7 +140,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/09aa3ba9-d5b6-4c08-93f1-f7beca9350a1">IDebugSymbols::GetTypeName</a>
 
 
 
@@ -156,5 +156,5 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolTypeName method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolTypeName method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

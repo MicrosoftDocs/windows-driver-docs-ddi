@@ -7,8 +7,8 @@ old-location: netvista\ndismderegisterminiportdriver.htm
 old-project: netvista
 ms.assetid: c428e30d-ce86-4ca0-bc65-45d84a7c910e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMDeregisterMiniportDriver, miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, ndis/NdisMDeregisterMiniportDriver, netvista.ndismderegisterminiportdriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: netvista.ndismderegisterminiportdriver, NdisMDeregisterMiniportDriver function [Network Drivers Starting with Windows Vista], miniport_ndis_functions_ref_bd8d7bcd-098a-4367-82d2-6a35753a4a3b.xml, NdisMDeregisterMiniportDriver, ndis/NdisMDeregisterMiniportDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,5 +121,5 @@ If an error occurs in the miniport driver's
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDeregisterMiniportDriver function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMDeregisterMiniportDriver function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

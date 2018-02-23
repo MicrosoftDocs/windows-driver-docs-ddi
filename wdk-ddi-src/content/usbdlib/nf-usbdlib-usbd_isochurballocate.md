@@ -4,11 +4,11 @@ title: USBD_IsochUrbAllocate function
 author: windows-driver-content
 description: The USBD_IsochUrbAllocate routine allocates and formats a URB structure for an isochronous transfer request.
 old-location: buses\usbd_isochurballocate.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 357FB967-C9D8-468C-AA14-4EF071D55D7B
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses.usbd_isochurballocate, USBD_IsochUrbAllocate routine [Buses], USBD_IsochUrbAllocate, usbdlib/USBD_IsochUrbAllocate
+ms.date: 2/15/2018
+ms.keywords: buses.usbd_isochurballocate, USBD_IsochUrbAllocate, usbdlib/USBD_IsochUrbAllocate, USBD_IsochUrbAllocate routine [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBD_IsochUrbAllocate
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBCAMD_DEVICE_DATA2, USBCAMD_DEVICE_DATA2"
+req.typenames: USBCAMD_DEVICE_DATA2, *PUSBCAMD_DEVICE_DATA2
 req.product: Windows 10 or later.
 ---
 
@@ -105,7 +105,7 @@ Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_isoch_transfer.md">_URB_ISOCH_TRANSFER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/hh450844">Allocating and Building URBs</a>
 
 
 
@@ -113,7 +113,7 @@ Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
 
 
 
@@ -125,5 +125,5 @@ Possible values include, but are not limited to, STATUS_INVALID_PARAMETER, which
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_IsochUrbAllocate routine%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_IsochUrbAllocate routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

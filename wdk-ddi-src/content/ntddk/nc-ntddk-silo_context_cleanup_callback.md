@@ -7,7 +7,7 @@ old-location: kernel\silo_context_cleanup_callback.htm
 old-project: kernel
 ms.assetid: 452E63E8-DFBB-43AF-81F4-0405C3EF74CE
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.silo_context_cleanup_callback, CleanupCallback callback function [Kernel-Mode Driver Architecture], CleanupCallback, SILO_CONTEXT_CLEANUP_CALLBACK, SILO_CONTEXT_CLEANUP_CALLBACK, ntddk/CleanupCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices

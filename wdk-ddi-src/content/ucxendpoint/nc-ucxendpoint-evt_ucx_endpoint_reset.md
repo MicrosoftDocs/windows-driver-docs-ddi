@@ -4,10 +4,10 @@ title: EVT_UCX_ENDPOINT_RESET
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to reset the controller’s programming for an endpoint.
 old-location: buses\evt_ucx_endpoint_reset.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 927fdd48-416e-4e8f-a29c-c2799952197e
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.evt_ucx_endpoint_reset, EvtUcxEndpointReset callback function [Buses], EvtUcxEndpointReset, EVT_UCX_ENDPOINT_RESET, EVT_UCX_ENDPOINT_RESET, ucxendpoint/EvtUcxEndpointReset, PEVT_UCX_ENDPOINT_RESET callback function pointer [Buses], PEVT_UCX_ENDPOINT_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices

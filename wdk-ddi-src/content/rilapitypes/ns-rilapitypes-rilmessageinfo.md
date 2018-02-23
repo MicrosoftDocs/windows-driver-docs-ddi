@@ -7,8 +7,8 @@ old-location: netvista\rilmessageinfo_2.htm
 old-project: netvista
 ms.assetid: db7b8526-e70a-4589-a128-58641c865d58
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmessageinfo_2, rilapitypes/RILMESSAGEINFO, RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], *LPRILMESSAGEINFO, RILMESSAGEINFO
+ms.date: 2/16/2018
+ms.keywords: RILMESSAGEINFO structure [Network Drivers Starting with Windows Vista], netvista.rilmessageinfo_2, rilapitypes/RILMESSAGEINFO, RILMESSAGEINFO, *LPRILMESSAGEINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMESSAGEINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMESSAGEINFO, RILMESSAGEINFO"
+req.typenames: RILMESSAGEINFO, *LPRILMESSAGEINFO
 req.product: Windows 10 or later.
 ---
 

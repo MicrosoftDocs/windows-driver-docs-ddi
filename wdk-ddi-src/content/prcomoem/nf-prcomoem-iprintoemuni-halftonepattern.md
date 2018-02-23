@@ -7,8 +7,8 @@ old-location: print\iprintoemuni_halftonepattern.htm
 old-project: print
 ms.assetid: 1b899492-f4a7-4c13-9e19-0f086b2b6b47
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: prcomoem/IPrintOemUni::HalftonePattern, print.iprintoemuni_halftonepattern, HalftonePattern method [Print Devices], IPrintOemUni interface, HalftonePattern, IPrintOemUni, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml, IPrintOemUni::HalftonePattern, HalftonePattern method [Print Devices], IPrintOemUni interface [Print Devices], HalftonePattern method
+ms.date: 2/21/2018
+ms.keywords: print.iprintoemuni_halftonepattern, prcomoem/IPrintOemUni::HalftonePattern, IPrintOemUni::HalftonePattern, HalftonePattern, IPrintOemUni interface [Print Devices], HalftonePattern method, HalftonePattern method [Print Devices], HalftonePattern method [Print Devices], IPrintOemUni interface, IPrintOemUni, print_unidrv-pscript_rendering_672da2b9-981c-4c4c-a303-88377fe01741.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni.HalftonePattern
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -294,9 +294,13 @@ For more information about halftoning, see <a href="https://msdn.microsoft.com/c
 
 
 
- 
+<a href="https://msdn.microsoft.com/097366a0-2ded-435c-9b63-2b736b716032">IPrintOemUni</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::HalftonePattern method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemUni::HalftonePattern method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

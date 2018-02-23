@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::GetProcessIdByHandle method
 author: windows-driver-content
 description: The GetProcessIdByHandle method returns the engine process ID for the specified process. The process is specified by its system handle.
 old-location: debugger\getprocessidbyhandle.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 6920cbd3-0a20-4d38-8538-85f46d0f0d5b
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetProcessIdByHandle, dbgeng/IDebugSystemObjects::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, IDebugSystemObjects::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByHandle method, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByHandle method, dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, debugger.getprocessidbyhandle, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByHandle method, dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects2, IDebugSystemObjects3, IDebugSystemObjects4::GetProcessIdByHandle
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSystemObjects4::GetProcessIdByHandle, dbgeng/IDebugSystemObjects3::GetProcessIdByHandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects2 interface, GetProcessIdByHandle method [Windows Debugging], dbgeng/IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects3::GetProcessIdByHandle, IDebugSystemObjects, IDebugSystemObjects::GetProcessIdByHandle, IDebugSystemObjects4 interface [Windows Debugging], GetProcessIdByHandle method, debugger.getprocessidbyhandle, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects2, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects4::GetProcessIdByHandle, IDebugSystemObjects_92e69c0f-a50c-498b-8352-74f0c28ea0d8.xml, IDebugSystemObjects2 interface [Windows Debugging], GetProcessIdByHandle method, IDebugSystemObjects3 interface [Windows Debugging], GetProcessIdByHandle method, GetProcessIdByHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetProcessIdByHandle, dbgeng/IDebugSystemObjects2::GetProcessIdByHandle, IDebugSystemObjects3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetProcessIdByHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects3::GetProcessIdByHandle method

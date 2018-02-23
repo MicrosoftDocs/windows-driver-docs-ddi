@@ -7,8 +7,8 @@ old-location: display\d3dddi_openallocationinfo.htm
 old-project: display
 ms.assetid: cd50602a-c4aa-410b-9ed6-56d7237571cd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DDDI_OPENALLOCATIONINFO, D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, display.d3dddi_openallocationinfo, D3DDDI_OPENALLOCATIONINFO structure [Display Devices], D3DDDI_OPENALLOCATIONINFO, d3dukmdt/D3DDDI_OPENALLOCATIONINFO"
+ms.date: 2/20/2018
+ms.keywords: d3dukmdt/D3DDDI_OPENALLOCATIONINFO, D3DDDI_OPENALLOCATIONINFO, _D3DDDI_OPENALLOCATIONINFO, display.d3dddi_openallocationinfo, D3D_other_Structs_cfb185b4-cc7d-4c1a-9e76-6032816feab0.xml, D3DDDI_OPENALLOCATIONINFO structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

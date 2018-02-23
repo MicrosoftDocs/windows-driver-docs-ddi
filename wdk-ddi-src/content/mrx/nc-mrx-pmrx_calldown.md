@@ -7,8 +7,8 @@ old-location: ifsk\mrxclosesrvopen.htm
 old-project: ifsk
 ms.assetid: 6300595e-8cf6-47c4-a6ca-7851dd95576d
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.mrxclosesrvopen, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MyCalldown routine [Installable File System Drivers], MyCalldown, PMRX_CALLDOWN, PMRX_CALLDOWN, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.mrxclosesrvopen, MRxCloseSrvOpen, MRxCollapseOpen, MRxCreate, MRxDevFcbXXXControlFile, MRxFlush, MRxLowIOSubmit[LOWIO_OP_EXCLUSIVELOCK], MRxLowIOSubmit[LOWIO_OP_FSCTL], MRxLowIOSubmit[LOWIO_OP_IOCTL], MRxLowIOSubmit[LOWIO_OP_NOTIFY_CHANGE_DIRECTORY], MRxLowIOSubmit[LOWIO_OP_READ], MRxLowIOSubmit[LOWIO_OP_SHAREDLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK], MRxLowIOSubmit[LOWIO_OP_UNLOCK_MULTIPLE], MRxLowIOSubmit[LOWIO_OP_WRITE], MRxQueryDirectory, MRxQueryEaInfo, MRxQueryFileInfo, MRxQueryQuotaInfo, MRxQuerySdInfo, MRxQueryVolumeInfo, MRxSetEaInfo, MRxSetFileInfo, MRxSetFileInfoAtCleanup, MRxSetQuotaInfo, MRxSetSdInfo, MRxSetVolumeInfo, MRxShouldTryToCollapseThisOpen, MRxTruncate, MRxZeroExtend, MRxCleanupFobx, MyCalldown routine [Installable File System Drivers], MyCalldown, PMRX_CALLDOWN, PMRX_CALLDOWN, mrx/MyCalldown, mrxref_e6b5df78-d201-4f9e-9422-089772c04674.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
@@ -1050,16 +1050,26 @@ A call to <a href="https://msdn.microsoft.com/library/windows/hardware/ff550844"
 
 RDBSS ignores the return value from <a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>. 
 
+The MRxCleanupFobx routine is called by RDBSS to request the network mini-redirector to close a file system object extension. RDBSS issues this call in response to receiving an IRP_MJ_CLEANUP request on a file object.
+
+MRxCleanupFobx is called by RDBSS as part of cleanup and close operations on a file object. 
+
+MRxCleanupFobx cannot return a value of STATUS_RETRY indicating that the call should be retried. If a retry loop is necessary, it must be handled internally in the MRxCleanupFobx routine by the network mini-redirector.
+
+
+
 
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549878">MRxExtendForCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549841">MRxCleanupFobx</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fcb.md">MRxDeallocateForFcb</a>
+
+
 
 
 
@@ -1075,15 +1085,19 @@ RDBSS ignores the return value from <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550691">MRxIsLockRealizable</a>
+
+
+<a href="..\mrx\nc-mrx-pmrx_extendfile_calldown.md">MRxExtendForCache</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550669">MRxFlush</a>
+<a href="..\mrx\nc-mrx-pmrx_is_lock_realizable.md">MRxIsLockRealizable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549862">MRxCreate</a>
+
+
 
 
 
@@ -1091,29 +1105,36 @@ RDBSS ignores the return value from <a href="https://msdn.microsoft.com/library/
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550677">MRxForceClosed</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549872">MRxDeallocateForFobx</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549871">MRxDeallocateForFcb</a>
-
-
-
 <a href="..\mrx\nc-mrx-pmrx_chkfcb_calldown.md">MRxAreFilesAliased</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549879">MRxExtendForNonCache</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550817">MRxShouldTryToCollapseThisOpen</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550844">MRxZeroExtend</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_forceclosed_calldown.md">MRxForceClosed</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_deallocate_for_fobx.md">MRxDeallocateForFobx</a>
+
+
+
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CALLDOWN routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PMRX_CALLDOWN routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

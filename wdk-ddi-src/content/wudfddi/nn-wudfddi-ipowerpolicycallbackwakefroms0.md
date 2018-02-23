@@ -7,7 +7,7 @@ old-location: wdf\ipowerpolicycallbackwakefroms0.htm
 old-project: wdf
 ms.assetid: d1b29916-9800-4276-860c-f7d143deb962
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.ipowerpolicycallbackwakefroms0, IPowerPolicyCallbackWakeFromS0 interface, IPowerPolicyCallbackWakeFromS0 interface, described, IPowerPolicyCallbackWakeFromS0, wudfddi/IPowerPolicyCallbackWakeFromS0, UMDFDeviceObjectRef_e79ecf1d-279d-4945-941a-ed53b00f6242.xml, umdf.ipowerpolicycallbackwakefroms0
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IPowerPolicyCallbackWakeFromS0
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

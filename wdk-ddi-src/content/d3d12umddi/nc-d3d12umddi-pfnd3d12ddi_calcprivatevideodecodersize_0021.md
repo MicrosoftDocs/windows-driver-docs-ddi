@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calcprivatevideodecodersize.htm
 old-project: display
 ms.assetid: 29A0CB0F-3469-4EF5-8C5B-132321F6C8E8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_calcprivatevideodecodersize, pfnCalcPrivateVideoDecoderSize callback function [Display Devices], pfnCalcPrivateVideoDecoderSize, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEODECODERSIZE_0021, d3d12umddi/pfnCalcPrivateVideoDecoderSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,6 +81,11 @@ SIZE_T APIENTRY* pfnCalcPrivateVideoDecoderSize(
 
 
 
+
+
+#### - hDevice
+
+The handle of a device. 
 
 
 #### - CreateVideoDecoder [in]

@@ -7,13 +7,13 @@ old-location: kernel\io_access_mode.htm
 old-project: kernel
 ms.assetid: E48BDF14-5B56-45AF-9DD2-F019C8B7D7E5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IO_ACCESS_MODE, wdm/SequentialAccess, _IO_ACCESS_MODE, RandomAccess, wdm/RandomAccess, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], IO_ACCESS_MODE, kernel.io_access_mode, SequentialAccess
+ms.date: 2/16/2018
+ms.keywords: SequentialAccess, kernel.io_access_mode, _IO_ACCESS_MODE, IO_ACCESS_MODE, wdm/IO_ACCESS_MODE, IO_ACCESS_MODE enumeration [Kernel-Mode Driver Architecture], RandomAccess, wdm/RandomAccess, wdm/SequentialAccess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h
+req.include-header: Wdm.h, Ntddsfio.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

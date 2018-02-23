@@ -7,8 +7,8 @@ old-location: print\initializemonitorex.htm
 old-project: print
 ms.assetid: 1a619b27-4367-419c-985f-588e3f556425
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.initializemonitorex, InitializeMonitorEx function [Print Devices], InitializeMonitorEx, winsplp/InitializeMonitorEx, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml
+ms.date: 2/21/2018
+ms.keywords: winsplp/InitializeMonitorEx, print.initializemonitorex, spoolfnc_ffa71296-8b2a-48b3-a2c7-9765b9d7aed1.xml, InitializeMonitorEx function [Print Devices], InitializeMonitorEx
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -4,11 +4,11 @@ title: IDebugControl::Input method
 author: windows-driver-content
 description: The Input method requests an input string from the debugger engine.
 old-location: debugger\input.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 8a37bce1-762b-4a08-a677-ed2e484c1bba
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: Input method [Windows Debugging], IDebugControl interface, IDebugControl::Input, debugger.input, Input, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, IDebugControl interface [Windows Debugging], Input method, dbgeng/IDebugControl::Input, IDebugControl, Input method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: IDebugControl, IDebugControl_10615761-d032-439f-955b-220def3835a9.xml, Input method [Windows Debugging], IDebugControl::Input, IDebugControl interface [Windows Debugging], Input method, debugger.input, Input method [Windows Debugging], IDebugControl interface, Input, dbgeng/IDebugControl::Input
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl.Input
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl::Input method
@@ -134,17 +134,17 @@ For an overview of input in the debugger engine, see <a href="https://msdn.micro
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550970">InputWide</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550970">InputWide</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::Input method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::Input method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

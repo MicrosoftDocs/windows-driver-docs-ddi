@@ -7,8 +7,8 @@ old-location: whea\whea_error_source_state.htm
 old-project: whea
 ms.assetid: 7be90712-9f6f-4998-a8ca-148ff900c82c
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: WheaErrSrcStateStopped, ntddk/WheaErrSrcStateStarted, PWHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStarted, ntddk/WHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], WHEA_ERROR_SOURCE_STATE, ntddk/PWHEA_ERROR_SOURCE_STATE, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, _WHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStopped, *PWHEA_ERROR_SOURCE_STATE, whea.whea_error_source_state
+ms.date: 2/20/2018
+ms.keywords: ntddk/WHEA_ERROR_SOURCE_STATE, PWHEA_ERROR_SOURCE_STATE, ntddk/WheaErrSrcStateStopped, PWHEA_ERROR_SOURCE_STATE enumeration pointer [WHEA Drivers and Applications], whearef_c6edca73-b5ec-4473-bbe3-9ed5e48f017d.xml, _WHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStopped, ntddk/PWHEA_ERROR_SOURCE_STATE, WheaErrSrcStateStarted, ntddk/WheaErrSrcStateStarted, *PWHEA_ERROR_SOURCE_STATE, WHEA_ERROR_SOURCE_STATE enumeration [WHEA Drivers and Applications], whea.whea_error_source_state
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -97,5 +97,5 @@ The <a href="..\ntddk\ns-ntddk-_whea_error_source_descriptor.md">WHEA_ERROR_SOUR
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_SOURCE_STATE enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_SOURCE_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetpipewdmgetpipehandle.htm
 old-project: wdf
 ms.assetid: d24577e3-3124-4ce7-a6ea-bed75ff18a1e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfusb/WdfUsbTargetPipeWdmGetPipeHandle, DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, WdfUsbTargetPipeWdmGetPipeHandle, wdf.wdfusbtargetpipewdmgetpipehandle, kmdf.wdfusbtargetpipewdmgetpipehandle, PFN_WDFUSBTARGETPIPEWDMGETPIPEHANDLE, WdfUsbTargetPipeWdmGetPipeHandle method
+ms.date: 2/20/2018
+ms.keywords: DFUsbRef_4dc66ce5-f27f-4d35-bcea-0efb60a1de3c.xml, kmdf.wdfusbtargetpipewdmgetpipehandle, wdf.wdfusbtargetpipewdmgetpipehandle, WdfUsbTargetPipeWdmGetPipeHandle, WdfUsbTargetPipeWdmGetPipeHandle method, wdfusb/WdfUsbTargetPipeWdmGetPipeHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,7 +121,7 @@ usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);</pre>
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb.md">URB</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 
@@ -137,5 +137,5 @@ usbdPipeHandle = WdfUsbTargetPipeWdmGetPipeHandle(UsbPipe);</pre>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeWdmGetPipeHandle method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeWdmGetPipeHandle method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

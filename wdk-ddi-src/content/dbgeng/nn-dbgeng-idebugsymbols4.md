@@ -4,10 +4,10 @@ title: IDebugSymbols4
 author: windows-driver-content
 description: This interface supports determination of the symbol of an inline frame.
 old-location: debugger\idebugsymbols4.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: BE2734B5-1E67-4E38-B4DF-0C353BFB1F0B
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugsymbols4, IDebugSymbols4 interface [Windows Debugging], IDebugSymbols4 interface [Windows Debugging], described, IDebugSymbols4, dbgeng/IDebugSymbols4
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols4
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols4 interface

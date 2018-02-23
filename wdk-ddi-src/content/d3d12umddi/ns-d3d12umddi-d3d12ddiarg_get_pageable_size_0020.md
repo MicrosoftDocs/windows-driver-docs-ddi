@@ -7,8 +7,8 @@ old-location: display\d3d12ddiarg_get_pageable_size.htm
 old-project: display
 ms.assetid: 82A5ACBD-EE18-46DF-822B-87ABF331BF44
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], D3D12DDIARG_GET_PAGEABLE_SIZE_0020, d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, display.d3d12ddiarg_get_pageable_size
+ms.date: 2/20/2018
+ms.keywords: D3D12DDIARG_GET_PAGEABLE_SIZE_0020 structure [Display Devices], display.d3d12ddiarg_get_pageable_size, d3d12umddi/D3D12DDIARG_GET_PAGEABLE_SIZE_0020, D3D12DDIARG_GET_PAGEABLE_SIZE_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

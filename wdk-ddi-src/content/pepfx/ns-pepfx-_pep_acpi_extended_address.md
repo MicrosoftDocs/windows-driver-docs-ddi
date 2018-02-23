@@ -7,13 +7,13 @@ old-location: kernel\pep_acpi_extended_address.htm
 old-project: kernel
 ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pep_acpi_extended_address, PPEP_ACPI_EXTENDED_ADDRESS, 1 - Decode type, 4 - IO to memory translation, pepfx/PEP_ACPI_EXTENDED_ADDRESS, 4 to 7 - Reserved, 0 to 7 - Reserved, *PPEP_ACPI_EXTENDED_ADDRESS, 5 - Sparse translation, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], 5 - Memory to IO translation, 1 to 2 - Memory attributes (MEM), 3 to 4 - Memory attributes (MTP), 2 - Minimum address fixed, 0 - Write status, 2 to 3 - Reserved, pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 6 to 7 - Reserved, 0 - Consumer/Producer flag, 3 - Max address fixed, PEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], _PEP_ACPI_EXTENDED_ADDRESS, 0 to 1 - Range
+ms.date: 2/16/2018
+ms.keywords: 5 - Sparse translation, 4 - IO to memory translation, PEP_ACPI_EXTENDED_ADDRESS structure [Kernel-Mode Driver Architecture], pepfx/PPEP_ACPI_EXTENDED_ADDRESS, 1 - Decode type, 0 - Write status, PEP_ACPI_EXTENDED_ADDRESS, 6 to 7 - Reserved, 0 - Consumer/Producer flag, PPEP_ACPI_EXTENDED_ADDRESS structure pointer [Kernel-Mode Driver Architecture], 3 to 4 - Memory attributes (MTP), 0 to 7 - Reserved, _PEP_ACPI_EXTENDED_ADDRESS, PPEP_ACPI_EXTENDED_ADDRESS, 2 to 3 - Reserved, 3 - Max address fixed, 5 - Memory to IO translation, 1 to 2 - Memory attributes (MEM), 4 to 7 - Reserved, kernel.pep_acpi_extended_address, 0 to 1 - Range, pepfx/PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS, 2 - Minimum address fixed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 

@@ -7,8 +7,8 @@ old-location: ifsk\ccfastcopyread.htm
 old-project: ifsk
 ms.assetid: 725ede16-5fc6-4465-bcdc-da7702779d68
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: CcFastCopyRead, ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, CcFastCopyRead routine [Installable File System Drivers], ifsk.ccfastcopyread, ntifs/CcFastCopyRead
+ms.date: 2/16/2018
+ms.keywords: ccref_7198ef60-5199-4597-9809-ddacc59e6223.xml, ifsk.ccfastcopyread, CcFastCopyRead, ntifs/CcFastCopyRead, CcFastCopyRead routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -150,7 +150,11 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\ntifs\nf-ntifs-ccschedulereadahead.md">CcScheduleReadAhead</a>
+<a href="..\ntifs\nf-ntifs-ccsetadditionalcacheattributes.md">CcSetAdditionalCacheAttributes</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-cccopyread.md">CcCopyRead</a>
 
 
 
@@ -162,13 +166,9 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539191">CcReadAhead</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcFastCopyRead routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcFastCopyRead routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

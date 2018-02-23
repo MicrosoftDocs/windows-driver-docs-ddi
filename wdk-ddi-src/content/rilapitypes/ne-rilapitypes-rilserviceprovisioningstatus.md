@@ -7,8 +7,8 @@ old-location: netvista\rilserviceprovisioningstatus_2.htm
 old-project: netvista
 ms.assetid: 044d89f7-6167-4e85-b4b4-d706a1499480
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_TEMPMODEALLOWED, rilapitypes/RILSERVICEPROVISIONINGSTATUS, RILSERVICEPROVISIONINGSTATUS, rilapitypes/RIL_SVCPROV_MAX, RIL_SVCPROV_TEMPMODERESTRICTED, RIL_SVCPROV_PROVISIONED, rilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, rilapitypes/RIL_SVCPROV_PROVISIONED, netvista.rilserviceprovisioningstatus_2, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED, RIL_SVCPROV_MAX, rilapitypes/RIL_SVCPROV_NOTPROVISIONED
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_NOTPROVISIONED, rilapitypes/RIL_SVCPROV_TEMPMODERESTRICTED, RILSERVICEPROVISIONINGSTATUS enumeration [Network Drivers Starting with Windows Vista], RILSERVICEPROVISIONINGSTATUS, rilapitypes/RIL_SVCPROV_NOTPROVISIONED, RIL_SVCPROV_PROVISIONED, RIL_SVCPROV_TEMPMODEALLOWED, RIL_SVCPROV_MAX, netvista.rilserviceprovisioningstatus_2, rilapitypes/RILSERVICEPROVISIONINGSTATUS, RIL_SVCPROV_TEMPMODERESTRICTED, rilapitypes/RIL_SVCPROV_TEMPMODEALLOWED, rilapitypes/RIL_SVCPROV_MAX
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

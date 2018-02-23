@@ -7,7 +7,7 @@ old-location: storage\dump_finish.htm
 old-project: storage
 ms.assetid: 6e267810-a7ad-4407-8d01-4a2cad7a37bc
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.dump_finish, Dump_Finish routine [Storage Devices], Dump_Finish, PDUMP_FINISH, PDUMP_FINISH, ntdddump/Dump_Finish, filter_rtns_7d5c92a4-19b6-4ef1-9b86-a9ec250106ef.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	Dump_Finish
 product: Windows
 targetos: Windows
-req.typenames: VERIFY_INFORMATION, *PVERIFY_INFORMATION
+req.typenames: "*PVERIFY_INFORMATION, VERIFY_INFORMATION"
 ---
 
 # DUMP_FINISH callback
@@ -94,5 +94,5 @@ If the routine succeeds, it must return STATUS_SUCCESS. Otherwise, it must retur
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20Dump_Finish routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20Dump_Finish routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

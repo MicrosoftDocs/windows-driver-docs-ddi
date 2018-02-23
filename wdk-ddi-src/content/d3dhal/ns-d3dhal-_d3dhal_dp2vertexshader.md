@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2vertexshader.htm
 old-project: display
 ms.assetid: 9207768b-530a-49d5-999e-0e8eb6bd1fe5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dhal/D3DHAL_DP2VERTEXSHADER, display.d3dhal_dp2vertexshader, d3dhal/LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER, *LPD3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices], d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, _D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: display.d3dhal_dp2vertexshader, *LPD3DHAL_DP2VERTEXSHADER, _D3DHAL_DP2VERTEXSHADER, D3DHAL_DP2VERTEXSHADER structure [Display Devices], d3dstrct_84401bfa-f79d-4128-9989-1223284f25b0.xml, d3dhal/D3DHAL_DP2VERTEXSHADER, d3dhal/LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER, LPD3DHAL_DP2VERTEXSHADER structure pointer [Display Devices], D3DHAL_DP2VERTEXSHADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,11 +109,7 @@ D3DDP2OP_DELETEVERTEXSHADERFUNC
 
 
 
-D3DDP2OP_SETSTREAMSOURCEUM
-
-
-
-D3DDP2OP_SETVERTEXSHADER
+D3DDP2OP_DELETEVERTEXSHADERDECL
 
 
 
@@ -121,23 +117,15 @@ D3DDP2OP_SETVERTEXSHADER
 
 
 
-<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
-
-
-
-D3DDP2OP_SETSTREAMSOURCE
-
-
-
-D3DDP2OP_CREATEVERTEXSHADER
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setvertexshaderconst.md">D3DHAL_DP2SETVERTEXSHADERCONST</a>
 
 
 
-D3DDP2OP_DELETEVERTEXSHADER
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
+
+
+
+D3DDP2OP_SETSTREAMSOURCEUM
 
 
 
@@ -145,7 +133,11 @@ D3DDP2OP_SETVERTEXSHADERDECL
 
 
 
-D3DDP2OP_DELETEVERTEXSHADERDECL
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2createvertexshader.md">D3DHAL_DP2CREATEVERTEXSHADER</a>
+
+
+
+D3DDP2OP_DELETEVERTEXSHADER
 
 
 
@@ -153,9 +145,17 @@ D3DDP2OP_SETVERTEXSHADERFUNC
 
 
 
- 
+D3DDP2OP_CREATEVERTEXSHADER
+
+
+
+D3DDP2OP_SETVERTEXSHADER
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2VERTEXSHADER structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2VERTEXSHADER structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

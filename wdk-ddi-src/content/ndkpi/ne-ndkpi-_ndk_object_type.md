@@ -7,8 +7,8 @@ old-location: netvista\ndk_object_type.htm
 old-project: netvista
 ms.assetid: 8CB39DF6-00DA-4480-A44E-62CAF1DB35CE
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdkObjectTypeQp, ndkpi/NdkObjectTypeMax, ndkpi/NDK_OBJECT_TYPE, NdkObjectTypeListener, NdkObjectTypeSharedEndpoint, NdkObjectTypeSrq, ndkpi/NdkObjectTypeMr, ndkpi/NdkObjectTypeListener, ndkpi/NdkObjectTypePd, ndkpi/NdkObjectTypeConnector, NdkObjectTypeMax, NdkObjectTypeConnector, NdkObjectTypeUndefined, NdkObjectTypeMw, NdkObjectTypeAdapter, _NDK_OBJECT_TYPE, NdkObjectTypeCq, ndkpi/NdkObjectTypeAdapter, NDK_OBJECT_TYPE enumeration [Network Drivers Starting with Windows Vista], ndkpi/NdkObjectTypeCq, NDK_OBJECT_TYPE, NdkObjectTypeMr, ndkpi/NdkObjectTypeSharedEndpoint, ndkpi/NdkObjectTypeUndefined, ndkpi/NdkObjectTypeQp, NdkObjectTypePd, netvista.ndk_object_type, ndkpi/NdkObjectTypeMw, ndkpi/NdkObjectTypeSrq
+ms.date: 2/16/2018
+ms.keywords: ndkpi/NdkObjectTypeCq, NdkObjectTypeMr, ndkpi/NdkObjectTypeSrq, NdkObjectTypeListener, NdkObjectTypeQp, netvista.ndk_object_type, NDK_OBJECT_TYPE enumeration [Network Drivers Starting with Windows Vista], ndkpi/NdkObjectTypeMax, NdkObjectTypeMw, NdkObjectTypeCq, ndkpi/NdkObjectTypeConnector, ndkpi/NdkObjectTypeUndefined, ndkpi/NdkObjectTypeQp, ndkpi/NdkObjectTypePd, ndkpi/NdkObjectTypeAdapter, ndkpi/NdkObjectTypeListener, NdkObjectTypeConnector, NdkObjectTypePd, NdkObjectTypeUndefined, ndkpi/NDK_OBJECT_TYPE, NdkObjectTypeSharedEndpoint, ndkpi/NdkObjectTypeMw, NdkObjectTypeSrq, ndkpi/NdkObjectTypeSharedEndpoint, NDK_OBJECT_TYPE, ndkpi/NdkObjectTypeMr, NdkObjectTypeMax, _NDK_OBJECT_TYPE, NdkObjectTypeAdapter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -151,15 +151,11 @@ NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJ
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
 
 
 
@@ -167,7 +163,19 @@ NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJ
 
 
 
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
+
+
+
 <a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_shared_endpoint.md">NDK_SHARED_ENDPOINT</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
 
 
 
@@ -179,15 +187,7 @@ NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJ
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_mr.md">NDK_MR</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_qp.md">NDK_QP</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_mw.md">NDK_MW</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_cq.md">NDK_CQ</a>
 
 
 
@@ -199,5 +199,5 @@ NDK objects include an <a href="..\ndkpi\ns-ndkpi-_ndk_object_header.md">NDK_OBJ
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OBJECT_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_OBJECT_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

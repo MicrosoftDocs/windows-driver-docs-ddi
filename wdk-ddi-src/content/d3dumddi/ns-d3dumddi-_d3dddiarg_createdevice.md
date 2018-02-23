@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_createdevice.htm
 old-project: display
 ms.assetid: 18be278c-2d69-472b-9baf-7c35f8abe879
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DDDIARG_CREATEDEVICE, d3dumddi/D3DDDIARG_CREATEDEVICE, UMDisplayDriver_param_Structs_42cad924-5200-4737-9d17-4464767f9e93.xml, _D3DDDIARG_CREATEDEVICE, display.d3dddiarg_createdevice, D3DDDIARG_CREATEDEVICE structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: d3dumddi/D3DDDIARG_CREATEDEVICE, display.d3dddiarg_createdevice, _D3DDDIARG_CREATEDEVICE, D3DDDIARG_CREATEDEVICE structure [Display Devices], D3DDDIARG_CREATEDEVICE, UMDisplayDriver_param_Structs_42cad924-5200-4737-9d17-4464767f9e93.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -154,15 +154,11 @@ This member is available beginning with Windows 7.
 
 ## -see-also
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
-
-
-
 <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createdevice.md">DxgkDdiCreateDevice</a>
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_createdeviceflags.md">D3DDDI_CREATEDEVICEFLAGS</a>
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicefuncs.md">D3DDDI_DEVICEFUNCS</a>
 
 
 
@@ -170,7 +166,11 @@ This member is available beginning with Windows 7.
 
 
 
-<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_devicecallbacks.md">D3DDDI_DEVICECALLBACKS</a>
+<a href="..\d3dumddi\nc-d3dumddi-pfnd3dddi_createdevice.md">CreateDevice</a>
+
+
+
+<a href="..\d3dumddi\ns-d3dumddi-_d3dddi_createdeviceflags.md">D3DDDI_CREATEDEVICEFLAGS</a>
 
 
 
@@ -178,5 +178,5 @@ This member is available beginning with Windows 7.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEDEVICE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_CREATEDEVICE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

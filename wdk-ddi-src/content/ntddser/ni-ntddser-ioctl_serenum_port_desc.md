@@ -7,7 +7,7 @@ old-location: serports\ioctl_serenum_port_desc.htm
 old-project: serports
 ms.assetid: 9ecaa3fa-137d-4f79-9316-727ecab35da8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serenum_port_desc, IOCTL_SERENUM_PORT_DESC control code [Serial Ports], IOCTL_SERENUM_PORT_DESC, ntddser/IOCTL_SERENUM_PORT_DESC, senumref_2afa4ab9-ceac-4477-9ac6-10f572444e61.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

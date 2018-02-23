@@ -7,8 +7,8 @@ old-location: kernel\kequerylogicalprocessorrelationship.htm
 old-project: kernel
 ms.assetid: 343d965d-3e85-423e-a46b-894b19d5df4e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture], k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, KeQueryLogicalProcessorRelationship
+ms.date: 2/16/2018
+ms.keywords: k105_0db645b1-dfa2-4d90-856f-975997dc09a8.xml, kernel.kequerylogicalprocessorrelationship, wdm/KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship, KeQueryLogicalProcessorRelationship routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -209,11 +209,11 @@ The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is
 
 ## -see-also
 
-<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
-
-
-
 <a href="http://go.microsoft.com/fwlink/p/?linkid=155065">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+
+
+
+<a href="..\miniport\ns-miniport-_processor_number.md">PROCESSOR_NUMBER</a>
 
 
 
@@ -225,5 +225,5 @@ The NT_ASSERT macro is defined in the Wdm.h header file. The NT_SUCCESS macro is
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryLogicalProcessorRelationship routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryLogicalProcessorRelationship routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

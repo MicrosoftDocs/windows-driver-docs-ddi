@@ -7,8 +7,8 @@ old-location: wdf\wdf_memory_descriptor.htm
 old-project: wdf
 ms.assetid: 0683cb81-4ae7-4296-b46a-ad2e8b25a781
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_MEMORY_DESCRIPTOR structure, wdfmemory/WDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR, wdf.wdf_memory_descriptor, WDF_MEMORY_DESCRIPTOR, wdfmemory/PWDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer, _WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, kmdf.wdf_memory_descriptor
+ms.date: 2/20/2018
+ms.keywords: WDF_MEMORY_DESCRIPTOR structure, PWDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR, wdfmemory/PWDF_MEMORY_DESCRIPTOR, wdf.wdf_memory_descriptor, kmdf.wdf_memory_descriptor, wdfmemory/WDF_MEMORY_DESCRIPTOR, DFMemoryObjectRef_2c2271fb-6f3f-466d-b1dd-d254bc7ec96e.xml, _WDF_MEMORY_DESCRIPTOR, PWDF_MEMORY_DESCRIPTOR structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_MEMORY_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_MEMORY_DESCRIPTOR, WDF_MEMORY_DESCRIPTOR"
+req.typenames: WDF_MEMORY_DESCRIPTOR, *PWDF_MEMORY_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -164,5 +164,5 @@ To initialize a <b>WDF_MEMORY_DESCRIPTOR</b> structure, your driver should call 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_MEMORY_DESCRIPTOR structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_MEMORY_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

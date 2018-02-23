@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT
 author: windows-driver-content
 description: The class driver sends this request to initiate an IN transfer to the specified pipe and appends a zero-length packet to indicate the end of the transfer.
 old-location: buses\ioctl_internal_usbfn_transfer_in_append_zero_pkt.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 3912A632-E9D0-42D5-B7B7-766A92EE8C95
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_internal_usbfn_transfer_in_append_zero_pkt, IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT control code [Buses], IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT, usbfnioctl/IOCTL_INTERNAL_USBFN_TRANSFER_IN_APPEND_ZERO_PKT
 ms.prod: windows-hardware
 ms.technology: windows-devices

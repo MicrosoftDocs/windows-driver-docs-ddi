@@ -7,8 +7,8 @@ old-location: kernel\memory_basic_information.htm
 old-project: kernel
 ms.assetid: AFDDB789-E412-4EF7-8C77-2020EF81DF39
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PAGE_READONLY, MEM_IMAGE, _MEMORY_BASIC_INFORMATION, MEM_MAPPED, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], MEMORY_BASIC_INFORMATION, MEM_FREE, ntifs/PMEMORY_BASIC_INFORMATION, PAGE_NOCACHE, kernel.memory_basic_information, PAGE_WRITECOMBINE, PMEMORY_BASIC_INFORMATION, PAGE_GUARD, ntifs/MEMORY_BASIC_INFORMATION, PAGE_NOACCESS, PAGE_EXECUTE, MEM_RESERVE, PAGE_READWRITE, *PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], MEM_COMMIT, MEM_PRIVATE
+ms.date: 2/16/2018
+ms.keywords: PAGE_READONLY, MEM_FREE, PAGE_EXECUTE, _MEMORY_BASIC_INFORMATION, PAGE_READWRITE, MEM_PRIVATE, ntifs/PMEMORY_BASIC_INFORMATION, MEM_MAPPED, PAGE_WRITECOMBINE, ntifs/MEMORY_BASIC_INFORMATION, MEM_COMMIT, PAGE_NOACCESS, *PMEMORY_BASIC_INFORMATION, PMEMORY_BASIC_INFORMATION, MEM_IMAGE, MEMORY_BASIC_INFORMATION structure [Kernel-Mode Driver Architecture], MEMORY_BASIC_INFORMATION, PAGE_GUARD, MEM_RESERVE, PAGE_NOCACHE, PMEMORY_BASIC_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.memory_basic_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MEMORY_BASIC_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PMEMORY_BASIC_INFORMATION, MEMORY_BASIC_INFORMATION"
+req.typenames: MEMORY_BASIC_INFORMATION, *PMEMORY_BASIC_INFORMATION
 ---
 
 # _MEMORY_BASIC_INFORMATION structure
@@ -309,5 +309,5 @@ Indicates that the memory pages within the region are private (that is, not shar
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_BASIC_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20MEMORY_BASIC_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

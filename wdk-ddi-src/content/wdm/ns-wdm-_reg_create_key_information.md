@@ -7,8 +7,8 @@ old-location: kernel\reg_create_key_information.htm
 old-project: kernel
 ms.assetid: 5609a2c4-71db-432a-8a39-e407130a6e4c
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PREG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], REG_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/REG_OPEN_KEY_INFORMATION, wdm/PREG_OPEN_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/PREG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, kstruct_d_08c0de2c-94fb-4c4f-888c-e3485f213224.xml, _REG_CREATE_KEY_INFORMATION, wdm/REG_CREATE_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.reg_create_key_information
+ms.date: 2/16/2018
+ms.keywords: PREG_CREATE_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_OPEN_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_CREATE_KEY_INFORMATION, wdm/PREG_CREATE_KEY_INFORMATION, kstruct_d_08c0de2c-94fb-4c4f-888c-e3485f213224.xml, kernel.reg_create_key_information, wdm/REG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], *PREG_CREATE_KEY_INFORMATION, wdm/PREG_OPEN_KEY_INFORMATION, wdm/REG_OPEN_KEY_INFORMATION, PREG_OPEN_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, PREG_CREATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_CREATE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_CREATE_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION, REG_OPEN_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION"
+req.typenames: REG_OPEN_KEY_INFORMATION, *PREG_CREATE_KEY_INFORMATION, *PREG_OPEN_KEY_INFORMATION, REG_CREATE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -174,14 +174,6 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_reg_post_operation_information.md">REG_POST_OPERATION_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
@@ -190,17 +182,25 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\ns-wdm-_reg_post_operation_information.md">REG_POST_OPERATION_INFORMATION</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_security_descriptor.md">SECURITY_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\ns-wdm-_reg_create_key_information_v1.md">REG_CREATE_KEY_INFORMATION_V1</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_CREATE_KEY_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_CREATE_KEY_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

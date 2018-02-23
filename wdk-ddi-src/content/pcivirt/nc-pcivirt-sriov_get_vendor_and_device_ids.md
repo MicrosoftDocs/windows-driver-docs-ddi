@@ -7,7 +7,7 @@ old-location: pci\sriov_get_vendor_and_device_ids.htm
 old-project: PCI
 ms.assetid: d08bbaea-6f2b-49ef-bb8b-c1fe357e1c90
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.sriov_get_vendor_and_device_ids, SriovGetVendorAndDeviceIds callback function [Buses], SriovGetVendorAndDeviceIds, SRIOV_GET_VENDOR_AND_DEVICE_IDS, SRIOV_GET_VENDOR_AND_DEVICE_IDS, pcivirt/SriovGetVendorAndDeviceIds, *PSRIOV_GET_VENDOR_AND_DEVICE_IDS callback function pointer [Buses], *PSRIOV_GET_VENDOR_AND_DEVICE_IDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_GET_VENDOR_AND_DEVICE_IDS
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_GET_VENDOR_AND_DEVICE_IDS callback

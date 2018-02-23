@@ -7,8 +7,8 @@ old-location: ieee\set_local_host_props3.htm
 old-project: IEEE
 ms.assetid: f49a8b86-5611-4737-9b25-e7446e155bbc
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1394/PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3, IEEE.set_local_host_props3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses], PSET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, 1394/SET_LOCAL_HOST_PROPS3, _SET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3 structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: SET_LOCAL_HOST_PROPS3 structure [Buses], IEEE.set_local_host_props3, _SET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3, 1394stct_3e1725d2-1109-4762-b64e-05283146250a.xml, 1394/PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3, 1394/SET_LOCAL_HOST_PROPS3, PSET_LOCAL_HOST_PROPS3 structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_LOCAL_HOST_PROPS3
 product: Windows
 targetos: Windows
-req.typenames: "*PSET_LOCAL_HOST_PROPS3, SET_LOCAL_HOST_PROPS3"
+req.typenames: SET_LOCAL_HOST_PROPS3, *PSET_LOCAL_HOST_PROPS3
 ---
 
 # _SET_LOCAL_HOST_PROPS3 structure
@@ -143,5 +143,5 @@ The first element of the buffer pointed to by <b>Mdl</b> must be a unit director
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SET_LOCAL_HOST_PROPS3 structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SET_LOCAL_HOST_PROPS3 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

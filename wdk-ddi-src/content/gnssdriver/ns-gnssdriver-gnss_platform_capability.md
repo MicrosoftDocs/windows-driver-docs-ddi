@@ -7,8 +7,8 @@ old-location: sensors\gnss_platform_capability.htm
 old-project: sensors
 ms.assetid: A97DE517-26ED-452F-9066-94F73BC47BDE
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], sensors.gnss_platform_capability, gnssdriver/GNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY
+ms.date: 2/15/2018
+ms.keywords: PGNSS_PLATFORM_CAPABILITY structure pointer [Sensor Devices], *PGNSS_PLATFORM_CAPABILITY, gnssdriver/PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY structure [Sensor Devices], PGNSS_PLATFORM_CAPABILITY, gnssdriver/GNSS_PLATFORM_CAPABILITY, sensors.gnss_platform_capability, GNSS_PLATFORM_CAPABILITY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_PLATFORM_CAPABILITY
 product: Windows
 targetos: Windows
-req.typenames: GNSS_PLATFORM_CAPABILITY, *PGNSS_PLATFORM_CAPABILITY
+req.typenames: "*PGNSS_PLATFORM_CAPABILITY, GNSS_PLATFORM_CAPABILITY"
 ---
 
 # GNSS_PLATFORM_CAPABILITY structure
@@ -98,6 +98,7 @@ Specifies a bitmask containing the different AGNSS formats (GNSS_AGNSSFORMAT_*) 
 
 
 
+
 #### - Reserved
 
 Reserved for future use.
@@ -111,6 +112,8 @@ Padding buffer.
 ## -remarks
 
 
+
  This is a list of individual capability support of the GNSS adapter. The platform capability is represented in the same way as the device capabilities are represented.
+
 
 

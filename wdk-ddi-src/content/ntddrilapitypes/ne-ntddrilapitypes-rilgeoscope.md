@@ -7,8 +7,8 @@ old-location: netvista\rilgeoscope.htm
 old-project: netvista
 ms.assetid: 5dc49d01-54d2-48d3-8649-96262b890fc5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilgeoscope, RIL_GEOSCOPE_MAX, RIL_GEOSCOPE_CELL, ntddrilapitypes/RIL_GEOSCOPE_PLMN, ntddrilapitypes/RIL_GEOSCOPE_MAX, ntddrilapitypes/RILGEOSCOPE, ntddrilapitypes/RIL_GEOSCOPE_CELL_IMMEDIATE, RIL_GEOSCOPE_CELL_IMMEDIATE, RILGEOSCOPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_PLMN, RILGEOSCOPE, ntddrilapitypes/RIL_GEOSCOPE_CELL
+ms.date: 2/16/2018
+ms.keywords: RIL_GEOSCOPE_MAX, ntddrilapitypes/RIL_GEOSCOPE_LOCATIONAREA, RIL_GEOSCOPE_CELL, RILGEOSCOPE enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_GEOSCOPE_CELL_IMMEDIATE, RIL_GEOSCOPE_PLMN, ntddrilapitypes/RIL_GEOSCOPE_CELL, ntddrilapitypes/RIL_GEOSCOPE_PLMN, RIL_GEOSCOPE_CELL_IMMEDIATE, RIL_GEOSCOPE_LOCATIONAREA, ntddrilapitypes/RIL_GEOSCOPE_MAX, RILGEOSCOPE, netvista.rilgeoscope, ntddrilapitypes/RILGEOSCOPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

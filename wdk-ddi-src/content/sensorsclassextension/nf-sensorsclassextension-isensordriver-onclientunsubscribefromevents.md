@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_onclientunsubscribefromevents.htm
 old-project: sensors
 ms.assetid: f51f1091-232f-4e41-9cc2-9938870aeef8
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: OnClientUnsubscribeFromEvents method [Sensor Devices], ISensorDriver::OnClientUnsubscribeFromEvents, ISensorDriver, sensors.isensordriver_onclientunsubscribefromevents, OnClientUnsubscribeFromEvents
+ms.date: 2/15/2018
+ms.keywords: ISensorDriver::OnClientUnsubscribeFromEvents, sensors.isensordriver_onclientunsubscribefromevents, OnClientUnsubscribeFromEvents method [Sensor Devices], OnClientUnsubscribeFromEvents, ISensorDriver
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

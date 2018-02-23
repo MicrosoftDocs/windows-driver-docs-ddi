@@ -4,11 +4,11 @@ title: IDebugControl5::OutputContextStackTraceEx method
 author: windows-driver-content
 description: The OutputContextStackTraceEx method prints the call stack specified by an array of stack frames and corresponding register contexts.
 old-location: debugger\idebugcontrol5_outputcontextstacktraceex.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: B0C1E602-83CE-4F4E-9198-B1B1CDAFF4BF
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl5, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, dbgeng/IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method, debugger.idebugcontrol5_outputcontextstacktraceex, IDebugControl5::OutputContextStackTraceEx
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugControl5::OutputContextStackTraceEx, debugger.idebugcontrol5_outputcontextstacktraceex, OutputContextStackTraceEx method [Windows Debugging], OutputContextStackTraceEx, IDebugControl5::OutputContextStackTraceEx, OutputContextStackTraceEx method [Windows Debugging], IDebugControl5 interface, IDebugControl5, IDebugControl5 interface [Windows Debugging], OutputContextStackTraceEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl5.OutputContextStackTraceEx
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl5::OutputContextStackTraceEx method
@@ -264,5 +264,5 @@ The method was successful.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl5::OutputContextStackTraceEx method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl5::OutputContextStackTraceEx method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

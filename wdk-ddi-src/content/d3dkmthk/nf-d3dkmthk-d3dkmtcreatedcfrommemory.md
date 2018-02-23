@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreatedcfrommemory.htm
 old-project: display
 ms.assetid: c02f53d9-7cf2-4420-9aea-4dba916be786
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dkmtcreatedcfrommemory, d3dkmthk/D3DKMTCreateDCFromMemory, D3DKMTCreateDCFromMemory function [Display Devices], OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, PFND3DKMT_CREATEDCFROMMEMORY, D3DKMTCreateDCFromMemory
+ms.date: 2/20/2018
+ms.keywords: OpenGL_Functions_676f0d3e-5a5a-48d5-9092-88ac897a73b8.xml, d3dkmthk/D3DKMTCreateDCFromMemory, display.d3dkmtcreatedcfrommemory, D3DKMTCreateDCFromMemory, D3DKMTCreateDCFromMemory function [Display Devices], PFND3DKMT_CREATEDCFROMMEMORY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -139,5 +139,5 @@ During the execution of the <b>D3DKMTCreateDCFromMemory</b> function, the kernel
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTCreateDCFromMemory function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTCreateDCFromMemory function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

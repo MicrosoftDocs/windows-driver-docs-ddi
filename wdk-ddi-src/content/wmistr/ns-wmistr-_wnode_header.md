@@ -7,8 +7,8 @@ old-location: kernel\wnode_header.htm
 old-project: kernel
 ms.assetid: a895f048-b111-4ccc-8466-fe9b169a2f95
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "*PWNODE_HEADER, wmistr/WNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], _WNODE_HEADER, WNODE_HEADER, kernel.wnode_header, WNODE_HEADER structure [Kernel-Mode Driver Architecture], wmistr/PWNODE_HEADER, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, PWNODE_HEADER"
+ms.date: 2/16/2018
+ms.keywords: wmistr/PWNODE_HEADER, kstruct_d_ff879b76-aed0-46d5-a688-c59e1424aeb4.xml, _WNODE_HEADER, wmistr/WNODE_HEADER, *PWNODE_HEADER, WNODE_HEADER structure [Kernel-Mode Driver Architecture], PWNODE_HEADER, PWNODE_HEADER structure pointer [Kernel-Mode Driver Architecture], kernel.wnode_header, WNODE_HEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -99,11 +99,6 @@ If <b>Flags</b> is set to WNODE_FLAG_EVENT_ITEM or WNODE_FLAG_EVENT_REFERENCE, <
  
 
 
-### -field DUMMYUNIONNAME.HistoricalContext
-
-This member stores the handle to the event tracing session. 
-
-
 ### -field DUMMYUNIONNAME.DUMMYSTRUCTNAME
 
  
@@ -122,21 +117,6 @@ This member is reserved for WMI.
 ### -field DUMMYUNIONNAME2
 
  
-
-
-### -field DUMMYUNIONNAME2.CountLost
-
-Reserved
-
-
-### -field DUMMYUNIONNAME2.KernelHandle
-
-This member is reserved for WMI.
-
-
-### -field DUMMYUNIONNAME2.TimeStamp
-
-This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged. 
 
 
 ### -field Guid
@@ -330,6 +310,26 @@ The <b>Guid</b> member points to a GUID in memory, rather than containing the GU
 Data that follows the fixed members of a <b>WNODE_<i>XXX</i></b> structure consists of an array of MOF_FIELD structures, defined in Evntrace.h, that contain pointers to data and sizes rather than the data itself. The array can contain up to MAX_MOF_FIELD elements. The system logger dereferences the pointers before passing the data to the consumer This flag is valid only for blocks registered with WMIREG_FLAG_TRACED_GUID. 
 
 
+#### - HistoricalContext
+
+This member stores the handle to the event tracing session. 
+
+
+#### - CountLost
+
+Reserved
+
+
+#### - KernelHandle
+
+This member is reserved for WMI.
+
+
+#### - TimeStamp
+
+This member indicates the time at which a driver collected the <b>WNODE_<i>XXX</i></b> data. This time value is expressed in absolute system time format. Absolute system time is the number of 100-nanosecond intervals since the start of the year 1601 in the Gregorian calendar. A driver can call <b>KeQuerySystemTime</b> to obtain this value. If the block is to be written to a log file (WNODE_FLAG_LOG_WNODE), an NT driver might also set WNODE_FLAG_USE_TIMESTAMP in <b>Flags</b> to request that the system logger leave the value of <b>TimeStamp </b>unchanged. 
+
+
 ## -remarks
 
 
@@ -345,15 +345,15 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
+<a href="..\wmistr\ns-wmistr-tagwnode_event_reference.md">WNODE_EVENT_REFERENCE</a>
+
+
+
+<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
 
 
 
 <a href="..\wmistr\ns-wmistr-tagwnode_single_item.md">WNODE_SINGLE_ITEM</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
 
 
 
@@ -365,11 +365,11 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
+<a href="..\wmistr\ns-wmistr-tagwnode_too_small.md">WNODE_TOO_SMALL</a>
+
+
+
 <a href="..\wdm\nf-wdm-kequerysystemtime.md">KeQuerySystemTime</a>
-
-
-
-<a href="..\wmistr\ns-wmistr-tagwnode_event_item.md">WNODE_EVENT_ITEM</a>
 
 
 
@@ -377,7 +377,7 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
 
 
-<a href="..\wmistr\ns-wmistr-tagwnode_single_instance.md">WNODE_SINGLE_INSTANCE</a>
+<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
 
 
 
@@ -385,5 +385,5 @@ In an <b>IRP_MN_CHANGE_<i>XXX</i></b> or <a href="https://msdn.microsoft.com/lib
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_HEADER structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

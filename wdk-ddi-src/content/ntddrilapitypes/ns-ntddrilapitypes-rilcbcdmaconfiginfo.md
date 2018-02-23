@@ -7,8 +7,8 @@ old-location: netvista\rilcbcdmaconfiginfo.htm
 old-project: netvista
 ms.assetid: 6f8b19ee-a079-4408-8567-39ad832879f2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista], netvista.rilcbcdmaconfiginfo, ntddrilapitypes/RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO
+ms.date: 2/16/2018
+ms.keywords: RILCBCDMACONFIGINFO structure [Network Drivers Starting with Windows Vista], *LPRILCBCDMACONFIGINFO, ntddrilapitypes/RILCBCDMACONFIGINFO, netvista.rilcbcdmaconfiginfo, RILCBCDMACONFIGINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCBCDMACONFIGINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCBCDMACONFIGINFO, RILCBCDMACONFIGINFO"
+req.typenames: RILCBCDMACONFIGINFO, *LPRILCBCDMACONFIGINFO
 ---
 
 # RILCBCDMACONFIGINFO structure

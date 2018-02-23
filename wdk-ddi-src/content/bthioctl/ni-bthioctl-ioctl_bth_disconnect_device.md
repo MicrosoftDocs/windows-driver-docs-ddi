@@ -7,7 +7,7 @@ old-location: bltooth\ioctl_bth_disconnect_device.htm
 old-project: bltooth
 ms.assetid: 03c7f389-60a4-4c98-881d-a58926644275
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.ioctl_bth_disconnect_device, IOCTL_BTH_DISCONNECT_DEVICE control code [Bluetooth Devices], IOCTL_BTH_DISCONNECT_DEVICE, bthioctl/IOCTL_BTH_DISCONNECT_DEVICE, bth_ioctls_03f58c9a-06b9-45b9-b817-3ef86058af5e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

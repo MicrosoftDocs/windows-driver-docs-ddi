@@ -7,8 +7,8 @@ old-location: audio\dmus_kernel_event.htm
 old-project: audio
 ms.assetid: 652f64e2-310b-46c9-8b00-c827a7475b07
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], PDMUS_KERNEL_EVENT structure pointer [Audio Devices], dmusicks/DMUS_KERNEL_EVENT, _DMUS_KERNEL_EVENT, dmusicks/PDMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, *PDMUS_KERNEL_EVENT, audio.dmus_kernel_event, PDMUS_KERNEL_EVENT
+ms.date: 2/21/2018
+ms.keywords: dmusicks/PDMUS_KERNEL_EVENT, audio.dmus_kernel_event, PDMUS_KERNEL_EVENT, aud-prop_b0db54b3-fff3-46f2-abd7-beb4fe189f8f.xml, DMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT, dmusicks/DMUS_KERNEL_EVENT, _DMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT structure [Audio Devices], PDMUS_KERNEL_EVENT structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DMUS_KERNEL_EVENT
 product: Windows
 targetos: Windows
-req.typenames: "*PDMUS_KERNEL_EVENT, DMUS_KERNEL_EVENT"
+req.typenames: DMUS_KERNEL_EVENT, *PDMUS_KERNEL_EVENT
 ---
 
 # _DMUS_KERNEL_EVENT structure
@@ -145,17 +145,20 @@ Pointer to the next event in the list, or <b>NULL</b> if no event follows. This 
 ### -field uData
 
 
-### -field uData.abData
+
+#### abData
 
 A byte array containing <b>cbEvent</b> bytes of event data. The event data are typically MIDI status and data bytes. This member of <b>uData</b> is used if <b>cbEvent</b> is less than or equal to <b>sizeof</b>(PBYTE).
 
 
-### -field uData.pbData
+
+#### pbData
 
 Pointer to a buffer containing <b>cbEvent</b> bytes of event data. The event data are typically MIDI status and data bytes. This member of <b>uData</b> is used if <b>uFlags</b> is set to DMUS_KEF_EVENT_COMPLETE and <b>cbEvent</b> is greater than <b>sizeof</b>(PBYTE).
 
 
-### -field uData.pPackageEvt
+
+#### pPackageEvt
 
 Pointer to a chain of events, which is in the form of a linked list of DMUS_KERNEL_EVENT structures. The event data typically consist of MIDI status and data bytes. The events in the list are to be handled together. This member of <b>uData</b> is used if <b>uFlags</b> is set to DMUS_KEF_PACKAGE_EVENT.
 
@@ -191,17 +194,17 @@ Presentation time does not advance during the states KSSTATE_PAUSE and KSSTATE_S
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536494">IAllocatorMXF::GetMessage</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff536791">IMXF::PutMessage</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536494">IAllocatorMXF::GetMessage</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DMUS_KERNEL_EVENT structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20DMUS_KERNEL_EVENT structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

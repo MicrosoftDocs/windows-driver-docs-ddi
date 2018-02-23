@@ -7,8 +7,8 @@ old-location: netvista\ril_setequipmentstate.htm
 old-project: netvista
 ms.assetid: 52b76027-5562-403b-9993-40d3d9a33e35
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapi/RIL_SetEquipmentState, netvista.ril_setequipmentstate, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], RIL_SetEquipmentState
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_setequipmentstate, RIL_SetEquipmentState method [Network Drivers Starting with Windows Vista], rilapi/RIL_SetEquipmentState, RIL_SetEquipmentState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_SetEquipmentState
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

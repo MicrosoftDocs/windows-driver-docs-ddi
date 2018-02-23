@@ -7,8 +7,8 @@ old-location: kernel\rtlarebitsset.htm
 old-project: kernel
 ms.assetid: 7343f619-cf89-4768-b488-fe95f1da749d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlAreBitsSet routine [Kernel-Mode Driver Architecture], RtlAreBitsSet, wdm/RtlAreBitsSet, k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml, kernel.rtlarebitsset
+ms.date: 2/16/2018
+ms.keywords: wdm/RtlAreBitsSet, RtlAreBitsSet routine [Kernel-Mode Driver Architecture], kernel.rtlarebitsset, RtlAreBitsSet, k109_8d2248d2-13e9-4f90-8d09-a3ea51579da8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,15 +105,15 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtlcheckbit.md">RtlCheckBit</a>
 
 
 
-<a href="..\wdm\nf-wdm-rtlarebitsclear.md">RtlAreBitsClear</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
+<a href="..\wdm\nf-wdm-rtlsetallbits.md">RtlSetAllBits</a>
 
 
 
@@ -125,7 +125,7 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
@@ -133,5 +133,5 @@ Callers of <b>RtlAreBitsSet</b> must be running at IRQL &lt;= APC_LEVEL if the m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlAreBitsSet routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlAreBitsSet routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

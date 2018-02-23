@@ -7,8 +7,8 @@ old-location: netvista\ndis_open_parameters.htm
 old-project: netvista
 ms.assetid: bb61026c-311b-41d1-9fcb-3ac44df2025e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS, _NDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, ndis/NDIS_OPEN_PARAMETERS, netvista.ndis_open_parameters, ndis/PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ndis/NDIS_OPEN_PARAMETERS, PNDIS_OPEN_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_OPEN_PARAMETERS, _NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS, ndis/PNDIS_OPEN_PARAMETERS, protocol_structures_ref_6de65643-050b-43b6-875f-13c493b3d9de.xml, NDIS_OPEN_PARAMETERS structure [Network Drivers Starting with Windows Vista], netvista.ndis_open_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_OPEN_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_OPEN_PARAMETERS, NDIS_OPEN_PARAMETERS"
+req.typenames: NDIS_OPEN_PARAMETERS, *PNDIS_OPEN_PARAMETERS
 ---
 
 # _NDIS_OPEN_PARAMETERS structure
@@ -159,15 +159,19 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
+<a href="..\ntddndis\ne-ntddndis-_ndis_medium.md">NDIS_MEDIUM</a>
+
+
+
 <a href="..\ndis\nc-ndis-protocol_bind_adapter_ex.md">ProtocolBindAdapterEx</a>
 
 
 
 <a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -179,5 +183,5 @@ A protocol driver passes an NDIS_OPEN_PARAMETERS structure when it calls the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OPEN_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OPEN_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

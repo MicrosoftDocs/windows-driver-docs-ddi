@@ -7,8 +7,8 @@ old-location: bltooth\acl_mode.htm
 old-project: bltooth
 ms.assetid: 90013f42-9393-4037-8d0d-13fe5d7caa0b
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: ACL_MODE_SNIFF, ACL_MODE_ENTER_HOLD, ACL_MODE_HOLD, bthddi/ACL_MODE_ACTIVE, bthddi/ACL_MODE_ENTER_PARK, _ACL_MODE, bthddi/ACL_MODE_HOLD, ACL_MODE_ACTIVE, ACL_MODE_PARK, ACL_MODE, ACL_DISCONNECTED, ACL_MODE enumeration [Bluetooth Devices], bthddi/ACL_MODE_PARK, bthddi/ACL_MODE_SNIFF, ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_SNIFF, ACL_MODE_ENTER_PARK, bthddi/ACL_DISCONNECTED, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, bthddi/ACL_MODE_ENTER_SNIFF, bthddi/ACL_MODE_ENTER_ACTIVE, bltooth.acl_mode, bthddi/ACL_MODE_ENTER_HOLD, bthddi/ACL_MODE
+ms.date: 2/15/2018
+ms.keywords: "_ACL_MODE, bltooth.acl_mode, bthddi/ACL_MODE_ENTER_HOLD, ACL_MODE, ACL_MODE_ENTER_SNIFF, bthddi/ACL_DISCONNECTED, ACL_MODE_HOLD, bthddi/ACL_MODE_HOLD, bthddi/ACL_MODE_ENTER_PARK, bthddi/ACL_MODE_SNIFF, bthddi/ACL_MODE_ENTER_SNIFF, bth_enums_52494ea2-66f0-4c7d-8f7b-c427a21ee826.xml, bthddi/ACL_MODE_ACTIVE, ACL_MODE_ENTER_HOLD, ACL_MODE_PARK, bthddi/ACL_MODE, ACL_DISCONNECTED, ACL_MODE_SNIFF, bthddi/ACL_MODE_PARK, ACL_MODE_ENTER_ACTIVE, ACL_MODE_ENTER_PARK, ACL_MODE_ACTIVE, ACL_MODE enumeration [Bluetooth Devices], bthddi/ACL_MODE_ENTER_ACTIVE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -141,5 +141,5 @@ The
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20ACL_MODE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20ACL_MODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

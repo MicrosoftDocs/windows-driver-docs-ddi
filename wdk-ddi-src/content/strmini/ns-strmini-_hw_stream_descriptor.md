@@ -7,8 +7,8 @@ old-location: stream\hw_stream_descriptor.htm
 old-project: stream
 ms.assetid: ebc44350-3093-44ba-a2c9-73133fd18db7
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.hw_stream_descriptor, *PHW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR structure [Streaming Media Devices], strmini/HW_STREAM_DESCRIPTOR, _HW_STREAM_DESCRIPTOR, PHW_STREAM_DESCRIPTOR structure pointer [Streaming Media Devices], PHW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR, strclass-struct_57b4a9ea-44c1-4584-94f4-060a3fa58bf1.xml, strmini/PHW_STREAM_DESCRIPTOR
+ms.date: 2/20/2018
+ms.keywords: PHW_STREAM_DESCRIPTOR structure pointer [Streaming Media Devices], strmini/PHW_STREAM_DESCRIPTOR, *PHW_STREAM_DESCRIPTOR, HW_STREAM_DESCRIPTOR structure [Streaming Media Devices], PHW_STREAM_DESCRIPTOR, _HW_STREAM_DESCRIPTOR, strclass-struct_57b4a9ea-44c1-4584-94f4-060a3fa58bf1.xml, stream.hw_stream_descriptor, HW_STREAM_DESCRIPTOR, strmini/HW_STREAM_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,17 +92,17 @@ The class driver expects HW_STREAM_DESCRIPTOR to be laid out in memory as an <a 
 
 ## -see-also
 
-<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
-
-
-
 <a href="..\strmini\ns-strmini-_hw_stream_header.md">HW_STREAM_HEADER</a>
 
 
 
- 
+<a href="..\strmini\ns-strmini-_hw_stream_information.md">HW_STREAM_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_STREAM_DESCRIPTOR structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_STREAM_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

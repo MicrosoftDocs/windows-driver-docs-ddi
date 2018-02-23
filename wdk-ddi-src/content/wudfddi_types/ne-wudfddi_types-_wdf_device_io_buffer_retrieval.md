@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_io_buffer_retrieval.htm
 old-project: wdf
 ms.assetid: 50ece9a1-8d0d-442c-962c-488bd6368a67
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL, wdf.wdf_device_io_buffer_retrieval, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, WdfDeviceIoBufferRetrievalMaximum, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, WdfDeviceIoBufferRetrievalDeferred, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, WdfDeviceIoBufferRetrievalInvalid, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum, WdfDeviceIoBufferRetrievalCopyImmediately, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, umdf.wdf_device_io_buffer_retrieval, wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL
+ms.date: 2/20/2018
+ms.keywords: wudfddi_types/WdfDeviceIoBufferRetrievalDeferred, WdfDeviceIoBufferRetrievalMaximum, wudfddi_types/PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WdfDeviceIoBufferRetrievalMaximum, WdfDeviceIoBufferRetrievalInvalid, wudfddi_types/WdfDeviceIoBufferRetrievalCopyImmediately, PWDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration pointer, wudfddi_types/WdfDeviceIoBufferRetrievalInvalid, WDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration, _WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL, umdfstructs_7bb0e71c-fbce-4f29-9373-a80527403e04.xml, WdfDeviceIoBufferRetrievalDeferred, PWDF_DEVICE_IO_BUFFER_RETRIEVAL, wudfddi_types/WDF_DEVICE_IO_BUFFER_RETRIEVAL, WdfDeviceIoBufferRetrievalCopyImmediately, umdf.wdf_device_io_buffer_retrieval, wdf.wdf_device_io_buffer_retrieval
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_IO_BUFFER_RETRIEVAL
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DEVICE_IO_BUFFER_RETRIEVAL, WDF_DEVICE_IO_BUFFER_RETRIEVAL"
+req.typenames: WDF_DEVICE_IO_BUFFER_RETRIEVAL, *PWDF_DEVICE_IO_BUFFER_RETRIEVAL
 req.product: Windows 10 or later.
 ---
 
@@ -138,5 +138,5 @@ For more information about accessing an I/O request's data buffers, see <a href=
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_IO_BUFFER_RETRIEVAL enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dddiarg_texblt1.htm
 old-project: display
 ms.assetid: e11fd9b5-c3ad-4f8f-890c-30ca5ce4a57f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dumddi/D3DDDIARG_TEXBLT1, _D3DDDIARG_TEXBLT1, D3DDDIARG_TEXBLT1 structure [Display Devices], display.d3dddiarg_texblt1, D3DDDIARG_TEXBLT1
+ms.date: 2/20/2018
+ms.keywords: display.d3dddiarg_texblt1, D3DDDIARG_TEXBLT1 structure [Display Devices], D3DDDIARG_TEXBLT1, d3dumddi/D3DDDIARG_TEXBLT1, _D3DDDIARG_TEXBLT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -108,17 +108,17 @@ A value that specifies characteristics of a copy operation as a bitwise OR of th
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
-
-
-
 <a href="..\d3dumddi\ne-d3dumddi-d3dddi_copy_flags.md">D3DDDI_COPY_FLAGS</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569234">RECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_TEXBLT1 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDIARG_TEXBLT1 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

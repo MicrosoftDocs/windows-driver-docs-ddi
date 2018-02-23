@@ -7,7 +7,7 @@ old-location: display\pfnd3dddi_createhwqueuecb.htm
 old-project: display
 ms.assetid: 1BA2E4DD-3E91-4D2E-AA90-9C85D53EE9E3
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3dddi_createhwqueuecb, PFND3DDDI_CREATEHWQUEUECB callback function [Display Devices], PFND3DDDI_CREATEHWQUEUECB, d3dumddi/PFND3DDDI_CREATEHWQUEUECB
 ms.prod: windows-hardware
 ms.technology: windows-devices

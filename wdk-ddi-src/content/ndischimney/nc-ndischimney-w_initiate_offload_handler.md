@@ -7,7 +7,7 @@ old-location: netvista\miniportinitiateoffload.htm
 old-project: netvista
 ms.assetid: f430642b-01bf-4ed7-bfea-e8dd8d5a8208
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.miniportinitiateoffload, MiniportInitiateOffload callback function [Network Drivers Starting with Windows Vista], MiniportInitiateOffload, W_INITIATE_OFFLOAD_HANDLER, W_INITIATE_OFFLOAD_HANDLER, ndischimney/MiniportInitiateOffload, tcp_chim_miniport_func_58c338e0-ea8e-41c2-a781-a32f4be7758c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -163,7 +163,8 @@ For each state object that it offloads, the offload target must also supply a PV
 
 ## -see-also
 
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
 
 
 
@@ -175,8 +176,7 @@ For each state object that it offloads, the offload target must also supply a PV
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -184,5 +184,5 @@ For each state object that it offloads, the offload target must also supply a PV
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_INITIATE_OFFLOAD_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_INITIATE_OFFLOAD_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

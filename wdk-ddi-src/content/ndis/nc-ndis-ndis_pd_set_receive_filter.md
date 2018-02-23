@@ -7,7 +7,7 @@ old-location: netvista\ndispdsetreceivefilter.htm
 old-project: netvista
 ms.assetid: 49587142-9C84-4F73-BE0C-D256A8E6BF4B
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.ndispdsetreceivefilter, NdisPDSetReceiveFilter callback function [Network Drivers Starting with Windows Vista], NdisPDSetReceiveFilter, NDIS_PD_SET_RECEIVE_FILTER, NDIS_PD_SET_RECEIVE_FILTER, ndis/NdisPDSetReceiveFilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	NdisPDSetReceiveFilter
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # NDIS_PD_SET_RECEIVE_FILTER callback

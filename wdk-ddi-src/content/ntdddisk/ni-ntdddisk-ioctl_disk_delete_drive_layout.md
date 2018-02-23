@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_delete_drive_layout.htm
 old-project: storage
 ms.assetid: 787fa1ce-5305-4159-8710-3c6971133c4c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_disk_delete_drive_layout, IOCTL_DISK_DELETE_DRIVE_LAYOUT control code [Storage Devices], IOCTL_DISK_DELETE_DRIVE_LAYOUT, ntdddisk/IOCTL_DISK_DELETE_DRIVE_LAYOUT, k307_7319c33d-d8ab-438c-9908-ac380bff54b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

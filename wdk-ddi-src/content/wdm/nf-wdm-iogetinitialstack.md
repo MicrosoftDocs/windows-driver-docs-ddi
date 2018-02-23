@@ -7,8 +7,8 @@ old-location: kernel\iogetinitialstack.htm
 old-project: kernel
 ms.assetid: 0d0d793f-c2c1-48ff-9e7f-ef2697255bfa
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoGetInitialStack, kernel.iogetinitialstack, wdm/IoGetInitialStack, k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, IoGetInitialStack routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: IoGetInitialStack routine [Kernel-Mode Driver Architecture], IoGetInitialStack, k104_5e1ac4e5-b51e-4840-86e3-2ce67c634489.xml, kernel.iogetinitialstack, wdm/IoGetInitialStack
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,5 +100,5 @@ Highest-level drivers can call this routine, particularly file systems attemptin
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetInitialStack routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoGetInitialStack routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

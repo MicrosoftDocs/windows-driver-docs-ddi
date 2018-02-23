@@ -7,8 +7,8 @@ old-location: netvista\riluiccprlid_2.htm
 old-project: netvista
 ms.assetid: d91d48a8-492d-4f23-9c7a-10920c9e4845
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riluiccprlid_2, RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCPRLID
+ms.date: 2/16/2018
+ms.keywords: RILUICCPRLID, RILUICCPRLID enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCPRLID, netvista.riluiccprlid_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

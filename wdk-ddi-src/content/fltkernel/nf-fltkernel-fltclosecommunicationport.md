@@ -7,8 +7,8 @@ old-location: ifsk\fltclosecommunicationport.htm
 old-project: ifsk
 ms.assetid: e3ab0d74-2c97-43da-8bee-82caa3d91c98
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltCloseCommunicationPort function [Installable File System Drivers], ifsk.fltclosecommunicationport, FltCloseCommunicationPort, FltApiRef_a_to_d_d55f3e54-9c1c-4fd0-92e6-1e950c2a4637.xml, fltkernel/FltCloseCommunicationPort
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltclosecommunicationport, FltCloseCommunicationPort, fltkernel/FltCloseCommunicationPort, FltCloseCommunicationPort function [Installable File System Drivers], FltApiRef_a_to_d_d55f3e54-9c1c-4fd0-92e6-1e950c2a4637.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,6 +104,14 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540460">FilterConnectCommunicationPort</a>
 
 
@@ -112,17 +120,9 @@ This routine closes handle for the minifilter driver's server port, which listen
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsendmessage.md">FltSendMessage</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcloseclientport.md">FltCloseClientPort</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCloseCommunicationPort function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCloseCommunicationPort function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

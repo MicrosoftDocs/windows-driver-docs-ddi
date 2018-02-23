@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
 author: windows-driver-content
 description: The IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS I/O request returns information about the host controller the USB device is attached to, and the device's location in the USB device tree.
 old-location: buses\ioctl_internal_usb_get_topology_address.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 15a196de-7d6a-408a-97e1-58d6756433db
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_internal_usb_get_topology_address, IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code [Buses], IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS, usbioctl/IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -119,5 +119,5 @@ The hub or port driver sets <b>Irp-&gt;IoStatus.Status</b> to STATUS_SUCCESS or 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20IOCTL_INTERNAL_USB_GET_TOPOLOGY_ADDRESS control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

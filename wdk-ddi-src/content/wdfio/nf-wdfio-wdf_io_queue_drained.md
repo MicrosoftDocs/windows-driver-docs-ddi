@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_queue_drained.htm
 old-project: wdf
 ms.assetid: 1b2384c3-6438-4456-b4fc-44211b8a3fb1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfio/WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED, WDF_IO_QUEUE_DRAINED function, DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml, wdf.wdf_io_queue_drained, kmdf.wdf_io_queue_drained
+ms.date: 2/20/2018
+ms.keywords: wdf.wdf_io_queue_drained, WDF_IO_QUEUE_DRAINED, wdfio/WDF_IO_QUEUE_DRAINED, kmdf.wdf_io_queue_drained, WDF_IO_QUEUE_DRAINED function, DFQueueObjectRef_ddc761b3-266a-4942-94ed-8ecca07575d1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -127,11 +127,11 @@ IsQueueDrained(
 
 ## -see-also
 
-<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
-
-
-
 <a href="..\wdfio\nf-wdfio-wdf_io_queue_idle.md">WDF_IO_QUEUE_IDLE</a>
+
+
+
+<a href="..\wdfio\nf-wdfio-wdf_io_queue_purged.md">WDF_IO_QUEUE_PURGED</a>
 
 
 
@@ -147,5 +147,5 @@ IsQueueDrained(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_DRAINED function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_QUEUE_DRAINED function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

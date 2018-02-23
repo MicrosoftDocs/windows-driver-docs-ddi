@@ -7,8 +7,8 @@ old-location: sensors\gnss_geofence_create_response.htm
 old-project: sensors
 ms.assetid: D832B534-34E2-402F-833A-C072007E3106
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PGNSS_GEOFENCE_CREATE_RESPONSE structure pointer [Sensor Devices], GNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE structure [Sensor Devices], gnssdriver/PGNSS_GEOFENCE_CREATE_RESPONSE, PGNSS_GEOFENCE_CREATE_RESPONSE, gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE, sensors.gnss_geofence_create_response
+ms.date: 2/15/2018
+ms.keywords: PGNSS_GEOFENCE_CREATE_RESPONSE, sensors.gnss_geofence_create_response, GNSS_GEOFENCE_CREATE_RESPONSE structure [Sensor Devices], PGNSS_GEOFENCE_CREATE_RESPONSE structure pointer [Sensor Devices], gnssdriver/PGNSS_GEOFENCE_CREATE_RESPONSE, gnssdriver/GNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_GEOFENCE_CREATE_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_GEOFENCE_CREATE_RESPONSE, GNSS_GEOFENCE_CREATE_RESPONSE"
+req.typenames: GNSS_GEOFENCE_CREATE_RESPONSE, *PGNSS_GEOFENCE_CREATE_RESPONSE
 ---
 
 # GNSS_GEOFENCE_CREATE_RESPONSE structure
@@ -98,6 +98,7 @@ The GNSS engine must guarantee the uniqueness of this ID and ensure that there a
 ### -field Unused
 
  
+
 
 
 

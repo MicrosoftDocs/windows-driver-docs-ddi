@@ -7,8 +7,8 @@ old-location: ifsk\fltcbdqinitialize.htm
 old-project: ifsk
 ms.assetid: a3e089bf-6037-4d85-92ce-db9c865bdc02
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltCbdqInitialize, FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml, fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize, FltCbdqInitialize function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: FltCbdqInitialize, fltkernel/FltCbdqInitialize, ifsk.fltcbdqinitialize, FltCbdqInitialize function [Installable File System Drivers], FltApiRef_a_to_d_e365fdac-7834-4388-b8ba-65593b045d19.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -410,7 +410,7 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqremoveio.md">FltCbdqRemoveIo</a>
 
 
 
@@ -418,11 +418,7 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqinsertio.md">FltCbdqInsertIo</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
 
 
 
@@ -430,15 +426,19 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqenable.md">FltCbdqEnable</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data_queue.md">FLT_CALLBACK_DATA_QUEUE</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcbdqremovenextio.md">FltCbdqRemoveNextIo</a>
+<a href="..\fltkernel\nf-fltkernel-fltcbdqdisable.md">FltCbdqDisable</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544654">FLT_IS_IRP_OPERATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltcompletependedpreoperation.md">FltCompletePendedPreOperation</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -446,5 +446,5 @@ This routine should complete a canceled I/O operation. Normally, minifilter driv
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCbdqInitialize function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCbdqInitialize function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

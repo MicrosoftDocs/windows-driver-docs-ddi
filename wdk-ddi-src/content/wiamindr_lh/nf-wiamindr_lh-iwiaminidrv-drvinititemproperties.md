@@ -4,11 +4,11 @@ title: IWiaMiniDrv::drvInitItemProperties method
 author: windows-driver-content
 description: The IWiaMiniDrv::drvInitItemProperties method initializes WIA driver item properties for each item in an application item tree.
 old-location: image\iwiaminidrv_drvinititemproperties.htm
-old-project: image
+old-project: Image
 ms.assetid: 06dce5c0-f893-47c7-bee9-1b7f61137ba0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, IWiaMiniDrv::drvInitItemProperties, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, IWiaMiniDrv interface [Imaging Devices], drvInitItemProperties method, drvInitItemProperties method [Imaging Devices], wiamindr_lh/IWiaMiniDrv::drvInitItemProperties, image.iwiaminidrv_drvinititemproperties, drvInitItemProperties, drvInitItemProperties method [Imaging Devices], IWiaMiniDrv interface
+ms.date: 2/15/2018
+ms.keywords: IWiaMiniDrv::drvInitItemProperties, drvInitItemProperties, IWiaMiniDrv interface [Imaging Devices], drvInitItemProperties method, drvInitItemProperties method [Imaging Devices], IWiaMiniDrv interface, wiamindr_lh/IWiaMiniDrv::drvInitItemProperties, MiniDrv_88720847-db1d-475a-b8c4-62fdb376953a.xml, IWiaMiniDrv, drvInitItemProperties method [Imaging Devices], image.iwiaminidrv_drvinititemproperties
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -124,11 +124,11 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiasgetdrvitem.md">wiasGetDrvItem</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiassetitempropattribs.md">wiasSetItemPropAttribs</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswritemultiple.md">wiasWriteMultiple</a>
 
 
 
@@ -140,7 +140,7 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasgetdrvitem.md">wiasGetDrvItem</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543982">IWiaMiniDrv::drvGetDeviceErrorStr</a>
 
 
 
@@ -152,5 +152,5 @@ The <b>IWiaMiniDrv::drvInitItemProperties</b> method is called once per applicat
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrv::drvInitItemProperties method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaMiniDrv::drvInitItemProperties method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

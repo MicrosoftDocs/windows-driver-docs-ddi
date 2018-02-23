@@ -7,8 +7,8 @@ old-location: netvista\ndisquerybindinstancename.htm
 old-project: netvista
 ms.assetid: bbba8be8-aa7e-455f-a591-e9d915f137f4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml, NdisQueryBindInstanceName, ndis/NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NdisQueryBindInstanceName function [Network Drivers Starting with Windows Vista], ndis/NdisQueryBindInstanceName, NdisQueryBindInstanceName, netvista.ndisquerybindinstancename, protocol_ndis_functions_ref_96d4e502-200e-4ad5-b66d-6de612a0b7f9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,7 +128,7 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 ## -see-also
 
-<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -136,7 +136,7 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ndis\nf-ndis-ndisfreememory.md">NdisFreeMemory</a>
 
 
 
@@ -144,5 +144,5 @@ Friendly names are intended to help the user quickly and accurately identify a p
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisQueryBindInstanceName function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisQueryBindInstanceName function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

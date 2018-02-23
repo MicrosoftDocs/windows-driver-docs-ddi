@@ -7,8 +7,8 @@ old-location: wdf\wdfdmatransactiongetcurrentdmatransferlength.htm
 old-project: wdf
 ms.assetid: 20a27ad7-0b27-494e-b761-fc3edf71e8c9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml, wdf.wdfdmatransactiongetcurrentdmatransferlength, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength, WdfDmaTransactionGetCurrentDmaTransferLength method, WdfDmaTransactionGetCurrentDmaTransferLength, kmdf.wdfdmatransactiongetcurrentdmatransferlength, PFN_WDFDMATRANSACTIONGETCURRENTDMATRANSFERLENGTH
+ms.date: 2/20/2018
+ms.keywords: WdfDmaTransactionGetCurrentDmaTransferLength method, kmdf.wdfdmatransactiongetcurrentdmatransferlength, WdfDmaTransactionGetCurrentDmaTransferLength, wdf.wdfdmatransactiongetcurrentdmatransferlength, wdfdmatransaction/WdfDmaTransactionGetCurrentDmaTransferLength, DFDmaObjectRef_e0fc16e5-9adb-44c5-be53-5e7929ede3aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,7 +114,7 @@ For a code example that uses <b>WdfDmaTransactionGetCurrentDmaTransferLength</b>
 
 
 
-<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactioncreate.md">WdfDmaTransactionCreate</a>
+<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
 
 
 
@@ -122,7 +122,7 @@ For a code example that uses <b>WdfDmaTransactionGetCurrentDmaTransferLength</b>
 
 
 
-<a href="..\wdfinterrupt\nc-wdfinterrupt-evt_wdf_interrupt_dpc.md">EvtInterruptDpc</a>
+<a href="..\wdfdmatransaction\nf-wdfdmatransaction-wdfdmatransactiondmacompletedwithlength.md">WdfDmaTransactionDmaCompletedWithLength</a>
 
 
 
@@ -130,5 +130,5 @@ For a code example that uses <b>WdfDmaTransactionGetCurrentDmaTransferLength</b>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaTransactionGetCurrentDmaTransferLength method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaTransactionGetCurrentDmaTransferLength method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

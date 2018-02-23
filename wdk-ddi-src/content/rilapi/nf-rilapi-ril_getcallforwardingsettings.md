@@ -7,8 +7,8 @@ old-location: netvista\ril_getcallforwardingsettings.htm
 old-project: netvista
 ms.assetid: f9abb454-5fd1-4680-ab83-f24897c89193
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetCallForwardingSettings method [Network Drivers Starting with Windows Vista], RIL_GetCallForwardingSettings, netvista.ril_getcallforwardingsettings, rilapi/RIL_GetCallForwardingSettings
+ms.date: 2/16/2018
+ms.keywords: RIL_GetCallForwardingSettings, netvista.ril_getcallforwardingsettings, rilapi/RIL_GetCallForwardingSettings, RIL_GetCallForwardingSettings method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetCallForwardingSettings
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

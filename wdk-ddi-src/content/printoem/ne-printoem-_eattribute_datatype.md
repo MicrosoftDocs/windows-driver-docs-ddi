@@ -7,8 +7,8 @@ old-location: print\eattribute_datatype.htm
 old-project: print
 ms.assetid: 51d3e768-11b1-411d-89b1-4fec19306b97
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: printoem/kADT_SIZE, printoem/EATTRIBUTE_DATATYPE, kADT_BOOL, printoem/kADT_BINARY, kADT_SIZE, printoem/kADT_DWORD, printoem/kADT_CUSTOMSIZEPARAMS, _EATTRIBUTE_DATATYPE, printoem/kADT_BOOL, kADT_UNICODE, kADT_INT, kADT_BINARY, kADT_ASCII, printoem/kADT_INT, EATTRIBUTE_DATATYPE enumeration [Print Devices], kADT_LONG, kADT_RECT, EATTRIBUTE_DATATYPE, kADT_CUSTOMSIZEPARAMS, printoem/kADT_ASCII, kADT_DWORD, printoem/kADT_LONG, kADT_UNKNOWN, print.eattribute_datatype, printoem/kADT_UNICODE, printoem/kADT_UNKNOWN, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, printoem/kADT_RECT
+ms.date: 2/21/2018
+ms.keywords: printoem/kADT_BOOL, printoem/kADT_INT, printoem/kADT_LONG, kADT_RECT, kADT_INT, printoem/kADT_SIZE, kADT_UNICODE, kADT_BINARY, printoem/kADT_UNICODE, kADT_DWORD, print_unidrv-pscript_allplugins_6cda9036-f339-4700-808e-06c8867e5ba0.xml, printoem/kADT_CUSTOMSIZEPARAMS, printoem/EATTRIBUTE_DATATYPE, EATTRIBUTE_DATATYPE, kADT_ASCII, kADT_LONG, kADT_SIZE, kADT_BOOL, _EATTRIBUTE_DATATYPE, print.eattribute_datatype, printoem/kADT_UNKNOWN, kADT_UNKNOWN, printoem/kADT_ASCII, printoem/kADT_DWORD, EATTRIBUTE_DATATYPE enumeration [Print Devices], kADT_CUSTOMSIZEPARAMS, printoem/kADT_BINARY, printoem/kADT_RECT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -143,5 +143,5 @@ The attribute is an array containing CUSTOMPARAM_MAX (a constant defined in prin
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EATTRIBUTE_DATATYPE enumeration%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EATTRIBUTE_DATATYPE enumeration%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

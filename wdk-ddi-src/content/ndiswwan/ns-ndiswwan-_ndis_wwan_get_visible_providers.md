@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_get_visible_providers.htm
 old-project: netvista
 ms.assetid: C1AF383A-2D9D-4B2F-A925-D138E1B7AA4F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/NDIS_WWAN_GET_VISIBLE_PROVIDERS, netvista.ndis_wwan_get_visible_providers, PNDIS_WWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_WWAN_GET_VISIBLE_PROVIDERS, ndiswwan/PNDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_GET_VISIBLE_PROVIDERS
+ms.date: 2/16/2018
+ms.keywords: "_NDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS, PNDIS_WWAN_GET_VISIBLE_PROVIDERS structure pointer [Network Drivers Starting with Windows Vista], ndiswwan/PNDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS, *PNDIS_WWAN_GET_VISIBLE_PROVIDERS, netvista.ndis_wwan_get_visible_providers, ndiswwan/NDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_GET_VISIBLE_PROVIDERS
 product: Windows
 targetos: Windows
-req.typenames: NDIS_WWAN_GET_VISIBLE_PROVIDERS, *PNDIS_WWAN_GET_VISIBLE_PROVIDERS
+req.typenames: "*PNDIS_WWAN_GET_VISIBLE_PROVIDERS, NDIS_WWAN_GET_VISIBLE_PROVIDERS"
 ---
 
 # _NDIS_WWAN_GET_VISIBLE_PROVIDERS structure
@@ -134,5 +134,5 @@ A formatted WWAN_GET_VISIBLE_PROVIDERS object that provides additional informati
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_GET_VISIBLE_PROVIDERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_WWAN_GET_VISIBLE_PROVIDERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\report_zones_data.htm
 old-project: storage
 ms.assetid: 67785cb0-388c-4348-b32a-99bcd02b7c04
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.report_zones_data, scsi/PREPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA structure [Storage Devices], PREPORT_ZONES_DATA, scsi/REPORT_ZONES_DATA, *PREPORT_ZONES_DATA, _REPORT_ZONES_DATA, REPORT_ZONES_DATA
+ms.date: 2/16/2018
+ms.keywords: PREPORT_ZONES_DATA, REPORT_ZONES_DATA, *PREPORT_ZONES_DATA, scsi/PREPORT_ZONES_DATA, scsi/REPORT_ZONES_DATA, PREPORT_ZONES_DATA structure pointer [Storage Devices], REPORT_ZONES_DATA structure [Storage Devices], _REPORT_ZONES_DATA, storage.report_zones_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

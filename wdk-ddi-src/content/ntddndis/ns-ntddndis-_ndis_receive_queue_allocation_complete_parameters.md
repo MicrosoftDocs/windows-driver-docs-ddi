@@ -7,8 +7,8 @@ old-location: netvista\ndis_receive_queue_allocation_complete_parameters.htm
 old-project: netvista
 ms.assetid: 1aae1bc7-24c6-46a3-be0e-f028d6b70774
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndis_receive_queue_allocation_complete_parameters, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_6427710d-2634-40e1-bd03-a93fdedfd5a3.xml, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, netvista.ndis_receive_queue_allocation_complete_parameters, *PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, ntddndis/PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], PNDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, _NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS, virtual_machine_queue_ref_6427710d-2634-40e1-bd03-a93fdedfd5a3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,6 +115,10 @@ The <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b> structure is used w
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_receive_queue_allocation_complete_array.md">
    NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_ARRAY</a>
 
@@ -124,14 +128,9 @@ The <b>NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS</b> structure is used w
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-receive-filter-queue-allocation-complete">
-   OID_RECEIVE_FILTER_QUEUE_ALLOCATION_COMPLETE</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_RECEIVE_QUEUE_ALLOCATION_COMPLETE_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

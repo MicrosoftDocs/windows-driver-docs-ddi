@@ -7,7 +7,7 @@ old-location: display\dxgk_monitorfrequencyrangeset_interface_pfnacquirefirstfre
 old-project: display
 ms.assetid: 08bf8212-4cab-48ba-b9fc-fca2bb4251ff
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgk_monitorfrequencyrangeset_interface_pfnacquirefirstfrequencyrangei, pfnAcquireFirstFrequencyRangeInfo callback function [Display Devices], pfnAcquireFirstFrequencyRangeInfo, DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIREFIRSTFREQUENCYRANGEINFO, DXGKDDI_MONITORFREQUENCYRANGESET_ACQUIREFIRSTFREQUENCYRANGEINFO, d3dkmddi/pfnAcquireFirstFrequencyRangeInfo, VidPnFunctions_63ff519a-3c48-4c80-95a0-35009a532ac0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

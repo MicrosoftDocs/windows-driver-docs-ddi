@@ -7,7 +7,7 @@ old-location: storage\ioctl_dvd_start_session.htm
 old-project: storage
 ms.assetid: a4010756-b230-4e49-85a4-498f5ebcf785
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_dvd_start_session, IOCTL_DVD_START_SESSION control code [Storage Devices], IOCTL_DVD_START_SESSION, ntddcdvd/IOCTL_DVD_START_SESSION, k307_e26336f9-b482-4340-8315-cd8771c5bb81.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_DVD_START_SESSION
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_DVD_START_SESSION IOCTL

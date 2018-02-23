@@ -7,8 +7,8 @@ old-location: print\cpsuicbparam.htm
 old-project: print
 ms.assetid: b5545efa-6cb4-41d0-9338-be9a269fa193
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: CPSUICBPARAM structure [Print Devices], *PCPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices], CPSUICBPARAM, PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, _CPSUICBPARAM, compstui/CPSUICBPARAM, print.cpsuicbparam, compstui/PCPSUICBPARAM
+ms.date: 2/21/2018
+ms.keywords: PCPSUICBPARAM, _CPSUICBPARAM, compstui/PCPSUICBPARAM, compstui/CPSUICBPARAM, CPSUICBPARAM structure [Print Devices], *PCPSUICBPARAM, cpsuifnc_9e2d49ae-ecb6-4979-aacd-7dd954034e92.xml, print.cpsuicbparam, CPSUICBPARAM, PCPSUICBPARAM structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -211,20 +211,6 @@ CPSUI-supplied pointer to a member of the OPTITEM array pointed to by <b>pOptIte
  
 
 
-### -field DUMMYUNIONNAME.OldSel
-
-If the <b>Reason</b> member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the <b>OldSel</b>/<b>pOldSel</b> member of the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure pointed to by <b>pCurItem</b>.
-
-For all other <b>Reason</b> values, the contents of this union should be ignored.
-
-
-### -field DUMMYUNIONNAME.pOldSel
-
-If the <b>Reason</b> member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the <b>OldSel</b>/<b>pOldSel</b> member of the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure pointed to by <b>pCurItem</b>.
-
-For all other <b>Reason</b> values, the contents of this union should be ignored.
-
-
 ### -field UserData
 
 CPSUI-supplied user data. This is the same value that the application previously supplied in a <a href="..\compstui\ns-compstui-_compropsheetui.md">COMPROPSHEETUI</a> structure.
@@ -235,4 +221,18 @@ CPSUI-supplied user data. This is the same value that the application previously
 Result value supplied by the <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function. By default, CPSUI sets this value to CPSUI_OK. After the callback function returns, CPSUI calls its <a href="https://msdn.microsoft.com/library/windows/hardware/ff546207">ComPropSheet</a> function with a function code of <a href="https://msdn.microsoft.com/library/windows/hardware/ff547087">CPSFUNC_SET_RESULT</a>, supplying the <b>Reason</b> member contents as the result value.
 
 This member is used only if the <b>Reason</b> member is CPSUICB_REASON_APPLYNOW and the callback function does not return CPSUI_ACTION_NO_APPLY_EXIT.
+
+
+#### - OldSel
+
+If the <b>Reason</b> member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the <b>OldSel</b>/<b>pOldSel</b> member of the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure pointed to by <b>pCurItem</b>.
+
+For all other <b>Reason</b> values, the contents of this union should be ignored.
+
+
+#### - pOldSel
+
+If the <b>Reason</b> member contains CPSUICB_REASON_SEL_CHANGED, CPSUI sets this union to the previous contents of the <b>OldSel</b>/<b>pOldSel</b> member of the <a href="..\compstui\ns-compstui-_optitem.md">OPTITEM</a> structure pointed to by <b>pCurItem</b>.
+
+For all other <b>Reason</b> values, the contents of this union should be ignored.
 

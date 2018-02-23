@@ -7,8 +7,8 @@ old-location: wdf\wdfdriverisversionavailable.htm
 old-project: wdf
 ms.assetid: 5635b99d-c58d-4a17-bb51-2dc38e51421a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, wdf.wdfdriverisversionavailable, WdfDriverIsVersionAvailable method, PFN_WDFDRIVERISVERSIONAVAILABLE, wdfdriver/WdfDriverIsVersionAvailable, kmdf.wdfdriverisversionavailable
+ms.date: 2/20/2018
+ms.keywords: DFDriverObjectRef_56291c91-1c81-486d-89ce-948d037b8bc4.xml, WdfDriverIsVersionAvailable, WdfDriverIsVersionAvailable method, wdf.wdfdriverisversionavailable, wdfdriver/WdfDriverIsVersionAvailable, kmdf.wdfdriverisversionavailable
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -137,10 +137,6 @@ if (!WdfDriverIsVersionAvailable(
 
 
 
-<a href="..\wdfdriver\nf-wdfdriver-wdfgetdriver.md">WdfGetDriver</a>
-
-
-
 <a href="..\wdfdriver\ns-wdfdriver-_wdf_driver_version_available_params.md">WDF_DRIVER_VERSION_AVAILABLE_PARAMS</a>
 
 
@@ -149,9 +145,13 @@ if (!WdfDriverIsVersionAvailable(
 
 
 
- 
+<a href="..\wdfdriver\nf-wdfdriver-wdfdriverretrieveversionstring.md">WdfDriverRetrieveVersionString</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDriverIsVersionAvailable method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDriverIsVersionAvailable method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

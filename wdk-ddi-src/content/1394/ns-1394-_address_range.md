@@ -7,8 +7,8 @@ old-location: ieee\address_range.htm
 old-project: IEEE
 ms.assetid: 4eeb543b-0c23-4119-8e42-ff086b4b7682
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PADDRESS_RANGE, 1394/PADDRESS_RANGE, PADDRESS_RANGE, 1394/ADDRESS_RANGE, ADDRESS_RANGE, ADDRESS_RANGE structure [Buses], _ADDRESS_RANGE, 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, PADDRESS_RANGE structure pointer [Buses], IEEE.address_range"
+ms.date: 2/15/2018
+ms.keywords: 1394stct_e03538df-3b91-483d-99da-95645f017bef.xml, IEEE.address_range, ADDRESS_RANGE, 1394/ADDRESS_RANGE, PADDRESS_RANGE, 1394/PADDRESS_RANGE, *PADDRESS_RANGE, PADDRESS_RANGE structure pointer [Buses], _ADDRESS_RANGE, ADDRESS_RANGE structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ADDRESS_RANGE
 product: Windows
 targetos: Windows
-req.typenames: ADDRESS_RANGE, *PADDRESS_RANGE
+req.typenames: "*PADDRESS_RANGE, ADDRESS_RANGE"
 ---
 
 # _ADDRESS_RANGE structure
@@ -98,5 +98,5 @@ Specifies the low order bits of the 1394 address within the buffer.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ADDRESS_RANGE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20ADDRESS_RANGE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\videoportgetcurrentirql.htm
 old-project: display
 ms.assetid: 04cbc86b-a977-43bd-a736-3a7258c671fd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPortGetCurrentIrql function [Display Devices], VideoPortGetCurrentIrql, display.videoportgetcurrentirql, VideoPort_Functions_acfcf9f4-819a-4fc5-ae4f-214a78059e7a.xml, video/VideoPortGetCurrentIrql
+ms.date: 2/20/2018
+ms.keywords: VideoPortGetCurrentIrql function [Display Devices], display.videoportgetcurrentirql, VideoPort_Functions_acfcf9f4-819a-4fc5-ae4f-214a78059e7a.xml, VideoPortGetCurrentIrql, video/VideoPortGetCurrentIrql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

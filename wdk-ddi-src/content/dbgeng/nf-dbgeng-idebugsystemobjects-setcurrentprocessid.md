@@ -4,11 +4,11 @@ title: IDebugSystemObjects::SetCurrentProcessId method
 author: windows-driver-content
 description: The SetCurrentProcessId method makes the specified process the current process.
 old-location: debugger\setcurrentprocessid.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 65129c6e-5c69-409b-95f5-07b98a494533
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects2::SetCurrentProcessId, IDebugSystemObjects_e588cabd-e079-4dc0-ab0f-085181414985.xml, IDebugSystemObjects interface [Windows Debugging], SetCurrentProcessId method, SetCurrentProcessId, dbgeng/IDebugSystemObjects2::SetCurrentProcessId, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects2 interface, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects4::SetCurrentProcessId, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects interface, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects, IDebugSystemObjects::SetCurrentProcessId, IDebugSystemObjects2 interface [Windows Debugging], SetCurrentProcessId method, dbgeng/IDebugSystemObjects::SetCurrentProcessId, debugger.setcurrentprocessid, IDebugSystemObjects4 interface [Windows Debugging], SetCurrentProcessId method, dbgeng/IDebugSystemObjects4::SetCurrentProcessId, IDebugSystemObjects3::SetCurrentProcessId, dbgeng/IDebugSystemObjects3::SetCurrentProcessId, IDebugSystemObjects3 interface [Windows Debugging], SetCurrentProcessId method, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects3 interface
+ms.date: 2/15/2018
+ms.keywords: SetCurrentProcessId method [Windows Debugging], SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::SetCurrentProcessId, IDebugSystemObjects interface [Windows Debugging], SetCurrentProcessId method, dbgeng/IDebugSystemObjects::SetCurrentProcessId, SetCurrentProcessId, IDebugSystemObjects, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects2 interface, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects3::SetCurrentProcessId, debugger.setcurrentprocessid, SetCurrentProcessId method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects::SetCurrentProcessId, IDebugSystemObjects_e588cabd-e079-4dc0-ab0f-085181414985.xml, IDebugSystemObjects2 interface [Windows Debugging], SetCurrentProcessId method, IDebugSystemObjects2::SetCurrentProcessId, IDebugSystemObjects3 interface [Windows Debugging], SetCurrentProcessId method, dbgeng/IDebugSystemObjects4::SetCurrentProcessId, dbgeng/IDebugSystemObjects2::SetCurrentProcessId, IDebugSystemObjects3::SetCurrentProcessId, IDebugSystemObjects4 interface [Windows Debugging], SetCurrentProcessId method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.SetCurrentProcessId
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects::SetCurrentProcessId method

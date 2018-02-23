@@ -7,8 +7,8 @@ old-location: netvista\net_dma_descriptor.htm
 old-project: netvista
 ms.assetid: 0465a8d7-1cdd-4647-9b78-557256f60c05
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NET_DMA_DESCRIPTOR, netvista.net_dma_descriptor, NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_INTERRUPT_ON_COMPLETION, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_DESTINATION_NO_SNOOP, PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_SOURCE_NO_SNOOP, *PNET_DMA_DESCRIPTOR, NET_DMA_STATUS_UPDATE_ON_COMPLETION, NET_DMA_RESERVED_MASK, netdma/NET_DMA_DESCRIPTOR, NET_DMA_OP_TYPE_CONTEXT_CHANGE, NET_DMA_SOURCE_PAGE_BREAK, NET_DMA_SERIALIZE_TRANSFER, netdma/PNET_DMA_DESCRIPTOR, NET_DMA_OP_TYPE_MASK, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], _NET_DMA_DESCRIPTOR, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_NULL_TRANSFER
+ms.date: 2/16/2018
+ms.keywords: netdma/PNET_DMA_DESCRIPTOR, *PNET_DMA_DESCRIPTOR, netvista.net_dma_descriptor, PNET_DMA_DESCRIPTOR structure pointer [Network Drivers Starting with Windows Vista], NET_DMA_DESCRIPTOR structure [Network Drivers Starting with Windows Vista], NET_DMA_SOURCE_NO_SNOOP, NET_DMA_RESERVED_MASK, NET_DMA_DESTINATION_NO_SNOOP, NET_DMA_INTERRUPT_ON_COMPLETION, netdma_ref_06e1861b-7904-4bf5-9ce5-e85ae1daa22e.xml, NET_DMA_NULL_TRANSFER, NET_DMA_SOURCE_PAGE_BREAK, _NET_DMA_DESCRIPTOR, NET_DMA_DESCRIPTOR, NET_DMA_SERIALIZE_TRANSFER, NET_DMA_OP_TYPE_MASK, PNET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_DCA_ENABLE, NET_DMA_OP_TYPE_CONTEXT_CHANGE, netdma/NET_DMA_DESCRIPTOR, NET_DMA_DESTINATION_PAGE_BREAK, NET_DMA_STATUS_UPDATE_ON_COMPLETION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,20 +93,6 @@ typedef struct _NET_DMA_DESCRIPTOR {
 ## -struct-fields
 
 
-
-
-### -field TransferSize
-
-The size, in bytes, of the memory block that is associated with this DMA descriptor. 
-      
-
-NetDMA 2.0 and later provider drivers use the 
-      <b>DCAContext32</b>, 
-      <b>DCAContext16</b>, and 
-      <b>DCAContext8</b> members of the union with 
-      <b>TransferSize</b> to support 
-      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
-      (DCA)</a>.
 
 
 ### -field DCAContext32
@@ -391,7 +377,31 @@ The physical address of the next NET_DMA_DESCRIPTOR structure in the linked list
      <b>NextDescriptor</b> is <b>NULL</b>.
 
 
-### -field Reserved1
+### -field UserContext1
+
+A ULONG64 value that is reserved for the NetDMA interface to use.
+
+
+### -field UserContext2
+
+A ULONG64 value that is reserved for the NetDMA interface to use.
+
+
+#### - TransferSize
+
+The size, in bytes, of the memory block that is associated with this DMA descriptor. 
+      
+
+NetDMA 2.0 and later provider drivers use the 
+      <b>DCAContext32</b>, 
+      <b>DCAContext16</b>, and 
+      <b>DCAContext8</b> members of the union with 
+      <b>TransferSize</b> to support 
+      <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/direct-cache-access--dca-">Direct Cache Access
+      (DCA)</a>.
+
+
+#### - Reserved1
 
 A ULONG64 value that is reserved for the DMA engine or the DMA provider driver to use. NetDMA 2.0
       and later provider drivers use the 
@@ -401,13 +411,13 @@ A ULONG64 value that is reserved for the DMA engine or the DMA provider driver t
       Break</a>.
 
 
-### -field NextSourceAddress
+#### - NextSourceAddress
 
 The physical address of the second page of source address that is used in source page
       break.
 
 
-### -field Reserved2
+#### - Reserved2
 
 A ULONG64 value that is reserved for use the DMA engine or the DMA provider driver to use. NetDMA
       2.0 and later provider drivers use the 
@@ -417,20 +427,10 @@ A ULONG64 value that is reserved for use the DMA engine or the DMA provider driv
       Break</a>.
 
 
-### -field NextDestinationAddress
+#### - NextDestinationAddress
 
 The physical address of the second page of destination address that is used in destination page
       break.
-
-
-### -field UserContext1
-
-A ULONG64 value that is reserved for the NetDMA interface to use.
-
-
-### -field UserContext2
-
-A ULONG64 value that is reserved for the NetDMA interface to use.
 
 
 ## -remarks
@@ -467,7 +467,7 @@ The NetDMA interface calls a DMA provider driver's
 
 
 
-<a href="..\netdma\nc-netdma-dma_append_handler.md">ProviderAppendDma</a>
+<a href="..\netdma\ns-netdma-_net_dma_channel_parameters.md">NET_DMA_CHANNEL_PARAMETERS</a>
 
 
 
@@ -475,5 +475,5 @@ The NetDMA interface calls a DMA provider driver's
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NET_DMA_DESCRIPTOR structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

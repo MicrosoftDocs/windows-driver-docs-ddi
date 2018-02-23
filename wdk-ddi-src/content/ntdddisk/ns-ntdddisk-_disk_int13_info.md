@@ -7,8 +7,8 @@ old-location: storage\disk_int13_info.htm
 old-project: storage
 ms.assetid: 8a9c335a-1c5f-4379-83bb-21391ae46a3c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], ntdddisk/DISK_INT13_INFO, PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices], structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, *PDISK_INT13_INFO, _DISK_INT13_INFO, storage.disk_int13_info, ntdddisk/PDISK_INT13_INFO
+ms.date: 2/16/2018
+ms.keywords: ntdddisk/DISK_INT13_INFO, structs-disk_fc6ee399-d876-44e3-955a-3ab95c1b5134.xml, _DISK_INT13_INFO, DISK_INT13_INFO, PDISK_INT13_INFO, DISK_INT13_INFO structure [Storage Devices], *PDISK_INT13_INFO, storage.disk_int13_info, ntdddisk/PDISK_INT13_INFO, PDISK_INT13_INFO structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -110,5 +110,5 @@ Indicates the number of drives.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_INT13_INFO structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DISK_INT13_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

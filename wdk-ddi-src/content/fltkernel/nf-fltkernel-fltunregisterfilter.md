@@ -7,8 +7,8 @@ old-location: ifsk\fltunregisterfilter.htm
 old-project: ifsk
 ms.assetid: 5369566b-fa64-4aec-ad3e-1a129bcefdd6
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fltkernel/FltUnregisterFilter, ifsk.fltunregisterfilter, FltUnregisterFilter, FltUnregisterFilter function [Installable File System Drivers], FltApiRef_p_to_z_cedf94f0-1f4a-46cf-aa81-914ab30d2a98.xml
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltUnregisterFilter, FltUnregisterFilter function [Installable File System Drivers], FltUnregisterFilter, FltApiRef_p_to_z_cedf94f0-1f4a-46cf-aa81-914ab30d2a98.xml, ifsk.fltunregisterfilter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,7 @@ To register a minifilter driver, call <a href="..\fltkernel\nf-fltkernel-fltregi
 
 ## -see-also
 
-<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
@@ -110,7 +106,11 @@ To register a minifilter driver, call <a href="..\fltkernel\nf-fltkernel-fltregi
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_instance_teardown_callback.md">PFLT_INSTANCE_TEARDOWN_CALLBACK</a>
 
 
 
@@ -118,5 +118,5 @@ To register a minifilter driver, call <a href="..\fltkernel\nf-fltkernel-fltregi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltUnregisterFilter function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltUnregisterFilter function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

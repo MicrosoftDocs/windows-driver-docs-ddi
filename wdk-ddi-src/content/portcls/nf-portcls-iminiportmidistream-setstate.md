@@ -7,8 +7,8 @@ old-location: audio\iminiportmidistream_setstate.htm
 old-project: audio
 ms.assetid: ee78013c-7660-4017-97ec-eff9068b707a
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: IMiniportMidiStream::SetState, SetState, portcls/IMiniportMidiStream::SetState, SetState method [Audio Devices], IMiniportMidiStream interface, SetState method [Audio Devices], audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, IMiniportMidiStream interface [Audio Devices], SetState method, audio.iminiportmidistream_setstate, IMiniportMidiStream
+ms.date: 2/21/2018
+ms.keywords: portcls/IMiniportMidiStream::SetState, IMiniportMidiStream interface [Audio Devices], SetState method, SetState method [Audio Devices], audmp-routines_23f064df-faef-4c45-a58e-c5e3e1d7d7a5.xml, SetState, IMiniportMidiStream::SetState, audio.iminiportmidistream_setstate, IMiniportMidiStream, SetState method [Audio Devices], IMiniportMidiStream interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportMidiStream.SetState
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportMidiStream::SetState method
@@ -57,7 +57,7 @@ The <code>SetState</code> method sets the stream's transport state to a new stat
 
 ````
 NTSTATUS SetState(
-  [in] KSSTATE NewState
+  [in] KSSTATE State
 );
 ````
 
@@ -67,14 +67,7 @@ NTSTATUS SetState(
 
 
 
-### -param State
-
-
-
-
-
-
-#### - NewState [in]
+### -param State [in]
 
 Specifies the new state that the stream is to be set to. This parameter is a <a href="..\ks\ne-ks-pksstate.md">KSSTATE</a> enumeration value. For more information, see the following Remarks section.
 
@@ -139,7 +132,7 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 ## -see-also
 
-<a href="..\portcls\nn-portcls-iminiportmidistream.md">IMiniportMidiStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
 
 
 
@@ -151,7 +144,7 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536710">IMiniportMidi::NewStream</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565110">KSPROPERTY_CONNECTION_STATE</a>
 
 
 
@@ -159,5 +152,5 @@ RUN -&gt; PAUSE -&gt; ACQUIRE -&gt; STOP
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidiStream::SetState method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportMidiStream::SetState method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

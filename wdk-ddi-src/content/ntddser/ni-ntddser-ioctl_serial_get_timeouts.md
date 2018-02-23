@@ -7,7 +7,7 @@ old-location: parports\ioctl_serial_get_timeouts.htm
 old-project: parports
 ms.assetid: 8db92af3-d970-4740-8d49-46019b3ea016
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: parports.ioctl_serial_get_timeouts, IOCTL_SERIAL_GET_TIMEOUTS control code [Parallel Ports], IOCTL_SERIAL_GET_TIMEOUTS, ntddser/IOCTL_SERIAL_GET_TIMEOUTS, cisspd_15ce20eb-36f6-4df2-9ae5-e58b10daeae1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -129,5 +129,5 @@ The value of the <b>Parameters.DeviceIoControl.OutputBufferLength</b> member is 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_SERIAL_GET_TIMEOUTS control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20IOCTL_SERIAL_GET_TIMEOUTS control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilphoneentrystorelocation_2.htm
 old-project: netvista
 ms.assetid: f9166dfa-e895-4aca-8080-af3cfe9c143f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PBLOC_UICCFIXDIALING, rilapitypes/RILPHONEENTRYSTORELOCATION, rilapitypes/RIL_PBLOC_UICCSERVICEDIALING, rilapitypes/RIL_PBLOC_ALL, rilapitypes/RIL_PBLOC_UICCPHONEBOOK, RILPHONEENTRYSTORELOCATION, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PBLOC_OWNNUMBERS, RIL_PBLOC_UICCSERVICEDIALING, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_ALL, RIL_PBLOC_UICCFIXDIALING, netvista.rilphoneentrystorelocation_2, RIL_PBLOC_OWNNUMBERS
+ms.date: 2/16/2018
+ms.keywords: RILPHONEENTRYSTORELOCATION, rilapitypes/RIL_PBLOC_UICCPHONEBOOK, rilapitypes/RIL_PBLOC_UICCFIXDIALING, rilapitypes/RIL_PBLOC_ALL, RIL_PBLOC_UICCSERVICEDIALING, netvista.rilphoneentrystorelocation_2, RIL_PBLOC_UICCPHONEBOOK, RIL_PBLOC_ALL, rilapitypes/RIL_PBLOC_UICCSERVICEDIALING, RIL_PBLOC_OWNNUMBERS, rilapitypes/RIL_PBLOC_OWNNUMBERS, rilapitypes/RILPHONEENTRYSTORELOCATION, RIL_PBLOC_UICCFIXDIALING, RILPHONEENTRYSTORELOCATION enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

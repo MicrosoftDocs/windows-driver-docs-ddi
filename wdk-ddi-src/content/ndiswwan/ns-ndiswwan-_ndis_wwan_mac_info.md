@@ -7,8 +7,8 @@ old-location: netvista\ndis_wwan_mac_info.htm
 old-project: netvista
 ms.assetid: C55DC50B-5A1B-496E-BBB8-8EB94A9CFD2F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ndiswwan/NDIS_WWAN_MAC_INFO, ndiswwan/PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info, _NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista], NDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ndiswwan/NDIS_WWAN_MAC_INFO, _NDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO, ndiswwan/PNDIS_WWAN_MAC_INFO, PNDIS_WWAN_MAC_INFO, netvista.ndis_wwan_mac_info, NDIS_WWAN_MAC_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_WWAN_MAC_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_MAC_INFO, NDIS_WWAN_MAC_INFO"
+req.typenames: NDIS_WWAN_MAC_INFO, *PNDIS_WWAN_MAC_INFO
 ---
 
 # _NDIS_WWAN_MAC_INFO structure

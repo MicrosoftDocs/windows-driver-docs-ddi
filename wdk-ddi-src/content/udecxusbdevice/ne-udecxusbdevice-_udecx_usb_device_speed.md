@@ -4,11 +4,11 @@ title: "_UDECX_USB_DEVICE_SPEED"
 author: windows-driver-content
 description: Defines values for USB device speeds.
 old-location: buses\udecx_usb_device_speed.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 337C9FFE-F97A-4F0F-9567-D1FF532FE165
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: "*PUDECX_USB_DEVICE_SPEED, udecxusbdevice/UDECX_USB_DEVICE_SPEED, UdecxUsbHighSpeed, _UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbHighSpeed, UdecxUsbSuperSpeed, UdecxUsbFullSpeed, UDECX_USB_DEVICE_SPEED, UdecxUsbLowSpeed, buses.udecx_usb_device_speed, udecxusbdevice/UdecxUsbLowSpeed, udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbSuperSpeed, UDECX_USB_DEVICE_SPEED enumeration [Buses]"
+ms.date: 2/15/2018
+ms.keywords: "*PUDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbHighSpeed, UdecxUsbHighSpeed, _UDECX_USB_DEVICE_SPEED, buses.udecx_usb_device_speed, UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbFullSpeed, udecxusbdevice/UdecxUsbSuperSpeed, udecxusbdevice/UDECX_USB_DEVICE_SPEED, udecxusbdevice/UdecxUsbLowSpeed, UdecxUsbSuperSpeed, UdecxUsbLowSpeed, UDECX_USB_DEVICE_SPEED enumeration [Buses], UdecxUsbFullSpeed"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	UDECX_USB_DEVICE_SPEED
 product: Windows
 targetos: Windows
-req.typenames: "*PUDECX_USB_DEVICE_SPEED, UDECX_USB_DEVICE_SPEED"
+req.typenames: UDECX_USB_DEVICE_SPEED, *PUDECX_USB_DEVICE_SPEED
 req.product: Windows 10 or later.
 ---
 
@@ -101,5 +101,5 @@ Indicates a SuperSpeed USB 3.0-compliant device.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UDECX_USB_DEVICE_SPEED enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UDECX_USB_DEVICE_SPEED enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

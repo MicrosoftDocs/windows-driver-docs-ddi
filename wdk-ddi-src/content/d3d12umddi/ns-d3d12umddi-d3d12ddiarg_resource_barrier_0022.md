@@ -7,8 +7,8 @@ old-location: display\d3d12ddiarg_resource_barrier_0022.htm
 old-project: display
 ms.assetid: ED597BB0-F9ED-4311-9E2F-06AEA2755B37
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], D3D12DDIARG_RESOURCE_BARRIER_0022, display.d3d12ddiarg_resource_barrier_0022
+ms.date: 2/20/2018
+ms.keywords: display.d3d12ddiarg_resource_barrier_0022, d3d12umddi/D3D12DDIARG_RESOURCE_BARRIER_0022, D3D12DDIARG_RESOURCE_BARRIER_0022 structure [Display Devices], D3D12DDIARG_RESOURCE_BARRIER_0022
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -81,23 +81,6 @@ The type of resource barrier as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_
 ### -field Flags
 
 A barrier flag as a <a href="..\d3d12umddi\ne-d3d12umddi-d3d12ddi_resource_barrier_flags.md">D3D12DDI_RESOURCE_BARRIER_FLAGS</a> value.
-
-
-### -field Transition
-
- 
-
-
-### -field Ranged
-
- 
-
-
-### -field UAV
-
- 
-
-
 
 
 #### - {

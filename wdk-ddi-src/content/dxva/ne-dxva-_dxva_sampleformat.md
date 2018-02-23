@@ -7,8 +7,8 @@ old-location: display\dxva_sampleformat.htm
 old-project: display
 ms.assetid: 90cec61b-fe49-4fc7-b666-e74f745a00b1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVA_SampleFormat enumeration [Display Devices], DXVA_SampleFormatMask, dxva/DXVA_SampleProgressiveFrame, dxva/DXVA_SamplePreviousFrame, dxva/DXVA_SampleSubStream, _DXVA_SampleFormat, DXVA_SampleFieldSingleEven, DXVA_SampleFieldInterleavedEvenFirst, DXVA_SampleFieldSingleOdd, dxva/DXVA_SampleFieldSingleOdd, DXVA_SampleFormat, display.dxva_sampleformat, dxva/DXVA_SampleFormat, DXVA_SampleUnknown, dxva/DXVA_SampleFormatMask, dxva/DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleUnknown, dxva/DXVA_SampleFieldInterleavedEvenFirst, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml, DXVA_SampleSubStream, DXVA_SamplePreviousFrame, DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleFieldSingleEven, DXVA_SampleProgressiveFrame
+ms.date: 2/20/2018
+ms.keywords: dxva/DXVA_SampleSubStream, DXVA_SampleProgressiveFrame, dxva/DXVA_SampleFieldInterleavedOddFirst, DXVA_SampleFormat enumeration [Display Devices], DXVA_SampleFieldInterleavedOddFirst, dxva/DXVA_SampleProgressiveFrame, DXVA_SampleFieldSingleOdd, DXVA_SampleUnknown, dxva/DXVA_SampleFieldSingleEven, dxva/DXVA_SampleUnknown, DXVA_SampleFieldInterleavedEvenFirst, dxva/DXVA_SampleFieldSingleOdd, dxvaref_342ab3ab-8498-4d6f-a052-aff84c407436.xml, DXVA_SampleFormat, display.dxva_sampleformat, _DXVA_SampleFormat, dxva/DXVA_SamplePreviousFrame, dxva/DXVA_SampleFormatMask, dxva/DXVA_SampleFormat, DXVA_SampleFormatMask, dxva/DXVA_SampleFieldInterleavedEvenFirst, DXVA_SampleSubStream, DXVA_SampleFieldSingleEven, DXVA_SamplePreviousFrame
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -142,5 +142,5 @@ Specifies that the sample contains a video substream.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_SampleFormat enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_SampleFormat enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ieee\self_id.htm
 old-project: IEEE
 ms.assetid: c168ca19-e4a7-484d-8aed-0b7e7033b760
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IEEE.self_id, 1394/SELF_ID, SELF_ID structure [Buses], SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID, _SELF_ID, *PSELF_ID, PSELF_ID structure pointer [Buses], 1394/PSELF_ID
+ms.date: 2/15/2018
+ms.keywords: 1394/PSELF_ID, 1394/SELF_ID, 1394stct_43f63a99-a4c6-4960-93c4-98bb65d242bd.xml, PSELF_ID structure pointer [Buses], PSELF_ID, *PSELF_ID, SELF_ID, IEEE.self_id, SELF_ID structure [Buses], _SELF_ID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SELF_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PSELF_ID, SELF_ID"
+req.typenames: SELF_ID, *PSELF_ID
 ---
 
 # _SELF_ID structure
@@ -245,5 +245,5 @@ This structure corresponds to self ID packet 0, as described in the <i>P1394a</i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20SELF_ID structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

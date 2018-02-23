@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmamsgencoding.htm
 old-project: netvista
 ms.assetid: d0bc5fa4-d08d-484c-b6e0-35c7f1d144c3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_MSGCODING_KOREAN, ntddrilapitypes/RILMSGCDMAMSGENCODING, RIL_MSGCODING_7BITGSM, netvista.rilmsgcdmamsgencoding, ntddrilapitypes/RIL_MSGCODING_7BITGSM, ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RIL_MSGCODING_OCTET, RIL_MSGCODING_MAX, RIL_MSGCODING_8BITGSM, ntddrilapitypes/RIL_MSGCODING_MAX, RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RIL_MSGCODING_LATIN, ntddrilapitypes/RIL_MSGCODING_7BITASCII, RIL_MSGCODING_7BITASCII, RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_JIS, RIL_MSGCODING_OCTET, RILMSGCDMAMSGENCODING, ntddrilapitypes/RIL_MSGCODING_8BITGSM, RIL_MSGCODING_LATIN, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_IA5, RIL_MSGCODING_UNICODE, ntddrilapitypes/RIL_MSGCODING_KOREAN, ntddrilapitypes/RIL_MSGCODING_UNICODE
+ms.date: 2/16/2018
+ms.keywords: RILMSGCDMAMSGENCODING, ntddrilapitypes/RIL_MSGCODING_8BITGSM, RIL_MSGCODING_LATIN_HEBREW, ntddrilapitypes/RILMSGCDMAMSGENCODING, RIL_MSGCODING_7BITGSM, RIL_MSGCODING_MAX, ntddrilapitypes/RIL_MSGCODING_IA5, RIL_MSGCODING_7BITASCII, RIL_MSGCODING_KOREAN, RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_KOREAN, ntddrilapitypes/RIL_MSGCODING_7BITGSM, ntddrilapitypes/RIL_MSGCODING_OCTET, ntddrilapitypes/RIL_MSGCODING_7BITASCII, RIL_MSGCODING_LATIN, ntddrilapitypes/RIL_MSGCODING_LATIN, RILMSGCDMAMSGENCODING enumeration [Network Drivers Starting with Windows Vista], RIL_MSGCODING_JIS, ntddrilapitypes/RIL_MSGCODING_JIS, RIL_MSGCODING_UNICODE, ntddrilapitypes/RIL_MSGCODING_UNICODE, ntddrilapitypes/RIL_MSGCODING_MAX, netvista.rilmsgcdmamsgencoding, RIL_MSGCODING_8BITGSM, RIL_MSGCODING_IA5, ntddrilapitypes/RIL_MSGCODING_LATIN_HEBREW
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

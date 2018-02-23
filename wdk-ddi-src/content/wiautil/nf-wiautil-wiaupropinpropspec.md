@@ -4,11 +4,11 @@ title: wiauPropInPropSpec function
 author: windows-driver-content
 description: The wiauPropInPropSpec function determines whether a specified property specification ID is contained in an array of such values. The function optionally gets the index at which the property specification ID was found.
 old-location: image\wiaupropinpropspec.htm
-old-project: image
+old-project: Image
 ms.assetid: 5ab82378-ff12-46cc-814b-dc533db15a37
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiautil/wiauPropInPropSpec, image.wiaupropinpropspec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, wiauPropInPropSpec function [Imaging Devices], wiauPropInPropSpec
+ms.date: 2/15/2018
+ms.keywords: wiauPropInPropSpec, wiauPropInPropSpec function [Imaging Devices], wiautil/wiauPropInPropSpec, wiauFncs_8f694518-d3a5-4636-aae5-046ae519ce0e.xml, image.wiaupropinpropspec
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,5 +126,5 @@ The <b>wiauPropInPropSpec</b> function finds a single property specification ID 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiauPropInPropSpec function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20wiauPropInPropSpec function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

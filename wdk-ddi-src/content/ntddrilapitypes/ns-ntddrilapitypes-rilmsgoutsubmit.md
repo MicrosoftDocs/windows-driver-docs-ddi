@@ -7,8 +7,8 @@ old-location: netvista\rilmsgoutsubmit.htm
 old-project: netvista
 ms.assetid: 83d15e40-b93f-4c7a-bfe4-db939c24b94f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmsgoutsubmit, RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILMSGOUTSUBMIT
+ms.date: 2/16/2018
+ms.keywords: "*LPRILMSGOUTSUBMIT, ntddrilapitypes/RILMSGOUTSUBMIT, RILMSGOUTSUBMIT structure [Network Drivers Starting with Windows Vista], netvista.rilmsgoutsubmit, RILMSGOUTSUBMIT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMSGOUTSUBMIT
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMSGOUTSUBMIT, RILMSGOUTSUBMIT"
+req.typenames: RILMSGOUTSUBMIT, *LPRILMSGOUTSUBMIT
 ---
 
 # RILMSGOUTSUBMIT structure

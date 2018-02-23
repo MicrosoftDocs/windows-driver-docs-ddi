@@ -7,8 +7,8 @@ old-location: netvista\rilimsnwenabledflags_2.htm
 old-project: netvista
 ms.assetid: 3295b0f0-a498-47fb-9744-06ea74626bb5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_IMS_NW_ENABLED_FLAG_EAB, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], RILIMSNWENABLEDFLAGS, netvista.rilimsnwenabledflags_2, rilapitypes/RILIMSNWENABLEDFLAGS, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_VOICE, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_VIDEO, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE, RIL_IMS_NW_ENABLED_FLAG_PROVISION
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILIMSNWENABLEDFLAGS, RILIMSNWENABLEDFLAGS enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_IMS_NW_ENABLED_FLAG_PROVISION, netvista.rilimsnwenabledflags_2, RIL_IMS_NW_ENABLED_FLAG_VOICE, RIL_IMS_NW_ENABLED_FLAG_VIDEO, RILIMSNWENABLEDFLAGS, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_EAB, RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_EAB, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_ALL, RIL_IMS_NW_ENABLED_FLAG_PROVISION, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VOICE, rilapitypes/RIL_IMS_NW_ENABLED_FLAG_VIDEO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

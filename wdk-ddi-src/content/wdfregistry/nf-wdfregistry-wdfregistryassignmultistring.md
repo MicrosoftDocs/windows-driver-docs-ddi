@@ -7,8 +7,8 @@ old-location: wdf\wdfregistryassignmultistring.htm
 old-project: wdf
 ms.assetid: 2b54949b-807e-47fe-a304-872500b41212
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRegistryAssignMultiString method, WdfRegistryAssignMultiString, wdf.wdfregistryassignmultistring, wdfregistry/WdfRegistryAssignMultiString, PFN_WDFREGISTRYASSIGNMULTISTRING, DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, kmdf.wdfregistryassignmultistring
+ms.date: 2/20/2018
+ms.keywords: WdfRegistryAssignMultiString method, wdfregistry/WdfRegistryAssignMultiString, DFRegKeyObjectRef_b96025c1-d241-4e63-9f1f-f394311d0706.xml, WdfRegistryAssignMultiString, wdf.wdfregistryassignmultistring, kmdf.wdfregistryassignmultistring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -256,7 +256,7 @@ if (col != NULL) {
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -272,6 +272,26 @@ if (col != NULL) {
 
 
 
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignunicodestring.md">WdfRegistryAssignUnicodeString</a>
+
+
+
+<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+
+
+
 <a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
 
 
@@ -280,29 +300,9 @@ if (col != NULL) {
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\wdfstring\nf-wdfstring-wdfstringcreate.md">WdfStringCreate</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignulong.md">WdfRegistryAssignULong</a>
-
-
-
-<a href="..\wdfobject\nf-wdfobject-wdfobjectdelete.md">WdfObjectDelete</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRegistryAssignMultiString method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRegistryAssignMultiString method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

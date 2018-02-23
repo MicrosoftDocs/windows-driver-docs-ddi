@@ -7,8 +7,8 @@ old-location: netvista\rilimsfailure.htm
 old-project: netvista
 ms.assetid: 8be10470-3761-4120-8987-00d6fcc9a989
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], *LPRILIMSFAILURE, netvista.rilimsfailure, ntddrilapitypes/RILIMSFAILURE
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILIMSFAILURE, RILIMSFAILURE structure [Network Drivers Starting with Windows Vista], RILIMSFAILURE, *LPRILIMSFAILURE, netvista.rilimsfailure
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -4,11 +4,11 @@ title: "_USBFN_POWER_FILTER_STATE"
 author: windows-driver-content
 description: Reserved. Do not use.
 old-location: buses\usbfn_power_filter_state.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: D5C7DC47-37F7-4727-AFB6-137F67786001
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PUSBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE, usbfnioctl/PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, _USBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE structure [Buses], PUSBFN_POWER_FILTER_STATE structure pointer [Buses]
+ms.date: 2/15/2018
+ms.keywords: USBFN_POWER_FILTER_STATE structure [Buses], PUSBFN_POWER_FILTER_STATE structure pointer [Buses], PUSBFN_POWER_FILTER_STATE, usbfnioctl/PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE, usbfnioctl/USBFN_POWER_FILTER_STATE, buses.usbfn_power_filter_state, *PUSBFN_POWER_FILTER_STATE, _USBFN_POWER_FILTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBFN_POWER_FILTER_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBFN_POWER_FILTER_STATE, USBFN_POWER_FILTER_STATE"
+req.typenames: USBFN_POWER_FILTER_STATE, *PUSBFN_POWER_FILTER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -77,12 +77,12 @@ typedef struct _USBFN_POWER_FILTER_STATE {
 Describes the USB device states for the device/controller.  These states correspond to the USB device states as defined in section 9.1 of the USB 2.0 Specification.
 
 
-### -field PState
+#### - PState
 
 USB device states for the device/controller.
 
 
-### -field Reserved
+#### - Reserved
 
 Do not use. 
 
@@ -101,5 +101,5 @@ Do not use.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_POWER_FILTER_STATE structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBFN_POWER_FILTER_STATE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

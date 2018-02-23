@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_getpageablesize.htm
 old-project: display
 ms.assetid: DC215186-A216-4C34-AE9A-A487178B34C0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_getpageablesize, pfnGetPageableSize callback function [Display Devices], pfnGetPageableSize, PFND3D12DDI_GETPAGEABLESIZE_0020, PFND3D12DDI_GETPAGEABLESIZE_0020, d3d12umddi/pfnGetPageableSize
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -81,6 +81,11 @@ UINT64 APIENTRY* pfnGetPageableSize(
 
 
 
+
+
+#### - hDevice
+
+The handle of a device.
 
 
 #### - GetPageableSize [in]

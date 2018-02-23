@@ -7,8 +7,8 @@ old-location: whea\whea_pcixbus_error_section.htm
 old-project: whea
 ms.assetid: f79071e3-7146-49c4-a730-ee13fde4f0d4
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ntddk/WHEA_PCIXBUS_ERROR_SECTION, *PWHEA_PCIXBUS_ERROR, PWHEA_PCIXBUS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], WHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION structure [WHEA Drivers and Applications], WHEA_PCIXBUS_ERROR, whea.whea_pcixbus_error_section, _WHEA_PCIXBUS_ERROR_SECTION, ntddk/PWHEA_PCIXBUS_ERROR_SECTION, PWHEA_PCIXBUS_ERROR_SECTION, whearef_6979fd7e-8c18-443b-b9be-1e78316dcd7d.xml, *PWHEA_PCIXBUS_ERROR_SECTION
+ms.date: 2/20/2018
+ms.keywords: PWHEA_PCIXBUS_ERROR_SECTION structure pointer [WHEA Drivers and Applications], whearef_6979fd7e-8c18-443b-b9be-1e78316dcd7d.xml, *PWHEA_PCIXBUS_ERROR, WHEA_PCIXBUS_ERROR, ntddk/WHEA_PCIXBUS_ERROR_SECTION, ntddk/PWHEA_PCIXBUS_ERROR_SECTION, *PWHEA_PCIXBUS_ERROR_SECTION, PWHEA_PCIXBUS_ERROR_SECTION, _WHEA_PCIXBUS_ERROR_SECTION, WHEA_PCIXBUS_ERROR_SECTION structure [WHEA Drivers and Applications], whea.whea_pcixbus_error_section, WHEA_PCIXBUS_ERROR_SECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -294,11 +294,7 @@ The WHEA_PCIXBUS_ERROR_SECTION structure describes the error data that is contai
 
 
 
-<a href="..\ntddk\ns-ntddk-_whea_error_status.md">WHEA_ERROR_STATUS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+<a href="..\ntddk\ns-ntddk-_whea_error_record_section_descriptor.md">WHEA_ERROR_RECORD_SECTION_DESCRIPTOR</a>
 
 
 
@@ -306,9 +302,13 @@ The WHEA_PCIXBUS_ERROR_SECTION structure describes the error data that is contai
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560465">WHEA_ERROR_PACKET</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PCIXBUS_ERROR_SECTION structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_PCIXBUS_ERROR_SECTION structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,10 +4,10 @@ title: IOCTL_USB_RESET_HUB
 author: windows-driver-content
 description: The IOCTL_USB_RESET_HUB IOCTL is used by the USB driver stack. Do not use.
 old-location: buses\ioctl_usb_reset_hub.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 5e9294bf-94ba-48c4-b2e3-83ad96a051b1
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_usb_reset_hub, IOCTL_USB_RESET_HUB control code [Buses], IOCTL_USB_RESET_HUB, usbioctl/IOCTL_USB_RESET_HUB
 ms.prod: windows-hardware
 ms.technology: windows-devices

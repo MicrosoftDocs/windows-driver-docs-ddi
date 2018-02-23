@@ -7,8 +7,8 @@ old-location: netvista\rilsendrestricteduicccmdparams_2.htm
 old-project: netvista
 ms.assetid: f15bd639-0c58-45e1-91e4-dba25fac0686
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSENDRESTRICTEDUICCCMDPARAMS, netvista.rilsendrestricteduicccmdparams_2, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILSENDRESTRICTEDUICCCMDPARAMS, rilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsendrestricteduicccmdparams_2, RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSENDRESTRICTEDUICCCMDPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSENDRESTRICTEDUICCCMDPARAMS, RILSENDRESTRICTEDUICCCMDPARAMS"
+req.typenames: RILSENDRESTRICTEDUICCCMDPARAMS, *LPRILSENDRESTRICTEDUICCCMDPARAMS
 req.product: Windows 10 or later.
 ---
 

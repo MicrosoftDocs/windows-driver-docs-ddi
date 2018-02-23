@@ -7,8 +7,8 @@ old-location: ifsk\rtlconvertsidtounicodestring.htm
 old-project: ifsk
 ms.assetid: 5dea6764-9ca0-4d38-9900-174637c4f648
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.rtlconvertsidtounicodestring, ntifs/RtlConvertSidToUnicodeString, rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: rtlref_4b2b8867-c248-49e9-9b38-de3f9449a504.xml, RtlConvertSidToUnicodeString routine [Installable File System Drivers], ntifs/RtlConvertSidToUnicodeString, RtlConvertSidToUnicodeString, ifsk.rtlconvertsidtounicodestring
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -175,14 +175,14 @@ Otherwise the IdentifierAuthority will be generated as hexadecimal. For example,
 </table></span></div>
 All other members in the <i>SID</i> will be generated as decimal.
 
-If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be deallocated by using <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>.
+If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be deallocated by using <a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -190,7 +190,7 @@ If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
 
 
@@ -198,5 +198,5 @@ If <i>AllocateDestinationString</i> is <b>TRUE</b>, the allocated buffer must be
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlConvertSidToUnicodeString routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlConvertSidToUnicodeString routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\msiscsi_targetmappings.htm
 old-project: storage
 ms.assetid: 6bddeaeb-9913-4c90-b8ac-3a9f7b384b80
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.msiscsi_targetmappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], PMSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings, iscsiop/MSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, _MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], iscsiop/PMSiSCSI_TargetMappings
+ms.date: 2/16/2018
+ms.keywords: iscsiop/MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings, storage.msiscsi_targetmappings, PMSiSCSI_TargetMappings structure pointer [Storage Devices], PMSiSCSI_TargetMappings, iscsiop/PMSiSCSI_TargetMappings, structs-iSCSI_b8a3267a-8bab-4be6-9f3c-4086cc54f0f5.xml, MSiSCSI_TargetMappings, MSiSCSI_TargetMappings structure [Storage Devices], _MSiSCSI_TargetMappings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSiSCSI_TargetMappings
 product: Windows
 targetos: Windows
-req.typenames: MSiSCSI_TargetMappings, *PMSiSCSI_TargetMappings
+req.typenames: "*PMSiSCSI_TargetMappings, MSiSCSI_TargetMappings"
 ---
 
 # _MSiSCSI_TargetMappings structure
@@ -117,5 +117,5 @@ You must implement this class.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_TargetMappings structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_TargetMappings structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

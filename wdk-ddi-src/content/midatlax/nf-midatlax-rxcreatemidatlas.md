@@ -7,8 +7,8 @@ old-location: ifsk\rxcreatemidatlas.htm
 old-project: ifsk
 ms.assetid: 7c3fed89-a4e1-436f-9cbb-e140ad42bb13
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RxCreateMidAtlas, midatlax/RxCreateMidAtlas, ifsk.rxcreatemidatlas, rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml, RxCreateMidAtlas function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.rxcreatemidatlas, RxCreateMidAtlas function [Installable File System Drivers], rxref_539434e3-e1ea-4c97-b480-51bfe40eb44e.xml, midatlax/RxCreateMidAtlas, RxCreateMidAtlas
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,11 +116,11 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
 ## -see-also
 
-<a href="..\midatlax\nf-midatlax-rxreassociatemid.md">RxReassociateMid</a>
-
-
-
 <a href="..\midatlax\nf-midatlax-rxdestroymidatlas.md">RxDestroyMidAtlas</a>
+
+
+
+<a href="..\midatlax\nf-midatlax-rxmapanddissociatemidfromcontext.md">RxMapAndDissociateMidFromContext</a>
 
 
 
@@ -140,5 +140,5 @@ For example, if a maximum of 50 MIDs are to be allocated on creation , the lengt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCreateMidAtlas function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCreateMidAtlas function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

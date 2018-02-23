@@ -7,7 +7,7 @@ old-location: storage\hwstorinitializetracing.htm
 old-project: storage
 ms.assetid: e0d4ea58-415b-4ea4-9001-8a23ab44a1bf
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.hwstorinitializetracing, HwStorInitializeTracing routine [Storage Devices], HwStorInitializeTracing, HW_INITIALIZE_TRACING, HW_INITIALIZE_TRACING, storport/HwStorInitializeTracing, storvmini_0c53c6e6-7c5c-4400-b923-c03a7756614f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	HwStorInitializeTracing
 product: Windows
 targetos: Windows
-req.typenames: STORAGE_DEVICE_UNIQUE_IDENTIFIER, *PSTORAGE_DEVICE_UNIQUE_IDENTIFIER
+req.typenames: "*PSTORAGE_DEVICE_UNIQUE_IDENTIFIER, STORAGE_DEVICE_UNIQUE_IDENTIFIER"
 req.product: Windows 10 or later.
 ---
 

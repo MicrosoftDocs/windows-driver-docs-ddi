@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::CreateProcess method
 author: windows-driver-content
 description: The CreateProcess callback method is called by the engine when a create-processdebugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_createprocess.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: d5378b35-da27-419f-a161-0c542aa4a9f9
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide, CreateProcess, CreateProcess method [Windows Debugging], IDebugEventCallbacksWide::CreateProcess, CreateProcess method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_createprocess, IDebugEventCallbacksWide interface [Windows Debugging], CreateProcess method, dbgeng/IDebugEventCallbacksWide::CreateProcess
+ms.date: 2/15/2018
+ms.keywords: debugger.idebugeventcallbackswide_createprocess, IDebugEventCallbacksWide, dbgeng/IDebugEventCallbacksWide::CreateProcess, CreateProcess method [Windows Debugging], CreateProcess, IDebugEventCallbacksWide::CreateProcess, IDebugEventCallbacksWide interface [Windows Debugging], CreateProcess method, CreateProcess method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.CreateProcess
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::CreateProcess method

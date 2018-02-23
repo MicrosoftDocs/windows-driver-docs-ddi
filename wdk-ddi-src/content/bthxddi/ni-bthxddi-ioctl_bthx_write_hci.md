@@ -7,7 +7,7 @@ old-location: bltooth\ioctl_bthx_hci_write.htm
 old-project: bltooth
 ms.assetid: 77BBF6AC-F5FA-4795-8898-6DC02983F573
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.ioctl_bthx_hci_write, IOCTL_BTHX_WRITE_HCI control code [Bluetooth Devices], IOCTL_BTHX_WRITE_HCI, bthxddi/IOCTL_BTHX_WRITE_HCI, bltooth.ioctl_bthx_write_hci
 ms.prod: windows-hardware
 ms.technology: windows-devices

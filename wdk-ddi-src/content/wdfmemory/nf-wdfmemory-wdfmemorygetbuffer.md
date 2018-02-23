@@ -7,8 +7,8 @@ old-location: wdf\wdfmemorygetbuffer.htm
 old-project: wdf
 ms.assetid: a5044eb5-d619-4adb-a00c-2d01e0311ade
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfMemoryGetBuffer, wdfmemory/WdfMemoryGetBuffer, PFN_WDFMEMORYGETBUFFER, WdfMemoryGetBuffer method, wdf.wdfmemorygetbuffer, kmdf.wdfmemorygetbuffer, DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml
+ms.date: 2/20/2018
+ms.keywords: WdfMemoryGetBuffer, wdfmemory/WdfMemoryGetBuffer, WdfMemoryGetBuffer method, DFMemoryObjectRef_6f8615ee-5e34-46c5-8c83-4b52433753aa.xml, kmdf.wdfmemorygetbuffer, wdf.wdfmemorygetbuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -144,17 +144,17 @@ OsrFxEvtUsbInterruptPipeReadComplete(
 
 
 
-<a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreatepreallocated.md">WdfMemoryCreatePreallocated</a>
-
-
-
 <a href="..\wdfmemory\nf-wdfmemory-wdfmemorycreate.md">WdfMemoryCreate</a>
 
 
 
- 
+<a href="..\wdfobject\nf-wdfobject-wdfobjectcontextgetobject.md">WdfObjectContextGetObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfMemoryGetBuffer method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfMemoryGetBuffer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\public_object_type_information.htm
 old-project: ifsk
 ms.assetid: 7b80c3df-befe-4648-ab61-78cfb8d4b7ef
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: objectstructures_54a0adde-cbf0-47c3-a1ab-aa426758c8b9.xml, PPUBLIC_OBJECT_TYPE_INFORMATION structure pointer [Installable File System Drivers], PUBLIC_OBJECT_TYPE_INFORMATION, ntifs/PPUBLIC_OBJECT_TYPE_INFORMATION, ifsk.public_object_type_information, ntifs/PUBLIC_OBJECT_TYPE_INFORMATION, PUBLIC_OBJECT_TYPE_INFORMATION structure [Installable File System Drivers], *PPUBLIC_OBJECT_TYPE_INFORMATION, PPUBLIC_OBJECT_TYPE_INFORMATION, __PUBLIC_OBJECT_TYPE_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: "*PPUBLIC_OBJECT_TYPE_INFORMATION, PUBLIC_OBJECT_TYPE_INFORMATION structure [Installable File System Drivers], PPUBLIC_OBJECT_TYPE_INFORMATION structure pointer [Installable File System Drivers], __PUBLIC_OBJECT_TYPE_INFORMATION, PPUBLIC_OBJECT_TYPE_INFORMATION, objectstructures_54a0adde-cbf0-47c3-a1ab-aa426758c8b9.xml, ntifs/PPUBLIC_OBJECT_TYPE_INFORMATION, ifsk.public_object_type_information, PUBLIC_OBJECT_TYPE_INFORMATION, ntifs/PUBLIC_OBJECT_TYPE_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

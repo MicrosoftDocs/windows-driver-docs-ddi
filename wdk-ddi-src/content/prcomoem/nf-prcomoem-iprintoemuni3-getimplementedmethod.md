@@ -7,8 +7,8 @@ old-location: print\iprintoemuni3_getimplementedmethod.htm
 old-project: print
 ms.assetid: a1de8e8f-eca1-4630-b689-585027184a08
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: GetImplementedMethod method [Print Devices], GetImplementedMethod, prcomoem/IPrintOemUni3::GetImplementedMethod, IPrintOemUni3::GetImplementedMethod, print.iprintoemuni3_getimplementedmethod, IPrintOemUni3 interface [Print Devices], GetImplementedMethod method, GetImplementedMethod method [Print Devices], IPrintOemUni3 interface, IPrintOemUni3, print_unidrv-pscript_rendering_7ca27745-8b8c-49c6-a80f-06bdc67132d5.xml
+ms.date: 2/21/2018
+ms.keywords: prcomoem/IPrintOemUni3::GetImplementedMethod, GetImplementedMethod method [Print Devices], GetImplementedMethod method [Print Devices], IPrintOemUni3 interface, GetImplementedMethod, IPrintOemUni3::GetImplementedMethod, IPrintOemUni3 interface [Print Devices], GetImplementedMethod method, print_unidrv-pscript_rendering_7ca27745-8b8c-49c6-a80f-06bdc67132d5.xml, IPrintOemUni3, print.iprintoemuni3_getimplementedmethod
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUni3.GetImplementedMethod
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

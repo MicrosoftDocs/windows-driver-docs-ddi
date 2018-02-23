@@ -7,8 +7,8 @@ old-location: netvista\rilopenuicclogicalchannelparammask.htm
 old-project: netvista
 ms.assetid: 28512a46-506b-40c2-a14d-165823bf94fb
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, netvista.rilopenuicclogicalchannelparammask, RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH, RIL_PARAM_OULC_ALL, ntddrilapitypes/RIL_PARAM_OULC_ALL, RIL_PARAM_OULC_SELECTRESPONSE, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPONSE, RIL_PARAM_OULC_SELECTRESPLENGTH, RILOPENUICCLOGICALCHANNELPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: RILOPENUICCLOGICALCHANNELPARAMMASK, RIL_PARAM_OULC_SELECTRESPLENGTH, RIL_PARAM_OULC_ALL, ntddrilapitypes/RILOPENUICCLOGICALCHANNELPARAMMASK, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPONSE, RIL_PARAM_OULC_SELECTRESPONSE, ntddrilapitypes/RIL_PARAM_OULC_SELECTRESPLENGTH, netvista.rilopenuicclogicalchannelparammask, RILOPENUICCLOGICALCHANNELPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_OULC_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

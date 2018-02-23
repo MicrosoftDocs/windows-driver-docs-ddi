@@ -7,8 +7,8 @@ old-location: kernel\psgetparentsilo.htm
 old-project: kernel
 ms.assetid: 57fa5563-3a02-449a-a934-85c75f450500
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.psgetparentsilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], PsGetParentSilo, ntddk/PsGetParentSilo
+ms.date: 2/16/2018
+ms.keywords: ntddk/PsGetParentSilo, PsGetParentSilo function [Kernel-Mode Driver Architecture], PsGetParentSilo, kernel.psgetparentsilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

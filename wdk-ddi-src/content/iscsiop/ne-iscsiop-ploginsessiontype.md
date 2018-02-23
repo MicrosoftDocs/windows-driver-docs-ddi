@@ -7,8 +7,8 @@ old-location: storage\loginsessiontype.htm
 old-project: storage
 ms.assetid: 838c2371-c1f3-4415-a624-fab1d8c15d0d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, iscsiop/PLOGINSESSIONTYPE, LOGINSESSIONTYPE, storage.loginsessiontype, LOGINSESSIONTYPE enumeration [Storage Devices], ISCSI_LOGINTARGET_DATA, ISCSI_LOGINTARGET_DISCOVERY, iscsiop/ISCSI_LOGINTARGET_DATA, PLOGINSESSIONTYPE enumeration pointer [Storage Devices], *PLOGINSESSIONTYPE, iscsiop/LOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml, ISCSI_LOGINTARGET_INFORMATIONAL, PLOGINSESSIONTYPE
+ms.date: 2/16/2018
+ms.keywords: iscsiop/ISCSI_LOGINTARGET_DATA, iscsiop/PLOGINSESSIONTYPE, storage.loginsessiontype, iscsiop/LOGINSESSIONTYPE, structs-iSCSI_4af9bc0f-391e-442a-9d45-6819d130cfc0.xml, LOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_INFORMATIONAL, *PLOGINSESSIONTYPE, ISCSI_LOGINTARGET_DATA, LOGINSESSIONTYPE enumeration [Storage Devices], PLOGINSESSIONTYPE enumeration pointer [Storage Devices], PLOGINSESSIONTYPE, iscsiop/ISCSI_LOGINTARGET_DISCOVERY, ISCSI_LOGINTARGET_DISCOVERY, ISCSI_LOGINTARGET_INFORMATIONAL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	LOGINSESSIONTYPE
 product: Windows
 targetos: Windows
-req.typenames: LOGINSESSIONTYPE, *PLOGINSESSIONTYPE
+req.typenames: "*PLOGINSESSIONTYPE, LOGINSESSIONTYPE"
 ---
 
 # *PLOGINSESSIONTYPE enumeration
@@ -96,5 +96,5 @@ The logon session is full-featured. It reports the target LUNs to the PnP manage
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20LOGINSESSIONTYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20LOGINSESSIONTYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

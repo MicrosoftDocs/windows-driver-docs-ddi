@@ -7,8 +7,8 @@ old-location: ifsk\file_both_dir_information.htm
 old-project: ifsk
 ms.assetid: 892b8eda-0b8e-40ab-940b-a0a423aaa5b8
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FILE_BOTH_DIR_INFORMATION, PFILE_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers], ntifs/PFILE_BOTH_DIR_INFORMATION, ntifs/FILE_BOTH_DIR_INFORMATION, _FILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION structure [Installable File System Drivers], PFILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION, fileinformationstructures_6e3069a3-7938-4c57-b741-594c3b70a986.xml, ifsk.file_both_dir_information
+ms.date: 2/16/2018
+ms.keywords: "_FILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION, ntifs/PFILE_BOTH_DIR_INFORMATION, ntifs/FILE_BOTH_DIR_INFORMATION, fileinformationstructures_6e3069a3-7938-4c57-b741-594c3b70a986.xml, FILE_BOTH_DIR_INFORMATION, PFILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION structure [Installable File System Drivers], ifsk.file_both_dir_information, PFILE_BOTH_DIR_INFORMATION structure pointer [Installable File System Drivers]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_BOTH_DIR_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_BOTH_DIR_INFORMATION, FILE_BOTH_DIR_INFORMATION"
+req.typenames: FILE_BOTH_DIR_INFORMATION, *PFILE_BOTH_DIR_INFORMATION
 ---
 
 # _FILE_BOTH_DIR_INFORMATION structure
@@ -201,7 +201,7 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
 
 
-<a href="..\ntifs\nf-ntifs-zwquerydirectoryfile.md">ZwQueryDirectoryFile</a>
+<a href="..\rxprocs\nf-rxprocs-fsrtlnotifyfullchangedirectory.md">FsRtlNotifyFullChangeDirectory</a>
 
 
 
@@ -213,5 +213,5 @@ This structure must be aligned on a LONGLONG (8-byte) boundary. If a buffer cont
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_BOTH_DIR_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_BOTH_DIR_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

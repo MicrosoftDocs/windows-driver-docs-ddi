@@ -7,8 +7,8 @@ old-location: ifsk\refs_smr_volume_gc_state.htm
 old-project: ifsk
 ms.assetid: 9E75F65A-6E9C-485F-9437-30CB01A5F317
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: PREFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], ntifs/SmrGcStateInactive, SmrGcStateActive, SmrGcStateActiveFullSpeed, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers], _REFS_SMR_VOLUME_GC_STATE, ifsk.refs_smr_volume_gc_state, SmrGcStateInactive, ntifs/SmrGcStateActiveFullSpeed, ntifs/REFS_SMR_VOLUME_GC_STATE, *PREFS_SMR_VOLUME_GC_STATE, SmrGcStatePaused, ntifs/SmrGcStatePaused, ntifs/SmrGcStateActive, REFS_SMR_VOLUME_GC_STATE, ntifs/PREFS_SMR_VOLUME_GC_STATE
+ms.date: 2/16/2018
+ms.keywords: ifsk.refs_smr_volume_gc_state, REFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateInactive, ntifs/SmrGcStateActiveFullSpeed, SmrGcStateActive, ntifs/SmrGcStatePaused, *PREFS_SMR_VOLUME_GC_STATE, ntifs/SmrGcStateActive, SmrGcStateInactive, ntifs/PREFS_SMR_VOLUME_GC_STATE, REFS_SMR_VOLUME_GC_STATE enumeration [Installable File System Drivers], _REFS_SMR_VOLUME_GC_STATE, PREFS_SMR_VOLUME_GC_STATE enumeration pointer [Installable File System Drivers], SmrGcStateActiveFullSpeed, SmrGcStatePaused, ntifs/REFS_SMR_VOLUME_GC_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

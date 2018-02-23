@@ -7,8 +7,8 @@ old-location: storage\storportwriteregisterbufferulong64.htm
 old-project: storage
 ms.assetid: 3C36DB8F-46C2-4E81-B2F3-6DE78D91566E
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.storportwriteregisterbufferulong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], storport/StorPortWriteRegisterBufferUlong64, StorPortWriteRegisterBufferUlong64
+ms.date: 2/16/2018
+ms.keywords: storage.storportwriteregisterbufferulong64, StorPortWriteRegisterBufferUlong64 routine [Storage Devices], StorPortWriteRegisterBufferUlong64, storport/StorPortWriteRegisterBufferUlong64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -129,5 +129,5 @@ The <b>StorPortWriteRegisterBufferUlong64</b> routine is only available on the 6
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortWriteRegisterBufferUlong64 routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortWriteRegisterBufferUlong64 routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

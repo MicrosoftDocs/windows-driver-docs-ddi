@@ -7,7 +7,7 @@ old-location: display\checkvideodecoderformat.htm
 old-project: display
 ms.assetid: 6bde6e00-70ba-4fa5-9cc0-9884ce7381ed
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.checkvideodecoderformat, CheckVideoDecoderFormat callback function [Display Devices], CheckVideoDecoderFormat, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, PFND3D11_1DDI_CHECKVIDEODECODERFORMAT, d3d10umddi/CheckVideoDecoderFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -82,6 +82,10 @@ VOID APIENTRY* CheckVideoDecoderFormat(
 
 
 
+
+
+
+### -param DXGI_FORMAT
 
 
 

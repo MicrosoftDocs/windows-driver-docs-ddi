@@ -7,13 +7,13 @@ old-location: kernel\pep_ppm_idle_complete.htm
 old-project: kernel
 ms.assetid: F44C7FCC-0693-4F43-BF23-7160B67EDD3D
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], _PEP_PPM_IDLE_COMPLETE, kernel.pep_ppm_idle_complete, *PPEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE, PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_IDLE_COMPLETE
+ms.date: 2/16/2018
+ms.keywords: "*PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_PPM_IDLE_COMPLETE structure pointer [Kernel-Mode Driver Architecture], pepfx/PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE, pepfx/PEP_PPM_IDLE_COMPLETE, kernel.pep_ppm_idle_complete, PPEP_PPM_IDLE_COMPLETE, _PEP_PPM_IDLE_COMPLETE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_IDLE_COMPLETE
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_IDLE_COMPLETE, PEP_PPM_IDLE_COMPLETE"
+req.typenames: PEP_PPM_IDLE_COMPLETE, *PPEP_PPM_IDLE_COMPLETE
 ---
 
 # _PEP_PPM_IDLE_COMPLETE structure
@@ -93,17 +93,17 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186827">PEP_NOTIFY_PPM_QUERY_PLATFORM_STATES</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186803">PEP_NOTIFY_PPM_IDLE_COMPLETE</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186824">PEP_NOTIFY_PPM_QUERY_IDLE_STATES_V2</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_IDLE_COMPLETE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_IDLE_COMPLETE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

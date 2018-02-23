@@ -7,8 +7,8 @@ old-location: netvista\rilmsgindeliver_2.htm
 old-project: netvista
 ms.assetid: 1565ee10-044f-4557-8a49-777eae7c44e3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista], RILMSGINDELIVER, *LPRILMSGINDELIVER, netvista.rilmsgindeliver_2, rilapitypes/RILMSGINDELIVER
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILMSGINDELIVER, netvista.rilmsgindeliver_2, RILMSGINDELIVER, *LPRILMSGINDELIVER, RILMSGINDELIVER structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

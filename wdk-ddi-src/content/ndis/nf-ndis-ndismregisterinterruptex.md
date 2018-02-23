@@ -7,8 +7,8 @@ old-location: netvista\ndismregisterinterruptex.htm
 old-project: netvista
 ms.assetid: db0b3d51-5bbb-45fb-8c45-dda8c2212b5f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMRegisterInterruptEx function [Network Drivers Starting with Windows Vista], netvista.ndismregisterinterruptex, NdisMRegisterInterruptEx, ndis_interrupts_functions_ref_9a28602d-5a32-459c-92da-9d97b93f5fde.xml, ndis/NdisMRegisterInterruptEx
+ms.date: 2/16/2018
+ms.keywords: ndis/NdisMRegisterInterruptEx, NdisMRegisterInterruptEx function [Network Drivers Starting with Windows Vista], netvista.ndismregisterinterruptex, NdisMRegisterInterruptEx, ndis_interrupts_functions_ref_9a28602d-5a32-459c-92da-9d97b93f5fde.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -239,6 +239,27 @@ Drivers call the
 
 
 
+<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
+   MiniportEnableMessageInterrupt</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
+
+
+
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
 <a href="..\ndis\nc-ndis-miniport_disable_message_interrupt.md">
    MiniportDisableMessageInterrupt</a>
 
@@ -249,28 +270,11 @@ Drivers call the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_enable_message_interrupt.md">
-   MiniportEnableMessageInterrupt</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
 
 
 
 <a href="..\ndis\nc-ndis-miniport_isr.md">MiniportInterrupt</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismderegisterinterruptex.md">NdisMDeregisterInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_enable_interrupt.md">MiniportEnableInterruptEx</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_disable_interrupt.md">MiniportDisableInterruptEx</a>
 
 
 
@@ -282,13 +286,9 @@ Drivers call the
 
 
 
-<a href="..\ndis\nc-ndis-miniport_message_interrupt.md">MiniportMessageInterrupt</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMRegisterInterruptEx function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMRegisterInterruptEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

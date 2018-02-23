@@ -7,8 +7,8 @@ old-location: wdf\wdf_power_device_state.htm
 old-project: wdf
 ms.assetid: 66ff00fd-43b0-4fe1-a010-4b5ef65fa811
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, wdfdevice/WdfPowerDeviceD2, wdfdevice/WdfPowerDeviceD3Final, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceD3, WdfPowerDevicePrepareForHibernation, WdfPowerDeviceD2, WDF_POWER_DEVICE_STATE, PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD0, WDF_POWER_DEVICE_STATE enumeration, wdf.wdf_power_device_state, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, wdfdevice/WdfPowerDevicePrepareForHibernation, kmdf.wdf_power_device_state, wdfdevice/WdfPowerDeviceInvalid, wdfdevice/WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, wdfdevice/PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD1, WdfPowerDeviceD0, wdfdevice/WdfPowerDeviceMaximum, *PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, PWDF_POWER_DEVICE_STATE enumeration pointer, WdfPowerDeviceD3
+ms.date: 2/20/2018
+ms.keywords: wdfdevice/WdfPowerDeviceMaximum, WdfPowerDeviceD0, wdfdevice/WDF_POWER_DEVICE_STATE, WdfPowerDeviceD1, WdfPowerDeviceD2, PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD1, wdfdevice/WdfPowerDeviceInvalid, WDF_POWER_DEVICE_STATE, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, WdfPowerDeviceMaximum, WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD0, wdf.wdf_power_device_state, PWDF_POWER_DEVICE_STATE enumeration pointer, kmdf.wdf_power_device_state, *PWDF_POWER_DEVICE_STATE, wdfdevice/PWDF_POWER_DEVICE_STATE, wdfdevice/WdfPowerDeviceD3Final, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDevicePrepareForHibernation, wdfdevice/WdfPowerDeviceD3, wdfdevice/WdfPowerDeviceD2, DFDeviceObjectGeneralRef_5a921767-81e1-4a80-b775-8f91819c6ea5.xml, WdfPowerDeviceInvalid, wdfdevice/WdfPowerDevicePrepareForHibernation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
+req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -131,5 +131,5 @@ The maximum enumerator value for this enumeration.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_DEVICE_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_DEVICE_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

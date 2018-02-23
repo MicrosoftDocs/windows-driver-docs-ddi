@@ -7,8 +7,8 @@ old-location: ifsk\file_allocation_information.htm
 old-project: ifsk
 ms.assetid: 52c62e52-3bf7-40eb-80ff-df14c50c86e1
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers], PFILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION, ntifs/PFILE_ALLOCATION_INFORMATION, ntifs/FILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, ifsk.file_allocation_information, PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], _FILE_ALLOCATION_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: ntifs/FILE_ALLOCATION_INFORMATION, fileinformationstructures_79d60e3b-f403-46d8-b600-62aeddcb88e0.xml, FILE_ALLOCATION_INFORMATION structure [Installable File System Drivers], PFILE_ALLOCATION_INFORMATION structure pointer [Installable File System Drivers], *PFILE_ALLOCATION_INFORMATION, PFILE_ALLOCATION_INFORMATION, ntifs/PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION, _FILE_ALLOCATION_INFORMATION, ifsk.file_allocation_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_ALLOCATION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_ALLOCATION_INFORMATION, *PFILE_ALLOCATION_INFORMATION
+req.typenames: "*PFILE_ALLOCATION_INFORMATION, FILE_ALLOCATION_INFORMATION"
 ---
 
 # _FILE_ALLOCATION_INFORMATION structure
@@ -125,5 +125,5 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_ALLOCATION_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_ALLOCATION_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

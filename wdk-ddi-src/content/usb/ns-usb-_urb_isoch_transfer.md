@@ -4,11 +4,11 @@ title: "_URB_ISOCH_TRANSFER"
 author: windows-driver-content
 description: The _URB_ISOCH_TRANSFER structure is used by USB client drivers to send data to or retrieve data from an isochronous transfer pipe.
 old-location: buses\_urb_isoch_transfer.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: b021211a-3f72-47ff-9e69-bbf3807f4ec4
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: USBD_SHORT_TRANSFER_OK, _URB_ISOCH_TRANSFER, USBD_TRANSFER_DIRECTION_IN, _URB_ISOCH_TRANSFER structure [Buses], usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml, usb/_URB_ISOCH_TRANSFER, buses._urb_isoch_transfer, USBD_START_ISO_TRANSFER_ASAP
+ms.date: 2/15/2018
+ms.keywords: usbstrct_5a064ef7-b08f-405f-8d73-22fea138ac29.xml, USBD_START_ISO_TRANSFER_ASAP, _URB_ISOCH_TRANSFER structure [Buses], buses._urb_isoch_transfer, USBD_TRANSFER_DIRECTION_IN, _URB_ISOCH_TRANSFER, usb/_URB_ISOCH_TRANSFER, USBD_SHORT_TRANSFER_OK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,11 +82,6 @@ struct _URB_ISOCH_TRANSFER {
 ### -field Hdr
 
 A pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_ISOCH_TRANSFER, and <b>Hdr.Length</b> must be the size of this variable-length data structure.
-
-
-### -field _URB_HEADER
-
- 
 
 
 ### -field PipeHandle
@@ -168,11 +163,6 @@ Reserved. Do not use.
 ### -field hca
 
 Reserved. Do not use.
-
-
-### -field _URB_HCD_AREA
-
- 
 
 
 ### -field StartFrame
@@ -311,7 +301,7 @@ Treat other members that are part of this structure but not described here as op
 
 
 
-<a href="..\usb\ns-usb-_usbd_iso_packet_descriptor.md">USBD_ISO_PACKET_DESCRIPTOR</a>
+<a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a>
 
 
 
@@ -319,11 +309,11 @@ Treat other members that are part of this structure but not described here as op
 
 
 
-<a href="..\usbdlib\nf-usbdlib-usbd_isochurballocate.md">USBD_IsochUrbAllocate</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406225">How to Transfer Data to USB Isochronous Endpoints</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
 
 
 
@@ -335,5 +325,5 @@ Treat other members that are part of this structure but not described here as op
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_ISOCH_TRANSFER structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20_URB_ISOCH_TRANSFER structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

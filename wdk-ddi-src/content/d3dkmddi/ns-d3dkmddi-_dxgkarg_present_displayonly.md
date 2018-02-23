@@ -7,8 +7,8 @@ old-location: display\dxgkarg_present_displayonly.htm
 old-project: display
 ms.assetid: 7679d4f2-55c6-458c-afd3-020c3b7fd7e2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKARG_PRESENT_DISPLAYONLY, d3dkmddi/DXGKARG_PRESENT_DISPLAYONLY, _DXGKARG_PRESENT_DISPLAYONLY, display.dxgkarg_present_displayonly, DXGKARG_PRESENT_DISPLAYONLY structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: DXGKARG_PRESENT_DISPLAYONLY, d3dkmddi/DXGKARG_PRESENT_DISPLAYONLY, _DXGKARG_PRESENT_DISPLAYONLY, DXGKARG_PRESENT_DISPLAYONLY structure [Display Devices], display.dxgkarg_present_displayonly
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -128,11 +128,11 @@ Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_d3dkmt_present_display_only_flags.md">D3DKMT_PRESENT_DISPLAY_ONLY_FLAGS</a>
-
-
-
 <a href="https://msdn.microsoft.com/8970246b-b46f-464f-93b2-973cc351ed07">DxgkCbPresentDisplayOnlyProgress</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_presentdisplayonly.md">DxgkDdiPresentDisplayOnly</a>
 
 
 
@@ -152,5 +152,5 @@ Reserved for system use. The operating system sets this member to <b>NULL</b>.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_PRESENT_DISPLAYONLY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_PRESENT_DISPLAYONLY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

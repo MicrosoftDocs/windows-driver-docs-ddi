@@ -7,8 +7,8 @@ old-location: ifsk\sefiltertoken.htm
 old-project: ifsk
 ms.assetid: 2de3980a-da78-4cdd-916b-0801f38f3637
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: SeFilterToken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml, ifsk.sefiltertoken, SeFilterToken routine [Installable File System Drivers], ntifs/SeFilterToken
+ms.date: 2/16/2018
+ms.keywords: SeFilterToken, ntifs/SeFilterToken, ifsk.sefiltertoken, seref_33edad21-5cc4-4bd9-86f1-b52c648fc87c.xml, SeFilterToken routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -199,35 +199,7 @@ When the token returned in <i>NewToken</i> is no longer needed, free it by calli
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
-
-
-
-<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
-
-
-
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
 
 
 
@@ -235,7 +207,35 @@ When the token returned in <i>NewToken</i> is no longer needed, free it by calli
 
 
 
-<a href="..\ntifs\ns-ntifs-_token_privileges.md">TOKEN_PRIVILEGES</a>
+<a href="..\ntifs\ns-ntifs-_token_groups.md">TOKEN_GROUPS</a>
+
+
+
+<a href="..\wdm\ns-wdm-_luid_and_attributes.md">LUID_AND_ATTRIBUTES</a>
+
+
+
+<a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-seimpersonateclientex.md">SeImpersonateClientEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-secreateclientsecurity.md">SeCreateClientSecurity</a>
+
+
+
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+
+
+
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-setokenisrestricted.md">SeTokenIsRestricted</a>
 
 
 
@@ -243,5 +243,5 @@ When the token returned in <i>NewToken</i> is no longer needed, free it by calli
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeFilterToken routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeFilterToken routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

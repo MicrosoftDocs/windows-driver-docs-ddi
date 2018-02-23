@@ -4,10 +4,10 @@ title: IDebugClient7
 author: windows-driver-content
 description: The IDebugClient7 interface is reserved for internal use.
 old-location: debugger\idebugclient7.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 16FBD831-D7AE-4B10-B76E-6CA42C9CABEB
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugclient7, IDebugClient7 interface [Windows Debugging], IDebugClient7 interface [Windows Debugging], described, IDebugClient7, dbgeng/IDebugClient7
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient7
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient7 interface

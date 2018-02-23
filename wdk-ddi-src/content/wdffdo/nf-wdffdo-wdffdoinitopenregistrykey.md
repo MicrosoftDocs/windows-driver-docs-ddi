@@ -7,8 +7,8 @@ old-location: wdf\wdffdoinitopenregistrykey.htm
 old-project: wdf
 ms.assetid: 1b720e3e-8858-4567-ada3-30ac0dcf9696
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfFdoInitOpenRegistryKey, DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, kmdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey method, wdf.wdffdoinitopenregistrykey
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectFdoPdoRef_8768fe63-0134-467f-9610-0cdaf018f784.xml, wdf.wdffdoinitopenregistrykey, wdffdo/WdfFdoInitOpenRegistryKey, WdfFdoInitOpenRegistryKey, kmdf.wdffdoinitopenregistrykey, WdfFdoInitOpenRegistryKey method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfFdoInitOpenRegistryKey
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DRIVER_VERSION_AVAILABLE_PARAMS, WDF_DRIVER_VERSION_AVAILABLE_PARAMS"
+req.typenames: WDF_DRIVER_VERSION_AVAILABLE_PARAMS, *PWDF_DRIVER_VERSION_AVAILABLE_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -340,5 +340,5 @@ if (!NT_SUCCESS(status)) {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitOpenRegistryKey method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfFdoInitOpenRegistryKey method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

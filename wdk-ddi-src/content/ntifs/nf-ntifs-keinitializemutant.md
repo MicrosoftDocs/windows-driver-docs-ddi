@@ -7,8 +7,8 @@ old-location: ifsk\keinitializemutant.htm
 old-project: ifsk
 ms.assetid: 75c31158-5d9c-465a-bb62-392b85fd8791
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: KeInitializeMutant function [Installable File System Drivers], ntifs/KeInitializeMutant, ifsk.keinitializemutant, keref_b0f59cc4-6d50-45bc-928c-3c2288ba0f14.xml, KeInitializeMutant
+ms.date: 2/16/2018
+ms.keywords: KeInitializeMutant, ifsk.keinitializemutant, KeInitializeMutant function [Installable File System Drivers], ntifs/KeInitializeMutant, keref_b0f59cc4-6d50-45bc-928c-3c2288ba0f14.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

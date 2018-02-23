@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_property_data.htm
 old-project: wdf
 ms.assetid: C49562C0-D8B6-4BAE-96EB-4005D9EB19DE
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: "*PWDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA structure, wdf.wdf_device_property_data, wdfdevice/PWDF_DEVICE_PROPERTY_DATA, _WDF_DEVICE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA structure pointer"
+ms.date: 2/20/2018
+ms.keywords: WDF_DEVICE_PROPERTY_DATA structure, PWDF_DEVICE_PROPERTY_DATA, wdfdevice/PWDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA, _WDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA, wdfdevice/WDF_DEVICE_PROPERTY_DATA, PWDF_DEVICE_PROPERTY_DATA structure pointer, wdf.wdf_device_property_data
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_DEVICE_PROPERTY_DATA
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_DEVICE_PROPERTY_DATA, WDF_DEVICE_PROPERTY_DATA"
+req.typenames: WDF_DEVICE_PROPERTY_DATA, *PWDF_DEVICE_PROPERTY_DATA
 req.product: Windows 10 or later.
 ---
 
@@ -124,6 +124,14 @@ Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdf
 
 ## -see-also
 
+<a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
+
+
+
+<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
+
+
+
 <a href="..\wdfdevice\nf-wdfdevice-wdf_device_property_data_init.md">WDF_DEVICE_PROPERTY_DATA_INIT</a>
 
 
@@ -132,15 +140,7 @@ Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdf
 
 
 
-<a href="..\wdffdo\nf-wdffdo-wdffdoinitquerypropertyex.md">WdfFdoInitQueryPropertyEx</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceallocandquerypropertyex.md">WdfDeviceAllocAndQueryPropertyEx</a>
-
-
-
-<a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignproperty.md">WdfDeviceAssignProperty</a>
 
 
 
@@ -152,5 +152,5 @@ Drivers should initialize this structure by calling <a href="..\wdfdevice\nf-wdf
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_PROPERTY_DATA structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DEVICE_PROPERTY_DATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

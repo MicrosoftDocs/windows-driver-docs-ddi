@@ -7,8 +7,8 @@ old-location: kernel\kememorybarrier.htm
 old-project: kernel
 ms.assetid: e6ffb893-a79f-4cc0-9052-667b835f4ad3
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/KeMemoryBarrier, k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], kernel.kememorybarrier, KeMemoryBarrier
+ms.date: 2/16/2018
+ms.keywords: wdm/KeMemoryBarrier, KeMemoryBarrier routine [Kernel-Mode Driver Architecture], kernel.kememorybarrier, k105_972df62d-6449-40d7-9bfa-0c420cf8f106.xml, KeMemoryBarrier
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,5 +123,5 @@ In this definition, the braces that follow the <b>__asm</b> keyword contain inli
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeMemoryBarrier routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeMemoryBarrier routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

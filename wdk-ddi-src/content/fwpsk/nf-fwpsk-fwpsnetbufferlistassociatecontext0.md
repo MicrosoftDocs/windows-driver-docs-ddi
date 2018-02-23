@@ -7,8 +7,8 @@ old-location: netvista\fwpsnetbufferlistassociatecontext0.htm
 old-project: netvista
 ms.assetid: 31135396-303b-4b94-8616-a4b7be207fa1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FwpsNetBufferListAssociateContext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml, netvista.fwpsnetbufferlistassociatecontext0, fwpsk/FwpsNetBufferListAssociateContext0, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: FwpsNetBufferListAssociateContext0, fwpsk/FwpsNetBufferListAssociateContext0, netvista.fwpsnetbufferlistassociatecontext0, wfp_ref_2_funct_3_fwps_J-Q_f30e27fe-3146-4393-b967-fdb7bbfd6370.xml, FwpsNetBufferListAssociateContext0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -187,17 +187,7 @@ Before calling this function, the
 
 ## -see-also
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
-   FwpsNetBufferListRemoveContext0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
-   FwpsNetBufferListRetrieveContext0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
+<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
 
 
 
@@ -210,7 +200,17 @@ Before calling this function, the
 
 
 
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistremovecontext0.md">
+   FwpsNetBufferListRemoveContext0</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistretrievecontext0.md">
+   FwpsNetBufferListRetrieveContext0</a>
 
 
 
@@ -218,5 +218,5 @@ Before calling this function, the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsNetBufferListAssociateContext0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsNetBufferListAssociateContext0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

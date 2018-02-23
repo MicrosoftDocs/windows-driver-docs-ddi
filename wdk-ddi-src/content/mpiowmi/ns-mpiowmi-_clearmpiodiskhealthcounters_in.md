@@ -7,8 +7,8 @@ old-location: storage\clearmpiodiskhealthcounters_in.htm
 old-project: storage
 ms.assetid: 1af28545-f43f-47a2-b6a2-64fd7a408687
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN, storage.clearmpiodiskhealthcounters_in, _ClearMpioDiskHealthCounters_IN, mpiowmi/ClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN structure pointer [Storage Devices], structs-scsibus_52663a43-dc66-4b77-b30d-d60ffbea7232.xml, *PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN structure [Storage Devices], mpiowmi/PClearMpioDiskHealthCounters_IN
+ms.date: 2/16/2018
+ms.keywords: "*PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN structure [Storage Devices], storage.clearmpiodiskhealthcounters_in, mpiowmi/ClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN structure pointer [Storage Devices], mpiowmi/PClearMpioDiskHealthCounters_IN, _ClearMpioDiskHealthCounters_IN, PClearMpioDiskHealthCounters_IN, structs-scsibus_52663a43-dc66-4b77-b30d-d60ffbea7232.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ClearMpioDiskHealthCounters_IN
 product: Windows
 targetos: Windows
-req.typenames: ClearMpioDiskHealthCounters_IN, *PClearMpioDiskHealthCounters_IN
+req.typenames: "*PClearMpioDiskHealthCounters_IN, ClearMpioDiskHealthCounters_IN"
 ---
 
 # _ClearMpioDiskHealthCounters_IN structure

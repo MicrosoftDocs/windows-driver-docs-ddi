@@ -7,8 +7,8 @@ old-location: stream\dvinfo.htm
 old-project: stream
 ms.assetid: 3afd372f-556f-4c3a-804b-9bf7a8c9a438
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avcstrm/DVINFO, DVINFO structure [Streaming Media Devices], avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, avcstrm/PDVINFO, stream.dvinfo, _DVINFO, PDVINFO structure pointer [Streaming Media Devices], DVINFO, PDVINFO, *PDVINFO
+ms.date: 2/20/2018
+ms.keywords: avcsref_9e5ce103-400a-4cfd-b160-5eb99906a80d.xml, avcstrm/DVINFO, DVINFO, PDVINFO, PDVINFO structure pointer [Streaming Media Devices], stream.dvinfo, DVINFO structure [Streaming Media Devices], *PDVINFO, avcstrm/PDVINFO, _DVINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DVINFO
 product: Windows
 targetos: Windows
-req.typenames: DVINFO, *PDVINFO
+req.typenames: "*PDVINFO, DVINFO"
 ---
 
 # _DVINFO structure

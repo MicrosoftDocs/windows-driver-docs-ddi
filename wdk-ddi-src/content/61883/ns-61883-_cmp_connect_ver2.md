@@ -7,8 +7,8 @@ old-location: ieee\cmp_connect_ver2.htm
 old-project: IEEE
 ms.assetid: 2A2C1478-0512-4F84-90B9-B9C62B5D44DA
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: CMP_CONNECT, CMP_CONNECT_VER2 structure, PCMP_CONNECT_VER2 structure pointer, 61883/CMP_CONNECT_VER2, *PCMP_CONNECT, 61883/PCMP_CONNECT_VER2, IEEE.cmp_connect_ver2, CMP_CONNECT_VER2, _CMP_CONNECT_VER2, PCMP_CONNECT_VER2, *PCMP_CONNECT_VER2
+ms.date: 2/15/2018
+ms.keywords: "*PCMP_CONNECT, CMP_CONNECT_VER2 structure, 61883/CMP_CONNECT_VER2, CMP_CONNECT_VER2, PCMP_CONNECT_VER2, *PCMP_CONNECT_VER2, 61883/PCMP_CONNECT_VER2, IEEE.cmp_connect_ver2, PCMP_CONNECT_VER2 structure pointer, _CMP_CONNECT_VER2, CMP_CONNECT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,5 +137,5 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\ieee]:%20CMP_CONNECT_VER2 structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\ieee]:%20CMP_CONNECT_VER2 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

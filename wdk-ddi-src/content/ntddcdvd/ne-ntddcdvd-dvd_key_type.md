@@ -7,8 +7,8 @@ old-location: storage\dvd_key_type.htm
 old-project: storage
 ms.assetid: ec080043-a147-4002-8d0c-ed383182ec40
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DvdGetRpcKey, ntddcdvd/DvdInvalidateAGID, DvdTitleKey, DVD_KEY_TYPE enumeration [Storage Devices], DVD_KEY_TYPE, ntddcdvd/DvdBusKey1, ntddcdvd/DvdDiskKey, DvdBusKey2, ntddcdvd/DvdSetRpcKey, DvdInvalidateAGID, ntddcdvd/DvdTitleKey, ntddcdvd/DvdAsf, DvdDiskKey, DvdSetRpcKey, DvdAsf, DvdChallengeKey, ntddcdvd/DVD_KEY_TYPE, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, ntddcdvd/DvdBusKey2, DvdBusKey1, storage.dvd_key_type, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdGetRpcKey
+ms.date: 2/16/2018
+ms.keywords: DvdDiskKey, ntddcdvd/DvdChallengeKey, ntddcdvd/DvdTitleKey, DvdGetRpcKey, ntddcdvd/DvdBusKey1, DvdTitleKey, ntddcdvd/DvdSetRpcKey, DvdSetRpcKey, DvdAsf, structs-DVD_922c1979-c628-441b-b8e9-5818f6ed737d.xml, ntddcdvd/DvdDiskKey, ntddcdvd/DvdGetRpcKey, DVD_KEY_TYPE enumeration [Storage Devices], DvdChallengeKey, ntddcdvd/DvdBusKey2, ntddcdvd/DvdInvalidateAGID, ntddcdvd/DVD_KEY_TYPE, storage.dvd_key_type, DvdBusKey2, DvdInvalidateAGID, DVD_KEY_TYPE, ntddcdvd/DvdAsf, DvdBusKey1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -133,11 +133,11 @@ Drivers can issue a report key command to retrieve key data by means of an <a hr
 
 ## -see-also
 
-<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
-
-
-
 <a href="..\ntddcdvd\ni-ntddcdvd-ioctl_dvd_read_key.md">IOCTL_DVD_READ_KEY</a>
+
+
+
+<a href="..\ntddcdvd\ns-ntddcdvd-_dvd_copy_protect_key.md">DVD_COPY_PROTECT_KEY</a>
 
 
 
@@ -149,5 +149,5 @@ Drivers can issue a report key command to retrieve key data by means of an <a hr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_KEY_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_KEY_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\rxfinalizesrvcall.htm
 old-project: ifsk
 ms.assetid: 293bb629-ac31-4ae3-bba3-b06812e9e6cb
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RxFinalizeSrvCall function [Installable File System Drivers], rxref_0560ef8e-f9e2-47ba-b78b-c3298e66238e.xml, RxFinalizeSrvCall, fcb/RxFinalizeSrvCall, ifsk.rxfinalizesrvcall
+ms.date: 2/16/2018
+ms.keywords: fcb/RxFinalizeSrvCall, RxFinalizeSrvCall function [Installable File System Drivers], rxref_0560ef8e-f9e2-47ba-b78b-c3298e66238e.xml, RxFinalizeSrvCall, ifsk.rxfinalizesrvcall
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxFinalizeSrvCall
 product: Windows
 targetos: Windows
-req.typenames: FA_ENTRY, *PFA_ENTRY
+req.typenames: "*PFA_ENTRY, FA_ENTRY"
 ---
 
 # RxFinalizeSrvCall function
@@ -104,27 +104,11 @@ If the current executing process ID is the same as the RDBSS process ID, then a 
 
 ## -see-also
 
-<a href="..\fcb\nf-fcb-rxfinalizevnetroot.md">RxFinalizeVNetRoot</a>
+<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxpdereferencenetfcb.md">RxpDereferenceNetFcb</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFcb</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550656">MRxFinalizeSrvCall</a>
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
 
 
 
@@ -132,15 +116,7 @@ If the current executing process ID is the same as the RDBSS process ID, then a 
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxfinishfcbinitialization.md">RxFinishFcbInitialization</a>
-
-
-
-<a href="..\fcb\nf-fcb-rxcreatevnetroot.md">RxCreateVNetRoot</a>
+<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
 
 
 
@@ -156,15 +132,7 @@ If the current executing process ID is the same as the RDBSS process ID, then a 
 
 
 
-<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxfinalizenetfcb.md">RxFinalizeNetFcb</a>
+<a href="..\fcb\nf-fcb-rxcreatesrvcall.md">RxCreateSrvCall</a>
 
 
 
@@ -172,11 +140,11 @@ If the current executing process ID is the same as the RDBSS process ID, then a 
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 
 
-<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
+<a href="..\fcb\nf-fcb-rxfinalizevnetroot.md">RxFinalizeVNetRoot</a>
 
 
 
@@ -184,7 +152,39 @@ If the current executing process ID is the same as the RDBSS process ID, then a 
 
 
 
-<a href="..\rxprocs\nf-rxprocs-rxforcefinalizeallvnetroots.md">RxForceFinalizeAllVNetRoots</a>
+<a href="..\fcb\nf-fcb-rxfinalizenetroot.md">RxFinalizeNetRoot</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatenetfobx.md">RxCreateNetFobx</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxpreferencenetfcb.md">RxpReferenceNetFcb</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxcreatenetfcb.md">RxCreateNetFcb</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxfinalizeconnection.md">RxFinalizeConnection</a>
+
+
+
+<a href="..\fcb\nf-fcb-rxfinishfcbinitialization.md">RxFinishFcbInitialization</a>
+
+
+
+<a href="..\mrx\nc-mrx-pmrx_finalize_srvcall_calldown.md">MRxFinalizeSrvCall</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxsetsrvcalldomainname.md">RxSetSrvCallDomainName</a>
 
 
 
@@ -192,5 +192,5 @@ If the current executing process ID is the same as the RDBSS process ID, then a 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxFinalizeSrvCall function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxFinalizeSrvCall function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,10 +4,10 @@ title: IWiaSegmentationFilter
 author: windows-driver-content
 description: The IWiaSegmentationFilter interface provides the DetectRegions method, which enables minidrivers to detect image subregions on a flatbed scanner's platen. This interface is available in Windows Vista and later.
 old-location: image\iwiasegmentationfilter_interface.htm
-old-project: image
+old-project: Image
 ms.assetid: 93f2942b-3c01-43e7-9b8a-9542ab7bfd74
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/15/2018
 ms.keywords: image.iwiasegmentationfilter_interface, IWiaSegmentationFilter interface [Imaging Devices], IWiaSegmentationFilter interface [Imaging Devices], described, IWiaSegmentationFilter, wia_lh/IWiaSegmentationFilter, iwiasegmentationfilter_24576c71-3e48-4152-bbd2-d3722d07a283.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWiaSegmentationFilter
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

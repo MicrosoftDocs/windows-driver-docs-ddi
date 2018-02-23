@@ -4,11 +4,11 @@ title: IDebugBreakpoint2::SetOffsetExpressionWide method
 author: windows-driver-content
 description: The SetOffsetExpressionWide methods set an expression string that evaluates to the location that triggers a breakpoint.
 old-location: debugger\setoffsetexpressionwide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1db89a5a-641b-4fca-bd60-217c9be8f19f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetOffsetExpressionWide, IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpressionWide method, dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, SetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2, SetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, IDebugBreakpoint2::SetOffsetExpressionWide, debugger.setoffsetexpressionwide
+ms.date: 2/15/2018
+ms.keywords: IDebugBreakpoint2 interface [Windows Debugging], SetOffsetExpressionWide method, IDebugBreakpoint2::SetOffsetExpressionWide, SetOffsetExpressionWide, SetOffsetExpressionWide method [Windows Debugging], dbgeng/IDebugBreakpoint2::SetOffsetExpressionWide, IDebugBreakpoint2, SetOffsetExpressionWide method [Windows Debugging], IDebugBreakpoint2 interface, debugger.setoffsetexpressionwide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugBreakpoint2.SetOffsetExpressionWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugBreakpoint2::SetOffsetExpressionWide method

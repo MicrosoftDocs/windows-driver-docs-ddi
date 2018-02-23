@@ -4,11 +4,11 @@ title: IDebugControl4::DisassembleWide method
 author: windows-driver-content
 description: The DisassembleWide method disassembles a processor instruction in the target's memory.
 old-location: debugger\disassemblewide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 7df1f9e5-dac2-490b-9eed-28f8bc4e677a
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::DisassembleWide, DisassembleWide method [Windows Debugging], IDebugControl4, IDebugControl4::DisassembleWide, debugger.disassemblewide, DisassembleWide, DisassembleWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4 interface [Windows Debugging], DisassembleWide method
+ms.date: 2/15/2018
+ms.keywords: DisassembleWide method [Windows Debugging], IDebugControl4::DisassembleWide, IDebugControl4, DisassembleWide, IDebugControl4 interface [Windows Debugging], DisassembleWide method, DisassembleWide method [Windows Debugging], IDebugControl4 interface, dbgeng/IDebugControl4::DisassembleWide, debugger.disassemblewide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.DisassembleWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::DisassembleWide method
@@ -156,6 +156,10 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
+
+
+
 <a href="https://msdn.microsoft.com/933a308c-61d1-4ca4-89c1-5749ba1b41c1">u (Unassemble)</a>
 
 
@@ -168,13 +172,9 @@ For an overview of using assembly in debugger applications, see <a href="https:/
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::DisassembleWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl4::DisassembleWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\rtlfillmemoryulonglong.htm
 old-project: ifsk
 ms.assetid: b5604cdb-084e-431a-b413-020e8213a18f
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RtlFillMemoryUlonglong, ifsk.rtlfillmemoryulonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, ntifs/RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.rtlfillmemoryulonglong, rtlref_5e06d1be-accd-40f6-a5b1-2a3b39caacce.xml, ntifs/RtlFillMemoryUlonglong, RtlFillMemoryUlonglong, RtlFillMemoryUlonglong routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -99,7 +99,7 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
+<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
 
 
 
@@ -107,7 +107,7 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
 
 
-<a href="..\wdm\nf-wdm-rtlzeromemory.md">RtlZeroMemory</a>
+<a href="..\wdm\nf-wdm-rtlfillmemory.md">RtlFillMemory</a>
 
 
 
@@ -115,5 +115,5 @@ For AMD64 systems, this routine is a macro.  For non-AMD64 systems, this routine
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlFillMemoryUlonglong routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlFillMemoryUlonglong routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilcapslockingpwdlengthparammask_2.htm
 old-project: netvista
 ms.assetid: da244ee1-abb5-4b3f-8b2c-6726fbf32e76
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH, RILCAPSLOCKINGPWDLENGTHPARAMMASK, rilapitypes/RIL_PARAM_CLPL_ALL, RIL_PARAM_CLPL_PASSWORDLENGTH, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RIL_PARAM_CLPL_ALL, netvista.rilcapslockingpwdlengthparammask_2, rilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: netvista.rilcapslockingpwdlengthparammask_2, RIL_PARAM_CLPL_ALL, RIL_PARAM_CLPL_PASSWORDLENGTH, rilapitypes/RIL_PARAM_CLPL_ALL, rilapitypes/RILCAPSLOCKINGPWDLENGTHPARAMMASK, rilapitypes/RIL_PARAM_CLPL_PASSWORDLENGTH, RILCAPSLOCKINGPWDLENGTHPARAMMASK, RILCAPSLOCKINGPWDLENGTHPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,7 +7,7 @@ old-location: wdf\iwdfdrivercreatedfile.htm
 old-project: wdf
 ms.assetid: ea74a539-d0a0-41ea-9fe1-8d7880a4187d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfdrivercreatedfile, IWDFDriverCreatedFile interface, IWDFDriverCreatedFile interface, described, IWDFDriverCreatedFile, wudfddi/IWDFDriverCreatedFile, UMDFDriverCreatedFileObjectRef_5299de07-06ff-484c-a60f-4abe8828a725.xml, umdf.iwdfdrivercreatedfile
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDriverCreatedFile
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfpdoinitassigninstanceid.htm
 old-project: wdf
 ms.assetid: f843f8ce-81ee-4b8b-8583-dde3becb5460
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml, WdfPdoInitAssignInstanceID method, WdfPdoInitAssignInstanceID, kmdf.wdfpdoinitassigninstanceid, wdf.wdfpdoinitassigninstanceid, PFN_WDFPDOINITASSIGNINSTANCEID, wdfpdo/WdfPdoInitAssignInstanceID
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfpdoinitassigninstanceid, WdfPdoInitAssignInstanceID method, wdf.wdfpdoinitassigninstanceid, wdfpdo/WdfPdoInitAssignInstanceID, WdfPdoInitAssignInstanceID, DFDeviceObjectFdoPdoRef_cb462423-ac9a-499c-bdd7-24a276d9adf9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,15 +161,11 @@ status = WdfPdoInitAssignInstanceID(
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitaddcompatibleid.md">WdfPdoInitAddCompatibleID</a>
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlintegertounicodestring.md">RtlIntegerToUnicodeString</a>
 
 
 
@@ -177,9 +173,13 @@ status = WdfPdoInitAssignInstanceID(
 
 
 
- 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAssignInstanceID method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAssignInstanceID method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

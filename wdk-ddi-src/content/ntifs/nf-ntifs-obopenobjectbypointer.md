@@ -7,8 +7,8 @@ old-location: ifsk\obopenobjectbypointer.htm
 old-project: ifsk
 ms.assetid: f2aa198e-6018-486f-8c39-c89c3f78cb41
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: OBJ_FORCE_ACCESS_CHECK, ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, ifsk.obopenobjectbypointer, OBJ_KERNEL_HANDLE, ntifs/ObOpenObjectByPointer, OBJ_INHERIT, OBJ_EXCLUSIVE
+ms.date: 2/16/2018
+ms.keywords: obref_320f7ea4-b5f1-4eba-bb3a-44c8022a0792.xml, OBJ_EXCLUSIVE, ifsk.obopenobjectbypointer, ntifs/ObOpenObjectByPointer, OBJ_FORCE_ACCESS_CHECK, OBJ_INHERIT, ObOpenObjectByPointer, ObOpenObjectByPointer function [Installable File System Drivers], OBJ_KERNEL_HANDLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -247,7 +247,7 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -255,19 +255,15 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobjectbypointer.md">ObReferenceObjectByPointer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
+<a href="..\wdm\nf-wdm-obreferenceobjectbyhandle.md">ObReferenceObjectByHandle</a>
 
 
 
@@ -275,9 +271,13 @@ If the <i>AccessMode</i> parameter is <b>KernelMode</b>, the requested access is
 
 
 
- 
+<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ObOpenObjectByPointer function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20ObOpenObjectByPointer function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

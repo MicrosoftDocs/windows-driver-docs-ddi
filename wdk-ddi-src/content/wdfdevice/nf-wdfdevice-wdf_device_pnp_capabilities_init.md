@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_pnp_capabilities_init.htm
 old-project: wdf
 ms.assetid: 5ae60715-ba51-4814-ae34-34967cdbab78
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFDeviceObjectGeneralRef_630e05dc-1566-4dc4-b35c-d9b756629c99.xml, kmdf.wdf_device_pnp_capabilities_init, wdf.wdf_device_pnp_capabilities_init, WDF_DEVICE_PNP_CAPABILITIES_INIT, WDF_DEVICE_PNP_CAPABILITIES_INIT function, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES_INIT
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_630e05dc-1566-4dc4-b35c-d9b756629c99.xml, WDF_DEVICE_PNP_CAPABILITIES_INIT, wdfdevice/WDF_DEVICE_PNP_CAPABILITIES_INIT, kmdf.wdf_device_pnp_capabilities_init, WDF_DEVICE_PNP_CAPABILITIES_INIT function, wdf.wdf_device_pnp_capabilities_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

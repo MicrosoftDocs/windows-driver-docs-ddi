@@ -7,8 +7,8 @@ old-location: netvista\wdi_cipher_key_direction.htm
 old-project: netvista
 ms.assetid: BE054858-F61A-488B-87A3-615A646C27F0
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_CIPHER_KEY_DIRECTION, WDI_CIPHER_KEY_DIRECTION enumeration [Device and Driver Installation], wditypes/WDI_CIPHER_KEY_DIRECTION_OUTBOUND, WDI_CIPHER_KEY_DIRECTION_BOTH, wditypes/WDI_CIPHER_KEY_DIRECTION_BOTH, netvista.wifi_cipher_key_direction, _WDI_CIPHER_KEY_DIRECTION, WDI_CIPHER_KEY_DIRECTION_OUTBOUND, netvista.wdi_cipher_key_direction, WDI_CIPHER_KEY_DIRECTION, WDI_CIPHER_KEY_DIRECTION_INBOUND, wditypes/WDI_CIPHER_KEY_DIRECTION_INBOUND
+ms.date: 2/16/2018
+ms.keywords: wditypes/WDI_CIPHER_KEY_DIRECTION_INBOUND, WDI_CIPHER_KEY_DIRECTION enumeration [Device and Driver Installation], wditypes/WDI_CIPHER_KEY_DIRECTION_OUTBOUND, netvista.wdi_cipher_key_direction, WDI_CIPHER_KEY_DIRECTION_INBOUND, WDI_CIPHER_KEY_DIRECTION_OUTBOUND, WDI_CIPHER_KEY_DIRECTION, wditypes/WDI_CIPHER_KEY_DIRECTION, _WDI_CIPHER_KEY_DIRECTION, WDI_CIPHER_KEY_DIRECTION_BOTH, netvista.wifi_cipher_key_direction, wditypes/WDI_CIPHER_KEY_DIRECTION_BOTH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

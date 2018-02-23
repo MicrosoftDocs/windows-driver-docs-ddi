@@ -4,11 +4,11 @@ title: IDebugDataSpaces::ReadVirtualUncached method
 author: windows-driver-content
 description: The ReadVirtualUncached method reads memory from the target's virtual address space.
 old-location: debugger\readvirtualuncached.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 91674220-3160-40d2-9d68-56d854244711
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces3::ReadVirtualUncached, IDebugDataSpaces::ReadVirtualUncached, dbgeng/IDebugDataSpaces2::ReadVirtualUncached, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces4::ReadVirtualUncached, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces interface [Windows Debugging], ReadVirtualUncached method, IDebugDataSpaces_265817a7-d690-4b8c-957f-06ec5d4f2f08.xml, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces, IDebugDataSpaces2::ReadVirtualUncached, ReadVirtualUncached, debugger.readvirtualuncached, IDebugDataSpaces3::ReadVirtualUncached, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, dbgeng/IDebugDataSpaces4::ReadVirtualUncached, dbgeng/IDebugDataSpaces::ReadVirtualUncached
+ms.date: 2/15/2018
+ms.keywords: ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces3 interface, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces4 interface, ReadVirtualUncached method [Windows Debugging], dbgeng/IDebugDataSpaces4::ReadVirtualUncached, IDebugDataSpaces_265817a7-d690-4b8c-957f-06ec5d4f2f08.xml, IDebugDataSpaces2::ReadVirtualUncached, dbgeng/IDebugDataSpaces::ReadVirtualUncached, IDebugDataSpaces3::ReadVirtualUncached, IDebugDataSpaces2 interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces4 interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces::ReadVirtualUncached, dbgeng/IDebugDataSpaces3::ReadVirtualUncached, debugger.readvirtualuncached, IDebugDataSpaces, dbgeng/IDebugDataSpaces2::ReadVirtualUncached, IDebugDataSpaces4::ReadVirtualUncached, IDebugDataSpaces3 interface [Windows Debugging], ReadVirtualUncached method, ReadVirtualUncached, IDebugDataSpaces interface [Windows Debugging], ReadVirtualUncached method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.ReadVirtualUncached
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces::ReadVirtualUncached method
@@ -142,11 +142,11 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561473">WriteVirtualUncached</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces3.md">IDebugDataSpaces3</a>
 
 
 
@@ -154,7 +154,7 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugdataspaces.md">IDebugDataSpaces</a>
+<a href="..\dbgeng\nn-dbgeng-idebugdataspaces4.md">IDebugDataSpaces4</a>
 
 
 
@@ -162,5 +162,5 @@ This method behaves identically to <a href="https://msdn.microsoft.com/library/w
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugDataSpaces::ReadVirtualUncached method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugDataSpaces::ReadVirtualUncached method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

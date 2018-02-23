@@ -7,8 +7,8 @@ old-location: ieee\irb_req_get_speed_topology_maps.htm
 old-project: IEEE
 ms.assetid: 3238BDA7-9C85-405B-B731-DD230B0975F9
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "_IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses], IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IEEE.irb_req_get_speed_topology_maps, 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS"
+ms.date: 2/15/2018
+ms.keywords: IRB_REQ_GET_SPEED_TOPOLOGY_MAPS structure [Buses], IEEE.irb_req_get_speed_topology_maps, _IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, 1394/IRB_REQ_GET_SPEED_TOPOLOGY_MAPS, IRB_REQ_GET_SPEED_TOPOLOGY_MAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

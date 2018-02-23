@@ -7,8 +7,8 @@ old-location: netvista\fwpsflowassociatecontext0.htm
 old-project: netvista
 ms.assetid: 0a339457-77df-480b-adb8-9406507ec8d8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: fwpsk/FwpsFlowAssociateContext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml, netvista.fwpsflowassociatecontext0, FwpsFlowAssociateContext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: fwpsk/FwpsFlowAssociateContext0, FwpsFlowAssociateContext0, wfp_ref_2_funct_3_fwps_D-H_a700b313-fb1e-4b66-a3be-837b1a2d89b3.xml, netvista.fwpsflowassociatecontext0, FwpsFlowAssociateContext0 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -203,7 +203,7 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
 
 
 
@@ -211,19 +211,7 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 
 
-<a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
-
-
-
-<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
 
@@ -231,13 +219,25 @@ and the <a href="http://go.microsoft.com/fwlink/p/?LinkId=618934">Windows Filter
 
 
 
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+
+
+
+<a href="https://msdn.microsoft.com/75f5838e-626d-4a59-810e-fec9a40640ed">Associating Context with a Data Flow</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpscalloutregister2.md">FwpsCalloutRegister2</a>
 
 
 
- 
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsFlowAssociateContext0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsFlowAssociateContext0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

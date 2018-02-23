@@ -7,7 +7,7 @@ old-location: storage\ioctl_aacs_send_certificate.htm
 old-project: storage
 ms.assetid: e56b2d31-cb59-489d-ab12-7657406ba67a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_aacs_send_certificate, IOCTL_AACS_SEND_CERTIFICATE control code [Storage Devices], IOCTL_AACS_SEND_CERTIFICATE, ntddcdvd/IOCTL_AACS_SEND_CERTIFICATE, k307_c275c772-8b16-4397-ba4d-3ff3ebc5eb40.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_AACS_SEND_CERTIFICATE
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_AACS_SEND_CERTIFICATE IOCTL

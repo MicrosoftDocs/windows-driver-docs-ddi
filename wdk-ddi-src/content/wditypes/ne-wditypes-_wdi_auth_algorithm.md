@@ -7,8 +7,8 @@ old-location: netvista\wdi_auth_algorithm.htm
 old-project: netvista
 ms.assetid: B908A174-F977-484E-A086-6C8C9A914D6C
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wditypes/WDI_AUTH_ALGORITHM, WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_RSNA_PSK, WDI_AUTH_ALGO_IHV_END, wditypes/WDI_AUTH_ALGO_RSNA_PSK, wditypes/WDI_AUTH_ALGO_80211_OPEN, netvista.wdi_auth_algorithm, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, wditypes/WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_WPA_NONE, _WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_WPA_PSK, WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGORITHM, netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], wditypes/WDI_AUTH_ALGO_RSNA, WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_WPA_PSK
+ms.date: 2/16/2018
+ms.keywords: wditypes/WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGORITHM enumeration [Device and Driver Installation], WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_RSNA, netvista.wifi_auth_algorithm, wditypes/WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_RSNA, wditypes/WDI_AUTH_ALGO_80211_OPEN, wditypes/WDI_AUTH_ALGO_IHV_END, netvista.wdi_auth_algorithm, WDI_AUTH_ALGORITHM, WDI_AUTH_ALGO_80211_SHARED_KEY, WDI_AUTH_ALGO_WPA, wditypes/WDI_AUTH_ALGORITHM, wditypes/WDI_AUTH_ALGO_WPA, WDI_AUTH_ALGO_IHV_END, WDI_AUTH_ALGO_IHV_START, WDI_AUTH_ALGO_WPA_NONE, WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGO_WPA_PSK, wditypes/WDI_AUTH_ALGO_WPA_NONE, wditypes/WDI_AUTH_ALGO_RSNA_PSK, _WDI_AUTH_ALGORITHM, WDI_AUTH_ALGO_RSNA_PSK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

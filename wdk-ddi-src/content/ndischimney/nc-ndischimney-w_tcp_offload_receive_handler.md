@@ -7,7 +7,7 @@ old-location: netvista\miniporttcpoffloadreceive.htm
 old-project: netvista
 ms.assetid: 9c9c033d-e892-4d8a-8f12-4ca34cdc9ea1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.miniporttcpoffloadreceive, MiniportTcpOffloadReceive callback function [Network Drivers Starting with Windows Vista], MiniportTcpOffloadReceive, W_TCP_OFFLOAD_RECEIVE_HANDLER, W_TCP_OFFLOAD_RECEIVE_HANDLER, ndischimney/MiniportTcpOffloadReceive, tcp_chim_miniport_func_01f5e6c6-4764-41f3-935a-a08754732ea3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -204,11 +204,6 @@ If data is received on an offloaded connection while the push timer is running, 
 
 ## -see-also
 
-<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
-   NdisTcpOffloadReceiveComplete</a>
-
-
-
 <a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
@@ -217,7 +212,8 @@ If data is received on an offloaded connection while the push timer is running, 
 
 
 
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+<a href="..\ndischimney\nc-ndischimney-ndis_tcp_offload_receive_complete.md">
+   NdisTcpOffloadReceiveComplete</a>
 
 
 
@@ -225,9 +221,13 @@ If data is received on an offloaded connection while the push timer is running, 
 
 
 
- 
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_TCP_OFFLOAD_RECEIVE_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20W_TCP_OFFLOAD_RECEIVE_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

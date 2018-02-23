@@ -7,7 +7,7 @@ old-location: audio\iunregistersubdevice.htm
 old-project: audio
 ms.assetid: 023b0a03-a572-459b-a1eb-b25fcde6ecc5
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.iunregistersubdevice, IUnregisterSubdevice interface [Audio Devices], IUnregisterSubdevice interface [Audio Devices], described, IUnregisterSubdevice, portcls/IUnregisterSubdevice, audmp-routines_1af8aada-2816-4e82-abe4-579ba672866b.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IUnregisterSubdevice
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IUnregisterSubdevice interface

@@ -7,8 +7,8 @@ old-location: netvista\dot11_incoming_assoc_decision_v2.htm
 old-project: netvista
 ms.assetid: E2455BD2-E540-4B81-84D8-E88D740407ED
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2, _DOT11_INCOMING_ASSOC_DECISION_V2, netvista.dot11_incoming_assoc_decision_v2, *PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: DOT11_INCOMING_ASSOC_DECISION_V2, _DOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2 structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_incoming_assoc_decision_v2, DOT11_INCOMING_ASSOC_DECISION_V2 structure [Network Drivers Starting with Windows Vista], *PDOT11_INCOMING_ASSOC_DECISION_V2, PDOT11_INCOMING_ASSOC_DECISION_V2, windot11/PDOT11_INCOMING_ASSOC_DECISION_V2, windot11/DOT11_INCOMING_ASSOC_DECISION_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_INCOMING_ASSOC_DECISION_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_INCOMING_ASSOC_DECISION_V2, DOT11_INCOMING_ASSOC_DECISION_V2"
+req.typenames: DOT11_INCOMING_ASSOC_DECISION_V2, *PDOT11_INCOMING_ASSOC_DECISION_V2
 req.product: Windows 10 or later.
 ---
 
@@ -139,5 +139,5 @@ The status code to include in the Peer-to-Peer (P2P) IE of the association respo
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_DECISION_V2 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_DECISION_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

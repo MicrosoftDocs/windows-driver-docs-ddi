@@ -7,7 +7,7 @@ old-location: wdf\iwdfiorequest2.htm
 old-project: wdf
 ms.assetid: 6a6285c9-8366-4487-a1c5-38aa24d172a9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfiorequest2, IWDFIoRequest2 interface, IWDFIoRequest2 interface, described, IWDFIoRequest2, wudfddi/IWDFIoRequest2, UMDFRequestObjectRef_0aa42362-60ac-4be7-8101-6395a709f420.xml, umdf.iwdfiorequest2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

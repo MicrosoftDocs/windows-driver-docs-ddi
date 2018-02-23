@@ -7,8 +7,8 @@ old-location: display\dd_multisamplequalitylevelsdata.htm
 old-project: display
 ms.assetid: ff8bc5d8-5d65-4752-9318-f775394ae2b9
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dhal/DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], _DD_MULTISAMPLEQUALITYLEVELSDATA, display.dd_multisamplequalitylevelsdata, DD_MULTISAMPLEQUALITYLEVELSDATA, d3dstrct_6a515881-91b7-4072-bf6c-4e10153c1124.xml
+ms.date: 2/20/2018
+ms.keywords: DD_MULTISAMPLEQUALITYLEVELSDATA, DD_MULTISAMPLEQUALITYLEVELSDATA structure [Display Devices], _DD_MULTISAMPLEQUALITYLEVELSDATA, d3dstrct_6a515881-91b7-4072-bf6c-4e10153c1124.xml, d3dhal/DD_MULTISAMPLEQUALITYLEVELSDATA, display.dd_multisamplequalitylevelsdata
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -115,6 +115,10 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a>
+
+
+
 <a href="https://msdn.microsoft.com/015b94d7-427f-401d-b348-d4e9ec5cfe5d">DdCanCreateSurface</a>
 
 
@@ -123,7 +127,7 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550292">DDSCAPS2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff551550">DD_GETDRIVERINFODATA</a>
 
 
 
@@ -143,5 +147,5 @@ For more information about D3DFORMAT and D3DMULTISAMPLE_TYPE, see the DirectX SD
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_MULTISAMPLEQUALITYLEVELSDATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_MULTISAMPLEQUALITYLEVELSDATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

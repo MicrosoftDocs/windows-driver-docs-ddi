@@ -7,8 +7,8 @@ old-location: print\iprinterextensionrequest_complete.htm
 old-project: print
 ms.assetid: 2182A3E0-6CFD-4B29-BE78-EE38CA630FA1
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrinterExtensionRequest::Complete, Complete, IPrinterExtensionRequest interface [Print Devices], Complete method, print.iprinterextensionrequest_complete, IPrinterExtensionRequest, Complete method [Print Devices], IPrinterExtensionRequest interface, Complete method [Print Devices], printerextension/IPrinterExtensionRequest::Complete
+ms.date: 2/21/2018
+ms.keywords: IPrinterExtensionRequest interface [Print Devices], Complete method, IPrinterExtensionRequest::Complete, Complete, Complete method [Print Devices], print.iprinterextensionrequest_complete, Complete method [Print Devices], IPrinterExtensionRequest interface, IPrinterExtensionRequest, printerextension/IPrinterExtensionRequest::Complete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -94,5 +94,5 @@ This method returns an <b>HRESULT</b> value.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionRequest::Complete method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionRequest::Complete method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

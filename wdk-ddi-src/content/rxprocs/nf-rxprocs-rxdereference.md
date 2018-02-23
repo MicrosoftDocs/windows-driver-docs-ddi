@@ -7,8 +7,8 @@ old-location: ifsk\rxdereference.htm
 old-project: ifsk
 ms.assetid: 4f63fc92-56e3-4414-a912-09ed0de59c92
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml, ifsk.rxdereference, RxDereference function [Installable File System Drivers], rxprocs/RxDereference, RxDereference
+ms.date: 2/16/2018
+ms.keywords: rxprocs/RxDereference, RxDereference function [Installable File System Drivers], ifsk.rxdereference, RxDereference, rxref_90cd9c96-1fcf-4214-b14f-5065c1e52260.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,23 +135,7 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
-
-
-
-<a href="https://msdn.microsoft.com/9a3bb194-0289-47f4-a5c8-848d8d82cdd7">The SRV_CALL Structure</a>
-
-
-
-<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
-
-
-
 <a href="https://msdn.microsoft.com/f7846343-9af6-4b7f-9c8d-190abb524946">The NET_ROOT Structure</a>
-
-
-
-<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
 
 
 
@@ -159,9 +143,25 @@ If the <b>NodeReferenceCount</b> member decrements to 1 and the <i>LockHoldingSt
 
 
 
- 
+<a href="https://msdn.microsoft.com/6cf4c6f6-a21f-4919-92b5-2403b650d8d0">The SRV_OPEN Structure</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/ifs/the-fobx-structure">The FOBX Structure</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
+
+<a href="..\rxprocs\nf-rxprocs-rxreference.md">RxReference</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxDereference function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxDereference function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

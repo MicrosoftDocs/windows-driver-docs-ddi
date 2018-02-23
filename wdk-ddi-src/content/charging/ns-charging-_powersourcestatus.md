@@ -7,8 +7,8 @@ old-location: battery\powersourcestatus.htm
 old-project: battery
 ms.assetid: 9386DBEC-A47D-44A5-8AF8-D5B406143070
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: POWERSOURCESTATUS, _POWERSOURCESTATUS, *PPOWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], battery.powersourcestatus, charging/BATTERY_INFORMATION
+ms.date: 2/15/2018
+ms.keywords: "_POWERSOURCESTATUS, charging/BATTERY_INFORMATION, POWERSOURCESTATUS, POWERSOURCESTATUS structure [Battery Devices], battery.powersourcestatus, *PPOWERSOURCESTATUS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWERSOURCESTATUS, POWERSOURCESTATUS"
+req.typenames: POWERSOURCESTATUS, *PPOWERSOURCESTATUS
 ---
 
 # _POWERSOURCESTATUS structure

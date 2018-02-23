@@ -7,8 +7,8 @@ old-location: storage\getpathconfiguration_out.htm
 old-project: storage
 ms.assetid: 055db46e-59fc-4eb9-93d7-16d680495220
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, _GetPathConfiguration_OUT, mpiowmi/PGetPathConfiguration_OUT, storage.getpathconfiguration_out, PGetPathConfiguration_OUT structure pointer [Storage Devices], PGetPathConfiguration_OUT, mpiowmi/GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
+ms.date: 2/16/2018
+ms.keywords: mpiowmi/GetPathConfiguration_OUT, structs-scsibus_4d2ebbae-67ff-42bc-8904-c33f914485cd.xml, PGetPathConfiguration_OUT, storage.getpathconfiguration_out, *PGetPathConfiguration_OUT, mpiowmi/PGetPathConfiguration_OUT, GetPathConfiguration_OUT, GetPathConfiguration_OUT structure [Storage Devices], PGetPathConfiguration_OUT structure pointer [Storage Devices], _GetPathConfiguration_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GetPathConfiguration_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PGetPathConfiguration_OUT, GetPathConfiguration_OUT"
+req.typenames: GetPathConfiguration_OUT, *PGetPathConfiguration_OUT
 ---
 
 # _GetPathConfiguration_OUT structure

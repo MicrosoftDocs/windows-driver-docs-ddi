@@ -7,8 +7,8 @@ old-location: bltooth\brb_type.htm
 old-project: bltooth
 ms.assetid: 590e13cf-6cbc-4a7f-a68e-ada4a5027ed2
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: BRB_HCI_GET_LOCAL_BD_ADDR, BRB_GET_DEVICE_INTERFACE_STRING, bthddi/BRB_L2CA_ACL_TRANSFER, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_L2CA_REGISTER_SERVER, bthddi/BRB_SCO_UNREGISTER_SERVER, BRB_ACL_ENTER_ACTIVE_MODE, bltooth.brb_type, BRB_L2CA_OPEN_CHANNEL, BRB_SCO_CLOSE_CHANNEL, bthddi/BRB_L2CA_UNREGISTER_SERVER, bthddi/BRB_L2CA_PING, BRB_SCO_OPEN_CHANNEL_RESPONSE, BRB_L2CA_INFO_REQUEST, bthddi/BRB_SCO_CLOSE_CHANNEL, BRB_SCO_GET_CHANNEL_INFO, bthddi/BRB_SCO_OPEN_CHANNEL_RESPONSE, bthddi/BRB_ACL_ENTER_ACTIVE_MODE, BRB_STORED_LINK_KEY, BRB_SCO_OPEN_CHANNEL, BRB_TYPE, BRB_SCO_GET_SYSTEM_INFO, bth_enums_6d3541ca-7ba6-4430-9d97-55d88bea987f.xml, BRB_REGISTER_PSM, BRB_L2CA_UNREGISTER_SERVER, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, bthddi/BRB_L2CA_OPEN_CHANNEL_RESPONSE, BRB_SCO_OPEN_UNMANAGED_CHANNEL, bthddi/BRB_SCO_GET_SYSTEM_INFO, bthddi/BRB_UNREGISTER_PSM, bthddi/BRB_SCO_GET_CHANNEL_INFO, bthddi/BRB_SCO_FLUSH_CHANNEL, bthddi/BRB_L2CA_INFO_REQUEST, BRB_L2CA_ACL_TRANSFER, BRB_UNREGISTER_PSM, bthddi/BRB_REGISTER_PSM, bthddi/BRB_STORED_LINK_KEY, bthddi/BRB_L2CA_REGISTER_SERVER, bthddi/BRB_SCO_TRANSFER, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL, BRB_L2CA_CLOSE_CHANNEL, BRB_SCO_UNREGISTER_SERVER, bthddi/BRB_L2CA_UPDATE_CHANNEL, bthddi/BRB_GET_DEVICE_INTERFACE_STRING, BRB_SCO_FLUSH_CHANNEL, BRB_TYPE enumeration [Bluetooth Devices], bthddi/BRB_TYPE, BRB_L2CA_PING, BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, BRB_L2CA_UPDATE_CHANNEL, BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, BRB_SCO_REGISTER_SERVER, bthddi/BRB_SCO_REGISTER_SERVER, _BRB_TYPE, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, BRB_L2CA_OPEN_ENHANCED_CHANNEL, bthddi/BRB_SCO_OPEN_CHANNEL, bthddi/BRB_HCI_GET_LOCAL_BD_ADDR, bthddi/BRB_L2CA_CLOSE_CHANNEL, bthddi/BRB_L2CA_OPEN_CHANNEL, BRB_L2CA_OPEN_CHANNEL_RESPONSE, BRB_SCO_TRANSFER
+ms.date: 2/15/2018
+ms.keywords: BRB_TYPE, BRB_ACL_ENTER_ACTIVE_MODE, bthddi/BRB_SCO_OPEN_CHANNEL_RESPONSE, BRB_SCO_GET_SYSTEM_INFO, bthddi/BRB_SCO_OPEN_CHANNEL, bthddi/BRB_SCO_TRANSFER, bthddi/BRB_GET_DEVICE_INTERFACE_STRING, bltooth.brb_type, bthddi/BRB_SCO_FLUSH_CHANNEL, BRB_L2CA_INFO_REQUEST, BRB_SCO_OPEN_UNMANAGED_CHANNEL, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_GET_DEVICE_INTERFACE_STRING, bthddi/BRB_HCI_GET_LOCAL_BD_ADDR, BRB_SCO_FLUSH_CHANNEL, BRB_L2CA_OPEN_CHANNEL, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL, bthddi/BRB_SCO_UNREGISTER_SERVER, BRB_SCO_OPEN_CHANNEL, bthddi/BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, bthddi/BRB_L2CA_UPDATE_CHANNEL, bthddi/BRB_STORED_LINK_KEY, bth_enums_6d3541ca-7ba6-4430-9d97-55d88bea987f.xml, BRB_L2CA_UNREGISTER_SERVER, BRB_SCO_REGISTER_SERVER, bthddi/BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, BRB_REGISTER_PSM, bthddi/BRB_REGISTER_PSM, bthddi/BRB_L2CA_OPEN_CHANNEL_RESPONSE, BRB_L2CA_OPEN_CHANNEL_RESPONSE, bthddi/BRB_L2CA_ACL_TRANSFER, BRB_SCO_OPEN_UNMANAGED_CHANNEL_RESPONSE, bthddi/BRB_ACL_ENTER_ACTIVE_MODE, BRB_UNREGISTER_PSM, BRB_L2CA_PING, BRB_L2CA_REGISTER_SERVER, bthddi/BRB_TYPE, bthddi/BRB_L2CA_INFO_REQUEST, bthddi/BRB_SCO_GET_CHANNEL_INFO, BRB_L2CA_OPEN_ENHANCED_CHANNEL, BRB_SCO_OPEN_CHANNEL_RESPONSE, bthddi/BRB_UNREGISTER_PSM, BRB_SCO_GET_CHANNEL_INFO, bthddi/BRB_SCO_CLOSE_CHANNEL, BRB_SCO_CLOSE_CHANNEL, BRB_STORED_LINK_KEY, BRB_L2CA_CLOSE_CHANNEL, bthddi/BRB_SCO_REGISTER_SERVER, BRB_SCO_TRANSFER, BRB_L2CA_UPDATE_CHANNEL, bthddi/BRB_L2CA_PING, bthddi/BRB_SCO_GET_SYSTEM_INFO, BRB_TYPE enumeration [Bluetooth Devices], bthddi/BRB_L2CA_REGISTER_SERVER, BRB_HCI_GET_LOCAL_BD_ADDR, _BRB_TYPE, BRB_L2CA_ACL_TRANSFER, BRB_L2CA_OPEN_ENHANCED_CHANNEL_RESPONSE, BRB_SCO_UNREGISTER_SERVER, bthddi/BRB_L2CA_CLOSE_CHANNEL, bthddi/BRB_L2CA_UNREGISTER_SERVER, bthddi/BRB_L2CA_OPEN_CHANNEL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -315,15 +315,7 @@ The type of BRB is specified in the
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
-
-
-
 <a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
-
-
-
-<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
@@ -331,7 +323,15 @@ The type of BRB is specified in the
 
 
 
-<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
+
+
+
+<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+
+
+
+<a href="..\bthioctl\ni-bthioctl-ioctl_internal_bth_submit_brb.md">IOCTL_INTERNAL_BTH_SUBMIT_BRB</a>
 
 
 
@@ -339,5 +339,5 @@ The type of BRB is specified in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_TYPE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BRB_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

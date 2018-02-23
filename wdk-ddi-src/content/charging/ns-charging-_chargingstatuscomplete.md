@@ -7,8 +7,8 @@ old-location: battery\chargingstatuscomplete.htm
 old-project: battery
 ms.assetid: 5B5BD82A-15A3-40AA-9FE8-191B31CB694A
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: battery.chargingstatuscomplete, CHARGINGSTATUSCOMPLETE structure [Battery Devices], *PCHARGINGSTATUSCOMPLETE, _CHARGINGSTATUSCOMPLETE, charging/BATTERY_INFORMATION, CHARGINGSTATUSCOMPLETE
+ms.date: 2/15/2018
+ms.keywords: CHARGINGSTATUSCOMPLETE structure [Battery Devices], *PCHARGINGSTATUSCOMPLETE, charging/BATTERY_INFORMATION, battery.chargingstatuscomplete, CHARGINGSTATUSCOMPLETE, _CHARGINGSTATUSCOMPLETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PCHARGINGSTATUSCOMPLETE, CHARGINGSTATUSCOMPLETE"
+req.typenames: CHARGINGSTATUSCOMPLETE, *PCHARGINGSTATUSCOMPLETE
 ---
 
 # _CHARGINGSTATUSCOMPLETE structure

@@ -7,8 +7,8 @@ old-location: netvista\rilmsgmwidetaillistparammask_2.htm
 old-project: netvista
 ms.assetid: 1b0777d4-8977-4dd2-a728-65f0e045efc8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_MWIDETAIL_REFNUM, RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_MWIDETAIL_ALL, rilapitypes/RILMSGMWIDETAILLISTPARAMMASK, rilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, RILMSGMWIDETAILLISTPARAMMASK, netvista.rilmsgmwidetaillistparammask_2, RIL_PARAM_MWIDETAIL_REFNUM, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, RIL_PARAM_MWIDETAIL_DETAILITEMS, RIL_PARAM_MWIDETAIL_ALL, rilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS
+ms.date: 2/16/2018
+ms.keywords: RILMSGMWIDETAILLISTPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILMSGMWIDETAILLISTPARAMMASK, RIL_PARAM_MWIDETAIL_DETAILITEMS, rilapitypes/RIL_PARAM_MWIDETAIL_ALL, RIL_PARAM_MWIDETAIL_REFNUM, RIL_PARAM_MWIDETAIL_NUMDETAILITEMS, rilapitypes/RILMSGMWIDETAILLISTPARAMMASK, netvista.rilmsgmwidetaillistparammask_2, rilapitypes/RIL_PARAM_MWIDETAIL_REFNUM, RIL_PARAM_MWIDETAIL_ALL, rilapitypes/RIL_PARAM_MWIDETAIL_DETAILITEMS, rilapitypes/RIL_PARAM_MWIDETAIL_NUMDETAILITEMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

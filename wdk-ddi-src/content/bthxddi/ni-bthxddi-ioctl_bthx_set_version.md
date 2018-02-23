@@ -7,7 +7,7 @@ old-location: bltooth\ioctl_bthx_set_version.htm
 old-project: bltooth
 ms.assetid: FE572606-8F47-4C40-BF74-24D5F667D2EC
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.ioctl_bthx_set_version, IOCTL_BTHX_SET_VERSION control code [Bluetooth Devices], IOCTL_BTHX_SET_VERSION, bthxddi/IOCTL_BTHX_SET_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices

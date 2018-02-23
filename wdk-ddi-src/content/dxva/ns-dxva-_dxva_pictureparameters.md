@@ -7,8 +7,8 @@ old-location: display\dxva_pictureparameters.htm
 old-project: display
 ms.assetid: e54c1d6a-b0bb-4754-9399-5f3b1b9b2534
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: LPDXVA_PictureParameters structure pointer [Display Devices], dxva/LPDXVA_PictureParameters, dxva/DXVA_PictureParameters, *LPDXVA_PictureParameters, dxvaref_10ab1c20-a070-42ad-95da-0d8a20d19228.xml, LPDXVA_PictureParameters, _DXVA_PictureParameters, display.dxva_pictureparameters, DXVA_PictureParameters, DXVA_PictureParameters structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: dxvaref_10ab1c20-a070-42ad-95da-0d8a20d19228.xml, dxva/LPDXVA_PictureParameters, LPDXVA_PictureParameters structure pointer [Display Devices], _DXVA_PictureParameters, dxva/DXVA_PictureParameters, display.dxva_pictureparameters, DXVA_PictureParameters structure [Display Devices], *LPDXVA_PictureParameters, DXVA_PictureParameters, LPDXVA_PictureParameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXVA_PictureParameters
 product: Windows
 targetos: Windows
-req.typenames: "*LPDXVA_PictureParameters, DXVA_PictureParameters"
+req.typenames: DXVA_PictureParameters, *LPDXVA_PictureParameters
 ---
 
 # _DXVA_PictureParameters structure
@@ -691,7 +691,7 @@ Certain members of this structure are constrained to specific values by the conf
 
 ## -see-also
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_offhostidct_1.md">DXVA_MBctrl_I_OffHostIDCT_1</a>
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
 
 
 
@@ -699,7 +699,7 @@ Certain members of this structure are constrained to specific values by the conf
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_hostresiddiff_1.md">DXVA_MBctrl_P_HostResidDiff_1</a>
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
 
 
 
@@ -707,7 +707,7 @@ Certain members of this structure are constrained to specific values by the conf
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_mbctrl_i_hostresiddiff_1.md">DXVA_MBctrl_I_HostResidDiff_1</a>
+<a href="..\dxva\ns-dxva-_dxva_mbctrl_p_offhostidct_1.md">DXVA_MBctrl_P_OffHostIDCT_1</a>
 
 
 
@@ -715,5 +715,5 @@ Certain members of this structure are constrained to specific values by the conf
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_PictureParameters structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVA_PictureParameters structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

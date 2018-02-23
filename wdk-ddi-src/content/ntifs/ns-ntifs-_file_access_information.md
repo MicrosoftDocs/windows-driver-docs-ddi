@@ -7,8 +7,8 @@ old-location: kernel\file_access_information.htm
 old-project: kernel
 ms.assetid: f5a09843-caf7-4550-bbc6-c0d799d66cd6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntifs/FILE_ACCESS_INFORMATION, PFILE_ACCESS_INFORMATION, kernel.file_access_information, ntifs/PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION structure [Kernel-Mode Driver Architecture], PFILE_ACCESS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION, kstruct_b_3419b751-aa57-41e2-a51d-35bb5a6f38c8.xml, _FILE_ACCESS_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: "*PFILE_ACCESS_INFORMATION, PFILE_ACCESS_INFORMATION structure pointer [Kernel-Mode Driver Architecture], ntifs/PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_access_information, ntifs/FILE_ACCESS_INFORMATION, kstruct_b_3419b751-aa57-41e2-a51d-35bb5a6f38c8.xml, PFILE_ACCESS_INFORMATION, _FILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_ACCESS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_ACCESS_INFORMATION, *PFILE_ACCESS_INFORMATION
+req.typenames: "*PFILE_ACCESS_INFORMATION, FILE_ACCESS_INFORMATION"
 ---
 
 # _FILE_ACCESS_INFORMATION structure
@@ -97,5 +97,5 @@ The <i>AccessFlags</i> parameter is an access mask that encodes the user rights 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_ACCESS_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_ACCESS_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

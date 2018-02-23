@@ -4,11 +4,11 @@ title: IDebugClient4::SetEventCallbacks method
 author: windows-driver-content
 description: The SetEventCallbacks method registers an event callbacks object with this client.
 old-location: debugger\seteventcallbacks.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: c741777b-dfaf-42b0-9dd7-6678281b6359
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetEventCallbacks method [Windows Debugging], SetEventCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient3, IDebugClient, IDebugClient interface [Windows Debugging], SetEventCallbacks method, IDebugClient5::SetEventCallbacks, IDebugClient::SetEventCallbacks, IDebugClient5 interface [Windows Debugging], SetEventCallbacks method, debugger.seteventcallbacks, IDebugClient2 interface [Windows Debugging], SetEventCallbacks method, IDebugClient2, IDebugClient3::SetEventCallbacks, dbgeng/IDebugClient3::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient_a234bf28-5dd1-4e92-ab72-aa8d9a3a282b.xml, dbgeng/IDebugClient2::SetEventCallbacks, dbgeng/IDebugClient5::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient::SetEventCallbacks, IDebugClient2::SetEventCallbacks, IDebugClient4::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient4, IDebugClient3 interface [Windows Debugging], SetEventCallbacks method, SetEventCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient4 interface [Windows Debugging], SetEventCallbacks method, dbgeng/IDebugClient4::SetEventCallbacks, SetEventCallbacks
+ms.date: 2/15/2018
+ms.keywords: IDebugClient4, SetEventCallbacks method [Windows Debugging], IDebugClient interface, IDebugClient3 interface [Windows Debugging], SetEventCallbacks method, IDebugClient3::SetEventCallbacks, IDebugClient4 interface [Windows Debugging], SetEventCallbacks method, dbgeng/IDebugClient3::SetEventCallbacks, dbgeng/IDebugClient2::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient::SetEventCallbacks, IDebugClient_a234bf28-5dd1-4e92-ab72-aa8d9a3a282b.xml, IDebugClient4::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient4 interface, dbgeng/IDebugClient5::SetEventCallbacks, SetEventCallbacks, dbgeng/IDebugClient4::SetEventCallbacks, SetEventCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient2 interface [Windows Debugging], SetEventCallbacks method, SetEventCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient5::SetEventCallbacks, IDebugClient, IDebugClient interface [Windows Debugging], SetEventCallbacks method, SetEventCallbacks method [Windows Debugging], IDebugClient5 interface [Windows Debugging], SetEventCallbacks method, dbgeng/IDebugClient::SetEventCallbacks, IDebugClient2, IDebugClient3, IDebugClient2::SetEventCallbacks, debugger.seteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.SetEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient4::SetEventCallbacks method
@@ -121,14 +121,6 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugeventcallbacks.md">IDebugEventCallbacks</a>
 
 
@@ -137,7 +129,19 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546601">GetEventCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -153,5 +157,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::SetEventCallbacks method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::SetEventCallbacks method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

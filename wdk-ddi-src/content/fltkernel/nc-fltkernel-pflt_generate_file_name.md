@@ -7,7 +7,7 @@ old-location: ifsk\pflt_generate_file_name.htm
 old-project: ifsk
 ms.assetid: 04e7e4db-2cf6-4312-8964-2c69c96953a3
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
+ms.date: 2/16/2018
 ms.keywords: ifsk.pflt_generate_file_name, GenerateFileNameCallback routine [Installable File System Drivers], GenerateFileNameCallback, PFLT_GENERATE_FILE_NAME, PFLT_GENERATE_FILE_NAME, fltkernel/GenerateFileNameCallback, FltCallbacks_0075602c-1093-445c-a949-ea282cf736e7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -158,15 +158,7 @@ After it generates the file name information, the minifilter driver must call <a
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component.md">PFLT_NORMALIZE_NAME_COMPONENT</a>
+<a href="..\fltkernel\nf-fltkernel-fltpurgefilenameinformationcache.md">FltPurgeFileNameInformationCache</a>
 
 
 
@@ -174,19 +166,11 @@ After it generates the file name information, the minifilter driver must call <a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
+<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543030">FltGetFileNameFormat</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcheckandgrownamecontrol.md">FltCheckAndGrowNameControl</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetdestinationfilenameinformation.md">FltGetDestinationFileNameInformation</a>
 
 
 
@@ -194,11 +178,7 @@ After it generates the file name information, the minifilter driver must call <a
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_normalize_context_cleanup.md">PFLT_NORMALIZE_CONTEXT_CLEANUP</a>
+<a href="..\fltkernel\nf-fltkernel-fltcheckandgrownamecontrol.md">FltCheckAndGrowNameControl</a>
 
 
 
@@ -206,11 +186,31 @@ After it generates the file name information, the minifilter driver must call <a
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltpurgefilenameinformationcache.md">FltPurgeFileNameInformationCache</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543030">FltGetFileNameFormat</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_normalize_name_component.md">PFLT_NORMALIZE_NAME_COMPONENT</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_name_control.md">FLT_NAME_CONTROL</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
 
 
@@ -226,7 +226,7 @@ After it generates the file name information, the minifilter driver must call <a
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -234,5 +234,5 @@ After it generates the file name information, the minifilter driver must call <a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PFLT_GENERATE_FILE_NAME routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PFLT_GENERATE_FILE_NAME routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

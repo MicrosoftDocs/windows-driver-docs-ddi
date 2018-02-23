@@ -7,8 +7,8 @@ old-location: netvista\wwan_provider.htm
 old-project: netvista
 ms.assetid: 2bca3123-3ac4-44fe-8d47-051314ef3cb7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], PWWAN_PROVIDER, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PROVIDER, *PWWAN_PROVIDER, WWAN_PROVIDER, netvista.wwan_provider, wwan/PWWAN_PROVIDER, wwan/WWAN_PROVIDER
+ms.date: 2/16/2018
+ms.keywords: wwan/WWAN_PROVIDER, *PWWAN_PROVIDER, WWAN_PROVIDER structure [Network Drivers Starting with Windows Vista], WWAN_PROVIDER, wwan/PWWAN_PROVIDER, PWWAN_PROVIDER, WwanRef_a76aa69a-8c66-40a4-bda0-5ce66cc57790.xml, netvista.wwan_provider, PWWAN_PROVIDER structure pointer [Network Drivers Starting with Windows Vista], _WWAN_PROVIDER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PROVIDER
 product: Windows
 targetos: Windows
-req.typenames: WWAN_PROVIDER, *PWWAN_PROVIDER
+req.typenames: "*PWWAN_PROVIDER, WWAN_PROVIDER"
 req.product: Windows 10 or later.
 ---
 
@@ -250,7 +250,7 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 ## -see-also
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
@@ -262,7 +262,7 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_visible_providers.md">NDIS_WWAN_VISIBLE_PROVIDERS</a>
+<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_home_provider.md">NDIS_WWAN_HOME_PROVIDER</a>
 
 
 
@@ -270,5 +270,5 @@ This member can be ignored when queried for OID_WWAN_HOME_PROVIDER.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PROVIDER structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PROVIDER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

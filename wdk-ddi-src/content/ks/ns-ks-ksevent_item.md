@@ -7,8 +7,8 @@ old-location: stream\ksevent_item.htm
 old-project: stream
 ms.assetid: a501a693-bea1-43eb-af8c-5512c8ee9d50
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], ks/PKSEVENT_ITEM, PKSEVENT_ITEM, stream.ksevent_item, ks/KSEVENT_ITEM, *PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices], ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml
+ms.date: 2/20/2018
+ms.keywords: "*PKSEVENT_ITEM, KSEVENT_ITEM, KSEVENT_ITEM structure [Streaming Media Devices], ks-struct_1e126443-3eef-4e67-9969-69c3a4aaa17c.xml, ks/PKSEVENT_ITEM, ks/KSEVENT_ITEM, stream.ksevent_item, PKSEVENT_ITEM, PKSEVENT_ITEM structure pointer [Streaming Media Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSEVENT_ITEM
 product: Windows
 targetos: Windows
-req.typenames: KSEVENT_ITEM, *PKSEVENT_ITEM
+req.typenames: "*PKSEVENT_ITEM, KSEVENT_ITEM"
 ---
 
 # KSEVENT_ITEM structure
@@ -113,7 +113,7 @@ Not used by the stream class driver.
 
 ## -see-also
 
-<a href="..\ks\nf-ks-ksdefaultaddeventhandler.md">KsDefaultAddEventHandler</a>
+<a href="..\ks\ns-ks-_ksevent_entry.md">KSEVENT_ENTRY</a>
 
 
 
@@ -133,5 +133,5 @@ Not used by the stream class driver.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSEVENT_ITEM structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSEVENT_ITEM structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

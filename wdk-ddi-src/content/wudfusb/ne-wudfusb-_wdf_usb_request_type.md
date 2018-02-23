@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_request_type_umdf.htm
 old-project: wdf
 ms.assetid: fb952527-a8df-41e7-8194-b4a82b7f550f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfusb/WdfUsbRequestTypePipeRead, wudfusb/WdfUsbRequestTypeInvalid, PWDF_USB_REQUEST_TYPE enumeration pointer, _WDF_USB_REQUEST_TYPE, wdf.wdf_usb_request_type_umdf, WdfUsbRequestTypePipeWrite, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypePipeWrite, *PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypeInvalid, umdf.wdf_usb_request_type, WdfUsbRequestTypeDeviceControlTransfer, wudfusb/WdfUsbRequestTypeNoFormat, WdfUsbRequestTypeNoFormat, wudfusb/PWDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, wudfusb/WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE enumeration, WdfUsbRequestTypePipeRead, PWDF_USB_REQUEST_TYPE
+ms.date: 2/20/2018
+ms.keywords: WdfUsbRequestTypePipeWrite, wudfusb/PWDF_USB_REQUEST_TYPE, WdfUsbRequestTypePipeRead, wudfusb/WDF_USB_REQUEST_TYPE, WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeDeviceControlTransfer, *PWDF_USB_REQUEST_TYPE, wudfusb/WdfUsbRequestTypeNoFormat, wdf.wdf_usb_request_type_umdf, PWDF_USB_REQUEST_TYPE enumeration pointer, WdfUsbRequestTypeInvalid, WDF_USB_REQUEST_TYPE enumeration, wudfusb/WdfUsbRequestTypePipeRead, _WDF_USB_REQUEST_TYPE, WdfUsbRequestTypeNoFormat, wudfusb/WdfUsbRequestTypeInvalid, wudfusb/WdfUsbRequestTypePipeWrite, umdfstructs_e6072726-4218-4018-91bd-7122031416ca.xml, umdf.wdf_usb_request_type, wudfusb/WdfUsbRequestTypeDeviceControlTransfer, PWDF_USB_REQUEST_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
-      The <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a> enumeration contains values that identify a type of USB request object.
+The <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a> enumeration contains values that identify a type of USB request object.
 
 
 ## -syntax

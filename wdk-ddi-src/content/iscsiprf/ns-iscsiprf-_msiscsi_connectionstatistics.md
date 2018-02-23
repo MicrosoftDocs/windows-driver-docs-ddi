@@ -7,8 +7,8 @@ old-location: storage\msiscsi_connectionstatistics.htm
 old-project: storage
 ms.assetid: f1f38292-604f-4618-b6ec-f3822d60a96c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml, MSiSCSI_ConnectionStatistics, *PMSiSCSI_ConnectionStatistics, storage.msiscsi_connectionstatistics, iscsiprf/MSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics, _MSiSCSI_ConnectionStatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], MSiSCSI_ConnectionStatistics structure [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: PMSiSCSI_ConnectionStatistics structure pointer [Storage Devices], *PMSiSCSI_ConnectionStatistics, structs-iSCSI_6a149338-4636-45cd-9c15-2444e2ebcd1a.xml, PMSiSCSI_ConnectionStatistics, iscsiprf/PMSiSCSI_ConnectionStatistics, storage.msiscsi_connectionstatistics, MSiSCSI_ConnectionStatistics, MSiSCSI_ConnectionStatistics structure [Storage Devices], _MSiSCSI_ConnectionStatistics, iscsiprf/MSiSCSI_ConnectionStatistics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,10 +143,6 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
-
-
-
 <a href="..\iscsimgt\ns-iscsimgt-_msiscsi_hbainformation.md">MSiSCSI_HBAInformation</a>
 
 
@@ -155,9 +151,13 @@ The totals tracked by this structure are valid for the lifetime of the connectio
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550121">AddConnectionToSession</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_ConnectionStatistics structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSiSCSI_ConnectionStatistics structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: kernel\allocateadapterchannelex.htm
 old-project: kernel
 ms.assetid: BF255782-0C3E-4F36-BD38-79CE88E7F37D
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.allocateadapterchannelex, AllocateAdapterChannelEx, AllocateAdapterChannelEx callback function [Kernel-Mode Driver Architecture], AllocateAdapterChannelEx, PALLOCATE_ADAPTER_CHANNEL_EX, PALLOCATE_ADAPTER_CHANNEL_EX, wdm/AllocateAdapterChannelEx, DMA_SYNCHRONOUS_CALLBACK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -220,23 +220,15 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
-
-
-
 <a href="..\wdm\nc-wdm-driver_control.md">AdapterControl</a>
 
 
 
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
-
-
-
-<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
-
-
-
 <a href="..\wdm\nc-wdm-pget_dma_transfer_info.md">GetDmaTransferInfo</a>
+
+
+
+<a href="..\wdm\nc-wdm-pfree_adapter_object.md">FreeAdapterObject</a>
 
 
 
@@ -248,11 +240,8 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
-<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
 
 
-
-<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
 
 
 
@@ -260,11 +249,14 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
-<a href="..\wdm\nc-wdm-pfree_adapter_object.md">FreeAdapterObject</a>
 
 
 
-<a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+<a href="..\wdm\nc-wdm-pfree_map_registers.md">FreeMapRegisters</a>
+
+
+
+<a href="..\wdm\nc-wdm-pinitialize_dma_transfer_context.md">InitializeDmaTransferContext</a>
 
 
 
@@ -276,9 +268,21 @@ If the driver does not supply an <a href="..\wdm\nc-wdm-driver_control.md">Adapt
 
 
 
- 
+<a href="..\wdm\nc-wdm-pcancel_adapter_channel.md">CancelAdapterChannel</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers_ex.md">FlushAdapterBuffersEx</a>
+
+
+
+<a href="..\wdm\nc-wdm-pflush_adapter_buffers.md">FlushAdapterBuffers</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PALLOCATE_ADAPTER_CHANNEL_EX callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PALLOCATE_ADAPTER_CHANNEL_EX callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

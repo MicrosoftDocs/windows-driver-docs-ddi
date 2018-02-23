@@ -7,8 +7,8 @@ old-location: netvista\wwan_registration_state.htm
 old-project: netvista
 ms.assetid: 72a41403-9e22-4212-955a-16e243f7af1d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, wwan/WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, PWWAN_REGISTRATION_STATE, _WWAN_REGISTRATION_STATE, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_REGISTRATION_STATE, *PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE
+ms.date: 2/16/2018
+ms.keywords: WwanRef_ff7f3a8a-853b-43e3-95fb-ed4320806ad2.xml, PWWAN_REGISTRATION_STATE structure pointer [Network Drivers Starting with Windows Vista], PWWAN_REGISTRATION_STATE, wwan/PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE, wwan/WWAN_REGISTRATION_STATE, netvista.wwan_registration_state, *PWWAN_REGISTRATION_STATE, WWAN_REGISTRATION_STATE structure [Network Drivers Starting with Windows Vista], _WWAN_REGISTRATION_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -289,5 +289,5 @@ Miniport drivers connected to a multi-mode network should indicate the cellular 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTRATION_STATE structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_REGISTRATION_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

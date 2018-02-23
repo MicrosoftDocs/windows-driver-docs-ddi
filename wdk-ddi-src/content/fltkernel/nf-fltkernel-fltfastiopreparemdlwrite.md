@@ -7,8 +7,8 @@ old-location: ifsk\fltfastiopreparemdlwrite.htm
 old-project: ifsk
 ms.assetid: 7C48D179-35FA-44E1-B959-BD857AAA28E1
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlPrepareMdlWriteDev, FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], fltkernel/FsRtlPrepareMdlWriteDev, FltFastIoPrepareMdlWrite, ifsk.fltfastiopreparemdlwrite
+ms.date: 2/16/2018
+ms.keywords: FsRtlPrepareMdlWriteDev routine [Installable File System Drivers], FsRtlPrepareMdlWriteDev, fltkernel/FsRtlPrepareMdlWriteDev, FltFastIoPrepareMdlWrite, ifsk.fltfastiopreparemdlwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,7 +105,7 @@ On output, a pointer to a linked list of memory descriptor lists (MDLs) that poi
 
 ### -param IoStatus [out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that, on output, contains the status of the transfer. If the operation succeeds, <i>IoStatus.Status</i> is set to STATUS_SUCCESS. Otherwise, it is set to an appropriate NTSTATUS error code. <i>IoStatus.Information</i> is set to the actual number of bytes that the routine successfully locked.
 
 
 ## -returns
@@ -148,5 +148,5 @@ Even if the call to <b>FltFastIoPrepareMdlWrite</b> fails, one or more MDLs migh
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltFastIoPrepareMdlWrite routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltFastIoPrepareMdlWrite routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

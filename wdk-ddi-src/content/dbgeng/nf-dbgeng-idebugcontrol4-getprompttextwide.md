@@ -4,11 +4,11 @@ title: IDebugControl4::GetPromptTextWide method
 author: windows-driver-content
 description: The GetPromptTextWide method returns the standard prompt text that will be prepended to the formatted output specified in the OutputPrompt and OutputPromptVaList methods.
 old-location: debugger\getprompttextwide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 10d5da82-8fbe-45fa-8051-42f6a1e3adce
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetPromptTextWide, GetPromptTextWide method [Windows Debugging], dbgeng/IDebugControl4::GetPromptTextWide, GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4::GetPromptTextWide, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, IDebugControl4, debugger.getprompttextwide
+ms.date: 2/15/2018
+ms.keywords: GetPromptTextWide method [Windows Debugging], IDebugControl4 interface, IDebugControl4, IDebugControl4 interface [Windows Debugging], GetPromptTextWide method, GetPromptTextWide method [Windows Debugging], dbgeng/IDebugControl4::GetPromptTextWide, debugger.getprompttextwide, GetPromptTextWide, IDebugControl4::GetPromptTextWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetPromptTextWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetPromptTextWide method
@@ -134,10 +134,6 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol4.md">IDebugControl4</a>
 
 
@@ -146,9 +142,13 @@ For more information about prompting the user, see <a href="https://msdn.microso
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553231">OutputPromptVaList</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetPromptTextWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl4::GetPromptTextWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

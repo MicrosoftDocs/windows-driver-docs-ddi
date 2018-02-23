@@ -7,7 +7,7 @@ old-location: display\ioctl_video_disable_pointer.htm
 old-project: display
 ms.assetid: 0ec5597b-53a4-4711-84f0-d307ad96ef9d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.ioctl_video_disable_pointer, IOCTL_VIDEO_DISABLE_POINTER control code [Display Devices], IOCTL_VIDEO_DISABLE_POINTER, ntddvdeo/IOCTL_VIDEO_DISABLE_POINTER, Video_IOCTLs_b988a11c-2f01-48bb-b07e-2da28f729369.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

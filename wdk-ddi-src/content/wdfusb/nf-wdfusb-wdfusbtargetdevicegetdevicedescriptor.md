@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetdevicegetdevicedescriptor.htm
 old-project: wdf
 ms.assetid: b2c70976-00ce-4563-af60-0bbdd1a65540
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEGETDEVICEDESCRIPTOR, kmdf.wdfusbtargetdevicegetdevicedescriptor, wdf.wdfusbtargetdevicegetdevicedescriptor, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method
+ms.date: 2/20/2018
+ms.keywords: WdfUsbTargetDeviceGetDeviceDescriptor, kmdf.wdfusbtargetdevicegetdevicedescriptor, DFUsbRef_a59d2f05-4ecf-400f-823e-b2d2533020a2.xml, wdfusb/WdfUsbTargetDeviceGetDeviceDescriptor, WdfUsbTargetDeviceGetDeviceDescriptor method, wdf.wdfusbtargetdevicegetdevicedescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -128,17 +128,17 @@ WdfUsbTargetDeviceGetDeviceDescriptor(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
-
-
-
 <a href="..\usbspec\ns-usbspec-_usb_device_descriptor.md">USB_DEVICE_DESCRIPTOR</a>
 
 
 
- 
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdevicecreatewithparameters.md">WdfUsbTargetDeviceCreateWithParameters</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceGetDeviceDescriptor method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceGetDeviceDescriptor method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

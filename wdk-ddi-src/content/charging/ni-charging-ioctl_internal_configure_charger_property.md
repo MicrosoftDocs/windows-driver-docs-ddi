@@ -7,7 +7,7 @@ old-location: battery\ioctl_internal_configure_charger_property.htm
 old-project: battery
 ms.assetid: B4D10667-29D6-45BF-87CA-D2F59DF78797
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: battery.ioctl_internal_configure_charger_property, IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code [Battery Devices], IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY, charging/IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: POWERSOURCEID, *PPOWERSOURCEID
+req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
 ---
 
 # IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY IOCTL
@@ -116,5 +116,5 @@ None.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [battery\battery]:%20IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [battery\battery]:%20IOCTL_INTERNAL_CONFIGURE_CHARGER_PROPERTY control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

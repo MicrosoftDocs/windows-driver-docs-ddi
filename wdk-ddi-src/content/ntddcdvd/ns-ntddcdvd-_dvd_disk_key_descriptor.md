@@ -7,8 +7,8 @@ old-location: storage\dvd_disk_key_descriptor.htm
 old-project: storage
 ms.assetid: 48b0e44d-51bb-48b1-bcbc-6a51fde3c8db
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-DVD_b5c88389-0128-4069-b460-d9fa81a2150e.xml, DVD_DISK_KEY_DESCRIPTOR structure [Storage Devices], *PDVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR, PDVD_DISK_KEY_DESCRIPTOR, PDVD_DISK_KEY_DESCRIPTOR structure pointer [Storage Devices], ntddcdvd/PDVD_DISK_KEY_DESCRIPTOR, storage.dvd_disk_key_descriptor, ntddcdvd/DVD_DISK_KEY_DESCRIPTOR, _DVD_DISK_KEY_DESCRIPTOR
+ms.date: 2/16/2018
+ms.keywords: structs-DVD_b5c88389-0128-4069-b460-d9fa81a2150e.xml, PDVD_DISK_KEY_DESCRIPTOR structure pointer [Storage Devices], ntddcdvd/DVD_DISK_KEY_DESCRIPTOR, *PDVD_DISK_KEY_DESCRIPTOR, storage.dvd_disk_key_descriptor, _DVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR structure [Storage Devices], ntddcdvd/PDVD_DISK_KEY_DESCRIPTOR, DVD_DISK_KEY_DESCRIPTOR, PDVD_DISK_KEY_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,5 +82,5 @@ Pointer to a buffer containing the disc key data obfuscated by the bus key.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_DISK_KEY_DESCRIPTOR structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DVD_DISK_KEY_DESCRIPTOR structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

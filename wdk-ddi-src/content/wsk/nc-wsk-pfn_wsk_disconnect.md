@@ -7,7 +7,7 @@ old-location: netvista\wskdisconnect.htm
 old-project: netvista
 ms.assetid: 499ff5d0-2030-472c-8de2-44dcd253d7b9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.wskdisconnect, WskDisconnect callback function [Network Drivers Starting with Windows Vista], WskDisconnect, PFN_WSK_DISCONNECT, PFN_WSK_DISCONNECT, wsk/WskDisconnect, wskref_0c0dd54e-03d9-4bb6-9040-68f352cfb6ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	WskDisconnect
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -235,10 +235,6 @@ A WSK application can completely close the connection by calling the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_buf.md">WSK_BUF</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
@@ -247,7 +243,7 @@ A WSK application can completely close the connection by calling the
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_stream_dispatch.md">WSK_PROVIDER_STREAM_DISPATCH</a>
+<a href="..\wsk\ns-wsk-_wsk_socket.md">WSK_SOCKET</a>
 
 
 
@@ -259,7 +255,11 @@ A WSK application can completely close the connection by calling the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_connect.md">WskConnect</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect_event.md">WskDisconnectEvent</a>
 
 
 
@@ -267,5 +267,5 @@ A WSK application can completely close the connection by calling the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_DISCONNECT callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20PFN_WSK_DISCONNECT callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

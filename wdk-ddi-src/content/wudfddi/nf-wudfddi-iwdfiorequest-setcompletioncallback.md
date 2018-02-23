@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest_setcompletioncallback.htm
 old-project: wdf
 ms.assetid: 316b8b75-91ca-4866-b66d-3f66f20126df
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFIoRequest::SetCompletionCallback, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, SetCompletionCallback method, IWDFIoRequest interface, IWDFIoRequest interface, SetCompletionCallback method, SetCompletionCallback, SetCompletionCallback method, IWDFIoRequest, wdf.iwdfiorequest_setcompletioncallback, umdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest::SetCompletionCallback
+ms.date: 2/20/2018
+ms.keywords: SetCompletionCallback, SetCompletionCallback method, IWDFIoRequest interface, IWDFIoRequest, IWDFIoRequest::SetCompletionCallback, wudfddi/IWDFIoRequest::SetCompletionCallback, SetCompletionCallback method, UMDFRequestObjectRef_81bdbb22-6221-472d-b2de-a1cc0b9b0c11.xml, umdf.iwdfiorequest_setcompletioncallback, wdf.iwdfiorequest_setcompletioncallback, IWDFIoRequest interface, SetCompletionCallback method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest.SetCompletionCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -107,10 +107,6 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556905">IRequestCallbackRequestCompletion::OnCompletion</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackrequestcompletion.md">IRequestCallbackRequestCompletion</a>
 
 
@@ -123,9 +119,13 @@ For a code example of how to use the <b>SetCompletionCallback</b> method, see <a
 
 
 
- 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest.md">IWDFIoRequest</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::SetCompletionCallback method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest::SetCompletionCallback method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

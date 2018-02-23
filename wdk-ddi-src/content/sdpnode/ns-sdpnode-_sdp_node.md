@@ -7,8 +7,8 @@ old-location: bltooth\sdp_node.htm
 old-project: bltooth
 ms.assetid: 11d603e9-6db1-44a2-b4e3-d85ffe0d5c25
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: SDP_NODE, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, _SDP_NODE, *PSDP_NODE, bltooth.sdp_node, sdpnode/SDP_NODE, SDP_NODE structure [Bluetooth Devices], sdpnode/PSDP_NODE, PSDP_NODE structure pointer [Bluetooth Devices], PSDP_NODE
+ms.date: 2/15/2018
+ms.keywords: SDP_NODE, SDP_NODE structure [Bluetooth Devices], PSDP_NODE, *PSDP_NODE, PSDP_NODE structure pointer [Bluetooth Devices], sdpnode/PSDP_NODE, sdpnode/SDP_NODE, bth_structs_30367149-bffb-4ff9-a6d8-2f73c5198874.xml, _SDP_NODE, bltooth.sdp_node
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SDP_NODE
 product: Windows
 targetos: Windows
-req.typenames: "*PSDP_NODE, SDP_NODE"
+req.typenames: SDP_NODE, *PSDP_NODE
 req.product: Windows 10 or later.
 ---
 
@@ -135,5 +135,5 @@ The header specifies the type of data. Driver developers can access links to pee
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SDP_NODE structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SDP_NODE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

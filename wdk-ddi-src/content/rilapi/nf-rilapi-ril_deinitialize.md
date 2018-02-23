@@ -7,8 +7,8 @@ old-location: netvista\ril_deinitialize.htm
 old-project: netvista
 ms.assetid: 1902df2a-6325-46d5-871a-5af6f3ce7f18
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_Deinitialize method [Network Drivers Starting with Windows Vista], rilapi/RIL_Deinitialize, RIL_Deinitialize, netvista.ril_deinitialize
+ms.date: 2/16/2018
+ms.keywords: RIL_Deinitialize, rilapi/RIL_Deinitialize, RIL_Deinitialize method [Network Drivers Starting with Windows Vista], netvista.ril_deinitialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_Deinitialize
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

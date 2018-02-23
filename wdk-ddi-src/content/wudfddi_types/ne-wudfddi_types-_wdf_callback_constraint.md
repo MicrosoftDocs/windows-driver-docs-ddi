@@ -7,8 +7,8 @@ old-location: wdf\wdf_callback_constraint.htm
 old-project: wdf
 ms.assetid: 118a9dcc-8dd4-454a-bab2-1558821781a7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: "_WDF_CALLBACK_CONSTRAINT, wudfddi_types/WdfDeviceLevel, WDF_CALLBACK_CONSTRAINT, None, WdfLevelReserved, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, wdf.wdf_callback_constraint, WdfDeviceLevel, wudfddi_types/None, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/WdfLevelReserved"
+ms.date: 2/20/2018
+ms.keywords: wdf.wdf_callback_constraint, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, wudfddi_types/None, WdfLevelReserved, WdfDeviceLevel, wudfddi_types/WdfDeviceLevel, wudfddi_types/WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS, None, wudfddi_types/WdfLevelReserved, WDF_POWER_POLICY_IDLE_TIMEOUT_CONSTANTS enumeration, WDF_CALLBACK_CONSTRAINT, _WDF_CALLBACK_CONSTRAINT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,7 +7,7 @@ old-location: serports\ioctl_serial_apply_default_configuration.htm
 old-project: serports
 ms.assetid: 59AA6029-906C-480F-8F18-82C271A2BE88
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serial_apply_default_configuration, IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code [Serial Ports], IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION, ntddser/IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -139,5 +139,5 @@ Immediately after a client opens a serial port, the client should assume that th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_APPLY_DEFAULT_CONFIGURATION control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

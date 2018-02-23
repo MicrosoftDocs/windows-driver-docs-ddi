@@ -7,8 +7,8 @@ old-location: kernel\rtlfindsetbitsandclear.htm
 old-project: kernel
 ms.assetid: d88797c6-c06c-4c3b-a3e4-baf412e051ef
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlfindsetbitsandclear, k109_a6043f35-d317-434a-93c1-1c44aa9e8cd4.xml, RtlFindSetBitsAndClear routine [Kernel-Mode Driver Architecture], RtlFindSetBitsAndClear, wdm/RtlFindSetBitsAndClear
+ms.date: 2/16/2018
+ms.keywords: k109_a6043f35-d317-434a-93c1-1c44aa9e8cd4.xml, wdm/RtlFindSetBitsAndClear, kernel.rtlfindsetbitsandclear, RtlFindSetBitsAndClear, RtlFindSetBitsAndClear routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -107,7 +107,7 @@ Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-rtlclearallbits.md">RtlClearAllBits</a>
+<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
 
 
 
@@ -115,7 +115,7 @@ Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
+<a href="..\wdm\nf-wdm-rtlfindsetbits.md">RtlFindSetBits</a>
 
 
 
@@ -123,7 +123,7 @@ Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
+<a href="..\wdm\nf-wdm-rtlnumberofsetbits.md">RtlNumberOfSetBits</a>
 
 
 
@@ -131,7 +131,7 @@ Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL &lt;= APC_LEVEL
 
 
 
-<a href="..\wdm\nf-wdm-rtlinitializebitmap.md">RtlInitializeBitMap</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff563614">RTL_BITMAP</a>
 
 
 
@@ -139,5 +139,5 @@ Callers of <b>RtlFindSetBitsAndClear</b> must be running at IRQL &lt;= APC_LEVEL
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlFindSetBitsAndClear routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlFindSetBitsAndClear routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

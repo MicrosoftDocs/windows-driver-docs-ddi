@@ -7,8 +7,8 @@ old-location: ifsk\token_owner.htm
 old-project: ifsk
 ms.assetid: 25f4a9c2-7146-422c-bd55-2520e7d8619b
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/TOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], _TOKEN_OWNER, PTOKEN_OWNER, ifsk.token_owner, securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml, ntifs/PTOKEN_OWNER, *PTOKEN_OWNER, TOKEN_OWNER structure [Installable File System Drivers], TOKEN_OWNER
+ms.date: 2/16/2018
+ms.keywords: TOKEN_OWNER structure [Installable File System Drivers], *PTOKEN_OWNER, TOKEN_OWNER, ntifs/TOKEN_OWNER, ntifs/PTOKEN_OWNER, PTOKEN_OWNER structure pointer [Installable File System Drivers], securitystructures_1be454bb-1b55-4fe5-bdbb-85bfcf9dc9c8.xml, _TOKEN_OWNER, PTOKEN_OWNER, ifsk.token_owner
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,10 +95,6 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 
 
-<a href="..\ntifs\nf-ntifs-sequeryinformationtoken.md">SeQueryInformationToken</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
@@ -107,9 +103,13 @@ If it is a group SID, the <b>Owner</b> must match a group SID in the token, wher
 
 
 
- 
+<a href="..\ntifs\ne-ntifs-_token_information_class.md">TOKEN_INFORMATION_CLASS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_OWNER structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20TOKEN_OWNER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

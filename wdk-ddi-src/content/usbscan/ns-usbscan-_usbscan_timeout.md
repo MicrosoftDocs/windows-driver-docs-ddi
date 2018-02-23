@@ -4,11 +4,11 @@ title: "_USBSCAN_TIMEOUT"
 author: windows-driver-content
 description: The USBSCAN_TIMEOUT structure stores time-out values for USB bulk IN and bulk OUT operations, and interrupts.
 old-location: image\usbscan_timeout.htm
-old-project: image
+old-project: Image
 ms.assetid: afa900fc-7297-425b-8308-18806d7d97d3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: usbscan/USBSCAN_TIMEOUT, image.usbscan_timeout, PUSBSCAN_TIMEOUT, _USBSCAN_TIMEOUT, USBSCAN_TIMEOUT structure [Imaging Devices], usbscan/PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], *PUSBSCAN_TIMEOUT, stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml
+ms.date: 2/15/2018
+ms.keywords: "_USBSCAN_TIMEOUT, usbscan/USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT, usbscan/PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT, PUSBSCAN_TIMEOUT structure pointer [Imaging Devices], stifnc_ebdd7bda-2eb0-446c-a52c-e9a80f6478da.xml, USBSCAN_TIMEOUT structure [Imaging Devices], USBSCAN_TIMEOUT, image.usbscan_timeout"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	USBSCAN_TIMEOUT
 product: Windows
 targetos: Windows
-req.typenames: "*PUSBSCAN_TIMEOUT, USBSCAN_TIMEOUT"
+req.typenames: USBSCAN_TIMEOUT, *PUSBSCAN_TIMEOUT
 req.product: Windows 10 or later.
 ---
 
@@ -106,5 +106,5 @@ The USBSCAN_TIMEOUT structure is used as a parameter to <a href="https://msdn.mi
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20USBSCAN_TIMEOUT structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20USBSCAN_TIMEOUT structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

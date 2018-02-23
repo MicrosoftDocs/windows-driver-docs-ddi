@@ -7,8 +7,8 @@ old-location: ifsk\filter_aggregate_standard_information.htm
 old-project: ifsk
 ms.assetid: 76703a53-45c1-4dfa-b8aa-4f73d4d84538
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fltuserstructures/PFILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION, ifsk.filter_aggregate_standard_information, _FILTER_AGGREGATE_STANDARD_INFORMATION, PFILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION, PFILTER_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], FILTER_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], *PFILTER_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_2b06b94c-69dc-4b0c-a9bc-56bba1592036.xml
+ms.date: 2/16/2018
+ms.keywords: FILTER_AGGREGATE_STANDARD_INFORMATION structure [Installable File System Drivers], fltuserstructures/FILTER_AGGREGATE_STANDARD_INFORMATION, FILTER_AGGREGATE_STANDARD_INFORMATION, FltSystemStructures_2b06b94c-69dc-4b0c-a9bc-56bba1592036.xml, PFILTER_AGGREGATE_STANDARD_INFORMATION, PFILTER_AGGREGATE_STANDARD_INFORMATION structure pointer [Installable File System Drivers], _FILTER_AGGREGATE_STANDARD_INFORMATION, *PFILTER_AGGREGATE_STANDARD_INFORMATION, fltuserstructures/PFILTER_AGGREGATE_STANDARD_INFORMATION, ifsk.filter_aggregate_standard_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -248,7 +248,7 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
+<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
 
 
 
@@ -256,11 +256,11 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540488">FilterFindNext</a>
+
+
+
 <a href="..\fltuserstructures\ns-fltuserstructures-_filter_full_information.md">FILTER_FULL_INFORMATION</a>
-
-
-
-<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 
 
@@ -268,7 +268,7 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltenumeratefilterinformation.md">FltEnumerateFilterInformation</a>
+<a href="..\fltuserstructures\ns-fltuserstructures-_filter_aggregate_basic_information.md">FILTER_AGGREGATE_BASIC_INFORMATION</a>
 
 
 
@@ -276,5 +276,5 @@ The FILTER_AGGREGATE_STANDARD_INFORMATION structure must be aligned on a LONGLON
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILTER_AGGREGATE_STANDARD_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILTER_AGGREGATE_STANDARD_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

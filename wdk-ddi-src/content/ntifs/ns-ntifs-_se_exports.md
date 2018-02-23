@@ -7,8 +7,8 @@ old-location: ifsk\seexports.htm
 old-project: ifsk
 ms.assetid: e6c398b4-f38f-4819-96f9-cefc3a728dbc
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: SeExports, ntifs/SeExports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml, SeExports structure [Installable File System Drivers], SE_EXPORTS, SE_EXPORTS structure [Installable File System Drivers], _SE_EXPORTS, PSE_EXPORTS, *PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], ntifs/PSE_EXPORTS, ifsk.seexports
+ms.date: 2/16/2018
+ms.keywords: SE_EXPORTS structure [Installable File System Drivers], SeExports, _SE_EXPORTS, ntifs/SeExports, SeExports structure [Installable File System Drivers], PSE_EXPORTS, PSE_EXPORTS structure pointer [Installable File System Drivers], *PSE_EXPORTS, SE_EXPORTS, ntifs/PSE_EXPORTS, ifsk.seexports, securitystructures_39c83c22-bf3d-4755-ac4c-6bd31f8829d3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SE_EXPORTS
 product: Windows
 targetos: Windows
-req.typenames: "*PSE_EXPORTS, SE_EXPORTS"
+req.typenames: SE_EXPORTS, *PSE_EXPORTS
 ---
 
 # _SE_EXPORTS structure
@@ -768,17 +768,17 @@ The SID for a group that represents all application packages.
 
 ## -see-also
 
-<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_sid.md">SID</a>
 
 
 
- 
+<a href="..\igpupvdev\ns-igpupvdev-_luid.md">LUID</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeExports structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20SeExports structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

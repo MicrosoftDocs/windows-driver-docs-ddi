@@ -7,8 +7,8 @@ old-location: wdf\wdfiotargetpurge.htm
 old-project: wdf
 ms.assetid: C79492C5-3872-4ED9-9AD7-ABE5C5732D41
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfiotargetpurge, WdfIoTargetPurge method, wdfiotarget/WdfIoTargetPurge, WdfIoTargetPurge, wdf.wdfiotargetpurge
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfiotargetpurge, wdfiotarget/WdfIoTargetPurge, WdfIoTargetPurge method, WdfIoTargetPurge, kmdf.wdfiotargetpurge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -163,19 +163,19 @@ MyEvtDeviceD0Exit(
 
 ## -see-also
 
-<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_purge_io_action.md">WDF_IO_TARGET_PURGE_IO_ACTION</a>
-
-
-
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcreate.md">WdfIoTargetCreate</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a>
 
 
 
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstart.md">WdfIoTargetStart</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetgetstate.md">WdfIoTargetGetState</a>
+
+
+
+<a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_purge_io_action.md">WDF_IO_TARGET_PURGE_IO_ACTION</a>
 
 
 
@@ -187,5 +187,5 @@ MyEvtDeviceD0Exit(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetPurge method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfIoTargetPurge method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

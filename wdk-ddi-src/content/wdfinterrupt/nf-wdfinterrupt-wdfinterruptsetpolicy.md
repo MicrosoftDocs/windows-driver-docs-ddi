@@ -7,8 +7,8 @@ old-location: wdf\wdfinterruptsetpolicy.htm
 old-project: wdf
 ms.assetid: f61bef13-d9b5-4e6a-8657-995a1fcbf7b1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfInterruptSetPolicy, wdfinterrupt/WdfInterruptSetPolicy, wdf.wdfinterruptsetpolicy, kmdf.wdfinterruptsetpolicy, PFN_WDFINTERRUPTSETPOLICY, DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml, WdfInterruptSetPolicy method
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfinterruptsetpolicy, kmdf.wdfinterruptsetpolicy, WdfInterruptSetPolicy method, WdfInterruptSetPolicy, wdfinterrupt/WdfInterruptSetPolicy, DFInterruptObjectRef_86b7a562-3aee-4c0b-9a68-f98a2b76588f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,7 +152,7 @@ WdfInterruptSetPolicy(
 
 ## -see-also
 
-<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
 
 
 
@@ -160,7 +160,7 @@ WdfInterruptSetPolicy(
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+<a href="..\wdfinterrupt\nf-wdfinterrupt-wdfinterruptsetextendedpolicy.md">WdfInterruptSetExtendedPolicy</a>
 
 
 
@@ -168,5 +168,5 @@ WdfInterruptSetPolicy(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfInterruptSetPolicy method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfInterruptSetPolicy method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

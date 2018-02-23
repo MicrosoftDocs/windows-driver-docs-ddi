@@ -7,13 +7,13 @@ old-location: kernel\pep_ppm_initiate_wake.htm
 old-project: kernel
 ms.assetid: 7627521D-4715-47D8-8268-6C9B218FFA6F
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PEP_PPM_INITIATE_WAKE structure [Kernel-Mode Driver Architecture], *PPEP_PPM_INITIATE_WAKE, PEP_PPM_INITIATE_WAKE, _PEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE, kernel.pep_ppm_initiate_wake, pepfx/PPEP_PPM_INITIATE_WAKE
+ms.date: 2/16/2018
+ms.keywords: PEP_PPM_INITIATE_WAKE structure [Kernel-Mode Driver Architecture], _PEP_PPM_INITIATE_WAKE, *PPEP_PPM_INITIATE_WAKE, pepfx/PEP_PPM_INITIATE_WAKE, PPEP_PPM_INITIATE_WAKE structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_INITIATE_WAKE, kernel.pep_ppm_initiate_wake, PPEP_PPM_INITIATE_WAKE, pepfx/PPEP_PPM_INITIATE_WAKE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -99,5 +99,5 @@ The PEP should set the <b>NeedInterruptForCompletion</b> member to <b>FALSE</b> 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_INITIATE_WAKE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_INITIATE_WAKE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

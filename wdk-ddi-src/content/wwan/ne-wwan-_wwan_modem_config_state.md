@@ -7,8 +7,8 @@ old-location: netvista\wwan_modem_config_state.htm
 old-project: netvista
 ms.assetid: A22EA7A7-2C28-4117-A2B8-A7D3D4C9F11B
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PWWAN_MODEM_CONFIG_STATE, *PWWAN_MODEM_CONFIG_STATE, wwan/WWAN_MODEM_CONFIG_STATE, WwanModemConfigStateActivated, WwanModemConfigStateMax, WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigStateUnknown, wwan/WwanModemConfigStatePending, wwan/WwanModemConfigStateMax, WwanModemConfigStatePending, WWAN_MODEM_CONFIG_STATE, WwanModemConfigStateUnknown, netvista.wwan_modem_config_state, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigStateActivated, wwan/PWWAN_MODEM_CONFIG_STATE, _WWAN_MODEM_CONFIG_STATE
+ms.date: 2/16/2018
+ms.keywords: WWAN_MODEM_CONFIG_STATE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_MODEM_CONFIG_STATE, WwanModemConfigStateMax, wwan/WwanModemConfigStatePending, _WWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateActivated, PWWAN_MODEM_CONFIG_STATE, wwan/WWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateMax, WwanModemConfigStateActivated, WwanModemConfigStateUnknown, WwanModemConfigStatePending, wwan/PWWAN_MODEM_CONFIG_STATE, wwan/WwanModemConfigStateUnknown, WWAN_MODEM_CONFIG_STATE, netvista.wwan_modem_config_state, PWWAN_MODEM_CONFIG_STATE enumeration pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_MODEM_CONFIG_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_MODEM_CONFIG_STATE, WWAN_MODEM_CONFIG_STATE"
+req.typenames: WWAN_MODEM_CONFIG_STATE, *PWWAN_MODEM_CONFIG_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -102,5 +102,5 @@ The maximum value for this enumeration. This value might change in future versio
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_MODEM_CONFIG_STATE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_MODEM_CONFIG_STATE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

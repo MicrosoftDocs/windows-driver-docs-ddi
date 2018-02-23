@@ -7,7 +7,7 @@ old-location: wdf\iwdfusbtargetfactory.htm
 old-project: wdf
 ms.assetid: 00f89160-b880-4882-bf2e-28e9ed15f844
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfusbtargetfactory, IWDFUsbTargetFactory interface, IWDFUsbTargetFactory interface, described, IWDFUsbTargetFactory, wudfusb/IWDFUsbTargetFactory, UMDFDeviceObjectRef_71a85574-e7e1-483e-8d16-06cb784ff30e.xml, umdf.iwdfusbtargetfactory
 ms.prod: windows-hardware
 ms.technology: windows-devices

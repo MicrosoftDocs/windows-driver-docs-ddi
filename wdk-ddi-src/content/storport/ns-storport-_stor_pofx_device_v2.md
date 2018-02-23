@@ -7,8 +7,8 @@ old-location: storage\stor_pofx_device_v2.htm
 old-project: storage
 ms.assetid: 1AD3B5E6-CF90-49D2-8FF7-FE309E4331CE
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: STOR_POFX_DEVICE_V2 structure [Storage Devices], STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, _STOR_POFX_DEVICE_V2, PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D0, *PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, STOR_POFX_DEVICE_FLAG_NO_D3, PSTOR_POFX_DEVICE_V2, storport/STOR_POFX_DEVICE_V2, storport/PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2, storage.stor_pofx_device_v2, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD
+ms.date: 2/16/2018
+ms.keywords: STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_NO_D0, storage.stor_pofx_device_v2, PSTOR_POFX_DEVICE_V2 structure pointer [Storage Devices], STOR_POFX_DEVICE_FLAG_NO_D3, STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT, _STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2 structure [Storage Devices], storport/STOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_FLAG_ENABLE_D3_COLD, STOR_POFX_DEVICE_FLAG_NO_DUMP_ACTIVE, PSTOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2, storport/PSTOR_POFX_DEVICE_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STOR_POFX_DEVICE_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PSTOR_POFX_DEVICE_V2, STOR_POFX_DEVICE_V2"
+req.typenames: STOR_POFX_DEVICE_V2, *PSTOR_POFX_DEVICE_V2
 req.product: Windows 10 or later.
 ---
 
@@ -161,19 +161,19 @@ The timeout value in <b>UnitMinIdleTimeoutInMS</b>  or <b>AdapterIdleTimeoutInMS
  
 
 
-### -field UnitMinIdleTimeoutInMS
+### -field Components
+
+This member is the first element in an array of one or more <a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
+
+
+#### - UnitMinIdleTimeoutInMS
 
 The minimum idle time in milliseconds for an unit. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
 
 
-### -field AdapterIdleTimeoutInMS
+#### - AdapterIdleTimeoutInMS
 
 The adapter idle timeout value in milliseconds. This value is only valid when STOR_POFX_DEVICE_FLAG_IDLE_TIMEOUT is set in <b>Flags</b>.
-
-
-### -field Components
-
-This member is the first element in an array of one or more <a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a> elements. If the array contains more than one element, the additional elements immediately follow the <b>STOR_POFX_DEVICE</b> structure. The array contains one element for each component in the device.  Currently, storage devices have only  one component so additional component structures are unnecessary.
 
 
 ## -remarks
@@ -191,15 +191,15 @@ The component for the storage device identified by its <b>Components</b> array i
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
-
-
-
-<a href="..\wdm\ns-wdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
-
-
-
 <a href="..\storport\nf-storport-storportinitializepofxpower.md">StorPortInitializePoFxPower</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_po_fx_component_v2.md">STOR_POFX_COMPONENT</a>
+
+
+
+<a href="..\storport\ns-storport-_stor_pofx_device.md">STOR_POFX_DEVICE</a>
 
 
 
@@ -215,5 +215,5 @@ The component for the storage device identified by its <b>Components</b> array i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_POFX_DEVICE_V2 structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20STOR_POFX_DEVICE_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

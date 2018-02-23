@@ -7,8 +7,8 @@ old-location: stream\kspin_mdl_caching_notification32.htm
 old-project: stream
 ms.assetid: 36C07734-20FC-4330-8BB1-535E8581162D
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSPIN_MDL_CACHING_NOTIFICATION32 structure pointer [Streaming Media Devices], stream.kspin_mdl_caching_notification32, ks/KSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32, PKSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32 structure [Streaming Media Devices], ks/PKSPIN_MDL_CACHING_NOTIFICATION32, *PKSPIN_MDL_CACHING_NOTIFICATION32
+ms.date: 2/20/2018
+ms.keywords: PKSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32 structure [Streaming Media Devices], *PKSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32, stream.kspin_mdl_caching_notification32, ks/PKSPIN_MDL_CACHING_NOTIFICATION32, ks/KSPIN_MDL_CACHING_NOTIFICATION32, PKSPIN_MDL_CACHING_NOTIFICATION32 structure pointer [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSPIN_MDL_CACHING_NOTIFICATION32
 product: Windows
 targetos: Windows
-req.typenames: "*PKSPIN_MDL_CACHING_NOTIFICATION32, KSPIN_MDL_CACHING_NOTIFICATION32"
+req.typenames: KSPIN_MDL_CACHING_NOTIFICATION32, *PKSPIN_MDL_CACHING_NOTIFICATION32
 ---
 
 # KSPIN_MDL_CACHING_NOTIFICATION32 structure

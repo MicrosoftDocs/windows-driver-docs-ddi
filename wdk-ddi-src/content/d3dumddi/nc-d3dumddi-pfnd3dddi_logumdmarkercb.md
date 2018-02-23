@@ -7,7 +7,7 @@ old-location: display\pfnlogumdmarkercb.htm
 old-project: display
 ms.assetid: BD544686-20D3-4577-9950-9C3B6853C4BD
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnlogumdmarkercb, pfnLogUMDMarkerCb callback function [Display Devices], pfnLogUMDMarkerCb, PFND3DDDI_LOGUMDMARKERCB, PFND3DDDI_LOGUMDMARKERCB, d3dumddi/pfnLogUMDMarkerCb
 ms.prod: windows-hardware
 ms.technology: windows-devices

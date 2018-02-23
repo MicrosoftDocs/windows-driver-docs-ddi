@@ -7,8 +7,8 @@ old-location: dtf\iwdtfdriversetupsystemaction2_snaptriagelogs.htm
 old-project: dtf
 ms.assetid: 52f1e529-e1fe-4a08-a0cf-dc08e18d11b5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs, Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, SnapTriageLogs method [Windows Device Testing Framework], dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, SnapTriageLogs, IWDTFDriverSetupSystemAction2::SnapTriageLogs, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], SnapTriageLogs method, IWDTFDriverSetupSystemAction2, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs
+ms.date: 2/20/2018
+ms.keywords: dtf.iwdtfdriversetupsystemaction2_snaptriagelogs, wdtfdriversetupsystemaction/IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs method [Windows Device Testing Framework], IWDTFDriverSetupSystemAction2 interface, IWDTFDriverSetupSystemAction2 interface [Windows Device Testing Framework], SnapTriageLogs method, Microsoft.WDTF.IWDTFDriverSetupSystemAction2.SnapTriageLogs, IWDTFDriverSetupSystemAction2, SnapTriageLogs method [Windows Device Testing Framework], Microsoft::WDTF::IWDTFDriverSetupSystemAction2::SnapTriageLogs, IWDTFDriverSetupSystemAction2::SnapTriageLogs, SnapTriageLogs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFDriverSetupSystemAction2.SnapTriageLogs
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 
@@ -97,5 +97,5 @@ triage logs to the current directory.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFDriverSetupSystemAction2::SnapTriageLogs method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFDriverSetupSystemAction2::SnapTriageLogs method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

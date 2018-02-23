@@ -4,11 +4,11 @@ title: IDebugSymbols::ReadTypedDataVirtual method
 author: windows-driver-content
 description: The ReadTypedDataVirtual method reads the value of a variable in the target's virtual memory.
 old-location: debugger\readtypeddatavirtual.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 526bebd8-95af-4f6f-a381-eb60273d1af5
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, IDebugSymbols::ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], dbgeng/IDebugSymbols::ReadTypedDataVirtual, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, debugger.readtypeddatavirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml
+ms.date: 2/15/2018
+ms.keywords: ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols3 interface, dbgeng/IDebugSymbols2::ReadTypedDataVirtual, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols interface [Windows Debugging], ReadTypedDataVirtual method, debugger.readtypeddatavirtual, IDebugSymbols, IDebugSymbols2 interface [Windows Debugging], ReadTypedDataVirtual method, IDebugSymbols3::ReadTypedDataVirtual, IDebugSymbols_c7a6fee6-d6bc-4dd6-923a-7e789801091f.xml, ReadTypedDataVirtual method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::ReadTypedDataVirtual, IDebugSymbols::ReadTypedDataVirtual, ReadTypedDataVirtual, IDebugSymbols3 interface [Windows Debugging], ReadTypedDataVirtual method, dbgeng/IDebugSymbols::ReadTypedDataVirtual
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.ReadTypedDataVirtual
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::ReadTypedDataVirtual method

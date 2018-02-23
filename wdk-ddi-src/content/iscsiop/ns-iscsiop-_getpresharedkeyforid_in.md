@@ -7,8 +7,8 @@ old-location: storage\getpresharedkeyforid_in.htm
 old-project: storage
 ms.assetid: 4b3d3c5d-c34c-4ed8-bf62-1d885442ee1e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.getpresharedkeyforid_in, GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN, *PGetPresharedKeyForId_IN, _GetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices], iscsiop/PGetPresharedKeyForId_IN, iscsiop/GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml
+ms.date: 2/16/2018
+ms.keywords: PGetPresharedKeyForId_IN, iscsiop/GetPresharedKeyForId_IN, storage.getpresharedkeyforid_in, *PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN, PGetPresharedKeyForId_IN structure pointer [Storage Devices], _GetPresharedKeyForId_IN, structs-iSCSI_2bdada81-7b98-40cd-bc44-e23e53118c60.xml, iscsiop/PGetPresharedKeyForId_IN, GetPresharedKeyForId_IN structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -165,5 +165,5 @@ You must implement this method if the initiator supports IKE.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetPresharedKeyForId_IN structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20GetPresharedKeyForId_IN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

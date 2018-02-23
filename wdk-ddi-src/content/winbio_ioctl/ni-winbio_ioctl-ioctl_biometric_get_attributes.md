@@ -7,7 +7,7 @@ old-location: biometric\ioctl_biometric_get_attributes.htm
 old-project: biometric
 ms.assetid: 7a855435-017e-4724-adb4-976403015a93
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: biometric.ioctl_biometric_get_attributes, IOCTL_BIOMETRIC_GET_ATTRIBUTES control code [Biometric Devices], IOCTL_BIOMETRIC_GET_ATTRIBUTES, winbio_ioctl/IOCTL_BIOMETRIC_GET_ATTRIBUTES, biometric_ref_ee60223e-6d9a-4533-9449-b7a7463f835e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_GET_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

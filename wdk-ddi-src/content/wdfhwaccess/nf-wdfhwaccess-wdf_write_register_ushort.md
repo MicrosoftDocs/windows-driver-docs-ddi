@@ -7,8 +7,8 @@ old-location: wdf\wdf_write_register_ushort.htm
 old-project: wdf
 ms.assetid: E098794F-9A32-409E-9B44-04FDCEF75341
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfhwaccess/WDF_WRITE_REGISTER_USHORT, wdf.wdf_write_register_ushort, WDF_WRITE_REGISTER_USHORT function, WDF_WRITE_REGISTER_USHORT
+ms.date: 2/20/2018
+ms.keywords: WDF_WRITE_REGISTER_USHORT function, WDF_WRITE_REGISTER_USHORT, wdfhwaccess/WDF_WRITE_REGISTER_USHORT, wdf.wdf_write_register_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WRITE_REGISTER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

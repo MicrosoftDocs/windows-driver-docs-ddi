@@ -4,11 +4,11 @@ title: "_WIA_PATCH_CODES"
 author: windows-driver-content
 description: The WIA_PATCH_CODES structure stores header information for the patch code metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_patch_codes.htm
-old-project: image
+old-project: Image
 ms.assetid: CFD2403B-DDD4-4318-9084-1B3E3462FBDC
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_WIA_PATCH_CODES, WIA_PATCH_CODES, image.wia_patch_codes, wiadef/WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices]"
+ms.date: 2/15/2018
+ms.keywords: "_WIA_PATCH_CODES, image.wia_patch_codes, WIA_PATCH_CODES, wiadef/WIA_PATCH_CODES, WIA_PATCH_CODES structure [Imaging Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WDTFSystemAction.idl
+req.idl: 
 req.max-support: 
-req.namespace: Microsoft.WDTF
-req.assembly: WDTFSystemAction.Interop.dll
+req.namespace: 
+req.assembly: 
 req.type-library: 
 req.lib: 
 req.dll: 

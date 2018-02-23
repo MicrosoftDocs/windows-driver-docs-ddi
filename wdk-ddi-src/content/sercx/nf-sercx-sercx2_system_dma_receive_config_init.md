@@ -7,8 +7,8 @@ old-location: serports\sercx2_system_dma_receive_config_init.htm
 old-project: serports
 ms.assetid: 9BD18E2C-731D-4C7D-8363-67136521B4A7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.sercx2_system_dma_receive_config_init, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT
+ms.date: 2/15/2018
+ms.keywords: 2/SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT, serports.sercx2_system_dma_receive_config_init, SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function [Serial Ports], SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -119,6 +119,10 @@ Your serial controller driver must use either this function or the <a href="..\s
 
 ## -see-also
 
+<a href="..\sercx\nf-sercx-sercx2_system_dma_receive_config_init_new_data_notification.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION</a>
+
+
+
 <a href="..\sercx\nf-sercx-sercx2systemdmareceivecreate.md">SerCx2SystemDmaReceiveCreate</a>
 
 
@@ -127,13 +131,9 @@ Your serial controller driver must use either this function or the <a href="..\s
 
 
 
-<a href="..\sercx\nf-sercx-sercx2_system_dma_receive_config_init_new_data_notification.md">SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT_NEW_DATA_NOTIFICATION</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX2_SYSTEM_DMA_RECEIVE_CONFIG_INIT function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

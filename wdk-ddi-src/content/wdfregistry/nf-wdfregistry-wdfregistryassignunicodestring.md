@@ -7,8 +7,8 @@ old-location: wdf\wdfregistryassignunicodestring.htm
 old-project: wdf
 ms.assetid: 3a614b58-8230-4137-aae9-5c50e94bea5e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFREGISTRYASSIGNUNICODESTRING, DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, kmdf.wdfregistryassignunicodestring, WdfRegistryAssignUnicodeString method, wdfregistry/WdfRegistryAssignUnicodeString, wdf.wdfregistryassignunicodestring, WdfRegistryAssignUnicodeString
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfregistryassignunicodestring, WdfRegistryAssignUnicodeString, DFRegKeyObjectRef_83d456aa-06de-47c9-94df-b5b9684a95ac.xml, kmdf.wdfregistryassignunicodestring, wdfregistry/WdfRegistryAssignUnicodeString, WdfRegistryAssignUnicodeString method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -206,19 +206,11 @@ status = WdfRegistryAssignUnicodeString(
 
 ## -see-also
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
-
-
-
-<a href="..\wdm\nf-wdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
-
-
-
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
 
 
 
@@ -230,7 +222,15 @@ status = WdfRegistryAssignUnicodeString(
 
 
 
-<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignmemory.md">WdfRegistryAssignMemory</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlinitunicodestring.md">RtlInitUnicodeString</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignvalue.md">WdfRegistryAssignValue</a>
+
+
+
+<a href="..\wdfregistry\nf-wdfregistry-wdfregistryassignstring.md">WdfRegistryAssignString</a>
 
 
 
@@ -238,5 +238,5 @@ status = WdfRegistryAssignUnicodeString(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRegistryAssignUnicodeString method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfRegistryAssignUnicodeString method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

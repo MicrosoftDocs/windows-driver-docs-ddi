@@ -7,13 +7,13 @@ old-location: kernel\pep_ppm_query_idle_states_v2.htm
 old-project: kernel
 ms.assetid: 0C225F3B-0D09-48FD-9BD3-F17D5E602698
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: pepfx/PPEP_PPM_QUERY_IDLE_STATES_V2, PPEP_PPM_QUERY_IDLE_STATES_V2 structure pointer [Kernel-Mode Driver Architecture], *PPEP_PPM_QUERY_IDLE_STATES_V2, _PEP_PPM_QUERY_IDLE_STATES_V2, PEP_PPM_QUERY_IDLE_STATES_V2, pepfx/PEP_PPM_QUERY_IDLE_STATES_V2, PPEP_PPM_QUERY_IDLE_STATES_V2, PEP_PPM_QUERY_IDLE_STATES_V2 structure [Kernel-Mode Driver Architecture], kernel.pep_ppm_query_idle_states_v2
+ms.date: 2/16/2018
+ms.keywords: pepfx/PEP_PPM_QUERY_IDLE_STATES_V2, kernel.pep_ppm_query_idle_states_v2, PEP_PPM_QUERY_IDLE_STATES_V2, *PPEP_PPM_QUERY_IDLE_STATES_V2, _PEP_PPM_QUERY_IDLE_STATES_V2, pepfx/PPEP_PPM_QUERY_IDLE_STATES_V2, PPEP_PPM_QUERY_IDLE_STATES_V2 structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_QUERY_IDLE_STATES_V2 structure [Kernel-Mode Driver Architecture], PPEP_PPM_QUERY_IDLE_STATES_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PEP_PPM_QUERY_IDLE_STATES_V2
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_PPM_QUERY_IDLE_STATES_V2, PEP_PPM_QUERY_IDLE_STATES_V2"
+req.typenames: PEP_PPM_QUERY_IDLE_STATES_V2, *PPEP_PPM_QUERY_IDLE_STATES_V2
 ---
 
 # _PEP_PPM_QUERY_IDLE_STATES_V2 structure
@@ -105,5 +105,5 @@ This structure is used by the <a href="https://msdn.microsoft.com/en-us/library/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_QUERY_IDLE_STATES_V2 structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_QUERY_IDLE_STATES_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbinterface_getnumendpoints.htm
 old-project: wdf
 ms.assetid: 60ec8b38-8ab2-45d8-92ab-5943fd9bba79
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfusbinterface_getnumendpoints, IWDFUsbInterface::GetNumEndPoints, IWDFUsbInterface interface, GetNumEndPoints method, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, wdf.iwdfusbinterface_getnumendpoints, GetNumEndPoints, wudfusb/IWDFUsbInterface::GetNumEndPoints, GetNumEndPoints method, IWDFUsbInterface interface, GetNumEndPoints method, IWDFUsbInterface
+ms.date: 2/20/2018
+ms.keywords: wudfusb/IWDFUsbInterface::GetNumEndPoints, GetNumEndPoints, wdf.iwdfusbinterface_getnumendpoints, IWDFUsbInterface::GetNumEndPoints, IWDFUsbInterface, GetNumEndPoints method, IWDFUsbInterface interface, GetNumEndPoints method, GetNumEndPoints method, IWDFUsbInterface interface, UMDFUSBref_ae1352c4-217e-49fd-9275-6c80103af753.xml, umdf.iwdfusbinterface_getnumendpoints
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -131,7 +131,7 @@ The following code example retrieves the number of pipes on a USB interface and 
 
 ## -see-also
 
-<a href="..\wudfusb\nn-wudfusb-iwdfusbinterface.md">IWDFUsbInterface</a>
+<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
@@ -139,7 +139,7 @@ The following code example retrieves the number of pipes on a USB interface and 
 
 
 
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560320">IWDFUsbInterface::GetInterfaceDescriptor</a>
 
 
 
@@ -147,5 +147,5 @@ The following code example retrieves the number of pipes on a USB interface and 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetNumEndPoints method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbInterface::GetNumEndPoints method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

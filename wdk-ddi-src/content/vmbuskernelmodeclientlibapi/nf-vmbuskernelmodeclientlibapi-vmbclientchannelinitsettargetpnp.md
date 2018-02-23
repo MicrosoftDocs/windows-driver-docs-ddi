@@ -7,8 +7,8 @@ old-location: netvista\vmbclientchannelinitsettargetpnp.htm
 old-project: netvista
 ms.assetid: 5525FD48-BE65-48CA-B3D5-C96AFD4ECF56
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.vmbclientchannelinitsettargetpnp, VmbClientChannelInitSetTargetPnp, vmbuskernelmodeclientlibapi/VmbClientChannelInitSetTargetPnp, VmbClientChannelInitSetTargetPnp function [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: netvista.vmbclientchannelinitsettargetpnp, VmbClientChannelInitSetTargetPnp function [Network Drivers Starting with Windows Vista], vmbuskernelmodeclientlibapi/VmbClientChannelInitSetTargetPnp, VmbClientChannelInitSetTargetPnp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: kernel\zwsetvaluekey.htm
 old-project: kernel
 ms.assetid: 5e0bcf87-5776-4465-849c-6d4c06832797
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ZwSetValueKey, kernel.zwsetvaluekey, ZwSetValueKey, ZwSetValueKey routine [Kernel-Mode Driver Architecture], k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, wdm/NtSetValueKey, NtSetValueKey
+ms.date: 2/16/2018
+ms.keywords: wdm/NtSetValueKey, wdm/ZwSetValueKey, ZwSetValueKey, kernel.zwsetvaluekey, NtSetValueKey, k111_08954f01-0f74-4054-a52a-b00fff0dc166.xml, ZwSetValueKey routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -262,6 +262,18 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548285">IoAssignResources</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff549616">IoReportResourceUsage</a>
 
 
@@ -270,15 +282,7 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff546580">HalAssignSlotResources</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
@@ -286,15 +290,11 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
 
 
-<a href="..\wdm\nf-wdm-zwclose.md">ZwClose</a>
+<a href="..\wdm\nf-wdm-zwopenkey.md">ZwOpenKey</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwcreatekey.md">ZwCreateKey</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565438">Using Nt and Zw Versions of the Native System Services Routines</a>
+<a href="..\wdm\nf-wdm-zwflushkey.md">ZwFlushKey</a>
 
 
 
@@ -302,5 +302,5 @@ For calls from kernel-mode drivers, the <b>Nt<i>Xxx</i></b> and <b>Zw<i>Xxx</i><
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetValueKey routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ZwSetValueKey routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

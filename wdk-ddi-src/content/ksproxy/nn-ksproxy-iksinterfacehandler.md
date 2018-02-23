@@ -7,7 +7,7 @@ old-location: stream\iksinterfacehandler.htm
 old-project: stream
 ms.assetid: b9f72e79-930c-456e-8001-5df808604caa
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.iksinterfacehandler, IKsInterfaceHandler interface [Streaming Media Devices], IKsInterfaceHandler interface [Streaming Media Devices], described, IKsInterfaceHandler, ksproxy/IKsInterfaceHandler, ksproxy_9d597bae-a5d7-4575-a4ac-983b827b0ae4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -115,17 +115,17 @@ For more information about <b>CoCreateInstance</b>, see the Microsoft Windows SD
 
 ## -see-also
 
-<a href="..\ksproxy\nn-ksproxy-ikscontrol.md">IKsControl</a>
-
-
-
 <a href="..\ks\ns-ks-ksidentifier.md">KSPIN_INTERFACE</a>
 
 
 
- 
+<a href="..\ks\nn-ks-ikscontrol.md">IKsControl</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsInterfaceHandler interface%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20IKsInterfaceHandler interface%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

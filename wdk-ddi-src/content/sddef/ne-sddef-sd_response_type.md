@@ -7,8 +7,8 @@ old-location: sd\sd_response_type.htm
 old-project: SD
 ms.assetid: 0a468158-4beb-42e0-a990-0282041a6bf8
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: sddef/SDRT_2, SDRT_5, sddef/SDRT_1, sddef/SDRT_5, sddef/SDRT_NONE, sddef/SDRT_1B, SD.sd_response_type, SDRT_NONE, SD_RESPONSE_TYPE, sd-structs_e0ab70a5-5006-4469-872a-ea8f6279b5d6.xml, sddef/SDRT_UNSPECIFIED, SDRT_1, SDRT_UNSPECIFIED, sddef/SDRT_5B, SDRT_5B, sddef/SD_RESPONSE_TYPE, SDRT_1B, SDRT_3, SDRT_4, sddef/SDRT_4, sddef/SDRT_6, SDRT_2, SD_RESPONSE_TYPE enumeration [Buses], sddef/SDRT_3, SDRT_6
+ms.date: 2/15/2018
+ms.keywords: sd-structs_e0ab70a5-5006-4469-872a-ea8f6279b5d6.xml, SDRT_3, SDRT_UNSPECIFIED, sddef/SD_RESPONSE_TYPE, SDRT_5B, SDRT_4, SDRT_2, sddef/SDRT_NONE, SD.sd_response_type, sddef/SDRT_5B, sddef/SDRT_3, sddef/SDRT_4, SD_RESPONSE_TYPE, sddef/SDRT_6, SDRT_1, sddef/SDRT_5, SDRT_1B, SD_RESPONSE_TYPE enumeration [Buses], sddef/SDRT_1, SDRT_5, sddef/SDRT_UNSPECIFIED, sddef/SDRT_1B, sddef/SDRT_2, SDRT_6, SDRT_NONE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -137,5 +137,5 @@ Indicates a response of type R6. For an explanation of the R6 response, see the 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SD_RESPONSE_TYPE enumeration%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SD_RESPONSE_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

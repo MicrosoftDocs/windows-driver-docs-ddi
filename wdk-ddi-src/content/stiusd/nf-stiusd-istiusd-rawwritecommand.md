@@ -4,11 +4,11 @@ title: IStiUSD::RawWriteCommand method
 author: windows-driver-content
 description: A still image minidriver's IStiDevice::RawWriteCommand method sends command information to a still image device.
 old-location: image\istiusd_rawwritecommand.htm
-old-project: image
+old-project: Image
 ms.assetid: c1b03ff5-1924-4221-b177-15214a8bf4f1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.istiusd_rawwritecommand, RawWriteCommand method [Imaging Devices], IStiUSD interface, stiusd/IStiUSD::RawWriteCommand, RawWriteCommand method [Imaging Devices], IStiUSD::RawWriteCommand, IStiUSD interface [Imaging Devices], RawWriteCommand method, IStiUSD, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml, RawWriteCommand
+ms.date: 2/15/2018
+ms.keywords: image.istiusd_rawwritecommand, stiusd/IStiUSD::RawWriteCommand, IStiUSD, IStiUSD interface [Imaging Devices], RawWriteCommand method, RawWriteCommand method [Imaging Devices], RawWriteCommand, IStiUSD::RawWriteCommand, RawWriteCommand method [Imaging Devices], IStiUSD interface, stifnc_508a67c1-4f4f-4324-bbb4-fc095fa023c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.RawWriteCommand
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -115,5 +115,5 @@ Implementation of this method, along with the meaning of buffer contents, are ve
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::RawWriteCommand method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::RawWriteCommand method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

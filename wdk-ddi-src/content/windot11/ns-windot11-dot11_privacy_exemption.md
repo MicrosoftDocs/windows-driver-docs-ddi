@@ -7,8 +7,8 @@ old-location: netvista\dot11_privacy_exemption.htm
 old-project: netvista
 ms.assetid: ee4499d0-3275-419d-9ab2-89edd77e0374
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/DOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION, DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], *PDOT11_PRIVACY_EXEMPTION, netvista.dot11_privacy_exemption
+ms.date: 2/16/2018
+ms.keywords: DOT11_PRIVACY_EXEMPTION structure [Network Drivers Starting with Windows Vista], PDOT11_PRIVACY_EXEMPTION structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_PRIVACY_EXEMPTION, windot11/DOT11_PRIVACY_EXEMPTION, PDOT11_PRIVACY_EXEMPTION, Native_802.11_data_types_8dd63374-57b1-4dc8-9dca-76dcc5ade9fd.xml, DOT11_PRIVACY_EXEMPTION, windot11/PDOT11_PRIVACY_EXEMPTION, netvista.dot11_privacy_exemption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -150,5 +150,5 @@ The 802.11 station's packet exemption list if configured through a set request o
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PRIVACY_EXEMPTION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PRIVACY_EXEMPTION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

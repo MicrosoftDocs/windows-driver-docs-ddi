@@ -7,7 +7,7 @@ old-location: wdf\evtdmaenablerselfmanagediostop.htm
 old-project: wdf
 ms.assetid: b334588a-7a92-4542-8f45-13c363ce22f0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtdmaenablerselfmanagediostop, EvtDmaEnablerSelfManagedIoStop callback function, EvtDmaEnablerSelfManagedIoStop, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP, EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP, wdfdmaenabler/EvtDmaEnablerSelfManagedIoStop, DFDmaObjectRef_b04ab1d3-dbff-42f2-b22a-a212d04fac5b.xml, kmdf.evtdmaenablerselfmanagediostop
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -140,17 +140,17 @@ The <b>EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP</b> function type is defined in t
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
-
-
-
 <a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_selfmanaged_io_start.md">EvtDmaEnablerSelfManagedIoStart</a>
 
 
 
- 
+<a href="..\wdfdmaenabler\ns-wdfdmaenabler-_wdf_dma_enabler_config.md">WDF_DMA_ENABLER_CONFIG</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_DMA_ENABLER_SELFMANAGED_IO_STOP callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

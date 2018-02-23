@@ -7,8 +7,8 @@ old-location: spb\spb_transfer_list_entry_init_mdl.htm
 old-project: SPB
 ms.assetid: FFE8761B-5769-48E5-ACE9-50009C490714
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], SPB.spb_transfer_list_entry_init_mdl, spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL
+ms.date: 2/15/2018
+ms.keywords: SPB_TRANSFER_LIST_ENTRY_INIT_MDL function [Buses], SPB_TRANSFER_LIST_ENTRY_INIT_MDL, spb/SPB_TRANSFER_LIST_ENTRY_INIT_MDL, SPB.spb_transfer_list_entry_init_mdl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SPB_TRANSFER_LIST_ENTRY_INIT_MDL
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_TRANSFER_DIRECTION, SPB_TRANSFER_DIRECTION"
+req.typenames: SPB_TRANSFER_DIRECTION, *PSPB_TRANSFER_DIRECTION
 req.product: Windows 10 or later.
 ---
 
@@ -123,5 +123,5 @@ This initialization function returns an unnamed local variable of type <b>SPB_TR
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_TRANSFER_LIST_ENTRY_INIT_MDL function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_TRANSFER_LIST_ENTRY_INIT_MDL function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

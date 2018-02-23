@@ -7,7 +7,7 @@ old-location: print\unifontobj_getinfo.htm
 old-project: print
 ms.assetid: 2c0d350d-dcdf-4da7-8cca-7f36d4ca622e
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
+ms.date: 2/21/2018
 ms.keywords: print.unifontobj_getinfo, UNIFONTOBJ_GetInfo routine [Print Devices], UNIFONTOBJ_GetInfo, PFNGETINFO, PFNGETINFO, printoem/UNIFONTOBJ_GetInfo, print_unidrv-pscript_rendering_7dc55246-beaa-4058-87a3-5438db3368c4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

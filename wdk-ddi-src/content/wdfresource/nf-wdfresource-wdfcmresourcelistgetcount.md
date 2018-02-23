@@ -7,8 +7,8 @@ old-location: wdf\wdfcmresourcelistgetcount.htm
 old-project: wdf
 ms.assetid: f1a38276-4964-422d-9b3c-8450b1028f27
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfcmresourcelistgetcount, DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, WdfCmResourceListGetCount method, wdfresource/WdfCmResourceListGetCount, WdfCmResourceListGetCount, kmdf.wdfcmresourcelistgetcount, PFN_WDFCMRESOURCELISTGETCOUNT
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfcmresourcelistgetcount, wdfresource/WdfCmResourceListGetCount, WdfCmResourceListGetCount method, WdfCmResourceListGetCount, DFResourceObjectRef_8161cc12-7f39-44f4-a4a1-28329911ac96.xml, wdf.wdfcmresourcelistgetcount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	WdfCmResourceListGetCount
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_decode_configuration.htm
 old-project: display
 ms.assetid: D689A7F3-87ED-4247-A28D-333C05C958F8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, display.d3d12ddi_video_decode_configuration, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: d3d12umddi/D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020 structure [Display Devices], D3D12DDI_VIDEO_DECODE_CONFIGURATION_0020, display.d3d12ddi_video_decode_configuration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

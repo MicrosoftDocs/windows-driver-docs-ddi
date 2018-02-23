@@ -7,8 +7,8 @@ old-location: netvista\rilaccesstechnology.htm
 old-project: netvista
 ms.assetid: 28363041-4adc-4348-a1a5-2b9c11750286
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILACCESSTECHNOLOGY, netvista.rilaccesstechnology, RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
+ms.date: 2/16/2018
+ms.keywords: RILACCESSTECHNOLOGY structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILACCESSTECHNOLOGY, netvista.rilaccesstechnology, RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILACCESSTECHNOLOGY
 product: Windows
 targetos: Windows
-req.typenames: RILACCESSTECHNOLOGY, *LPRILACCESSTECHNOLOGY
+req.typenames: "*LPRILACCESSTECHNOLOGY, RILACCESSTECHNOLOGY"
 ---
 
 # RILACCESSTECHNOLOGY structure
@@ -86,31 +86,6 @@ typedef struct _RILACCESSTECHNOLOGY {
 
 
 ### -field kindUnion
-
-
-### -field kindUnion.dwEvdoKind
-
- 
-
-
-### -field kindUnion.dwGsmKind
-
- 
-
-
-### -field kindUnion.dwUmtsKind
-
- 
-
-
-### -field kindUnion.dwTdscdmaKind
-
- 
-
-
-### -field kindUnion.dwLteKind
-
- 
 
 
 ### -field RILACCESSTECHNOLOGYKINDUNION

@@ -7,8 +7,8 @@ old-location: kernel\rtlioencodememioresource.htm
 old-project: kernel
 ms.assetid: b2f51d54-3fda-4cbf-a148-0572122ed9fa
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture], kernel.rtlioencodememioresource, k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml
+ms.date: 2/16/2018
+ms.keywords: kernel.rtlioencodememioresource, wdm/RtlIoEncodeMemIoResource, RtlIoEncodeMemIoResource, k109_2e51e72a-98c4-4600-8e9c-41251c3e9849.xml, RtlIoEncodeMemIoResource routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
+The <b>RtlIoEncodeMemIoResource</b> routine updates an <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to describe a range of memory or I/O port addresses.
 
 
 ## -syntax
@@ -75,7 +75,7 @@ NTSTATUS RtlIoEncodeMemIoResource(
 
 ### -param Descriptor [in]
 
-A pointer to the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to update.
+A pointer to the <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure to update.
 
 
 ### -param Type [in]
@@ -121,7 +121,7 @@ The maximum address that can be assigned to the device.
 </dl>
 </td>
 <td width="60%">
-The <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
+The <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure was updated.
 
 </td>
 </tr>
@@ -202,17 +202,17 @@ Lowest 32 bits must be zero.
 
 ## -see-also
 
+<a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+
+
+
 <a href="..\wdm\nf-wdm-rtliodecodememioresource.md">RtlIoDecodeMemIoResource</a>
 
 
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlIoEncodeMemIoResource routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlIoEncodeMemIoResource routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

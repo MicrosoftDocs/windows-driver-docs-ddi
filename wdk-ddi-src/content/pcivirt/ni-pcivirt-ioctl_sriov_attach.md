@@ -7,7 +7,7 @@ old-location: pci\ioctl-sriov-attach.htm
 old-project: PCI
 ms.assetid: c1129d60-eeb0-4c90-b181-365f3379d89e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.ioctl-sriov-attach, IOCTL_SRIOV_ATTACH control code [Buses], IOCTL_SRIOV_ATTACH, pcivirt/IOCTL_SRIOV_ATTACH
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SRIOV_ATTACH
 product: Windows
 targetos: Windows
-req.typenames: "*PSRIOV_PF_EVENT, SRIOV_PF_EVENT"
+req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_ATTACH IOCTL
@@ -215,7 +215,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
 
 
@@ -223,7 +223,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
 
 
@@ -231,7 +231,7 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
 
 
 
@@ -239,5 +239,5 @@ In this example handling of the IOCTL_SRIOV_ATTACH request, the PF driver mainta
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20IOCTL_SRIOV_ATTACH control code%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20IOCTL_SRIOV_ATTACH control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\fwps_net_buffer_list_notify_fn1.htm
 old-project: netvista
 ms.assetid: fe9ab4b2-5692-4b6e-a7fc-11e9ac8280bc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.fwps_net_buffer_list_notify_fn1, FwpsNetBufferListNotifyFN1 callback function [Network Drivers Starting with Windows Vista], FwpsNetBufferListNotifyFN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1, FWPS_NET_BUFFER_LIST_NOTIFY_FN1, fwpsk/FwpsNetBufferListNotifyFN1
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	FwpsNetBufferListNotifyFN1
 product: Windows
 targetos: Windows
-req.typenames: PINSTANCE_PARTIAL_INFORMATION, INSTANCE_PARTIAL_INFORMATION
+req.typenames: INSTANCE_PARTIAL_INFORMATION, PINSTANCE_PARTIAL_INFORMATION
 ---
 
 # FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback
@@ -182,11 +182,7 @@ This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_no
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
-
-
-
-<a href="https://msdn.microsoft.com/a151256b-d69f-4abb-bf68-644f157dfdd7">Using Packet Tagging</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_notify_fn0.md">FWPS_NET_BUFFER_LIST_NOTIFY_FN0</a>
 
 
 
@@ -195,9 +191,13 @@ This function is identical to <a href="..\fwpsk\nc-fwpsk-fwps_net_buffer_list_no
 
 
 
- 
+<a href="..\fwpsk\nf-fwpsk-fwpsnetbufferlistassociatecontext1.md">FwpsNetBufferListAssociateContext1</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FWPS_NET_BUFFER_LIST_NOTIFY_FN1 callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

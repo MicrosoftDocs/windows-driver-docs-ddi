@@ -7,8 +7,8 @@ old-location: netvista\rildialedidsettingsparammask.htm
 old-project: netvista
 ms.assetid: 8883e9fc-9f2a-4367-ae2d-30260f2d2de6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARAM_DIDS_STATUS, netvista.rildialedidsettingsparammask, RIL_PARAM_DIDS_ALL, ntddrilapitypes/RIL_PARAM_DIDS_ALL, ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK, RIL_PARAM_DIDS_PROVISIONING, ntddrilapitypes/RIL_PARAM_DIDS_PROVISIONING, RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_DIDS_STATUS, RILDIALEDIDSETTINGSPARAMMASK
+ms.date: 2/16/2018
+ms.keywords: RILDIALEDIDSETTINGSPARAMMASK enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_PARAM_DIDS_STATUS, ntddrilapitypes/RIL_PARAM_DIDS_PROVISIONING, RIL_PARAM_DIDS_STATUS, RILDIALEDIDSETTINGSPARAMMASK, RIL_PARAM_DIDS_PROVISIONING, RIL_PARAM_DIDS_ALL, ntddrilapitypes/RILDIALEDIDSETTINGSPARAMMASK, ntddrilapitypes/RIL_PARAM_DIDS_ALL, netvista.rildialedidsettingsparammask
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

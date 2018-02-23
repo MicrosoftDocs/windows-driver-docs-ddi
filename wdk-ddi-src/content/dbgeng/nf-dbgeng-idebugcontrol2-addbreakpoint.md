@@ -4,11 +4,11 @@ title: IDebugControl2::AddBreakpoint method
 author: windows-driver-content
 description: The AddBreakpoint method creates a new breakpoint for the current target.
 old-location: debugger\addbreakpoint.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 08452b54-158f-4dca-86d8-34cc3f96bc62
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl::AddBreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, AddBreakpoint method [Windows Debugging], IDebugControl3 interface, debugger.addbreakpoint, dbgeng/IDebugControl3::AddBreakpoint, IDebugControl interface [Windows Debugging], AddBreakpoint method, AddBreakpoint method [Windows Debugging], IDebugControl2 interface, IDebugControl3::AddBreakpoint, IDebugControl3 interface [Windows Debugging], AddBreakpoint method, IDebugControl2, IDebugControl2 interface [Windows Debugging], AddBreakpoint method, dbgeng/IDebugControl::AddBreakpoint, AddBreakpoint method [Windows Debugging], AddBreakpoint method [Windows Debugging], IDebugControl interface, IDebugControl, IDebugControl2::AddBreakpoint, dbgeng/IDebugControl2::AddBreakpoint, AddBreakpoint
+ms.date: 2/15/2018
+ms.keywords: AddBreakpoint method [Windows Debugging], IDebugControl3 interface, AddBreakpoint method [Windows Debugging], IDebugControl::AddBreakpoint, dbgeng/IDebugControl3::AddBreakpoint, IDebugControl, IDebugControl2, IDebugControl2::AddBreakpoint, dbgeng/IDebugControl::AddBreakpoint, dbgeng/IDebugControl2::AddBreakpoint, IDebugControl2 interface [Windows Debugging], AddBreakpoint method, AddBreakpoint method [Windows Debugging], IDebugControl2 interface, debugger.addbreakpoint, IDebugControl_3d11665a-ec78-4742-8195-2798601814e9.xml, IDebugControl interface [Windows Debugging], AddBreakpoint method, AddBreakpoint, IDebugControl3 interface [Windows Debugging], AddBreakpoint method, IDebugControl3::AddBreakpoint, AddBreakpoint method [Windows Debugging], IDebugControl interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.AddBreakpoint
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl2::AddBreakpoint method
@@ -170,6 +170,18 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538928">Breakpoints</a>
 
 
@@ -182,18 +194,6 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554487">RemoveBreakpoint</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560075">Using Breakpoints</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugbreakpoint.md">IDebugBreakpoint</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
 
 
@@ -202,5 +202,5 @@ The client is saved as the adder of the new breakpoint. See <a href="https://msd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::AddBreakpoint method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::AddBreakpoint method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

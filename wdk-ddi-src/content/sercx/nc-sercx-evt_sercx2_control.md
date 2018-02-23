@@ -7,7 +7,7 @@ old-location: serports\evtsercx2control.htm
 old-project: serports
 ms.assetid: C7032B34-5912-48B1-8D59-BAE6C0FEFB2C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.evtsercx2control, EvtSerCx2Control callback function [Serial Ports], EvtSerCx2Control, EVT_SERCX2_CONTROL, EVT_SERCX2_CONTROL, 2/EvtSerCx2Control
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EvtSerCx2Control
 product: Windows
 targetos: Windows
-req.typenames: "*PSENSOR_VALUE_PAIR, SENSOR_VALUE_PAIR"
+req.typenames: SENSOR_VALUE_PAIR, *PSENSOR_VALUE_PAIR
 req.product: Windows 10 or later.
 ---
 
@@ -407,7 +407,31 @@ The <b>EVT_SERCX2_CONTROL</b> function type is defined in the Sercx.h header fil
 
 ## -see-also
 
-<a href="..\ntddser\ns-ntddser-_serial_commprop.md">SERIAL_COMMPROP</a>
+<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
+
+
+
+<a href="..\sercx\nf-sercx-sercx2initializedevice.md">SerCx2InitializeDevice</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
+
+
+
+<a href="..\ntddser\ns-ntddser-_serial_handflow.md">SERIAL_HANDFLOW</a>
+
+
+
+<a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitMask</a>
 
 
 
@@ -419,33 +443,9 @@ The <b>EVT_SERCX2_CONTROL</b> function type is defined in the Sercx.h header fil
 
 
 
-<a href="..\wdfdriver\nc-wdfdriver-evt_wdf_driver_device_add.md">EvtDriverDeviceAdd</a>
-
-
-
-<a href="..\ntddser\ns-ntddser-_serial_status.md">SERIAL_STATUS</a>
-
-
-
-<a href="..\ntddser\ns-ntddser-_serial_handflow.md">SERIAL_HANDFLOW</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/serports/peripheral-drivers-for-devices-on-sercx2-managed-serial-ports">SERIAL_EV_XXX</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_purge_fifos.md">EvtSerCx2PurgeFifos</a>
-
-
-
-<a href="..\sercx\nc-sercx-evt_sercx2_set_wait_mask.md">EvtSerCx2SetWaitMask</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20EVT_SERCX2_CONTROL callback function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20EVT_SERCX2_CONTROL callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

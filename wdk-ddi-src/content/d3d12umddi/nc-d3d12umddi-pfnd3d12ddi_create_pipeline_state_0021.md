@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_create_pipeline_state_0021.htm
 old-project: display
 ms.assetid: 08C19E55-7DD7-4BDF-8C9A-A2E1B973AFEC
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_create_pipeline_state_0021, pfnCreatePipelineState callback function [Display Devices], pfnCreatePipelineState, PFND3D12DDI_CREATE_PIPELINE_STATE_0021, PFND3D12DDI_CREATE_PIPELINE_STATE_0021, d3d12umddi/pfnCreatePipelineState
 ms.prod: windows-hardware
 ms.technology: windows-devices

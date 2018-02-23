@@ -7,8 +7,8 @@ old-location: netvista\ndis_pm_wol_packet.htm
 old-project: netvista
 ms.assetid: 154a9d3d-4bb9-4c63-a820-816b254c69c2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddndis/NdisPMWoLPacketUnspecified, NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketIPv4TcpSyn, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, NDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketBitmapPattern, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, *PNDIS_PM_WOL_PACKET, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketIPv6TcpSyn, NdisPMWoLPacketEapolRequestIdMessage, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], _NDIS_PM_WOL_PACKET, NdisPMWoLPacketMagicPacket, netvista.ndis_pm_wol_packet, NdisPMWoLPacketUnspecified, ntddndis/NDIS_PM_WOL_PACKET, NdisPMWoLPacketIPv6TcpSyn, ntddndis/NdisPMWoLPacketMaximum, ntddndis/NdisPMWoLPacketMagicPacket, ntddndis/PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketMaximum, PNDIS_PM_WOL_PACKET
+ms.date: 2/16/2018
+ms.keywords: PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketBitmapPattern, NdisPMWoLPacketIPv6TcpSyn, NDIS_PM_WOL_PACKET enumeration [Network Drivers Starting with Windows Vista], *PNDIS_PM_WOL_PACKET, ntddndis/NdisPMWoLPacketMagicPacket, NdisPMWoLPacketMagicPacket, NdisPMWoLPacketBitmapPattern, ntddndis/NdisPMWoLPacketEapolRequestIdMessage, NDIS_PM_WOL_PACKET, NdisPMWoLPacketUnspecified, NdisPMWoLPacketIPv4TcpSyn, ntddndis/NdisPMWoLPacketIPv6TcpSyn, _NDIS_PM_WOL_PACKET, netvista.ndis_pm_wol_packet, miniport_power_management_ref_4788c1ee-7ed8-49f2-950b-7a820223bc32.xml, ntddndis/NdisPMWoLPacketUnspecified, ntddndis/NdisPMWoLPacketIPv4TcpSyn, NdisPMWoLPacketMaximum, ntddndis/NDIS_PM_WOL_PACKET, ntddndis/PNDIS_PM_WOL_PACKET, NdisPMWoLPacketEapolRequestIdMessage, PNDIS_PM_WOL_PACKET enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisPMWoLPacketMaximum
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_PM_WOL_PACKET
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_PM_WOL_PACKET, NDIS_PM_WOL_PACKET"
+req.typenames: NDIS_PM_WOL_PACKET, *PNDIS_PM_WOL_PACKET
 ---
 
 # _NDIS_PM_WOL_PACKET enumeration
@@ -141,5 +141,5 @@ The <b>NDIS_PM_WOL_PACKET</b> enumeration is used in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PACKET enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_PM_WOL_PACKET enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

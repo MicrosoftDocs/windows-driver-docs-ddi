@@ -7,8 +7,8 @@ old-location: stream\usbcamd_selectalternateinterface.htm
 old-project: stream
 ms.assetid: b9a31719-2674-4d3f-8792-b099640faa07
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: usbcamdi/USBCAMD_SelectAlternateInterface, usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, stream.usbcamd_selectalternateinterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], USBCAMD_SelectAlternateInterface
+ms.date: 2/20/2018
+ms.keywords: usbcamdi/USBCAMD_SelectAlternateInterface, USBCAMD_SelectAlternateInterface function [Streaming Media Devices], stream.usbcamd_selectalternateinterface, usbcmdpr_48a3328b-869a-42fd-acfd-b1981384db85.xml, USBCAMD_SelectAlternateInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	USBCAMD_SelectAlternateInterface
 product: Windows
 targetos: Windows
-req.typenames: USB_BUS_INTERFACE_USBDI_V3, *PUSB_BUS_INTERFACE_USBDI_V3
+req.typenames: "*PUSB_BUS_INTERFACE_USBDI_V3, USB_BUS_INTERFACE_USBDI_V3"
 req.product: Windows 10 or later.
 ---
 
@@ -140,5 +140,5 @@ This function is typically called by a camera minidriver in response to a reques
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_SelectAlternateInterface function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20USBCAMD_SelectAlternateInterface function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

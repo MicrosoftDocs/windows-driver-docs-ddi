@@ -7,8 +7,8 @@ old-location: kernel\pep_work_idle_state.htm
 old-project: kernel
 ms.assetid: DD8C454D-D0F6-456B-B59A-2E4DF2D757B5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: pep_x/PEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], kernel.pep_work_idle_state, pep_x/PPEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE, _PEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: PEP_WORK_IDLE_STATE, PPEP_WORK_IDLE_STATE, PEP_WORK_IDLE_STATE structure [Kernel-Mode Driver Architecture], PPEP_WORK_IDLE_STATE structure pointer [Kernel-Mode Driver Architecture], kernel.pep_work_idle_state, pep_x/PEP_WORK_IDLE_STATE, *PPEP_WORK_IDLE_STATE, pep_x/PPEP_WORK_IDLE_STATE, _PEP_WORK_IDLE_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -95,7 +95,7 @@ The <b>IdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_informat
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
+<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
 
 
 
@@ -103,7 +103,7 @@ The <b>IdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_informat
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_device_register_v2.md">PEP_DEVICE_REGISTER_V2</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
@@ -111,5 +111,5 @@ The <b>IdleState</b> member of the <a href="..\pepfx\ns-pepfx-_pep_work_informat
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_IDLE_STATE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_IDLE_STATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

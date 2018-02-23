@@ -7,8 +7,8 @@ old-location: wdf\wdfchildlistretrievepdo.htm
 old-project: wdf
 ms.assetid: 8e6042e4-b004-4250-b208-b0614d2d11fd
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfchildlistretrievepdo, wdfchildlist/WdfChildListRetrievePdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, WdfChildListRetrievePdo method, WdfChildListRetrievePdo, PFN_WDFCHILDLISTRETRIEVEPDO, kmdf.wdfchildlistretrievepdo
+ms.date: 2/20/2018
+ms.keywords: WdfChildListRetrievePdo, WdfChildListRetrievePdo method, wdfchildlist/WdfChildListRetrievePdo, DFDeviceObjectChildListRef_d61bfe9b-d201-48ae-89f4-4e1566c0a396.xml, kmdf.wdfchildlistretrievepdo, wdf.wdfchildlistretrievepdo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -143,7 +143,7 @@ hChild = WdfChildListRetrievePdo(
 
 ## -see-also
 
-<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_retrieve_info_init.md">WDF_CHILD_RETRIEVE_INFO_INIT</a>
 
 
 
@@ -151,7 +151,7 @@ hChild = WdfChildListRetrievePdo(
 
 
 
-<a href="..\wdfchildlist\ns-wdfchildlist-_wdf_child_retrieve_info.md">WDF_CHILD_RETRIEVE_INFO</a>
+<a href="..\wdfchildlist\nf-wdfchildlist-wdf_child_identification_description_header_init.md">WDF_CHILD_IDENTIFICATION_DESCRIPTION_HEADER_INIT</a>
 
 
 
@@ -159,5 +159,5 @@ hChild = WdfChildListRetrievePdo(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfChildListRetrievePdo method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfChildListRetrievePdo method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

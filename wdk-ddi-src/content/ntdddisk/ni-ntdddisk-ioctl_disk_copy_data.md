@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_copy_data.htm
 old-project: storage
 ms.assetid: 1434ee49-4c3d-4104-bca4-c0ea4299c9aa
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_disk_copy_data, IOCTL_DISK_COPY_DATA control code [Storage Devices], IOCTL_DISK_COPY_DATA, ntdddisk/IOCTL_DISK_COPY_DATA, k307_d7859abc-a32a-4930-b612-6bea53331e3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -118,5 +118,5 @@ The <b>Status</b> field is set to STATUS_SUCCESS if the operation is successful.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_DISK_COPY_DATA control code%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IOCTL_DISK_COPY_DATA control code%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

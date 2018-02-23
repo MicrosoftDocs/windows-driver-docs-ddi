@@ -7,8 +7,8 @@ old-location: netvista\rilexchangeuiccapduresponse_2.htm
 old-project: netvista
 ms.assetid: c9e3a4b3-2ce2-4f90-8be2-01d9870cc982
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], netvista.rilexchangeuiccapduresponse_2, *LPRILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE, rilapitypes/RILEXCHANGEUICCAPDURESPONSE
+ms.date: 2/16/2018
+ms.keywords: RILEXCHANGEUICCAPDURESPONSE structure [Network Drivers Starting with Windows Vista], *LPRILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE, rilapitypes/RILEXCHANGEUICCAPDURESPONSE, netvista.rilexchangeuiccapduresponse_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILEXCHANGEUICCAPDURESPONSE
 product: Windows
 targetos: Windows
-req.typenames: RILEXCHANGEUICCAPDURESPONSE, *LPRILEXCHANGEUICCAPDURESPONSE
+req.typenames: "*LPRILEXCHANGEUICCAPDURESPONSE, RILEXCHANGEUICCAPDURESPONSE"
 req.product: Windows 10 or later.
 ---
 

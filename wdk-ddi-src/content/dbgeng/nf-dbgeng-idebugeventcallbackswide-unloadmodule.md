@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::UnloadModule method
 author: windows-driver-content
 description: The UnloadModule callback method is called by the engine when a module-unload debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_unloadmodule.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 05f3fa93-389e-4ecc-b7c0-71f43691232f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacksWide, dbgeng/IDebugEventCallbacksWide::UnloadModule, IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, UnloadModule, UnloadModule method [Windows Debugging], debugger.idebugeventcallbackswide_unloadmodule, IDebugEventCallbacksWide::UnloadModule
+ms.date: 2/15/2018
+ms.keywords: IDebugEventCallbacksWide, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], UnloadModule method, UnloadModule, debugger.idebugeventcallbackswide_unloadmodule, dbgeng/IDebugEventCallbacksWide::UnloadModule, UnloadModule method [Windows Debugging], IDebugEventCallbacksWide interface, IDebugEventCallbacksWide::UnloadModule
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.UnloadModule
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::UnloadModule method

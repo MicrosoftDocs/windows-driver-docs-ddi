@@ -7,8 +7,8 @@ old-location: netvista\rilmsginstatus_2.htm
 old-project: netvista
 ms.assetid: 4dcc198f-5e42-4c60-bfec-19702c9ab674
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilmsginstatus_2, rilapitypes/RILMSGINSTATUS, RILMSGINSTATUS, *LPRILMSGINSTATUS, RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILMSGINSTATUS structure [Network Drivers Starting with Windows Vista], RILMSGINSTATUS, netvista.rilmsginstatus_2, rilapitypes/RILMSGINSTATUS, *LPRILMSGINSTATUS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

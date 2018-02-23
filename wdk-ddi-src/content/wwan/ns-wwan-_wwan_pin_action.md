@@ -7,8 +7,8 @@ old-location: netvista\wwan_pin_action.htm
 old-project: netvista
 ms.assetid: 4edd0bc1-cd50-460b-92e1-7b2440ae3861
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PWWAN_PIN_ACTION, _WWAN_PIN_ACTION, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_ACTION, wwan/WWAN_PIN_ACTION, PWWAN_PIN_ACTION, wwan/PWWAN_PIN_ACTION, netvista.wwan_pin_action, WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml"
+ms.date: 2/16/2018
+ms.keywords: WwanRef_831c483c-8839-43a4-870d-f63ea3f78b61.xml, _WWAN_PIN_ACTION, wwan/WWAN_PIN_ACTION, PWWAN_PIN_ACTION, *PWWAN_PIN_ACTION, PWWAN_PIN_ACTION structure pointer [Network Drivers Starting with Windows Vista], WWAN_PIN_ACTION, netvista.wwan_pin_action, WWAN_PIN_ACTION structure [Network Drivers Starting with Windows Vista], wwan/PWWAN_PIN_ACTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_PIN_ACTION
 product: Windows
 targetos: Windows
-req.typenames: "*PWWAN_PIN_ACTION, WWAN_PIN_ACTION"
+req.typenames: WWAN_PIN_ACTION, *PWWAN_PIN_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -120,10 +120,6 @@ When
 
 ## -see-also
 
-<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
-
-
-
 <a href="..\wwan\ne-wwan-_wwan_pin_type.md">WWAN_PIN_TYPE</a>
 
 
@@ -132,9 +128,13 @@ When
 
 
 
- 
+<a href="..\wwan\ne-wwan-_wwan_pin_operation.md">WWAN_PIN_OPERATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_ACTION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_PIN_ACTION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

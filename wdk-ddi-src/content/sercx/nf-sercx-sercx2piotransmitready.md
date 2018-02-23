@@ -7,8 +7,8 @@ old-location: serports\sercx2piotransmitready.htm
 old-project: serports
 ms.assetid: 58E663DC-8A2B-4017-A54F-4C127AE567CE
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: serports.sercx2piotransmitready, SerCx2PioTransmitReady method [Serial Ports], 2/SerCx2PioTransmitReady, SerCx2PioTransmitReady
+ms.date: 2/15/2018
+ms.keywords: SerCx2PioTransmitReady, serports.sercx2piotransmitready, SerCx2PioTransmitReady method [Serial Ports], 2/SerCx2PioTransmitReady
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SerCx2PioTransmitReady
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -107,17 +107,17 @@ For more information, see <a href="https://msdn.microsoft.com/3BEF9A3D-1FEF-4626
 
 
 
-<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_enable_ready_notification.md">EvtSerCx2PioTransmitEnableReadyNotification</a>
-
-
-
 <a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_write_buffer.md">EvtSerCx2PioTransmitWriteBuffer</a>
 
 
 
- 
+<a href="..\sercx\nc-sercx-evt_sercx2_pio_transmit_enable_ready_notification.md">EvtSerCx2PioTransmitEnableReadyNotification</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCx2PioTransmitReady method%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SerCx2PioTransmitReady method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

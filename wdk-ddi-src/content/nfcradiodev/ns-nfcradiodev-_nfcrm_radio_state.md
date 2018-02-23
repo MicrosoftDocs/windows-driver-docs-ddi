@@ -7,8 +7,8 @@ old-location: nfpdrivers\_nfcrm_radio_state_.htm
 old-project: nfpdrivers
 ms.assetid: 414486ED-464D-4CAF-95C2-9AC59D608816
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: PNFCRM_RADIO_STATE, PNFCRM_RADIO_STATE structure pointer [Near-Field Proximity Drivers], nfcradiodev/PNFCRM_RADIO_STATE, *PNFCRM_RADIO_STATE, NFCRM_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/NFCRM_RADIO_STATE, _NFCRM_RADIO_STATE, nfpdrivers._nfcrm_radio_state_, NFCRM_RADIO_STATE
+ms.date: 2/15/2018
+ms.keywords: "_NFCRM_RADIO_STATE, nfpdrivers._nfcrm_radio_state_, *PNFCRM_RADIO_STATE, NFCRM_RADIO_STATE structure [Near-Field Proximity Drivers], nfcradiodev/PNFCRM_RADIO_STATE, PNFCRM_RADIO_STATE structure pointer [Near-Field Proximity Drivers], nfcradiodev/NFCRM_RADIO_STATE, PNFCRM_RADIO_STATE, NFCRM_RADIO_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

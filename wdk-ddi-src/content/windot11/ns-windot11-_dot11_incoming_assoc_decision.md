@@ -7,8 +7,8 @@ old-location: netvista\dot11_incoming_assoc_decision.htm
 old-project: netvista
 ms.assetid: aaddff8c-71da-475b-a395-ac40b3b787ae
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Size, windot11/DOT11_INCOMING_ASSOC_DECISION, netvista.dot11_incoming_assoc_decision, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], windot11/PDOT11_INCOMING_ASSOC_DECISION, _DOT11_INCOMING_ASSOC_DECISION, *PDOT11_INCOMING_ASSOC_DECISION, Revision, PDOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], DOT11_INCOMING_ASSOC_DECISION, Type, Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml
+ms.date: 2/16/2018
+ms.keywords: windot11/DOT11_INCOMING_ASSOC_DECISION, windot11/PDOT11_INCOMING_ASSOC_DECISION, Type, netvista.dot11_incoming_assoc_decision, PDOT11_INCOMING_ASSOC_DECISION structure pointer [Network Drivers Starting with Windows Vista], Revision, DOT11_INCOMING_ASSOC_DECISION, DOT11_INCOMING_ASSOC_DECISION structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_d6449324-f2b1-492f-849b-d4510b44e94f.xml, *PDOT11_INCOMING_ASSOC_DECISION, _DOT11_INCOMING_ASSOC_DECISION, Size, PDOT11_INCOMING_ASSOC_DECISION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -174,18 +174,18 @@ This structure is used with
 
 ## -see-also
 
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+
+
+
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/hh406480">
    OID_DOT11_INCOMING_ASSOCIATION_DECISION</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_DECISION structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_INCOMING_ASSOC_DECISION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: serports\ioctl_serial_config_size.htm
 old-project: serports
 ms.assetid: 13229dcc-e698-4743-9ca2-303bef69304c
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serial_config_size, IOCTL_SERIAL_CONFIG_SIZE control code [Serial Ports], IOCTL_SERIAL_CONFIG_SIZE, ntddser/IOCTL_SERIAL_CONFIG_SIZE, serref_c851a6c5-27c1-4690-bb2f-36bd458b6629.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

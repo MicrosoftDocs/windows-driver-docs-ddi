@@ -4,11 +4,11 @@ title: IWiaMiniDrvTransferCallback::SendMessage method
 author: windows-driver-content
 description: Periodically called by the WIA mini-driver during a data transfer, to update the WIA application client about the progress and status of the transfer.
 old-location: image\iwiaminidrvtransfercallback_sendmessage.htm
-old-project: image
+old-project: Image
 ms.assetid: 9C4800E6-0F5F-4895-AD19-635C7F784462
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: SendMessage, SendMessage method [Imaging Devices], wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage, IWiaMiniDrvTransferCallback, IWiaMiniDrvTransferCallback::SendMessage, SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface, IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method, image.iwiaminidrvtransfercallback_sendmessage
+ms.date: 2/15/2018
+ms.keywords: wiamindr_lh/IWiaMiniDrvTransferCallback::SendMessage, IWiaMiniDrvTransferCallback interface [Imaging Devices], SendMessage method, SendMessage, IWiaMiniDrvTransferCallback::SendMessage, SendMessage method [Imaging Devices], image.iwiaminidrvtransfercallback_sendmessage, IWiaMiniDrvTransferCallback, SendMessage method [Imaging Devices], IWiaMiniDrvTransferCallback interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -101,6 +101,10 @@ When the current transfer sequence is cancelled, the <b>SendMessage</b> method r
 
 ## -see-also
 
+<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
+
+
+
 <a href="https://msdn.microsoft.com/0cdc02bf-23fe-4122-8d5f-f42c3c07da8b">Cancellation of Data Transfers in Windows Vista</a>
 
 
@@ -109,13 +113,9 @@ When the current transfer sequence is cancelled, the <b>SendMessage</b> method r
 
 
 
-<a href="..\wiamindr_lh\nn-wiamindr_lh-iwiaminidrvtransfercallback.md">IWiaMiniDrvTransferCallback</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaMiniDrvTransferCallback::SendMessage method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaMiniDrvTransferCallback::SendMessage method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

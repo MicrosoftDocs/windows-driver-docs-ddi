@@ -7,8 +7,8 @@ old-location: wdf\wdf_workitem_config.htm
 old-project: wdf
 ms.assetid: b6186c05-ccb9-432c-bd83-9a3fb3af7f0b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: "_WDF_WORKITEM_CONFIG, wdf.wdf_workitem_config, PWDF_WORKITEM_CONFIG structure pointer, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml, PWDF_WORKITEM_CONFIG, kmdf.wdf_workitem_config, WDF_WORKITEM_CONFIG, wdfworkitem/WDF_WORKITEM_CONFIG, wdfworkitem/PWDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG structure, *PWDF_WORKITEM_CONFIG"
+ms.date: 2/20/2018
+ms.keywords: WDF_WORKITEM_CONFIG structure, kmdf.wdf_workitem_config, PWDF_WORKITEM_CONFIG structure pointer, wdfworkitem/WDF_WORKITEM_CONFIG, _WDF_WORKITEM_CONFIG, *PWDF_WORKITEM_CONFIG, wdfworkitem/PWDF_WORKITEM_CONFIG, PWDF_WORKITEM_CONFIG, wdf.wdf_workitem_config, WDF_WORKITEM_CONFIG, DFWorkItemObjectRef_48012621-6363-421b-8b95-2bdae4e63b32.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_WORKITEM_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_WORKITEM_CONFIG, WDF_WORKITEM_CONFIG"
+req.typenames: WDF_WORKITEM_CONFIG, *PWDF_WORKITEM_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -104,11 +104,11 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
 ## -see-also
 
-<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
-
-
-
 <a href="..\wdfworkitem\nf-wdfworkitem-wdf_workitem_config_init.md">WDF_WORKITEM_CONFIG_INIT</a>
+
+
+
+<a href="..\wdfworkitem\nf-wdfworkitem-wdfworkitemcreate.md">WdfWorkItemCreate</a>
 
 
 
@@ -120,5 +120,5 @@ For more information about <b>AutomaticSerialization</b> and synchronizing drive
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WORKITEM_CONFIG structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WORKITEM_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

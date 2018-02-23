@@ -7,8 +7,8 @@ old-location: storage\storportgetlogicalunit.htm
 old-project: storage
 ms.assetid: c8972d8b-9eba-4276-af63-1096a76b104f
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortGetLogicalUnit, storport/StorPortGetLogicalUnit, storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml, StorPortGetLogicalUnit routine [Storage Devices], storage.storportgetlogicalunit
+ms.date: 2/16/2018
+ms.keywords: storage.storportgetlogicalunit, StorPortGetLogicalUnit routine [Storage Devices], storprt_065c9617-06c6-4795-9743-14cd5803d9f9.xml, StorPortGetLogicalUnit, storport/StorPortGetLogicalUnit
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,5 +130,5 @@ The operating system-specific port driver can consider a logical unit to be none
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetLogicalUnit routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20StorPortGetLogicalUnit routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

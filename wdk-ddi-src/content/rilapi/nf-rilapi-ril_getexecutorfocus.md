@@ -7,8 +7,8 @@ old-location: netvista\ril_getexecutorfocus.htm
 old-project: netvista
 ms.assetid: ee510d9f-cfe5-4cfa-98c4-15024208aa5c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetExecutorFocus, rilapi/RIL_GetExecutorFocus, RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorfocus
+ms.date: 2/16/2018
+ms.keywords: rilapi/RIL_GetExecutorFocus, RIL_GetExecutorFocus method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorfocus, RIL_GetExecutorFocus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetExecutorFocus
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: ifsk\fltsupportsstreamcontexts.htm
 old-project: ifsk
 ms.assetid: ea1fd4d5-85c6-40ce-9feb-a2c22e9fe905
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltSupportsStreamContexts function [Installable File System Drivers], FltSupportsStreamContexts, ifsk.fltsupportsstreamcontexts, FltApiRef_p_to_z_a2e2c9ac-1dc0-44cf-b8f0-172ca931a450.xml, fltkernel/FltSupportsStreamContexts
+ms.date: 2/16/2018
+ms.keywords: FltApiRef_p_to_z_a2e2c9ac-1dc0-44cf-b8f0-172ca931a450.xml, FltSupportsStreamContexts function [Installable File System Drivers], fltkernel/FltSupportsStreamContexts, FltSupportsStreamContexts, ifsk.fltsupportsstreamcontexts
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -102,7 +102,11 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetstreamcontext.md">FltGetStreamContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
 
 
 
@@ -110,7 +114,7 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
@@ -122,11 +126,7 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltsetstreamcontext.md">FltSetStreamContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -134,5 +134,5 @@ To release a reference on a context, call <a href="..\fltkernel\nf-fltkernel-flt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSupportsStreamContexts function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSupportsStreamContexts function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

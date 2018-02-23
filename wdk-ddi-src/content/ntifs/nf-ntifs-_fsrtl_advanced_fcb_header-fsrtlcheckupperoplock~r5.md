@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlcheckupperoplock.htm
 old-project: ifsk
 ms.assetid: 36439793-DEE4-48A8-87C4-25BB11BA9CE5
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlCheckUpperOplock, ntifs/FsRtlCheckUpperOplock, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_WRITE, ifsk.fsrtlcheckupperoplock, OPLOCK_LEVEL_CACHE_READ
+ms.date: 2/16/2018
+ms.keywords: ntifs/FsRtlCheckUpperOplock, ifsk.fsrtlcheckupperoplock, FsRtlCheckUpperOplock, OPLOCK_LEVEL_CACHE_HANDLE, OPLOCK_LEVEL_CACHE_WRITE, FsRtlCheckUpperOplock routine [Installable File System Drivers], OPLOCK_LEVEL_CACHE_READ
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -285,5 +285,5 @@ An opportunistic lock break is underway. If supplied, <i>PrePendIrpRoutine</i> i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCheckUpperOplock routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlCheckUpperOplock routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

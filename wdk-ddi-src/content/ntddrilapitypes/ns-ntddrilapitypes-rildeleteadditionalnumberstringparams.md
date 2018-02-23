@@ -7,8 +7,8 @@ old-location: netvista\rildeleteadditionalnumberstringparams.htm
 old-project: netvista
 ms.assetid: 89ae70b9-56d9-4169-8bbd-0eb2d916a928
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, netvista.rildeleteadditionalnumberstringparams, RILDELETEADDITIONALNUMBERSTRINGPARAMS, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS
+ms.date: 2/16/2018
+ms.keywords: RILDELETEADDITIONALNUMBERSTRINGPARAMS, *LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, ntddrilapitypes/RILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rildeleteadditionalnumberstringparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDELETEADDITIONALNUMBERSTRINGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILDELETEADDITIONALNUMBERSTRINGPARAMS, RILDELETEADDITIONALNUMBERSTRINGPARAMS"
+req.typenames: RILDELETEADDITIONALNUMBERSTRINGPARAMS, *LPRILDELETEADDITIONALNUMBERSTRINGPARAMS
 ---
 
 # RILDELETEADDITIONALNUMBERSTRINGPARAMS structure

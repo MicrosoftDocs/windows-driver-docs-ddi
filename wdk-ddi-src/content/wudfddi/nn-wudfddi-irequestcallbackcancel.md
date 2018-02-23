@@ -7,7 +7,7 @@ old-location: wdf\irequestcallbackcancel.htm
 old-project: wdf
 ms.assetid: d6aec38c-6cbb-494c-9fa4-10b6f4a30ae0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.irequestcallbackcancel, IRequestCallbackCancel interface, IRequestCallbackCancel interface, described, IRequestCallbackCancel, wudfddi/IRequestCallbackCancel, UMDFRequestObjectRef_6f54b76d-812d-437c-8c02-7d9e3e177b90.xml, umdf.irequestcallbackcancel
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IRequestCallbackCancel
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

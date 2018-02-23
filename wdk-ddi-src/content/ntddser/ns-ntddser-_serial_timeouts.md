@@ -7,8 +7,8 @@ old-location: serports\serial_timeouts.htm
 old-project: serports
 ms.assetid: 58DABEF8-5886-4575-BFB0-C10709BBACAE
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], PSERIAL_TIMEOUTS, serports.serial_timeouts, PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, _SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS"
+ms.date: 2/15/2018
+ms.keywords: serports.serial_timeouts, *PSERIAL_TIMEOUTS, ntddser/SERIAL_TIMEOUTS, PSERIAL_TIMEOUTS, _SERIAL_TIMEOUTS, SERIAL_TIMEOUTS structure [Serial Ports], PSERIAL_TIMEOUTS structure pointer [Serial Ports], SERIAL_TIMEOUTS, ntddser/PSERIAL_TIMEOUTS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SERIAL_TIMEOUTS
 product: Windows
 targetos: Windows
-req.typenames: SERIAL_TIMEOUTS, *PSERIAL_TIMEOUTS
+req.typenames: "*PSERIAL_TIMEOUTS, SERIAL_TIMEOUTS"
 ---
 
 # _SERIAL_TIMEOUTS structure
@@ -159,6 +159,14 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+
+
+
+<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
+
+
+
 <a href="..\ntddser\ni-ntddser-ioctl_serial_set_timeouts.md">IOCTL_SERIAL_SET_TIMEOUTS</a>
 
 
@@ -167,19 +175,11 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
-
-
-
 <a href="https://msdn.microsoft.com/259aa110-b2c3-4583-a3f9-805a42025a81">COMMTIMEOUTS</a>
 
 
 
-<a href="https://msdn.microsoft.com/a5375b2e-0992-4e47-a20f-8a793addeef6">GetCommTimeouts</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff550819">IRP_MJ_WRITE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549327">IRP_MJ_READ</a>
 
 
 
@@ -191,5 +191,5 @@ For more information, see <a href="https://msdn.microsoft.com/library/windows/ha
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_TIMEOUTS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERIAL_TIMEOUTS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

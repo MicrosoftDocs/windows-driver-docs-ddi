@@ -7,8 +7,8 @@ old-location: stream\ksdevicegetfirstchildfilterfactory.htm
 old-project: stream
 ms.assetid: af388fd1-c95b-42ae-9d18-5fb416c28bc1
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsDeviceGetFirstChildFilterFactory, ks/KsDeviceGetFirstChildFilterFactory, avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml, stream.ksdevicegetfirstchildfilterfactory, KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: KsDeviceGetFirstChildFilterFactory function [Streaming Media Devices], stream.ksdevicegetfirstchildfilterfactory, KsDeviceGetFirstChildFilterFactory, ks/KsDeviceGetFirstChildFilterFactory, avfunc_99fdc67f-eca0-460d-b1fb-d9881bd6e4c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,11 +98,11 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
 
 
-<a href="..\ks\ns-ks-_ksfilterfactory.md">KSFILTERFACTORY</a>
-
-
-
 <a href="..\ks\nf-ks-ksgetfirstchild.md">KsGetFirstChild</a>
+
+
+
+<a href="..\ks\ns-ks-_ksdevice.md">KSDEVICE</a>
 
 
 
@@ -114,5 +114,5 @@ For a graphical representation of AVStream parent/child relationships, see the d
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceGetFirstChildFilterFactory function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsDeviceGetFirstChildFilterFactory function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

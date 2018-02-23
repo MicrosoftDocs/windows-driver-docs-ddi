@@ -4,10 +4,10 @@ title: IDebugEventCallbacksWide
 author: windows-driver-content
 description: IDebugEventCallbacksWide interface
 old-location: debugger\idebugeventcallbackswide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 717fad3a-91b1-41c8-ac71-e9ea52533efd
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugeventcallbackswide, IDebugEventCallbacksWide interface [Windows Debugging], IDebugEventCallbacksWide interface [Windows Debugging], described, IDebugEventCallbacksWide, dbgeng/IDebugEventCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide interface

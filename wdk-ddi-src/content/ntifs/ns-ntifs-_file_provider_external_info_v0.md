@@ -7,8 +7,8 @@ old-location: ifsk\file_provider_external_info_v0.htm
 old-project: ifsk
 ms.assetid: E2368589-9F75-4743-9D38-323221B20EF8
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.file_provider_external_info_v0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], _FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0
+ms.date: 2/16/2018
+ms.keywords: "_FILE_PROVIDER_EXTERNAL_INFO_V0, ntifs/PFILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0 structure pointer [Installable File System Drivers], ifsk.file_provider_external_info_v0, FILE_PROVIDER_EXTERNAL_INFO_V0, PFILE_PROVIDER_EXTERNAL_INFO_V0, *PFILE_PROVIDER_EXTERNAL_INFO_V0, FILE_PROVIDER_EXTERNAL_INFO_V0 structure [Installable File System Drivers], ntifs/FILE_PROVIDER_EXTERNAL_INFO_V0"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -94,5 +94,5 @@ Specifies the compression algorithm that is used to compress this file. Currentl
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_PROVIDER_EXTERNAL_INFO_V0 structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_PROVIDER_EXTERNAL_INFO_V0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

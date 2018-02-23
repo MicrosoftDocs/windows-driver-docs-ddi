@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_get_capabilities_color.htm
 old-project: stream
 ms.assetid: CC7B1824-E397-414A-8EB6-130AEC031304
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.ioctl_lamp_get_capabilities_color, IOCTL_LAMP_GET_CAPABILITIES_COLOR control code [Streaming Media Devices], IOCTL_LAMP_GET_CAPABILITIES_COLOR, lamp/IOCTL_LAMP_GET_CAPABILITIES_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

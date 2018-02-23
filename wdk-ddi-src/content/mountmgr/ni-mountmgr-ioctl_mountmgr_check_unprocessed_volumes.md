@@ -7,7 +7,7 @@ old-location: storage\ioctl_mountmgr_check_unprocessed_volumes.htm
 old-project: storage
 ms.assetid: 39f486b4-a22e-473b-9a0d-ba2c1046995a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_mountmgr_check_unprocessed_volumes, IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES control code [Storage Devices], IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, mountmgr/IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES, k307_eb4defdf-c3d0-41b6-8bd4-3ef1dbd3f795.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES
 product: Windows
 targetos: Windows
-req.typenames: "*PMOUNTDEV_UNIQUE_ID, MOUNTDEV_UNIQUE_ID"
+req.typenames: MOUNTDEV_UNIQUE_ID, *PMOUNTDEV_UNIQUE_ID
 ---
 
 # IOCTL_MOUNTMGR_CHECK_UNPROCESSED_VOLUMES IOCTL

@@ -7,8 +7,8 @@ old-location: parports\parclass_negotiation_mask.htm
 old-project: parports
 ms.assetid: 6d246ec3-47f1-46da-8ac4-f073f91c0d44
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PPARCLASS_NEGOTIATION_MASK structure pointer [Parallel Ports], PPARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK, cisspd_8afca893-6736-49a8-a2bd-efb3d97bb63d.xml, PARCLASS_NEGOTIATION_MASK structure [Parallel Ports], parports.parclass_negotiation_mask, ntddpar/PPARCLASS_NEGOTIATION_MASK, _PARCLASS_NEGOTIATION_MASK, ntddpar/PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK
+ms.date: 2/15/2018
+ms.keywords: PARCLASS_NEGOTIATION_MASK, _PARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK structure [Parallel Ports], parports.parclass_negotiation_mask, ntddpar/PPARCLASS_NEGOTIATION_MASK, ntddpar/PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK, PPARCLASS_NEGOTIATION_MASK structure pointer [Parallel Ports], cisspd_8afca893-6736-49a8-a2bd-efb3d97bb63d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARCLASS_NEGOTIATION_MASK
 product: Windows
 targetos: Windows
-req.typenames: PARCLASS_NEGOTIATION_MASK, *PPARCLASS_NEGOTIATION_MASK
+req.typenames: "*PPARCLASS_NEGOTIATION_MASK, PARCLASS_NEGOTIATION_MASK"
 ---
 
 # _PARCLASS_NEGOTIATION_MASK structure
@@ -91,7 +91,7 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
 
 
 
@@ -103,7 +103,7 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
 
 
-<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
+<a href="..\ntddpar\ni-ntddpar-ioctl_ieee1284_negotiate.md">IOCTL_IEEE1284_NEGOTIATE</a>
 
 
 
@@ -115,5 +115,5 @@ For more information, see <a href="https://msdn.microsoft.com/2ff53ed0-dbb7-4c8f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARCLASS_NEGOTIATION_MASK structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARCLASS_NEGOTIATION_MASK structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

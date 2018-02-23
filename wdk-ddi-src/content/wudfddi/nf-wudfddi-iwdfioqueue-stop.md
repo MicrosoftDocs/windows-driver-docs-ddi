@@ -7,8 +7,8 @@ old-location: wdf\iwdfioqueue_stop.htm
 old-project: wdf
 ms.assetid: 4ad9410a-f3ec-445a-b509-7666a81e1427
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.iwdfioqueue_stop, Stop method, IWDFIoQueue interface, Stop method, Stop, IWDFIoQueue, wudfddi/IWDFIoQueue::Stop, IWDFIoQueue interface, Stop method, wdf.iwdfioqueue_stop, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, IWDFIoQueue::Stop
+ms.date: 2/20/2018
+ms.keywords: wdf.iwdfioqueue_stop, IWDFIoQueue::Stop, IWDFIoQueue interface, Stop method, Stop method, IWDFIoQueue, umdf.iwdfioqueue_stop, Stop method, IWDFIoQueue interface, wudfddi/IWDFIoQueue::Stop, UMDFQueueObjectRef_c45e9686-2484-4c8d-857d-4dc12c8f2fd7.xml, Stop
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoQueue.Stop
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -119,11 +119,11 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iqueuecallbackstatechange.md">IQueueCallbackStateChange</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558951">IWDFIoQueue::Drain</a>
 
 
 
@@ -139,5 +139,5 @@ The <b>Stop</b> method enables the queue to receive new requests, even if the qu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::Stop method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoQueue::Stop method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

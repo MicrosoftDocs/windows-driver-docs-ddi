@@ -7,8 +7,8 @@ old-location: acpi\sdev_secure_acpi_info_entry.htm
 old-project: acpi
 ms.assetid: A3FDE9B0-DD6E-4FF5-AD9A-7DF7BF276EFA
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: "*PSDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], SDEV_SECURE_ACPI_INFO_ENTRY, _SDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], PSDEV_SECURE_ACPI_INFO_ENTRY"
+ms.date: 2/15/2018
+ms.keywords: acpitabl/PSDEV_SECURE_ACPI_INFO_ENTRY, PSDEV_SECURE_ACPI_INFO_ENTRY structure pointer [ACPI Devices], _SDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY structure [ACPI Devices], PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY, acpitabl/SDEV_SECURE_ACPI_INFO_ENTRY, acpi.sdev_secure_acpi_info_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SDEV_SECURE_ACPI_INFO_ENTRY
 product: Windows
 targetos: Windows
-req.typenames: "*PSDEV_SECURE_ACPI_INFO_ENTRY, SDEV_SECURE_ACPI_INFO_ENTRY"
+req.typenames: SDEV_SECURE_ACPI_INFO_ENTRY, *PSDEV_SECURE_ACPI_INFO_ENTRY
 ---
 
 # _SDEV_SECURE_ACPI_INFO_ENTRY structure

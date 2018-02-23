@@ -7,8 +7,8 @@ old-location: ifsk\fltsetvolumecontext.htm
 old-project: ifsk
 ms.assetid: e1e8605c-b3d1-40db-bb33-fc1f7ed51617
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fltkernel/FltSetVolumeContext, FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, FltSetVolumeContext function [Installable File System Drivers], FltSetVolumeContext, ifsk.fltsetvolumecontext
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltsetvolumecontext, FltSetVolumeContext function [Installable File System Drivers], FltSetVolumeContext, FltApiRef_p_to_z_889de924-a441-479f-9818-da016dd3feb3.xml, fltkernel/FltSetVolumeContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -204,7 +204,7 @@ For more information about context reference counting, see <a href="https://msdn
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
 
 
 
@@ -224,5 +224,5 @@ For more information about context reference counting, see <a href="https://msdn
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetVolumeContext function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltSetVolumeContext function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

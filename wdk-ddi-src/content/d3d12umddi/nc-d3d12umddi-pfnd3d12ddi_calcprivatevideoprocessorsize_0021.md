@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calcprivatevideoprocessorsize.htm
 old-project: display
 ms.assetid: F1ED5176-4F50-44DA-96B3-5E133A236461
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_calcprivatevideoprocessorsize, pfnCalcPrivateVideoProcessorSize callback function [Display Devices], pfnCalcPrivateVideoProcessorSize, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, PFND3D12DDI_CALCPRIVATEVIDEOPROCESSORSIZE_0021, d3d12umddi/pfnCalcPrivateVideoProcessorSize
 ms.prod: windows-hardware
 ms.technology: windows-devices

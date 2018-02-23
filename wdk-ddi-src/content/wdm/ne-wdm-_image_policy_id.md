@@ -7,8 +7,8 @@ old-location: kernel\_image_policy_id.htm
 old-project: kernel
 ms.assetid: e2984ef0-6648-41d3-89da-4f57cce66cfb
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/ImagePolicyIdParentSdRev, wdm/ImagePolicyIdCapability, kernel._image_policy_id, wdm/ImagePolicyIdScenarioId, ImagePolicyIdEtw, ImagePolicyIdDeviceId, wdm/ImagePolicyIdDebug, ImagePolicyIdMaximum, wdm/ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdDeviceId, _IMAGE_POLICY_ID, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], ImagePolicyIdCrashDumpKey, wdm/IMAGE_POLICY_ID, wdm/ImagePolicyIdEtw, ImagePolicyIdCrashDump, ImagePolicyIdCapability, wdm/ImagePolicyIdCrashDump, wdm/ImagePolicyIdMaximum, wdm/ImagePolicyIdCrashDumpKey, ImagePolicyIdCrashDumpKeyGuid, IMAGE_POLICY_ID, ImagePolicyIdSvn, ImagePolicyIdScenarioId, ImagePolicyIdParentSd, ImagePolicyIdDebug, wdm/ImagePolicyIdSvn, wdm/ImagePolicyIdParentSd, ImagePolicyIdParentSdRev
+ms.date: 2/16/2018
+ms.keywords: IMAGE_POLICY_ID, ImagePolicyIdMaximum, wdm/ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdParentSdRev, wdm/ImagePolicyIdCapability, ImagePolicyIdCrashDump, wdm/ImagePolicyIdSvn, wdm/ImagePolicyIdCrashDump, wdm/ImagePolicyIdEtw, ImagePolicyIdEtw, ImagePolicyIdParentSdRev, wdm/ImagePolicyIdDebug, ImagePolicyIdDebug, _IMAGE_POLICY_ID, IMAGE_POLICY_ID enumeration [Kernel-Mode Driver Architecture], ImagePolicyIdCrashDumpKeyGuid, wdm/ImagePolicyIdDeviceId, ImagePolicyIdParentSd, wdm/ImagePolicyIdMaximum, ImagePolicyIdScenarioId, ImagePolicyIdSvn, kernel._image_policy_id, wdm/IMAGE_POLICY_ID, wdm/ImagePolicyIdScenarioId, ImagePolicyIdCapability, wdm/ImagePolicyIdCrashDumpKey, wdm/ImagePolicyIdParentSd, ImagePolicyIdCrashDumpKey, ImagePolicyIdDeviceId
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

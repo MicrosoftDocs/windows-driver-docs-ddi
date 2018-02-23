@@ -7,8 +7,8 @@ old-location: netvista\dot11_extap_attributes.htm
 old-project: netvista
 ms.assetid: 0460357c-7180-45f0-a7ab-83c46c24ba68
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_EXTAP_ATTRIBUTES, _DOT11_EXTAP_ATTRIBUTES, windot11/DOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES, Native_802.11_data_types_a1779e69-266e-4fa0-bbd2-01701b9b8772.xml, *PDOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_EXTAP_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extap_attributes
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extap_attributes, windot11/PDOT11_EXTAP_ATTRIBUTES, PDOT11_EXTAP_ATTRIBUTES, Native_802.11_data_types_a1779e69-266e-4fa0-bbd2-01701b9b8772.xml, windot11/DOT11_EXTAP_ATTRIBUTES, _DOT11_EXTAP_ATTRIBUTES, DOT11_EXTAP_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], DOT11_EXTAP_ATTRIBUTES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -272,16 +272,6 @@ A pointer to an array of 802.11d country or region strings that are supported by
      DOT11_COUNTRY_OR_REGION_STRING</a> structure.
 
 
-### -field pSupportedCountryOrRegionStrings.size_is
-
- 
-
-
-### -field pSupportedCountryOrRegionStrings.size_is.uNumSupportedCountryOrRegionStrings
-
- 
-
-
 ### -field uInfraNumSupportedUcastAlgoPairs
 
 The number of authentication and cipher algorithms supported by the 802.11 station for sending and
@@ -300,16 +290,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      formatted as a 
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
-
-### -field pInfraSupportedUcastAlgoPairs.size_is
-
- 
-
-
-### -field pInfraSupportedUcastAlgoPairs.size_is.uInfraNumSupportedUcastAlgoPairs
-
- 
 
 
 ### -field uInfraNumSupportedMcastAlgoPairs
@@ -332,29 +312,13 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
-### -field pInfraSupportedMcastAlgoPairs.size_is
-
- 
-
-
-### -field pInfraSupportedMcastAlgoPairs.size_is.uInfraNumSupportedMcastAlgoPairs
-
- 
-
-
-
-
 ## -see-also
 
-<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
-
-
-
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
-
-
-
 <a href="..\windot11\ns-windot11-_dot11_extap_attributes.md">DOT11_EXTAP_ATTRIBUTES</a>
+
+
+
+<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
 
 
 
@@ -362,8 +326,15 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
-   DOT11_COUNTRY_OR_REGION_STRING</a>
+<a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
@@ -372,11 +343,7 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
-
-
-
-<a href="..\wlantypes\ne-wlantypes-_dot11_cipher_algorithm.md">DOT11_CIPHER_ALGORITHM</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -384,5 +351,5 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_EXTAP_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_EXTAP_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

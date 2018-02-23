@@ -7,8 +7,8 @@ old-location: kernel\kelowerirql.htm
 old-project: kernel
 ms.assetid: 95598654-71dd-41cc-a663-b0bcaee77687
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: KeLowerIrql routine [Kernel-Mode Driver Architecture], k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, kernel.kelowerirql, wdm/KeLowerIrql, KeLowerIrql
+ms.date: 2/16/2018
+ms.keywords: KeLowerIrql routine [Kernel-Mode Driver Architecture], k105_06c56235-3b9e-4413-aadb-91e86898121d.xml, wdm/KeLowerIrql, KeLowerIrql, kernel.kelowerirql
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -80,14 +80,14 @@ TBD
 
 #### - NewIrql [in]
 
-Specifies the IRQL that was returned from <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
+Specifies the IRQL that was returned from <a href="..\wdm\nf-wdm-keraiseirql.md">KeRaiseIrql</a> or <a href="..\ntddk\nf-ntddk-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
 
 
 ## -remarks
 
 
 
-It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> that was not returned by the immediately preceding call to <b>KeRaiseIrql</b> or <a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
+It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> that was not returned by the immediately preceding call to <b>KeRaiseIrql</b> or <a href="..\ntddk\nf-ntddk-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>.
 
 
 
@@ -98,17 +98,17 @@ It is a fatal error to call <b>KeLowerIrql</b> using an input <i>NewIrql</i> tha
 
 
 
+<a href="..\ntddk\nf-ntddk-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
+
+
+
 <a href="..\wdm\nf-wdm-kegetcurrentirql.md">KeGetCurrentIrql</a>
 
 
 
-<a href="..\wdm\nf-wdm-keraiseirqltodpclevel.md">KeRaiseIrqlToDpcLevel</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeLowerIrql routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeLowerIrql routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

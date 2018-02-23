@@ -4,11 +4,11 @@ title: IStiDevice::RawWriteData method
 author: windows-driver-content
 description: The IStiDevice::RawWriteData method writes data to a still image device.
 old-location: image\istidevice_rawwritedata.htm
-old-project: image
+old-project: Image
 ms.assetid: bc64b3d6-8c86-4f99-b3b9-de31f576988c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RawWriteData method [Imaging Devices], stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml, RawWriteData method [Imaging Devices], IStiDevice interface, IStiDevice::RawWriteData, image.istidevice_rawwritedata, RawWriteData, IStiDevice interface [Imaging Devices], RawWriteData method, sti/IStiDevice::RawWriteData, IStiDevice
+ms.date: 2/15/2018
+ms.keywords: stifnc_2b8739f4-3ab7-4b25-bae2-7e025cffe72d.xml, IStiDevice interface [Imaging Devices], RawWriteData method, RawWriteData method [Imaging Devices], image.istidevice_rawwritedata, sti/IStiDevice::RawWriteData, IStiDevice::RawWriteData, IStiDevice, RawWriteData method [Imaging Devices], IStiDevice interface, RawWriteData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -117,5 +117,5 @@ A call to <b>IStiDevice::RawWriteData</b> must be preceded by a call to <a href=
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiDevice::RawWriteData method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiDevice::RawWriteData method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

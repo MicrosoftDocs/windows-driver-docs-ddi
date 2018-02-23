@@ -7,8 +7,8 @@ old-location: stream\ksdevice_thermal_state.htm
 old-project: stream
 ms.assetid: 37425A71-D242-4E4B-9EE8-57207A022459
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KSDEVICE_THERMAL_STATE_HIGH, ks/KSDEVICE_THERMAL_STATE_HIGH, stream.ksdevice_thermal_state, KSDEVICE_THERMAL_STATE enumeration [Streaming Media Devices], KSDEVICE_THERMAL_STATE, ks/KSDEVICE_THERMAL_STATE_LOW, ks/KSDEVICE_THERMAL_STATE, KSDEVICE_THERMAL_STATE_LOW
+ms.date: 2/20/2018
+ms.keywords: ks/KSDEVICE_THERMAL_STATE, KSDEVICE_THERMAL_STATE_HIGH, KSDEVICE_THERMAL_STATE_LOW, stream.ksdevice_thermal_state, ks/KSDEVICE_THERMAL_STATE_LOW, KSDEVICE_THERMAL_STATE, ks/KSDEVICE_THERMAL_STATE_HIGH, KSDEVICE_THERMAL_STATE enumeration [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

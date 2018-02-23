@@ -7,8 +7,8 @@ old-location: kernel\wnode_too_small.htm
 old-project: kernel
 ms.assetid: eb3d8e2a-20f6-41fc-a220-de93eb83f359
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: tagWNODE_TOO_SMALL, WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], wmistr/WNODE_TOO_SMALL, *PWNODE_TOO_SMALL, WNODE_TOO_SMALL, kernel.wnode_too_small, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, wmistr/PWNODE_TOO_SMALL, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], PWNODE_TOO_SMALL
+ms.date: 2/16/2018
+ms.keywords: wmistr/WNODE_TOO_SMALL, WNODE_TOO_SMALL, *PWNODE_TOO_SMALL, kstruct_d_dcabaeb1-21d1-4cbe-a3ea-c6022e57e4b9.xml, PWNODE_TOO_SMALL, tagWNODE_TOO_SMALL, kernel.wnode_too_small, PWNODE_TOO_SMALL structure pointer [Kernel-Mode Driver Architecture], WNODE_TOO_SMALL structure [Kernel-Mode Driver Architecture], wmistr/PWNODE_TOO_SMALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -74,11 +74,6 @@ typedef struct tagWNODE_TOO_SMALL {
 Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
 
-### -field _WNODE_HEADER
-
- 
-
-
 ### -field SizeNeeded
 
 Specifies the size of the buffer needed to receive all of the <b>WNODE_<i>XXX</i></b> data to be returned.
@@ -103,5 +98,5 @@ When the buffer for a WMI request is too small to receive all of the data to be 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_TOO_SMALL structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_TOO_SMALL structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

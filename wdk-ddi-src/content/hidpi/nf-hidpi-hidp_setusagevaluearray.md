@@ -7,8 +7,8 @@ old-location: hid\hidp_setusagevaluearray.htm
 old-project: hid
 ms.assetid: 8c18c224-6d55-405d-87ec-cca99d702713
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: hid.hidp_setusagevaluearray, HidP_SetUsageValueArray routine [Human Input Devices], hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml, HidP_SetUsageValueArray, hidpi/HidP_SetUsageValueArray
+ms.date: 2/15/2018
+ms.keywords: hid.hidp_setusagevaluearray, HidP_SetUsageValueArray routine [Human Input Devices], hidpi/HidP_SetUsageValueArray, HidP_SetUsageValueArray, hidfunc_08ebfd84-e1da-4eb8-8741-ec2b16b488c9.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -265,6 +265,10 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
+<a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
+
+
+
 <a href="..\hidpi\nf-hidpi-hidp_setscaledusagevalue.md">HidP_SetScaledUsageValue</a>
 
 
@@ -273,13 +277,9 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="..\hidpi\nf-hidpi-hidp_setusagevalue.md">HidP_SetUsageValue</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_SetUsageValueArray routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_SetUsageValueArray routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

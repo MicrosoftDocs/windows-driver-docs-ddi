@@ -4,11 +4,11 @@ title: IDebugSymbols3::GetFieldOffset method
 author: windows-driver-content
 description: The GetFieldOffset method returns the offset of a field from the base address of an instance of a type.
 old-location: debugger\getfieldoffset2.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 4081ddf9-673d-4df6-8698-726a70d32c03
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols interface [Windows Debugging], GetFieldOffset method, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols::GetFieldOffset, IDebugSymbols::GetFieldOffset, IDebugSymbols3::GetFieldOffset, IDebugSymbols2::GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols3::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, debugger.getfieldoffset2, IDebugSymbols, GetFieldOffset, dbgeng/IDebugSymbols2::GetFieldOffset, IDebugSymbols2, GetFieldOffset method [Windows Debugging], IDebugSymbols interface, IDebugSymbols3, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSymbols2::GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols::GetFieldOffset, IDebugSymbols_3e5be57a-3af9-4fe3-a7cc-4f31fb9b54f0.xml, IDebugSymbols2::GetFieldOffset, IDebugSymbols2 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols3::GetFieldOffset, IDebugSymbols, IDebugSymbols3::GetFieldOffset, IDebugSymbols3, GetFieldOffset method [Windows Debugging], IDebugSymbols2 interface, GetFieldOffset method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3 interface [Windows Debugging], GetFieldOffset method, dbgeng/IDebugSymbols::GetFieldOffset, debugger.getfieldoffset2, IDebugSymbols2, IDebugSymbols interface [Windows Debugging], GetFieldOffset method, GetFieldOffset, GetFieldOffset method [Windows Debugging], IDebugSymbols interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.GetFieldOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::GetFieldOffset method

@@ -7,8 +7,8 @@ old-location: kernel\ioregisterdeviceinterface.htm
 old-project: kernel
 ms.assetid: 4d0782c7-0516-4326-9994-7820446f2af6
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, wdm/IoRegisterDeviceInterface, IoRegisterDeviceInterface, kernel.ioregisterdeviceinterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: wdm/IoRegisterDeviceInterface, IoRegisterDeviceInterface routine [Kernel-Mode Driver Architecture], k104_4916c641-8510-425d-953f-68ed7a3f8976.xml, kernel.ioregisterdeviceinterface, IoRegisterDeviceInterface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ A pointer to a Unicode string structure allocated by the caller. If this routine
 
 The caller must treat <i>SymbolicLinkName</i> as opaque and must not disassemble it.
 
-The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a> when it is no longer needed.
+The caller is responsible for freeing <i>SymbolicLinkName</i> with <a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a> when it is no longer needed.
 
 
 ## -returns
@@ -154,7 +154,7 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 
 
-<a href="..\wdm\nf-wdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
+<a href="..\wudfwdm\nf-wudfwdm-rtlfreeunicodestring.md">RtlFreeUnicodeString</a>
 
 
 
@@ -162,7 +162,7 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
 
 
-<a href="..\wdm\nf-wdm-iosetdeviceinterfacestate.md">IoSetDeviceInterfaceState</a>
+<a href="..\wdm\nf-wdm-iogetdeviceinterfaces.md">IoGetDeviceInterfaces</a>
 
 
 
@@ -170,5 +170,5 @@ Callers of <b>IoRegisterDeviceInterface</b> must be running at IRQL = PASSIVE_LE
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterDeviceInterface routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoRegisterDeviceInterface routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

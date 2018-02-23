@@ -7,8 +7,8 @@ old-location: powermeter\pmi_measurement_unit.htm
 old-project: powermeter
 ms.assetid: 31f0239e-86d3-43e8-8627-7e16bd58df87
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PmiMeasurementUnitMax, pmi/PMI_MEASUREMENT_UNIT, powermeter.pmi_measurement_unit, PmiMeasurementUnitMilliWatt, PMI_MEASUREMENT_UNIT, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], pmi/PmiMeasurementUnitMax, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, pmi/PmiMeasurementUnitMilliWatt
+ms.date: 2/15/2018
+ms.keywords: pmi/PMI_MEASUREMENT_UNIT, PmiMeasurementUnitMilliWatt, pmi/PmiMeasurementUnitMilliWatt, PowerMeterRef_7c2e4685-6992-455c-b584-9391e0ea8afa.xml, PmiMeasurementUnitMax, powermeter.pmi_measurement_unit, pmi/PmiMeasurementUnitMax, PMI_MEASUREMENT_UNIT enumeration [Power Metering and Budgeting Devices], PMI_MEASUREMENT_UNIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,5 +101,5 @@ The <b>MeasurementUnit</b> member of the <a href="..\pmi\ns-pmi-_pmi_reported_ca
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_MEASUREMENT_UNIT enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_MEASUREMENT_UNIT enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

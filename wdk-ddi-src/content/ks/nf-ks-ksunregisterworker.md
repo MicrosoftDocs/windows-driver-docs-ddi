@@ -7,8 +7,8 @@ old-location: stream\ksunregisterworker.htm
 old-project: stream
 ms.assetid: 789b12db-7f51-426f-8f43-d3a3e43d85b3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsUnregisterWorker function [Streaming Media Devices], KsUnregisterWorker, ks/KsUnregisterWorker, ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml, stream.ksunregisterworker
+ms.date: 2/20/2018
+ms.keywords: ks/KsUnregisterWorker, KsUnregisterWorker, stream.ksunregisterworker, KsUnregisterWorker function [Streaming Media Devices], ksfunc_9b3f2185-8ab0-484d-91d7-3b822ce1c4aa.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

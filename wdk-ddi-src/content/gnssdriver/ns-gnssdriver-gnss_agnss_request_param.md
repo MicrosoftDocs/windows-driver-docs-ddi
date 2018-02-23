@@ -7,8 +7,8 @@ old-location: sensors\gnss_agnss_request_param.htm
 old-project: sensors
 ms.assetid: 67A1DAEF-13D3-4D47-B10C-0CA30C8EB22F
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM structure pointer [Sensor Devices], GNSS_AGNSS_REQUEST_PARAM structure [Sensor Devices], sensors.gnss_agnss_request_param, gnssdriver/GNSS_AGNSS_REQUEST_PARAM, gnssdriver/PGNSS_AGNSS_REQUEST_PARAM
+ms.date: 2/15/2018
+ms.keywords: gnssdriver/GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM, sensors.gnss_agnss_request_param, PGNSS_AGNSS_REQUEST_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM structure [Sensor Devices], GNSS_AGNSS_REQUEST_PARAM, PGNSS_AGNSS_REQUEST_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_AGNSS_REQUEST_PARAM
 product: Windows
 targetos: Windows
-req.typenames: GNSS_AGNSS_REQUEST_PARAM, *PGNSS_AGNSS_REQUEST_PARAM
+req.typenames: "*PGNSS_AGNSS_REQUEST_PARAM, GNSS_AGNSS_REQUEST_PARAM"
 ---
 
 # GNSS_AGNSS_REQUEST_PARAM structure

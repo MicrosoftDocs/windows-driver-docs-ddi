@@ -7,8 +7,8 @@ old-location: ifsk\fsrtl_common_fcb_header.htm
 old-project: ifsk
 ms.assetid: b0b199ea-d72f-4de3-a6b1-bd22140d13cb
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "*PFSRTL_COMMON_FCB_HEADER, ifsk.fsrtl_common_fcb_header, FSRTL_COMMON_FCB_HEADER structure [Installable File System Drivers], ntifs/PFSRTL_COMMON_FCB_HEADER, FSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER structure pointer [Installable File System Drivers], contextstructures_775f0b4a-8043-4125-85b4-530a79ed76ba.xml, PFSRTL_COMMON_FCB_HEADER, _FSRTL_COMMON_FCB_HEADER, ntifs/FSRTL_COMMON_FCB_HEADER"
+ms.date: 2/16/2018
+ms.keywords: FSRTL_COMMON_FCB_HEADER, _FSRTL_COMMON_FCB_HEADER, *PFSRTL_COMMON_FCB_HEADER, ntifs/FSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER, ntifs/PFSRTL_COMMON_FCB_HEADER, PFSRTL_COMMON_FCB_HEADER structure pointer [Installable File System Drivers], ifsk.fsrtl_common_fcb_header, contextstructures_775f0b4a-8043-4125-85b4-530a79ed76ba.xml, FSRTL_COMMON_FCB_HEADER structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -280,19 +280,11 @@ If the file is used as a paging file, the FSRTL_ADVANCED_FCB_HEADER structure mu
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopywrite~r7.md">FsRtlCopyWrite</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
 
 
 
@@ -300,17 +292,25 @@ If the file is used as a paging file, the FSRTL_ADVANCED_FCB_HEADER structure mu
 
 
 
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-_fsrtl_advanced_fcb_header-fsrtlcopyread~r7.md">FsRtlCopyRead</a>
 
 
 
- 
+<a href="..\ntifs\ns-ntifs-_fsrtl_per_stream_context.md">FSRTL_PER_STREAM_CONTEXT</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtlsetupadvancedheader.md">FsRtlSetupAdvancedHeader</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSRTL_COMMON_FCB_HEADER structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FSRTL_COMMON_FCB_HEADER structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\ixpspartiterator_reset.htm
 old-project: print
 ms.assetid: afcdb59c-55aa-48e9-b920-1dee3d39a78f
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, IXpsPartIterator interface [Print Devices], Reset method, Reset, IXpsPartIterator::Reset, IXpsPartIterator, Reset method [Print Devices], IXpsPartIterator interface, Reset method [Print Devices], print.ixpspartiterator_reset, filterpipeline/IXpsPartIterator::Reset
+ms.date: 2/21/2018
+ms.keywords: IXpsPartIterator interface [Print Devices], Reset method, Reset, filterpipeline_505e0d5f-ee7f-4630-a0ea-1f95061486a8.xml, Reset method [Print Devices], IXpsPartIterator interface, filterpipeline/IXpsPartIterator::Reset, IXpsPartIterator::Reset, IXpsPartIterator, Reset method [Print Devices], print.ixpspartiterator_reset
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

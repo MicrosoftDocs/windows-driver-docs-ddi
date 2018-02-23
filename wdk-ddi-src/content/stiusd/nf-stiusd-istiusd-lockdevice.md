@@ -4,11 +4,11 @@ title: IStiUSD::LockDevice method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::LockDevice method locks a device for exclusive use by the caller.
 old-location: image\istiusd_lockdevice.htm
-old-project: image
+old-project: Image
 ms.assetid: cb91ef14-53d7-42fa-b3e5-54eb3b0925b8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: LockDevice method [Imaging Devices], IStiUSD interface, stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, image.istiusd_lockdevice, IStiUSD interface [Imaging Devices], LockDevice method, LockDevice, IStiUSD::LockDevice, stiusd/IStiUSD::LockDevice, IStiUSD, LockDevice method [Imaging Devices]
+ms.date: 2/15/2018
+ms.keywords: IStiUSD interface [Imaging Devices], LockDevice method, LockDevice method [Imaging Devices], IStiUSD interface, LockDevice method [Imaging Devices], IStiUSD, stifnc_147be8d0-9e2a-4ade-99ce-36c7f3a8adeb.xml, LockDevice, IStiUSD::LockDevice, image.istiusd_lockdevice, stiusd/IStiUSD::LockDevice
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.LockDevice
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -96,5 +96,5 @@ If you are writing a driver for a device connected to a serial port, you might w
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::LockDevice method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::LockDevice method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

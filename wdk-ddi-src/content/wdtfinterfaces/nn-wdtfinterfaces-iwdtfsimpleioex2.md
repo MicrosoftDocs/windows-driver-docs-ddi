@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimpleioex2.htm
 old-project: dtf
 ms.assetid: a916e6b1-692c-47e9-83cc-3aeae80fb624
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: dtf.iwdtfsimpleioex2, IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], IWDTFSimpleIOEx2 interface [Windows Device Testing Framework], described, IWDTFSimpleIOEx2, wdtfinterfaces/IWDTFSimpleIOEx2, Microsoft.WDTF.IWDTFSimpleIOEx2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFSimpleIOEx2
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 

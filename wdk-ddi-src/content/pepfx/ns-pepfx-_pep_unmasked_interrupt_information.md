@@ -7,13 +7,13 @@ old-location: kernel\pep_unmasked_interrupt_information.htm
 old-project: kernel
 ms.assetid: 1DD9A0A2-7D19-419A-8653-C16FDB28299E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PPEP_UNMASKED_INTERRUPT_INFORMATION, pepfx/PPEP_UNMASKED_INTERRUPT_INFORMATION, kernel.pep_unmasked_interrupt_information, PEP_UNMASKED_INTERRUPT_INFORMATION, pepfx/PEP_UNMASKED_INTERRUPT_INFORMATION, *PPEP_UNMASKED_INTERRUPT_INFORMATION, _PEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION structure [Kernel-Mode Driver Architecture], PPEP_UNMASKED_INTERRUPT_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: PEP_UNMASKED_INTERRUPT_INFORMATION structure [Kernel-Mode Driver Architecture], _PEP_UNMASKED_INTERRUPT_INFORMATION, pepfx/PEP_UNMASKED_INTERRUPT_INFORMATION, pepfx/PPEP_UNMASKED_INTERRUPT_INFORMATION, PEP_UNMASKED_INTERRUPT_INFORMATION, PPEP_UNMASKED_INTERRUPT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PPEP_UNMASKED_INTERRUPT_INFORMATION, kernel.pep_unmasked_interrupt_information, PPEP_UNMASKED_INTERRUPT_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -91,12 +91,12 @@ A <a href="..\pepfx\ns-pepfx-_pep_unmasked_interrupt_flags.md">PEP_UNMASKED_INTE
 
 ### -field Mode
 
-A <a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value. This member indicates whether the interrupt is edge-triggered or level-triggered.
+A <a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a> enumeration value. This member indicates whether the interrupt is edge-triggered or level-triggered.
 
 
 ### -field Polarity
 
-A <a href="..\wdm\ne-wdm-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value. This member indicates which edge or level of the interrupt signal triggers the interrupt.
+A <a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a> enumeration value. This member indicates which edge or level of the interrupt signal triggers the interrupt.
 
 
 ### -field Gsiv
@@ -127,7 +127,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 ## -see-also
 
-<a href="..\wdm\ne-wdm-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
+<a href="..\miniport\ne-miniport-_kinterrupt_polarity.md">KINTERRUPT_POLARITY</a>
 
 
 
@@ -139,7 +139,7 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt186632">EnumerateInterruptSource</a>
+<a href="..\miniport\ne-miniport-_kinterrupt_mode.md">KINTERRUPT_MODE</a>
 
 
 
@@ -147,5 +147,5 @@ This structure is used by the <a href="https://msdn.microsoft.com/library/window
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_UNMASKED_INTERRUPT_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_UNMASKED_INTERRUPT_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

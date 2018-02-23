@@ -7,8 +7,8 @@ old-location: wdf\read_port_uchar.htm
 old-project: wdf
 ms.assetid: B72EDABF-B5A5-4887-A8D6-77F4047CEDA8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi_hwaccess/READ_PORT_UCHAR, READ_PORT_UCHAR, wdf.read_port_uchar, umdf.read_port_uchar, READ_PORT_UCHAR function
+ms.date: 2/20/2018
+ms.keywords: wdf.read_port_uchar, wudfddi_hwaccess/READ_PORT_UCHAR, umdf.read_port_uchar, READ_PORT_UCHAR, READ_PORT_UCHAR function
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

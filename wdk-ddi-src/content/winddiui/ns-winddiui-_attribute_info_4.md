@@ -7,13 +7,13 @@ old-location: print\attribute_info_4.htm
 old-project: print
 ms.assetid: 09071fff-834b-452b-ae1e-b75c9f191b15
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: winddiui/ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4 structure [Print Devices], winddiui/PATTRIBUTE_INFO_4, print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml, print.attribute_info_4, PATTRIBUTE_INFO_4 structure pointer [Print Devices], PATTRIBUTE_INFO_4, _ATTRIBUTE_INFO_4
+ms.date: 2/21/2018
+ms.keywords: ATTRIBUTE_INFO_4 structure [Print Devices], PATTRIBUTE_INFO_4 structure pointer [Print Devices], winddiui/PATTRIBUTE_INFO_4, _ATTRIBUTE_INFO_4, winddiui/ATTRIBUTE_INFO_4, ATTRIBUTE_INFO_4, print.attribute_info_4, PATTRIBUTE_INFO_4, *PATTRIBUTE_INFO_4, print_interface-graphics_7fa07014-1d16-48c0-be12-cb5026d8f285.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: winddiui.h
-req.include-header: Winddiui.h
+req.include-header: Winddiui.h, Winsplp.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -50,7 +50,7 @@ req.product: Windows 10 or later.
 ## -description
 
 
-The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a> function. All member values are function-supplied. This structure is similar to <a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>, but it includes additional members to control N-up, duplex and booklet printing, and scaling.
+The ATTRIBUTE_INFO_4 structure is used as a parameter for a printer interface DLL's <a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a> function. All member values are function-supplied. This structure is similar to <a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>, but it includes additional members to control N-up, duplex and booklet printing, and scaling.
 
 
 ## -syntax
@@ -389,15 +389,7 @@ This structure is available in Windows Vista.
 
 ## -see-also
 
-<a href="..\winddiui\nf-winddiui-drvqueryjobattributes.md">DrvQueryJobAttributes</a>
-
-
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
-
-
-
-<a href="..\winddiui\ns-winddiui-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
 
 
 
@@ -405,7 +397,11 @@ This structure is available in Windows Vista.
 
 
 
-<a href="..\winsplp\nf-winsplp-getjobattributesex.md">GetJobAttributesEx</a>
+<a href="..\winsplp\ns-winsplp-_attribute_info_3.md">ATTRIBUTE_INFO_3</a>
+
+
+
+<a href="..\winddiui\ns-winddiui-_attribute_info_2.md">ATTRIBUTE_INFO_2</a>
 
 
 
@@ -413,5 +409,5 @@ This structure is available in Windows Vista.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ATTRIBUTE_INFO_4 structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ATTRIBUTE_INFO_4 structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

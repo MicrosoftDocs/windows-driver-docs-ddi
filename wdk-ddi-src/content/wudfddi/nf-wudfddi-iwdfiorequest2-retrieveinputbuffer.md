@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_retrieveinputbuffer.htm
 old-project: wdf
 ms.assetid: f727d9b7-d7ea-4551-bc5a-7829f9807e02
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, RetrieveInputBuffer method, IWDFIoRequest2 interface, wdf.iwdfiorequest2_retrieveinputbuffer, umdf.iwdfiorequest2_retrieveinputbuffer, RetrieveInputBuffer, IWDFIoRequest2 interface, RetrieveInputBuffer method, wudfddi/IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer method, IWDFIoRequest2::RetrieveInputBuffer, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfiorequest2_retrieveinputbuffer, wdf.iwdfiorequest2_retrieveinputbuffer, IWDFIoRequest2::RetrieveInputBuffer, IWDFIoRequest2, IWDFIoRequest2 interface, RetrieveInputBuffer method, RetrieveInputBuffer, UMDFRequestObjectRef_d4e2aa27-329a-4438-8010-579f8a3a3363.xml, RetrieveInputBuffer method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::RetrieveInputBuffer, RetrieveInputBuffer method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.RetrieveInputBuffer
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -205,11 +205,7 @@ STDMETHODCALLTYPE
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559100">IWDFIoRequest::GetInputMemory</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559046">IWDFIoRequest2::RetrieveOutputMemory</a>
 
 
 
@@ -217,17 +213,21 @@ STDMETHODCALLTYPE
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
 
 
 
- 
+<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::RetrieveInputBuffer method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::RetrieveInputBuffer method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\tcp_offload_stats.htm
 old-project: netvista
 ms.assetid: 959bc46a-c574-4130-a83d-22a695d0d891
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PTCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], _TCP_OFFLOAD_STATS, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml, netvista.tcp_offload_stats, ndischimney/PTCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista]"
+ms.date: 2/16/2018
+ms.keywords: PTCP_OFFLOAD_STATS structure pointer [Network Drivers Starting with Windows Vista], TCP_OFFLOAD_STATS, ndischimney/TCP_OFFLOAD_STATS, _TCP_OFFLOAD_STATS, tcp_chim_struct_62878657-feff-41e4-b540-cbde66c1244e.xml, *PTCP_OFFLOAD_STATS, TCP_OFFLOAD_STATS structure [Network Drivers Starting with Windows Vista], netvista.tcp_offload_stats, ndischimney/PTCP_OFFLOAD_STATS, PTCP_OFFLOAD_STATS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -195,5 +195,5 @@ All of the counters that supply the values for the TCP_OFFLOAD_STATS structure w
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

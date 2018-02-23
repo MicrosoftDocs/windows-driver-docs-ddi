@@ -7,8 +7,8 @@ old-location: hid\hidp_unsetusages.htm
 old-project: hid
 ms.assetid: 55dcd9f3-6903-4718-98c2-ee42ee1026e3
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: hid.hidp_unsetusages, hidpi/HidP_UnsetUsages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, HidP_UnsetUsages routine [Human Input Devices], HidP_UnsetUsages
+ms.date: 2/15/2018
+ms.keywords: HidP_UnsetUsages, hidpi/HidP_UnsetUsages, hidfunc_7ffa6677-1a45-4e19-8001-116fbeacf097.xml, hid.hidp_unsetusages, HidP_UnsetUsages routine [Human Input Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -241,7 +241,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
 
 
 
@@ -253,7 +253,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
-<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff539679">_HIDP_PREPARSED_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539779">HidP_SetButtons</a>
 
 
 
@@ -265,5 +265,5 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_UnsetUsages routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_UnsetUsages routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

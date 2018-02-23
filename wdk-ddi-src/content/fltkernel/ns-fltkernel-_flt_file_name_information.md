@@ -7,8 +7,8 @@ old-location: ifsk\flt_file_name_information.htm
 old-project: ifsk
 ms.assetid: 998a028a-7dd8-429a-8195-68d4b4b1b156
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.flt_file_name_information, FLT_FILE_NAME_INFORMATION structure [Installable File System Drivers], PFLT_FILE_NAME_INFORMATION structure pointer [Installable File System Drivers], FltSystemStructures_0c108c25-effe-413b-9d2a-a215f4eebf37.xml, _FLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION, PFLT_FILE_NAME_INFORMATION, fltkernel/PFLT_FILE_NAME_INFORMATION, fltkernel/FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: "_FLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION, FltSystemStructures_0c108c25-effe-413b-9d2a-a215f4eebf37.xml, PFLT_FILE_NAME_INFORMATION structure pointer [Installable File System Drivers], FLT_FILE_NAME_INFORMATION structure [Installable File System Drivers], ifsk.flt_file_name_information, PFLT_FILE_NAME_INFORMATION, fltkernel/FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION, fltkernel/PFLT_FILE_NAME_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_FILE_NAME_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFLT_FILE_NAME_INFORMATION, FLT_FILE_NAME_INFORMATION"
+req.typenames: FLT_FILE_NAME_INFORMATION, *PFLT_FILE_NAME_INFORMATION
 ---
 
 # _FLT_FILE_NAME_INFORMATION structure
@@ -352,31 +352,7 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
-
-
-
 <a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
 
 
 
@@ -384,7 +360,19 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilenameinformation.md">FltParseFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltparsefilename.md">FltParseFileName</a>
 
 
 
@@ -392,7 +380,7 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltgettunneledname.md">FltGetTunneledName</a>
 
 
 
@@ -400,9 +388,21 @@ Minifilters are responsible for calling <a href="..\fltkernel\nf-fltkernel-fltre
 
 
 
- 
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreferencefilenameinformation.md">FltReferenceFileNameInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544636">FLT_FILE_NAME_OPTIONS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_FILE_NAME_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_FILE_NAME_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

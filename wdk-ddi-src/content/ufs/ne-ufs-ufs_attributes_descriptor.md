@@ -7,8 +7,8 @@ old-location: storage\ufs_attributes_descriptor.htm
 old-project: storage
 ms.assetid: 695D8FE9-FADB-488F-A5F7-7715EAD48DD6
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: UFS_wContextConf, UFS_wExceptionEventControl, UFS_bActiveICCLevel, ufs/UFS_Reserved01, UFS_dDynCapNeeded, UFS_Reserved02, UFS_bDeviceFFUStatus, UFS_Obsolete, ufs/UFS_Reserved02, UFS_Reserved03, UFS_bRefClkFreq, ufs/UFS_bActiveICCLevel, ufs/UFS_Reserved03, ufs/UFS_bConfigDescrLock, UFS_wExceptionEventStatus, ufs/UFS_dSecondsPassed, UFS_dSecondsPassed, ufs/UFS_bPurgeStatus, ufs/UFS_wExceptionEventControl, ufs/UFS_bCurrentPowerMode, UFS_bOutOfOrderDataEn, ufs/UFS_Obsolete, ufs/UFS_dPSADataSize, UFS_bConfigDescrLock, UFS_bMaxDataInSize, UFS_ATTRIBUTES_DESCRIPTOR, UFS_bBackgroundOpStatus, ufs/UFS_bBackgroundOpStatus, ufs/UFS_bMaxNumOfRTT, ufs/UFS_bDeviceFFUStatus, ufs/UFS_bMaxDataInSize, ufs/UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_bBootLunEn, ufs/UFS_wExceptionEventStatus, UFS_bMaxNumOfRTT, UFS_bPurgeStatus, UFS_bPSAState, storage.ufs_attributes_descriptor, UFS_dPSADataSize, ufs/UFS_dDynCapNeeded, UFS_bBootLunEn, ufs/UFS_bPSAState, ufs/UFS_bOutOfOrderDataEn, ufs/UFS_bRefClkFreq, UFS_Reserved01, ufs/UFS_wContextConf, UFS_bCurrentPowerMode, UFS_bMaxDataOutSize, ufs/UFS_bMaxDataOutSize, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: UFS_bBackgroundOpStatus, UFS_wContextConf, ufs/UFS_dSecondsPassed, UFS_Obsolete, ufs/UFS_bActiveICCLevel, ufs/UFS_bDeviceFFUStatus, UFS_bPurgeStatus, UFS_Reserved01, ufs/UFS_bMaxNumOfRTT, UFS_bMaxDataOutSize, UFS_dSecondsPassed, UFS_bPSAState, ufs/UFS_Reserved02, ufs/UFS_bMaxDataInSize, ufs/UFS_wExceptionEventStatus, UFS_bBootLunEn, UFS_ATTRIBUTES_DESCRIPTOR enumeration [Storage Devices], UFS_bOutOfOrderDataEn, storage.ufs_attributes_descriptor, UFS_wExceptionEventStatus, ufs/UFS_wContextConf, ufs/UFS_bConfigDescrLock, ufs/UFS_ATTRIBUTES_DESCRIPTOR, UFS_ATTRIBUTES_DESCRIPTOR, ufs/UFS_Obsolete, ufs/UFS_bOutOfOrderDataEn, UFS_bMaxNumOfRTT, UFS_wExceptionEventControl, ufs/UFS_bMaxDataOutSize, ufs/UFS_bRefClkFreq, UFS_bActiveICCLevel, ufs/UFS_Reserved03, ufs/UFS_bPSAState, ufs/UFS_wExceptionEventControl, UFS_dPSADataSize, ufs/UFS_dPSADataSize, ufs/UFS_bCurrentPowerMode, ufs/UFS_dDynCapNeeded, UFS_bConfigDescrLock, ufs/UFS_bBootLunEn, UFS_bRefClkFreq, ufs/UFS_bBackgroundOpStatus, ufs/UFS_Reserved01, UFS_Reserved02, UFS_bDeviceFFUStatus, UFS_Reserved03, UFS_bMaxDataInSize, UFS_bCurrentPowerMode, UFS_dDynCapNeeded, ufs/UFS_bPurgeStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -423,18 +423,6 @@ microcode activation event occurs.
 
 ## -see-also
 
-<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
-
-
-
-<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
-
-
-
-<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
-
-
-
 <a href="..\ufs\ns-ufs-ufs_device_descriptor.md">UFS_DEVICE_DESCRIPTOR</a>
 
 
@@ -443,19 +431,15 @@ microcode activation event occurs.
 
 
 
+<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
+
+
+
 <a href="..\ufs\ns-ufs-ufs_rpmb_unit_descriptor.md">UFS_RPMB_UNIT_DESCRIPTOR</a>
 
 
 
-<a href="..\ufs\ns-ufs-ufs_unit_config_descriptor.md">UFS_UNIT_CONFIG_DESCRIPTOR</a>
-
-
-
-<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
-
-
-
-<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
+<a href="..\ufs\ns-ufs-ufs_power_descriptor.md">UFS_POWER_DESCRIPTOR</a>
 
 
 
@@ -463,9 +447,25 @@ microcode activation event occurs.
 
 
 
- 
+<a href="..\ufs\ns-ufs-ufs_config_descriptor.md">UFS_CONFIG_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_device_health_descriptor.md">UFS_DEVICE_HEALTH_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_interconnect_descriptor.md">UFS_INTERCONNECT_DESCRIPTOR</a>
+
+
+
+<a href="..\ufs\ns-ufs-ufs_geometry_descriptor.md">UFS_GEOMETRY_DESCRIPTOR</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_ATTRIBUTES_DESCRIPTOR enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20UFS_ATTRIBUTES_DESCRIPTOR enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

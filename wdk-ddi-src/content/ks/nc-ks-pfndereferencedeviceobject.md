@@ -7,13 +7,13 @@ old-location: stream\kstrdereferencedeviceobject.htm
 old-project: stream
 ms.assetid: 8d220b69-122c-4019-9c70-4c744503481d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.kstrdereferencedeviceobject, KStrDereferenceDeviceObject routine [Streaming Media Devices], KStrDereferenceDeviceObject, PFNDEREFERENCEDEVICEOBJECT, PFNDEREFERENCEDEVICEOBJECT, ks/KStrDereferenceDeviceObject, ksfunc_521a642c-7a09-416b-a883-09ec5af4f026.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: callback
 req.header: ks.h
-req.include-header: Ks.h
+req.include-header: Ks.h, Swenum.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	KStrDereferenceDeviceObject
 product: Windows
 targetos: Windows
-req.typenames: KEYWORDSELECTOR
+req.typenames: SOUNDDETECTOR_PATTERNHEADER
 ---
 
 # PFNDEREFERENCEDEVICEOBJECT callback

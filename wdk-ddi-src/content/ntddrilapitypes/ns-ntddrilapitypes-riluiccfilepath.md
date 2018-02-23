@@ -7,8 +7,8 @@ old-location: netvista\riluiccfilepath.htm
 old-project: netvista
 ms.assetid: 65c46391-f0ef-4618-ac26-86f41e04e688
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], *LPRILUICCFILEPATH, RILUICCFILEPATH, ntddrilapitypes/RILUICCFILEPATH, netvista.riluiccfilepath
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILUICCFILEPATH, RILUICCFILEPATH, *LPRILUICCFILEPATH, RILUICCFILEPATH structure [Network Drivers Starting with Windows Vista], netvista.riluiccfilepath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: display\video_mode.htm
 old-project: display
 ms.assetid: 01fad141-d023-4a3a-80ae-cb07985db8d1
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: ntddvdeo/PVIDEO_MODE, ntddvdeo/VIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], *PVIDEO_MODE, display.video_mode, VIDEO_MODE structure [Display Devices], _VIDEO_MODE, Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, VIDEO_MODE, PVIDEO_MODE
+ms.date: 2/20/2018
+ms.keywords: ntddvdeo/PVIDEO_MODE, *PVIDEO_MODE, Video_Structs_7a64b36b-d8f2-411d-86e3-4fe854a94220.xml, VIDEO_MODE structure [Display Devices], VIDEO_MODE, PVIDEO_MODE structure pointer [Display Devices], PVIDEO_MODE, _VIDEO_MODE, display.video_mode, ntddvdeo/VIDEO_MODE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

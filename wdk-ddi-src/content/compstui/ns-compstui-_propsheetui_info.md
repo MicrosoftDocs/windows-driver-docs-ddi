@@ -7,8 +7,8 @@ old-location: print\propsheetui_info.htm
 old-project: print
 ms.assetid: b21c3ee1-13e8-4796-af45-6ba60e84df4e
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: "_PROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, PPROPSHEETUI_INFO, PROPSHEETUI_INFO, cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, *PPROPSHEETUI_INFO, compstui/PPROPSHEETUI_INFO, PROPSHEETUI_INFO structure [Print Devices], print.propsheetui_info, PPROPSHEETUI_INFO structure pointer [Print Devices]"
+ms.date: 2/21/2018
+ms.keywords: PPROPSHEETUI_INFO structure pointer [Print Devices], cpsuifnc_0afe9ac8-ca1f-4984-acc5-04a8955b4b30.xml, PPROPSHEETUI_INFO, *PPROPSHEETUI_INFO, compstui/PROPSHEETUI_INFO, PROPSHEETUI_INFO, print.propsheetui_info, PROPSHEETUI_INFO structure [Print Devices], compstui/PPROPSHEETUI_INFO, _PROPSHEETUI_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PROPSHEETUI_INFO
 product: Windows
 targetos: Windows
-req.typenames: PROPSHEETUI_INFO, *PPROPSHEETUI_INFO
+req.typenames: "*PPROPSHEETUI_INFO, PROPSHEETUI_INFO"
 ---
 
 # _PROPSHEETUI_INFO structure

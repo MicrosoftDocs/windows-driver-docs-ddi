@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetdevicecycleportsynchronously.htm
 old-project: wdf
 ms.assetid: 8dee089c-1f1a-4090-8c43-8362bb684139
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICECYCLEPORTSYNCHRONOUSLY, wdf.wdfusbtargetdevicecycleportsynchronously, WdfUsbTargetDeviceCyclePortSynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml, kmdf.wdfusbtargetdevicecycleportsynchronously
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfusbtargetdevicecycleportsynchronously, WdfUsbTargetDeviceCyclePortSynchronously, wdfusb/WdfUsbTargetDeviceCyclePortSynchronously, WdfUsbTargetDeviceCyclePortSynchronously method, kmdf.wdfusbtargetdevicecycleportsynchronously, DFUsbRef_9ef45eea-9dd8-4423-add8-0906374ff620.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -152,5 +152,5 @@ status = WdfUsbTargetDeviceCyclePortSynchronously(UsbDevice);</pre>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceCyclePortSynchronously method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceCyclePortSynchronously method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\dot11ext_ihv_indication_type.htm
 old-project: netvista
 ms.assetid: c4cba30d-f0ba-424b-aa05-2717fa8fcc4e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11ext_ihv_indication_type, DOT11EXT_IHV_INDICATION_TYPE enumeration [Network Drivers Starting with Windows Vista], wlanihv/IndicationTypeNicSpecificNotification, PDOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE, wlanihv/PDOT11EXT_IHV_INDICATION_TYPE, wlanihv/DOT11EXT_IHV_INDICATION_TYPE, IndicationTypePmkidCandidateList, wlanihv/IndicationTypePmkidCandidateList, wlanihv/IndicationTypeTkipMicFailure, Native_802.11_data_types_57d8dd95-82d4-41e6-8ba3-b1ec5254b4b8.xml, IndicationTypePhyStateChange, *PDOT11EXT_IHV_INDICATION_TYPE, IndicationTypeTkipMicFailure, wlanihv/IndicationTypeLinkQuality, IndicationTypeLinkQuality, wlanihv/IndicationTypePhyStateChange, IndicationTypeNicSpecificNotification, _DOT11EXT_IHV_INDICATION_TYPE, PDOT11EXT_IHV_INDICATION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: wlanihv/PDOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypeNicSpecificNotification, wlanihv/DOT11EXT_IHV_INDICATION_TYPE, IndicationTypePhyStateChange, PDOT11EXT_IHV_INDICATION_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], _DOT11EXT_IHV_INDICATION_TYPE, DOT11EXT_IHV_INDICATION_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.dot11ext_ihv_indication_type, IndicationTypeNicSpecificNotification, IndicationTypePmkidCandidateList, DOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypePhyStateChange, *PDOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypeLinkQuality, wlanihv/IndicationTypePmkidCandidateList, Native_802.11_data_types_57d8dd95-82d4-41e6-8ba3-b1ec5254b4b8.xml, PDOT11EXT_IHV_INDICATION_TYPE, wlanihv/IndicationTypeTkipMicFailure, IndicationTypeTkipMicFailure, IndicationTypeLinkQuality
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

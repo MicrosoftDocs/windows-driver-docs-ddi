@@ -7,8 +7,8 @@ old-location: kernel\psgethostsilo.htm
 old-project: kernel
 ms.assetid: 0B78562C-25DD-4CF2-9804-6DBEDE8B5F69
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ntddk/PsGetHostSilo, PsGetHostSilo, PsGetHostSilo routine [Kernel-Mode Driver Architecture], kernel.psgethostsilo
+ms.date: 2/16/2018
+ms.keywords: PsGetHostSilo routine [Kernel-Mode Driver Architecture], kernel.psgethostsilo, PsGetHostSilo, ntddk/PsGetHostSilo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

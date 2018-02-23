@@ -7,8 +7,8 @@ old-location: display\d3dhal_dp2setstreamsourceum.htm
 old-project: display
 ms.assetid: 42a8c14d-3b73-4d9a-a902-d4bf2b46ddf8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, LPD3DHAL_DP2SETSTREAMSOURCEUM, *LPD3DHAL_DP2SETSTREAMSOURCEUM, _D3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM, display.d3dhal_dp2setstreamsourceum, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: d3dhal/D3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM, *LPD3DHAL_DP2SETSTREAMSOURCEUM, d3dhal/LPD3DHAL_DP2SETSTREAMSOURCEUM, display.d3dhal_dp2setstreamsourceum, d3dstrct_58dd4856-1fc8-4772-96db-77ff9b81afbf.xml, _D3DHAL_DP2SETSTREAMSOURCEUM, D3DHAL_DP2SETSTREAMSOURCEUM structure [Display Devices], D3DHAL_DP2SETSTREAMSOURCEUM, LPD3DHAL_DP2SETSTREAMSOURCEUM structure pointer [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -101,15 +101,15 @@ The actual user memory pointer to the vertex data should be extracted from the <
 
 
 
-<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
-
-
-
 <a href="..\d3dhal\ns-d3dhal-_d3dhal_drawprimitives2data.md">D3DHAL_DRAWPRIMITIVES2DATA</a>
 
 
 
-D3DDP2OP_SETSTREAMSOURCEUM
+<a href="..\d3dhal\ns-d3dhal-_d3dhal_dp2setstreamsource.md">D3DHAL_DP2SETSTREAMSOURCE</a>
+
+
+
+<a href="..\d3dhal\nc-d3dhal-lpd3dhal_drawprimitives2cb.md">D3dDrawPrimitives2</a>
 
 
 
@@ -117,5 +117,5 @@ D3DDP2OP_SETSTREAMSOURCEUM
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2SETSTREAMSOURCEUM structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DHAL_DP2SETSTREAMSOURCEUM structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

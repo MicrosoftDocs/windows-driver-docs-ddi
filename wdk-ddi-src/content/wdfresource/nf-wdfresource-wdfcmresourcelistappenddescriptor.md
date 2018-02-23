@@ -7,8 +7,8 @@ old-location: wdf\wdfcmresourcelistappenddescriptor.htm
 old-project: wdf
 ms.assetid: 1a0f8ea5-9b1f-4301-b96d-aa37b80b4ce2
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfcmresourcelistappenddescriptor, DFResourceObjectRef_13d42471-baa5-4985-a5fa-70336f2be352.xml, wdfresource/WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor method, PFN_WDFCMRESOURCELISTAPPENDDESCRIPTOR, kmdf.wdfcmresourcelistappenddescriptor
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfcmresourcelistappenddescriptor, kmdf.wdfcmresourcelistappenddescriptor, DFResourceObjectRef_13d42471-baa5-4985-a5fa-70336f2be352.xml, wdfresource/WdfCmResourceListAppendDescriptor, WdfCmResourceListAppendDescriptor method, WdfCmResourceListAppendDescriptor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WdfCmResourceListAppendDescriptor
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_SEND_OPTIONS, WDF_REQUEST_SEND_OPTIONS"
+req.typenames: WDF_REQUEST_SEND_OPTIONS, *PWDF_REQUEST_SEND_OPTIONS
 req.product: Windows 10 or later.
 ---
 
@@ -79,7 +79,7 @@ A handle to a framework resource-list object that represents a list of hardware 
 
 ### -param Descriptor [in]
 
-A pointer to a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
+A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that describes a hardware resource.
 
 
 ## -returns
@@ -140,7 +140,7 @@ A system bug check occurs if the driver supplies an invalid object handle.
 
 
 
-The framework copies the contents of the <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure into internal storage, so the driver routine that calls <b>WdfCmResourceListAppendDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfCmResourceListAppendDescriptor</b> it can reuse the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure.
+The framework copies the contents of the <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure into internal storage, so the driver routine that calls <b>WdfCmResourceListAppendDescriptor</b> can allocate the structure locally. After the driver calls <b>WdfCmResourceListAppendDescriptor</b> it can reuse the <b>CM_PARTIAL_RESOURCE_DESCRIPTOR</b> structure.
 
 For more information about resource lists, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/hardware-resources-for-kmdf-drivers">Hardware Resources for Framework-Based Drivers</a>.
 
@@ -184,11 +184,7 @@ PdoEvtDeviceResourcesQuery(
 
 ## -see-also
 
-<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
-
-
-
-<a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a>
+<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistinsertdescriptor.md">WdfCmResourceListInsertDescriptor</a>
 
 
 
@@ -196,11 +192,15 @@ PdoEvtDeviceResourcesQuery(
 
 
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
-<a href="..\wdfresource\nf-wdfresource-wdfcmresourcelistinsertdescriptor.md">WdfCmResourceListInsertDescriptor</a>
+<a href="https://msdn.microsoft.com/3210b28b-cbaa-4ad9-9ca8-3b5f03aee41e">EvtDeviceResourcesQuery</a>
+
+
+
+<a href="..\wdfdevice\nc-wdfdevice-evt_wdf_device_prepare_hardware.md">EvtDevicePrepareHardware</a>
 
 
 
@@ -208,5 +208,5 @@ PdoEvtDeviceResourcesQuery(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfCmResourceListAppendDescriptor method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfCmResourceListAppendDescriptor method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

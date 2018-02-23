@@ -7,8 +7,8 @@ old-location: kernel\file_io_priority_hint_information.htm
 old-project: kernel
 ms.assetid: 55f88d42-8411-49f0-bc40-7ccc268b3cc5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml, _FILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION, wdm/PFILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION, wdm/FILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], kernel.file_io_priority_hint_information, PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: wdm/PFILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION structure pointer [Kernel-Mode Driver Architecture], kernel.file_io_priority_hint_information, _FILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/FILE_IO_PRIORITY_HINT_INFORMATION, PFILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION, kstruct_b_babd0cbe-1870-4d71-86c5-06c438691202.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_IO_PRIORITY_HINT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: FILE_IO_PRIORITY_HINT_INFORMATION, *PFILE_IO_PRIORITY_HINT_INFORMATION
+req.typenames: "*PFILE_IO_PRIORITY_HINT_INFORMATION, FILE_IO_PRIORITY_HINT_INFORMATION"
 req.product: Windows 10 or later.
 ---
 
@@ -84,7 +84,7 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
 
 
 
@@ -92,7 +92,7 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
 
 
-<a href="..\wdm\ne-wdm-_io_priority_hint.md">IO_PRIORITY_HINT</a>
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
 
 
 
@@ -100,5 +100,5 @@ For more information about priority hints, see <a href="https://msdn.microsoft.c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_IO_PRIORITY_HINT_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_IO_PRIORITY_HINT_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: wdf\write_register_buffer_uchar.htm
 old-project: wdf
 ms.assetid: 5A124150-44E8-4F95-913A-8ECA29669A24
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR, wdf.write_register_buffer_uchar, umdf.write_register_buffer_uchar, WRITE_REGISTER_BUFFER_UCHAR function
+ms.date: 2/20/2018
+ms.keywords: WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR function, umdf.write_register_buffer_uchar, wudfddi_hwaccess/WRITE_REGISTER_BUFFER_UCHAR, wdf.write_register_buffer_uchar
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

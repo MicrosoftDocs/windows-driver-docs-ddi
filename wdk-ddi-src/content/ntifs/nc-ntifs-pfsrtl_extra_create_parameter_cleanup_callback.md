@@ -7,7 +7,7 @@ old-location: ifsk\pfsrtl_extra_create_parameter_cleanup_callback.htm
 old-project: ifsk
 ms.assetid: 76dc75fa-90ee-4fe7-b8f2-45e1a08a061f
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
+ms.date: 2/16/2018
 ms.keywords: ifsk.pfsrtl_extra_create_parameter_cleanup_callback, PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK function pointer [Installable File System Drivers], PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK, ntifs/PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK, FilterCallbacks_afe97c84-8818-4577-ad94-8f8fdf044570.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK
 product: Windows
 targetos: Windows
-req.typenames: "*PVOLUME_READ_PLEX_INPUT, VOLUME_READ_PLEX_INPUT"
+req.typenames: VOLUME_READ_PLEX_INPUT, *PVOLUME_READ_PLEX_INPUT
 ---
 
 # PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK callback
@@ -122,11 +122,11 @@ The following routines support the PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBAC
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameterlist.md">FltFreeExtraCreateParameterList</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -138,7 +138,7 @@ The following routines support the PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBAC
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterfromlookasidelist.md">FltAllocateExtraCreateParameterFromLookasideList</a>
 
 
 
@@ -146,7 +146,7 @@ The following routines support the PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBAC
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
 
@@ -154,5 +154,5 @@ The following routines support the PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBAC
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK function pointer%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20PFSRTL_EXTRA_CREATE_PARAMETER_CLEANUP_CALLBACK function pointer%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

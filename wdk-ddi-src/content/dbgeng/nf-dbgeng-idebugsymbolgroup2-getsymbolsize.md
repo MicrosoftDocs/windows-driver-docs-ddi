@@ -4,11 +4,11 @@ title: IDebugSymbolGroup2::GetSymbolSize method
 author: windows-driver-content
 description: The GetSymbolSize method returns the size of a symbol's value.
 old-location: debugger\getsymbolsize.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f35bbbeb-585b-47b0-ae36-bd37fe9e1bbc
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbolGroup2::GetSymbolSize, ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, GetSymbolSize, IDebugSymbolGroup2::GetSymbolSize, IDebugSymbolGroup2, GetSymbolSize method [Windows Debugging], debugger.getsymbolsize, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSymbolGroup2::GetSymbolSize, GetSymbolSize, ComOther_a6e69468-38f9-449d-9bd7-0ef52585f2aa.xml, IDebugSymbolGroup2 interface [Windows Debugging], GetSymbolSize method, GetSymbolSize method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup2, debugger.getsymbolsize, IDebugSymbolGroup2::GetSymbolSize, GetSymbolSize method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbolGroup2.GetSymbolSize
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::GetSymbolSize method
@@ -128,7 +128,7 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547975">GetNumberSymbols</a>
+<a href="https://msdn.microsoft.com/b6f03eb5-e386-4e88-a729-db08f1fa460c">IDebugSymbols::GetTypeSize</a>
 
 
 
@@ -144,5 +144,5 @@ For more information about symbol groups, see <a href="https://msdn.microsoft.co
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolSize method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbolGroup2::GetSymbolSize method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

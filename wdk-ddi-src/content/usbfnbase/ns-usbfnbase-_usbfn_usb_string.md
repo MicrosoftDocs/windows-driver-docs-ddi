@@ -4,11 +4,11 @@ title: "_USBFN_USB_STRING"
 author: windows-driver-content
 description: Describes a USB string descriptor and the associated string index.
 old-location: buses\usbfn_usb_string.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 1169A369-0E6D-4308-ABF6-0724FED73AF9
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PUSBFN_USB_STRING, usbfnbase/PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], USBFN_USB_STRING structure [Buses], *PUSBFN_USB_STRING, USBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, _USBFN_USB_STRING, buses.usbfn_usb_string
+ms.date: 2/15/2018
+ms.keywords: "*PUSBFN_USB_STRING, buses.usbfn_usb_string, PUSBFN_USB_STRING, USBFN_USB_STRING structure [Buses], USBFN_USB_STRING, usbfnbase/USBFN_USB_STRING, usbfnbase/PUSBFN_USB_STRING, PUSBFN_USB_STRING structure pointer [Buses], _USBFN_USB_STRING"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,5 +89,5 @@ Pointer to the string.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBFN_USB_STRING structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBFN_USB_STRING structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

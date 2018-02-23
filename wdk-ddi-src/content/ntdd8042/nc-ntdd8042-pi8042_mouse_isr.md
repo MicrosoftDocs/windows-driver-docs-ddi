@@ -7,7 +7,7 @@ old-location: hid\pi8042_mouse_isr.htm
 old-project: hid
 ms.assetid: 7c8a0dc8-49ec-476f-b183-1baa419e831d
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.pi8042_mouse_isr, MouseIsr callback function [Human Input Devices], MouseIsr, PI8042_MOUSE_ISR, PI8042_MOUSE_ISR, ntdd8042/MouseIsr, i8042ref_f077c4e7-f77b-4f47-a0a7-a7007e4f2475.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -143,7 +143,7 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
 
 
 
@@ -155,7 +155,7 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542403">MOUSE_INPUT_DATA</a>
+<a href="https://msdn.microsoft.com/34d0a7e9-4a1e-43ba-a643-800ebaadc360">MouFilter_IsrHook</a>
 
 
 
@@ -163,5 +163,5 @@ A PI8042_MOUSE_ISR callback runs in kernel mode at the IRQL of the I8042prt mous
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_MOUSE_ISR callback function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20PI8042_MOUSE_ISR callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

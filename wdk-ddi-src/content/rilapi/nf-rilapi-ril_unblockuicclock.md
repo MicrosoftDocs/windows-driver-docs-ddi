@@ -7,8 +7,8 @@ old-location: netvista\ril_unblockuicclock.htm
 old-project: netvista
 ms.assetid: a8cddfa1-b15e-4832-8c9c-12d378bc682d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_UnblockUiccLock, netvista.ril_unblockuicclock, RIL_UnblockUiccLock method [Network Drivers Starting with Windows Vista], rilapi/RIL_UnblockUiccLock
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_unblockuicclock, RIL_UnblockUiccLock, rilapi/RIL_UnblockUiccLock, RIL_UnblockUiccLock method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_UnblockUiccLock
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

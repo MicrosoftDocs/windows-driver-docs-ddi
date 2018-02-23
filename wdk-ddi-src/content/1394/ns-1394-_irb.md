@@ -7,8 +7,8 @@ old-location: ieee\irb.htm
 old-project: IEEE
 ms.assetid: 456712c9-720c-436c-b1db-a6d53c358e22
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IRB structure [Buses], _IRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, IRB, *PIRB, PIRB, PIRB structure pointer [Buses], 1394/IRB, IEEE.irb, 1394/PIRB
+ms.date: 2/15/2018
+ms.keywords: "_IRB, IRB, IEEE.irb, PIRB structure pointer [Buses], PIRB, *PIRB, IRB structure [Buses], 1394/IRB, 1394stct_84bb3968-39fc-4b3b-90cb-a4e917b8310a.xml, 1394/PIRB"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -230,188 +230,6 @@ Specifies a union of structures, one for each value of <b>FunctionNumber</b>. Th
  
 
 
-### -field u.AsyncRead
-
- 
-
-
-### -field u.AsyncWrite
-
- 
-
-
-### -field u.AsyncLock
-
- 
-
-
-### -field u.IsochAllocateBandwidth
-
- 
-
-
-### -field u.IsochAllocateChannel
-
- 
-
-
-### -field u.IsochAllocateResources
-
- 
-
-
-### -field u.IsochAttachBuffers
-
- 
-
-
-### -field u.IsochDetachBuffers
-
- 
-
-
-### -field u.IsochFreeBandwidth
-
- 
-
-
-### -field u.IsochFreeChannel
-
- 
-
-
-### -field u.IsochFreeResources
-
- 
-
-
-### -field u.IsochListen
-
- 
-
-
-### -field u.IsochQueryCurrentCycleTime
-
- 
-
-
-### -field u.IsochQueryResources
-
- 
-
-
-### -field u.IsochSetChannelBandwidth
-
- 
-
-
-### -field u.IsochStop
-
- 
-
-
-### -field u.IsochTalk
-
- 
-
-
-### -field u.IsochModifyStreamProperties
-
- 
-
-
-### -field u.AllocateAddressRange
-
- 
-
-
-### -field u.FreeAddressRange
-
- 
-
-
-### -field u.GetLocalHostInformation
-
- 
-
-
-### -field u.Get1394AddressFromDeviceObject
-
- 
-
-
-### -field u.Control
-
- 
-
-
-### -field u.GetMaxSpeedBetweenDevices
-
- 
-
-
-### -field u.SetDeviceXmitProperties
-
- 
-
-
-### -field u.SetLocalHostProperties
-
- 
-
-
-### -field u.GetConfigurationInformation
-
- 
-
-
-### -field u.GetConfigRom
-
- 
-
-
-### -field u.BusReset
-
- 
-
-
-### -field u.GetGenerationCount
-
- 
-
-
-### -field u.SendPhyConfigurationPacket
-
- 
-
-
-### -field u.SendPhyPacket
-
- 
-
-
-### -field u.ReceivePhyPackets
-
- 
-
-
-### -field u.GetSpeedTopologyMaps
-
- 
-
-
-### -field u.BusResetNotification
-
- 
-
-
-### -field u.AsyncStream
-
- 
-
-
-
-
 ## -remarks
 
 
@@ -431,5 +249,5 @@ The <b>Parameters-&gt;Others.Arguments1</b> member of an <a href="https://msdn.m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20IRB structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20IRB structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

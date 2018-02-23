@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::ChangeSymbolState method
 author: windows-driver-content
 description: The ChangeSymbolState callback method is called by the engine when the symbol state changes.
 old-location: debugger\idebugeventcallbackswide_changesymbolstate.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: ea331612-5c48-4320-a658-101c3d93e7be
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ChangeSymbolState method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, IDebugEventCallbacksWide, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, debugger.idebugeventcallbackswide_changesymbolstate, ChangeSymbolState, IDebugEventCallbacksWide::ChangeSymbolState
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugEventCallbacksWide::ChangeSymbolState, IDebugEventCallbacksWide, ChangeSymbolState method [Windows Debugging], IDebugEventCallbacksWide interface, ChangeSymbolState, IDebugEventCallbacksWide interface [Windows Debugging], ChangeSymbolState method, ChangeSymbolState method [Windows Debugging], debugger.idebugeventcallbackswide_changesymbolstate, IDebugEventCallbacksWide::ChangeSymbolState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.ChangeSymbolState
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::ChangeSymbolState method

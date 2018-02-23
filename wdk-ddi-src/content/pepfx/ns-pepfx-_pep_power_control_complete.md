@@ -7,13 +7,13 @@ old-location: kernel\pep_power_control_complete.htm
 old-project: kernel
 ms.assetid: E270B609-2D47-4D55-94A6-BE82B2E5B77A
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE, pepfx/PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, _PEP_POWER_CONTROL_COMPLETE
+ms.date: 2/16/2018
+ms.keywords: PEP_POWER_CONTROL_COMPLETE, pepfx/PPEP_POWER_CONTROL_COMPLETE, pepfx/PEP_POWER_CONTROL_COMPLETE, kernel.pep_power_control_complete, PPEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE structure [Kernel-Mode Driver Architecture], PPEP_POWER_CONTROL_COMPLETE structure pointer [Kernel-Mode Driver Architecture], _PEP_POWER_CONTROL_COMPLETE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PEP_POWER_CONTROL_COMPLETE
 product: Windows
 targetos: Windows
-req.typenames: PEP_POWER_CONTROL_COMPLETE, *PPEP_POWER_CONTROL_COMPLETE
+req.typenames: "*PPEP_POWER_CONTROL_COMPLETE, PEP_POWER_CONTROL_COMPLETE"
 ---
 
 # _PEP_POWER_CONTROL_COMPLETE structure
@@ -117,5 +117,5 @@ If the output buffer is too small to receive all of the result data from the ope
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_POWER_CONTROL_COMPLETE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_POWER_CONTROL_COMPLETE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

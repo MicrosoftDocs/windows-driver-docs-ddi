@@ -7,8 +7,8 @@ old-location: display\dxgkarg_patch.htm
 old-project: display
 ms.assetid: 37ca2208-253c-417e-a44c-fd1303d5f3dc
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKARG_PATCH, _DXGKARG_PATCH, DXGKARG_PATCH structure [Display Devices], d3dkmddi/DXGKARG_PATCH, display.dxgkarg_patch, DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml
+ms.date: 2/20/2018
+ms.keywords: display.dxgkarg_patch, DmStructs_1fd78713-859f-4584-a696-e89976b58ab7.xml, DXGKARG_PATCH structure [Display Devices], DXGKARG_PATCH, d3dkmddi/DXGKARG_PATCH, _DXGKARG_PATCH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,20 +87,6 @@ typedef struct _DXGKARG_PATCH {
 ## -struct-fields
 
 
-
-
-### -field hDevice
-
-[in] If a driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains.
-
-For some paging operations, <b>hDevice</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member. 
-
-
-### -field hContext
-
-[in] If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains. 
-
-For some paging operations, <b>hContext</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
 
 
 ### -field DmaBufferSegmentId
@@ -230,6 +216,20 @@ For paging operations, <b>PatchLocationListSubmissionLength</b> is zero.
 [in] Reserved for future use.
 
 
+#### - hDevice
+
+[in] If a driver is not multiple-engine aware (that is, the driver does not support context creation), a handle to the display device (graphics context) that the submission request originated from. A device handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains.
+
+For some paging operations, <b>hDevice</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member. 
+
+
+#### - hContext
+
+[in] If the driver is multiple-engine aware (that is, the driver supports context creation), a handle to the device context that the submission request originated from. A context handle is supplied to the driver's <a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a> function in the union that DXGKARG_PATCH contains. 
+
+For some paging operations, <b>hContext</b> is <b>NULL</b> (for example, paging operations that evict the content of the entire frame buffer during power management). Paging operations are indicated by the <b>Paging</b> bit-field flag in the <b>Flags</b> member.
+
+
 ## -remarks
 
 
@@ -241,7 +241,7 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 ## -see-also
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
 
 
 
@@ -249,7 +249,7 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 
 
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
+<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
 
 
 
@@ -257,27 +257,7 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 
 
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
-
-
-
-<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
-
-
-
-<a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_patchlocationlist.md">D3DDDI_PATCHLOCATIONLIST</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_patch.md">DxgkDdiPatch</a>
-
-
-
-<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_render.md">DxgkDdiRender</a>
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_present.md">DxgkDdiPresent</a>
 
 
 
@@ -285,9 +265,29 @@ The display miniport driver returns an array in the <b>pAllocationList</b> membe
 
 
 
- 
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_contextinfo.md">DXGK_CONTEXTINFO</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_createcontext.md">DxgkDdiCreateContext</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgk_patchflags.md">DXGK_PATCHFLAGS</a>
+
+
+
+<a href="..\d3dkmddi\ns-d3dkmddi-_dxgkarg_render.md">DXGKARG_RENDER</a>
+
+
+
+<a href="..\d3dkmddi\nc-d3dkmddi-dxgkddi_buildpagingbuffer.md">DxgkDdiBuildPagingBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_PATCH structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGKARG_PATCH structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

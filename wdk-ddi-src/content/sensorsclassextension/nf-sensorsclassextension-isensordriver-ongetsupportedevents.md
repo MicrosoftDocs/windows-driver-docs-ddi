@@ -7,8 +7,8 @@ old-location: sensors\isensordriver_ongetsupportedevents.htm
 old-project: sensors
 ms.assetid: b323f803-56fb-44db-9b88-be25062c08ff
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: sensors.isensordriver_ongetsupportedevents, OnGetSupportedEvents method [Sensor Devices], OnGetSupportedEvents, ISensorDriver::OnGetSupportedEvents, ISensorDriver
+ms.date: 2/15/2018
+ms.keywords: ISensorDriver, OnGetSupportedEvents, OnGetSupportedEvents method [Sensor Devices], ISensorDriver::OnGetSupportedEvents, sensors.isensordriver_ongetsupportedevents
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

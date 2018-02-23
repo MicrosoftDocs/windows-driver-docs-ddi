@@ -7,8 +7,8 @@ old-location: print\colorprofilesubtype.htm
 old-project: print
 ms.assetid: 7ec0dd2d-7be5-4c85-8096-64a45aee01a5
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: icm/CPST_PERCEPTUAL, CPST_ABSOLUTE_COLORIMETRIC, COLORPROFILESUBTYPE enumeration [Print Devices], COLORPROFILESUBTYPE, CPST_PERCEPTUAL, CPST_RELATIVE_COLORIMETRIC, icm/COLORPROFILESUBTYPE, icm/CPST_RELATIVE_COLORIMETRIC, icm/CPST_NONE, CPST_SATURATION, icm/CPST_ABSOLUTE_COLORIMETRIC, CPST_RGB_WORKING_SPACE, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, icm/CPST_SATURATION, *PCOLORPROFILESUBTYPE, icm/CPST_CUSTOM_WORKING_SPACE, icm/CPST_RGB_WORKING_SPACE, print.colorprofilesubtype, CPST_NONE, CPST_CUSTOM_WORKING_SPACE
+ms.date: 2/21/2018
+ms.keywords: CPST_CUSTOM_WORKING_SPACE, icm/CPST_CUSTOM_WORKING_SPACE, icm/COLORPROFILESUBTYPE, COLORPROFILESUBTYPE enumeration [Print Devices], icm/CPST_PERCEPTUAL, CPST_ABSOLUTE_COLORIMETRIC, icm/CPST_ABSOLUTE_COLORIMETRIC, icm/CPST_RGB_WORKING_SPACE, CPST_RGB_WORKING_SPACE, CPST_RELATIVE_COLORIMETRIC, icm/CPST_SATURATION, COLORPROFILESUBTYPE, icm/CPST_NONE, icm/CPST_RELATIVE_COLORIMETRIC, CPST_SATURATION, colorfnc_10016472-785a-4ef5-95c2-7fd3699a6a81.xml, CPST_NONE, print.colorprofilesubtype, CPST_PERCEPTUAL, *PCOLORPROFILESUBTYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -139,17 +139,17 @@ The PCOLORPROFILESUBTYPE and LPCOLORPROFILESUBTYPE data types are defined as poi
 
 ## -see-also
 
-<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
-
-
-
 <a href="..\icm\nf-icm-wcssetdefaultcolorprofile.md">WcsSetDefaultColorProfile</a>
 
 
 
- 
+<a href="..\icm\ne-icm-colorprofiletype.md">COLORPROFILETYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20COLORPROFILESUBTYPE enumeration%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20COLORPROFILESUBTYPE enumeration%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

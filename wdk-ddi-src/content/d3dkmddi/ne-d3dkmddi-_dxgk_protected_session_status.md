@@ -7,8 +7,8 @@ old-location: display\dxgk_protected_session_status.htm
 old-project: display
 ms.assetid: B6FCA052-FFAE-4F7D-8BDE-CDB84772B5E5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_PROTECTED_SESSION_STATUS_INVALID, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS, _DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], display.dxgk_protected_session_status, DXGK_PROTECTED_SESSION_STATUS_OK
+ms.date: 2/20/2018
+ms.keywords: DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS, d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_OK, _DXGK_PROTECTED_SESSION_STATUS, DXGK_PROTECTED_SESSION_STATUS_INVALID, display.dxgk_protected_session_status, DXGK_PROTECTED_SESSION_STATUS_OK, DXGK_PROTECTED_SESSION_STATUS enumeration [Display Devices], d3dkmddi/DXGK_PROTECTED_SESSION_STATUS_INVALID
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

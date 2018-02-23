@@ -7,8 +7,8 @@ old-location: ieee\cmp_create_plug.htm
 old-project: IEEE
 ms.assetid: 4FE3FE9E-9F00-431D-99F0-002B1368CE34
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: CMP_CREATE_PLUG, 61883/PCMP_CREATE_PLUG, PCMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, *PCMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], _CMP_CREATE_PLUG, IEEE.cmp_create_plug, CMP_CREATE_PLUG structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: 61883/PCMP_CREATE_PLUG, PCMP_CREATE_PLUG, CMP_CREATE_PLUG, 61883/CMP_CREATE_PLUG, CMP_CREATE_PLUG structure [Buses], _CMP_CREATE_PLUG, PCMP_CREATE_PLUG structure pointer [Buses], IEEE.cmp_create_plug, *PCMP_CREATE_PLUG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -149,5 +149,5 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CMP_CREATE_PLUG structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CMP_CREATE_PLUG structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

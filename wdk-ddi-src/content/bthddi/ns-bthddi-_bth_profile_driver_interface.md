@@ -7,8 +7,8 @@ old-location: bltooth\bth_profile_driver_interface.htm
 old-project: bltooth
 ms.assetid: d4aa5fa9-966c-49c5-b41c-ca963a201e21
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bth_structs_0df6b87d-3846-49ed-9614-e83f2e828e7d.xml, _BTH_PROFILE_DRIVER_INTERFACE, bltooth.bth_profile_driver_interface, *PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE structure [Bluetooth Devices], PBTH_PROFILE_DRIVER_INTERFACE structure pointer [Bluetooth Devices], bthddi/BTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE, bthddi/PBTH_PROFILE_DRIVER_INTERFACE
+ms.date: 2/15/2018
+ms.keywords: BTH_PROFILE_DRIVER_INTERFACE structure [Bluetooth Devices], bth_structs_0df6b87d-3846-49ed-9614-e83f2e828e7d.xml, bltooth.bth_profile_driver_interface, bthddi/BTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE, _BTH_PROFILE_DRIVER_INTERFACE, bthddi/PBTH_PROFILE_DRIVER_INTERFACE, PBTH_PROFILE_DRIVER_INTERFACE structure pointer [Bluetooth Devices], *PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_PROFILE_DRIVER_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_PROFILE_DRIVER_INTERFACE, BTH_PROFILE_DRIVER_INTERFACE"
+req.typenames: BTH_PROFILE_DRIVER_INTERFACE, *PBTH_PROFILE_DRIVER_INTERFACE
 ---
 
 # _BTH_PROFILE_DRIVER_INTERFACE structure
@@ -78,7 +78,7 @@ typedef struct _BTH_PROFILE_DRIVER_INTERFACE {
 A structure that describes the 
      <b>BTH_PROFILE_DRIVER_INTERFACE</b> interface for use by profile drivers. For more information about this
      structure, see 
-     <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>.
+     <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>.
 
 
 ### -field BthAllocateBrb
@@ -128,7 +128,7 @@ All the members of this structure, other than the
 
 ## -see-also
 
-<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
 
 
 
@@ -136,15 +136,15 @@ All the members of this structure, other than the
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_initialize_brb.md">BthInitializeBrb</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_is_bluetooth_version_available.md">IsBluetoothVersionAvailable</a>
 
 
 
-<a href="..\bthddi\nc-bthddi-pfnbth_allocate_brb.md">BthAllocateBrb</a>
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\bthddi\nc-bthddi-pfnbth_reuse_brb.md">BthReuseBrb</a>
 
 
 
@@ -156,5 +156,5 @@ All the members of this structure, other than the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_PROFILE_DRIVER_INTERFACE structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_PROFILE_DRIVER_INTERFACE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

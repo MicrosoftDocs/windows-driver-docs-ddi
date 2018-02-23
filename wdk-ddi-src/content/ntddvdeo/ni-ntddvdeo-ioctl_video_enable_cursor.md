@@ -7,7 +7,7 @@ old-location: display\ioctl_video_enable_cursor.htm
 old-project: display
 ms.assetid: 727add49-3224-4bc0-8d98-971e282c575a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.ioctl_video_enable_cursor, IOCTL_VIDEO_ENABLE_CURSOR control code [Display Devices], IOCTL_VIDEO_ENABLE_CURSOR, ntddvdeo/IOCTL_VIDEO_ENABLE_CURSOR, Video_IOCTLs_adcda61e-67fe-4c4e-a6df-015ff1d95c36.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

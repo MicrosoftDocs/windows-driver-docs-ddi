@@ -7,8 +7,8 @@ old-location: netvista\ndis_switch_port_property_routing_domain.htm
 old-project: netvista
 ms.assetid: 6E1DF4F3-9ED4-4E34-A768-1B5008D61B0C
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, netvista.ndis_switch_port_property_routing_domain, _NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, *PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, ntddndis/NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure pointer [Network Drivers Starting with Windows Vista], NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, _NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, netvista.ndis_switch_port_property_routing_domain, PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
 product: Windows
 targetos: Windows
-req.typenames: NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, *PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN
+req.typenames: "*PNDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN, NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN"
 ---
 
 # _NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure
@@ -131,11 +131,15 @@ The offset, in bytes, from the beginning of the buffer pointed to by the <b>Info
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_isolation_name.md">NDIS_ISOLATION_NAME</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_ndis_routing_domain_isolation_entry.md">NDIS_ROUTING_DOMAIN_ISOLATION_ENTRY</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -147,13 +151,9 @@ The offset, in bytes, from the beginning of the buffer pointed to by the <b>Info
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_oid_request.md">NDIS_OID_REQUEST</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_PORT_PROPERTY_ROUTING_DOMAIN structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

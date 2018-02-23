@@ -7,7 +7,7 @@ old-location: storage\ioctl_changer_get_status.htm
 old-project: storage
 ms.assetid: 88f1a248-0beb-4c7c-b68d-6ce145bf5ca7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_changer_get_status, IOCTL_CHANGER_GET_STATUS control code [Storage Devices], IOCTL_CHANGER_GET_STATUS, ntddchgr/IOCTL_CHANGER_GET_STATUS, k307_81e37b47-2d26-466d-9ddc-cc681398d607.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CHANGER_GET_STATUS
 product: Windows
 targetos: Windows
-req.typenames: ELEMENT_TYPE, *PELEMENT_TYPE
+req.typenames: "*PELEMENT_TYPE, ELEMENT_TYPE"
 ---
 
 # IOCTL_CHANGER_GET_STATUS IOCTL

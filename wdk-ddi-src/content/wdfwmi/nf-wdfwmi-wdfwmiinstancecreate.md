@@ -7,8 +7,8 @@ old-location: wdf\wdfwmiinstancecreate.htm
 old-project: wdf
 ms.assetid: ed662d6f-c42f-4dcb-86c5-135a302c59d7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfwmiinstancecreate, wdfwmi/WdfWmiInstanceCreate, kmdf.wdfwmiinstancecreate, WdfWmiInstanceCreate, WdfWmiInstanceCreate method, DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml, PFN_WDFWMIINSTANCECREATE
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfwmiinstancecreate, WdfWmiInstanceCreate method, kmdf.wdfwmiinstancecreate, DFWMIRef_8d75a5ee-d683-46fb-ba16-a2f8a2e892e3.xml, wdfwmi/WdfWmiInstanceCreate, WdfWmiInstanceCreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -248,7 +248,15 @@ PciDrvWmiRegistration(
 
 
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+
+
+
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
+
+
+
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
 
 
 
@@ -264,19 +272,11 @@ PciDrvWmiRegistration(
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancegetprovider.md">WdfWmiInstanceGetProvider</a>
-
-
-
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_instance_config.md">WDF_WMI_INSTANCE_CONFIG</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceassignmofresourcename.md">WdfDeviceAssignMofResourceName</a>
 
 
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -288,5 +288,5 @@ PciDrvWmiRegistration(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfWmiInstanceCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfWmiInstanceCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

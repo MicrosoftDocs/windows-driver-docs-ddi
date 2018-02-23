@@ -7,7 +7,7 @@ old-location: netvista\ndk_fn_srq_notification_callback.htm
 old-project: netvista
 ms.assetid: 3063F991-DDC5-4E52-979B-6CFCD11A604C
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.ndk_fn_srq_notification_callback, NdkSrqNotificationCallback callback function [Network Drivers Starting with Windows Vista], NdkSrqNotificationCallback, NDK_FN_SRQ_NOTIFICATION_CALLBACK, NDK_FN_SRQ_NOTIFICATION_CALLBACK, ndkpi/NdkSrqNotificationCallback
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	NdkSrqNotificationCallback
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_WWAN_VISIBLE_PROVIDERS, NDIS_WWAN_VISIBLE_PROVIDERS"
+req.typenames: NDIS_WWAN_VISIBLE_PROVIDERS, *PNDIS_WWAN_VISIBLE_PROVIDERS
 ---
 
 # NDK_FN_SRQ_NOTIFICATION_CALLBACK callback

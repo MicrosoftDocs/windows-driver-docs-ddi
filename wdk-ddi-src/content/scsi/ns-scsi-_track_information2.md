@@ -7,13 +7,13 @@ old-location: storage\track_information2.htm
 old-project: storage
 ms.assetid: 2fea2f8a-eb55-409c-80d2-c3f49ab6bfdf
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.track_information2, TRACK_INFORMATION2, scsi/TRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, scsi/PTRACK_INFORMATION2, PTRACK_INFORMATION2, _TRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], *PTRACK_INFORMATION2
+ms.date: 2/16/2018
+ms.keywords: "*PTRACK_INFORMATION2, TRACK_INFORMATION2 structure [Storage Devices], storage.track_information2, TRACK_INFORMATION2, _TRACK_INFORMATION2, PTRACK_INFORMATION2, scsi/TRACK_INFORMATION2, PTRACK_INFORMATION2 structure pointer [Storage Devices], structs-CD-ROM_a77c4142-fe27-489b-ab9c-1637cf4b911d.xml, scsi/PTRACK_INFORMATION2"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: scsi.h
-req.include-header: Scsi.h
+req.include-header: Scsi.h, Minitape.h, Storport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

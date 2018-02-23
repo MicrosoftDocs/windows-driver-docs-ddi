@@ -7,8 +7,8 @@ old-location: netvista\rilpersodeactivationstate_2.htm
 old-project: netvista
 ms.assetid: fb8950ef-7e46-45eb-b23f-5431488e1954
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilpersodeactivationstate_2, RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE, *LPRILPERSODEACTIVATIONSTATE
+ms.date: 2/16/2018
+ms.keywords: RILPERSODEACTIVATIONSTATE, RILPERSODEACTIVATIONSTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILPERSODEACTIVATIONSTATE, *LPRILPERSODEACTIVATIONSTATE, netvista.rilpersodeactivationstate_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

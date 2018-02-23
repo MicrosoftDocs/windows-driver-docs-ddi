@@ -7,8 +7,8 @@ old-location: ifsk\file_compression_information.htm
 old-project: ifsk
 ms.assetid: 69a360d9-6e17-4979-a4f3-219ac0739d99
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: "*PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], _FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION, ifsk.file_compression_information, PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], ntifs/FILE_COMPRESSION_INFORMATION, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml"
+ms.date: 2/16/2018
+ms.keywords: FILE_COMPRESSION_INFORMATION, ntifs/PFILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION structure pointer [Installable File System Drivers], *PFILE_COMPRESSION_INFORMATION, FILE_COMPRESSION_INFORMATION structure [Installable File System Drivers], ntifs/FILE_COMPRESSION_INFORMATION, _FILE_COMPRESSION_INFORMATION, PFILE_COMPRESSION_INFORMATION, fileinformationstructures_76adaca7-2c3e-4c87-8715-da468416e95a.xml, ifsk.file_compression_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,7 +152,7 @@ Reserved
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltqueryinformationfile.md">FltQueryInformationFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549283">IRP_MJ_QUERY_INFORMATION</a>
 
 
 
@@ -160,5 +160,5 @@ Reserved
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_COMPRESSION_INFORMATION structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FILE_COMPRESSION_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

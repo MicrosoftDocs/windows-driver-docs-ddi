@@ -7,8 +7,8 @@ old-location: netvista\rilchangecallbarringpasswordparams_2.htm
 old-project: netvista
 ms.assetid: 1a9dda19-329b-4046-bba1-1bbedf37fa31
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS, netvista.rilchangecallbarringpasswordparams_2, *LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS
+ms.date: 2/16/2018
+ms.keywords: "*LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS structure [Network Drivers Starting with Windows Vista], RILCHANGECALLBARRINGPASSWORDPARAMS, netvista.rilchangecallbarringpasswordparams_2, rilapitypes/RILCHANGECALLBARRINGPASSWORDPARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCHANGECALLBARRINGPASSWORDPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILCHANGECALLBARRINGPASSWORDPARAMS, *LPRILCHANGECALLBARRINGPASSWORDPARAMS
+req.typenames: "*LPRILCHANGECALLBARRINGPASSWORDPARAMS, RILCHANGECALLBARRINGPASSWORDPARAMS"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetpipeformatrequestforwrite.htm
 old-project: wdf
 ms.assetid: cf880701-d1e9-4bda-8d6c-35f35b707e9b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfUsbTargetPipeFormatRequestForWrite, kmdf.wdfusbtargetpipeformatrequestforwrite, wdfusb/WdfUsbTargetPipeFormatRequestForWrite, PFN_WDFUSBTARGETPIPEFORMATREQUESTFORWRITE, WdfUsbTargetPipeFormatRequestForWrite method, DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, wdf.wdfusbtargetpipeformatrequestforwrite
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdfusbtargetpipeformatrequestforwrite, DFUsbRef_4f71425c-5d39-433c-9820-d736b9f4f531.xml, WdfUsbTargetPipeFormatRequestForWrite method, wdfusb/WdfUsbTargetPipeFormatRequestForWrite, WdfUsbTargetPipeFormatRequestForWrite, wdf.wdfusbtargetpipeformatrequestforwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -323,5 +323,5 @@ Exit:
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeFormatRequestForWrite method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeFormatRequestForWrite method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

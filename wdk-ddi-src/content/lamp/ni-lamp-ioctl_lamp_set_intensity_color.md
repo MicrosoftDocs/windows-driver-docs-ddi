@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_set_intensity_color.htm
 old-project: stream
 ms.assetid: AD531C16-0E24-4CDE-B188-981260CF8F49
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.ioctl_lamp_set_intensity_color, IOCTL_LAMP_SET_INTENSITY_COLOR control code [Streaming Media Devices], IOCTL_LAMP_SET_INTENSITY_COLOR, lamp/IOCTL_LAMP_SET_INTENSITY_COLOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: ieee\unit_ddi_version.htm
 old-project: IEEE
 ms.assetid: 421ed5b2-389d-4099-b241-d952fb7e842d
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "_UNIT_DDI_VERSION, 61883/UNIT_DDI_VERSION, UNIT_DDI_VERSION structure [Buses], *PUNIT_DDI_VERSION, 61883_structures_dacbe4af-54fd-4b96-89e2-6954a623e75d.xml, 61883/PUNIT_DDI_VERSION, PUNIT_DDI_VERSION, IEEE.unit_ddi_version, PUNIT_DDI_VERSION structure pointer [Buses], UNIT_DDI_VERSION"
+ms.date: 2/15/2018
+ms.keywords: UNIT_DDI_VERSION structure [Buses], UNIT_DDI_VERSION, IEEE.unit_ddi_version, PUNIT_DDI_VERSION, PUNIT_DDI_VERSION structure pointer [Buses], *PUNIT_DDI_VERSION, _UNIT_DDI_VERSION, 61883/PUNIT_DDI_VERSION, 61883_structures_dacbe4af-54fd-4b96-89e2-6954a623e75d.xml, 61883/UNIT_DDI_VERSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UNIT_DDI_VERSION
 product: Windows
 targetos: Windows
-req.typenames: UNIT_DDI_VERSION, *PUNIT_DDI_VERSION
+req.typenames: "*PUNIT_DDI_VERSION, UNIT_DDI_VERSION"
 ---
 
 # _UNIT_DDI_VERSION structure
@@ -82,5 +82,5 @@ The current 61883 DDI version.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20UNIT_DDI_VERSION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20UNIT_DDI_VERSION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

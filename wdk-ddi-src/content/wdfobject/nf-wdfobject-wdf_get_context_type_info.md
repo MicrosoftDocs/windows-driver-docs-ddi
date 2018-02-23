@@ -7,8 +7,8 @@ old-location: wdf\wdf_get_context_type_info.htm
 old-project: wdf
 ms.assetid: 3273a4b6-9c5e-4671-be9e-45cdd010558a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_get_context_type_info, kmdf.wdf_get_context_type_info, DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, WDF_GET_CONTEXT_TYPE_INFO macro, WDF_GET_CONTEXT_TYPE_INFO, wdfobject/WDF_GET_CONTEXT_TYPE_INFO
+ms.date: 2/20/2018
+ms.keywords: wdfobject/WDF_GET_CONTEXT_TYPE_INFO, kmdf.wdf_get_context_type_info, WDF_GET_CONTEXT_TYPE_INFO, wdf.wdf_get_context_type_info, DFGenObjectRef_861429b7-5829-4a9e-81e2-b88947b36d62.xml, WDF_GET_CONTEXT_TYPE_INFO macro
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

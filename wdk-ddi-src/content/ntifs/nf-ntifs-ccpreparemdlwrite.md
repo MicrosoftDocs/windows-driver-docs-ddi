@@ -7,8 +7,8 @@ old-location: ifsk\ccpreparemdlwrite.htm
 old-project: ifsk
 ms.assetid: 84e231ad-50a1-471e-b514-6b769f2a7e1e
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.ccpreparemdlwrite, ccref_2523ff15-d200-4f45-bc05-aab30afadc15.xml, ntifs/CcPrepareMdlWrite, CcPrepareMdlWrite, CcPrepareMdlWrite routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ntifs/CcPrepareMdlWrite, CcPrepareMdlWrite, CcPrepareMdlWrite routine [Installable File System Drivers], ccref_2523ff15-d200-4f45-bc05-aab30afadc15.xml, ifsk.ccpreparemdlwrite
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -124,55 +124,11 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccmdlwriteabort.md">CcMdlWriteAbort</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
-
-
-
-<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmgetsystemaddressformdl.md">MmGetSystemAddressForMdl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
-
-
-
-<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff554568">MmInitializeMdl</a>
 
 
 
-<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
 
 
 
@@ -184,7 +140,15 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
-<a href="..\wdm\nf-wdm-ioallocatemdl.md">IoAllocateMdl</a>
+<a href="..\wdm\nf-wdm-mmgetsystemaddressformdl.md">MmGetSystemAddressForMdl</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmmaplockedpages.md">MmMapLockedPages</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554533">MmGetMdlByteOffset</a>
 
 
 
@@ -192,13 +156,49 @@ To cache a file, use <a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcIniti
 
 
 
+<a href="..\wdm\nf-wdm-mmunlockpages.md">MmUnlockPages</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmdlwritecomplete.md">CcMdlWriteComplete</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccmdlwriteabort.md">CcMdlWriteAbort</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554660">MmPrepareMdlForReuse</a>
+
+
+
 <a href="..\wdm\nf-wdm-mmgetmdlbytecount.md">MmGetMdlByteCount</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-cccopywrite.md">CcCopyWrite</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmprobeandlockpages.md">MmProbeAndLockPages</a>
+
+
+
+<a href="..\wdm\nf-wdm-mmunmaplockedpages.md">MmUnmapLockedPages</a>
+
+
+
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-ccinitializecachemap.md">CcInitializeCacheMap</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcPrepareMdlWrite routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20CcPrepareMdlWrite routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

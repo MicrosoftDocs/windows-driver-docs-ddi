@@ -7,8 +7,8 @@ old-location: kernel\enlistment_information_class.htm
 old-project: kernel
 ms.assetid: d031e032-66e3-4697-8db1-67655cfc223d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: EnlistmentBasicInformation, wdm/EnlistmentBasicInformation, ENLISTMENT_INFORMATION_CLASS, kernel.enlistment_information_class, EnlistmentRecoveryInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, EnlistmentCrmInformation, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], wdm/EnlistmentRecoveryInformation, _ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentCrmInformation, wdm/ENLISTMENT_INFORMATION_CLASS
+ms.date: 2/16/2018
+ms.keywords: kernel.enlistment_information_class, wdm/EnlistmentRecoveryInformation, wdm/EnlistmentCrmInformation, _ENLISTMENT_INFORMATION_CLASS, ENLISTMENT_INFORMATION_CLASS, wdm/EnlistmentBasicInformation, EnlistmentCrmInformation, wdm/ENLISTMENT_INFORMATION_CLASS, EnlistmentRecoveryInformation, ktm_ref_9bf2b9fa-5b9a-47fb-873c-6bd5f1930553.xml, ENLISTMENT_INFORMATION_CLASS enumeration [Kernel-Mode Driver Architecture], EnlistmentBasicInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,6 +87,10 @@ Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMA
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
+
+
+
 <a href="..\wdm\ns-wdm-_enlistment_basic_information.md">ENLISTMENT_BASIC_INFORMATION</a>
 
 
@@ -95,13 +99,9 @@ Information about an enlistment object is stored in an <b>ENLISTMENT_CRM_INFORMA
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationenlistment.md">ZwQueryInformationEnlistment</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ENLISTMENT_INFORMATION_CLASS enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20ENLISTMENT_INFORMATION_CLASS enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

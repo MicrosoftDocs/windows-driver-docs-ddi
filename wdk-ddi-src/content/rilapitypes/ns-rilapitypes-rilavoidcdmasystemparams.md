@@ -7,8 +7,8 @@ old-location: netvista\rilavoidcdmasystemparams_2.htm
 old-project: netvista
 ms.assetid: bd938bd9-479a-434c-91d6-93ec76ebe5d6
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilavoidcdmasystemparams_2, *LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILAVOIDCDMASYSTEMPARAMS
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilavoidcdmasystemparams_2, RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILAVOIDCDMASYSTEMPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILAVOIDCDMASYSTEMPARAMS, RILAVOIDCDMASYSTEMPARAMS"
+req.typenames: RILAVOIDCDMASYSTEMPARAMS, *LPRILAVOIDCDMASYSTEMPARAMS
 req.product: Windows 10 or later.
 ---
 

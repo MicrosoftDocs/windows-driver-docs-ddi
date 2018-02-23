@@ -7,8 +7,8 @@ old-location: kernel\iogetactivityidthread.htm
 old-project: kernel
 ms.assetid: 445A9EBA-EF15-4FE4-9747-3E1E138E13E7
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iogetactivityidthread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], IoGetActivityIdThread, ntddk/IoGetActivityIdThread
+ms.date: 2/16/2018
+ms.keywords: IoGetActivityIdThread, ntddk/IoGetActivityIdThread, IoGetActivityIdThread routine [Kernel-Mode Driver Architecture], kernel.iogetactivityidthread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

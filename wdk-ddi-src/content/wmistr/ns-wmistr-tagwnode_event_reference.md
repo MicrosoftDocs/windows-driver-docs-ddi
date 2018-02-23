@@ -7,8 +7,8 @@ old-location: kernel\wnode_event_reference.htm
 old-project: kernel
 ms.assetid: 9dfe75e5-301e-4378-a2ad-f43676d8c208
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PWNODE_EVENT_REFERENCE structure pointer [Kernel-Mode Driver Architecture], *PWNODE_EVENT_REFERENCE, tagWNODE_EVENT_REFERENCE, WNODE_EVENT_REFERENCE, kernel.wnode_event_reference, wmistr/PWNODE_EVENT_REFERENCE, kstruct_d_cf8551b3-5506-4c02-b56a-a4836429d5e1.xml, WNODE_EVENT_REFERENCE structure [Kernel-Mode Driver Architecture], wmistr/WNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE
+ms.date: 2/16/2018
+ms.keywords: WNODE_EVENT_REFERENCE structure [Kernel-Mode Driver Architecture], kstruct_d_cf8551b3-5506-4c02-b56a-a4836429d5e1.xml, tagWNODE_EVENT_REFERENCE, *PWNODE_EVENT_REFERENCE, wmistr/WNODE_EVENT_REFERENCE, wmistr/PWNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE, kernel.wnode_event_reference, WNODE_EVENT_REFERENCE, PWNODE_EVENT_REFERENCE structure pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WNODE_EVENT_REFERENCE
 product: Windows
 targetos: Windows
-req.typenames: WNODE_EVENT_REFERENCE, *PWNODE_EVENT_REFERENCE
+req.typenames: "*PWNODE_EVENT_REFERENCE, WNODE_EVENT_REFERENCE"
 req.product: Windows 10 or later.
 ---
 
@@ -79,11 +79,6 @@ typedef struct tagWNODE_EVENT_REFERENCE {
 Is a <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a> structure that contains information common to all <b>WNODE_<i>XXX</i></b> structures, such as the buffer size, the provider ID, the GUID that represents a data block associated with a request, and flags that provide information about the <b>WNODE_<i>XXX</i></b> data being passed or returned.
 
 
-### -field _WNODE_HEADER
-
- 
-
-
 ### -field TargetGuid
 
 Indicates the GUID that represents the event to query.
@@ -99,12 +94,14 @@ Indicates the size of the event.
  
 
 
-### -field DUMMYUNIONNAME.TargetInstanceIndex
+
+
+#### - TargetInstanceIndex
 
 Indicates the index into the driver's list of static instance names for the event. This member is valid only if the event block was registered with static instance names and WNODE_FLAGS_STATIC_INSTANCE_NAMES is set in <b>WnodeHeader.Flags</b>.
 
 
-### -field DUMMYUNIONNAME.TargetInstanceName
+#### - TargetInstanceName
 
 Indicates the dynamic instance name of the event as a counted Unicode string. This member is valid only if WNODE_FLAGS_STATIC_INSTANCE_NAMES is clear in <b>WnodeHeader.Flags</b> and the event block was registered with dynamic instance names.
 
@@ -122,10 +119,6 @@ The <b>ProviderId</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
-
-
-
 <a href="..\wmistr\ns-wmistr-_wnode_header.md">WNODE_HEADER</a>
 
 
@@ -134,9 +127,13 @@ The <b>ProviderId</b> member of the <a href="..\wmistr\ns-wmistr-_wnode_header.m
 
 
 
- 
+<a href="..\wdm\nf-wdm-iowmideviceobjecttoproviderid.md">IoWMIDeviceObjectToProviderId</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_EVENT_REFERENCE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WNODE_EVENT_REFERENCE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

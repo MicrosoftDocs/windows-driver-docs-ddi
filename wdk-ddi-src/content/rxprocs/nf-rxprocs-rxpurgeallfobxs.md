@@ -7,8 +7,8 @@ old-location: ifsk\rxpurgeallfobxs.htm
 old-project: ifsk
 ms.assetid: 3d2a31be-1b59-48a8-8cde-61d7f7319724
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RxPurgeAllFobxs, ifsk.rxpurgeallfobxs, rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml, rxprocs/RxPurgeAllFobxs, RxPurgeAllFobxs function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: rxprocs/RxPurgeAllFobxs, RxPurgeAllFobxs function [Installable File System Drivers], ifsk.rxpurgeallfobxs, rxref_80dc8a6f-2b11-44b1-986b-b29402e4d46e.xml, RxPurgeAllFobxs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -113,6 +113,10 @@ The <b>Flink</b> and <b>Blink</b> members for a list entry are <b>NULL</b>.
 
 ## -see-also
 
+<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
+
+
+
 <a href="..\scavengr\nf-scavengr-rxscavengefobxsfornetroot.md">RxScavengeFobxsForNetRoot</a>
 
 
@@ -121,13 +125,9 @@ The <b>Flink</b> and <b>Blink</b> members for a list entry are <b>NULL</b>.
 
 
 
-<a href="..\scavengr\nf-scavengr-rxpurgerelatedfobxs.md">RxPurgeRelatedFobxs</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxPurgeAllFobxs function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxPurgeAllFobxs function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

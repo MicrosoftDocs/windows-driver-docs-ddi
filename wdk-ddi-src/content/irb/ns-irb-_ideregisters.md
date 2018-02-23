@@ -7,8 +7,8 @@ old-location: storage\ideregisters.htm
 old-project: storage
 ms.assetid: a3df8ce0-4414-49d1-a02c-3f5a3efc0de2
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml, irb/IDEREGISTERS, IDEREGISTERS, _IDEREGISTERS, *PIDEREGISTERS, irb/PIDEREGISTERS, IDEREGISTERS structure [Storage Devices], PIDEREGISTERS structure pointer [Storage Devices], PIDEREGISTERS, storage.ideregisters
+ms.date: 2/16/2018
+ms.keywords: IDEREGISTERS structure [Storage Devices], irb/IDEREGISTERS, IDEREGISTERS, irb/PIDEREGISTERS, PIDEREGISTERS structure pointer [Storage Devices], PIDEREGISTERS, _IDEREGISTERS, storage.ideregisters, *PIDEREGISTERS, structs-ATA_8e024553-553c-4a64-9f74-7259f530b3b5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,5 +133,5 @@ The information reported in the IDEREGISTERS structure is intended to be a super
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDEREGISTERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDEREGISTERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

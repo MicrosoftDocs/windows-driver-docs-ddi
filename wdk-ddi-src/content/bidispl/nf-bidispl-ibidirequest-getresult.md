@@ -7,8 +7,8 @@ old-location: print\ibidirequest_ibidirequest__getresult.htm
 old-project: print
 ms.assetid: d3d37fd2-b3fa-4664-ba4b-c355197d9b40
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: GetResult, bidispl/IBidiRequest::GetResult, gdi.ibidirequest_ibidirequest__getresult, _win32_IBidiRequest_GetResult, IBidiRequest::GetResult, IBidiRequest, IBidiRequest interface [Print Devices], GetResult method, GetResult method [Print Devices], IBidiRequest interface, GetResult method [Print Devices], print.ibidirequest_ibidirequest__getresult
+ms.date: 2/21/2018
+ms.keywords: bidispl/IBidiRequest::GetResult, IBidiRequest::GetResult, IBidiRequest, gdi.ibidirequest_ibidirequest__getresult, IBidiRequest interface [Print Devices], GetResult method, GetResult method [Print Devices], GetResult, print.ibidirequest_ibidirequest__getresult, _win32_IBidiRequest_GetResult, GetResult method [Print Devices], IBidiRequest interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IBidiRequest.GetResult
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # IBidiRequest::GetResult method
@@ -141,17 +141,17 @@ Note that the return value indicates whether the method was successful. It does 
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
-
-
-
 <a href="https://msdn.microsoft.com/b15b1aff-623e-4159-ab0f-ce386a1377eb">Bidirectional Communication Schema</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff545163">Bidirectional Communication Interfaces</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::GetResult method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IBidiRequest::GetResult method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

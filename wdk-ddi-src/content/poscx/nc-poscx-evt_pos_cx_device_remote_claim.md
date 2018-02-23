@@ -7,7 +7,7 @@ old-location: pos\evt_pos_cx_device_remote_claim.htm
 old-project: pos
 ms.assetid: 3D8907A2-E53E-40D9-870A-AF0EB062E81F
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/19/2018
 ms.keywords: pos.evt_pos_cx_device_remote_claim, EvtPosCxDeviceRemoteClaim callback function, EvtPosCxDeviceRemoteClaim, EVT_POS_CX_DEVICE_REMOTE_CLAIM, EVT_POS_CX_DEVICE_REMOTE_CLAIM, poscx/EvtPosCxDeviceRemoteClaim
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EvtPosCxDeviceRemoteClaim
 product: Windows
 targetos: Windows
-req.typenames: "*PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR"
+req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -108,5 +108,5 @@ If the driver is unable to complete the remote claim transaction, it should retu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [pos\pos]:%20EVT_POS_CX_DEVICE_REMOTE_CLAIM callback function%20 RELEASE:%20(2/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

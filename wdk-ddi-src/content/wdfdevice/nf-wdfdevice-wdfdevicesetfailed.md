@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicesetfailed.htm
 old-project: wdf
 ms.assetid: 87fbceab-d08c-4da7-a257-1454f84c04b7
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicesetfailed, PFN_WDFDEVICESETFAILED, WdfDeviceSetFailed, wdfdevice/WdfDeviceSetFailed, wdf.wdfdevicesetfailed, DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml, WdfDeviceSetFailed method
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_7efacd41-7c8c-4832-b10a-cc7d3dac8982.xml, wdf.wdfdevicesetfailed, kmdf.wdfdevicesetfailed, wdfdevice/WdfDeviceSetFailed, WdfDeviceSetFailed, WdfDeviceSetFailed method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

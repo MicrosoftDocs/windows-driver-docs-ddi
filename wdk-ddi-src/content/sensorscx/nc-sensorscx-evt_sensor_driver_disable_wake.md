@@ -7,7 +7,7 @@ old-location: sensors\evt_sensor_driver_disable_wake.htm
 old-project: sensors
 ms.assetid: 15873D33-1423-47D7-8CE6-F2012241B658
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: sensors.evt_sensor_driver_disable_wake, EVT_SENSOR_DRIVER_DISABLE_WAKE callback function [Sensor Devices], EVT_SENSOR_DRIVER_DISABLE_WAKE, sensorscx/EVT_SENSOR_DRIVER_DISABLE_WAKE
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: ifsk\iocreatefilespecifydeviceobjecthint.htm
 old-project: ifsk
 ms.assetid: b7374625-6997-44db-b43b-748dab813fcd
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.iocreatefilespecifydeviceobjecthint, ntddk/IoCreateFileSpecifyDeviceObjectHint, ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml, IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.iocreatefilespecifydeviceobjecthint, ntddk/IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint, IoCreateFileSpecifyDeviceObjectHint routine [Installable File System Drivers], ioref_729440cd-ded3-40cf-a0c9-c10f523cd774.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -374,7 +374,7 @@ A set of flags that controls the file object attributes. If the caller is runnin
 
 ### -param IoStatusBlock [out]
 
-A pointer to an <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
+A pointer to an <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that receives the final completion status and information about the requested operation. On return from <b>IoCreateFileSpecifyDeviceObjectHint</b>, the <b>Information</b> member contains one of the following values:
 
 FILE_CREATED
 
@@ -1016,27 +1016,7 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 ## -see-also
 
-<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
-
-
-
-<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
-
-
-
-<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
+<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
 
 
 
@@ -1044,15 +1024,11 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
-<a href="..\ntifs\nf-ntifs-iocheckeabuffervalidity.md">IoCheckEaBufferValidity</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540466">ACCESS_MASK</a>
 
 
 
-<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
-
-
-
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+<a href="..\ntddk\ns-ntddk-_io_driver_create_context.md">IO_DRIVER_CREATE_CONTEXT</a>
 
 
 
@@ -1060,7 +1036,19 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwqueryinformationfile.md">ZwQueryInformationFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwsetinformationfile.md">ZwSetInformationFile</a>
+
+
+
+<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
 
 
 
@@ -1072,7 +1060,19 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
 
 
-<a href="..\wudfwdm\nf-wudfwdm-initializeobjectattributes.md">InitializeObjectAttributes</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+
+
+
+<a href="..\wdm\ns-wdm-_acl.md">ACL</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwcreatefile.md">ZwCreateFile</a>
+
+
+
+<a href="..\wdm\nf-wdm-zwwritefile.md">ZwWriteFile</a>
 
 
 
@@ -1080,5 +1080,5 @@ If the file name path that is passed to <b>IoCreateFileSpecifyDeviceObjectHint</
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateFileSpecifyDeviceObjectHint routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoCreateFileSpecifyDeviceObjectHint routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

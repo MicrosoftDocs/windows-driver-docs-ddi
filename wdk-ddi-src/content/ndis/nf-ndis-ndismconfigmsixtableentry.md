@@ -7,8 +7,8 @@ old-location: netvista\ndismconfigmsixtableentry.htm
 old-project: netvista
 ms.assetid: 93f94a42-bffb-4e4d-a560-b0da5d7d0019
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ndismconfigmsixtableentry, ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], NdisMConfigMSIXTableEntry, ndis/NdisMConfigMSIXTableEntry
+ms.date: 2/16/2018
+ms.keywords: ndis_msix_ref_421b54e0-bc38-45d0-9eb8-cbc4e4570836.xml, NdisMConfigMSIXTableEntry function [Network Drivers Starting with Windows Vista], netvista.ndismconfigmsixtableentry, ndis/NdisMConfigMSIXTableEntry, NdisMConfigMSIXTableEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -177,7 +177,7 @@ For the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_msix_config_parameters.md">NDIS_MSIX_CONFIG_PARAMETERS</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
 
 
 
@@ -185,5 +185,5 @@ For the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMConfigMSIXTableEntry function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NdisMConfigMSIXTableEntry function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

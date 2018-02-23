@@ -7,8 +7,8 @@ old-location: audio\pcnewresourcesublist.htm
 old-project: audio
 ms.assetid: a7e1a7cf-60ea-4489-a1c2-eac5b218af8c
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: portcls/PcNewResourceSublist, PcNewResourceSublist function [Audio Devices], PcNewResourceSublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, audio.pcnewresourcesublist
+ms.date: 2/21/2018
+ms.keywords: PcNewResourceSublist, audpc-routines_3354ba13-6737-4862-b8b4-2afa64dc8eab.xml, PcNewResourceSublist function [Audio Devices], audio.pcnewresourcesublist, portcls/PcNewResourceSublist
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	PcNewResourceSublist
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # PcNewResourceSublist function
@@ -84,7 +84,7 @@ Pointer to the <a href="https://msdn.microsoft.com/33f1d79a-33fc-4ce5-a372-e08bd
 
 ### -param PoolType [in]
 
-Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a> enumeration value.
+Specifies the type of pool from which the object is to be allocated. This is a <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a> enumeration value.
 
 
 ### -param ParentList [in]
@@ -125,7 +125,7 @@ The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameter
 
 
 
-<a href="..\portcls\nn-portcls-iresourcelist.md">IResourceList</a>
+<a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>
 
 
 
@@ -137,5 +137,5 @@ The <i>OutResourceList</i>, <i>OuterUnknown</i>, and <i>ParentList</i> parameter
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewResourceSublist function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PcNewResourceSublist function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

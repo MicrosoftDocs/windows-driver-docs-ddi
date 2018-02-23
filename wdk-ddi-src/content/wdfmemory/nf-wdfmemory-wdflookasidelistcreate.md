@@ -7,8 +7,8 @@ old-location: wdf\wdflookasidelistcreate.htm
 old-project: wdf
 ms.assetid: 37fc86b0-de8c-469b-94bb-ad482b9c7202
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfLookasideListCreate, wdfmemory/WdfLookasideListCreate, WdfLookasideListCreate method, wdf.wdflookasidelistcreate, kmdf.wdflookasidelistcreate, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml
+ms.date: 2/20/2018
+ms.keywords: WdfLookasideListCreate, kmdf.wdflookasidelistcreate, DFMemoryObjectRef_f5146f3e-a9ae-459c-9361-37a4f33edd67.xml, wdfmemory/WdfLookasideListCreate, wdf.wdflookasidelistcreate, WdfLookasideListCreate method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -88,7 +88,7 @@ The nonzero size, in bytes, of the buffer that the framework will allocate for e
 
 ### -param PoolType [in]
 
-A <a href="..\wdm\ne-wdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
+A <a href="..\wudfwdm\ne-wudfwdm-_pool_type.md">POOL_TYPE</a>-typed value that specifies the type of memory to be allocated. 
 
 
 ### -param MemoryAttributes [in, optional]
@@ -180,11 +180,11 @@ For a code example that uses <b>WdfLookasideListCreate</b>, see <a href="..\wdfm
 
 ## -see-also
 
-<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
-
-
-
 <a href="..\wdfdriver\nf-wdfdriver-wdfdrivercreate.md">WdfDriverCreate</a>
+
+
+
+<a href="..\wdfobject\ns-wdfobject-_wdf_object_attributes.md">WDF_OBJECT_ATTRIBUTES</a>
 
 
 
@@ -196,5 +196,5 @@ For a code example that uses <b>WdfLookasideListCreate</b>, see <a href="..\wdfm
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfLookasideListCreate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfLookasideListCreate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_videodevicefuncs.htm
 old-project: display
 ms.assetid: c843fe5c-19bc-479c-8d8d-a3a6146dfb1c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3d10umddi/D3D11_1DDI_VIDEODEVICEFUNCS, display.d3d11_1ddi_videodevicefuncs, D3D11_1DDI_VIDEODEVICEFUNCS structure [Display Devices], D3D11_1DDI_VIDEODEVICEFUNCS
+ms.date: 2/20/2018
+ms.keywords: D3D11_1DDI_VIDEODEVICEFUNCS structure [Display Devices], D3D11_1DDI_VIDEODEVICEFUNCS, d3d10umddi/D3D11_1DDI_VIDEODEVICEFUNCS, display.d3d11_1ddi_videodevicefuncs
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

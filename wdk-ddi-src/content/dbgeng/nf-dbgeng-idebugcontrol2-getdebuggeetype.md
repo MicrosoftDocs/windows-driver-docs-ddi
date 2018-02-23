@@ -4,11 +4,11 @@ title: IDebugControl2::GetDebuggeeType method
 author: windows-driver-content
 description: The GetDebuggeeType method describes the nature of the current target.
 old-location: debugger\getdebuggeetype.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 86f236fa-73f8-4071-b6da-6de2d276cbff
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, debugger.getdebuggeetype, GetDebuggeeType method [Windows Debugging], IDebugControl interface, GetDebuggeeType method [Windows Debugging], IDebugControl interface [Windows Debugging], GetDebuggeeType method, dbgeng/IDebugControl2::GetDebuggeeType, IDebugControl3::GetDebuggeeType, dbgeng/IDebugControl::GetDebuggeeType, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, dbgeng/IDebugControl3::GetDebuggeeType, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, IDebugControl2, IDebugControl, GetDebuggeeType, IDebugControl::GetDebuggeeType, IDebugControl2::GetDebuggeeType
+ms.date: 2/15/2018
+ms.keywords: IDebugControl::GetDebuggeeType, dbgeng/IDebugControl2::GetDebuggeeType, IDebugControl, IDebugControl2, IDebugControl3 interface [Windows Debugging], GetDebuggeeType method, IDebugControl2 interface [Windows Debugging], GetDebuggeeType method, dbgeng/IDebugControl3::GetDebuggeeType, IDebugControl_4179686c-b047-41f5-98cc-28f2c6bd852d.xml, IDebugControl3::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], dbgeng/IDebugControl::GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl3 interface, GetDebuggeeType, GetDebuggeeType method [Windows Debugging], IDebugControl interface, IDebugControl2::GetDebuggeeType, IDebugControl interface [Windows Debugging], GetDebuggeeType method, GetDebuggeeType method [Windows Debugging], IDebugControl2 interface, debugger.getdebuggeetype
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetDebuggeeType
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl2::GetDebuggeeType method

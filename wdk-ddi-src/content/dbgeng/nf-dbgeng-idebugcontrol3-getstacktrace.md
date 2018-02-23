@@ -4,11 +4,11 @@ title: IDebugControl3::GetStackTrace method
 author: windows-driver-content
 description: The GetStackTrace method returns the frames at the top of the specified call stack.
 old-location: debugger\getstacktrace.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2d07e6a3-b560-4d9b-aece-0368d5929867
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetStackTrace method, GetStackTrace method [Windows Debugging], IDebugControl2 interface, IDebugControl3, dbgeng/IDebugControl3::GetStackTrace, GetStackTrace method [Windows Debugging], IDebugControl2::GetStackTrace, IDebugControl2 interface [Windows Debugging], GetStackTrace method, IDebugControl3 interface [Windows Debugging], GetStackTrace method, dbgeng/IDebugControl::GetStackTrace, GetStackTrace, debugger.getstacktrace, GetStackTrace method [Windows Debugging], IDebugControl3 interface, GetStackTrace method [Windows Debugging], IDebugControl interface, IDebugControl3::GetStackTrace, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, IDebugControl2, IDebugControl, IDebugControl::GetStackTrace, dbgeng/IDebugControl2::GetStackTrace
+ms.date: 2/15/2018
+ms.keywords: IDebugControl3, IDebugControl2, IDebugControl, GetStackTrace method [Windows Debugging], IDebugControl2 interface, IDebugControl_ef51127a-c022-4e3d-bb63-55553daea893.xml, GetStackTrace method [Windows Debugging], IDebugControl interface, IDebugControl::GetStackTrace, debugger.getstacktrace, dbgeng/IDebugControl3::GetStackTrace, dbgeng/IDebugControl2::GetStackTrace, IDebugControl3::GetStackTrace, GetStackTrace method [Windows Debugging], IDebugControl3 interface, GetStackTrace method [Windows Debugging], IDebugControl3 interface [Windows Debugging], GetStackTrace method, IDebugControl interface [Windows Debugging], GetStackTrace method, IDebugControl2::GetStackTrace, IDebugControl2 interface [Windows Debugging], GetStackTrace method, GetStackTrace, dbgeng/IDebugControl::GetStackTrace
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetStackTrace
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetStackTrace method
@@ -171,7 +171,7 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/1061015f-cb0c-490b-b256-e0dedb659f22">k, kb, kc, kd, kp, kP, kv (Display Stack Backtrace)</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
 
 
 
@@ -179,15 +179,11 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553252">OutputStackTrace</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff545748">GetContextStackTrace</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
@@ -195,7 +191,11 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
 
 
-<a href="..\wdbgexts\nc-wdbgexts-pwindbg_stacktrace_routine.md">StackTrace</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546815">GetFrameOffset2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff546933">GetInstructionOffset2</a>
 
 
 
@@ -203,5 +203,5 @@ The stack trace returned to <i>Frames</i> can be printed using <a href="https://
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::GetStackTrace method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::GetStackTrace method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

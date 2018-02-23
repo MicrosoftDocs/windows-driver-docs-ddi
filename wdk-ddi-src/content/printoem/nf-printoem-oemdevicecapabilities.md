@@ -7,8 +7,8 @@ old-location: print\oemdevicecapabilities.htm
 old-project: print
 ms.assetid: fb15fd82-6214-40c0-9982-faee6c6b35b3
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print_obsoletefunctions_7ab2cfd8-e7cd-4f7c-be2d-a53dbb3651c9.xml, OEMDeviceCapabilities, OEMDeviceCapabilities function [Print Devices], print.oemdevicecapabilities, printoem/OEMDeviceCapabilities
+ms.date: 2/21/2018
+ms.keywords: print.oemdevicecapabilities, OEMDeviceCapabilities, OEMDeviceCapabilities function [Print Devices], print_obsoletefunctions_7ab2cfd8-e7cd-4f7c-be2d-a53dbb3651c9.xml, printoem/OEMDeviceCapabilities
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

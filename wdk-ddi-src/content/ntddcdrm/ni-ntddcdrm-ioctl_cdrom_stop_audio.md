@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_stop_audio.htm
 old-project: storage
 ms.assetid: 9d250950-7ecf-4433-9aaf-7696abb5b66c
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_cdrom_stop_audio, IOCTL_CDROM_STOP_AUDIO control code [Storage Devices], IOCTL_CDROM_STOP_AUDIO, ntddcdrm/IOCTL_CDROM_STOP_AUDIO, k307_f800aa8a-b12c-4373-9e6a-0b2a12182540.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

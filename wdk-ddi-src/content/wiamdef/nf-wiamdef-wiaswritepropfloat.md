@@ -4,11 +4,11 @@ title: wiasWritePropFloat function
 author: windows-driver-content
 description: The wiasWritePropFloat function writes a single floating-point property value to a WIA item.
 old-location: image\wiaswritepropfloat.htm
-old-project: image
+old-project: Image
 ms.assetid: 097cd455-018e-46ef-8b8f-8eae7ea3eaff
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.wiaswritepropfloat, wiamdef/wiasWritePropFloat, wiasWritePropFloat, wiasWritePropFloat function [Imaging Devices], wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml
+ms.date: 2/15/2018
+ms.keywords: wiasWritePropFloat function [Imaging Devices], wiasWritePropFloat, image.wiaswritepropfloat, wiamdef/wiasWritePropFloat, wiasFncs_49539474-675e-420d-b7a4-67f147017975.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasWritePropFloat
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -96,7 +96,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswriteproplong.md">wiasWritePropLong</a>
 
 
 
@@ -104,7 +104,7 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
+<a href="..\wiamdef\nf-wiamdef-wiaswritepropstr.md">wiasWritePropStr</a>
 
 
 
@@ -120,5 +120,5 @@ On success, the function returns S_OK. If the function fails, it returns a stand
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasWritePropFloat function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20wiasWritePropFloat function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

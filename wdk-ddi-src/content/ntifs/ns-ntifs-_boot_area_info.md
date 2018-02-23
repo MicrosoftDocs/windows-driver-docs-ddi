@@ -7,8 +7,8 @@ old-location: ifsk\boot_area_info.htm
 old-project: ifsk
 ms.assetid: 9f092940-b8be-4d28-b82c-d169abefe5d9
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], PBOOT_AREA_INFO structure pointer [Installable File System Drivers], *PBOOT_AREA_INFO, ntifs/BOOT_AREA_INFO, PBOOT_AREA_INFO, _BOOT_AREA_INFO, ifsk.boot_area_info
+ms.date: 2/16/2018
+ms.keywords: "*PBOOT_AREA_INFO, PBOOT_AREA_INFO structure pointer [Installable File System Drivers], _BOOT_AREA_INFO, ntifs/PBOOT_AREA_INFO, BOOT_AREA_INFO, PBOOT_AREA_INFO, BOOT_AREA_INFO structure [Installable File System Drivers], ifsk.boot_area_info, ntifs/BOOT_AREA_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -75,11 +75,6 @@ typedef struct _BOOT_AREA_INFO {
 The number of elements in the <b>BootSectors</b> array.
 
 
-### -field Offset
-
- 
-
-
 ### -field BootSectors
 
 A variable length array of structures. Each structure contains an <b>Offset</b> member.
@@ -101,5 +96,5 @@ The location of a boot sector or a copy of a boot sector.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20BOOT_AREA_INFO structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20BOOT_AREA_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

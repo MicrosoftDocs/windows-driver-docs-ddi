@@ -7,8 +7,8 @@ old-location: netvista\fwpscalloutregister2.htm
 old-project: netvista
 ms.assetid: 7e60d536-607f-469f-8de4-5f6b77443b3e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FwpsCalloutRegister2 function [Network Drivers Starting with Windows Vista], FwpsCalloutRegister2, netvista.fwpscalloutregister2, fwpsk/FwpsCalloutRegister2
+ms.date: 2/16/2018
+ms.keywords: netvista.fwpscalloutregister2, fwpsk/FwpsCalloutRegister2, FwpsCalloutRegister2, FwpsCalloutRegister2 function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -190,19 +190,7 @@ This function is essentially identical to the previous version,
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
-
-
-
-<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
-
-
-
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbyid0.md">FwpsCalloutUnregisterById0</a>
 
 
 
@@ -210,15 +198,19 @@ This function is essentially identical to the previous version,
 
 
 
+<a href="https://msdn.microsoft.com/d9539403-7657-4e95-8791-309673d1207d">Types of Callouts</a>
+
+
+
 <a href="..\fwpsk\nf-fwpsk-fwpsflowassociatecontext0.md">FwpsFlowAssociateContext0</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_callout_flow_delete_notify_fn0.md">flowDeleteFn</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutunregisterbykey0.md">FwpsCalloutUnregisterByKey0</a>
 
 
 
@@ -226,11 +218,19 @@ This function is essentially identical to the previous version,
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsstreaminjectasync0.md">FwpsStreamInjectAsync0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister0.md">FwpsCalloutRegister0</a>
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsflowremovecontext0.md">FwpsFlowRemoveContext0</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542862">Creating a Device Object</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpscalloutregister1.md">FwpsCalloutRegister1</a>
+
+
+
+<a href="..\wdm\nf-wdm-iocreatedevice.md">IoCreateDevice</a>
 
 
 
@@ -242,5 +242,5 @@ This function is essentially identical to the previous version,
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCalloutRegister2 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsCalloutRegister2 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

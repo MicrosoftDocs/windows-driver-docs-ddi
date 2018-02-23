@@ -7,8 +7,8 @@ old-location: wdf\wdf_dma_profile.htm
 old-project: wdf
 ms.assetid: a2672bca-5c2e-423d-9ba0-fad610170e88
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfilePacket64, wdf.wdf_dma_profile, WDF_DMA_PROFILE, wdfdmaenabler/WdfDmaProfileScatterGather64, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WdfDmaProfilePacket64, WdfDmaProfileSystem, WdfDmaProfileScatterGather64, wdfdmaenabler/WdfDmaProfileInvalid, kmdf.wdf_dma_profile, wdfdmaenabler/WdfDmaProfilePacket, WdfDmaProfileSystemDuplex, WDF_DMA_PROFILE enumeration, wdfdmaenabler/WdfDmaProfileSystem, wdfdmaenabler/WdfDmaProfileSystemDuplex, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WDF_DMA_PROFILE, _WDF_DMA_PROFILE, WdfDmaProfileScatterGather, WdfDmaProfileScatterGather64Duplex, WdfDmaProfilePacket, WdfDmaProfileInvalid, wdfdmaenabler/WdfDmaProfileScatterGather, WdfDmaProfileScatterGatherDuplex
+ms.date: 2/20/2018
+ms.keywords: wdfdmaenabler/WdfDmaProfilePacket, _WDF_DMA_PROFILE, WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileScatterGather64Duplex, wdfdmaenabler/WdfDmaProfileSystem, WdfDmaProfileScatterGather64, WdfDmaProfilePacket64, wdfdmaenabler/WdfDmaProfileScatterGather, WDF_DMA_PROFILE, WdfDmaProfileSystemDuplex, wdf.wdf_dma_profile, WdfDmaProfileInvalid, WdfDmaProfileScatterGather, wdfdmaenabler/WdfDmaProfileInvalid, kmdf.wdf_dma_profile, WdfDmaProfileScatterGatherDuplex, wdfdmaenabler/WdfDmaProfileScatterGatherDuplex, WdfDmaProfileSystem, wdfdmaenabler/WdfDmaProfileScatterGather64, DFDmaObjectRef_24cd95b0-ec51-4af4-a507-04f9a91276cf.xml, WdfDmaProfilePacket, wdfdmaenabler/WdfDmaProfilePacket64, WDF_DMA_PROFILE enumeration, wdfdmaenabler/WdfDmaProfileSystemDuplex, wdfdmaenabler/WDF_DMA_PROFILE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -146,5 +146,5 @@ Kernel-Mode Driver Framework (KMDF) miniport drivers such as NDIS miniport drive
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DMA_PROFILE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_DMA_PROFILE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

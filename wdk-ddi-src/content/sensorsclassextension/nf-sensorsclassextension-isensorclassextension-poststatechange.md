@@ -7,8 +7,8 @@ old-location: sensors\isensorclassextension_poststatechange.htm
 old-project: sensors
 ms.assetid: ae3bc846-df63-4186-9554-f4600e1f2066
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ISensorClassExtension::PostStateChange, PostStateChange method [Sensor Devices], ISensorClassExtension interface, Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, PostStateChange, sensorsclassextension/ISensorClassExtension::PostStateChange, ISensorClassExtension, sensors.isensorclassextension_poststatechange, ISensorClassExtension interface [Sensor Devices], PostStateChange method, PostStateChange method [Sensor Devices]
+ms.date: 2/15/2018
+ms.keywords: Sensor_IFaces_b6cc2565-ed4f-48cb-83ea-8d03322c2670.xml, sensorsclassextension/ISensorClassExtension::PostStateChange, ISensorClassExtension interface [Sensor Devices], PostStateChange method, PostStateChange, ISensorClassExtension, ISensorClassExtension::PostStateChange, sensors.isensorclassextension_poststatechange, PostStateChange method [Sensor Devices], PostStateChange method [Sensor Devices], ISensorClassExtension interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -197,5 +197,5 @@ The following example code demonstrates a function that posts a state-changed ev
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20ISensorClassExtension::PostStateChange method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20ISensorClassExtension::PostStateChange method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: nfpdrivers\evtnfccxsequencehandler.htm
 old-project: nfpdrivers
 ms.assetid: 6EB96A37-06B9-4655-AD69-375EE770F4DF
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
+ms.date: 2/15/2018
 ms.keywords: nfpdrivers.evtnfccxsequencehandler, EVT_NFC_CX_SEQUENCE_HANDLER, *PFN_NFC_CX_SEQUENCE_HANDLER, EvtNfcCxSequenceHandler callback function [Near-Field Proximity Drivers], EvtNfcCxSequenceHandler, EVT_NFC_CX_SEQUENCE_HANDLER, EVT_NFC_CX_SEQUENCE_HANDLER, nfccx/ EvtNfcCxSequenceHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	EvtNfcCxSequenceHandler
 product: Windows
 targetos: Windows
-req.typenames: NPI_REGISTRATION_INSTANCE
+req.typenames: NET_PNP_EVENT, *PNET_PNP_EVENT
 ---
 
 # EVT_NFC_CX_SEQUENCE_HANDLER callback
@@ -125,5 +125,5 @@ On completion of handling the sequence, the client driver notifies the NFC CX th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20EVT_NFC_CX_SEQUENCE_HANDLER callback function%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [nfpdrivers\nfpdrivers]:%20EVT_NFC_CX_SEQUENCE_HANDLER callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

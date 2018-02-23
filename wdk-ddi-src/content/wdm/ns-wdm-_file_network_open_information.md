@@ -7,8 +7,8 @@ old-location: kernel\file_network_open_information.htm
 old-project: kernel
 ms.assetid: 742fa221-70c8-410a-a582-aedf28872ada
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/PFILE_NETWORK_OPEN_INFORMATION, PFILE_NETWORK_OPEN_INFORMATION structure pointer [Kernel-Mode Driver Architecture], FILE_NETWORK_OPEN_INFORMATION structure [Kernel-Mode Driver Architecture], FILE_NETWORK_OPEN_INFORMATION, _FILE_NETWORK_OPEN_INFORMATION, PFILE_NETWORK_OPEN_INFORMATION, kstruct_b_761510b6-751c-457d-a516-cce0d9fa3027.xml, *PFILE_NETWORK_OPEN_INFORMATION, wdm/FILE_NETWORK_OPEN_INFORMATION, kernel.file_network_open_information
+ms.date: 2/16/2018
+ms.keywords: FILE_NETWORK_OPEN_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/PFILE_NETWORK_OPEN_INFORMATION, *PFILE_NETWORK_OPEN_INFORMATION, _FILE_NETWORK_OPEN_INFORMATION, kstruct_b_761510b6-751c-457d-a516-cce0d9fa3027.xml, PFILE_NETWORK_OPEN_INFORMATION structure pointer [Kernel-Mode Driver Architecture], wdm/FILE_NETWORK_OPEN_INFORMATION, kernel.file_network_open_information, PFILE_NETWORK_OPEN_INFORMATION, FILE_NETWORK_OPEN_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,5 +132,5 @@ This structure must be aligned on a LONGLONG (8-byte) boundary.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_NETWORK_OPEN_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20FILE_NETWORK_OPEN_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

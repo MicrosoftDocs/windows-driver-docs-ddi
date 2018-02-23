@@ -7,8 +7,8 @@ old-location: audio\iminiportstreamaudioenginenode_getstreamattributesteppings.h
 old-project: audio
 ms.assetid: 2EC0C859-5479-4A55-9180-DB9938400DF7
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: GetStreamAttributeSteppings method [Audio Devices], IMiniportStreamAudioEngineNode interface, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode, GetStreamAttributeSteppings method [Audio Devices], portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamAttributeSteppings method
+ms.date: 2/21/2018
+ms.keywords: IMiniportStreamAudioEngineNode, audio.iminiportstreamaudioenginenode_getstreamattributesteppings, GetStreamAttributeSteppings method [Audio Devices], IMiniportStreamAudioEngineNode interface, portcls/IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, GetStreamAttributeSteppings, IMiniportStreamAudioEngineNode interface [Audio Devices], GetStreamAttributeSteppings method, IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings, GetStreamAttributeSteppings method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode.GetStreamAttributeSteppings
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings method
@@ -101,7 +101,7 @@ code.
 
 
 
-<a href="..\portcls\nn-portcls-iminiportstreamaudioenginenode.md">IMiniportStreamAudioEngineNode</a>
+<a href="..\portcls\ne-portcls-echanneltargettype.md">eChannelTargetType</a>
 
 
 
@@ -113,5 +113,5 @@ code.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportStreamAudioEngineNode::GetStreamAttributeSteppings method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

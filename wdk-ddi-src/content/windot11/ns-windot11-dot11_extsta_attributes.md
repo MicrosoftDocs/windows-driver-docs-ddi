@@ -7,8 +7,8 @@ old-location: netvista\dot11_extsta_attributes.htm
 old-project: netvista
 ms.assetid: 319017a7-f398-46f7-ab03-1dcb057c1332
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES, netvista.dot11_extsta_attributes, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, windot11/DOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES, windot11/PDOT11_EXTSTA_ATTRIBUTES
+ms.date: 2/16/2018
+ms.keywords: DOT11_EXTSTA_ATTRIBUTES structure [Network Drivers Starting with Windows Vista], PDOT11_EXTSTA_ATTRIBUTES, windot11/PDOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES, PDOT11_EXTSTA_ATTRIBUTES structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_extsta_attributes, Native_802.11_data_types_857cc383-6c5b-4bd3-9e91-609b5a9b1f93.xml, windot11/DOT11_EXTSTA_ATTRIBUTES, DOT11_EXTSTA_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -417,16 +417,6 @@ A pointer to an array of 802.11d country or region strings that are supported by
      DOT11_COUNTRY_OR_REGION_STRING</a> structure.
 
 
-### -field pSupportedCountryOrRegionStrings.size_is
-
- 
-
-
-### -field pSupportedCountryOrRegionStrings.size_is.uNumSupportedCountryOrRegionStrings
-
- 
-
-
 ### -field uInfraNumSupportedUcastAlgoPairs
 
 The number of authentication and cipher algorithms supported by the 802.11 station for sending and
@@ -445,16 +435,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      formatted as a 
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
-
-### -field pInfraSupportedUcastAlgoPairs.size_is
-
- 
-
-
-### -field pInfraSupportedUcastAlgoPairs.size_is.uInfraNumSupportedUcastAlgoPairs
-
- 
 
 
 ### -field uInfraNumSupportedMcastAlgoPairs
@@ -477,16 +457,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      DOT11_AUTH_CIPHER_PAIR</a> structure.
 
 
-### -field pInfraSupportedMcastAlgoPairs.size_is
-
- 
-
-
-### -field pInfraSupportedMcastAlgoPairs.size_is.uInfraNumSupportedMcastAlgoPairs
-
- 
-
-
 ### -field uAdhocNumSupportedUcastAlgoPairs
 
 The number of authentication and cipher algorithms supported by the 802.11 station for sending and
@@ -503,16 +473,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      sending and receiving unicast packets in an IBSS network. Each entry in the array is formatted as a 
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
-
-### -field pAdhocSupportedUcastAlgoPairs.size_is
-
- 
-
-
-### -field pAdhocSupportedUcastAlgoPairs.size_is.uAdhocNumSupportedUcastAlgoPairs
-
- 
 
 
 ### -field uAdhocNumSupportedMcastAlgoPairs
@@ -532,16 +492,6 @@ A pointer to an array of authentication and cipher algorithms supported by the 8
      formatted as a 
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
-
-### -field pAdhocSupportedMcastAlgoPairs.size_is
-
- 
-
-
-### -field pAdhocSupportedMcastAlgoPairs.size_is.uAdhocNumSupportedMcastAlgoPairs
-
- 
 
 
 ### -field bAutoPowerSaveMode
@@ -570,16 +520,6 @@ A pointer to an array of authentication and cipher algorithm pair which the devi
      formatted as a 
      <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">
      DOT11_AUTH_CIPHER_PAIR</a> structure.
-
-
-### -field pInfraSupportedMcastMgmtAlgoPairs.size_is
-
- 
-
-
-### -field pInfraSupportedMcastMgmtAlgoPairs.size_is.uInfraNumSupportedMcastMgmtAlgoPairs
-
- 
 
 
 ### -field bNeighborReportSupported
@@ -630,43 +570,8 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
-   Mode</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
-
-
-
 <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-cipher-key-mapping-key">
    OID_DOT11_CIPHER_KEY_MAPPING_KEY</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
-   DOT11_COUNTRY_OR_REGION_STRING</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
-   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
-
-
-
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
-
-
-
-<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
 
 
 
@@ -674,11 +579,11 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
-
-
-
 <a href="..\wlantypes\ns-wlantypes-dot11_auth_cipher_pair.md">DOT11_AUTH_CIPHER_PAIR</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bssid-list">OID_DOT11_DESIRED_BSSID_LIST</a>
 
 
 
@@ -686,12 +591,28 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
-   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+<a href="..\ndis\nf-ndis-ndismsetminiportattributes.md">NdisMSetMiniportAttributes</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-operation-mode">Extensible Station Operation
+   Mode</a>
+
+
+
+<a href="https://msdn.microsoft.com/a68799cb-1422-4d0b-8dca-7f9bacb9f133">Per-Station Default Keys</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-ssid-list">OID_DOT11_DESIRED_SSID_LIST</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-safe-mode-enabled">OID_DOT11_SAFE_MODE_ENABLED</a>
 
 
 
@@ -700,9 +621,28 @@ Management Frame Protection Required (MFPR) enforcement on Windows 8 is not sup
 
 
 
- 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-country-or-region-string">
+   DOT11_COUNTRY_OR_REGION_STRING</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569400">OID_DOT11_PMKID_LIST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-privacy-exemption-list">
+   OID_DOT11_PRIVACY_EXEMPTION_LIST</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_native_802_11_attributes.md">
+   NDIS_MINIPORT_ADAPTER_NATIVE_802_11_ATTRIBUTES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_EXTSTA_ATTRIBUTES structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_EXTSTA_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

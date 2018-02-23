@@ -7,8 +7,8 @@ old-location: ifsk\fsrtlgetperstreamcontextpointer.htm
 old-project: ifsk
 ms.assetid: f3f9294a-23c0-450a-ae29-22add8176540
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, FsRtlGetPerStreamContextPointer, ifsk.fsrtlgetperstreamcontextpointer, FsRtlGetPerStreamContextPointer function [Installable File System Drivers], ntifs/FsRtlGetPerStreamContextPointer
+ms.date: 2/16/2018
+ms.keywords: FsRtlGetPerStreamContextPointer function [Installable File System Drivers], ifsk.fsrtlgetperstreamcontextpointer, ntifs/FsRtlGetPerStreamContextPointer, fsrtlref_c7e152d7-1815-435e-852a-975962e355a6.xml, FsRtlGetPerStreamContextPointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
@@ -98,11 +98,11 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-fsrtlinsertperstreamcontext.md">FsRtlInsertPerStreamContext</a>
+<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
+<a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
 
 
 
@@ -110,11 +110,15 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="..\ntifs\ns-ntifs-_fsrtl_advanced_fcb_header.md">FSRTL_ADVANCED_FCB_HEADER</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff547285">FsRtlSupportsPerStreamContexts</a>
 
 
 
 <a href="..\ntifs\nf-ntifs-fsrtlinitperstreamcontext.md">FsRtlInitPerStreamContext</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
 
 
 
@@ -126,13 +130,9 @@ For more information, see <a href="https://msdn.microsoft.com/d908ee30-a433-460c
 
 
 
-<a href="..\ntifs\nf-ntifs-fsrtllookupperstreamcontext.md">FsRtlLookupPerStreamContext</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlGetPerStreamContextPointer function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlGetPerStreamContextPointer function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

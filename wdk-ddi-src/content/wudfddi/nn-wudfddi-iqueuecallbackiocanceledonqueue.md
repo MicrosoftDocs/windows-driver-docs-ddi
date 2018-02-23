@@ -7,7 +7,7 @@ old-location: wdf\iqueuecallbackiocanceledonqueue.htm
 old-project: wdf
 ms.assetid: d85b5c70-4e03-4a12-bc0b-e738d4dab6cf
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iqueuecallbackiocanceledonqueue, IQueueCallbackIoCanceledOnQueue interface, IQueueCallbackIoCanceledOnQueue interface, described, IQueueCallbackIoCanceledOnQueue, wudfddi/IQueueCallbackIoCanceledOnQueue, UMDFQueueObjectRef_65c767dc-7b2b-4b25-a546-d0f3fb6fba14.xml, umdf.iqueuecallbackiocanceledonqueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackIoCanceledOnQueue
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: storage\scsiportwmidispatchfunction.htm
 old-project: storage
 ms.assetid: 48806050-403b-4375-8b19-e867f905b761
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ScsiPortWmiDispatchFunction, storage.scsiportwmidispatchfunction, ScsiPortWmiDispatchFunction routine [Storage Devices], scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, scsiwmi/ScsiPortWmiDispatchFunction
+ms.date: 2/16/2018
+ms.keywords: scsiwmi/ScsiPortWmiDispatchFunction, ScsiPortWmiDispatchFunction, storage.scsiportwmidispatchfunction, scsiprt_03d0ec2c-b525-48d5-bcc3-cfd89fe020bd.xml, ScsiPortWmiDispatchFunction routine [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -147,11 +147,7 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
 ## -see-also
 
-<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
-
-
-
-<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
 
 
 
@@ -159,7 +155,11 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
 
 
-<a href="..\scsiwmi\ns-scsiwmi-_scsiwmilib_context.md">SCSI_WMILIB_CONTEXT</a>
+<a href="..\scsiwmi\nf-scsiwmi-scsiportwmigetreturnstatus.md">ScsiPortWmiGetReturnStatus</a>
+
+
+
+<a href="..\srb\nf-srb-scsiportnotification.md">ScsiPortNotification</a>
 
 
 
@@ -175,5 +175,5 @@ Call <b>ScsiPortNotification</b> with <b>RequestComplete</b> and again with <b>N
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiDispatchFunction routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortWmiDispatchFunction routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

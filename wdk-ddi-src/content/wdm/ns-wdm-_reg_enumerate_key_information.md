@@ -7,8 +7,8 @@ old-location: kernel\reg_enumerate_key_information.htm
 old-project: kernel
 ms.assetid: fdae9130-b33e-4714-9e8c-f4faf21ee8c8
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: "*PREG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], PREG_ENUMERATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_ENUMERATE_KEY_INFORMATION, _REG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION, kstruct_d_e20923be-cb64-43a0-b3d0-a28290fadc07.xml, wdm/PREG_ENUMERATE_KEY_INFORMATION, kernel.reg_enumerate_key_information, wdm/REG_ENUMERATE_KEY_INFORMATION"
+ms.date: 2/16/2018
+ms.keywords: wdm/REG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], REG_ENUMERATE_KEY_INFORMATION, PREG_ENUMERATE_KEY_INFORMATION, _REG_ENUMERATE_KEY_INFORMATION, kernel.reg_enumerate_key_information, *PREG_ENUMERATE_KEY_INFORMATION, wdm/PREG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], kstruct_d_e20923be-cb64-43a0-b3d0-a28290fadc07.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_ENUMERATE_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_ENUMERATE_KEY_INFORMATION, REG_ENUMERATE_KEY_INFORMATION"
+req.typenames: REG_ENUMERATE_KEY_INFORMATION, *PREG_ENUMERATE_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -134,15 +134,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwenumeratekey.md">ZwEnumerateKey</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 
 
@@ -150,9 +146,13 @@ For more information about registry filtering operations, see <a href="https://m
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff560903">RegistryCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_ENUMERATE_KEY_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_ENUMERATE_KEY_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

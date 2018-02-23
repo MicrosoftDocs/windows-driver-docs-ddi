@@ -7,8 +7,8 @@ old-location: netvista\wwan_context_type.htm
 old-project: netvista
 ms.assetid: 73a18050-fc89-41df-82ce-0f29c5716496
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WwanContextTypeNone, WwanContextTypeVpn, *PWWAN_CONTEXT_TYPE, netvista.wwan_context_type, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, WwanContextTypeVideoShare, wwan/WwanContextTypeCustom, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeMax, wwan/WwanContextTypeInternet, PWWAN_CONTEXT_TYPE, WWAN_CONTEXT_TYPE, WwanContextTypePurchase, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanContextTypePurchase, wwan/PWWAN_CONTEXT_TYPE, WwanContextTypeInternet, WwanContextTypeVoice, wwan/WWAN_CONTEXT_TYPE, wwan/WwanContextTypeNone, wwan/WwanContextTypeVpn, WwanContextTypeMax, _WWAN_CONTEXT_TYPE, wwan/WwanContextTypeVoice, WwanContextTypeCustom
+ms.date: 2/16/2018
+ms.keywords: WwanContextTypeInternet, WwanContextTypeVpn, PWWAN_CONTEXT_TYPE, WwanRef_2f94e3ef-ec5c-47cc-8fe0-295c517ad43a.xml, PWWAN_CONTEXT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], netvista.wwan_context_type, wwan/WwanContextTypeVpn, WWAN_CONTEXT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanContextTypeNone, wwan/WwanContextTypeInternet, WwanContextTypeVoice, wwan/WwanContextTypeVoice, WwanContextTypeCustom, WwanContextTypePurchase, wwan/WwanContextTypeNone, wwan/WwanContextTypeVideoShare, wwan/WwanContextTypeMax, wwan/WwanContextTypePurchase, WwanContextTypeMax, *PWWAN_CONTEXT_TYPE, wwan/PWWAN_CONTEXT_TYPE, WwanContextTypeVideoShare, WWAN_CONTEXT_TYPE, wwan/WWAN_CONTEXT_TYPE, _WWAN_CONTEXT_TYPE, wwan/WwanContextTypeCustom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -162,5 +162,5 @@ This enumeration indicates the usage of the provisioned context. For example, wh
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_CONTEXT_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_CONTEXT_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: wdf\ifilecallbackcleanup.htm
 old-project: wdf
 ms.assetid: d42eb7d5-6bf6-4f0f-a249-a869db486b6f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.ifilecallbackcleanup, IFileCallbackCleanup interface, IFileCallbackCleanup interface, described, IFileCallbackCleanup, wudfddi/IFileCallbackCleanup, UMDFFileObjectRef_8f409e94-4586-4f25-a8ba-1c39544ec661.xml, umdf.ifilecallbackcleanup
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IFileCallbackCleanup
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

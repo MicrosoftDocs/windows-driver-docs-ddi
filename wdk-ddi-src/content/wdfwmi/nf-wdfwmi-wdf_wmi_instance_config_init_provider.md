@@ -7,8 +7,8 @@ old-location: wdf\wdf_wmi_instance_config_init_provider.htm
 old-project: wdf
 ms.assetid: 6509fded-c244-4d86-9b20-23790ec58f4a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_wmi_instance_config_init_provider, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, kmdf.wdf_wmi_instance_config_init_provider, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function, wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, DFWMIRef_beb80d61-7fcb-4234-97ef-41e917cd51f5.xml
+ms.date: 2/20/2018
+ms.keywords: wdfwmi/WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, kmdf.wdf_wmi_instance_config_init_provider, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER, wdf.wdf_wmi_instance_config_init_provider, WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function, DFWMIRef_beb80d61-7fcb-4234-97ef-41e917cd51f5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -154,11 +154,11 @@ if (!NT_SUCCESS(status)) {
 
 ## -see-also
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
+<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
 
 
 
@@ -166,11 +166,11 @@ if (!NT_SUCCESS(status)) {
 
 
 
-<a href="..\wdfwmi\nf-wdfwmi-wdf_wmi_provider_config_init.md">WDF_WMI_PROVIDER_CONFIG_INIT</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiinstancecreate.md">WdfWmiInstanceCreate</a>
 
 
 
-<a href="..\wdfwmi\ns-wdfwmi-_wdf_wmi_provider_config.md">WDF_WMI_PROVIDER_CONFIG</a>
+<a href="..\wdfwmi\nf-wdfwmi-wdfwmiprovidercreate.md">WdfWmiProviderCreate</a>
 
 
 
@@ -182,5 +182,5 @@ if (!NT_SUCCESS(status)) {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_WMI_INSTANCE_CONFIG_INIT_PROVIDER function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

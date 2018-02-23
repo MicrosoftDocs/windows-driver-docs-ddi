@@ -7,8 +7,8 @@ old-location: print\oemoutputcharstr.htm
 old-project: print
 ms.assetid: ac23ec89-b455-4bfd-93a5-2294d8b8ffc2
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.oemoutputcharstr, printoem/OEMOutputCharStr, OEMOutputCharStr function [Print Devices], OEMOutputCharStr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml
+ms.date: 2/21/2018
+ms.keywords: printoem/OEMOutputCharStr, print.oemoutputcharstr, print_obsoletefunctions_250a623a-d7ce-48ba-9163-c24f52eb687d.xml, OEMOutputCharStr function [Print Devices], OEMOutputCharStr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

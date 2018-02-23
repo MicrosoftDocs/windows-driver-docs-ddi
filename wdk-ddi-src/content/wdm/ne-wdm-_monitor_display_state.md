@@ -7,13 +7,13 @@ old-location: kernel\monitor_display_state.htm
 old-project: kernel
 ms.assetid: 50F5C1AD-BA51-4376-8093-E8596265FDAF
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: MONITOR_DISPLAY_STATE, PowerMonitorDim, kernel.monitor_display_state, *PMONITOR_DISPLAY_STATE, wdm/PowerMonitorOn, wdm/PowerMonitorOff, wdm/PowerMonitorDim, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], wdm/MONITOR_DISPLAY_STATE, PowerMonitorOn, PowerMonitorOff, _MONITOR_DISPLAY_STATE
+ms.date: 2/16/2018
+ms.keywords: "*PMONITOR_DISPLAY_STATE, PowerMonitorDim, MONITOR_DISPLAY_STATE, wdm/PowerMonitorOn, wdm/MONITOR_DISPLAY_STATE, wdm/PowerMonitorOff, PowerMonitorOn, kernel.monitor_display_state, _MONITOR_DISPLAY_STATE, wdm/PowerMonitorDim, MONITOR_DISPLAY_STATE enumeration [Kernel-Mode Driver Architecture], PowerMonitorOff"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: 
+req.include-header: Ntpoapi.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 

@@ -7,8 +7,8 @@ old-location: ieee\irb_req_set_device_xmit_properties.htm
 old-project: IEEE
 ms.assetid: 1E99F892-CD7C-411D-8832-08F988B9F2D7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IEEE.irb_req_set_device_xmit_properties, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, _IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure [Buses]
+ms.date: 2/15/2018
+ms.keywords: "_IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IEEE.irb_req_set_device_xmit_properties, 1394/IRB_REQ_SET_DEVICE_XMIT_PROPERTIES, IRB_REQ_SET_DEVICE_XMIT_PROPERTIES structure [Buses]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

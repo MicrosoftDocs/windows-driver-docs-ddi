@@ -7,13 +7,13 @@ old-location: storage\tape_set_media_parameters.htm
 old-project: storage
 ms.assetid: f038eb24-71d2-414c-ad7c-06cb1fa24070
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddtape/PTAPE_SET_MEDIA_PARAMETERS, structs-tape_83d386fe-a430-4c8f-af97-2f6c7ecc4b67.xml, storage.tape_set_media_parameters, _TAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS structure [Storage Devices], PTAPE_SET_MEDIA_PARAMETERS structure pointer [Storage Devices], ntddtape/TAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: TAPE_SET_MEDIA_PARAMETERS structure [Storage Devices], ntddtape/TAPE_SET_MEDIA_PARAMETERS, storage.tape_set_media_parameters, _TAPE_SET_MEDIA_PARAMETERS, structs-tape_83d386fe-a430-4c8f-af97-2f6c7ecc4b67.xml, TAPE_SET_MEDIA_PARAMETERS, PTAPE_SET_MEDIA_PARAMETERS structure pointer [Storage Devices], PTAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS, ntddtape/PTAPE_SET_MEDIA_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddtape.h
-req.include-header: Ntddtape.h
+req.include-header: Ntddtape.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	TAPE_SET_MEDIA_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: "*PTAPE_SET_MEDIA_PARAMETERS, TAPE_SET_MEDIA_PARAMETERS"
+req.typenames: TAPE_SET_MEDIA_PARAMETERS, *PTAPE_SET_MEDIA_PARAMETERS
 ---
 
 # _TAPE_SET_MEDIA_PARAMETERS structure
@@ -86,5 +86,5 @@ Indicates the requested block size, in bytes, or zero for variable block size in
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_SET_MEDIA_PARAMETERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20TAPE_SET_MEDIA_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

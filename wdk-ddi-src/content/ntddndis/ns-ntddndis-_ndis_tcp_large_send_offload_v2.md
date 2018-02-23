@@ -7,8 +7,8 @@ old-location: netvista\ndis_tcp_large_send_offload_v2.htm
 old-project: netvista
 ms.assetid: e53e5771-a3ca-4867-a0ac-65adb66e574c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PNDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], NDIS_TCP_LARGE_SEND_OFFLOAD_V2, ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, _NDIS_TCP_LARGE_SEND_OFFLOAD_V2, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2, netvista.ndis_tcp_large_send_offload_v2, tcpip_offload_ref_739d5001-8b37-437f-ad2e-8ad817feb59d.xml, *PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
+ms.date: 2/16/2018
+ms.keywords: tcpip_offload_ref_739d5001-8b37-437f-ad2e-8ad817feb59d.xml, PNDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure [Network Drivers Starting with Windows Vista], ntddndis/PNDIS_TCP_LARGE_SEND_OFFLOAD_V2, NDIS_TCP_LARGE_SEND_OFFLOAD_V2, _NDIS_TCP_LARGE_SEND_OFFLOAD_V2, netvista.ndis_tcp_large_send_offload_v2, ntddndis/NDIS_TCP_LARGE_SEND_OFFLOAD_V2, PNDIS_TCP_LARGE_SEND_OFFLOAD_V2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -87,13 +87,15 @@ A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv4 inf
      
 
 
-### -field IPv4.Encapsulation
+
+#### Encapsulation
 
 Encapsulation settings for IPv4. For more information about this member, see the following
        Remarks section.
 
 
-### -field IPv4.MaxOffLoadSize
+
+#### MaxOffLoadSize
 
 The maximum bytes of user data that the transport can pass to the miniport driver in a single
        packet. The transport will not pass a packet to the miniport driver that contains more user data bytes
@@ -102,7 +104,8 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        the packet into smaller packets.
 
 
-### -field IPv4.MinSegmentCount
+
+#### MinSegmentCount
 
 The minimum number of segments that a large TCP packet must be divisible by before the transport
        can offload it to the hardware for segmentation. The transport will not offload a large packet to the
@@ -119,13 +122,15 @@ A structure within <b>NDIS_TCP_LARGE_SEND_OFFLOAD_V2</b> that specifies IPv6 inf
      
 
 
-### -field IPv6.Encapsulation
+
+#### Encapsulation
 
 Encapsulation settings for IPv6. For more information about this member, see the following
        Remarks section.
 
 
-### -field IPv6.MaxOffLoadSize
+
+#### MaxOffLoadSize
 
 The maximum bytes of user data that the transport can pass to the miniport driver in a single
        packet. The transport will not pass a packet to the miniport driver that contains more user data bytes
@@ -134,7 +139,8 @@ The maximum bytes of user data that the transport can pass to the miniport drive
        the packet into smaller packets.
 
 
-### -field IPv6.MinSegmentCount
+
+#### MinSegmentCount
 
 The minimum number of segments that a large TCP packet must be divisible by before the transport
        can offload it to a NIC for segmentation. The transport will not offload a large packet to the
@@ -144,13 +150,15 @@ The minimum number of segments that a large TCP packet must be divisible by befo
        packets.
 
 
-### -field IPv6.IpExtensionHeadersSupported
+
+#### IpExtensionHeadersSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport adapter can segment a
        large TCP packet whose IP header contains IPv6 extension headers.
 
 
-### -field IPv6.TcpOptionsSupported
+
+#### TcpOptionsSupported
 
 A ULONG value that a miniport driver sets to indicate that the miniport driver can segment a
        large TCP packet whose TCP header contains TCP options or to indicate that this capability is enabled
@@ -216,7 +224,8 @@ The following flags are defined for the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
@@ -224,11 +233,11 @@ The following flags are defined for the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
 
 
 
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
 
 
 
@@ -237,12 +246,12 @@ The following flags are defined for the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="https://msdn.microsoft.com/en-us/library/windows/hardware/ff567424">
+   NDIS_STATUS_TASK_OFFLOAD_CURRENT_CONFIG</a>
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_tcp_large_send_offload_v1.md">
-   NDIS_TCP_LARGE_SEND_OFFLOAD_V1</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -250,8 +259,7 @@ The following flags are defined for the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_offload.md">NDIS_OFFLOAD</a>
 
 
 
@@ -259,5 +267,5 @@ The following flags are defined for the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_TCP_LARGE_SEND_OFFLOAD_V2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

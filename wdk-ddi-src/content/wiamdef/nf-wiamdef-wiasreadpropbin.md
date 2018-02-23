@@ -4,11 +4,11 @@ title: wiasReadPropBin function
 author: windows-driver-content
 description: The wiasReadPropBin function retrieves a binary-data property value from a WIA item.
 old-location: image\wiasreadpropbin.htm
-old-project: image
+old-project: Image
 ms.assetid: f62b63e3-011b-43ef-b7f5-769aa00ff3ca
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml, wiamdef/wiasReadPropBin, image.wiasreadpropbin, wiasReadPropBin function [Imaging Devices], wiasReadPropBin
+ms.date: 2/15/2018
+ms.keywords: wiasReadPropBin function [Imaging Devices], wiamdef/wiasReadPropBin, wiasReadPropBin, image.wiasreadpropbin, wiasFncs_484baa0a-a423-4f4d-a33c-d155a8f4974c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	wiasReadPropBin
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -117,6 +117,18 @@ This function allocates a buffer and stores its address in the <i>ppbVal</i> par
 
 ## -see-also
 
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadpropstr.md">wiasReadPropStr</a>
+
+
+
+<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
+
+
+
 <a href="..\wiamdef\nf-wiamdef-wiaswritepropbin.md">wiasWritePropBin</a>
 
 
@@ -125,21 +137,9 @@ This function allocates a buffer and stores its address in the <i>ppbVal</i> par
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropguid.md">wiasReadPropGuid</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadpropfloat.md">wiasReadPropFloat</a>
-
-
-
-<a href="..\wiamdef\nf-wiamdef-wiasreadproplong.md">wiasReadPropLong</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20wiasReadPropBin function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20wiasReadPropBin function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

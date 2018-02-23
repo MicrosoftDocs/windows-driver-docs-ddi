@@ -7,8 +7,8 @@ old-location: display\dd_getformatdata.htm
 old-project: display
 ms.assetid: 881a52d1-8e37-4474-a943-086ef5ceca80
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_DD_GETFORMATDATA, DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices], d3dhal/DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, display.dd_getformatdata"
+ms.date: 2/20/2018
+ms.keywords: "_DD_GETFORMATDATA, display.dd_getformatdata, DD_GETFORMATDATA, d3dstrct_cfa9e4e0-86d8-4b38-9c50-8661012c34e8.xml, d3dhal/DD_GETFORMATDATA, DD_GETFORMATDATA structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,5 +117,5 @@ When processing this <b>GetDriverInfo2</b> request the driver should read the <b
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_GETFORMATDATA structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DD_GETFORMATDATA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

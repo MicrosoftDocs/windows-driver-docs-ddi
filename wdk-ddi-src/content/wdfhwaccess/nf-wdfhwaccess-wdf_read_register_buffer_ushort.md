@@ -7,8 +7,8 @@ old-location: wdf\wdf_read_register_buffer_ushort.htm
 old-project: wdf
 ms.assetid: BA47B3D0-9515-40C6-B23D-A2D9FC993FB3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_read_register_buffer_ushort, WDF_READ_REGISTER_BUFFER_USHORT function, WDF_READ_REGISTER_BUFFER_USHORT, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT
+ms.date: 2/20/2018
+ms.keywords: WDF_READ_REGISTER_BUFFER_USHORT, WDF_READ_REGISTER_BUFFER_USHORT function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_USHORT, wdf.wdf_read_register_buffer_ushort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_REGISTER_BUFFER_USHORT
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

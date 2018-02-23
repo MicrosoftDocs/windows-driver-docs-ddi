@@ -4,10 +4,10 @@ title: IDebugPlmClient
 author: windows-driver-content
 description: This interface supports Process Lifecycle Management (PLM) for the debug client.
 old-location: debugger\idebugplmclient.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2D713354-4C93-4DC1-A3E9-7E6BC991FD08
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugplmclient, IDebugPlmClient interface [Windows Debugging], IDebugPlmClient interface [Windows Debugging], described, IDebugPlmClient, dbgeng/IDebugPlmClient
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDebugPlmClient
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugPlmClient interface

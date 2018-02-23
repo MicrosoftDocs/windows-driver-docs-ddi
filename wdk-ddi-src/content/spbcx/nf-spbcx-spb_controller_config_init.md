@@ -7,8 +7,8 @@ old-location: spb\spb_controller_config_init.htm
 old-project: SPB
 ms.assetid: 78D46903-A13D-4BC2-803F-E1656A43E865
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT, spbcx/SPB_CONTROLLER_CONFIG_INIT, SPB_CONTROLLER_CONFIG_INIT function [Buses]
+ms.date: 2/15/2018
+ms.keywords: SPB_CONTROLLER_CONFIG_INIT function [Buses], spbcx/SPB_CONTROLLER_CONFIG_INIT, SPB.spb_controller_config_init, SPB_CONTROLLER_CONFIG_INIT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,5 +105,5 @@ Your SPB controller driver must use this function to initialize an <b>SPB_CONTRO
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_CONTROLLER_CONFIG_INIT function%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_CONTROLLER_CONFIG_INIT function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

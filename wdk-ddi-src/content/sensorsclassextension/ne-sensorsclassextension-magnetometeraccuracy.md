@@ -7,8 +7,8 @@ old-location: sensors\magnetometeraccuracy.htm
 old-project: sensors
 ms.assetid: DC495EFB-3522-4220-87F8-3DB501831D6E
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: Unknown, Approximate, Unreliable, sensorsclassextension/Approximate, MagnetometerAccuracy enumeration [Sensor Devices], MagnetometerAccuracy, sensorsclassextension/MagnetometerAccuracy, sensorsclassextension/High, High, sensorsclassextension/Unknown, sensorsclassextension/Unreliable, sensors.magnetometeraccuracy
+ms.date: 2/15/2018
+ms.keywords: sensorsclassextension/MagnetometerAccuracy, MagnetometerAccuracy, sensorsclassextension/High, High, sensorsclassextension/Approximate, sensorsclassextension/Unknown, sensors.magnetometeraccuracy, sensorsclassextension/Unreliable, Unknown, MagnetometerAccuracy enumeration [Sensor Devices], Unreliable, Approximate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -126,5 +126,5 @@ Apps that need calibration may periodically ask the user to calibrate the device
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20MagnetometerAccuracy enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20MagnetometerAccuracy enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

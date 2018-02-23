@@ -7,8 +7,8 @@ old-location: print\propsheetui_info_header.htm
 old-project: print
 ms.assetid: 148c463c-a18b-4f24-b3dc-af74c3de97b7
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: compstui/PROPSHEETUI_INFO_HEADER, *PPROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], _PROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, compstui/PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], PROPSHEETUI_INFO_HEADER, print.propsheetui_info_header
+ms.date: 2/21/2018
+ms.keywords: "*PPROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER, print.propsheetui_info_header, compstui/PROPSHEETUI_INFO_HEADER, PROPSHEETUI_INFO_HEADER structure [Print Devices], cpsuifnc_21dad179-56e1-478c-8a62-628262ca59a8.xml, PROPSHEETUI_INFO_HEADER, PPROPSHEETUI_INFO_HEADER structure pointer [Print Devices], _PROPSHEETUI_INFO_HEADER, compstui/PPROPSHEETUI_INFO_HEADER"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -163,10 +163,12 @@ Application-supplied instance handle, which CPSUI uses when loading application 
  
 
 
-### -field DUMMYUNIONNAME.hIcon
 
 
-### -field DUMMYUNIONNAME.IconID
+#### - hIcon
+
+
+#### - IconID
 
 This union identifies the icon to be displayed in the property sheet's title bar. The union member is selected by PSUIHDRF_USEICON in <b>Flags</b>.
 

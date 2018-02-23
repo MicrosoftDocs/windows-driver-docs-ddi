@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_video_decoder_config.htm
 old-project: display
 ms.assetid: f96a63b5-a560-4230-b6c9-3e3e98c1b8ab
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: ContentKeySize, D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], pContentKey, display.d3d11_1ddi_video_decoder_config, D3D11_1DDI_VIDEO_DECODER_CONFIG, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG
+ms.date: 2/20/2018
+ms.keywords: pContentKey, d3d10umddi/D3D11_1DDI_VIDEO_DECODER_CONFIG, display.d3d11_1ddi_video_decoder_config, D3D11_1DDI_VIDEO_DECODER_CONFIG structure [Display Devices], ContentKeySize, D3D11_1DDI_VIDEO_DECODER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -320,7 +320,7 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
 
 
 
-<a href="..\dxva\ns-dxva-_dxva_tcoef4group.md">DXVA_TCoef4Group</a>
+<a href="..\d3d10umddi\ns-d3d10umddi-d3dwddm2_0ddi_video_decoder_begin_frame_crypto_session.md">D3DWDDM2_0DDI_VIDEO_DECODER_BEGIN_FRAME_CRYPTO_SESSION</a>
 
 
 
@@ -332,5 +332,5 @@ If <b>ConfigResidDiffHost</b> is 1 and <b>ConfigSpatialResid8</b> is 1, the host
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11_1DDI_VIDEO_DECODER_CONFIG structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3D11_1DDI_VIDEO_DECODER_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

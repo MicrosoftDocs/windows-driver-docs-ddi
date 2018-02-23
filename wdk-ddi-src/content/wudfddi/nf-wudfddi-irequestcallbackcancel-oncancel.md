@@ -7,8 +7,8 @@ old-location: wdf\irequestcallbackcancel_oncancel.htm
 old-project: wdf
 ms.assetid: 67c85eaa-bb47-4384-8e37-fdbbc879b352
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IRequestCallbackCancel, umdf.irequestcallbackcancel_oncancel, IRequestCallbackCancel::OnCancel, IRequestCallbackCancel interface, OnCancel method, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, OnCancel method, IRequestCallbackCancel interface, OnCancel method, wdf.irequestcallbackcancel_oncancel, OnCancel, wudfddi/IRequestCallbackCancel::OnCancel
+ms.date: 2/20/2018
+ms.keywords: wdf.irequestcallbackcancel_oncancel, OnCancel method, IRequestCallbackCancel interface, wudfddi/IRequestCallbackCancel::OnCancel, OnCancel, UMDFRequestObjectRef_bdb47237-28bf-4b07-9bcb-f8d029636d2d.xml, umdf.irequestcallbackcancel_oncancel, IRequestCallbackCancel, OnCancel method, IRequestCallbackCancel::OnCancel, IRequestCallbackCancel interface, OnCancel method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRequestCallbackCancel.OnCancel
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -105,11 +105,11 @@ The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-irequestcallbackcancel.md">IRequestCallbackCancel</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559070">IWDFIoRequest::Complete</a>
 
 
 
@@ -121,5 +121,5 @@ The User-Mode Driver Framework (UMDF) allows only one <b>OnCancel</b> method per
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IRequestCallbackCancel::OnCancel method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IRequestCallbackCancel::OnCancel method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: parports\parallel_port_information.htm
 old-project: parports
 ms.assetid: 9f170425-2c65-469e-adae-e845b11b9c8e
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: parports.parallel_port_information, PARALLEL_PORT_INFORMATION structure [Parallel Ports], PARALLEL_PORT_INFORMATION, parallel/PPARALLEL_PORT_INFORMATION, PPARALLEL_PORT_INFORMATION, _PARALLEL_PORT_INFORMATION, parallel/PARALLEL_PORT_INFORMATION, PPARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], *PPARALLEL_PORT_INFORMATION, cisspd_ca857237-0c57-46e9-aedf-f6d40a25dbf8.xml
+ms.date: 2/15/2018
+ms.keywords: "_PARALLEL_PORT_INFORMATION, parports.parallel_port_information, *PPARALLEL_PORT_INFORMATION, PPARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], parallel/PPARALLEL_PORT_INFORMATION, PARALLEL_PORT_INFORMATION structure [Parallel Ports], PPARALLEL_PORT_INFORMATION, PARALLEL_PORT_INFORMATION, cisspd_ca857237-0c57-46e9-aedf-f6d40a25dbf8.xml, parallel/PARALLEL_PORT_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARALLEL_PORT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: PARALLEL_PORT_INFORMATION, *PPARALLEL_PORT_INFORMATION
+req.typenames: "*PPARALLEL_PORT_INFORMATION, PARALLEL_PORT_INFORMATION"
 ---
 
 # _PARALLEL_PORT_INFORMATION structure
@@ -121,23 +121,23 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 ## -see-also
 
+<a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
+
+
+
+<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
+
+
+
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
+
+
+
 <a href="..\parallel\nc-parallel-pparallel_try_allocate_routine.md">PPARALLEL_TRY_ALLOCATE_ROUTINE</a>
 
 
 
 <a href="..\parallel\nc-parallel-pparallel_free_routine.md">PPARALLEL_FREE_ROUTINE</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_get_more_parallel_port_info.md">IOCTL_INTERNAL_GET_MORE_PARALLEL_PORT_INFO</a>
-
-
-
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
-
-
-
-<a href="..\parallel\ns-parallel-_parallel_pnp_information.md">PARALLEL_PNP_INFORMATION</a>
 
 
 
@@ -149,17 +149,17 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 
 
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+
+
+
 <a href="..\parallel\ns-parallel-_more_parallel_port_information.md">MORE_PARALLEL_PORT_INFORMATION</a>
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_PORT_INFORMATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_PORT_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\kscreatedevice.htm
 old-project: stream
 ms.assetid: 92a1c2d7-6a6f-4b5e-be04-b444abe3e1d5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, ks/KsCreateDevice, KsCreateDevice, stream.kscreatedevice, KsCreateDevice function [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: avfunc_3a0ddeb1-7ea0-4e10-bc98-d761bbc5c2f4.xml, KsCreateDevice, ks/KsCreateDevice, stream.kscreatedevice, KsCreateDevice function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,7 +121,7 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
 
 
 
@@ -133,11 +133,7 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 
 
-<a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a>
-
-
-
-<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
 
 
 
@@ -145,7 +141,11 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
 
 
-<a href="..\ks\nf-ks-ksinitializedriver.md">KsInitializeDriver</a>
+<a href="..\ks\nf-ks-ksadddevice.md">KsAddDevice</a>
+
+
+
+<a href="..\ks\nf-ks-ksinitializedevice.md">KsInitializeDevice</a>
 
 
 
@@ -157,5 +157,5 @@ If no <a href="..\ks\ns-ks-_ksdevice_descriptor.md">KSDEVICE_DESCRIPTOR</a> is p
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreateDevice function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsCreateDevice function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

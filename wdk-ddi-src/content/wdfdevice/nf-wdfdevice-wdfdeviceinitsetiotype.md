@@ -7,8 +7,8 @@ old-location: wdf\wdfdeviceinitsetiotype.htm
 old-project: wdf
 ms.assetid: fcad4b8e-4273-43ff-8077-a96d1bd4640a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDeviceInitSetIoType, WdfDeviceInitSetIoType method, DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, PFN_WDFDEVICEINITSETIOTYPE, kmdf.wdfdeviceinitsetiotype, wdf.wdfdeviceinitsetiotype, wdfdevice/WdfDeviceInitSetIoType
+ms.date: 2/20/2018
+ms.keywords: WdfDeviceInitSetIoType method, wdf.wdfdeviceinitsetiotype, wdfdevice/WdfDeviceInitSetIoType, DFDeviceObjectGeneralRef_4c821466-f1d7-46fa-a1f0-e8fefd20caab.xml, kmdf.wdfdeviceinitsetiotype, WdfDeviceInitSetIoType
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -130,11 +130,11 @@ The following code example indicates that a driver will use the direct I/O metho
 
 ## -see-also
 
-<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
-
-
-
 <a href="..\wdfdevice\nf-wdfdevice-wdfdeviceinitsetiotypeex.md">WdfDeviceInitSetIoTypeEx</a>
+
+
+
+<a href="..\wudfddi_types\ne-wudfddi_types-_wdf_device_io_type.md">WDF_DEVICE_IO_TYPE</a>
 
 
 
@@ -146,5 +146,5 @@ The following code example indicates that a driver will use the direct I/O metho
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceInitSetIoType method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceInitSetIoType method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

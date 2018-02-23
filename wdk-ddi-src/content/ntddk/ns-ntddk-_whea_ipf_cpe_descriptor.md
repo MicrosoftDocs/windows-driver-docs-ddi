@@ -7,8 +7,8 @@ old-location: whea\whea_ipf_cpe_descriptor.htm
 old-project: whea
 ms.assetid: ffe1c550-a7cc-4d27-9a1e-287fdc7e08eb
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ntddk/WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR, _WHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml, WHEA_IPF_CPE_DESCRIPTOR, whea.whea_ipf_cpe_descriptor, PWHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], ntddk/PWHEA_IPF_CPE_DESCRIPTOR
+ms.date: 2/20/2018
+ms.keywords: ntddk/PWHEA_IPF_CPE_DESCRIPTOR, ntddk/WHEA_IPF_CPE_DESCRIPTOR, PWHEA_IPF_CPE_DESCRIPTOR structure pointer [WHEA Drivers and Applications], _WHEA_IPF_CPE_DESCRIPTOR, *PWHEA_IPF_CPE_DESCRIPTOR, whea.whea_ipf_cpe_descriptor, WHEA_IPF_CPE_DESCRIPTOR structure [WHEA Drivers and Applications], PWHEA_IPF_CPE_DESCRIPTOR, WHEA_IPF_CPE_DESCRIPTOR, whearef_b64c919f-4854-4506-b14a-ec31b0a3e67e.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,5 +103,5 @@ A WHEA_IPF_CPE_DESCRIPTOR structure is contained within the <a href="..\ntddk\ns
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_IPF_CPE_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_IPF_CPE_DESCRIPTOR structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,13 +7,13 @@ old-location: kernel\write_port_buffer_ushort.htm
 old-project: kernel
 ms.assetid: e715c0b5-8f72-4642-9a48-2066df0a2650
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: WRITE_PORT_BUFFER_USHORT, wdm/WRITE_PORT_BUFFER_USHORT, kernel.write_port_buffer_ushort, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml
+ms.date: 2/16/2018
+ms.keywords: wdm/WRITE_PORT_BUFFER_USHORT, kernel.write_port_buffer_ushort, WRITE_PORT_BUFFER_USHORT routine [Kernel-Mode Driver Architecture], WRITE_PORT_BUFFER_USHORT, k103_c8549446-4478-4c5d-82c2-55e963c81cf3.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 

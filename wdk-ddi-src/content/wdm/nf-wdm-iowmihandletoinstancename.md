@@ -7,8 +7,8 @@ old-location: kernel\iowmihandletoinstancename.htm
 old-project: kernel
 ms.assetid: e9d8fde5-81b7-480b-8d7c-0005fd1868fb
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IoWMIHandleToInstanceName, k104_7d97f756-2f7f-4788-bcbc-368e08b6b86f.xml, kernel.iowmihandletoinstancename, IoWMIHandleToInstanceName routine [Kernel-Mode Driver Architecture], IoWMIHandleToInstanceName
+ms.date: 2/16/2018
+ms.keywords: IoWMIHandleToInstanceName routine [Kernel-Mode Driver Architecture], IoWMIHandleToInstanceName, k104_7d97f756-2f7f-4788-bcbc-368e08b6b86f.xml, wdm/IoWMIHandleToInstanceName, kernel.iowmihandletoinstancename
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -142,5 +142,5 @@ The driver does not implement any instances of the WMI class specified by <i>Dat
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIHandleToInstanceName routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoWMIHandleToInstanceName routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

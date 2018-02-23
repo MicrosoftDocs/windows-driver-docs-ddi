@@ -7,8 +7,8 @@ old-location: netvista\wskqueryprovidercharacteristics.htm
 old-project: netvista
 ms.assetid: b8a81d7e-abab-4343-a044-ac9dd913c7f2
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WskQueryProviderCharacteristics, WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml, netvista.wskqueryprovidercharacteristics, wsk/WskQueryProviderCharacteristics
+ms.date: 2/16/2018
+ms.keywords: WskQueryProviderCharacteristics function [Network Drivers Starting with Windows Vista], netvista.wskqueryprovidercharacteristics, WskQueryProviderCharacteristics, wskref_dbe0fc4a-6df6-46aa-a17b-d3835f5d429b.xml, wsk/WskQueryProviderCharacteristics
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	WskQueryProviderCharacteristics
 product: Windows
 targetos: Windows
-req.typenames: "*PWNODE_HEADER, WNODE_HEADER"
+req.typenames: "*PWPP_TRIAGE_INFO, WPP_TRIAGE_INFO"
 req.product: Windows 10 or later.
 ---
 
@@ -158,5 +158,5 @@ WSK clients can use this function to determine the WSK NPI versions supported by
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskQueryProviderCharacteristics function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WskQueryProviderCharacteristics function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

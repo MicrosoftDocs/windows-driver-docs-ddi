@@ -7,13 +7,13 @@ old-location: pci\pci_express_pme_requestor_id.htm
 old-project: PCI
 ms.assetid: 2305ffbd-22c8-4f63-bbe4-fd297bf98e39
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID, _PCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml, PPCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, *PPCI_EXPRESS_PME_REQUESTOR_ID
+ms.date: 2/15/2018
+ms.keywords: ntddk/PPCI_EXPRESS_PME_REQUESTOR_ID, ntddk/PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID, PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID, _PCI_EXPRESS_PME_REQUESTOR_ID, PCI.pci_express_pme_requestor_id, PPCI_EXPRESS_PME_REQUESTOR_ID union pointer [Buses], PCI_EXPRESS_PME_REQUESTOR_ID union [Buses], pci_struct_0cb11d1f-7426-42fc-9d77-373516a492ae.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: ntddk.h
-req.include-header: Ntddk.h
+req.include-header: Ntddk.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PCI_EXPRESS_PME_REQUESTOR_ID
 product: Windows
 targetos: Windows
-req.typenames: "*PPCI_EXPRESS_PME_REQUESTOR_ID, PCI_EXPRESS_PME_REQUESTOR_ID"
+req.typenames: PCI_EXPRESS_PME_REQUESTOR_ID, *PPCI_EXPRESS_PME_REQUESTOR_ID
 ---
 
 # _PCI_EXPRESS_PME_REQUESTOR_ID structure
@@ -77,24 +77,24 @@ typedef union _PCI_EXPRESS_PME_REQUESTOR_ID {
  
 
 
-### -field DUMMYSTRUCTNAME.FunctionNumber
+### -field AsUSHORT
+
+A USHORT representation of the contents of the PCI_EXPRESS_PME_REQUESTOR_ID structure.
+
+
+#### - FunctionNumber
 
 The function number of the requester.
 
 
-### -field DUMMYSTRUCTNAME.DeviceNumber
+#### - DeviceNumber
 
 The device number of the requester.
 
 
-### -field DUMMYSTRUCTNAME.BusNumber
+#### - BusNumber
 
 The bus number of the requester.
-
-
-### -field AsUSHORT
-
-A USHORT representation of the contents of the PCI_EXPRESS_PME_REQUESTOR_ID structure.
 
 
 ## -remarks
@@ -118,5 +118,5 @@ A PCI_EXPRESS_PME_REQUESTOR_ID structure is contained in the <b>PMERequestorId</
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_PME_REQUESTOR_ID union%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCI\buses]:%20PCI_EXPRESS_PME_REQUESTOR_ID union%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

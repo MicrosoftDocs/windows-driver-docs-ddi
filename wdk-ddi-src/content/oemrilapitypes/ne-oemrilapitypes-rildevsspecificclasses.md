@@ -7,8 +7,8 @@ old-location: netvista\rildevsspecificclasses.htm
 old-project: netvista
 ms.assetid: 21fcd199-b2bb-4ba0-9a22-33ef6579cd7a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista], RILDEVSSPECIFICCLASSES, RIL_DSCLASS_OEM_GBA, oemrilapitypes/RILDEVSSPECIFICCLASSES, oemrilapitypes/RIL_DSCLASS_OEM_GBA, netvista.rildevsspecificclasses
+ms.date: 2/16/2018
+ms.keywords: oemrilapitypes/RIL_DSCLASS_OEM_GBA, RILDEVSSPECIFICCLASSES, netvista.rildevsspecificclasses, RILDEVSSPECIFICCLASSES enumeration [Network Drivers Starting with Windows Vista], oemrilapitypes/RILDEVSSPECIFICCLASSES, RIL_DSCLASS_OEM_GBA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

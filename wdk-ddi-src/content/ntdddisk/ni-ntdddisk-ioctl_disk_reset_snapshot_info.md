@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_reset_snapshot_info.htm
 old-project: storage
 ms.assetid: b22b00de-4711-4896-a21c-33fbc7b1d64e
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_disk_reset_snapshot_info, IOCTL_DISK_RESET_SNAPSHOT_INFO control code [Storage Devices], IOCTL_DISK_RESET_SNAPSHOT_INFO, ntdddisk/IOCTL_DISK_RESET_SNAPSHOT_INFO, k307_3c2ed554-3774-467f-80a0-5017439a0aad.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

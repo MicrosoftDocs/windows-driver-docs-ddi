@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_stopacknowledge.htm
 old-project: wdf
 ms.assetid: af4ae2c0-b1e1-45af-bd0e-3b9a91566caa
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2, StopAcknowledge, IWDFIoRequest2::StopAcknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, IWDFIoRequest2 interface, StopAcknowledge method, StopAcknowledge method, wdf.iwdfiorequest2_stopacknowledge, StopAcknowledge method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::StopAcknowledge, umdf.iwdfiorequest2_stopacknowledge
+ms.date: 2/20/2018
+ms.keywords: IWDFIoRequest2, wdf.iwdfiorequest2_stopacknowledge, UMDFRequestObjectRef_9a125e95-f59a-4338-a7af-cb7f99289eb7.xml, umdf.iwdfiorequest2_stopacknowledge, StopAcknowledge, StopAcknowledge method, IWDFIoRequest2 interface, IWDFIoRequest2::StopAcknowledge, StopAcknowledge method, IWDFIoRequest2 interface, StopAcknowledge method, wudfddi/IWDFIoRequest2::StopAcknowledge
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.StopAcknowledge
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -173,17 +173,17 @@ CMyReadWriteQueue::OnIoStop(
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556865">IQueueCallbackIoResume::OnIoResume</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556871">IQueueCallbackIoStop::OnIoStop</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::StopAcknowledge method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::StopAcknowledge method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

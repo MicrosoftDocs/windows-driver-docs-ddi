@@ -7,8 +7,8 @@ old-location: display\d3dkmtreclaimallocations.htm
 old-project: display
 ms.assetid: 3bfb2a82-9451-4365-b113-6311c3f13fe6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTReclaimAllocations, D3DKMTReclaimAllocations function [Display Devices], display.d3dkmtreclaimallocations, d3dkmthk/D3DKMTReclaimAllocations, PFND3DKMT_RECLAIMALLOCATIONS
+ms.date: 2/20/2018
+ms.keywords: D3DKMTReclaimAllocations, d3dkmthk/D3DKMTReclaimAllocations, display.d3dkmtreclaimallocations, PFND3DKMT_RECLAIMALLOCATIONS, D3DKMTReclaimAllocations function [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -146,5 +146,5 @@ Parameters were validated and determined to be incorrect.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTReclaimAllocations function%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMTReclaimAllocations function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

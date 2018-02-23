@@ -7,13 +7,13 @@ old-location: kernel\write_port_buffer_ulong.htm
 old-project: kernel
 ms.assetid: 6f786456-344a-4fc3-bc13-8d4253f4039a
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: WRITE_PORT_BUFFER_ULONG, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], kernel.write_port_buffer_ulong, k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, wdm/WRITE_PORT_BUFFER_ULONG
+ms.date: 2/16/2018
+ms.keywords: k103_821262d5-40d2-435b-965e-cf0a917736b3.xml, WRITE_PORT_BUFFER_ULONG routine [Kernel-Mode Driver Architecture], wdm/WRITE_PORT_BUFFER_ULONG, kernel.write_port_buffer_ulong, WRITE_PORT_BUFFER_ULONG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 

@@ -7,8 +7,8 @@ old-location: wdf\wdfpdoinitallocate.htm
 old-project: wdf
 ms.assetid: 86e48354-d4cd-4ad0-a6bd-e8ba662075d8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfPdoInitAllocate method, WdfPdoInitAllocate, wdf.wdfpdoinitallocate, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, PFN_WDFPDOINITALLOCATE, wdfpdo/WdfPdoInitAllocate, kmdf.wdfpdoinitallocate
+ms.date: 2/20/2018
+ms.keywords: WdfPdoInitAllocate method, kmdf.wdfpdoinitallocate, WdfPdoInitAllocate, DFDeviceObjectFdoPdoRef_bc23c37b-d595-4672-ad92-4a29aea9c2dd.xml, wdfpdo/WdfPdoInitAllocate, wdf.wdfpdoinitallocate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -126,5 +126,5 @@ For a code example that uses <b>WdfPdoInitAllocate</b>, see <a href="..\wdffdo\n
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAllocate method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAllocate method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

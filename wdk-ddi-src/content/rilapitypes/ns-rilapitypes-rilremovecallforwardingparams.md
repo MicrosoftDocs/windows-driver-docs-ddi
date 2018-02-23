@@ -7,8 +7,8 @@ old-location: netvista\rilremovecallforwardingparams_2.htm
 old-project: netvista
 ms.assetid: 5bdd8542-e1ef-42ac-99d7-c004039d2f33
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILREMOVECALLFORWARDINGPARAMS, *LPRILREMOVECALLFORWARDINGPARAMS, netvista.rilremovecallforwardingparams_2, RILREMOVECALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], rilapitypes/RILREMOVECALLFORWARDINGPARAMS
+ms.date: 2/16/2018
+ms.keywords: RILREMOVECALLFORWARDINGPARAMS, rilapitypes/RILREMOVECALLFORWARDINGPARAMS, RILREMOVECALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilremovecallforwardingparams_2, *LPRILREMOVECALLFORWARDINGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

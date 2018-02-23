@@ -7,7 +7,7 @@ old-location: netvista\protocolinvalidateoffloadcomplete.htm
 old-project: netvista
 ms.assetid: 6d2c71d0-9686-4eb5-9715-27de3dc8b390
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.protocolinvalidateoffloadcomplete, ProtocolInvalidateOffloadComplete callback function [Network Drivers Starting with Windows Vista], ProtocolInvalidateOffloadComplete, INVALIDATE_OFFLOAD_COMPLETE_HANDLER, INVALIDATE_OFFLOAD_COMPLETE_HANDLER, ndischimney/ProtocolInvalidateOffloadComplete, tcp_chim_protocol_func_af2a329a-730b-4ccb-afc6-702e88a763f2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -142,7 +142,12 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 
-<a href="..\ndischimney\nf-ndischimney-ndisinvalidateoffload.md">NdisInvalidateOffload</a>
+<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
+   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+
+
+
+<a href="..\ndis\nf-ndis-ndisopenadapterex.md">NdisOpenAdapterEx</a>
 
 
 
@@ -150,13 +155,7 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_ndis_protocol_offload_block_list.md">
-   NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST</a>
-
-
-
-<a href="..\ndischimney\ns-ndischimney-_ndis_miniport_offload_block_list.md">
-   NDIS_MINIPORT_OFFLOAD_BLOCK_LIST</a>
+<a href="..\ndischimney\nf-ndischimney-ndisinvalidateoffload.md">NdisInvalidateOffload</a>
 
 
 
@@ -164,5 +163,5 @@ From the NDIS_PROTOCOL_OFFLOAD_BLOCK_LIST structure that was passed to its
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20INVALIDATE_OFFLOAD_COMPLETE_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

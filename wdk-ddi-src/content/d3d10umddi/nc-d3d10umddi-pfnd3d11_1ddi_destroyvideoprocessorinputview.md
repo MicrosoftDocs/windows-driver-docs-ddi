@@ -7,7 +7,7 @@ old-location: display\destroyvideoprocessorinputview.htm
 old-project: display
 ms.assetid: 3a815201-091b-4c85-a62a-2cdbbaf0bf95
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.destroyvideoprocessorinputview, pfnDestroyVideoProcessorInputView callback function [Display Devices], pfnDestroyVideoProcessorInputView, PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, PFND3D11_1DDI_DESTROYVIDEOPROCESSORINPUTVIEW, d3d10umddi/pfnDestroyVideoProcessorInputView
 ms.prod: windows-hardware
 ms.technology: windows-devices

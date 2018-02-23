@@ -7,7 +7,7 @@ old-location: wdf\evtdeviceusagenotification.htm
 old-project: wdf
 ms.assetid: b6b7dd80-fd91-4194-8288-4d703983a798
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtdeviceusagenotification, EvtDeviceUsageNotification callback function, EvtDeviceUsageNotification, EVT_WDF_DEVICE_USAGE_NOTIFICATION, EVT_WDF_DEVICE_USAGE_NOTIFICATION, wdfdevice/EvtDeviceUsageNotification, DFDeviceObjectGeneralRef_bbf01697-e3d0-4711-aa7f-c53bfd205ea7.xml, kmdf.evtdeviceusagenotification
 ms.prod: windows-hardware
 ms.technology: windows-devices

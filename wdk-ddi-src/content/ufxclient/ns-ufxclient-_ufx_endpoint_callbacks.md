@@ -4,11 +4,11 @@ title: "_UFX_ENDPOINT_CALLBACKS"
 author: windows-driver-content
 description: The UFX_ENDPOINT_CALLBACKS structure is used to define then event callback functions supported by the client driver.
 old-location: buses\ufx_endpoint_callbacks.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: CED05E15-E141-4A6D-A657-CF0DF9FD1200
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ufxclient/PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], *PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS, _UFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], buses.ufx_endpoint_callbacks, ufxclient/UFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS
+ms.date: 2/15/2018
+ms.keywords: ufxclient/PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS structure [Buses], *PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS, PUFX_ENDPOINT_CALLBACKS structure pointer [Buses], ufxclient/UFX_ENDPOINT_CALLBACKS, buses.ufx_endpoint_callbacks, PUFX_ENDPOINT_CALLBACKS, _UFX_ENDPOINT_CALLBACKS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFX_ENDPOINT_CALLBACKS
 product: Windows
 targetos: Windows
-req.typenames: UFX_ENDPOINT_CALLBACKS, *PUFX_ENDPOINT_CALLBACKS
+req.typenames: "*PUFX_ENDPOINT_CALLBACKS, UFX_ENDPOINT_CALLBACKS"
 req.product: Windows 10 or later.
 ---
 

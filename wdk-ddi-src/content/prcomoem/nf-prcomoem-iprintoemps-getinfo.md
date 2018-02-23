@@ -7,8 +7,8 @@ old-location: print\iprintoemps_getinfo.htm
 old-project: print
 ms.assetid: 9a8b060d-675b-4171-b75e-6df55cd0667f
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrintOemPS::GetInfo, prcomoem/IPrintOemPS::GetInfo, IPrintOemPS interface [Print Devices], GetInfo method, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml, GetInfo method [Print Devices], GetInfo, GetInfo method [Print Devices], IPrintOemPS interface, IPrintOemPS
+ms.date: 2/21/2018
+ms.keywords: GetInfo method [Print Devices], IPrintOemPS, IPrintOemPS interface [Print Devices], GetInfo method, GetInfo, print.iprintoemps_getinfo, print_unidrv-pscript_rendering_1312f0cf-aa7d-45df-8e77-eed5dedd2f10.xml, prcomoem/IPrintOemPS::GetInfo, IPrintOemPS::GetInfo, GetInfo method [Print Devices], IPrintOemPS interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemPS.GetInfo
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 
@@ -198,9 +198,13 @@ For more information about creating and installing rendering plug-ins, see <a hr
 
 
 
- 
+<a href="https://msdn.microsoft.com/14c545b7-8080-424f-9164-f97ef8a1acc2">IPrintOemPS</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPS::GetInfo method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintOemPS::GetInfo method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\splclient_info_3_vista.htm
 old-project: print
 ms.assetid: 076ECB20-CFAD-4A16-9B01-6936E0DD7E50
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: "*LPSPLCLIENT_INFO_3, SPLCLIENT_INFO_3_VISTA structure [Print Devices], winsplp/SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3_VISTA, _SPLCLIENT_INFO_3_VISTA, SPLCLIENT_INFO_3, print.splclient_info_3_vista, *PSPLCLIENT_INFO_3"
+ms.date: 2/21/2018
+ms.keywords: SPLCLIENT_INFO_3_VISTA structure [Print Devices], SPLCLIENT_INFO_3_VISTA, _SPLCLIENT_INFO_3_VISTA, winsplp/SPLCLIENT_INFO_3_VISTA, print.splclient_info_3_vista, *LPSPLCLIENT_INFO_3, SPLCLIENT_INFO_3, *PSPLCLIENT_INFO_3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

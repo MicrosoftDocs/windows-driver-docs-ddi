@@ -7,8 +7,8 @@ old-location: netvista\rilsetexecutorconfigparams.htm
 old-project: netvista
 ms.assetid: de392c8c-3153-48e8-85ad-dc1a5ed2812c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILSETEXECUTORCONFIGPARAMS, netvista.rilsetexecutorconfigparams, *LPRILSETEXECUTORCONFIGPARAMS, ntddrilapitypes/RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS, *LPRILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetexecutorconfigparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETEXECUTORCONFIGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSETEXECUTORCONFIGPARAMS, RILSETEXECUTORCONFIGPARAMS"
+req.typenames: RILSETEXECUTORCONFIGPARAMS, *LPRILSETEXECUTORCONFIGPARAMS
 ---
 
 # RILSETEXECUTORCONFIGPARAMS structure

@@ -7,8 +7,8 @@ old-location: hid\hidp_getdata.htm
 old-project: hid
 ms.assetid: 37cbd329-81c3-40ef-be42-4a64c4a1ec3a
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: HidP_GetData, hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hidpi/HidP_GetData, hid.hidp_getdata, HidP_GetData routine [Human Input Devices]
+ms.date: 2/15/2018
+ms.keywords: hidfunc_7d8a50f7-0ed4-4ba7-9ca4-70204c2a2699.xml, hid.hidp_getdata, hidpi/HidP_GetData, HidP_GetData routine [Human Input Devices], HidP_GetData
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -201,15 +201,7 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 ## -see-also
 
-<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
-
-
-
 <a href="..\hidpi\ns-hidpi-_hidp_data.md">HIDP_DATA</a>
-
-
-
-<a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
 
 
 
@@ -217,9 +209,17 @@ For more information, see <a href="https://msdn.microsoft.com/2d3efb38-4eba-43db
 
 
 
- 
+<a href="..\hidpi\nf-hidpi-hidp_setdata.md">HidP_SetData</a>
+
+
+
+<a href="..\hidpi\nf-hidpi-hidp_maxdatalistlength.md">HidP_MaxDataListLength</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetData routine%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [hid\hid]:%20HidP_GetData routine%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

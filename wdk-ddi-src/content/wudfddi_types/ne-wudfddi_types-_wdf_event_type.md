@@ -7,8 +7,8 @@ old-location: wdf\wdf_event_type.htm
 old-project: wdf
 ms.assetid: DC6353BB-98C0-4647-9180-F099CD95348E
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfEventReserved, wdfdevice/WdfEventBroadcast, WdfEventMaximum, WDF_EVENT_TYPE, WdfEventBroadcast, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventReserved, wdfdevice/WDF_EVENT_TYPE, wdf.wdf_event_type, wudfddi_types/WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration, wudfddi_types/WdfEventBroadcast, _WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved, wudfddi_types/WdfEventMaximum
+ms.date: 2/20/2018
+ms.keywords: wudfddi_types/WdfEventBroadcast, WdfEventReserved, wdf.wdf_event_type, WdfEventMaximum, _WDF_EVENT_TYPE, wdfdevice/WdfEventMaximum, wdfdevice/WdfEventBroadcast, WDF_EVENT_TYPE, wudfddi_types/WdfEventReserved, wdfdevice/WdfEventReserved, wudfddi_types/WdfEventMaximum, WdfEventBroadcast, wdfdevice/WDF_EVENT_TYPE, wudfddi_types/WDF_EVENT_TYPE, WDF_EVENT_TYPE enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -102,5 +102,5 @@ Reserved for system use.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_EVENT_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_EVENT_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

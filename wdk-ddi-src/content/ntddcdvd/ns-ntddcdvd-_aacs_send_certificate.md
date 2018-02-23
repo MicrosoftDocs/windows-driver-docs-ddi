@@ -7,8 +7,8 @@ old-location: storage\aacs_send_certificate.htm
 old-project: storage
 ms.assetid: e0071ee1-7675-4029-b457-e7c26e642c31
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ntddcdvd/AACS_SEND_CERTIFICATE, *PAACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE, _AACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE structure pointer [Storage Devices], storage.aacs_send_certificate, structs-DVD_0f4e9fce-96a6-4064-bbb2-4c7077dad635.xml, ntddcdvd/PAACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE structure [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: "_AACS_SEND_CERTIFICATE, *PAACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE structure pointer [Storage Devices], structs-DVD_0f4e9fce-96a6-4064-bbb2-4c7077dad635.xml, AACS_SEND_CERTIFICATE structure [Storage Devices], ntddcdvd/AACS_SEND_CERTIFICATE, storage.aacs_send_certificate, AACS_SEND_CERTIFICATE, ntddcdvd/PAACS_SEND_CERTIFICATE, PAACS_SEND_CERTIFICATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	AACS_SEND_CERTIFICATE
 product: Windows
 targetos: Windows
-req.typenames: "*PAACS_SEND_CERTIFICATE, AACS_SEND_CERTIFICATE"
+req.typenames: AACS_SEND_CERTIFICATE, *PAACS_SEND_CERTIFICATE
 ---
 
 # _AACS_SEND_CERTIFICATE structure
@@ -105,5 +105,5 @@ Clients send an Advanced Access Content System (AACS) certificate with an <a hre
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_SEND_CERTIFICATE structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AACS_SEND_CERTIFICATE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

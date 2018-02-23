@@ -4,11 +4,11 @@ title: IStiUSD::Initialize method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::Initialize method initializes an instance of the COM object that defines the IStiUSD interface.
 old-location: image\istiusd_initialize.htm
-old-project: image
+old-project: Image
 ms.assetid: a2aa0ce6-f63b-4df4-b1c4-a23e80cdcd6c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: Initialize method [Imaging Devices], IStiUSD::Initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, stiusd/IStiUSD::Initialize, Initialize, IStiUSD interface [Imaging Devices], Initialize method, Initialize method [Imaging Devices], IStiUSD interface, IStiUSD, image.istiusd_initialize
+ms.date: 2/15/2018
+ms.keywords: IStiUSD interface [Imaging Devices], Initialize method, IStiUSD, IStiUSD::Initialize, stiusd/IStiUSD::Initialize, stifnc_b587b574-dd44-47a2-9d04-78e34733a456.xml, image.istiusd_initialize, Initialize method [Imaging Devices], IStiUSD interface, Initialize method [Imaging Devices], Initialize
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.Initialize
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 

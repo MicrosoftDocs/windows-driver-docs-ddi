@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_retrieveoutputmemory.htm
 old-project: wdf
 ms.assetid: d17e7435-adc3-4248-a6c9-c7e267504291
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: IWDFIoRequest2 interface, RetrieveOutputMemory method, IWDFIoRequest2, wdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory method, wudfddi/IWDFIoRequest2::RetrieveOutputMemory, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, umdf.iwdfiorequest2_retrieveoutputmemory, RetrieveOutputMemory, RetrieveOutputMemory method, IWDFIoRequest2 interface, IWDFIoRequest2::RetrieveOutputMemory
+ms.date: 2/20/2018
+ms.keywords: umdf.iwdfiorequest2_retrieveoutputmemory, IWDFIoRequest2, RetrieveOutputMemory, RetrieveOutputMemory method, IWDFIoRequest2 interface, IWDFIoRequest2 interface, RetrieveOutputMemory method, wudfddi/IWDFIoRequest2::RetrieveOutputMemory, UMDFRequestObjectRef_9fbbb5ad-480f-4744-805a-1af1dd841274.xml, RetrieveOutputMemory method, IWDFIoRequest2::RetrieveOutputMemory, wdf.iwdfiorequest2_retrieveoutputmemory
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.RetrieveOutputMemory
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -204,15 +204,15 @@ Exit:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559037">IWDFIoRequest2::RetrieveInputMemory</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff559041">IWDFIoRequest2::RetrieveOutputBuffer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559033">IWDFIoRequest2::RetrieveInputBuffer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559112">IWDFIoRequest::GetOutputMemory</a>
 
 
 
@@ -220,5 +220,5 @@ Exit:
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::RetrieveOutputMemory method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::RetrieveOutputMemory method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

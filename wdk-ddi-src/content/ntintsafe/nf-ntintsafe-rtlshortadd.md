@@ -7,8 +7,8 @@ old-location: kernel\rtlshortadd.htm
 old-project: kernel
 ms.assetid: 6CCBDECB-D52A-409D-91CA-6635E6D02545
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlShortAdd, kernel.rtlshortadd, RtlShortAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlShortAdd
+ms.date: 2/16/2018
+ms.keywords: RtlShortAdd function [Kernel-Mode Driver Architecture], ntintsafe/RtlShortAdd, kernel.rtlshortadd, RtlShortAdd
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

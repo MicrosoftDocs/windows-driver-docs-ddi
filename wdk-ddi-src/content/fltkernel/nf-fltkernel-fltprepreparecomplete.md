@@ -7,8 +7,8 @@ old-location: ifsk\fltprepreparecomplete.htm
 old-project: ifsk
 ms.assetid: f4049af3-3a6f-40fc-a2a7-fd081b27170e
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltprepreparecomplete, FltPrePrepareComplete, fltkernel/FltPrePrepareComplete, FltPrePrepareComplete routine [Installable File System Drivers], FltApiRef_p_to_z_d0d56c7a-abff-4cd2-a1c7-a511d1ac8903.xml
+ms.date: 2/16/2018
+ms.keywords: fltkernel/FltPrePrepareComplete, FltPrePrepareComplete routine [Installable File System Drivers], FltPrePrepareComplete, FltApiRef_p_to_z_d0d56c7a-abff-4cd2-a1c7-a511d1ac8903.xml, ifsk.fltprepreparecomplete
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -145,19 +145,11 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltcommitcomplete.md">FltCommitComplete</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_transaction_notification_callback.md">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
+<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
 
 
 
@@ -165,19 +157,27 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltpreparecomplete.md">FltPrepareComplete</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
+<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreleasecontext.md">FltReleaseContext</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltrollbackcomplete.md">FltRollbackComplete</a>
 
 
 
 <a href="..\fltkernel\nf-fltkernel-fltdeletecontext.md">FltDeleteContext</a>
+
+
+
+<a href="..\fltkernel\nc-fltkernel-pflt_transaction_notification_callback.md">PFLT_TRANSACTION_NOTIFICATION_CALLBACK</a>
 
 
 
@@ -189,11 +189,11 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltregisterfilter.md">FltRegisterFilter</a>
+<a href="..\fltkernel\nf-fltkernel-fltdeletetransactioncontext.md">FltDeleteTransactionContext</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltrollbackenlistment.md">FltRollbackEnlistment</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocatecontext.md">FltAllocateContext</a>
 
 
 
@@ -205,5 +205,5 @@ To set a transaction context, call <a href="..\fltkernel\nf-fltkernel-fltsettran
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltPrePrepareComplete routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltPrePrepareComplete routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

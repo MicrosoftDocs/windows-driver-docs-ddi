@@ -4,11 +4,11 @@ title: "_USBD_PIPE_INFORMATION"
 author: windows-driver-content
 description: The USBD_PIPE_INFORMATION structure is used by USB client drivers to hold information about a pipe from a specific interface.
 old-location: buses\usbd_pipe_information.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 92e4e960-fd74-42e1-8448-a07676507427
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: usb/USBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION structure pointer [Buses], _USBD_PIPE_INFORMATION, PUSBD_PIPE_INFORMATION, usb/PUSBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION, buses.usbd_pipe_information, USBD_PIPE_INFORMATION structure [Buses], usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml
+ms.date: 2/15/2018
+ms.keywords: PUSBD_PIPE_INFORMATION structure pointer [Buses], PUSBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION, *PUSBD_PIPE_INFORMATION, usb/PUSBD_PIPE_INFORMATION, buses.usbd_pipe_information, usbstrct_79d986fc-2853-4179-8a41-cc438582b317.xml, usb/USBD_PIPE_INFORMATION, USBD_PIPE_INFORMATION structure [Buses], _USBD_PIPE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -302,5 +302,5 @@ The value received in <b>MaximumPacketSize</b> for an isochronous endpoint (high
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20USBD_PIPE_INFORMATION structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20USBD_PIPE_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

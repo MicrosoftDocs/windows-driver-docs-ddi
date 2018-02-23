@@ -7,8 +7,8 @@ old-location: netvista\rilparticipantoperation_2.htm
 old-project: netvista
 ms.assetid: 74386760-95c8-4c69-99bf-542e7c58b8c8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_PARTICIPANT_REMOVE, rilapitypes/RIL_PARTICIPANT_REMOVE, rilapitypes/RILPARTICIPANTOPERATION, netvista.rilparticipantoperation_2, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista], RIL_PARTICIPANT_MAX, rilapitypes/RIL_PARTICIPANT_MAX, RILPARTICIPANTOPERATION
+ms.date: 2/16/2018
+ms.keywords: RILPARTICIPANTOPERATION, RIL_PARTICIPANT_MAX, rilapitypes/RILPARTICIPANTOPERATION, RIL_PARTICIPANT_REMOVE, rilapitypes/RIL_PARTICIPANT_MAX, rilapitypes/RIL_PARTICIPANT_REMOVE, netvista.rilparticipantoperation_2, RILPARTICIPANTOPERATION enumeration [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

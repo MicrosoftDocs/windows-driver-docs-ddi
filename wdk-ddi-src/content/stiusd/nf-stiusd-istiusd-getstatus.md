@@ -4,11 +4,11 @@ title: IStiUSD::GetStatus method
 author: windows-driver-content
 description: A still image minidriver's IStiUSD::GetStatus method returns the status of a still image device.
 old-location: image\istiusd_getstatus.htm
-old-project: image
+old-project: Image
 ms.assetid: 24133d1d-eac4-4740-9635-1205f7a2c4d4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: image.istiusd_getstatus, IStiUSD interface [Imaging Devices], GetStatus method, GetStatus method [Imaging Devices], IStiUSD interface, IStiUSD::GetStatus, GetStatus method [Imaging Devices], stiusd/IStiUSD::GetStatus, IStiUSD, GetStatus, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml
+ms.date: 2/15/2018
+ms.keywords: IStiUSD::GetStatus, stiusd/IStiUSD::GetStatus, IStiUSD, image.istiusd_getstatus, GetStatus method [Imaging Devices], IStiUSD interface, IStiUSD interface [Imaging Devices], GetStatus method, stifnc_78892dba-6e94-4455-8616-f5c3afd9256e.xml, GetStatus method [Imaging Devices], GetStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IStiUSD.GetStatus
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_WIA_DEVICE_INFORMATIONW, STI_WIA_DEVICE_INFORMATIONW"
+req.typenames: STI_WIA_DEVICE_INFORMATIONW, *PSTI_WIA_DEVICE_INFORMATIONW
 req.product: Windows 10 or later.
 ---
 
@@ -105,5 +105,5 @@ If the caller specifies STI_DEVSTATUS_ONLINE_STATE in the supplied STI_DEVICE_ST
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IStiUSD::GetStatus method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IStiUSD::GetStatus method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

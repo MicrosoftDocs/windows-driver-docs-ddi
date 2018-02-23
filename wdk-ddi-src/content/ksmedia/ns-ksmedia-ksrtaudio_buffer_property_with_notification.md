@@ -7,8 +7,8 @@ old-location: audio\ksrtaudio_buffer_property_with_notification.htm
 old-project: audio
 ms.assetid: 767c18e3-4455-4d2b-a71a-23ca11f718c8
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, audio.ksrtaudio_buffer_property_with_notification, ksmedia/PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure pointer [Audio Devices], aud-prop_43dd73ce-1c4d-4138-a7c1-9f1f17da5643.xml, *PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, ksmedia/KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure [Audio Devices]
+ms.date: 2/21/2018
+ms.keywords: audio.ksrtaudio_buffer_property_with_notification, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, ksmedia/PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, ksmedia/KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, *PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure [Audio Devices], aud-prop_43dd73ce-1c4d-4138-a7c1-9f1f17da5643.xml, PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
 product: Windows
 targetos: Windows
-req.typenames: "*PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION"
+req.typenames: KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION, *PKSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION
 ---
 
 # KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure
@@ -109,10 +109,6 @@ Using KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION facilitates event signaling as
 
 
 
-<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537385">KSPROPERTY_RTAUDIO_REGISTER_NOTIFICATION_EVENT</a>
 
 
@@ -121,9 +117,13 @@ Using KSPROPERTY_RTAUDIO_BUFFER_WITH_NOTIFICATION facilitates event signaling as
 
 
 
- 
+<a href="..\ks\nf-ks-ikscontrol-ksproperty.md">KSPROPERTY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSRTAUDIO_BUFFER_PROPERTY_WITH_NOTIFICATION structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

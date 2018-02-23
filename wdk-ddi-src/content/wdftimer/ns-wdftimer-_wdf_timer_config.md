@@ -7,8 +7,8 @@ old-location: wdf\wdf_timer_config.htm
 old-project: wdf
 ms.assetid: 5ef6491d-90bb-472c-821a-b296bef17463
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdf_timer_config, PWDF_TIMER_CONFIG, wdftimer/PWDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG, DFTimerObjectRef_cacde276-7a83-4a7f-87e1-de043aee4725.xml, WDF_TIMER_CONFIG structure, PWDF_TIMER_CONFIG structure pointer, kmdf.wdf_timer_config, wdftimer/WDF_TIMER_CONFIG, _WDF_TIMER_CONFIG, WDF_TIMER_CONFIG
+ms.date: 2/20/2018
+ms.keywords: WDF_TIMER_CONFIG structure, wdf.wdf_timer_config, kmdf.wdf_timer_config, DFTimerObjectRef_cacde276-7a83-4a7f-87e1-de043aee4725.xml, wdftimer/WDF_TIMER_CONFIG, WDF_TIMER_CONFIG, wdftimer/PWDF_TIMER_CONFIG, _WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG, PWDF_TIMER_CONFIG, PWDF_TIMER_CONFIG structure pointer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_TIMER_CONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_TIMER_CONFIG, WDF_TIMER_CONFIG"
+req.typenames: WDF_TIMER_CONFIG, *PWDF_TIMER_CONFIG
 req.product: Windows 10 or later.
 ---
 
@@ -114,7 +114,7 @@ For more information about this member, see the following Remarks section.
 
 This member is available starting with Windows 8.1 and KMDF version 1.13.
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the framework uses a high resolution timer that has an accuracy of one millisecond.  If the value is <b>WdfFalse</b> or <b>WdfDefault</b>, the framework uses a standard timer that has an accuracy matching the system clock tick interval, which is by default 15.6 milliseconds.
+A <a href="..\wdftypes\ne-wdftypes-_wdf_tri_state.md">WDF_TRI_STATE</a>-typed value. If this value is <b>WdfTrue</b>, the framework uses a high resolution timer that has an accuracy of one millisecond.  If the value is <b>WdfFalse</b> or <b>WdfDefault</b>, the framework uses a standard timer that has an accuracy matching the system clock tick interval, which is by default 15.6 milliseconds.
 
 <div class="alert"><b>Warning</b>  If you set <b>UseHighResolutionTimer</b> to <b>WdfTrue</b>, you must call <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a> with the <i>DueTime</i> parameter set to a negative value.  Otherwise, the call causes the system to crash.</div>
 <div> </div>
@@ -153,14 +153,6 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 
 
-<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
-
-
-
-<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
-
-
-
 <a href="..\wdftimer\nf-wdftimer-wdftimerstart.md">WdfTimerStart</a>
 
 
@@ -169,9 +161,17 @@ For more information about framework timer objects, see <a href="https://docs.mi
 
 
 
- 
+<a href="..\wdftimer\nf-wdftimer-wdf_timer_config_init_periodic.md">WDF_TIMER_CONFIG_INIT_PERIODIC</a>
+
+
+
+<a href="https://msdn.microsoft.com/abe15fd9-620e-4c24-9a82-32d20a7e49cc">EvtTimerFunc</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_TIMER_CONFIG structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_TIMER_CONFIG structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

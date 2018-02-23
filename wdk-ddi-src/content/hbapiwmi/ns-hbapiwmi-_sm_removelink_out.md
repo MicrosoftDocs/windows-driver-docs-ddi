@@ -7,8 +7,8 @@ old-location: storage\sm_removelink_out.htm
 old-project: storage
 ms.assetid: f3b82d62-8596-4bb9-b20b-39f232527d7a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_RemoveLink_OUT structure [Storage Devices], structs-Fibre_5355f5b8-47ea-4c71-880d-08891533bf29.xml, hbapiwmi/PSM_RemoveLink_OUT, storage.sm_removelink_out, hbapiwmi/SM_RemoveLink_OUT, PSM_RemoveLink_OUT structure pointer [Storage Devices], _SM_RemoveLink_OUT, *PSM_RemoveLink_OUT, SM_RemoveLink_OUT, PSM_RemoveLink_OUT
+ms.date: 2/16/2018
+ms.keywords: "_SM_RemoveLink_OUT, hbapiwmi/SM_RemoveLink_OUT, storage.sm_removelink_out, *PSM_RemoveLink_OUT, structs-Fibre_5355f5b8-47ea-4c71-880d-08891533bf29.xml, PSM_RemoveLink_OUT, hbapiwmi/PSM_RemoveLink_OUT, SM_RemoveLink_OUT structure [Storage Devices], PSM_RemoveLink_OUT structure pointer [Storage Devices], SM_RemoveLink_OUT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SM_RemoveLink_OUT
 product: Windows
 targetos: Windows
-req.typenames: "*PSM_RemoveLink_OUT, SM_RemoveLink_OUT"
+req.typenames: SM_RemoveLink_OUT, *PSM_RemoveLink_OUT
 ---
 
 # _SM_RemoveLink_OUT structure

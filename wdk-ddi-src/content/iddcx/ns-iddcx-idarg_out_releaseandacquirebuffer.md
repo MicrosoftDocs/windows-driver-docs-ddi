@@ -7,8 +7,8 @@ old-location: display\idarg_out_releaseandacquirebuffer.htm
 old-project: display
 ms.assetid: d6092c73-b8fb-4f05-97ce-8a6fe67a2b18
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDARG_OUT_RELEASEANDACQUIREBUFFER, display.idarg_out_releaseandacquirebuffer, IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER
+ms.date: 2/20/2018
+ms.keywords: IDARG_OUT_RELEASEANDACQUIREBUFFER structure [Display Devices], iddcx/IDARG_OUT_RELEASEANDACQUIREBUFFER, IDARG_OUT_RELEASEANDACQUIREBUFFER, display.idarg_out_releaseandacquirebuffer
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: storage\dsmsetloadbalancepolicyalua_in.htm
 old-project: storage
 ms.assetid: d46cfba0-a749-436a-99ad-d3606aea9a4d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DsmSetLoadBalancePolicyALUA_IN structure [Storage Devices], structs-scsibus_898bd48b-e522-4a78-ac0a-a7ae10d0c1d0.xml, PDsmSetLoadBalancePolicyALUA_IN structure pointer [Storage Devices], mpiodisk/DsmSetLoadBalancePolicyALUA_IN, *PDsmSetLoadBalancePolicyALUA_IN, _DsmSetLoadBalancePolicyALUA_IN, PDsmSetLoadBalancePolicyALUA_IN, mpiodisk/PDsmSetLoadBalancePolicyALUA_IN, storage.dsmsetloadbalancepolicyalua_in, DsmSetLoadBalancePolicyALUA_IN
+ms.date: 2/16/2018
+ms.keywords: "_DsmSetLoadBalancePolicyALUA_IN, mpiodisk/DsmSetLoadBalancePolicyALUA_IN, structs-scsibus_898bd48b-e522-4a78-ac0a-a7ae10d0c1d0.xml, DsmSetLoadBalancePolicyALUA_IN, mpiodisk/PDsmSetLoadBalancePolicyALUA_IN, *PDsmSetLoadBalancePolicyALUA_IN, PDsmSetLoadBalancePolicyALUA_IN, PDsmSetLoadBalancePolicyALUA_IN structure pointer [Storage Devices], DsmSetLoadBalancePolicyALUA_IN structure [Storage Devices], storage.dsmsetloadbalancepolicyalua_in"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

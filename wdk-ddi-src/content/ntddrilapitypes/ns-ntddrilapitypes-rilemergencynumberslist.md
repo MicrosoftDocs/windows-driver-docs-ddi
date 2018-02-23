@@ -7,8 +7,8 @@ old-location: netvista\rilemergencynumberslist.htm
 old-project: netvista
 ms.assetid: bfeaff04-6dd2-4889-9ab3-f20361dc2f5c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST, netvista.rilemergencynumberslist, *LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILEMERGENCYNUMBERSLIST, netvista.rilemergencynumberslist, RILEMERGENCYNUMBERSLIST structure [Network Drivers Starting with Windows Vista], *LPRILEMERGENCYNUMBERSLIST, ntddrilapitypes/RILEMERGENCYNUMBERSLIST
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILEMERGENCYNUMBERSLIST
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILEMERGENCYNUMBERSLIST, RILEMERGENCYNUMBERSLIST"
+req.typenames: RILEMERGENCYNUMBERSLIST, *LPRILEMERGENCYNUMBERSLIST
 ---
 
 # RILEMERGENCYNUMBERSLIST structure

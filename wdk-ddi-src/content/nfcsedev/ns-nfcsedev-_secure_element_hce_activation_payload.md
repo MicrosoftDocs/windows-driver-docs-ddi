@@ -7,8 +7,8 @@ old-location: nfpdrivers\secure_element_hce_activation_payload.htm
 old-project: nfpdrivers
 ms.assetid: 2FFEB2DB-7506-4CDB-BD5F-41D2E4212017
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: nfpdrivers.secure_element_hce_activation_payload, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure [Near-Field Proximity Drivers], _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, nfcsedev/PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure pointer [Near-Field Proximity Drivers]
+ms.date: 2/15/2018
+ms.keywords: PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure [Near-Field Proximity Drivers], nfcsedev/SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure pointer [Near-Field Proximity Drivers], nfpdrivers.secure_element_hce_activation_payload, nfcsedev/PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, *PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD
+req.typenames: "*PSECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD, SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD"
 ---
 
 # _SECURE_ELEMENT_HCE_ACTIVATION_PAYLOAD structure

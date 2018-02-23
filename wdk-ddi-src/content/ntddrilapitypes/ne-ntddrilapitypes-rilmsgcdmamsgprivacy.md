@@ -7,8 +7,8 @@ old-location: netvista\rilmsgcdmamsgprivacy.htm
 old-project: netvista
 ms.assetid: 491b985f-c228-4f4b-88c1-fd678266dd9d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILMSGCDMAMSGPRIVACY, ntddrilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED, netvista.rilmsgcdmamsgprivacy, RIL_MSGPRIVACYCLASS_RESTRICTED, ntddrilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, ntddrilapitypes/RIL_MSGPRIVACYCLASS_MAX, RIL_MSGPRIVACYCLASS_CONFIDENTIAL, RIL_MSGPRIVACYCLASS_SECRET, RIL_MSGPRIVACYCLASS_MAX, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], RILMSGCDMAMSGPRIVACY, ntddrilapitypes/RIL_MSGPRIVACYCLASS_SECRET
+ms.date: 2/16/2018
+ms.keywords: RIL_MSGPRIVACYCLASS_RESTRICTED, RILMSGCDMAMSGPRIVACY, netvista.rilmsgcdmamsgprivacy, ntddrilapitypes/RIL_MSGPRIVACYCLASS_RESTRICTED, ntddrilapitypes/RIL_MSGPRIVACYCLASS_CONFIDENTIAL, RIL_MSGPRIVACYCLASS_CONFIDENTIAL, RIL_MSGPRIVACYCLASS_MAX, ntddrilapitypes/RILMSGCDMAMSGPRIVACY, ntddrilapitypes/RIL_MSGPRIVACYCLASS_MAX, RIL_MSGPRIVACYCLASS_SECRET, RILMSGCDMAMSGPRIVACY enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGPRIVACYCLASS_SECRET
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

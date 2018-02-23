@@ -7,8 +7,8 @@ old-location: wdf\wdfpdoinitaddhardwareid.htm
 old-project: wdf
 ms.assetid: 2b5c853d-8548-419e-bd41-be9e8364fb57
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID, kmdf.wdfpdoinitaddhardwareid, wdfpdo/WdfPdoInitAddHardwareID, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, WdfPdoInitAddHardwareID method, PFN_WDFPDOINITADDHARDWAREID
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfpdoinitaddhardwareid, WdfPdoInitAddHardwareID, kmdf.wdfpdoinitaddhardwareid, DFDeviceObjectFdoPdoRef_f06f24ea-f0f8-4ce7-8b70-725de7b5c970.xml, wdfpdo/WdfPdoInitAddHardwareID, WdfPdoInitAddHardwareID method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -161,17 +161,17 @@ status = WdfPdoInitAddHardwareID(
 
 
 
-<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
-
-
-
 <a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigninstanceid.md">WdfPdoInitAssignInstanceID</a>
 
 
 
- 
+<a href="..\wdfpdo\nf-wdfpdo-wdfpdoinitassigndeviceid.md">WdfPdoInitAssignDeviceID</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAddHardwareID method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfPdoInitAddHardwareID method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

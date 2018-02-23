@@ -7,7 +7,7 @@ old-location: storage\ioctl_disk_check_verify.htm
 old-project: storage
 ms.assetid: bf2604fe-e7d3-43af-916e-b03979ee71aa
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_disk_check_verify, IOCTL_DISK_CHECK_VERIFY control code [Storage Devices], IOCTL_DISK_CHECK_VERIFY, ntdddisk/IOCTL_DISK_CHECK_VERIFY, k307_6a32996e-8526-466a-bcbe-b79b8bacadc6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

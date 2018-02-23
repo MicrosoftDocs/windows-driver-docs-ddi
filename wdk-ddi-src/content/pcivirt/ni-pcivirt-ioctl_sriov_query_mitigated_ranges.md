@@ -7,7 +7,7 @@ old-location: pci\ioctl-sriov-query-mitigated-ranges.htm
 old-project: PCI
 ms.assetid: 58b6e53d-be7a-4563-a27d-db216a12d60d
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.ioctl-sriov-query-mitigated-ranges, IOCTL_SRIOV_QUERY_MITIGATED_RANGES control code [Buses], IOCTL_SRIOV_QUERY_MITIGATED_RANGES, pcivirt/IOCTL_SRIOV_QUERY_MITIGATED_RANGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_SRIOV_QUERY_MITIGATED_RANGES
 product: Windows
 targetos: Windows
-req.typenames: "*PSRIOV_PF_EVENT, SRIOV_PF_EVENT"
+req.typenames: SRIOV_PF_EVENT, *PSRIOV_PF_EVENT
 ---
 
 # IOCTL_SRIOV_QUERY_MITIGATED_RANGES IOCTL

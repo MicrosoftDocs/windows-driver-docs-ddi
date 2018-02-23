@@ -7,7 +7,7 @@ old-location: hid\ioctl_internal_i8042_mouse_write_buffer.htm
 old-project: hid
 ms.assetid: 40f6fd0b-8c18-408b-b1f7-5b280b9aa67d
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.ioctl_internal_i8042_mouse_write_buffer, IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER control code [Human Input Devices], IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, ntdd8042/IOCTL_INTERNAL_I8042_MOUSE_WRITE_BUFFER, i8042ref_660499b1-32f5-4343-b0a2-176d03d0270c.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

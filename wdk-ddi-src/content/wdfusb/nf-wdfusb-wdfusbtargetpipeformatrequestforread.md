@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetpipeformatrequestforread.htm
 old-project: wdf
 ms.assetid: 33a6f597-2f33-4214-80c1-8bded182800a
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETPIPEFORMATREQUESTFORREAD, DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, wdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead method, WdfUsbTargetPipeFormatRequestForRead, kmdf.wdfusbtargetpipeformatrequestforread, wdfusb/WdfUsbTargetPipeFormatRequestForRead
+ms.date: 2/20/2018
+ms.keywords: wdfusb/WdfUsbTargetPipeFormatRequestForRead, WdfUsbTargetPipeFormatRequestForRead method, DFUsbRef_5cd8eeb4-5822-44ef-ba50-e978b780463b.xml, wdf.wdfusbtargetpipeformatrequestforread, kmdf.wdfusbtargetpipeformatrequestforread, WdfUsbTargetPipeFormatRequestForRead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -339,11 +339,7 @@ Exit:
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdfrequestcompletewithinformation.md">WdfRequestCompleteWithInformation</a>
-
-
-
-<a href="..\wudfddi_types\ns-wudfddi_types-_wdfmemory_offset.md">WDFMEMORY_OFFSET</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsetcompletionroutine.md">WdfRequestSetCompletionRoutine</a>
 
 
 
@@ -355,9 +351,13 @@ Exit:
 
 
 
- 
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestsend.md">WdfRequestSend</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeFormatRequestForRead method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetPipeFormatRequestForRead method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

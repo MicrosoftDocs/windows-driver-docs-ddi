@@ -4,11 +4,11 @@ title: IWiaMiniDrv::drvGetDeviceErrorStr method
 author: windows-driver-content
 description: The IWiaMiniDrv::drvGetDeviceErrorStr method maps an error code to a Unicode string that describes the error.
 old-location: image\iwiaminidrv_drvgetdeviceerrorstr.htm
-old-project: image
+old-project: Image
 ms.assetid: c34a6834-8875-400c-9634-6c2b9b68164f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaMiniDrv, image.iwiaminidrv_drvgetdeviceerrorstr, drvGetDeviceErrorStr method [Imaging Devices], MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, drvGetDeviceErrorStr, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr, IWiaMiniDrv::drvGetDeviceErrorStr
+ms.date: 2/15/2018
+ms.keywords: drvGetDeviceErrorStr method [Imaging Devices], IWiaMiniDrv interface, IWiaMiniDrv::drvGetDeviceErrorStr, drvGetDeviceErrorStr method [Imaging Devices], drvGetDeviceErrorStr, IWiaMiniDrv, MiniDrv_d5a72b62-8987-4d0a-921e-8a7f4d915d12.xml, wiamindr_lh/IWiaMiniDrv::drvGetDeviceErrorStr, IWiaMiniDrv interface [Imaging Devices], drvGetDeviceErrorStr method, image.iwiaminidrv_drvgetdeviceerrorstr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

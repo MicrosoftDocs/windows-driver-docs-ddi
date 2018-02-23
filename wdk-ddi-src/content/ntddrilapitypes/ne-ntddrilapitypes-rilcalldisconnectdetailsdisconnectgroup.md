@@ -7,8 +7,8 @@ old-location: netvista\rilcalldisconnectdetailsdisconnectgroup.htm
 old-project: netvista
 ms.assetid: d546e936-f8c6-45ad-8027-a8495b4633dc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_CD_OTHER_CAUSE, ntddrilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, RIL_CD_IMS_SIP_CAUSE, RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RIL_CD_3GPP_REJECT_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup, RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RIL_CD_CAUSE_MAX, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], RIL_CD_CAUSE_MAX, ntddrilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, ntddrilapitypes/RIL_CD_AS_CAUSE, RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_AS_CAUSE, ntddrilapitypes/RIL_CD_IMS_SIP_CAUSE, ntddrilapitypes/RIL_CD_OTHER_CAUSE
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RIL_CD_3GPP_NETWORK_CAUSE, ntddrilapitypes/RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RIL_CD_3GPP_NETWORK_CAUSE, RILCALLDISCONNECTDETAILSDISCONNECTGROUP, RIL_CD_CAUSE_MAX, ntddrilapitypes/RIL_CD_3GPP2_VENDOR_CAUSE, RILCALLDISCONNECTDETAILSDISCONNECTGROUP enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_CD_IMS_SIP_CAUSE, ntddrilapitypes/RIL_CD_AS_CAUSE, RIL_CD_3GPP2_VENDOR_CAUSE, ntddrilapitypes/RIL_CD_OTHER_CAUSE, netvista.rilcalldisconnectdetailsdisconnectgroup, ntddrilapitypes/RIL_CD_CAUSE_MAX, RIL_CD_AS_CAUSE, ntddrilapitypes/RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_3GPP_REJECT_CAUSE, RIL_CD_IMS_SIP_CAUSE, RIL_CD_OTHER_CAUSE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

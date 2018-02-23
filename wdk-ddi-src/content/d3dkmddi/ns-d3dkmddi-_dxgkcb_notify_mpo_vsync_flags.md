@@ -7,8 +7,8 @@ old-location: display\dxgkcb_notify_mpo_vsync_flags.htm
 old-project: display
 ms.assetid: 5583297C-D927-4D9A-8F77-D9871B2CA736
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure [Display Devices], display.dxgkcb_notify_mpo_vsync_flags, _DXGKCB_NOTIFY_MPO_VSYNC_FLAGS
+ms.date: 2/20/2018
+ms.keywords: "_DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, DXGKCB_NOTIFY_MPO_VSYNC_FLAGS structure [Display Devices], DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, d3dkmddi/DXGKCB_NOTIFY_MPO_VSYNC_FLAGS, display.dxgkcb_notify_mpo_vsync_flags"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -83,5 +83,5 @@ The driver sets this flag to indicate that scheduler must call DXGDDI_POSTMULTIP
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 31 bits (0xFFFFFFFE) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 

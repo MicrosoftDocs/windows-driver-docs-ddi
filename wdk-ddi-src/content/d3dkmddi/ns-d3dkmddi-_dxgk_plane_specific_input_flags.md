@@ -7,8 +7,8 @@ old-location: display\dxgk_plane_specific_input_flags.htm
 old-project: display
 ms.assetid: 39BE1343-D965-4750-9B94-B54127D873A5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS, _DXGK_PLANE_SPECIFIC_INPUT_FLAGS, d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], display.dxgk_plane_specific_input_flags
+ms.date: 2/20/2018
+ms.keywords: DXGK_PLANE_SPECIFIC_INPUT_FLAGS structure [Display Devices], d3dkmddi/DXGK_PLANE_SPECIFIC_INPUT_FLAGS, display.dxgk_plane_specific_input_flags, DXGK_PLANE_SPECIFIC_INPUT_FLAGS, _DXGK_PLANE_SPECIFIC_INPUT_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -118,5 +118,5 @@ When IndependentFlipExlusive is set, the flip is done in the independent flip ex
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 

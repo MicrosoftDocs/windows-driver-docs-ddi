@@ -7,8 +7,8 @@ old-location: ifsk\fltinsertextracreateparameter.htm
 old-project: ifsk
 ms.assetid: b4cc03e9-225f-491f-97df-064fdedc8182
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltInsertExtraCreateParameter routine [Installable File System Drivers], ifsk.fltinsertextracreateparameter, fltkernel/FltInsertExtraCreateParameter, FltInsertExtraCreateParameter, FltApiRef_e_to_o_70a06c18-83e1-45cc-be8c-87945a2a320e.xml
+ms.date: 2/16/2018
+ms.keywords: FltInsertExtraCreateParameter routine [Installable File System Drivers], ifsk.fltinsertextracreateparameter, fltkernel/FltInsertExtraCreateParameter, FltApiRef_e_to_o_70a06c18-83e1-45cc-be8c-87945a2a320e.xml, FltInsertExtraCreateParameter
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -136,7 +136,7 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 ## -see-also
 
-<a href="..\fltkernel\nf-fltkernel-fltsetecplistintocallbackdata.md">FltSetEcpListIntoCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
 
 
 
@@ -144,11 +144,7 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
-<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameterlist.md">FltAllocateExtraCreateParameterList</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
 
 
 
@@ -156,11 +152,15 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
+<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltallocateextracreateparameter.md">FltAllocateExtraCreateParameter</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
+<a href="..\ntddk\nf-ntddk-iocreatefileex.md">IoCreateFileEx</a>
 
 
 
@@ -168,11 +168,11 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540148">ECP_LIST</a>
+<a href="..\fltkernel\nf-fltkernel-fltcreatefileex2.md">FltCreateFileEx2</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetecplistfromcallbackdata.md">FltGetEcpListFromCallbackData</a>
+<a href="..\fltkernel\nf-fltkernel-fltfreeextracreateparameter.md">FltFreeExtraCreateParameter</a>
 
 
 
@@ -180,5 +180,5 @@ Each ECP context structure inserted into the ECP list must have a unique GUID va
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltInsertExtraCreateParameter routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltInsertExtraCreateParameter routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

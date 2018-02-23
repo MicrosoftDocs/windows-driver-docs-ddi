@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetdevicewdmgetconfigurationhandle.htm
 old-project: wdf
 ms.assetid: 7f501e5c-13dd-418d-9b9f-f984aed45cc0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: DFUsbRef_503d3873-7148-4084-b56e-199b7437511b.xml, WdfUsbTargetDeviceWdmGetConfigurationHandle, kmdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle, PFN_WDFUSBTARGETDEVICEWDMGETCONFIGURATIONHANDLE, wdf.wdfusbtargetdevicewdmgetconfigurationhandle, WdfUsbTargetDeviceWdmGetConfigurationHandle method
+ms.date: 2/20/2018
+ms.keywords: DFUsbRef_503d3873-7148-4084-b56e-199b7437511b.xml, WdfUsbTargetDeviceWdmGetConfigurationHandle, WdfUsbTargetDeviceWdmGetConfigurationHandle method, wdfusb/WdfUsbTargetDeviceWdmGetConfigurationHandle, kmdf.wdfusbtargetdevicewdmgetconfigurationhandle, wdf.wdfusbtargetdevicewdmgetconfigurationhandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -121,7 +121,7 @@ deviceConfigHdl = WdfUsbTargetDeviceWdmGetConfigurationHandle(UsbDevice);</pre>
 
 ## -see-also
 
-<a href="..\usb\ns-usb-_urb_select_interface.md">_URB_SELECT_INTERFACE</a>
+<a href="..\wdfusb\nf-wdfusb-wdfusbtargetdeviceselectconfig.md">WdfUsbTargetDeviceSelectConfig</a>
 
 
 
@@ -137,5 +137,5 @@ deviceConfigHdl = WdfUsbTargetDeviceWdmGetConfigurationHandle(UsbDevice);</pre>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceWdmGetConfigurationHandle method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceWdmGetConfigurationHandle method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

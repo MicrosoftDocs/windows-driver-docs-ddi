@@ -7,8 +7,8 @@ old-location: storage\scsiportgetuncachedextension.htm
 old-project: storage
 ms.assetid: d32da7d9-7f26-4c99-8c10-3b9e1a7c9c22
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.scsiportgetuncachedextension, scsiprt_b3764d3f-3e99-4a2f-b17c-30d6fcafe255.xml, ScsiPortGetUncachedExtension, ScsiPortGetUncachedExtension routine [Storage Devices], srb/ScsiPortGetUncachedExtension
+ms.date: 2/16/2018
+ms.keywords: ScsiPortGetUncachedExtension routine [Storage Devices], srb/ScsiPortGetUncachedExtension, scsiprt_b3764d3f-3e99-4a2f-b17c-30d6fcafe255.xml, ScsiPortGetUncachedExtension, storage.scsiportgetuncachedextension
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortGetUncachedExtension
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -101,13 +101,13 @@ Indicates the size in bytes of the uncached extension to be allocated. Drivers i
 
 
 
-<b>ScsiPortGetUncachedExtension</b> can be called only from miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine and only for a bus-master HBA. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
+<b>ScsiPortGetUncachedExtension</b> can be called only from miniport driver's <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine and only for a bus-master HBA. Calls from other miniport driver routines will result in system failure or incorrect operation for the caller.
 
 Because high-end machines have caches and large memories, any memory to be shared between an HBA and the CPU must be specially allocated. Mailboxes or I/O request queues in system memory are examples of this type of shared memory.
 
 A miniport driver must set <b>SrbExtensionSize.</b> before calling <b>ScsiPortGetUncachedExtension</b> to change the size of its per-request storage based on <b>NumberOfPhysicalBreaks</b>.
 
-The <a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a> routine can call <b>ScsiPortGetUncachedExtension</b> only once for each bus-master HBA the miniport driver supports.
+The <a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a> routine can call <b>ScsiPortGetUncachedExtension</b> only once for each bus-master HBA the miniport driver supports.
 
 To obtain the physical address for the uncached extension that the HBA can use, call <a href="..\srb\nf-srb-scsiportgetphysicaladdress.md">ScsiPortGetPhysicalAddress</a>.
 
@@ -118,7 +118,11 @@ The ScsiPort driver will free the memory allocated by <b>ScsiPortGetUncachedExte
 
 ## -see-also
 
-<a href="..\srb\ns-srb-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
+<a href="..\srb\nc-srb-phw_find_adapter.md">HwScsiFindAdapter</a>
+
+
+
+<a href="..\strmini\ns-strmini-_port_configuration_information.md">PORT_CONFIGURATION_INFORMATION (SCSI)</a>
 
 
 
@@ -126,13 +130,9 @@ The ScsiPort driver will free the memory allocated by <b>ScsiPortGetUncachedExte
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557300">HwScsiFindAdapter</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetUncachedExtension routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetUncachedExtension routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

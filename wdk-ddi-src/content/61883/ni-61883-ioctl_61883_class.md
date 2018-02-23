@@ -7,7 +7,7 @@ old-location: ieee\ioctl_61883_class.htm
 old-project: IEEE
 ms.assetid: c73472ee-aa27-4256-aa58-9331312ad513
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: IEEE.ioctl_61883_class, IOCTL_61883_CLASS control code [Buses], IOCTL_61883_CLASS, 61883/IOCTL_61883_CLASS, 61883_requests_a47ccc46-e231-4e3e-8a71-97e4a79143e4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,5 +124,5 @@ The information the IEC-61883 protocol driver returns in the I/O Status Block is
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20IOCTL_61883_CLASS control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20IOCTL_61883_CLASS control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

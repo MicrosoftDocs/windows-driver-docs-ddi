@@ -7,13 +7,13 @@ old-location: netvista\rilgsmmnmrparammask.htm
 old-project: netvista
 ms.assetid: a226956d-2881-4cff-a800-988b70eb99ea
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_MCC, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_ALL, rilapitypes/RIL_PARAM_GSMNMR_CELLID, RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_RXLEVEL, rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL, RIL_PARAM_GSMNMR_MCC, rilapitypes/RIL_PARAM_GSMNMR_LAC, rilapitypes/RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, RILGSMMNMRPARAMMASK, RIL_PARAM_GSMNMR_CELLID, RIL_PARAM_GSMNMR_LAC, rilapitypes/RILGSMMNMRPARAMMASK, RIL_PARAM_GSMNMR_ARFCN, netvista.rilgsmmnmrparammask, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RIL_PARAM_GSMNMR_ARFCN, rilapitypes/RIL_PARAM_GSMNMR_MNC, rilapitypes/RIL_PARAM_GSMNMR_BSID, rilapitypes/RIL_PARAM_GSMNMR_CELLID, rilapitypes/RIL_PARAM_GSMNMR_ARFCN, RIL_PARAM_GSMNMR_ALL, rilapitypes/RILGSMMNMRPARAMMASK, netvista.rilgsmmnmrparammask, RIL_PARAM_GSMNMR_MNC, RIL_PARAM_GSMNMR_RXLEVEL, rilapitypes/RIL_PARAM_GSMNMR_LAC, RILGSMMNMRPARAMMASK, rilapitypes/RIL_PARAM_GSMNMR_MCC, RIL_PARAM_GSMNMR_MCC, RIL_PARAM_GSMNMR_CELLID, RILGSMMNMRPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_GSMNMR_RXLEVEL, rilapitypes/RIL_PARAM_GSMNMR_ALL, RIL_PARAM_GSMNMR_BSID, RIL_PARAM_GSMNMR_LAC
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -409,5 +409,5 @@ Same as RxLevel in serving cell
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILGSMMNMRPARAMMASK enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILGSMMNMRPARAMMASK enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

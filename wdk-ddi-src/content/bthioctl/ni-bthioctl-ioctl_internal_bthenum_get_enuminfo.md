@@ -7,7 +7,7 @@ old-location: bltooth\ioctl_internal_bthenum_get_enuminfo.htm
 old-project: bltooth
 ms.assetid: 43cd8e6b-5710-4308-a7c4-fb6f14940977
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.ioctl_internal_bthenum_get_enuminfo, IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control code [Bluetooth Devices], IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO, bthioctl/IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO, bth_ioctls_110043d4-a637-4e7a-91d4-fd15a4c39a05.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -124,5 +124,5 @@ The length of a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_INTERNAL_BTHENUM_GET_ENUMINFO control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

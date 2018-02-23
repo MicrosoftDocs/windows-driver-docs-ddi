@@ -7,8 +7,8 @@ old-location: ifsk\rtlntstatustodoserrornoteb.htm
 old-project: ifsk
 ms.assetid: be22fb7f-408a-44ee-ae83-0f1dadcec87f
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RtlNtStatusToDosErrorNoTeb, ifsk.rtlntstatustodoserrornoteb, RtlNtStatusToDosError routine [Installable File System Drivers], RtlNtStatusToDosError, ntifs/RtlNtStatusToDosError, rtlref_161ea08b-d596-4a3c-ab9b-b66f757e4415.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.rtlntstatustodoserrornoteb, rtlref_161ea08b-d596-4a3c-ab9b-b66f757e4415.xml, ntifs/RtlNtStatusToDosError, RtlNtStatusToDosError routine [Installable File System Drivers], RtlNtStatusToDosErrorNoTeb, RtlNtStatusToDosError
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

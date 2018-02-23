@@ -4,11 +4,11 @@ title: IDebugClient2::GetRunningProcessDescription method
 author: windows-driver-content
 description: The GetRunningProcessDescription method returns a description of the process that includes the executable image name, the service names, the MTS package names, and the command line.
 old-location: debugger\getrunningprocessdescription.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1fdc4b85-d969-4433-8409-512f3f52cbbb
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetRunningProcessDescription method [Windows Debugging], IDebugClient2 interface, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient2::GetRunningProcessDescription, IDebugClient5::GetRunningProcessDescription, IDebugClient, dbgeng/IDebugClient4::GetRunningProcessDescription, IDebugClient3::GetRunningProcessDescription, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, debugger.getrunningprocessdescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient interface, dbgeng/IDebugClient3::GetRunningProcessDescription, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescription method, GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface, GetRunningProcessDescription, IDebugClient2, GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient4::GetRunningProcessDescription, IDebugClient2 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient::GetRunningProcessDescription, dbgeng/IDebugClient::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient3 interface, IDebugClient2::GetRunningProcessDescription, IDebugClient interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescription method, dbgeng/IDebugClient5::GetRunningProcessDescription
+ms.date: 2/15/2018
+ms.keywords: GetRunningProcessDescription method [Windows Debugging], IDebugClient interface, IDebugClient4::GetRunningProcessDescription, debugger.getrunningprocessdescription, IDebugClient2::GetRunningProcessDescription, IDebugClient::GetRunningProcessDescription, IDebugClient3::GetRunningProcessDescription, dbgeng/IDebugClient4::GetRunningProcessDescription, IDebugClient3 interface [Windows Debugging], GetRunningProcessDescription method, dbgeng/IDebugClient3::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::GetRunningProcessDescription, IDebugClient, GetRunningProcessDescription method [Windows Debugging], IDebugClient3 interface, IDebugClient2 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient5 interface [Windows Debugging], GetRunningProcessDescription method, GetRunningProcessDescription, IDebugClient_e5736881-635f-4998-809b-d210bf447a36.xml, GetRunningProcessDescription method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient::GetRunningProcessDescription, GetRunningProcessDescription method [Windows Debugging], GetRunningProcessDescription method [Windows Debugging], IDebugClient4 interface, IDebugClient2, IDebugClient interface [Windows Debugging], GetRunningProcessDescription method, dbgeng/IDebugClient2::GetRunningProcessDescription, IDebugClient4 interface [Windows Debugging], GetRunningProcessDescription method, IDebugClient5::GetRunningProcessDescription
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.GetRunningProcessDescription
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient2::GetRunningProcessDescription method
@@ -224,26 +224,6 @@ For more information about creating and attaching to live user-mode targets, see
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff540055">CreateProcessAndAttach2</a>
 
 
@@ -252,11 +232,31 @@ For more information about creating and attaching to live user-mode targets, see
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548254">GetRunningProcessSystemIdByExecutableName</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff539237">ConnectProcessServer</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538150">AttachProcess</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548265">GetRunningProcessSystemIds</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -268,5 +268,5 @@ For more information about creating and attaching to live user-mode targets, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetRunningProcessDescription method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::GetRunningProcessDescription method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

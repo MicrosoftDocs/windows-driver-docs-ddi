@@ -7,8 +7,8 @@ old-location: wdf\ipnpcallbackselfmanagedio_onselfmanagediosuspend.htm
 old-project: wdf
 ms.assetid: 7ec30c51-5e07-496b-96af-8eafb564d98d
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo, UMDFDeviceObjectRef_87fc0596-4d08-4c55-88b0-e2ad9d085745.xml, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoSuspend method, OnSelfManagedIoSuspend, umdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, wdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo interface, wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend
+ms.date: 2/20/2018
+ms.keywords: wudfddi/IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend, UMDFDeviceObjectRef_87fc0596-4d08-4c55-88b0-e2ad9d085745.xml, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoSuspend method, OnSelfManagedIoSuspend method, IPnpCallbackSelfManagedIo interface, OnSelfManagedIoSuspend method, wdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend, OnSelfManagedIoSuspend, IPnpCallbackSelfManagedIo, umdf.ipnpcallbackselfmanagedio_onselfmanagediosuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPnpCallbackSelfManagedIo.OnSelfManagedIoSuspend
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -100,11 +100,11 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
 ## -see-also
 
-<a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.md">IPnpCallbackSelfManagedIo</a>
-
-
-
 <a href="..\wudfddi\nn-wudfddi-iwdfdevice.md">IWDFDevice</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558899">IWDFDriver::CreateDevice</a>
 
 
 
@@ -116,5 +116,5 @@ A driver registers the <a href="..\wudfddi\nn-wudfddi-ipnpcallbackselfmanagedio.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IPnpCallbackSelfManagedIo::OnSelfManagedIoSuspend method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: stream\ks_analogvideostandard.htm
 old-project: stream
 ms.assetid: 33efef2f-0734-416e-9f89-394a3dd344b8
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KS_AnalogVideo_PAL_B, ksmedia/KS_AnalogVideo_SECAM_D, KS_AnalogVideo_PAL_I, KS_AnalogVideo_PAL_N_COMBO, ksmedia/KS_AnalogVideo_NTSC_M, vidcapstruct_90d60791-13e2-42ec-a641-6eee5bbf25fa.xml, KS_AnalogVideo_SECAM_D, KS_AnalogVideo_SECAM_L, ksmedia/KS_AnalogVideo_PAL_H, KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_SECAM_B, ksmedia/KS_AnalogVideo_PAL_N, ksmedia/KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_SECAM_L, ksmedia/KS_AnalogVideo_SECAM_K1, KS_AnalogVideo_PAL_M, KS_AnalogVideo_PAL_60, ksmedia/KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_PAL_G, KS_AnalogVideo_PAL_G, KS_AnalogVideo_SECAM_L1, KS_AnalogVideo_SECAM_K, KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_PAL_I, KS_AnalogVideo_SECAM_G, KS_AnalogVideo_PAL_N, ksmedia/KS_AnalogVideo_None, ksmedia/KS_AnalogVideo_PAL_B, KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_PAL_D, ksmedia/KS_AnalogVideo_PAL_N_COMBO, ksmedia/KS_AnalogVideo_PAL_M, KS_AnalogVideo_None, KS_AnalogVideo_PAL_H, ksmedia/KS_AnalogVideo_SECAM_G, KS_AnalogVideo_SECAM_B, KS_AnalogVideo_PAL_D, ksmedia/KS_AnalogVideo_SECAM_K, ksmedia/KS_AnalogVideo_PAL_60, KS_AnalogVideo_NTSC_M, stream.ks_analogvideostandard, KS_AnalogVideo_SECAM_K1, ksmedia/KS_AnalogVideo_SECAM_L1, KS_AnalogVideo_NTSC_433, KS_AnalogVideoStandard enumeration [Streaming Media Devices], ksmedia/KS_AnalogVideo_NTSC_M_J
+ms.date: 2/20/2018
+ms.keywords: ksmedia/KS_AnalogVideo_SECAM_D, ksmedia/KS_AnalogVideo_PAL_H, KS_AnalogVideo_PAL_H, KS_AnalogVideo_SECAM_L, KS_AnalogVideoStandard enumeration [Streaming Media Devices], KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_PAL_M, ksmedia/KS_AnalogVideo_PAL_G, ksmedia/KS_AnalogVideo_SECAM_B, KS_AnalogVideo_NTSC_M, KS_AnalogVideo_NTSC_M_J, ksmedia/KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_PAL_B, ksmedia/KS_AnalogVideo_PAL_B, KS_AnalogVideo_SECAM_G, KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_PAL_I, ksmedia/KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_PAL_D, vidcapstruct_90d60791-13e2-42ec-a641-6eee5bbf25fa.xml, KS_AnalogVideo_SECAM_B, KS_AnalogVideo_PAL_N, KS_AnalogVideo_PAL_N_COMBO, KS_AnalogVideo_SECAM_K, ksmedia/KS_AnalogVideo_SECAM_L, ksmedia/KS_AnalogVideo_None, ksmedia/KS_AnalogVideo_SECAM_H, ksmedia/KS_AnalogVideo_SECAM_K1, KS_AnalogVideo_None, ksmedia/KS_AnalogVideo_SECAM_G, KS_AnalogVideo_NTSC_433, ksmedia/KS_AnalogVideo_SECAM_K, KS_AnalogVideo_SECAM_L1, ksmedia/KS_AnalogVideoStandard, ksmedia/KS_AnalogVideo_NTSC_M, KS_AnalogVideo_PAL_D, KS_AnalogVideo_PAL_I, ksmedia/KS_AnalogVideo_PAL_N, KS_AnalogVideo_SECAM_K1, ksmedia/KS_AnalogVideo_SECAM_L1, KS_AnalogVideo_PAL_G, KS_AnalogVideo_PAL_M, KS_AnalogVideo_SECAM_D, stream.ks_analogvideostandard, ksmedia/KS_AnalogVideo_PAL_60, KS_AnalogVideo_PAL_60
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -203,14 +203,6 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 ## -see-also
 
-<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
-
-
-
-<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-_ks_video_stream_config_caps.md">KS_VIDEO_STREAM_CONFIG_CAPS</a>
 
 
@@ -219,17 +211,25 @@ You can combine the values in the KS_AnalogVideoStandard enumeration with a bitw
 
 
 
-<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
-
-
-
 <a href="..\ksmedia\ns-ksmedia-ksproperty_videodecoder_caps_s.md">KSPROPERTY_VIDEODECODER_CAPS_S</a>
 
 
 
- 
+<a href="..\ksmedia\ns-ksmedia-ksproperty_tuner_standard_s.md">KSPROPERTY_TUNER_STANDARD_S</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_tvtuner_change_info.md">KS_TVTUNER_CHANGE_INFO</a>
+
+
+
+<a href="..\ksmedia\ns-ksmedia-tagks_vbiinfoheader.md">KS_VBIINFOHEADER</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_AnalogVideoStandard enumeration%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_AnalogVideoStandard enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: sensors\gnss_cwtestdata.htm
 old-project: sensors
 ms.assetid: 7F1C8574-8891-4ACB-BB25-2666148E3D02
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GNSS_CWTESTDATA structure [Sensor Devices], gnssdriver/GNSS_CWTESTDATA, PGNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA, *PGNSS_CWTESTDATA, sensors.gnss_cwtestdata, PGNSS_CWTESTDATA structure pointer [Sensor Devices], GNSS_CWTESTDATA
+ms.date: 2/15/2018
+ms.keywords: PGNSS_CWTESTDATA, gnssdriver/PGNSS_CWTESTDATA, *PGNSS_CWTESTDATA, GNSS_CWTESTDATA, gnssdriver/GNSS_CWTESTDATA, sensors.gnss_cwtestdata, PGNSS_CWTESTDATA structure pointer [Sensor Devices], GNSS_CWTESTDATA structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_CWTESTDATA
 product: Windows
 targetos: Windows
-req.typenames: GNSS_CWTESTDATA, *PGNSS_CWTESTDATA
+req.typenames: "*PGNSS_CWTESTDATA, GNSS_CWTESTDATA"
 ---
 
 # GNSS_CWTESTDATA structure
@@ -85,6 +85,7 @@ Version number.
 ### -field TestResultStatus
 
 NTSTATUS value indicating whether this fix contains a valid data, or if the GNSS engine or driver encountered any errors in getting the measurements for the carrier wave test.
+
 <ul>
 <li>
 Success - carrier wave test successfully started.
@@ -111,6 +112,7 @@ This frequency is provided as a difference to GPS frequency (1575.42 MHz) in kHz
 ### -field Unused
 
  
+
 
 
 

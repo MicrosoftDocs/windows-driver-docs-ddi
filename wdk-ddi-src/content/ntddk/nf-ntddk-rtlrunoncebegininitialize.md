@@ -7,8 +7,8 @@ old-location: kernel\rtlrunoncebegininitialize.htm
 old-project: kernel
 ms.assetid: ed96b2ec-95ea-47a6-a3b0-f4d018e0c8e2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], kernel.rtlrunoncebegininitialize, ntddk/RtlRunOnceBeginInitialize, RtlRunOnceBeginInitialize, k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml
+ms.date: 2/16/2018
+ms.keywords: kernel.rtlrunoncebegininitialize, RtlRunOnceBeginInitialize routine [Kernel-Mode Driver Architecture], RtlRunOnceBeginInitialize, ntddk/RtlRunOnceBeginInitialize, k109_f7299ad8-4567-4ad8-a13c-2329a12af6ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -148,11 +148,11 @@ Drivers can alternatively perform one-time initialization by calling <a href="..
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
-
-
-
 <a href="..\ntddk\nf-ntddk-rtlrunonceexecuteonce.md">RtlRunOnceExecuteOnce</a>
+
+
+
+<a href="..\ntddk\nf-ntddk-rtlrunonceinitialize.md">RtlRunOnceInitialize</a>
 
 
 
@@ -172,5 +172,5 @@ Drivers can alternatively perform one-time initialization by calling <a href="..
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlRunOnceBeginInitialize routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlRunOnceBeginInitialize routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

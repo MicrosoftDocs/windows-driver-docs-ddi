@@ -7,8 +7,8 @@ old-location: stream\kslist_entry_location.htm
 old-project: stream
 ms.assetid: C2047F4D-6D24-432B-98F1-EA00D88E3860
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KsListEntryTail, stream.kslist_entry_location, ks/KsListEntryHead, KsListEntryHead, KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KsListEntryTail, KSLIST_ENTRY_LOCATION, ks/KSLIST_ENTRY_LOCATION
+ms.date: 2/20/2018
+ms.keywords: KSLIST_ENTRY_LOCATION enumeration [Streaming Media Devices], KSLIST_ENTRY_LOCATION, KsListEntryTail, ks/KsListEntryTail, KsListEntryHead, ks/KSLIST_ENTRY_LOCATION, stream.kslist_entry_location, ks/KsListEntryHead
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

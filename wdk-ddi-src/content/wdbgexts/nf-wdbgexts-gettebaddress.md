@@ -4,11 +4,11 @@ title: GetTebAddress function
 author: windows-driver-content
 description: The GetTebAddress function returns the address of the thread environment block (TEB) for the current operating system thread.
 old-location: debugger\gettebaddress.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 6dbe7da6-31f6-43f2-aa25-be6f13c8d8d8
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetTebAddress, WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, debugger.gettebaddress, wdbgexts/GetTebAddress, GetTebAddress function [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: WdbgExts_Ref_69ad127f-7df4-4c57-9475-55040aa02f78.xml, debugger.gettebaddress, wdbgexts/GetTebAddress, GetTebAddress function [Windows Debugging], GetTebAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -101,5 +101,5 @@ In user-mode debugging, the TEB for the current thread is returned.  In kernel-m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20GetTebAddress function%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20GetTebAddress function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

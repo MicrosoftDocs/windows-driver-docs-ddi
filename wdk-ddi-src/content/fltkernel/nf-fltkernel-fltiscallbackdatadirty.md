@@ -7,8 +7,8 @@ old-location: ifsk\fltiscallbackdatadirty.htm
 old-project: ifsk
 ms.assetid: 128cab09-cbce-4a6f-9c57-5c8eda4477b3
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltApiRef_e_to_o_89035d79-bcf8-4f8d-8030-8a805e1a44df.xml, FltIsCallbackDataDirty routine [Installable File System Drivers], FltIsCallbackDataDirty, fltkernel/FltIsCallbackDataDirty, ifsk.fltiscallbackdatadirty
+ms.date: 2/16/2018
+ms.keywords: FltIsCallbackDataDirty, ifsk.fltiscallbackdatadirty, fltkernel/FltIsCallbackDataDirty, FltIsCallbackDataDirty routine [Installable File System Drivers], FltApiRef_e_to_o_89035d79-bcf8-4f8d-8030-8a805e1a44df.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -98,17 +98,17 @@ To clear a callback data structure's FLTFL_CALLBACK_DATA_DIRTY flag, call <a hre
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
-
-
-
 <a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
 
 
 
- 
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltIsCallbackDataDirty routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltIsCallbackDataDirty routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugSystemObjects2::GetCurrentThreadHandle method
 author: windows-driver-content
 description: The GetCurrentThreadHandle method returns the system handle for the current thread.
 old-location: debugger\getcurrentthreadhandle.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: edbda821-8016-48db-a2f5-7f615428da0c
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getcurrentthreadhandle, dbgeng/IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects3::GetCurrentThreadHandle, IDebugSystemObjects2::GetCurrentThreadHandle, dbgeng/IDebugSystemObjects4::GetCurrentThreadHandle, dbgeng/IDebugSystemObjects2::GetCurrentThreadHandle, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadHandle method, GetCurrentThreadHandle, dbgeng/IDebugSystemObjects3::GetCurrentThreadHandle, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects interface, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects3 interface, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects4::GetCurrentThreadHandle, IDebugSystemObjects_6c615962-bf20-4cdb-8bab-8afc142e8c65.xml, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects2, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadHandle method
+ms.date: 2/15/2018
+ms.keywords: debugger.getcurrentthreadhandle, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects3::GetCurrentThreadHandle, IDebugSystemObjects, IDebugSystemObjects interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects2 interface [Windows Debugging], GetCurrentThreadHandle method, IDebugSystemObjects2::GetCurrentThreadHandle, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects2::GetCurrentThreadHandle, dbgeng/IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects2, IDebugSystemObjects4 interface [Windows Debugging], GetCurrentThreadHandle method, GetCurrentThreadHandle, GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetCurrentThreadHandle method, dbgeng/IDebugSystemObjects3::GetCurrentThreadHandle, IDebugSystemObjects_6c615962-bf20-4cdb-8bab-8afc142e8c65.xml, IDebugSystemObjects::GetCurrentThreadHandle, IDebugSystemObjects4::GetCurrentThreadHandle, GetCurrentThreadHandle method [Windows Debugging], GetCurrentThreadHandle method [Windows Debugging], IDebugSystemObjects2 interface, dbgeng/IDebugSystemObjects4::GetCurrentThreadHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetCurrentThreadHandle
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects2::GetCurrentThreadHandle method

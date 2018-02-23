@@ -7,7 +7,7 @@ old-location: sd\ioctl_sffdisk_query_device_protocol.htm
 old-project: SD
 ms.assetid: 47eeb4a9-dece-4500-bbe7-891f64437eef
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
+ms.date: 2/15/2018
 ms.keywords: SD.ioctl_sffdisk_query_device_protocol, IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL control code [Buses], IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, sffdisk/IOCTL_SFFDISK_QUERY_DEVICE_PROTOCOL, sd-ioctls_4bf0f25d-2d73-4da4-a329-f7a0fa00fecf.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

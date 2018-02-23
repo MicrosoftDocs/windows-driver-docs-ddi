@@ -7,8 +7,8 @@ old-location: netvista\rilgetcallbarringstatusparams.htm
 old-project: netvista
 ms.assetid: ce4ff193-1699-4712-93c1-c623474e1993
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], RILGETCALLBARRINGSTATUSPARAMS, ntddrilapitypes/RILGETCALLBARRINGSTATUSPARAMS, netvista.rilgetcallbarringstatusparams"
+ms.date: 2/16/2018
+ms.keywords: RILGETCALLBARRINGSTATUSPARAMS, RILGETCALLBARRINGSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILGETCALLBARRINGSTATUSPARAMS, *LPRILGETCALLBARRINGSTATUSPARAMS, netvista.rilgetcallbarringstatusparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

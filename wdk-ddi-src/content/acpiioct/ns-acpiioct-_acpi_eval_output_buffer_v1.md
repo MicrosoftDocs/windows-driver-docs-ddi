@@ -7,8 +7,8 @@ old-location: acpi\acpi_eval_output_buffer.htm
 old-project: acpi
 ms.assetid: 3bfb43dd-b4e1-49ee-9be6-c9861341daa1
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: "*PACPI_EVAL_OUTPUT_BUFFER_V1, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, _ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], *PACPI_EVAL_OUTPUT_BUFFER, acpi.acpi_eval_output_buffer, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, ACPI_EVAL_OUTPUT_BUFFER"
+ms.date: 2/15/2018
+ms.keywords: ACPI_EVAL_OUTPUT_BUFFER, acpi.acpi_eval_output_buffer, ACPI_EVAL_OUTPUT_BUFFER_V1 structure [ACPI Devices], ACPI_EVAL_OUTPUT_BUFFER_V1, _ACPI_EVAL_OUTPUT_BUFFER_V1, acpiioct/ACPI_EVAL_OUTPUT_BUFFER_V1, acpi-meth-eval-ref_438f3766-37fd-449b-8084-26f08c2f82a0.xml, *PACPI_EVAL_OUTPUT_BUFFER_V1, *PACPI_EVAL_OUTPUT_BUFFER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ACPI_EVAL_OUTPUT_BUFFER_V1
 product: Windows
 targetos: Windows
-req.typenames: "*PACPI_EVAL_OUTPUT_BUFFER, ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER"
+req.typenames: ACPI_EVAL_OUTPUT_BUFFER_V1, ACPI_EVAL_OUTPUT_BUFFER, *PACPI_EVAL_OUTPUT_BUFFER
 ---
 
 # _ACPI_EVAL_OUTPUT_BUFFER_V1 structure
@@ -129,5 +129,5 @@ For more information about how to use <b>ACPI_EVAL_OUTPUT_BUFFER</b> structures 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_EVAL_OUTPUT_BUFFER_V1 structure%20 RELEASE:%20(12/31/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [acpi\acpi]:%20ACPI_EVAL_OUTPUT_BUFFER_V1 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

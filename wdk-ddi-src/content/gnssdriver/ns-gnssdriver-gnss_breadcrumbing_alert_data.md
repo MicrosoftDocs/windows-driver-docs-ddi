@@ -7,8 +7,8 @@ old-location: sensors\gnss_breadcrumbing_alert_data.htm
 old-project: sensors
 ms.assetid: 5B8C1264-336C-438F-89AC-82B6FCBAE931
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PGNSS_BREADCRUMBING_ALERT_DATA, sensors.gnss_breadcrumbing_alert_data, GNSS_BREADCRUMBING_ALERT_DATA structure [Sensor Devices], gnssdriver/PGNSS_BREADCRUMBING_ALERT_DATA, PGNSS_BREADCRUMBING_ALERT_DATA structure pointer [Sensor Devices], gnssdriver/GNSS_BREADCRUMBING_ALERT_DATA, PGNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA"
+ms.date: 2/15/2018
+ms.keywords: PGNSS_BREADCRUMBING_ALERT_DATA structure pointer [Sensor Devices], sensors.gnss_breadcrumbing_alert_data, *PGNSS_BREADCRUMBING_ALERT_DATA, gnssdriver/GNSS_BREADCRUMBING_ALERT_DATA, PGNSS_BREADCRUMBING_ALERT_DATA, gnssdriver/PGNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA, GNSS_BREADCRUMBING_ALERT_DATA structure [Sensor Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -82,6 +82,7 @@ Version number.
 ### -field Unused
 
  
+
 
 
 

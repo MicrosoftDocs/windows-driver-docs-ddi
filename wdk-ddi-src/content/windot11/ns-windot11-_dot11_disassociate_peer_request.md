@@ -7,8 +7,8 @@ old-location: netvista\dot11_disassociate_peer_request.htm
 old-project: netvista
 ms.assetid: aa47c030-dcd4-451b-8a4b-03ac566bb394
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11_disassociate_peer_request, DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], windot11/PDOT11_DISASSOCIATE_PEER_REQUEST, _DOT11_DISASSOCIATE_PEER_REQUEST, *PDOT11_DISASSOCIATE_PEER_REQUEST, windot11/DOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST, PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], PDOT11_DISASSOCIATE_PEER_REQUEST, Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml
+ms.date: 2/16/2018
+ms.keywords: PDOT11_DISASSOCIATE_PEER_REQUEST, *PDOT11_DISASSOCIATE_PEER_REQUEST, _DOT11_DISASSOCIATE_PEER_REQUEST, Native_802.11_data_types_54282deb-6db8-44b2-b87c-e3f4426141f6.xml, windot11/PDOT11_DISASSOCIATE_PEER_REQUEST, windot11/DOT11_DISASSOCIATE_PEER_REQUEST, DOT11_DISASSOCIATE_PEER_REQUEST, PDOT11_DISASSOCIATE_PEER_REQUEST structure pointer [Network Drivers Starting with Windows Vista], DOT11_DISASSOCIATE_PEER_REQUEST structure [Network Drivers Starting with Windows Vista], netvista.dot11_disassociate_peer_request
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -148,5 +148,5 @@ This structure is used with
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DISASSOCIATE_PEER_REQUEST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_DISASSOCIATE_PEER_REQUEST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 
