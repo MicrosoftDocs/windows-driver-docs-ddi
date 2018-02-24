@@ -7,8 +7,8 @@ old-location: kernel\ob_post_operation_parameters.htm
 old-project: kernel
 ms.assetid: cd0551fc-c276-45c3-a560-bded300a4535
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: OB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], wdm/OB_POST_OPERATION_PARAMETERS, kernel.ob_post_operation_parameters, OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], _OB_POST_OPERATION_PARAMETERS, wdm/POB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, *POB_POST_OPERATION_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: OB_POST_OPERATION_PARAMETERS union [Kernel-Mode Driver Architecture], wdm/POB_POST_OPERATION_PARAMETERS, wdm/OB_POST_OPERATION_PARAMETERS, kstruct_c_2395a938-5759-44aa-b854-0df3c04d97ec.xml, _OB_POST_OPERATION_PARAMETERS, *POB_POST_OPERATION_PARAMETERS, OB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS, POB_POST_OPERATION_PARAMETERS union pointer [Kernel-Mode Driver Architecture], kernel.ob_post_operation_parameters
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -85,17 +85,17 @@ An <a href="..\wdm\ns-wdm-_ob_post_duplicate_handle_information.md">OB_POST_DUPL
 
 
 
-<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
-
-
-
 <a href="..\wdm\ns-wdm-_ob_post_create_handle_information.md">OB_POST_CREATE_HANDLE_INFORMATION</a>
 
 
 
- 
+<a href="..\wdm\nc-wdm-pob_post_operation_callback.md">ObjectPostCallback</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_POST_OPERATION_PARAMETERS union%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20OB_POST_OPERATION_PARAMETERS union%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

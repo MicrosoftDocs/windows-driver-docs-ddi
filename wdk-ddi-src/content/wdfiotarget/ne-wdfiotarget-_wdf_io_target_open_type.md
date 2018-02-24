@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_target_open_type.htm
 old-project: wdf
 ms.assetid: 27aa5d78-03ce-4fc9-b1c8-d02a760e2787
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetOpenReopen, WDF_IO_TARGET_OPEN_TYPE enumeration, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenByName, _WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenLocalTargetByFile, WdfIoTargetOpenUseExistingDevice, wdfiotarget/WdfIoTargetOpenByName, kmdf.wdf_io_target_open_type, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, WDF_IO_TARGET_OPEN_TYPE, WdfIoTargetOpenReopen, WdfIoTargetOpenUndefined, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, wdf.wdf_io_target_open_type, wdfiotarget/WdfIoTargetOpenUseExistingDevice, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml
+ms.date: 2/20/2018
+ms.keywords: "_WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenByName, WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenLocalTargetByFile, DFIOTargetRef_4af14f33-176e-4dca-bf20-1841c834e29b.xml, WDF_IO_TARGET_OPEN_TYPE enumeration, kmdf.wdf_io_target_open_type, WdfIoTargetOpenLocalTargetByFile, wdf.wdf_io_target_open_type, wdfiotarget/WdfIoTargetOpenUseExistingDevice, wdfiotarget/WDF_IO_TARGET_OPEN_TYPE, wdfiotarget/WdfIoTargetOpenUndefined, WdfIoTargetOpenUseExistingDevice, WdfIoTargetOpenUndefined, wdfiotarget/WdfIoTargetOpenReopen, WdfIoTargetOpenByName, WdfIoTargetOpenReopen"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -125,7 +125,7 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
 
 
 
@@ -133,15 +133,15 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
-
-
-
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetopen.md">WdfIoTargetOpen</a>
 
 
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetcloseforqueryremove.md">WdfIoTargetCloseForQueryRemove</a>
+<a href="..\wdm\ns-wdm-_device_object.md">DEVICE_OBJECT</a>
+
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdf_io_target_open_params_init_open_by_file.md">WDF_IO_TARGET_OPEN_PARAMS_INIT_OPEN_BY_FILE</a>
 
 
 
@@ -149,5 +149,5 @@ In this situation, you can use <b>WdfIoTargetOpenLocalTargetByFile</b> to cause 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_OPEN_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_OPEN_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

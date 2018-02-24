@@ -4,11 +4,11 @@ title: IDebugClient::GetInputCallbacks method
 author: windows-driver-content
 description: The GetInputCallbacks method returns the input callbacks object registered with this client.
 old-location: debugger\getinputcallbacks.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1788d9b6-5e5e-48b6-b746-fd078768892f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetInputCallbacks method [Windows Debugging], IDebugClient interface, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient4::GetInputCallbacks, IDebugClient, dbgeng/IDebugClient::GetInputCallbacks, IDebugClient4 interface [Windows Debugging], GetInputCallbacks method, IDebugClient5 interface [Windows Debugging], GetInputCallbacks method, IDebugClient interface [Windows Debugging], GetInputCallbacks method, dbgeng/IDebugClient4::GetInputCallbacks, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, IDebugClient3 interface [Windows Debugging], GetInputCallbacks method, IDebugClient::GetInputCallbacks, IDebugClient3::GetInputCallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface, IDebugClient5::GetInputCallbacks, IDebugClient2::GetInputCallbacks, IDebugClient2 interface [Windows Debugging], GetInputCallbacks method, debugger.getinputcallbacks, dbgeng/IDebugClient3::GetInputCallbacks, dbgeng/IDebugClient2::GetInputCallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient5 interface, GetInputCallbacks method [Windows Debugging], IDebugClient2 interface, GetInputCallbacks method [Windows Debugging], GetInputCallbacks, dbgeng/IDebugClient5::GetInputCallbacks
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugClient2::GetInputCallbacks, IDebugClient2 interface [Windows Debugging], GetInputCallbacks method, GetInputCallbacks method [Windows Debugging], IDebugClient interface, GetInputCallbacks method [Windows Debugging], IDebugClient4 interface, IDebugClient4::GetInputCallbacks, GetInputCallbacks, IDebugClient5 interface [Windows Debugging], GetInputCallbacks method, IDebugClient, GetInputCallbacks method [Windows Debugging], IDebugClient2 interface, IDebugClient4 interface [Windows Debugging], GetInputCallbacks method, GetInputCallbacks method [Windows Debugging], IDebugClient5 interface, IDebugClient_ab365943-baaa-4a51-9c1b-d82086098b2f.xml, dbgeng/IDebugClient3::GetInputCallbacks, IDebugClient interface [Windows Debugging], GetInputCallbacks method, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface [Windows Debugging], GetInputCallbacks method, IDebugClient2::GetInputCallbacks, IDebugClient5::GetInputCallbacks, dbgeng/IDebugClient5::GetInputCallbacks, dbgeng/IDebugClient4::GetInputCallbacks, IDebugClient::GetInputCallbacks, IDebugClient3::GetInputCallbacks, dbgeng/IDebugClient::GetInputCallbacks, debugger.getinputcallbacks, GetInputCallbacks method [Windows Debugging], IDebugClient3 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.GetInputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient::GetInputCallbacks method
@@ -121,10 +121,6 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebuginputcallbacks.md">IDebugInputCallbacks</a>
 
 
@@ -133,15 +129,19 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
+
+
+
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient4.md">IDebugClient4</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556721">SetInputCallbacks</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -153,5 +153,5 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetInputCallbacks method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::GetInputCallbacks method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

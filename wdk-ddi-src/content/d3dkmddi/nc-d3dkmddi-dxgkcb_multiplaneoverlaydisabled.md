@@ -7,7 +7,7 @@ old-location: display\dxgkcb_multiplaneoverlaydisabled.htm
 old-project: display
 ms.assetid: EA9FAB26-1EAF-4E67-B240-094BC2B03DEF
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkcb_multiplaneoverlaydisabled, DXGKCB_MULTIPLANEOVERLAYDISABLED callback function [Display Devices], DXGKCB_MULTIPLANEOVERLAYDISABLED, d3dkmddi/DXGKCB_MULTIPLANEOVERLAYDISABLED
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: storage\ioctl_cdrom_get_last_session.htm
 old-project: storage
 ms.assetid: a05da124-f486-4658-87d8-6c1b423694b3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_cdrom_get_last_session, IOCTL_CDROM_GET_LAST_SESSION control code [Storage Devices], IOCTL_CDROM_GET_LAST_SESSION, ntddcdrm/IOCTL_CDROM_GET_LAST_SESSION, k307_f2597708-18cf-4f97-87f8-2d1c2e9a75ea.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: ieee\fcp_send_response.htm
 old-project: IEEE
 ms.assetid: 65C76CA1-F7F2-4DFD-B928-0595A137BF28
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PFCP_SEND_RESPONSE, IEEE.fcp_send_response, _FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], 61883/PFCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], FCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE
+ms.date: 2/15/2018
+ms.keywords: FCP_SEND_RESPONSE, 61883/PFCP_SEND_RESPONSE, _FCP_SEND_RESPONSE, PFCP_SEND_RESPONSE structure pointer [Buses], PFCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE, 61883/FCP_SEND_RESPONSE, FCP_SEND_RESPONSE structure [Buses], IEEE.fcp_send_response
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FCP_SEND_RESPONSE
 product: Windows
 targetos: Windows
-req.typenames: FCP_SEND_RESPONSE, *PFCP_SEND_RESPONSE
+req.typenames: "*PFCP_SEND_RESPONSE, FCP_SEND_RESPONSE"
 ---
 
 # _FCP_SEND_RESPONSE structure
@@ -113,5 +113,5 @@ If the protocol driver is unable to allocate resources, it sets <b>Irp-&gt;IoSta
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20FCP_SEND_RESPONSE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20FCP_SEND_RESPONSE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

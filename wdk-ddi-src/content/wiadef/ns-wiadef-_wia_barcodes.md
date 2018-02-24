@@ -4,11 +4,11 @@ title: "_WIA_BARCODES"
 author: windows-driver-content
 description: The WIA_BARCODES structure stores header information for the barcode metadata report of one scan job (one call to IWiaMiniDrv::drvAcquireItemData).
 old-location: image\wia_barcodes.htm
-old-project: image
+old-project: Image
 ms.assetid: 2B89FF49-4376-49A7-B7CC-1C67D89C7E7A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WIA_BARCODES, _WIA_BARCODES, wiadef/WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], image.wia_barcodes
+ms.date: 2/15/2018
+ms.keywords: "_WIA_BARCODES, WIA_BARCODES structure [Imaging Devices], image.wia_barcodes, WIA_BARCODES, wiadef/WIA_BARCODES"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WDTFSystemAction.idl
+req.idl: 
 req.max-support: 
-req.namespace: Microsoft.WDTF
-req.assembly: WDTFSystemAction.Interop.dll
+req.namespace: 
+req.assembly: 
 req.type-library: 
 req.lib: 
 req.dll: 

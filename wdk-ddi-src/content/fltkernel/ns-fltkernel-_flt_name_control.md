@@ -7,8 +7,8 @@ old-location: ifsk\flt_name_control.htm
 old-project: ifsk
 ms.assetid: 0f796ad1-e4b4-4113-b076-ed6c9ea711c9
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: PFLT_NAME_CONTROL, FLT_NAME_CONTROL, fltkernel/FLT_NAME_CONTROL, PFLT_NAME_CONTROL structure pointer [Installable File System Drivers], _FLT_NAME_CONTROL, fltkernel/PFLT_NAME_CONTROL, FltSystemStructures_691a74ca-7671-44e3-9072-5d081c508a6c.xml, FLT_NAME_CONTROL structure [Installable File System Drivers], *PFLT_NAME_CONTROL, ifsk.flt_name_control
+ms.date: 2/16/2018
+ms.keywords: ifsk.flt_name_control, PFLT_NAME_CONTROL structure pointer [Installable File System Drivers], PFLT_NAME_CONTROL, *PFLT_NAME_CONTROL, FLT_NAME_CONTROL, FLT_NAME_CONTROL structure [Installable File System Drivers], _FLT_NAME_CONTROL, FltSystemStructures_691a74ca-7671-44e3-9072-5d081c508a6c.xml, fltkernel/PFLT_NAME_CONTROL, fltkernel/FLT_NAME_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FLT_NAME_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: FLT_NAME_CONTROL, *PFLT_NAME_CONTROL
+req.typenames: "*PFLT_NAME_CONTROL, FLT_NAME_CONTROL"
 ---
 
 # _FLT_NAME_CONTROL structure
@@ -84,7 +84,7 @@ Minifilters must not attempt to free or replace the buffer in the <a href="..\wu
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff543040">FltGetFileNameQueryMethod</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -92,11 +92,7 @@ Minifilters must not attempt to free or replace the buffer in the <a href="..\wu
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltcheckandgrownamecontrol.md">FltCheckAndGrowNameControl</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
 
 
 
@@ -104,7 +100,11 @@ Minifilters must not attempt to free or replace the buffer in the <a href="..\wu
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformationunsafe.md">FltGetFileNameInformationUnsafe</a>
+<a href="..\fltkernel\nf-fltkernel-fltgetfilenameinformation.md">FltGetFileNameInformation</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff543030">FltGetFileNameFormat</a>
 
 
 
@@ -112,5 +112,5 @@ Minifilters must not attempt to free or replace the buffer in the <a href="..\wu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_NAME_CONTROL structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_NAME_CONTROL structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

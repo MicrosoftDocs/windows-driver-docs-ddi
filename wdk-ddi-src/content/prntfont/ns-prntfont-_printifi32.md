@@ -7,8 +7,8 @@ old-location: display\printifi32.htm
 old-project: display
 ms.assetid: f8e77eb1-3964-4ca0-8ae7-2e9617671990
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "*PPRINTIFI32, prntfont/PPRINTIFI32, PPRINTIFI32 structure pointer [Display Devices], PRINTIFI32, grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, _PRINTIFI32, display.printifi32, prntfont/PRINTIFI32, PRINTIFI32 structure [Display Devices], PPRINTIFI32"
+ms.date: 2/20/2018
+ms.keywords: PPRINTIFI32 structure pointer [Display Devices], grstrcts_f7643950-b91f-462a-9d13-0c46a82da7d3.xml, PPRINTIFI32, *PPRINTIFI32, display.printifi32, prntfont/PPRINTIFI32, PRINTIFI32, prntfont/PRINTIFI32, _PRINTIFI32, PRINTIFI32 structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -1130,5 +1130,5 @@ The coordinate system in the font/notional space is such that the y coordinate i
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PRINTIFI32 structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20PRINTIFI32 structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

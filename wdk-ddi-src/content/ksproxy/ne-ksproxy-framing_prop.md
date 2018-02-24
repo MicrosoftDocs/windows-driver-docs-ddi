@@ -7,8 +7,8 @@ old-location: stream\framing_prop.htm
 old-project: stream
 ms.assetid: EE68F14D-F76D-4D98-99FB-BD3FB93B669A
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: FRAMING_PROP enumeration [Streaming Media Devices], stream.framing_prop, ksproxy/FramingProp_Ex, FramingProp_Uninitialized, FramingProp_None, ksproxy/FramingProp_Uninitialized, FramingProp_Ex, ksproxy/FRAMING_PROP, FRAMING_PROP, ksproxy/FramingProp_None, FramingProp_Old, ksproxy/FramingProp_Old, *PFRAMING_PROP
+ms.date: 2/20/2018
+ms.keywords: ksproxy/FramingProp_Ex, *PFRAMING_PROP, stream.framing_prop, ksproxy/FramingProp_Uninitialized, FramingProp_Old, FramingProp_Uninitialized, FramingProp_None, FRAMING_PROP enumeration [Streaming Media Devices], ksproxy/FRAMING_PROP, FRAMING_PROP, ksproxy/FramingProp_Old, FramingProp_Ex, ksproxy/FramingProp_None
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

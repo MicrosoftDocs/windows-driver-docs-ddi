@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_createvideoprocessor.htm
 old-project: display
 ms.assetid: 4F1AA75F-DDC7-490B-8CE2-590691991234
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_createvideoprocessor, pfnCreateVideoProcessor callback function [Display Devices], pfnCreateVideoProcessor, PFND3D12DDI_CREATEVIDEOPROCESSOR_0021, PFND3D12DDI_CREATEVIDEOPROCESSOR_0021, d3d12umddi/pfnCreateVideoProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -4,11 +4,11 @@ title: IDebugEventCallbacksWide::LoadModule method
 author: windows-driver-content
 description: The LoadModule callback method is called by the engine when a module-load debugging event occurs in the target.
 old-location: debugger\idebugeventcallbackswide_loadmodule.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 03a76d41-3af1-48a9-832a-1c255a8b0cc4
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: LoadModule, IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide, debugger.idebugeventcallbackswide_loadmodule, LoadModule method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface
+ms.date: 2/15/2018
+ms.keywords: IDebugEventCallbacksWide, LoadModule method [Windows Debugging], dbgeng/IDebugEventCallbacksWide::LoadModule, debugger.idebugeventcallbackswide_loadmodule, LoadModule, IDebugEventCallbacksWide::LoadModule, IDebugEventCallbacksWide interface [Windows Debugging], LoadModule method, LoadModule method [Windows Debugging], IDebugEventCallbacksWide interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacksWide.LoadModule
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacksWide::LoadModule method

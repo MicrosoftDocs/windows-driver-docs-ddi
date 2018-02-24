@@ -7,8 +7,8 @@ old-location: storage\hbafcpbindingentry.htm
 old-project: storage
 ms.assetid: fa0f20e1-7d63-48e8-8270-8dab566f5947
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: hbapiwmi/PHBAFCPBindingEntry, PHBAFCPBindingEntry, structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, HBAFCPBindingEntry, PHBAFCPBindingEntry structure pointer [Storage Devices], _HBAFCPBindingEntry, *PHBAFCPBindingEntry, HBAFCPBindingEntry structure [Storage Devices], storage.hbafcpbindingentry, hbapiwmi/HBAFCPBindingEntry
+ms.date: 2/16/2018
+ms.keywords: hbapiwmi/HBAFCPBindingEntry, storage.hbafcpbindingentry, HBAFCPBindingEntry, *PHBAFCPBindingEntry, _HBAFCPBindingEntry, hbapiwmi/PHBAFCPBindingEntry, PHBAFCPBindingEntry, PHBAFCPBindingEntry structure pointer [Storage Devices], structs-Fibre_1b8c019a-3cec-4aa3-b43c-8f52168c7a03.xml, HBAFCPBindingEntry structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HBAFCPBindingEntry
 product: Windows
 targetos: Windows
-req.typenames: "*PHBAFCPBindingEntry, HBAFCPBindingEntry"
+req.typenames: HBAFCPBindingEntry, *PHBAFCPBindingEntry
 ---
 
 # _HBAFCPBindingEntry structure
@@ -169,5 +169,5 @@ For an explanation of the fibre channel protocol (FCP), see the T11 committee's 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFCPBindingEntry structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBAFCPBindingEntry structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

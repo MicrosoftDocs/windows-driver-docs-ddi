@@ -7,7 +7,7 @@ old-location: storage\ioctl_dvd_end_session.htm
 old-project: storage
 ms.assetid: 70908275-211b-4112-bad3-35584ec1ef10
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_dvd_end_session, IOCTL_DVD_END_SESSION control code [Storage Devices], IOCTL_DVD_END_SESSION, ntddcdvd/IOCTL_DVD_END_SESSION, k307_6d285513-0b3e-4493-977e-e6e837fa3d6a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_DVD_END_SESSION
 product: Windows
 targetos: Windows
-req.typenames: "*PDVD_STRUCTURE_FORMAT, DVD_STRUCTURE_FORMAT"
+req.typenames: DVD_STRUCTURE_FORMAT, *PDVD_STRUCTURE_FORMAT
 ---
 
 # IOCTL_DVD_END_SESSION IOCTL

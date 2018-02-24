@@ -7,8 +7,8 @@ old-location: storage\mp_storage_diagnostic_target_type.htm
 old-project: storage
 ms.assetid: 1A48FC0F-7ED2-4F9F-8B61-A498B0D13FE8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorageDiagnosticTargetTypePort, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], ntddscsi/StorageDiagnosticTargetTypePort, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeHbaFirmware, ntddscsi/StorageDiagnosticTargetTypeMax, _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeUndefined, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], ntddscsi/MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeUndefined, ntddscsi/StorageDiagnosticTargetTypeMiniport, storage.mp_storage_diagnostic_target_type, StorageDiagnosticTargetTypeHbaFirmware, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMax, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMiniport
+ms.date: 2/16/2018
+ms.keywords: ntddscsi/StorageDiagnosticTargetTypeMiniport, ntddscsi/StorageDiagnosticTargetTypeUndefined, ntddscsi/StorageDiagnosticTargetTypePort, ntddscsi/StorageDiagnosticTargetTypeHbaFirmware, ntddscsi/MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeMiniport, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration pointer [Storage Devices], _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration [Storage Devices], StorageDiagnosticTargetTypePort, storage.mp_storage_diagnostic_target_type, StorageDiagnosticTargetTypeHbaFirmware, StorageDiagnosticTargetTypeMax, ntddscsi/PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, ntddscsi/StorageDiagnosticTargetTypeMax, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, StorageDiagnosticTargetTypeUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	MP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE, MP_STORAGE_DIAGNOSTIC_TARGET_TYPE"
+req.typenames: MP_STORAGE_DIAGNOSTIC_TARGET_TYPE, *PMP_STORAGE_DIAGNOSTIC_TARGET_TYPE
 ---
 
 # _MP_STORAGE_DIAGNOSTIC_TARGET_TYPE enumeration

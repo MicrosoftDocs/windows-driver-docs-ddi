@@ -7,8 +7,8 @@ old-location: netvista\rilmessage_2.htm
 old-project: netvista
 ms.assetid: 731ae115-2394-4651-9b79-6d640d07a328
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILMESSAGE, RILMESSAGE, netvista.rilmessage_2, *LPRILMESSAGE, RILMESSAGE structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILMESSAGE, *LPRILMESSAGE, netvista.rilmessage_2, RILMESSAGE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILMESSAGE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILMESSAGE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILMESSAGE, RILMESSAGE"
+req.typenames: RILMESSAGE, *LPRILMESSAGE
 req.product: Windows 10 or later.
 ---
 
@@ -113,41 +113,6 @@ typedef struct _RILMESSAGE {
 
 
 ### -field msgUnion
-
-
-### -field msgUnion.unMsgInDeliver
-
- 
-
-
-### -field msgUnion.unMsgInStatus
-
- 
-
-
-### -field msgUnion.unMsgOutSubmit
-
- 
-
-
-### -field msgUnion.unMsgBcGeneral
-
- 
-
-
-### -field msgUnion.unMsgIS637InStatus
-
- 
-
-
-### -field msgUnion.unMsgCDMAInDeliver
-
- 
-
-
-### -field msgUnion.unMsgCDMAOutSubmit
-
- 
 
 
 ### -field RILMSGUNION

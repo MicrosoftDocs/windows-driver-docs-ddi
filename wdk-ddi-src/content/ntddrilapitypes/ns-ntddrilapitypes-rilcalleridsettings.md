@@ -7,8 +7,8 @@ old-location: netvista\rilcalleridsettings.htm
 old-project: netvista
 ms.assetid: 3ba2cd72-4678-4ada-9777-12cbb6032628
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLERIDSETTINGS, RILCALLERIDSETTINGS, *LPRILCALLERIDSETTINGS, netvista.rilcalleridsettings
+ms.date: 2/16/2018
+ms.keywords: RILCALLERIDSETTINGS, netvista.rilcalleridsettings, RILCALLERIDSETTINGS structure [Network Drivers Starting with Windows Vista], *LPRILCALLERIDSETTINGS, ntddrilapitypes/RILCALLERIDSETTINGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLERIDSETTINGS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCALLERIDSETTINGS, RILCALLERIDSETTINGS"
+req.typenames: RILCALLERIDSETTINGS, *LPRILCALLERIDSETTINGS
 ---
 
 # RILCALLERIDSETTINGS structure

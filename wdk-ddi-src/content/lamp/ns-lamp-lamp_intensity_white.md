@@ -7,8 +7,8 @@ old-location: stream\lamp_intensity_white.htm
 old-project: stream
 ms.assetid: BDE53311-589F-4458-9510-1B02F1BD0289
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: lamp/LAMP_INTENSITY_WHITE, LAMP_INTENSITY_WHITE, stream.lamp_intensity_white, LAMP_INTENSITY_WHITE structure [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: LAMP_INTENSITY_WHITE, stream.lamp_intensity_white, LAMP_INTENSITY_WHITE structure [Streaming Media Devices], lamp/LAMP_INTENSITY_WHITE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

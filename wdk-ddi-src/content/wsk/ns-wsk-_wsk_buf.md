@@ -7,8 +7,8 @@ old-location: netvista\wsk_buf.htm
 old-project: netvista
 ms.assetid: bef653d3-5de3-4af3-8c1f-cff55619e2e9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wsk/WSK_BUF, PWSK_BUF, *PWSK_BUF, wsk/PWSK_BUF, WSK_BUF, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml, netvista.wsk_buf, WSK_BUF structure [Network Drivers Starting with Windows Vista], _WSK_BUF
+ms.date: 2/16/2018
+ms.keywords: WSK_BUF structure [Network Drivers Starting with Windows Vista], wsk/WSK_BUF, wskref_38d35e0c-e08d-4be7-b5c8-0559774d5de0.xml, PWSK_BUF structure pointer [Network Drivers Starting with Windows Vista], _WSK_BUF, wsk/PWSK_BUF, PWSK_BUF, netvista.wsk_buf, WSK_BUF, *PWSK_BUF
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -124,15 +124,11 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+<a href="..\wsk\nc-wsk-pfn_wsk_disconnect.md">WskDisconnect</a>
 
 
 
-<a href="..\wsk\nc-wsk-pfn_wsk_send_to.md">WskSendTo</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_receive.md">WskReceive</a>
+<a href="..\wsk\ns-wsk-_wsk_data_indication.md">WSK_DATA_INDICATION</a>
 
 
 
@@ -148,9 +144,13 @@ When a WSK application passes a pointer to a WSK_BUF structure to the
 
 
 
- 
+<a href="..\wsk\nc-wsk-pfn_wsk_send.md">WskSend</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_BUF structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_BUF structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

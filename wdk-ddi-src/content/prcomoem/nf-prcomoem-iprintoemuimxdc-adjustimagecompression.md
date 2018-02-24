@@ -7,8 +7,8 @@ old-location: print\iprintoemuimxdc_adjustimagecompression.htm
 old-project: print
 ms.assetid: d9606c9b-4a47-4e83-ad8a-ef82e2c70de3
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: AdjustImageCompression method [Print Devices], print.iprintoemuimxdc_adjustimagecompression, AdjustImageCompression, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, IPrintOemUIMXDC, IPrintOemUIMXDC::AdjustImageCompression, print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface
+ms.date: 2/21/2018
+ms.keywords: print_unidrv-pscript_ui_a4a6182b-9471-473a-9c16-15f56dcddda5.xml, IPrintOemUIMXDC interface [Print Devices], AdjustImageCompression method, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC, IPrintOemUIMXDC::AdjustImageCompression, AdjustImageCompression, prcomoem/IPrintOemUIMXDC::AdjustImageCompression, AdjustImageCompression method [Print Devices], IPrintOemUIMXDC interface, print.iprintoemuimxdc_adjustimagecompression
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemUIMXDC.AdjustImageCompression
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

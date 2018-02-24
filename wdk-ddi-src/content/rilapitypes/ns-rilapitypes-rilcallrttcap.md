@@ -7,8 +7,8 @@ old-location: netvista\rilcallrttcap_2.htm
 old-project: netvista
 ms.assetid: e1652bc1-e15d-4018-8f4c-2514958ffd27
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilcallrttcap_2, *LPRILCALLRTTCAP, RILCALLRTTCAP, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLRTTCAP
+ms.date: 2/16/2018
+ms.keywords: netvista.rilcallrttcap_2, RILCALLRTTCAP structure [Network Drivers Starting with Windows Vista], rilapitypes/RILCALLRTTCAP, *LPRILCALLRTTCAP, RILCALLRTTCAP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLRTTCAP
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCALLRTTCAP, RILCALLRTTCAP"
+req.typenames: RILCALLRTTCAP, *LPRILCALLRTTCAP
 req.product: Windows 10 or later.
 ---
 

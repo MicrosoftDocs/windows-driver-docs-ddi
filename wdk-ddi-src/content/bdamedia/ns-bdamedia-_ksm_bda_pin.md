@@ -7,8 +7,8 @@ old-location: stream\ksm_bda_pin.htm
 old-project: stream
 ms.assetid: 7e7778ba-cf4f-44e8-91ce-c53458d3db9a
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: bdamedia/KSM_BDA_PIN, KSM_BDA_PIN structure [Streaming Media Devices], bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, KSM_BDA_PIN, PKSM_BDA_PIN, *PKSM_BDA_PIN, stream.ksm_bda_pin, bdamedia/PKSM_BDA_PIN, _KSM_BDA_PIN, PKSM_BDA_PIN structure pointer [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: stream.ksm_bda_pin, PKSM_BDA_PIN structure pointer [Streaming Media Devices], PKSM_BDA_PIN, KSM_BDA_PIN, KSM_BDA_PIN structure [Streaming Media Devices], bdamedia/KSM_BDA_PIN, _KSM_BDA_PIN, *PKSM_BDA_PIN, bdaref_190ab329-704e-472a-926c-1aa04d4b6df5.xml, bdamedia/PKSM_BDA_PIN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -77,19 +77,19 @@ typedef struct _KSM_BDA_PIN {
 KSMETHOD structure that describes a method and request type of a method request.
 
 
-### -field PinId
+### -field Reserved
+
+Reserved.
+
+
+#### - PinId
 
 Member of the union in KSM_BDA_PIN that contains the identifier (ID) of a pin factory of a filter.
 
 
-### -field PinType
+#### - PinType
 
 Member of the union in KSM_BDA_PIN that contains the value that specifies the pin type.
-
-
-### -field Reserved
-
-Reserved.
 
 
 ## -see-also
@@ -102,5 +102,5 @@ Reserved.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSM_BDA_PIN structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KSM_BDA_PIN structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

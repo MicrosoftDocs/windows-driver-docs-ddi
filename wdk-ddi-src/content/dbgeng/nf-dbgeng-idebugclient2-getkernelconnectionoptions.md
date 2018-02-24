@@ -4,11 +4,11 @@ title: IDebugClient2::GetKernelConnectionOptions method
 author: windows-driver-content
 description: The GetKernelConnectionOptions method returns the connection options for the current kernel target.
 old-location: debugger\getkernelconnectionoptions.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2862fe26-1613-4fc2-98e1-3deb5078d1e2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient_5a7fe06a-42e4-4bdd-935c-8130cdfef568.xml, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, GetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, IDebugClient interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient::GetKernelConnectionOptions, IDebugClient, dbgeng/IDebugClient3::GetKernelConnectionOptions, GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient2 interface [Windows Debugging], GetKernelConnectionOptions method, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2::GetKernelConnectionOptions, IDebugClient4 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient4::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, debugger.getkernelconnectionoptions, IDebugClient2, dbgeng/IDebugClient4::GetKernelConnectionOptions, IDebugClient3::GetKernelConnectionOptions, dbgeng/IDebugClient::GetKernelConnectionOptions, IDebugClient5::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, IDebugClient3 interface [Windows Debugging], GetKernelConnectionOptions method, dbgeng/IDebugClient2::GetKernelConnectionOptions, dbgeng/IDebugClient5::GetKernelConnectionOptions
+ms.date: 2/15/2018
+ms.keywords: IDebugClient_5a7fe06a-42e4-4bdd-935c-8130cdfef568.xml, GetKernelConnectionOptions method [Windows Debugging], IDebugClient4 interface, IDebugClient2::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient2 interface, GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::GetKernelConnectionOptions, IDebugClient5 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient4 interface [Windows Debugging], GetKernelConnectionOptions method, IDebugClient3::GetKernelConnectionOptions, IDebugClient, dbgeng/IDebugClient5::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient interface, IDebugClient4::GetKernelConnectionOptions, IDebugClient interface [Windows Debugging], GetKernelConnectionOptions method, dbgeng/IDebugClient::GetKernelConnectionOptions, debugger.getkernelconnectionoptions, IDebugClient::GetKernelConnectionOptions, dbgeng/IDebugClient4::GetKernelConnectionOptions, IDebugClient2, IDebugClient3 interface [Windows Debugging], GetKernelConnectionOptions method, dbgeng/IDebugClient2::GetKernelConnectionOptions, GetKernelConnectionOptions method [Windows Debugging], IDebugClient3 interface, IDebugClient2 interface [Windows Debugging], GetKernelConnectionOptions method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -44,7 +44,7 @@ apiname:
 -	IDebugClient5.GetKernelConnectionOptions
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient2::GetKernelConnectionOptions method
@@ -153,7 +153,11 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -161,11 +165,11 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugclient.md">IDebugClient</a>
 
 
 
@@ -181,5 +185,5 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient::GetKernelConnectionOptions method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient::GetKernelConnectionOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

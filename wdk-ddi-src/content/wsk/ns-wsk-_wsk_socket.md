@@ -7,8 +7,8 @@ old-location: netvista\wsk_socket.htm
 old-project: netvista
 ms.assetid: dce4a087-a14b-400b-bdc1-944c1d4d492a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], wsk/WSK_SOCKET, _WSK_SOCKET, *PWSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], PWSK_SOCKET, wsk/PWSK_SOCKET, WSK_SOCKET, wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml, netvista.wsk_socket
+ms.date: 2/16/2018
+ms.keywords: "_WSK_SOCKET, wsk/WSK_SOCKET, PWSK_SOCKET structure pointer [Network Drivers Starting with Windows Vista], wskref_bc4b638d-4210-486a-83b8-4483481b5d27.xml, netvista.wsk_socket, PWSK_SOCKET, *PWSK_SOCKET, WSK_SOCKET structure [Network Drivers Starting with Windows Vista], WSK_SOCKET, wsk/PWSK_SOCKET"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_SOCKET
 product: Windows
 targetos: Windows
-req.typenames: WSK_SOCKET, *PWSK_SOCKET
+req.typenames: "*PWSK_SOCKET, WSK_SOCKET"
 req.product: Windows 10 or later.
 ---
 
@@ -196,25 +196,8 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 
 ## -see-also
 
-<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
-   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
-
-
-
 <a href="..\wsk\ns-wsk-_wsk_provider_connection_dispatch.md">
    WSK_PROVIDER_CONNECTION_DISPATCH</a>
-
-
-
-<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
 
 
 
@@ -226,11 +209,20 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 
 
 
+<a href="..\wsk\ns-wsk-_wsk_provider_datagram_dispatch.md">
+   WSK_PROVIDER_DATAGRAM_DISPATCH</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept_event.md">WskAcceptEvent</a>
+
+
+
+<a href="..\wsk\nc-wsk-pfn_wsk_accept.md">WskAccept</a>
+
+
+
 <a href="..\wsk\nc-wsk-pfn_wsk_socket_connect.md">WskSocketConnect</a>
-
-
-
-<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
 
 
 
@@ -238,9 +230,17 @@ The WSK subsystem frees the memory for the WSK_SOCKET structure when the WSK app
 
 
 
- 
+<a href="..\wsk\nc-wsk-pfn_wsk_socket.md">WskSocket</a>
+
+
+
+<a href="..\wsk\ns-wsk-_wsk_provider_basic_dispatch.md">WSK_PROVIDER_BASIC_DISPATCH</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_SOCKET structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_SOCKET structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

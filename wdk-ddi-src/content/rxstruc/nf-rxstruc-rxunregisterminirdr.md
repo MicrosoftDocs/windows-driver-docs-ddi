@@ -7,8 +7,8 @@ old-location: ifsk\rxunregisterminirdr.htm
 old-project: ifsk
 ms.assetid: 090e5fc5-a0cf-4df2-b9b9-abaf4833aef7
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxref_5c58f656-5d6a-46db-9c7e-f3331e48a66a.xml, ifsk.rxunregisterminirdr, RxUnregisterMinirdr, rxstruc/RxUnregisterMinirdr, RxUnregisterMinirdr routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: rxref_5c58f656-5d6a-46db-9c7e-f3331e48a66a.xml, RxUnregisterMinirdr, RxUnregisterMinirdr routine [Installable File System Drivers], ifsk.rxunregisterminirdr, rxstruc/RxUnregisterMinirdr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -97,7 +97,7 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
 ## -see-also
 
-<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+<a href="..\mrx\nf-mrx-rxstopminirdr.md">RxStopMiniRdr</a>
 
 
 
@@ -105,15 +105,15 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
 
 
+<a href="..\mrx\nf-mrx-rxregisterminirdr.md">RxRegisterMinirdr</a>
+
+
+
 <a href="..\wdm\nf-wdm-iodeletedevice.md">IoDeleteDevice</a>
 
 
 
-<a href="..\mrx\nf-mrx-rxstartminirdr.md">RxStartMiniRdr</a>
-
-
-
-<a href="..\mrx\nf-mrx-rxpunregisterminirdr.md">RxpUnregisterMinirdr</a>
+<a href="..\wdm\nc-wdm-driver_initialize.md">DriverEntry</a>
 
 
 
@@ -125,5 +125,5 @@ Note that the inline routine, <b>RxUnregisterMinirdr</b>, is the preferred way t
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxUnregisterMinirdr routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxUnregisterMinirdr routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

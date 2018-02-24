@@ -7,8 +7,8 @@ old-location: print\oemtransparentblt.htm
 old-project: print
 ms.assetid: 0ffd4759-cabe-4efe-a725-5b8ff26fda77
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.oemtransparentblt, printoem/OEMTransparentBlt, print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, OEMTransparentBlt function [Print Devices], OEMTransparentBlt
+ms.date: 2/21/2018
+ms.keywords: OEMTransparentBlt, OEMTransparentBlt function [Print Devices], print_unidrv-pscript_rendering_a02993f9-58d7-4a42-ad7b-be61bd6b265d.xml, printoem/OEMTransparentBlt, print.oemtransparentblt
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

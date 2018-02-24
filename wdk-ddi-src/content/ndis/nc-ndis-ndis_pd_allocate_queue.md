@@ -7,7 +7,7 @@ old-location: netvista\ndispdallocatequeue.htm
 old-project: netvista
 ms.assetid: E9091C69-0E21-40CC-B3D3-1F770ABA0D47
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.ndispdallocatequeue, NdisPDAllocateQueue callback function [Network Drivers Starting with Windows Vista], NdisPDAllocateQueue, NDIS_PD_ALLOCATE_QUEUE, NDIS_PD_ALLOCATE_QUEUE, ndis/NdisPDAllocateQueue
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	NdisPDAllocateQueue
 product: Windows
 targetos: Windows
-req.typenames: "*LPVIDEO_STREAM_INIT_PARMS, VIDEO_STREAM_INIT_PARMS"
+req.typenames: VIDEO_STREAM_INIT_PARMS, *LPVIDEO_STREAM_INIT_PARMS
 ---
 
 # NDIS_PD_ALLOCATE_QUEUE callback

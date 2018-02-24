@@ -7,8 +7,8 @@ old-location: parports\parclass_information.htm
 old-project: parports
 ms.assetid: abad8ebd-a9fc-4cfb-8495-aca4e38ee45a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports], PARCLASS_INFORMATION structure [Parallel Ports], parallel/PPARCLASS_INFORMATION, _PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, parallel/PARCLASS_INFORMATION, parports.parclass_information, PPARCLASS_INFORMATION
+ms.date: 2/15/2018
+ms.keywords: parports.parclass_information, PPARCLASS_INFORMATION, parallel/PPARCLASS_INFORMATION, _PARCLASS_INFORMATION, PARCLASS_INFORMATION structure [Parallel Ports], PARCLASS_INFORMATION, cisspd_b7b1d8b8-fc86-4bd9-a474-e31f416da93c.xml, *PPARCLASS_INFORMATION, parallel/PARCLASS_INFORMATION, PPARCLASS_INFORMATION structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PARCLASS_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # _PARCLASS_INFORMATION structure
@@ -208,11 +208,7 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 ## -see-also
 
-<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
-
-
-
-<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
+<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
 
 
 
@@ -220,19 +216,23 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
 
 
-<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
+<a href="..\parallel\nc-parallel-pnegotiate_ieee_mode.md">PNEGOTIATE_IEEE_MODE</a>
 
 
 
-<a href="..\parallel\nc-parallel-pparallel_ieee_fwd_to_rev.md">PPARALLEL_IEEE_FWD_TO_REV</a>
+<a href="..\parallel\nc-parallel-pparallel_read.md">PPARALLEL_READ</a>
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_lock_port.md">IOCTL_INTERNAL_LOCK_PORT</a>
+<a href="..\parallel\nc-parallel-pdetermine_ieee_modes.md">PDETERMINE_IEEE_MODES</a>
 
 
 
 <a href="..\parallel\ni-parallel-ioctl_internal_parclass_connect.md">IOCTL_INTERNAL_PARCLASS_CONNECT</a>
+
+
+
+<a href="..\parallel\nc-parallel-pparallel_write.md">PPARALLEL_WRITE</a>
 
 
 
@@ -248,5 +248,5 @@ For more information, see <a href="https://msdn.microsoft.com/c05a1a1e-308a-4b9f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARCLASS_INFORMATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARCLASS_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

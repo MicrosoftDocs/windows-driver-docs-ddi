@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_get_ms_genre_descriptor.htm
 old-project: hid
 ms.assetid: C83C6086-369D-41DB-BEB5-33B3A0C1C0AE
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.ioctl_hid_get_ms_genre_descriptor, IOCTL_HID_GET_MS_GENRE_DESCRIPTOR control code [Human Input Devices], IOCTL_HID_GET_MS_GENRE_DESCRIPTOR, hidclass/IOCTL_HID_GET_MS_GENRE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices

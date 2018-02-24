@@ -7,13 +7,13 @@ old-location: storage\srbex_data_scsi_cdb32.htm
 old-project: storage
 ms.assetid: 8BE53883-2FD0-4CAB-928E-532587DA80C3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storport/SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], *PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32, storport/PSRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], storage.srbex_data_scsi_cdb32
+ms.date: 2/16/2018
+ms.keywords: storport/SRBEX_DATA_SCSI_CDB32, PSRBEX_DATA_SCSI_CDB32 structure pointer [Storage Devices], *PSRBEX_DATA_SCSI_CDB32, storport/PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32 structure [Storage Devices], storage.srbex_data_scsi_cdb32, PSRBEX_DATA_SCSI_CDB32, _SRBEX_DATA_SCSI_CDB32
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: storport.h
-req.include-header: Storport.h, Srb.h
+req.include-header: Storport.h, Srb.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Available starting with Windows 8.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	SRBEX_DATA_SCSI_CDB32
 product: Windows
 targetos: Windows
-req.typenames: SRBEX_DATA_SCSI_CDB32, *PSRBEX_DATA_SCSI_CDB32
+req.typenames: "*PSRBEX_DATA_SCSI_CDB32, SRBEX_DATA_SCSI_CDB32"
 req.product: Windows 10 or later.
 ---
 
@@ -132,11 +132,11 @@ This structure is used to submit an extended SRB data for a CDB of 32 bytes or l
 
 ## -see-also
 
-<a href="..\storport\ns-storport-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
+<a href="..\minitape\ns-minitape-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
 
 
 
-<a href="..\storport\ns-storport-_srbex_data_scsi_cdb16.md">SRBEX_DATA_SCSI_CDB16</a>
+<a href="..\minitape\ns-minitape-_storage_request_block.md">STORAGE_REQUEST_BLOCK</a>
 
 
 
@@ -144,5 +144,5 @@ This structure is used to submit an extended SRB data for a CDB of 32 bytes or l
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_SCSI_CDB32 structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SRBEX_DATA_SCSI_CDB32 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

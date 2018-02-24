@@ -7,8 +7,8 @@ old-location: display\d3dkmt_adapteraddress.htm
 old-project: display
 ms.assetid: 70f45ca2-4be6-4e74-b2e8-55ef7a43192f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DKMT_ADAPTERADDRESS, OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml, D3DKMT_ADAPTERADDRESS structure [Display Devices], display.d3dkmt_adapteraddress, d3dkmthk/D3DKMT_ADAPTERADDRESS, D3DKMT_ADAPTERADDRESS"
+ms.date: 2/20/2018
+ms.keywords: display.d3dkmt_adapteraddress, D3DKMT_ADAPTERADDRESS structure [Display Devices], d3dkmthk/D3DKMT_ADAPTERADDRESS, OpenGL_Structs_98b1caf8-46c4-4f78-896c-031e8f3f61d0.xml, D3DKMT_ADAPTERADDRESS, _D3DKMT_ADAPTERADDRESS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,5 +98,5 @@ typedef struct _D3DKMT_ADAPTERADDRESS {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_ADAPTERADDRESS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_ADAPTERADDRESS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

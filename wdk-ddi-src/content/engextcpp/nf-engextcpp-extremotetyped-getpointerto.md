@@ -4,11 +4,11 @@ title: ExtRemoteTyped::GetPointerTo method
 author: windows-driver-content
 description: The GetPointerTo method returns typed data that is a pointer to the typed data represented by this object.
 old-location: debugger\extremotetyped_getpointerto.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1f237e8a-c0d3-4812-a96d-4cdc6f8e31df
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped, debugger.extremotetyped_getpointerto, ExtRemoteTyped::GetPointerTo, GetPointerTo, GetPointerTo method [Windows Debugging], GetPointerTo method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped interface [Windows Debugging], GetPointerTo method, EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml
+ms.date: 2/15/2018
+ms.keywords: ExtRemoteTyped, debugger.extremotetyped_getpointerto, GetPointerTo, EngExtCpp_Ref_fe04e8e3-888e-4d96-9a24-4bec51f71f16.xml, GetPointerTo method [Windows Debugging], ExtRemoteTyped interface, GetPointerTo method [Windows Debugging], ExtRemoteTyped::GetPointerTo, ExtRemoteTyped interface [Windows Debugging], GetPointerTo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.GetPointerTo
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::GetPointerTo method

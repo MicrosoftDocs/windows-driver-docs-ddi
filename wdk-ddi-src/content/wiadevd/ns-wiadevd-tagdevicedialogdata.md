@@ -4,11 +4,11 @@ title: tagDEVICEDIALOGDATA
 author: windows-driver-content
 description: The DEVICEDIALOGDATA structure contains all the data needed to implement a custom device dialog.
 old-location: image\devicedialogdata.htm
-old-project: image
+old-project: Image
 ms.assetid: 8ddd3ad7-fa97-45a4-a124-ceccdfb93f7f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/DEVICEDIALOGDATA, tagDEVICEDIALOGDATA, DEVICEDIALOGDATA, UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, PDEVICEDIALOGDATA structure pointer [Imaging Devices], PDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, wiadevd/LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA structure pointer [Imaging Devices], *LPDEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA"
+ms.date: 2/15/2018
+ms.keywords: PDEVICEDIALOGDATA structure pointer [Imaging Devices], UIExt_58107635-73eb-474c-83a6-c46b7ea27dc2.xml, tagDEVICEDIALOGDATA, wiadevd/PDEVICEDIALOGDATA, image.devicedialogdata, wiadevd/LPDEVICEDIALOGDATA, LPDEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, PDEVICEDIALOGDATA, DEVICEDIALOGDATA structure [Imaging Devices], LPDEVICEDIALOGDATA structure pointer [Imaging Devices], *PDEVICEDIALOGDATA, DEVICEDIALOGDATA, wiadevd/DEVICEDIALOGDATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WDTFSystemAction.idl
+req.idl: 
 req.max-support: 
-req.namespace: Microsoft.WDTF
-req.assembly: WDTFSystemAction.Interop.dll
+req.namespace: 
+req.assembly: 
 req.type-library: 
 req.lib: 
 req.dll: 
@@ -40,7 +40,7 @@ apiname:
 -	DEVICEDIALOGDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, DEVICEDIALOGDATA"
+req.typenames: DEVICEDIALOGDATA, *LPDEVICEDIALOGDATA, *PDEVICEDIALOGDATA
 req.product: Windows 10 or later.
 ---
 
@@ -132,5 +132,5 @@ The <b>IWiaPropertyStorage</b> interface is used to access information about the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20DEVICEDIALOGDATA structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20DEVICEDIALOGDATA structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: sensors\gnss_geofence_state.htm
 old-project: sensors
 ms.assetid: 881363B2-CF4C-4D18-9F45-829771A2D325
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Unknown, GNSS_GeofenceState_Unknown, GNSS_GeofenceState_Exited, gnssdriver/GNSS_GeofenceState_Entered, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], GNSS_GEOFENCE_STATE, sensors.gnss_geofence_state, gnssdriver/GNSS_GeofenceState_Exited, GNSS_GeofenceState_Entered
+ms.date: 2/15/2018
+ms.keywords: GNSS_GEOFENCE_STATE, GNSS_GeofenceState_Exited, gnssdriver/GNSS_GEOFENCE_STATE, gnssdriver/GNSS_GeofenceState_Exited, GNSS_GeofenceState_Entered, GNSS_GEOFENCE_STATE enumeration [Sensor Devices], sensors.gnss_geofence_state, GNSS_GeofenceState_Unknown, gnssdriver/GNSS_GeofenceState_Unknown, gnssdriver/GNSS_GeofenceState_Entered
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -87,17 +87,23 @@ The geofence has been exited.
 ## -remarks
 
 
+
 The following bitmasks are used by the HLOS to request state-change alerts for geofences:
+
 <pre class="syntax" xml:space="preserve"><code>#define GNSS_GEOFENCEALERTTYPE_ENTRY  GNSS_GeofenceState_Entered    // Enter Geofence
 #define GNSS_GEOFENCEALERTTYPE_EXIT   GNSS_GeofenceState_Exited     // Exit Geofence
-</code></pre>An entry alert is raised when the previous state of the geofence was unknown or exited and the device has now entered the geofence.
+</code></pre>
+An entry alert is raised when the previous state of the geofence was unknown or exited and the device has now entered the geofence.
 
 An exit alert is raised when the previous state of the geofence was entered and the device has now exited the geofence. If the previous state of the geofence was unknown, and the device is currently outside of the geofence, no exit alert will be generated.
 
 The location platform only sends an exit trigger to apps when the previous known state for a fence is inside the fence. This is a design decision to avoid chattiness of exit events on geofence configuration (For example, when not expecting a user configuring an exit fence from home to need to be notified that they are outside of home if they configure the notification when they are already outside of the home). Nevertheless, the location platform could handle where the GNSS driver sends exit events, but it is not recommend because then the interaction between the GNSS adapter and the GNSS driver will become very verbose. Given that the chances of the user entering a geofence are much smaller than the user being outside a geofences, this behavior reduces the required interaction between the GNSS driver and the GNSS adapter. For example, in the  case of 100 geofences pushed to the GNSS driver, and a user was outside all of them, without this behavior the will need to send to the GNSS adapter 100 exit notifications. The likelihood of something similar to this happening for entry events is very small.
 
 The geofence state transition and the associated alerts are shown below. For simplicity, the hysteresis and geofence boundary conditions are implied.
-<img alt="GNSS Geofence state diagram" src="images/geofence_entry_exit_DRAFT.png"/>The key aspects of this state diagram are:
+
+<img alt="GNSS Geofence state diagram" src="images/geofence_entry_exit_DRAFT.png"/>
+The key aspects of this state diagram are:
+
 <ul>
 <li>
 No alert is to be raised when transitioning from GNSS_GeofenceState_Unknown to GNSS_GeofenceState_Exited state.
@@ -132,4 +138,5 @@ The GNSS adapter will issue GNSS_ResetGeofenceTracking commands and re-add curre
 
 </li>
 </ul>
+
 

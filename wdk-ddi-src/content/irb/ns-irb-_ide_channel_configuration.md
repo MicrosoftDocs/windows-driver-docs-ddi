@@ -7,8 +7,8 @@ old-location: storage\ide_channel_configuration.htm
 old-project: storage
 ms.assetid: 1ca9a198-ac6b-4837-9503-68eb7ca36527
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: irb/PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION, irb/IDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], IDE_CHANNEL_CONFIGURATION structure [Storage Devices], storage.ide_channel_configuration, PIDE_CHANNEL_CONFIGURATION, _IDE_CHANNEL_CONFIGURATION, structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml, *PIDE_CHANNEL_CONFIGURATION
+ms.date: 2/16/2018
+ms.keywords: irb/IDE_CHANNEL_CONFIGURATION, storage.ide_channel_configuration, IDE_CHANNEL_CONFIGURATION structure [Storage Devices], PIDE_CHANNEL_CONFIGURATION structure pointer [Storage Devices], structs-ATA_79456267-9b2d-4f9a-beff-e44915bda026.xml, irb/PIDE_CHANNEL_CONFIGURATION, PIDE_CHANNEL_CONFIGURATION, _IDE_CHANNEL_CONFIGURATION, *PIDE_CHANNEL_CONFIGURATION, IDE_CHANNEL_CONFIGURATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

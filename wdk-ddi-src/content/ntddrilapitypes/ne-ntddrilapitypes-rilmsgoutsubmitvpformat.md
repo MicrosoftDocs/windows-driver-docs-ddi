@@ -7,8 +7,8 @@ old-location: netvista\rilmsgoutsubmitvpformat.htm
 old-project: netvista
 ms.assetid: c0a2646c-aa0a-4946-999f-a78d1c488752
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_MSGVP_ABSOLUTE, netvista.rilmsgoutsubmitvpformat, RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT, ntddrilapitypes/RIL_MSGVP_RELATIVE, ntddrilapitypes/RIL_MSGVP_ENHANCED, RIL_MSGVP_RELATIVE, RIL_MSGVP_MAX, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGVP_ABSOLUTE, ntddrilapitypes/RIL_MSGVP_MAX, RIL_MSGVP_ENHANCED
+ms.date: 2/16/2018
+ms.keywords: RILMSGOUTSUBMITVPFORMAT, RIL_MSGVP_ABSOLUTE, ntddrilapitypes/RIL_MSGVP_ABSOLUTE, RIL_MSGVP_MAX, ntddrilapitypes/RILMSGOUTSUBMITVPFORMAT, RIL_MSGVP_ENHANCED, RILMSGOUTSUBMITVPFORMAT enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RIL_MSGVP_ENHANCED, ntddrilapitypes/RIL_MSGVP_MAX, RIL_MSGVP_RELATIVE, netvista.rilmsgoutsubmitvpformat, ntddrilapitypes/RIL_MSGVP_RELATIVE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

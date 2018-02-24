@@ -7,8 +7,8 @@ old-location: kernel\wmicompleterequest.htm
 old-project: kernel
 ms.assetid: c6377dcc-a83b-4766-b882-25d228a26efe
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: WmiCompleteRequest routine [Kernel-Mode Driver Architecture], wmilib/WmiCompleteRequest, k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, kernel.wmicompleterequest, WmiCompleteRequest
+ms.date: 2/16/2018
+ms.keywords: wmilib/WmiCompleteRequest, WmiCompleteRequest, kernel.wmicompleterequest, k902_08bc200c-67e2-4806-b744-621f31ec6af3.xml, WmiCompleteRequest routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,19 +122,11 @@ A driver must not call <b>WmiCompleteRequest</b> from its <a href="..\wmilib\nc-
 
 ## -see-also
 
-<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
-
-
-
-<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
-
-
-
 <a href="..\wdm\nf-wdm-iocompleterequest.md">IoCompleteRequest</a>
 
 
 
-<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
+<a href="..\wmilib\nc-wmilib-wmi_set_dataitem_callback.md">DpWmiSetDataItem</a>
 
 
 
@@ -142,11 +134,15 @@ A driver must not call <b>WmiCompleteRequest</b> from its <a href="..\wmilib\nc-
 
 
 
+<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+
+
+
 <a href="..\wmilib\nc-wmilib-wmi_set_datablock_callback.md">DpWmiSetDataBlock</a>
 
 
 
-<a href="..\wmilib\nc-wmilib-wmi_function_control_callback.md">DpWmiFunctionControl</a>
+<a href="..\wmilib\nf-wmilib-wmisystemcontrol.md">WmiSystemControl</a>
 
 
 
@@ -154,9 +150,13 @@ A driver must not call <b>WmiCompleteRequest</b> from its <a href="..\wmilib\nc-
 
 
 
- 
+<a href="..\wmilib\nc-wmilib-wmi_query_reginfo_callback.md">DpWmiQueryReginfo</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WmiCompleteRequest routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20WmiCompleteRequest routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

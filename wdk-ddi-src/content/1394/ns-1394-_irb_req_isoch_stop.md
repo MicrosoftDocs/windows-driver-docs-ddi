@@ -7,8 +7,8 @@ old-location: ieee\irb_req_isoch_stop.htm
 old-project: IEEE
 ms.assetid: 1400FAC6-DD4E-4E8E-A0ED-C59B700F0672
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IRB_REQ_ISOCH_STOP structure [Buses], _IRB_REQ_ISOCH_STOP, IEEE.irb_req_isoch_stop, IRB_REQ_ISOCH_STOP, 1394/IRB_REQ_ISOCH_STOP
+ms.date: 2/15/2018
+ms.keywords: IRB_REQ_ISOCH_STOP, IRB_REQ_ISOCH_STOP structure [Buses], IEEE.irb_req_isoch_stop, _IRB_REQ_ISOCH_STOP, 1394/IRB_REQ_ISOCH_STOP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

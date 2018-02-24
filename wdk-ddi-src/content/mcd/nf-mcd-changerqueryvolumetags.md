@@ -7,8 +7,8 @@ old-location: storage\changerqueryvolumetags.htm
 old-project: storage
 ms.assetid: 65579299-829c-48e2-b2f6-dc1a09578e9a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: mcd/ChangerQueryVolumeTags, ChangerQueryVolumeTags, chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, ChangerQueryVolumeTags function [Storage Devices], storage.changerqueryvolumetags
+ms.date: 2/16/2018
+ms.keywords: chgrmini_8d729e15-eade-4300-b640-d5e99f1f5e05.xml, storage.changerqueryvolumetags, ChangerQueryVolumeTags function [Storage Devices], mcd/ChangerQueryVolumeTags, ChangerQueryVolumeTags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -123,19 +123,19 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
 
 
-<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
-
-
-
-<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">, GET_CHANGER_PARAMETERS</a>
-
-
-
 <a href="..\mcd\nf-mcd-changergetelementstatus.md">ChangerGetElementStatus</a>
 
 
 
 <a href="..\ntddchgr\ns-ntddchgr-_changer_element_status.md">CHANGER_ELEMENT_STATUS</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_changer_send_volume_tag_information.md">CHANGER_SEND_VOLUME_TAG_INFORMATION</a>
+
+
+
+<a href="..\ntddchgr\ns-ntddchgr-_get_changer_parameters.md">, GET_CHANGER_PARAMETERS</a>
 
 
 
@@ -147,5 +147,5 @@ After filling in the system buffer, <b>ChangerQueryVolumeTags</b> sets the <b>In
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerQueryVolumeTags function%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ChangerQueryVolumeTags function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

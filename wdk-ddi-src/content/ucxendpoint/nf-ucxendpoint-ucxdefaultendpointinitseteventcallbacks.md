@@ -4,11 +4,11 @@ title: UcxDefaultEndpointInitSetEventCallbacks function
 author: windows-driver-content
 description: Initializes a UCXENDPOINT_INIT structure with client driver's event callback functions related to the default endpoint.
 old-location: buses\_ucxdefaultendpointinitseteventcallbacks.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 5CE3F1B5-9C6D-4061-ADF4-B388C81C0674
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses._ucxdefaultendpointinitseteventcallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], UcxDefaultEndpointInitSetEventCallbacks
+ms.date: 2/15/2018
+ms.keywords: UcxDefaultEndpointInitSetEventCallbacks, UcxDefaultEndpointInitSetEventCallbacks method [Buses], buses._ucxdefaultendpointinitseteventcallbacks
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -111,5 +111,5 @@ The client driver calls this method to set function pointers to its event callba
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxDefaultEndpointInitSetEventCallbacks method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UcxDefaultEndpointInitSetEventCallbacks method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

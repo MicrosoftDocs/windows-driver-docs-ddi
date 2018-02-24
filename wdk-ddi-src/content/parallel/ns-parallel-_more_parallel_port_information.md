@@ -7,8 +7,8 @@ old-location: parports\more_parallel_port_information.htm
 old-project: parports
 ms.assetid: b21bfbce-5436-4865-b291-2e55abc4aad1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: parallel/PMORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION, cisspd_0a671b2f-443c-4373-aeb0-8bf59c1d836b.xml, MORE_PARALLEL_PORT_INFORMATION structure [Parallel Ports], PMORE_PARALLEL_PORT_INFORMATION structure pointer [Parallel Ports], _MORE_PARALLEL_PORT_INFORMATION, parallel/MORE_PARALLEL_PORT_INFORMATION, PMORE_PARALLEL_PORT_INFORMATION, *PMORE_PARALLEL_PORT_INFORMATION, parports.more_parallel_port_information
+ms.date: 2/15/2018
+ms.keywords: MORE_PARALLEL_PORT_INFORMATION, PMORE_PARALLEL_PORT_INFORMATION, parallel/PMORE_PARALLEL_PORT_INFORMATION, *PMORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION structure [Parallel Ports], parports.more_parallel_port_information, cisspd_0a671b2f-443c-4373-aeb0-8bf59c1d836b.xml, parallel/MORE_PARALLEL_PORT_INFORMATION, _MORE_PARALLEL_PORT_INFORMATION, PMORE_PARALLEL_PORT_INFORMATION structure pointer [Parallel Ports]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MORE_PARALLEL_PORT_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: MORE_PARALLEL_PORT_INFORMATION, *PMORE_PARALLEL_PORT_INFORMATION
+req.typenames: "*PMORE_PARALLEL_PORT_INFORMATION, MORE_PARALLEL_PORT_INFORMATION"
 ---
 
 # _MORE_PARALLEL_PORT_INFORMATION structure
@@ -119,7 +119,7 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
+<a href="..\parallel\ns-parallel-_parallel_port_information.md">PARALLEL_PORT_INFORMATION</a>
 
 
 
@@ -135,7 +135,7 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
 
 
-<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_pnp_info.md">IOCTL_INTERNAL_GET_PARALLEL_PNP_INFO</a>
+<a href="..\parallel\ni-parallel-ioctl_internal_get_parallel_port_info.md">IOCTL_INTERNAL_GET_PARALLEL_PORT_INFO</a>
 
 
 
@@ -143,5 +143,5 @@ For more information, see <a href="https://msdn.microsoft.com/d8ae2296-05b6-419a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20MORE_PARALLEL_PORT_INFORMATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20MORE_PARALLEL_PORT_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\freeprintpropertyvalue.htm
 old-project: print
 ms.assetid: 38B760D9-CB6E-45AD-A83F-3C26D1B31A30
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: FreePrintPropertyValue function [Print Devices], winspool/FreePrintPropertyValue, print.freeprintpropertyvalue, FreePrintPropertyValue
+ms.date: 2/21/2018
+ms.keywords: print.freeprintpropertyvalue, FreePrintPropertyValue function [Print Devices], winspool/FreePrintPropertyValue, FreePrintPropertyValue
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

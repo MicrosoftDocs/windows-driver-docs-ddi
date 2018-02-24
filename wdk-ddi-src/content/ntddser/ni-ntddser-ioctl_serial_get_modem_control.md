@@ -7,7 +7,7 @@ old-location: serports\ioctl_serial_get_modem_control.htm
 old-project: serports
 ms.assetid: 4b3f52ee-8028-4cba-a8c7-4ba73b1fcab0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: serports.ioctl_serial_get_modem_control, IOCTL_SERIAL_GET_MODEM_CONTROL control code [Serial Ports], IOCTL_SERIAL_GET_MODEM_CONTROL, ntddser/IOCTL_SERIAL_GET_MODEM_CONTROL, serref_063be160-c01f-40c9-aff9-2de802c70bda.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -130,5 +130,5 @@ For an example layout of a modem control register, see the definition of the MCR
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_MODEM_CONTROL control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20IOCTL_SERIAL_GET_MODEM_CONTROL control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

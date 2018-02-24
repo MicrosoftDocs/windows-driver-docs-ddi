@@ -7,7 +7,7 @@ old-location: battery\ioctl_cad_power_source_update_ex.htm
 old-project: battery
 ms.assetid: 8D582EF9-B9D1-498B-AE20-337F3A33250C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: battery.ioctl_cad_power_source_update_ex, IOCTL_CAD_POWER_SOURCE_UPDATE_EX control code [Battery Devices], IOCTL_CAD_POWER_SOURCE_UPDATE_EX, charging/IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_CAD_POWER_SOURCE_UPDATE_EX
 product: Windows
 targetos: Windows
-req.typenames: POWERSOURCEID, *PPOWERSOURCEID
+req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
 ---
 
 # IOCTL_CAD_POWER_SOURCE_UPDATE_EX IOCTL

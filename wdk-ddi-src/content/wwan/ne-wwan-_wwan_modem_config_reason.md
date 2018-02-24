@@ -7,8 +7,8 @@ old-location: netvista\wwan_modem_config_reason.htm
 old-project: netvista
 ms.assetid: 2CF2C69B-A5DF-4A78-BC15-EB80FAC51831
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wwan/WwanModemConfigReasonModemRecovery, WWAN_MODEM_CONFIG_REASON enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigReasonModemReset, PWWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonNOSIM, wwan/WwanModemConfigReasonSIMRemoved, *PWWAN_MODEM_CONFIG_REASON, WwanModemConfigReasonIMSIReset, wwan/WwanModemConfigReasonModemReset, wwan/PWWAN_MODEM_CONFIG_REASON, _WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonConfigFileUpdate, netvista.wwan_modem_config_reason, WwanModemConfigReasonNOSIM, wwan/WwanModemConfigReasonNone, wwan/WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonActivationFailure, WwanModemConfigReasonActivationFailure, WwanModemConfigReasonSIMRemoved, PWWAN_MODEM_CONFIG_REASON enumeration pointer [Network Drivers Starting with Windows Vista], WWAN_MODEM_CONFIG_REASON, WwanModemConfigReasonModemRecovery, WwanModemConfigReasonMax, wwan/WwanModemConfigReasonIMSIReset, wwan/WwanModemConfigReasonMax, WwanModemConfigReasonConfigFileUpdate, WwanModemConfigReasonSIMDetected, WwanModemConfigReasonNone, wwan/WwanModemConfigReasonSIMDetected
+ms.date: 2/16/2018
+ms.keywords: "_WWAN_MODEM_CONFIG_REASON, WwanModemConfigReasonSIMRemoved, WWAN_MODEM_CONFIG_REASON, WWAN_MODEM_CONFIG_REASON enumeration [Network Drivers Starting with Windows Vista], WwanModemConfigReasonConfigFileUpdate, wwan/WwanModemConfigReasonSIMDetected, wwan/PWWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonActivationFailure, WwanModemConfigReasonModemRecovery, wwan/WwanModemConfigReasonNone, wwan/WwanModemConfigReasonSIMRemoved, WwanModemConfigReasonNOSIM, PWWAN_MODEM_CONFIG_REASON enumeration pointer [Network Drivers Starting with Windows Vista], wwan/WwanModemConfigReasonNOSIM, WwanModemConfigReasonSIMDetected, WwanModemConfigReasonActivationFailure, wwan/WwanModemConfigReasonModemRecovery, wwan/WWAN_MODEM_CONFIG_REASON, wwan/WwanModemConfigReasonConfigFileUpdate, wwan/WwanModemConfigReasonMax, netvista.wwan_modem_config_reason, wwan/WwanModemConfigReasonIMSIReset, PWWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON, WwanModemConfigReasonIMSIReset, WwanModemConfigReasonNone, WwanModemConfigReasonMax, WwanModemConfigReasonModemReset, wwan/WwanModemConfigReasonModemReset"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_MODEM_CONFIG_REASON
 product: Windows
 targetos: Windows
-req.typenames: WWAN_MODEM_CONFIG_REASON, *PWWAN_MODEM_CONFIG_REASON
+req.typenames: "*PWWAN_MODEM_CONFIG_REASON, WWAN_MODEM_CONFIG_REASON"
 req.product: Windows 10 or later.
 ---
 
@@ -138,5 +138,5 @@ The maximum value for this enumeration. This value might change in future versio
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_MODEM_CONFIG_REASON enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_MODEM_CONFIG_REASON enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

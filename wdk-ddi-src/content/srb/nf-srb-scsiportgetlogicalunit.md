@@ -7,8 +7,8 @@ old-location: storage\scsiportgetlogicalunit.htm
 old-project: storage
 ms.assetid: 10088043-fc0b-4df9-a5bf-fdee9740b88a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: srb/ScsiPortGetLogicalUnit, ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit, scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml, ScsiPortGetLogicalUnit routine [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: ScsiPortGetLogicalUnit routine [Storage Devices], srb/ScsiPortGetLogicalUnit, storage.scsiportgetlogicalunit, ScsiPortGetLogicalUnit, scsiprt_2b4c797a-4fbb-4c0c-913a-628bfb6dab3d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortGetLogicalUnit
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -120,11 +120,7 @@ The operating system-specific port driver can consider a logical unit to be none
 
 
 
-<a href="..\srb\nf-srb-scsiportmovememory.md">ScsiPortMoveMemory</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+<a href="..\storport\ns-storport-_hw_initialization_data.md">HW_INITIALIZATION_DATA (SCSI)</a>
 
 
 
@@ -132,9 +128,13 @@ The operating system-specific port driver can consider a logical unit to be none
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552654">DriverEntry of SCSI Miniport Driver</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetLogicalUnit routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortGetLogicalUnit routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

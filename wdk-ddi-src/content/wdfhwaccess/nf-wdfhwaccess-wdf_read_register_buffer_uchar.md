@@ -7,7 +7,7 @@ old-location: wdf\wdf_read_register_buffer_uchar.htm
 old-project: wdf
 ms.assetid: D4A7F80C-C223-4F92-AD08-C37F0668B292
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.wdf_read_register_buffer_uchar, WDF_READ_REGISTER_BUFFER_UCHAR function, wdfhwaccess/WDF_READ_REGISTER_BUFFER_UCHAR, WDF_READ_REGISTER_BUFFER_UCHAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	WDF_READ_REGISTER_BUFFER_UCHAR
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_FILE_INFORMATION_CLASS, WDF_FILE_INFORMATION_CLASS"
+req.typenames: WDF_FILE_INFORMATION_CLASS, *PWDF_FILE_INFORMATION_CLASS
 req.product: Windows 10 or later.
 ---
 

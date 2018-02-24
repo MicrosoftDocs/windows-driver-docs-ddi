@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_calc_private_pipeline_state_size_0033_.htm
 old-project: display
 ms.assetid: C119B295-CBCF-46B3-BC8D-3C8AC058F6D8
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_calc_private_pipeline_state_size_0033_, PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 entry point [Display Devices], PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033, d3d12umddi/PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -78,6 +78,11 @@ SIZE_T APIENTRY* PFND3D12DDI_CALC_PRIVATE_PIPELINE_STATE_SIZE_0033 (
 
 
 
+
+
+#### - hDevice
+
+The device being processed.
 
 
 #### - d3d12ddiarg_create_pipeline_state_0033 [in]

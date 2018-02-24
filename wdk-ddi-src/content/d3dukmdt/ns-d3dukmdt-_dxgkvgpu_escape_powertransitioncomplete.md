@@ -7,8 +7,8 @@ old-location: display\dxgkvgpu_escape_powertransitioncomplete.htm
 old-project: display
 ms.assetid: 39800C47-95EB-4867-8FEE-E94EA3F6F68C
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE"
+ms.date: 2/20/2018
+ms.keywords: "_DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, display.dxgkvgpu_escape_powertransitioncomplete, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, d3dukmdt/DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE, DXGKVGPU_ESCAPE_POWERTRANSITIONCOMPLETE structure [Display Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,8 +7,8 @@ old-location: netvista\riloperatorinfo.htm
 old-project: netvista
 ms.assetid: 213a4d4e-d19a-40c4-9bc4-8cf6f8aa2d07
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.riloperatorinfo, RILOPERATORINFO, RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], *LPRILOPERATORINFO, ntddrilapitypes/RILOPERATORINFO
+ms.date: 2/16/2018
+ms.keywords: RILOPERATORINFO structure [Network Drivers Starting with Windows Vista], netvista.riloperatorinfo, RILOPERATORINFO, *LPRILOPERATORINFO, ntddrilapitypes/RILOPERATORINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILOPERATORINFO
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILOPERATORINFO, RILOPERATORINFO"
+req.typenames: RILOPERATORINFO, *LPRILOPERATORINFO
 ---
 
 # RILOPERATORINFO structure

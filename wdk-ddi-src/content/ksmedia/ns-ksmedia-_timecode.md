@@ -7,8 +7,8 @@ old-location: stream\timecode.htm
 old-project: stream
 ms.assetid: 3387e014-3a62-4d76-ac6d-6446e4fa39d0
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: "*PTIMECODE, _timecode, TIMECODE union [Streaming Media Devices], ksmedia/PTIMECODE, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, PTIMECODE, stream.timecode, PTIMECODE union pointer [Streaming Media Devices], ksmedia/TIMECODE, TIMECODE"
+ms.date: 2/20/2018
+ms.keywords: PTIMECODE union pointer [Streaming Media Devices], PTIMECODE, ksmedia/TIMECODE, *PTIMECODE, stream.timecode, ksmedia/PTIMECODE, vidcapstruct_80e1d01b-8140-49e8-83bd-210fb38ea0bc.xml, _timecode, TIMECODE, TIMECODE union [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -72,24 +72,24 @@ typedef union _timecode {
 
 
 
-### -field wFrameRate
+### -field qw
+
+Specifies the timecode as a quad-word.
+
+
+#### - wFrameRate
 
 Specifies the frame rate.
 
 
-### -field wFrameFract
+#### - wFrameFract
 
 Specifies the fractional frame. The full-scale frame is 0x1000.
 
 
-### -field dwFrames
+#### - dwFrames
 
 Specifies a timecode value as a binary frame count.
-
-
-### -field qw
-
-Specifies the timecode as a quad-word.
 
 
 ## -remarks
@@ -111,5 +111,5 @@ This structure is defined for the purpose of searching to a timecode based on an
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20TIMECODE union%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20TIMECODE union%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

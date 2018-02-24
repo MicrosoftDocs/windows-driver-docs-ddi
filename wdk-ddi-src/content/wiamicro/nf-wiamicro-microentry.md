@@ -4,11 +4,11 @@ title: MicroEntry function
 author: windows-driver-content
 description: The MicroEntry function responds to commands sent by the WIA Flatbed driver.
 old-location: image\microentry.htm
-old-project: image
+old-project: Image
 ms.assetid: 3e0c51af-ceb9-4c06-ab6a-ccc468997fdd
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiamicro/MicroEntry, image.microentry, MicroEntry, MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, MicroEntry function [Imaging Devices]
+ms.date: 2/15/2018
+ms.keywords: MicroEntry, image.microentry, MicroEntry function [Imaging Devices], MicroDrv_04aa15b3-5e4d-453d-b41a-a4de3c1228f7.xml, wiamicro/MicroEntry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	MicroEntry
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -101,15 +101,15 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff552714">WIA Microdriver Commands</a>
-
-
-
 <a href="..\wiamicro\ns-wiamicro-_scaninfo.md">SCANINFO</a>
+
+
+
+<a href="..\wiamicro\ns-wiamicro-val.md">VAL</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff552722">WIA Microdriver Structures</a>
 
 
 
@@ -121,5 +121,5 @@ Two structures are passed to the function. A <a href="..\wiamicro\ns-wiamicro-va
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20MicroEntry function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20MicroEntry function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

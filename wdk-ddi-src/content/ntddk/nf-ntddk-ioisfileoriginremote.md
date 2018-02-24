@@ -7,8 +7,8 @@ old-location: ifsk\ioisfileoriginremote.htm
 old-project: ifsk
 ms.assetid: 46655cbe-0483-4897-bd12-ce108af326c6
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, IoIsFileOriginRemote, IoIsFileOriginRemote routine [Installable File System Drivers], ntddk/IoIsFileOriginRemote, ifsk.ioisfileoriginremote
+ms.date: 2/16/2018
+ms.keywords: ioref_04dab537-9cd7-44be-9592-0682c0bfbd7e.xml, ifsk.ioisfileoriginremote, IoIsFileOriginRemote routine [Installable File System Drivers], IoIsFileOriginRemote, ntddk/IoIsFileOriginRemote
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -104,5 +104,5 @@ File system filter drivers call <b>IoIsFileOriginRemote</b> for a file object to
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoIsFileOriginRemote routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20IoIsFileOriginRemote routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

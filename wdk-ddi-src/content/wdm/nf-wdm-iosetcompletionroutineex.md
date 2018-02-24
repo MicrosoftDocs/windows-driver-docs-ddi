@@ -7,8 +7,8 @@ old-location: kernel\iosetcompletionroutineex.htm
 old-project: kernel
 ms.assetid: fe84e542-c8b2-4631-9ffb-dde471311871
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.iosetcompletionroutineex, wdm/IoSetCompletionRoutineEx, IoSetCompletionRoutineEx, k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: IoSetCompletionRoutineEx, k104_b574c1f0-f1e7-4c34-93ee-4681ec9e1046.xml, wdm/IoSetCompletionRoutineEx, kernel.iosetcompletionroutineex, IoSetCompletionRoutineEx routine [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ Pointer to a driver-determined context to pass to the <i>IoCompletion</i> routin
 
 ### -param InvokeOnSuccess [in]
 
-Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure, based on results of the NT_SUCCESS macro (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>).
+Specifies whether the completion routine is called if the IRP is completed with a success status value in the IRP's <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure, based on results of the NT_SUCCESS macro (see <a href="https://msdn.microsoft.com/library/windows/hardware/ff565436">Using NTSTATUS values</a>).
 
 
 ### -param InvokeOnError [in]
@@ -147,11 +147,11 @@ The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="..\w
 
 
 
-<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
+<a href="..\wdm\nf-wdm-iofreeirp.md">IoFreeIrp</a>
 
 
 
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="..\wdm\nf-wdm-iosetcompletionroutine.md">IoSetCompletionRoutine</a>
 
 
 
@@ -159,11 +159,11 @@ The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="..\w
 
 
 
-<a href="..\wdm\nc-wdm-io_completion_routine.md">IoCompletion</a>
+<a href="..\wdm\nf-wdm-iobuildpartialmdl.md">IoBuildPartialMdl</a>
 
 
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
@@ -179,5 +179,5 @@ The behavior of <b>IoSetCompletionRoutineEx</b> is the same as the <a href="..\w
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoSetCompletionRoutineEx routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoSetCompletionRoutineEx routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: netvista\open_ndk_adapter_handler.htm
 old-project: netvista
 ms.assetid: 85888B9A-669C-478F-9318-EE9821BC3AF3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/16/2018
 ms.keywords: netvista.open_ndk_adapter_handler, OpenNdkAdapterHandler callback function [Network Drivers Starting with Windows Vista], OpenNdkAdapterHandler, OPEN_NDK_ADAPTER_HANDLER, OPEN_NDK_ADAPTER_HANDLER, ndisndk/OpenNdkAdapterHandler
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -181,19 +181,7 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 ## -see-also
 
-<a href="..\ndisndk\ns-ndisndk-_ndis_open_ndk_adapter_parameters.md">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
-
-
-
-<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
-
-
-
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
-
-
-
-<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
 
 
 
@@ -201,7 +189,19 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
 
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_adapter.md">NDK_ADAPTER</a>
+<a href="..\ndis\nc-ndis-miniport_initialize.md">MiniportInitializeEx</a>
+
+
+
+<a href="..\ndkpi\ns-ndkpi-_ndk_adapter_dispatch.md">NDK_ADAPTER_DISPATCH</a>
+
+
+
+<a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_handler.md">CLOSE_NDK_ADAPTER_HANDLER</a>
+
+
+
+<a href="..\ndisndk\ns-ndisndk-_ndis_open_ndk_adapter_parameters.md">NDIS_OPEN_NDK_ADAPTER_PARAMETERS</a>
 
 
 
@@ -209,5 +209,5 @@ The miniport driver calls the <a href="..\ndisndk\nc-ndisndk-close_ndk_adapter_h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OPEN_NDK_ADAPTER_HANDLER callback function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OPEN_NDK_ADAPTER_HANDLER callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

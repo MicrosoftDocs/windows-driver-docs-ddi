@@ -7,8 +7,8 @@ old-location: storage\set_partition_information.htm
 old-project: storage
 ms.assetid: 882aedda-5ed5-43e0-a370-59a7c7e4c802
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.set_partition_information, SET_PARTITION_INFORMATION structure [Storage Devices], _SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION_MBR, ntdddisk/SET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION structure pointer [Storage Devices], structs-disk_b8b3121b-0001-4c1d-ac4d-1eeb1ce79dd3.xml, ntdddisk/PSET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: SET_PARTITION_INFORMATION, PSET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION, _SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION structure [Storage Devices], storage.set_partition_information, structs-disk_b8b3121b-0001-4c1d-ac4d-1eeb1ce79dd3.xml, PSET_PARTITION_INFORMATION structure pointer [Storage Devices], ntdddisk/SET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION_MBR, ntdddisk/PSET_PARTITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SET_PARTITION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PSET_PARTITION_INFORMATION, SET_PARTITION_INFORMATION"
+req.typenames: SET_PARTITION_INFORMATION, *PSET_PARTITION_INFORMATION
 ---
 
 # _SET_PARTITION_INFORMATION structure
@@ -83,11 +83,15 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566196">SET_PARTITION_INFORMATION_GPT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff566198">SET_PARTITION_INFORMATION_MBR</a>
+
+
+
 <a href="..\ntdddisk\ni-ntdddisk-ioctl_disk_set_partition_info.md">IOCTL_DISK_SET_PARTITION_INFO</a>
-
-
-
-<a href="..\ntdddisk\ns-ntdddisk-_partition_information_gpt.md">SET_PARTITION_INFORMATION_GPT</a>
 
 
 
@@ -99,13 +103,9 @@ The single byte unsigned value, <i>PartitionType</i>, contained in this structur
 
 
 
-<a href="..\ntdddisk\ns-ntdddisk-_set_partition_information.md">SET_PARTITION_INFORMATION_MBR</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SET_PARTITION_INFORMATION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SET_PARTITION_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilwritemsgparams_2.htm
 old-project: netvista
 ms.assetid: 7221efdc-1751-4539-9dc1-5ba3cd40c5ce
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilwritemsgparams_2, RILWRITEMSGPARAMS, *LPRILWRITEMSGPARAMS, rilapitypes/RILWRITEMSGPARAMS
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILWRITEMSGPARAMS, netvista.rilwritemsgparams_2, RILWRITEMSGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILWRITEMSGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEMSGPARAMS, RILWRITEMSGPARAMS"
+req.typenames: RILWRITEMSGPARAMS, *LPRILWRITEMSGPARAMS
 req.product: Windows 10 or later.
 ---
 

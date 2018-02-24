@@ -7,7 +7,7 @@ old-location: wdf\evtdmaenablerflush.htm
 old-project: wdf
 ms.assetid: bb606889-7d05-49a0-b0b7-e1f6d6c315d8
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.evtdmaenablerflush, EvtDmaEnablerFlush callback function, EvtDmaEnablerFlush, EVT_WDF_DMA_ENABLER_FLUSH, EVT_WDF_DMA_ENABLER_FLUSH, wdfdmaenabler/EvtDmaEnablerFlush, DFDmaObjectRef_0a019ec3-228e-47d0-ab8c-9c07e200e229.xml, kmdf.evtdmaenablerflush
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -144,7 +144,7 @@ The <b>EVT_WDF_DMA_ENABLER_FLUSH</b> function type is defined in the WdfDmaEnabl
 
 
 
-<a href="..\wdfdmaenabler\nf-wdfdmaenabler-wdfdmaenablercreate.md">WdfDmaEnablerCreate</a>
+<a href="..\wdfdmaenabler\nc-wdfdmaenabler-evt_wdf_dma_enabler_fill.md">EvtDmaEnablerFill</a>
 
 
 
@@ -152,5 +152,5 @@ The <b>EVT_WDF_DMA_ENABLER_FLUSH</b> function type is defined in the WdfDmaEnabl
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_DMA_ENABLER_FLUSH callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20EVT_WDF_DMA_ENABLER_FLUSH callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndk_connector_dispatch.htm
 old-project: netvista
 ms.assetid: BBC24A32-4CB6-47AB-BD1D-298159EC9919
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDK_CONNECTOR_DISPATCH, ndkpi/PNDK_CONNECTOR_DISPATCH, netvista.ndk_connector_dispatch, NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR_DISPATCH, ndkpi/NDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], _NDK_CONNECTOR_DISPATCH
+ms.date: 2/16/2018
+ms.keywords: ndkpi/PNDK_CONNECTOR_DISPATCH, _NDK_CONNECTOR_DISPATCH, PNDK_CONNECTOR_DISPATCH, NDK_CONNECTOR_DISPATCH structure [Network Drivers Starting with Windows Vista], PNDK_CONNECTOR_DISPATCH structure pointer [Network Drivers Starting with Windows Vista], NDK_CONNECTOR_DISPATCH, ndkpi/NDK_CONNECTOR_DISPATCH, netvista.ndk_connector_dispatch
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -143,22 +143,6 @@ The <b>NDK_CONNECTOR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-
 
 ## -see-also
 
-<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_connection_data.md">NDK_FN_GET_CONNECTION_DATA</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_with_shared_endpoint.md">NDK_FN_CONNECT_WITH_SHARED_ENDPOINT</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a>
-
-
-
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_disconnect.md">NDK_FN_DISCONNECT</a>
 
 
@@ -167,15 +151,7 @@ The <b>NDK_CONNECTOR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-
 
 
 
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_reject.md">NDK_FN_REJECT</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
-
-
-
-<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_peer_address.md">NDK_FN_GET_PEER_ADDRESS</a>
+<a href="..\ndkpi\ns-ndkpi-_ndk_connector.md">NDK_CONNECTOR</a>
 
 
 
@@ -187,13 +163,37 @@ The <b>NDK_CONNECTOR_DISPATCH</b> structure is used in the <a href="..\ndkpi\ns-
 
 
 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_get_peer_address.md">NDK_FN_GET_PEER_ADDRESS</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_complete_connect.md">NDK_FN_COMPLETE_CONNECT</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect_with_shared_endpoint.md">NDK_FN_CONNECT_WITH_SHARED_ENDPOINT</a>
+
+
+
 <a href="..\ndkpi\nc-ndkpi-ndk_fn_get_local_address.md">NDK_FN_GET_LOCAL_ADDRESS</a>
 
 
 
- 
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_connect.md">NDK_FN_CONNECT</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_accept.md">NDK_FN_ACCEPT</a>
+
+
+
+<a href="..\ndkpi\nc-ndkpi-ndk_fn_reject.md">NDK_FN_REJECT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_CONNECTOR_DISPATCH structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDK_CONNECTOR_DISPATCH structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

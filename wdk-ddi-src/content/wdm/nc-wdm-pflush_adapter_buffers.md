@@ -7,7 +7,7 @@ old-location: kernel\flushadapterbuffers.htm
 old-project: kernel
 ms.assetid: cd6cf9af-c600-465c-b8f3-ca0f972780a5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.flushadapterbuffers, FlushAdapterBuffers, FlushAdapterBuffers callback function [Kernel-Mode Driver Architecture], FlushAdapterBuffers, PFLUSH_ADAPTER_BUFFERS, PFLUSH_ADAPTER_BUFFERS, wdm/FlushAdapterBuffers, kdma_97ac2c04-7f7e-495d-b846-d4f0ea27bdac.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -133,7 +133,13 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
+<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+
+
+
+<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
+
+
 
 
 
@@ -145,11 +151,11 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
-<a href="..\wdm\nf-wdm-iogetdmaadapter.md">IoGetDmaAdapter</a>
-
-
-
 <a href="..\wdm\ns-wdm-_dma_adapter.md">DMA_ADAPTER</a>
+
+
+
+
 
 
 
@@ -157,7 +163,7 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
 
 
-<a href="..\wdm\nc-wdm-pallocate_adapter_channel.md">AllocateAdapterChannel</a>
+<a href="..\wdm\nf-wdm-keflushiobuffers.md">KeFlushIoBuffers</a>
 
 
 
@@ -165,5 +171,5 @@ A driver can get the initial <i>CurrentVa</i> for the start of a packet-based DM
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PFLUSH_ADAPTER_BUFFERS callback function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PFLUSH_ADAPTER_BUFFERS callback function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilphonebooklocationcaps_2.htm
 old-project: netvista
 ms.assetid: 6fe1077d-3b12-4cb6-b2ed-675b19b034c4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilphonebooklocationcaps_2, rilapitypes/RILPHONEBOOKLOCATIONCAPS, rilapitypes/RIL_CAPS_PBLOC_UICCFIXDIALING, rilapitypes/RIL_CAPS_PBLOC_UICCSERVICEDIALING, RIL_CAPS_PBLOC_ALL, RIL_CAPS_PBLOC_UICCFIXDIALING, RIL_CAPS_PBLOC_UICCPHONEBOOK, rilapitypes/RIL_CAPS_PBLOC_OWNNUMBERS, rilapitypes/RIL_CAPS_PBLOC_UICCPHONEBOOK, rilapitypes/RIL_CAPS_PBLOC_ALL, RILPHONEBOOKLOCATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_PBLOC_UICCSERVICEDIALING, RIL_CAPS_PBLOC_OWNNUMBERS, RILPHONEBOOKLOCATIONCAPS
+ms.date: 2/16/2018
+ms.keywords: RIL_CAPS_PBLOC_OWNNUMBERS, netvista.rilphonebooklocationcaps_2, RIL_CAPS_PBLOC_UICCPHONEBOOK, RIL_CAPS_PBLOC_UICCFIXDIALING, rilapitypes/RIL_CAPS_PBLOC_UICCPHONEBOOK, rilapitypes/RIL_CAPS_PBLOC_UICCFIXDIALING, RILPHONEBOOKLOCATIONCAPS enumeration [Network Drivers Starting with Windows Vista], RIL_CAPS_PBLOC_UICCSERVICEDIALING, rilapitypes/RIL_CAPS_PBLOC_UICCSERVICEDIALING, RILPHONEBOOKLOCATIONCAPS, rilapitypes/RIL_CAPS_PBLOC_OWNNUMBERS, RIL_CAPS_PBLOC_ALL, rilapitypes/RILPHONEBOOKLOCATIONCAPS, rilapitypes/RIL_CAPS_PBLOC_ALL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

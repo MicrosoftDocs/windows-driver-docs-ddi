@@ -7,8 +7,8 @@ old-location: wdf\wdfdevicegetdevicestate.htm
 old-project: wdf
 ms.assetid: 510197cf-8eab-4e1a-8b51-c1c08c58532b
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdfdevicegetdevicestate, WdfDeviceGetDeviceState method, WdfDeviceGetDeviceState, wdf.wdfdevicegetdevicestate, wdfdevice/WdfDeviceGetDeviceState, DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, PFN_WDFDEVICEGETDEVICESTATE
+ms.date: 2/20/2018
+ms.keywords: DFDeviceObjectGeneralRef_459b9aad-7503-4319-be67-4b713a32559e.xml, wdfdevice/WdfDeviceGetDeviceState, kmdf.wdfdevicegetdevicestate, wdf.wdfdevicegetdevicestate, WdfDeviceGetDeviceState method, WdfDeviceGetDeviceState
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -105,5 +105,5 @@ A bug check occurs if the driver supplies an invalid object handle.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceGetDeviceState method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDeviceGetDeviceState method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

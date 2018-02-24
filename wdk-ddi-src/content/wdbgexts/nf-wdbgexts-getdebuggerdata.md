@@ -4,11 +4,11 @@ title: GetDebuggerData macro
 author: windows-driver-content
 description: The GetDebuggerData function retrieves information stored in a data block.
 old-location: debugger\getdebuggerdata.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: a07afa2e-1f7d-4685-9ede-8b7805dd6583
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetDebuggerData, wdbgexts/GetDebuggerData, debugger.getdebuggerdata, WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, GetDebuggerData function [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: debugger.getdebuggerdata, WdbgExts_Ref_a9b54b49-d8ac-4bee-a837-3986a250403a.xml, wdbgexts/GetDebuggerData, GetDebuggerData, GetDebuggerData function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

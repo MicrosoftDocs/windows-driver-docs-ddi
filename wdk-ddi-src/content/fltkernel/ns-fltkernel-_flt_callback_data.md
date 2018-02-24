@@ -7,8 +7,8 @@ old-location: ifsk\flt_callback_data.htm
 old-project: ifsk
 ms.assetid: c526585e-aa6d-4332-9dd7-927d83293f09
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.flt_callback_data, fltkernel/PFLT_CALLBACK_DATA, FltSystemStructures_36133023-b06f-46c9-87fc-04543cade79a.xml, PFLT_CALLBACK_DATA structure pointer [Installable File System Drivers], PFLT_CALLBACK_DATA, fltkernel/FLT_CALLBACK_DATA, _FLT_CALLBACK_DATA, FLT_CALLBACK_DATA structure [Installable File System Drivers], *PFLT_CALLBACK_DATA, FLT_CALLBACK_DATA
+ms.date: 2/16/2018
+ms.keywords: FLT_CALLBACK_DATA, _FLT_CALLBACK_DATA, PFLT_CALLBACK_DATA, ifsk.flt_callback_data, FltSystemStructures_36133023-b06f-46c9-87fc-04543cade79a.xml, *PFLT_CALLBACK_DATA, fltkernel/PFLT_CALLBACK_DATA, fltkernel/FLT_CALLBACK_DATA, PFLT_CALLBACK_DATA structure pointer [Installable File System Drivers], FLT_CALLBACK_DATA structure [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -244,7 +244,7 @@ Pointer to an <a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT
 
 ### -field IoStatus
 
-An <a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains status and information for the I/O operation. A minifilter can modify the contents of this structure only in a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_PREOP_COMPLETE or in a postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_POSTOP_FINISHED_PROCESSING. Otherwise, the contents of this structure are normally set by the Filter Manager. 
+An <a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a> structure that contains status and information for the I/O operation. A minifilter can modify the contents of this structure only in a preoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_PREOP_COMPLETE or in a postoperation callback (<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>) routine from which it is about to return FLT_POSTOP_FINISHED_PROCESSING. Otherwise, the contents of this structure are normally set by the Filter Manager. 
 
 
 ### -field TagData
@@ -267,14 +267,14 @@ Queue links that a minifilter can use when the Filter Manager's callback data qu
 Array of context information pointers that a minifilter can use when the Filter Manager's queue is used to pend the I/O operation. 
 
 
-### -field FilterContext
-
-Array of context information pointers that a minifilter can use when a queue other than the Filter Manager's queue is used to pend the I/O operation. 
-
-
 ### -field RequestorMode
 
 Indicates the execution mode of the process that initiated the I/O operation, either <b>KernelMode</b> or <b>UserMode</b>. 
+
+
+#### - FilterContext
+
+Array of context information pointers that a minifilter can use when a queue other than the Filter Manager's queue is used to pend the I/O operation. 
 
 
 ## -remarks
@@ -296,19 +296,19 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 ## -see-also
 
+<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
+
+
+
 <a href="..\fltkernel\nf-fltkernel-fltfreecallbackdata.md">FltFreeCallbackData</a>
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
-
-
-
-<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544660">FLT_IS_REISSUED_IO</a>
 
 
 
@@ -320,15 +320,7 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
-
-
-
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
@@ -336,35 +328,7 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544660">FLT_IS_REISSUED_IO</a>
-
-
-
-<a href="..\fltkernel\ns-fltkernel-_flt_io_parameter_block.md">FLT_IO_PARAMETER_BLOCK</a>
-
-
-
-<a href="..\wdm\ns-wdm-_io_status_block.md">IO_STATUS_BLOCK</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff544663">FLT_IS_SYSTEM_BUFFER</a>
-
-
-
-<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544648">FLT_IS_FS_FILTER_OPERATION</a>
 
 
 
@@ -372,7 +336,11 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 
 
-<a href="..\fltkernel\ns-fltkernel-_flt_tag_data_buffer.md">FLT_TAG_DATA_BUFFER</a>
+<a href="..\fltkernel\nf-fltkernel-fltperformasynchronousio.md">FltPerformAsynchronousIo</a>
+
+
+
+<a href="..\fltkernel\ns-fltkernel-_flt_registration.md">FLT_REGISTRATION</a>
 
 
 
@@ -380,7 +348,39 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544645">FLT_IS_FASTIO_OPERATION</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltreusecallbackdata.md">FltReuseCallbackData</a>
+
+
+
+<a href="..\wudfwdm\ns-wudfwdm-_io_status_block.md">IO_STATUS_BLOCK</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltallocatecallbackdata.md">FltAllocateCallbackData</a>
+
+
+
+<a href="..\wdm\ns-wdm-_irp.md">IRP</a>
+
+
+
+<a href="..\fltkernel\nf-fltkernel-fltperformsynchronousio.md">FltPerformSynchronousIo</a>
+
+
+
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544663">FLT_IS_SYSTEM_BUFFER</a>
 
 
 
@@ -388,5 +388,5 @@ Minifilters can only initiate IRP-based I/O operations. They cannot initiate fas
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_CALLBACK_DATA structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FLT_CALLBACK_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

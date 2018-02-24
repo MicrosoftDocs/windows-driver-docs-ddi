@@ -7,7 +7,7 @@ old-location: display\evt_idd_cx_monitor_opm_get_infomation.htm
 old-project: display
 ms.assetid: b616a105-3c4b-42b7-8352-a1f35479572e
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.evt_idd_cx_monitor_opm_get_infomation, EvtIddCxMonitorOpmGetInfomation callback function [Display Devices], EvtIddCxMonitorOpmGetInfomation, EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, EVT_IDD_CX_MONITOR_OPM_GET_INFOMATION, iddcx/EvtIddCxMonitorOpmGetInfomation, PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION callback function pointer [Display Devices], PFN_IDD_CX_MONITOR_OPM_GET_INFOMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: kernel\mmgetmdlbytecount.htm
 old-project: Benchmark
 ms.assetid: a0493418-2ce2-4917-bf9f-e4dc726a3847
 ms.author: windowsdriverdev
-ms.date: 1/12/2018
-ms.keywords: kernel.mmgetmdlbytecount, MmGetMdlByteCount, wdm/MmGetMdlByteCount, k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, MmGetMdlByteCount macro [Tools]
+ms.date: 2/15/2018
+ms.keywords: kernel.mmgetmdlbytecount, MmGetMdlByteCount macro [Tools], k106_f750d750-c5ca-44cf-b8f1-f52d2eb8bc27.xml, MmGetMdlByteCount, wdm/MmGetMdlByteCount
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

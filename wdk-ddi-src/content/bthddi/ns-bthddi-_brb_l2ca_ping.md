@@ -7,8 +7,8 @@ old-location: bltooth\_brb_l2ca_ping.htm
 old-project: bltooth
 ms.assetid: 699d2ea6-3bf3-457c-b05e-c45ec4c71fb6
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, bthddi/_BRB_L2CA_PING, _BRB_L2CA_PING, bltooth._brb_l2ca_ping, _BRB_L2CA_PING structure [Bluetooth Devices]
+ms.date: 2/15/2018
+ms.keywords: "_BRB_L2CA_PING structure [Bluetooth Devices], bthddi/_BRB_L2CA_PING, bth_structs_40384235-0f47-4870-a6be-72e807ee439d.xml, _BRB_L2CA_PING, bltooth._brb_l2ca_ping"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -132,5 +132,5 @@ BRB_L2CA_PING is primarily used for debugging.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_L2CA_PING structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_L2CA_PING structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\d3dkmtcreatebundleobject.htm
 old-project: display
 ms.assetid: c4d62ccf-606b-457e-a239-1b5189e42657
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMTCreateBundleObject method [Display Devices], D3DKMTCreateBundleObject, d3dkmthk/D3DKMTCreateBundleObject, display.d3dkmtcreatebundleobject
+ms.date: 2/20/2018
+ms.keywords: display.d3dkmtcreatebundleobject, D3DKMTCreateBundleObject method [Display Devices], d3dkmthk/D3DKMTCreateBundleObject, D3DKMTCreateBundleObject
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

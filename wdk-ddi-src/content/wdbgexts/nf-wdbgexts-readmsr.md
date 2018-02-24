@@ -4,11 +4,11 @@ title: ReadMsr function
 author: windows-driver-content
 description: The ReadMsr function reads the contents of a Model-Specific Register (MSR).
 old-location: debugger\readmsr.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1cb51f88-a943-43e6-af18-0e9e301d8382
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ReadMsr function [Windows Debugging], ReadMsr, debugger.readmsr, WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, wdbgexts/ReadMsr
+ms.date: 2/15/2018
+ms.keywords: ReadMsr function [Windows Debugging], debugger.readmsr, ReadMsr, WdbgExts_Ref_37577d05-a60b-4064-850a-d73616d93f37.xml, wdbgexts/ReadMsr
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: storage\ide_device_parameters.htm
 old-project: storage
 ms.assetid: e2b908ce-df40-4d64-b8fd-77da18b4f6bd
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.ide_device_parameters, _IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS, irb/IDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, IDE_DEVICE_PARAMETERS structure [Storage Devices], IDE_DEVICE_PARAMETERS, irb/PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: PIDE_DEVICE_PARAMETERS structure pointer [Storage Devices], _IDE_DEVICE_PARAMETERS, storage.ide_device_parameters, irb/PIDE_DEVICE_PARAMETERS, structs-ATA_6cc8412c-2ce1-4261-91db-bc986a6836ff.xml, IDE_DEVICE_PARAMETERS, irb/IDE_DEVICE_PARAMETERS, *PIDE_DEVICE_PARAMETERS, PIDE_DEVICE_PARAMETERS, IDE_DEVICE_PARAMETERS structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -186,11 +186,6 @@ Indicates that the device supports Media Status Notification.
 Contains an enumeration value of type <a href="..\irb\ne-irb-ata_address_translation.md">ATA_ADDRESS_TRANSLATION</a> that specifies the sort of address translation used during data transfers.
 
 
-### -field MaxLba
-
-Specifies the maximum user-addressable logical block address (LBA). This member is defined when <b>AddressTranslation</b> is equal to either <b>LbaMode</b> or <b>Lba48BitMode</b>.
-
-
 ### -field Chs
 
 Specifies the drive geometry with the values for the number of cylinders, heads per cylinder, and the sectors per track. This member is defined when <b>AddressTranslation</b> is equal to <b>ChsMode</b>.
@@ -241,6 +236,11 @@ Contains a bitmap that indicates the supported transfer modes.
 Indicates the selected transfer modes on the device. The miniport driver must set this member.
 
 
+#### - MaxLba
+
+Specifies the maximum user-addressable logical block address (LBA). This member is defined when <b>AddressTranslation</b> is equal to either <b>LbaMode</b> or <b>Lba48BitMode</b>.
+
+
 ## -remarks
 
 
@@ -252,7 +252,7 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
 ## -see-also
 
-<a href="..\irb\ne-irb-ide_device_type.md">IDE_DEVICE_TYPE</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557467">IdeHwInitialize</a>
 
 
 
@@ -268,5 +268,5 @@ The port driver passes a IDE_DEVICE_PARAMETERS structure to the miniport driver 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_DEVICE_PARAMETERS structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20IDE_DEVICE_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

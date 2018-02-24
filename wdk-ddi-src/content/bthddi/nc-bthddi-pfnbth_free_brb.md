@@ -7,7 +7,7 @@ old-location: bltooth\bthfreebrb.htm
 old-project: bltooth
 ms.assetid: fc24cdaf-0695-4e10-82be-a7f7a916f550
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.bthfreebrb, BthFreeBrb callback function [Bluetooth Devices], BthFreeBrb, PFNBTH_FREE_BRB, PFNBTH_FREE_BRB, bthddi/BthFreeBrb, bth_funcs_434cd24f-2604-4526-ac74-14a151365658.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	BthFreeBrb
 product: Windows
 targetos: Windows
-req.typenames: MPEG2_TRANSPORT_STRIDE, *PMPEG2_TRANSPORT_STRIDE
+req.typenames: "*PMPEG2_TRANSPORT_STRIDE, MPEG2_TRANSPORT_STRIDE"
 ---
 
 # PFNBTH_FREE_BRB callback

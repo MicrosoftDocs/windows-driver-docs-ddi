@@ -7,8 +7,8 @@ old-location: print\iprintschemafeature_getoption.htm
 old-project: print
 ms.assetid: C9C4E085-1F2A-4610-AF2A-8F87E5CE7BCA
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrintSchemaFeature::GetOption, IPrintSchemaFeature, GetOption method [Print Devices], IPrintSchemaFeature interface, printerextension/IPrintSchemaFeature::GetOption, IPrintSchemaFeature interface [Print Devices], GetOption method, GetOption, print.iprintschemafeature_getoption, GetOption method [Print Devices]
+ms.date: 2/21/2018
+ms.keywords: IPrintSchemaFeature interface [Print Devices], GetOption method, IPrintSchemaFeature::GetOption, GetOption method [Print Devices], GetOption, GetOption method [Print Devices], IPrintSchemaFeature interface, IPrintSchemaFeature, print.iprintschemafeature_getoption, printerextension/IPrintSchemaFeature::GetOption
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -111,7 +111,7 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
+<a href="..\printerextension\nn-printerextension-iprintschemaoption.md">IPrintSchemaOption</a>
 
 
 
@@ -119,7 +119,7 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
 
 
-<a href="..\printerextension\nn-printerextension-iprintschemacapabilities.md">IPrintSchemaCapabilities</a>
+<a href="..\printerextension\nn-printerextension-iprintschemafeature.md">IPrintSchemaFeature</a>
 
 
 
@@ -127,5 +127,5 @@ So if the <a href="..\printerextension\nn-printerextension-iprintschematicket.md
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaFeature::GetOption method%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrintSchemaFeature::GetOption method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

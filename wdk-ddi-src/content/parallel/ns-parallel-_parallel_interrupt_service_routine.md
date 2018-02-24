@@ -7,8 +7,8 @@ old-location: parports\parallel_interrupt_service_routine.htm
 old-project: parports
 ms.assetid: dff10a68-f7c4-4f7a-a3f7-3697fc88992a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PPARALLEL_INTERRUPT_SERVICE_ROUTINE, _PARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, parports.parallel_interrupt_service_routine, PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], PPARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE"
+ms.date: 2/15/2018
+ms.keywords: parports.parallel_interrupt_service_routine, PARALLEL_INTERRUPT_SERVICE_ROUTINE structure [Parallel Ports], PPARALLEL_INTERRUPT_SERVICE_ROUTINE structure pointer [Parallel Ports], PPARALLEL_INTERRUPT_SERVICE_ROUTINE, _PARALLEL_INTERRUPT_SERVICE_ROUTINE, PARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PPARALLEL_INTERRUPT_SERVICE_ROUTINE, parallel/PARALLEL_INTERRUPT_SERVICE_ROUTINE, cisspd_db43e8c1-06d8-4a00-8f66-896987a45b83.xml, *PPARALLEL_INTERRUPT_SERVICE_ROUTINE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -142,5 +142,5 @@ A kernel-mode driver can connect a device-specific interrupt service routine and
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_INTERRUPT_SERVICE_ROUTINE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [parports\parports]:%20PARALLEL_INTERRUPT_SERVICE_ROUTINE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgk_connection_status.htm
 old-project: display
 ms.assetid: D78A845E-1F5D-42F7-9391-8F3F6555B7E5
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/TargetStatusJoined, LinkConfigurationSucceeded, LinkConfigurationFailed, d3dkmddi/MonitorStatusConnected, *PDXGK_CONNECTION_STATUS, ConnectionStatusUninitialized, display.dxgk_connection_status, MonitorStatusConnected, d3dkmddi/DXGK_CONNECTION_STATUS, d3dkmddi/TargetStatusConnected, d3dkmddi/ConnectionStatusUninitialized, TargetStatusJoined, LinkConfigurationStarted, d3dkmddi/TargetStatusDisconnected, d3dkmddi/LinkConfigurationSucceeded, d3dkmddi/MonitorStatusDisconnected, DXGK_CONNECTION_STATUS enumeration [Display Devices], TargetStatusDisconnected, DXGK_CONNECTION_STATUS, _DXGK_CONNECTION_STATUS, d3dkmddi/MonitorStatusUnknown, MonitorStatusUnknown, d3dkmddi/LinkConfigurationFailed, MonitorStatusDisconnected, d3dkmddi/LinkConfigurationStarted, TargetStatusConnected
+ms.date: 2/20/2018
+ms.keywords: MonitorStatusUnknown, d3dkmddi/ConnectionStatusUninitialized, d3dkmddi/MonitorStatusUnknown, display.dxgk_connection_status, d3dkmddi/TargetStatusJoined, TargetStatusConnected, *PDXGK_CONNECTION_STATUS, TargetStatusJoined, ConnectionStatusUninitialized, LinkConfigurationFailed, MonitorStatusConnected, DXGK_CONNECTION_STATUS, MonitorStatusDisconnected, d3dkmddi/TargetStatusConnected, LinkConfigurationStarted, d3dkmddi/LinkConfigurationFailed, DXGK_CONNECTION_STATUS enumeration [Display Devices], d3dkmddi/MonitorStatusDisconnected, d3dkmddi/MonitorStatusConnected, d3dkmddi/LinkConfigurationStarted, d3dkmddi/LinkConfigurationSucceeded, _DXGK_CONNECTION_STATUS, d3dkmddi/DXGK_CONNECTION_STATUS, TargetStatusDisconnected, LinkConfigurationSucceeded, d3dkmddi/TargetStatusDisconnected
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -7,8 +7,8 @@ old-location: wdf\iwdfusbtargetpipe_getinformation.htm
 old-project: wdf
 ms.assetid: b1462a64-debf-441f-8964-4644074e5e53
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, GetInformation method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe::GetInformation, GetInformation method, IWDFUsbTargetPipe interface, GetInformation method, umdf.iwdfusbtargetpipe_getinformation, GetInformation, wdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe, wudfusb/IWDFUsbTargetPipe::GetInformation
+ms.date: 2/20/2018
+ms.keywords: UMDFUSBref_4d7b2b77-fa26-45e2-8f3f-e0315d70f937.xml, GetInformation method, IWDFUsbTargetPipe interface, IWDFUsbTargetPipe interface, GetInformation method, GetInformation method, wudfusb/IWDFUsbTargetPipe::GetInformation, umdf.iwdfusbtargetpipe_getinformation, GetInformation, wdf.iwdfusbtargetpipe_getinformation, IWDFUsbTargetPipe, IWDFUsbTargetPipe::GetInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -107,5 +107,5 @@ After a UMDF driver calls the <a href="https://msdn.microsoft.com/library/window
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::GetInformation method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFUsbTargetPipe::GetInformation method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

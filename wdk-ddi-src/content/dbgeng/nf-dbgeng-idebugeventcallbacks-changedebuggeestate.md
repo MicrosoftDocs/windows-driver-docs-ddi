@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::ChangeDebuggeeState method
 author: windows-driver-content
 description: The ChangeDebuggeeState callback method is called by the engine when it makes or detects changes to the target.
 old-location: debugger\idebugeventcallbacks_changedebuggeestate.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 157a420a-18ad-46cf-ae93-603e9226ee4f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml, IDebugEventCallbacks, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacks::ChangeDebuggeeState
+ms.date: 2/15/2018
+ms.keywords: ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], ChangeDebuggeeState method, IDebugEventCallbacks::ChangeDebuggeeState, dbgeng/IDebugEventCallbacks::ChangeDebuggeeState, ChangeDebuggeeState, debugger.idebugeventcallbacks_changedebuggeestate, IDebugEventCallbacks, ChangeDebuggeeState method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_a5743ecf-0b4c-41de-9384-ee0d8980a746.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.ChangeDebuggeeState
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::ChangeDebuggeeState method

@@ -7,8 +7,8 @@ old-location: wdf\wdf_pnp_state.htm
 old-project: wdf
 ms.assetid: f17a6d52-5f68-470c-9f45-6a175e0fbf01
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfPnpStateResourcesChanged, umdf.wdf_pnp_state, wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateRemoved, WdfPnpStateMaximum, wudfddi_types/WdfPnpStateFailed, _WDF_PNP_STATE, wudfddi_types/WdfPnpStateResourcesChanged, WdfPnpStateDisabled, WDF_PNP_STATE enumeration, wudfddi_types/WdfPnpStateMaximum, wudfddi_types/WDF_PNP_STATE, WdfPnpStateInvalid, wudfddi_types/WdfPnpStateDisabled, wudfddi_types/WdfPnpStateInvalid, WDF_PNP_STATE, WdfPnpStateNotDisableable, WdfPnpStateRemoved, wudfddi_types/WdfPnpStateDontDisplayInUI, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, WdfPnpStateDontDisplayInUI, WdfPnpStateFailed, wdf.wdf_pnp_state
+ms.date: 2/20/2018
+ms.keywords: wudfddi_types/WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateInvalid, WdfPnpStateResourcesChanged, wudfddi_types/WdfPnpStateResourcesChanged, WdfPnpStateFailed, umdf.wdf_pnp_state, wudfddi_types/WdfPnpStateDontDisplayInUI, WdfPnpStateDontDisplayInUI, wdf.wdf_pnp_state, umdfstructs_5964ab34-28fb-410b-a863-1adc9e8eed03.xml, wudfddi_types/WdfPnpStateDisabled, WdfPnpStateMaximum, WdfPnpStateNotDisableable, wudfddi_types/WdfPnpStateFailed, wudfddi_types/WdfPnpStateMaximum, WDF_PNP_STATE, _WDF_PNP_STATE, WdfPnpStateDisabled, WdfPnpStateRemoved, wudfddi_types/WDF_PNP_STATE, WdfPnpStateInvalid, wudfddi_types/WdfPnpStateRemoved, WDF_PNP_STATE enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -140,5 +140,5 @@ A UMDF driver supplies one of the values of <b>WDF_PNP_STATE</b> to the <a href=
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PNP_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PNP_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

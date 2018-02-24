@@ -7,7 +7,7 @@ old-location: whea\getinjectioncapabilities.htm
 old-project: whea
 ms.assetid: 8cb19677-11b8-4594-b4dd-ebd00fae07d4
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/20/2018
 ms.keywords: whea.getinjectioncapabilities, GetInjectionCapabilities callback function [WHEA Drivers and Applications], GetInjectionCapabilities, PSHED_PI_GET_INJECTION_CAPABILITIES, PSHED_PI_GET_INJECTION_CAPABILITIES, ntddk/GetInjectionCapabilities, whearef_0c5e00c7-c5d7-4e28-a351-7831d883c70f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -153,5 +153,5 @@ The Windows kernel calls into the PSHED to retrieve information about the types 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PSHED_PI_GET_INJECTION_CAPABILITIES callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20PSHED_PI_GET_INJECTION_CAPABILITIES callback function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: display\dxgk_multiplane_overlay_flags.htm
 old-project: display
 ms.assetid: 2592e308-1d34-464f-8301-9ece54b4d017
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_MULTIPLANE_OVERLAY_FLAGS, DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices], _DXGK_MULTIPLANE_OVERLAY_FLAGS, display.dxgk_multiplane_overlay_flags, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS
+ms.date: 2/20/2018
+ms.keywords: DXGK_MULTIPLANE_OVERLAY_FLAGS structure [Display Devices], DXGK_MULTIPLANE_OVERLAY_FLAGS, d3dkmddi/DXGK_MULTIPLANE_OVERLAY_FLAGS, _DXGK_MULTIPLANE_OVERLAY_FLAGS, display.dxgk_multiplane_overlay_flags
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,15 +100,15 @@ This member is reserved and should be set to zero. Setting this member to zero i
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 30 bits (0xFFFFFFFC) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
-
-A 32-bit value that identifies the type of flip operation to perform.
-
-
 #### - PanelFitterPostComposition
 
 Indicates that the plane is to be stretched using panel fitter hardware. 
                                                         This should only be set for plane 0. 
 
 Setting this member is equivalent to setting the third bit of the 32-bit <b>Value</b> member (0x00000004).
+
+
+#### - Value
+
+A 32-bit value that identifies the type of flip operation to perform.
 

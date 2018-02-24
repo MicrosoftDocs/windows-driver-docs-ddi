@@ -4,11 +4,11 @@ title: "_HUB_INFO_FROM_PARENT"
 author: windows-driver-content
 description: Describes information about a hub from its parent device.
 old-location: buses\_hub_info_from_parent.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 6259CC70-A54B-4A44-B38B-D24C296C8EA0
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ucxroothub/P_HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT, _HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], *PHUB_INFO_FROM_PARENT, buses._hub_info_from_parent, HUB_INFO_FROM_PARENT structure [Buses], HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT
+ms.date: 2/15/2018
+ms.keywords: P_HUB_INFO_FROM_PARENT, ucxroothub/P_HUB_INFO_FROM_PARENT, P_HUB_INFO_FROM_PARENT structure pointer [Buses], _HUB_INFO_FROM_PARENT, *PHUB_INFO_FROM_PARENT, HUB_INFO_FROM_PARENT structure [Buses], buses._hub_info_from_parent, HUB_INFO_FROM_PARENT, ucxroothub/_HUB_INFO_FROM_PARENT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

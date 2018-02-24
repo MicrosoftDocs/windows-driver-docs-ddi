@@ -7,7 +7,7 @@ old-location: display\pfnd3dwddm2_0ddi_getresourcelayout.htm
 old-project: display
 ms.assetid: 0158F1B4-AA6E-41F9-BAEF-A3C688758205
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3dwddm2_0ddi_getresourcelayout, pfnGetResourceLayout callback function [Display Devices], pfnGetResourceLayout, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, PFND3DWDDM2_0DDI_GETRESOURCELAYOUT, d3d10umddi/pfnGetResourceLayout
 ms.prod: windows-hardware
 ms.technology: windows-devices

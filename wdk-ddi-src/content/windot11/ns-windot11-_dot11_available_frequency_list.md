@@ -7,8 +7,8 @@ old-location: netvista\dot11_available_frequency_list.htm
 old-project: netvista
 ms.assetid: b8862ba3-c871-4d9b-9ee4-99ec9d0bcda9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.dot11_available_frequency_list, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, *PDOT11_AVAILABLE_FREQUENCY_LIST, _DOT11_AVAILABLE_FREQUENCY_LIST, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], DOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST
+ms.date: 2/16/2018
+ms.keywords: DOT11_AVAILABLE_FREQUENCY_LIST structure [Network Drivers Starting with Windows Vista], *PDOT11_AVAILABLE_FREQUENCY_LIST, Native_802.11_data_types_df13c6f8-9257-493e-b8bb-c85cbbb2fea9.xml, _DOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST, netvista.dot11_available_frequency_list, PDOT11_AVAILABLE_FREQUENCY_LIST, windot11/DOT11_AVAILABLE_FREQUENCY_LIST, windot11/PDOT11_AVAILABLE_FREQUENCY_LIST, PDOT11_AVAILABLE_FREQUENCY_LIST structure pointer [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_AVAILABLE_FREQUENCY_LIST
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_AVAILABLE_FREQUENCY_LIST, DOT11_AVAILABLE_FREQUENCY_LIST"
+req.typenames: DOT11_AVAILABLE_FREQUENCY_LIST, *PDOT11_AVAILABLE_FREQUENCY_LIST
 req.product: Windows 10 or later.
 ---
 
@@ -150,5 +150,5 @@ This structure is used with
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AVAILABLE_FREQUENCY_LIST structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_AVAILABLE_FREQUENCY_LIST structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\riluiccslotinfoparammask_2.htm
 old-project: netvista
 ms.assetid: 003c888b-5935-460d-8b89-13f4ab69dc85
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUICCSLOTINFOPARAMMASK, rilapitypes/RIL_PARAM_SLOTINFO_ALL, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RILUICCSLOTINFOPARAMMASK, netvista.riluiccslotinfoparammask_2, RIL_PARAM_SLOTINFO_ALL, rilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, RIL_PARAM_SLOTINFO_SLOTSTATE
+ms.date: 2/16/2018
+ms.keywords: RIL_PARAM_SLOTINFO_SLOTSTATE, RILUICCSLOTINFOPARAMMASK, netvista.riluiccslotinfoparammask_2, rilapitypes/RIL_PARAM_SLOTINFO_SLOTSTATE, RILUICCSLOTINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_SLOTINFO_ALL, RIL_PARAM_SLOTINFO_ALL, rilapitypes/RILUICCSLOTINFOPARAMMASK
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

@@ -4,11 +4,11 @@ title: GetSetSympath function
 author: windows-driver-content
 description: The GetSetSympath function can be used to either get or set the symbol search path.
 old-location: debugger\getsetsympath.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2c7392c2-49c8-4b27-addc-0200eabbe87e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: debugger.getsetsympath, wdbgexts/GetSetSympath, GetSetSympath function [Windows Debugging], GetSetSympath, WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml
+ms.date: 2/15/2018
+ms.keywords: debugger.getsetsympath, GetSetSympath, WdbgExts_Ref_66364d7b-fd3c-424a-a04d-b7bf24178039.xml, wdbgexts/GetSetSympath, GetSetSympath function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

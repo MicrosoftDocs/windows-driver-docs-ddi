@@ -7,8 +7,8 @@ old-location: audio\ksaudio_mixlevel.htm
 old-project: audio
 ms.assetid: b685f2f5-3491-471d-b1da-07a7e56bda62
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PKSAUDIO_MIXLEVEL structure pointer [Audio Devices], audio.ksaudio_mixlevel, aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, *PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL, PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], ksmedia/KSAUDIO_MIXLEVEL, ksmedia/PKSAUDIO_MIXLEVEL
+ms.date: 2/21/2018
+ms.keywords: ksmedia/KSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL, aud-prop_d80f29a4-4872-49cc-b1af-94b69be9c229.xml, ksmedia/PKSAUDIO_MIXLEVEL, KSAUDIO_MIXLEVEL structure [Audio Devices], PKSAUDIO_MIXLEVEL, *PKSAUDIO_MIXLEVEL, audio.ksaudio_mixlevel, PKSAUDIO_MIXLEVEL structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -119,5 +119,5 @@ This scale has a resolution of 1/65536 decibel.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_MIXLEVEL structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIO_MIXLEVEL structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

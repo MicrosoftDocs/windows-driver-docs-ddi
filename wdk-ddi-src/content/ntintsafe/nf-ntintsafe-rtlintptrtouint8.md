@@ -7,8 +7,8 @@ old-location: kernel\rtlintptrtouint8.htm
 old-project: kernel
 ms.assetid: E51696DD-17CE-41F1-AD30-30AB93C81D05
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlIntPtrToUInt8, kernel.rtlintptrtouint8, ntintsafe/RtlIntPtrToUInt8, RtlIntPtrToUInt8 function [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: RtlIntPtrToUInt8, ntintsafe/RtlIntPtrToUInt8, RtlIntPtrToUInt8 function [Kernel-Mode Driver Architecture], kernel.rtlintptrtouint8
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

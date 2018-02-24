@@ -7,8 +7,8 @@ old-location: print\drvprocs.htm
 old-project: print
 ms.assetid: fcdfb7ba-cbb4-454b-b366-82d0c95b4afd
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: DRVPROCS structure [Print Devices], printoem/DRVPROCS, print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, *PDRVPROCS, _DRVPROCS, print.drvprocs, PDRVPROCS structure pointer [Print Devices], PDRVPROCS, DRVPROCS, printoem/PDRVPROCS
+ms.date: 2/21/2018
+ms.keywords: printoem/DRVPROCS, PDRVPROCS structure pointer [Print Devices], print_unidrv-pscript_rendering_63cf2b11-04c8-43f3-951b-5755764059f9.xml, *PDRVPROCS, print.drvprocs, DRVPROCS, PDRVPROCS, DRVPROCS structure [Print Devices], _DRVPROCS, printoem/PDRVPROCS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DRVPROCS
 product: Windows
 targetos: Windows
-req.typenames: "*PDRVPROCS, DRVPROCS"
+req.typenames: DRVPROCS, *PDRVPROCS
 req.product: Windows 10 or later.
 ---
 
@@ -58,42 +58,42 @@ All of the functions pointed to by members of this structure are obsolete. For i
 <dl>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548662">DrvWriteSpoolBuf</a>
+<a href="..\printoem\nc-printoem-pfn_drvwritespoolbuf.md">DrvWriteSpoolBuf</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548665">DrvXMoveTo</a>
+<a href="..\printoem\nc-printoem-pfn_drvxmoveto.md">DrvXMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548673">DrvYMoveTo</a>
+<a href="..\printoem\nc-printoem-pfn_drvymoveto.md">DrvYMoveTo</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548556">DrvGetDriverSetting</a>
+<a href="..\printoem\nc-printoem-pfn_drvgetdriversetting.md">DrvGetDriverSetting</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548562">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
+<a href="..\printoem\nc-printoem-pfn_drvgetstandardvariable.md">DrvGetStandardVariable</a> (for information about BGetStandardVariable)
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548638">DrvUnidriverTextOut</a>
+<a href="..\printoem\nc-printoem-pfn_drvunidrivertextout.md">DrvUnidriverTextOut</a>
 
 
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548657">DrvWriteAbortBuf</a>
+<a href="..\printoem\nc-printoem-pfn_drvwriteabortbuf.md">DrvWriteAbortBuf</a>
 
 
 </dd>

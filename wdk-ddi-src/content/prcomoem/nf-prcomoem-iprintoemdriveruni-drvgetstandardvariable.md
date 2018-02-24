@@ -7,8 +7,8 @@ old-location: print\iprintoemdriveruni_drvgetstandardvariable.htm
 old-project: print
 ms.assetid: d55d3130-14e7-438f-bfb5-18927466bd60
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: IPrintOemDriverUni, IPrintOemDriverUni::DrvGetStandardVariable, DrvGetStandardVariable method [Print Devices], prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, DrvGetStandardVariable, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml, print.iprintoemdriveruni_drvgetstandardvariable
+ms.date: 2/21/2018
+ms.keywords: DrvGetStandardVariable, print.iprintoemdriveruni_drvgetstandardvariable, DrvGetStandardVariable method [Print Devices], prcomoem/IPrintOemDriverUni::DrvGetStandardVariable, print_unidrv-pscript_rendering_001f3a93-7022-4436-8191-5cb091bc3c42.xml, IPrintOemDriverUni, IPrintOemDriverUni::DrvGetStandardVariable, IPrintOemDriverUni interface [Print Devices], DrvGetStandardVariable method, DrvGetStandardVariable method [Print Devices], IPrintOemDriverUni interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IPrintOemDriverUni.DrvGetStandardVariable
 product: Windows
 targetos: Windows
-req.typenames: OEMPTOPTS, *POEMPTOPTS
+req.typenames: "*POEMPTOPTS, OEMPTOPTS"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: sensors\sensor_config.htm
 old-project: sensors
 ms.assetid: E21E2FEC-8733-4A8A-A0C4-899F10824F9B
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: SENSOR_CONFIG structure [Sensor Devices], PSENSOR_CONFIG, _SENSOR_CONFIG, SENSOR_CONFIG, sensors.sensor_config, sensorscx/PSENSOR_CONFIG, *PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices]
+ms.date: 2/15/2018
+ms.keywords: SENSOR_CONFIG, PSENSOR_CONFIG, sensorscx/SENSOR_CONFIG, *PSENSOR_CONFIG, _SENSOR_CONFIG, PSENSOR_CONFIG structure pointer [Sensor Devices], sensorscx/PSENSOR_CONFIG, SENSOR_CONFIG structure [Sensor Devices], sensors.sensor_config
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

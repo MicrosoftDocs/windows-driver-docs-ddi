@@ -7,7 +7,7 @@ old-location: display\ioctl_video_restore_hardware_state.htm
 old-project: display
 ms.assetid: 94ea36b6-3390-4e67-982d-ee6c2500c0de
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.ioctl_video_restore_hardware_state, IOCTL_VIDEO_RESTORE_HARDWARE_STATE control code [Display Devices], IOCTL_VIDEO_RESTORE_HARDWARE_STATE, ntddvdeo/IOCTL_VIDEO_RESTORE_HARDWARE_STATE, Video_IOCTLs_2660d342-9c6b-461e-80f9-0c31763689ff.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

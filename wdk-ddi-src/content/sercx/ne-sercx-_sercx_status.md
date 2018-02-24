@@ -7,8 +7,8 @@ old-location: serports\sercx_status.htm
 old-project: serports
 ms.assetid: 7EF129C7-25C3-49D2-8FC5-FFA1C4E77935
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PSERCX_STATUS, SerCxStatusCancelled, SerCxStatusTimeout, 1/SerCxStatusTimeout, _SERCX_STATUS, SERCX_STATUS, 1/SerCxStatusCancelled, SERCX_STATUS enumeration [Serial Ports], 1/SERCX_STATUS, 1/SerCxStatusSuccess, SerCxStatusSuccess, serports.sercx_status"
+ms.date: 2/15/2018
+ms.keywords: SerCxStatusSuccess, _SERCX_STATUS, 1/SerCxStatusSuccess, 1/SERCX_STATUS, serports.sercx_status, 1/SerCxStatusTimeout, SERCX_STATUS enumeration [Serial Ports], SERCX_STATUS, SerCxStatusTimeout, 1/SerCxStatusCancelled, *PSERCX_STATUS, SerCxStatusCancelled
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	SERCX_STATUS
 product: Windows
 targetos: Windows
-req.typenames: SERCX_STATUS, *PSERCX_STATUS
+req.typenames: "*PSERCX_STATUS, SERCX_STATUS"
 req.product: Windows 10 or later.
 ---
 
@@ -112,5 +112,5 @@ The <a href="..\sercx\nf-sercx-sercxprogressreceive.md">SerCxProgressReceive</a>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX_STATUS enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [serports\serports]:%20SERCX_STATUS enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

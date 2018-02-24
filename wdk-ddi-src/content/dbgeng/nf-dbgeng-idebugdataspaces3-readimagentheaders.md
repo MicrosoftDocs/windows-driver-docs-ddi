@@ -4,11 +4,11 @@ title: IDebugDataSpaces3::ReadImageNtHeaders method
 author: windows-driver-content
 description: The ReadImageNtHeaders method returns the NT headers for the specified image loaded in the target.
 old-location: debugger\readimagentheaders.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2735aabf-b8b0-4eb1-89a2-4733d0b346ed
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml, IDebugDataSpaces3, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces4::ReadImageNtHeaders, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], debugger.readimagentheaders, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface
+ms.date: 2/15/2018
+ms.keywords: ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces3 interface [Windows Debugging], ReadImageNtHeaders method, dbgeng/IDebugDataSpaces3::ReadImageNtHeaders, ReadImageNtHeaders method [Windows Debugging], ReadImageNtHeaders, IDebugDataSpaces4 interface [Windows Debugging], ReadImageNtHeaders method, debugger.readimagentheaders, ReadImageNtHeaders method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces3, dbgeng/IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces3::ReadImageNtHeaders, IDebugDataSpaces4::ReadImageNtHeaders, IDebugDataSpaces_333f4fab-a56c-43e2-92d7-59775b794e1f.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugDataSpaces4.ReadImageNtHeaders
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces3::ReadImageNtHeaders method

@@ -7,8 +7,8 @@ old-location: netvista\wwan_struct_type.htm
 old-project: netvista
 ms.assetid: 43729964-9338-45ab-ad59-406176c1ae9f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WwanStructDeviceCellularClass, _WWAN_STRUCT_TYPE, wwan/WwanStructReserved1, WwanStructReserved1, wwan/WwanStructReserved2, WwanStructDeviceServiceEntry, wwan/PWWAN_STRUCT_TYPE, WwanStructProvider2, WwanStructSmsPdu, WwanStructMax, wwan/WwanStructSmsPdu, wwan/WwanStructSmsCdma, wwan/WwanStructDeviceServiceGuid, wwan/WWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE, wwan/WwanStructDeviceCellularClass, PWWAN_STRUCT_TYPE, wwan/WwanStructDeviceServiceEntry, WwanStructReserved2, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], *PWWAN_STRUCT_TYPE, wwan/WwanStructReserved0, wwan/WwanStructProvider2, wwan/WwanStructTN, WwanStructDeviceServiceCommandId, wwan/WwanStructContext, netvista.wwan_struct_type, WwanStructDeviceServiceGuid, wwan/WwanStructDeviceServiceCommandId, WwanStructTN, WwanStructReserved0, WwanStructReserved3, wwan/WwanStructMax, WwanStructContext, WwanStructSmsCdma, wwan/WwanStructProvider, wwan/WwanStructReserved3, WwanStructProvider
+ms.date: 2/16/2018
+ms.keywords: netvista.wwan_struct_type, WWAN_STRUCT_TYPE enumeration [Network Drivers Starting with Windows Vista], WwanStructContext, wwan/WwanStructProvider2, wwan/WwanStructProvider, WwanStructSmsCdma, wwan/WwanStructContext, *PWWAN_STRUCT_TYPE, wwan/WwanStructReserved3, wwan/WwanStructSmsPdu, wwan/WwanStructDeviceServiceEntry, WwanStructDeviceServiceCommandId, WwanStructReserved1, WwanStructMax, wwan/PWWAN_STRUCT_TYPE, wwan/WwanStructTN, WwanStructDeviceServiceGuid, WwanStructProvider2, WwanStructDeviceCellularClass, wwan/WwanStructSmsCdma, wwan/WwanStructReserved2, wwan/WwanStructReserved1, WwanStructDeviceServiceEntry, wwan/WWAN_STRUCT_TYPE, _WWAN_STRUCT_TYPE, WwanRef_6b201902-91a4-45ee-bc26-2fd321ff7d8c.xml, WwanStructReserved0, wwan/WwanStructReserved0, WWAN_STRUCT_TYPE, WwanStructReserved2, wwan/WwanStructDeviceServiceCommandId, PWWAN_STRUCT_TYPE, PWWAN_STRUCT_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], WwanStructProvider, wwan/WwanStructMax, WwanStructSmsPdu, WwanStructReserved3, wwan/WwanStructDeviceServiceGuid, wwan/WwanStructDeviceCellularClass, WwanStructTN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WWAN_STRUCT_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WWAN_STRUCT_TYPE, *PWWAN_STRUCT_TYPE
+req.typenames: "*PWWAN_STRUCT_TYPE, WWAN_STRUCT_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -231,19 +231,11 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
+<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569830">OID_WWAN_PREFERRED_PROVIDERS</a>
-
-
-
-<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
@@ -255,7 +247,19 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_sms_pdu_record.md">WWAN_SMS_PDU_RECORD</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569833">OID_WWAN_READY_INFO</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-wwan-provisioned-contexts">OID_WWAN_PROVISIONED_CONTEXTS</a>
+
+
+
+<a href="..\wwan\ns-wwan-_wwan_provider.md">WWAN_PROVIDER</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569843">OID_WWAN_VISIBLE_PROVIDERS</a>
 
 
 
@@ -263,13 +267,9 @@ The elements are of type <a href="..\wwan\ne-wwan-_wwan_cellular_class.md">WWAN_
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_STRUCT_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_STRUCT_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

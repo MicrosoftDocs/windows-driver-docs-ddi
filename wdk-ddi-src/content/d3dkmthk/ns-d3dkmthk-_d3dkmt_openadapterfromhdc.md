@@ -7,8 +7,8 @@ old-location: display\d3dkmt_openadapterfromhdc.htm
 old-project: display
 ms.assetid: db425b8c-4abd-4998-89bb-f6d9f066a3f6
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], _D3DKMT_OPENADAPTERFROMHDC, OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, D3DKMT_OPENADAPTERFROMHDC, display.d3dkmt_openadapterfromhdc
+ms.date: 2/20/2018
+ms.keywords: D3DKMT_OPENADAPTERFROMHDC, d3dkmthk/D3DKMT_OPENADAPTERFROMHDC, _D3DKMT_OPENADAPTERFROMHDC, OpenGL_Structs_a4c2aa1b-b17c-4e81-a0d2-9776cec61112.xml, D3DKMT_OPENADAPTERFROMHDC structure [Display Devices], display.d3dkmt_openadapterfromhdc
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,5 +100,5 @@ typedef struct _D3DKMT_OPENADAPTERFROMHDC {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_OPENADAPTERFROMHDC structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMT_OPENADAPTERFROMHDC structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

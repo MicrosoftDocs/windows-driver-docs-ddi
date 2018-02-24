@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_interface_select_setting_params_init_urb.htm
 old-project: wdf
 ms.assetid: 0c11941e-d0fc-4b0f-bf18-9920d371dd09
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, wdf.wdf_usb_interface_select_setting_params_init_urb, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml
+ms.date: 2/20/2018
+ms.keywords: WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function, wdfusb/WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB, wdf.wdf_usb_interface_select_setting_params_init_urb, kmdf.wdf_usb_interface_select_setting_params_init_urb, DFUsbRef_90777ed2-7cfd-422f-ba5b-423fd051e142.xml, WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -158,7 +158,7 @@ Status = WdfUsbInterfaceSelectSetting(
 
 ## -see-also
 
-<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_setting.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_SETTING</a>
 
 
 
@@ -170,7 +170,7 @@ Status = WdfUsbInterfaceSelectSetting(
 
 
 
-<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_select_setting_params.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS</a>
+<a href="..\wdfusb\nf-wdfusb-wdf_usb_interface_select_setting_params_init_descriptor.md">WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_DESCRIPTOR</a>
 
 
 
@@ -178,5 +178,5 @@ Status = WdfUsbInterfaceSelectSetting(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_INTERFACE_SELECT_SETTING_PARAMS_INIT_URB function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

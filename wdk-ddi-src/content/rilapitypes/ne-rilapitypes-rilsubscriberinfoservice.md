@@ -7,13 +7,13 @@ old-location: netvista\rilsubscriberinfoservice.htm
 old-project: netvista
 ms.assetid: 9dcdfbcc-bab8-4621-993b-e64106d0457e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RIL_SERVICE_UNKNOWN, RIL_SERVICE_VOICE, rilapitypes/RIL_SERVICE_FAX, netvista.rilsubscriberinfoservice, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RILSUBSCRIBERINFOSERVICE, RILSUBSCRIBERINFOSERVICE, RIL_SERVICE_OTHER, rilapitypes/RIL_SERVICE_VOICE, RIL_SERVICE_FAX, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_UNKNOWN
+ms.date: 2/16/2018
+ms.keywords: netvista.rilsubscriberinfoservice, RIL_SERVICE_OTHER, RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_VOICE, RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_OTHER, rilapitypes/RILSUBSCRIBERINFOSERVICE, rilapitypes/RIL_SERVICE_FAX, rilapitypes/RIL_SERVICE_UNKNOWN, RIL_SERVICE_UNKNOWN, RILSUBSCRIBERINFOSERVICE enumeration [Network Drivers Starting with Windows Vista], RIL_SERVICE_VOICE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: rilapitypes.h
-req.include-header: Rilapitypes.h
+req.include-header: Rilapitypes.h, Ntddrilapitypes.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -99,5 +99,5 @@ enum RILSUBSCRIBERINFOSERVICE {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILSUBSCRIBERINFOSERVICE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20RILSUBSCRIBERINFOSERVICE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

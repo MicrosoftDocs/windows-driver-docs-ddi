@@ -7,13 +7,13 @@ old-location: wdf\read_register_ulong64.htm
 old-project: wdf
 ms.assetid: D8AB8735-8909-463E-B10E-1FE5FD557FBB
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: READ_REGISTER_ULONG64, umdf.read_register_ulong64, READ_REGISTER_ULONG64 function, wdf.read_register_ulong64, wudfddi_hwaccess/READ_REGISTER_ULONG64
+ms.date: 2/20/2018
+ms.keywords: READ_REGISTER_ULONG64 function, wudfddi_hwaccess/READ_REGISTER_ULONG64, umdf.read_register_ulong64, wdf.read_register_ulong64, READ_REGISTER_ULONG64
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wudfddi_hwaccess.h
-req.include-header: 
+req.include-header: Wdm.h, Miniport.h, Wudfwdm.h
 req.target-type: Desktop
 req.target-min-winverclnt: 64-bit Windows
 req.target-min-winversvr: 
@@ -71,7 +71,7 @@ ULONG64 READ_REGISTER_ULONG64(
 
 
 
-### -param pDevice [in]
+#### - pDevice [in]
 
 Specifies a pointer to the <a href="..\wudfddi\nn-wudfddi-iwdfdevice3.md">IWDFDevice3</a> interface for the device object of the device to access.
 

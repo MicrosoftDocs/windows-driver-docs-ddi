@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_find_new_devices.htm
 old-project: storage
 ms.assetid: 359169a3-602d-4910-badf-c777c1a804e7
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_storage_find_new_devices, IOCTL_STORAGE_FIND_NEW_DEVICES control code [Storage Devices], IOCTL_STORAGE_FIND_NEW_DEVICES, ntddstor/IOCTL_STORAGE_FIND_NEW_DEVICES, k307_2bd9c727-e25a-4c21-9173-af7bc2c830c6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,7 +7,7 @@ old-location: stream\camstartcaptureex.htm
 old-project: stream
 ms.assetid: ab2222ed-3166-4984-b76c-5499879f91d5
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.camstartcaptureex, CamStartCaptureEx, CamStartCaptureEx routine [Streaming Media Devices], CamStartCaptureEx, PCAM_START_CAPTURE_ROUTINE_EX, PCAM_START_CAPTURE_ROUTINE_EX, usbcamdi/CamStartCaptureEx, usbcmdpr_b6e64f48-1afd-40b0-adbe-dc5afb83d045.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

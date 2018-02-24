@@ -7,8 +7,8 @@ old-location: storage\memory_region.htm
 old-project: storage
 ms.assetid: b8dbc3d4-7a70-4ec6-b7b0-2b0877fb9722
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: MEMORY_REGION, _MEMORY_REGION, MEMORY_REGION structure [Storage Devices], storage.memory_region, storport/PMEMORY_REGION, PMEMORY_REGION, structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml, storport/MEMORY_REGION, *PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: PMEMORY_REGION, _MEMORY_REGION, MEMORY_REGION structure [Storage Devices], structs-storport_4ed10515-f1ce-4767-bbdc-239ac00a5cbe.xml, storage.memory_region, storport/PMEMORY_REGION, PMEMORY_REGION structure pointer [Storage Devices], *PMEMORY_REGION, storport/MEMORY_REGION, MEMORY_REGION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MEMORY_REGION
 product: Windows
 targetos: Windows
-req.typenames: "*PMEMORY_REGION, MEMORY_REGION"
+req.typenames: MEMORY_REGION, *PMEMORY_REGION
 req.product: Windows 10 or later.
 ---
 
@@ -104,5 +104,5 @@ The <b>DumpRegion</b> member of the <a href="..\strmini\ns-strmini-_port_configu
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MEMORY_REGION structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MEMORY_REGION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

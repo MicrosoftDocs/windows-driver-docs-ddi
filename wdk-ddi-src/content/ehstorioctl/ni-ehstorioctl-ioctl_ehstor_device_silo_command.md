@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_silo_command.htm
 old-project: storage
 ms.assetid: 3258FA16-E1FE-4CBF-8C87-0C7A8B2A7EBF
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_ehstor_device_silo_command, IOCTL_EHSTOR_DEVICE_SILO_COMMAND control code [Storage Devices], IOCTL_EHSTOR_DEVICE_SILO_COMMAND, ehstorioctl/IOCTL_EHSTOR_DEVICE_SILO_COMMAND
 ms.prod: windows-hardware
 ms.technology: windows-devices

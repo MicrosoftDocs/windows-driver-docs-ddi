@@ -7,8 +7,8 @@ old-location: netvista\_dot11_wfd_device_info.htm
 old-project: netvista
 ms.assetid: 6E0E9BC9-9C84-4511-A28E-2BB2D6367F74
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_WFD_DEVICE_INFO, netvista._dot11_wfd_device_info, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/ DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO, _DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista], DOT11_WFD_DEVICE_INFO, windot11/PDOT11_WFD_DEVICE_INFO
+ms.date: 2/16/2018
+ms.keywords: windot11/PDOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO, PDOT11_WFD_DEVICE_INFO, _DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO, netvista._dot11_wfd_device_info, PDOT11_WFD_DEVICE_INFO structure pointer [Network Drivers Starting with Windows Vista], windot11/ DOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_WFD_DEVICE_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_WFD_DEVICE_INFO, DOT11_WFD_DEVICE_INFO"
+req.typenames: DOT11_WFD_DEVICE_INFO, *PDOT11_WFD_DEVICE_INFO
 req.product: Windows 10 or later.
 ---
 

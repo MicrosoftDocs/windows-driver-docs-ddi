@@ -7,8 +7,8 @@ old-location: netvista\ril_getalladditionalnumberstrings.htm
 old-project: netvista
 ms.assetid: fc0f5a3b-3ab0-4103-85a2-f7b5ce64ec79
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetAllAdditionalNumberStrings, netvista.ril_getalladditionalnumberstrings, RIL_GetAllAdditionalNumberStrings
+ms.date: 2/16/2018
+ms.keywords: RIL_GetAllAdditionalNumberStrings, RIL_GetAllAdditionalNumberStrings method [Network Drivers Starting with Windows Vista], netvista.ril_getalladditionalnumberstrings, rilapi/RIL_GetAllAdditionalNumberStrings
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetAllAdditionalNumberStrings
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

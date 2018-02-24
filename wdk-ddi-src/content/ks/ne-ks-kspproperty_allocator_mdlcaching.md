@@ -7,8 +7,8 @@ old-location: stream\kspproperty_allocator_mdlcaching.htm
 old-project: stream
 ms.assetid: 91BB915F-E964-41D9-8D2A-3D5EF6F5B398
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices], KSPPROPERTY_ALLOCATOR_MDLCACHING, stream.kspproperty_allocator_mdlcaching
+ms.date: 2/20/2018
+ms.keywords: stream.kspproperty_allocator_mdlcaching, ks/KSPPROPERTY_ALLOCATOR_MDLCACHING, ks/KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES, KSPPROPERTY_ALLOCATOR_MDLCACHING, KSPPROPERTY_ALLOCATOR_MDLCACHING enumeration [Streaming Media Devices], KSPROPERTY_ALLOCATOR_CLEANUP_CACHEDMDLPAGES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

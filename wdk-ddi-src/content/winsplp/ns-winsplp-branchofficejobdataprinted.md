@@ -7,8 +7,8 @@ old-location: print\branchofficejobdataprinted.htm
 old-project: print
 ms.assetid: 77737A33-9592-43A3-B12A-5BFDCA0209BE
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: BranchOfficeJobDataPrinted structure [Print Devices], print.branchofficejobdataprinted, BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], winsplp/BranchOfficeJobDataPrinted, winsplp/PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted
+ms.date: 2/21/2018
+ms.keywords: PBranchOfficeJobDataPrinted, print.branchofficejobdataprinted, winsplp/PBranchOfficeJobDataPrinted, PBranchOfficeJobDataPrinted structure pointer [Print Devices], winsplp/BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted structure [Print Devices], BranchOfficeJobDataPrinted
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BranchOfficeJobDataPrinted
 product: Windows
 targetos: Windows
-req.typenames: "*PBranchOfficeJobDataPrinted, BranchOfficeJobDataPrinted"
+req.typenames: BranchOfficeJobDataPrinted, *PBranchOfficeJobDataPrinted
 req.product: Windows 10 or later.
 ---
 

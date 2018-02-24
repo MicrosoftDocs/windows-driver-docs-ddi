@@ -7,7 +7,7 @@ old-location: kernel\adapterlistcontrol.htm
 old-project: kernel
 ms.assetid: 9fb49710-5d8c-4376-9898-7f0ae570ee94
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.adapterlistcontrol, AdapterListControl, AdapterListControl routine [Kernel-Mode Driver Architecture], AdapterListControl, DRIVER_LIST_CONTROL, DRIVER_LIST_CONTROL, wdm/AdapterListControl, DrvrRtns_feb5903f-df38-4471-ab1e-2e6341620774.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

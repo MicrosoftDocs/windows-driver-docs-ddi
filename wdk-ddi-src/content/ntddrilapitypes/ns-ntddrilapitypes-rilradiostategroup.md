@@ -7,8 +7,8 @@ old-location: netvista\rilradiostategroup.htm
 old-project: netvista
 ms.assetid: e3ad8454-0e23-48fd-a6ef-c9257dc4816d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilradiostategroup, RILRADIOSTATEGROUP, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILRADIOSTATEGROUP, *LPRILRADIOSTATEGROUP
+ms.date: 2/16/2018
+ms.keywords: ntddrilapitypes/RILRADIOSTATEGROUP, netvista.rilradiostategroup, RILRADIOSTATEGROUP structure [Network Drivers Starting with Windows Vista], *LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILRADIOSTATEGROUP
 product: Windows
 targetos: Windows
-req.typenames: RILRADIOSTATEGROUP, *LPRILRADIOSTATEGROUP
+req.typenames: "*LPRILRADIOSTATEGROUP, RILRADIOSTATEGROUP"
 ---
 
 # RILRADIOSTATEGROUP structure

@@ -7,7 +7,7 @@ old-location: storage\hwstorresetbus.htm
 old-project: storage
 ms.assetid: fda5291c-dd4e-4aa1-8dac-65cf4c4306ab
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.hwstorresetbus, HwStorResetBus routine [Storage Devices], HwStorResetBus, HW_RESET_BUS, HW_RESET_BUS, storport/HwStorResetBus, stormini_b3051379-4caa-4502-9492-a21672cfbf0d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

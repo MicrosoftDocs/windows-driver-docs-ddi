@@ -7,7 +7,7 @@ old-location: pci\sriov_query_luid_vf.htm
 old-project: PCI
 ms.assetid: 00dddc92-08d1-4eaa-b3de-5e96c7a6d3e0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.sriov_query_luid_vf, SriovQueryLuidVf callback function [Buses], SriovQueryLuidVf, SRIOV_QUERY_LUID_VF, SRIOV_QUERY_LUID_VF, pcivirt/SriovQueryLuidVf, *PSRIOV_QUERY_LUID_VF callback function pointer [Buses], *PSRIOV_QUERY_LUID_VF
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_QUERY_LUID_VF
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_QUERY_LUID_VF callback

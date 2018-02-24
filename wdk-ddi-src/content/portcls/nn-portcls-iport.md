@@ -7,7 +7,7 @@ old-location: audio\iport.htm
 old-project: audio
 ms.assetid: 8aaadfd6-3aca-451b-a5e9-081b083ae51d
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.iport, IPort interface [Audio Devices], IPort interface [Audio Devices], described, IPort, portcls/IPort, audmp-routines_45897b1f-29f6-411d-9963-60f31e1655e7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IPort
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IPort interface
@@ -79,7 +79,7 @@ The <code>IPort</code> interface provides a uniform means for initializing audio
 </dd>
 <dd>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff536905">IPortWavePci</a>
+<a href="..\portcls\nn-portcls-iportwavepci.md">IPortWavePci</a>
 
 
 </dd>

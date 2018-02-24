@@ -7,8 +7,8 @@ old-location: sensors\gnss_event_type.htm
 old-project: sensors
 ms.assetid: BC862E22-992E-497D-B370-97ABE8897728
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_Event_NiRequest, GNSS_Event_BreadcrumbAlertEvent, GNSS_Event_DriverRequest, gnssdriver/GNSS_Event_RequireAgnss, gnssdriver/GNSS_Event_NmeaData, gnssdriver/GNSS_Event_GeofencesTrackingStatus, gnssdriver/GNSS_Event_Custom, GNSS_Event_NmeaData, GNSS_EVENT_TYPE enumeration [Sensor Devices], gnssdriver/GNSS_Event_GeofenceAlertData, GNSS_Event_RequireAgnss, gnssdriver/GNSS_Event_Error, GNSS_Event_FixAvailable, GNSS_Event_GeofencesTrackingStatus, GNSS_Event_Custom, GNSS_Event_Error, sensors.gnss_event_type, GNSS_Event_GeofenceAlertData, gnssdriver/GNSS_Event_FixAvailable, GNSS_EVENT_TYPE, gnssdriver/GNSS_EVENT_TYPE, GNSS_Event_NiRequest, gnssdriver/GNSS_Event_BreadcrumbAlertEvent, gnssdriver/GNSS_Event_DriverRequest
+ms.date: 2/15/2018
+ms.keywords: GNSS_Event_GeofencesTrackingStatus, gnssdriver/GNSS_Event_Error, gnssdriver/GNSS_Event_FixAvailable, gnssdriver/GNSS_Event_DriverRequest, GNSS_Event_FixAvailable, GNSS_Event_BreadcrumbAlertEvent, GNSS_EVENT_TYPE enumeration [Sensor Devices], GNSS_Event_NiRequest, gnssdriver/GNSS_Event_NmeaData, gnssdriver/GNSS_Event_NiRequest, gnssdriver/GNSS_Event_Custom, GNSS_Event_NmeaData, sensors.gnss_event_type, gnssdriver/GNSS_Event_GeofenceAlertData, gnssdriver/GNSS_Event_BreadcrumbAlertEvent, gnssdriver/GNSS_EVENT_TYPE, GNSS_Event_DriverRequest, GNSS_Event_Error, GNSS_Event_GeofenceAlertData, GNSS_Event_RequireAgnss, gnssdriver/GNSS_Event_RequireAgnss, gnssdriver/GNSS_Event_GeofencesTrackingStatus, GNSS_EVENT_TYPE, GNSS_Event_Custom
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -123,6 +123,7 @@ Reserved for future extension. The GNSS driver is requesting some out-of-band in
 ### -field GNSS_Event_BreadcrumbAlertEvent
 
 Reserved for future extension:
+
 <table>
 <tr>
 <td>
@@ -134,12 +135,14 @@ For each new event type, there will be a well-defined IOCTL describing the initi
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ### -field GNSS_Event_Custom
 
 Reserved for vendor-specific custom actions:
+
 <table>
 <tr>
 <td>
@@ -151,12 +154,15 @@ The GNSS driver raises this event as needed. The command and data are packaged i
 
 </td>
 </tr>
-</table> 
+</table>
+ 
 
 
 ## -remarks
 
 
+
 Events can be of various types. Certain events occur as a result of a previous request initiated by the driver, for example, start fix request. Certain events are raised for informational purpose. Assistance events are raised when the driver requires the adapter to inject specific assistance data.
+
 
 

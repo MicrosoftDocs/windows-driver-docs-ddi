@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_openprotectedresourcesession_0030.htm
 old-project: display
 ms.assetid: B71FD65C-5D10-4486-A6F7-C6EF1A4DEF03
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_openprotectedresourcesession_0030, PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030 callback function [Display Devices], PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030, d3d12umddi/PFND3D12DDI_OPENPROTECTEDRESOURCESESSION_0030
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: pcmcia\pcmcia_socket_information.htm
 old-project: PCMCIA
 ms.assetid: 53881aca-e49c-43e9-b68e-b91a1868e3f5
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PCMCIA_SOCKET_INFORMATION structure [Buses], *PPCMCIA_SOCKET_INFORMATION, _PCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION, ntddpcm/PCMCIA_SOCKET_INFORMATION, memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, ntddpcm/PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION, PCMCIA.pcmcia_socket_information, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses]
+ms.date: 2/15/2018
+ms.keywords: PCMCIA_SOCKET_INFORMATION, _PCMCIA_SOCKET_INFORMATION, *PPCMCIA_SOCKET_INFORMATION, PCMCIA_SOCKET_INFORMATION structure [Buses], PPCMCIA_SOCKET_INFORMATION, PPCMCIA_SOCKET_INFORMATION structure pointer [Buses], memcdref_b118ae5c-5dc5-4919-809d-5cfe5b25598f.xml, ntddpcm/PPCMCIA_SOCKET_INFORMATION, ntddpcm/PCMCIA_SOCKET_INFORMATION, PCMCIA.pcmcia_socket_information
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -274,5 +274,5 @@ Indicates the controller type. Some common controller types are defined in the <
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_SOCKET_INFORMATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [PCMCIA\buses]:%20PCMCIA_SOCKET_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

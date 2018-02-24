@@ -7,8 +7,8 @@ old-location: stream\transportaudioparms.htm
 old-project: stream
 ms.assetid: 591ef01a-1a89-454a-ab58-a76813a9d4c2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], PTRANSPORTAUDIOPARMS, tagTRANSPORTAUDIOPARMS, ksmedia/TRANSPORTAUDIOPARMS, stream.transportaudioparms, *PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml, TRANSPORTAUDIOPARMS, ksmedia/PTRANSPORTAUDIOPARMS
+ms.date: 2/20/2018
+ms.keywords: ksmedia/TRANSPORTAUDIOPARMS, ksmedia/PTRANSPORTAUDIOPARMS, PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS, stream.transportaudioparms, TRANSPORTAUDIOPARMS structure [Streaming Media Devices], PTRANSPORTAUDIOPARMS structure pointer [Streaming Media Devices], vidcapstruct_f68139f5-186d-43da-8f9a-45d2af4f782b.xml, *PTRANSPORTAUDIOPARMS, tagTRANSPORTAUDIOPARMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSPORTAUDIOPARMS
 product: Windows
 targetos: Windows
-req.typenames: TRANSPORTAUDIOPARMS, *PTRANSPORTAUDIOPARMS
+req.typenames: "*PTRANSPORTAUDIOPARMS, TRANSPORTAUDIOPARMS"
 ---
 
 # tagTRANSPORTAUDIOPARMS structure

@@ -7,8 +7,8 @@ old-location: netvista\rilcallaudiomediastate_2.htm
 old-project: netvista
 ms.assetid: f15f609d-605b-4f4c-8f57-01c6b426d8b5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE, netvista.rilcallaudiomediastate_2, rilapitypes/RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista]"
+ms.date: 2/16/2018
+ms.keywords: RILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE structure [Network Drivers Starting with Windows Vista], *LPRILCALLAUDIOMEDIASTATE, rilapitypes/RILCALLAUDIOMEDIASTATE, netvista.rilcallaudiomediastate_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCALLAUDIOMEDIASTATE
 product: Windows
 targetos: Windows
-req.typenames: RILCALLAUDIOMEDIASTATE, *LPRILCALLAUDIOMEDIASTATE
+req.typenames: "*LPRILCALLAUDIOMEDIASTATE, RILCALLAUDIOMEDIASTATE"
 req.product: Windows 10 or later.
 ---
 

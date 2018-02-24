@@ -7,7 +7,7 @@ old-location: wdf\iwdfiotargetstatemanagement.htm
 old-project: wdf
 ms.assetid: 6870b6fa-1a90-4a7a-935a-4ce8eda940a1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfiotargetstatemanagement, IWDFIoTargetStateManagement interface, IWDFIoTargetStateManagement interface, described, IWDFIoTargetStateManagement, wudfddi/IWDFIoTargetStateManagement, UMDFIoTargetObjectRef_667496e9-fa1f-4c90-911d-d456ffc3b59e.xml, umdf.iwdfiotargetstatemanagement
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoTargetStateManagement
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

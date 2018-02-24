@@ -7,8 +7,8 @@ old-location: smartcrd\pts_data.htm
 old-project: smartcrd
 ms.assetid: aa542c6f-24f9-4ef4-a425-93905cca976a
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "_PTS_DATA, scstruct_8540d432-b29a-4227-a305-da7aba23a26d.xml, PTS_DATA structure [Smart Card Reader Devices], smartcrd.pts_data, PPTS_DATA, smclib/PPTS_DATA, PTS_DATA, *PPTS_DATA, PPTS_DATA structure pointer [Smart Card Reader Devices], smclib/PTS_DATA"
+ms.date: 2/15/2018
+ms.keywords: PTS_DATA, PPTS_DATA, smclib/PTS_DATA, PTS_DATA structure [Smart Card Reader Devices], *PPTS_DATA, scstruct_8540d432-b29a-4227-a305-da7aba23a26d.xml, PPTS_DATA structure pointer [Smart Card Reader Devices], smclib/PPTS_DATA, smartcrd.pts_data, _PTS_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Any level (See Remarks section)
 topictype:
 -	APIRef
 -	kbSyntax

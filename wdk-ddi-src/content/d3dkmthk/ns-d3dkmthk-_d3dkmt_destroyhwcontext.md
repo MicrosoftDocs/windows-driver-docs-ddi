@@ -7,8 +7,8 @@ old-location: display\d3dkmt_destroyhwcontext.htm
 old-project: display
 ms.assetid: DFFFE90A-C505-466A-B415-AA6C6352421B
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmthk/D3DKMT_DESTROYHWCONTEXT, _D3DKMT_DESTROYHWCONTEXT, D3DKMT_DESTROYHWCONTEXT structure [Display Devices], D3DKMT_DESTROYHWCONTEXT, display.d3dkmt_destroyhwcontext
+ms.date: 2/20/2018
+ms.keywords: D3DKMT_DESTROYHWCONTEXT, D3DKMT_DESTROYHWCONTEXT structure [Display Devices], d3dkmthk/D3DKMT_DESTROYHWCONTEXT, _D3DKMT_DESTROYHWCONTEXT, display.d3dkmt_destroyhwcontext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

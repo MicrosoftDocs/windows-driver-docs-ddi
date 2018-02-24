@@ -7,8 +7,8 @@ old-location: ifsk\fltcancelfileopen.htm
 old-project: ifsk
 ms.assetid: adc1a1fd-ddbc-4ed5-85e3-4d4e85d710b1
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.fltcancelfileopen, FltCancelFileOpen, fltkernel/FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers], FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml
+ms.date: 2/16/2018
+ms.keywords: ifsk.fltcancelfileopen, FltCancelFileOpen, FltApiRef_a_to_d_6000a551-04a6-47d6-b2d8-816decb93d89.xml, fltkernel/FltCancelFileOpen, FltCancelFileOpen routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -114,7 +114,7 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 ## -see-also
 
-<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548630">IRP_MJ_CREATE</a>
 
 
 
@@ -122,7 +122,7 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_post_operation_callback.md">PFLT_POST_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff550720">IRP_MJ_CLOSE</a>
 
 
 
@@ -134,7 +134,7 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltsetcallbackdatadirty.md">FltSetCallbackDataDirty</a>
+<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
 
 
 
@@ -142,7 +142,7 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 
 
-<a href="..\fltkernel\nc-fltkernel-pflt_pre_operation_callback.md">PFLT_PRE_OPERATION_CALLBACK</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff544687">FLT_PARAMETERS for IRP_MJ_CREATE</a>
 
 
 
@@ -154,7 +154,7 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltreissuesynchronousio.md">FltReissueSynchronousIo</a>
+<a href="..\fltkernel\ns-fltkernel-_flt_callback_data.md">FLT_CALLBACK_DATA</a>
 
 
 
@@ -162,5 +162,5 @@ Callers of <b>FltCancelFileOpen</b> must be running at IRQL PASSIVE_LEVEL. Howev
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancelFileOpen routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCancelFileOpen routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

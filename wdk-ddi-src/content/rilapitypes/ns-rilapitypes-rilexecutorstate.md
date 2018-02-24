@@ -7,8 +7,8 @@ old-location: netvista\rilexecutorstate_2.htm
 old-project: netvista
 ms.assetid: 1333c13b-5d39-4143-a7ab-8425528eb4c9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILEXECUTORSTATE, *LPRILEXECUTORSTATE, netvista.rilexecutorstate_2, RILEXECUTORSTATE structure [Network Drivers Starting with Windows Vista], RILEXECUTORSTATE
+ms.date: 2/16/2018
+ms.keywords: RILEXECUTORSTATE structure [Network Drivers Starting with Windows Vista], rilapitypes/RILEXECUTORSTATE, RILEXECUTORSTATE, netvista.rilexecutorstate_2, *LPRILEXECUTORSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILEXECUTORSTATE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILEXECUTORSTATE, RILEXECUTORSTATE"
+req.typenames: RILEXECUTORSTATE, *LPRILEXECUTORSTATE
 req.product: Windows 10 or later.
 ---
 

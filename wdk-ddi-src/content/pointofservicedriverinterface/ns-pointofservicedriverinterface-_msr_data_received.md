@@ -7,8 +7,8 @@ old-location: pos\msr_data_received.htm
 old-project: pos
 ms.assetid: f103724c-25c4-4dec-a7a3-9713440ca833
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: pos.msr_data_received, PMSR_DATA_RECEIVED structure pointer, pointofservicedriverinterface/PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED, *PMSR_DATA_RECEIVED, PMSR_DATA_RECEIVED, _MSR_DATA_RECEIVED, MSR_DATA_RECEIVED structure, pointofservicedriverinterface/MSR_DATA_RECEIVED
+ms.date: 2/19/2018
+ms.keywords: PMSR_DATA_RECEIVED structure pointer, pointofservicedriverinterface/PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED structure, *PMSR_DATA_RECEIVED, _MSR_DATA_RECEIVED, PMSR_DATA_RECEIVED, MSR_DATA_RECEIVED, pointofservicedriverinterface/MSR_DATA_RECEIVED, pos.msr_data_received
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

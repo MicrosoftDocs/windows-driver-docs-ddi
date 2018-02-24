@@ -7,8 +7,8 @@ old-location: wdf\wdfdmatransactiongetrequest.htm
 old-project: wdf
 ms.assetid: 879bae2e-f608-4678-92ae-6100e59b6d52
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfDmaTransactionGetRequest, DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, PFN_WDFDMATRANSACTIONGETREQUEST, wdfdmatransaction/WdfDmaTransactionGetRequest, WdfDmaTransactionGetRequest method, wdf.wdfdmatransactiongetrequest, kmdf.wdfdmatransactiongetrequest
+ms.date: 2/20/2018
+ms.keywords: WdfDmaTransactionGetRequest method, wdf.wdfdmatransactiongetrequest, DFDmaObjectRef_2564dedd-7db9-4c5d-905d-0939dc8cf24b.xml, wdfdmatransaction/WdfDmaTransactionGetRequest, kmdf.wdfdmatransactiongetrequest, WdfDmaTransactionGetRequest
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -135,5 +135,5 @@ request = WdfDmaTransactionGetRequest(dmaTransaction);</pre>
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaTransactionGetRequest method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfDmaTransactionGetRequest method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

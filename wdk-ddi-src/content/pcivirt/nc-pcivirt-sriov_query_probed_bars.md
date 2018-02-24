@@ -7,7 +7,7 @@ old-location: pci\sriov_query_probed_bars.htm
 old-project: PCI
 ms.assetid: 422a9212-7227-4508-8f06-0056349fa835
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.sriov_query_probed_bars, SriovQueryProbedBars callback function [Buses], SriovQueryProbedBars, SRIOV_QUERY_PROBED_BARS, SRIOV_QUERY_PROBED_BARS, pcivirt/SriovQueryProbedBars, *PSRIOV_QUERY_PROBED_BARS callback function pointer [Buses], *PSRIOV_QUERY_PROBED_BARS
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_QUERY_PROBED_BARS
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_QUERY_PROBED_BARS callback

@@ -7,8 +7,8 @@ old-location: kernel\rtlulonglongtoshort.htm
 old-project: kernel
 ms.assetid: AACFF147-43FE-4DBD-A809-E68E4EB89AC5
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.rtlulonglongtoshort, ntintsafe/RtlULongLongToShort, RtlULongLongToShort function [Kernel-Mode Driver Architecture], RtlULongLongToShort
+ms.date: 2/16/2018
+ms.keywords: kernel.rtlulonglongtoshort, RtlULongLongToShort function [Kernel-Mode Driver Architecture], ntintsafe/RtlULongLongToShort, RtlULongLongToShort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

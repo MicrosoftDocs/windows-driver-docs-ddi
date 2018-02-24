@@ -4,11 +4,11 @@ title: IStiDevice::DeviceReset method
 author: windows-driver-content
 description: The IStiDevice::DeviceReset method resets a still image device to a known state.
 old-location: image\istidevice_devicereset.htm
-old-project: image
+old-project: Image
 ms.assetid: 8a52c452-9a80-45d5-9bc8-85e17654eb6a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DeviceReset, DeviceReset method [Imaging Devices], IStiDevice interface [Imaging Devices], DeviceReset method, IStiDevice::DeviceReset, image.istidevice_devicereset, sti/IStiDevice::DeviceReset, IStiDevice, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml, DeviceReset method [Imaging Devices], IStiDevice interface
+ms.date: 2/15/2018
+ms.keywords: DeviceReset, sti/IStiDevice::DeviceReset, IStiDevice::DeviceReset, stifnc_ef289b1a-3123-4e1e-b643-688a10e69e36.xml, IStiDevice interface [Imaging Devices], DeviceReset method, IStiDevice, image.istidevice_devicereset, DeviceReset method [Imaging Devices], IStiDevice interface, DeviceReset method [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

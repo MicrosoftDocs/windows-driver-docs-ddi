@@ -4,11 +4,11 @@ title: UcxEndpointCreate function
 author: windows-driver-content
 description: Creates an endpoint on the specified USB device object.
 old-location: buses\_ucxendpointcreate.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 2BB3B2CE-FD15-4D28-BBDA-29C3BB523874
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: UcxEndpointCreate method [Buses], ucxendpoint/UcxEndpointCreate, UcxEndpointCreate, buses._ucxendpointcreate
+ms.date: 2/15/2018
+ms.keywords: UcxEndpointCreate, ucxendpoint/UcxEndpointCreate, buses._ucxendpointcreate, UcxEndpointCreate method [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

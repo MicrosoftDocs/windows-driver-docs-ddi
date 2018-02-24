@@ -7,8 +7,8 @@ old-location: netvista\wsk_provider_npi.htm
 old-project: netvista
 ms.assetid: 471689f4-d1f6-4785-82df-313fe2ca627a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PWSK_PROVIDER_NPI, WSK_PROVIDER_NPI, *PWSK_PROVIDER_NPI, _WSK_PROVIDER_NPI, wsk/WSK_PROVIDER_NPI, wsk/PWSK_PROVIDER_NPI, wskref_cbed200a-9ed1-4cd6-b6be-220799cbae1c.xml, netvista.wsk_provider_npi, WSK_PROVIDER_NPI structure [Network Drivers Starting with Windows Vista], PWSK_PROVIDER_NPI structure pointer [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: wskref_cbed200a-9ed1-4cd6-b6be-220799cbae1c.xml, PWSK_PROVIDER_NPI structure pointer [Network Drivers Starting with Windows Vista], WSK_PROVIDER_NPI, WSK_PROVIDER_NPI structure [Network Drivers Starting with Windows Vista], wsk/PWSK_PROVIDER_NPI, *PWSK_PROVIDER_NPI, wsk/WSK_PROVIDER_NPI, PWSK_PROVIDER_NPI, netvista.wsk_provider_npi, _WSK_PROVIDER_NPI
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_PROVIDER_NPI
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_PROVIDER_NPI, WSK_PROVIDER_NPI"
+req.typenames: WSK_PROVIDER_NPI, *PWSK_PROVIDER_NPI
 req.product: Windows 10 or later.
 ---
 
@@ -98,7 +98,7 @@ A pointer to a constant
 
 
 
-<a href="..\wsk\ns-wsk-_wsk_provider_dispatch.md">WSK_PROVIDER_DISPATCH</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff571155">WSK_CLIENT</a>
 
 
 
@@ -106,5 +106,5 @@ A pointer to a constant
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_PROVIDER_NPI structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_PROVIDER_NPI structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

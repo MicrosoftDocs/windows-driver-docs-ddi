@@ -7,8 +7,8 @@ old-location: ifsk\fltqueryvolumeinformationfile.htm
 old-project: ifsk
 ms.assetid: 3f93ce0a-f1f0-4b5b-aaf3-ce6698eb5055
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FileFsVolumeInformation, FileFsSectorSizeInformation, FileFsObjectIdInformation, ifsk.fltqueryvolumeinformationfile, FileFsSizeInformation, FltQueryVolumeInformationFile, FileFsFullSizeInformation, fltkernel/FltQueryVolumeInformationFile, FltQueryVolumeInformationFile function [Installable File System Drivers], FileFsDriverPathInformation, FileFsDeviceInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, FileFsControlInformation, FileFsAttributeInformation
+ms.date: 2/16/2018
+ms.keywords: FileFsAttributeInformation, FileFsControlInformation, FltQueryVolumeInformationFile function [Installable File System Drivers], FileFsFullSizeInformation, FileFsDriverPathInformation, FltApiRef_p_to_z_b2a51db8-6931-46c6-84ba-eb29097ac89e.xml, fltkernel/FltQueryVolumeInformationFile, FileFsDeviceInformation, FileFsObjectIdInformation, FileFsSizeInformation, ifsk.fltqueryvolumeinformationfile, FileFsVolumeInformation, FileFsSectorSizeInformation, FltQueryVolumeInformationFile
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -243,27 +243,11 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 ## -see-also
 
-<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
-
-
-
-<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
-
-
-
-<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
-
-
-
 <a href="..\ntddk\ns-ntddk-_file_fs_volume_information.md">FILE_FS_VOLUME_INFORMATION</a>
 
 
 
-<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
+<a href="..\ntifs\ns-ntifs-_file_fs_control_information.md">FILE_FS_CONTROL_INFORMATION</a>
 
 
 
@@ -275,7 +259,7 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 
 
-<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+<a href="..\ntddk\ns-ntddk-_file_fs_full_size_information.md">FILE_FS_FULL_SIZE_INFORMATION</a>
 
 
 
@@ -283,9 +267,25 @@ If the <i>FileObject</i> represents a direct device open, only <i>FileFsDeviceIn
 
 
 
- 
+<b>FILE_FS_SECTOR_SIZE_INFORMATION</b>
+
+
+
+<a href="..\ntifs\ns-ntifs-_file_fs_driver_path_information.md">FILE_FS_DRIVER_PATH_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_size_information.md">FILE_FS_SIZE_INFORMATION</a>
+
+
+
+<a href="..\ntddk\ns-ntddk-_file_fs_objectid_information.md">FILE_FS_OBJECTID_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryVolumeInformationFile function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltQueryVolumeInformationFile function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

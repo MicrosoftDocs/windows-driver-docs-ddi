@@ -7,8 +7,8 @@ old-location: stream\bda_cas_closemmidata.htm
 old-project: stream
 ms.assetid: D1AA47FB-A419-4B25-89A8-7481630B108A
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.bda_cas_closemmidata, BDA_CAS_CLOSEMMIDATA, BDA_CAS_CLOSEMMIDATA structure [Streaming Media Devices], bdatypes/BDA_CAS_CLOSEMMIDATA, _BDA_CAS_CLOSEMMIDATA, PBDA_CAS_CLOSEMMIDATA structure pointer [Streaming Media Devices], PBDA_CAS_CLOSEMMIDATA, *PBDA_CAS_CLOSEMMIDATA, bdatypes/PBDA_CAS_CLOSEMMIDATA
+ms.date: 2/20/2018
+ms.keywords: "_BDA_CAS_CLOSEMMIDATA, PBDA_CAS_CLOSEMMIDATA, BDA_CAS_CLOSEMMIDATA, PBDA_CAS_CLOSEMMIDATA structure pointer [Streaming Media Devices], *PBDA_CAS_CLOSEMMIDATA, bdatypes/PBDA_CAS_CLOSEMMIDATA, bdatypes/BDA_CAS_CLOSEMMIDATA, BDA_CAS_CLOSEMMIDATA structure [Streaming Media Devices], stream.bda_cas_closemmidata"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

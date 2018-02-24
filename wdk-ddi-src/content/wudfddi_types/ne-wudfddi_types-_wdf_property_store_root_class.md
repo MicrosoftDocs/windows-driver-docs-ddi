@@ -7,8 +7,8 @@ old-location: wdf\wdf_property_store_root_class.htm
 old-project: wdf
 ms.assetid: f26732a7-54b5-4573-ac4f-7b2b6c8db8b0
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfPropertyStoreRootClassHardwareKey, umdf.wdf_property_store_root_class, WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml, WdfPropertyStoreRootClassSoftwareKey, wdf.wdf_property_store_root_class, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, _WDF_PROPERTY_STORE_ROOT_CLASS, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, WdfPropertyStoreRootClassLegacyHardwareKey
+ms.date: 2/20/2018
+ms.keywords: umdf.wdf_property_store_root_class, WdfPropertyStoreRootClassLegacyHardwareKey, wdf.wdf_property_store_root_class, WDF_PROPERTY_STORE_ROOT_CLASS enumeration, wudfddi_types/WdfPropertyStoreRootClassLegacyHardwareKey, _WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassSoftwareKey, wudfddi_types/WDF_PROPERTY_STORE_ROOT_CLASS, wudfddi_types/WdfPropertyStoreRootClassDeviceInterfaceKey, WDF_PROPERTY_STORE_ROOT_CLASS, WdfPropertyStoreRootClassSoftwareKey, WdfPropertyStoreRootClassDeviceInterfaceKey, wudfddi_types/WdfPropertyStoreRootClassHardwareKey, WdfPropertyStoreRootClassHardwareKey, umdfstructs_4dbaed0a-3a72-4a4c-877e-83176cce54d6.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -112,5 +112,5 @@ The <b>WDF_PROPERTY_STORE_ROOT_CLASS</b> enumeration is used in the <a href="..\
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PROPERTY_STORE_ROOT_CLASS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PROPERTY_STORE_ROOT_CLASS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,7 +7,7 @@ old-location: audio\imxf.htm
 old-project: audio
 ms.assetid: 97e24c86-a97d-42ed-9402-4c387c7cec5b
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.imxf, IMXF interface [Audio Devices], IMXF interface [Audio Devices], described, IMXF, dmusicks/IMXF, audmp-routines_41562676-678d-48c5-8a19-2c8699420a51.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

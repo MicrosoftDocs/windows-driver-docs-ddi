@@ -7,13 +7,13 @@ old-location: kernel\group_affinity.htm
 old-project: kernel
 ms.assetid: 8a6fd914-94f9-4ccf-9b0a-cc102fd90965
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, _GROUP_AFFINITY, miniport/GROUP_AFFINITY, kernel.group_affinity, miniport/PGROUP_AFFINITY, GROUP_AFFINITY, *PGROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], PGROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: GROUP_AFFINITY, PGROUP_AFFINITY structure pointer [Kernel-Mode Driver Architecture], *PGROUP_AFFINITY, miniport/GROUP_AFFINITY, GROUP_AFFINITY structure [Kernel-Mode Driver Architecture], miniport/PGROUP_AFFINITY, PGROUP_AFFINITY, _GROUP_AFFINITY, kstruct_b_9d437322-c6bb-4579-8d7b-144a7513bbd9.xml, kernel.group_affinity
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: miniport.h
-req.include-header: Winnt.h, Ntdef.h, Windef.h
+req.include-header: Winnt.h, Ntdef.h, Windef.h, Minitape.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported in Windows 7 and later versions of Windows.
 req.target-min-winversvr: 
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: "<= APC_LEVEL"
+req.irql: Any level (see Remarks section)
 topictype:
 -	APIRef
 -	kbSyntax
@@ -40,7 +40,7 @@ apiname:
 -	GROUP_AFFINITY
 product: Windows
 targetos: Windows
-req.typenames: "*PGROUP_AFFINITY, GROUP_AFFINITY"
+req.typenames: GROUP_AFFINITY, *PGROUP_AFFINITY
 ---
 
 # _GROUP_AFFINITY structure
@@ -99,6 +99,10 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 ## -see-also
 
+<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
+
+
+
 <a href="..\wdm\nf-wdm-kesetsystemgroupaffinitythread.md">KeSetSystemGroupAffinityThread</a>
 
 
@@ -111,13 +115,9 @@ A <b>GROUP_AFFINITY</b> structure can describe an interrupt affinity, which is a
 
 
 
-<a href="..\wdm\nf-wdm-kereverttousergroupaffinitythread.md">KeRevertToUserGroupAffinityThread</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20GROUP_AFFINITY structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20GROUP_AFFINITY structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

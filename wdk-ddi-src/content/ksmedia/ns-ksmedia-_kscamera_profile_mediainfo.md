@@ -7,8 +7,8 @@ old-location: stream\kscamera_profile_mediainfo.htm
 old-project: stream
 ms.assetid: 55B9F032-A3F5-434E-9EB6-CB832DC0EB45
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: PKSCAMERA_PROFILE_MEDIAINFO, _KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices], *PKSCAMERA_PROFILE_MEDIAINFO, ksmedia/KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, ksmedia/PKSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices], stream.kscamera_profile_mediainfo
+ms.date: 2/20/2018
+ms.keywords: PKSCAMERA_PROFILE_MEDIAINFO structure pointer [Streaming Media Devices], *PKSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO, PKSCAMERA_PROFILE_MEDIAINFO, stream.kscamera_profile_mediainfo, ksmedia/PKSCAMERA_PROFILE_MEDIAINFO, ksmedia/KSCAMERA_PROFILE_MEDIAINFO, _KSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO structure [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSCAMERA_PROFILE_MEDIAINFO
 product: Windows
 targetos: Windows
-req.typenames: KSCAMERA_PROFILE_MEDIAINFO, *PKSCAMERA_PROFILE_MEDIAINFO
+req.typenames: "*PKSCAMERA_PROFILE_MEDIAINFO, KSCAMERA_PROFILE_MEDIAINFO"
 ---
 
 # _KSCAMERA_PROFILE_MEDIAINFO structure
@@ -84,31 +84,11 @@ typedef struct _KSCAMERA_PROFILE_MEDIAINFO {
 The X (horizontal) and Y (vertical) frame size in pixels.
 
 
-### -field Resolution.X
-
- 
-
-
-### -field Resolution.Y
-
- 
-
-
 ### -field MaxFrameRate
 
 The numerator/denominator ratio of frame rate (for example, 30 / 1 = 30fps).  This frame rate represents the maximum frame rate of the specified resolution under ideal lighting conditions.  Actual frame rate may be lower than this value.
 
 For photo media information, if photo sequence cannot be enabled because of hardware constraints for the given photo resolution, the frame rate must be set to 0 (numerator=0, denominator=0).  This will inform the application layer that photo sequence control will be rejected by the driver when that particular photo media type is selected.
-
-
-### -field MaxFrameRate.Numerator
-
- 
-
-
-### -field MaxFrameRate.Denominator
-
- 
 
 
 ### -field Flags

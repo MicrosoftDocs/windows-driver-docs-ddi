@@ -7,8 +7,8 @@ old-location: netvista\rilregstatusinfo_2.htm
 old-project: netvista
 ms.assetid: 6f5a96c2-03c3-4a44-b351-188aa39e9817
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILREGSTATUSINFO, *LPRILREGSTATUSINFO, netvista.rilregstatusinfo_2, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista], rilapitypes/RILREGSTATUSINFO
+ms.date: 2/16/2018
+ms.keywords: rilapitypes/RILREGSTATUSINFO, netvista.rilregstatusinfo_2, RILREGSTATUSINFO, *LPRILREGSTATUSINFO, RILREGSTATUSINFO structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

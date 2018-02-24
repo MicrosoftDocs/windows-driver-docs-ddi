@@ -4,11 +4,11 @@ title: IDebugSymbols3::RemoveSyntheticModule method
 author: windows-driver-content
 description: The RemoveSyntheticModule method removes a synthetic module from the module list the debugger maintains for the current process.
 old-location: debugger\removesyntheticmodule.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 951b42b6-4d6a-45af-a27f-6e8056676bb0
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule, IDebugSymbols3, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml, debugger.removesyntheticmodule, dbgeng/IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols3::RemoveSyntheticModule
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols3::RemoveSyntheticModule, IDebugSymbols3 interface [Windows Debugging], RemoveSyntheticModule method, debugger.removesyntheticmodule, RemoveSyntheticModule method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols3, RemoveSyntheticModule method [Windows Debugging], RemoveSyntheticModule, IDebugSymbols_f1ed1ce4-53ad-469f-9ab8-17900b6870e8.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols3.RemoveSyntheticModule
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols3::RemoveSyntheticModule method
@@ -124,11 +124,11 @@ For more information about synthetic modules, see Synthetic Modules.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554542">RemoveSyntheticSymbol</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537937">AddSyntheticModule</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -140,5 +140,5 @@ For more information about synthetic modules, see Synthetic Modules.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols3::RemoveSyntheticModule method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols3::RemoveSyntheticModule method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

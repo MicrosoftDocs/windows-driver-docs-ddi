@@ -7,8 +7,8 @@ old-location: storage\scsiportquerysystemtime.htm
 old-project: storage
 ms.assetid: 6f6afe6d-8f57-4c08-97ea-b327622a4e39
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ScsiPortQuerySystemTime routine [Storage Devices], scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, storage.scsiportquerysystemtime, srb/ScsiPortQuerySystemTime, ScsiPortQuerySystemTime
+ms.date: 2/16/2018
+ms.keywords: ScsiPortQuerySystemTime, storage.scsiportquerysystemtime, scsiprt_033d0cc3-e930-448b-a13e-b140829d2b7d.xml, ScsiPortQuerySystemTime routine [Storage Devices], srb/ScsiPortQuerySystemTime
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -41,7 +41,7 @@ apiname:
 -	ScsiPortQuerySystemTime
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 

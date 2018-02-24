@@ -7,8 +7,8 @@ old-location: stream\ksallocatedefaultclockex.htm
 old-project: stream
 ms.assetid: cad04f59-5312-4241-9524-aeabc27df92d
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KsAllocateDefaultClockEx function [Streaming Media Devices], ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, stream.ksallocatedefaultclockex, ks/KsAllocateDefaultClockEx, KsAllocateDefaultClockEx
+ms.date: 2/20/2018
+ms.keywords: ksfunc_bace76db-468b-4d8e-bbc4-5a64f238308f.xml, ks/KsAllocateDefaultClockEx, KsAllocateDefaultClockEx, stream.ksallocatedefaultclockex, KsAllocateDefaultClockEx function [Streaming Media Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -96,7 +96,7 @@ Optionally contains a pointer to a driver-defined <a href="https://msdn.microsof
 
 ### -param CorrelatedTime [in, optional]
 
-Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
+Optionally contains a pointer to a driver-defined <a href="https://msdn.microsoft.com/library/windows/hardware/ff567167">KStrCorrelatedTime</a> function to retrieve both the Presentation and Physical Time in a correlated manner. This allows the clock owner to completely determine the current time. Pass <b>NULL</b> if the default <a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a> function is to be used to regulate time progression.
 
 
 ### -param Resolution [in, optional]
@@ -133,7 +133,7 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
-<a href="..\ks\nf-ks-ksallocatedefaultclock.md">KsAllocateDefaultClock</a>
+<a href="..\ks\nf-ks-ksfreedefaultclock.md">KsFreeDefaultClock</a>
 
 
 
@@ -141,7 +141,7 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff567203">KStrSetTimer</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff567156">KStrCancelTimer</a>
 
 
 
@@ -153,5 +153,5 @@ The internal DefaultClock.ReferenceCount element is initialized to one by the <a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateDefaultClockEx function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsAllocateDefaultClockEx function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,13 +7,13 @@ old-location: kernel\write_register_buffer_uchar.htm
 old-project: kernel
 ms.assetid: 4cb90f37-c7ce-4f78-9e68-cbe4aaf6ea72
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/WRITE_REGISTER_BUFFER_UCHAR, WRITE_REGISTER_BUFFER_UCHAR, k103_29b68153-db95-4017-ab96-d05e6c984503.xml, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], kernel.write_register_buffer_uchar
+ms.date: 2/16/2018
+ms.keywords: kernel.write_register_buffer_uchar, WRITE_REGISTER_BUFFER_UCHAR routine [Kernel-Mode Driver Architecture], WRITE_REGISTER_BUFFER_UCHAR, wdm/WRITE_REGISTER_BUFFER_UCHAR, k103_29b68153-db95-4017-ab96-d05e6c984503.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
 req.target-type: Universal
 req.target-min-winverclnt: Available starting with Windows 2000.
 req.target-min-winversvr: 

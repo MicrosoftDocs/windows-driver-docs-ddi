@@ -7,8 +7,8 @@ old-location: sd\sdcmd_descriptor.htm
 old-project: SD
 ms.assetid: 7c49c394-d0b3-4594-a623-0a13825bdcec
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
-ms.keywords: SDCMD_DESCRIPTOR, sddef/SDCMD_DESCRIPTOR, _SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR, sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, PSDCMD_DESCRIPTOR structure pointer [Buses], SDCMD_DESCRIPTOR structure [Buses], sddef/PSDCMD_DESCRIPTOR, SD.sdcmd_descriptor, PSDCMD_DESCRIPTOR
+ms.date: 2/15/2018
+ms.keywords: SD.sdcmd_descriptor, sddef/PSDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR structure pointer [Buses], SDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR structure [Buses], sd-structs_20a7faa8-4e91-49cc-94eb-13bd584a25a3.xml, sddef/SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR, _SDCMD_DESCRIPTOR, PSDCMD_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -135,23 +135,12 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
 
 
 
@@ -167,9 +156,29 @@ If a driver submits a command request without properly initializing the <b>Trans
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538045">SD_TRANSFER_TYPE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538003">SD_COMMAND_CLASS</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538008">SD_COMMAND_CODE</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537909">SdBusSubmitRequest</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff538025">SD_RESPONSE_TYPE</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SDCMD_DESCRIPTOR structure%20 RELEASE:%20(12/18/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SD\buses]:%20SDCMD_DESCRIPTOR structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

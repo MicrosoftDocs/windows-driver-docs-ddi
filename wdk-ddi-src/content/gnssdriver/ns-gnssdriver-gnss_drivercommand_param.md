@@ -7,8 +7,8 @@ old-location: sensors\gnss_drivercommand_param.htm
 old-project: sensors
 ms.assetid: EC6EDD7A-B57F-4350-9EB9-56721EAC19BD
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], sensors.gnss_drivercommand_param, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], gnssdriver/PGNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM
+ms.date: 2/15/2018
+ms.keywords: gnssdriver/PGNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM, sensors.gnss_drivercommand_param, PGNSS_DRIVERCOMMAND_PARAM structure pointer [Sensor Devices], GNSS_DRIVERCOMMAND_PARAM structure [Sensor Devices], GNSS_DRIVERCOMMAND_PARAM, PGNSS_DRIVERCOMMAND_PARAM, gnssdriver/GNSS_DRIVERCOMMAND_PARAM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_DRIVERCOMMAND_PARAM
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_DRIVERCOMMAND_PARAM, GNSS_DRIVERCOMMAND_PARAM"
+req.typenames: GNSS_DRIVERCOMMAND_PARAM, *PGNSS_DRIVERCOMMAND_PARAM
 ---
 
 # GNSS_DRIVERCOMMAND_PARAM structure
@@ -110,6 +110,7 @@ Size of the configuration data being sent to the driver.
 ### -field CommandData
 
  
+
 
 
 

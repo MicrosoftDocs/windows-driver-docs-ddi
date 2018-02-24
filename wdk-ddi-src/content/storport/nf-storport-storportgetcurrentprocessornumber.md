@@ -7,8 +7,8 @@ old-location: storage\storportgetcurrentprocessornumber.htm
 old-project: storage
 ms.assetid: 10d77823-fcaa-43c3-b55e-74f2da97ecf0
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: StorPortGetCurrentProcessorNumber, storage.storportgetcurrentprocessornumber, storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml, StorPortGetCurrentProcessorNumber routine [Storage Devices], storport/StorPortGetCurrentProcessorNumber
+ms.date: 2/16/2018
+ms.keywords: storprt_ac4d7e8b-eeb7-4b10-9c9e-cfe9acfddb24.xml, StorPortGetCurrentProcessorNumber routine [Storage Devices], StorPortGetCurrentProcessorNumber, storage.storportgetcurrentprocessornumber, storport/StorPortGetCurrentProcessorNumber
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

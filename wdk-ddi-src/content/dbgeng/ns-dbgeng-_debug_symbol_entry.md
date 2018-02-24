@@ -4,11 +4,11 @@ title: "_DEBUG_SYMBOL_ENTRY"
 author: windows-driver-content
 description: The DEBUG_SYMBOL_ENTRY structure describes a symbol in a symbol group.
 old-location: debugger\debug_symbol_entry.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 31ffab25-ec34-42ff-bdde-c98fef003bfc
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], PDEBUG_SYMBOL_ENTRY, Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, debugger.debug_symbol_entry, _DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY, dbgeng/PDEBUG_SYMBOL_ENTRY, dbgeng/DEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], *PDEBUG_SYMBOL_ENTRY
+ms.date: 2/15/2018
+ms.keywords: dbgeng/DEBUG_SYMBOL_ENTRY, _DEBUG_SYMBOL_ENTRY, PDEBUG_SYMBOL_ENTRY structure pointer [Windows Debugging], PDEBUG_SYMBOL_ENTRY, dbgeng/PDEBUG_SYMBOL_ENTRY, DEBUG_SYMBOL_ENTRY structure [Windows Debugging], Structures_5673550e-274a-429f-9a31-88e401bca68e.xml, DEBUG_SYMBOL_ENTRY, *PDEBUG_SYMBOL_ENTRY, debugger.debug_symbol_entry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,5 +152,5 @@ Set to zero.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20DEBUG_SYMBOL_ENTRY structure%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20DEBUG_SYMBOL_ENTRY structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

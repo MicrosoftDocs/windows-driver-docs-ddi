@@ -7,8 +7,8 @@ old-location: acpi\lpi_state_descriptor.htm
 old-project: acpi
 ms.assetid: B52012DB-922A-43A2-A175-7F7887C290F1
 ms.author: windowsdriverdev
-ms.date: 12/31/2017
-ms.keywords: LPI_STATE_DESCRIPTOR, PLPI_STATE_DESCRIPTOR structure pointer [ACPI Devices], PLPI_STATE_DESCRIPTOR, acpitabl/LPI_STATE_DESCRIPTOR, acpi.lpi_state_descriptor, LPI_STATE_DESCRIPTOR structure [ACPI Devices], *PLPI_STATE_DESCRIPTOR, acpitabl/PLPI_STATE_DESCRIPTOR, _LPI_STATE_DESCRIPTOR
+ms.date: 2/15/2018
+ms.keywords: LPI_STATE_DESCRIPTOR, PLPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR, acpi.lpi_state_descriptor, acpitabl/LPI_STATE_DESCRIPTOR, acpitabl/PLPI_STATE_DESCRIPTOR, _LPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR structure [ACPI Devices], PLPI_STATE_DESCRIPTOR structure pointer [ACPI Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	LPI_STATE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PLPI_STATE_DESCRIPTOR, LPI_STATE_DESCRIPTOR"
+req.typenames: LPI_STATE_DESCRIPTOR, *PLPI_STATE_DESCRIPTOR
 ---
 
 # _LPI_STATE_DESCRIPTOR structure

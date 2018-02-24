@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_numberofentries.htm
 old-project: audio
 ms.assetid: cb882170-5c8e-455d-89a6-b09ca77e63fb
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: audio.iresourcelist_numberofentries, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, IResourceList::NumberOfEntries, IResourceList interface [Audio Devices], NumberOfEntries method, NumberOfEntries, IResourceList, NumberOfEntries method [Audio Devices], portcls/IResourceList::NumberOfEntries, NumberOfEntries method [Audio Devices], IResourceList interface
+ms.date: 2/21/2018
+ms.keywords: NumberOfEntries method [Audio Devices], IResourceList interface, audmp-routines_65fc1416-83e5-4cb6-b362-3133affd5448.xml, IResourceList, IResourceList::NumberOfEntries, portcls/IResourceList::NumberOfEntries, NumberOfEntries method [Audio Devices], audio.iresourcelist_numberofentries, IResourceList interface [Audio Devices], NumberOfEntries method, NumberOfEntries
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.NumberOfEntries
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IResourceList::NumberOfEntries method

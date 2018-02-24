@@ -7,8 +7,8 @@ old-location: display\dxgkarg_getmultiplaneoverlaycaps.htm
 old-project: display
 ms.assetid: 4792107C-BAAA-48B5-AC9A-829C05795303
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKARG_GETMULTIPLANEOVERLAYCAPS, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS, _DXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps
+ms.date: 2/20/2018
+ms.keywords: DXGKARG_GETMULTIPLANEOVERLAYCAPS, _DXGKARG_GETMULTIPLANEOVERLAYCAPS, *IN_OUT_PDXGKARG_GETMULTIPLANEOVERLAYCAPS, display.dxgkarg_getmultiplaneoverlaycaps, DXGKARG_GETMULTIPLANEOVERLAYCAPS structure [Display Devices], d3dkmddi/DXGKARG_GETMULTIPLANEOVERLAYCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

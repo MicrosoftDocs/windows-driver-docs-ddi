@@ -7,8 +7,8 @@ old-location: display\dxgkarg_updatehwcontextstate.htm
 old-project: display
 ms.assetid: 39BF7EBF-DD13-41F0-9F54-78E5D82CAB4F
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate, _DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: DXGKARG_UPDATEHWCONTEXTSTATE structure [Display Devices], _DXGKARG_UPDATEHWCONTEXTSTATE, display.dxgkarg_updatehwcontextstate, d3dkmddi/DXGKARG_UPDATEHWCONTEXTSTATE, DXGKARG_UPDATEHWCONTEXTSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

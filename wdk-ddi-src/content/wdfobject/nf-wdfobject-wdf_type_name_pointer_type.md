@@ -7,8 +7,8 @@ old-location: wdf\wdf_type_name_pointer_type.htm
 old-project: wdf
 ms.assetid: 71e219ff-3ed7-4eb1-bcd7-749b947a9aef
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfobject/WDF_TYPE_NAME_POINTER_TYPE, wdf.wdf_type_name_pointer_type, DFGenObjectRef_07b4c582-4483-4faa-862c-4b92d075289d.xml, WDF_TYPE_NAME_POINTER_TYPE, kmdf.wdf_type_name_pointer_type, WDF_TYPE_NAME_POINTER_TYPE macro
+ms.date: 2/20/2018
+ms.keywords: wdfobject/WDF_TYPE_NAME_POINTER_TYPE, WDF_TYPE_NAME_POINTER_TYPE macro, wdf.wdf_type_name_pointer_type, kmdf.wdf_type_name_pointer_type, WDF_TYPE_NAME_POINTER_TYPE, DFGenObjectRef_07b4c582-4483-4faa-862c-4b92d075289d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro

@@ -7,8 +7,8 @@ old-location: print\deleteprinteric.htm
 old-project: print
 ms.assetid: 8D79AB9D-02BB-4032-AC5D-9099A672382F
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: DeletePrinterIC, DeletePrinterIC function [Print Devices], winsplp/DeletePrinterIC, print.deleteprinteric
+ms.date: 2/21/2018
+ms.keywords: print.deleteprinteric, winsplp/DeletePrinterIC, DeletePrinterIC, DeletePrinterIC function [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

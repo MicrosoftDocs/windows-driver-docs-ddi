@@ -7,7 +7,7 @@ old-location: wdf\iremoteinterfacecallbackremoval.htm
 old-project: wdf
 ms.assetid: f4cbad57-922f-4265-b436-847feeca853c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iremoteinterfacecallbackremoval, IRemoteInterfaceCallbackRemoval interface, IRemoteInterfaceCallbackRemoval interface, described, IRemoteInterfaceCallbackRemoval, wudfddi/IRemoteInterfaceCallbackRemoval, UMDFIoTargetObjectRef_7eeb5a11-5f99-4b2c-a36f-0fd72466e278.xml, umdf.iremoteinterfacecallbackremoval
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IRemoteInterfaceCallbackRemoval
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

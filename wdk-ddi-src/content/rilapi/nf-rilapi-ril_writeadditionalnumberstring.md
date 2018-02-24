@@ -7,8 +7,8 @@ old-location: netvista\ril_writeadditionalnumberstring.htm
 old-project: netvista
 ms.assetid: 9ddf148b-7d36-4a95-a866-57e26220a549
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_WriteAdditionalNumberString, netvista.ril_writeadditionalnumberstring, rilapi/RIL_WriteAdditionalNumberString, RIL_WriteAdditionalNumberString method [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RIL_WriteAdditionalNumberString, RIL_WriteAdditionalNumberString method [Network Drivers Starting with Windows Vista], netvista.ril_writeadditionalnumberstring, rilapi/RIL_WriteAdditionalNumberString
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_WriteAdditionalNumberString
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

@@ -7,8 +7,8 @@ old-location: stream\ksmapmodulename.htm
 old-project: stream
 ms.assetid: 3223a1bb-ab6c-45d7-9f9a-367a3aa7d465
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ksfunc_76aec7fa-5e31-46d7-b94d-d7bccac7c3cd.xml, ks/KsMapModuleName, stream.ksmapmodulename, KsMapModuleName function [Streaming Media Devices], KsMapModuleName
+ms.date: 2/20/2018
+ms.keywords: KsMapModuleName function [Streaming Media Devices], stream.ksmapmodulename, ksfunc_76aec7fa-5e31-46d7-b94d-d7bccac7c3cd.xml, KsMapModuleName, ks/KsMapModuleName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,5 +116,5 @@ Pointer to a location into which the function returns the value type of the spec
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsMapModuleName function%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KsMapModuleName function%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

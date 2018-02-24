@@ -7,8 +7,8 @@ old-location: stream\ks_framing_item.htm
 old-project: stream
 ms.assetid: cd7d4ef7-f8ad-467f-aa5b-28b131941094
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: stream.ks_framing_item, ks/PKS_FRAMING_ITEM, KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, KSALLOCATOR_FLAG_CAN_ALLOCATE, KS_FRAMING_ITEM structure [Streaming Media Devices], KS_FRAMING_ITEM, ks/KS_FRAMING_ITEM, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], PKS_FRAMING_ITEM, ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, *PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT, KSALLOCATOR_FLAG_DEVICE_SPECIFIC
+ms.date: 2/20/2018
+ms.keywords: KS_FRAMING_ITEM structure [Streaming Media Devices], KS_FRAMING_ITEM, stream.ks_framing_item, KSALLOCATOR_FLAG_CAN_ALLOCATE, KSALLOCATOR_FLAG_INSIST_ON_FRAMESIZE_RATIO, PKS_FRAMING_ITEM structure pointer [Streaming Media Devices], KSALLOCATOR_REQUIREMENTF_PREFERENCES_ONLY, *PKS_FRAMING_ITEM, ks/PKS_FRAMING_ITEM, PKS_FRAMING_ITEM, KSALLOCATOR_FLAG_DEVICE_SPECIFIC, ks-struct_8ddb4478-636f-4cd4-b4c1-663a20070cef.xml, ks/KS_FRAMING_ITEM, KSALLOCATOR_FLAG_PARTIAL_READ_SUPPORT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_FRAMING_ITEM
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_FRAMING_ITEM, KS_FRAMING_ITEM"
+req.typenames: KS_FRAMING_ITEM, *PKS_FRAMING_ITEM
 ---
 
 # KS_FRAMING_ITEM structure
@@ -252,16 +252,6 @@ Similar to the <b>OptionsFlags</b> and <b>RequirementsFlags</b> union in the <a 
 Specifies the total number of allowable outstanding frames. Corresponds to the <b>Frames</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
 
 
-### -field FileAlignment
-
-Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
-
-
-### -field FramePitch
-
- 
-
-
 ### -field MemoryTypeWeight
 
 A value of type ULONG that specifies the pin-wide weight of this memory type.
@@ -277,6 +267,11 @@ A structure of type <a href="..\ks\ns-ks-ks_framing_range.md">KS_FRAMING_RANGE</
 A structure of type <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a> that specifies the optimal range of frame sizes.
 
 
+#### - FileAlignment
+
+Requirement for frame alignment. Corresponds to the <b>FileAlignment</b> member of the <a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a> structure.
+
+
 ## -remarks
 
 
@@ -290,7 +285,7 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
 ## -see-also
 
-<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
+<a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a>
 
 
 
@@ -298,11 +293,11 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
 
 
+<a href="..\ks\ns-ks-ks_compression.md">KS_COMPRESSION</a>
+
+
+
 <a href="..\ks\ns-ks-ks_framing_range_weighted.md">KS_FRAMING_RANGE_WEIGHTED</a>
-
-
-
-<a href="..\ks\ns-ks-ksallocator_framing.md">KSALLOCATOR_FRAMING</a>
 
 
 
@@ -314,5 +309,5 @@ Each <a href="..\ks\ns-ks-ksallocator_framing_ex.md">KSALLOCATOR_FRAMING_EX</a> 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_FRAMING_ITEM structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_FRAMING_ITEM structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

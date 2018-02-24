@@ -7,8 +7,8 @@ old-location: print\extpush.htm
 old-project: print
 ms.assetid: c38d7eca-6486-4bb1-b0a8-7f69fe13f7db
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, compstui/EXTPUSH, EXTPUSH, PEXTPUSH structure pointer [Print Devices], print.extpush, compstui/PEXTPUSH, PEXTPUSH, _EXTPUSH, *PEXTPUSH, EXTPUSH structure [Print Devices]
+ms.date: 2/21/2018
+ms.keywords: print.extpush, _EXTPUSH, cpsuifnc_d8f5e9ba-ef61-4adb-959f-1d0ebf456dad.xml, PEXTPUSH, compstui/PEXTPUSH, *PEXTPUSH, EXTPUSH, PEXTPUSH structure pointer [Print Devices], EXTPUSH structure [Print Devices], compstui/EXTPUSH
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	EXTPUSH
 product: Windows
 targetos: Windows
-req.typenames: "*PEXTPUSH, EXTPUSH"
+req.typenames: EXTPUSH, *PEXTPUSH
 ---
 
 # _EXTPUSH structure
@@ -164,20 +164,6 @@ If not set, <b>DlgTemplateID</b> contains a template resource identifier.
 String identifier, representing the push button title. This can be a 32-bit pointer to a NULL-terminated string, or it can be a 16-bit string resource identifier with HIWORD set to zero.
 
 
-### -field DUMMYUNIONNAME.DlgProc
-
-DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) For more information, see the following Remarks section.
-
-If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
-
-
-### -field DUMMYUNIONNAME.pfnCallBack
-
-Pointer to a <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
-
-If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
-
-
 ### -field IconID
 
 One of the following icon identifiers:
@@ -200,23 +186,37 @@ CPSUI displays the icon next to the push button. If this value is zero, an icon 
  
 
 
-### -field DUMMYUNIONNAME.DlgTemplateID
+### -field dwReserved
+
+Reserved, must be initialized to zero.
+
+
+#### - DlgProc
+
+DLGPROC-typed pointer to a dialog box procedure to process messages for the push button's dialog box. (The DLGPROC pointer type is described in the Microsoft Windows SDK documentation.) For more information, see the following Remarks section.
+
+If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be set in <b>Flags</b>.
+
+
+#### - pfnCallBack
+
+Pointer to a <a href="..\compstui\nc-compstui-_cpsuicallback.md">_CPSUICALLBACK</a>-typed callback function to handle the CPSUICB_REASON_PUSHBUTTON reason. For more information, see the following Remarks section.
+
+If this pointer is supplied, EPF_PUSH_TYPE_DLGPROC must be cleared in <b>Flags</b>.
+
+
+#### - DlgTemplateID
 
 DIALOG resource identifier, describing a dialog box template.
 
 Not used if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
 
 
-### -field DUMMYUNIONNAME.hDlgTemplate
+#### - hDlgTemplate
 
 Handle to a DLGTEMPLATE structure (described in the Microsoft Windows SDK documentation).
 
 Used only if EPF_USE_HDLGTEMPLATE is set in <b>Flags</b>.
-
-
-### -field dwReserved
-
-Reserved, must be initialized to zero.
 
 
 ## -remarks
@@ -248,5 +248,5 @@ If you do not need CPSUI to display a dialog box when the user clicks on the but
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EXTPUSH structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20EXTPUSH structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

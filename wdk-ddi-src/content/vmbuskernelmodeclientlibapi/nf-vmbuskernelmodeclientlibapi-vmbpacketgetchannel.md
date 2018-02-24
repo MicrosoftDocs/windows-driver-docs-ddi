@@ -7,8 +7,8 @@ old-location: netvista\vmbpacketgetchannel.htm
 old-project: netvista
 ms.assetid: BE5BB8CD-6B2F-4CFE-8A1E-B13BD9D7DBE7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: VmbPacketGetChannel function [Network Drivers Starting with Windows Vista], VmbPacketGetChannel, netvista.vmbpacketgetchannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel
+ms.date: 2/16/2018
+ms.keywords: VmbPacketGetChannel function [Network Drivers Starting with Windows Vista], VmbPacketGetChannel, vmbuskernelmodeclientlibapi/VmbPacketGetChannel, netvista.vmbpacketgetchannel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

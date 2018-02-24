@@ -7,8 +7,8 @@ old-location: ieee\get_unit_ids.htm
 old-project: IEEE
 ms.assetid: 8ffa85ee-cad6-476e-91ab-1897a6b43ca1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 61883/PGET_UNIT_IDS, GET_UNIT_IDS, IEEE.get_unit_ids, GET_UNIT_IDS structure [Buses], 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, PGET_UNIT_IDS structure pointer [Buses], 61883/GET_UNIT_IDS, _GET_UNIT_IDS, PGET_UNIT_IDS, *PGET_UNIT_IDS
+ms.date: 2/15/2018
+ms.keywords: PGET_UNIT_IDS structure pointer [Buses], GET_UNIT_IDS, *PGET_UNIT_IDS, _GET_UNIT_IDS, 61883/PGET_UNIT_IDS, GET_UNIT_IDS structure [Buses], PGET_UNIT_IDS, IEEE.get_unit_ids, 61883_structures_5415ce51-9c17-481b-86bd-08b8ff1595ca.xml, 61883/GET_UNIT_IDS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_UNIT_IDS
 product: Windows
 targetos: Windows
-req.typenames: "*PGET_UNIT_IDS, GET_UNIT_IDS"
+req.typenames: GET_UNIT_IDS, *PGET_UNIT_IDS
 ---
 
 # _GET_UNIT_IDS structure
@@ -136,5 +136,5 @@ Points to a buffer that receives the "friendly name" for the model represented a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_UNIT_IDS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_UNIT_IDS structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

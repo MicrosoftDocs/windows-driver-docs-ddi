@@ -7,8 +7,8 @@ old-location: ifsk\rxcesend.htm
 old-project: ifsk
 ms.assetid: bf1b9c63-6fc2-4006-8f9a-d4b50d61d270
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml, RxCeSend function [Installable File System Drivers], rxce/RxCeSend, RxCeSend, ifsk.rxcesend
+ms.date: 2/16/2018
+ms.keywords: rxce/RxCeSend, ifsk.rxcesend, RxCeSend, RxCeSend function [Installable File System Drivers], rxref_07c5b21c-253c-4032-a5e8-61c4e71450fb.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeSend
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -210,5 +210,5 @@ The benefit of asynchronous and synchronous options depends on the underlying tr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSend function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeSend function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

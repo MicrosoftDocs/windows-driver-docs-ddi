@@ -4,11 +4,11 @@ title: IWiaDrvItem::UnlinkItemTree method
 author: windows-driver-content
 description: The IWiaDrvItem::UnlinkItemTree method unlinks the driver item tree and releases all items in the tree.
 old-location: image\iwiadrvitem_unlinkitemtree.htm
-old-project: image
+old-project: Image
 ms.assetid: f6fb2929-177b-44cd-a313-8620ba9b2907
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: IWiaDrvItem interface [Imaging Devices], UnlinkItemTree method, wiamindr_lh/IWiaDrvItem::UnlinkItemTree, IWiaDrvItem::UnlinkItemTree, UnlinkItemTree method [Imaging Devices], image.iwiadrvitem_unlinkitemtree, IWiaDrvItem, UnlinkItemTree method [Imaging Devices], IWiaDrvItem interface, DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, UnlinkItemTree
+ms.date: 2/15/2018
+ms.keywords: image.iwiadrvitem_unlinkitemtree, UnlinkItemTree method [Imaging Devices], UnlinkItemTree, DrvItem_70e5eaf0-4115-4207-9ea2-53ca8c210795.xml, wiamindr_lh/IWiaDrvItem::UnlinkItemTree, UnlinkItemTree method [Imaging Devices], IWiaDrvItem interface, IWiaDrvItem, IWiaDrvItem interface [Imaging Devices], UnlinkItemTree method, IWiaDrvItem::UnlinkItemTree
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

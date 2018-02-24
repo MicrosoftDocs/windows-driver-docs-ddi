@@ -7,8 +7,8 @@ old-location: storage\device_manage_data_set_attributes.htm
 old-project: storage
 ms.assetid: be0bfcef-09df-4259-a034-0d51db9819ce
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], DEVICE_MANAGE_DATA_SET_ATTRIBUTES, ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], storage.device_manage_data_set_attributes, DeviceDsmActionFlag_NonDestructive, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
+ms.date: 2/16/2018
+ms.keywords: ntddstor/DEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES, storage.device_manage_data_set_attributes, DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure [Storage Devices], PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DeviceDsmActionFlag_NonDestructive, PDEVICE_MANAGE_DATA_SET_ATTRIBUTES structure pointer [Storage Devices], *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_DSM_FLAG_ENTIRE_DATA_SET_RANGE, ntddstor/PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, structs-general_f8d2d431-7187-4532-ac05-69868909fc66.xml, _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PDEVICE_MANAGE_DATA_SET_ATTRIBUTES, DEVICE_MANAGE_DATA_SET_ATTRIBUTES"
+req.typenames: DEVICE_MANAGE_DATA_SET_ATTRIBUTES, *PDEVICE_MANAGE_DATA_SET_ATTRIBUTES
 ---
 
 # _DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure
@@ -222,5 +222,5 @@ The block of data set ranges is specified by the <b>DataSetRangesOffset</b> and
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20DEVICE_MANAGE_DATA_SET_ATTRIBUTES structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

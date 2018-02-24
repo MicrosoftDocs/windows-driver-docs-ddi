@@ -7,7 +7,7 @@ old-location: pos\ioctl_point_of_service_retain_device.htm
 old-project: pos
 ms.assetid: c221862f-99db-4815-812f-8b22b46fff4a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/19/2018
 ms.keywords: pos.ioctl_point_of_service_retain_device, IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE control code, IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE, pointofservicedriverinterface/IOCTL_POINT_OF_SERVICE_RETAIN_DEVICE
 ms.prod: windows-hardware
 ms.technology: windows-devices

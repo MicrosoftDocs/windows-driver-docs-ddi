@@ -7,8 +7,8 @@ old-location: storage\ata_zone_descriptor.htm
 old-project: storage
 ms.assetid: 2e027ac5-7b5d-43cc-8d37-c0a3e77e68c9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ATA_ZONE_DESCRIPTOR structure [Storage Devices], PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], ata/ATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor, ATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR, _ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR
+ms.date: 2/16/2018
+ms.keywords: PATA_ZONE_DESCRIPTOR, PATA_ZONE_DESCRIPTOR structure pointer [Storage Devices], ATA_ZONE_DESCRIPTOR structure [Storage Devices], *PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR, ata/PATA_ZONE_DESCRIPTOR, ata/ATA_ZONE_DESCRIPTOR, storage.ata_zone_descriptor, _ATA_ZONE_DESCRIPTOR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ATA_ZONE_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PATA_ZONE_DESCRIPTOR, ATA_ZONE_DESCRIPTOR"
+req.typenames: ATA_ZONE_DESCRIPTOR, *PATA_ZONE_DESCRIPTOR
 ---
 
 # _ATA_ZONE_DESCRIPTOR structure

@@ -7,8 +7,8 @@ old-location: display\d3dtransformcaps.htm
 old-project: display
 ms.assetid: 4eb6c31d-97b2-4d51-ae49-ed2ab395188a
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.d3dtransformcaps, LPD3DTRANSFORMCAPS, *LPD3DTRANSFORMCAPS, d3dcaps/D3DTRANSFORMCAPS, D3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS structure pointer [Display Devices], D3DTRANSFORMCAPS structure [Display Devices], d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, d3dcaps/LPD3DTRANSFORMCAPS, _D3DTRANSFORMCAPS
+ms.date: 2/20/2018
+ms.keywords: d3dcaps/LPD3DTRANSFORMCAPS, d3dcaps/D3DTRANSFORMCAPS, D3DTRANSFORMCAPS structure [Display Devices], LPD3DTRANSFORMCAPS, d3dstrct_9dc73cc8-edfd-424e-b902-0305de356c07.xml, _D3DTRANSFORMCAPS, display.d3dtransformcaps, D3DTRANSFORMCAPS, LPD3DTRANSFORMCAPS structure pointer [Display Devices], *LPD3DTRANSFORMCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,5 +109,5 @@ This structure is a member of the <a href="..\d3dhal\ns-d3dhal-_d3ddevicedesc_v1
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DTRANSFORMCAPS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DTRANSFORMCAPS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

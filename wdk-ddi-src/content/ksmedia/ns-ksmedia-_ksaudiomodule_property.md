@@ -7,8 +7,8 @@ old-location: audio\ksaudiomodule_property.htm
 old-project: audio
 ms.assetid: 1DE3F065-6F8E-402F-87EF-F9582E31BFFE
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PKSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, ksmedia/PKSAUDIOMODULE_PROPERTY, _KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], *PKSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], KSAUDIOMODULE_PROPERTY, ksmedia/KSAUDIOMODULE_PROPERTY
+ms.date: 2/21/2018
+ms.keywords: ksmedia/KSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY, PKSAUDIOMODULE_PROPERTY structure pointer [Audio Devices], *PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY structure [Audio Devices], _KSAUDIOMODULE_PROPERTY, ksmedia/PKSAUDIOMODULE_PROPERTY, audio.ksaudiomodule_property, PKSAUDIOMODULE_PROPERTY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSAUDIOMODULE_PROPERTY
 product: Windows
 targetos: Windows
-req.typenames: "*PKSAUDIOMODULE_PROPERTY, KSAUDIOMODULE_PROPERTY"
+req.typenames: KSAUDIOMODULE_PROPERTY, *PKSAUDIOMODULE_PROPERTY
 ---
 
 # _KSAUDIOMODULE_PROPERTY structure
@@ -103,5 +103,5 @@ For more information about audio modules, see  <a href="https://msdn.microsoft.c
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIOMODULE_PROPERTY structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20KSAUDIOMODULE_PROPERTY structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

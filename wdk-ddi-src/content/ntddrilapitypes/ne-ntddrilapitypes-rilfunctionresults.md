@@ -7,8 +7,8 @@ old-location: netvista\rilfunctionresults.htm
 old-project: netvista
 ms.assetid: 9a2b3bdd-4955-4293-b4e7-65da20b0d369
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_RESULT_ERROR, ntddrilapitypes/RIL_RESULT_ERROR, RILFUNCTIONRESULTS, netvista.rilfunctionresults, ntddrilapitypes/RILFUNCTIONRESULTS, RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: RILFUNCTIONRESULTS enumeration [Network Drivers Starting with Windows Vista], netvista.rilfunctionresults, ntddrilapitypes/RIL_RESULT_ERROR, ntddrilapitypes/RILFUNCTIONRESULTS, RILFUNCTIONRESULTS, RIL_RESULT_ERROR
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

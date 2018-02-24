@@ -7,8 +7,8 @@ old-location: bltooth\sdpfreetree.htm
 old-project: bltooth
 ms.assetid: 7d3f743e-2422-474d-aaad-4386e0dc100a
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bltooth.sdpfreetree, SdpFreeTree, sdplib/SdpFreeTree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml, SdpFreeTree function [Bluetooth Devices]
+ms.date: 2/15/2018
+ms.keywords: SdpFreeTree function [Bluetooth Devices], bltooth.sdpfreetree, SdpFreeTree, sdplib/SdpFreeTree, bth_funcs_526ed9cd-2c07-4c1f-a420-dec6fe930e44.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	SdpFreeTree
 product: Windows
 targetos: Windows
-req.typenames: "*PSDCMD_DESCRIPTOR, SDCMD_DESCRIPTOR"
+req.typenames: SDCMD_DESCRIPTOR, *PSDCMD_DESCRIPTOR
 req.product: Windows 10 or later.
 ---
 
@@ -109,11 +109,11 @@ Bluetooth profile drivers can obtain a pointer to the
 
 ## -see-also
 
+<a href="..\bthsdpddi\nc-bthsdpddi-pconvertstreamtotree.md">SdpConvertStreamToTree</a>
+
+
+
 <a href="..\sdplib\nf-sdplib-sdpcreatenodetree.md">SdpCreateNodeTree</a>
-
-
-
-<a href="..\sdpnode\ns-sdpnode-_sdp_tree_root_node.md">SDP_TREE_ROOT_NODE</a>
 
 
 
@@ -133,5 +133,5 @@ Bluetooth profile drivers can obtain a pointer to the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpFreeTree function%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SdpFreeTree function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

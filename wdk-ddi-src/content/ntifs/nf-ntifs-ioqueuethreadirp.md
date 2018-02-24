@@ -7,8 +7,8 @@ old-location: ifsk\ioqueuethreadirp.htm
 old-project: ifsk
 ms.assetid: 165eaae5-ce68-462e-902c-64120fba91c5
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/IoQueueThreadIrp, ifsk.ioqueuethreadirp, ioref_e5906bb2-1a02-4405-92b6-64848786b3f0.xml, IoQueueThreadIrp function [Installable File System Drivers], IoQueueThreadIrp
+ms.date: 2/16/2018
+ms.keywords: IoQueueThreadIrp, ifsk.ioqueuethreadirp, ntifs/IoQueueThreadIrp, ioref_e5906bb2-1a02-4405-92b6-64848786b3f0.xml, IoQueueThreadIrp function [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

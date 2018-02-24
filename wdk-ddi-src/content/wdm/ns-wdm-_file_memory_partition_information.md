@@ -7,8 +7,8 @@ old-location: ifsk\_file_memory_partition_information.htm
 old-project: ifsk
 ms.assetid: 1d74aec3-dbc5-4494-ba52-135e3f545c1b
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], ifsk._file_memory_partition_information, _FILE_MEMORY_PARTITION_INFORMATION, wdm/FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION
+ms.date: 2/16/2018
+ms.keywords: FILE_MEMORY_PARTITION_INFORMATION structure [Kernel-Mode Driver Architecture], _FILE_MEMORY_PARTITION_INFORMATION, ifsk._file_memory_partition_information, *PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION, wdm/FILE_MEMORY_PARTITION_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	FILE_MEMORY_PARTITION_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PFILE_MEMORY_PARTITION_INFORMATION, FILE_MEMORY_PARTITION_INFORMATION"
+req.typenames: FILE_MEMORY_PARTITION_INFORMATION, *PFILE_MEMORY_PARTITION_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -85,6 +85,12 @@ Handle to the specified partition.
 ### -field Flags
 
 
+
+#### AllFlags
+
+Bitwise of all flags. 
+
+
 ### -field Flags.DUMMYSTRUCTNAME
 
 
@@ -98,7 +104,4 @@ Determines whether cross-partition access is allowed.
  
 
 
-### -field Flags.AllFlags
-
-Bitwise of all flags. 
 

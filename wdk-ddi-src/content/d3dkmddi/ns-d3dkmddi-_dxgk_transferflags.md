@@ -7,8 +7,8 @@ old-location: display\dxgk_transferflags.htm
 old-project: display
 ms.assetid: b56657ac-98ff-482a-a2af-ffbfb8602248
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_TRANSFERFLAGS structure [Display Devices], d3dkmddi/DXGK_TRANSFERFLAGS, DXGK_TRANSFERFLAGS, _DXGK_TRANSFERFLAGS, display.dxgk_transferflags, DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml
+ms.date: 2/20/2018
+ms.keywords: DXGK_TRANSFERFLAGS, DmStructs_91973ccf-775f-4e97-bb1a-17cd1343a4f8.xml, display.dxgk_transferflags, DXGK_TRANSFERFLAGS structure [Display Devices], _DXGK_TRANSFERFLAGS, d3dkmddi/DXGK_TRANSFERFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -117,7 +117,7 @@ Setting this member is equivalent to setting the fifth bit of the 32-bit <b>Valu
 [in] This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 27 bits (0xFFFFFFE0) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 [in] A member in the union that DXGK_TRANSFERFLAGS contains that can hold a 32-bit value that identifies the transfer-operation type.
 
@@ -145,5 +145,5 @@ You can set the transfer-operation type by setting bits in the 32-bit <b>Value</
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_TRANSFERFLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXGK_TRANSFERFLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilphonebookreadystate.htm
 old-project: netvista
 ms.assetid: cd71234b-4b46-4b7b-953b-32e6f014af03
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], *LPRILPHONEBOOKREADYSTATE, netvista.rilphonebookreadystate, ntddrilapitypes/RILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE
+ms.date: 2/16/2018
+ms.keywords: netvista.rilphonebookreadystate, RILPHONEBOOKREADYSTATE structure [Network Drivers Starting with Windows Vista], RILPHONEBOOKREADYSTATE, *LPRILPHONEBOOKREADYSTATE, ntddrilapitypes/RILPHONEBOOKREADYSTATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILPHONEBOOKREADYSTATE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILPHONEBOOKREADYSTATE, RILPHONEBOOKREADYSTATE"
+req.typenames: RILPHONEBOOKREADYSTATE, *LPRILPHONEBOOKREADYSTATE
 ---
 
 # RILPHONEBOOKREADYSTATE structure

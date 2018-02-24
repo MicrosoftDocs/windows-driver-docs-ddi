@@ -7,7 +7,7 @@ old-location: stream\ioctl_lamp_get_emitting_light.htm
 old-project: stream
 ms.assetid: 82BBD72D-9F65-442F-8B25-E80A2160C5A2
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.ioctl_lamp_get_emitting_light, IOCTL_LAMP_GET_EMITTING_LIGHT control code [Streaming Media Devices], IOCTL_LAMP_GET_EMITTING_LIGHT, lamp/IOCTL_LAMP_GET_EMITTING_LIGHT
 ms.prod: windows-hardware
 ms.technology: windows-devices

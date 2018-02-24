@@ -7,8 +7,8 @@ old-location: audio\iminiportwavert_newstream.htm
 old-project: audio
 ms.assetid: efd2eea8-2b05-49a2-b136-a3e1e3e739c5
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: NewStream method [Audio Devices], IMiniportWaveRT interface, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, IMiniportWaveRT interface [Audio Devices], NewStream method, NewStream method [Audio Devices], NewStream, IMiniportWaveRT, portcls/IMiniportWaveRT::NewStream, IMiniportWaveRT::NewStream, audio.iminiportwavert_newstream
+ms.date: 2/21/2018
+ms.keywords: NewStream method [Audio Devices], IMiniportWaveRT interface [Audio Devices], NewStream method, audio.iminiportwavert_newstream, NewStream, NewStream method [Audio Devices], IMiniportWaveRT interface, portcls/IMiniportWaveRT::NewStream, IMiniportWaveRT::NewStream, audmp-routines_f6e65bf7-d19d-42fc-a0f0-2d2c83e88250.xml, IMiniportWaveRT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRT.NewStream
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRT::NewStream method
@@ -138,7 +138,7 @@ The <i>Stream</i> and <i>PortStream</i> parameters follow the reference-counting
 
 
 
-<a href="..\portcls\nn-portcls-iminiportwavert.md">IMiniportWaveRT</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff536756">IMiniportWaveRTStream::SetState</a>
 
 
 
@@ -158,5 +158,5 @@ IMiniportWaveRTStream
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRT::NewStream method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRT::NewStream method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

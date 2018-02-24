@@ -7,8 +7,8 @@ old-location: ieee\notification_info.htm
 old-project: IEEE
 ms.assetid: 0c0dca35-3590-4c24-a2a7-8dd0378c525f
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: NOTIFICATION_INFO, IEEE.notification_info, NOTIFICATION_INFO structure [Buses], NOTIFICATION_INFO_W2K, 1394/PNOTIFICATION_INFO, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, PNOTIFICATION_INFO structure pointer [Buses], _NOTIFICATION_INFO_W2K, *PNOTIFICATION_INFO_W2K, *PNOTIFICATION_INFO, 1394/NOTIFICATION_INFO, PNOTIFICATION_INFO
+ms.date: 2/15/2018
+ms.keywords: "*PNOTIFICATION_INFO, NOTIFICATION_INFO, NOTIFICATION_INFO structure [Buses], 1394/NOTIFICATION_INFO, *PNOTIFICATION_INFO_W2K, 1394stct_db1356d4-c42d-46a4-bbc4-ed8452dc2212.xml, NOTIFICATION_INFO_WXP, _NOTIFICATION_INFO_W2K, PNOTIFICATION_INFO structure pointer [Buses], PNOTIFICATION_INFO, 1394/PNOTIFICATION_INFO, NOTIFICATION_INFO_W2K, IEEE.notification_info"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NOTIFICATION_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PNOTIFICATION_INFO_W2K, NOTIFICATION_INFO_W2K"
+req.typenames: NOTIFICATION_INFO_W2K, *PNOTIFICATION_INFO_W2K
 ---
 
 # _NOTIFICATION_INFO_W2K structure
@@ -224,5 +224,5 @@ If the device driver is using a linked list of ADDRESS_FIFO's as the backing sto
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20NOTIFICATION_INFO structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20NOTIFICATION_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

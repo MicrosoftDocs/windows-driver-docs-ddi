@@ -7,8 +7,8 @@ old-location: print\uff_fileheader.htm
 old-project: print
 ms.assetid: 18eb526b-d615-4f02-b724-236c6bf16945
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: prntfont/PUFF_FILEHEADER, PUFF_FILEHEADER structure pointer [Print Devices], print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, UFF_FILEHEADER, _UFF_FILEHEADER, *PUFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], print.uff_fileheader, PUFF_FILEHEADER, prntfont/UFF_FILEHEADER
+ms.date: 2/21/2018
+ms.keywords: PUFF_FILEHEADER structure pointer [Print Devices], UFF_FILEHEADER, *PUFF_FILEHEADER, UFF_FILEHEADER structure [Print Devices], print_unidrv-pscript_fonts_a51bc6b1-df89-423f-83e8-9fad0cd20729.xml, PUFF_FILEHEADER, prntfont/UFF_FILEHEADER, _UFF_FILEHEADER, print.uff_fileheader, prntfont/PUFF_FILEHEADER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UFF_FILEHEADER
 product: Windows
 targetos: Windows
-req.typenames: UFF_FILEHEADER, *PUFF_FILEHEADER
+req.typenames: "*PUFF_FILEHEADER, UFF_FILEHEADER"
 req.product: Windows 10 or later.
 ---
 
@@ -141,17 +141,17 @@ Reserved. Must be set to zero.
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_data_header.md">DATA_HEADER</a>
 
 
 
- 
+<a href="..\prntfont\ns-prntfont-_uff_fontdirectory.md">UFF_FONTDIRECTORY</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FILEHEADER structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UFF_FILEHEADER structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

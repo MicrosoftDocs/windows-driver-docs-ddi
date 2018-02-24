@@ -7,8 +7,8 @@ old-location: spb\spbioctl.htm
 old-project: SPB
 ms.assetid: 83260550-B364-4790-BDB5-5C6E5AD76A72
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PSpbIoctl enumeration [Buses], SpbIoctl enumeration [Buses], spb/IOCTL_SPB_UNLOCK_CONTROLLER, IOCTL_SPB_LOCK_CONTROLLER, *PSpbIoctl, spb/IOCTL_SPB_LOCK_CONTROLLER, spb/IOCTL_SPB_EXECUTE_SEQUENCE, SpbIoctl, spb/IOCTL_SPB_LOCK_CONNECTION, SPB.spbioctl, IOCTL_SPB_EXECUTE_SEQUENCE, IOCTL_SPB_LOCK_CONNECTION, IOCTL_SPB_UNLOCK_CONNECTION, spb/IOCTL_SPB_UNLOCK_CONNECTION, spb/SpbIoctl, IOCTL_SPB_UNLOCK_CONTROLLER, spb/*PSpbIoctl, IOCTL_SPB_FULL_DUPLEX, spb/IOCTL_SPB_FULL_DUPLEX"
+ms.date: 2/15/2018
+ms.keywords: spb/IOCTL_SPB_UNLOCK_CONNECTION, IOCTL_SPB_FULL_DUPLEX, spb/IOCTL_SPB_FULL_DUPLEX, *PSpbIoctl enumeration [Buses], SPB.spbioctl, spb/*PSpbIoctl, spb/SpbIoctl, IOCTL_SPB_UNLOCK_CONNECTION, *PSpbIoctl, spb/IOCTL_SPB_EXECUTE_SEQUENCE, spb/IOCTL_SPB_LOCK_CONNECTION, spb/IOCTL_SPB_LOCK_CONTROLLER, IOCTL_SPB_EXECUTE_SEQUENCE, IOCTL_SPB_LOCK_CONTROLLER, IOCTL_SPB_LOCK_CONNECTION, IOCTL_SPB_UNLOCK_CONTROLLER, SpbIoctl enumeration [Buses], SpbIoctl, spb/IOCTL_SPB_UNLOCK_CONTROLLER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topictype:
 -	APIRef
 -	kbSyntax

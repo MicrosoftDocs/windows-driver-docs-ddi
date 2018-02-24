@@ -4,11 +4,11 @@ title: UfxDeviceIoControl function
 author: windows-driver-content
 description: Passes non-internal IOCTLs from user-mode to UFX.
 old-location: buses\ufxdeviceiocontrol.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 18D4C334-1AD9-4CBF-8BF1-063A8E837A21
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl, UfxDeviceIoControl, UfxDeviceIoControl method [Buses]
+ms.date: 2/15/2018
+ms.keywords: UfxDeviceIoControl method [Buses], UfxDeviceIoControl, buses.ufxdeviceiocontrol, ufxclient/UfxDeviceIoControl
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceIoControl
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

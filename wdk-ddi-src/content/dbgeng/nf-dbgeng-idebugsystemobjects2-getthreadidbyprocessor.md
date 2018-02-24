@@ -4,11 +4,11 @@ title: IDebugSystemObjects2::GetThreadIdByProcessor method
 author: windows-driver-content
 description: The GetThreadIdByProcessor method returns the engine thread ID for the kernel-modevirtual thread corresponding to the specified processor.
 old-location: debugger\getthreadidbyprocessor.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: c771a581-53ac-44a7-b307-b8a22ac97496
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetThreadIdByProcessor method, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByProcessor method, IDebugSystemObjects::GetThreadIdByProcessor, dbgeng/IDebugSystemObjects2::GetThreadIdByProcessor, dbgeng/IDebugSystemObjects4::GetThreadIdByProcessor, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects interface, IDebugSystemObjects_59fff866-93b2-48fb-8f49-bf778e2f0f7f.xml, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByProcessor method, IDebugSystemObjects4::GetThreadIdByProcessor, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects4 interface, dbgeng/IDebugSystemObjects::GetThreadIdByProcessor, IDebugSystemObjects, IDebugSystemObjects2::GetThreadIdByProcessor, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects3 interface, dbgeng/IDebugSystemObjects3::GetThreadIdByProcessor, IDebugSystemObjects3::GetThreadIdByProcessor, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByProcessor method, GetThreadIdByProcessor, GetThreadIdByProcessor method [Windows Debugging], debugger.getthreadidbyprocessor, IDebugSystemObjects2
+ms.date: 2/15/2018
+ms.keywords: IDebugSystemObjects interface [Windows Debugging], GetThreadIdByProcessor method, dbgeng/IDebugSystemObjects2::GetThreadIdByProcessor, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects2 interface [Windows Debugging], GetThreadIdByProcessor method, IDebugSystemObjects, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects2 interface, GetThreadIdByProcessor, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3 interface [Windows Debugging], GetThreadIdByProcessor method, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects interface, dbgeng/IDebugSystemObjects::GetThreadIdByProcessor, IDebugSystemObjects4 interface [Windows Debugging], GetThreadIdByProcessor method, IDebugSystemObjects4::GetThreadIdByProcessor, IDebugSystemObjects_59fff866-93b2-48fb-8f49-bf778e2f0f7f.xml, dbgeng/IDebugSystemObjects3::GetThreadIdByProcessor, IDebugSystemObjects::GetThreadIdByProcessor, IDebugSystemObjects2, dbgeng/IDebugSystemObjects4::GetThreadIdByProcessor, GetThreadIdByProcessor method [Windows Debugging], IDebugSystemObjects3::GetThreadIdByProcessor, IDebugSystemObjects2::GetThreadIdByProcessor, debugger.getthreadidbyprocessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugSystemObjects4.GetThreadIdByProcessor
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects2::GetThreadIdByProcessor method

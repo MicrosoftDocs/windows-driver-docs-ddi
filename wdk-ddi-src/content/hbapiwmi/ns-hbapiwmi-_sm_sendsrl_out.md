@@ -7,8 +7,8 @@ old-location: storage\sm_sendsrl_out.htm
 old-project: storage
 ms.assetid: 1e6d1a97-b175-4f76-8f4d-15ec089538e8
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_SendSRL_OUT, PSM_SendSRL_OUT, hbapiwmi/SM_SendSRL_OUT, hbapiwmi/PSM_SendSRL_OUT, storage.sm_sendsrl_out, structs-Fibre_35335fb8-61e9-47bd-9b55-48f28a53483b.xml, _SM_SendSRL_OUT, *PSM_SendSRL_OUT, SM_SendSRL_OUT structure [Storage Devices], PSM_SendSRL_OUT structure pointer [Storage Devices]
+ms.date: 2/16/2018
+ms.keywords: PSM_SendSRL_OUT, SM_SendSRL_OUT, *PSM_SendSRL_OUT, structs-Fibre_35335fb8-61e9-47bd-9b55-48f28a53483b.xml, SM_SendSRL_OUT structure [Storage Devices], _SM_SendSRL_OUT, PSM_SendSRL_OUT structure pointer [Storage Devices], hbapiwmi/PSM_SendSRL_OUT, hbapiwmi/SM_SendSRL_OUT, storage.sm_sendsrl_out
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

@@ -7,7 +7,7 @@ old-location: kernel\reinitialize.htm
 old-project: kernel
 ms.assetid: 5e883b80-a6e6-44b4-9e1c-78402b91edb9
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
+ms.date: 2/16/2018
 ms.keywords: kernel.reinitialize, Reinitialize routine [Kernel-Mode Driver Architecture], Reinitialize, DRIVER_REINITIALIZE, DRIVER_REINITIALIZE, ntddk/Reinitialize, DrvrRtns_193becfd-0e72-48f0-b6da-b916851c31a4.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: display\d3dddi_lockflags.htm
 old-project: display
 ms.assetid: b9bc6607-3222-45d0-a0d8-18c815a41771
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, D3DDDI_LOCKFLAGS structure [Display Devices], display.d3dddi_lockflags, _D3DDDI_LOCKFLAGS, d3dumddi/D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS
+ms.date: 2/20/2018
+ms.keywords: display.d3dddi_lockflags, _D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS structure [Display Devices], D3D_other_Structs_1bff30dd-936f-4753-bcbe-e656c454e675.xml, d3dumddi/D3DDDI_LOCKFLAGS, D3DDDI_LOCKFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -153,7 +153,7 @@ Setting this member is equivalent to setting the tenth bit of the 32-bit <b>Valu
 This member is reserved and should be set to zero. Setting this member to zero is equivalent to setting the remaining 22 bits (0xFFFFFC00) of the 32-bit <b>Value</b> member to zeros.
 
 
-### -field Value
+#### - Value
 
 A member in the union that is contained in D3DDDI_LOCKFLAGS that can hold one 32-bit value that identifies how to lock a resource.
 
@@ -168,5 +168,5 @@ A member in the union that is contained in D3DDDI_LOCKFLAGS that can hold one 32
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_LOCKFLAGS structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDI_LOCKFLAGS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

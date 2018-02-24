@@ -4,16 +4,16 @@ title: WIAS_ASSERT macro
 author: windows-driver-content
 description: The WIAS_ASSERT macro writes a diagnostic message to the Wiatrace.log file.
 old-location: image\wias_assert.htm
-old-project: image
+old-project: Image
 ms.assetid: 74dac8e1-a909-4c22-a650-af8a43421c5c
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: wiamdef/WIAS_ASSERT, WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], image.wias_assert, IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml
+ms.date: 2/15/2018
+ms.keywords: IWiaLog_91198444-77d8-4f41-957b-de4c3262988a.xml, image.wias_assert, wiamdef/WIAS_ASSERT, WIAS_ASSERT macro [Imaging Devices], WIAS_ASSERT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: macro
 req.header: wiamdef.h
-req.include-header: 
+req.include-header: Wiautil.h
 req.target-type: Desktop
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	WIAS_ASSERT
 product: Windows
 targetos: Windows
-req.typenames: DEVICEDIALOGDATA2, *PDEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2
+req.typenames: "*PDEVICEDIALOGDATA2, DEVICEDIALOGDATA2, *LPDEVICEDIALOGDATA2"
 req.product: Windows 10 or later.
 ---
 
@@ -108,15 +108,15 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
 ## -see-also
 
-<a href="..\wiamdef\nf-wiamdef-wias_error.md">WIAS_ERROR</a>
+<a href="..\wiautil\nf-wiautil-wias_hresult.md">WIAS_HRESULT</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_trace.md">WIAS_TRACE</a>
+<a href="..\wiautil\nf-wiautil-wias_error.md">WIAS_ERROR</a>
 
 
 
-<a href="..\wiamdef\nf-wiamdef-wias_hresult.md">WIAS_HRESULT</a>
+<a href="..\wiautil\nf-wiautil-wias_trace.md">WIAS_TRACE</a>
 
 
 
@@ -124,5 +124,5 @@ To enable asserts in free builds, drivers must define the WIA_DEBUG macro by add
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20WIAS_ASSERT macro%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20WIAS_ASSERT macro%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

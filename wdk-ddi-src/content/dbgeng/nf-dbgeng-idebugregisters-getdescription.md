@@ -4,11 +4,11 @@ title: IDebugRegisters::GetDescription method
 author: windows-driver-content
 description: The GetDescription method returns the description of a register.
 old-location: debugger\getdescription.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 895d18e7-673e-41bb-a3be-eb5b4a778880
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: GetDescription, dbgeng/IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, IDebugRegisters interface [Windows Debugging], GetDescription method, IDebugRegisters2 interface [Windows Debugging], GetDescription method, GetDescription method [Windows Debugging], IDebugRegisters2::GetDescription, debugger.getdescription, GetDescription method [Windows Debugging], IDebugRegisters interface, IDebugRegisters, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, GetDescription method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters::GetDescription
+ms.date: 2/15/2018
+ms.keywords: IDebugRegisters::GetDescription, IDebugRegisters_aa062ab9-e090-4cad-b875-b6e99a019c16.xml, dbgeng/IDebugRegisters2::GetDescription, GetDescription, IDebugRegisters2::GetDescription, dbgeng/IDebugRegisters::GetDescription, IDebugRegisters, GetDescription method [Windows Debugging], IDebugRegisters2 interface, GetDescription method [Windows Debugging], GetDescription method [Windows Debugging], IDebugRegisters interface, debugger.getdescription, IDebugRegisters interface [Windows Debugging], GetDescription method, IDebugRegisters2 interface [Windows Debugging], GetDescription method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.GetDescription
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters::GetDescription method

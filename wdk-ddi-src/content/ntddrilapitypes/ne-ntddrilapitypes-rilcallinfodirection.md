@@ -7,8 +7,8 @@ old-location: netvista\rilcallinfodirection.htm
 old-project: netvista
 ms.assetid: 2243fb04-81a9-49d6-9ce2-d06d4a590fb1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.rilcallinfodirection, RIL_CALLDIR_MAX, RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILCALLINFODIRECTION, RILCALLINFODIRECTION, ntddrilapitypes/RIL_CALLDIR_MAX, ntddrilapitypes/RIL_CALLDIR_OUTGOING, RIL_CALLDIR_OUTGOING
+ms.date: 2/16/2018
+ms.keywords: RILCALLINFODIRECTION enumeration [Network Drivers Starting with Windows Vista], RIL_CALLDIR_OUTGOING, RIL_CALLDIR_MAX, RILCALLINFODIRECTION, ntddrilapitypes/RIL_CALLDIR_MAX, netvista.rilcallinfodirection, ntddrilapitypes/RIL_CALLDIR_OUTGOING, ntddrilapitypes/RILCALLINFODIRECTION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

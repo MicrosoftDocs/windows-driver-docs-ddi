@@ -4,11 +4,11 @@ title: IDebugSymbols2::SetImagePath method
 author: windows-driver-content
 description: The SetImagePath method sets the executable image path.
 old-location: debugger\setimagepath.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 4f6de771-c54f-4f27-900a-98e94b94f957
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSymbols::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols interface [Windows Debugging], SetImagePath method, SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, IDebugSymbols2, IDebugSymbols3::SetImagePath, IDebugSymbols, IDebugSymbols3 interface [Windows Debugging], SetImagePath method, IDebugSymbols2 interface [Windows Debugging], SetImagePath method, debugger.setimagepath, dbgeng/IDebugSymbols3::SetImagePath, IDebugSymbols2::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols2::SetImagePath
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols_062aa9c4-33c9-4a73-a11f-7d5e6b94e96c.xml, IDebugSymbols2 interface [Windows Debugging], SetImagePath method, SetImagePath method [Windows Debugging], SetImagePath, dbgeng/IDebugSymbols::SetImagePath, SetImagePath method [Windows Debugging], IDebugSymbols interface, SetImagePath method [Windows Debugging], IDebugSymbols3 interface, SetImagePath method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols2::SetImagePath, IDebugSymbols2, debugger.setimagepath, IDebugSymbols interface [Windows Debugging], SetImagePath method, IDebugSymbols3 interface [Windows Debugging], SetImagePath method, IDebugSymbols2::SetImagePath, IDebugSymbols3::SetImagePath, dbgeng/IDebugSymbols3::SetImagePath, IDebugSymbols, IDebugSymbols::SetImagePath
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.SetImagePath
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols2::SetImagePath method
@@ -119,11 +119,7 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
-
-
-
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols.md">IDebugSymbols</a>
 
 
 
@@ -131,7 +127,11 @@ The executable image path can consist of several directories separated by semico
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff546851">GetImagePath</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+
+
+
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols2.md">IDebugSymbols2</a>
 
 
 
@@ -139,5 +139,5 @@ The executable image path can consist of several directories separated by semico
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::SetImagePath method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::SetImagePath method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

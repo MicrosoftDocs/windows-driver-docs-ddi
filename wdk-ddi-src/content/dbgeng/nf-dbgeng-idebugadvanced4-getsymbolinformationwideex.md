@@ -4,11 +4,11 @@ title: IDebugAdvanced4::GetSymbolInformationWideEx method
 author: windows-driver-content
 description: The GetSymbolInformationWideEx method returns specified information about a symbol.
 old-location: debugger\getsymbolinformationwideex.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: E862C691-133F-4FA5-A698-09CD5D0E32B3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, IDebugAdvanced4, IDebugAdvanced4 interface [Windows Debugging], GetSymbolInformationWideEx method, GetSymbolInformationWideEx, IDebugAdvanced4::GetSymbolInformationWideEx, GetSymbolInformationWideEx method [Windows Debugging], IDebugAdvanced4 interface, GetSymbolInformationWideEx method [Windows Debugging], debugger.getsymbolinformationwideex
+ms.date: 2/15/2018
+ms.keywords: GetSymbolInformationWideEx method [Windows Debugging], debugger.getsymbolinformationwideex, IDebugAdvanced4::GetSymbolInformationWideEx, dbgeng/IDebugAdvanced4::GetSymbolInformationWideEx, IDebugAdvanced4, GetSymbolInformationWideEx method [Windows Debugging], IDebugAdvanced4 interface, GetSymbolInformationWideEx, IDebugAdvanced4 interface [Windows Debugging], GetSymbolInformationWideEx method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugAdvanced4.GetSymbolInformationWideEx
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugAdvanced4::GetSymbolInformationWideEx method

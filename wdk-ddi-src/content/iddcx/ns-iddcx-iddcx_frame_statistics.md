@@ -7,8 +7,8 @@ old-location: display\iddcx_frame_statistics.htm
 old-project: display
 ms.assetid: 5099ff37-eed9-44fd-8254-3828b8c5d8bd
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS structure [Display Devices], iddcx/IDDCX_FRAME_STATISTICS, display.iddcx_frame_statistics
+ms.date: 2/20/2018
+ms.keywords: iddcx/IDDCX_FRAME_STATISTICS, IDDCX_FRAME_STATISTICS, display.iddcx_frame_statistics, IDDCX_FRAME_STATISTICS structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

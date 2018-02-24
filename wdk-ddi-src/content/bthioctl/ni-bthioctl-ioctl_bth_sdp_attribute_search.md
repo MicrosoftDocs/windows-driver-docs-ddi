@@ -7,7 +7,7 @@ old-location: bltooth\ioctl_bth_sdp_attribute_search.htm
 old-project: bltooth
 ms.assetid: 30daf70e-34d1-45f7-a69b-503e275b83af
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: bltooth.ioctl_bth_sdp_attribute_search, IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code [Bluetooth Devices], IOCTL_BTH_SDP_ATTRIBUTE_SEARCH, bthioctl/IOCTL_BTH_SDP_ATTRIBUTE_SEARCH, bth_ioctls_19f12c1a-aaf5-4751-ba53-94054d3fb725.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -230,6 +230,11 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 
 
+<a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
+   BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
+
+
+
 <a href="..\bthioctl\ni-bthioctl-ioctl_bth_sdp_service_search.md">IOCTL_BTH_SDP_SERVICE_SEARCH</a>
 
 
@@ -239,14 +244,9 @@ The BTH_SDP_STREAM_RESPONSE structure returned in the output buffer contains inf
 
 
 
-<a href="..\bthioctl\ns-bthioctl-_bth_sdp_attribute_search_request.md">
-   BTH_SDP_ATTRIBUTE_SEARCH_REQUEST</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20IOCTL_BTH_SDP_ATTRIBUTE_SEARCH control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

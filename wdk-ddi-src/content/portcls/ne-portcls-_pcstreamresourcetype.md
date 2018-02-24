@@ -7,8 +7,8 @@ old-location: audio\pcstreamresourcetype.htm
 old-project: audio
 ms.assetid: C9563635-66F3-4835-8153-DECB04580544
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: "*PPcStreamResourceType, PcStreamResourceType enumeration [Audio Devices], PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices], ePcStreamResourceThread, portcls/PcStreamResourceType, ePcStreamResourceInterrupt, portcls/ePcStreamResourceThread, PcStreamResourceType, portcls/ePcStreamResourceSet, portcls/ePcStreamResourceInterrupt, PcStreamResourceType, *PPcStreamResourceType, _PcStreamResourceType, ePcStreamResourceSet, audio.pcstreamresourcetype"
+ms.date: 2/21/2018
+ms.keywords: PcStreamResourceType, portcls/ePcStreamResourceThread, audio.pcstreamresourcetype, _PcStreamResourceType, PcStreamResourceType enumeration [Audio Devices], ePcStreamResourceSet, portcls/ePcStreamResourceInterrupt, portcls/ePcStreamResourceSet, ePcStreamResourceInterrupt, PcStreamResourceType, *PPcStreamResourceType, *PPcStreamResourceType, portcls/PcStreamResourceType, PcStreamResourceType, *PPcStreamResourceType enumeration [Audio Devices], ePcStreamResourceThread
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

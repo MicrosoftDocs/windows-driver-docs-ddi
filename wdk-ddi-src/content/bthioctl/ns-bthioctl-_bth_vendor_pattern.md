@@ -7,8 +7,8 @@ old-location: bltooth\bth_vendor_pattern.htm
 old-project: bltooth
 ms.assetid: 694020c6-dd0a-46c7-9122-cd86ce28d03a
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml, BTH_VENDOR_PATTERN, bltooth.bth_vendor_pattern, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], *PBTH_VENDOR_PATTERN, _BTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN structure [Bluetooth Devices], PBTH_VENDOR_PATTERN, bthioctl/PBTH_VENDOR_PATTERN, bthioctl/BTH_VENDOR_PATTERN
+ms.date: 2/15/2018
+ms.keywords: BTH_VENDOR_PATTERN, bth_ref_e5c1f867-d585-4c90-bfe1-7b3c4a6e1582.xml, bthioctl/BTH_VENDOR_PATTERN, bthioctl/PBTH_VENDOR_PATTERN, PBTH_VENDOR_PATTERN structure pointer [Bluetooth Devices], PBTH_VENDOR_PATTERN, _BTH_VENDOR_PATTERN, bltooth.bth_vendor_pattern, *PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN structure [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_VENDOR_PATTERN
 product: Windows
 targetos: Windows
-req.typenames: "*PBTH_VENDOR_PATTERN, BTH_VENDOR_PATTERN"
+req.typenames: BTH_VENDOR_PATTERN, *PBTH_VENDOR_PATTERN
 ---
 
 # _BTH_VENDOR_PATTERN structure
@@ -112,5 +112,5 @@ Patterns are required if a vendor-specific command does not follow the standard 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_VENDOR_PATTERN structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_VENDOR_PATTERN structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

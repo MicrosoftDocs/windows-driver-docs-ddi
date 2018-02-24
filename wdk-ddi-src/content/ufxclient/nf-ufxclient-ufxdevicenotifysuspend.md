@@ -4,11 +4,11 @@ title: UfxDeviceNotifySuspend function
 author: windows-driver-content
 description: Notifies UFX about a USB bus suspend event.
 old-location: buses\ufxdevicenotifysuspend.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 80786A5A-E585-4092-814F-B940DD6967C6
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: buses.ufxdevicenotifysuspend, UfxDeviceNotifySuspend method [Buses], ufxclient/UfxDeviceNotifySuspend, UfxDeviceNotifySuspend
+ms.date: 2/15/2018
+ms.keywords: ufxclient/UfxDeviceNotifySuspend, UfxDeviceNotifySuspend, UfxDeviceNotifySuspend method [Buses], buses.ufxdevicenotifysuspend
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	UfxDeviceNotifySuspend
 product: Windows
 targetos: Windows
-req.typenames: UFX_HARDWARE_FAILURE_CONTEXT, *PUFX_HARDWARE_FAILURE_CONTEXT
+req.typenames: "*PUFX_HARDWARE_FAILURE_CONTEXT, UFX_HARDWARE_FAILURE_CONTEXT"
 req.product: Windows 10 or later.
 ---
 

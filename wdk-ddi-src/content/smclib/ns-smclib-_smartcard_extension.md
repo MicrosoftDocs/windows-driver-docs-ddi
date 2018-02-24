@@ -7,8 +7,8 @@ old-location: smartcrd\smartcard_extension.htm
 old-project: smartcrd
 ms.assetid: 057d82a8-ce5d-416f-b753-297dcbac27b8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "*PSMARTCARD_EXTENSION, smartcrd.smartcard_extension, _SMARTCARD_EXTENSION, SMARTCARD_EXTENSION, smclib/SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, smclib/PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], PSMARTCARD_EXTENSION, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices]"
+ms.date: 2/15/2018
+ms.keywords: smclib/SMARTCARD_EXTENSION, PSMARTCARD_EXTENSION, smclib/PSMARTCARD_EXTENSION, SMARTCARD_EXTENSION, scstruct_399a1231-e161-450e-b5e2-6fc6035c865f.xml, SMARTCARD_EXTENSION structure [Smart Card Reader Devices], smartcrd.smartcard_extension, PSMARTCARD_EXTENSION structure pointer [Smart Card Reader Devices], *PSMARTCARD_EXTENSION, _SMARTCARD_EXTENSION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: Any level (See Remarks section)
 topictype:
 -	APIRef
 -	kbSyntax
@@ -122,27 +122,32 @@ Not used.
      
 
 
-### -field IoRequest.Information
+
+#### Information
 
 Contains the number of bytes returned. 
 
 
-### -field IoRequest.RequestBuffer
+
+#### RequestBuffer
 
 A pointer to the data in the user's I/O request to be sent to the card. 
 
 
-### -field IoRequest.RequestBufferLength
+
+#### RequestBufferLength
 
 Indicates the number of bytes to send to the card. 
 
 
-### -field IoRequest.ReplyBuffer
+
+#### ReplyBuffer
 
 A pointer to the buffer that holds the data that is returned by the I/O request. 
 
 
-### -field IoRequest.ReplyBufferLength
+
+#### ReplyBufferLength
 
 Indicates the number of bytes of the data that are returned by the I/O request. 
 

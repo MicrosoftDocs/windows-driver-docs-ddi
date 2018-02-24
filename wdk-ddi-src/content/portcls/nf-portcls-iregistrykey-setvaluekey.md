@@ -7,8 +7,8 @@ old-location: audio\iregistrykey_setvaluekey.htm
 old-project: audio
 ms.assetid: 4f9dd025-b49f-44ab-88c4-38139e6cbee2
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: portcls/IRegistryKey::SetValueKey, SetValueKey method [Audio Devices], IRegistryKey::SetValueKey, IRegistryKey interface [Audio Devices], SetValueKey method, audio.iregistrykey_setvaluekey, SetValueKey method [Audio Devices], IRegistryKey interface, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, IRegistryKey, SetValueKey
+ms.date: 2/21/2018
+ms.keywords: SetValueKey, IRegistryKey::SetValueKey, portcls/IRegistryKey::SetValueKey, IRegistryKey, SetValueKey method [Audio Devices], IRegistryKey interface, IRegistryKey interface [Audio Devices], SetValueKey method, audmp-routines_a7668b45-2b58-4a49-b1ef-a8d0755225b0.xml, SetValueKey method [Audio Devices], audio.iregistrykey_setvaluekey
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IRegistryKey.SetValueKey
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IRegistryKey::SetValueKey method
@@ -166,7 +166,7 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-zwsetvaluekey.md">ZwSetValueKey</a>
+<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
 
 
 
@@ -174,7 +174,7 @@ If the given key has no existing value entry with a name matching the given <i>V
 
 
 
-<a href="..\wudfwdm\ns-wudfwdm-_unicode_string.md">UNICODE_STRING</a>
+<a href="..\portcls\nn-portcls-iregistrykey.md">IRegistryKey</a>
 
 
 
@@ -182,5 +182,5 @@ If the given key has no existing value entry with a name matching the given <i>V
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::SetValueKey method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IRegistryKey::SetValueKey method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

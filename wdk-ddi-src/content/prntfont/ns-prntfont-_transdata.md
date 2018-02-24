@@ -7,8 +7,8 @@ old-location: print\transdata.htm
 old-project: print
 ms.assetid: 75ddf007-0113-4967-a8d4-02fcc3cc2857
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: PTRANSDATA structure pointer [Print Devices], prntfont/PTRANSDATA, TRANSDATA, _TRANSDATA, TRANSDATA structure [Print Devices], *PTRANSDATA, prntfont/TRANSDATA, print.transdata, PTRANSDATA, print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml
+ms.date: 2/21/2018
+ms.keywords: "*PTRANSDATA, PTRANSDATA, TRANSDATA structure [Print Devices], _TRANSDATA, TRANSDATA, print.transdata, print_unidrv-pscript_fonts_e41871c1-fc38-460e-b9e7-1df0564933e1.xml, prntfont/TRANSDATA, prntfont/PTRANSDATA, PTRANSDATA structure pointer [Print Devices]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TRANSDATA
 product: Windows
 targetos: Windows
-req.typenames: "*PTRANSDATA, TRANSDATA"
+req.typenames: TRANSDATA, *PTRANSDATA
 req.product: Windows 10 or later.
 ---
 
@@ -215,17 +215,20 @@ Character data is double-byte.
 ### -field uCode
 
 
-### -field uCode.sCode
+
+#### sCode
 
 Specifies the offset to a command string. The offset is relative to the beginning of the <a href="..\prntfont\ns-prntfont-_maptable.md">MAPTABLE</a> structure containing the TRANSDATA array. The first word of the command string must be the command size. Valid if the MTYPE_COMPOSE flag is set in <b>uType</b>.
 
 
-### -field uCode.ubCode
+
+#### ubCode
 
 Specifies a one-byte character code. Valid if the MTYPE_DIRECT flag is set in <b>uType</b>.
 
 
-### -field uCode.ubPairs
+
+#### ubPairs
 
 Specifies a two-byte character code. Valid if the MTYPE_PAIRED flag is set in <b>uType</b>.
 
@@ -257,5 +260,5 @@ A .gtt file's TRANSDATA structure array, which contains glyph mapping informatio
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20TRANSDATA structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20TRANSDATA structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

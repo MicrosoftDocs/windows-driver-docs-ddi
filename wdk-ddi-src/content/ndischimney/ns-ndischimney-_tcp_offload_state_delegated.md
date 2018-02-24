@@ -7,8 +7,8 @@ old-location: netvista\tcp_offload_state_delegated.htm
 old-project: netvista
 ms.assetid: ab16cfa1-24f6-434a-a687-07e19172f185
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_TCP_OFFLOAD_STATE_DELEGATED, netvista.tcp_offload_state_delegated, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista], ndischimney/TCP_OFFLOAD_STATE_DELEGATED, ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], *PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml"
+ms.date: 2/16/2018
+ms.keywords: netvista.tcp_offload_state_delegated, TCP_OFFLOAD_STATE_DELEGATED, ndischimney/TCP_OFFLOAD_STATE_DELEGATED, _TCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED, PTCP_OFFLOAD_STATE_DELEGATED structure pointer [Network Drivers Starting with Windows Vista], ndischimney/PTCP_OFFLOAD_STATE_DELEGATED, tcp_chim_struct_e835c163-e154-4b9c-b1bb-b658376fd89d.xml, TCP_OFFLOAD_STATE_DELEGATED structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	TCP_OFFLOAD_STATE_DELEGATED
 product: Windows
 targetos: Windows
-req.typenames: TCP_OFFLOAD_STATE_DELEGATED, *PTCP_OFFLOAD_STATE_DELEGATED
+req.typenames: "*PTCP_OFFLOAD_STATE_DELEGATED, TCP_OFFLOAD_STATE_DELEGATED"
 ---
 
 # _TCP_OFFLOAD_STATE_DELEGATED structure
@@ -314,13 +314,15 @@ The current send window probe round. For a description of the send window probe 
 This member is a union that consists of the following members:
 
 
-### -field KeepAlive.ProbeCount
+
+#### ProbeCount
 
 The number of keepalive probes that have been sent that have not received a response (see RFC
       1122).
 
 
-### -field KeepAlive.TimeoutDelta
+
+#### TimeoutDelta
 
 The time remaining, in clock ticks, until the next keepalive timeout (see RFC 1122). Note that a
       value of -1 immediately after the TCP connection was offloaded indicates that the keepalive timer was
@@ -334,12 +336,14 @@ The time remaining, in clock ticks, until the next keepalive timeout (see RFC 11
 This member is a union that consists of the following members:
 
 
-### -field Retransmit.Count
+
+#### Count
 
 The number of retransmits that have been sent (see RFC 2581).
 
 
-### -field Retransmit.TimeoutDelta
+
+#### TimeoutDelta
 
 The time, in clock ticks, remaining until the next retransmit timeout (see RFC 2581). Note that a
       value of -1 immediately after the TCP connection was offloaded indicates that the retransmit timer was
@@ -394,7 +398,14 @@ This variable is used only in an initiate offload or terminate offload operation
 
 
 
-### -field SendBacklogSize
+### -field DWnd
+
+ 
+
+
+
+
+#### - SendBacklogSize
 
 The offload target specifies this value to indicate the number of data bytes that the host stack
        should have outstanding at the offload target for optimum performance. (This is the number of send
@@ -417,7 +428,7 @@ If the offload target does not support the send-backlog-size feature, it must wr
        <b>SendBacklogSize</b> variable is not used in the terminate offload operation.
 
 
-### -field BufferedData
+#### - BufferedData
 
 A pointer to buffered receive data. The host stack can pass such data to the offload target when
       offloading a TCP connection. (For more information, see 
@@ -427,7 +438,7 @@ A pointer to buffered receive data. The host stack can pass such data to the off
       <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/push-timer">Handling Buffered Receive Data During a Terminate Offload Operation</a>.)
 
 
-### -field ReceiveBacklogSize
+#### - ReceiveBacklogSize
 
 The offload target specifies this value to indicate the number of receive data bytes that are
       buffered in the offload target for the offloaded TCP connection. The host stack can query the TCP
@@ -438,13 +449,6 @@ The offload target specifies this value to indicate the number of receive data b
 If the offload target does not support the receive backlog size feature, it should write a value of
       0xFFFFFFFF to 
       <b>ReceiveBacklogSize</b> .
-
-
-### -field DWnd
-
- 
-
-
 
 
 ## -remarks
@@ -476,7 +480,11 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 ## -see-also
 
-<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
+<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
+
+
+
+<a href="..\ndischimney\nc-ndischimney-w_terminate_offload_handler.md">MiniportTerminateOffload</a>
 
 
 
@@ -496,13 +504,9 @@ When passed to an offload target, a TCP_OFFLOAD_STATE_DELEGATED structure is ass
 
 
 
-<a href="..\ndischimney\ns-ndischimney-_tcp_offload_state_const.md">TCP_OFFLOAD_STATE_CONST</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_DELEGATED structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20TCP_OFFLOAD_STATE_DELEGATED structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

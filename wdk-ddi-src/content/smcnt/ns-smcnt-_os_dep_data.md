@@ -7,8 +7,8 @@ old-location: smartcrd\os_dep_data__wdm_.htm
 old-project: smartcrd
 ms.assetid: 76f6f0d1-cb2f-4cda-aeb0-7421e18e3c27
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: smcnt/OS_DEP_DATA, OS_DEP_DATA structure [Smart Card Reader Devices], smcnt/POS_DEP_DATA, *POS_DEP_DATA, OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], POS_DEP_DATA structure pointer [Smart Card Reader Devices], _OS_DEP_DATA, OS_DEP_DATA, scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smartcrd.os_dep_data__wdm_, OS_DEP_DATA (WDM), POS_DEP_DATA
+ms.date: 2/15/2018
+ms.keywords: "*POS_DEP_DATA, POS_DEP_DATA, smcnt/POS_DEP_DATA, OS_DEP_DATA (WDM) structure [Smart Card Reader Devices], _OS_DEP_DATA, OS_DEP_DATA structure [Smart Card Reader Devices], OS_DEP_DATA, OS_DEP_DATA (WDM), scstruct_f7288ef8-a011-44c0-ab86-db7cc6d1a985.xml, smcnt/OS_DEP_DATA, POS_DEP_DATA structure pointer [Smart Card Reader Devices], smartcrd.os_dep_data__wdm_"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -28,7 +28,7 @@ req.assembly:
 req.type-library: 
 req.lib: 
 req.dll: 
-req.irql: 
+req.irql: "<= DISPATCH_LEVEL (see Remarks section)"
 topictype:
 -	APIRef
 -	kbSyntax
@@ -111,22 +111,26 @@ Contains a mutex that drivers use to synchronize access to protected members of 
 A structure with the following members:
 
 
-### -field RemoveLock.Removed
+
+#### Removed
 
 If this Boolean value is non-zero, it indicates that the spin lock was removed.
 
 
-### -field RemoveLock.RefCount
+
+#### RefCount
 
 If this long integer is non-zero, it indicates the number of references to the spin lock that are currently active. 
 
 
-### -field RemoveLock.RemoveEvent
+
+#### RemoveEvent
 
 A pointer to an event that synchronizes spin lock removal.
 
 
-### -field RemoveLock.TagList
+
+#### TagList
 
 A pointer to a linked list of structures, each of which contains a tag string that identifies a remove spin lock. 
 

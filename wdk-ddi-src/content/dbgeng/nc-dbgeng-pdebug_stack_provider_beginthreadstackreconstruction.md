@@ -4,10 +4,10 @@ title: PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION
 author: windows-driver-content
 description: The BeginThreadStackReconstruction callback function causes debugger to pass the stream to the dump stack provider prior to thread enumeration.
 old-location: debugger\beginthreadstackreconstruction.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 50CBBBED-EF1B-485F-90D3-0056AF8984E7
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.beginthreadstackreconstruction, BeginThreadStackReconstruction, BeginThreadStackReconstruction callback function [Windows Debugging], BeginThreadStackReconstruction, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION, dbgeng/BeginThreadStackReconstruction
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	BeginThreadStackReconstruction
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # PDEBUG_STACK_PROVIDER_BEGINTHREADSTACKRECONSTRUCTION callback

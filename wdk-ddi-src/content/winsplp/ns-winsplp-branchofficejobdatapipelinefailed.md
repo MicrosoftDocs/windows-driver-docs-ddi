@@ -7,8 +7,8 @@ old-location: print\branchofficejobdatapipelinefailed.htm
 old-project: print
 ms.assetid: 3F5DB2F5-40B6-4A8D-983C-065D17E62AE6
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: PBranchOfficeJobDataPipelineFailed, winsplp/PBranchOfficeJobDataPipelineFailed, winsplp/BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], *PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], print.branchofficejobdatapipelinefailed
+ms.date: 2/21/2018
+ms.keywords: PBranchOfficeJobDataPipelineFailed, winsplp/BranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed, PBranchOfficeJobDataPipelineFailed structure pointer [Print Devices], *PBranchOfficeJobDataPipelineFailed, print.branchofficejobdatapipelinefailed, BranchOfficeJobDataPipelineFailed structure [Print Devices], winsplp/PBranchOfficeJobDataPipelineFailed
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BranchOfficeJobDataPipelineFailed
 product: Windows
 targetos: Windows
-req.typenames: "*PBranchOfficeJobDataPipelineFailed, BranchOfficeJobDataPipelineFailed"
+req.typenames: BranchOfficeJobDataPipelineFailed, *PBranchOfficeJobDataPipelineFailed
 req.product: Windows 10 or later.
 ---
 

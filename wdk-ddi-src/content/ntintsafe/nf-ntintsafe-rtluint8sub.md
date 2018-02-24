@@ -7,8 +7,8 @@ old-location: kernel\rtluint8sub.htm
 old-project: kernel
 ms.assetid: D8BD24AA-64CF-42CB-8AD2-2B6C77D4B195
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUInt8Sub, kernel.rtluint8sub, ntintsafe/RtlUInt8Sub, RtlUInt8Sub function [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: RtlUInt8Sub function [Kernel-Mode Driver Architecture], ntintsafe/RtlUInt8Sub, kernel.rtluint8sub, RtlUInt8Sub
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -7,8 +7,8 @@ old-location: netvista\ndismresetminiport.htm
 old-project: netvista
 ms.assetid: 614C6E21-00D0-4F57-9E09-D1BAB166BA42
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NdisMResetMiniport, NdisMResetMiniport function [Network Drivers Starting with Windows Vista], netvista.ndismresetminiport, ndis/NdisMResetMiniport
+ms.date: 2/16/2018
+ms.keywords: ndis/NdisMResetMiniport, netvista.ndismresetminiport, NdisMResetMiniport function [Network Drivers Starting with Windows Vista], NdisMResetMiniport
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

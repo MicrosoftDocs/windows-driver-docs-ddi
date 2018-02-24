@@ -4,11 +4,11 @@ title: ExtRemoteTyped::OutTypeDefinition method
 author: windows-driver-content
 description: The OutTypeDefinition method prints the type of the typed data represented by this object.
 old-location: debugger\extremotetyped_outtypedefinition.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f7d24a3b-b5a8-4924-85d9-8bf7983b95fa
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: ExtRemoteTyped, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, ExtRemoteTyped::OutTypeDefinition, OutTypeDefinition, debugger.extremotetyped_outtypedefinition, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface
+ms.date: 2/15/2018
+ms.keywords: OutTypeDefinition method [Windows Debugging], ExtRemoteTyped interface, ExtRemoteTyped, debugger.extremotetyped_outtypedefinition, EngExtCpp_Ref_1186a4c5-f5d3-4f87-b8d0-b4a10cc2b4e7.xml, ExtRemoteTyped interface [Windows Debugging], OutTypeDefinition method, OutTypeDefinition, OutTypeDefinition method [Windows Debugging], ExtRemoteTyped::OutTypeDefinition
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	ExtRemoteTyped.OutTypeDefinition
 product: Windows
 targetos: Windows
-req.typenames: "*PSILO_DRIVER_CAPABILITIES, SILO_DRIVER_CAPABILITIES"
+req.typenames: SILO_DRIVER_CAPABILITIES, *PSILO_DRIVER_CAPABILITIES
 ---
 
 # ExtRemoteTyped::OutTypeDefinition method

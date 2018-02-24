@@ -7,8 +7,8 @@ old-location: print\gdigetpagehandle.htm
 old-project: print
 ms.assetid: 7eaed9d2-20fa-4cf1-b924-fbe1443535e9
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml, winppi/GdiGetPageHandle, GdiGetPageHandle, GdiGetPageHandle function [Print Devices], print.gdigetpagehandle
+ms.date: 2/21/2018
+ms.keywords: winppi/GdiGetPageHandle, gdifnc_3a8cdbd2-c73f-4b24-b984-9237b20327e1.xml, GdiGetPageHandle function [Print Devices], GdiGetPageHandle, print.gdigetpagehandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

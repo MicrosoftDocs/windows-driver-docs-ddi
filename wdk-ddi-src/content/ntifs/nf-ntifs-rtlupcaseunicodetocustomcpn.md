@@ -7,8 +7,8 @@ old-location: ifsk\rtlupcaseunicodetocustomcpn.htm
 old-project: ifsk
 ms.assetid: 906dd8c6-a7a7-4722-9ca6-78c437ab29e8
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml, RtlUpcaseUnicodeToCustomCPN, ntifs/RtlUpcaseUnicodeToCustomCPN, ifsk.rtlupcaseunicodetocustomcpn, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: RtlUpcaseUnicodeToCustomCPN, ifsk.rtlupcaseunicodetocustomcpn, RtlUpcaseUnicodeToCustomCPN function [Installable File System Drivers], rtlref_d60b8055-e672-4cc6-be0f-f9a23a202368.xml, ntifs/RtlUpcaseUnicodeToCustomCPN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

@@ -4,11 +4,11 @@ title: IWiaDrvItem::GetItemName method
 author: windows-driver-content
 description: The IWiaDrvItem::GetItemName method gets the current IWiaDrvItem item name, not including path information.
 old-location: image\iwiadrvitem_getitemname.htm
-old-project: image
+old-project: Image
 ms.assetid: 1e731975-13f8-4b5d-93de-714f62e9591f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, wiamindr_lh/IWiaDrvItem::GetItemName, GetItemName method [Imaging Devices], IWiaDrvItem interface, image.iwiadrvitem_getitemname, IWiaDrvItem, IWiaDrvItem::GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, GetItemName method [Imaging Devices], GetItemName
+ms.date: 2/15/2018
+ms.keywords: GetItemName method [Imaging Devices], IWiaDrvItem interface, DrvItem_18b6c67e-9d95-45d4-844f-90fcb5c277bd.xml, GetItemName method [Imaging Devices], image.iwiadrvitem_getitemname, IWiaDrvItem, wiamindr_lh/IWiaDrvItem::GetItemName, IWiaDrvItem interface [Imaging Devices], GetItemName method, GetItemName, IWiaDrvItem::GetItemName
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -112,5 +112,5 @@ If there is enough memory available, the method allocates a string containing th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20IWiaDrvItem::GetItemName method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20IWiaDrvItem::GetItemName method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

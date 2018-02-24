@@ -7,8 +7,8 @@ old-location: netvista\ndis_device_power_state.htm
 old-project: netvista
 ms.assetid: d241b0ee-7b13-453d-ac6a-015b82effb95
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_DEVICE_POWER_STATE, NdisDeviceStateMaximum, *PNDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD0, ntddndis/NDIS_DEVICE_POWER_STATE, NdisDeviceStateD3, NdisDeviceStateD2, ntddndis/NdisDeviceStateMaximum, PNDIS_DEVICE_POWER_STATE, NdisDeviceStateD1, ntddndis/PNDIS_DEVICE_POWER_STATE, ntddndis/NdisDeviceStateD3, netvista.ndis_device_power_state, ntddndis/NdisDeviceStateD2, _NDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], NdisDeviceStateD0, ntddndis/NdisDeviceStateD1, ntddndis/NdisDeviceStateUnspecified, NdisDeviceStateUnspecified, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: ntddndis/NDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisDeviceStateMaximum, NdisDeviceStateD2, *PNDIS_DEVICE_POWER_STATE, NdisDeviceStateD0, NDIS_DEVICE_POWER_STATE enumeration [Network Drivers Starting with Windows Vista], NdisDeviceStateD3, ntddndis/NdisDeviceStateD1, ntddndis/NdisDeviceStateD2, ntddndis/NdisDeviceStateD0, ntddndis/NdisDeviceStateUnspecified, ntddndis/PNDIS_DEVICE_POWER_STATE, PNDIS_DEVICE_POWER_STATE, NdisDeviceStateUnspecified, NdisDeviceStateMaximum, _NDIS_DEVICE_POWER_STATE, netvista.ndis_device_power_state, ntddndis/NdisDeviceStateD3, NdisDeviceStateD1, NDIS_DEVICE_POWER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_DEVICE_POWER_STATE
 product: Windows
 targetos: Windows
-req.typenames: NDIS_DEVICE_POWER_STATE, *PNDIS_DEVICE_POWER_STATE
+req.typenames: "*PNDIS_DEVICE_POWER_STATE, NDIS_DEVICE_POWER_STATE"
 ---
 
 # _NDIS_DEVICE_POWER_STATE enumeration
@@ -136,7 +136,19 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 ## -see-also
 
+<a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
+
+
+
 <a href="..\ndis\ns-ndis-_net_pnp_event.md">NET_PNP_EVENT</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569774">OID_PNP_CAPABILITIES</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>
 
 
 
@@ -145,14 +157,6 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff569780">OID_PNP_SET_POWER</a>
-
-
-
-<a href="..\ndis\nf-ndis-ndismidlenotificationconfirm.md">NdisMIdleNotificationConfirm</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569778">OID_PNP_QUERY_POWER</a>
 
 
 
@@ -168,5 +172,5 @@ Depending on the capabilities of the network adapter and its miniport driver, th
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_DEVICE_POWER_STATE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_DEVICE_POWER_STATE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

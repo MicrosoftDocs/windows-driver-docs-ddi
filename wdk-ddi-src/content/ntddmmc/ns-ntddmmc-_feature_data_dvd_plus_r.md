@@ -7,8 +7,8 @@ old-location: storage\feature_data_dvd_plus_r.htm
 old-project: storage
 ms.assetid: e1501ea9-a55b-4fbc-990b-2172c7369bb1
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_FEATURE_DATA_DVD_PLUS_R, storage.feature_data_dvd_plus_r, PFEATURE_DATA_DVD_PLUS_R, *PFEATURE_DATA_DVD_PLUS_R, ntddmmc/PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], ntddmmc/FEATURE_DATA_DVD_PLUS_R, structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml, FEATURE_DATA_DVD_PLUS_R"
+ms.date: 2/16/2018
+ms.keywords: FEATURE_DATA_DVD_PLUS_R structure [Storage Devices], _FEATURE_DATA_DVD_PLUS_R, ntddmmc/PFEATURE_DATA_DVD_PLUS_R, FEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R, PFEATURE_DATA_DVD_PLUS_R structure pointer [Storage Devices], structs-CD-ROM_fb4a1383-3c8f-48e8-8fc8-3796e00f80a6.xml, ntddmmc/FEATURE_DATA_DVD_PLUS_R, storage.feature_data_dvd_plus_r, *PFEATURE_DATA_DVD_PLUS_R
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -109,5 +109,5 @@ This structure holds data for the feature named "DVD+R" by the <i>MMC-3 </i>spec
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_DVD_PLUS_R structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20FEATURE_DATA_DVD_PLUS_R structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

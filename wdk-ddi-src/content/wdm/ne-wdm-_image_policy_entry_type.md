@@ -7,8 +7,8 @@ old-location: kernel\_image_policy_entry_type.htm
 old-project: kernel
 ms.assetid: f8ce3297-5a57-4ece-a74c-ae5e4e15ce3e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeUnicodeString, wdm/ImagePolicyEntryTypeInt16, _IMAGE_POLICY_ENTRY_TYPE, kernel._image_policy_entry_type, ImagePolicyEntryTypeUInt16, ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeInt32, wdm/IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeBool, wdm/ImagePolicyEntryTypeUnicodeString, wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeInt64, IMAGE_POLICY_ENTRY_TYPE, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeUInt64, ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeInt8
+ms.date: 2/16/2018
+ms.keywords: kernel._image_policy_entry_type, ImagePolicyEntryTypeUnicodeString, wdm/ImagePolicyEntryTypeAnsiString, ImagePolicyEntryTypeUInt16, ImagePolicyEntryTypeInt64, ImagePolicyEntryTypeBool, ImagePolicyEntryTypeUInt8, wdm/ImagePolicyEntryTypeInt16, wdm/ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeUInt8, ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeUInt32, ImagePolicyEntryTypeUInt32, wdm/ImagePolicyEntryTypeInt64, _IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeInt32, ImagePolicyEntryTypeMaximum, wdm/ImagePolicyEntryTypeInt8, wdm/ImagePolicyEntryTypeUInt64, wdm/ImagePolicyEntryTypeInt32, wdm/ImagePolicyEntryTypeBool, wdm/IMAGE_POLICY_ENTRY_TYPE, ImagePolicyEntryTypeInt8, ImagePolicyEntryTypeInt16, ImagePolicyEntryTypeAnsiString, wdm/ImagePolicyEntryTypeUInt16, wdm/ImagePolicyEntryTypeUnicodeString, IMAGE_POLICY_ENTRY_TYPE enumeration [Kernel-Mode Driver Architecture], IMAGE_POLICY_ENTRY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

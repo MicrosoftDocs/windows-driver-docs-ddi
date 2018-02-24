@@ -7,8 +7,8 @@ old-location: storage\sm_getbindingsupport_in.htm
 old-project: storage
 ms.assetid: c89d86fe-fe8c-48d2-a5c2-7971ea96b7ad
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: SM_GetBindingSupport_IN, _SM_GetBindingSupport_IN, PSM_GetBindingSupport_IN, hbapiwmi/PSM_GetBindingSupport_IN, SM_GetBindingSupport_IN structure [Storage Devices], PSM_GetBindingSupport_IN structure pointer [Storage Devices], hbapiwmi/SM_GetBindingSupport_IN, storage.sm_getbindingsupport_in, structs-Fibre_f13c3a99-7626-4dda-b0f2-8505b7aff3b5.xml, *PSM_GetBindingSupport_IN
+ms.date: 2/16/2018
+ms.keywords: structs-Fibre_f13c3a99-7626-4dda-b0f2-8505b7aff3b5.xml, PSM_GetBindingSupport_IN structure pointer [Storage Devices], PSM_GetBindingSupport_IN, _SM_GetBindingSupport_IN, SM_GetBindingSupport_IN, *PSM_GetBindingSupport_IN, hbapiwmi/PSM_GetBindingSupport_IN, storage.sm_getbindingsupport_in, SM_GetBindingSupport_IN structure [Storage Devices], hbapiwmi/SM_GetBindingSupport_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

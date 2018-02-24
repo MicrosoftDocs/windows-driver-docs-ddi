@@ -4,11 +4,11 @@ title: IDebugControl3::CoerceValue method
 author: windows-driver-content
 description: The CoerceValue method converts a value of one type into a value of another type.
 old-location: debugger\coercevalue.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: db037fc8-d503-4a72-b6bc-d5189f6786d4
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], CoerceValue method, dbgeng/IDebugControl3::CoerceValue, IDebugControl3::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl interface, CoerceValue method [Windows Debugging], IDebugControl3, CoerceValue method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::CoerceValue, IDebugControl3 interface [Windows Debugging], CoerceValue method, dbgeng/IDebugControl2::CoerceValue, IDebugControl2 interface [Windows Debugging], CoerceValue method, IDebugControl2::CoerceValue, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml, debugger.coercevalue, IDebugControl2, CoerceValue method [Windows Debugging], IDebugControl3 interface, IDebugControl, CoerceValue, IDebugControl::CoerceValue
+ms.date: 2/15/2018
+ms.keywords: IDebugControl::CoerceValue, IDebugControl2, IDebugControl, IDebugControl2::CoerceValue, IDebugControl2 interface [Windows Debugging], CoerceValue method, IDebugControl3, debugger.coercevalue, CoerceValue method [Windows Debugging], CoerceValue method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl::CoerceValue, dbgeng/IDebugControl2::CoerceValue, CoerceValue method [Windows Debugging], IDebugControl3 interface, IDebugControl3 interface [Windows Debugging], CoerceValue method, IDebugControl3::CoerceValue, IDebugControl interface [Windows Debugging], CoerceValue method, dbgeng/IDebugControl3::CoerceValue, CoerceValue, CoerceValue method [Windows Debugging], IDebugControl interface, IDebugControl_034a690e-25bb-40a1-b788-7b148ba0d9cd.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.CoerceValue
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::CoerceValue method
@@ -125,7 +125,7 @@ This method converts a value of one type into a value of another type.  If the s
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
 
@@ -133,17 +133,17 @@ This method converts a value of one type into a value of another type.  If the s
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol2.md">IDebugControl2</a>
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::CoerceValue method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::CoerceValue method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

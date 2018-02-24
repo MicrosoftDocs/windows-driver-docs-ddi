@@ -7,8 +7,8 @@ old-location: netvista\dot11_roaming_start_parameters.htm
 old-project: netvista
 ms.assetid: 23a0eabc-9eac-4375-b2ca-66b70deaba82
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PDOT11_ROAMING_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], *PDOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS structure [Network Drivers Starting with Windows Vista], windot11/DOT11_ROAMING_START_PARAMETERS, netvista.dot11_roaming_start_parameters, Native_802.11_data_types_7635397d-74dc-44d0-af58-47048361367d.xml, windot11/PDOT11_ROAMING_START_PARAMETERS, PDOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS
+ms.date: 2/16/2018
+ms.keywords: PDOT11_ROAMING_START_PARAMETERS, windot11/PDOT11_ROAMING_START_PARAMETERS, Native_802.11_data_types_7635397d-74dc-44d0-af58-47048361367d.xml, PDOT11_ROAMING_START_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], DOT11_ROAMING_START_PARAMETERS, *PDOT11_ROAMING_START_PARAMETERS, netvista.dot11_roaming_start_parameters, windot11/DOT11_ROAMING_START_PARAMETERS, DOT11_ROAMING_START_PARAMETERS structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -175,7 +175,7 @@ For more information about the roaming operation, see
 
 
 
-<a href="..\windot11\ns-windot11-_dot11_mac_address.md">DOT11_MAC_ADDRESS</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -191,7 +191,7 @@ For more information about the roaming operation, see
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-desired-bss-type">OID_DOT11_DESIRED_BSS_TYPE</a>
+<a href="..\wlantypes\ns-wlantypes-_dot11_ssid.md">DOT11_SSID</a>
 
 
 
@@ -199,5 +199,5 @@ For more information about the roaming operation, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ROAMING_START_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_ROAMING_START_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

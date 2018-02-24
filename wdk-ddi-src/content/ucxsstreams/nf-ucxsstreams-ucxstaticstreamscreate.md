@@ -4,11 +4,11 @@ title: UcxStaticStreamsCreate function
 author: windows-driver-content
 description: Creates a static streams object.
 old-location: buses\_ucxstaticstreamscreate.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: F7AA10E3-5F56-4751-A603-54A0BFB00927
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: UcxStaticStreamsCreate method [Buses], UcxStaticStreamsCreate, buses._ucxstaticstreamscreate, ucxsstreams/UcxStaticStreamsCreate
+ms.date: 2/15/2018
+ms.keywords: ucxsstreams/UcxStaticStreamsCreate, UcxStaticStreamsCreate method [Buses], UcxStaticStreamsCreate, buses._ucxstaticstreamscreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

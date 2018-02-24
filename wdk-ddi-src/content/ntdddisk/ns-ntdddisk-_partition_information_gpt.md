@@ -7,8 +7,8 @@ old-location: storage\partition_information_gpt.htm
 old-project: storage
 ms.assetid: f2d76b4c-7acd-4701-b978-3d29dc8cde0b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PPARTITION_INFORMATION_GPT structure pointer [Storage Devices], *PPARTITION_INFORMATION_GPT, ntdddisk/PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT, SET_PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT structure [Storage Devices], storage.partition_information_gpt, _PARTITION_INFORMATION_GPT, structs-disk_dad0a2a5-4351-4940-af39-28f7a4005c14.xml, ntdddisk/PARTITION_INFORMATION_GPT, PARTITION_INFORMATION_GPT
+ms.date: 2/16/2018
+ms.keywords: ntdddisk/PPARTITION_INFORMATION_GPT, storage.partition_information_gpt, *PPARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT structure pointer [Storage Devices], _PARTITION_INFORMATION_GPT, ntdddisk/PARTITION_INFORMATION_GPT, PPARTITION_INFORMATION_GPT, SET_PARTITION_INFORMATION_GPT, structs-disk_dad0a2a5-4351-4940-af39-28f7a4005c14.xml, PARTITION_INFORMATION_GPT structure [Storage Devices], PARTITION_INFORMATION_GPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -92,17 +92,17 @@ Specifies the partition name in Unicode.
 
 ## -see-also
 
-<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
-
-
-
 <a href="..\ntdddisk\ns-ntdddisk-_partition_information_ex.md">PARTITION_INFORMATION_EX</a>
 
 
 
- 
+<a href="..\ntddk\nf-ntddk-ioreadpartitiontableex.md">IoReadPartitionTableEx</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PARTITION_INFORMATION_GPT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PARTITION_INFORMATION_GPT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

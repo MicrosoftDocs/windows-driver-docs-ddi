@@ -7,8 +7,8 @@ old-location: display\dxgk_colorimetry.htm
 old-project: display
 ms.assetid: F3F9B6EC-B978-4C87-8AE0-8F6BC73099D2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_COLORIMETRY structure [Display Devices], DXGK_COLORIMETRY, _DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, *PDXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], PDXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, display.dxgk_colorimetry
+ms.date: 2/20/2018
+ms.keywords: DXGK_COLORIMETRY structure [Display Devices], _DXGK_COLORIMETRY, d3dkmddi/PDXGK_COLORIMETRY, PDXGK_COLORIMETRY, d3dkmddi/DXGK_COLORIMETRY, *PDXGK_COLORIMETRY, DXGK_COLORIMETRY, PDXGK_COLORIMETRY structure pointer [Display Devices], display.dxgk_colorimetry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DXGK_COLORIMETRY
 product: Windows
 targetos: Windows
-req.typenames: "*PDXGK_COLORIMETRY, DXGK_COLORIMETRY"
+req.typenames: DXGK_COLORIMETRY, *PDXGK_COLORIMETRY
 ---
 
 # _DXGK_COLORIMETRY structure

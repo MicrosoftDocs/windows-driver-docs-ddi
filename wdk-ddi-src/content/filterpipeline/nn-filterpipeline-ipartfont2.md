@@ -7,7 +7,7 @@ old-location: print\ipartfont2.htm
 old-project: print
 ms.assetid: AB1EFF6E-4FF5-413E-A4E4-3EEC47CDEBD4
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
+ms.date: 2/21/2018
 ms.keywords: print.ipartfont2, IPartFont2 interface [Print Devices], IPartFont2 interface [Print Devices], described, IPartFont2, filterpipeline/IPartFont2
 ms.prod: windows-hardware
 ms.technology: windows-devices

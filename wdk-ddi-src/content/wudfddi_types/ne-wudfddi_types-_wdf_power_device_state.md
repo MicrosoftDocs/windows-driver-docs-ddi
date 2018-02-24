@@ -7,8 +7,8 @@ old-location: wdf\wdf_power_device_state_umdf.htm
 old-project: wdf
 ms.assetid: de92bf06-b8fa-4c16-9216-95d68ca75111
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfPowerDeviceInvalid, WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceInvalid, wudfddi_types/WDF_POWER_DEVICE_STATE, WdfPowerDevicePrepareForHibernation, WdfPowerDeviceD2, WDF_POWER_DEVICE_STATE, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceMaximum, WDF_POWER_DEVICE_STATE enumeration, wudfddi_types/WdfPowerDeviceD2, wdf.wdf_power_device_state_umdf, wudfddi_types/WdfPowerDeviceD3, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD1, WdfPowerDeviceD0, wudfddi_types/WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, wudfddi_types/WdfPowerDevicePrepareForHibernation, umdf.wdf_power_device_state, WdfPowerDeviceD3
+ms.date: 2/20/2018
+ms.keywords: wudfddi_types/WdfPowerDeviceD3, WdfPowerDeviceD0, WdfPowerDeviceD1, WdfPowerDeviceD2, wdf.wdf_power_device_state_umdf, wudfddi_types/WdfPowerDevicePrepareForHibernation, WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceInvalid, _WDF_POWER_DEVICE_STATE, WdfPowerDeviceD3Final, WdfPowerDeviceMaximum, WdfPowerDeviceD3, wudfddi_types/WDF_POWER_DEVICE_STATE, wudfddi_types/WdfPowerDeviceMaximum, wudfddi_types/WdfPowerDeviceD1, wudfddi_types/WdfPowerDeviceD0, *PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE enumeration, WdfPowerDevicePrepareForHibernation, umdfstructs_2037a598-edcf-4359-b17d-3d5f42eda92a.xml, wudfddi_types/WdfPowerDeviceD3Final, umdf.wdf_power_device_state, WdfPowerDeviceInvalid, wudfddi_types/WdfPowerDeviceD2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_POWER_DEVICE_STATE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_POWER_DEVICE_STATE, WDF_POWER_DEVICE_STATE"
+req.typenames: WDF_POWER_DEVICE_STATE, *PWDF_POWER_DEVICE_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
-      The <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a> enumeration contains values that identify the power state that a device might support.
+The <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_power_device_state.md">WDF_POWER_DEVICE_STATE</a> enumeration contains values that identify the power state that a device might support.
 
 
 ## -syntax
@@ -129,17 +129,17 @@ The framework supplies one of the values of <a href="..\wudfddi_types\ne-wudfddi
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556799">IPnpCallback::OnD0Entry</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556803">IPnpCallback::OnD0Exit</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_DEVICE_STATE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_POWER_DEVICE_STATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

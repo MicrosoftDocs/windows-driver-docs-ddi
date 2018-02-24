@@ -7,8 +7,8 @@ old-location: ifsk\rxgetrdbssprocess.htm
 old-project: ifsk
 ms.assetid: 2d3717c2-c809-48b9-a84b-1e69a04b767e
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rxstruc/RxGetRDBSSProcess, rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, RxGetRDBSSProcess function [Installable File System Drivers], ifsk.rxgetrdbssprocess, RxGetRDBSSProcess
+ms.date: 2/16/2018
+ms.keywords: ifsk.rxgetrdbssprocess, RxGetRDBSSProcess function [Installable File System Drivers], rxref_7eee8a99-f7c3-41d3-8b16-1906ef301f47.xml, RxGetRDBSSProcess, rxstruc/RxGetRDBSSProcess
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -100,5 +100,5 @@ When <b>RxDriverEntry</b> is called to initialize RDBSS, a pointer to the kernel
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxGetRDBSSProcess function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxGetRDBSSProcess function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: "_STI_DEV_CAPS"
 author: windows-driver-content
 description: The STI_DEV_CAPS structure is used as a parameter to the IStiDevice::GetCapabilities method. It is also a member of the STI_DEVICE_INFORMATION and STI_WIA_DEVICE_INFORMATION structures.
 old-location: image\sti_dev_caps.htm
-old-project: image
+old-project: Image
 ms.assetid: 99e0f896-19d2-4895-8b01-deaf30ec5fe9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: sti/PSTI_DEV_CAPS, PSTI_DEV_CAPS structure pointer [Imaging Devices], *PSTI_DEV_CAPS, STI_DEV_CAPS structure [Imaging Devices], STI_DEV_CAPS, PSTI_DEV_CAPS, image.sti_dev_caps, stifnc_34efd7cf-944e-474e-8ed5-5ba24be9bf2e.xml, _STI_DEV_CAPS, sti/STI_DEV_CAPS
+ms.date: 2/15/2018
+ms.keywords: "*PSTI_DEV_CAPS, STI_DEV_CAPS structure [Imaging Devices], PSTI_DEV_CAPS structure pointer [Imaging Devices], image.sti_dev_caps, PSTI_DEV_CAPS, _STI_DEV_CAPS, stifnc_34efd7cf-944e-474e-8ed5-5ba24be9bf2e.xml, STI_DEV_CAPS, sti/STI_DEV_CAPS, sti/PSTI_DEV_CAPS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	STI_DEV_CAPS
 product: Windows
 targetos: Windows
-req.typenames: "*PSTI_DEV_CAPS, STI_DEV_CAPS"
+req.typenames: STI_DEV_CAPS, *PSTI_DEV_CAPS
 req.product: Windows 10 or later.
 ---
 

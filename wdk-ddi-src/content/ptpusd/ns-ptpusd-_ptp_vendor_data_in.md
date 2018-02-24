@@ -4,11 +4,11 @@ title: "_PTP_VENDOR_DATA_IN"
 author: windows-driver-content
 description: The PTP_VENDOR_DATA_IN structure contains information about an arbitrary command that an application issues to the device.
 old-location: image\ptp_vendor_data_in.htm
-old-project: image
+old-project: Image
 ms.assetid: 896209d0-d545-495b-b743-98c0b9d976ff
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], PPTP_VENDOR_DATA_IN, ptpusd/PTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, ptpusd/PPTP_VENDOR_DATA_IN, _PTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], *PPTP_VENDOR_DATA_IN
+ms.date: 2/15/2018
+ms.keywords: ptpusd/PTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN, image.ptp_vendor_data_in, ptpusd/PPTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN structure [Imaging Devices], *PPTP_VENDOR_DATA_IN, wiastrct_b0ebb671-78d9-4224-8bde-893fb0afc9f8.xml, PTP_VENDOR_DATA_IN, PPTP_VENDOR_DATA_IN structure pointer [Imaging Devices], _PTP_VENDOR_DATA_IN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	PTP_VENDOR_DATA_IN
 product: Windows
 targetos: Windows
-req.typenames: PTP_VENDOR_DATA_IN, *PPTP_VENDOR_DATA_IN
+req.typenames: "*PPTP_VENDOR_DATA_IN, PTP_VENDOR_DATA_IN"
 req.product: Windows 10 or later.
 ---
 
@@ -168,5 +168,5 @@ For more information about the opcodes used in the <b>OpCode</b> member, see PIM
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20PTP_VENDOR_DATA_IN structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20PTP_VENDOR_DATA_IN structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

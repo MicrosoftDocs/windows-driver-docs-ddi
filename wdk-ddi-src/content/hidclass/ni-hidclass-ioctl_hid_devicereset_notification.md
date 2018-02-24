@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_devicereset_notification.htm
 old-project: hid
 ms.assetid: 3A9047BE-C974-45E1-89C7-BF0A5F58DD8B
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.ioctl_hid_devicereset_notification, IOCTL_HID_DEVICERESET_NOTIFICATION control code [Human Input Devices], IOCTL_HID_DEVICERESET_NOTIFICATION, hidclass/IOCTL_HID_DEVICERESET_NOTIFICATION
 ms.prod: windows-hardware
 ms.technology: windows-devices

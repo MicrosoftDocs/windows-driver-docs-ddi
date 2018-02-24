@@ -7,8 +7,8 @@ old-location: kernel\clfs_lsn.htm
 old-project: kernel
 ms.assetid: ac50c4e1-4b87-4c6e-a5c7-24f961224134
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], CLFS_LSN, wdm/PCLS_LSN, CLS_LSN structure [Kernel-Mode Driver Architecture], kernel.clfs_lsn, wdm/PPCLS_LSN, kstruct_a_25e68bfe-85ad-4716-a47f-7f248ca068e4.xml, PPCLS_LSN, PCLS_LSN, _CLS_LSN, PPCLS_LSN structure pointer [Kernel-Mode Driver Architecture], PCLFS_LSN structure [Kernel-Mode Driver Architecture], PPCLFS_LSN, *PCLFS_LSN, wdm/CLS_LSN, *PCLS_LSN, PPCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], wdm/PPCLFS_LSN, PCLS_LSN structure pointer [Kernel-Mode Driver Architecture], wdm/PCLFS_LSN, PCLFS_LSN, CLS_LSN
+ms.date: 2/16/2018
+ms.keywords: CLFS_LSN, kstruct_a_25e68bfe-85ad-4716-a47f-7f248ca068e4.xml, wdm/PPCLFS_LSN, CLS_LSN structure [Kernel-Mode Driver Architecture], PCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], PCLFS_LSN structure [Kernel-Mode Driver Architecture], PPCLFS_LSN, PPCLFS_LSN structure pointer [Kernel-Mode Driver Architecture], wdm/PPCLS_LSN, wdm/PCLFS_LSN, *PCLFS_LSN, PCLS_LSN structure pointer [Kernel-Mode Driver Architecture], wdm/PCLS_LSN, PPCLS_LSN, _CLS_LSN, PPCLS_LSN structure pointer [Kernel-Mode Driver Architecture], *PCLS_LSN, PCLS_LSN, kernel.clfs_lsn, PCLFS_LSN, CLS_LSN, wdm/CLS_LSN
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

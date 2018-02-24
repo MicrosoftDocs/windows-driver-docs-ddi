@@ -4,11 +4,11 @@ title: IDebugRegisters2::SetValues method
 author: windows-driver-content
 description: The SetValues method sets the value of several of the target's registers.
 old-location: debugger\setvalues.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 8f3817e7-8409-4b75-be28-ac7fe32145cb
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetValues method [Windows Debugging], IDebugRegisters interface, IDebugRegisters interface [Windows Debugging], SetValues method, SetValues method [Windows Debugging], IDebugRegisters2 interface, debugger.setvalues, dbgeng/IDebugRegisters::SetValues, IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2, dbgeng/IDebugRegisters2::SetValues, IDebugRegisters2::SetValues, IDebugRegisters, SetValues, IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, SetValues method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: SetValues method [Windows Debugging], IDebugRegisters2 interface [Windows Debugging], SetValues method, IDebugRegisters2, SetValues method [Windows Debugging], IDebugRegisters interface, IDebugRegisters2::SetValues, SetValues method [Windows Debugging], IDebugRegisters2 interface, IDebugRegisters interface [Windows Debugging], SetValues method, SetValues, IDebugRegisters, debugger.setvalues, IDebugRegisters::SetValues, dbgeng/IDebugRegisters::SetValues, IDebugRegisters_0c188698-35b8-4c8f-ad8c-1218695845a8.xml, dbgeng/IDebugRegisters2::SetValues
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugRegisters2.SetValues
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugRegisters2::SetValues method
@@ -182,5 +182,5 @@ For an overview of the <a href="..\dbgeng\nn-dbgeng-idebugregisters.md">IDebugRe
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugRegisters::SetValues method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugRegisters::SetValues method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

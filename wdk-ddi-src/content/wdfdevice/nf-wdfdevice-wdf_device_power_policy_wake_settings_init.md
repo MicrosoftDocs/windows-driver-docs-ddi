@@ -7,8 +7,8 @@ old-location: wdf\wdf_device_power_policy_wake_settings_init.htm
 old-project: wdf
 ms.assetid: bb712c92-c926-4a7a-a126-db4db3bc728f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, DFDeviceObjectGeneralRef_2608d30e-282b-4a19-acb7-ced01cb6bc1a.xml, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function, wdf.wdf_device_power_policy_wake_settings_init, kmdf.wdf_device_power_policy_wake_settings_init
+ms.date: 2/20/2018
+ms.keywords: WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, kmdf.wdf_device_power_policy_wake_settings_init, DFDeviceObjectGeneralRef_2608d30e-282b-4a19-acb7-ced01cb6bc1a.xml, WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT function, wdfdevice/WDF_DEVICE_POWER_POLICY_WAKE_SETTINGS_INIT, wdf.wdf_device_power_policy_wake_settings_init
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

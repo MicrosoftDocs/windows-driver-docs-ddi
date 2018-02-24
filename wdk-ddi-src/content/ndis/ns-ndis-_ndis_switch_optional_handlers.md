@@ -7,8 +7,8 @@ old-location: netvista\ndis_switch_optional_handlers.htm
 old-project: netvista
 ms.assetid: aa8367c7-8366-4601-8c2a-4d96df5cfcd8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_NDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_OPTIONAL_HANDLERS, ndis/PNDIS_SWITCH_OPTIONAL_HANDLERS, PNDIS_SWITCH_OPTIONAL_HANDLERS, ndis/NDIS_SWITCH_OPTIONAL_HANDLERS, PNDIS_SWITCH_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], netvista.ndis_switch_optional_handlers, *PNDIS_SWITCH_OPTIONAL_HANDLERS"
+ms.date: 2/16/2018
+ms.keywords: PNDIS_SWITCH_OPTIONAL_HANDLERS, ndis/PNDIS_SWITCH_OPTIONAL_HANDLERS, PNDIS_SWITCH_OPTIONAL_HANDLERS structure pointer [Network Drivers Starting with Windows Vista], *PNDIS_SWITCH_OPTIONAL_HANDLERS, _NDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS structure [Network Drivers Starting with Windows Vista], NDIS_SWITCH_OPTIONAL_HANDLERS, netvista.ndis_switch_optional_handlers, ndis/NDIS_SWITCH_OPTIONAL_HANDLERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	NDIS_SWITCH_OPTIONAL_HANDLERS
 product: Windows
 targetos: Windows
-req.typenames: "*PNDIS_SWITCH_OPTIONAL_HANDLERS, NDIS_SWITCH_OPTIONAL_HANDLERS"
+req.typenames: NDIS_SWITCH_OPTIONAL_HANDLERS, *PNDIS_SWITCH_OPTIONAL_HANDLERS
 ---
 
 # _NDIS_SWITCH_OPTIONAL_HANDLERS structure
@@ -213,11 +213,7 @@ When the extensible switch extension calls <a href="..\ndis\nf-ndis-ndisfgetopti
 
 
 
-<a href="..\ndis\nc-ndis-ndis_switch_grow_net_buffer_list_destinations.md">GrowNetBufferListDestinations</a>
-
-
-
-<a href="..\ndis\nc-ndis-ndis_switch_set_net_buffer_list_source.md">SetNetBufferListSource</a>
+<a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
 
 
 
@@ -225,15 +221,7 @@ When the extensible switch extension calls <a href="..\ndis\nf-ndis-ndisfgetopti
 
 
 
-<a href="https://msdn.microsoft.com/9A740524-0FC1-4585-8059-F678D4777F66">UpdateNetBufferListDestinations</a>
-
-
-
-<a href="https://msdn.microsoft.com/5CC345FA-C3EF-4122-8E9C-6EA27B20DD5A">CopyNetBufferListInfo</a>
-
-
-
-<a href="https://msdn.microsoft.com/976D3A69-C539-4C8E-9664-F85717E5F712">DereferenceSwitchPort</a>
+<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
 
 
 
@@ -241,19 +229,27 @@ When the extensible switch extension calls <a href="..\ndis\nf-ndis-ndisfgetopti
 
 
 
-<a href="https://msdn.microsoft.com/5FD2E931-AC9F-4157-9C45-F93261FC834D">ReferenceSwitchPort</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
-
-
-
 <a href="..\ndis\nc-ndis-filter_attach.md">FilterAttach</a>
 
 
 
-<a href="https://msdn.microsoft.com/6B8CD868-D2F4-4892-BF6D-DFD7A3984320">AddNetBufferListDestination</a>
+<a href="https://msdn.microsoft.com/976D3A69-C539-4C8E-9664-F85717E5F712">DereferenceSwitchPort</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_switch_grow_net_buffer_list_destinations.md">GrowNetBufferListDestinations</a>
+
+
+
+<a href="https://msdn.microsoft.com/5CC345FA-C3EF-4122-8E9C-6EA27B20DD5A">CopyNetBufferListInfo</a>
+
+
+
+<a href="..\ndis\nc-ndis-ndis_switch_set_net_buffer_list_source.md">SetNetBufferListSource</a>
+
+
+
+<a href="https://msdn.microsoft.com/58C72F81-07B9-45FE-A8BA-0405DBE4CA20">DereferenceSwitchNic</a>
 
 
 
@@ -261,11 +257,15 @@ When the extensible switch extension calls <a href="..\ndis\nf-ndis-ndisfgetopti
 
 
 
-<a href="https://msdn.microsoft.com/C8A80DB2-4273-4FBA-82D4-4E8146812B16">AllocateNetBufferListForwardingContext</a>
+<a href="https://msdn.microsoft.com/6B8CD868-D2F4-4892-BF6D-DFD7A3984320">AddNetBufferListDestination</a>
 
 
 
-<a href="https://msdn.microsoft.com/58C72F81-07B9-45FE-A8BA-0405DBE4CA20">DereferenceSwitchNic</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
+
+
+
+<a href="https://msdn.microsoft.com/5FD2E931-AC9F-4157-9C45-F93261FC834D">ReferenceSwitchPort</a>
 
 
 
@@ -281,5 +281,5 @@ When the extensible switch extension calls <a href="..\ndis\nf-ndis-ndisfgetopti
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_OPTIONAL_HANDLERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_SWITCH_OPTIONAL_HANDLERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

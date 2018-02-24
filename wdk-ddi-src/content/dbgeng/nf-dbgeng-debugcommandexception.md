@@ -4,11 +4,11 @@ title: DebugCommandException function
 author: windows-driver-content
 description: Specifies a debug command exception.
 old-location: debugger\debugcommandexception.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 6DC67840-B985-45D0-8E81-671C3DC1EBC2
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: DebugCommandException function [Windows Debugging], debugger.debugcommandexception, dbgeng/DebugCommandException, DebugCommandException
+ms.date: 2/15/2018
+ms.keywords: debugger.debugcommandexception, dbgeng/DebugCommandException, DebugCommandException, DebugCommandException function [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	DebugCommandException
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # DebugCommandException function

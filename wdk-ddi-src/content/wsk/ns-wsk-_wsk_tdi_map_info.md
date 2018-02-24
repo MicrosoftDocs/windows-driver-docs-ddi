@@ -7,8 +7,8 @@ old-location: netvista\wsk_tdi_map_info.htm
 old-project: netvista
 ms.assetid: b0b4fab4-1a3c-4075-8881-f2aa38fba15e
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WSK_TDI_MAP_INFO structure [Network Drivers Starting with Windows Vista], wsk/PWSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO structure pointer [Network Drivers Starting with Windows Vista], _WSK_TDI_MAP_INFO, wsk/WSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO, wskref_27c8b9f2-49b9-4358-aeac-be81e5aeb297.xml, netvista.wsk_tdi_map_info, WSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO
+ms.date: 2/16/2018
+ms.keywords: wskref_27c8b9f2-49b9-4358-aeac-be81e5aeb297.xml, WSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO structure [Network Drivers Starting with Windows Vista], wsk/PWSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO, _WSK_TDI_MAP_INFO, PWSK_TDI_MAP_INFO structure pointer [Network Drivers Starting with Windows Vista], netvista.wsk_tdi_map_info, wsk/WSK_TDI_MAP_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WSK_TDI_MAP_INFO
 product: Windows
 targetos: Windows
-req.typenames: "*PWSK_TDI_MAP_INFO, WSK_TDI_MAP_INFO"
+req.typenames: WSK_TDI_MAP_INFO, *PWSK_TDI_MAP_INFO
 req.product: Windows 10 or later.
 ---
 
@@ -126,5 +126,5 @@ For more information about using TDI transports, see
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_TDI_MAP_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WSK_TDI_MAP_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

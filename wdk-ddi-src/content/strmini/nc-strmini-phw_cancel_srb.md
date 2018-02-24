@@ -7,7 +7,7 @@ old-location: stream\strminicancelpacket.htm
 old-project: stream
 ms.assetid: e64c00dd-4eef-4e1e-abb0-8263088f6dc6
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
+ms.date: 2/20/2018
 ms.keywords: stream.strminicancelpacket, StrMiniCancelPacket routine [Streaming Media Devices], StrMiniCancelPacket, PHW_CANCEL_SRB, PHW_CANCEL_SRB, strmini/StrMiniCancelPacket, strmini-routines_976ab3d0-d8aa-4121-a0a8-b37d08a07219.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

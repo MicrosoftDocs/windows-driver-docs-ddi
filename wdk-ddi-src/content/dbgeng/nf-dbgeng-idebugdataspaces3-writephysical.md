@@ -4,11 +4,11 @@ title: IDebugDataSpaces3::WritePhysical method
 author: windows-driver-content
 description: The WritePhysical method writes data to the specified physical address in the target's memory.
 old-location: debugger\writephysical3.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: ec691a7c-a569-49dd-af13-bfbf403be297
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugDataSpaces::WritePhysical, IDebugDataSpaces_0e781d56-64f8-4518-b748-5afe9f43c429.xml, dbgeng/IDebugDataSpaces::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces4 interface, WritePhysical method [Windows Debugging], IDebugDataSpaces3::WritePhysical, IDebugDataSpaces3 interface [Windows Debugging], WritePhysical method, IDebugDataSpaces2, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical method, dbgeng/IDebugDataSpaces2::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces3 interface, IDebugDataSpaces2::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces interface [Windows Debugging], WritePhysical method, IDebugDataSpaces3, debugger.writephysical3, dbgeng/IDebugDataSpaces3::WritePhysical, IDebugDataSpaces4::WritePhysical, dbgeng/IDebugDataSpaces4::WritePhysical, IDebugDataSpaces, WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces2 interface [Windows Debugging], WritePhysical method
+ms.date: 2/15/2018
+ms.keywords: IDebugDataSpaces3::WritePhysical, dbgeng/IDebugDataSpaces2::WritePhysical, WritePhysical method [Windows Debugging], IDebugDataSpaces interface, dbgeng/IDebugDataSpaces4::WritePhysical, IDebugDataSpaces::WritePhysical, dbgeng/IDebugDataSpaces::WritePhysical, dbgeng/IDebugDataSpaces3::WritePhysical, IDebugDataSpaces2::WritePhysical, IDebugDataSpaces2 interface [Windows Debugging], WritePhysical method, IDebugDataSpaces3, IDebugDataSpaces4::WritePhysical, IDebugDataSpaces_0e781d56-64f8-4518-b748-5afe9f43c429.xml, IDebugDataSpaces3 interface [Windows Debugging], WritePhysical method, WritePhysical method [Windows Debugging], WritePhysical method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces, WritePhysical method [Windows Debugging], IDebugDataSpaces3 interface, WritePhysical, IDebugDataSpaces2, IDebugDataSpaces4 interface [Windows Debugging], WritePhysical method, debugger.writephysical3, IDebugDataSpaces interface [Windows Debugging], WritePhysical method, WritePhysical method [Windows Debugging], IDebugDataSpaces2 interface
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.WritePhysical
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces3::WritePhysical method

@@ -4,10 +4,10 @@ title: IWiaErrorHandler
 author: windows-driver-content
 description: The IWiaErrorHandler interface provides the GetStatusDescription and ReportStatus methods, which enable minidrivers to give users information about status or errors during a data transfer and possibly give an opportunity to recover from errors.
 old-location: image\iwiaerrorhandler_interface.htm
-old-project: image
+old-project: Image
 ms.assetid: b441fbca-75fe-4b9d-a9d5-2ad5a4a55801
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/15/2018
 ms.keywords: image.iwiaerrorhandler_interface, IWiaErrorHandler interface [Imaging Devices], IWiaErrorHandler interface [Imaging Devices], described, IWiaErrorHandler, wia_lh/IWiaErrorHandler, IWiaErrorHandler_0a501695-14b7-4aab-aee8-19ce74caea94.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWiaErrorHandler
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

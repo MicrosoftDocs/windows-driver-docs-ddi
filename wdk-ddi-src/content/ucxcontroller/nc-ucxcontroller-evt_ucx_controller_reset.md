@@ -4,10 +4,10 @@ title: EVT_UCX_CONTROLLER_RESET
 author: windows-driver-content
 description: The client driver's implementation that UCX calls to reset the controller.
 old-location: buses\evt_ucx_controller_reset.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 8c01d677-5ce4-44f6-8342-2152e851de87
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.evt_ucx_controller_reset, EvtUcxControllerReset callback function [Buses], EvtUcxControllerReset, EVT_UCX_CONTROLLER_RESET, EVT_UCX_CONTROLLER_RESET, ucxcontroller/EvtUcxControllerReset, PEVT_UCX_CONTROLLER_RESET callback function pointer [Buses], PEVT_UCX_CONTROLLER_RESET
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	PEVT_UCX_CONTROLLER_RESET
 product: Windows
 targetos: Windows
-req.typenames: "*PUCM_PD_REQUEST_DATA_OBJECT, UCM_PD_REQUEST_DATA_OBJECT"
+req.typenames: UCM_PD_REQUEST_DATA_OBJECT, *PUCM_PD_REQUEST_DATA_OBJECT
 req.product: Windows 10 or later.
 ---
 
@@ -138,7 +138,7 @@ Controller_EvtControllerReset(
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
+<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerneedsreset.md">UcxControllerNeedsReset</a>
 
 
 
@@ -146,7 +146,7 @@ Controller_EvtControllerReset(
 
 
 
-<a href="..\ucxcontroller\nf-ucxcontroller-ucxcontrollerresetcomplete.md">UcxControllerResetComplete</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/mt188033">UcxControllerCreate</a>
 
 
 
@@ -154,5 +154,5 @@ Controller_EvtControllerReset(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20EVT_UCX_CONTROLLER_RESET callback function%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20EVT_UCX_CONTROLLER_RESET callback function%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

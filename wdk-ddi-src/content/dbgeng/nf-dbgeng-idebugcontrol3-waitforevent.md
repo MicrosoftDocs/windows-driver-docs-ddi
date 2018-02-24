@@ -4,11 +4,11 @@ title: IDebugControl3::WaitForEvent method
 author: windows-driver-content
 description: The WaitForEvent method waits for an event that breaks into the debugger engine application.
 old-location: debugger\waitforevent.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: b7038bcf-2469-4d5f-ac73-0c7835da23c3
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl3 interface [Windows Debugging], WaitForEvent method, dbgeng/IDebugControl2::WaitForEvent, debugger.waitforevent, WaitForEvent method [Windows Debugging], IDebugControl interface, IDebugControl3, WaitForEvent, IDebugControl2::WaitForEvent, WaitForEvent method [Windows Debugging], dbgeng/IDebugControl::WaitForEvent, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, WaitForEvent method [Windows Debugging], IDebugControl3 interface, IDebugControl interface [Windows Debugging], WaitForEvent method, IDebugControl3::WaitForEvent, dbgeng/IDebugControl3::WaitForEvent, IDebugControl2, IDebugControl, IDebugControl2 interface [Windows Debugging], WaitForEvent method, IDebugControl::WaitForEvent, WaitForEvent method [Windows Debugging], IDebugControl2 interface
+ms.date: 2/15/2018
+ms.keywords: IDebugControl2 interface [Windows Debugging], WaitForEvent method, WaitForEvent method [Windows Debugging], IDebugControl interface, IDebugControl2::WaitForEvent, IDebugControl, IDebugControl_19a7d8b3-1f16-400e-bf8f-c782d48b2cf5.xml, IDebugControl2, IDebugControl3, debugger.waitforevent, WaitForEvent method [Windows Debugging], IDebugControl3 interface, dbgeng/IDebugControl3::WaitForEvent, WaitForEvent, WaitForEvent method [Windows Debugging], IDebugControl2 interface, IDebugControl interface [Windows Debugging], WaitForEvent method, WaitForEvent method [Windows Debugging], IDebugControl3 interface [Windows Debugging], WaitForEvent method, dbgeng/IDebugControl2::WaitForEvent, IDebugControl3::WaitForEvent, dbgeng/IDebugControl::WaitForEvent, IDebugControl::WaitForEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.WaitForEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::WaitForEvent method
@@ -173,10 +173,6 @@ For more information about using <b>WaitForEvent</b> to control the execution fl
 
 ## -see-also
 
-<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugcontrol.md">IDebugControl</a>
 
 
@@ -185,9 +181,13 @@ For more information about using <b>WaitForEvent</b> to control the execution fl
 
 
 
- 
+<a href="..\dbgeng\nn-dbgeng-idebugcontrol3.md">IDebugControl3</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl::WaitForEvent method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl::WaitForEvent method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

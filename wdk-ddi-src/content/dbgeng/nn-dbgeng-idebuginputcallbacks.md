@@ -4,10 +4,10 @@ title: IDebugInputCallbacks
 author: windows-driver-content
 description: IDebugInputCallbacks interface
 old-location: debugger\idebuginputcallbacks.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 2122d970-1d1c-4ef0-b8f7-92ef6e4f0731
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebuginputcallbacks, IDebugInputCallbacks interface [Windows Debugging], IDebugInputCallbacks interface [Windows Debugging], described, IDebugInputCallbacks, dbgeng/IDebugInputCallbacks, ComCallbacks_9dd6d3d2-e92d-41bc-8276-fa8b7818a372.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDebugInputCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugInputCallbacks interface

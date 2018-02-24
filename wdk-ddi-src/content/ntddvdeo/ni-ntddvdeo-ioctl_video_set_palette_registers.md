@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_palette_registers.htm
 old-project: display
 ms.assetid: f36dc8cf-2141-4ee2-9f23-ae996a0f0d97
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.ioctl_video_set_palette_registers, IOCTL_VIDEO_SET_PALETTE_REGISTERS control code [Display Devices], IOCTL_VIDEO_SET_PALETTE_REGISTERS, ntddvdeo/IOCTL_VIDEO_SET_PALETTE_REGISTERS, Video_IOCTLs_d8a3a22e-037b-4e82-b542-e5a5e4a7fef7.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

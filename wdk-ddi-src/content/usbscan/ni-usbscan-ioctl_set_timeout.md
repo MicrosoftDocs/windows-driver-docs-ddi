@@ -4,10 +4,10 @@ title: IOCTL_SET_TIMEOUT
 author: windows-driver-content
 description: Sets the time-out value for USB bulk IN, bulk OUT, or interrupt pipe access.
 old-location: image\ioctl_set_timeout.htm
-old-project: image
+old-project: Image
 ms.assetid: 90403ef3-d86c-4e2b-842d-c121cce07a47
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
+ms.date: 2/15/2018
 ms.keywords: image.ioctl_set_timeout, IOCTL_SET_TIMEOUT control code [Imaging Devices], IOCTL_SET_TIMEOUT, usbscan/IOCTL_SET_TIMEOUT, stifnc_942a0b21-7e68-444d-8bf2-7f8388a8a8fc.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

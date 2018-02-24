@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_text_rendering_format.htm
 old-project: display
 ms.assetid: 73ec5d3c-d8f6-4db9-b55f-317eab3b4a39
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, _D3DKMDT_TEXT_RENDERING_FORMAT, display.d3dkmdt_text_rendering_format, D3DKMDT_TRF_UNINITIALIZED, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml
+ms.date: 2/20/2018
+ms.keywords: d3dkmdt/D3DKMDT_TRF_UNINITIALIZED, DmEnums_f7f70f44-9d28-46c2-8c8f-35d13dc3a459.xml, d3dkmdt/D3DKMDT_TEXT_RENDERING_FORMAT, display.d3dkmdt_text_rendering_format, D3DKMDT_TEXT_RENDERING_FORMAT enumeration [Display Devices], _D3DKMDT_TEXT_RENDERING_FORMAT, D3DKMDT_TRF_UNINITIALIZED, D3DKMDT_TEXT_RENDERING_FORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -91,5 +91,5 @@ The <b>Format.Text</b> member of the <a href="..\d3dkmdt\ns-d3dkmdt-_d3dkmdt_vid
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_TEXT_RENDERING_FORMAT enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DKMDT_TEXT_RENDERING_FORMAT enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

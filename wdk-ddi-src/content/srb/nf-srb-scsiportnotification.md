@@ -7,8 +7,8 @@ old-location: storage\scsiportnotification.htm
 old-project: storage
 ms.assetid: 27da3881-4c47-492c-868e-ce72210e9d6f
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, srb/ScsiPortNotification, ScsiPortNotification, storage.scsiportnotification
+ms.date: 2/16/2018
+ms.keywords: ScsiPortNotification routine [Storage Devices], scsiprt_0e410e4a-e7bb-448b-9d4d-c2a5db63fe02.xml, ScsiPortNotification, storage.scsiportnotification, srb/ScsiPortNotification
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	ScsiPortNotification
 product: Windows
 targetos: Windows
-req.typenames: "*PSPB_CONTROLLER_CONFIG, SPB_CONTROLLER_CONFIG"
+req.typenames: STOR_DEVICE_POWER_STATE, *PSTOR_DEVICE_POWER_STATE
 req.product: Windows 10 or later.
 ---
 
@@ -113,7 +113,7 @@ Syntax:
 
 </td>
 <td>
-Indicates the miniport driver is ready for another request to a target that is not currently busy. This notification should be sent by the miniport driver as soon as the driver is ready for another request. Usually, this notification is sent from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a> routine but, sometimes, from the <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a> (or <a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>) routine.
+Indicates the miniport driver is ready for another request to a target that is not currently busy. This notification should be sent by the miniport driver as soon as the driver is ready for another request. Usually, this notification is sent from the <a href="..\srb\nc-srb-phw_startio.md">HwScsiStartIo</a> routine but, sometimes, from the <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a> (or <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a>) routine.
 
 </td>
 </tr>
@@ -161,7 +161,7 @@ Indicates that the HBA has detected a reset on the SCSI bus. After this notifica
 
 </td>
 <td>
-Indicates that the miniport driver requires the operating system-specific port driver to call the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a> routine. If this value is set, <b>ScsiPortNotification</b> requires an additional parameter: the entry point for the <i>HwScsiEnableInterruptsCallback</i>. The miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557312">HwScsiInterrupt</a> routine makes this call,<i> after </i>disabling interrupts on the HBA, to defer some interrupt-driven I/O processing if the HBA requires polling or stalling in the ISR. While the callback runs, system interrupts remain enabled but the miniport driver's <i>HwScsiInterrupt</i> routine will not be called. The <i>HwScsiEnableInterruptsCallback</i> is responsible for completing the deferred I/O processing and for calling <b>ScsiPortNotification</b> again with <b>CallDisableInterrupts</b> and the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a> entry point.
+Indicates that the miniport driver requires the operating system-specific port driver to call the miniport driver's <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a> routine. If this value is set, <b>ScsiPortNotification</b> requires an additional parameter: the entry point for the <i>HwScsiEnableInterruptsCallback</i>. The miniport driver's <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiInterrupt</a> routine makes this call,<i> after </i>disabling interrupts on the HBA, to defer some interrupt-driven I/O processing if the HBA requires polling or stalling in the ISR. While the callback runs, system interrupts remain enabled but the miniport driver's <i>HwScsiInterrupt</i> routine will not be called. The <i>HwScsiEnableInterruptsCallback</i> is responsible for completing the deferred I/O processing and for calling <b>ScsiPortNotification</b> again with <b>CallDisableInterrupts</b> and the miniport driver's <a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiDisableInterruptsCallback</a> entry point.
 
 Syntax:
 
@@ -213,7 +213,7 @@ Syntax:
 
 </td>
 <td>
-Indicates that the miniport driver requires the operating system-specific port driver to call the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a> routine in the requested number of microseconds. If this value is set, <b>ScsiPortNotification</b> requires two additional parameters: (1) the entry point for the miniport driver's <i>HwScsiTimer</i> routine, and (2) a <i>MiniportTimerValue</i> interval, in microseconds. Note that the resolution of the system timer is approximately 10 milliseconds.
+Indicates that the miniport driver requires the operating system-specific port driver to call the miniport driver's <a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a> routine in the requested number of microseconds. If this value is set, <b>ScsiPortNotification</b> requires two additional parameters: (1) the entry point for the miniport driver's <i>HwScsiTimer</i> routine, and (2) a <i>MiniportTimerValue</i> interval, in microseconds. Note that the resolution of the system timer is approximately 10 milliseconds.
 
 Syntax:
 
@@ -424,7 +424,7 @@ The <b>ScsiPortNotification</b> routine has a different set of optional paramete
 <a href="https://msdn.microsoft.com/c094a810-742c-4b9a-9730-42a99e1acb75">ScsiPortNotification (NotificationType = WMIReregister, PathId = 0xFF)</a>
 
 
-Every miniport driver must call <b>ScsiPortNotification</b> twice for each call to the miniport driver's <a href="https://msdn.microsoft.com/library/windows/hardware/ff557323">HwScsiStartIo</a> routine with an SRB that the miniport driver completes successfully. First, the miniport driver calls <b>ScsiPortNotification</b> with the <i>NotificationType</i><b>NextRequest</b> or with <b>NextLuRequest</b> if the miniport driver supports tagged queuing or multiple requests per LU. Then, the miniport driver calls <b>ScsiPortNotification</b> with the <i>NotificationType</i><b>RequestComplete</b> and the request that it has just satisfied.
+Every miniport driver must call <b>ScsiPortNotification</b> twice for each call to the miniport driver's <a href="..\srb\nc-srb-phw_startio.md">HwScsiStartIo</a> routine with an SRB that the miniport driver completes successfully. First, the miniport driver calls <b>ScsiPortNotification</b> with the <i>NotificationType</i><b>NextRequest</b> or with <b>NextLuRequest</b> if the miniport driver supports tagged queuing or multiple requests per LU. Then, the miniport driver calls <b>ScsiPortNotification</b> with the <i>NotificationType</i><b>RequestComplete</b> and the request that it has just satisfied.
 
 A miniport driver's <i>HwScsiInterrupt</i> routine is most likely to call <b>ScsiPortNotification</b> with the <i>NotificationType</i><b>ResetDetected</b>.
 
@@ -441,19 +441,19 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557327">HwScsiTimer</a>
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiDisableInterruptsCallback</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557295">HwScsiEnableInterruptsCallback</a>
+<a href="..\srb\nc-srb-phw_timer.md">HwScsiTimer</a>
 
 
 
-<a href="..\wdm\nf-wdm-iowmiregistrationcontrol.md">IoWMIRegistrationControl</a>
+<a href="..\srb\nf-srb-scsiportcompleterequest.md">ScsiPortCompleteRequest</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557288">HwScsiDisableInterruptsCallback</a>
+<a href="..\strmini\nc-strmini-phw_interrupt.md">HwScsiEnableInterruptsCallback</a>
 
 
 
@@ -461,5 +461,5 @@ A miniport driver that is registered as a WMI data provider can call <b>ScsiPort
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortNotification routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ScsiPortNotification routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

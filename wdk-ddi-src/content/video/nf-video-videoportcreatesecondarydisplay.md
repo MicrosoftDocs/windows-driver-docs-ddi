@@ -7,8 +7,8 @@ old-location: display\videoportcreatesecondarydisplay.htm
 old-project: display
 ms.assetid: 49dc9ed8-a506-475e-910f-5dce2ad9b168
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPortCreateSecondaryDisplay, video/VideoPortCreateSecondaryDisplay, display.videoportcreatesecondarydisplay
+ms.date: 2/20/2018
+ms.keywords: video/VideoPortCreateSecondaryDisplay, VideoPortCreateSecondaryDisplay function [Display Devices], VideoPortCreateSecondaryDisplay, display.videoportcreatesecondarydisplay, VideoPort_Functions_eda677fc-91b7-47d3-8407-615d5fbfcb3a.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

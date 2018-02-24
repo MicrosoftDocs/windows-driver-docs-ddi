@@ -7,8 +7,8 @@ old-location: kernel\rtlstringcbcatex.htm
 old-project: kernel
 ms.assetid: 9105d6b5-bee3-4fcd-b548-4d403731654d
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml, STRSAFE_IGNORE_NULLS, RtlStringCbCatEx, ntstrsafe/RtlStringCbCatExW, STRSAFE_NULL_ON_FAILURE, STRSAFE_NO_TRUNCATION, RtlStringCbCatExW, STRSAFE_FILL_BEHIND_NULL, RtlStringCbCatExA, STRSAFE_FILL_ON_FAILURE, kernel.rtlstringcbcatex, RtlStringCbCatExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatExA
+ms.date: 2/16/2018
+ms.keywords: RtlStringCbCatExW function [Kernel-Mode Driver Architecture], ntstrsafe/RtlStringCbCatExW, RtlStringCbCatExW, kernel.rtlstringcbcatex, safestrings_fd0da08e-4624-41e0-be56-e9018e615725.xml, STRSAFE_IGNORE_NULLS, STRSAFE_FILL_BEHIND_NULL, STRSAFE_NULL_ON_FAILURE, ntstrsafe/RtlStringCbCatExA, RtlStringCbCatEx, RtlStringCbCatExA, STRSAFE_FILL_ON_FAILURE, STRSAFE_NO_TRUNCATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -43,7 +43,7 @@ apiname:
 -	RtlStringCbCatExW
 product: Windows
 targetos: Windows
-req.typenames: BATTERY_REPORTING_SCALE, *PBATTERY_REPORTING_SCALE
+req.typenames: "*PSYSTEM_POWER_STATE_CONTEXT, SYSTEM_POWER_STATE_CONTEXT"
 ---
 
 # RtlStringCbCatExA function
@@ -305,7 +305,7 @@ For more information about the safe string functions, see <a href="https://msdn.
 
 
 
-<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcchcatexw.md">RtlStringCchCatEx</a>
+<a href="..\ntstrsafe\nf-ntstrsafe-rtlstringcbcatw.md">RtlStringCbCat</a>
 
 
 
@@ -313,5 +313,5 @@ For more information about the safe string functions, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbCatExW function%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20RtlStringCbCatExW function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\ifixedpage_getwritestream.htm
 old-project: print
 ms.assetid: 1a095d51-b727-4d89-aa7c-f43998db4c2e
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print.ifixedpage_getwritestream, filterpipeline/IFixedPage::GetWriteStream, GetWriteStream method [Print Devices], IFixedPage interface, IFixedPage, GetWriteStream, IFixedPage interface [Print Devices], GetWriteStream method, IFixedPage::GetWriteStream, GetWriteStream method [Print Devices], filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml
+ms.date: 2/21/2018
+ms.keywords: GetWriteStream method [Print Devices], IFixedPage interface, IFixedPage, print.ifixedpage_getwritestream, filterpipeline/IFixedPage::GetWriteStream, filterpipeline_f253c020-8d3d-44c1-a9fb-e5093c29a637.xml, IFixedPage interface [Print Devices], GetWriteStream method, GetWriteStream, IFixedPage::GetWriteStream, GetWriteStream method [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

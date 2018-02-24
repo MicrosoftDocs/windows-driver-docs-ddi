@@ -7,8 +7,8 @@ old-location: wdf\wdf_io_target_sent_io_action.htm
 old-project: wdf
 ms.assetid: 4295ef73-b9a8-4593-8114-d0b836275b13
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfiotarget/WdfIoTargetCancelSentIo, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, wdfiotarget/WdfIoTargetLeaveSentIoPending, wdfiotarget/WdfIoTargetSentIoUndefined, WdfIoTargetLeaveSentIoPending, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, _WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetSentIoUndefined, kmdf.wdf_io_target_sent_io_action, WDF_IO_TARGET_SENT_IO_ACTION, WdfIoTargetCancelSentIo, wdf.wdf_io_target_sent_io_action, WdfIoTargetWaitForSentIoToComplete
+ms.date: 2/20/2018
+ms.keywords: WdfIoTargetCancelSentIo, DFIOTargetRef_f9150c63-6b0b-4050-b4ae-fd5ebbda4e0d.xml, wdfiotarget/WdfIoTargetSentIoUndefined, wdfiotarget/WdfIoTargetCancelSentIo, WdfIoTargetWaitForSentIoToComplete, WdfIoTargetSentIoUndefined, wdf.wdf_io_target_sent_io_action, wdfiotarget/WdfIoTargetWaitForSentIoToComplete, _WDF_IO_TARGET_SENT_IO_ACTION, wdfiotarget/WdfIoTargetLeaveSentIoPending, WdfIoTargetLeaveSentIoPending, wdfiotarget/WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION, WDF_IO_TARGET_SENT_IO_ACTION enumeration, kmdf.wdf_io_target_sent_io_action
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -101,7 +101,7 @@ The <b>WDF_IO_TARGET_SENT_IO_ACTION</b> enumeration is used as an input paramete
 
 If your driver specifies the <b>WdfIoTargetWaitForSentIoToComplete</b> flag, the driver must not call <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetstop.md">WdfIoTargetStop</a> from a request handler, a <a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a> callback function, or an <a href="..\wdfusb\nc-wdfusb-evt_wdf_usb_readers_failed.md">EvtUsbTargetPipeReadersFailed</a> callback function.
 
-For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION (UMDF)</a>.
+For the UMDF version of this enumeration, see <a href="..\wdfiotarget\ne-wdfiotarget-_wdf_io_target_sent_io_action.md">WDF_IO_TARGET_SENT_IO_ACTION (UMDF)</a>.
 
 
 
@@ -120,5 +120,5 @@ For the UMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_SENT_IO_ACTION enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_IO_TARGET_SENT_IO_ACTION enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

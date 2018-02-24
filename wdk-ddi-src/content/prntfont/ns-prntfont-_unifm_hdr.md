@@ -7,8 +7,8 @@ old-location: print\unifm_hdr.htm
 old-project: print
 ms.assetid: 9490d090-2156-4653-9e56-a233d23c2fb3
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, UNIFM_HDR structure [Print Devices], UNIFM_HDR, *PUNIFM_HDR, prntfont/UNIFM_HDR, _UNIFM_HDR, prntfont/PUNIFM_HDR, PUNIFM_HDR, print.unifm_hdr, PUNIFM_HDR structure pointer [Print Devices]
+ms.date: 2/21/2018
+ms.keywords: UNIFM_HDR structure [Print Devices], prntfont/PUNIFM_HDR, print_unidrv-pscript_fonts_eaf5dd18-df64-41bc-91b5-836b6ed165b6.xml, *PUNIFM_HDR, print.unifm_hdr, PUNIFM_HDR, UNIFM_HDR, prntfont/UNIFM_HDR, _UNIFM_HDR, PUNIFM_HDR structure pointer [Print Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	UNIFM_HDR
 product: Windows
 targetos: Windows
-req.typenames: "*PUNIFM_HDR, UNIFM_HDR"
+req.typenames: UNIFM_HDR, *PUNIFM_HDR
 req.product: Windows 10 or later.
 ---
 
@@ -193,23 +193,7 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 ## -see-also
 
-<a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
-
-
-
-<a href="..\prntfont\ns-prntfont-_unidrvinfo.md">UNIDRVINFO</a>
-
-
-
-<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
-
-
-
 <a href="..\prntfont\ns-prntfont-_printifi32.md">PRINTIFI32</a>
-
-
-
-<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
 
 
 
@@ -217,9 +201,25 @@ If <b>lGlyphSetDataRCID</b> is CC_DEFAULT, there are no restrictions on the valu
 
 
 
- 
+<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_uni_codepageinfo.md">UNI_CODEPAGEINFO</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_exttextmetric.md">EXTTEXTMETRIC</a>
+
+
+
+<a href="..\prntfont\ns-prntfont-_kerndata.md">KERNDATA</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIFM_HDR structure%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20UNIFM_HDR structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\offload_ipsec_add_sa.htm
 old-project: netvista
 ms.assetid: 592d338c-8ab0-4163-bcfa-75c941b83c3d
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.offload_ipsec_add_sa, ntddndis/POFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA, ntddndis/OFFLOAD_IPSEC_ADD_SA, 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, OFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], POFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], _OFFLOAD_IPSEC_ADD_SA
+ms.date: 2/16/2018
+ms.keywords: 216offload_12f95ec9-ed81-43cc-b90d-fe06600ec349.xml, OFFLOAD_IPSEC_ADD_SA structure [Network Drivers Starting with Windows Vista], *POFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA, ntddndis/OFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA, POFFLOAD_IPSEC_ADD_SA structure pointer [Network Drivers Starting with Windows Vista], netvista.offload_ipsec_add_sa, _OFFLOAD_IPSEC_ADD_SA, ntddndis/POFFLOAD_IPSEC_ADD_SA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	OFFLOAD_IPSEC_ADD_SA
 product: Windows
 targetos: Windows
-req.typenames: "*POFFLOAD_IPSEC_ADD_SA, OFFLOAD_IPSEC_ADD_SA"
+req.typenames: OFFLOAD_IPSEC_ADD_SA, *POFFLOAD_IPSEC_ADD_SA
 ---
 
 # _OFFLOAD_IPSEC_ADD_SA structure
@@ -236,7 +236,7 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
 
 
 
@@ -244,15 +244,15 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
 
 
-<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
-
-
-
 <a href="..\ntddndis\ns-ntddndis-_offload_security_association.md">OFFLOAD_SECURITY_ASSOCIATION</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff557028">NDIS_IPSEC_PACKET_INFO</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569808">OID_TCP_TASK_IPSEC_ADD_SA</a>
+
+
+
+<a href="..\ntddndis\ns-ntddndis-_offload_algo_info.md">OFFLOAD_ALGO_INFO</a>
 
 
 
@@ -260,5 +260,5 @@ The OFFLOAD_IPSEC_ADD_SA structure is used in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OFFLOAD_IPSEC_ADD_SA structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20OFFLOAD_IPSEC_ADD_SA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

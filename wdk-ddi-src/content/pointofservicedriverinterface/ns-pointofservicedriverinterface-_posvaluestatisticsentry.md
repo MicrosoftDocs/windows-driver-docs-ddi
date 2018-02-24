@@ -7,8 +7,8 @@ old-location: pos\posvaluestatisticsentry.htm
 old-project: pos
 ms.assetid: e6627d5f-5905-479e-b968-6914491231b1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_PosValueStatisticsEntry, PosValueStatisticsEntry structure, pointofservicedriverinterface/PosValueStatisticsEntry, pos.posvaluestatisticsentry, PosValueStatisticsEntry"
+ms.date: 2/19/2018
+ms.keywords: "_PosValueStatisticsEntry, PosValueStatisticsEntry, PosValueStatisticsEntry structure, pos.posvaluestatisticsentry, pointofservicedriverinterface/PosValueStatisticsEntry"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

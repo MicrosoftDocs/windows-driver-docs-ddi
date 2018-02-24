@@ -7,8 +7,8 @@ old-location: pos\msr_update_key.htm
 old-project: pos
 ms.assetid: 8d7f85d4-af10-4ae5-a891-18dd41192c6a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: MSR_UPDATE_KEY structure, PMSR_UPDATE_KEY structure pointer, *PMSR_UPDATE_KEY, PMSR_UPDATE_KEY, pointofservicedriverinterface/MSR_UPDATE_KEY, _MSR_UPDATE_KEY, pos.msr_update_key, MSR_UPDATE_KEY, pointofservicedriverinterface/PMSR_UPDATE_KEY
+ms.date: 2/19/2018
+ms.keywords: PMSR_UPDATE_KEY structure pointer, PMSR_UPDATE_KEY, _MSR_UPDATE_KEY, MSR_UPDATE_KEY structure, pointofservicedriverinterface/PMSR_UPDATE_KEY, pos.msr_update_key, *PMSR_UPDATE_KEY, pointofservicedriverinterface/MSR_UPDATE_KEY, MSR_UPDATE_KEY
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSR_UPDATE_KEY
 product: Windows
 targetos: Windows
-req.typenames: "*PMSR_UPDATE_KEY, MSR_UPDATE_KEY"
+req.typenames: MSR_UPDATE_KEY, *PMSR_UPDATE_KEY
 ---
 
 # _MSR_UPDATE_KEY structure

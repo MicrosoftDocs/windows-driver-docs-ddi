@@ -7,8 +7,8 @@ old-location: ifsk\network_open_integrity_qualifier.htm
 old-project: ifsk
 ms.assetid: 6a51ee2e-2df6-44f4-8e95-776851d743a6
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegritySigned, ntifs/NetworkOpenIntegrityAny, ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, NetworkOpenIntegrityNone, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers], NETWORK_OPEN_INTEGRITY_QUALIFIER, NetworkOpenIntegrityMaximum, NetworkOpenIntegrityAny, ntifs/NetworkOpenIntegrityEncrypted, ntifs/NetworkOpenIntegrityMaximum, NetworkOpenIntegritySigned, ifsk.network_open_integrity_qualifier, ntifs/NetworkOpenIntegrityNone, NetworkOpenIntegrityEncrypted
+ms.date: 2/16/2018
+ms.keywords: ntifs/NetworkOpenIntegritySigned, NETWORK_OPEN_INTEGRITY_QUALIFIER, ntifs/NetworkOpenIntegrityMaximum, ntifs/NetworkOpenIntegrityAny, ntifs/NetworkOpenIntegrityEncrypted, NetworkOpenIntegrityEncrypted, ntifs/NetworkOpenIntegrityNone, ntifs/NETWORK_OPEN_INTEGRITY_QUALIFIER, NetworkOpenIntegritySigned, NetworkOpenIntegrityMaximum, ifsk.network_open_integrity_qualifier, ECP_Structures_e5f36510-f63f-47bc-941c-690d51ea0608.xml, NetworkOpenIntegrityNone, NetworkOpenIntegrityAny, NETWORK_OPEN_INTEGRITY_QUALIFIER enumeration [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

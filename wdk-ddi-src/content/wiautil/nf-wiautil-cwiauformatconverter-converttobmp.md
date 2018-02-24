@@ -4,11 +4,11 @@ title: CWiauFormatConverter::ConvertToBmp method
 author: windows-driver-content
 description: The CWiauFormatConverter::ConvertToBmp method converts an image to BMP format.
 old-location: image\cwiauformatconverter_converttobmp.htm
-old-project: image
+old-project: Image
 ms.assetid: 9ac85fe9-bc44-4a70-9619-bb13e878bb49
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter::ConvertToBmp, wiautil/CWiauFormatConverter::ConvertToBmp, image.cwiauformatconverter_converttobmp, ConvertToBmp, CWiauFormatConverter
+ms.date: 2/15/2018
+ms.keywords: wiautil/CWiauFormatConverter::ConvertToBmp, ConvertToBmp method [Imaging Devices], ConvertToBmp method [Imaging Devices], CWiauFormatConverter interface, CWiauFormatConverter interface [Imaging Devices], ConvertToBmp method, image.cwiauformatconverter_converttobmp, ConvertToBmp, CWiauFormatConverter, wiauFncs_2c929e01-3e1f-4a07-9f2f-f50775b39017.xml, CWiauFormatConverter::ConvertToBmp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -151,5 +151,5 @@ The caller of this method can pass a result buffer in <i>ppDest</i> and the size
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [image\image]:%20CWiauFormatConverter::ConvertToBmp method%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Image\image]:%20CWiauFormatConverter::ConvertToBmp method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

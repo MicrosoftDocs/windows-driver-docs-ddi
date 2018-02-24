@@ -7,8 +7,8 @@ old-location: storage\hba_getdiscoveredportattributes.htm
 old-project: storage
 ms.assetid: 64c6ed50-a4b9-4a8c-b38c-b2fcdf5ccee9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: HBA_GetDiscoveredPortAttributes routine [Storage Devices], HBA_GetDiscoveredPortAttributes, hbaapi/HBA_GetDiscoveredPortAttributes, fibreHBA_rtns_3f74a187-728d-4534-8ad8-29e1a9b0add5.xml, storage.hba_getdiscoveredportattributes
+ms.date: 2/16/2018
+ms.keywords: HBA_GetDiscoveredPortAttributes routine [Storage Devices], fibreHBA_rtns_3f74a187-728d-4534-8ad8-29e1a9b0add5.xml, HBA_GetDiscoveredPortAttributes, hbaapi/HBA_GetDiscoveredPortAttributes, storage.hba_getdiscoveredportattributes
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -122,7 +122,7 @@ The <b>HBA_GetDiscoveredPortAttributes</b> library routine corresponds to the <a
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
+<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
 
 
 
@@ -130,7 +130,7 @@ The <b>HBA_GetDiscoveredPortAttributes</b> library routine corresponds to the <a
 
 
 
-<a href="..\hbaapi\nf-hbaapi-hba_openadapter.md">HBA_OpenAdapter</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff553925">GetDiscoveredPortAttributes</a>
 
 
 
@@ -138,5 +138,5 @@ The <b>HBA_GetDiscoveredPortAttributes</b> library routine corresponds to the <a
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetDiscoveredPortAttributes routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20HBA_GetDiscoveredPortAttributes routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

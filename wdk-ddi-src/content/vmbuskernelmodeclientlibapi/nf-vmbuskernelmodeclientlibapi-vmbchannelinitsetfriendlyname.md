@@ -7,8 +7,8 @@ old-location: netvista\vmbchannelinitsetfriendlyname.htm
 old-project: netvista
 ms.assetid: 17FEFFDB-DCCC-4782-9F99-195A03F4901E
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: vmbuskernelmodeclientlibapi/VmbChannelInitSetFriendlyName, netvista.vmbchannelinitsetfriendlyname, VmbChannelInitSetFriendlyName function [Network Drivers Starting with Windows Vista], VmbChannelInitSetFriendlyName
+ms.date: 2/16/2018
+ms.keywords: VmbChannelInitSetFriendlyName, vmbuskernelmodeclientlibapi/VmbChannelInitSetFriendlyName, netvista.vmbchannelinitsetfriendlyname, VmbChannelInitSetFriendlyName function [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

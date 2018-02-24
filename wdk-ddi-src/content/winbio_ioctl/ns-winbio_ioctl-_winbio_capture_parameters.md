@@ -7,8 +7,8 @@ old-location: biometric\winbio_capture_parameters.htm
 old-project: biometric
 ms.assetid: 60f35000-c62d-4d1b-8592-862c2d74b7a2
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: "_WINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices], biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, PWINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS, *PWINBIO_CAPTURE_PARAMETERS, biometric.winbio_capture_parameters, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS"
+ms.date: 2/20/2018
+ms.keywords: PWINBIO_CAPTURE_PARAMETERS, *PWINBIO_CAPTURE_PARAMETERS, WINBIO_CAPTURE_PARAMETERS, winbio_ioctl/PWINBIO_CAPTURE_PARAMETERS, winbio_ioctl/WINBIO_CAPTURE_PARAMETERS, _WINBIO_CAPTURE_PARAMETERS, PWINBIO_CAPTURE_PARAMETERS structure pointer [Biometric Devices], biometric.winbio_capture_parameters, biometric_ref_fbd581b2-ced0-4c0d-b76c-be5a469252fd.xml, WINBIO_CAPTURE_PARAMETERS structure [Biometric Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -145,5 +145,5 @@ The following code example shows the possible bitmask values for WINBIO_BIR_DATA
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_CAPTURE_PARAMETERS structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [biometric\biometric]:%20WINBIO_CAPTURE_PARAMETERS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

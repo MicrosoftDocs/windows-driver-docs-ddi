@@ -7,7 +7,7 @@ old-location: sensors\ioctl_gnss_respond_ni.htm
 old-project: sensors
 ms.assetid: AEEB014C-653F-459A-A04A-6E0732E8E5B0
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: sensors.ioctl_gnss_respond_ni, IOCTL_GNSS_RESPOND_NI control code [Sensor Devices], IOCTL_GNSS_RESPOND_NI, gnssdriver/IOCTL_GNSS_RESPOND_NI
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -87,14 +87,18 @@ Set to 0.
 ### -in-out-buffer
 
 
+
 <text></text>
+
 
 
 
 ### -inout-buffer-length
 
 
+
 <text></text>
+
 
 
 
@@ -106,7 +110,9 @@ Set to 0.
 ## -remarks
 
 
+
 The driver sets one of the following NTSTATUS values to indicate result.
+
 <ul>
 <li>
 <b>STATUS_SUCCESS</b>, when the driver processed the users NI response information successfully.
@@ -122,7 +128,10 @@ The driver sets one of the following NTSTATUS values to indicate result.
 
 
 </li>
-</ul><h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>It is the GNSS driver’s responsibility to pass the user’s response, contained in the <b>GNSS_NI_RESPONSE</b> input structure to the NI. If the response is <b>GNSS_Ni_UserResponseTimeout</b>, the driver should determine the appropriate default response after time-out and send it to the SUPL server.
+</ul>
+<h3><a id="GNSS_driver_notes"></a><a id="gnss_driver_notes"></a><a id="GNSS_DRIVER_NOTES"></a>GNSS driver notes</h3>
+It is the GNSS driver’s responsibility to pass the user’s response, contained in the <b>GNSS_NI_RESPONSE</b> input structure to the NI. If the response is <b>GNSS_Ni_UserResponseTimeout</b>, the driver should determine the appropriate default response after time-out and send it to the SUPL server.
+
 
 
 
@@ -130,17 +139,25 @@ The driver sets one of the following NTSTATUS values to indicate result.
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlotherssynchronously.md">WdfIoTargetSendInternalIoctlOthersSynchronously</a>
 
-<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
 
 <a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendinternalioctlsynchronously.md">WdfIoTargetSendInternalIoctlSynchronously</a>
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff542894">Creating IOCTL Requests in Drivers</a>
+
+
+<a href="..\wdfiotarget\nf-wdfiotarget-wdfiotargetsendioctlsynchronously.md">WdfIoTargetSendIoctlSynchronously</a>
+
+
 
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_RESPOND_NI control code%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [sensors\sensors]:%20IOCTL_GNSS_RESPOND_NI control code%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

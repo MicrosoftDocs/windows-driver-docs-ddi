@@ -7,8 +7,8 @@ old-location: netvista\fwpsinjectmacsendasync0.htm
 old-project: netvista
 ms.assetid: 9964D11C-C1A6-4BE7-A8A4-5A0E71801610
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: FwpsInjectMacSendAsync0, fwpsk/FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], netvista.fwpsinjectmacsendasync0
+ms.date: 2/16/2018
+ms.keywords: fwpsk/FwpsInjectMacSendAsync0, FwpsInjectMacSendAsync0 function [Network Drivers Starting with Windows Vista], FwpsInjectMacSendAsync0, netvista.fwpsinjectmacsendasync0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -240,10 +240,6 @@ Injected frames could get classified again if the packets match the same filter 
 
 ## -see-also
 
-<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
-
-
-
 <a href="..\fwpsk\nc-fwpsk-fwps_callout_classify_fn0.md">classifyFn</a>
 
 
@@ -257,7 +253,8 @@ Injected frames could get classified again if the packets match the same filter 
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
+<a href="..\fwpsk\nf-fwpsk-fwpsallocateclonenetbufferlist0.md">
+     FwpsAllocateCloneNetBufferList0</a>
 
 
 
@@ -266,8 +263,11 @@ Injected frames could get classified again if the packets match the same filter 
 
 
 
-<a href="..\fwpsk\nf-fwpsk-fwpsallocatenetbufferandnetbufferlist0.md">
-     FwpsAllocateNetBufferAndNetBufferList0</a>
+<a href="..\fwpsk\nc-fwpsk-fwps_inject_complete0.md">completionFn</a>
+
+
+
+<a href="..\fwpsk\nf-fwpsk-fwpsquerypacketinjectionstate0.md">FwpsQueryPacketInjectionState0</a>
 
 
 
@@ -275,5 +275,5 @@ Injected frames could get classified again if the packets match the same filter 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectMacSendAsync0 function%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20FwpsInjectMacSendAsync0 function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

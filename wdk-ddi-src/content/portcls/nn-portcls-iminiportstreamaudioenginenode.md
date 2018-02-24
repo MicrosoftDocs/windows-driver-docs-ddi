@@ -7,7 +7,7 @@ old-location: audio\iminiportstreamaudioenginenode.htm
 old-project: audio
 ms.assetid: B3F7D3AC-C756-47D2-9E7C-7930621753C3
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/21/2018
 ms.keywords: audio.iminiportstreamaudioenginenode, IMiniportStreamAudioEngineNode interface [Audio Devices], IMiniportStreamAudioEngineNode interface [Audio Devices], described, IMiniportStreamAudioEngineNode, portcls/IMiniportStreamAudioEngineNode
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportStreamAudioEngineNode
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportStreamAudioEngineNode interface

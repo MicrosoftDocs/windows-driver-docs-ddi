@@ -7,8 +7,8 @@ old-location: wdf\wdf_special_file_type.htm
 old-project: wdf
 ms.assetid: 3879570f-e083-4eaf-aa5b-9b78d8f826c1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfSpecialFileBoot, wdfdevice/WDF_SPECIAL_FILE_TYPE, wdfdevice/PWDF_SPECIAL_FILE_TYPE, WdfSpecialFileDump, _WDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE enumeration, wdfdevice/WdfSpecialFileDump, WdfSpecialFileHibernation, PWDF_SPECIAL_FILE_TYPE enumeration pointer, wdfdevice/WdfSpecialFileMax, WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileBoot, WdfSpecialFilePaging, WdfSpecialFileMax, wdf.wdf_special_file_type, wdfdevice/WdfSpecialFilePaging, wdfdevice/WdfSpecialFileUndefined, WdfSpecialFileUndefined, kmdf.wdf_special_file_type, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, wdfdevice/WdfSpecialFileHibernation
+ms.date: 2/20/2018
+ms.keywords: WdfSpecialFileBoot, WdfSpecialFileDump, WDF_SPECIAL_FILE_TYPE, PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileDump, PWDF_SPECIAL_FILE_TYPE enumeration pointer, kmdf.wdf_special_file_type, *PWDF_SPECIAL_FILE_TYPE, wdfdevice/PWDF_SPECIAL_FILE_TYPE, wdfdevice/WdfSpecialFileBoot, WDF_SPECIAL_FILE_TYPE enumeration, wdfdevice/WdfSpecialFileUndefined, wdfdevice/WdfSpecialFilePaging, DFDeviceObjectGeneralRef_66afb20c-b1d5-480a-b4bb-48b6e092fe5e.xml, WdfSpecialFileHibernation, _WDF_SPECIAL_FILE_TYPE, wdf.wdf_special_file_type, wdfdevice/WdfSpecialFileHibernation, WdfSpecialFileUndefined, wdfdevice/WDF_SPECIAL_FILE_TYPE, WdfSpecialFilePaging, wdfdevice/WdfSpecialFileMax, WdfSpecialFileMax
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_SPECIAL_FILE_TYPE
 product: Windows
 targetos: Windows
-req.typenames: WDF_SPECIAL_FILE_TYPE, *PWDF_SPECIAL_FILE_TYPE
+req.typenames: "*PWDF_SPECIAL_FILE_TYPE, WDF_SPECIAL_FILE_TYPE"
 req.product: Windows 10 or later.
 ---
 
@@ -124,5 +124,5 @@ For more information, see <a href="https://msdn.microsoft.com/350e715f-be36-4999
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_SPECIAL_FILE_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_SPECIAL_FILE_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ril_getexecutorconfig.htm
 old-project: netvista
 ms.assetid: 71931187-14f1-459f-9c1a-cc3463178af9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorconfig, rilapi/RIL_GetExecutorConfig, RIL_GetExecutorConfig
+ms.date: 2/16/2018
+ms.keywords: rilapi/RIL_GetExecutorConfig, RIL_GetExecutorConfig, RIL_GetExecutorConfig method [Network Drivers Starting with Windows Vista], netvista.ril_getexecutorconfig
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetExecutorConfig
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

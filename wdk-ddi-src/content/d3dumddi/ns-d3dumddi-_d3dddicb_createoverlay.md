@@ -7,8 +7,8 @@ old-location: display\d3dddicb_createoverlay.htm
 old-project: display
 ms.assetid: 52f95379-7bfd-4606-9199-ea253ccd6f35
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: "_D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY, D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml, D3DDDICB_CREATEOVERLAY structure [Display Devices], display.d3dddicb_createoverlay, d3dumddi/D3DDDICB_CREATEOVERLAY"
+ms.date: 2/20/2018
+ms.keywords: "_D3DDDICB_CREATEOVERLAY, D3DDDICB_CREATEOVERLAY structure [Display Devices], D3DDDICB_CREATEOVERLAY, d3dumddi/D3DDDICB_CREATEOVERLAY, display.d3dddicb_createoverlay, D3D_param_Structs_d6883734-5c4a-480f-bb54-12df15297daa.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -98,5 +98,5 @@ typedef struct _D3DDDICB_CREATEOVERLAY {
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_CREATEOVERLAY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20D3DDDICB_CREATEOVERLAY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

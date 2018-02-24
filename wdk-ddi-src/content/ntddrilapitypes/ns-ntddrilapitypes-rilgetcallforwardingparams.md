@@ -7,8 +7,8 @@ old-location: netvista\rilgetcallforwardingparams.htm
 old-project: netvista
 ms.assetid: 94e24172-a149-4e74-9600-2fcb7396ef34
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILGETCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], RILGETCALLFORWARDINGPARAMS, *LPRILGETCALLFORWARDINGPARAMS, netvista.rilgetcallforwardingparams, ntddrilapitypes/RILGETCALLFORWARDINGPARAMS
+ms.date: 2/16/2018
+ms.keywords: netvista.rilgetcallforwardingparams, ntddrilapitypes/RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS structure [Network Drivers Starting with Windows Vista], *LPRILGETCALLFORWARDINGPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILGETCALLFORWARDINGPARAMS
 product: Windows
 targetos: Windows
-req.typenames: RILGETCALLFORWARDINGPARAMS, *LPRILGETCALLFORWARDINGPARAMS
+req.typenames: "*LPRILGETCALLFORWARDINGPARAMS, RILGETCALLFORWARDINGPARAMS"
 ---
 
 # RILGETCALLFORWARDINGPARAMS structure

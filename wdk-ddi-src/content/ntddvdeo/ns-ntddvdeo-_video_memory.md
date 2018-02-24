@@ -7,8 +7,8 @@ old-location: display\video_memory.htm
 old-project: display
 ms.assetid: 3d8b3b45-90d9-4e64-a52d-253c9cb86588
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: display.video_memory, PVIDEO_MEMORY structure pointer [Display Devices], Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml, _VIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY, *PVIDEO_MEMORY, VIDEO_MEMORY, ntddvdeo/PVIDEO_MEMORY
+ms.date: 2/20/2018
+ms.keywords: "*PVIDEO_MEMORY, _VIDEO_MEMORY, PVIDEO_MEMORY, ntddvdeo/VIDEO_MEMORY, ntddvdeo/PVIDEO_MEMORY, VIDEO_MEMORY structure [Display Devices], display.video_memory, PVIDEO_MEMORY structure pointer [Display Devices], VIDEO_MEMORY, Video_Structs_85973586-1583-46cb-93a7-c8d37ba4ef5f.xml"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,17 +93,17 @@ For structures used in mapping into user-mode video memory, see <a href="..\ntdd
 
 
 
-<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
-
-
-
 <a href="..\ntddvdeo\ni-ntddvdeo-ioctl_video_map_video_memory.md">IOCTL_VIDEO_MAP_VIDEO_MEMORY</a>
 
 
 
- 
+<a href="..\ntddvdeo\ns-ntddvdeo-_video_memory_information.md">VIDEO_MEMORY_INFORMATION</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_MEMORY structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20VIDEO_MEMORY structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

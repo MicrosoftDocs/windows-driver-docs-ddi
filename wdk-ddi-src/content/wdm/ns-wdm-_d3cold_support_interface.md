@@ -7,8 +7,8 @@ old-location: kernel\d3cold_support_interface.htm
 old-project: kernel
 ms.assetid: 5B681719-FBCC-417A-9FEB-ACB386FA3BE2
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.d3cold_support_interface, *PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], wdm/D3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE
+ms.date: 2/16/2018
+ms.keywords: PD3COLD_SUPPORT_INTERFACE structure pointer [Kernel-Mode Driver Architecture], D3COLD_SUPPORT_INTERFACE, PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE structure [Kernel-Mode Driver Architecture], wdm/D3COLD_SUPPORT_INTERFACE, wdm/PD3COLD_SUPPORT_INTERFACE, _D3COLD_SUPPORT_INTERFACE, kernel.d3cold_support_interface, *PD3COLD_SUPPORT_INTERFACE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	D3COLD_SUPPORT_INTERFACE
 product: Windows
 targetos: Windows
-req.typenames: D3COLD_SUPPORT_INTERFACE, *PD3COLD_SUPPORT_INTERFACE
+req.typenames: "*PD3COLD_SUPPORT_INTERFACE, D3COLD_SUPPORT_INTERFACE"
 req.product: Windows 10 or later.
 ---
 
@@ -94,12 +94,12 @@ A pointer to interface-specific context information.
 
 ### -field InterfaceReference
 
-A pointer to an <a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
+A pointer to an <a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a> routine that increments the interface's reference count.
 
 
 ### -field InterfaceDereference
 
-A pointer to an <a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
+A pointer to an <a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a> routine that decrements the interface's reference count.
 
 
 ### -field SetD3ColdSupport
@@ -133,30 +133,22 @@ A pointer to a <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetL
 
 A device driver that successfully queries for the GUID_D3COLD_SUPPORT_INTERFACE interface receives a pointer to a <b>D3COLD_SUPPORT_INTERFACE</b> structure in which the pointers to the routines in the interface are all non-NULL and valid.
 
-The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a> structure.
+The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a> structure.
 
 
 
 
 ## -see-also
 
+<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
+
+
+
 <a href="..\wdm\nc-wdm-get_d3cold_last_transition_status.md">GetLastTransitionStatus</a>
 
 
 
-<a href="..\wdm\nc-wdm-pinterface_reference.md">InterfaceReference</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
-
-
-
-<a href="..\wdm\nc-wdm-pinterface_dereference.md">InterfaceDereference</a>
-
-
-
-<a href="..\wdm\nc-wdm-get_idle_wake_info.md">GetIdleWakeInfo</a>
+<a href="..\miniport\ns-miniport-_interface.md">INTERFACE</a>
 
 
 
@@ -168,7 +160,15 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
 
 
-<a href="..\wdm\ns-wdm-_interface.md">INTERFACE</a>
+<a href="..\wdm\nc-wdm-get_d3cold_capability.md">GetD3ColdCapability</a>
+
+
+
+<a href="..\miniport\nc-miniport-pinterface_reference.md">InterfaceReference</a>
+
+
+
+<a href="..\miniport\nc-miniport-pinterface_dereference.md">InterfaceDereference</a>
 
 
 
@@ -176,5 +176,5 @@ The <b>D3COLD_SUPPORT_INTERFACE</b> structure is an extended version of the <a h
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20D3COLD_SUPPORT_INTERFACE structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20D3COLD_SUPPORT_INTERFACE structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

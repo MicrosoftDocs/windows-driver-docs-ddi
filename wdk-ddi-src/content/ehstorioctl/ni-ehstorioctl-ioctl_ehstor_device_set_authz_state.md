@@ -7,7 +7,7 @@ old-location: storage\ioctl_ehstor_device_set_authz_state.htm
 old-project: storage
 ms.assetid: 8C71F597-2141-4DA6-8A14-8B10CB69E5CC
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_ehstor_device_set_authz_state, IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE control code [Storage Devices], IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE, ehstorioctl/IOCTL_EHSTOR_DEVICE_SET_AUTHZ_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

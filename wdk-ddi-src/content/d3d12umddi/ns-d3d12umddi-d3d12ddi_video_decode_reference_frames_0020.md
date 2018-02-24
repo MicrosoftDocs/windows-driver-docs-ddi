@@ -7,8 +7,8 @@ old-location: display\d3d12ddi_video_decode_reference_frames.htm
 old-project: display
 ms.assetid: B7ED4ADA-572A-4D15-B8FD-6EAF2DB87157
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, display.d3d12ddi_video_decode_reference_frames, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 structure [Display Devices], display.d3d12ddi_video_decode_reference_frames, D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020, d3d12umddi/D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -84,11 +84,6 @@ typedef struct D3D12DDI_VIDEO_DECODE_REFERENCE_FRAMES_0020 {
  
 
 
-
-
-#### - NumReferenceResources
-
-The number of references specified.
 
 
 #### - hDrvReferenceTexture2Ds

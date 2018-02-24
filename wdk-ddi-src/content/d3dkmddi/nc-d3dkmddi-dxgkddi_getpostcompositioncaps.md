@@ -7,7 +7,7 @@ old-location: display\dxgkddi_getpostcompositioncaps.htm
 old-project: display
 ms.assetid: B79959EC-A064-4B35-98EF-5B032AF5D4B4
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.dxgkddi_getpostcompositioncaps, DXGKDDI_GETPOSTCOMPOSITIONCAPS callback function [Display Devices], DXGKDDI_GETPOSTCOMPOSITIONCAPS, d3dkmddi/DXGKDDI_GETPOSTCOMPOSITIONCAPS
 ms.prod: windows-hardware
 ms.technology: windows-devices

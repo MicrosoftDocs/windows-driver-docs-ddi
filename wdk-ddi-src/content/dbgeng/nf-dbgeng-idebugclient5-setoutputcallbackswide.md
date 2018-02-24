@@ -4,11 +4,11 @@ title: IDebugClient5::SetOutputCallbacksWide method
 author: windows-driver-content
 description: The SetOutputCallbacksWide method registers an output callbacks object with this client.
 old-location: debugger\setoutputcallbackswide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: cd6f68b2-2a62-4607-8c70-11a94fd75ecb
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: SetOutputCallbacksWide, debugger.setoutputcallbackswide, IDebugClient5, dbgeng/IDebugClient5::SetOutputCallbacksWide, IDebugClient5 interface [Windows Debugging], SetOutputCallbacksWide method, SetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, SetOutputCallbacksWide method [Windows Debugging], IDebugClient5::SetOutputCallbacksWide
+ms.date: 2/15/2018
+ms.keywords: SetOutputCallbacksWide, IDebugClient5, IDebugClient5 interface [Windows Debugging], SetOutputCallbacksWide method, debugger.setoutputcallbackswide, SetOutputCallbacksWide method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient5::SetOutputCallbacksWide, SetOutputCallbacksWide method [Windows Debugging], IDebugClient5::SetOutputCallbacksWide
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugClient5.SetOutputCallbacksWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient5::SetOutputCallbacksWide method
@@ -119,17 +119,17 @@ For more information about callbacks, see <a href="https://msdn.microsoft.com/90
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
-
-
-
 <a href="..\dbgeng\nn-dbgeng-idebugclient5.md">IDebugClient5</a>
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff548071">GetOutputCallbacks</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient5::SetOutputCallbacksWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient5::SetOutputCallbacksWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\mpio_pass_through_path.htm
 old-project: storage
 ms.assetid: 8c7f3832-3faa-4ece-8434-338f1b150ec1
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PMPIO_PASS_THROUGH_PATH, ntddscsi/MPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH structure pointer [Storage Devices], structs-scsibus_0a643059-71aa-4dca-92a8-525924a999df.xml, MPIO_PASS_THROUGH_PATH, _MPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH structure [Storage Devices], storage.mpio_pass_through_path, ntddscsi/PMPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH"
+ms.date: 2/16/2018
+ms.keywords: MPIO_PASS_THROUGH_PATH, _MPIO_PASS_THROUGH_PATH, *PMPIO_PASS_THROUGH_PATH, storage.mpio_pass_through_path, structs-scsibus_0a643059-71aa-4dca-92a8-525924a999df.xml, PMPIO_PASS_THROUGH_PATH, ntddscsi/MPIO_PASS_THROUGH_PATH, PMPIO_PASS_THROUGH_PATH structure pointer [Storage Devices], ntddscsi/PMPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH structure [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_PASS_THROUGH_PATH
 product: Windows
 targetos: Windows
-req.typenames: MPIO_PASS_THROUGH_PATH, *PMPIO_PASS_THROUGH_PATH
+req.typenames: "*PMPIO_PASS_THROUGH_PATH, MPIO_PASS_THROUGH_PATH"
 ---
 
 # _MPIO_PASS_THROUGH_PATH structure
@@ -127,15 +127,15 @@ The <b>MPIO_PASS_THROUGH_PATH</b> structure is used for a double-buffered device
 
 
 
-<a href="..\ntddscsi\ns-ntddscsi-_scsi_pass_through_direct.md">SCSI_PASS_THROUGH_DIRECT</a>
-
-
-
 <a href="..\ntddscsi\ni-ntddscsi-ioctl_mpio_pass_through_path_direct.md">IOCTL_MPIO_PASS_THROUGH_PATH_DIRECT</a>
 
 
 
-<a href="..\srb\ns-srb-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
+<a href="..\ntddscsi\ni-ntddscsi-ioctl_scsi_pass_through.md">IOCTL_SCSI_PASS_THROUGH</a>
+
+
+
+<a href="..\minitape\ns-minitape-_scsi_request_block.md">SCSI_REQUEST_BLOCK</a>
 
 
 
@@ -147,5 +147,5 @@ The <b>MPIO_PASS_THROUGH_PATH</b> structure is used for a double-buffered device
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MPIO_PASS_THROUGH_PATH structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MPIO_PASS_THROUGH_PATH structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

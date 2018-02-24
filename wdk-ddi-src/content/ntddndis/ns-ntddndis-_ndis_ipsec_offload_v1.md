@@ -7,8 +7,8 @@ old-location: netvista\ndis_ipsec_offload_v1.htm
 old-project: netvista
 ms.assetid: 8ec0a052-2327-41e5-a9fa-83bcac9566f7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*PNDIS_IPSEC_OFFLOAD_V1, NDIS_IPSEC_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], PNDIS_IPSEC_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], NDIS_IPSEC_OFFLOAD_V1, IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER, ntddndis/PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TPT_UDPESP_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER, tcpip_offload_ref_8e1eae6b-44e5-425b-8312-ec890b8eb757.xml, IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE, netvista.ndis_ipsec_offload_v1, ntddndis/NDIS_IPSEC_OFFLOAD_V1, _NDIS_IPSEC_OFFLOAD_V1, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE, PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TUN_UDPESP_ENCAPTYPE_IKE"
+ms.date: 2/16/2018
+ms.keywords: IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_IKE, IPSEC_TPT_UDPESP_OVER_PURE_TUN_ENCAPTYPE_OTHER, IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_IKE, ntddndis/PNDIS_IPSEC_OFFLOAD_V1, PNDIS_IPSEC_OFFLOAD_V1 structure pointer [Network Drivers Starting with Windows Vista], IPSEC_TPTOVERTUN_UDPESP_ENCAPTYPE_OTHER, netvista.ndis_ipsec_offload_v1, PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TUN_UDPESP_ENCAPTYPE_IKE, NDIS_IPSEC_OFFLOAD_V1 structure [Network Drivers Starting with Windows Vista], IPSEC_TPT_UDPESP_ENCAPTYPE_OTHER, *PNDIS_IPSEC_OFFLOAD_V1, IPSEC_TUN_UDPESP_ENCAPTYPE_OTHER, IPSEC_TPT_UDPESP_ENCAPTYPE_IKE, NDIS_IPSEC_OFFLOAD_V1, tcpip_offload_ref_8e1eae6b-44e5-425b-8312-ec890b8eb757.xml, ntddndis/NDIS_IPSEC_OFFLOAD_V1, _NDIS_IPSEC_OFFLOAD_V1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,13 +100,15 @@ A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for IPsec task o
      
 
 
-### -field Supported.Encapsulation
+
+#### Encapsulation
 
 Encapsulation settings for IPsec. For more information about this member, see the following
        Remarks section.
 
 
-### -field Supported.AhEspCombined
+
+#### AhEspCombined
 
 A ULONG value that a miniport driver sets to indicate that the hardware can perform IPsec
        operations on send and receive packets that contain both an authentication header (AH) security
@@ -114,7 +116,8 @@ A ULONG value that a miniport driver sets to indicate that the hardware can perf
        <b>AhEspCombined</b> indicates that the NIC does not support this capability.
 
 
-### -field Supported.TransportTunnelCombined
+
+#### TransportTunnelCombined
 
 A ULONG value that a miniport driver sets to indicate that the NIC can process security payloads
        for both the transport-mode portion and the tunnel-mode portion of send and receive packets. (The
@@ -123,14 +126,16 @@ A ULONG value that a miniport driver sets to indicate that the NIC can process s
        <b>TransportTunnelCombined</b> indicates that the NIC does not support this capability.
 
 
-### -field Supported.IPv4Options
+
+#### IPv4Options
 
 A ULONG value that a miniport driver sets to indicate that the NIC can perform IPsec operations
        on IPv4 send and receive packets whose IP headers contain IP options. A value of zero in 
        <b>IPv4Options</b> indicates that the NIC does not support this capability.
 
 
-### -field Supported.Flags
+
+#### Flags
 
 The types of UDP-encapsulated ESP data packets that the NIC can parse. For a description of the
        UDP-encapsulation types, see 
@@ -259,38 +264,44 @@ A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for AH payloads 
      
 
 
-### -field IPv4AH.Md5
+
+#### Md5
 
 A ULONG value that a miniport driver sets to indicate that the NIC can use the keyed MD5
        algorithm for computing or validating a cryptographic checksum for an AH payload, ESP payload, or
        both.
 
 
-### -field IPv4AH.Sha_1
+
+#### Sha_1
 
 A ULONG value that a miniport driver sets to indicate that the NIC can use the SHA 1 algorithm
        for computing or validating a cryptographic checksum for an AH payload, ESP payload, or both.
 
 
-### -field IPv4AH.Transport
+
+#### Transport
 
 A ULONG value that a miniport driver sets to indicate that the NIC can calculate or validate the
        cryptographic checksums for the portion of a packet that pertains to an end-to-end connection.
 
 
-### -field IPv4AH.Tunnel
+
+#### Tunnel
 
 A ULONG value that a miniport driver sets to indicate that the NIC can calculate or validate
        cryptographic checksums for the portion of a packet that pertains to a tunnel connection.
 
 
-### -field IPv4AH.Send
+
+#### Send
 
 A ULONG value that a miniport driver sets to indicate that the NIC can calculate cryptographic
        checksums for send packets.
 
 
-### -field IPv4AH.Receive
+
+#### Receive
 
 A ULONG value that a miniport driver sets to indicate that the NIC can validate cryptographic
        checksums for receive packets.
@@ -303,48 +314,56 @@ A structure within NDIS_IPSEC_OFFLOAD_V1 that specifies support for ESP payloads
      
 
 
-### -field IPv4ESP.Des
+
+#### Des
 
 A ULONG value that a miniport driver sets to indicate that the NIC supports the DES algorithm
        for encrypting and decrypting ESP payloads.
 
 
-### -field IPv4ESP.Reserved
+
+#### Reserved
 
 This member is reserved.
 
 
-### -field IPv4ESP.TripleDes
+
+#### TripleDes
 
 A ULONG value that a miniport driver sets to indicate that the NIC supports the triple-DES
        algorithm for encrypting and decrypting ESP payloads.
 
 
-### -field IPv4ESP.NullEsp
+
+#### NullEsp
 
 A ULONG value that a miniport driver sets to indicate that the NIC supports null
        encryption--that is, the ESP payload without encryption but with authentication information.
 
 
-### -field IPv4ESP.Transport
+
+#### Transport
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        data for the portion of a packet that pertains to an end-to-end connection.
 
 
-### -field IPv4ESP.Tunnel
+
+#### Tunnel
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        data for the portion of a packet that pertains to a tunnel connection.
 
 
-### -field IPv4ESP.Send
+
+#### Send
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        payloads in send packets.
 
 
-### -field IPv4ESP.Receive
+
+#### Receive
 
 A ULONG value that a miniport driver sets to indicate that the NIC can encrypt and decrypt ESP
        payloads in receive packets.
@@ -406,7 +425,8 @@ The following flags are defined for the
 
 ## -see-also
 
-<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
+   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
 
 
 
@@ -414,11 +434,15 @@ The following flags are defined for the
 
 
 
+<a href="..\ndis\ns-ndis-_ndis_filter_attach_parameters.md">NDIS_FILTER_ATTACH_PARAMETERS</a>
+
+
+
+<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+
+
+
 <a href="..\ntddndis\ns-ntddndis-_ndis_ipsec_offload_v2.md">NDIS_IPSEC_OFFLOAD_V2</a>
-
-
-
-<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -427,7 +451,7 @@ The following flags are defined for the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_bind_parameters.md">NDIS_BIND_PARAMETERS</a>
+<a href="..\ndis\ns-ndis-_net_buffer_list.md">NET_BUFFER_LIST</a>
 
 
 
@@ -439,14 +463,9 @@ The following flags are defined for the
 
 
 
-<a href="..\ndis\ns-ndis-_ndis_miniport_adapter_offload_attributes.md">
-   NDIS_MINIPORT_ADAPTER_OFFLOAD_ATTRIBUTES</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_IPSEC_OFFLOAD_V1 structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_IPSEC_OFFLOAD_V1 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

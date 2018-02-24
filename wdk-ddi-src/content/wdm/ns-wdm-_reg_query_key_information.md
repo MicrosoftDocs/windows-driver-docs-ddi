@@ -7,8 +7,8 @@ old-location: kernel\reg_query_key_information.htm
 old-project: kernel
 ms.assetid: 88c64e9a-dbf2-4feb-9ce2-615b5ba98439
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PREG_QUERY_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], *PREG_QUERY_KEY_INFORMATION, wdm/PREG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], _REG_QUERY_KEY_INFORMATION, kernel.reg_query_key_information, wdm/REG_QUERY_KEY_INFORMATION, PREG_QUERY_KEY_INFORMATION, kstruct_d_5e665782-95c2-4fca-bd49-cb364c449540.xml
+ms.date: 2/16/2018
+ms.keywords: "_REG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION structure [Kernel-Mode Driver Architecture], wdm/REG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION, kernel.reg_query_key_information, kstruct_d_5e665782-95c2-4fca-bd49-cb364c449540.xml, PREG_QUERY_KEY_INFORMATION structure pointer [Kernel-Mode Driver Architecture], PREG_QUERY_KEY_INFORMATION, *PREG_QUERY_KEY_INFORMATION, wdm/PREG_QUERY_KEY_INFORMATION"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	REG_QUERY_KEY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PREG_QUERY_KEY_INFORMATION, REG_QUERY_KEY_INFORMATION"
+req.typenames: REG_QUERY_KEY_INFORMATION, *PREG_QUERY_KEY_INFORMATION
 req.product: Windows 10 or later.
 ---
 
@@ -128,11 +128,11 @@ For more information about registry filtering operations, see <a href="https://m
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
-
-
-
 <a href="..\wdm\nf-wdm-zwquerykey.md">ZwQueryKey</a>
+
+
+
+<a href="..\wdm\nf-wdm-cmsetcallbackobjectcontext.md">CmSetCallbackObjectContext</a>
 
 
 
@@ -144,5 +144,5 @@ For more information about registry filtering operations, see <a href="https://m
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_QUERY_KEY_INFORMATION structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20REG_QUERY_KEY_INFORMATION structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

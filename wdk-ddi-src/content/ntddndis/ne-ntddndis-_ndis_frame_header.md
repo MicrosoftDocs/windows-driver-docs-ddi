@@ -7,8 +7,8 @@ old-location: netvista\ndis_frame_header.htm
 old-project: netvista
 ms.assetid: 8897ae0c-6068-4fea-8944-1340595dbff3
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_NDIS_FRAME_HEADER, ntddndis/PNDIS_FRAME_HEADER, NdisFrameHeaderUdp, *PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMaximum, NDIS_FRAME_HEADER, NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderUdp, NdisFrameHeaderArp, ntddndis/NdisFrameHeaderMac, ntddndis/NdisFrameHeaderUndefined, ntddndis/NDIS_FRAME_HEADER, netvista.ndis_frame_header, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderArp, PNDIS_FRAME_HEADER, NdisFrameHeaderMaximum, NdisFrameHeaderIPv4, ntddndis/NdisFrameHeaderIPv4, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], NdisFrameHeaderMac, NdisFrameHeaderUndefined, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml"
+ms.date: 2/16/2018
+ms.keywords: ntddndis/NdisFrameHeaderUdp, PNDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderMaximum, NdisFrameHeaderIPv4, _NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderUndefined, virtual_machine_queue_ref_0ee94de6-7791-4a6e-b3da-2c8639843130.xml, NdisFrameHeaderMac, NdisFrameHeaderMaximum, NDIS_FRAME_HEADER enumeration [Network Drivers Starting with Windows Vista], NdisFrameHeaderUdp, ntddndis/NdisFrameHeaderIPv6, ntddndis/NdisFrameHeaderMac, NDIS_FRAME_HEADER, NdisFrameHeaderArp, NdisFrameHeaderIPv6, *PNDIS_FRAME_HEADER, PNDIS_FRAME_HEADER enumeration pointer [Network Drivers Starting with Windows Vista], ntddndis/NdisFrameHeaderIPv4, ntddndis/PNDIS_FRAME_HEADER, ntddndis/NDIS_FRAME_HEADER, ntddndis/NdisFrameHeaderArp, netvista.ndis_frame_header, NdisFrameHeaderUndefined
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -132,5 +132,5 @@ The NDIS_FRAME_HEADER enumeration is used in the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FRAME_HEADER enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_FRAME_HEADER enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

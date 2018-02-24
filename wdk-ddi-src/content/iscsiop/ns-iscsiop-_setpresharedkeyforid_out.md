@@ -7,8 +7,8 @@ old-location: storage\setpresharedkeyforid_out.htm
 old-project: storage
 ms.assetid: 839041be-bb8c-4e02-a260-e9adcec98ff3
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "_SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], *PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT, iscsiop/PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT structure [Storage Devices], structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, iscsiop/SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT, storage.setpresharedkeyforid_out"
+ms.date: 2/16/2018
+ms.keywords: iscsiop/PSetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT structure pointer [Storage Devices], storage.setpresharedkeyforid_out, iscsiop/SetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT structure [Storage Devices], structs-iSCSI_c0146684-fe9e-4bca-81d2-2a09b554d006.xml, SetPresharedKeyForId_OUT, PSetPresharedKeyForId_OUT, _SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	SetPresharedKeyForId_OUT
 product: Windows
 targetos: Windows
-req.typenames: SetPresharedKeyForId_OUT, *PSetPresharedKeyForId_OUT
+req.typenames: "*PSetPresharedKeyForId_OUT, SetPresharedKeyForId_OUT"
 ---
 
 # _SetPresharedKeyForId_OUT structure
@@ -83,7 +83,7 @@ You must implement this method.
 
 ## -see-also
 
-<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
 
 
 
@@ -91,7 +91,7 @@ You must implement this method.
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff565800">SetPresharedKeyForId</a>
+<a href="..\iscsiop\ns-iscsiop-_setpresharedkeyforid_in.md">SetPresharedKeyForId_IN</a>
 
 
 
@@ -99,5 +99,5 @@ You must implement this method.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetPresharedKeyForId_OUT structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20SetPresharedKeyForId_OUT structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

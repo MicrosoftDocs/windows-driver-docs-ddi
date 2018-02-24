@@ -4,11 +4,11 @@ title: "_URB_CONTROL_TRANSFER_EX"
 author: windows-driver-content
 description: The _URB_CONTROL_TRANSFER_EX structure is used by USB client drivers to transfer data to or from a control pipe, with a timeout that limits the acceptable transfer time.
 old-location: buses\_urb_control_transfer_ex.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: b77febb8-6428-4633-85a0-2f8c0409194d
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: USBD_DEFAULT_PIPE_TRANSFER, usb/_URB_CONTROL_TRANSFER_EX, _URB_CONTROL_TRANSFER_EX structure [Buses], buses._urb_control_transfer_ex, USBD_SHORT_TRANSFER_OK, USBD_TRANSFER_DIRECTION_IN, USBD_TRANSFER_DIRECTION_OUT, _URB_CONTROL_TRANSFER_EX, usbstrct_08c90b6d-8b25-4ebe-9131-5d2a0bacd5db.xml
+ms.date: 2/15/2018
+ms.keywords: "_URB_CONTROL_TRANSFER_EX structure [Buses], _URB_CONTROL_TRANSFER_EX, buses._urb_control_transfer_ex, USBD_DEFAULT_PIPE_TRANSFER, USBD_TRANSFER_DIRECTION_OUT, USBD_TRANSFER_DIRECTION_IN, usbstrct_08c90b6d-8b25-4ebe-9131-5d2a0bacd5db.xml, usb/_URB_CONTROL_TRANSFER_EX, USBD_SHORT_TRANSFER_OK"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -80,11 +80,6 @@ struct _URB_CONTROL_TRANSFER_EX {
 ### -field Hdr
 
 Pointer to a <a href="..\usb\ns-usb-_urb_header.md">_URB_HEADER</a> structure that specifies the URB header information. <b>Hdr.Function</b> must be URB_FUNCTION_CONTROL_TRANSFER_EX, and <b>Hdr.Length</b> must be <code>sizeof(_URB_CONTROL_TRANSFER_EX)</code>.
-
-
-### -field _URB_HEADER
-
- 
 
 
 ### -field PipeHandle
@@ -191,11 +186,6 @@ Reserved. Do not use.
 Reserved. Do not use.
 
 
-### -field _URB_HCD_AREA
-
- 
-
-
 ### -field SetupPacket
 
 Specifies a USB-defined request setup packet. The format of a USB request setup packet is found in the USB core specification.
@@ -218,10 +208,6 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
-
-
-
 <a href="..\usb\ns-usb-_urb_control_transfer.md">_URB_CONTROL_TRANSFER</a>
 
 
@@ -230,9 +216,13 @@ The reserved members of this structure must be treated as opaque and are reserve
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff540160">USB Structures</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20_URB_CONTROL_TRANSFER_EX structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20_URB_CONTROL_TRANSFER_EX structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

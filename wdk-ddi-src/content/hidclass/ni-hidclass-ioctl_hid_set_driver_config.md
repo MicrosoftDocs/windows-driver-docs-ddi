@@ -7,7 +7,7 @@ old-location: hid\ioctl_hid_set_driver_config.htm
 old-project: hid
 ms.assetid: E20A1105-CB86-4CE3-91A4-23B08B4D0393
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
+ms.date: 2/15/2018
 ms.keywords: hid.ioctl_hid_set_driver_config, IOCTL_HID_SET_DRIVER_CONFIG control code [Human Input Devices], IOCTL_HID_SET_DRIVER_CONFIG, hidclass/IOCTL_HID_SET_DRIVER_CONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices

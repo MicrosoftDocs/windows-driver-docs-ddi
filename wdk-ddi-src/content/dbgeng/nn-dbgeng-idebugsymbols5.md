@@ -4,10 +4,10 @@ title: IDebugSymbols5
 author: windows-driver-content
 description: This interface supports using index values for the current frame.
 old-location: debugger\idebugsymbols5.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 0D239C0E-96C8-49F9-BDFD-182F3F7C3976
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugsymbols5, IDebugSymbols5 interface [Windows Debugging], IDebugSymbols5 interface [Windows Debugging], described, IDebugSymbols5, dbgeng/IDebugSymbols5
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDebugSymbols5
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols5 interface

@@ -4,11 +4,11 @@ title: IDebugDataSpaces::WriteIo method
 author: windows-driver-content
 description: The WriteIo method writes to the system and bus I/O memory.
 old-location: debugger\writeio.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 3bc84b15-7c13-4ad9-b9a1-6abd5a7389eb
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugDataSpaces2::WriteIo, dbgeng/IDebugDataSpaces3::WriteIo, dbgeng/IDebugDataSpaces::WriteIo, IDebugDataSpaces3::WriteIo, debugger.writeio, WriteIo method [Windows Debugging], IDebugDataSpaces4::WriteIo, IDebugDataSpaces2::WriteIo, IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, dbgeng/IDebugDataSpaces4::WriteIo, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method, WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, WriteIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces, IDebugDataSpaces::WriteIo, IDebugDataSpaces interface [Windows Debugging], WriteIo method, WriteIo
+ms.date: 2/15/2018
+ms.keywords: WriteIo method [Windows Debugging], IDebugDataSpaces interface, IDebugDataSpaces3 interface [Windows Debugging], WriteIo method, dbgeng/IDebugDataSpaces3::WriteIo, debugger.writeio, WriteIo method [Windows Debugging], IDebugDataSpaces2 interface, IDebugDataSpaces::WriteIo, IDebugDataSpaces_d36b33ec-db19-4df1-8813-b77f22705279.xml, dbgeng/IDebugDataSpaces2::WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces4 interface, IDebugDataSpaces2 interface [Windows Debugging], WriteIo method, IDebugDataSpaces interface [Windows Debugging], WriteIo method, WriteIo method [Windows Debugging], IDebugDataSpaces3 interface, WriteIo, WriteIo method [Windows Debugging], IDebugDataSpaces2::WriteIo, IDebugDataSpaces3::WriteIo, IDebugDataSpaces, dbgeng/IDebugDataSpaces4::WriteIo, IDebugDataSpaces4::WriteIo, dbgeng/IDebugDataSpaces::WriteIo, IDebugDataSpaces4 interface [Windows Debugging], WriteIo method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugDataSpaces4.WriteIo
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugDataSpaces::WriteIo method

@@ -7,8 +7,8 @@ old-location: storage\msfc_portevent.htm
 old-project: storage
 ms.assetid: bf9e2d58-9379-4b88-9043-580a97ec7cd9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: storage.msfc_portevent, hbapiwmi/MSFC_PortEvent, PMSFC_PortEvent, MSFC_PortEvent, MSFC_PortEvent structure [Storage Devices], hbapiwmi/PMSFC_PortEvent, _MSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, *PMSFC_PortEvent
+ms.date: 2/16/2018
+ms.keywords: "_MSFC_PortEvent, PMSFC_PortEvent, MSFC_PortEvent structure [Storage Devices], hbapiwmi/MSFC_PortEvent, hbapiwmi/PMSFC_PortEvent, MSFC_PortEvent, *PMSFC_PortEvent, PMSFC_PortEvent structure pointer [Storage Devices], structs-Fibre_21739c44-07d2-412e-bc03-3cc25b14bb9d.xml, storage.msfc_portevent"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MSFC_PortEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PMSFC_PortEvent, MSFC_PortEvent"
+req.typenames: MSFC_PortEvent, *PMSFC_PortEvent
 ---
 
 # _MSFC_PortEvent structure
@@ -94,5 +94,5 @@ Contains the worldwide name that indicates the port for which the event occurred
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_PortEvent structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20MSFC_PortEvent structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

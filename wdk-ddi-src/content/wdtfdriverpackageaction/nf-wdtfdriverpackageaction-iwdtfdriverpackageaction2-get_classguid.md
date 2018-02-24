@@ -7,8 +7,8 @@ old-location: dtf\iwdtfdriverpackageaction2_classguid.htm
 old-project: dtf
 ms.assetid: a89950ff-2825-4b1d-9099-1e96dbf629ee
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_ClassGuid, IWDTFDriverPackageAction2.ClassGuid, ClassGuid property [Windows Device Testing Framework], dtf.iwdtfdriverpackageaction2_classguid, Microsoft::WDTF::IWDTFDriverPackageAction2::ClassGuid, get_ClassGuid, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], ClassGuid property, ClassGuid property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, IWDTFDriverPackageAction2, Microsoft.WDTF.IWDTFDriverPackageAction2.ClassGuid, wdtfdriverpackageaction/IWDTFDriverPackageAction2::ClassGuid, IWDTFDriverPackageAction2::get_ClassGuid
+ms.date: 2/20/2018
+ms.keywords: wdtfdriverpackageaction/IWDTFDriverPackageAction2::ClassGuid, get_ClassGuid, dtf.iwdtfdriverpackageaction2_classguid, IWDTFDriverPackageAction2::get_ClassGuid, ClassGuid property [Windows Device Testing Framework], IWDTFDriverPackageAction2 interface, Microsoft::WDTF::IWDTFDriverPackageAction2::ClassGuid, ClassGuid property [Windows Device Testing Framework], IWDTFDriverPackageAction2.ClassGuid, wdtfdriverpackageaction/IWDTFDriverPackageAction2::get_ClassGuid, Microsoft.WDTF.IWDTFDriverPackageAction2.ClassGuid, IWDTFDriverPackageAction2, IWDTFDriverPackageAction2 interface [Windows Device Testing Framework], ClassGuid property
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IWDTFDriverPackageAction2.get_ClassGuid
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 
@@ -79,5 +79,5 @@ HRESULT get_ClassGuid(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFDriverPackageAction2::ClassGuid property%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [dtf\dtf]:%20IWDTFDriverPackageAction2::ClassGuid property%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

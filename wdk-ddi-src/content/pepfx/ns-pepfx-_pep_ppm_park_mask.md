@@ -7,13 +7,13 @@ old-location: kernel\pep_ppm_park_mask.htm
 old-project: kernel
 ms.assetid: 528576FD-BDB2-4772-9151-A1C855BA953E
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture], *PPEP_PPM_PARK_MASK, pepfx/PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, _PEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK, PEP_PPM_PARK_MASK
+ms.date: 2/16/2018
+ms.keywords: PPEP_PPM_PARK_MASK, _PEP_PPM_PARK_MASK, pepfx/PEP_PPM_PARK_MASK, *PPEP_PPM_PARK_MASK, pepfx/PPEP_PPM_PARK_MASK, PPEP_PPM_PARK_MASK structure pointer [Kernel-Mode Driver Architecture], PEP_PPM_PARK_MASK, kernel.pep_ppm_park_mask, PEP_PPM_PARK_MASK structure [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -113,5 +113,5 @@ The Processors array is guaranteed to contain the processors in increasing order
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_PARK_MASK structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_PPM_PARK_MASK structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

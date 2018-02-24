@@ -4,11 +4,11 @@ title: IDebugEventCallbacks::GetInterestMask method
 author: windows-driver-content
 description: The GetInterestMask callback method is called to determine which events the IDebugEventCallbacks object is interested in. The engine calls GetInterestMask when the object is registered with a client by using SetEventCallbacks.
 old-location: debugger\idebugeventcallbacks_getinterestmask.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 165c83cb-c0be-4a09-9220-a5208f660308
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugEventCallbacks::GetInterestMask, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml, GetInterestMask method [Windows Debugging], IDebugEventCallbacks, debugger.idebugeventcallbacks_getinterestmask, GetInterestMask, dbgeng/IDebugEventCallbacks::GetInterestMask
+ms.date: 2/15/2018
+ms.keywords: debugger.idebugeventcallbacks_getinterestmask, GetInterestMask method [Windows Debugging], IDebugEventCallbacks interface, IDebugEventCallbacks, IDebugEventCallbacks::GetInterestMask, GetInterestMask method [Windows Debugging], dbgeng/IDebugEventCallbacks::GetInterestMask, GetInterestMask, IDebugEventCallbacks interface [Windows Debugging], GetInterestMask method, ComCallbacks_564e7fce-ee9a-404e-9ae4-06805cb0b677.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks.GetInterestMask
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks::GetInterestMask method

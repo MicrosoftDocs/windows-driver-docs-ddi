@@ -7,8 +7,8 @@ old-location: netvista\rilsetexecutorrfstateparams_2.htm
 old-project: netvista
 ms.assetid: c1638b6e-7270-4511-a0bb-3766dbd6c6f5
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: rilapitypes/RILSETEXECUTORRFSTATEPARAMS, *LPRILSETEXECUTORRFSTATEPARAMS, netvista.rilsetexecutorrfstateparams_2, RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS structure [Network Drivers Starting with Windows Vista]
+ms.date: 2/16/2018
+ms.keywords: "*LPRILSETEXECUTORRFSTATEPARAMS, rilapitypes/RILSETEXECUTORRFSTATEPARAMS, netvista.rilsetexecutorrfstateparams_2, RILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS structure [Network Drivers Starting with Windows Vista]"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILSETEXECUTORRFSTATEPARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILSETEXECUTORRFSTATEPARAMS, RILSETEXECUTORRFSTATEPARAMS"
+req.typenames: RILSETEXECUTORRFSTATEPARAMS, *LPRILSETEXECUTORRFSTATEPARAMS
 req.product: Windows 10 or later.
 ---
 

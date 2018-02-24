@@ -7,7 +7,7 @@ old-location: battery\ioctl_internal_cad_power_source_update.htm
 old-project: battery
 ms.assetid: 9D49DA3A-D19E-4834-B5B4-CEF0F235F954
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/15/2018
 ms.keywords: battery.ioctl_internal_cad_power_source_update, IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE control code [Battery Devices], IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE, charging/IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE
 product: Windows
 targetos: Windows
-req.typenames: POWERSOURCEID, *PPOWERSOURCEID
+req.typenames: "*PPOWERSOURCEID, POWERSOURCEID"
 ---
 
 # IOCTL_INTERNAL_CAD_POWER_SOURCE_UPDATE IOCTL

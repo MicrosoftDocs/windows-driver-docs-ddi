@@ -4,11 +4,11 @@ title: IDebugControl4::GetExtensionByPathWide method
 author: windows-driver-content
 description: The GetExtensionByPathWide method returns the handle for an already loaded extension library.
 old-location: debugger\getextensionbypathwide.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 85257190-2b39-487d-ada6-4c8cd0b1450f
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugControl4::GetExtensionByPathWide, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method, IDebugControl4::GetExtensionByPathWide, GetExtensionByPathWide, debugger.getextensionbypathwide, IDebugControl4, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface
+ms.date: 2/15/2018
+ms.keywords: debugger.getextensionbypathwide, GetExtensionByPathWide method [Windows Debugging], IDebugControl4, GetExtensionByPathWide method [Windows Debugging], IDebugControl4 interface, GetExtensionByPathWide, IDebugControl4::GetExtensionByPathWide, dbgeng/IDebugControl4::GetExtensionByPathWide, IDebugControl4 interface [Windows Debugging], GetExtensionByPathWide method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IDebugControl4.GetExtensionByPathWide
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl4::GetExtensionByPathWide method
@@ -131,5 +131,5 @@ For more information on using extension libraries, see <a href="https://msdn.mic
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugControl4::GetExtensionByPathWide method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugControl4::GetExtensionByPathWide method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

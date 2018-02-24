@@ -7,8 +7,8 @@ old-location: storage\pdo_type.htm
 old-project: storage
 ms.assetid: 9695d55c-a214-4bba-aba9-38dfa7f54ec9
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: PDO_TYPE, storage.pdo_type, PDO_TYPE_UNDEFINED, PDO_TYPE_DISK, PDO_TYPE_SILO, PDO_TYPE_THIS, ehstorioctl/PDO_TYPE_DISK, ehstorioctl/PDO_TYPE_CONTROL, structs-silo_9ef418bc-5275-4fcf-a49b-804ace353da8.xml, ehstorioctl/PDO_TYPE_THIS, PDO_TYPE_CONTROL, PDO_TYPE enumeration [Storage Devices], _PDO_TYPE, ehstorioctl/PDO_TYPE_SILO, ehstorioctl/PDO_TYPE_UNDEFINED, ehstorioctl/PDO_TYPE
+ms.date: 2/16/2018
+ms.keywords: ehstorioctl/PDO_TYPE_SILO, ehstorioctl/PDO_TYPE_UNDEFINED, ehstorioctl/PDO_TYPE_DISK, structs-silo_9ef418bc-5275-4fcf-a49b-804ace353da8.xml, ehstorioctl/PDO_TYPE, ehstorioctl/PDO_TYPE_CONTROL, storage.pdo_type, PDO_TYPE enumeration [Storage Devices], PDO_TYPE_DISK, PDO_TYPE, ehstorioctl/PDO_TYPE_THIS, _PDO_TYPE, PDO_TYPE_CONTROL, PDO_TYPE_UNDEFINED, PDO_TYPE_SILO, PDO_TYPE_THIS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -105,5 +105,5 @@ This value indicates the PDO is for a logical silo device.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PDO_TYPE enumeration%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20PDO_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

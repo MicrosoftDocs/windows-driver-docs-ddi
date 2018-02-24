@@ -7,8 +7,8 @@ old-location: kernel\kequeryinterrupttimeprecise.htm
 old-project: kernel
 ms.assetid: CCA03E61-6FEF-42BC-9407-A02432C50542
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.kequeryinterrupttimeprecise, KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], wdm/KeQueryInterruptTimePrecise
+ms.date: 2/16/2018
+ms.keywords: KeQueryInterruptTimePrecise routine [Kernel-Mode Driver Architecture], kernel.kequeryinterrupttimeprecise, wdm/KeQueryInterruptTimePrecise, KeQueryInterruptTimePrecise
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -92,7 +92,7 @@ The interrupt time reported by <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">K
 
 To provide an interrupt time value that is more precise than that of <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>, <b>KeQueryInterruptTimePrecise</b> uses the system performance counter to measure the time elapsed since the last clock timer interrupt, and adds this time to the interrupt time associated with the latest clock time. The interrupt time reported by <b>KeQueryInterruptTimePrecise</b> is accurate to within a microsecond.
 
-On some hardware platforms, a <b>KeQueryInterruptTimePrecise</b> call might be slower than a <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a> call. The reason is that <b>KeQueryInterruptTimePrecise</b> reads the performance counter, which can introduce an additional delay. For more information, see <a href="..\wdm\nf-wdm-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
+On some hardware platforms, a <b>KeQueryInterruptTimePrecise</b> call might be slower than a <a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a> call. The reason is that <b>KeQueryInterruptTimePrecise</b> reads the performance counter, which can introduce an additional delay. For more information, see <a href="..\ntifs\nf-ntifs-kequeryperformancecounter.md">KeQueryPerformanceCounter</a>.
 
 Call the <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a> routine to determine the size of a system clock tick.
 
@@ -107,10 +107,6 @@ However, power-management state changes do affect the system interrupt time coun
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-kequeryunbiasedinterrupttime.md">KeQueryUnbiasedInterruptTime</a>
-
-
-
 <a href="..\wdm\nf-wdm-kequerytimeincrement.md">KeQueryTimeIncrement</a>
 
 
@@ -123,9 +119,13 @@ However, power-management state changes do affect the system interrupt time coun
 
 
 
- 
+<a href="..\wdm\nf-wdm-kequeryinterrupttime.md">KeQueryInterruptTime</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryInterruptTimePrecise routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KeQueryInterruptTimePrecise routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

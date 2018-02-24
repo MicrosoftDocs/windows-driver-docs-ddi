@@ -7,8 +7,8 @@ old-location: stream\ksstream_uvc_metadatatype_timestamp.htm
 old-project: stream
 ms.assetid: FDA0CD47-36D9-4E64-9377-F419A7D788A3
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices]
+ms.date: 2/20/2018
+ms.keywords: PKSSTREAM_UVC_METADATATYPE_TIMESTAMP structure pointer [Streaming Media Devices], ks/PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure [Streaming Media Devices], ks/KSSTREAM_UVC_METADATATYPE_TIMESTAMP, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, stream.ksstream_uvc_metadatatype_timestamp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KSSTREAM_UVC_METADATATYPE_TIMESTAMP
 product: Windows
 targetos: Windows
-req.typenames: KSSTREAM_UVC_METADATATYPE_TIMESTAMP, *PKSSTREAM_UVC_METADATATYPE_TIMESTAMP
+req.typenames: "*PKSSTREAM_UVC_METADATATYPE_TIMESTAMP, KSSTREAM_UVC_METADATATYPE_TIMESTAMP"
 ---
 
 # KSSTREAM_UVC_METADATATYPE_TIMESTAMP structure
@@ -97,11 +97,6 @@ Specifies the source clock reference counter.
 Reserved.
 
 
-### -field SCRToken
-
-Specifies the source clock reference token.
-
-
 ### -field Reserved0
 
 Reserved.
@@ -110,4 +105,9 @@ Reserved.
 ### -field Reserved1
 
 Reserved.
+
+
+#### - SCRToken
+
+Specifies the source clock reference token.
 

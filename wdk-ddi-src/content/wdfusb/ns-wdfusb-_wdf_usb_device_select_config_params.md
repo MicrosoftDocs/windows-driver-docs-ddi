@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_device_select_config_params.htm
 old-project: wdf
 ms.assetid: d48484eb-a7bf-4ca7-9d18-4c4c166db90c
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_usb_device_select_config_params, PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, wdf.wdf_usb_device_select_config_params, PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure pointer, DFUsbRef_1f6335f1-ec4c-413e-b176-46b1bdf70d46.xml, *PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, _WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, wdfusb/PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS
+ms.date: 2/20/2018
+ms.keywords: "*PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, wdfusb/WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, wdf.wdf_usb_device_select_config_params, PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure pointer, kmdf.wdf_usb_device_select_config_params, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure, DFUsbRef_1f6335f1-ec4c-413e-b176-46b1bdf70d46.xml, wdfusb/PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, _WDF_USB_DEVICE_SELECT_CONFIG_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_DEVICE_SELECT_CONFIG_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: WDF_USB_DEVICE_SELECT_CONFIG_PARAMS, *PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS
+req.typenames: "*PWDF_USB_DEVICE_SELECT_CONFIG_PARAMS, WDF_USB_DEVICE_SELECT_CONFIG_PARAMS"
 req.product: Windows 10 or later.
 ---
 
@@ -195,15 +195,15 @@ If the driver sets the <b>Type</b> member to <b>WdfUsbTargetDeviceSelectConfigTy
 
 ## -see-also
 
+<a href="..\wdfusb\ns-wdfusb-_wdf_usb_interface_setting_pair.md">WDF_USB_INTERFACE_SETTING_PAIR</a>
+
+
+
 <a href="..\usbspec\ns-usbspec-_usb_configuration_descriptor.md">USB_CONFIGURATION_DESCRIPTOR</a>
 
 
 
 <a href="..\wdfusb\ne-wdfusb-_wdfusbtargetdeviceselectconfigtype.md">WdfUsbTargetDeviceSelectConfigType</a>
-
-
-
-<a href="..\usbspec\ns-usbspec-_usb_interface_descriptor.md">USB_INTERFACE_DESCRIPTOR</a>
 
 
 
@@ -215,5 +215,5 @@ If the driver sets the <b>Type</b> member to <b>WdfUsbTargetDeviceSelectConfigTy
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_DEVICE_SELECT_CONFIG_PARAMS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: print\closeprintprocessor.htm
 old-project: print
 ms.assetid: 3cf87a18-8b5a-40f2-9c0e-2b29167e283d
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, print.closeprintprocessor, ClosePrintProcessor, ClosePrintProcessor function [Print Devices], winsplp/ClosePrintProcessor
+ms.date: 2/21/2018
+ms.keywords: ClosePrintProcessor function [Print Devices], spoolfnc_f2e791a0-bfae-463c-a7ac-0e9f941ebe51.xml, print.closeprintprocessor, ClosePrintProcessor, winsplp/ClosePrintProcessor
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,5 +106,5 @@ Print processors are required to export a <b>ClosePrintProcessor</b> function. T
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ClosePrintProcessor function%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20ClosePrintProcessor function%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,10 +4,10 @@ title: IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 author: windows-driver-content
 description: Do not use.
 old-location: buses\ioctl_internal_usbfn_set_power_filter_state.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: 2C010516-500A-4CA2-B6FE-20333E7CCC39
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
+ms.date: 2/15/2018
 ms.keywords: buses.ioctl_internal_usbfn_set_power_filter_state, IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE control code [Buses], IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE, usbfnioctl/IOCTL_INTERNAL_USBFN_SET_POWER_FILTER_STATE
 ms.prod: windows-hardware
 ms.technology: windows-devices

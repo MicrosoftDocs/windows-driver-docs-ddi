@@ -7,8 +7,8 @@ old-location: audio\iminiportwavertstreamnotification_registernotificationevent.
 old-project: audio
 ms.assetid: 269eccd8-e477-4082-930b-1f4b3e3706b9
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, IMiniportWaveRTStreamNotification, audio.iminiportwavertstreamnotification_registernotificationevent, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent
+ms.date: 2/21/2018
+ms.keywords: IMiniportWaveRTStreamNotification, audio.iminiportwavertstreamnotification_registernotificationevent, portcls/IMiniportWaveRTStreamNotification::RegisterNotificationEvent, RegisterNotificationEvent method [Audio Devices], IMiniportWaveRTStreamNotification interface, IMiniportWaveRTStreamNotification::RegisterNotificationEvent, IMiniportWaveRTStreamNotification interface [Audio Devices], RegisterNotificationEvent method, audmp-routines_82613ca5-1ae2-449d-8883-2d6ee50aecf7.xml, RegisterNotificationEvent method [Audio Devices], RegisterNotificationEvent
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IMiniportWaveRTStreamNotification.RegisterNotificationEvent
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IMiniportWaveRTStreamNotification::RegisterNotificationEvent method
@@ -112,5 +112,5 @@ For more information about the behavior of the KSPROPERTY_RTAUDIO_REGISTER_NOTIF
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTStreamNotification::RegisterNotificationEvent method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IMiniportWaveRTStreamNotification::RegisterNotificationEvent method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: kernel\psremovesilocontext.htm
 old-project: kernel
 ms.assetid: 3323EF1B-9EB3-4D56-A9A5-0A8397F8A235
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: PsRemoveSiloContext routine [Kernel-Mode Driver Architecture], PsRemoveSiloContext, kernel.psremovesilocontext, ntddk/PsRemoveSiloContext
+ms.date: 2/16/2018
+ms.keywords: kernel.psremovesilocontext, ntddk/PsRemoveSiloContext, PsRemoveSiloContext routine [Kernel-Mode Driver Architecture], PsRemoveSiloContext
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

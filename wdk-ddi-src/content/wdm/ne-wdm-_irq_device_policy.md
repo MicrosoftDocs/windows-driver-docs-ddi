@@ -7,13 +7,13 @@ old-location: kernel\irq_device_policy.htm
 old-project: kernel
 ms.assetid: 1a605eed-d9a1-4a2f-a095-3e790061527b
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IRQ_DEVICE_POLICY, wdm/IrqPolicyOneCloseProcessor, IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyMachineDefault, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], wdm/IrqPolicySpecifiedProcessors, wdm/PIRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY, IrqPolicyMachineDefault, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyAllProcessorsInMachine, _IRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY, IrqPolicySpecifiedProcessors, IrqPolicyOneCloseProcessor, kernel.irq_device_policy, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, IrqPolicyAllCloseProcessors, wdm/IrqPolicyAllCloseProcessors, wdm/IRQ_DEVICE_POLICY
+ms.date: 2/16/2018
+ms.keywords: wdm/IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY enumeration [Kernel-Mode Driver Architecture], IrqPolicyMachineDefault, IrqPolicySpecifiedProcessors, wdm/IrqPolicySpecifiedProcessors, IrqPolicyAllProcessorsInMachine, wdm/IrqPolicyAllCloseProcessors, _IRQ_DEVICE_POLICY, PIRQ_DEVICE_POLICY enumeration pointer [Kernel-Mode Driver Architecture], *PIRQ_DEVICE_POLICY, IrqPolicyOneCloseProcessor, wdm/PIRQ_DEVICE_POLICY, kernel.irq_device_policy, wdm/IrqPolicyAllProcessorsInMachine, wdm/IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyMachineDefault, PIRQ_DEVICE_POLICY, IrqPolicySpreadMessagesAcrossAllProcessors, wdm/IrqPolicyOneCloseProcessor, sysenum_09bcf230-5558-447e-8646-c60d807365d4.xml, IrqPolicyAllCloseProcessors
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
 req.header: wdm.h
-req.include-header: Wdm.h, Ntddk.h, Ntifs.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h
 req.target-type: Windows
 req.target-min-winverclnt: 
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	IRQ_DEVICE_POLICY
 product: Windows
 targetos: Windows
-req.typenames: IRQ_DEVICE_POLICY, *PIRQ_DEVICE_POLICY
+req.typenames: "*PIRQ_DEVICE_POLICY, IRQ_DEVICE_POLICY"
 req.product: Windows 10 or later.
 ---
 
@@ -112,14 +112,14 @@ The operating system should assign different message-signaled interrupts to diff
 
 
 
-The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
+The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a> structure is an <b>IRQ_DEVICE_POLICY</b> enumeration value.
 
 
 
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
+<a href="..\miniport\ns-miniport-_io_resource_descriptor.md">IO_RESOURCE_DESCRIPTOR</a>
 
 
 
@@ -127,5 +127,5 @@ The <b>Interrupt.AffinityPolicy</b> member of the <a href="..\wdm\ns-wdm-_io_res
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IRQ_DEVICE_POLICY enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IRQ_DEVICE_POLICY enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

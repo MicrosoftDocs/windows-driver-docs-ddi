@@ -7,8 +7,8 @@ old-location: netvista\rillocationinfoparammask_2.htm
 old-project: netvista
 ms.assetid: a7ce7aaf-fd98-4ba6-8c9e-d15419c658f1
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILLOCATIONINFOPARAMMASK, RIL_PARAM_LU_ALL, rilapitypes/RILLOCATIONINFOPARAMMASK, rilapitypes/RIL_PARAM_LU_HUICCAPP, rilapitypes/RIL_PARAM_LU_TAC, RIL_PARAM_LU_LAC, rilapitypes/RIL_PARAM_LU_CELLID, RIL_PARAM_LU_HUICCAPP, rilapitypes/RIL_PARAM_LU_ALL, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], rilapitypes/RIL_PARAM_LU_LAC, RIL_PARAM_LU_TAC, RIL_PARAM_LU_CELLID, netvista.rillocationinfoparammask_2
+ms.date: 2/16/2018
+ms.keywords: RIL_PARAM_LU_LAC, rilapitypes/RIL_PARAM_LU_TAC, rilapitypes/RIL_PARAM_LU_HUICCAPP, rilapitypes/RIL_PARAM_LU_ALL, RIL_PARAM_LU_ALL, RILLOCATIONINFOPARAMMASK enumeration [Network Drivers Starting with Windows Vista], RILLOCATIONINFOPARAMMASK, rilapitypes/RIL_PARAM_LU_LAC, rilapitypes/RIL_PARAM_LU_CELLID, rilapitypes/RILLOCATIONINFOPARAMMASK, RIL_PARAM_LU_TAC, RIL_PARAM_LU_CELLID, RIL_PARAM_LU_HUICCAPP, netvista.rillocationinfoparammask_2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

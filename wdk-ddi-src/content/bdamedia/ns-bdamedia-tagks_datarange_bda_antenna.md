@@ -7,8 +7,8 @@ old-location: stream\ks_datarange_bda_antenna.htm
 old-project: stream
 ms.assetid: 32a396c9-01a5-4e17-bcb5-659f7a88c0ef
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA, PKS_DATARANGE_BDA_ANTENNA structure pointer [Streaming Media Devices], bdaref_ebf4214a-27fb-4746-af16-9cc98a1dcbd4.xml, KS_DATARANGE_BDA_ANTENNA structure [Streaming Media Devices], tagKS_DATARANGE_BDA_ANTENNA, bdamedia/KS_DATARANGE_BDA_ANTENNA, bdamedia/PKS_DATARANGE_BDA_ANTENNA, stream.ks_datarange_bda_antenna, PKS_DATARANGE_BDA_ANTENNA
+ms.date: 2/20/2018
+ms.keywords: KS_DATARANGE_BDA_ANTENNA structure [Streaming Media Devices], PKS_DATARANGE_BDA_ANTENNA structure pointer [Streaming Media Devices], tagKS_DATARANGE_BDA_ANTENNA, PKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA, bdaref_ebf4214a-27fb-4746-af16-9cc98a1dcbd4.xml, stream.ks_datarange_bda_antenna, *PKS_DATARANGE_BDA_ANTENNA, bdamedia/KS_DATARANGE_BDA_ANTENNA, bdamedia/PKS_DATARANGE_BDA_ANTENNA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	KS_DATARANGE_BDA_ANTENNA
 product: Windows
 targetos: Windows
-req.typenames: "*PKS_DATARANGE_BDA_ANTENNA, KS_DATARANGE_BDA_ANTENNA"
+req.typenames: KS_DATARANGE_BDA_ANTENNA, *PKS_DATARANGE_BDA_ANTENNA
 ---
 
 # tagKS_DATARANGE_BDA_ANTENNA structure
@@ -101,5 +101,5 @@ Pins of filters specify the data ranges they support to enable stream connection
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATARANGE_BDA_ANTENNA structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20KS_DATARANGE_BDA_ANTENNA structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

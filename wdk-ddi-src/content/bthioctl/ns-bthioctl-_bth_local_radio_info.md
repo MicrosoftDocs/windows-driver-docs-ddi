@@ -7,8 +7,8 @@ old-location: bltooth\bth_local_radio_info.htm
 old-project: bltooth
 ms.assetid: 288863ca-1a11-456f-8d6b-b429668c2bf2
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthioctl/PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices], *PBTH_LOCAL_RADIO_INFO, bltooth.bth_local_radio_info, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, bthioctl/BTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], BTH_LOCAL_RADIO_INFO, _BTH_LOCAL_RADIO_INFO
+ms.date: 2/15/2018
+ms.keywords: bthioctl/BTH_LOCAL_RADIO_INFO, bth_structs_8d140abe-9333-4e54-b55b-4ebbd3e1fca3.xml, bltooth.bth_local_radio_info, BTH_LOCAL_RADIO_INFO, bthioctl/PBTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO structure [Bluetooth Devices], PBTH_LOCAL_RADIO_INFO, _BTH_LOCAL_RADIO_INFO, PBTH_LOCAL_RADIO_INFO structure pointer [Bluetooth Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BTH_LOCAL_RADIO_INFO
 product: Windows
 targetos: Windows
-req.typenames: BTH_LOCAL_RADIO_INFO, *PBTH_LOCAL_RADIO_INFO
+req.typenames: "*PBTH_LOCAL_RADIO_INFO, BTH_LOCAL_RADIO_INFO"
 ---
 
 # _BTH_LOCAL_RADIO_INFO structure
@@ -140,5 +140,5 @@ The
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_LOCAL_RADIO_INFO structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20BTH_LOCAL_RADIO_INFO structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

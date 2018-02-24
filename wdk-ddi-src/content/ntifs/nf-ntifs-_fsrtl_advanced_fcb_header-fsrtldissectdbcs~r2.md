@@ -7,8 +7,8 @@ old-location: ifsk\fsrtldissectdbcs.htm
 old-project: ifsk
 ms.assetid: c5c400af-9e59-4cf0-b66f-985fcdcbc75c
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FsRtlDissectDbcs, ntifs/FsRtlDissectDbcs, ifsk.fsrtldissectdbcs, fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml, FsRtlDissectDbcs routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ifsk.fsrtldissectdbcs, FsRtlDissectDbcs routine [Installable File System Drivers], FsRtlDissectDbcs, ntifs/FsRtlDissectDbcs, fsrtlref_95d6ca19-1a11-4fc9-85a5-ea3cf307d2d0.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -255,5 +255,5 @@ For information about other string-handling routines, see <a href="https://msdn.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlDissectDbcs routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FsRtlDissectDbcs routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

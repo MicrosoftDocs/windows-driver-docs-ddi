@@ -4,11 +4,11 @@ title: "_BMP_IMAGE_INFO"
 author: windows-driver-content
 description: The BMP_IMAGE_INFO structure contains information about a BMP image.
 old-location: image\bmp_image_info.htm
-old-project: image
+old-project: Image
 ms.assetid: 953e2f00-2275-49a2-b1e5-def7763a8ab7
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: BMP_IMAGE_INFO structure [Imaging Devices], PBMP_IMAGE_INFO structure pointer [Imaging Devices], PBMP_IMAGE_INFO, wiautil/PBMP_IMAGE_INFO, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml, *PBMP_IMAGE_INFO, _BMP_IMAGE_INFO, image.bmp_image_info, wiautil/BMP_IMAGE_INFO, BMP_IMAGE_INFO
+ms.date: 2/15/2018
+ms.keywords: BMP_IMAGE_INFO structure [Imaging Devices], wiautil/BMP_IMAGE_INFO, PBMP_IMAGE_INFO, image.bmp_image_info, PBMP_IMAGE_INFO structure pointer [Imaging Devices], wiautil/PBMP_IMAGE_INFO, *PBMP_IMAGE_INFO, BMP_IMAGE_INFO, _BMP_IMAGE_INFO, wiauFncs_b4043c8e-769f-4ab1-9d62-c96dd5d7b487.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BMP_IMAGE_INFO
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

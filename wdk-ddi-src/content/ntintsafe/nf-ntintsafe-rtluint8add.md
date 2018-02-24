@@ -7,8 +7,8 @@ old-location: kernel\rtluint8add.htm
 old-project: kernel
 ms.assetid: E93C8C7A-13E5-4089-931C-C56055FA3C90
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlUInt8Add, kernel.rtluint8add, ntintsafe/RtlUInt8Add, RtlUInt8Add function [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: kernel.rtluint8add, ntintsafe/RtlUInt8Add, RtlUInt8Add, RtlUInt8Add function [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

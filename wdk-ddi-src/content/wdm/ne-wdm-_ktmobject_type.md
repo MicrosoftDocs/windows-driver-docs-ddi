@@ -7,8 +7,8 @@ old-location: kernel\ktmobject_type.htm
 old-project: kernel
 ms.assetid: 0ace1cdf-0a15-48bb-9444-c947239e453e
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.ktmobject_type, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture], KTMOBJECT_TYPE, wdm/KTMOBJECT_TRANSACTION, KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_INVALID, PKTMOBJECT_TYPE, KTMOBJECT_INVALID, wdm/KTMOBJECT_ENLISTMENT, wdm/KTMOBJECT_TYPE, *PKTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], _KTMOBJECT_TYPE, KTMOBJECT_TRANSACTION, KTMOBJECT_RESOURCE_MANAGER, KTMOBJECT_TRANSACTION_MANAGER, wdm/KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TRANSACTION_MANAGER, wdm/PKTMOBJECT_TYPE, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml
+ms.date: 2/16/2018
+ms.keywords: KTMOBJECT_TYPE, KTMOBJECT_RESOURCE_MANAGER, wdm/KTMOBJECT_TYPE, KTMOBJECT_TRANSACTION_MANAGER, ktm_ref_1f145c7b-775d-4d0f-b5cd-1e09f5c5b438.xml, PKTMOBJECT_TYPE, KTMOBJECT_TYPE enumeration [Kernel-Mode Driver Architecture], wdm/KTMOBJECT_RESOURCE_MANAGER, _KTMOBJECT_TYPE, KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_INVALID, wdm/KTMOBJECT_TRANSACTION_MANAGER, kernel.ktmobject_type, wdm/KTMOBJECT_TRANSACTION, wdm/KTMOBJECT_ENLISTMENT, *PKTMOBJECT_TYPE, KTMOBJECT_ENLISTMENT, wdm/PKTMOBJECT_TYPE, KTMOBJECT_INVALID, PKTMOBJECT_TYPE enumeration pointer [Kernel-Mode Driver Architecture]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -118,5 +118,5 @@ For more information about KTM objects, see <a href="https://msdn.microsoft.com/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KTMOBJECT_TYPE enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20KTMOBJECT_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

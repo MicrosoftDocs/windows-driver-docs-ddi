@@ -7,8 +7,8 @@ old-location: ieee\get_local_host_info2.htm
 old-project: IEEE
 ms.assetid: 39cb4015-7745-4d13-bb31-76378b217cfd
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GET_LOCAL_HOST_INFO2 structure [Buses], *PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2, 1394/PGET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2 structure pointer [Buses], IEEE.get_local_host_info2, 1394/GET_LOCAL_HOST_INFO2, _GET_LOCAL_HOST_INFO2, 1394stct_06c8c818-409c-41eb-b501-6e55b0cf50ff.xml
+ms.date: 2/15/2018
+ms.keywords: PGET_LOCAL_HOST_INFO2, *PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2, 1394/PGET_LOCAL_HOST_INFO2, 1394/GET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2 structure [Buses], IEEE.get_local_host_info2, 1394stct_06c8c818-409c-41eb-b501-6e55b0cf50ff.xml, _GET_LOCAL_HOST_INFO2, PGET_LOCAL_HOST_INFO2 structure pointer [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_LOCAL_HOST_INFO2
 product: Windows
 targetos: Windows
-req.typenames: "*PGET_LOCAL_HOST_INFO2, GET_LOCAL_HOST_INFO2"
+req.typenames: GET_LOCAL_HOST_INFO2, *PGET_LOCAL_HOST_INFO2
 ---
 
 # _GET_LOCAL_HOST_INFO2 structure
@@ -147,15 +147,15 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537644">REQUEST_GET_LOCAL_HOST_INFO</a>
 
 
 
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff537649">REQUEST_ISOCH_ALLOCATE_RESOURCES</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537401">ISOCH_DESCRIPTOR</a>
 
 
 
@@ -167,5 +167,5 @@ If a host controller supports synchronizing <a href="https://msdn.microsoft.com/
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_LOCAL_HOST_INFO2 structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_LOCAL_HOST_INFO2 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

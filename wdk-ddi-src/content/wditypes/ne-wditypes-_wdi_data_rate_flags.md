@@ -7,8 +7,8 @@ old-location: netvista\wdi_data_rate_flags.htm
 old-project: netvista
 ms.assetid: 937D1C48-AC5A-4D55-8722-BDC1192613A9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: WDI_DATA_RATE_TX_RATE, WDI_DATA_RATE_FLAGS enumeration [Device and Driver Installation], netvista.wdi_data_rate_flags, wditypes/WDI_DATA_RATE_NON_STANDARD, wditypes/WDI_DATA_RATE_RX_RATE, wditypes/WDI_DATA_RATE_TX_RATE, WDI_DATA_RATE_FLAGS, WDI_DATA_RATE_NON_STANDARD, wditypes/WDI_DATA_RATE_FLAGS, WDI_DATA_RATE_RX_RATE, _WDI_DATA_RATE_FLAGS, netvista.wifi_data_rate_flags
+ms.date: 2/16/2018
+ms.keywords: netvista.wifi_data_rate_flags, WDI_DATA_RATE_RX_RATE, wditypes/WDI_DATA_RATE_RX_RATE, WDI_DATA_RATE_TX_RATE, wditypes/WDI_DATA_RATE_NON_STANDARD, wditypes/WDI_DATA_RATE_TX_RATE, wditypes/WDI_DATA_RATE_FLAGS, _WDI_DATA_RATE_FLAGS, WDI_DATA_RATE_NON_STANDARD, netvista.wdi_data_rate_flags, WDI_DATA_RATE_FLAGS enumeration [Device and Driver Installation], WDI_DATA_RATE_FLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

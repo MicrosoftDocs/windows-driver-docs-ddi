@@ -7,7 +7,7 @@ old-location: print\ixpsrasterizationfactory2.htm
 old-project: print
 ms.assetid: 23994CD9-A65B-4BD7-9070-3F575D011953
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
+ms.date: 2/21/2018
 ms.keywords: print.ixpsrasterizationfactory2, IXpsRasterizationFactory2 interface [Print Devices], IXpsRasterizationFactory2 interface [Print Devices], described, IXpsRasterizationFactory2, xpsrassvc/IXpsRasterizationFactory2
 ms.prod: windows-hardware
 ms.technology: windows-devices

@@ -7,8 +7,8 @@ old-location: display\dxvahdddi_output_rate.htm
 old-project: display
 ms.assetid: 61418263-3159-413d-844f-83556ce6baf0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVAHDDDI_OUTPUT_RATE_NORMAL, d3dumddi/DXVAHDDDI_OUTPUT_RATE_CUSTOM, _DXVAHDDDI_OUTPUT_RATE, DXVAHDDDI_OUTPUT_RATE, DXVAHDDDI_OUTPUT_RATE_CUSTOM, DXVAHDDDI_OUTPUT_RATE_HALF, d3dumddi/DXVAHDDDI_OUTPUT_RATE_NORMAL, DXVA2_Structs_34010924-8e9c-440c-a972-e2ae58124666.xml, d3dumddi/DXVAHDDDI_OUTPUT_RATE, d3dumddi/DXVAHDDDI_OUTPUT_RATE_HALF, DXVAHDDDI_OUTPUT_RATE enumeration [Display Devices], display.dxvahdddi_output_rate
+ms.date: 2/20/2018
+ms.keywords: d3dumddi/DXVAHDDDI_OUTPUT_RATE_CUSTOM, display.dxvahdddi_output_rate, d3dumddi/DXVAHDDDI_OUTPUT_RATE_NORMAL, DXVAHDDDI_OUTPUT_RATE enumeration [Display Devices], d3dumddi/DXVAHDDDI_OUTPUT_RATE_HALF, DXVAHDDDI_OUTPUT_RATE_NORMAL, d3dumddi/DXVAHDDDI_OUTPUT_RATE, _DXVAHDDDI_OUTPUT_RATE, DXVAHDDDI_OUTPUT_RATE, DXVA2_Structs_34010924-8e9c-440c-a972-e2ae58124666.xml, DXVAHDDDI_OUTPUT_RATE_HALF, DXVAHDDDI_OUTPUT_RATE_CUSTOM
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -111,5 +111,5 @@ For more information about output rate, see <a href="..\d3dumddi\ns-d3dumddi-_dx
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_OUTPUT_RATE enumeration%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVAHDDDI_OUTPUT_RATE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

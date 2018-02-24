@@ -4,11 +4,11 @@ title: UcxEndpointGetStaticStreamsReferenced function
 author: windows-driver-content
 description: Returns a referenced static streams object for the specified endpoint.
 old-location: buses\_ucxendpointgetstaticstreamsreferenced.htm
-old-project: usbref
+old-project: UsbRef
 ms.assetid: A9AB43A9-1409-4AA4-99DE-66D558F2303C
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: ucxendpoint/UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced method [Buses], UcxEndpointGetStaticStreamsReferenced, buses._ucxendpointgetstaticstreamsreferenced
+ms.date: 2/15/2018
+ms.keywords: UcxEndpointGetStaticStreamsReferenced method [Buses], buses._ucxendpointgetstaticstreamsreferenced, ucxendpoint/UcxEndpointGetStaticStreamsReferenced, UcxEndpointGetStaticStreamsReferenced
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -109,5 +109,5 @@ The client driver can use this function to determine whether it has created a st
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [usbref\buses]:%20UcxEndpointGetStaticStreamsReferenced method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [UsbRef\buses]:%20UcxEndpointGetStaticStreamsReferenced method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

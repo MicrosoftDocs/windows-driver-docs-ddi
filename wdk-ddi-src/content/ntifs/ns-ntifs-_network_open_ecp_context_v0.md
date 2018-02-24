@@ -7,8 +7,8 @@ old-location: ifsk\network_open_ecp_context_v0.htm
 old-project: ifsk
 ms.assetid: 447d623a-88cb-4d3d-8b05-4f5624c707ad
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ECP_Structures_8bd64f25-774a-4f87-a903-07ce0a3c0989.xml, PNETWORK_OPEN_ECP_CONTEXT_V0 structure pointer [Installable File System Drivers], *PNETWORK_OPEN_ECP_CONTEXT_V0, ifsk.network_open_ecp_context_v0, NETWORK_OPEN_ECP_CONTEXT_V0 structure [Installable File System Drivers], ntifs/NETWORK_OPEN_ECP_CONTEXT_V0, ntifs/PNETWORK_OPEN_ECP_CONTEXT_V0, _NETWORK_OPEN_ECP_CONTEXT_V0, NETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0
+ms.date: 2/16/2018
+ms.keywords: ifsk.network_open_ecp_context_v0, NETWORK_OPEN_ECP_CONTEXT_V0 structure [Installable File System Drivers], NETWORK_OPEN_ECP_CONTEXT_V0, ntifs/PNETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0, ECP_Structures_8bd64f25-774a-4f87-a903-07ce0a3c0989.xml, *PNETWORK_OPEN_ECP_CONTEXT_V0, _NETWORK_OPEN_ECP_CONTEXT_V0, PNETWORK_OPEN_ECP_CONTEXT_V0 structure pointer [Installable File System Drivers], ntifs/NETWORK_OPEN_ECP_CONTEXT_V0
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -152,17 +152,17 @@ In most cases, drivers that run on Windows Vista and later versions of Windows u
 
 
 
-<a href="..\ntifs\ns-ntifs-_network_open_ecp_context.md">NETWORK_OPEN_ECP_CONTEXT</a>
-
-
-
 <a href="..\ntifs\ne-ntifs-network_open_integrity_qualifier.md">NETWORK_OPEN_INTEGRITY_QUALIFIER</a>
 
 
 
- 
+<a href="..\ntifs\ns-ntifs-_network_open_ecp_context.md">NETWORK_OPEN_ECP_CONTEXT</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20NETWORK_OPEN_ECP_CONTEXT_V0 structure%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20NETWORK_OPEN_ECP_CONTEXT_V0 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ifsk\fs_information_class.htm
 old-project: ifsk
 ms.assetid: 8A8F938D-8F6B-47E0-963F-8E8B14033802
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FileFsObjectIdInformation, wdm/FileFsControlInformation, wdm/FileFsObjectIdInformation, *PFS_INFORMATION_CLASS, FileFsVolumeFlagsInformation, wdm/FileFsVolumeFlagsInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], wdm/FileFsDriverPathInformation, wdm/FileFsSizeInformation, FS_INFORMATION_CLASS, wdm/FileFsSectorSizeInformation, wdm/FileFsLabelInformation, FileFsVolumeInformation, FileFsSectorSizeInformation, FileFsSizeInformation, wdm/FileFsFullSizeInformation, FileFsControlInformation, FileFsAttributeInformation, wdm/FileFsVolumeInformation, FileFsLabelInformation, _FSINFOCLASS, ifsk.fs_information_class, FileFsFullSizeInformation, wdm/FileFsAttributeInformation, wdm/FileFsDeviceInformation, FileFsDriverPathInformation, FileFsDeviceInformation, wdm/FS_INFORMATION_CLASS
+ms.date: 2/16/2018
+ms.keywords: FS_INFORMATION_CLASS, wdm/FileFsDeviceInformation, FileFsControlInformation, FileFsDeviceInformation, wdm/FileFsControlInformation, FileFsSizeInformation, *PFS_INFORMATION_CLASS, FileFsSectorSizeInformation, FileFsAttributeInformation, FileFsFullSizeInformation, wdm/FileFsFullSizeInformation, FS_INFORMATION_CLASS enumeration [Installable File System Drivers], FileFsObjectIdInformation, wdm/FileFsObjectIdInformation, FileFsLabelInformation, FileFsVolumeFlagsInformation, _FSINFOCLASS, wdm/FileFsVolumeInformation, wdm/FileFsDriverPathInformation, wdm/FileFsVolumeFlagsInformation, FileFsDriverPathInformation, wdm/FileFsSectorSizeInformation, wdm/FileFsAttributeInformation, ifsk.fs_information_class, wdm/FS_INFORMATION_CLASS, wdm/FileFsSizeInformation, FileFsVolumeInformation, wdm/FileFsLabelInformation
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	FS_INFORMATION_CLASS
 product: Windows
 targetos: Windows
-req.typenames: FS_INFORMATION_CLASS, *PFS_INFORMATION_CLASS
+req.typenames: "*PFS_INFORMATION_CLASS, FS_INFORMATION_CLASS"
 req.product: Windows 10 or later.
 ---
 

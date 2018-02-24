@@ -7,8 +7,8 @@ old-location: storage\ms_smhba_portattributes.htm
 old-project: storage
 ms.assetid: ce967b15-723f-4ab7-8a79-8234291d1950
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PMS_SMHBA_PORTATTRIBUTES, MS_SMHBA_PORTATTRIBUTES structure [Storage Devices], structs-Fibre_66af1ae7-5db4-4dd3-bacc-0665dd757660.xml, _MS_SMHBA_PORTATTRIBUTES, PMS_SMHBA_PORTATTRIBUTES, MS_SMHBA_PORTATTRIBUTES, PMS_SMHBA_PORTATTRIBUTES structure pointer [Storage Devices], storage.ms_smhba_portattributes, hbapiwmi/MS_SMHBA_PORTATTRIBUTES, hbapiwmi/PMS_SMHBA_PORTATTRIBUTES"
+ms.date: 2/16/2018
+ms.keywords: hbapiwmi/MS_SMHBA_PORTATTRIBUTES, *PMS_SMHBA_PORTATTRIBUTES, MS_SMHBA_PORTATTRIBUTES structure [Storage Devices], _MS_SMHBA_PORTATTRIBUTES, MS_SMHBA_PORTATTRIBUTES, PMS_SMHBA_PORTATTRIBUTES, storage.ms_smhba_portattributes, hbapiwmi/PMS_SMHBA_PORTATTRIBUTES, structs-Fibre_66af1ae7-5db4-4dd3-bacc-0665dd757660.xml, PMS_SMHBA_PORTATTRIBUTES structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MS_SMHBA_PORTATTRIBUTES
 product: Windows
 targetos: Windows
-req.typenames: "*PMS_SMHBA_PORTATTRIBUTES, MS_SMHBA_PORTATTRIBUTES"
+req.typenames: MS_SMHBA_PORTATTRIBUTES, *PMS_SMHBA_PORTATTRIBUTES
 ---
 
 # _MS_SMHBA_PORTATTRIBUTES structure

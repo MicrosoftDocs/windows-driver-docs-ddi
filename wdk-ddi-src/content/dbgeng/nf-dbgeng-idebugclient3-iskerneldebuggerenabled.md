@@ -4,11 +4,11 @@ title: IDebugClient3::IsKernelDebuggerEnabled method
 author: windows-driver-content
 description: The IsKernelDebuggerEnabled method checks whether kernel debugging is enabled for the local kernel.
 old-location: debugger\iskerneldebuggerenabled.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: a6dc4832-6b9b-441e-a57a-6fcb2cafa2c6
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugClient5 interface [Windows Debugging], IsKernelDebuggerEnabled method, IsKernelDebuggerEnabled, IDebugClient4::IsKernelDebuggerEnabled, IDebugClient2 interface [Windows Debugging], IsKernelDebuggerEnabled method, dbgeng/IDebugClient2::IsKernelDebuggerEnabled, IDebugClient3, dbgeng/IDebugClient3::IsKernelDebuggerEnabled, IDebugClient3 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient3::IsKernelDebuggerEnabled, IDebugClient2, IDebugClient2::IsKernelDebuggerEnabled, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient5::IsKernelDebuggerEnabled, IDebugClient_05c5446d-28b4-4d9b-bb20-7dc1746545d6.xml, dbgeng/IDebugClient5::IsKernelDebuggerEnabled, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient3 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient5 interface, debugger.iskerneldebuggerenabled, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient4 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient2 interface, dbgeng/IDebugClient4::IsKernelDebuggerEnabled, IDebugClient4 interface [Windows Debugging], IsKernelDebuggerEnabled method
+ms.date: 2/15/2018
+ms.keywords: IDebugClient3::IsKernelDebuggerEnabled, IDebugClient_05c5446d-28b4-4d9b-bb20-7dc1746545d6.xml, debugger.iskerneldebuggerenabled, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient4 interface, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient5 interface, dbgeng/IDebugClient3::IsKernelDebuggerEnabled, dbgeng/IDebugClient2::IsKernelDebuggerEnabled, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient3 interface, dbgeng/IDebugClient4::IsKernelDebuggerEnabled, IDebugClient3 interface [Windows Debugging], IsKernelDebuggerEnabled method, IsKernelDebuggerEnabled method [Windows Debugging], dbgeng/IDebugClient5::IsKernelDebuggerEnabled, IDebugClient2 interface [Windows Debugging], IsKernelDebuggerEnabled method, IsKernelDebuggerEnabled, IDebugClient5 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient5::IsKernelDebuggerEnabled, IDebugClient2, IDebugClient2::IsKernelDebuggerEnabled, IsKernelDebuggerEnabled method [Windows Debugging], IDebugClient2 interface, IDebugClient4::IsKernelDebuggerEnabled, IDebugClient4 interface [Windows Debugging], IsKernelDebuggerEnabled method, IDebugClient3
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -43,7 +43,7 @@ apiname:
 -	IDebugClient5.IsKernelDebuggerEnabled
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugClient3::IsKernelDebuggerEnabled method
@@ -122,11 +122,15 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
 ## -see-also
 
+<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff538145">AttachKernel</a>
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugclient3.md">IDebugClient3</a>
+<a href="..\dbgeng\nn-dbgeng-idebugclient2.md">IDebugClient2</a>
 
 
 
@@ -146,5 +150,5 @@ For more information about connecting to live kernel-mode targets, see <a href="
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugClient2::IsKernelDebuggerEnabled method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugClient2::IsKernelDebuggerEnabled method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

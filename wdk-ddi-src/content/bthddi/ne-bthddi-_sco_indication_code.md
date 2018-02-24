@@ -7,8 +7,8 @@ old-location: bltooth\sco_indication_code.htm
 old-project: bltooth
 ms.assetid: 4223dd79-cac7-41bd-8c94-12baf8e8367a
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: SCO_INDICATION_CODE enumeration [Bluetooth Devices], ScoIndicationReleaseReference, SCO_INDICATION_CODE, bthddi/ScoIndicationAddReference, ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteConnect, bthddi/ScoIndicationRemoteDisconnect, *PSCO_INDICATION_CODE, bthddi/ScoIndicationReleaseReference, PSCO_INDICATION_CODE, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml, ScoIndicationAddReference, bltooth.sco_indication_code, bthddi/PSCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], ScoIndicationRemoteDisconnect, _SCO_INDICATION_CODE
+ms.date: 2/15/2018
+ms.keywords: SCO_INDICATION_CODE enumeration [Bluetooth Devices], bthddi/ScoIndicationRemoteConnect, _SCO_INDICATION_CODE, bthddi/SCO_INDICATION_CODE, ScoIndicationAddReference, bthddi/PSCO_INDICATION_CODE, bthddi/ScoIndicationReleaseReference, PSCO_INDICATION_CODE, bltooth.sco_indication_code, bthddi/ScoIndicationAddReference, ScoIndicationReleaseReference, ScoIndicationRemoteConnect, ScoIndicationRemoteDisconnect, bthddi/ScoIndicationRemoteDisconnect, *PSCO_INDICATION_CODE, PSCO_INDICATION_CODE enumeration pointer [Bluetooth Devices], SCO_INDICATION_CODE, bth_enums_e7290768-826f-4240-904c-07222b05d377.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -117,5 +117,5 @@ This value indicates to a profile driver that a remote device is disconnecting f
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_INDICATION_CODE enumeration%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20SCO_INDICATION_CODE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

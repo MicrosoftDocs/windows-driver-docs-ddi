@@ -7,8 +7,8 @@ old-location: ifsk\fltcloseclientport.htm
 old-project: ifsk
 ms.assetid: 7a23b8f6-688f-4aa4-9bf3-f8bda0458566
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltCloseClientPort, FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, ifsk.fltcloseclientport, FltCloseClientPort function [Installable File System Drivers], fltkernel/FltCloseClientPort
+ms.date: 2/16/2018
+ms.keywords: FltCloseClientPort function [Installable File System Drivers], FltApiRef_a_to_d_0def0996-8190-4482-a7bb-018c79773eca.xml, FltCloseClientPort, ifsk.fltcloseclientport, fltkernel/FltCloseClientPort
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -116,7 +116,7 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
 
 
-<a href="..\fltkernel\nf-fltkernel-fltcreatecommunicationport.md">FltCreateCommunicationPort</a>
+<a href="..\fltkernel\nf-fltkernel-fltclosecommunicationport.md">FltCloseCommunicationPort</a>
 
 
 
@@ -124,5 +124,5 @@ This routine disconnects a specific connection from the minifilter driver. To cl
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCloseClientPort function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20FltCloseClientPort function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

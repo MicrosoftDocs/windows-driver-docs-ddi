@@ -7,8 +7,8 @@ old-location: wdf\iwdfiorequest2_reuse.htm
 old-project: wdf
 ms.assetid: 21d04633-3b68-4c89-a0b9-81507a1bb6d3
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, IWDFIoRequest2, IWDFIoRequest2::Reuse, umdf.iwdfiorequest2_reuse, Reuse method, Reuse method, IWDFIoRequest2 interface, wudfddi/IWDFIoRequest2::Reuse, Reuse, IWDFIoRequest2 interface, Reuse method, wdf.iwdfiorequest2_reuse
+ms.date: 2/20/2018
+ms.keywords: IWDFIoRequest2, Reuse method, UMDFRequestObjectRef_887853e7-3603-4793-b1b2-0b72e63b0d5a.xml, wudfddi/IWDFIoRequest2::Reuse, Reuse method, IWDFIoRequest2 interface, umdf.iwdfiorequest2_reuse, IWDFIoRequest2 interface, Reuse method, Reuse, wdf.iwdfiorequest2_reuse, IWDFIoRequest2::Reuse
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequest2.Reuse
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -137,7 +137,7 @@ CMyRemoteDevice::OnCompletion(
 
 
 
-<a href="..\wudfddi\nn-wudfddi-iwdfiorequest2.md">IWDFIoRequest2</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff559153">IWDFIoRequest::SetCompletionCallback</a>
 
 
 
@@ -145,5 +145,5 @@ CMyRemoteDevice::OnCompletion(
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::Reuse method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFIoRequest2::Reuse method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

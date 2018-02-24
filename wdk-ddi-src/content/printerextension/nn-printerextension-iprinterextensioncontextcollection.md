@@ -7,7 +7,7 @@ old-location: print\iprinterextensioncontextcollection.htm
 old-project: print
 ms.assetid: 693DAA13-70B3-48A7-9BC2-6369691539FD
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
+ms.date: 2/21/2018
 ms.keywords: print.iprinterextensioncontextcollection, IPrinterExtensionContextCollection interface [Print Devices], IPrinterExtensionContextCollection interface [Print Devices], described, IPrinterExtensionContextCollection, printerextension/IPrinterExtensionContextCollection
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -63,6 +63,15 @@ The <b>IPrinterExtensionContextCollection</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
+<a href="https://msdn.microsoft.com/139B2E3F-AA08-4400-9BBF-A549B9EB2643">get__NewEnum</a>
+</td>
+<td align="left" width="63%">
+Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> objects.
+
+</td>
+</tr>
+<tr data="declared;">
+<td align="left" width="37%">
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406567">GetAt</a>
 </td>
 <td align="left" width="63%">
@@ -70,7 +79,9 @@ Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprinterex
 
 </td>
 </tr>
-</table>Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> object.
+</table>Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> objects.
+
+Gets a pointer to an <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> object.
 
  
 
@@ -97,22 +108,6 @@ Gets a count of the number of <a href="..\printerextension\nn-printerextension-i
 
 </td>
 </tr>
-<tr data="declared;">
-<td align="left" width="27%" xml:space="preserve">
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
-
-
-</td>
-<td align="left" width="10%">
-Read-only
-
-</td>
-<td align="left" width="63%">
-Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> objects.
-
-</td>
-</tr>
 </table>
 <a href="https://msdn.microsoft.com/library/windows/hardware/hh406342">Count</a>
 
@@ -121,24 +116,16 @@ Read-only
 
 Gets a count of the number of <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a> objects in the collection.
 
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/hh973226">NewEnum</a>
-
-
-Read-only
-
-Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> objects.
-
  
 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/947063C6-563A-4BB7-918E-479941B4583F">IPrinterExtensionEvent::OnPrinterQueuesEnumerated</a>
-
-
-
 <a href="..\printerextension\nn-printerextension-iprinterextensioncontext.md">IPrinterExtensionContext</a>
+
+
+
+<a href="https://msdn.microsoft.com/947063C6-563A-4BB7-918E-479941B4583F">IPrinterExtensionEvent::OnPrinterQueuesEnumerated</a>
 
 
 
@@ -150,5 +137,5 @@ Gets a pointer to the enumerants of <b>IPrinterExtensionContextCollection</b> ob
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionContextCollection interface%20 RELEASE:%20(2/2/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [print\print]:%20IPrinterExtensionContextCollection interface%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

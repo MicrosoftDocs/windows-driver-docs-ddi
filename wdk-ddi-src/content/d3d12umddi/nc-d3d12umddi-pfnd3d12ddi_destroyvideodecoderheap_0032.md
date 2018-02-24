@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_destroyvideodecoderheap_0032.htm
 old-project: display
 ms.assetid: EFB7D67D-1900-4182-B604-8C0A183B118D
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_destroyvideodecoderheap_0032, PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032 callback function [Display Devices], PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032, d3d12umddi/PFND3D12DDI_DESTROYVIDEODECODERHEAP_0032
 ms.prod: windows-hardware
 ms.technology: windows-devices

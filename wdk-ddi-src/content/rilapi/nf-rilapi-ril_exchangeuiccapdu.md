@@ -7,8 +7,8 @@ old-location: netvista\ril_exchangeuiccapdu.htm
 old-project: netvista
 ms.assetid: e0d0eaa5-8f3a-4522-b99b-76f42402dae9
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_exchangeuiccapdu, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista], rilapi/RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_exchangeuiccapdu, RIL_ExchangeUiccAPDU, rilapi/RIL_ExchangeUiccAPDU, RIL_ExchangeUiccAPDU method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_ExchangeUiccAPDU
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

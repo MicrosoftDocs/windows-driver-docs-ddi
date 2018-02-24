@@ -7,8 +7,8 @@ old-location: wdf\wdfregistrywdmgethandle.htm
 old-project: wdf
 ms.assetid: 60638048-9009-4943-ba61-b724612852df
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfRegistryWdmGetHandle, DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, wdfregistry/WdfRegistryWdmGetHandle, kmdf.wdfregistrywdmgethandle, wdf.wdfregistrywdmgethandle, WdfRegistryWdmGetHandle method
+ms.date: 2/20/2018
+ms.keywords: wdf.wdfregistrywdmgethandle, kmdf.wdfregistrywdmgethandle, DFRegKeyObjectRef_9229cd7b-fb26-4e95-a5ee-5deb31f549f4.xml, WdfRegistryWdmGetHandle method, wdfregistry/WdfRegistryWdmGetHandle, WdfRegistryWdmGetHandle
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

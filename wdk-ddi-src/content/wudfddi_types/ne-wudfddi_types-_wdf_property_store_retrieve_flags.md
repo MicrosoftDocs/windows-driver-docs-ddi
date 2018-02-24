@@ -7,8 +7,8 @@ old-location: wdf\wdf_property_store_retrieve_flags.htm
 old-project: wdf
 ms.assetid: bd64ef0d-b2e7-4f82-87a8-77fe98677fd9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: WdfPropertyStoreCreateVolatile, WdfPropertyStoreNormal, wudfddi_types/WdfPropertyStoreNormal, wdf.wdf_property_store_retrieve_flags, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreCreateIfMissing, WdfPropertyStoreRetrieveFlagsMask, wudfddi_types/WdfPropertyStoreCreateIfMissing, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration, umdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask, wudfddi_types/WdfPropertyStoreCreateVolatile, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml
+ms.date: 2/20/2018
+ms.keywords: WdfPropertyStoreNormal, wudfddi_types/WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreCreateIfMissing, WdfPropertyStoreCreateVolatile, wudfddi_types/WdfPropertyStoreRetrieveFlagsMask, umdfstructs_c11a65c3-e37f-4adb-b480-1682d8e51700.xml, umdf.wdf_property_store_retrieve_flags, wdf.wdf_property_store_retrieve_flags, wudfddi_types/WdfPropertyStoreCreateIfMissing, wudfddi_types/WdfPropertyStoreNormal, WDF_PROPERTY_STORE_RETRIEVE_FLAGS, wudfddi_types/WdfPropertyStoreCreateVolatile, _WDF_PROPERTY_STORE_RETRIEVE_FLAGS, WdfPropertyStoreRetrieveFlagsMask, WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -107,7 +107,7 @@ Reserved for system use.
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556982">IWDFDeviceInitialize::RetrieveDevicePropertyStore</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff558842">IWDFDevice::RetrieveDevicePropertyStore</a>
 
 
 
@@ -123,5 +123,5 @@ Reserved for system use.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_PROPERTY_STORE_RETRIEVE_FLAGS enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

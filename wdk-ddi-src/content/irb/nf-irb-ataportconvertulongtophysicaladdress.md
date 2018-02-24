@@ -7,8 +7,8 @@ old-location: storage\ataportconvertulongtophysicaladdress.htm
 old-project: storage
 ms.assetid: f791f25d-d28e-45d3-b43c-9b87fda82d37
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: AtaPortConvertUlongToPhysicalAddress routine [Storage Devices], irb/AtaPortConvertUlongToPhysicalAddress, atartns_29b4ce0d-5dda-4203-a10b-66ccd7859d5d.xml, storage.ataportconvertulongtophysicaladdress, AtaPortConvertUlongToPhysicalAddress
+ms.date: 2/16/2018
+ms.keywords: AtaPortConvertUlongToPhysicalAddress routine [Storage Devices], AtaPortConvertUlongToPhysicalAddress, storage.ataportconvertulongtophysicaladdress, irb/AtaPortConvertUlongToPhysicalAddress, atartns_29b4ce0d-5dda-4203-a10b-66ccd7859d5d.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -94,5 +94,5 @@ Specifies a value of type ULONG.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortConvertUlongToPhysicalAddress routine%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20AtaPortConvertUlongToPhysicalAddress routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

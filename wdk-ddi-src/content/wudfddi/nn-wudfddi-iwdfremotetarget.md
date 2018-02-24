@@ -7,7 +7,7 @@ old-location: wdf\iwdfremotetarget.htm
 old-project: wdf
 ms.assetid: 60164136-4d4b-4e42-8504-ddd907edf0e9
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfremotetarget, IWDFRemoteTarget interface, IWDFRemoteTarget interface, described, IWDFRemoteTarget, wudfddi/IWDFRemoteTarget, UMDFIoTargetObjectRef_5b14493b-370a-40a0-b571-dbd03b2a19a0.xml, umdf.iwdfremotetarget
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFRemoteTarget
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

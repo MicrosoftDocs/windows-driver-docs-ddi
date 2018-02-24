@@ -7,8 +7,8 @@ old-location: spb\spb_request_type.htm
 old-project: SPB
 ms.assetid: B3C2505E-A2B6-4D79-B8B7-9D1B53AA5B56
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: SpbRequestTypeSequence, SpbRequestTypeUnlockController, spbcx/SpbRequestTypeOther, spbcx/SpbRequestTypeLockController, SpbRequestTypeRead, spbcx/SpbRequestTypeRead, SpbRequestTypeWrite, _SPB_REQUEST_TYPE, spbcx/SpbRequestTypeLockConnection, SPB.spb_request_type, SpbRequestTypeMax, spbcx/SpbRequestTypeUnlockConnection, SPB_REQUEST_TYPE enumeration [Buses], SpbRequestTypeUndefined, SPB_REQUEST_TYPE, spbcx/SpbRequestTypeSequence, SpbRequestTypeLockConnection, spbcx/SpbRequestTypeUndefined, SpbRequestTypeUnlockConnection, SpbRequestTypeOther, spbcx/SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE, spbcx/SpbRequestTypeUnlockController, spbcx/SpbRequestTypeWrite, spbcx/SpbRequestTypeMax, SpbRequestTypeLockController
+ms.date: 2/15/2018
+ms.keywords: SpbRequestTypeWrite, spbcx/SpbRequestTypeWrite, SpbRequestTypeOther, SPB.spb_request_type, SpbRequestTypeMax, SpbRequestTypeUnlockController, spbcx/SpbRequestTypeUndefined, SPB_REQUEST_TYPE, *PSPB_REQUEST_TYPE, spbcx/SpbRequestTypeRead, SPB_REQUEST_TYPE enumeration [Buses], SpbRequestTypeRead, SpbRequestTypeLockController, spbcx/SpbRequestTypeLockConnection, SpbRequestTypeUndefined, spbcx/SpbRequestTypeOther, _SPB_REQUEST_TYPE, spbcx/SpbRequestTypeSequence, spbcx/SpbRequestTypeMax, SpbRequestTypeSequence, spbcx/SpbRequestTypeUnlockController, spbcx/SPB_REQUEST_TYPE, SpbRequestTypeUnlockConnection, SpbRequestTypeLockConnection, spbcx/SpbRequestTypeUnlockConnection, spbcx/SpbRequestTypeLockController
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -142,7 +142,7 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 
 
-<a href="https://msdn.microsoft.com/C56F1528-5FDA-4BC9-AB32-7882FB0F7713">EvtSpbControllerIoSequence</a>
+<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
 
 
 
@@ -150,15 +150,23 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/jj819325">IOCTL_SPB_UNLOCK_CONNECTION</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/jj819324">IOCTL_SPB_LOCK_CONNECTION</a>
 
 
 
+<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/jj819325">IOCTL_SPB_UNLOCK_CONNECTION</a>
+
+
+
 <a href="https://msdn.microsoft.com/4EB36115-2783-4FD5-9CEE-1F7C971C334D">EvtSpbControllerUnlock</a>
+
+
+
+<a href="https://msdn.microsoft.com/D97C3A17-309E-4364-8DFB-9073901D332E">EvtSpbControllerIoWrite</a>
 
 
 
@@ -170,17 +178,9 @@ The <a href="https://msdn.microsoft.com/91A5C504-7072-4B64-86F1-2BDE616CCA31">SP
 
 
 
-<a href="https://msdn.microsoft.com/E08674F1-CE63-464B-9C70-96F93C574753">EvtSpbControllerLock</a>
-
-
-
-<a href="https://msdn.microsoft.com/5A4BC061-4703-4C46-BD5D-A891F3DA8842">EvtSpbControllerIoOther</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_REQUEST_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [SPB\buses]:%20SPB_REQUEST_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

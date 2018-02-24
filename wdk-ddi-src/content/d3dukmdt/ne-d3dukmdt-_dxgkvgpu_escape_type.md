@@ -7,8 +7,8 @@ old-location: display\dxgkvgpu_escape_type.htm
 old-project: display
 ms.assetid: F7081B59-DB24-4BFE-B1BD-3BE228804AB2
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_TYPE, _DXGKVGPU_ESCAPE_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices], display.dxgkvgpu_escape_type, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE
+ms.date: 2/20/2018
+ms.keywords: DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, d3dukmdt/DXGKVGPU_ESCAPE_TYPE_READ_PCI_CONFIG, DXGKVGPU_ESCAPE_TYPE enumeration [Display Devices], d3dukmdt/DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, _DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE, DXGKVGPU_ESCAPE_TYPE_GET_VGPU_TYPE, d3dukmdt/DXGKVGPU_ESCAPE_TYPE, display.dxgkvgpu_escape_type
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

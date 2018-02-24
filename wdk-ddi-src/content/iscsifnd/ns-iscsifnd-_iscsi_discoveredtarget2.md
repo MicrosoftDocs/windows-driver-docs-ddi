@@ -7,8 +7,8 @@ old-location: storage\iscsi_discoveredtarget2.htm
 old-project: storage
 ms.assetid: 77fb2942-5836-44cb-9a5e-e45f6a022264
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: iscsifnd/PISCSI_DiscoveredTarget2, *PISCSI_DiscoveredTarget2, _ISCSI_DiscoveredTarget2, ISCSI_DiscoveredTarget2 structure [Storage Devices], ISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], PISCSI_DiscoveredTarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, iscsifnd/ISCSI_DiscoveredTarget2, storage.iscsi_discoveredtarget2
+ms.date: 2/16/2018
+ms.keywords: ISCSI_DiscoveredTarget2, PISCSI_DiscoveredTarget2 structure pointer [Storage Devices], ISCSI_DiscoveredTarget2 structure [Storage Devices], iscsifnd/ISCSI_DiscoveredTarget2, _ISCSI_DiscoveredTarget2, structs-iSCSI_5a9fcec3-8447-441c-a2d9-1416c1bbe07e.xml, *PISCSI_DiscoveredTarget2, iscsifnd/PISCSI_DiscoveredTarget2, storage.iscsi_discoveredtarget2, PISCSI_DiscoveredTarget2
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -103,10 +103,6 @@ The only difference between the ISCSI_DiscoveredTarget2 structure and the <a hre
 
 ## -see-also
 
-<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtarget.md">ISCSI_DiscoveredTarget</a>
-
-
-
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff561527">ISCSI_DiscoveredTarget WMI Class</a>
 
 
@@ -119,9 +115,13 @@ The only difference between the ISCSI_DiscoveredTarget2 structure and the <a hre
 
 
 
- 
+<a href="..\iscsifnd\ns-iscsifnd-_iscsi_discoveredtargetportalgroup.md">ISCSI_DiscoveredTargetPortalGroup</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_DiscoveredTarget2 structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ISCSI_DiscoveredTarget2 structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

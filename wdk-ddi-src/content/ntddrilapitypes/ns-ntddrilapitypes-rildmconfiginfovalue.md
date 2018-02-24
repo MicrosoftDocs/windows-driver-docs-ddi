@@ -7,8 +7,8 @@ old-location: netvista\rildmconfiginfovalue.htm
 old-project: netvista
 ms.assetid: dda43544-4609-4674-9616-8e09939f0c39
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILDMCONFIGINFOVALUE, netvista.rildmconfiginfovalue, RILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], *LPRILDMCONFIGINFOVALUE
+ms.date: 2/16/2018
+ms.keywords: RILDMCONFIGINFOVALUE structure [Network Drivers Starting with Windows Vista], RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE, netvista.rildmconfiginfovalue, ntddrilapitypes/RILDMCONFIGINFOVALUE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILDMCONFIGINFOVALUE
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILDMCONFIGINFOVALUE, RILDMCONFIGINFOVALUE"
+req.typenames: RILDMCONFIGINFOVALUE, *LPRILDMCONFIGINFOVALUE
 ---
 
 # RILDMCONFIGINFOVALUE structure

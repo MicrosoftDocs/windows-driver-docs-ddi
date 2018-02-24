@@ -7,8 +7,8 @@ old-location: netvista\wwan_ready_info.htm
 old-project: netvista
 ms.assetid: 6db8730e-a1da-428b-9938-fd9f3f71283a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.wwan_ready_info, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], WWAN_READY_INFO, *PWWAN_READY_INFO, wwan/PWWAN_READY_INFO, PWWAN_READY_INFO, _WWAN_READY_INFO, WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/WWAN_READY_INFO
+ms.date: 2/16/2018
+ms.keywords: WwanRef_8ab0bf23-8ad9-4786-bf5e-013a23d9c16e.xml, WWAN_READY_INFO structure [Network Drivers Starting with Windows Vista], netvista.wwan_ready_info, wwan/WWAN_READY_INFO, _WWAN_READY_INFO, WWAN_READY_INFO, PWWAN_READY_INFO structure pointer [Network Drivers Starting with Windows Vista], wwan/PWWAN_READY_INFO, PWWAN_READY_INFO, *PWWAN_READY_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -133,11 +133,11 @@ Miniport drivers should not specify this value until the device ready-state chan
 
 
 
-<a href="..\ndiswwan\ns-ndiswwan-_ndis_wwan_ready_info.md">NDIS_WWAN_READY_INFO</a>
+<a href="..\wwan\ne-wwan-_wwan_emergency_mode.md">WWAN_EMERGENCY_MODE</a>
 
 
 
-<a href="..\wwan\ns-wwan-_wwan_list_header.md">WWAN_LIST_HEADER</a>
+<a href="..\wwan\ne-wwan-_wwan_ready_state.md">WWAN_READY_STATE</a>
 
 
 
@@ -149,5 +149,5 @@ Miniport drivers should not specify this value until the device ready-state chan
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_READY_INFO structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20WWAN_READY_INFO structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: storage\mpio_registered_dsm.htm
 old-project: storage
 ms.assetid: c1be07b7-ebce-422f-83f2-890adc71655b
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PMPIO_REGISTERED_DSM, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml, MPIO_REGISTERED_DSM, _MPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM structure [Storage Devices], PMPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM structure pointer [Storage Devices], storage.mpio_registered_dsm, mpiowmi/PMPIO_REGISTERED_DSM, mpiowmi/MPIO_REGISTERED_DSM"
+ms.date: 2/16/2018
+ms.keywords: mpiowmi/PMPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM, mpiowmi/MPIO_REGISTERED_DSM, PMPIO_REGISTERED_DSM, _MPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM structure [Storage Devices], storage.mpio_registered_dsm, structs-scsibus_70ceccae-5a45-4ce1-a6de-fa86c3d82d7d.xml, PMPIO_REGISTERED_DSM structure pointer [Storage Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	MPIO_REGISTERED_DSM
 product: Windows
 targetos: Windows
-req.typenames: "*PMPIO_REGISTERED_DSM, MPIO_REGISTERED_DSM"
+req.typenames: MPIO_REGISTERED_DSM, *PMPIO_REGISTERED_DSM
 ---
 
 # _MPIO_REGISTERED_DSM structure

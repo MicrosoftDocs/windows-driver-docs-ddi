@@ -7,8 +7,8 @@ old-location: wdf\wdf_usb_request_completion_params.htm
 old-project: wdf
 ms.assetid: cd29d27c-9da2-477f-898e-13ee480aac9e
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS structure pointer, PWDF_USB_REQUEST_COMPLETION_PARAMS, DFUsbRef_14574f86-fd65-41df-be8e-557f6fe09c4f.xml, WDF_USB_REQUEST_COMPLETION_PARAMS structure, wdf.wdf_usb_request_completion_params, wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS, kmdf.wdf_usb_request_completion_params, WDF_USB_REQUEST_COMPLETION_PARAMS, _WDF_USB_REQUEST_COMPLETION_PARAMS
+ms.date: 2/20/2018
+ms.keywords: "_WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS, PWDF_USB_REQUEST_COMPLETION_PARAMS, wdf.wdf_usb_request_completion_params, DFUsbRef_14574f86-fd65-41df-be8e-557f6fe09c4f.xml, kmdf.wdf_usb_request_completion_params, WDF_USB_REQUEST_COMPLETION_PARAMS structure, PWDF_USB_REQUEST_COMPLETION_PARAMS structure pointer, WDF_USB_REQUEST_COMPLETION_PARAMS, wdfusb/WDF_USB_REQUEST_COMPLETION_PARAMS, wdfusb/PWDF_USB_REQUEST_COMPLETION_PARAMS"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_USB_REQUEST_COMPLETION_PARAMS
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_USB_REQUEST_COMPLETION_PARAMS, WDF_USB_REQUEST_COMPLETION_PARAMS"
+req.typenames: WDF_USB_REQUEST_COMPLETION_PARAMS, *PWDF_USB_REQUEST_COMPLETION_PARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -107,7 +107,7 @@ The <a href="https://msdn.microsoft.com/library/windows/hardware/ff539136">USBD_
 
 ### -field Type
 
-A <a href="..\wudfusb\ne-wudfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>-typed values that identifies the request type.
+A <a href="..\wdfusb\ne-wdfusb-_wdf_usb_request_type.md">WDF_USB_REQUEST_TYPE</a>-typed values that identifies the request type.
 
 
 ### -field Parameters
@@ -225,7 +225,7 @@ The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a hre
 
 ## -see-also
 
-<a href="..\wdfrequest\nc-wdfrequest-evt_wdf_request_completion_routine.md">CompletionRoutine</a>
+<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
 
 
 
@@ -233,7 +233,7 @@ The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a hre
 
 
 
-<a href="..\wdfrequest\ns-wdfrequest-_wdf_request_completion_params.md">WDF_REQUEST_COMPLETION_PARAMS</a>
+<a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetcompletionparams.md">WdfRequestGetCompletionParams</a>
 
 
 
@@ -241,5 +241,5 @@ The <b>WDF_USB_REQUEST_COMPLETION_PARAMS</b> structure is a member of the <a hre
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_REQUEST_COMPLETION_PARAMS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_USB_REQUEST_COMPLETION_PARAMS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -4,11 +4,11 @@ title: IDebugControl::OutputVersionInformation method
 author: windows-driver-content
 description: The OutputVersionInformation method prints version information about the debugger engine to the debugger console.
 old-location: debugger\outputversioninformation.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: cbf688b4-a174-4ab0-af98-2c0db1b2ab3a
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, OutputVersionInformation method [Windows Debugging], dbgeng/IDebugControl2::OutputVersionInformation, OutputVersionInformation method [Windows Debugging], IDebugControl interface, IDebugControl interface [Windows Debugging], OutputVersionInformation method, dbgeng/IDebugControl::OutputVersionInformation, debugger.outputversioninformation, OutputVersionInformation, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, dbgeng/IDebugControl3::OutputVersionInformation, IDebugControl::OutputVersionInformation, IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, IDebugControl3::OutputVersionInformation, IDebugControl2::OutputVersionInformation, IDebugControl, OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface
+ms.date: 2/15/2018
+ms.keywords: IDebugControl3 interface [Windows Debugging], OutputVersionInformation method, dbgeng/IDebugControl3::OutputVersionInformation, OutputVersionInformation method [Windows Debugging], IDebugControl2 interface, IDebugControl, OutputVersionInformation method [Windows Debugging], IDebugControl interface, OutputVersionInformation method [Windows Debugging], IDebugControl3 interface, IDebugControl3::OutputVersionInformation, debugger.outputversioninformation, OutputVersionInformation method [Windows Debugging], dbgeng/IDebugControl2::OutputVersionInformation, dbgeng/IDebugControl::OutputVersionInformation, IDebugControl2::OutputVersionInformation, OutputVersionInformation, IDebugControl_ea568b24-944d-4ed8-abd6-24b7c7771a1e.xml, IDebugControl::OutputVersionInformation, IDebugControl2 interface [Windows Debugging], OutputVersionInformation method, IDebugControl interface [Windows Debugging], OutputVersionInformation method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.OutputVersionInformation
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl::OutputVersionInformation method

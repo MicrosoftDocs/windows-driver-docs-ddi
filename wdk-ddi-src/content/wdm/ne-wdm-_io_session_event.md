@@ -7,8 +7,8 @@ old-location: kernel\io_session_event.htm
 old-project: kernel
 ms.assetid: 6bdc1c25-bac3-416e-af3d-66a125f0f036
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: wdm/IoSessionEventLogon, IoSessionEventLogoff, wdm/IO_SESSION_EVENT, IoSessionEventCreated, IO_SESSION_EVENT, IoSessionEventTerminated, kernel.io_session_event, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, wdm/IoSessionEventCreated, IoSessionEventConnected, IoSessionEventMax, wdm/IoSessionEventMax, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], *PIO_SESSION_EVENT, _IO_SESSION_EVENT, PIO_SESSION_EVENT, IoSessionEventLogon, wdm/IoSessionEventConnected, wdm/IoSessionEventTerminated, wdm/PIO_SESSION_EVENT, IoSessionEventDisconnected, wdm/IoSessionEventLogoff, wdm/IoSessionEventDisconnected
+ms.date: 2/16/2018
+ms.keywords: "*PIO_SESSION_EVENT, IoSessionEventTerminated, wdm/IoSessionEventConnected, IoSessionEventCreated, IoSessionEventMax, kernel.io_session_event, sysenum_8fc6c99f-15c8-4dbb-90fd-b207d66c2f90.xml, IoSessionEventDisconnected, IO_SESSION_EVENT enumeration [Kernel-Mode Driver Architecture], IoSessionEventConnected, IoSessionEventLogon, wdm/IoSessionEventLogoff, wdm/IoSessionEventTerminated, wdm/IoSessionEventLogon, PIO_SESSION_EVENT enumeration pointer [Kernel-Mode Driver Architecture], wdm/PIO_SESSION_EVENT, _IO_SESSION_EVENT, PIO_SESSION_EVENT, wdm/IoSessionEventMax, IO_SESSION_EVENT, wdm/IoSessionEventDisconnected, wdm/IoSessionEventCreated, wdm/IO_SESSION_EVENT, IoSessionEventLogoff"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -137,5 +137,5 @@ A session event causes a transition from one session state to another. For more 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_EVENT enumeration%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IO_SESSION_EVENT enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: ieee\cmp_get_plug_state.htm
 old-project: IEEE
 ms.assetid: 76BC179A-7484-433C-8467-B13BA7008B90
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PCMP_GET_PLUG_STATE structure pointer [Buses], PCMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE, *PCMP_GET_PLUG_STATE, _CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE structure [Buses], 61883/CMP_GET_PLUG_STATE, IEEE.cmp_get_plug_state, CMP_GET_PLUG_STATE
+ms.date: 2/15/2018
+ms.keywords: "*PCMP_GET_PLUG_STATE, _CMP_GET_PLUG_STATE, CMP_GET_PLUG_STATE, PCMP_GET_PLUG_STATE structure pointer [Buses], CMP_GET_PLUG_STATE structure [Buses], PCMP_GET_PLUG_STATE, IEEE.cmp_get_plug_state, 61883/CMP_GET_PLUG_STATE, 61883/PCMP_GET_PLUG_STATE"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -137,5 +137,5 @@ If an incorrect parameter is passed in, the protocol driver sets <b>Irp-&gt;IoSt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CMP_GET_PLUG_STATE structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20CMP_GET_PLUG_STATE structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

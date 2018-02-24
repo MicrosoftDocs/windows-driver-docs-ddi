@@ -4,11 +4,11 @@ title: IDebugSystemObjects3::SetImplicitThreadDataOffset method
 author: windows-driver-content
 description: The SetImplicitThreadDataOffset method sets the implicit thread for the current process.
 old-location: debugger\setimplicitthreaddataoffset.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 1562a2f4-0eea-44fd-b350-ccc17d8cd65e
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/IDebugSystemObjects3::SetImplicitThreadDataOffset, IDebugSystemObjects2 interface [Windows Debugging], SetImplicitThreadDataOffset method, IDebugSystemObjects4 interface [Windows Debugging], SetImplicitThreadDataOffset method, SetImplicitThreadDataOffset method [Windows Debugging], SetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects2::SetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects4::SetImplicitThreadDataOffset, debugger.setimplicitthreaddataoffset, IDebugSystemObjects_d78e5ee9-b18c-47a0-9987-41923aaa1aaf.xml, IDebugSystemObjects2::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, IDebugSystemObjects3::SetImplicitThreadDataOffset, IDebugSystemObjects2, IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3, IDebugSystemObjects3 interface [Windows Debugging], SetImplicitThreadDataOffset method, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects4 interface
+ms.date: 2/15/2018
+ms.keywords: dbgeng/IDebugSystemObjects2::SetImplicitThreadDataOffset, IDebugSystemObjects_d78e5ee9-b18c-47a0-9987-41923aaa1aaf.xml, IDebugSystemObjects3 interface [Windows Debugging], SetImplicitThreadDataOffset method, dbgeng/IDebugSystemObjects3::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects3 interface, SetImplicitThreadDataOffset, IDebugSystemObjects4 interface [Windows Debugging], SetImplicitThreadDataOffset method, IDebugSystemObjects2, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects2 interface, IDebugSystemObjects3, IDebugSystemObjects2::SetImplicitThreadDataOffset, IDebugSystemObjects2 interface [Windows Debugging], SetImplicitThreadDataOffset method, IDebugSystemObjects3::SetImplicitThreadDataOffset, dbgeng/IDebugSystemObjects4::SetImplicitThreadDataOffset, SetImplicitThreadDataOffset method [Windows Debugging], IDebugSystemObjects4 interface, IDebugSystemObjects4::SetImplicitThreadDataOffset, debugger.setimplicitthreaddataoffset, SetImplicitThreadDataOffset method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSystemObjects4.SetImplicitThreadDataOffset
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSystemObjects3::SetImplicitThreadDataOffset method

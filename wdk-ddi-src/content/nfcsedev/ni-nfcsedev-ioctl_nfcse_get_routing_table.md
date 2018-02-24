@@ -7,7 +7,7 @@ old-location: nfpdrivers\ioctl_nfcse_get_routing_table.htm
 old-project: nfpdrivers
 ms.assetid: 838D31E8-1835-47C7-8201-93910610F5EC
 ms.author: windowsdriverdev
-ms.date: 12/18/2017
+ms.date: 2/15/2018
 ms.keywords: nfpdrivers.ioctl_nfcse_get_routing_table, IOCTL_NFCSE_GET_ROUTING_TABLE control code [Near-Field Proximity Drivers], IOCTL_NFCSE_GET_ROUTING_TABLE, nfcsedev/IOCTL_NFCSE_GET_ROUTING_TABLE
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_NFCSE_GET_ROUTING_TABLE
 product: Windows
 targetos: Windows
-req.typenames: SECURE_ELEMENT_TYPE, *PSECURE_ELEMENT_TYPE
+req.typenames: "*PSECURE_ELEMENT_TYPE, SECURE_ELEMENT_TYPE"
 ---
 
 # IOCTL_NFCSE_GET_ROUTING_TABLE IOCTL

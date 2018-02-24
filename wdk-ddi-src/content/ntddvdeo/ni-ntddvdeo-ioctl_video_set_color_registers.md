@@ -7,7 +7,7 @@ old-location: display\ioctl_video_set_color_registers.htm
 old-project: display
 ms.assetid: efaea94e-0cfd-49a7-b8dc-452aa006b024
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.ioctl_video_set_color_registers, IOCTL_VIDEO_SET_COLOR_REGISTERS control code [Display Devices], IOCTL_VIDEO_SET_COLOR_REGISTERS, ntddvdeo/IOCTL_VIDEO_SET_COLOR_REGISTERS, Video_IOCTLs_29dd4eb9-3c05-4b2f-8572-66b7c599fef1.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

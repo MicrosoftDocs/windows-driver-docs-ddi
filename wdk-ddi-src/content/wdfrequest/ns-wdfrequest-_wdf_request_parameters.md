@@ -7,8 +7,8 @@ old-location: wdf\wdf_request_parameters.htm
 old-project: wdf
 ms.assetid: 012e34c0-3cc6-49dc-94ad-d359d857720f
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: kmdf.wdf_request_parameters, wdfrequest/PWDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS, wdfrequest/WDF_REQUEST_PARAMETERS, PWDF_REQUEST_PARAMETERS structure pointer, DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, _WDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS structure, wdf.wdf_request_parameters, PWDF_REQUEST_PARAMETERS
+ms.date: 2/20/2018
+ms.keywords: kmdf.wdf_request_parameters, _WDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS structure, PWDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS, wdf.wdf_request_parameters, PWDF_REQUEST_PARAMETERS structure pointer, DFRequestObjectRef_b3f1759e-7bdd-4222-8aea-502bd45e16bf.xml, wdfrequest/WDF_REQUEST_PARAMETERS, wdfrequest/PWDF_REQUEST_PARAMETERS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WDF_REQUEST_PARAMETERS
 product: Windows
 targetos: Windows
-req.typenames: WDF_REQUEST_PARAMETERS, *PWDF_REQUEST_PARAMETERS
+req.typenames: "*PWDF_REQUEST_PARAMETERS, WDF_REQUEST_PARAMETERS"
 req.product: Windows 10 or later.
 ---
 
@@ -115,7 +115,7 @@ The IRP minor function code, if any, that is associated with the I/O request. So
 
 ### -field Type
 
-A <a href="..\wudfddi_types\ne-wudfddi_types-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
+A <a href="..\wdfrequest\ne-wdfrequest-_wdf_request_type.md">WDF_REQUEST_TYPE</a>-typed value that identifies the I/O request's type. 
 
 
 ### -field Parameters
@@ -261,17 +261,17 @@ The <b>WDF_REQUEST_PARAMETERS</b> structure is used as input to <a href="..\wdfr
 
 
 
+<a href="..\wdm\ns-wdm-_io_stack_location.md">IO_STACK_LOCATION</a>
+
+
+
 <a href="..\wdfrequest\nf-wdfrequest-wdfrequestgetparameters.md">WdfRequestGetParameters</a>
 
 
 
-<a href="..\wdfrequest\nf-wdfrequest-wdf_request_parameters_init.md">WDF_REQUEST_PARAMETERS_INIT</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_PARAMETERS structure%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_PARAMETERS structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

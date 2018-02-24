@@ -7,7 +7,7 @@ old-location: pci\sriov_read_block.htm
 old-project: PCI
 ms.assetid: af0d3465-2854-47d9-a6a4-06f510229a59
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.sriov_read_block, SriovReadBlock callback function [Buses], SriovReadBlock, SRIOV_READ_BLOCK, SRIOV_READ_BLOCK, pcivirt/SriovReadBlock, *PSRIOV_READ_BLOCK callback function pointer [Buses], *PSRIOV_READ_BLOCK
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_READ_BLOCK
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_READ_BLOCK callback

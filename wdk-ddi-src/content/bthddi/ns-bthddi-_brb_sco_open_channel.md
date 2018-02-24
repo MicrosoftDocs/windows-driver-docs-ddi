@@ -7,8 +7,8 @@ old-location: bltooth\_brb_sco_open_channel.htm
 old-project: bltooth
 ms.assetid: 7f73aaec-09fb-45f2-bff0-daef9fdb9b90
 ms.author: windowsdriverdev
-ms.date: 12/21/2017
-ms.keywords: bthddi/_BRB_SCO_OPEN_CHANNEL, bltooth._brb_sco_open_channel, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], _BRB_SCO_OPEN_CHANNEL, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml
+ms.date: 2/15/2018
+ms.keywords: bthddi/_BRB_SCO_OPEN_CHANNEL, bth_structs_f852010d-7117-48fe-bd65-f4e4f17e8706.xml, _BRB_SCO_OPEN_CHANNEL, _BRB_SCO_OPEN_CHANNEL structure [Bluetooth Devices], bltooth._brb_sco_open_channel
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -460,11 +460,11 @@ The profile driver specifies whether the connection should be accepted by storin
 
 
 
-<a href="..\bthddi\ne-bthddi-_sco_retransmission_effort.md">SCO_RETRANSMISSION_EFFORT</a>
+<a href="..\bthddi\ns-bthddi-_brb_header.md">BRB_HEADER</a>
 
 
 
-<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
+<a href="..\bthddi\nc-bthddi-pfnsco_indication_callback.md">SCO Callback Function</a>
 
 
 
@@ -472,7 +472,7 @@ The profile driver specifies whether the connection should be accepted by storin
 
 
 
-<a href="..\wdm\nf-wdm-obreferenceobject.md">ObReferenceObject</a>
+<a href="..\wdm\nf-wdm-obdereferenceobject.md">ObDereferenceObject</a>
 
 
 
@@ -484,5 +484,5 @@ The profile driver specifies whether the connection should be accepted by storin
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_SCO_OPEN_CHANNEL structure%20 RELEASE:%20(12/21/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [bltooth\bltooth]:%20_BRB_SCO_OPEN_CHANNEL structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

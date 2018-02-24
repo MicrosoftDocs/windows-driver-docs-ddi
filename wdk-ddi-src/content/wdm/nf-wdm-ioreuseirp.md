@@ -7,8 +7,8 @@ old-location: kernel\ioreuseirp.htm
 old-project: kernel
 ms.assetid: 18ad2c76-110f-45a9-986b-67e7c81f256f
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: IoReuseIrp, kernel.ioreuseirp, wdm/IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml
+ms.date: 2/16/2018
+ms.keywords: k104_548c8bd2-bc09-4ee6-b373-d244f1f11daa.xml, wdm/IoReuseIrp, IoReuseIrp, IoReuseIrp routine [Kernel-Mode Driver Architecture], kernel.ioreuseirp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -110,7 +110,7 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 ## -see-also
 
-<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
 
 
 
@@ -118,17 +118,17 @@ See <a href="https://msdn.microsoft.com/library/windows/hardware/ff561107">Reusi
 
 
 
-<a href="..\wdm\nf-wdm-ioinitializeirp.md">IoInitializeIrp</a>
-
-
-
 <a href="..\wdm\ns-wdm-_irp.md">IRP</a>
 
 
 
- 
+<a href="..\wdm\nf-wdm-ioallocateirp.md">IoAllocateIrp</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReuseIrp routine%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20IoReuseIrp routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

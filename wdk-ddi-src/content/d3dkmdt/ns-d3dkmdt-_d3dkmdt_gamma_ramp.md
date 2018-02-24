@@ -7,8 +7,8 @@ old-location: display\d3dkmdt_gamma_ramp.htm
 old-project: display
 ms.assetid: 3a875a1e-ef4f-4851-9329-f1fd2aca261f
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: d3dkmdt/D3DKMDT_GAMMA_RAMP, DmStructs_bb8721fc-b604-45e4-b3c8-ff27bda95e5b.xml, display.d3dkmdt_gamma_ramp, D3DKMDT_GAMMA_RAMP, _D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP structure [Display Devices]
+ms.date: 2/20/2018
+ms.keywords: D3DKMDT_GAMMA_RAMP structure [Display Devices], DmStructs_bb8721fc-b604-45e4-b3c8-ff27bda95e5b.xml, d3dkmdt/D3DKMDT_GAMMA_RAMP, D3DKMDT_GAMMA_RAMP, _D3DKMDT_GAMMA_RAMP, display.d3dkmdt_gamma_ramp
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -89,22 +89,26 @@ The size, in bytes, of the lookup table pointed to by <i>Data</i>.
 [in] A union that contains one of the following ways to access the lookup table data depending on the value in the Type member:
 
 
-### -field Data.pRgb256x3x16
+
+#### pRgb256x3x16
 
 If <b>Type</b> is equal to D3DDDI_GAMMARAMP_RGB256x3x16, this member is a pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_rgb256x3x16.md">D3DDDI_GAMMA_RAMP_RGB256x3x16</a> structure that contains the lookup table. 
 
 
-### -field Data.pDxgi1
+
+#### pDxgi1
 
 If <b>Type</b> is equal to D3DDDI_GAMMARAMP_DXGI_1, this member is a pointer to a <a href="..\d3dukmdt\ns-d3dukmdt-_d3dddi_gamma_ramp_dxgi_1.md">D3DDDI_GAMMA_RAMP_DXGI_1</a> structure that contains the lookup table. 
 
 
-### -field Data.p3x4
+
+#### p3x4
 
 Pointer to a D3DDDI_3x4_COLORSPACE_TRANSFORM which describes the 3 by 4 matrix colorspace transform to be applied.
 
 
-### -field Data.pRaw
+
+#### pRaw
 
 This member provides an alternative way to access the lookup table data. For example, for copying the lookup table, VOID* might be more convenient than D3DDDI_GAMMA_RAMP_RGB256x3x16.
 

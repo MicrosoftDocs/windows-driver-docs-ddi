@@ -7,8 +7,8 @@ old-location: sensors\gnss_selftestconfig.htm
 old-project: sensors
 ms.assetid: DE0D4A9A-F85D-4AA4-8A21-1BEC86837444
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: gnssdriver/GNSS_SELFTESTCONFIG, sensors.gnss_selftestconfig, GNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], PGNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG
+ms.date: 2/15/2018
+ms.keywords: PGNSS_SELFTESTCONFIG structure pointer [Sensor Devices], GNSS_SELFTESTCONFIG, sensors.gnss_selftestconfig, PGNSS_SELFTESTCONFIG, *PGNSS_SELFTESTCONFIG, gnssdriver/PGNSS_SELFTESTCONFIG, GNSS_SELFTESTCONFIG structure [Sensor Devices], gnssdriver/GNSS_SELFTESTCONFIG
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -100,6 +100,7 @@ The length of the buffer for passing in any additional information about the sel
 ### -field InBuffer
 
  
+
 
 
 

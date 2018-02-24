@@ -7,13 +7,13 @@ old-location: kernel\pep_work_power_control.htm
 old-project: kernel
 ms.assetid: 84258422-A2AE-449F-97C8-41336FEA5D8B
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: kernel.pep_work_power_control, PEP_WORK_POWER_CONTROL structure [Kernel-Mode Driver Architecture], _PEP_WORK_POWER_CONTROL, PPEP_WORK_POWER_CONTROL structure pointer [Kernel-Mode Driver Architecture], pepfx/PEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL, pepfx/PPEP_WORK_POWER_CONTROL, *PPEP_WORK_POWER_CONTROL, PPEP_WORK_POWER_CONTROL
+ms.date: 2/16/2018
+ms.keywords: PEP_WORK_POWER_CONTROL structure [Kernel-Mode Driver Architecture], PPEP_WORK_POWER_CONTROL structure pointer [Kernel-Mode Driver Architecture], kernel.pep_work_power_control, _PEP_WORK_POWER_CONTROL, pepfx/PEP_WORK_POWER_CONTROL, *PPEP_WORK_POWER_CONTROL, PPEP_WORK_POWER_CONTROL, pepfx/PPEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
 req.header: pepfx.h
-req.include-header: 
+req.include-header: Pep_x.h
 req.target-type: Windows
 req.target-min-winverclnt: Supported starting with Windows 10.
 req.target-min-winversvr: 
@@ -40,7 +40,7 @@ apiname:
 -	PEP_WORK_POWER_CONTROL
 product: Windows
 targetos: Windows
-req.typenames: "*PPEP_WORK_POWER_CONTROL, PEP_WORK_POWER_CONTROL"
+req.typenames: PEP_WORK_POWER_CONTROL, *PPEP_WORK_POWER_CONTROL
 ---
 
 # _PEP_WORK_POWER_CONTROL structure
@@ -121,6 +121,10 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
 ## -see-also
 
+<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+
+
+
 <a href="..\wdm\nf-wdm-pofxregisterdevice.md">PoFxRegisterDevice</a>
 
 
@@ -129,15 +133,11 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
 
 
-<a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
-
-
-
 <a href="https://msdn.microsoft.com/en-us/library/windows/hardware/mt186849">PEP_DPM_REGISTER_DEVICE</a>
 
 
 
-<a href="..\pepfx\ns-pepfx-_pep_work_information.md">PEP_WORK_INFORMATION</a>
+<a href="http://msdn.microsoft.com/library/windows/desktop/aa373931(v=vs.85).aspx">GUID</a>
 
 
 
@@ -145,5 +145,5 @@ The PEP issues a power control request from a worker thread. The Windows <a href
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_POWER_CONTROL structure%20 RELEASE:%20(1/4/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [kernel\kernel]:%20PEP_WORK_POWER_CONTROL structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

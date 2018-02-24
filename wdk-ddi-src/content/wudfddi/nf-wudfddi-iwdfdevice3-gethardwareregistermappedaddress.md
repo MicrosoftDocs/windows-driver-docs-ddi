@@ -7,8 +7,8 @@ old-location: wdf\iwdfdevice3_gethardwareregistermappedaddress.htm
 old-project: wdf
 ms.assetid: 94852404-301F-4C09-81D2-CEDEECFCD6BD
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress, umdf.iwdfdevice3_gethardwareregistermappedaddress, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, GetHardwareRegisterMappedAddress, IWDFDevice3::GetHardwareRegisterMappedAddress, IWDFDevice3 interface, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method, IWDFDevice3, wdf.iwdfdevice3_gethardwareregistermappedaddress
+ms.date: 2/20/2018
+ms.keywords: IWDFDevice3 interface, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method, GetHardwareRegisterMappedAddress method, IWDFDevice3 interface, umdf.iwdfdevice3_gethardwareregistermappedaddress, GetHardwareRegisterMappedAddress, wdf.iwdfdevice3_gethardwareregistermappedaddress, IWDFDevice3, IWDFDevice3::GetHardwareRegisterMappedAddress, wudfddi/IWDFDevice3::GetHardwareRegisterMappedAddress
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IWDFDevice3.GetHardwareRegisterMappedAddress
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
@@ -109,5 +109,5 @@ If you do use <b>GetHardwareRegisterMappedAddress</b>, you must set the <b>UmdfR
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::GetHardwareRegisterMappedAddress method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20IWDFDevice3::GetHardwareRegisterMappedAddress method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

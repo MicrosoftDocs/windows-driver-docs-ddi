@@ -4,11 +4,11 @@ title: IDebugSymbols::SetSymbolOptions method
 author: windows-driver-content
 description: The SetSymbolOptions method changes the engine's global symbol options.
 old-location: debugger\setsymboloptions.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 06cfae40-eb32-4f9b-b7ad-266cb12f4a32
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbols2 interface [Windows Debugging], SetSymbolOptions method, SetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, IDebugSymbols2::SetSymbolOptions, SetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, IDebugSymbols interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols3::SetSymbolOptions, dbgeng/IDebugSymbols2::SetSymbolOptions, IDebugSymbols_56cfcd8d-304b-4433-beab-2fc3e58a54a4.xml, IDebugSymbols::SetSymbolOptions, debugger.setsymboloptions, dbgeng/IDebugSymbols::SetSymbolOptions, IDebugSymbols3 interface [Windows Debugging], SetSymbolOptions method, dbgeng/IDebugSymbols3::SetSymbolOptions, IDebugSymbols, SetSymbolOptions, SetSymbolOptions method [Windows Debugging], IDebugSymbols interface, SetSymbolOptions method [Windows Debugging]
+ms.date: 2/15/2018
+ms.keywords: IDebugSymbols2::SetSymbolOptions, SetSymbolOptions method [Windows Debugging], IDebugSymbols3 interface, debugger.setsymboloptions, IDebugSymbols2 interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols interface [Windows Debugging], SetSymbolOptions method, SetSymbolOptions method [Windows Debugging], IDebugSymbols interface, dbgeng/IDebugSymbols3::SetSymbolOptions, IDebugSymbols3 interface [Windows Debugging], SetSymbolOptions method, IDebugSymbols_56cfcd8d-304b-4433-beab-2fc3e58a54a4.xml, SetSymbolOptions, IDebugSymbols3::SetSymbolOptions, IDebugSymbols::SetSymbolOptions, SetSymbolOptions method [Windows Debugging], IDebugSymbols2 interface, dbgeng/IDebugSymbols::SetSymbolOptions, IDebugSymbols, dbgeng/IDebugSymbols2::SetSymbolOptions, SetSymbolOptions method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugSymbols3.SetSymbolOptions
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbols::SetSymbolOptions method
@@ -117,7 +117,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
 
 
 
@@ -125,7 +125,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554535">RemoveSymbolOptions</a>
+<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
 
 
 
@@ -133,7 +133,7 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
 
 
-<a href="..\dbgeng\nn-dbgeng-idebugsymbols3.md">IDebugSymbols3</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff549139">GetSymbolOptions</a>
 
 
 
@@ -145,5 +145,5 @@ For more information about symbols, see <a href="https://msdn.microsoft.com/libr
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20IDebugSymbols::SetSymbolOptions method%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20IDebugSymbols::SetSymbolOptions method%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

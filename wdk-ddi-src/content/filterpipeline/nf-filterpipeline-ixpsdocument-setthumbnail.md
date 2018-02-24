@@ -7,8 +7,8 @@ old-location: print\ixpsdocument_setthumbnail.htm
 old-project: print
 ms.assetid: 47211c8f-e112-47fd-bd9e-57ff7ec586a5
 ms.author: windowsdriverdev
-ms.date: 2/2/2018
-ms.keywords: SetThumbnail, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, IXpsDocument interface [Print Devices], SetThumbnail method, print.ixpsdocument_setthumbnail, IXpsDocument::SetThumbnail, IXpsDocument, SetThumbnail method [Print Devices], filterpipeline/IXpsDocument::SetThumbnail, SetThumbnail method [Print Devices], IXpsDocument interface
+ms.date: 2/21/2018
+ms.keywords: IXpsDocument, SetThumbnail method [Print Devices], IXpsDocument interface, SetThumbnail method [Print Devices], IXpsDocument interface [Print Devices], SetThumbnail method, IXpsDocument::SetThumbnail, filterpipeline/IXpsDocument::SetThumbnail, filterpipeline_ee7609e5-4e6f-4619-aa3f-dfa217d5eabc.xml, SetThumbnail, print.ixpsdocument_setthumbnail
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method

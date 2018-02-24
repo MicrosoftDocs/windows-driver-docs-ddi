@@ -7,7 +7,7 @@ old-location: dtf\iwdtfsimpleiostressaction2.htm
 old-project: dtf
 ms.assetid: dc594873-2347-4ad8-9748-2d5a1fa4d8a7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: dtf.iwdtfsimpleiostressaction2, IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], IWDTFSimpleIOStressAction2 interface [Windows Device Testing Framework], described, IWDTFSimpleIOStressAction2, wdtfinterfaces/IWDTFSimpleIOStressAction2, Microsoft.WDTF.IWDTFSimpleIOStressAction2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFSimpleIOStressAction2
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 

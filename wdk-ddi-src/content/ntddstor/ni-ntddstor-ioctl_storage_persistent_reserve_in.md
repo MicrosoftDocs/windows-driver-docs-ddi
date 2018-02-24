@@ -7,7 +7,7 @@ old-location: storage\ioctl_storage_persistent_reserve_in.htm
 old-project: storage
 ms.assetid: a5a3e98b-8f6b-412d-a2eb-a28b5664340d
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
+ms.date: 2/16/2018
 ms.keywords: storage.ioctl_storage_persistent_reserve_in, IOCTL_STORAGE_PERSISTENT_RESERVE_IN control code [Storage Devices], IOCTL_STORAGE_PERSISTENT_RESERVE_IN, ntddstor/IOCTL_STORAGE_PERSISTENT_RESERVE_IN, k307_d142d4f6-d2a1-420e-a41d-5bb630445ad2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices

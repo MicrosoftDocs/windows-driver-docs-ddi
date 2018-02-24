@@ -7,8 +7,8 @@ old-location: pos\msrdataencryption.htm
 old-project: pos
 ms.assetid: 3e587242-2d7e-4b1f-8fcd-e0acada91524
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: MsrDataEncryption_None, MsrDataEncryption_ExtendedBase, MsrDataEncryption enumeration, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption, pos.msrdataencryption, _MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_AES, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pointofservicedriverinterface/MsrDataEncryption_None, MsrDataEncryption_3DEA_DUKPT, MsrDataEncryption_AES, MsrDataEncryption
+ms.date: 2/19/2018
+ms.keywords: MsrDataEncryption enumeration, pointofservicedriverinterface/MsrDataEncryption_None, MsrDataEncryption_3DEA_DUKPT, pointofservicedriverinterface/MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_ExtendedBase, pos.msrdataencryption, MsrDataEncryption, pointofservicedriverinterface/MsrDataEncryption_AES, _MsrDataEncryption, MsrDataEncryption_ExtendedBase, MsrDataEncryption_AES, MsrDataEncryption_None, pointofservicedriverinterface/MsrDataEncryption_3DEA_DUKPT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

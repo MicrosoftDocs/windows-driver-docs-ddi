@@ -7,7 +7,7 @@ old-location: biometric\ioctl_biometric_calibrate.htm
 old-project: biometric
 ms.assetid: 3ffd954f-91f8-4896-b105-86e07a5b6be7
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: biometric.ioctl_biometric_calibrate, IOCTL_BIOMETRIC_CALIBRATE control code [Biometric Devices], IOCTL_BIOMETRIC_CALIBRATE, winbio_ioctl/IOCTL_BIOMETRIC_CALIBRATE, biometric_ref_160131c1-3389-4869-89c5-0d01761930e2.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_CALIBRATE
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

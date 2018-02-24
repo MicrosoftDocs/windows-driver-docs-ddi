@@ -7,8 +7,8 @@ old-location: sensors\gnss_fixsession_param.htm
 old-project: sensors
 ms.assetid: D51126FD-0448-487A-BD4E-170901E90B1E
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: GNSS_FIXSESSION_PARAM structure [Sensor Devices], sensors.gnss_fixsesson_param, sensors.gnss_fixsession_param, gnssdriver/PGNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], GNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM, gnssdriver/GNSS_FIXSESSION_PARAM
+ms.date: 2/15/2018
+ms.keywords: "*PGNSS_FIXSESSION_PARAM, PGNSS_FIXSESSION_PARAM structure pointer [Sensor Devices], PGNSS_FIXSESSION_PARAM, sensors.gnss_fixsession_param, GNSS_FIXSESSION_PARAM, gnssdriver/PGNSS_FIXSESSION_PARAM, gnssdriver/GNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM structure [Sensor Devices], sensors.gnss_fixsesson_param"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GNSS_FIXSESSION_PARAM
 product: Windows
 targetos: Windows
-req.typenames: "*PGNSS_FIXSESSION_PARAM, GNSS_FIXSESSION_PARAM"
+req.typenames: GNSS_FIXSESSION_PARAM, *PGNSS_FIXSESSION_PARAM
 ---
 
 # GNSS_FIXSESSION_PARAM structure
@@ -79,31 +79,6 @@ typedef struct {
 ## -struct-fields
 
 
-
-
-### -field SingleShotParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_singleshot_param.md">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
-
-
-### -field DistanceParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
-
-
-### -field ContinuousParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
-
-
-### -field LkgFixParam
-
-The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
-
-
-### -field UnusedParam
-
- 
 
 
 ### -field Size
@@ -164,9 +139,30 @@ This flag is OR-ed with the bit-values defined in GNSS_FIXDETAIL_* mask.
 
 
 
+
 #### - Reserved[9]
 
 Reserved for future use.
+
+
+#### - SingleShotParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_singleshot_param.md">GNSS_SINGLESHOT_PARAM</a> structure defines the parameters for a single-shot fix session.
+
+
+#### - DistanceParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_distancetracking_param.md">GNSS_DISTANCETRACKING_PARAM</a> structure defines the parameters for a distance-based tracking fix session.
+
+
+#### - ContinuousParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_continuoustracking_param.md">GNSS_CONTINUOUSTRACKING_PARAM</a> structure defines the parameters for a continuous tracking fix session.
+
+
+#### - LkgFixParam
+
+The <a href="..\gnssdriver\ns-gnssdriver-gnss_lkgfix_param.md">GNSS_LKGFIX_PARAM</a>  structure is not used currently by the system.
 
 
 #### - Unused[512]
@@ -177,6 +173,8 @@ Padding buffer.
 ## -remarks
 
 
+
 The fix session parameters are different for different types of sessions. This structure contains a common set of parameters applicable for all fix sessions, followed by an overloaded structure (union) for each fix session type. The GNSS driver must use the appropriate structure from the union depending on the session type.
+
 
 

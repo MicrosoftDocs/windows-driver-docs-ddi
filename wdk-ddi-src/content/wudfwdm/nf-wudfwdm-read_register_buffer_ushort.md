@@ -1,0 +1,106 @@
+---
+UID: NF:wudfwdm.READ_REGISTER_BUFFER_USHORT
+title: READ_REGISTER_BUFFER_USHORT function
+author: windows-driver-content
+description: The READ_REGISTER_BUFFER_USHORT routine reads a number of USHORT values from the specified register address into a buffer.
+old-location: kernel\read_register_buffer_ushort.htm
+old-project: kernel
+ms.assetid: 30c3fc44-e94a-47ca-a25b-33857b485817
+ms.author: windowsdriverdev
+ms.date: 2/16/2018
+ms.keywords: READ_REGISTER_BUFFER_USHORT, k103_a4ed8007-394e-4090-bcdb-63ad37431377.xml, wdm/READ_REGISTER_BUFFER_USHORT, kernel.read_register_buffer_ushort, READ_REGISTER_BUFFER_USHORT routine [Kernel-Mode Driver Architecture]
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: function
+req.header: wudfwdm.h
+req.include-header: Wdm.h, Ntddk.h, Ntifs.h, Miniport.h, Wudfwdm.h
+req.target-type: Universal
+req.target-min-winverclnt: Available starting with Windows 2000.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: NtosKrnl.lib
+req.dll: NtosKrnl.exe
+req.irql: Any level (see Remarks section)
+topictype:
+-	APIRef
+-	kbSyntax
+apitype:
+-	DllExport
+apilocation:
+-	NtosKrnl.exe
+apiname:
+-	READ_REGISTER_BUFFER_USHORT
+product: Windows
+targetos: Windows
+req.typenames: "*PPO_FX_PERF_STATE_UNIT, PO_FX_PERF_STATE_UNIT"
+req.product: Windows 10 or later.
+---
+
+# READ_REGISTER_BUFFER_USHORT function
+
+
+## -description
+
+
+The <b>READ_REGISTER_BUFFER_USHORT</b> routine reads a number of USHORT values from the specified register address into a buffer. 
+
+
+## -syntax
+
+
+````
+VOID READ_REGISTER_BUFFER_USHORT(
+  _In_  PUSHORT Register,
+  _Out_ PUSHORT Buffer,
+  _In_  ULONG   Count
+);
+````
+
+
+## -parameters
+
+
+
+
+### -param Register [in]
+
+Pointer to the register, which must be a mapped range in memory space.
+
+
+### -param Buffer [out]
+
+Pointer to a buffer into which an array of USHORT values is read.
+
+
+### -param Count [in]
+
+Specifies the number of USHORT values to be read into the buffer. 
+
+
+## -returns
+
+
+
+None
+
+
+
+
+## -remarks
+
+
+
+The size of the buffer must be large enough to contain at least the specified number of USHORT values.
+
+Callers of <b>READ_REGISTER_BUFFER_USHORT</b> can be running at any IRQL, assuming the <i>Buffer</i> is resident and the <i>Register</i> is resident, mapped device memory.
+
+
+

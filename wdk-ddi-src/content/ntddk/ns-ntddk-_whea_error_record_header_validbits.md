@@ -7,8 +7,8 @@ old-location: whea\whea_error_record_header_validbits.htm
 old-project: whea
 ms.assetid: b16dd19f-1a67-4066-9dae-b36ff6f44d43
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PWHEA_ERROR_RECORD_HEADER_VALIDBITS union pointer [WHEA Drivers and Applications], *PWHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/PWHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/WHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS union [WHEA Drivers and Applications], whearef_66b0c2f7-6fad-4cdb-ac15-f4d942d208e1.xml, WHEA_ERROR_RECORD_HEADER_VALIDBITS, _WHEA_ERROR_RECORD_HEADER_VALIDBITS, whea.whea_error_record_header_validbits
+ms.date: 2/20/2018
+ms.keywords: PWHEA_ERROR_RECORD_HEADER_VALIDBITS union pointer [WHEA Drivers and Applications], _WHEA_ERROR_RECORD_HEADER_VALIDBITS, ntddk/WHEA_ERROR_RECORD_HEADER_VALIDBITS, PWHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS union [WHEA Drivers and Applications], ntddk/PWHEA_ERROR_RECORD_HEADER_VALIDBITS, whea.whea_error_record_header_validbits, *PWHEA_ERROR_RECORD_HEADER_VALIDBITS, whearef_66b0c2f7-6fad-4cdb-ac15-f4d942d208e1.xml, WHEA_ERROR_RECORD_HEADER_VALIDBITS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	WHEA_ERROR_RECORD_HEADER_VALIDBITS
 product: Windows
 targetos: Windows
-req.typenames: "*PWHEA_ERROR_RECORD_HEADER_VALIDBITS, WHEA_ERROR_RECORD_HEADER_VALIDBITS"
+req.typenames: WHEA_ERROR_RECORD_HEADER_VALIDBITS, *PWHEA_ERROR_RECORD_HEADER_VALIDBITS
 ---
 
 # _WHEA_ERROR_RECORD_HEADER_VALIDBITS structure
@@ -78,29 +78,29 @@ typedef union _WHEA_ERROR_RECORD_HEADER_VALIDBITS {
  
 
 
-### -field DUMMYSTRUCTNAME.PlatformId
+### -field AsULONG
+
+A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union.
+
+
+#### - PlatformId
 
 A single bit that indicates that the <b>PlatformId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.Timestamp
+#### - Timestamp
 
 A single bit that indicates that the <b>Timestamp</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.PartitionId
+#### - PartitionId
 
 A single bit that indicates that the <b>PartitionId</b> member of the WHEA_ERROR_RECORD_HEADER structure contains valid data.
 
 
-### -field DUMMYSTRUCTNAME.Reserved
+#### - Reserved
 
 Reserved for system use.
-
-
-### -field AsULONG
-
-A ULONG representation of the contents of the WHEA_ERROR_RECORD_HEADER_VALIDBITS union.
 
 
 ## -remarks
@@ -132,5 +132,5 @@ The following bitfield constants can be used to test the bits in the <b>AsULONG 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_RECORD_HEADER_VALIDBITS union%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [whea\whea]:%20WHEA_ERROR_RECORD_HEADER_VALIDBITS union%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

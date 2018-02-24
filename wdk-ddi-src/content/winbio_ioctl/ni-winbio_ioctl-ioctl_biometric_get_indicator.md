@@ -7,7 +7,7 @@ old-location: biometric\ioctl_biometric_get_indicator.htm
 old-project: biometric
 ms.assetid: 2fc5edbd-e042-41d0-84a2-9b6796b6e234
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: biometric.ioctl_biometric_get_indicator, IOCTL_BIOMETRIC_GET_INDICATOR control code [Biometric Devices], IOCTL_BIOMETRIC_GET_INDICATOR, winbio_ioctl/IOCTL_BIOMETRIC_GET_INDICATOR, biometric_ref_f257d48e-b4ad-4721-b780-10d3d98fa711.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IOCTL_BIOMETRIC_GET_INDICATOR
 product: Windows
 targetos: Windows
-req.typenames: BMP_IMAGE_INFO, *PBMP_IMAGE_INFO
+req.typenames: "*PBMP_IMAGE_INFO, BMP_IMAGE_INFO"
 req.product: Windows 10 or later.
 ---
 

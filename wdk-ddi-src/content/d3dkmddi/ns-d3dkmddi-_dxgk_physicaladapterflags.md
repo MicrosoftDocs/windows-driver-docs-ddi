@@ -7,8 +7,8 @@ old-location: display\dxgk_physicaladapterflags.htm
 old-project: display
 ms.assetid: AACF0C99-D6E2-4C7C-BAE6-BF558FDAFDE0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXGK_PHYSICALADAPTERFLAGS, display.dxgk_physicaladapterflags, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS
+ms.date: 2/20/2018
+ms.keywords: display.dxgk_physicaladapterflags, d3dkmddi/DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS structure [Display Devices], _DXGK_PHYSICALADAPTERFLAGS, DXGK_PHYSICALADAPTERFLAGS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -106,12 +106,12 @@ Indicates that the device driver requires that move paging operations done withi
 This member is reserved and should be set to zero.
 
 
-### -field Value
-
-The consolidated  value of the bitfield members in this structure.
-
-
 #### - MovingPagingSupported
 
 Indicates that the device driver is capable of moving content to a new destination on the same memory segment.
+
+
+#### - Value
+
+The consolidated  value of the bitfield members in this structure.
 

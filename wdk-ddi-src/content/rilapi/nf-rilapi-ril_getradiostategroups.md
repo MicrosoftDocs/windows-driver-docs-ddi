@@ -7,8 +7,8 @@ old-location: netvista\ril_getradiostategroups.htm
 old-project: netvista
 ms.assetid: 7143e3a1-f383-4ea8-8e97-d9d7a9089db4
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetRadioStateGroups, RIL_GetRadioStateGroups, netvista.ril_getradiostategroups
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_getradiostategroups, rilapi/RIL_GetRadioStateGroups, RIL_GetRadioStateGroups, RIL_GetRadioStateGroups method [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetRadioStateGroups
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

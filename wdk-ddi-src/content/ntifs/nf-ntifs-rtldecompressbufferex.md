@@ -7,8 +7,8 @@ old-location: ifsk\rtldecompressbufferex.htm
 old-project: ifsk
 ms.assetid: 5AB55689-66F4-41BD-97B6-1E01899AFE23
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: RtlDecompressBufferEx, COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_XPRESS_HUFF, COMPRESSION_FORMAT_NONE, RtlDecompressBufferEx function [Installable File System Drivers], ifsk.rtldecompressbufferex, COMPRESSION_FORMAT_LZNT1, ntifs/RtlDecompressBufferEx, COMPRESSION_FORMAT_XPRESS
+ms.date: 2/16/2018
+ms.keywords: RtlDecompressBufferEx, RtlDecompressBufferEx function [Installable File System Drivers], ntifs/RtlDecompressBufferEx, COMPRESSION_FORMAT_NONE, ifsk.rtldecompressbufferex, COMPRESSION_FORMAT_XPRESS_HUFF, COMPRESSION_FORMAT_XPRESS, COMPRESSION_FORMAT_DEFAULT, COMPRESSION_FORMAT_LZNT1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -264,15 +264,11 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 ## -see-also
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
-
-
-
 <a href="..\ntifs\nf-ntifs-rtlcompressbuffer.md">RtlCompressBuffer</a>
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
+<a href="..\ntifs\nf-ntifs-rtldecompressbufferex2.md">RtlDecompressBufferEx2</a>
 
 
 
@@ -280,17 +276,21 @@ To compress an uncompressed buffer, use the <a href="..\ntifs\nf-ntifs-rtlcompre
 
 
 
-<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
-
-
-
 <a href="..\ntifs\ns-ntifs-_file_compression_information.md">FILE_COMPRESSION_INFORMATION</a>
 
 
 
- 
+<a href="..\ntifs\nf-ntifs-rtldecompressfragmentex.md">RtlDecompressFragmentEx</a>
+
+
+
+<a href="..\ntifs\nf-ntifs-rtldecompressbuffer.md">RtlDecompressBuffer</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDecompressBufferEx function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlDecompressBufferEx function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

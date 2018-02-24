@@ -7,8 +7,8 @@ old-location: display\dxvaddi_extendedformat.htm
 old-project: display
 ms.assetid: e4f863bd-12ec-489d-a6e0-6b9242fbb0b0
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, display.dxvaddi_extendedformat, d3dumddi/DXVADDI_EXTENDEDFORMAT, _DXVADDI_EXTENDEDFORMAT
+ms.date: 2/20/2018
+ms.keywords: display.dxvaddi_extendedformat, DXVA2_Structs_31dd9223-b889-4db9-acc0-520c8f16410a.xml, _DXVADDI_EXTENDEDFORMAT, d3dumddi/DXVADDI_EXTENDEDFORMAT, DXVADDI_EXTENDEDFORMAT structure [Display Devices], DXVADDI_EXTENDEDFORMAT
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -113,7 +113,7 @@ typedef struct _DXVADDI_EXTENDEDFORMAT {
 [in] The conversion function from R'G'B' to RGB. The five bits are defined by the <a href="..\d3dumddi\ne-d3dumddi-_dxvaddi_videotransferfunction.md">DXVADDI_VIDEOTRANSFERFUNCTION</a> enumeration type. 
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that describes the extended format of the video frame.
 
@@ -128,5 +128,5 @@ A 32-bit value that describes the extended format of the video frame.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_EXTENDEDFORMAT structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20DXVADDI_EXTENDEDFORMAT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

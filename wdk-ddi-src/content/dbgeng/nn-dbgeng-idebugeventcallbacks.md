@@ -4,10 +4,10 @@ title: IDebugEventCallbacks
 author: windows-driver-content
 description: IDebugEventCallbacks interface
 old-location: debugger\idebugeventcallbacks.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: f5e51d0e-0967-4e35-b24b-4bd99c975569
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.idebugeventcallbacks, IDebugEventCallbacks interface [Windows Debugging], IDebugEventCallbacks interface [Windows Debugging], described, IDebugEventCallbacks, dbgeng/IDebugEventCallbacks, ComCallbacks_72745555-ec34-41fa-9305-cf23357bcd17.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IDebugEventCallbacks
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugEventCallbacks interface

@@ -4,11 +4,11 @@ title: "_EXT_TYPED_DATA"
 author: windows-driver-content
 description: The EXT_TYPED_DATA structure is passed to and returned from the DEBUG_REQUEST_EXT_TYPED_DATA_ANSI Request operation. It contains the input and output parameters for the operation as well as specifying which particular suboperation to perform.
 old-location: debugger\ext_typed_data.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 99abb7b6-3e20-4875-b257-c3fc4146e392
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: "*PEXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA, EXT_TYPED_DATA structure [Windows Debugging], PEXT_TYPED_DATA, Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, wdbgexts/EXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], EXT_TYPED_DATA, debugger.ext_typed_data, _EXT_TYPED_DATA"
+ms.date: 2/15/2018
+ms.keywords: wdbgexts/EXT_TYPED_DATA, PEXT_TYPED_DATA structure pointer [Windows Debugging], EXT_TYPED_DATA structure [Windows Debugging], *PEXT_TYPED_DATA, _EXT_TYPED_DATA, Structures_e4240445-73f9-4f38-8f1b-17035ced15f7.xml, EXT_TYPED_DATA, wdbgexts/PEXT_TYPED_DATA, debugger.ext_typed_data, PEXT_TYPED_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -261,7 +261,7 @@ This structure can optionally specify additional data--using the members <b>InSt
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554564">Request</a>
+<a href="..\wdbgexts\ns-wdbgexts-_debug_typed_data.md">DEBUG_TYPED_DATA</a>
 
 
 
@@ -273,5 +273,5 @@ This structure can optionally specify additional data--using the members <b>InSt
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [debugger\debugger]:%20EXT_TYPED_DATA structure%20 RELEASE:%20(1/19/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [Debugger\debugger]:%20EXT_TYPED_DATA structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

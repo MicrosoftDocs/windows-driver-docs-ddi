@@ -7,8 +7,8 @@ old-location: netvista\rilcallmediaofferanswer.htm
 old-project: netvista
 ms.assetid: 6d8ad287-a4bf-4db8-9fff-a4cb1df42dda
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILCALLMEDIAOFFERANSWER, netvista.rilcallmediaofferanswer, ntddrilapitypes/RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER, RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista]"
+ms.date: 2/16/2018
+ms.keywords: RILCALLMEDIAOFFERANSWER structure [Network Drivers Starting with Windows Vista], RILCALLMEDIAOFFERANSWER, netvista.rilcallmediaofferanswer, *LPRILCALLMEDIAOFFERANSWER, ntddrilapitypes/RILCALLMEDIAOFFERANSWER
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

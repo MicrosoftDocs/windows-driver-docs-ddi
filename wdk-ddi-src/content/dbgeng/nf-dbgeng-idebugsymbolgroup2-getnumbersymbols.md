@@ -4,11 +4,11 @@ title: IDebugSymbolGroup2::GetNumberSymbols method
 author: windows-driver-content
 description: The GetNumberSymbols method returns the number of symbols that are contained in a symbol group.
 old-location: debugger\getnumbersymbols.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 5a202530-7146-472d-9560-580871cd56ec
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugSymbolGroup::GetNumberSymbols, ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml, GetNumberSymbols, IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, dbgeng/IDebugSymbolGroup::GetNumberSymbols, debugger.getnumbersymbols, IDebugSymbolGroup2, IDebugSymbolGroup2::GetNumberSymbols
+ms.date: 2/15/2018
+ms.keywords: GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup interface, IDebugSymbolGroup2 interface [Windows Debugging], GetNumberSymbols method, IDebugSymbolGroup interface [Windows Debugging], GetNumberSymbols method, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2, IDebugSymbolGroup::GetNumberSymbols, dbgeng/IDebugSymbolGroup::GetNumberSymbols, GetNumberSymbols, dbgeng/IDebugSymbolGroup2::GetNumberSymbols, debugger.getnumbersymbols, GetNumberSymbols method [Windows Debugging], IDebugSymbolGroup2 interface, IDebugSymbolGroup, IDebugSymbolGroup2::GetNumberSymbols, ComOther_e355317f-ba58-4d2a-a8f7-ad3cf4b17607.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -41,7 +41,7 @@ apiname:
 -	IDebugSymbolGroup2.GetNumberSymbols
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugSymbolGroup2::GetNumberSymbols method

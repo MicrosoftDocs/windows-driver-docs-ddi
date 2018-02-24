@@ -7,8 +7,8 @@ old-location: ifsk\rtlisgenerictableempty.htm
 old-project: ifsk
 ms.assetid: 9d032bd1-3ee7-4044-951f-c6730a28f3a1
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml, ntddk/RtlIsGenericTableEmpty, ifsk.rtlisgenerictableempty, RtlIsGenericTableEmpty, RtlIsGenericTableEmpty routine [Installable File System Drivers]
+ms.date: 2/16/2018
+ms.keywords: ntddk/RtlIsGenericTableEmpty, rtlref_07ea645e-b497-445c-a872-34947a2f7e54.xml, RtlIsGenericTableEmpty, ifsk.rtlisgenerictableempty, RtlIsGenericTableEmpty routine [Installable File System Drivers]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -106,5 +106,5 @@ Callers of <b>RtlIsGenericTableEmpty</b> must be running at ≤ APC_LEVEL if the
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlIsGenericTableEmpty routine%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RtlIsGenericTableEmpty routine%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

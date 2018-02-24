@@ -7,8 +7,8 @@ old-location: display\umdetw_allocation_usage.htm
 old-project: display
 ms.assetid: 40522471-0fbc-4193-8164-60138e3862fe
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: UMDETW_ALLOCATION_USAGE structure [Display Devices], umdprovider/UMDETW_ALLOCATION_USAGE, display.umdetw_allocation_usage, UMDETW_ALLOCATION_USAGE, _UMDETW_ALLOCATION_USAGE
+ms.date: 2/20/2018
+ms.keywords: UMDETW_ALLOCATION_USAGE, umdprovider/UMDETW_ALLOCATION_USAGE, _UMDETW_ALLOCATION_USAGE, UMDETW_ALLOCATION_USAGE structure [Display Devices], display.umdetw_allocation_usage
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -96,7 +96,7 @@ Reserved for system use. Do not use in your driver.
 The driver can use these bit fields for its own internal purposes.
 
 
-### -field Value
+#### - Value
 
 A 32-bit value that specifies the allocation mapping.
 
@@ -111,5 +111,5 @@ A 32-bit value that specifies the allocation mapping.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20UMDETW_ALLOCATION_USAGE structure%20 RELEASE:%20(12/29/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [display\display]:%20UMDETW_ALLOCATION_USAGE structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

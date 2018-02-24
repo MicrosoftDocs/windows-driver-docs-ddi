@@ -7,8 +7,8 @@ old-location: pos\linedisplaystatustype.htm
 old-project: pos
 ms.assetid: B3260D6C-F363-4077-BA8C-88BBEDA167D8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: PLineDisplayStatusType, pointofservicecommontypes/PLineDisplayStatusType, pointofservicecommontypes/LineDisplayStatusType, _LineDisplayStatusType, LineDisplayStatusType, pointofservicecommontypes/, PLineDisplayStatusType enumeration pointer, pos.linedisplaystatustype, LineDisplayStatusType enumeration
+ms.date: 2/19/2018
+ms.keywords: pointofservicecommontypes/LineDisplayStatusType, _LineDisplayStatusType, LineDisplayStatusType enumeration, LineDisplayStatusType, PLineDisplayStatusType enumeration pointer, pos.linedisplaystatustype, pointofservicecommontypes/PLineDisplayStatusType, PLineDisplayStatusType, pointofservicecommontypes/
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

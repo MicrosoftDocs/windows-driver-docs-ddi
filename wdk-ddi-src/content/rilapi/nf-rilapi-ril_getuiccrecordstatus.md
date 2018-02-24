@@ -7,8 +7,8 @@ old-location: netvista\ril_getuiccrecordstatus.htm
 old-project: netvista
 ms.assetid: f4834b37-7269-47e3-9af4-81d17fa79179
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RIL_GetUiccRecordStatus, rilapi/RIL_GetUiccRecordStatus, RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista], netvista.ril_getuiccrecordstatus
+ms.date: 2/16/2018
+ms.keywords: RIL_GetUiccRecordStatus method [Network Drivers Starting with Windows Vista], RIL_GetUiccRecordStatus, netvista.ril_getuiccrecordstatus, rilapi/RIL_GetUiccRecordStatus
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetUiccRecordStatus
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

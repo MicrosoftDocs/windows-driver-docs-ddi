@@ -7,8 +7,8 @@ old-location: powermeter\pmi_measurement_type.htm
 old-project: powermeter
 ms.assetid: 7a075d95-3bc6-4869-bcd6-1bce6df43384
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeInput, PmiMeasurementTypeOutput, PMI_MEASUREMENT_TYPE, pmi/PMI_MEASUREMENT_TYPE, PmiMeasurementTypeMax, pmi/PmiMeasurementTypeMax, pmi/PmiMeasurementTypeInput, pmi/PmiMeasurementTypeOutput, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, powermeter.pmi_measurement_type
+ms.date: 2/15/2018
+ms.keywords: PmiMeasurementTypeOutput, PMI_MEASUREMENT_TYPE enumeration [Power Metering and Budgeting Devices], PmiMeasurementTypeMax, pmi/PmiMeasurementTypeOutput, PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeMax, PowerMeterRef_2156ee1f-16d6-4021-865e-ce6482a53f66.xml, powermeter.pmi_measurement_type, PmiMeasurementTypeInput, pmi/PMI_MEASUREMENT_TYPE, pmi/PmiMeasurementTypeInput
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -113,5 +113,5 @@ PMI measurement data is returned through a query request of <a href="..\pmi\ni-p
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_MEASUREMENT_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_MEASUREMENT_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

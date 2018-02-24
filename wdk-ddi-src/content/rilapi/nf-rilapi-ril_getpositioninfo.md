@@ -7,8 +7,8 @@ old-location: netvista\ril_getpositioninfo.htm
 old-project: netvista
 ms.assetid: a34ed9ad-13b6-4f09-88c1-c5462a421ad8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: netvista.ril_getpositioninfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], RIL_GetPositionInfo, rilapi/RIL_GetPositionInfo
+ms.date: 2/16/2018
+ms.keywords: netvista.ril_getpositioninfo, RIL_GetPositionInfo, RIL_GetPositionInfo method [Network Drivers Starting with Windows Vista], rilapi/RIL_GetPositionInfo
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RIL_GetPositionInfo
 product: Windows
 targetos: Windows
-req.typenames: RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, *PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER
+req.typenames: "*PRH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER, RH_QUERY_CONNECTION_PROPERTIES_OUTPUT_BUFFER"
 req.product: Windows 10 or later.
 ---
 

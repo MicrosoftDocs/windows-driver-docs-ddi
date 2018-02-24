@@ -7,8 +7,8 @@ old-location: audio\iresourcelist_addentry.htm
 old-project: audio
 ms.assetid: 7f4ac419-a24e-4421-9891-9fea9479e781
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: portcls/IResourceList::AddEntry, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, audio.iresourcelist_addentry, IResourceList interface [Audio Devices], AddEntry method, AddEntry method [Audio Devices], IResourceList::AddEntry, AddEntry method [Audio Devices], IResourceList interface, IResourceList, AddEntry
+ms.date: 2/21/2018
+ms.keywords: AddEntry method [Audio Devices], IResourceList interface, audmp-routines_6a6091c9-4cb3-40ca-8bb9-39b239c322b7.xml, IResourceList::AddEntry, IResourceList, IResourceList interface [Audio Devices], AddEntry method, audio.iresourcelist_addentry, portcls/IResourceList::AddEntry, AddEntry, AddEntry method [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -40,7 +40,7 @@ apiname:
 -	IResourceList.AddEntry
 product: Windows
 targetos: Windows
-req.typenames: "*PPC_EXIT_LATENCY, PC_EXIT_LATENCY"
+req.typenames: PC_EXIT_LATENCY, *PPC_EXIT_LATENCY
 ---
 
 # IResourceList::AddEntry method
@@ -70,7 +70,7 @@ NTSTATUS AddEntry(
 
 ### -param Translated [in]
 
-Pointer to a translated version of the entry. This parameter points to a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure containing the translated version of the entry to be added.
+Pointer to a translated version of the entry. This parameter points to a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure containing the translated version of the entry to be added.
 
 
 ### -param Untranslated [in]
@@ -108,7 +108,7 @@ Indicates there are no free entries in the list.
 
 ## -see-also
 
-<a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
+<a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a>
 
 
 
@@ -120,5 +120,5 @@ Indicates there are no free entries in the list.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::AddEntry method%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20IResourceList::AddEntry method%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

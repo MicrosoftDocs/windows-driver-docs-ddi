@@ -7,7 +7,7 @@ old-location: dtf\iwdtfnumbers2.htm
 old-project: dtf
 ms.assetid: 8cff3bc3-771f-47b7-bf4b-b7221f498252
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
+ms.date: 2/20/2018
 ms.keywords: dtf.iwdtfnumbers2, IWDTFNumbers2 interface [Windows Device Testing Framework], IWDTFNumbers2 interface [Windows Device Testing Framework], described, IWDTFNumbers2, wdtf/IWDTFNumbers2, Microsoft.WDTF.IWDTFNumbers2
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDTFNumbers2
 product: Windows
 targetos: Windows
-req.typenames: "*PWORK_QUEUE_ITEM, WORK_QUEUE_ITEM"
+req.typenames: TTraceLevel
 req.product: Windows 10 or later.
 ---
 

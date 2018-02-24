@@ -7,8 +7,8 @@ old-location: netvista\rilsetmsginuiccstatusparams.htm
 old-project: netvista
 ms.assetid: 3c35e2e0-8f8a-456f-b0ce-494a050d11dc
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "*LPRILSETMSGINUICCSTATUSPARAMS, ntddrilapitypes/RILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], netvista.rilsetmsginuiccstatusparams, RILSETMSGINUICCSTATUSPARAMS"
+ms.date: 2/16/2018
+ms.keywords: netvista.rilsetmsginuiccstatusparams, RILSETMSGINUICCSTATUSPARAMS structure [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILSETMSGINUICCSTATUSPARAMS, *LPRILSETMSGINUICCSTATUSPARAMS, RILSETMSGINUICCSTATUSPARAMS
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

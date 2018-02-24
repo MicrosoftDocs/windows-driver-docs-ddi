@@ -7,8 +7,8 @@ old-location: ieee\get_local_host_info7.htm
 old-project: IEEE
 ms.assetid: 65c4b7d9-dbd8-4f94-b407-1b06543d0b56
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: 1394/GET_LOCAL_HOST_INFO7, GET_LOCAL_HOST_INFO7_W2K, PGET_LOCAL_HOST_INFO7 structure pointer [Buses], *PGET_LOCAL_HOST_INFO7, _GET_LOCAL_HOST_INFO7_W2K, 1394/PGET_LOCAL_HOST_INFO7, 1394stct_6e61e5b9-8961-4a88-9927-143aa24e0648.xml, GET_LOCAL_HOST_INFO7 structure [Buses], PGET_LOCAL_HOST_INFO7, IEEE.get_local_host_info7, *PGET_LOCAL_HOST_INFO7_W2K, GET_LOCAL_HOST_INFO7
+ms.date: 2/15/2018
+ms.keywords: GET_LOCAL_HOST_INFO7_W2K, PGET_LOCAL_HOST_INFO7 structure pointer [Buses], _GET_LOCAL_HOST_INFO7_W2K, *PGET_LOCAL_HOST_INFO7, 1394/PGET_LOCAL_HOST_INFO7, *PGET_LOCAL_HOST_INFO7_W2K, 1394stct_6e61e5b9-8961-4a88-9927-143aa24e0648.xml, PGET_LOCAL_HOST_INFO7, GET_LOCAL_HOST_INFO7_WXP, GET_LOCAL_HOST_INFO7 structure [Buses], IEEE.get_local_host_info7, 1394/GET_LOCAL_HOST_INFO7, GET_LOCAL_HOST_INFO7
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

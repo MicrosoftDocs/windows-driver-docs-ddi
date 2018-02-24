@@ -4,11 +4,11 @@ title: "_DEBUG_CACHED_SYMBOL_INFO"
 author: windows-driver-content
 description: Defines information about cached symbols.
 old-location: debugger\debug_cached_symbol_info.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: CC7914B6-DCE1-45D1-84D3-5FF1449AD565
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: dbgeng/DEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO, _DEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], *PDEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO
+ms.date: 2/15/2018
+ms.keywords: DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO structure [Windows Debugging], dbgeng/DEBUG_CACHED_SYMBOL_INFO, _DEBUG_CACHED_SYMBOL_INFO, debugger.debug_cached_symbol_info, PDEBUG_CACHED_SYMBOL_INFO structure pointer [Windows Debugging], PDEBUG_CACHED_SYMBOL_INFO, dbgeng/PDEBUG_CACHED_SYMBOL_INFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DEBUG_CACHED_SYMBOL_INFO
 product: Windows
 targetos: Windows
-req.typenames: DEBUG_CACHED_SYMBOL_INFO, *PDEBUG_CACHED_SYMBOL_INFO
+req.typenames: "*PDEBUG_CACHED_SYMBOL_INFO, DEBUG_CACHED_SYMBOL_INFO"
 ---
 
 # _DEBUG_CACHED_SYMBOL_INFO structure

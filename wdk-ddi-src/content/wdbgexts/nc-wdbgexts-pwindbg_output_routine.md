@@ -4,10 +4,10 @@ title: PWINDBG_OUTPUT_ROUTINE
 author: windows-driver-content
 description: The callback function implements the functionality to print a formatted string to the Debugger Command window.
 old-location: debugger\dprintf.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 33bcf4d4-1a79-4950-858e-10543faa9432
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
+ms.date: 2/15/2018
 ms.keywords: debugger.dprintf, dprintf, dprintf callback function [Windows Debugging], dprintf, PWINDBG_OUTPUT_ROUTINE, PWINDBG_OUTPUT_ROUTINE, wdbgexts/dprintf, WdbgExts_Ref_89454805-6140-4023-ba28-2d7130c73cf5.xml
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -59,13 +59,10 @@ The wdbgexts.h header declares a macro, <b>dprintf</b> that  prints the formatte
 
 
 ````
-PWINDBG_OUTPUT_ROUTINE dprintf;
-
 VOID dprintf(
   _In_ PCSTR format,
   _In_ ...   [arguments]
-)
-{ ... }
+);
 ````
 
 

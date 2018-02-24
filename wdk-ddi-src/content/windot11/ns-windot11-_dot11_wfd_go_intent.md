@@ -7,8 +7,8 @@ old-location: netvista\_dot11_wfd_go_intent.htm
 old-project: netvista
 ms.assetid: 8E4F88EF-04A9-4313-AE6A-2467DA08044A
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: windot11/PDOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT structure [Network Drivers Starting with Windows Vista], PDOT11_WFD_GO_INTENT structure pointer [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_go_intent, _DOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT, *PDOT11_WFD_GO_INTENT, PDOT11_WFD_GO_INTENT, windot11/DOT11_WFD_GO_INTENT
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_WFD_GO_INTENT, PDOT11_WFD_GO_INTENT structure pointer [Network Drivers Starting with Windows Vista], netvista._dot11_wfd_go_intent, windot11/PDOT11_WFD_GO_INTENT, windot11/DOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT structure [Network Drivers Starting with Windows Vista], _DOT11_WFD_GO_INTENT, DOT11_WFD_GO_INTENT, PDOT11_WFD_GO_INTENT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

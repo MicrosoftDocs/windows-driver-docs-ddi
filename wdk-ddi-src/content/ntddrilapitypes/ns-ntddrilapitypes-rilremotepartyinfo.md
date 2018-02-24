@@ -7,8 +7,8 @@ old-location: netvista\rilremotepartyinfo.htm
 old-project: netvista
 ms.assetid: 3bcaaf63-adff-4559-9e34-eae089dff6f8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO, ntddrilapitypes/RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], netvista.rilremotepartyinfo
+ms.date: 2/16/2018
+ms.keywords: netvista.rilremotepartyinfo, ntddrilapitypes/RILREMOTEPARTYINFO, RILREMOTEPARTYINFO structure [Network Drivers Starting with Windows Vista], RILREMOTEPARTYINFO, *LPRILREMOTEPARTYINFO
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

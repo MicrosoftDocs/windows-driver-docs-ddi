@@ -7,8 +7,8 @@ old-location: kernel\rtllongptrmult.htm
 old-project: kernel
 ms.assetid: AF602DBE-E106-4105-B56B-DE9EE7691A05
 ms.author: windowsdriverdev
-ms.date: 1/4/2018
-ms.keywords: RtlLongPtrMult, kernel.rtllongptrmult, ntintsafe/RtlLongPtrMult, RtlLongPtrMult function [Kernel-Mode Driver Architecture]
+ms.date: 2/16/2018
+ms.keywords: RtlLongPtrMult, kernel.rtllongptrmult, RtlLongPtrMult function [Kernel-Mode Driver Architecture], ntintsafe/RtlLongPtrMult
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

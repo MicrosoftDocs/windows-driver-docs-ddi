@@ -7,7 +7,7 @@ old-location: pci\sriov_get_resource_for_bar.htm
 old-project: PCI
 ms.assetid: b52bafee-d541-4396-be0a-06956d07fb2b
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/15/2018
 ms.keywords: PCI.sriov_get_resource_for_bar, SriovGetResourceForBar callback function [Buses], SriovGetResourceForBar, SRIOV_GET_RESOURCE_FOR_BAR, SRIOV_GET_RESOURCE_FOR_BAR, pcivirt/SriovGetResourceForBar, *PSRIOV_GET_RESOURCE_FOR_BAR callback function pointer [Buses], *PSRIOV_GET_RESOURCE_FOR_BAR
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	*PSRIOV_GET_RESOURCE_FOR_BAR
 product: Windows
 targetos: Windows
-req.typenames: "*PPARCLASS_INFORMATION, PARCLASS_INFORMATION"
+req.typenames: PARCLASS_INFORMATION, *PPARCLASS_INFORMATION
 ---
 
 # SRIOV_GET_RESOURCE_FOR_BAR callback
@@ -96,7 +96,7 @@ The index of the BAR (between 0 and 5).
 
 
                     
-                A pointer to a <a href="..\wdm\ns-wdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.
+                A pointer to a <a href="..\wudfwdm\ns-wudfwdm-_cm_partial_resource_descriptor.md">CM_PARTIAL_RESOURCE_DESCRIPTOR</a> structure that is filled with the translated hardware resources for the specified BAR.
 
 
 ## -returns

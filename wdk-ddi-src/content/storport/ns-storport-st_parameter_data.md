@@ -7,8 +7,8 @@ old-location: storage\st_parameter_data.htm
 old-project: storage
 ms.assetid: C50F45EC-433C-421D-BD02-4C86CB44D5A4
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: "*PST_PARAMETER_DATA, ST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, PST_PARAMETER_DATA, ST_PARAMETER_DATA structure [Storage Devices], PST_PARAMETER_DATA structure pointer [Storage Devices], scsi/PST_PARAMETER_DATA, storage.st_parameter_data"
+ms.date: 2/16/2018
+ms.keywords: ST_PARAMETER_DATA structure [Storage Devices], PST_PARAMETER_DATA structure pointer [Storage Devices], storage.st_parameter_data, scsi/PST_PARAMETER_DATA, scsi/ST_PARAMETER_DATA, PST_PARAMETER_DATA, *PST_PARAMETER_DATA, ST_PARAMETER_DATA
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	ST_PARAMETER_DATA
 product: Windows
 targetos: Windows
-req.typenames: ST_PARAMETER_DATA, *PST_PARAMETER_DATA
+req.typenames: "*PST_PARAMETER_DATA, ST_PARAMETER_DATA"
 req.product: Windows 10 or later.
 ---
 
@@ -90,7 +90,7 @@ Reserved for future use.
 
 ## -see-also
 
-<a href="..\storport\ns-storport-rt_parameter_data.md">RT_PARAMETER_DATA</a>
+<a href="..\scsi\ns-scsi-rt_parameter_data.md">RT_PARAMETER_DATA</a>
 
 
 
@@ -98,5 +98,5 @@ Reserved for future use.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ST_PARAMETER_DATA structure%20 RELEASE:%20(1/10/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [storage\storage]:%20ST_PARAMETER_DATA structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

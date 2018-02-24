@@ -7,8 +7,8 @@ old-location: audio\epcminiportengineevent.htm
 old-project: audio
 ms.assetid: 6B282CA4-2EE8-48BB-99E2-1A16A92E57A5
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: portcls/eMINIPORT_BUFFER_COMPLETE, EPcMiniportEngineEvent enumeration [Audio Devices], eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_PIN_STATE, eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_PIN_STATE, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_GET_PRESENTATION_POS, portcls/EPcMiniportEngineEvent, portcls/eMINIPORT_FX_CLSID, eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_MaxValue, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS, portcls/eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_GET_PRESENTATION_POS, EPcMiniportEngineEvent, eMINIPORT_GLITCH_REPORT, eMINIPORT_PROCESSING_MODE, eMINIPORT_IHV_DEFINED, audio.epcminiportengineevent, portcls/eMINIPORT_IHV_DEFINED, eMINIPORT_GET_STREAM_POS, portcls/eMINIPORT_GLITCH_REPORT, eMINIPORT_FX_CLSID, portcls/eMINIPORT_PROCESSING_MODE, eMINIPORT_MaxValue, portcls/eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_GET_STREAM_POS
+ms.date: 2/21/2018
+ms.keywords: portcls/eMINIPORT_GLITCH_REPORT, portcls/eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_GET_STREAM_POSITION, eMINIPORT_GLITCH_REPORT, eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_PROCESSING_MODE, eMINIPORT_IHV_DEFINED, eMINIPORT_GET_PRESENTATION_POSITION, portcls/EPcMiniportEngineEvent, eMINIPORT_PROGRAM_DMA, portcls/eMINIPORT_PIN_STATE, portcls/eMINIPORT_LAST_BUFFER_RENDERED, eMINIPORT_FX_CLSID, eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION, portcls/eMINIPORT_PROCESSING_MODE, eMINIPORT_GET_STREAM_POSITION, eMINIPORT_PIN_STATE, EPcMiniportEngineEvent, audio.epcminiportengineevent, eMINIPORT_BUFFER_COMPLETE, portcls/eMINIPORT_FX_CLSID, portcls/eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION, portcls/eMINIPORT_MaxValue, eMINIPORT_MaxValue, portcls/eMINIPORT_IHV_DEFINED, EPcMiniportEngineEvent enumeration [Audio Devices], portcls/eMINIPORT_GET_PRESENTATION_POSITION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -59,12 +59,12 @@ The event IDs in the following enum represent events that the miniport driver ca
 
 ````
 typedef enum _EPcMiniportEngineEvent { 
-  eMINIPORT_IHV_DEFINED                  = 0,
+  eMINIPORT_IHV_DEFINED                       = 0,
   eMINIPORT_BUFFER_COMPLETE,
   eMINIPORT_PIN_STATE,
-  eMINIPORT_GET_STREAM_POS,
-  eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS,
-  eMINIPORT_GET_PRESENTATION_POS,
+  eMINIPORT_GET_STREAM_POSITION,
+  eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION,
+  eMINIPORT_GET_PRESENTATION_POSITION,
   eMINIPORT_PROGRAM_DMA,
   eMINIPORT_GLITCH_REPORT,
   eMINIPORT_LAST_BUFFER_RENDERED,
@@ -97,11 +97,17 @@ Specifies the ID for the event related to a change in pin state.
 
 ### -field eMINIPORT_GET_STREAM_POSITION
 
+Specifies the ID for a "get stream position" event.
+
 
 ### -field eMINIPORT_SET_WAVERT_BUFFER_WRITE_POSITION
 
+Specifies the ID for a "wave  buffer write position" event.
+
 
 ### -field eMINIPORT_GET_PRESENTATION_POSITION
+
+Specifies the ID for a "get presentation position" event.
 
 
 ### -field eMINIPORT_PROGRAM_DMA
@@ -132,21 +138,6 @@ Specifies the class ID for the audio processing effect (FX) that was in effect w
 ### -field eMINIPORT_MaxValue
 
 Specifies the ID for the highest enumerated value that was used to report the glitch.
-
-
-#### - eMINIPORT_GET_PRESENTATION_POS
-
-Specifies the ID for a "get presentation position" event.
-
-
-#### - eMINIPORT_GET_STREAM_POS
-
-Specifies the ID for a "get stream position" event.
-
-
-#### - eMINIPORT_SET_WAVERT_BUFFER_WRITE_POS
-
-Specifies the ID for a "wave  buffer write position" event.
 
 
 ## -remarks
@@ -299,5 +290,5 @@ The following table shows the members of the  EPcMiniportEngineEvent enum that w
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20EPcMiniportEngineEvent enumeration%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20EPcMiniportEngineEvent enumeration%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

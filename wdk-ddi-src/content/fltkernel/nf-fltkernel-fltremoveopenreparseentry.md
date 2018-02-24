@@ -7,8 +7,8 @@ old-location: ifsk\fltremoveopenreparseentry.htm
 old-project: ifsk
 ms.assetid: FD8C3A32-E578-47E9-9B2A-E1809D62F7B8
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: FltAddOpenReparseEntry routine [Installable File System Drivers], FltAddOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, FltRemoveOpenReparseEntry, ifsk.fltremoveopenreparseentry
+ms.date: 2/16/2018
+ms.keywords: FltAddOpenReparseEntry routine [Installable File System Drivers], FltRemoveOpenReparseEntry, FltAddOpenReparseEntry, fltkernel/FltAddOpenReparseEntry, ifsk.fltremoveopenreparseentry
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function

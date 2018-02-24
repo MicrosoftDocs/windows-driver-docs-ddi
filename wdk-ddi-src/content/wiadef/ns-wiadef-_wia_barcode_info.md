@@ -4,11 +4,11 @@ title: "_WIA_BARCODE_INFO"
 author: windows-driver-content
 description: The WIA_BARCODE_INFO structure stores information for one decoded barcode.
 old-location: image\wia_barcode_info.htm
-old-project: image
+old-project: Image
 ms.assetid: 2E659DDC-4012-4EA2-8E6C-033F2AB526B8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: "_WIA_BARCODE_INFO, WIA_BARCODE_INFO, wiadef/WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices], image.wia_barcode_info"
+ms.date: 2/15/2018
+ms.keywords: wiadef/WIA_BARCODE_INFO, _WIA_BARCODE_INFO, image.wia_barcode_info, WIA_BARCODE_INFO, WIA_BARCODE_INFO structure [Imaging Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -21,10 +21,10 @@ req.kmdf-ver:
 req.umdf-ver: 
 req.ddi-compliance: 
 req.unicode-ansi: 
-req.idl: WDTFSystemAction.idl
+req.idl: 
 req.max-support: 
-req.namespace: Microsoft.WDTF
-req.assembly: WDTFSystemAction.Interop.dll
+req.namespace: 
+req.assembly: 
 req.type-library: 
 req.lib: 
 req.dll: 

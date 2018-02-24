@@ -7,8 +7,8 @@ old-location: display\d3d11_1ddi_omac.htm
 old-project: display
 ms.assetid: 6807f32a-0e63-4603-abfb-b35d0d0d5f8c
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: D3D11_1DDI_OMAC structure [Display Devices], D3D11_1DDI_OMAC, d3d10umddi/D3D11_1DDI_OMAC, display.d3d11_1ddi_omac
+ms.date: 2/20/2018
+ms.keywords: D3D11_1DDI_OMAC, d3d10umddi/D3D11_1DDI_OMAC, display.d3d11_1ddi_omac, D3D11_1DDI_OMAC structure [Display Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

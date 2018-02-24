@@ -7,8 +7,8 @@ old-location: stream\hw_time_context.htm
 old-project: stream
 ms.assetid: 4f349089-ff50-4f69-941f-ba3e9225abec
 ms.author: windowsdriverdev
-ms.date: 1/9/2018
-ms.keywords: HW_TIME_CONTEXT, *PHW_TIME_CONTEXT, HW_TIME_CONTEXT structure [Streaming Media Devices], _HW_TIME_CONTEXT, stream.hw_time_context, strmini/HW_TIME_CONTEXT, PHW_TIME_CONTEXT, strmini/PHW_TIME_CONTEXT, PHW_TIME_CONTEXT structure pointer [Streaming Media Devices], strclass-struct_2c3e01ab-3b53-47cb-816f-994c0b7113b0.xml
+ms.date: 2/20/2018
+ms.keywords: "_HW_TIME_CONTEXT, PHW_TIME_CONTEXT, stream.hw_time_context, PHW_TIME_CONTEXT structure pointer [Streaming Media Devices], strmini/PHW_TIME_CONTEXT, strmini/HW_TIME_CONTEXT, HW_TIME_CONTEXT structure [Streaming Media Devices], strclass-struct_2c3e01ab-3b53-47cb-816f-994c0b7113b0.xml, HW_TIME_CONTEXT, *PHW_TIME_CONTEXT"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	HW_TIME_CONTEXT
 product: Windows
 targetos: Windows
-req.typenames: HW_TIME_CONTEXT, *PHW_TIME_CONTEXT
+req.typenames: "*PHW_TIME_CONTEXT, HW_TIME_CONTEXT"
 req.product: Windows 10 or later.
 ---
 
@@ -127,11 +127,7 @@ The current system time, in 100-nanosecond units.
 
 ## -see-also
 
-<a href="..\strmini\nf-strmini-streamclassquerymasterclock.md">StreamClassQueryMasterClock</a>
-
-
-
-<a href="..\strmini\ns-strmini-_hw_clock_object.md">HW_CLOCK_OBJECT</a>
+<a href="..\strmini\nf-strmini-streamclassquerymasterclocksync.md">StreamClassQueryMasterClockSync</a>
 
 
 
@@ -143,9 +139,13 @@ The current system time, in 100-nanosecond units.
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff568452">StrMiniClock</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_TIME_CONTEXT structure%20 RELEASE:%20(1/9/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [stream\stream]:%20HW_TIME_CONTEXT structure%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

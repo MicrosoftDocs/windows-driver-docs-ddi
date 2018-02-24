@@ -7,7 +7,7 @@ old-location: wdf\iqueuecallbackcreate.htm
 old-project: wdf
 ms.assetid: 50b8acc6-5f08-47d5-b45d-31ff33a06be1
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iqueuecallbackcreate, IQueueCallbackCreate interface, IQueueCallbackCreate interface, described, IQueueCallbackCreate, wudfddi/IQueueCallbackCreate, UMDFQueueObjectRef_dfb85326-329e-4d5b-9889-1894c53e4cb7.xml, umdf.iqueuecallbackcreate
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IQueueCallbackCreate
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 

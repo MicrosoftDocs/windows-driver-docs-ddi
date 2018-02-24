@@ -7,8 +7,8 @@ old-location: ieee\get_local_host_info4.htm
 old-project: IEEE
 ms.assetid: 72bc1d4b-cc68-4ea8-9431-c85cbcf135d8
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: IEEE.get_local_host_info4, 1394/GET_LOCAL_HOST_INFO4, _GET_LOCAL_HOST_INFO4, PGET_LOCAL_HOST_INFO4, GET_LOCAL_HOST_INFO4 structure [Buses], *PGET_LOCAL_HOST_INFO4, 1394stct_c06286e2-308d-4534-9a1b-14d3a04b5f86.xml, GET_LOCAL_HOST_INFO4, PGET_LOCAL_HOST_INFO4 structure pointer [Buses], 1394/PGET_LOCAL_HOST_INFO4
+ms.date: 2/15/2018
+ms.keywords: 1394/PGET_LOCAL_HOST_INFO4, 1394stct_c06286e2-308d-4534-9a1b-14d3a04b5f86.xml, GET_LOCAL_HOST_INFO4, IEEE.get_local_host_info4, *PGET_LOCAL_HOST_INFO4, _GET_LOCAL_HOST_INFO4, PGET_LOCAL_HOST_INFO4, 1394/GET_LOCAL_HOST_INFO4, PGET_LOCAL_HOST_INFO4 structure pointer [Buses], GET_LOCAL_HOST_INFO4 structure [Buses]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	GET_LOCAL_HOST_INFO4
 product: Windows
 targetos: Windows
-req.typenames: GET_LOCAL_HOST_INFO4, *PGET_LOCAL_HOST_INFO4
+req.typenames: "*PGET_LOCAL_HOST_INFO4, GET_LOCAL_HOST_INFO4"
 ---
 
 # _GET_LOCAL_HOST_INFO4 structure
@@ -108,5 +108,5 @@ Specifies the argument that should be passed as the Context argument of the phys
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_LOCAL_HOST_INFO4 structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [IEEE\buses]:%20GET_LOCAL_HOST_INFO4 structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

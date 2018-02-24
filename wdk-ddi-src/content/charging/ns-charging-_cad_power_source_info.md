@@ -7,8 +7,8 @@ old-location: battery\cad_power_source_info.htm
 old-project: battery
 ms.assetid: FF204AC6-0D01-4C19-A852-0CC12095C43C
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: charging/BATTERY_INFORMATION, *PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO structure [Battery Devices], CAD_POWER_SOURCE_INFO, battery.cad_power_source_info, _CAD_POWER_SOURCE_INFO
+ms.date: 2/15/2018
+ms.keywords: "*PCAD_POWER_SOURCE_INFO, charging/BATTERY_INFORMATION, battery.cad_power_source_info, CAD_POWER_SOURCE_INFO structure [Battery Devices], CAD_POWER_SOURCE_INFO, _CAD_POWER_SOURCE_INFO"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	BATTERY_INFORMATION
 product: Windows
 targetos: Windows
-req.typenames: "*PCAD_POWER_SOURCE_INFO, CAD_POWER_SOURCE_INFO"
+req.typenames: CAD_POWER_SOURCE_INFO, *PCAD_POWER_SOURCE_INFO
 ---
 
 # _CAD_POWER_SOURCE_INFO structure

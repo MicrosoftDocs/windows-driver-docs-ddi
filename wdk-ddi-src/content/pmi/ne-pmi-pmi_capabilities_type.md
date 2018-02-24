@@ -7,8 +7,8 @@ old-location: powermeter\pmi_capabilities_type.htm
 old-project: powermeter
 ms.assetid: 6857f85b-c79a-4e80-a63f-1414aff61d1f
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: PMI_CAPABILITIES_TYPE, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], pmi/PmiMeteredHardware, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, pmi/PMI_CAPABILITIES_TYPE, PmiReportedCapabilities, pmi/PmiCapabilitiesMax, PmiCapabilitiesMax, powermeter.pmi_capabilities_type, PmiMeteredHardware, pmi/PmiReportedCapabilities
+ms.date: 2/15/2018
+ms.keywords: pmi/PMI_CAPABILITIES_TYPE, PmiMeteredHardware, pmi/PmiReportedCapabilities, powermeter.pmi_capabilities_type, pmi/PmiCapabilitiesMax, PmiReportedCapabilities, PowerMeterRef_4b81a5dd-357b-4a02-acc6-3a0538cbeffb.xml, PMI_CAPABILITIES_TYPE enumeration [Power Metering and Budgeting Devices], PMI_CAPABILITIES_TYPE, PmiCapabilitiesMax, pmi/PmiMeteredHardware
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -95,11 +95,7 @@ The <b>CapabilityType</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
-
-
-
-<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
+<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
@@ -107,7 +103,11 @@ The <b>CapabilityType</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities
 
 
 
-<a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
+<a href="..\pmi\ns-pmi-_pmi_metered_hardware_information.md">PMI_METERED_HARDWARE_INFORMATION</a>
+
+
+
+<a href="..\pmi\ns-pmi-_pmi_reported_capabilities.md">PMI_REPORTED_CAPABILITIES</a>
 
 
 
@@ -115,5 +115,5 @@ The <b>CapabilityType</b> member of the <a href="..\pmi\ns-pmi-_pmi_capabilities
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CAPABILITIES_TYPE enumeration%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_CAPABILITIES_TYPE enumeration%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\rilcbmsgconfig.htm
 old-project: netvista
 ms.assetid: c59f26b7-47ce-4bf9-b678-a2bb48c69754
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: ntddrilapitypes/RILCBMSGCONFIG, netvista.rilcbmsgconfig, *LPRILCBMSGCONFIG, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista], RILCBMSGCONFIG
+ms.date: 2/16/2018
+ms.keywords: RILCBMSGCONFIG, ntddrilapitypes/RILCBMSGCONFIG, *LPRILCBMSGCONFIG, netvista.rilcbmsgconfig, RILCBMSGCONFIG structure [Network Drivers Starting with Windows Vista]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	RILCBMSGCONFIG
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILCBMSGCONFIG, RILCBMSGCONFIG"
+req.typenames: RILCBMSGCONFIG, *LPRILCBMSGCONFIG
 ---
 
 # RILCBMSGCONFIG structure

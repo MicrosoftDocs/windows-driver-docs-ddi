@@ -7,8 +7,8 @@ old-location: ifsk\rxceinitiatevcdisconnect.htm
 old-project: ifsk
 ms.assetid: 978ddc02-9ff0-4798-879c-e4bc99081dcb
 ms.author: windowsdriverdev
-ms.date: 2/7/2018
-ms.keywords: ifsk.rxceinitiatevcdisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml, RxCeInitiateVCDisconnect function [Installable File System Drivers], rxce/RxCeInitiateVCDisconnect, RxCeInitiateVCDisconnect
+ms.date: 2/16/2018
+ms.keywords: RxCeInitiateVCDisconnect, rxref_1893aa5d-dda4-49f7-b4bb-dc9bdd75154a.xml, ifsk.rxceinitiatevcdisconnect, RxCeInitiateVCDisconnect function [Installable File System Drivers], rxce/RxCeInitiateVCDisconnect
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -40,7 +40,7 @@ apiname:
 -	RxCeInitiateVCDisconnect
 product: Windows
 targetos: Windows
-req.typenames: "*LPRILWRITEPHONEBOOKENTRYPARAMS, RILWRITEPHONEBOOKENTRYPARAMS"
+req.typenames: RILWRITEPHONEBOOKENTRYPARAMS, *LPRILWRITEPHONEBOOKENTRYPARAMS
 req.product: Windows 10 or later.
 ---
 
@@ -135,5 +135,5 @@ The <i>pVc</i> parameter passed to this routine was invalid.
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeInitiateVCDisconnect function%20 RELEASE:%20(2/7/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [ifsk\ifsk]:%20RxCeInitiateVCDisconnect function%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

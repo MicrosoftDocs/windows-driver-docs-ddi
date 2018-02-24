@@ -7,8 +7,8 @@ old-location: wdf\wdf_request_type__umdf_.htm
 old-project: wdf
 ms.assetid: a883f22e-0d6f-4755-882b-ad5a60a09271
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: umdf.wdf_request_type__umdf_, WdfRequestWrite, WdfRequestDeviceIoControl, wudfddi_types/WdfRequestInternalIoctl, WdfRequestCleanup, wdf.wdf_request_type__umdf_, WdfRequestUsb, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, WdfRequestSetInformation, WdfRequestUndefined, WdfRequestQueryInformation, wudfddi_types/WdfRequestTypeNoFormat, wudfddi_types/WdfRequestUndefined, wudfddi_types/WdfRequestCreate, wudfddi_types/WdfRequestFlushBuffers, WdfRequestFlushBuffers, wudfddi_types/WdfRequestUsb, wudfddi_types/WdfRequestMaximum, WdfRequestCreate, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestWrite, WdfRequestClose, WdfRequestTypeNoFormat, *PWDF_REQUEST_TYPE, WDF_REQUEST_TYPE enumeration, wudfddi_types/WdfRequestClose, WdfRequestInternalIoctl, WdfRequestMaximum, wudfddi_types/WdfRequestCleanup, wudfddi_types/WdfRequestOther, wudfddi_types/WDF_REQUEST_TYPE, WdfRequestRead, WDF_REQUEST_TYPE, wudfddi_types/WdfRequestSetInformation, _WDF_REQUEST_TYPE, WdfRequestOther, wudfddi_types/WdfRequestRead, wudfddi_types/WdfRequestDeviceIoControl
+ms.date: 2/20/2018
+ms.keywords: wudfddi_types/WdfRequestWrite, WdfRequestRead, *PWDF_REQUEST_TYPE, WdfRequestSetInformation, _WDF_REQUEST_TYPE, wudfddi_types/WdfRequestSetInformation, wudfddi_types/WdfRequestQueryInformation, wudfddi_types/WdfRequestFlushBuffers, WdfRequestQueryInformation, WdfRequestOther, WdfRequestInternalIoctl, wudfddi_types/WdfRequestRead, wudfddi_types/WdfRequestClose, umdf.wdf_request_type__umdf_, wudfddi_types/WdfRequestInternalIoctl, wdf.wdf_request_type__umdf_, wudfddi_types/WdfRequestCreate, WdfRequestUndefined, WdfRequestTypeNoFormat, WdfRequestWrite, wudfddi_types/WdfRequestUndefined, WDF_REQUEST_TYPE, WdfRequestCleanup, wudfddi_types/WdfRequestOther, wudfddi_types/WdfRequestUsb, WdfRequestClose, WdfRequestDeviceIoControl, wudfddi_types/WdfRequestCleanup, WdfRequestFlushBuffers, WdfRequestCreate, WdfRequestMaximum, umdfstructs_6faf9392-ee30-4144-a96c-7f1fcc329de8.xml, wudfddi_types/WdfRequestMaximum, wudfddi_types/WDF_REQUEST_TYPE, wudfddi_types/WdfRequestDeviceIoControl, WdfRequestUsb, WDF_REQUEST_TYPE enumeration, wudfddi_types/WdfRequestTypeNoFormat
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	WDF_REQUEST_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PWDF_REQUEST_TYPE, WDF_REQUEST_TYPE"
+req.typenames: WDF_REQUEST_TYPE, *PWDF_REQUEST_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
-      The <b>WDF_REQUEST_TYPE</b> enumeration identifies the types of I/O requests that a UMDF request object can represent.
+The <b>WDF_REQUEST_TYPE</b> enumeration identifies the types of I/O requests that a UMDF request object can represent.
 
 
 ## -syntax
@@ -173,15 +173,11 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 ## -see-also
 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556875">IQueueCallbackRead::OnRead</a>
+
+
+
 <a href="https://msdn.microsoft.com/library/windows/hardware/ff556854">IQueueCallbackDeviceIoControl::OnDeviceIoControl</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
 
 
@@ -189,7 +185,11 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff554910">IFileCallbackClose::OnCloseFile</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
+
+
+
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff554905">IFileCallbackCleanup::OnCleanupFile</a>
 
 
 
@@ -197,7 +197,7 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff556885">IQueueCallbackWrite::OnWrite</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff556841">IQueueCallbackCreate::OnCreateFile</a>
 
 
 
@@ -205,5 +205,5 @@ For the KMDF version of this enumeration, see <a href="..\wudfddi_types\ne-wudfd
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_REQUEST_TYPE enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

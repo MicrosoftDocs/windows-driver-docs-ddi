@@ -7,8 +7,8 @@ old-location: wdf\wdf_interrupt_priority_umdf.htm
 old-project: wdf
 ms.assetid: ECAB84B8-1C39-473C-A6AE-41D1EBDB1FF4
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: wudfinterrupt/WdfIrqPriorityNormal, wudfinterrupt/WDF_INTERRUPT_PRIORITY, WdfIrqPriorityLow, *PWDF_INTERRUPT_PRIORITY, umdf.wdf_interrupt_priority, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY, WdfIrqPriorityNormal, PWDF_INTERRUPT_PRIORITY enumeration pointer, wudfinterrupt/WdfIrqPriorityUndefined, WdfIrqPriorityHigh, WdfIrqPriorityUndefined, wudfinterrupt/WdfIrqPriorityLow, wudfinterrupt/WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY, _WDF_INTERRUPT_PRIORITY, WDF_INTERRUPT_PRIORITY enumeration, wdf.wdf_interrupt_priority_umdf
+ms.date: 2/20/2018
+ms.keywords: wudfinterrupt/WdfIrqPriorityLow, wudfinterrupt/WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY enumeration pointer, WdfIrqPriorityNormal, WdfIrqPriorityUndefined, WDF_INTERRUPT_PRIORITY enumeration, wudfinterrupt/WdfIrqPriorityUndefined, umdf.wdf_interrupt_priority, _WDF_INTERRUPT_PRIORITY, wudfinterrupt/WdfIrqPriorityNormal, WDF_INTERRUPT_PRIORITY, wudfinterrupt/PWDF_INTERRUPT_PRIORITY, *PWDF_INTERRUPT_PRIORITY, wudfinterrupt/WDF_INTERRUPT_PRIORITY, WdfIrqPriorityHigh, PWDF_INTERRUPT_PRIORITY, WdfIrqPriorityLow, wdf.wdf_interrupt_priority_umdf
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -53,7 +53,7 @@ req.product: Windows 10 or later.
 <p class="CCE_Message">[<b>Warning:</b> UMDF 2 is the latest version of UMDF and supersedes UMDF 1.  All new UMDF drivers should be written using UMDF 2.  No new features are being added to UMDF 1 and there is limited support for UMDF 1 on newer versions of Windows 10.  Universal Windows drivers must use UMDF 2.  For more info, see <a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/wdf/getting-started-with-umdf-version-2">Getting Started with UMDF</a>.]
 
 
-      The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a> enumeration type identifies relative priorities for device interrupts.
+The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_INTERRUPT_PRIORITY</a> enumeration type identifies relative priorities for device interrupts.
 
 
 ## -syntax
@@ -113,5 +113,5 @@ The <a href="..\wudfinterrupt\ne-wudfinterrupt-_wdf_interrupt_priority.md">WDF_I
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_PRIORITY enumeration%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WDF_INTERRUPT_PRIORITY enumeration%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

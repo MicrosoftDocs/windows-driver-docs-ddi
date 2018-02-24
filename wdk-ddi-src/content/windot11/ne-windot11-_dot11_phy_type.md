@@ -7,8 +7,8 @@ old-location: netvista\dot11_phy_type.htm
 old-project: netvista
 ms.assetid: 45ef8085-512e-4f9b-a7ea-e4f445555cf8
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: dot11_phy_type_erp, Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, dot11_phy_type_ofdm, PDOT11_PHY_TYPE, dot11_phy_type_unknown, DOT11_PHY_TYPE, windot11/dot11_phy_type_IHV_start, windot11/dot11_phy_type_fhss, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_phy_type_IHV_end, *PDOT11_PHY_TYPE, dot11_phy_type_ht, dot11_phy_type_irbaseband, dot11_phy_type_IHV_start, windot11/DOT11_PHY_TYPE, dot11_phy_type_vht, _DOT11_PHY_TYPE, windot11/dot11_phy_type_vht, dot11_phy_type_hrdsss, windot11/dot11_phy_type_ht, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], netvista.dot11_phy_type, windot11/dot11_phy_type_hrdsss, windot11/dot11_phy_type_irbaseband, windot11/PDOT11_PHY_TYPE, dot11_phy_type_any, windot11/dot11_phy_type_ofdm, windot11/dot11_phy_type_any, dot11_phy_type_dsss, windot11/dot11_phy_type_unknown, dot11_phy_type_IHV_end, windot11/dot11_phy_type_dsss, dot11_phy_type_fhss, windot11/dot11_phy_type_erp
+ms.date: 2/16/2018
+ms.keywords: windot11/dot11_phy_type_unknown, netvista.dot11_phy_type, dot11_phy_type_ofdm, windot11/dot11_phy_type_ht, Native_802.11_data_types_814496a3-4f7e-44a0-925c-0dbf64eb3f72.xml, dot11_phy_type_unknown, dot11_phy_type_dsss, *PDOT11_PHY_TYPE, windot11/DOT11_PHY_TYPE, windot11/dot11_phy_type_hrdsss, windot11/PDOT11_PHY_TYPE, dot11_phy_type_IHV_start, _DOT11_PHY_TYPE, dot11_phy_type_vht, windot11/dot11_phy_type_dsss, dot11_phy_type_IHV_end, windot11/dot11_phy_type_vht, dot11_phy_type_fhss, windot11/dot11_phy_type_fhss, windot11/dot11_phy_type_ofdm, dot11_phy_type_ht, dot11_phy_type_hrdsss, DOT11_PHY_TYPE enumeration [Network Drivers Starting with Windows Vista], dot11_phy_type_erp, dot11_phy_type_irbaseband, PDOT11_PHY_TYPE, windot11/dot11_phy_type_any, dot11_phy_type_any, PDOT11_PHY_TYPE enumeration pointer [Network Drivers Starting with Windows Vista], windot11/dot11_phy_type_IHV_start, windot11/dot11_phy_type_erp, windot11/dot11_phy_type_irbaseband, windot11/dot11_phy_type_IHV_end, DOT11_PHY_TYPE
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum
@@ -40,7 +40,7 @@ apiname:
 -	DOT11_PHY_TYPE
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT11_PHY_TYPE, DOT11_PHY_TYPE"
+req.typenames: DOT11_PHY_TYPE, *PDOT11_PHY_TYPE
 req.product: Windows 10 or later.
 ---
 
@@ -174,16 +174,8 @@ An IHV can assign a value for its proprietary PHY types from
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
-
-
-
 <a href="..\windot11\ns-windot11-dot11_association_completion_parameters.md">
    DOT11_ASSOCIATION_COMPLETION_PARAMETERS</a>
-
-
-
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
 
 
 
@@ -191,9 +183,17 @@ An IHV can assign a value for its proprietary PHY types from
 
 
 
- 
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569413">OID_DOT11_SCAN_REQUEST</a>
+
+
+
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-dot11-supported-phy-types">OID_DOT11_SUPPORTED_PHY_TYPES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_TYPE enumeration%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_PHY_TYPE enumeration%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

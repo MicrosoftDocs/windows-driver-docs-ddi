@@ -7,8 +7,8 @@ old-location: powermeter\pmi_metered_hardware_information.htm
 old-project: powermeter
 ms.assetid: 44dcfd41-7f0e-487e-8b08-5f301f17e7c1
 ms.author: windowsdriverdev
-ms.date: 12/14/2017
-ms.keywords: pmi/PMI_METERED_HARDWARE_INFORMATION, PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml, pmi/PPMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], _PMI_METERED_HARDWARE_INFORMATION, PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], PMI_METERED_HARDWARE_INFORMATION, *PPMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION
+ms.date: 2/15/2018
+ms.keywords: PowerMeterRef_34a15685-680d-467d-bd78-2c933d614214.xml, PMI_METERED_HARDWARE_INFORMATION structure [Power Metering and Budgeting Devices], PMI_METERED_HARDWARE_INFORMATION, pmi/PPMI_METERED_HARDWARE_INFORMATION, *PPMI_METERED_HARDWARE_INFORMATION, powermeter.pmi_metered_hardware_information, PPMI_METERED_HARDWARE_INFORMATION structure pointer [Power Metering and Budgeting Devices], pmi/PMI_METERED_HARDWARE_INFORMATION, _PMI_METERED_HARDWARE_INFORMATION, PPMI_METERED_HARDWARE_INFORMATION
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -93,17 +93,17 @@ If the query request completes successfully, the request returns a <a href="..\p
 
 ## -see-also
 
-<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
-
-
-
 <a href="..\pmi\ni-pmi-ioctl_pmi_get_capabilities.md">IOCTL_PMI_GET_CAPABILITIES</a>
 
 
 
- 
+<a href="..\pmi\ns-pmi-_pmi_capabilities.md">PMI_CAPABILITIES</a>
+
+
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_METERED_HARDWARE_INFORMATION structure%20 RELEASE:%20(12/14/2017)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [powermeter\powermeter]:%20PMI_METERED_HARDWARE_INFORMATION structure%20 RELEASE:%20(2/15/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

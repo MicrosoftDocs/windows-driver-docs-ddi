@@ -4,11 +4,11 @@ title: IDebugControl3::GetNumberEventFilters method
 author: windows-driver-content
 description: The GetNumberEventFilters method returns the number of event filters currently used by the engine.
 old-location: debugger\getnumbereventfilters.htm
-old-project: debugger
+old-project: Debugger
 ms.assetid: 6bb80c64-bb2e-4388-b1a8-479bdaa8b635
 ms.author: windowsdriverdev
-ms.date: 1/19/2018
-ms.keywords: IDebugControl interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, IDebugControl3, debugger.getnumbereventfilters, dbgeng/IDebugControl::GetNumberEventFilters, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, IDebugControl, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl::GetNumberEventFilters, dbgeng/IDebugControl2::GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl2::GetNumberEventFilters, IDebugControl2, IDebugControl3::GetNumberEventFilters, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method
+ms.date: 2/15/2018
+ms.keywords: IDebugControl3, IDebugControl_de1a980a-b0cb-486b-a292-1a9463a231c6.xml, IDebugControl3::GetNumberEventFilters, IDebugControl::GetNumberEventFilters, IDebugControl, IDebugControl2, dbgeng/IDebugControl::GetNumberEventFilters, dbgeng/IDebugControl2::GetNumberEventFilters, IDebugControl2 interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters method [Windows Debugging], IDebugControl3 interface, IDebugControl2::GetNumberEventFilters, IDebugControl3 interface [Windows Debugging], GetNumberEventFilters method, GetNumberEventFilters, GetNumberEventFilters method [Windows Debugging], IDebugControl interface, GetNumberEventFilters method [Windows Debugging], IDebugControl2 interface, dbgeng/IDebugControl3::GetNumberEventFilters, IDebugControl interface [Windows Debugging], GetNumberEventFilters method, debugger.getnumbereventfilters, GetNumberEventFilters method [Windows Debugging]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: method
@@ -42,7 +42,7 @@ apiname:
 -	IDebugControl3.GetNumberEventFilters
 product: Windows
 targetos: Windows
-req.typenames: "*PDOT4_ACTIVITY, DOT4_ACTIVITY"
+req.typenames: DOT4_ACTIVITY, *PDOT4_ACTIVITY
 ---
 
 # IDebugControl3::GetNumberEventFilters method

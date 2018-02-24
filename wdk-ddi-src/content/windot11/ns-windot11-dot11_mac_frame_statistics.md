@@ -7,8 +7,8 @@ old-location: netvista\dot11_mac_frame_statistics.htm
 old-project: netvista
 ms.assetid: 57c75a4c-7224-45d5-af96-6e969548248a
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: DOT11_MAC_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], PDOT11_MAC_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], netvista.dot11_mac_frame_statistics, PDOT11_MAC_FRAME_STATISTICS, Native_802.11_data_types_f04e9263-5c70-402b-a2d1-8f4689b4a13e.xml, *PDOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS, windot11/PDOT11_MAC_FRAME_STATISTICS, windot11/DOT11_MAC_FRAME_STATISTICS
+ms.date: 2/16/2018
+ms.keywords: "*PDOT11_MAC_FRAME_STATISTICS, windot11/PDOT11_MAC_FRAME_STATISTICS, windot11/DOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS, PDOT11_MAC_FRAME_STATISTICS structure pointer [Network Drivers Starting with Windows Vista], Native_802.11_data_types_f04e9263-5c70-402b-a2d1-8f4689b4a13e.xml, PDOT11_MAC_FRAME_STATISTICS, DOT11_MAC_FRAME_STATISTICS structure [Network Drivers Starting with Windows Vista], netvista.dot11_mac_frame_statistics"
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -214,8 +214,7 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
-   Statistics</a>
+<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
 
 
 
@@ -223,17 +222,18 @@ The members of the DOT11_MAC_STATISTICS structure are used to record MAC-level s
 
 
 
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/extensible-station-mac-statistics">Extensible Station MAC
+   Statistics</a>
+
+
+
 <a href="https://msdn.microsoft.com/e6bd2abf-faa2-463f-91df-a15924afae96">Native 802.11 Statistics</a>
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569420">OID_DOT11_STATISTICS</a>
-
-
-
  
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_MAC_FRAME_STATISTICS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11_MAC_FRAME_STATISTICS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

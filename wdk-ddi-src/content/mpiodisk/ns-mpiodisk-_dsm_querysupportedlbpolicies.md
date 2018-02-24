@@ -7,8 +7,8 @@ old-location: storage\dsm_querysupportedlbpolicies.htm
 old-project: storage
 ms.assetid: c9c04601-783a-454d-a80e-be8aa5df519a
 ms.author: windowsdriverdev
-ms.date: 1/10/2018
-ms.keywords: DSM_QuerySupportedLBPolicies structure [Storage Devices], structs-scsibus_44692da4-cfd1-4492-94b5-1f601fa53fd0.xml, *PDSM_QuerySupportedLBPolicies, PDSM_QuerySupportedLBPolicies structure pointer [Storage Devices], storage.dsm_querysupportedlbpolicies, PDSM_QuerySupportedLBPolicies, mpiodisk/PDSM_QuerySupportedLBPolicies, mpiodisk/DSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies, _DSM_QuerySupportedLBPolicies
+ms.date: 2/16/2018
+ms.keywords: storage.dsm_querysupportedlbpolicies, DSM_QuerySupportedLBPolicies structure [Storage Devices], _DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies, PDSM_QuerySupportedLBPolicies, mpiodisk/DSM_QuerySupportedLBPolicies, structs-scsibus_44692da4-cfd1-4492-94b5-1f601fa53fd0.xml, PDSM_QuerySupportedLBPolicies structure pointer [Storage Devices], mpiodisk/PDSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,7 +40,7 @@ apiname:
 -	DSM_QuerySupportedLBPolicies
 product: Windows
 targetos: Windows
-req.typenames: "*PDSM_QuerySupportedLBPolicies, DSM_QuerySupportedLBPolicies"
+req.typenames: DSM_QuerySupportedLBPolicies, *PDSM_QuerySupportedLBPolicies
 ---
 
 # _DSM_QuerySupportedLBPolicies structure

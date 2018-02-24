@@ -7,8 +7,8 @@ old-location: display\iddcx_endpoint_diagnostic_info.htm
 old-project: display
 ms.assetid: 70be09ed-5633-464b-b311-f671efe83a54
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
-ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO, iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], display.iddcx_endpoint_diagnostic_info
+ms.date: 2/20/2018
+ms.keywords: IDDCX_ENDPOINT_DIAGNOSTIC_INFO structure [Display Devices], iddcx/IDDCX_ENDPOINT_DIAGNOSTIC_INFO, IDDCX_ENDPOINT_DIAGNOSTIC_INFO, display.iddcx_endpoint_diagnostic_info
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct

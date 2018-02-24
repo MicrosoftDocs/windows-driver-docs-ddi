@@ -7,8 +7,8 @@ old-location: wdf\wdfusbtargetdevicegetiotarget.htm
 old-project: wdf
 ms.assetid: 8c598cb8-083a-459d-b94b-958b7d625c88
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
-ms.keywords: PFN_WDFUSBTARGETDEVICEGETIOTARGET, wdfusb/WdfUsbTargetDeviceGetIoTarget, WdfUsbTargetDeviceGetIoTarget method, DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, wdf.wdfusbtargetdevicegetiotarget, WdfUsbTargetDeviceGetIoTarget, kmdf.wdfusbtargetdevicegetiotarget
+ms.date: 2/20/2018
+ms.keywords: WdfUsbTargetDeviceGetIoTarget, wdfusb/WdfUsbTargetDeviceGetIoTarget, wdf.wdfusbtargetdevicegetiotarget, kmdf.wdfusbtargetdevicegetiotarget, DFUsbRef_d65932cf-8891-4687-a784-eb6f794759fd.xml, WdfUsbTargetDeviceGetIoTarget method
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: function
@@ -131,5 +131,5 @@ The following code example creates a request object and verifies that the framew
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceGetIoTarget method%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [wdf\wdf]:%20WdfUsbTargetDeviceGetIoTarget method%20 RELEASE:%20(2/20/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

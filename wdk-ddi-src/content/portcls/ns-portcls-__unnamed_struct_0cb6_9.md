@@ -1,14 +1,14 @@
 ---
 UID: NS:portcls.__unnamed_struct_0cb6_9
-title: "*PPCFILTER_DESCRIPTOR"
+title: PCFILTER_DESCRIPTOR
 author: windows-driver-content
 description: The PCFILTER_DESCRIPTOR structure describes a miniport driver's implementation of a filter. The structure specifies the filter's pins, nodes, connections, and properties.
 old-location: audio\pcfilter_descriptor.htm
 old-project: audio
 ms.assetid: 11fd8fc0-98aa-4b06-973c-2b175144da42
 ms.author: windowsdriverdev
-ms.date: 2/8/2018
-ms.keywords: PPCFILTER_DESCRIPTOR, audio.pcfilter_descriptor, PPCFILTER_DESCRIPTOR structure pointer [Audio Devices], audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, PCFILTER_DESCRIPTOR structure [Audio Devices], *PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR, portcls/PPCFILTER_DESCRIPTOR, portcls/PCFILTER_DESCRIPTOR
+ms.date: 2/21/2018
+ms.keywords: audio.pcfilter_descriptor, portcls/PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR, audpc-struct_8413fa35-0c5e-436a-8b0d-b7b08bc73621.xml, PCFILTER_DESCRIPTOR, PPCFILTER_DESCRIPTOR, portcls/PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR structure [Audio Devices], PPCFILTER_DESCRIPTOR structure pointer [Audio Devices]
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -40,10 +40,10 @@ apiname:
 -	PCFILTER_DESCRIPTOR
 product: Windows
 targetos: Windows
-req.typenames: "*PPCFILTER_DESCRIPTOR, PCFILTER_DESCRIPTOR"
+req.typenames: PCFILTER_DESCRIPTOR, *PPCFILTER_DESCRIPTOR
 ---
 
-# *PPCFILTER_DESCRIPTOR structure
+# PCFILTER_DESCRIPTOR structure
 
 
 ## -description
@@ -211,7 +211,7 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
 ## -see-also
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff537688">PCCONNECTION_DESCRIPTOR</a>
+<a href="..\portcls\ns-portcls-__unnamed_struct_0cb6_8.md">PCNODE_DESCRIPTOR</a>
 
 
 
@@ -235,5 +235,5 @@ A port driver obtains the miniport driver's filter descriptor by calling the <a 
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCFILTER_DESCRIPTOR structure%20 RELEASE:%20(2/8/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [audio\audio]:%20PCFILTER_DESCRIPTOR structure%20 RELEASE:%20(2/21/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

@@ -7,8 +7,8 @@ old-location: netvista\ndis_offload_parameters.htm
 old-project: netvista
 ms.assetid: ceb6647a-a43e-4ab1-88d4-49927103ecba
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: NDIS_ENCAPSULATION_TYPE_GRE_MAC, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], _NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_REVISION_1, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_SET_ON, NDIS_OFFLOAD_SET_OFF, *PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, netvista.ndis_offload_parameters, ntddndis/PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, ntddndis/NDIS_OFFLOAD_PARAMETERS, PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED
+ms.date: 2/16/2018
+ms.keywords: NDIS_OFFLOAD_PARAMETERS_IPSECV2_DISABLED, NDIS_OFFLOAD_PARAMETERS_LSOV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_RSC_ENABLED, PNDIS_OFFLOAD_PARAMETERS structure pointer [Network Drivers Starting with Windows Vista], NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS structure [Network Drivers Starting with Windows Vista], ntddndis/NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_ENABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_AND_ESP_ENABLED, PNDIS_OFFLOAD_PARAMETERS, *PNDIS_OFFLOAD_PARAMETERS, _NDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_IPSECV2_AH_ENABLED, NDIS_OFFLOAD_SET_NO_CHANGE, netvista.ndis_offload_parameters, NDIS_OFFLOAD_PARAMETERS_LSOV2_ENABLED, NDIS_OFFLOAD_PARAMETERS_RSC_DISABLED, NDIS_OFFLOAD_PARAMETERS_IPSECV2_ESP_ENABLED, NDIS_ENCAPSULATION_TYPE_GRE_MAC, NDIS_OFFLOAD_PARAMETERS_IPSECV1_DISABLED, NDIS_OFFLOAD_PARAMETERS_NO_CHANGE, NDIS_OFFLOAD_PARAMETERS_REVISION_2, NDIS_OFFLOAD_PARAMETERS_IPSECV1_ESP_ENABLED, NDIS_OFFLOAD_PARAMETERS_LSOV2_DISABLED, NDIS_OFFLOAD_SET_OFF, tcpip_offload_ref_9ae50974-12a7-4c63-973e-27684a4f1474.xml, ntddndis/PNDIS_OFFLOAD_PARAMETERS, NDIS_OFFLOAD_PARAMETERS_LSOV1_ENABLED, NDIS_OFFLOAD_PARAMETERS_REVISION_3, NDIS_OFFLOAD_PARAMETERS_IPSECV1_AH_AND_ESP_ENABLED, NDIS_OFFLOAD_SET_ON, NDIS_OFFLOAD_PARAMETERS_REVISION_1
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: struct
@@ -588,7 +588,29 @@ The IPsec offload version 2A H and ESP features are enabled for transmit and rec
  
 
 
-### -field RscIPv4
+### -field EncapsulationProtocolParameters
+
+ 
+
+
+### -field EncapsulationProtocolParameters.VxlanParameters
+
+ 
+
+
+### -field EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber
+
+ 
+
+
+### -field _ENCAPSULATION_PROTOCOL_PARAMETERS
+
+ 
+
+
+
+
+#### - RscIPv4
 
 Indicates Receive Segment Coalescing state for IPv4.
 
@@ -631,7 +653,7 @@ The RSC state is disabled.
  
 
 
-### -field RscIPv6
+#### - RscIPv6
 
 Indicates Receive Segment Coalescing state for IPv6.
 
@@ -674,7 +696,7 @@ The RSC state is disabled.
  
 
 
-### -field EncapsulatedPacketTaskOffload
+#### - EncapsulatedPacketTaskOffload
 
 A protocol driver sets <b>EncapsulatedPacketTaskOffload</b> as follows: 
 
@@ -722,7 +744,7 @@ Disables NVGRE task offloads.
  
 
 
-### -field EncapsulationTypes
+#### - EncapsulationTypes
 
 This field is effective only when the <b>EncapsulatedPacketTaskOffload</b> is set to <b>NDIS_OFFLOAD_SET_ON</b>. If the <b>EncapsulatedPacketTaskOffload</b> member is not set to <b>NDIS_OFFLOAD_SET_ON</b>, this member is zero. A protocol driver must set <b>EncapsulationTypes</b> to the bitwise OR of the flags corresponding to encapsulation types that it requires. It can select flags from the following:
 
@@ -744,33 +766,6 @@ Specifies GRE MAC  encapsulation (NVGRE).
 </tr>
 </table>
  
-
-
-### -field EncapsulationProtocolParameters
-
- 
-
-
-### -field EncapsulationProtocolParameters.VxlanParameters
-
- 
-
-
-### -field EncapsulationProtocolParameters.VxlanParameters.VxlanUDPPortNumber
-
- 
-
-
-### -field EncapsulationProtocolParameters.Value
-
- 
-
-
-### -field _ENCAPSULATION_PROTOCOL_PARAMETERS
-
- 
-
-
 
 
 ## -remarks
@@ -808,8 +803,7 @@ The preceding members can have one of the following values:
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
-   OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
+<a href="..\ntddndis\ns-ntddndis-_ndis_object_header.md">NDIS_OBJECT_HEADER</a>
 
 
 
@@ -817,7 +811,8 @@ The preceding members can have one of the following values:
 
 
 
-<a href="https://msdn.microsoft.com/library/windows/hardware/ff569807">OID_TCP_OFFLOAD_PARAMETERS</a>
+<a href="https://docs.microsoft.com/en-us/windows-hardware/drivers/network/oid-tcp-connection-offload-hardware-capabilities">
+   OID_TCP_OFFLOAD_HARDWARE_CAPABILITIES</a>
 
 
 
@@ -825,5 +820,5 @@ The preceding members can have one of the following values:
 
  
 
-<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OFFLOAD_PARAMETERS structure%20 RELEASE:%20(1/18/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20NDIS_OFFLOAD_PARAMETERS structure%20 RELEASE:%20(2/16/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
 

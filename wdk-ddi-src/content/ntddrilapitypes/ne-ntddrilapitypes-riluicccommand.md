@@ -7,8 +7,8 @@ old-location: netvista\riluicccommand.htm
 old-project: netvista
 ms.assetid: 1c2ded31-9d2d-46e4-a23f-a48528fd448f
 ms.author: windowsdriverdev
-ms.date: 1/18/2018
-ms.keywords: RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], RIL_UICCCMD_READRECORD, RIL_UICCCMD_UPDATERECORD, RIL_UICCCMD_UPDATEBINARY, netvista.riluicccommand, ntddrilapitypes/RIL_UICCCMD_READRECORD, RIL_UICCCMD_MAX, ntddrilapitypes/RIL_UICCCMD_MAX, ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD, RILUICCCOMMAND
+ms.date: 2/16/2018
+ms.keywords: RILUICCCOMMAND, RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_READRECORD, ntddrilapitypes/RIL_UICCCMD_MAX, RIL_UICCCMD_MAX, ntddrilapitypes/RIL_UICCCMD_UPDATERECORD, RILUICCCOMMAND enumeration [Network Drivers Starting with Windows Vista], ntddrilapitypes/RILUICCCOMMAND, ntddrilapitypes/RIL_UICCCMD_READRECORD, ntddrilapitypes/RIL_UICCCMD_UPDATEBINARY, RIL_UICCCMD_UPDATERECORD, netvista.riluicccommand
 ms.prod: windows-hardware
 ms.technology: windows-devices
 ms.topic: enum

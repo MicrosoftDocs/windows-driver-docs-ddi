@@ -7,7 +7,7 @@ old-location: display\pfnd3d12ddi_setviewinstancemask_0033.htm
 old-project: display
 ms.assetid: 0A41AC01-9F45-4026-9451-AEF2732C9084
 ms.author: windowsdriverdev
-ms.date: 12/29/2017
+ms.date: 2/20/2018
 ms.keywords: display.pfnd3d12ddi_setviewinstancemask_0033, PFND3D12DDI_SETVIEWINSTANCEMASK_0033 callback function [Display Devices], PFND3D12DDI_SETVIEWINSTANCEMASK_0033, d3d12umddi/PFND3D12DDI_SETVIEWINSTANCEMASK_0033
 ms.prod: windows-hardware
 ms.technology: windows-devices

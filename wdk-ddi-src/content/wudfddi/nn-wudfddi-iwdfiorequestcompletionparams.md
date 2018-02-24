@@ -7,7 +7,7 @@ old-location: wdf\iwdfiorequestcompletionparams.htm
 old-project: wdf
 ms.assetid: 36bed6be-7202-4dff-989d-57d790b8eb52
 ms.author: windowsdriverdev
-ms.date: 1/11/2018
+ms.date: 2/20/2018
 ms.keywords: wdf.iwdfiorequestcompletionparams, IWDFIoRequestCompletionParams interface, IWDFIoRequestCompletionParams interface, described, IWDFIoRequestCompletionParams, wudfddi/IWDFIoRequestCompletionParams, UMDFRequestObjectRef_0670626e-575e-482b-bed6-da7d7d86495d.xml, umdf.iwdfiorequestcompletionparams
 ms.prod: windows-hardware
 ms.technology: windows-devices
@@ -40,7 +40,7 @@ apiname:
 -	IWDFIoRequestCompletionParams
 product: Windows
 targetos: Windows
-req.typenames: "*PPOWER_ACTION, POWER_ACTION"
+req.typenames: POWER_ACTION, *PPOWER_ACTION
 req.product: Windows 10 or later.
 ---
 
