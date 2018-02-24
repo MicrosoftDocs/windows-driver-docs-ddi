@@ -62,6 +62,9 @@ A pointer to the client's implementation of the *[EVT_NET_ADAPTER_CREATE_TXQUEUE
  
 ### -field EvtAdapterCreateRxQueue
 A pointer to the client's implementation of the *[EVT_NET_ADAPTER_CREATE_RXQUEUE](nc-netadapter-evt_net_adapter_create_rxqueue.md)* event callback.
+
+### -field EvtAdapterCreateRssQueueGroup
+An optional pointer to the client's implementation of the *[EVT_NET_ADAPTER_CREATE_RSS_QUEUE_GROUP](nc-netadapter-evt_net_adapter_create_rssqueue_group.md)* event callback. 
  
 ### -field NetRequestObjectAttributes
 Optional WDF object attributes associated with the NETREQUEST objects, or NULL. If non-NULL, all NETREQUESTs created by the framework will have these attributes.
@@ -74,6 +77,8 @@ Call [NET_ADAPTER_CONFIG_INIT](nf-netadapter-net_adapter_config_init.md) to init
 
 In NetAdapterCx version 1.1, the **Type** member from version 1.0 was removed.
 
-The minimum NetAdapterCx version for **NET_ADAPTER_CONFIG** is 1.1.
+In NetAdapterCx version 1.2, the **EvtAdapterCreateRssQueueGroup** member was added.
+
+The minimum NetAdapterCx version for **NET_ADAPTER_CONFIG** is 1.2.
 
 ## -see-also

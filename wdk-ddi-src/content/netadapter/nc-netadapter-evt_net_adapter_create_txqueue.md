@@ -2,7 +2,7 @@
 UID: NC:netadapter.EVT_NET_ADAPTER_CREATE_TXQUEUE
 title: EVT_NET_ADAPTER_CREATE_TXQUEUE
 author: windows-driver-content
-description: The client driver's implementation of the EVT_NET_ADAPTER_CREATE_TXQUEUE event callback function that sets up a transmit queue.
+description: The client driver's implementation of the *EvtNetAdapterCreateTxQueue* event callback function that sets up a transmit (Tx) queue.
 ms.assetid: 50d681dc-8d45-45d4-aef6-149ee53c1284
 ms.author: windowsdriverdev
 ms.date: 02/05/2018
@@ -49,7 +49,7 @@ req.product: Windows 10 or later.
 >
 > NetAdapterCx is preview only in Windows 10, version 1803.
 
-The client driver's implementation of the **EVT_NET_ADAPTER_CREATE_TXQUEUE** event callback function that sets up a transmit queue.
+The client driver's implementation of the *EvtNetAdapterCreateTxQueue* event callback function that sets up a transmit (Tx) queue.
 
 ## -prototype
 
@@ -90,18 +90,18 @@ The **NETTXQUEUE_INIT** structure is an opaque structure that is defined and all
 
 In this callback, the client driver might call [NetTxQueueInitGetQueueId](../nettxqueue/nf-nettxqueue-nettxqueueinitgetqueueid.md) to retrieve the identifier of the receive queue to set up.
 
-Next, the client calls [NetTxQueueCreate](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) to allocate a queue. If [NetTxQueueCreate](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) fails, the *EVT_NET_ADAPTER_CREATE_TXQUEUE* callback function should return an error code.
+Next, the client calls [NetTxQueueCreate](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) to allocate a queue. If [NetTxQueueCreate](../nettxqueue/nf-nettxqueue-nettxqueuecreate.md) fails, the *EvtNetAdapterCreateTxQueue* callback function should return an error code.
 
 To retrieve the ring buffer associated with a given queue, call [NetTxQueueGetRingBuffer](../nettxqueue/nf-nettxqueue-nettxqueuegetringbuffer.md).
 
-The minimum NetAdapterCx version for **EVT_NET_ADAPTER_CREATE_TXQUEUE** is 1.0.
+The minimum NetAdapterCx version for *EvtNetAdapterCreateTxQueue* is 1.0.
 
 ### Example
+NetAdapterCx calls *EvtNetAdapterCreateTxQueue* at the very end of the [power-up sequence](https://docs.microsoft.com/windows-hardware/drivers/netcx/power-up-sequence-for-a-netadaptercx-client-driver). To configure additional properties for its Tx queues, such as DMA, the client driver sets its Tx capabilities in the optional *[EvtNetAdapterSetCapabilities](nc-netadapter-evt_net_adapter_set_capabilities.md)* callback function that is called earlier in the power-up sequence before D0 entry.
 
-> [!TIP]
-> This example transmit queue uses two driver-defined packet contexts - one called MY_TX_PACKET_CONTEXT, and a second called MY_TCB to assist with transmit operations. For more info about setting up this second example packet context and initializing it, see [NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE](../netadapterpacket/nf-netadapterpacket-net_packet_context_attributes_init_type.md).
-> 
-> Error handling code has been excised from this example for brevity and clarity.
+This example transmit queue uses two driver-defined packet contexts - one called MY_TX_PACKET_CONTEXT, and a second called MY_TCB to assist with transmit operations. For more info about setting up this second example packet context and initializing it, see [NET_PACKET_CONTEXT_ATTRIBUTES_INIT_TYPE](../netadapterpacket/nf-netadapterpacket-net_packet_context_attributes_init_type.md).
+
+Error handling code has been left out of this example for clarity.
 
 ```c++
 NTSTATUS

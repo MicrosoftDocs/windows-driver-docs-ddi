@@ -62,15 +62,6 @@ A pointer to the client driver's *[EVT_RXQUEUE_SET_NOTIFICATION_ENABLED](nc-netr
  
 ### -field EvtRxQueueAdvance
 A pointer to the client driver's *[EVT_RXQUEUE_ADVANCE](nc-netrxqueue-evt_rxqueue_advance.md)* event callback function. This callback function is required.
- 
-### -field AllocationSize
-The size of each buffer. If non-zero, NetAdapterCx allocates receive buffers for each packet in the queue's ring buffer. If the client initialized a [NET_RXQUEUE_DMA_ALLOCATOR_CONFIG](ns-netrxqueue-_net_rxqueue_dma_allocator_config.md) structure by calling [NET_RXQUEUE_DMA_ALLOCATOR_CONFIG_INIT](nf-netrxqueue-net_rxqueue_dma_allocator_config_init.md), NetAdapterCx pre-maps virtual addresses in the receive buffers to fixed physical addresses. If zero, the client provides a receive buffer for each receive fragment.
- 
-### -field AlignmentRequirement
-The alignment requirement, in bytes, for each receive buffer. This value must be one less than the alignment boundary. For example, specify 15 for a 16-byte alignment boundary. You can also use one of the **FILE_Xxxx_ALIGNMENT** constants that are defined in Wdm.h. If unspecified, **AlignmentRequirement** defaults to the value returned by [WdfDeviceGetAlignmentRequirement](../wdfdevice/nf-wdfdevice-wdfdevicegetalignmentrequirement.md) for the adapter's associated device object.
- 
-### -field RingBufferNumberOfElementsHint
-A hint at the number of elements for the ring buffer. Set this member if the client driver requires a minimum size for the buffer. If this member is set to **0**, NetAdapterCx will set the ring buffer size to the default value.
 
 ## -remarks
 Call [NET_RXQUEUE_CONFIG_INIT](nf-netrxqueue-net_rxqueue_config_init.md) to initialize this structure.
@@ -79,8 +70,8 @@ The **NET_RXQUEUE_CONFIG** structure is an input parameter to [NetRxQueueCreate]
 
 In NetAdapterCx 1.1, the **ContextTypeInfo** member from version 1.0 was replaced with the **RingBufferNumberOfElementsHint** member.
 
+In NetAdapterCx 1.2, the **AllocationSize**, **AlignmentRequirement**, and **RingBufferNumberOfElementsHint** members were removed. To specify these requirements for Rx queues, the client driver now sets them as part of the [NET_ADAPTER_RX_CAPABILITIES](../netadapter/ns-netadapter-_net_adapter_rx_capabilities.md) structure that is initialized as part of the *[EvtNetAdapterSetCapabilities](../netadapter/nc-netadapter-evt_net_adapter_set_capabilities.md) callback function.
+
 The minimum NetAdapterCx version for **NET_RXQUEUE_CONFIG** is 1.1.
 
 ## -see-also
-
-[NetRxQueueQueryAllocatorCacheEnabled](nf-netrxqueue-netrxqueuequeryallocatorcacheenabled.md)

@@ -105,6 +105,10 @@ To set an attribute that does not have equivalent NetAdapter functionality, for 
 
 The minimum NetAdapterCx version for *EVT_NET_ADAPTER_SET_CAPABILITIES* is 1.0.
 
+### Example
+
+
+
 ## -see-also
 
 [NetAdapterSetDataPathCapabilities](nf-netadapter-netadaptersetdatapathcapabilities.md)
